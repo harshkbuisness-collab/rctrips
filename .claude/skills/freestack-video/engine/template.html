@@ -116,7 +116,8 @@ const BUILD={
   const p={}, shot=sc.repo&&PLAN.shots[sc.repo];
   if(sc.mascot){
     p.m=el(`<img class="mascot" style="left:118px;top:600px;width:844px;${sc.flip?'transform:scaleX(-1)':''}">`);
-    p.mnum=el(`<div class="abs anton" style="left:0;right:0;top:250px;text-align:center;font-size:250px;color:#111"><span class="hl" style="padding:0 26px">#${sc.n}</span></div>`);
+    const numd=sc.n!=null, ntxt=numd?'#'+sc.n:(sc.free||''), nfs=numd?250:Math.min(170,Math.floor(1700/Math.max(4,ntxt.length)));
+    p.mnum=el(`<div class="abs anton" style="left:0;right:0;top:${numd?250:400-nfs}px;text-align:center;font-size:${nfs}px;color:#111;white-space:nowrap"><span class="hl" style="padding:0 26px">${ntxt}</span></div>`);
     p.mtag=el(`<div class="abs" style="left:0;right:0;top:530px;text-align:center"><span class="hand" style="font-size:90px;color:#111">${sc.tag||''}...</span></div>`);
   }
   if(sc.paid){
@@ -233,7 +234,7 @@ const RENDER={
  },
  tool(sc,p,t){
   const u=t-sc.start, d=sc.dur;
-  E.num.textContent='#'+sc.n;
+  E.num.textContent=sc.n!=null?'#'+sc.n:'';
   const TA=p.m?1.5:0, TB=TA+(p.top?1.5:0), hasCard=!!p.card;
   const TC=hasCard?TB+Math.max(1.9,(d-TB)*0.48):d+1;
   const inA=u<TA; [p.m,p.mnum,p.mtag].forEach(e=>show(e,inA));
@@ -282,7 +283,7 @@ window.render=function(t){
     Object.values(parts).forEach(v=>(Array.isArray(v)?v:[v]).forEach(e=>{if(e&&e.nodeType)show(e,on)}));
     if(on){active=sc; sc.capOff=false; RENDER[sc.type](sc,parts,t); if(sc.type==='tool')branded=true;}
   });
-  show(E.brand,branded); show(E.num,branded); if(E.day) show(E.day,branded);
+  show(E.brand,branded); show(E.num,branded&&!!E.num.textContent); if(E.day) show(E.day,branded);
   document.getElementById('flash').style.opacity=FLASH;
   const ch=chunks.find(c=>t>=c.t0&&t<c.t1);
   if(ch&&active&&!active.capOff&&!PLAN.no_captions){const act=ch.filter(w=>w.t0<=t).pop();
