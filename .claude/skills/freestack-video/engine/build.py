@@ -222,18 +222,35 @@ def sfx(plan, build):
                 place(ding(1760, 0.35) * 0.7 + ding(2637, 0.35) * 0.5, a + 0.15 + k * 0.45, 0.45)
             if sc.get("impact") and wt(i, sc["impact"]["at"]) is not None:
                 place(hit(), wt(i, sc["impact"]["at"]), 1.0)
+            ts = wt(i, "subscription band") if plan.get("series") else None
+            if ts is not None:                       # series ident: whoosh, stamp hit, day ding
+                tb_, td_ = wt(i, "band"), wt(i, "day")
+                place(whoosh(0.35), ts - 0.25, 0.6)
+                place(hit(), tb_ if tb_ is not None else ts + 0.45, 0.9)
+                td_ = td_ if td_ is not None else ts + 0.9
+                for k in range(4):
+                    place(pop(900 + k * 150, 0.05), td_ + k * 0.06, 0.25)
+                place(ding(1760, 0.5), td_ + 0.28, 0.45)
             if sc.get("reveal") and wt(i, sc["reveal"]["at"]) is not None:
                 place(pop(1000, 0.12), wt(i, sc["reveal"]["at"]) + 0.2, 0.5)
         elif sc["type"] == "tool":
-            ta_ = 1.5 if sc.get("mascot") else 0
-            tb = ta_ + (1.5 if sc.get("paid") else 0)
-            tc = tb + max(1.9, (d - tb) * 0.48)
+            have = {"intro": bool(sc.get("mascot")), "vs": bool(sc.get("paid")),
+                    "demo": bool(sc.get("demo")) and sc["demo"].get("kind") != "none", "card": sc.get("repo") in plan["shots"]}
+            flow = [k for k in sc.get("flow", ["intro", "vs", "demo", "card"]) if have[k]]
+            rest = max(0.5, d - 1.5 * sum(k in ("intro", "vs") for k in flow))
+            both = "demo" in flow and "card" in flow
+            ln = {"intro": 1.5, "vs": 1.5, "card": max(1.9, rest * 0.52) if both else rest}
+            ln["demo"] = rest - ln["card"] if both else rest
             place(pop(700, 0.12), a + 0.05, 0.35)
-            if sc.get("paid"):
-                place(whoosh(), a + ta_ - 0.2, 0.4); place(pop(520, 0.12), a + ta_ + 0.3, 0.25); place(whoosh(0.25) * 0.8, a + ta_ + 0.55, 0.45)
-            place(whoosh(), a + tb - 0.15, 0.35)
-            if sc.get("repo") in plan["shots"]:
-                place(whoosh(), a + tc - 0.15, 0.4); place(ding(), a + tc + 0.65, 0.35); place(pop(1100), a + tc + 0.82, 0.4)
+            x = 0
+            for j, k in enumerate(flow):
+                if j:
+                    place(whoosh(), a + x - 0.15, 0.4)
+                if k == "vs":
+                    place(pop(520, 0.12), a + x + 0.3, 0.25); place(whoosh(0.25) * 0.8, a + x + 0.55, 0.45)
+                if k == "card":
+                    place(ding(), a + x + 0.65, 0.35); place(pop(1100), a + x + 0.82, 0.4)
+                x += ln[k]
         elif sc["type"] == "talk":
             place(pop(800, 0.12), a + 0.05, 0.4)
         elif sc["type"] == "cta":

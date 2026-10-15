@@ -35,7 +35,7 @@ bash "$SKILL_DIR/engine/setup.sh"
 - Slug from the topic, e.g. `projects/free-ai-image-tools/` in the working directory.
 - Copy the user's audio in as `voiceover.wav` (or .mp3) (any format ffmpeg reads is fine; set `"audio"` to the file name).
 - If the user sent background music, copy it as `music.mp3`. Music files are git-ignored (copyright).
-  The user's default track is Eminem "Without Me", started at 3.5 s, 8 dB under the voice. If no music file is available, ask for it or leave `music` out.
+  The user's default track is Eminem "Without Me", started at 3.5 s, 16 dB under the voice (8 dB was too loud). If no music file is available, ask for it or leave `music` out.
 
 ### 2. Transcribe
 ```bash
@@ -57,7 +57,7 @@ Series (for "Day X/30" videos), at the top level of `scenes.json`:
 ```jsonc
 "series": {"name": "30 Din, 30 Free AI Tools", "day": 1, "total": 30, "next": "Kal"}
 ```
-This adds a "DAY 1/30 · <name>" stamp above the hook from the first frame, a "DAY 1/30" pill next to the logo during the video, and a "KAL: DAY 2 →" teaser on the outro. Title the Instagram post "Day (1/30) …" as well.
+This adds a "DAY 1/30 · <name>" stamp above the hook from the first frame, the fixed **series ident** (black screen: SUBSCRIPTION → struck out, BAND KARO stamp, DAY N/30 + 30-segment progress bar, with sound) when the voice says "Subscription Band Karo, Day N" (same in every video, only the number changes), a "DAY 1/30" pill next to the logo during the video, and a "KAL: DAY 2 →" teaser on the outro. Title the Instagram post "Day (1/30) …" as well.
 
 Scene types:
 
@@ -133,6 +133,8 @@ Send the MP4 with `SendUserFile`, then give:
 - a short scene summary,
 - a ready-to-paste Instagram caption (hook line, numbered tools, "Comment KEYWORD", follow line, 5–8 hashtags),
 - any accuracy notes (e.g. "needs a GPU", "illustrative demo").
+
+Keep the first 3 seconds fast: the opening widget finishes in about 1.5 s, the impact line lasts about 1 s, then the series ident.
 
 ## Brand rules (keep)
 - White warm wall background; black text; key words on yellow `#FFE500` blocks; pink `#FF3D7F` proof badges; red `#FF3B30` only for paid tools.

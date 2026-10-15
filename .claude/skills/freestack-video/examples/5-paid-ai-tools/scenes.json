@@ -11,7 +11,7 @@
   "music": {
     "file": "music.mp3",
     "start": 3.5,
-    "db_below_voice": 8
+    "db_below_voice": 16
   },
   "scenes": [
     {
