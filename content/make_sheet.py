@@ -10,9 +10,9 @@ DAYS = [
  (1, "5 paid AI tools ka free version", "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho?",
   "Buzz, LanguageTool, Upscayl, ComfyUI, VoiceStudio", "chidiwilliams/buzz · languagetool-org/languagetool · upscayl/upscayl · comfyanonymous/ComfyUI · debpalash/OmniVoice-Studio",
   "Otter.ai, Grammarly Premium, Topaz Gigapixel, Midjourney, ElevenLabs", "TOOLS",
-  "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number one dekh ke tum shock ho jaoge.\n\nNumber 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata.\n\nNumber 4. Grammarly Premium? Chhodo! LanguageTool pachchees se zyada languages mein tumhari grammar fix karta hai, aur ye open source hai.\n\nNumber 3. Photo blurry hai? Upscayl mein daalo, kuch seconds mein ekdum HD. GitHub pe pachaas hazaar se zyada logon ne isse star kiya hai.\n\nNumber 2. Midjourney har mahine paise kaat-ta hai. ComfyUI tumhare apne PC pe AI images banata hai. Na monthly bill, na koi tension.\n\nAur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe.\n\nSaare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga. Bye!",
+  "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number one dekh ke tum shock ho jaoge.\n\nSubscription Band Karo, Day 1.\n\nNumber 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata.\n\nNumber 4. Grammarly Premium? Chhodo! LanguageTool pachchees se zyada languages mein tumhari grammar fix karta hai, aur ye open source hai.\n\nNumber 3. Photo blurry hai? Upscayl mein daalo, kuch seconds mein ekdum HD. GitHub pe pachaas hazaar se zyada logon ne isse star kiya hai.\n\nNumber 2. Midjourney har mahine paise kaat-ta hai. ComfyUI tumhare apne PC pe AI images banata hai. Na monthly bill, na koi tension.\n\nAur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe.\n\nSaare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga. Kal Day 2 mein, ek free AI engineer jo tumhare liye poora app likhega. Bye!",
   "Upscayl and ComfyUI need a graphics card; clone only voices you have permission for.",
-  "Already built (5-paid-ai-tools example)."),
+  "Already built (5-paid-ai-tools example). Script now adds the series line and the Day 2 teaser: re-record the voiceover if you want them spoken."),
  (2, "Free AI software engineer", "Ek AI engineer jo tumhare liye poora app likh de, aur ek rupaya bhi na le?",
   "OpenHands", "OpenHands/OpenHands", "Devin", "ENGINEER",
   "Ek AI engineer jo tumhare liye poora app likh de, aur ek rupaya bhi na le? Haan, ye sach hai.\n\nSubscription Band Karo, Day 2.\n\nDevin jaise AI software engineers ke liye companies hazaaron rupaye har mahine deti hain. Lekin OpenHands bilkul free aur open source hai.\n\nTum bas likho ki kya banana hai. Ye khud code likhta hai, commands chalata hai, errors dhoondh ke fix karta hai, aur zarurat pade toh internet pe research bhi karta hai. Jaise ek junior developer tumhare saath baitha ho.\n\nBas ek baat, isko chalane ke liye ek AI model chahiye. Apni API key lagao, ya local model use karo.\n\nLink chahiye? Follow karo aur comment karo ENGINEER. Kal Day 3 mein, sirf bol ke poori website banao. Bye!",
@@ -184,7 +184,7 @@ for d in DAYS:
     day, topic, hook, tools, repo, repl, kw, script, catch, visual = d
     week = (day - 1) // 7 + 1 if day <= 28 else 4
     title = f"Day ({day}/30) Subscription Band Karo: {topic}"
-    status = "Recorded" if day == 1 else "To do"
+    status = "Script ready" if day == 1 else "To do"
     ws.append([day, f"Week {week}", title, hook, tools, repo, repl, kw, script, catch, visual, status])
     r = ws.max_row
     fill = PatternFill("solid", fgColor=week_fills[(week - 1) % 4])

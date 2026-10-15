@@ -12,6 +12,8 @@ Generated from `make_sheet.py` (same content as the .xlsx). Edit the script, not
 
 > Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number one dekh ke tum shock ho jaoge.
 >
+> Subscription Band Karo, Day 1.
+>
 > Number 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata.
 >
 > Number 4. Grammarly Premium? Chhodo! LanguageTool pachchees se zyada languages mein tumhari grammar fix karta hai, aur ye open source hai.
@@ -22,11 +24,11 @@ Generated from `make_sheet.py` (same content as the .xlsx). Edit the script, not
 >
 > Aur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe.
 >
-> Saare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga. Bye!
+> Saare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga. Kal Day 2 mein, ek free AI engineer jo tumhare liye poora app likhega. Bye!
 
 **Honest catch:** Upscayl and ComfyUI need a graphics card; clone only voices you have permission for.
 
-**Visual:** Already built (5-paid-ai-tools example).
+**Visual:** Already built (5-paid-ai-tools example). Script now adds the series line and the Day 2 teaser: re-record the voiceover if you want them spoken.
 
 ## Day 2/30: Free AI software engineer
 
