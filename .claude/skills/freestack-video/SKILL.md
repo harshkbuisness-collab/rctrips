@@ -49,7 +49,7 @@ For each tool: find its GitHub repo (or official site), confirm it is really fre
 Never invent star counts, prices or features. The build reads star counts live from GitHub.
 
 ### 4. Write `scenes.json`
-Scenes run in order. Each scene starts at its `start` phrase: the first words spoken in that scene, matched in order against the transcript (number words and digits both match).
+Scenes run in order. Each scene starts at its `start` phrase: the first words spoken in that scene, matched in order against the transcript **as Whisper wrote it** (e.g. "voice studio", not "VoiceStudio"; check the transcribe output) (number words and digits both match).
 `text` is the on-screen caption text for that scene. Write the voiceover's words with correct spellings (Upscayl, ComfyUI, 25+, 50,000+). Words are aligned to the audio automatically.
 Use `*word*` to highlight a word in yellow, and `<br>` for line breaks in big titles.
 
@@ -91,6 +91,11 @@ Scene types:
   - `editor`: dark code editor typing code. `"editor": {"file": "app.js", "lines": ["..."], "type_dur": 2.2}`
   - `terminal`: terminal typing commands. `"terminal": {"lines": [{"cmd": "..."}, {"out": "..."}, {"big": "TOOL NAME"}]}` (only real commands)
   - `polaroid`: a photo of the mascot that starts talking at a word. `"polaroid": {"pose": "01-wave", "at": "bolne", "say": "Hello!", "label": "sirf ek photo"}`
+  - `tiles`: grid of tool tiles + stamp (recaps). `"tiles": {"items": [["OpenHands", "AI ENGINEER"], ...], "stamp": "Sab *free*"}`
+  - `player`: music player with moving waveform. `"player": {"art": "AI<br>Song", "title": "...", "artist": "..."}`
+  - `mic`: recording mic with pulse rings and REC timer (voice topics).
+  - `dub`: video with a subtitle that flips EN → HI. `"dub": {"en": "...", "hi": "...", "switch": 1.2}`
+  - `render`: prompt types, a video frame renders 0–100%. `"render": {"prompt": "...", "label": "AI VIDEO CLIP"}` (placeholder, not a real output)
   - no style + `notifications`: the original PAID cards (use rarely).
 - Tool `"flow"`: order of the tool's parts, any of `intro` (mascot + #n), `vs` (Paid vs Free), `demo`, `card` (GitHub stars), e.g. `["card", "demo"]` or `["vs", "intro", "card", "demo"]`. Parts not listed are skipped. Omit `n` to show the tool name instead of "#n".
 

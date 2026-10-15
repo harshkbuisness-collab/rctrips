@@ -249,7 +249,66 @@ const HOOKB={
   w.bub=el(`<div class="bub anton" style="right:70px;top:470px;background:#111;color:var(--y);border-radius:40px 40px 10px 40px;font-size:70px;text-transform:uppercase">${c.say||'Hello!'}</div>`,w.root);
   return w; },
 };
+Object.assign(HOOKB,{
+ tiles(sc){ const c=sc.tiles||{}, w={}; w.root=el(`<div class="full"></div>`);
+  const items=(c.items||[]).slice(0,6);
+  w.tl=items.map((x,i)=>el(`<div class="abs" style="left:${i%2?560:90}px;top:${500+Math.floor(i/2)*250}px;width:430px;height:220px;border-radius:30px;background:#fff;border:6px solid #111;box-shadow:10px 10px 0 #111;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px">
+     <div class="anton" style="font-size:66px;color:#111">${x[0]}</div><div style="font:800 30px Inter;color:#888;letter-spacing:.05em">${x[1]||''}</div></div>`,w.root));
+  w.stamp=el(`<div class="abs anton" style="left:0;right:0;top:${500+Math.ceil(items.length/2)*250+10}px;text-align:center;font-size:110px"><span class="hl" style="padding:4px 30px">${hl(c.stamp||'Sab *free*')}</span></div>`,w.root);
+  return w; },
+ player(sc){ const c=sc.player||{}, w={}; w.root=el(`<div class="full"></div>`);
+  const card=el(`<div class="win" style="left:110px;top:480px;width:860px;height:900px;background:#111"></div>`,w.root);
+  w.art=el(`<div class="abs" style="left:60px;top:60px;width:740px;height:460px;border-radius:26px;background:linear-gradient(135deg,#FF3D7F,#7C5CFF 55%,#FFE500);display:flex;align-items:center;justify-content:center"><div class="anton" style="font-size:120px;color:#fff;text-align:center">${c.art||'AI<br>Song'}</div></div>`,card);
+  el(`<div class="abs" style="left:60px;top:550px;font:800 46px Inter;color:#fff">${c.title||'Mera Gaana'}</div><div class="abs" style="left:60px;top:612px;font:500 34px Inter;color:#999">${c.artist||'made with AI'}</div>`,card);
+  el(`<div class="abs" style="left:60px;right:60px;top:690px;height:12px;border-radius:6px;background:#333"></div>`,card);
+  w.pb=el(`<div class="abs" style="left:60px;top:690px;height:12px;border-radius:6px;background:var(--y);width:0"></div>`,card);
+  w.bars=[...Array(16)].map((_,i)=>el(`<div class="abs" style="left:${60+i*48}px;width:30px;border-radius:8px;background:var(--pink)"></div>`,card));
+  w.play=el(`<div class="abs" style="left:380px;top:735px;width:100px;height:100px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center"><div style="width:0;height:0;border-left:36px solid #111;border-top:24px solid transparent;border-bottom:24px solid transparent;margin-left:8px"></div></div>`,card);
+  return w; },
+ mic(sc){ const c=sc.mic||{}, w={}; w.root=el(`<div class="full"></div>`);
+  w.rings=[0,1,2].map(()=>el(`<div class="abs" style="left:540px;top:830px;border-radius:50%;border:12px solid var(--pink);transform:translate(-50%,-50%)"></div>`,w.root));
+  w.mic=el(`<div class="abs" style="left:390px;top:680px;width:300px;height:300px;border-radius:50%;background:#111;display:flex;align-items:center;justify-content:center;box-shadow:0 30px 60px rgba(0,0,0,.25)">
+     <svg width="150" height="190" viewBox="0 0 24 30"><rect x="7" y="1" width="10" height="17" rx="5" fill="#FFE500"/><path d="M3 13a9 9 0 0 0 18 0" fill="none" stroke="#fff" stroke-width="2.2"/><path d="M12 22v6M7 28h10" stroke="#fff" stroke-width="2.2"/></svg></div>`,w.root);
+  w.rec=el(`<div class="abs" style="left:0;right:0;top:1060px;text-align:center"><span class="pill" style="background:#fff;color:#111;font-size:44px;border:5px solid #111"><span style="display:inline-block;width:30px;height:30px;border-radius:50%;background:var(--red);margin-right:16px;vertical-align:-2px"></span><span class="rt">REC 00:00</span></span></div>`,w.root);
+  w.rt=w.rec.querySelector('.rt'); w.dot=w.rec.querySelector('span span');
+  w.bars=[...Array(19)].map((_,i)=>el(`<div class="abs" style="left:${108+i*46}px;width:28px;border-radius:8px;background:#111"></div>`,w.root));
+  return w; },
+ dub(sc){ const c=sc.dub||{}, w={}; w.root=el(`<div class="full"></div>`);
+  const v=el(`<div class="win" style="left:70px;top:520px;width:940px;height:600px;background:linear-gradient(160deg,#2b2f3a,#111)"></div>`,w.root);
+  el(`<div class="abs" style="left:410px;top:200px;width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center"><div style="width:0;height:0;border-left:44px solid #fff;border-top:28px solid transparent;border-bottom:28px solid transparent;margin-left:10px"></div></div>`,v);
+  w.lang=el(`<div class="abs" style="right:30px;top:30px"><span class="pill" style="background:var(--y);color:#111;font-size:40px">EN</span></div>`,v);
+  w.sub=el(`<div class="abs" style="left:40px;right:40px;bottom:50px;text-align:center"><span style="display:inline-block;background:rgba(0,0,0,.75);color:#fff;font:800 50px Inter;padding:12px 26px;border-radius:12px"></span></div>`,v);
+  w.subt=w.sub.querySelector('span');
+  w.arrow=el(`<div class="abs anton" style="left:0;right:0;top:1150px;text-align:center;font-size:96px;color:#111">EN &#8594; <span class="hl">HINDI</span></div>`,w.root);
+  return w; },
+ render(sc){ const c=sc.render||{}, w={}; w.root=el(`<div class="full"></div>`);
+  w.prompt=el(`<div class="abs" style="left:90px;top:480px;width:900px;min-height:130px;background:#fff;border:6px solid #111;border-radius:30px;padding:28px 30px;font:700 44px/1.3 Inter;color:#111;box-shadow:10px 10px 0 #111"><span style="color:#999">Prompt: </span><span class="tx"></span></div>`,w.root);
+  w.tx=w.prompt.querySelector('.tx');
+  w.frame=el(`<div class="win" style="left:90px;top:700px;width:900px;height:506px;background:linear-gradient(120deg,#FF9A3D,#FF3D7F 45%,#7C5CFF)"></div>`,w.root);
+  w.fill=el(`<div class="abs" style="left:0;top:0;bottom:0;background:rgba(17,17,17,.82)"></div>`,w.frame);
+  w.pct=el(`<div class="abs anton" style="left:0;right:0;top:170px;text-align:center;font-size:140px;color:#fff"></div>`,w.frame);
+  w.done=el(`<div class="abs" style="left:0;right:0;top:1240px;text-align:center"><span class="pill" style="background:#111;color:var(--y);font-size:46px">&#9654; ${c.label||'AI VIDEO CLIP READY'}</span></div>`,w.root);
+  return w; },
+});
 const HOOKR={
+ tiles(sc,w,u){ w.tl.forEach((e,i)=>{const q=outBack(prog(u,0.05+i*0.12,0.25+i*0.12));e.style.transform=`scale(${q}) rotate(${(i%2?2:-2)*q}deg)`;op(e,q>0?1:0)});
+  const q=outBack(prog(u,0.15+w.tl.length*0.12,0.4+w.tl.length*0.12)); w.stamp.style.transform=`scale(${q}) rotate(-4deg)`; op(w.stamp,q>0?1:0); },
+ player(sc,w,u){ w.pb.style.width=(740*prog(u,0,8))+'px'; const pl=outBack(prog(u,0,0.2)); w.play.style.transform=`scale(${pl})`;
+  w.bars.forEach((e,i)=>{const h=30+120*Math.abs(Math.sin(u*8+i*0.9))*Math.abs(Math.sin(u*2.7+i*0.4));e.style.height=h+'px';e.style.top=(800-h/2+60)+'px'});
+  w.art.style.transform=`scale(${1+0.03*Math.sin(u*9)})`; },
+ mic(sc,w,u){ const m=outBack(prog(u,0,0.2)); w.mic.style.transform=`scale(${m*(1+0.04*Math.sin(u*12))})`;
+  w.rings.forEach((r,i)=>{const ph=(u*1.2+i/3)%1, s=320+ph*700; r.style.width=s+'px';r.style.height=s+'px';op(r,0.5*(1-ph))});
+  w.rt.textContent='REC 00:0'+Math.floor(u%10); op(w.dot,Math.floor(u*3)%2?0.2:1);
+  w.bars.forEach((e,i)=>{const h=20+110*Math.abs(Math.sin(u*10+i*0.8))*Math.abs(Math.sin(u*3.3+i*0.5));e.style.height=h+'px';e.style.top=(1230-h/2)+'px'}); },
+ dub(sc,w,u){ const c=sc.dub||{}, sw=c.switch||1.3, hi=u>=sw;
+  w.subt.textContent=hi?(c.hi||'Namaste doston!'):(c.en||'Hello friends!');
+  const f=prog(u,sw-0.08,sw+0.08); w.sub.style.transform=`scaleY(${Math.abs(1-2*f)||1})`;
+  w.lang.firstChild.textContent=hi?'HI':'EN'; w.lang.firstChild.style.background=hi?'var(--pink)':'var(--y)'; w.lang.firstChild.style.color=hi?'#fff':'#111';
+  const a=outBack(prog(u,sw,sw+0.25)); w.arrow.style.transform=`scale(${a})`; op(w.arrow,a>0?1:0); },
+ render(sc,w,u){ const c=sc.render||{}, pr=c.prompt||''; w.tx.textContent=pr.slice(0,Math.round(pr.length*prog(u,0.05,0.6)));
+  const g=prog(u,0.7,1.7); w.fill.style.left=(900*g)+'px'; w.pct.textContent=g<1?Math.round(g*100)+'%':''; 
+  const d=outBack(prog(u,1.75,1.95)); w.done.style.transform=`scale(${d})`; op(w.done,d>0?1:0); },
+
  chat(sc,w,u){ const ask=(sc.chat||{}).ask||''; const n=Math.round(ask.length*prog(u,0.05,0.6));
   w.ask.textContent=ask.slice(0,n); op(w.ask,n?1:0);
   show(w.dots,u>=0.65&&u<1.0); if(u>=0.65&&u<1.0) w.dots.style.transform=`translateY(${Math.sin(u*18)*6}px)`;
