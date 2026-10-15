@@ -5,34 +5,41 @@ description: Turn a voiceover audio file into a finished FreeStack AI vertical R
 
 # FreeStack AI: voiceover → Reel
 
-Everything lives in `freestack/` at the repo root:
+Everything this skill needs is inside this skill's folder. Below, `$SKILL_DIR` means that folder (the one containing this SKILL.md). Set it first, for example:
+```bash
+SKILL_DIR="$(dirname "$(find / -path '*freestack-video/SKILL.md' 2>/dev/null | head -1)")"
+```
 
 | Path | What it is |
 |---|---|
-| `freestack/engine/build.py` | The pipeline (transcribe, plan, capture GitHub, sound, render, QA) |
-| `freestack/engine/template.html` | The animated scene template (white wall theme, Bold Pop brand) |
-| `freestack/mascot/clips/` | Animated mascot clips with transparency (`c1-talk` … `c10-bye`, `c9-cta-room.mp4`) |
-| `freestack/mascot/poses/` | Still mascot cutouts as WebP (for thumbnails / extra uses) |
-| `freestack/brand/` | Logo, icon, `BRAND-KIT.md` |
-| `freestack/projects/<slug>/` | One folder per video: `scenes.json`, the voiceover, optional `music.mp3` |
-| `freestack/projects/5-paid-ai-tools/` | **Worked example.** Copy its `scenes.json` as the starting point |
+| `$SKILL_DIR/engine/build.py` | The pipeline (transcribe, plan, capture GitHub, sound, render, QA) |
+| `$SKILL_DIR/engine/template.html` | The animated scene template (white wall theme, Bold Pop brand) |
+| `$SKILL_DIR/mascot/clips/` | Animated mascot clips with transparency (`c1-talk` … `c10-bye`, `c9-cta-room.mp4`) |
+| `$SKILL_DIR/mascot/poses/` | Still mascot cutouts as WebP (thumbnails / extra uses) |
+| `$SKILL_DIR/brand/` | Logo, icon, `BRAND-KIT.md` |
+| `$SKILL_DIR/examples/5-paid-ai-tools/` | **Worked example** (`scenes.json` + voiceover). Copy its `scenes.json` as the starting point |
+
+Each video gets its own project folder in the **working directory** (not inside the skill folder): `projects/<slug>/` holding `scenes.json`, the voiceover and an optional `music.mp3`.
+
+## Requirements
+Python 3 with pip, ffmpeg, Node.js with Playwright + Chromium, and internet access (GitHub pages, Google Fonts, and a one-time Whisper model download). `setup.sh` installs the Python packages and checks the rest. If something is missing and can't be installed, tell the user exactly what is missing instead of producing a lower-quality video.
 
 ## Workflow
 
 ### 0. Setup (once per session)
 ```bash
-bash freestack/engine/setup.sh
+bash "$SKILL_DIR/engine/setup.sh"
 ```
 
 ### 1. Create the project
-- Slug from the topic, e.g. `freestack/projects/free-ai-image-tools/`.
+- Slug from the topic, e.g. `projects/free-ai-image-tools/` in the working directory.
 - Copy the user's audio in as `voiceover.wav` (or .mp3) (any format ffmpeg reads is fine; set `"audio"` to the file name).
 - If the user sent background music, copy it as `music.mp3`. Music files are git-ignored (copyright).
   The user's default track is Eminem "Without Me", started at 3.5 s, 8 dB under the voice. If no music file is available, ask for it or leave `music` out.
 
 ### 2. Transcribe
 ```bash
-python3 -I freestack/engine/build.py transcribe freestack/projects/<slug>
+python3 -I "$SKILL_DIR/engine/build.py" transcribe projects/<slug>
 ```
 Prints the transcript with a timestamp per word. Read it to understand the video: hook, list items, CTA keyword, sign-off.
 Hinglish speech comes out in Roman script with `"language": "en"`. Add a `whisper_hint` with tool names to improve spelling.
@@ -86,15 +93,15 @@ Use a different clip for each list item where possible.
 
 ### 5. Preview before the full render
 ```bash
-python3 -I freestack/engine/build.py stills freestack/projects/<slug> 0.3,3.5,8,12,20,30
+python3 -I "$SKILL_DIR/engine/build.py" stills projects/<slug> 0.3,3.5,8,12,20,30
 ```
 Look at the `build/still-*.png` files. Check the first frame shows the hook text, and scene starts are right.
 
 ### 6. Build
 ```bash
-python3 -I freestack/engine/build.py build freestack/projects/<slug>
+python3 -I "$SKILL_DIR/engine/build.py" build projects/<slug>
 ```
-About 3–4 minutes for a 50 s video. Output: `freestack/projects/<slug>/output/<slug>.mp4`, plus QA sheets in `build/qa/`.
+About 3–4 minutes for a 50 s video. Output: `projects/<slug>/output/<slug>.mp4`, plus QA sheets in `build/qa/`.
 
 ### 7. QA (mandatory, before sending)
 Read every `build/qa/sheet*.png` (one frame per second) and check:

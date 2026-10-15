@@ -1,5 +1,3 @@
-# FreeStack build outputs and copyrighted music stay out of git
-freestack/projects/*/build/
-freestack/projects/*/output/
-freestack/projects/*/music.*
+# Per-video working folders (renders, frames, copyrighted music) stay out of git
+projects/
 __pycache__/

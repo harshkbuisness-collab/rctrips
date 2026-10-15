@@ -1,10 +1,10 @@
 """FreeStack AI video builder: voiceover + scenes.json -> finished vertical video.
 
 Usage (from the repo root):
-  python3 -I freestack/engine/build.py transcribe freestack/projects/<slug>
-  python3 -I freestack/engine/build.py build      freestack/projects/<slug>
-  python3 -I freestack/engine/build.py stills     freestack/projects/<slug> 1.5,9,20
-  python3 -I freestack/engine/build.py qa         freestack/projects/<slug>
+  python3 -I $SKILL_DIR/engine/build.py transcribe projects/<slug>
+  python3 -I $SKILL_DIR/engine/build.py build projects/<slug>
+  python3 -I $SKILL_DIR/engine/build.py stills projects/<slug> 1.5,9,20
+  python3 -I $SKILL_DIR/engine/build.py qa projects/<slug>
 
 A project folder holds the voiceover audio and scenes.json (see SKILL.md for the format).
 Everything generated goes to <project>/build/ and the final video to <project>/output/.
@@ -21,7 +21,7 @@ import numpy as np
 import soundfile as sf
 
 ENGINE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(ENGINE)                      # freestack/
+ROOT = os.path.dirname(ENGINE)                      # the skill folder
 MASCOT = os.path.join(ROOT, "mascot")
 BRAND = os.path.join(ROOT, "brand")
 SR = 44100
