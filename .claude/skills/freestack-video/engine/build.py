@@ -123,7 +123,7 @@ def make_plan(cfg, build, shots, frames):
         for w, (t0, t1) in zip(disp, times):
             words.append({"w": w, "t0": round(t0, 3), "t1": round(t1, 3), "line": s})
     plan = {"total": round(end, 3), "scenes": scenes, "words": words, "shots": shots, "frames": frames,
-            "no_captions": cfg.get("no_captions", False)}
+            "no_captions": cfg.get("no_captions", False), "series": cfg.get("series")}
     json.dump(plan, open(os.path.join(build, "plan.json"), "w"), indent=1)
     for sc in scenes:
         print(f"  {sc['type']:6s} {sc['start']:6.2f}s  +{sc['dur']:.2f}s  {sc.get('free') or sc.get('title') or sc.get('keyword') or ''}")

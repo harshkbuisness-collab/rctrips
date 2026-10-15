@@ -1,37 +1,138 @@
 {
+  "series": {
+    "name": "30 Din, 30 Free AI Tools",
+    "day": 1,
+    "total": 30,
+    "next": "Kal"
+  },
   "audio": "voiceover.mp3",
   "language": "en",
   "whisper_hint": "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Buzz, LanguageTool, Upscayl, ComfyUI, VoiceStudio, Midjourney, ElevenLabs, Grammarly Premium, GitHub.",
-  "music": {"file": "music.mp3", "start": 3.5, "db_below_voice": 8},
+  "music": {
+    "file": "music.mp3",
+    "start": 3.5,
+    "db_below_voice": 8
+  },
   "scenes": [
-    {"type": "hook", "start": "bhai tum",
-     "headline": "Abhi bhi *pay* kar rahe ho?",
-     "notifications": ["Midjourney", "ElevenLabs", "Grammarly Premium", "Otter.ai"],
-     "impact": {"at": "inke", "text": "Free<br>*versions*<br>hain!"},
-     "reveal": {"at": "aur number", "text": "#1 dekh ke<br>*shock* ho jaoge", "mascot": "c3-shocked"},
-     "text": "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number 1 dekh ke tum shock ho jaoge."},
-    {"type": "tool", "start": "number 5", "n": 5, "paid": "Otter.ai", "free": "Buzz", "repo": "chidiwilliams/buzz",
-     "mascot": "c4-point-left", "tag": "offline subtitles",
-     "demo": {"kind": "wave", "text": "Data laptop se bahar nahi jaata.", "pill": "OFFLINE · NO INTERNET"},
-     "text": "Number 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata."},
-    {"type": "tool", "start": "number 4", "n": 4, "paid": "Grammarly", "free": "LanguageTool", "repo": "languagetool-org/languagetool",
-     "mascot": "c6-thinking", "tag": "grammar fix, free",
-     "demo": {"kind": "grammar", "bad": "*Their* going *too* the meeting *tomorow*.", "good": "*They're* going *to* the meeting *tomorrow*.", "pill": "25+ LANGUAGES"},
-     "text": "Number 4. Grammarly Premium? Chhodo! LanguageTool 25+ languages mein tumhari grammar fix karta hai, aur ye open source hai."},
-    {"type": "tool", "start": "number 3", "n": 3, "paid": "Topaz Gigapixel", "free": "Upscayl", "repo": "upscayl/upscayl",
-     "mascot": "c5-point-right", "tag": "blurry to HD",
-     "demo": {"kind": "upscale"},
-     "text": "Number 3. Photo blurry hai? Upscayl mein daalo, kuch seconds mein ekdum HD. GitHub pe 50,000+ logon ne isse star kiya hai."},
-    {"type": "tool", "start": "number 2", "n": 2, "paid": "Midjourney", "free": "ComfyUI", "repo": "comfyanonymous/ComfyUI",
-     "mascot": "c7-phone", "tag": "AI images on your PC",
-     "demo": {"kind": "nodes", "labels": ["PROMPT", "MODEL", "IMAGE"], "label": "MONTHLY BILL", "big": "&#8377;0"},
-     "text": "Number 2. Midjourney har mahine paise kaat-ta hai. ComfyUI tumhare apne PC pe AI images banata hai. Na monthly bill, na koi tension."},
-    {"type": "tool", "start": "aur number 1", "n": 1, "paid": "ElevenLabs", "free": "VoiceStudio", "repo": "debpalash/OmniVoice-Studio",
-     "mascot": "c8-celebrate", "tag": "voice cloning, free",
-     "demo": {"kind": "voice", "items": ["Voice cloning", "Video dubbing", "Audiobooks"]},
-     "text": "Aur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe."},
-    {"type": "cta", "start": "sare links", "keyword": "TOOLS",
-     "text": "Saare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga."},
-    {"type": "outro", "start": "bhai", "handle": "@freestack.ai", "text": "Bye!"}
+    {
+      "type": "hook",
+      "start": "bhai tum",
+      "headline": "Abhi bhi *pay* kar rahe ho?",
+      "notifications": [
+        "Midjourney",
+        "ElevenLabs",
+        "Grammarly Premium",
+        "Otter.ai"
+      ],
+      "impact": {
+        "at": "inke",
+        "text": "Free<br>*versions*<br>hain!"
+      },
+      "reveal": {
+        "at": "aur number",
+        "text": "#1 dekh ke<br>*shock* ho jaoge",
+        "mascot": "c3-shocked"
+      },
+      "text": "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number 1 dekh ke tum shock ho jaoge."
+    },
+    {
+      "type": "tool",
+      "start": "number 5",
+      "n": 5,
+      "paid": "Otter.ai",
+      "free": "Buzz",
+      "repo": "chidiwilliams/buzz",
+      "mascot": "c4-point-left",
+      "tag": "offline subtitles",
+      "demo": {
+        "kind": "wave",
+        "text": "Data laptop se bahar nahi jaata.",
+        "pill": "OFFLINE · NO INTERNET"
+      },
+      "text": "Number 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata."
+    },
+    {
+      "type": "tool",
+      "start": "number 4",
+      "n": 4,
+      "paid": "Grammarly",
+      "free": "LanguageTool",
+      "repo": "languagetool-org/languagetool",
+      "mascot": "c6-thinking",
+      "tag": "grammar fix, free",
+      "demo": {
+        "kind": "grammar",
+        "bad": "*Their* going *too* the meeting *tomorow*.",
+        "good": "*They're* going *to* the meeting *tomorrow*.",
+        "pill": "25+ LANGUAGES"
+      },
+      "text": "Number 4. Grammarly Premium? Chhodo! LanguageTool 25+ languages mein tumhari grammar fix karta hai, aur ye open source hai."
+    },
+    {
+      "type": "tool",
+      "start": "number 3",
+      "n": 3,
+      "paid": "Topaz Gigapixel",
+      "free": "Upscayl",
+      "repo": "upscayl/upscayl",
+      "mascot": "c5-point-right",
+      "tag": "blurry to HD",
+      "demo": {
+        "kind": "upscale"
+      },
+      "text": "Number 3. Photo blurry hai? Upscayl mein daalo, kuch seconds mein ekdum HD. GitHub pe 50,000+ logon ne isse star kiya hai."
+    },
+    {
+      "type": "tool",
+      "start": "number 2",
+      "n": 2,
+      "paid": "Midjourney",
+      "free": "ComfyUI",
+      "repo": "comfyanonymous/ComfyUI",
+      "mascot": "c7-phone",
+      "tag": "AI images on your PC",
+      "demo": {
+        "kind": "nodes",
+        "labels": [
+          "PROMPT",
+          "MODEL",
+          "IMAGE"
+        ],
+        "label": "MONTHLY BILL",
+        "big": "&#8377;0"
+      },
+      "text": "Number 2. Midjourney har mahine paise kaat-ta hai. ComfyUI tumhare apne PC pe AI images banata hai. Na monthly bill, na koi tension."
+    },
+    {
+      "type": "tool",
+      "start": "aur number 1",
+      "n": 1,
+      "paid": "ElevenLabs",
+      "free": "VoiceStudio",
+      "repo": "debpalash/OmniVoice-Studio",
+      "mascot": "c8-celebrate",
+      "tag": "voice cloning, free",
+      "demo": {
+        "kind": "voice",
+        "items": [
+          "Voice cloning",
+          "Video dubbing",
+          "Audiobooks"
+        ]
+      },
+      "text": "Aur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe."
+    },
+    {
+      "type": "cta",
+      "start": "sare links",
+      "keyword": "TOOLS",
+      "text": "Saare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga."
+    },
+    {
+      "type": "outro",
+      "start": "bhai",
+      "handle": "@freestack.ai",
+      "text": "Bye!"
+    }
   ]
 }

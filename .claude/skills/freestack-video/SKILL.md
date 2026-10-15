@@ -53,6 +53,12 @@ Scenes run in order. Each scene starts at its `start` phrase: the first words sp
 `text` is the on-screen caption text for that scene. Write the voiceover's words with correct spellings (Upscayl, ComfyUI, 25+, 50,000+). Words are aligned to the audio automatically.
 Use `*word*` to highlight a word in yellow, and `<br>` for line breaks in big titles.
 
+Series (for "Day X/30" videos), at the top level of `scenes.json`:
+```jsonc
+"series": {"name": "30 Din, 30 Free AI Tools", "day": 1, "total": 30, "next": "Kal"}
+```
+This adds a "DAY 1/30 · <name>" stamp above the hook from the first frame, a "DAY 1/30" pill next to the logo during the video, and a "KAL: DAY 2 →" teaser on the outro. Title the Instagram post "Day (1/30) …" as well.
+
 Scene types:
 
 ```jsonc

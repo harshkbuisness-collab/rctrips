@@ -19,6 +19,9 @@
   #brand{left:60px;top:150px;display:flex;align-items:center;gap:16px;font:400 40px Anton;color:var(--ink)}
   #brand img{width:64px;height:64px;border-radius:14px}
   #brand em{font-style:normal;background:var(--y);padding:0 6px}
+  #day{left:50%;top:146px;transform:translateX(-50%);font:400 40px Anton;background:var(--y);color:var(--ink);padding:4px 20px;border-radius:12px;white-space:nowrap;border:4px solid var(--ink)}
+  .stamp{left:0;right:0;top:112px;text-align:center}
+  .stamp span{display:inline-block;font:400 44px Anton;letter-spacing:.02em;background:var(--ink);color:var(--y);padding:6px 22px;border-radius:12px;text-transform:uppercase}
   #num{right:60px;top:138px;font:400 64px Anton;background:var(--ink);color:var(--y);padding:6px 28px;border-radius:40px}
   .mascot{position:absolute;filter:drop-shadow(0 30px 30px rgba(0,0,0,.22))}
   .notif{left:60px;width:960px;height:150px;border-radius:34px;background:#fff;display:flex;align-items:center;gap:28px;padding:0 34px;box-shadow:0 18px 40px rgba(0,0,0,.14)}
@@ -86,6 +89,8 @@ window.init=function(plan){
   plan.scenes.forEach((sc,i)=>{sc.i=i; const b=BUILD[sc.type]; if(!b) throw new Error('unknown scene type '+sc.type); S.push({sc,parts:b(sc)});});
   E.brand=el(`<div id="brand" class="abs"><img src="icon.png"><span><em>FREE</em>STACK AI</span></div>`);
   E.num=el(`<div id="num" class="abs"></div>`);
+  const se=plan.series;
+  E.day=se?el(`<div id="day" class="abs">DAY ${se.day}/${se.total}</div>`):null;
   chunks=[];let cur=[];
   plan.words.forEach((w,i)=>{cur.push(w);const nx=plan.words[i+1];
     if(cur.length>=3||/[.,?!:]$/.test(w.w)||!nx||nx.line!==w.line){chunks.push(cur);cur=[]}});
@@ -97,7 +102,9 @@ window.init=function(plan){
 const BUILD={
  hook(sc){
   const p={};
-  p.q=el(`<div class="abs anton big" style="top:190px;font-size:118px">${hl(sc.headline)}</div>`);
+  const se=PLAN.series;
+  if(se) p.stamp=el(`<div class="abs stamp"><span>Day ${se.day}/${se.total} &#183; ${se.name}</span></div>`);
+  p.q=el(`<div class="abs anton big" style="top:${se?215:190}px;font-size:118px">${hl(sc.headline)}</div>`);
   p.cards=(sc.notifications||[]).slice(0,4).map((n,i)=>el(`<div class="abs notif" style="top:${560+i*175}px"><div class="ic" style="background:${ICON_COLORS[i%6]}">${n[0]}</div>
      <div class="tx"><div class="t1">Subscription renewed</div><div class="t2">${n} · payment successful</div></div><div class="amt">PAID</div></div>`));
   if(sc.impact) p.impact=el(`<div class="abs anton big" style="top:560px;font-size:200px">${hl(sc.impact.text)}</div>`);
@@ -146,6 +153,8 @@ const BUILD={
   p.pat=el(`<div class="full" style="overflow:hidden;background:#FFE500"><div class="pattern">${Array(16).fill(`<div>BYE BYE BYE BYE BYE BYE BYE</div>`).join('')}</div></div>`);
   p.m=el(`<img class="mascot" style="left:0;top:380px;width:1080px">`);
   p.handle=el(`<div class="abs" style="left:0;right:0;top:250px;text-align:center"><span class="pill" style="background:#111;color:var(--y);font-size:54px">${sc.handle||'@freestack.ai'}</span></div>`);
+  const se=PLAN.series;
+  if(se&&se.day<se.total) p.next=el(`<div class="abs" style="left:0;right:0;top:345px;text-align:center"><span class="pill" style="background:#fff;color:#111;font:400 50px Anton;border:4px solid #111">${(se.next||'Kal').toUpperCase()}: DAY ${se.day+1} &#8594;</span></div>`);
   return p;
  },
 };
@@ -213,6 +222,7 @@ const RENDER={
   const tR=sc.reveal?(wordT(sc.i,sc.reveal.at)??sc.start+sc.dur*0.7):Infinity;
   const ph1=t<tI&&t<tR, ph2=t>=tI&&t<tR, ph3=t>=tR;
   show(p.q,ph1); p.q.style.transform=`scale(${outBack(prog(u,-0.1,0.12))})`;
+  if(p.stamp) show(p.stamp,!ph3);
   p.cards.forEach((c,i)=>{show(c,ph1);const d=0.15+i*0.45;const q=outBack(prog(u,d,d+0.22));c.style.transform=`translateY(${(1-q)*-500}px)`;op(c,q>0?1:0)});
   if(p.impact){show(p.impact,ph2);p.impact.style.transform=`scale(${2.0-1.0*outCubic(prog(t,tI,tI+0.18))})`;
     if(ph2&&t<tI+0.3)SHAKE=Math.sin(t*140)*14*(1-prog(t,tI,tI+0.3)); if(ph2)FLASH=0.5*(1-prog(t,tI,tI+0.22));}
@@ -259,6 +269,7 @@ const RENDER={
   const u=t-sc.start; seq(p.m,'c10-bye',u+0.3);
   p.pat.firstChild.style.transform=`rotate(-12deg) translateX(${-u*120}px)`;
   p.handle.style.transform=`scale(${outBack(prog(u,0.1,0.35))})`;
+  if(p.next){const q=outBack(prog(u,0.3,0.55));p.next.style.transform=`scale(${q})`;op(p.next,q>0?1:0)}
   sc.capOff=true;
  },
 };
@@ -271,7 +282,7 @@ window.render=function(t){
     Object.values(parts).forEach(v=>(Array.isArray(v)?v:[v]).forEach(e=>{if(e&&e.nodeType)show(e,on)}));
     if(on){active=sc; sc.capOff=false; RENDER[sc.type](sc,parts,t); if(sc.type==='tool')branded=true;}
   });
-  show(E.brand,branded); show(E.num,branded);
+  show(E.brand,branded); show(E.num,branded); if(E.day) show(E.day,branded);
   document.getElementById('flash').style.opacity=FLASH;
   const ch=chunks.find(c=>t>=c.t0&&t<c.t1);
   if(ch&&active&&!active.capOff&&!PLAN.no_captions){const act=ch.filter(w=>w.t0<=t).pop();
