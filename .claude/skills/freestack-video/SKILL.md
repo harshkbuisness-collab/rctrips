@@ -12,7 +12,7 @@ Everything lives in `freestack/` at the repo root:
 | `freestack/engine/build.py` | The pipeline (transcribe, plan, capture GitHub, sound, render, QA) |
 | `freestack/engine/template.html` | The animated scene template (white wall theme, Bold Pop brand) |
 | `freestack/mascot/clips/` | Animated mascot clips with transparency (`c1-talk` … `c10-bye`, `c9-cta-room.mp4`) |
-| `freestack/mascot/poses/` | Still mascot cutouts (for thumbnails / extra uses) |
+| `freestack/mascot/poses/` | Still mascot cutouts as WebP (for thumbnails / extra uses) |
 | `freestack/brand/` | Logo, icon, `BRAND-KIT.md` |
 | `freestack/projects/<slug>/` | One folder per video: `scenes.json`, the voiceover, optional `music.mp3` |
 | `freestack/projects/5-paid-ai-tools/` | **Worked example.** Copy its `scenes.json` as the starting point |
@@ -26,7 +26,7 @@ bash freestack/engine/setup.sh
 
 ### 1. Create the project
 - Slug from the topic, e.g. `freestack/projects/free-ai-image-tools/`.
-- Copy the user's audio in as `voiceover.wav` (any format ffmpeg reads is fine; set `"audio"` to the file name).
+- Copy the user's audio in as `voiceover.wav` (or .mp3) (any format ffmpeg reads is fine; set `"audio"` to the file name).
 - If the user sent background music, copy it as `music.mp3`. Music files are git-ignored (copyright).
   The user's default track is Eminem "Without Me", started at 3.5 s, 8 dB under the voice. If no music file is available, ask for it or leave `music` out.
 

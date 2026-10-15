@@ -1,5 +1,5 @@
 {
-  "audio": "voiceover.wav",
+  "audio": "voiceover.mp3",
   "language": "en",
   "whisper_hint": "Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Buzz, LanguageTool, Upscayl, ComfyUI, VoiceStudio, Midjourney, ElevenLabs, Grammarly Premium, GitHub.",
   "music": {"file": "music.mp3", "start": 3.5, "db_below_voice": 8},
