@@ -1,325 +1,744 @@
-# Subscription Band Karo: 30-Day Series
+# Subscription Band Karo: 30-day plan
 
-**Format of every video:** Hook → "Subscription Band Karo, Day X" → the paid tool → the free tool and what it does → the honest catch → CTA (comment keyword) → "Bye!"
-**Voice scripts:** Roman Hinglish, ready to paste into the voice tool. Numbers are written as words so the voice reads them naturally.
-**Post title:** `Day (X/30) Subscription Band Karo: <topic>`
-**Rule:** only real, free / open-source tools. Star counts are not spoken (they change); the video shows the live GitHub count.
+Generated from `make_sheet.py` (same content as the .xlsx). Edit the script, not this file.
 
----
+## Day 1/30: 5 paid AI tools ka free version
 
-## WEEK 1: Big hooks
+**Tools:** Buzz, LanguageTool, Upscayl, ComfyUI, VoiceStudio · **Repo:** `chidiwilliams/buzz · languagetool-org/languagetool · upscayl/upscayl · comfyanonymous/ComfyUI · debpalash/OmniVoice-Studio` · **Replaces:** Otter.ai, Grammarly Premium, Topaz Gigapixel, Midjourney, ElevenLabs · **Keyword:** TOOLS
 
-### Day 1: 5 paid AI tools ka free version ✅ (already recorded)
-**Keyword:** TOOLS · **Tools:** Buzz, LanguageTool, Upscayl, ComfyUI, VoiceStudio
+**Hook:** Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho?
 
-### Day 2: Blurry photo → HD, free
-**Keyword:** HD · **Tool:** Upscayl (`upscayl/upscayl`) · **Replaces:** Topaz Gigapixel
-**Visual:** before/after slider, mascot pointing, GitHub star zoom
-> Purani blurry photo ko das second mein HD banana hai? Wo bhi free mein?
+**Script:**
+
+> Bhai, tum abhi bhi in AI tools ke liye paise de rahe ho? Inke FREE versions exist karte hain! Aur number one dekh ke tum shock ho jaoge.
+>
+> Number 5. Transcription ke paise? Buzz kisi bhi video ke subtitles bana deta hai, wo bhi bina internet ke. Tumhara data laptop se bahar hi nahi jaata.
+>
+> Number 4. Grammarly Premium? Chhodo! LanguageTool pachchees se zyada languages mein tumhari grammar fix karta hai, aur ye open source hai.
+>
+> Number 3. Photo blurry hai? Upscayl mein daalo, kuch seconds mein ekdum HD. GitHub pe pachaas hazaar se zyada logon ne isse star kiya hai.
+>
+> Number 2. Midjourney har mahine paise kaat-ta hai. ComfyUI tumhare apne PC pe AI images banata hai. Na monthly bill, na koi tension.
+>
+> Aur number 1. ElevenLabs ka bilkul free, open-source alternative! VoiceStudio voice clone karta hai, videos dub karta hai, audiobooks banata hai, sab tumhare computer pe.
+>
+> Saare links chahiye? Follow karo aur comment karo TOOLS. Main seedha DM kar dunga. Bye!
+
+**Honest catch:** Upscayl and ComfyUI need a graphics card; clone only voices you have permission for.
+
+**Visual:** Already built (5-paid-ai-tools example).
+
+## Day 2/30: Free AI software engineer
+
+**Tools:** OpenHands · **Repo:** `OpenHands/OpenHands` · **Replaces:** Devin · **Keyword:** ENGINEER
+
+**Hook:** Ek AI engineer jo tumhare liye poora app likh de, aur ek rupaya bhi na le?
+
+**Script:**
+
+> Ek AI engineer jo tumhare liye poora app likh de, aur ek rupaya bhi na le? Haan, ye sach hai.
+>
 > Subscription Band Karo, Day 2.
-> Topaz Gigapixel jaise tools photo upscale karne ke hazaaron rupaye lete hain. Lekin Upscayl bilkul free aur open source hai.
-> Photo daalo, model choose karo, aur kuch hi seconds mein blurry photo ekdum sharp ho jaati hai. Windows, Mac aur Linux, teeno pe chalta hai.
-> Bas ek baat yaad rakho, iske liye achha graphics card chahiye.
-> Link chahiye? Follow karo aur comment karo HD. Kal Day 3 mein, apna khud ka ChatGPT, bina internet ke. Bye!
+>
+> Devin jaise AI software engineers ke liye companies hazaaron rupaye har mahine deti hain. Lekin OpenHands bilkul free aur open source hai.
+>
+> Tum bas likho ki kya banana hai. Ye khud code likhta hai, commands chalata hai, errors dhoondh ke fix karta hai, aur zarurat pade toh internet pe research bhi karta hai. Jaise ek junior developer tumhare saath baitha ho.
+>
+> Bas ek baat, isko chalane ke liye ek AI model chahiye. Apni API key lagao, ya local model use karo.
+>
+> Link chahiye? Follow karo aur comment karo ENGINEER. Kal Day 3 mein, sirf bol ke poori website banao. Bye!
 
-### Day 3: Apna ChatGPT, bina internet
-**Keyword:** OFFLINE · **Tools:** Ollama (`ollama/ollama`) + Open WebUI (`open-webui/open-webui`) · **Replaces:** ChatGPT Plus
-**Visual:** chat bubble demo (text kind), Wi-Fi off pill, two GitHub cards
-> ChatGPT bina internet ke chalega, wo bhi bilkul free?
+**Honest catch:** Needs an LLM: API key (paid usage) or a local model on a strong PC.
+
+**Visual:** Mascot c3-shocked hook · tool scene: Paid Devin vs Free OpenHands · demo: nodes PROMPT → CODE → APP · GitHub zoom
+
+## Day 3/30: Bol ke website/app banao
+
+**Tools:** bolt.diy, Dyad · **Repo:** `stackblitz-labs/bolt.diy · dyad-sh/dyad` · **Replaces:** Lovable, Bolt.new, v0 · **Keyword:** APP
+
+**Hook:** Sirf ek line likho, aur poori website ready. Bina coding.
+
+**Script:**
+
+> Sirf ek line likho, aur poori website ready. Bina coding.
+>
 > Subscription Band Karo, Day 3.
-> ChatGPT Plus har mahine paise leta hai. Lekin Ollama se tum Llama, Qwen aur Gemma jaise AI models apne laptop pe chala sakte ho.
-> Aur Open WebUI lagao, toh bilkul ChatGPT jaisa chat screen mil jaata hai. Model ek baar download karo, phir internet ki zarurat nahi. Tumhara data tumhare paas.
-> Bas laptop mein thodi achhi RAM honi chahiye.
-> Setup ke links chahiye? Follow karo aur comment karo OFFLINE. Kal Day 4 mein, free AI voiceover. Bye!
+>
+> Lovable aur Bolt jaise app builders credits khatam hote hi paise maangte hain. Inke do free, open-source versions hain.
+>
+> Pehla, bolt dot diy. Prompt likho, aur ye full-stack app banata hai, chalata hai, aur tum usse edit aur deploy bhi kar sakte ho. Aur kisi bhi AI model ke saath chalta hai.
+>
+> Dusra, Dyad. Ye tumhare computer pe chalne waala app builder hai, toh tumhara code tumhare paas rehta hai.
+>
+> AI model ki API key lagti hai, par kuch models ka free limit bhi hota hai.
+>
+> Dono ke links chahiye? Comment karo APP. Kal Day 4 mein, Cursor ke paise bachao. Bye!
 
-### Day 4: Free ElevenLabs alternative
-**Keyword:** VOICE · **Tools:** VoiceStudio (`debpalash/OmniVoice-Studio`), Kokoro (`hexgrad/kokoro`) · **Replaces:** ElevenLabs
-**Visual:** pink waveform + checklist, Paid vs Free, GitHub zoom
-> AI voiceover ke liye har mahine paise de rahe ho?
+**Honest catch:** Needs an AI model API key; some providers have free limits.
+
+**Visual:** Hook text + mascot c2-hello · Paid Lovable vs Free bolt.diy · demo: text "1 LINE = 1 APP" · two GitHub cards (bolt.diy, Dyad)
+
+## Day 4/30: Cursor ke free alternatives
+
+**Tools:** Void Editor, OpenCode · **Repo:** `voideditor/void · anomalyco/opencode` · **Replaces:** Cursor Pro · **Keyword:** CODE
+
+**Hook:** Coding ke liye Cursor ka subscription? Ruk jao.
+
+**Script:**
+
+> Coding ke liye Cursor ka subscription? Ruk jao.
+>
 > Subscription Band Karo, Day 4.
-> ElevenLabs bahut achha hai, par mehenga hai. VoiceStudio uska free, open-source alternative hai.
-> Voice clone karo, videos dub karo, audiobooks banao, sab apne computer pe. Aur agar sirf simple narration chahiye, toh Kokoro ek chhota sa free model hai jo bahut natural bolta hai.
-> Ek zaroori baat, sirf apni awaaz ya permission waali awaaz hi clone karna.
-> Links chahiye? Follow karo aur comment karo VOICE. Kal Day 5 mein, Reels ke liye free subtitles. Bye!
+>
+> Cursor bahut popular hai, par har mahine paise leta hai. Do free, open-source options dekho.
+>
+> Pehla, Void. Ye bilkul Cursor jaisa AI code editor hai, aur tum apna pasandida AI model, ya local model, isme laga sakte ho.
+>
+> Dusra, OpenCode. Ye terminal mein chalne waala AI coding agent hai. Code likhta hai, files edit karta hai, aur poore project ko samajhta hai. GitHub pe do lakh se zyada developers isse star kar chuke hain.
+>
+> AI model ka kharcha tumhare choice pe depend karta hai. Local model ho toh bilkul free.
+>
+> Links chahiye? Comment karo CODE. Kal Day 5 mein, Google ka free AI agent. Bye!
 
-### Day 5: Offline subtitles for Reels
-**Keyword:** SUBS · **Tool:** Buzz (`chidiwilliams/buzz`) · **Replaces:** Otter.ai, paid caption apps
-**Visual:** waveform → typing subtitles, OFFLINE pill
-> Reels ke subtitles ke liye app ka subscription? Bilkul nahi.
+**Honest catch:** Free tools; cost depends on the AI model you plug in.
+
+**Visual:** Mascot c6-thinking · Paid Cursor vs Free Void · demo: checklist (Edit code · Fix bugs · Explain project) · two GitHub cards
+
+## Day 5/30: Google ka free AI agent (Gemini CLI)
+
+**Tools:** Gemini CLI · **Repo:** `google-gemini/gemini-cli` · **Replaces:** Paid AI coding agents · **Keyword:** GEMINI
+
+**Hook:** Google ne apna AI agent free mein de diya, aur bahut kam log jaante hain.
+
+**Script:**
+
+> Google ne apna AI agent free mein de diya, aur bahut kam log jaante hain.
+>
 > Subscription Band Karo, Day 5.
-> Buzz OpenAI ke Whisper model pe chalta hai, aur bilkul free hai. Kisi bhi audio ya video ko text mein badal deta hai, wo bhi bina internet ke.
-> Seedha SRT file export karo aur apne video editor mein daal do. Hindi, English, aur bahut saari languages support karta hai.
-> Tumhari video kabhi kisi server pe upload hi nahi hoti.
-> Link chahiye? Follow karo aur comment karo SUBS. Kal Day 6 mein, Google se smart search, free. Bye!
+>
+> Iska naam hai Gemini CLI. Ye open source hai, aur tumhare computer ke terminal mein chalta hai.
+>
+> Isse bolo, aur ye files padhta hai, code likhta hai, bugs fix karta hai, web search karta hai, aur tumhare kaam automate karta hai. Sirf coding nahi, notes aur research ke liye bhi kaam aata hai.
+>
+> Aur sabse achhi baat, Google account se login karo aur free limit ke saath shuru ho jao.
+>
+> Free limit ki ek daily seema hoti hai, uske baad paise lag sakte hain.
+>
+> Setup steps chahiye? Comment karo GEMINI. Kal Day 6 mein, ek photo se talking video. Bye!
 
-### Day 6: Free Perplexity alternative
-**Keyword:** SEARCH · **Tool:** Perplexica (`ItzCrazyKns/Perplexica`) · **Replaces:** Perplexity Pro
-**Visual:** text demo "Answers + sources", GitHub zoom
-> Google se smart search, jo seedha jawab de, sources ke saath. Aur free.
+**Honest catch:** Free tier has daily limits; check Google's current limits before posting.
+
+**Visual:** Hook text + mascot c3-shocked · tool scene (no Paid card) · demo: checklist (Code · Research · Automate) · GitHub zoom
+
+## Day 6/30: Ek photo se talking video
+
+**Tools:** SadTalker, LatentSync · **Repo:** `OpenTalker/SadTalker · bytedance/LatentSync` · **Replaces:** HeyGen, D-ID · **Keyword:** AVATAR
+
+**Hook:** Ek photo do, aur wo bolne lagegi.
+
+**Script:**
+
+> Ek photo do, aur wo bolne lagegi.
+>
 > Subscription Band Karo, Day 6.
-> Perplexity Pro ke paise kyun dene? Perplexica ek open-source AI search engine hai.
-> Sawaal pucho, ye internet search karta hai aur sources ke saath seedha jawab deta hai. Aur isse tum apne local AI model ke saath bhi chala sakte ho.
-> Haan, isse setup karne mein thoda time lagta hai, par ek baar ho gaya toh bas.
-> Link chahiye? Follow karo aur comment karo SEARCH. Kal Day 7 mein, is hafte ka poora recap. Bye!
+>
+> HeyGen aur D-ID jaise talking avatar tools har minute ke paise lete hain. Inke free, open-source versions hain.
+>
+> SadTalker mein ek photo aur ek audio do, aur ye photo ko bolta hua video bana deta hai, head movement ke saath.
+>
+> Aur LatentSync, jo ByteDance ka hai, kisi bhi video ke honth audio ke saath perfectly sync karta hai.
+>
+> Faceless creators ke liye ye game changer hai.
+>
+> Bas yaad rakho, sirf apni ya permission waali photo use karna, aur inke liye achha graphics card chahiye.
+>
+> Links chahiye? Comment karo AVATAR. Kal Day 7 mein, is hafte ka recap. Bye!
 
-### Day 7: Week 1 recap
-**Keyword:** RECAP · **Tools:** Days 1–6
-**Visual:** countdown list of 5 tool cards (no GitHub cards, fast)
-> Ek hafte mein maine tumhe chhe paid tools ka free version dikhaya. Kitne yaad hain?
+**Honest catch:** Strong GPU needed; only use faces with consent; never impersonate anyone.
+
+**Visual:** Hook: mascot c1-talk · Paid HeyGen vs Free SadTalker · demo: voice/checklist (Photo + Audio = Video) · two GitHub cards
+
+## Day 7/30: Week 1 recap
+
+**Tools:** OpenHands, bolt.diy, OpenCode, Gemini CLI, SadTalker · **Repo:** `(recap, no new repo)` · **Replaces:** Devin, Lovable, Cursor, HeyGen · **Keyword:** RECAP
+
+**Hook:** Ek hafte mein maine tumhe paanch mehenge AI tools ka free version dikhaya.
+
+**Script:**
+
+> Ek hafte mein maine tumhe paanch mehenge AI tools ka free version dikhaya. Kitne yaad hain?
+>
 > Subscription Band Karo, Day 7. Fatafat recap.
-> Blurry photo HD karne ke liye Upscayl. Offline ChatGPT ke liye Ollama. Voiceover ke liye VoiceStudio. Subtitles ke liye Buzz. Aur smart search ke liye Perplexica.
+>
+> AI engineer ke liye OpenHands. Bol ke app banane ke liye bolt dot diy. Cursor ki jagah OpenCode. Google ka free agent, Gemini CLI. Aur photo se talking video ke liye SadTalker.
+>
 > Sab free, sab open source.
-> Saare links ek saath chahiye? Follow karo aur comment karo RECAP. Agle hafte creators ke liye aur bhi kamaal ke tools. Bye!
+>
+> Agle hafte? AI gaane, Hindi dubbing, aur photo se 3D model.
+>
+> Saare links ek saath chahiye? Follow karo aur comment karo RECAP. Bye!
 
----
+**Honest catch:** 
 
-## WEEK 2: Creator tools
+**Visual:** Fast countdown of 5 tool scenes (no GitHub cards) · mascot c8-celebrate on the end
 
-### Day 8: Background remove, one click
-**Keyword:** BG · **Tool:** rembg (`danielgatis/rembg`) · **Replaces:** remove.bg
-**Visual:** text demo "BG GAYAB", mascot pointing, GitHub zoom
-> Photo ka background ek second mein gayab. Bina kisi paid app ke.
+## Day 8/30: Free AI gaane, lyrics ke saath
+
+**Tools:** YuE, ACE-Step · **Repo:** `multimodal-art-projection/YuE · ace-step/ACE-Step` · **Replaces:** Suno, Udio · **Keyword:** MUSIC
+
+**Hook:** Suno ke paise mat do. Free mein poora gaana banao, vocals ke saath.
+
+**Script:**
+
+> Suno ke paise mat do. Free mein poora gaana banao, vocals ke saath.
+>
 > Subscription Band Karo, Day 8.
-> remove dot bg har HD photo ke paise leta hai. rembg ek free, open-source tool hai jo AI se background hata deta hai.
-> Product photos, thumbnails, profile pictures, sab ke liye perfect. Aur ek saath sau photos bhi process kar sakta hai.
-> Thodi technical setup lagti hai, par main steps DM kar dunga.
-> Comment karo BG aur follow karo. Kal Day 9 mein, photo se kuch bhi gayab karo. Bye!
+>
+> Suno aur Udio AI music ke liye subscription lete hain. Lekin YuE aur ACE-Step open-source music models hain.
+>
+> Apne lyrics likho, genre batao, jaise pop ya rock, aur ye gaane jaisa track banate hain, music aur vocals dono ke saath.
+>
+> Reels ke liye background music, ya apne gaane ka demo, sab ban sakta hai.
+>
+> Inke liye powerful graphics card chahiye, aur commercial use se pehle license zaroor padhna.
+>
+> Links chahiye? Comment karo MUSIC. Kal Day 9 mein, ElevenLabs ka free version. Bye!
 
-### Day 9: Photo se kuch bhi remove karo
-**Keyword:** ERASE · **Tool:** IOPaint (`Sanster/IOPaint`) · **Replaces:** Photoshop Generative Fill
-**Visual:** before/after slider, GitHub zoom
-> Photo mein koi extra insaan aa gaya? Ya watermark jaisa text? Ek brush, aur gayab.
+**Honest catch:** Powerful GPU needed; check each model's license before commercial use.
+
+**Visual:** Mascot c8-celebrate · Paid Suno vs Free YuE · demo: wave (pill "LYRICS → SONG") · two GitHub cards
+
+## Day 9/30: Free ElevenLabs alternative
+
+**Tools:** VoiceStudio · **Repo:** `debpalash/OmniVoice-Studio` · **Replaces:** ElevenLabs · **Keyword:** VOICE
+
+**Hook:** AI voiceover ke liye har mahine paise de rahe ho?
+
+**Script:**
+
+> AI voiceover ke liye har mahine paise de rahe ho?
+>
 > Subscription Band Karo, Day 9.
-> Photoshop ke Generative Fill ke liye subscription chahiye. IOPaint free hai aur tumhare computer pe chalta hai.
-> Jo hatana hai uspe brush chalao, aur AI wahan ka background khud bhar deta hai. Insaan, objects, text, sab.
-> Bas dusron ki photos ka galat use mat karna.
-> Link ke liye follow karo aur comment karo ERASE. Kal Day 10 mein, kisi bhi gaane se vocals alag. Bye!
+>
+> ElevenLabs bahut achha hai, par mehenga hai. VoiceStudio uska free, open-source alternative hai, jo pura tumhare computer pe chalta hai.
+>
+> Voice clone karo, kisi bhi video ko dub karo, audiobooks banao, aur ye sau se bhi zyada languages support karta hai. Aur tumhari awaaz kisi server pe nahi jaati.
+>
+> Ek zaroori baat, sirf apni awaaz ya permission waali awaaz hi clone karna. Aur fast results ke liye achha graphics card madad karta hai.
+>
+> Link chahiye? Comment karo VOICE. Kal Day 10 mein, English video ko Hindi mein dub karo. Bye!
 
-### Day 10: Gaane se vocals alag karo
-**Keyword:** VOCAL · **Tool:** Demucs (by Meta AI researchers) · **Replaces:** Lalal.ai
-**Visual:** waveform split into two (wave kind), checklist "Vocals · Drums · Bass"
-> Kisi bhi gaane ka karaoke version chahiye? Free mein?
+**Honest catch:** Clone only voices you have permission to use; slower without a GPU.
+
+**Visual:** Mascot c1-talk · Paid ElevenLabs vs Free VoiceStudio · demo: voice checklist (Clone · Dub · Audiobooks) · GitHub zoom
+
+## Day 10/30: English video → Hindi dubbing
+
+**Tools:** VideoLingo · **Repo:** `Huanshere/VideoLingo` · **Replaces:** HeyGen Translate, Rask AI · **Keyword:** DUB
+
+**Hook:** Koi bhi English video, Hindi mein dub. Automatic.
+
+**Script:**
+
+> Koi bhi English video, Hindi mein dub. Automatic.
+>
 > Subscription Band Karo, Day 10.
-> Lalal dot ai jaise tools har minute ke paise lete hain. Demucs ek free AI model hai, jo Meta ke researchers ne banaya.
-> Ye gaane ko alag alag parts mein tod deta hai. Vocals, drums, bass, aur baaki music. Covers, remixes aur practice ke liye perfect.
-> Copyright waale gaane apni video mein daalne se pehle rules zaroor check karna.
-> Link chahiye? Follow karo aur comment karo VOCAL. Kal Day 11 mein, PDF ka har kaam free. Bye!
+>
+> Video translate aur dub karne waale tools har minute ke paise lete hain. VideoLingo open source hai.
+>
+> Video daalo, aur ye subtitles nikalta hai, unhe translate karta hai, timing perfect align karta hai, aur chaaho toh poori video ko nayi language mein dub bhi kar deta hai. Netflix jaise subtitles, ek click mein.
+>
+> Apni videos ko doosri languages mein le jaane ke liye, ye bahut kaam ka hai.
+>
+> Translation aur awaaz ke liye AI model ya API key lagti hai.
+>
+> Link chahiye? Comment karo DUB. Kal Day 11 mein, sirf likh ke video banao. Bye!
 
-### Day 11: PDF ka sab kaam, free
-**Keyword:** PDF · **Tool:** Stirling-PDF (`Stirling-Tools/Stirling-PDF`) · **Replaces:** Adobe Acrobat Pro
-**Visual:** checklist "Merge · Split · Compress · OCR · Sign", GitHub zoom
-> PDF merge karni ho, compress karni ho ya sign karni ho, Adobe ke paise mat do.
+**Honest catch:** Needs LLM / TTS API keys or local models; only dub content you have rights to.
+
+**Visual:** Mascot c7-phone · Paid Rask vs Free VideoLingo · demo: nodes (ENGLISH → AI → HINDI) · GitHub zoom
+
+## Day 11/30: Text se video, free
+
+**Tools:** Wan, LTX-Video · **Repo:** `Wan-Video/Wan2.1 · Lightricks/LTX-Video` · **Replaces:** Runway, Pika, Kling · **Keyword:** VIDEO
+
+**Hook:** Sirf likho, aur AI video bana dega.
+
+**Script:**
+
+> Sirf likho, aur AI video bana dega.
+>
 > Subscription Band Karo, Day 11.
-> Stirling PDF ek free, open-source tool hai jismein PDF ke pachaas se zyada kaam hain.
-> Merge, split, compress, convert, sign, aur OCR bhi, matlab scanned page ka text bhi copy ho jaata hai. Sab tumhare apne computer pe, toh documents private rehte hain.
-> Ek baar setup karna padta hai, phir hamesha free.
-> Comment karo PDF aur follow karo. Kal Day 12 mein, apni PDF se baat karo. Bye!
-
-### Day 12: Apni PDF se baat karo
-**Keyword:** CHAT · **Tool:** AnythingLLM (`Mintplex-Labs/anything-llm`) · **Replaces:** ChatPDF Pro
-**Visual:** chat bubble text demo, GitHub zoom
-> Imagine karo, tum apni notes se sawaal pucho aur wo jawab de.
-> Subscription Band Karo, Day 12.
-> ChatPDF jaise tools limit ke baad paise maangte hain. AnythingLLM ek free desktop app hai.
-> Apni PDFs, notes, documents daalo, aur unse chat karo. Exam ki taiyari, research, office ke documents, sab mein kaam aata hai. Aur local AI model ke saath ye bilkul private hai.
-> Achhe results ke liye achha model chahiye, jo setup mein milta hai.
-> Link chahiye? Comment karo CHAT. Kal Day 13 mein, NotebookLM ka open-source version. Bye!
-
-### Day 13: NotebookLM ka open-source version
-**Keyword:** NOTES · **Tool:** Open Notebook (`lfnovo/open-notebook`) · **Replaces:** NotebookLM Plus
-**Visual:** checklist "PDF · Video · Notes · Podcast", GitHub zoom
-> Google NotebookLM pasand hai? Ab uska private, open-source version bhi hai.
-> Subscription Band Karo, Day 13.
-> Open Notebook mein tum PDFs, videos aur web pages daal sakte ho, unse chat kar sakte ho, notes bana sakte ho, aur unka podcast bhi.
-> Sab kuch tumhare control mein, aur tum apna pasandida AI model chun sakte ho.
-> Isko Docker se setup karna padta hai, steps main bhej dunga.
-> Comment karo NOTES aur follow karo. Kal Day 14 mein, faceless video automatic. Bye!
-
-### Day 14: Faceless video automatic
-**Keyword:** FACELESS · **Tool:** MoneyPrinterTurbo (`harry0703/MoneyPrinterTurbo`) · **Replaces:** InVideo AI, Pictory
-**Visual:** nodes demo "TOPIC → SCRIPT → VIDEO", GitHub zoom
-> Sirf ek topic do, aur AI poori faceless video bana deta hai.
-> Subscription Band Karo, Day 14.
-> InVideo aur Pictory jaise tools har mahine paise lete hain. MoneyPrinterTurbo free aur open source hai.
-> Ye topic se script likhta hai, stock videos dhoondhta hai, subtitles aur music lagata hai, aur short video ready kar deta hai.
-> Script ke liye ek AI API key chahiye, jismein thode paise lag sakte hain, ya free model bhi use kar sakte ho.
-> Link chahiye? Follow karo aur comment karo FACELESS. Kal Day 15 mein, ek video se das Reels. Bye!
-
----
-
-## WEEK 3: Side income + automation
-
-### Day 15: Long video → viral clips
-**Keyword:** CLIPS · **Tool:** SupoClip (`FujiwaraChoki/supoclip`) · **Replaces:** OpusClip
-**Visual:** text demo "1 VIDEO → 10 REELS", GitHub zoom
-> Ek podcast se das Reels, automatic.
-> Subscription Band Karo, Day 15.
-> OpusClip limit ke baad paise maangta hai aur watermark lagata hai. SupoClip uska open-source alternative hai.
-> Lambi video daalo, ye best moments dhoondhta hai, vertical clips banata hai, aur word by word subtitles bhi lagata hai.
-> Apne computer pe chalane ke liye thoda setup lagta hai.
-> Comment karo CLIPS aur follow karo. Kal Day 16 mein, apna boring kaam automate karo. Bye!
-
-### Day 16: Kaam automate karo
-**Keyword:** AUTO · **Tool:** n8n (`n8n-io/n8n`) · **Replaces:** Zapier, Make
-**Visual:** nodes demo "EMAIL → AI → SHEET", GitHub zoom
-> Ye tool tumhara boring kaam khud karta hai, roz, bina ruke.
-> Subscription Band Karo, Day 16.
-> Zapier har task ke paise leta hai. n8n self-host karo, toh free hai.
-> Email aaya, AI ne summary banayi, aur sheet mein save ho gaya. Sainkdo apps ke saath connect hota hai, drag and drop se.
-> Free waala version apne server ya computer pe chalana padta hai.
-> Link chahiye? Comment karo AUTO. Kal Day 17 mein, Midjourney jaisi images, free. Bye!
-
-### Day 17: Midjourney jaisi images, free
-**Keyword:** IMAGE · **Tool:** Fooocus (`lllyasviel/Fooocus`) · **Replaces:** Midjourney
-**Visual:** nodes demo "PROMPT → MODEL → IMAGE", ₹0, GitHub zoom
-> Midjourney jaisi AI images, zero rupaye mein.
-> Subscription Band Karo, Day 17.
-> Midjourney har mahine paise kaat-ta hai. Fooocus ek free image generator hai jo bahut simple hai.
-> Bas prompt likho aur generate dabao. Koi complicated settings nahi. Aur jitni chaaho utni images.
-> Iske liye achha graphics card chahiye.
-> Comment karo IMAGE aur follow karo. Kal Day 18 mein, sirf likh ke video banao. Bye!
-
-### Day 18: Text se video, free
-**Keyword:** VIDEO · **Tools:** LTX-Video (`Lightricks/LTX-Video`), Wan · **Replaces:** Runway, Pika
-**Visual:** text demo "TEXT → VIDEO", GitHub zoom
-> Sirf likho, aur AI video bana dega. Free mein.
-> Subscription Band Karo, Day 18.
-> Runway aur Pika credits ke paise lete hain. LTX Video aur Wan jaise open-source models text se short videos bana dete hain.
-> Prompt likho, ya ek image do, aur kuch seconds ka clip ready.
+>
+> Runway, Pika aur Kling har video ke credits lete hain. Lekin Wan aur LTX Video open-source video models hain.
+>
+> Prompt likho, ya ek image do, aur ye kuch seconds ka realistic AI video clip bana dete hain. Shots, b-roll, aur creative ideas ke liye kamaal.
+>
 > Sach bataun toh, inke liye powerful graphics card chahiye. Isliye ye advanced users ke liye hai.
-> Links chahiye? Comment karo VIDEO. Kal Day 19 mein, Google Photos ka free alternative. Bye!
+>
+> Links chahiye? Comment karo VIDEO. Kal Day 12 mein, ek photo se 3D model. Bye!
 
-### Day 19: Google Photos ka free alternative
-**Keyword:** PHOTOS · **Tool:** Immich (`immich-app/immich`) · **Replaces:** Google One storage
-**Visual:** checklist "Backup · Face search · AI search", GitHub zoom
-> Google storage full ho gaya? Har saal paise dene ki zarurat nahi.
+**Honest catch:** Needs a powerful GPU.
+
+**Visual:** Mascot c6-thinking · Paid Runway vs Free Wan · demo: text "TEXT → VIDEO" · two GitHub cards
+
+## Day 12/30: Photo se 3D model
+
+**Tools:** TRELLIS (Microsoft), Hunyuan3D (Tencent) · **Repo:** `microsoft/TRELLIS · Tencent-Hunyuan/Hunyuan3D-2` · **Replaces:** Meshy, Tripo · **Keyword:** 3D
+
+**Hook:** Ek photo do, aur uska 3D model ready.
+
+**Script:**
+
+> Ek photo do, aur uska 3D model ready.
+>
+> Subscription Band Karo, Day 12.
+>
+> Meshy jaise 3D AI tools credits ke paise lete hain. Lekin Microsoft ka TRELLIS aur Tencent ka Hunyuan3D, dono open source hain.
+>
+> Kisi bhi cheez ki photo daalo, aur ye uska 3D model bana dete hain, jise tum games, animation ya 3D printing mein use kar sakte ho.
+>
+> Itni badi companies ke models, bilkul free.
+>
+> Inke liye bhi powerful graphics card chahiye.
+>
+> Links chahiye? Comment karo 3D. Kal Day 13 mein, Midjourney level images, free. Bye!
+
+**Honest catch:** Powerful GPU needed.
+
+**Visual:** Hook + mascot c3-shocked · Paid Meshy vs Free TRELLIS · demo: nodes (PHOTO → AI → 3D) · two GitHub cards
+
+## Day 13/30: Midjourney level images, free
+
+**Tools:** FLUX (via ComfyUI) · **Repo:** `black-forest-labs/flux · comfyanonymous/ComfyUI` · **Replaces:** Midjourney · **Keyword:** IMAGE
+
+**Hook:** Midjourney level AI images, zero rupaye mein.
+
+**Script:**
+
+> Midjourney level AI images, zero rupaye mein.
+>
+> Subscription Band Karo, Day 13.
+>
+> Midjourney har mahine paise kaat-ta hai. Lekin FLUX ek open AI image model hai, jiski quality kamaal ki hai.
+>
+> Ise ComfyUI mein chalao, prompt likho, aur realistic photos, posters aur thumbnails banao. Jitni chaaho utni.
+>
+> FLUX ka Schnell version commercial use ke liye bhi open hai, baaki versions ka license check karna.
+>
+> Aur haan, iske liye achha graphics card chahiye.
+>
+> Links chahiye? Comment karo IMAGE. Kal Day 14 mein, ek topic se poori faceless video. Bye!
+
+**Honest catch:** GPU needed; FLUX.1 schnell is Apache-2.0, other FLUX versions have other licenses.
+
+**Visual:** Mascot c5-point-right · Paid Midjourney vs Free FLUX · demo: nodes (PROMPT → FLUX → IMAGE, big ₹0) · GitHub zoom
+
+## Day 14/30: Ek topic se faceless video
+
+**Tools:** MoneyPrinterTurbo · **Repo:** `harry0703/MoneyPrinterTurbo` · **Replaces:** InVideo AI, Pictory · **Keyword:** FACELESS
+
+**Hook:** Sirf ek topic do, aur AI poori faceless video bana deta hai.
+
+**Script:**
+
+> Sirf ek topic do, aur AI poori faceless video bana deta hai.
+>
+> Subscription Band Karo, Day 14.
+>
+> InVideo aur Pictory jaise tools har mahine paise lete hain. MoneyPrinterTurbo free aur open source hai, aur GitHub pe ek lakh se zyada logon ne isse star kiya hai.
+>
+> Topic do, aur ye script likhta hai, stock videos dhoondhta hai, voiceover, subtitles aur music lagata hai, aur short video ready.
+>
+> Script ke liye AI model ki API key chahiye, aur kuch free options bhi hain.
+>
+> Link chahiye? Comment karo FACELESS. Kal Day 15 mein, ChatGPT ka Deep Research, free. Bye!
+
+**Honest catch:** Needs an LLM API key (some free tiers exist); stock footage via free Pexels key.
+
+**Visual:** Mascot c8-celebrate · Paid InVideo vs Free MoneyPrinterTurbo · demo: nodes (TOPIC → SCRIPT → VIDEO) · GitHub zoom
+
+## Day 15/30: Free Deep Research agent
+
+**Tools:** GPT Researcher · **Repo:** `assafelovic/gpt-researcher` · **Replaces:** ChatGPT Pro Deep Research · **Keyword:** RESEARCH
+
+**Hook:** ChatGPT ka Deep Research mehenga hai. Ye free version dekho.
+
+**Script:**
+
+> ChatGPT ka Deep Research mehenga hai. Ye free version dekho.
+>
+> Subscription Band Karo, Day 15.
+>
+> GPT Researcher ek open-source AI research agent hai.
+>
+> Tum ek sawaal do, aur ye khud internet pe dozens of sources padhta hai, notes banata hai, aur sources ke saath poori detailed report likh deta hai. Assignments, business research, ya kisi bhi topic ki gehri jaankari ke liye.
+>
+> Isme AI model aur search ki API key lagti hai, aur dono ke free plans bhi milte hain.
+>
+> Link chahiye? Comment karo RESEARCH. Kal Day 16 mein, kisi bhi article se podcast. Bye!
+
+**Honest catch:** Needs LLM + search API keys (free tiers available).
+
+**Visual:** Mascot c6-thinking · Paid ChatGPT Pro vs Free GPT Researcher · demo: checklist (Search · Read · Report) · GitHub zoom
+
+## Day 16/30: Kisi bhi article se podcast
+
+**Tools:** Podcastfy · **Repo:** `souzatharsis/podcastfy` · **Replaces:** NotebookLM Audio Overviews · **Keyword:** PODCAST
+
+**Hook:** Koi bhi article, notes ya YouTube video, aur do AI hosts uspe podcast karenge.
+
+**Script:**
+
+> Koi bhi article, notes ya YouTube video, aur do AI hosts uspe podcast karenge.
+>
+> Subscription Band Karo, Day 16.
+>
+> NotebookLM ka podcast feature sabko pasand aaya. Podcastfy uska open-source version hai.
+>
+> Article, notes, ya YouTube video do, aur ye do logon ki natural baatcheet waala podcast bana deta hai. Padhai karte hue suno, ya apne content ko audio mein badlo.
+>
+> Aur kyunki ye open source hai, tum awaaz, style aur language khud choose kar sakte ho.
+>
+> AI model aur voice ke liye API key ya local model lagta hai.
+>
+> Link chahiye? Comment karo PODCAST. Kal Day 17 mein, apna ChatGPT, bina internet. Bye!
+
+**Honest catch:** Needs LLM + TTS (API keys or local models).
+
+**Visual:** Mascot c1-talk · tool scene (Paid NotebookLM Plus vs Free Podcastfy) · demo: wave (pill "ARTICLE → PODCAST") · GitHub zoom
+
+## Day 17/30: Apna ChatGPT, bina internet
+
+**Tools:** Ollama + Open WebUI · **Repo:** `ollama/ollama · open-webui/open-webui` · **Replaces:** ChatGPT Plus · **Keyword:** OFFLINE
+
+**Hook:** ChatGPT bina internet ke chalega, wo bhi bilkul free?
+
+**Script:**
+
+> ChatGPT bina internet ke chalega, wo bhi bilkul free?
+>
+> Subscription Band Karo, Day 17.
+>
+> ChatGPT Plus har mahine paise leta hai. Lekin Ollama se tum DeepSeek, Qwen aur Gemma jaise AI models apne laptop pe chala sakte ho.
+>
+> Aur Open WebUI lagao, toh bilkul ChatGPT jaisa chat screen mil jaata hai, documents upload ke saath. Model ek baar download karo, phir internet ki zarurat nahi. Tumhara data tumhare paas.
+>
+> Bas laptop mein thodi achhi RAM honi chahiye.
+>
+> Setup ke links chahiye? Comment karo OFFLINE. Kal Day 18 mein, Google se smart AI search. Bye!
+
+**Honest catch:** Needs good RAM; bigger models need a GPU.
+
+**Visual:** Mascot c7-phone · Paid ChatGPT Plus vs Free Ollama · demo: text "NO INTERNET ✓" · two GitHub cards
+
+## Day 18/30: Free AI search engine
+
+**Tools:** Vane (formerly Perplexica) · **Repo:** `ItzCrazyKns/Vane` · **Replaces:** Perplexity Pro · **Keyword:** SEARCH
+
+**Hook:** Google se smart search, jo seedha jawab de, sources ke saath.
+
+**Script:**
+
+> Google se smart search, jo seedha jawab de, sources ke saath. Aur free.
+>
+> Subscription Band Karo, Day 18.
+>
+> Perplexity Pro ke paise kyun dene? Vane, jiska pehle naam Perplexica tha, ek open-source AI answering engine hai.
+>
+> Sawaal pucho, ye internet search karta hai aur sources ke saath seedha jawab deta hai. Aur tum isse apne local AI model ke saath bhi chala sakte ho, toh tumhari searches private rehti hain.
+>
+> Isse setup karne mein thoda time lagta hai, par ek baar ho gaya toh bas.
+>
+> Link chahiye? Comment karo SEARCH. Kal Day 19 mein, Manus AI ka free version. Bye!
+
+**Honest catch:** Self-hosted setup (Docker); needs a local model or API key.
+
+**Visual:** Mascot c6-thinking · Paid Perplexity Pro vs Free Vane · demo: checklist (Search · Sources · Answer) · GitHub zoom
+
+## Day 19/30: Manus AI ka free version
+
+**Tools:** OpenManus · **Repo:** `FoundationAgents/OpenManus` · **Replaces:** Manus · **Keyword:** MANUS
+
+**Hook:** Manus AI ka waitlist bhool jao. Iska open-source version yahan hai.
+
+**Script:**
+
+> Manus AI ka waitlist aur credits bhool jao. Iska open-source version yahan hai.
+>
 > Subscription Band Karo, Day 19.
-> Immich bilkul Google Photos jaisa hai, par tumhare apne server pe chalta hai.
-> Phone se automatic backup, faces se search, aur AI search bhi, jaise sirf beach likho aur saari beach waali photos.
-> Iske liye ek purana computer ya home server chahiye.
-> Link chahiye? Comment karo PHOTOS. Kal Day 20 mein, Notion AI ka free version. Bye!
+>
+> Manus ek general AI agent hai jo poore task khud karta hai. OpenManus uska free, open-source version hai.
+>
+> Tum ek goal do, jaise ek topic pe research karke report banao, aur ye khud plan banata hai, tools use karta hai, aur step by step kaam pura karta hai.
+>
+> Isme AI model ki API key lagti hai, aur ye thoda technical setup hai.
+>
+> Link chahiye? Comment karo MANUS. Kal Day 20 mein, AI jo tumhara computer chalata hai. Bye!
 
-### Day 20: Notion AI ka free version
-**Keyword:** NOTION · **Tool:** AppFlowy (`AppFlowy-IO/AppFlowy`) · **Replaces:** Notion AI
-**Visual:** checklist "Notes · Tasks · Docs · AI", GitHub zoom
-> Notes, tasks aur AI, sab ek jagah, bina subscription.
+**Honest catch:** Needs an LLM API key; technical setup.
+
+**Visual:** Hook + mascot c3-shocked · Paid Manus vs Free OpenManus · demo: nodes (GOAL → PLAN → DONE) · GitHub zoom
+
+## Day 20/30: AI jo tumhara computer chalata hai
+
+**Tools:** UI-TARS Desktop (ByteDance) · **Repo:** `bytedance/UI-TARS-desktop` · **Replaces:** Paid computer-use agents · **Keyword:** AGENT
+
+**Hook:** Ye AI tumhara mouse aur keyboard khud chalata hai.
+
+**Script:**
+
+> Ye AI tumhara mouse aur keyboard khud chalata hai.
+>
 > Subscription Band Karo, Day 20.
-> Notion AI extra paise leta hai. AppFlowy open source hai aur bilkul Notion jaisa lagta hai.
-> Notes, to-do lists, documents, aur AI features bhi, aur tum local AI model bhi use kar sakte ho, taaki data private rahe.
-> Kuch cloud features paid ho sakte hain, par basic sab free hai.
-> Comment karo NOTION aur follow karo. Kal Day 21 mein, in tools se paise kaise kamaaye. Bye!
+>
+> UI-TARS Desktop, ByteDance ka open-source AI agent hai.
+>
+> Tum normal bhasha mein bolo, jaise ek folder bana ke usme files arrange karo, aur ye screen dekh ke khud click aur type karke kaam karta hai. Bilkul jaise koi insaan computer chala raha ho.
+>
+> AI ko computer ka control dene se pehle dhyaan rakhna, important ya private kaam ke liye mat chalana.
+>
+> Link chahiye? Comment karo AGENT. Kal Day 21 mein, AI jo browser khud chalata hai. Bye!
 
-### Day 21: Free tools se side hustle ideas (talk)
-**Keyword:** HUSTLE · **Tools:** recap of creator tools
-**Visual:** talk scenes, checklist of 3 ideas
-> In free tools se log services dete hain. Teen ideas sun lo.
+**Honest catch:** Gives an AI control of your computer: test carefully, avoid sensitive accounts.
+
+**Visual:** Mascot c4-point-left · tool scene (no Paid card) · demo: checklist (See screen · Click · Type) · GitHub zoom
+
+## Day 21/30: AI jo browser khud chalata hai
+
+**Tools:** Browser Use · **Repo:** `browser-use/browser-use` · **Replaces:** ChatGPT Operator / Agent mode · **Keyword:** BROWSER
+
+**Hook:** Ye AI tumhare liye websites pe khud kaam karta hai.
+
+**Script:**
+
+> Ye AI tumhare liye websites pe khud kaam karta hai.
+>
 > Subscription Band Karo, Day 21.
-> Ek, Buzz se creators ke liye subtitles banao. Do, Upscayl se purani family photos HD karke do. Teen, rembg se online sellers ke product photos ka background saaf karo.
-> Tools free hain, skill tumhari hai. Pehle free mein practice karo, portfolio banao, phir clients dhoondo.
-> Koi guarantee nahi, mehnat lagti hai.
-> Detailed guide chahiye? Comment karo HUSTLE. Kal Day 22 mein, free AI coding assistant. Bye!
+>
+> Browser Use ek open-source tool hai jo AI ko browser chalana sikhaata hai, aur GitHub pe ek lakh se zyada logon ne isse star kiya hai.
+>
+> Tum bolo, do websites pe price compare karo, ya ek form bhar do, aur AI khud website kholta hai, click karta hai, type karta hai, aur result batata hai.
+>
+> Iska library version free hai, unka cloud service paid hai. Aur AI model ki API key lagti hai.
+>
+> Link chahiye? Comment karo BROWSER. Kal Day 22 mein, AI agent jo 24 ghante kaam kare. Bye!
 
----
+**Honest catch:** Library free, cloud paid; needs an LLM; respect each website's terms.
 
-## WEEK 4: Advanced + launch
+**Visual:** Mascot c7-phone · Paid Operator vs Free Browser Use · demo: checklist (Open · Click · Compare) · GitHub zoom
 
-### Day 22: Free AI coding assistant
-**Keyword:** CODE · **Tools:** Continue (`continuedev/continue`), Cline (`cline/cline`) · **Replaces:** GitHub Copilot
-**Visual:** text demo, two GitHub cards
-> Coding karte ho? Copilot ke paise bachao.
+## Day 22/30: AI agent jo 24/7 kaam kare
+
+**Tools:** n8n AI agents · **Repo:** `n8n-io/n8n` · **Replaces:** Zapier AI, Make · **Keyword:** AUTOMATE
+
+**Hook:** Ek AI employee, jo kabhi chhutti nahi leta.
+
+**Script:**
+
+> Ek AI employee, jo kabhi chhutti nahi leta.
+>
 > Subscription Band Karo, Day 22.
-> Continue aur Cline, dono VS Code mein chalne waale free, open-source AI assistants hain.
-> Code likhwao, bugs samjho, poori files edit karwao. Aur Ollama ke saath local model use karo, toh bilkul free.
-> Bade cloud models ke liye API key ke paise lag sakte hain.
-> Comment karo CODE aur follow karo. Kal Day 23 mein, screenshot se website. Bye!
+>
+> Zapier har task ke paise leta hai. n8n self-host karo, toh free hai, aur isme AI agents bhi bana sakte ho.
+>
+> Jaise, email aaya, AI ne padha, jawab draft kiya, aur sheet mein entry kar di. Ya roz subah news ki summary tumhe Telegram pe. Sab drag and drop se, sainkdo apps ke saath.
+>
+> Free waala version apne computer ya server pe chalana padta hai.
+>
+> Ready-made workflows chahiye? Comment karo AUTOMATE. Kal Day 23 mein, Claude ki free superpowers. Bye!
 
-### Day 23: Screenshot → website code
-**Keyword:** WEBSITE · **Tool:** screenshot-to-code (`abi/screenshot-to-code`) · **Replaces:** paid AI site builders
-**Visual:** nodes demo "SCREENSHOT → AI → CODE", GitHub zoom
-> Kisi bhi website ka screenshot do, aur uska code mil jaata hai.
+**Honest catch:** Self-hosted community edition is free (fair-code license); cloud is paid.
+
+**Visual:** Mascot c8-celebrate · Paid Zapier vs Free n8n · demo: nodes (EMAIL → AI → SHEET) · GitHub zoom
+
+## Day 23/30: Claude ki free superpowers: Skills
+
+**Tools:** Anthropic Skills · **Repo:** `anthropics/skills` · **Replaces:** Paid prompt packs · **Keyword:** SKILLS
+
+**Hook:** Claude ko ek click mein naye skills sikhao, free mein.
+
+**Script:**
+
+> Claude ko ek click mein naye skills sikhao, free mein.
+>
 > Subscription Band Karo, Day 23.
-> Screenshot to code ek open-source tool hai. Design ka screenshot daalo, aur ye HTML, Tailwind ya React code bana deta hai.
-> Freelancers aur students ke liye time bachane waala tool.
-> Ye tool free hai, par AI model ki API key chahiye, uske thode paise lagte hain.
-> Link chahiye? Comment karo WEBSITE. Kal Day 24 mein, bina internet translation. Bye!
+>
+> Anthropic ne skills ki ek free, public library banayi hai. Skill matlab ready-made instructions aur tools, jo Claude ko ek kaam mein expert bana dete hain.
+>
+> Jaise PowerPoint banana, Excel sheets, documents, designs, aur bahut kuch. Aur tum apni khud ki skill bhi bana sakte ho, jaise main apni videos banane ke liye use karta hoon.
+>
+> Prompt packs ke paise dene ki zarurat nahi.
+>
+> Skills ki list chahiye? Comment karo SKILLS. Kal Day 24 mein, AI ko apps se jodo. Bye!
 
-### Day 24: Translate offline, free
-**Keyword:** TRANSLATE · **Tool:** LibreTranslate (`LibreTranslate/LibreTranslate`) · **Replaces:** DeepL Pro
-**Visual:** text demo, GitHub zoom
-> Private documents translate karne hain, bina kisi company ko bheje?
+**Honest catch:** Skills are free; using them needs a Claude plan that supports skills.
+
+**Visual:** Mascot c2-hello · tool scene (no Paid card) · demo: checklist (PPT · Excel · Docs · Design) · GitHub zoom
+
+## Day 24/30: AI ko apps se connect karo: MCP
+
+**Tools:** MCP servers · **Repo:** `modelcontextprotocol/servers` · **Replaces:** Paid AI integrations · **Keyword:** MCP
+
+**Hook:** AI ko GitHub, files aur apps ka access do, ek standard tareeke se.
+
+**Script:**
+
+> AI ko apni files, GitHub aur apps se jodo, ek standard tareeke se.
+>
 > Subscription Band Karo, Day 24.
-> DeepL Pro ke paise lagte hain. LibreTranslate free aur open source hai, aur tumhare apne computer pe chalta hai.
-> Bahut saari languages, aur tumhara text kahin upload nahi hota.
-> Quality top paid tools jaisi hamesha nahi hoti, par roz ke kaam ke liye kaafi hai.
-> Comment karo TRANSLATE aur follow karo. Kal Day 25 mein, ek AI jo browser khud chalata hai. Bye!
+>
+> Iska naam hai MCP, matlab Model Context Protocol. Ye ek open standard hai jisse AI assistants doosre tools se baat kar sakte hain.
+>
+> Is official repository mein free MCP servers hain, jaise files, Git, web fetch aur memory. Inhe lagao, aur tumhara AI sirf baat nahi karta, kaam bhi karta hai.
+>
+> Ye thoda technical hai, par AI ka future yahi hai.
+>
+> Setup guide chahiye? Comment karo MCP. Kal Day 25 mein, bina coding apna AI chatbot. Bye!
 
-### Day 25: AI jo browser khud chalata hai
-**Keyword:** AGENT · **Tool:** Browser Use (`browser-use/browser-use`) · **Replaces:** paid AI agents
-**Visual:** checklist "Open site · Click · Fill form", GitHub zoom
-> Ye AI tumhare liye website khud kholta hai, click karta hai, form bharta hai.
-> Subscription Band Karo, Day 25.
-> Browser Use ek open-source tool hai jo AI ko browser chalana sikhaata hai.
-> Tum bolo, ye do websites pe price compare karo, aur AI khud karke batata hai.
-> Isko AI model chahiye, aur ye developers ke liye hai. Aur kisi bhi website ke rules ka dhyaan rakhna.
-> Link chahiye? Comment karo AGENT. Kal Day 26 mein, bina coding apna chatbot. Bye!
+**Honest catch:** Technical; only connect accounts and folders you trust.
 
-### Day 26: Apna AI chatbot banao, no code
-**Keyword:** BOT · **Tools:** Flowise (`FlowiseAI/Flowise`), Dify (`langgenius/dify`) · **Replaces:** Chatbase
-**Visual:** nodes demo "DOCS → AI → BOT", two GitHub cards
+**Visual:** Mascot c6-thinking · tool scene (no Paid card) · demo: nodes (AI → MCP → APPS) · GitHub zoom
+
+## Day 25/30: Bina coding apna AI chatbot
+
+**Tools:** Dify · **Repo:** `langgenius/dify` · **Replaces:** Chatbase · **Keyword:** BOT
+
+**Hook:** Bina coding apna ChatGPT jaisa chatbot banao.
+
+**Script:**
+
 > Bina coding apna ChatGPT jaisa chatbot banao.
-> Subscription Band Karo, Day 26.
-> Chatbase jaise tools har mahine paise lete hain. Flowise aur Dify open source hain, aur drag and drop se AI apps banane dete hain.
-> Apne documents daalo, aur ek chatbot ready, jo tumhari website pe customers ke sawaalon ka jawab de.
+>
+> Subscription Band Karo, Day 25.
+>
+> Chatbase jaise tools har mahine paise lete hain. Dify open source hai, aur drag and drop se AI apps aur agents banane deta hai.
+>
+> Apne documents daalo, aur ek chatbot ready, jo tumhari website pe customers ke sawaalon ka jawab de. Aur workflows bana ke poore kaam automate karo.
+>
 > Self-host karna padta hai, aur AI model ka kharcha alag ho sakta hai.
-> Comment karo BOT aur follow karo. Kal Day 27 mein, Photoshop ka AI, free. Bye!
+>
+> Link chahiye? Comment karo BOT. Kal Day 26 mein, ek video se das viral Reels. Bye!
 
-### Day 27: Photoshop + AI, free
-**Keyword:** DESIGN · **Tool:** Krita AI Diffusion (`Acly/krita-ai-diffusion`) · **Replaces:** Photoshop + Firefly
-**Visual:** before/after, GitHub zoom
-> Photoshop ka AI feature, ek free app mein.
+**Honest catch:** Self-hosted community edition is free; model usage may cost.
+
+**Visual:** Mascot c1-talk · Paid Chatbase vs Free Dify · demo: nodes (DOCS → AI → BOT) · GitHub zoom
+
+## Day 26/30: 1 video se 10 viral Reels
+
+**Tools:** SupoClip · **Repo:** `FujiwaraChoki/supoclip` · **Replaces:** OpusClip · **Keyword:** CLIPS
+
+**Hook:** Ek podcast se das Reels, automatic.
+
+**Script:**
+
+> Ek podcast se das Reels, automatic.
+>
+> Subscription Band Karo, Day 26.
+>
+> OpusClip limit ke baad paise maangta hai aur watermark lagata hai. SupoClip uska open-source alternative hai.
+>
+> Lambi video daalo, ye best moments dhoondhta hai, face ke hisaab se vertical clips banata hai, aur word by word subtitles bhi lagata hai.
+>
+> Apne computer pe chalane ke liye thoda setup aur API keys lagti hain, aur unki hosted app bhi hai.
+>
+> Link chahiye? Comment karo CLIPS. Kal Day 27 mein, purani video ko 4K banao. Bye!
+
+**Honest catch:** Self-hosting needs Docker + API keys.
+
+**Visual:** Mascot c5-point-right · Paid OpusClip vs Free SupoClip · demo: text "1 VIDEO → 10 REELS" · GitHub zoom
+
+## Day 27/30: Purani video ko 4K banao
+
+**Tools:** Video2X · **Repo:** `k4yt3x/video2x` · **Replaces:** Topaz Video AI · **Keyword:** 4K
+
+**Hook:** Purani blurry video ko 4K mein badlo, free.
+
+**Script:**
+
+> Purani blurry video ko 4K mein badlo, free.
+>
 > Subscription Band Karo, Day 27.
-> Krita ek free drawing aur editing app hai, aur AI Diffusion plugin lagao toh image generate karo, edit karo, aur selection bhar do, sab AI se.
-> Artists aur designers ke liye zabardast.
-> Iske liye bhi achha graphics card chahiye.
-> Link chahiye? Comment karo DESIGN. Kal Day 28 mein, notes se poori PPT. Bye!
+>
+> Topaz Video AI bahut mehenga hai. Video2X ek free, open-source tool hai.
+>
+> Ye AI se video ki quality badhata hai, aur frame interpolation se video ko smooth bhi kar deta hai. Purani family videos, anime, ya low quality clips, sab ko naya jaisa bana do.
+>
+> Iske liye achha graphics card chahiye, aur lambi video mein time lagta hai.
+>
+> Link chahiye? Comment karo 4K. Kal Day 28 mein, poori series ka recap. Bye!
 
-### Day 28: Document → PowerPoint, AI se
-**Keyword:** PPT · **Tool:** PPT Master (`hugohe3/ppt-master`) · **Replaces:** Gamma, Beautiful.ai
-**Visual:** nodes demo "NOTES → AI → PPT", GitHub zoom
-> Notes do, aur AI poori PowerPoint bana deta hai, editable.
-> Subscription Band Karo, Day 28.
-> Gamma credits ke paise leta hai. PPT Master open source hai aur document se asli, editable PowerPoint banata hai, charts aur animations ke saath.
-> College presentations aur office decks ke liye time bachega.
-> Isko chalane ke liye AI model chahiye, jiska thoda kharcha ho sakta hai.
-> Comment karo PPT aur follow karo. Kal Day 29 mein, ek kadwa sach. Bye!
+**Honest catch:** GPU needed; long processing time.
 
-### Day 29: "Free" AI tools ka sach (talk)
-**Keyword:** TRUTH · **Visual:** talk scenes, checklist "API cost · GPU · Fake pro apps"
+**Visual:** Mascot c3-shocked · Paid Topaz Video vs Free Video2X · demo: upscale before/after · GitHub zoom
+
+## Day 28/30: Weeks 2–4 recap
+
+**Tools:** YuE, VideoLingo, Wan, TRELLIS, GPT Researcher, OpenManus, n8n, Dify · **Repo:** `(recap, no new repo)` · **Replaces:** Suno, Rask, Runway, Meshy, Manus, Zapier · **Keyword:** LIST
+
+**Hook:** Teen hafton mein paid AI tools ke itne free versions. Kitne yaad hain?
+
+**Script:**
+
+> Teen hafton mein paid AI tools ke itne free versions. Kitne yaad hain?
+>
+> Subscription Band Karo, Day 28. Fatafat recap.
+>
+> Gaane ke liye YuE. Hindi dubbing ke liye VideoLingo. Text se video ke liye Wan. Photo se 3D ke liye TRELLIS. Deep research ke liye GPT Researcher. Manus ki jagah OpenManus. Aur automation ke liye n8n aur Dify.
+>
+> Sab free, sab open source.
+>
+> Poori list chahiye? Comment karo LIST. Kal Day 29 mein, free AI tools ka ek kadwa sach. Bye!
+
+**Honest catch:** 
+
+**Visual:** Fast countdown of tool scenes, no GitHub cards · mascot c8-celebrate
+
+## Day 29/30: "Free" AI tools ka kadwa sach
+
+**Tools:** (talk) · **Repo:** `(none)` · **Replaces:** - · **Keyword:** TRUTH
+
+**Hook:** Ye free AI tools sach mein free hain? Ek kadwa sach sun lo.
+
+**Script:**
+
 > Ye free AI tools sach mein free hain? Ek kadwa sach sun lo.
+>
 > Subscription Band Karo, Day 29.
-> Open source tools free hote hain, par kuch ko achha graphics card chahiye, aur kuch ko AI API key, jiske paise lagte hain. Main har video mein ye batata hoon.
-> Aur kabhi bhi cracked pro apps download mat karna. Unmein virus ho sakta hai, aur tumhara account bhi khatre mein.
+>
+> Open-source tools free hote hain, par kuch ko achha graphics card chahiye, aur kuch ko AI API key, jiske paise lagte hain. Isliye main har video mein catch batata hoon.
+>
+> Aur ek zaroori warning. Kabhi bhi cracked pro apps download mat karna. Unmein virus ho sakta hai, aur tumhara data aur account dono khatre mein.
+>
 > Asli free tools, sahi tareeke se. Yahi is series ka maksad hai.
+>
 > Agree karte ho? Comment karo TRUTH. Kal Day 30 mein, sabse bada surprise. Bye!
 
-### Day 30: 30 days recap + free PDF launch
-**Keyword:** FREE (lead magnet) · **Visual:** fast countdown of tool cards, mascot celebrate, CTA banner "FREE"
+**Honest catch:** 
+
+**Visual:** Talk scenes: mascot c12-annoyed style (c1-talk), checklist (GPU · API cost · Cracked apps ✗)
+
+## Day 30/30: 30 days recap + free PDF launch
+
+**Tools:** All 30 tools · **Repo:** `(recap)` · **Replaces:** - · **Keyword:** FREE
+
+**Hook:** Tees din, tees free AI tools. Aur aaj ek gift.
+
+**Script:**
+
 > Tees din, tees free AI tools. Aur aaj ek gift.
+>
 > Subscription Band Karo, Day 30.
-> Is series mein humne photo, video, voice, PDF, coding, automation, sab ke paid tools ka free version dekha.
-> Maine saare tools ki ek PDF banayi hai, har tool ke saath kya kaam aata hai, aur kya catch hai.
-> Wo PDF bilkul free hai. Follow karo aur comment karo FREE, main seedha DM kar dunga. Thank you is safar ke liye. Bye!
+>
+> Is series mein humne AI engineer, app builder, AI gaane, Hindi dubbing, text se video, 3D models, research agents aur automation, sab ke paid tools ka free version dekha.
+>
+> Maine saare tools ki ek PDF banayi hai. Har tool kya karta hai, kiske liye hai, aur uska catch kya hai.
+>
+> Wo PDF bilkul free hai. Follow karo aur comment karo FREE, main seedha DM kar dunga.
+>
+> Thank you is safar ke liye. Bye!
 
----
+**Honest catch:** 
 
-## Caption template (every day)
-```
-Day (X/30) Subscription Band Karo: <topic>
+**Visual:** Fast countdown of 8–10 tools · mascot c8-celebrate · CTA banner "FREE" · outro
 
-<one line about the tool + the catch>
-
-Comment "<KEYWORD>" for the link
-Follow @freestack.ai for the full series
-
-#aitools #freeaitools #opensource #subscriptionbandkaro #techtips #productivity #indiancreators
-```

@@ -83,9 +83,9 @@ DAYS = [
   "ChatGPT ka Deep Research mehenga hai. Ye free version dekho.\n\nSubscription Band Karo, Day 15.\n\nGPT Researcher ek open-source AI research agent hai.\n\nTum ek sawaal do, aur ye khud internet pe dozens of sources padhta hai, notes banata hai, aur sources ke saath poori detailed report likh deta hai. Assignments, business research, ya kisi bhi topic ki gehri jaankari ke liye.\n\nIsme AI model aur search ki API key lagti hai, aur dono ke free plans bhi milte hain.\n\nLink chahiye? Comment karo RESEARCH. Kal Day 16 mein, kisi bhi article se podcast. Bye!",
   "Needs LLM + search API keys (free tiers available).",
   "Mascot c6-thinking · Paid ChatGPT Pro vs Free GPT Researcher · demo: checklist (Search · Read · Report) · GitHub zoom"),
- (16, "Kisi bhi article se podcast", "Koi bhi article ya PDF, aur do AI hosts uspe podcast karenge.",
+ (16, "Kisi bhi article se podcast", "Koi bhi article, notes ya YouTube video, aur do AI hosts uspe podcast karenge.",
   "Podcastfy", "souzatharsis/podcastfy", "NotebookLM Audio Overviews", "PODCAST",
-  "Koi bhi article ya PDF, aur do AI hosts uspe podcast karenge.\n\nSubscription Band Karo, Day 16.\n\nNotebookLM ka podcast feature sabko pasand aaya. Podcastfy uska open-source version hai.\n\nArticle, PDF, ya YouTube video do, aur ye do logon ki natural baatcheet waala podcast bana deta hai. Padhai karte hue suno, ya apne content ko audio mein badlo.\n\nAur kyunki ye open source hai, tum awaaz, style aur language khud choose kar sakte ho.\n\nAI model aur voice ke liye API key ya local model lagta hai.\n\nLink chahiye? Comment karo PODCAST. Kal Day 17 mein, apna ChatGPT, bina internet. Bye!",
+  "Koi bhi article, notes ya YouTube video, aur do AI hosts uspe podcast karenge.\n\nSubscription Band Karo, Day 16.\n\nNotebookLM ka podcast feature sabko pasand aaya. Podcastfy uska open-source version hai.\n\nArticle, notes, ya YouTube video do, aur ye do logon ki natural baatcheet waala podcast bana deta hai. Padhai karte hue suno, ya apne content ko audio mein badlo.\n\nAur kyunki ye open source hai, tum awaaz, style aur language khud choose kar sakte ho.\n\nAI model aur voice ke liye API key ya local model lagta hai.\n\nLink chahiye? Comment karo PODCAST. Kal Day 17 mein, apna ChatGPT, bina internet. Bye!",
   "Needs LLM + TTS (API keys or local models).",
   "Mascot c1-talk · tool scene (Paid NotebookLM Plus vs Free Podcastfy) · demo: wave (pill \"ARTICLE → PODCAST\") · GitHub zoom"),
  (17, "Apna ChatGPT, bina internet", "ChatGPT bina internet ke chalega, wo bhi bilkul free?",
@@ -228,3 +228,16 @@ g["A1"].font = Font(name=F, size=16, bold=True)
 
 wb.save(OUT)
 print("saved", OUT, ws.max_row - 1, "days")
+
+# Same plan as a readable Markdown file (kept in sync with the sheet).
+MD = OUT.replace(".xlsx", ".md")
+with open(MD, "w") as f:
+    f.write("# Subscription Band Karo: 30-day plan\n\n"
+            "Generated from `make_sheet.py` (same content as the .xlsx). Edit the script, not this file.\n\n")
+    for day, topic, hook, tools, repo, replaces, kw, script, catch, visual in DAYS:
+        f.write(f"## Day {day}/30: {topic}\n\n")
+        f.write(f"**Tools:** {tools} · **Repo:** `{repo}` · **Replaces:** {replaces} · **Keyword:** {kw}\n\n")
+        f.write(f"**Hook:** {hook}\n\n**Script:**\n\n")
+        f.write("\n".join(f"> {l}" if l else ">" for l in script.split("\n")) + "\n\n")
+        f.write(f"**Honest catch:** {catch}\n\n**Visual:** {visual}\n\n")
+print("saved", MD)
