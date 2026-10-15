@@ -65,9 +65,28 @@ def transcribe(project):
     from faster_whisper import WhisperModel
     model = WhisperModel(cfg.get("whisper_model", "small"), device="cpu", compute_type="int8")
     a = np.fromfile(raw, dtype=np.float32)
-    segs, _ = model.transcribe(a, language=cfg.get("language", "en"), word_timestamps=True,
-                               initial_prompt=cfg.get("whisper_hint"))
-    words = [{"w": w.word.strip(), "t0": round(w.start, 3), "t1": round(w.end, 3)} for s in segs for w in s.words]
+    hint = cfg.get("whisper_hint")
+    want = len(hint.split()) if hint else 0
+    dur = len(a) / 16000
+    # Whisper sometimes hallucinates or drops a stretch of audio when given a long prompt.
+    # Try a few settings and keep the first transcript that covers the audio with the expected word count.
+    tries = [dict(initial_prompt=hint), dict(initial_prompt=hint, condition_on_previous_text=False),
+             dict(initial_prompt=hint, condition_on_previous_text=False, vad_filter=True),
+             dict(initial_prompt=" ".join(hint.split()[:40]) if hint else None, condition_on_previous_text=False)]
+    best = None
+    for k, kw in enumerate(tries):
+        segs, _ = model.transcribe(a, language=cfg.get("language", "en"), word_timestamps=True, **kw)
+        words = [{"w": w.word.strip(), "t0": round(w.start, 3), "t1": round(w.end, 3)} for s in segs for w in s.words]
+        times = [w["t0"] for w in words]
+        ok = (words and (not want or len(words) >= 0.85 * want) and words[0]["t0"] < 2.0 and words[-1]["t1"] > dur - 3
+              and times == sorted(times))
+        if best is None or len(words) > len(best):
+            best = words
+        if ok:
+            best = words
+            break
+        print(f"  transcript attempt {k + 1} looks wrong ({len(words)} words, want ~{want}); retrying")
+    words = best
     json.dump(words, open(os.path.join(build, "words.json"), "w"), indent=0)
     print(f"\n{len(words)} words, {len(a) / 16000:.1f}s\n")
     line = []
