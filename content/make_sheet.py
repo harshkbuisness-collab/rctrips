@@ -160,66 +160,167 @@ DAYS = [
   "Fast countdown of 8–10 tools · mascot c8-celebrate · CTA banner \"FREE\" · outro"),
 ]
 
+import math
+import datetime
+from openpyxl.formatting.rule import CellIsRule
+
+F = "Arial"
+INK, YEL, PINK = "111111", "FFE500", "FF3D7F"
+thin = Side(style="thin", color="D0D0D0")
+box = Border(top=thin, bottom=thin, left=thin, right=thin)
+
+def fill(c):
+    return PatternFill("solid", fgColor=c)
+
+WEEKS = [
+    (1, 7, "WEEK 1 · AI that builds for you"),
+    (8, 14, "WEEK 2 · Creator tools: music, voice, video, 3D"),
+    (15, 21, "WEEK 3 · AI agents and research"),
+    (22, 28, "WEEK 4 · Automation and clipping"),
+    (29, 30, "FINALE · Truth talk + free PDF launch"),
+]
+# (header, width, wrap/align)
+COLS = [
+    ("Day", 6), ("Post Date", 12), ("Topic", 26), ("Hook (first line)", 30),
+    ("Free Tool(s)", 20), ("Replaces (Paid)", 18), ("Keyword", 13),
+    ("Voice Script (Hinglish)", 72), ("Honest Catch", 28), ("GitHub Repo", 26),
+    ("Visual Notes", 30), ("Status", 15), ("Instagram Title (copy)", 34),
+]
+NC = len(COLS)
+LAST = chr(64 + NC)
+
 wb = Workbook()
 ws = wb.active
 ws.title = "30-Day Plan"
-headers = ["Day", "Week", "Post Title", "Hook (first line)", "Free Tool(s)", "GitHub Repo", "Replaces (Paid)",
-           "Comment Keyword", "Voice Script (Hinglish)", "Honest Catch", "Visual Notes", "Status"]
-widths = [6, 8, 34, 34, 22, 30, 22, 12, 80, 32, 36, 12]
-F = "Arial"
-head_fill = PatternFill("solid", fgColor="111111")
-week_fills = ["FFF8C4", "FFFFFF", "FFF8C4", "FFFFFF"]
-thin = Side(style="thin", color="D9D9D9")
+ws.sheet_view.showGridLines = False
+for i, (_, w) in enumerate(COLS, 1):
+    ws.column_dimensions[chr(64 + i)].width = w
 
-ws.append(headers)
-for i, h in enumerate(headers, 1):
-    c = ws.cell(row=1, column=i)
-    c.font = Font(name=F, bold=True, color="FFE500", size=11)
-    c.fill = head_fill
+# Title block
+ws.merge_cells(f"A1:{LAST}1")
+ws["A1"] = "FREESTACK AI  ·  SUBSCRIPTION BAND KARO  ·  30-DAY CONTENT PLAN"
+ws["A1"].font = Font(name=F, size=18, bold=True, color=YEL)
+ws["A1"].fill = fill(INK)
+ws["A1"].alignment = Alignment(vertical="center", indent=1)
+ws.row_dimensions[1].height = 36
+ws.merge_cells(f"A2:{LAST}2")
+ws["A2"] = ("Paid AI tools ke free / open-source versions, one per day. Copy the Voice Script into your voice tool, "
+            "send the audio, post with the Instagram Title. Repos checked on GitHub, 15 Oct 2026.")
+ws["A2"].font = Font(name=F, size=10, italic=True, color="555555")
+ws["A2"].alignment = Alignment(vertical="center", indent=1)
+ws.row_dimensions[2].height = 20
+
+# Inputs + progress
+ws["A3"] = "Start date"
+ws["A3"].font = Font(name=F, size=10, bold=True)
+ws.merge_cells("A3:B3")
+ws["C3"] = datetime.date(2026, 10, 16)
+ws["C3"].number_format = "dd mmm yyyy"
+ws["C3"].font = Font(name=F, size=10, bold=True, color="0000FF")
+ws["C3"].fill = fill("FFFF00")
+ws["C3"].border = box
+ws["D3"] = "← edit: Day 1 posting date (all dates update)"
+ws["D3"].font = Font(name=F, size=9, italic=True, color="777777")
+HDR = 5
+FIRST = HDR + 1
+
+ws.row_dimensions[4].height = 6
+for i, (h, _) in enumerate(COLS, 1):
+    c = ws.cell(row=HDR, column=i, value=h)
+    c.font = Font(name=F, bold=True, color=YEL, size=10)
+    c.fill = fill(INK)
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-    ws.column_dimensions[c.column_letter].width = widths[i - 1]
-ws.row_dimensions[1].height = 28
+    c.border = box
+ws.row_dimensions[HDR].height = 30
 
+def lines(text, width):
+    per = width * 1.25
+    return sum(max(1, math.ceil(len(par) / per)) for par in str(text).split("\n"))
+
+r = FIRST
+day_rows = []
 for d in DAYS:
     day, topic, hook, tools, repo, repl, kw, script, catch, visual = d
-    week = (day - 1) // 7 + 1 if day <= 28 else 4
-    title = f"Day ({day}/30) Subscription Band Karo: {topic}"
+    for lo, hi, label in WEEKS:
+        if day == lo:
+            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=NC)
+            c = ws.cell(row=r, column=1, value=label)
+            c.font = Font(name=F, bold=True, size=11, color=INK)
+            c.fill = fill(YEL)
+            c.alignment = Alignment(vertical="center", indent=1)
+            ws.row_dimensions[r].height = 22
+            r += 1
+    script_tight = script.replace("\n\n", "\n")
     status = "Script ready" if day == 1 else "To do"
-    ws.append([day, f"Week {week}", title, hook, tools, repo, repl, kw, script, catch, visual, status])
-    r = ws.max_row
-    fill = PatternFill("solid", fgColor=week_fills[(week - 1) % 4])
-    for col in range(1, len(headers) + 1):
-        c = ws.cell(row=r, column=col)
-        c.font = Font(name=F, size=10, bold=(col in (3, 8)))
-        c.alignment = Alignment(vertical="top", wrap_text=True, horizontal="center" if col in (1, 2, 8, 12) else "left")
-        c.fill = fill
-        c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
-    lines = script.count("\n") + len(script) // 95 + 2
-    ws.row_dimensions[r].height = min(409, 15 * lines)
+    vals = [day, f"=$C$3+A{r}-1", topic, hook, tools, repl, kw, script_tight, catch,
+            repo.replace(" · ", "\n"), visual, status,
+            f'="Day ("&A{r}&"/30) Subscription Band Karo: "&C{r}']
+    bg = "FFFFFF" if day % 2 else "F7F7F5"
+    for i, v in enumerate(vals, 1):
+        c = ws.cell(row=r, column=i, value=v)
+        c.font = Font(name=F, size=10, bold=(i in (1, 3, 7)), color=(PINK if i == 7 else INK))
+        c.alignment = Alignment(vertical="top", wrap_text=True,
+                                horizontal="center" if i in (1, 2, 7, 12) else "left")
+        c.fill = fill(bg)
+        c.border = box
+    ws.cell(row=r, column=2).number_format = "ddd dd mmm"
+    ws.cell(row=r, column=1).font = Font(name=F, size=14, bold=True)
+    texts = [(topic, 26), (hook, 30), (tools, 20), (repl, 18), (script_tight, 72),
+             (catch, 28), (repo.replace(" · ", "\n"), 26), (visual, 30)]
+    ws.row_dimensions[r].height = min(409, max(lines(t, w) for t, w in texts) * 13 + 8)
+    day_rows.append(r)
+    r += 1
+END = r - 1
 
-ws.freeze_panes = "C2"
-ws.auto_filter.ref = f"A1:L{len(DAYS) + 1}"
-dv = DataValidation(type="list", formula1='"To do,Script ready,Voice recorded,Video built,Posted"', allow_blank=True)
+# Progress counter (formula)
+ws["F3"] = "Progress"
+ws["F3"].font = Font(name=F, size=10, bold=True)
+ws["F3"].alignment = Alignment(horizontal="right")
+ws.merge_cells("G3:H3")
+st = f"$L${FIRST}:$L${END}"
+ws["G3"] = (f'=COUNTIF({st},"Posted")&" / 30 posted   ·   Video built: "&COUNTIF({st},"Video built")'
+            f'&"   ·   Voice recorded: "&COUNTIF({st},"Voice recorded")&"   ·   Script ready: "&COUNTIF({st},"Script ready")')
+ws["G3"].font = Font(name=F, size=10, bold=True)
+
+# Status dropdown + colours
+statuses = [("To do", "E7E6E6"), ("Script ready", "FFF2A8"), ("Voice recorded", "CFE3FF"),
+            ("Video built", "E5D4FF"), ("Posted", "C9F2D0")]
+dv = DataValidation(type="list", formula1='"' + ",".join(s for s, _ in statuses) + '"', allow_blank=True)
 ws.add_data_validation(dv)
-dv.add(f"L2:L{len(DAYS) + 1}")
+for rr in day_rows:
+    dv.add(f"L{rr}")
+for name, col in statuses:
+    ws.conditional_formatting.add(f"L{FIRST}:L{END}",
+        CellIsRule(operator="equal", formula=[f'"{name}"'], fill=fill(col), font=Font(name=F, bold=True)))
 
-# Short how-to notes under the table (single tab, no extra sheets).
+ws.freeze_panes = f"D{FIRST}"
+ws.auto_filter.ref = f"A{HDR}:{LAST}{END}"
+
+# How-to notes under the table
 notes = [
-    ("HOW TO USE", "Edit only column L (Status) as you go: To do · Script ready · Voice recorded · Video built · Posted."),
-    ("Workflow", "Paste the Voice Script into your voice tool → send me the audio → the freestack-video skill builds the reel → post with the Post Title."),
-    ("Caption", "Hook line · one line on the tool + its catch · Comment \"<KEYWORD>\" for the link · Follow @freestack.ai · 5–8 hashtags"),
-    ("ManyChat", "One keyword automation per day (column H) that DMs that day's links."),
-    ("Accuracy", "Repos checked on GitHub on 15 Oct 2026. Star counts are not spoken; the video shows the live count."),
+    ("HOW TO USE", "Change only the yellow Start date and the Status column (dropdown). Everything else fills itself."),
+    ("Workflow", "Copy Voice Script → record in your voice tool → send me the audio → I build the reel → post with the Instagram Title → set Status to Posted."),
+    ("Caption", "Hook line · one line on the tool + its catch · Comment \"KEYWORD\" for the link · Follow @freestack.ai · 5–8 hashtags"),
+    ("ManyChat", "One keyword automation per day (Keyword column) that DMs that day's links."),
+    ("Accuracy", "Star counts are not spoken; the video shows the live count from GitHub."),
 ]
-start = ws.max_row + 2
-for i, (k, v) in enumerate(notes):
-    r = start + i
-    ws.cell(row=r, column=1, value=k).font = Font(name=F, size=10, bold=True)
-    ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=2)
-    ws.cell(row=r, column=3, value=v).font = Font(name=F, size=10)
-    ws.merge_cells(start_row=r, start_column=3, end_row=r, end_column=9)
-    ws.cell(row=r, column=3).alignment = Alignment(wrap_text=True, vertical="top")
-    ws.row_dimensions[r].height = 18
+nr = END + 2
+for k, v in notes:
+    ws.merge_cells(start_row=nr, start_column=1, end_row=nr, end_column=2)
+    ws.cell(row=nr, column=1, value=k).font = Font(name=F, size=10, bold=True)
+    ws.merge_cells(start_row=nr, start_column=3, end_row=nr, end_column=8)
+    ws.cell(row=nr, column=3, value=v).font = Font(name=F, size=10)
+    nr += 1
+
+# Print setup
+ws.page_setup.orientation = "landscape"
+ws.page_setup.paperSize = ws.PAPERSIZE_A4
+ws.page_setup.fitToWidth = 1
+ws.page_setup.fitToHeight = 0
+ws.sheet_properties.pageSetUpPr.fitToPage = True
+ws.print_title_rows = f"{HDR}:{HDR}"
+ws.print_options.horizontalCentered = True
+ws.page_margins.left = ws.page_margins.right = 0.3
 
 wb.save(OUT)
 print("saved", OUT, len(DAYS), "days")
