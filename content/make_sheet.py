@@ -198,36 +198,31 @@ for d in DAYS:
     ws.row_dimensions[r].height = min(409, 15 * lines)
 
 ws.freeze_panes = "C2"
-ws.auto_filter.ref = f"A1:{ws.cell(row=1, column=len(headers)).column_letter}{ws.max_row}"
+ws.auto_filter.ref = f"A1:L{len(DAYS) + 1}"
 dv = DataValidation(type="list", formula1='"To do,Script ready,Voice recorded,Video built,Posted"', allow_blank=True)
 ws.add_data_validation(dv)
-dv.add(f"L2:L{ws.max_row}")
+dv.add(f"L2:L{len(DAYS) + 1}")
 
-g = wb.create_sheet("How to use")
-rows = [
-    ("Subscription Band Karo: 30-Day Series", ""),
-    ("", ""),
-    ("Edit only", "Column L (Status) on the 30-Day Plan tab: pick from the dropdown as you go."),
-    ("Workflow", "1) Paste the Voice Script into your voice tool → 2) send me the audio → 3) the freestack-video skill builds the reel → 4) post with the Post Title + caption."),
-    ("Post title", "Day (X/30) Subscription Band Karo: <topic>"),
+# Short how-to notes under the table (single tab, no extra sheets).
+notes = [
+    ("HOW TO USE", "Edit only column L (Status) as you go: To do · Script ready · Voice recorded · Video built · Posted."),
+    ("Workflow", "Paste the Voice Script into your voice tool → send me the audio → the freestack-video skill builds the reel → post with the Post Title."),
     ("Caption", "Hook line · one line on the tool + its catch · Comment \"<KEYWORD>\" for the link · Follow @freestack.ai · 5–8 hashtags"),
-    ("ManyChat", "Create one keyword automation per day (column H) that DMs that day's links."),
-    ("Accuracy", "Repos were checked on GitHub on 15 Oct 2026. Star counts are not spoken; the video shows the live count."),
-    ("Status values", "To do · Script ready · Voice recorded · Video built · Posted"),
+    ("ManyChat", "One keyword automation per day (column H) that DMs that day's links."),
+    ("Accuracy", "Repos checked on GitHub on 15 Oct 2026. Star counts are not spoken; the video shows the live count."),
 ]
-for a, b in rows:
-    g.append([a, b])
-g.column_dimensions["A"].width = 18
-g.column_dimensions["B"].width = 110
-for r in range(1, g.max_row + 1):
-    for col in (1, 2):
-        c = g.cell(row=r, column=col)
-        c.font = Font(name=F, size=11, bold=(col == 1 or r == 1))
-        c.alignment = Alignment(wrap_text=True, vertical="top")
-g["A1"].font = Font(name=F, size=16, bold=True)
+start = ws.max_row + 2
+for i, (k, v) in enumerate(notes):
+    r = start + i
+    ws.cell(row=r, column=1, value=k).font = Font(name=F, size=10, bold=True)
+    ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=2)
+    ws.cell(row=r, column=3, value=v).font = Font(name=F, size=10)
+    ws.merge_cells(start_row=r, start_column=3, end_row=r, end_column=9)
+    ws.cell(row=r, column=3).alignment = Alignment(wrap_text=True, vertical="top")
+    ws.row_dimensions[r].height = 18
 
 wb.save(OUT)
-print("saved", OUT, ws.max_row - 1, "days")
+print("saved", OUT, len(DAYS), "days")
 
 # Same plan as a readable Markdown file (kept in sync with the sheet).
 MD = OUT.replace(".xlsx", ".md")
