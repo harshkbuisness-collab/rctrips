@@ -123,7 +123,8 @@ def make_plan(cfg, build, shots, frames):
         for w, (t0, t1) in zip(disp, times):
             words.append({"w": w, "t0": round(t0, 3), "t1": round(t1, 3), "line": s})
     plan = {"total": round(end, 3), "scenes": scenes, "words": words, "shots": shots, "frames": frames,
-            "no_captions": cfg.get("no_captions", False), "series": cfg.get("series")}
+            "no_captions": cfg.get("no_captions", False), "series": cfg.get("series"),
+            "theme": cfg.get("theme", "wall")}
     json.dump(plan, open(os.path.join(build, "plan.json"), "w"), indent=1)
     for sc in scenes:
         print(f"  {sc['type']:6s} {sc['start']:6.2f}s  +{sc['dur']:.2f}s  {sc.get('free') or sc.get('title') or sc.get('keyword') or ''}")
@@ -145,6 +146,11 @@ def prepare_assets(cfg, build):
                 clips.add(sc[k])
         if sc.get("reveal"):
             clips.add(sc["reveal"].get("mascot", "c3-shocked"))
+        if sc.get("style") == "polaroid":
+            clips.add((sc.get("polaroid") or {}).get("clip", "c1-talk"))
+            os.makedirs(os.path.join(build, "poses"), exist_ok=True)
+            for f in os.listdir(os.path.join(MASCOT, "poses")):
+                shutil.copy(os.path.join(MASCOT, "poses", f), os.path.join(build, "poses", f))
         if sc["type"] == "talk" and not sc.get("mascot"):
             clips.add("c1-talk")
     frames = {}

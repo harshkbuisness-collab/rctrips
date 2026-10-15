@@ -83,6 +83,17 @@ Scene types:
 {"type": "outro", "start": "bye", "handle": "@freestack.ai", "text": "Bye!"}
 ```
 
+**Make every video look different.** Never reuse the same opening, theme and tool order two videos in a row, and don't open every video with the PAID notification cards.
+- `"theme"` (top level): `wall` (default), `grid`, `yellow`, `blush`, `mint`, `sky`.
+- Hook `"style"` (opening widget, shown until `impact`/`reveal`):
+  - `chat`: AI chat window. `"chat": {"title": "AI Engineer", "ask": "...", "reply": "...", "ticks": ["...", "..."]}`
+  - `build`: prompt box types, then a website builds itself. `"build": {"prompt": "...", "brand": "SWEET BAKES", "hero": "Fresh cakes<br>every day", "url": "..."}`
+  - `editor`: dark code editor typing code. `"editor": {"file": "app.js", "lines": ["..."], "type_dur": 2.2}`
+  - `terminal`: terminal typing commands. `"terminal": {"lines": [{"cmd": "..."}, {"out": "..."}, {"big": "TOOL NAME"}]}` (only real commands)
+  - `polaroid`: a photo of the mascot that starts talking at a word. `"polaroid": {"pose": "01-wave", "at": "bolne", "say": "Hello!", "label": "sirf ek photo"}`
+  - no style + `notifications`: the original PAID cards (use rarely).
+- Tool `"flow"`: order of the tool's parts, any of `intro` (mascot + #n), `vs` (Paid vs Free), `demo`, `card` (GitHub stars), e.g. `["card", "demo"]` or `["vs", "intro", "card", "demo"]`. Parts not listed are skipped. Omit `n` to show the tool name instead of "#n".
+
 Demo kinds (`demo.kind`):
 - `wave`: waveform + typing subtitle. `{"text": "...", "pill": "OFFLINE · NO INTERNET"}` (audio, transcription, music tools)
 - `voice`: pink waveform + checklist. `{"items": ["Voice cloning", "Dubbing"]}` (voice / TTS tools)
