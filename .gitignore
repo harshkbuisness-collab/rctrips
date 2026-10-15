@@ -1,0 +1,5 @@
+# FreeStack build outputs and copyrighted music stay out of git
+freestack/projects/*/build/
+freestack/projects/*/output/
+freestack/projects/*/music.*
+__pycache__/
