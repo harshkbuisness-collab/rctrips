@@ -86,6 +86,26 @@ def transcribe(project):
             best = words
             break
         print(f"  transcript attempt {k + 1} looks wrong ({len(words)} words, want ~{want}); retrying")
+    else:
+        # last resort: cut the audio at pauses into ~6-10 s pieces and transcribe each piece on its own
+        e = np.sqrt(np.convolve(a ** 2, np.ones(320) / 320, "same")[::160])          # 10 ms energy
+        quiet = e < max(1e-4, np.percentile(e, 95) * 0.05)
+        cuts, last = [0], 0
+        for i in range(len(quiet)):
+            if quiet[i] and i / 100 - last >= 6 and quiet[i:i + 15].all():
+                cuts.append(i / 100 + 0.07); last = i / 100
+        cuts.append(dur)
+        words = []
+        for c0, c1 in zip(cuts, cuts[1:]):
+            seg = a[int(c0 * 16000):int(c1 * 16000)]
+            if len(seg) < 3200:
+                continue
+            segs, _ = model.transcribe(seg, language=cfg.get("language", "en"), word_timestamps=True,
+                                       initial_prompt=hint, condition_on_previous_text=False)
+            words += [{"w": w.word.strip(), "t0": round(c0 + w.start, 3), "t1": round(c0 + w.end, 3)} for s in segs for w in s.words]
+        print(f"  chunked transcript: {len(cuts) - 1} pieces, {len(words)} words")
+        if len(words) >= 0.85 * want:
+            best = words
     words = best
     json.dump(words, open(os.path.join(build, "words.json"), "w"), indent=0)
     print(f"\n{len(words)} words, {len(a) / 16000:.1f}s\n")

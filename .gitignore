@@ -1,3 +1,4 @@
 # Per-video working folders (renders, frames, copyrighted music) stay out of git
 projects/
 __pycache__/
+failed-audio/
