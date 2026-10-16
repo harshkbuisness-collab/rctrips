@@ -40,9 +40,26 @@ def server_up(port):
 
 
 def ensure_server(tool, port):
+    # a server left running from an older tool version keeps the old code loaded: restart it
+    ver_file = os.path.join(tool, '.cache', f'server-{port}.version')
+    version = open(os.path.join(tool, 'VERSION')).read().strip() if os.path.exists(os.path.join(tool, 'VERSION')) else ''
+    started = open(ver_file).read().strip() if os.path.exists(ver_file) else ''
     if server_up(port):
-        return
+        if started == version:
+            return
+        say(f'== the running server is an older tool version: restarting it')
+        if os.name == 'nt':
+            subprocess.run(['powershell', '-NoProfile', '-Command',
+                            f'Get-NetTCPConnection -LocalPort {port} -State Listen | ForEach-Object {{ Stop-Process -Id $_.OwningProcess -Force }}'])
+        else:
+            subprocess.run(['pkill', '-f', '^node tools/server[.]mjs'])
+        for _ in range(20):
+            if not server_up(port):
+                break
+            time.sleep(0.5)
     say(f'starting the Reel Engine server on port {port} ...')
+    os.makedirs(os.path.dirname(ver_file), exist_ok=True)
+    open(ver_file, 'w').write(version)
     log = open(os.path.join(tool, 'out', 'server.log'), 'a') if os.path.isdir(os.path.join(tool, 'out')) else subprocess.DEVNULL
     env = dict(os.environ, PORT=str(port))
     kw = dict(cwd=tool, env=env, stdout=log, stderr=log)

@@ -350,6 +350,12 @@ export const ReelVideo = ({timeline, library, baseUrl}) => {
   }).filter(Boolean);
   // stickers on screen now (not the step titles): the small bottom captions move above them
   const stickers = active.flatMap(({layers}) => layers.filter((l) => l.type === 'text' && (l.y ?? 0.17) >= 0.3 && t >= l._at && t < l._until).map((l) => l._rect));
+  // caution tapes on screen now: every caption (big or small) moves above them, never on the tape
+  const tapes = active.flatMap(({layers}) => layers.filter((l) => l.type === 'text' && l.look === 'tape' && t >= l._at && t < l._until).map((l) => {
+    const size = l.size ?? 84, cy = (l.y ?? 0.74) * height;
+    const half = size * 0.75 + Math.abs(Math.tan(((l.tilt ?? -8) * Math.PI) / 180)) * width * 0.4;
+    return {x0: 0, x1: width, y0: cy - half, y1: cy + half};
+  }));
 
   return <AbsoluteFill style={{background: timeline.canvas.background, ...fontVars(theme.fonts)}}>
     {timeline.audio.voice ? <Audio src={src(timeline.audio.voice)} volume={timeline.audio.voiceVolume}/> : null}
@@ -369,7 +375,7 @@ export const ReelVideo = ({timeline, library, baseUrl}) => {
 
     {active.map(({s, i, layers}) => <Scene key={s.id ?? i} scene={s} index={i} layers={layers} ctx={ctx} captionRect={captionRect}/>)}
 
-    {graphicOn(t) ? null : <Captions ctx={ctx} captions={timeline.captions} words={timeline.words} titleOn={titleOn(t)} avoid={stickers}/>}
+    {graphicOn(t) ? null : <Captions ctx={ctx} captions={timeline.captions} words={timeline.words} titleOn={titleOn(t)} avoid={stickers} tapes={tapes}/>}
 
     {/* retention bar: a thin red line along the top fills up over the whole video */}
     {timeline.progressBar ? <div style={{position: 'absolute', left: 0, top: 0, height: 14, zIndex: 990, width: `${(100 * frame) / Math.max(1, durationInFrames - 1)}%`,

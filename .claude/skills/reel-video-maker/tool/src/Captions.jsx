@@ -13,7 +13,7 @@ export function captionY(y, low, W, H) {
 
 const clean = (w) => String(w || '').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 
-export function Captions({ctx, captions: cfg, words, titleOn = false, avoid = []}) {
+export function Captions({ctx, captions: cfg, words, titleOn = false, avoid = [], tapes = []}) {
   let captions = cfg;
   const {t, W, H} = ctx;
   if (captions.mode === 'none' || !words.length) return null;
@@ -27,6 +27,12 @@ export function Captions({ctx, captions: cfg, words, titleOn = false, avoid = []
     const half = captions.size * 0.8;
     const hit = avoid.filter((r) => r && r.y0 < y * H + half && r.y1 > y * H - half).sort((a, b) => a.y0 - b.y0)[0];
     if (hit) y = (hit.y0 - half - 12) / H;
+  }
+  // never on a caution tape: the caption goes just above it
+  {
+    const half = captions.size * (low ? 0.8 : 0.85);
+    const tape = tapes.filter((r) => r.y0 < y * H + half && r.y1 > y * H - half).sort((a, b) => a.y0 - b.y0)[0];
+    if (tape) y = (tape.y0 - half - 12) / H;
   }
   // box between the safe-zone edges (bottom captions stay left of the like / comment buttons)
   const s = safeZoneOf(W, H);
