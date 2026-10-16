@@ -49,6 +49,7 @@ Only change the outfit or body when the concept needs it, and say so explicitly 
 - The text must state the video topic plainly so any viewer understands it in one second. Never hide the topic behind a vague or clever hook. If the user looks at it and can't tell the topic, it has failed.
 - Use simple words. Avoid technical or uncommon terms: say "side abs" not obliques, "muscle pain" not soreness, "upper back" not traps, "side rib muscle" not serratus, "hidden muscle" or the exercise name, not brachialis.
 - Two lines in a white rectangular label box with a thick black border, centered at the top of the safe area. Line 1 in solid black (usually the problem, e.g. "SKINNY WRISTS?"), Line 2 in bold red (usually the fix or answer, e.g. "WATER BOTTLE FIX").
+- Write the label lines as: "The label shows exactly two lines of text and nothing else. Top line: WORDS (written in solid black letters). Bottom line: WORDS (written in bold red letters). Write only these words; never write color names or quote marks in the label." (16 Oct: 'Line 1 in solid black: "X"' made the image tool print BLACK "X" RED "Y" in the label.)
 - Include this font line in every prompt: "FONT: Anton (or Impact), extra-heavy condensed bold sans-serif, ALL CAPS, very thick strokes, the same font and weight for both lines. Large and readable, filling most of the safe width. Never thin, never regular weight, never a different font."
 - Small panel tags (WRONG/RIGHT, EASY/HARD) use the same font: red tag with white text for bad, green tag with white text for good.
 - No other text anywhere.
