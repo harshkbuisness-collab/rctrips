@@ -1,0 +1,520 @@
+{
+ "title": "Creatine is not a steroid",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "creatine",
+   "steroid",
+   "researched",
+   "energy",
+   "reps",
+   "strength",
+   "muscle",
+   "grams",
+   "water",
+   "loading",
+   "safe",
+   "doctor"
+  ],
+  "bottom": [
+   [
+    "It's one of the most",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "not a steroid#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drinking_shake",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "not a steroid#1"
+    },
+    {
+     "type": "text",
+     "text": "CREATINE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "not a steroid#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not a steroid#1"
+    },
+    {
+     "type": "text",
+     "text": "STEROID",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not a steroid#1+0.35",
+     "at": "not a steroid#1"
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "start": "It's one of the most-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_reading",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's one of the most",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MOST RESEARCHED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's one of the most"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "It helps your muscles-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It helps your muscles",
+     "until": "so you can do",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "QUICK ENERGY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It helps your muscles",
+     "until": "so you can do"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "so you can do",
+     "until": "Over time"
+    },
+    {
+     "type": "text",
+     "text": "+ REPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "so you can do",
+     "until": "Over time"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Over time",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MORE MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Over time"
+    }
+   ]
+  },
+  {
+   "id": "dose",
+   "start": "Take three to five-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_drinking_shake",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Take three to five",
+     "until": "any time, with water",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3-5 G",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 300,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Take three to five",
+     "until": "any time, with water"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "any time, with water",
+     "until": "No loading needed"
+    },
+    {
+     "type": "text",
+     "text": "WITH WATER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "any time, with water",
+     "until": "No loading needed"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "No loading needed"
+    },
+    {
+     "type": "text",
+     "text": "LOADING",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "No loading needed+0.35",
+     "at": "No loading needed"
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "start": "It's considered safe-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's considered safe",
+     "until": "If you have kidney",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAFE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's considered safe",
+     "until": "If you have kidney"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If you have kidney"
+    },
+    {
+     "type": "text",
+     "text": "KIDNEY ISSUES? ASK A DOCTOR",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "If you have kidney"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who thinks creatine"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who thinks creatine"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who thinks creatine",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_scared_peek",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who thinks creatine",
+     "until": "Because creatine"
+    },
+    {
+     "type": "text",
+     "text": "THINKS IT'S DANGEROUS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who thinks creatine",
+     "until": "Because creatine"
+    },
+    {
+     "type": "text",
+     "text": "CREATINE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because creatine"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because creatine"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It's one of the most-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "It helps your muscles-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Take three to five-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "It's considered safe-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "not a steroid#1",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "It's one of the most",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "so you can do",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Take three to five",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "It's considered safe",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who thinks creatine",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because creatine",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

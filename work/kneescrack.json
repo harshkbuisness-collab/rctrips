@@ -1,0 +1,582 @@
+{
+ "title": "Knees crack when you squat? Read this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "knees",
+   "crack",
+   "relax",
+   "harmless",
+   "bubbles",
+   "tendons",
+   "pain",
+   "normal",
+   "strong",
+   "toes",
+   "control",
+   "doctor"
+  ],
+  "bottom": [
+   [
+    "Relax",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "every time you squat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "every time you squat"
+    },
+    {
+     "type": "text",
+     "text": "CRACK • CRACK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "every time you squat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every time you squat"
+    },
+    {
+     "type": "text",
+     "text": "CRACK?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every time you squat"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "every time you squat",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "relax",
+   "start": "Relax-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_meditating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Relax",
+     "until": "In most cases",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "RELAX",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Relax",
+     "until": "In most cases"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "In most cases"
+    },
+    {
+     "type": "text",
+     "text": "HARMLESS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "In most cases"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Those sounds are-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Those sounds are",
+     "until": "or tendons moving",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GAS BUBBLES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Those sounds are",
+     "until": "or tendons moving"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "or tendons moving",
+     "until": "If there's no pain"
+    },
+    {
+     "type": "text",
+     "text": "TENDONS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "or tendons moving",
+     "until": "If there's no pain"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If there's no pain",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "If there's no pain"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "start": "Strong legs protect-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Strong legs protect",
+     "until": "controlled speed"
+    },
+    {
+     "type": "text",
+     "text": "STRONG LEGS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Strong legs protect",
+     "until": "knees following your toes"
+    },
+    {
+     "type": "text",
+     "text": "FOLLOW TOES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "knees following your toes",
+     "until": "whole foot on the floor"
+    },
+    {
+     "type": "text",
+     "text": "WHOLE FOOT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "whole foot on the floor",
+     "until": "controlled speed"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "controlled speed"
+    },
+    {
+     "type": "text",
+     "text": "CONTROL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "controlled speed"
+    }
+   ]
+  },
+  {
+   "id": "doc",
+   "start": "But if the cracking-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But if the cracking",
+     "until": "see a doctor",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PAIN?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But if the cracking",
+     "until": "see a doctor"
+    },
+    {
+     "type": "text",
+     "text": "PAIN • SWELLING • LOCKING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "But if the cracking",
+     "until": "see a doctor"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "see a doctor"
+    },
+    {
+     "type": "text",
+     "text": "DOCTOR",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "see a doctor"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose knees sound"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose knees sound"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose knees sound",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose knees sound",
+     "until": "Because your knees"
+    },
+    {
+     "type": "text",
+     "text": "POPCORN KNEES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose knees sound",
+     "until": "Because your knees"
+    },
+    {
+     "type": "text",
+     "text": "CRACK...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your knees"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your knees"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Relax-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Those sounds are-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Strong legs protect-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "But if the cracking-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "every time you squat",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Relax",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Those sounds are",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Strong legs protect",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "But if the cracking",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "whose knees sound",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your knees",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

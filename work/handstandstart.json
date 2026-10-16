@@ -1,0 +1,696 @@
+{
+ "title": "Want a handstand? Start here",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "handstand",
+   "kicking",
+   "wall",
+   "step",
+   "pike",
+   "shoulders",
+   "walks",
+   "hands",
+   "ten",
+   "chest",
+   "thirty",
+   "floor"
+  ],
+  "bottom": [
+   [
+    "Don't start by kicking",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "do a handstand#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "do a handstand#1"
+    },
+    {
+     "type": "text",
+     "text": "HANDSTAND",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "do a handstand#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_handstand",
+     "shadow": true,
+     "enter": "whip",
+     "at": "do a handstand#1",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "HANDSTAND?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 200,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "do a handstand#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "do a handstand#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "dont",
+   "start": "Don't start by kicking-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Don't start by kicking",
+     "until": "Start at a wall",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO KICKING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Don't start by kicking",
+     "until": "Start at a wall"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_wall",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Start at a wall",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "AT A WALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Start at a wall"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": "Step one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step one",
+     "until": "Pike push-ups to build",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step one",
+     "until": "Pike push-ups to build"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Pike push-ups to build"
+    },
+    {
+     "type": "text",
+     "text": "PIKE PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pike push-ups to build",
+     "until": "strong shoulders"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "strong shoulders"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": "Step two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step two",
+     "until": "Wall walks",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step two",
+     "until": "Wall walks"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pike_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Wall walks",
+     "until": "walk your hands closer",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "WALL WALKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Wall walks",
+     "until": "walk your hands closer"
+    },
+    {
+     "type": "image",
+     "asset": "hero_handstand",
+     "shadow": true,
+     "enter": "whip",
+     "at": "walk your hands closer",
+     "until": "Hold for ten seconds",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "HANDS CLOSER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "walk your hands closer",
+     "until": "Hold for ten seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_handstand_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold for ten seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10 SEC",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold for ten seconds"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": "Step three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step three",
+     "until": "Chest-to-wall",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step three",
+     "until": "Chest-to-wall"
+    },
+    {
+     "type": "image",
+     "asset": "hero_handstand_v3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Chest-to-wall",
+     "until": "thirty seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHEST TO WALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Chest-to-wall",
+     "until": "thirty seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_handstand",
+     "shadow": true,
+     "enter": "whip",
+     "at": "thirty seconds",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "30 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Practice five minutes-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Practice five minutes",
+     "until": "on a soft floor",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 MIN A DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Practice five minutes",
+     "until": "on a soft floor"
+    },
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "on a soft floor"
+    },
+    {
+     "type": "text",
+     "text": "SOFT FLOOR",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "on a soft floor"
+    },
+    {
+     "type": "image",
+     "asset": "prop_yoga_mat",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "on a soft floor"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who keeps falling"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who keeps falling"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who keeps falling",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who keeps falling",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "KEEPS FALLING OVER",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who keeps falling",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "HANDSTAND...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you want"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you want"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Don't start by kicking-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Step one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Step two-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Step three-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Practice five minutes-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "do a handstand#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Don't start by kicking",
+   "src": "sfx_scream"
+  },
+  {
+   "at": "Pike push-ups to build",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Wall walks",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Chest-to-wall",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "on a soft floor",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who keeps falling",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you want",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "title": "Dead hang 1 minute a day for 30 days",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "hang",
+   "minute",
+   "thirty",
+   "grip",
+   "stronger",
+   "shoulders",
+   "looser",
+   "pull-up",
+   "bar",
+   "straight",
+   "short",
+   "seconds"
+  ],
+  "bottom": [
+   [
+    "Here's what happens",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Thirty days"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Thirty days"
+    },
+    {
+     "type": "text",
+     "text": "DEAD HANG",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Thirty days"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty days",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Thirty days",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "start": "Here's what happens-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's what happens",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT HAPPENS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's what happens"
+    }
+   ]
+  },
+  {
+   "id": "weeks",
+   "start": "Week one-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week one",
+     "until": "your hands give out",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "WEEK 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week one",
+     "until": "your hands give out"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drop_from_bar",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your hands give out",
+     "until": "Week two"
+    },
+    {
+     "type": "text",
+     "text": "20 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your hands give out",
+     "until": "Week two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week two",
+     "until": "your grip gets",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "WEEK 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week two",
+     "until": "your grip gets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your grip gets",
+     "until": "By the end of the month"
+    },
+    {
+     "type": "text",
+     "text": "GRIP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your grip gets",
+     "until": "By the end of the month"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "By the end of the month",
+     "until": "your shoulders feel looser",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "FULL MINUTE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "By the end of the month",
+     "until": "your shoulders feel looser"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shoulder_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your shoulders feel looser",
+     "until": "and your first pull-up"
+    },
+    {
+     "type": "text",
+     "text": "LOOSER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your shoulders feel looser",
+     "until": "and your first pull-up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your first pull-up",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "FIRST PULL-UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your first pull-up"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "start": "Grip the bar fully-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Grip the bar fully"
+    },
+    {
+     "type": "text",
+     "text": "FULL GRIP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Grip the bar fully",
+     "until": "arms straight"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT ARMS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "arms straight",
+     "until": "Split the minute"
+    },
+    {
+     "type": "text",
+     "text": "SHORT HANGS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Split the minute"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who can't hang"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who can't hang"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who can't hang",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who can't hang",
+     "until": "Because one minute"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T HANG 10 SEC",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who can't hang",
+     "until": "Because one minute"
+    },
+    {
+     "type": "text",
+     "text": "1 MINUTE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because one minute"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because one minute"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's what happens-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Week one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Grip the bar fully-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Thirty days",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "your hands give out",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "your grip gets",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "By the end of the month",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "and your first pull-up",
+   "src": "sfx_yeah_boy"
+  },
+  {
+   "at": "Split the minute",
+   "src": "sfx_click"
+  },
+  {
+   "at": "who can't hang",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because one minute",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

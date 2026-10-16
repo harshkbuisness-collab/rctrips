@@ -1,0 +1,535 @@
+{
+ "title": "Why you can't see your abs",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "abs",
+   "see",
+   "everyone",
+   "hidden",
+   "fat",
+   "percent",
+   "crunches",
+   "less",
+   "protein",
+   "walking",
+   "training",
+   "six"
+  ],
+  "bottom": [
+   [
+    "Everyone has abs",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "but you can't see them"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "but you can't see them"
+    },
+    {
+     "type": "text",
+     "text": "WHERE ARE THEY?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but you can't see them"
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but you can't see them"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T SEE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but you can't see them"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "but you can't see them",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Everyone has abs-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Everyone has abs",
+     "until": "They're hidden under fat",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EVERYONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Everyone has abs",
+     "until": "They're hidden under fat"
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "Everyone has abs",
+     "until": "They're hidden under fat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They're hidden under fat"
+    },
+    {
+     "type": "text",
+     "text": "HIDDEN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "They're hidden under fat"
+    }
+   ]
+  },
+  {
+   "id": "number",
+   "start": "For most men-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "For most men",
+     "until": "That doesn't come from",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-15%",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 300,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "For most men",
+     "until": "That doesn't come from"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That doesn't come from"
+    },
+    {
+     "type": "text",
+     "text": "CRUNCHES",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "That doesn't come from+0.35",
+     "at": "That doesn't come from"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "It comes from eating-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_grocery_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It comes from eating",
+     "until": "eating enough protein",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EAT LESS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It comes from eating",
+     "until": "eating enough protein"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drinking_shake",
+     "shadow": true,
+     "enter": "whip",
+     "at": "eating enough protein",
+     "until": "and walking more"
+    },
+    {
+     "type": "text",
+     "text": "PROTEIN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "eating enough protein",
+     "until": "and walking more"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and walking more",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WALK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and walking more"
+    }
+   ]
+  },
+  {
+   "id": "keep",
+   "start": "Keep training your abs-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Keep training your abs"
+    },
+    {
+     "type": "text",
+     "text": "KEEP TRAINING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep training your abs",
+     "until": "so they stand out"
+    },
+    {
+     "type": "text",
+     "text": "STAND OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "so they stand out"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "doing crunches for"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "doing crunches for"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "doing crunches for",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "enter": "whip",
+     "at": "doing crunches for",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "CRUNCHES FOR A 6-PACK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "doing crunches for",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "ABS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you train"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Everyone has abs-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "For most men-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "It comes from eating-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Keep training your abs-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "but you can't see them",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "They're hidden under fat",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "For most men",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "That doesn't come from",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "and walking more",
+   "src": "sfx_running"
+  },
+  {
+   "at": "so they stand out",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "doing crunches for",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you train",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

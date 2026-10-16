@@ -1,0 +1,524 @@
+{
+ "title": "Scale stuck but clothes looser? You're winning",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "scale",
+   "moving",
+   "clothes",
+   "looser",
+   "good",
+   "news",
+   "fat",
+   "muscle",
+   "waist",
+   "photo",
+   "winning",
+   "same"
+  ],
+  "bottom": [
+   [
+    "That's good news",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "but your clothes feel"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "but your clothes feel"
+    },
+    {
+     "type": "text",
+     "text": "SCALE STUCK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but your clothes feel"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but your clothes feel"
+    },
+    {
+     "type": "text",
+     "text": "LOOSER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but your clothes feel"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "but your clothes feel",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "good",
+   "start": "That's good news-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's good news",
+     "until": "When you train and eat",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GOOD NEWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's good news",
+     "until": "When you train and eat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you train and eat",
+     "until": "and build muscle",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOSE FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you train and eat",
+     "until": "and build muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and build muscle",
+     "until": "The scale stays"
+    },
+    {
+     "type": "text",
+     "text": "BUILD MUSCLE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and build muscle",
+     "until": "The scale stays"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The scale stays",
+     "until": "but your body changes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAME WEIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The scale stays",
+     "until": "but your body changes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but your body changes"
+    },
+    {
+     "type": "text",
+     "text": "NEW BODY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but your body changes"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "So don't trust only-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So don't trust only",
+     "until": "Measure your waist"
+    },
+    {
+     "type": "text",
+     "text": "ONLY THE SCALE",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "So don't trust only+0.35",
+     "at": "So don't trust only",
+     "until": "Measure your waist"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Measure your waist",
+     "until": "Take a photo",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WAIST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Measure your waist",
+     "until": "Take a photo"
+    },
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Take a photo"
+    },
+    {
+     "type": "text",
+     "text": "PHOTO",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Take a photo"
+    }
+   ]
+  },
+  {
+   "id": "win",
+   "start": "If your waist is-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If your waist is",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WINNING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "If your waist is"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "If your waist is",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who quits because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who quits because"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who quits because",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_despair_kneel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who quits because",
+     "until": "the scale isn't moving#2"
+    },
+    {
+     "type": "text",
+     "text": "QUITS OVER THE SCALE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who quits because",
+     "until": "the scale isn't moving#2"
+    },
+    {
+     "type": "text",
+     "text": "SCALE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "the scale isn't moving#2"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the scale isn't moving#2"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's good news-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So don't trust only-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "If your waist is-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "but your clothes feel",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "and build muscle",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "So don't trust only",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Take a photo",
+   "src": "sfx_camera"
+  },
+  {
+   "at": "If your waist is",
+   "src": "sfx_yeah_boy"
+  },
+  {
+   "at": "who quits because",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "the scale isn't moving#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

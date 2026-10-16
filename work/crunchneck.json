@@ -1,0 +1,589 @@
+{
+ "title": "Crunches hurt your neck? Fix it",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "crunches",
+   "neck",
+   "pulling",
+   "head",
+   "abs",
+   "chest",
+   "fist",
+   "ceiling",
+   "squeezing",
+   "shoulder",
+   "slowly",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "You're pulling your head",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "hurt your neck#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown_hands_head",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "hurt your neck#1",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "CRUNCHES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "hurt your neck#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hurt your neck#1"
+    },
+    {
+     "type": "text",
+     "text": "NECK PAIN?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "hurt your neck#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "hurt your neck#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You're pulling your head-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown_hands_head",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're pulling your head",
+     "until": "Your neck does the work",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "PULLING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're pulling your head",
+     "until": "Your neck does the work"
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your neck does the work",
+     "until": "not your abs"
+    },
+    {
+     "type": "text",
+     "text": "NECK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your neck does the work",
+     "until": "not your abs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not your abs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ABS OFF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "not your abs"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So fix it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So fix it",
+     "until": "Hands lightly on your chest",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So fix it",
+     "until": "Hands lightly on your chest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hands lightly on your chest",
+     "until": "Keep a fist of space",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "HANDS ON CHEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands lightly on your chest",
+     "until": "Keep a fist of space"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Keep a fist of space",
+     "until": "Look at the ceiling"
+    },
+    {
+     "type": "text",
+     "text": "FIST SPACE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep a fist of space",
+     "until": "Look at the ceiling"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Look at the ceiling",
+     "until": "Curl up by squeezing",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "LOOK UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Look at the ceiling",
+     "until": "Curl up by squeezing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_reverse_crunch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Curl up by squeezing",
+     "until": "Lower slowly",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE ABS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Curl up by squeezing",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "Curl up by squeezing",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lower slowly",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twelve to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "12-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "rubbing his neck"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "rubbing his neck"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "rubbing his neck",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "rubbing his neck",
+     "until": "Because crunches"
+    },
+    {
+     "type": "text",
+     "text": "NECK HURTS AFTER ABS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "rubbing his neck",
+     "until": "Because crunches"
+    },
+    {
+     "type": "text",
+     "text": "CRUNCHES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because crunches"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because crunches"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You're pulling your head-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So fix it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Twelve to fifteen-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "hurt your neck#1",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Your neck does the work",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "not your abs",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Keep a fist of space",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Curl up by squeezing",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "rubbing his neck",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because crunches",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

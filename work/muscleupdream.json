@@ -1,0 +1,595 @@
+{
+ "title": "Want a muscle-up? Do this first",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "muscle-up",
+   "pull-ups",
+   "five",
+   "ten",
+   "explosive",
+   "chest",
+   "bar",
+   "dips",
+   "pull",
+   "lean",
+   "push",
+   "months"
+  ],
+  "bottom": [
+   [
+    "First, you need strong",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "want a muscle-up#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "want a muscle-up#1"
+    },
+    {
+     "type": "text",
+     "text": "MUSCLE-UP",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "want a muscle-up#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_muscle_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "want a muscle-up#1"
+    },
+    {
+     "type": "text",
+     "text": "MUSCLE-UP?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "want a muscle-up#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "want a muscle-up#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": "First, you need strong-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "First, you need strong",
+     "until": "Not five",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "PULL-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "First, you need strong",
+     "until": "Not five"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Not five",
+     "until": "At least ten clean"
+    },
+    {
+     "type": "text",
+     "text": "NOT 5",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Not five",
+     "until": "At least ten clean"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "At least ten clean",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "10 CLEAN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "At least ten clean"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": "Then train explosive-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then train explosive",
+     "until": "until your chest reaches",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "EXPLOSIVE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then train explosive",
+     "until": "until your chest reaches"
+    },
+    {
+     "type": "image",
+     "asset": "hero_muscle_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "until your chest reaches",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHEST TO BAR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 170,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "until your chest reaches"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": "Then practice straight-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_dip_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then practice straight",
+     "until": "Pull high",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "BAR DIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then practice straight",
+     "until": "Pull high"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pull high",
+     "until": "lean forward",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "PULL HIGH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull high",
+     "until": "lean forward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_muscle_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "lean forward",
+     "until": "push down"
+    },
+    {
+     "type": "text",
+     "text": "LEAN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lean forward",
+     "until": "push down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_muscle_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "push down",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PUSH DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "push down"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "start": "Most people need months-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people need months",
+     "until": "That's normal",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MONTHS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people need months",
+     "until": "That's normal"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's normal"
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's normal"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "trying muscle-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "trying muscle-ups"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "trying muscle-ups",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "trying muscle-ups",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "ZERO PULL-UPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "trying muscle-ups",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "MUSCLE-UP...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you want"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you want"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "First, you need strong-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Then train explosive-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Then practice straight-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Most people need months-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "want a muscle-up#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Not five",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Then train explosive",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "until your chest reaches",
+   "src": "sfx_raaah"
+  },
+  {
+   "at": "push down",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "That's normal",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "trying muscle-ups",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you want",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,498 @@
+{
+ "title": "Your school bag is a full gym",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "bag",
+   "gym",
+   "backpack",
+   "books",
+   "weight",
+   "squats",
+   "rows",
+   "presses",
+   "bench",
+   "twelve",
+   "rounds",
+   "easy"
+  ],
+  "bottom": [
+   [
+    "Fill a backpack",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "a full gym#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_gym_bag",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "a full gym#1"
+    },
+    {
+     "type": "text",
+     "text": "SCHOOL BAG GYM",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "a full gym#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a full gym#1"
+    },
+    {
+     "type": "text",
+     "text": "FULL GYM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a full gym#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "a full gym#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "start": "Fill a backpack-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_gym_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fill a backpack",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BOOKS = WEIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fill a backpack"
+    }
+   ]
+  },
+  {
+   "id": "moves",
+   "start": "Backpack squats-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Backpack squats",
+     "until": "Backpack rows"
+    },
+    {
+     "type": "text",
+     "text": "SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Backpack squats",
+     "until": "Backpack rows"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deadlift_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Backpack rows",
+     "until": "Backpack presses",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ROWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Backpack rows",
+     "until": "Backpack presses"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Backpack presses",
+     "until": "like a bench press",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "PRESSES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Backpack presses",
+     "until": "like a bench press"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown_hands_head",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like a bench press",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "BENCH PRESS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like a bench press"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve reps each-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twelve reps each",
+     "until": "three rounds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "12 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve reps each",
+     "until": "three rounds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three rounds",
+     "until": "Add more books"
+    },
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three rounds",
+     "until": "Add more books"
+    },
+    {
+     "type": "image",
+     "asset": "hero_gym_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Add more books",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "+ BOOKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Add more books"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who says he has no weights"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who says he has no weights"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who says he has no weights",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says he has no weights",
+     "until": "Because your school"
+    },
+    {
+     "type": "text",
+     "text": "NO WEIGHTS?",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says he has no weights",
+     "until": "Because your school"
+    },
+    {
+     "type": "text",
+     "text": "SCHOOL BAG...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your school"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your school"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Fill a backpack-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Backpack squats-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Twelve reps each-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "a full gym#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Fill a backpack",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Backpack rows",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Backpack presses",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Add more books",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "who says he has no weights",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your school",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

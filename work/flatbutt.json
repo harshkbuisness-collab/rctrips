@@ -1,0 +1,535 @@
+{
+ "title": "Sitting all day makes your glutes lazy",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "sitting",
+   "glutes",
+   "lazy",
+   "hours",
+   "bridges",
+   "back",
+   "heels",
+   "hips",
+   "squeeze",
+   "single-leg",
+   "burn",
+   "daily"
+  ],
+  "bottom": [
+   [
+    "When you sit for hours",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "makes your glutes lazy"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "makes your glutes lazy"
+    },
+    {
+     "type": "text",
+     "text": "SITTING ALL DAY",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "makes your glutes lazy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "makes your glutes lazy"
+    },
+    {
+     "type": "text",
+     "text": "LAZY GLUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "makes your glutes lazy"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "makes your glutes lazy",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "When you sit for hours-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you sit for hours",
+     "until": "and other muscles",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SWITCHED OFF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you sit for hours",
+     "until": "and other muscles"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and other muscles"
+    },
+    {
+     "type": "text",
+     "text": "TAKE OVER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and other muscles"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Wake them up-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Wake them up",
+     "until": "and squeeze hard"
+    },
+    {
+     "type": "text",
+     "text": "GLUTE BRIDGES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Wake them up",
+     "until": "Lie on your back"
+    },
+    {
+     "type": "text",
+     "text": "FEET CLOSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lie on your back",
+     "until": "Push through your heels"
+    },
+    {
+     "type": "text",
+     "text": "HEELS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push through your heels",
+     "until": "and squeeze hard"
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "and squeeze hard",
+     "until": "Then single-leg bridges"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and squeeze hard",
+     "until": "Then single-leg bridges"
+    },
+    {
+     "type": "image",
+     "asset": "hero_glute_bridge_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then single-leg bridges",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "ONE LEG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then single-leg bridges"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen reps each-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen reps each",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen reps each",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "every day"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every day",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DAILY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "every day"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who sits nine hours"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who sits nine hours"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who sits nine hours",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who sits nine hours",
+     "until": "Because sitting"
+    },
+    {
+     "type": "text",
+     "text": "SITS 9 HOURS A DAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who sits nine hours",
+     "until": "Because sitting"
+    },
+    {
+     "type": "text",
+     "text": "SITTING...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because sitting"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because sitting"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "When you sit for hours-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Wake them up-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Fifteen reps each-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "makes your glutes lazy",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "When you sit for hours",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "Wake them up",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "and squeeze hard",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Then single-leg bridges",
+   "src": "sfx_whoosh_fire"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "who sits nine hours",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because sitting",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

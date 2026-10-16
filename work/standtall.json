@@ -1,0 +1,552 @@
+{
+ "title": "Look taller in photos instantly",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "shorter",
+   "photos",
+   "posture",
+   "height",
+   "fix",
+   "glutes",
+   "shoulders",
+   "head",
+   "ceiling",
+   "chin",
+   "taller",
+   "rows"
+  ],
+  "bottom": [
+   [
+    "It's your posture",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "than you are"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "than you are"
+    },
+    {
+     "type": "text",
+     "text": "LOOK SHORTER?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "than you are"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "than you are"
+    },
+    {
+     "type": "text",
+     "text": "IN PHOTOS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "than you are"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "than you are",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It's your posture-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's your posture",
+     "until": "not your height",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's your posture",
+     "until": "not your height"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not your height"
+    },
+    {
+     "type": "text",
+     "text": "HEIGHT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not your height+0.35",
+     "at": "not your height"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "Here's the instant fix-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's the instant fix",
+     "until": "Feet hip-width",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "INSTANT FIX",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's the instant fix",
+     "until": "Feet hip-width"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stand",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Feet hip-width",
+     "until": "Squeeze your glutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FEET",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Feet hip-width",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hands_hips_look_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squeeze your glutes",
+     "until": "Pull your shoulders back"
+    },
+    {
+     "type": "text",
+     "text": "GLUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes",
+     "until": "Pull your shoulders back"
+    },
+    {
+     "type": "glow",
+     "anchor": "glutes",
+     "color": "#2FD94E",
+     "at": "Squeeze your glutes",
+     "until": "Pull your shoulders back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pull your shoulders back",
+     "until": "Push the top of your head",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull your shoulders back",
+     "until": "Push the top of your head"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Push the top of your head",
+     "until": "chin slightly down"
+    },
+    {
+     "type": "text",
+     "text": "HEAD UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push the top of your head",
+     "until": "chin slightly down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stand",
+     "shadow": true,
+     "enter": "whip",
+     "at": "chin slightly down",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHIN DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "chin slightly down"
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "start": "You'll look taller-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_superhero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You'll look taller",
+     "until": "Train your upper back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TALLER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You'll look taller",
+     "until": "Train your upper back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Train your upper back"
+    },
+    {
+     "type": "text",
+     "text": "ROWS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Train your upper back"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who slouches in every"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who slouches in every"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who slouches in every",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who slouches in every",
+     "until": "Because you look"
+    },
+    {
+     "type": "text",
+     "text": "SLOUCHES IN PHOTOS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who slouches in every",
+     "until": "Because you look"
+    },
+    {
+     "type": "text",
+     "text": "SHORTER...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you look"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you look"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It's your posture-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Here's the instant fix-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "You'll look taller-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "than you are",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "not your height",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Pull your shoulders back",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Push the top of your head",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "You'll look taller",
+   "src": "sfx_rizz"
+  },
+  {
+   "at": "who slouches in every",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you look",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

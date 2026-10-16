@@ -1,0 +1,546 @@
+{
+ "title": "Soft chest? How to fix it",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "chest",
+   "soft",
+   "sagging",
+   "fat",
+   "weak",
+   "deficit",
+   "walking",
+   "muscle",
+   "push-ups",
+   "decline",
+   "negatives",
+   "doctor"
+  ],
+  "bottom": [
+   [
+    "Most of the time",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "like it's sagging"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "like it's sagging"
+    },
+    {
+     "type": "text",
+     "text": "SOFT CHEST?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "like it's sagging"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like it's sagging"
+    },
+    {
+     "type": "text",
+     "text": "SAGGING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like it's sagging"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "like it's sagging",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Most of the time-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most of the time",
+     "until": "You can't burn fat",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "JUST FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most of the time",
+     "until": "You can't burn fat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You can't burn fat",
+     "until": "Lower your overall"
+    },
+    {
+     "type": "text",
+     "text": "SPOT FAT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "You can't burn fat+0.35",
+     "at": "You can't burn fat",
+     "until": "Lower your overall"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lower your overall",
+     "until": "and more walking",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOWER FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower your overall",
+     "until": "and more walking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and more walking"
+    },
+    {
+     "type": "text",
+     "text": "WALK MORE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and more walking"
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "start": "At the same time-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "At the same time",
+     "until": "Push-ups, decline",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BUILD MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "At the same time",
+     "until": "Push-ups, decline"
+    },
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Push-ups, decline",
+     "until": "and slow negatives"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS • DECLINE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Push-ups, decline",
+     "until": "and slow negatives"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.5,
+     "enter": "whip",
+     "at": "and slow negatives"
+    },
+    {
+     "type": "text",
+     "text": "SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and slow negatives"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three hard sets-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three hard sets",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 HARD SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three hard sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "until": "If you feel a firm"
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week",
+     "until": "If you feel a firm"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If you feel a firm"
+    },
+    {
+     "type": "text",
+     "text": "FIRM LUMP? SEE A DOCTOR",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "If you feel a firm"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who never takes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who never takes"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who never takes",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who never takes",
+     "until": "Because your chest"
+    },
+    {
+     "type": "text",
+     "text": "NEVER SHIRTLESS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who never takes",
+     "until": "Because your chest"
+    },
+    {
+     "type": "text",
+     "text": "SOFT CHEST...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your chest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your chest"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Most of the time-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "At the same time-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Three hard sets-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "like it's sagging",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You can't burn fat",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "and more walking",
+   "src": "sfx_running"
+  },
+  {
+   "at": "Push-ups, decline",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "and slow negatives",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "If you feel a firm",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "who never takes",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your chest",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,588 @@
+{
+ "title": "Big body, skinny neck? Train it gently",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "body",
+   "neck",
+   "skinny",
+   "muscle",
+   "gentle",
+   "bed",
+   "chin",
+   "chest",
+   "face",
+   "slow",
+   "jerking",
+   "hurts"
+  ],
+  "bottom": [
+   [
+    "Your neck is a muscle",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Skinny neck"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Skinny neck"
+    },
+    {
+     "type": "text",
+     "text": "BIG BODY",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Skinny neck"
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Skinny neck"
+    },
+    {
+     "type": "text",
+     "text": "SKINNY NECK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Skinny neck"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Skinny neck",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your neck is a muscle-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your neck is a muscle",
+     "until": "And almost nobody",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your neck is a muscle",
+     "until": "And almost nobody"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And almost nobody"
+    },
+    {
+     "type": "text",
+     "text": "NOBODY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And almost nobody"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Start gentle-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Start gentle",
+     "until": "Lie on your back on a bed",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GENTLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Start gentle",
+     "until": "Lie on your back on a bed"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lie on your back on a bed",
+     "until": "Slowly lift your chin",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "OFF THE EDGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lie on your back on a bed",
+     "until": "Slowly lift your chin"
+    },
+    {
+     "type": "image",
+     "asset": "prop_bed",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Lie on your back on a bed",
+     "until": "Slowly lift your chin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Slowly lift your chin",
+     "until": "Then lie face down",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "CHIN UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Slowly lift your chin",
+     "until": "Then lie face down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then lie face down",
+     "until": "and lift your head back",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "FACE DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then lie face down",
+     "until": "and lift your head back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and lift your head back",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "HEAD BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lift your head back"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen slow reps-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen slow reps",
+     "until": "two sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15 SLOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen slow reps",
+     "until": "two sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "two sets",
+     "until": "No jerking"
+    },
+    {
+     "type": "text",
+     "text": "2 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "two sets",
+     "until": "No jerking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "No jerking",
+     "until": "Stop if anything hurts",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO JERKING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "No jerking",
+     "until": "Stop if anything hurts"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Stop if anything hurts"
+    },
+    {
+     "type": "text",
+     "text": "PAIN? STOP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Stop if anything hurts"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose neck looks"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose neck looks"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose neck looks",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose neck looks",
+     "until": "Because big body"
+    },
+    {
+     "type": "text",
+     "text": "PENCIL NECK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose neck looks",
+     "until": "Because big body"
+    },
+    {
+     "type": "text",
+     "text": "BIG BODY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because big body"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because big body"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your neck is a muscle-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Start gentle-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Fifteen slow reps-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Skinny neck",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Your neck is a muscle",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Slowly lift your chin",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "and lift your head back",
+   "src": "sfx_click"
+  },
+  {
+   "at": "No jerking",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "whose neck looks",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because big body",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

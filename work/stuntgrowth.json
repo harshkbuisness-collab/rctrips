@@ -1,0 +1,538 @@
+{
+ "title": "Does working out stunt your growth? No",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "growth",
+   "stunt",
+   "myth",
+   "height",
+   "genetics",
+   "sleep",
+   "nutrition",
+   "safe",
+   "teens",
+   "form",
+   "heavy",
+   "technique"
+  ],
+  "bottom": [
+   [
+    "Your height is mostly",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "That's an old myth"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "That's an old myth"
+    },
+    {
+     "type": "text",
+     "text": "STUNT GROWTH?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "That's an old myth"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's an old myth"
+    },
+    {
+     "type": "text",
+     "text": "MYTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's an old myth"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "That's an old myth",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "height",
+   "start": "Your height is mostly-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your height is mostly",
+     "until": "sleep, and nutrition",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GENETICS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your height is mostly",
+     "until": "sleep, and nutrition"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "sleep, and nutrition",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SLEEP + FOOD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "sleep, and nutrition"
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "start": "Studies show strength-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Studies show strength",
+     "until": "when the form is good",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAFE FOR TEENS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Studies show strength",
+     "until": "when the form is good"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "when the form is good"
+    },
+    {
+     "type": "text",
+     "text": "GOOD FORM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "when the form is good"
+    }
+   ]
+  },
+  {
+   "id": "risk",
+   "start": "The real risk is-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The real risk is",
+     "until": "and showing off",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BAD FORM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The real risk is",
+     "until": "and showing off"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and showing off"
+    },
+    {
+     "type": "text",
+     "text": "SHOWING OFF",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and showing off"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So start with bodyweight-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "So start with bodyweight",
+     "until": "learn proper technique"
+    },
+    {
+     "type": "text",
+     "text": "BODYWEIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So start with bodyweight",
+     "until": "learn proper technique"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "learn proper technique",
+     "until": "and sleep well"
+    },
+    {
+     "type": "text",
+     "text": "TECHNIQUE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "learn proper technique",
+     "until": "and sleep well"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and sleep well",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SLEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and sleep well"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who's scared to train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who's scared to train"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who's scared to train",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_scared_peek",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who's scared to train",
+     "until": "Because working"
+    },
+    {
+     "type": "text",
+     "text": "SCARED AT 16",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who's scared to train",
+     "until": "Because working"
+    },
+    {
+     "type": "text",
+     "text": "GROWTH...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because working"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because working"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your height is mostly-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Studies show strength-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "The real risk is-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So start with bodyweight-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's an old myth",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Your height is mostly",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "Studies show strength",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "and showing off",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "and sleep well",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "who's scared to train",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because working",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,627 @@
+{
+ "title": "Skinny calves? You're training them wrong",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "calves",
+   "skinny",
+   "walking",
+   "range",
+   "slow",
+   "stair",
+   "heels",
+   "stretch",
+   "pause",
+   "squeeze",
+   "sets",
+   "leg"
+  ],
+  "bottom": [
+   [
+    "Walking isn't enough",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "no matter what"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "no matter what"
+    },
+    {
+     "type": "text",
+     "text": "SKINNY CALVES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "no matter what"
+    },
+    {
+     "type": "glow",
+     "anchor": "calves",
+     "color": "#E3262E",
+     "at": "start",
+     "until": "no matter what"
+    },
+    {
+     "type": "image",
+     "asset": "hero_confused_scratch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "no matter what"
+    },
+    {
+     "type": "text",
+     "text": "WHY?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "no matter what"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "no matter what",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Walking isn't enough-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Walking isn't enough",
+     "until": "Calves need full range"
+    },
+    {
+     "type": "text",
+     "text": "WALKING",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "Walking isn't enough+0.35",
+     "at": "Walking isn't enough",
+     "until": "Calves need full range"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Calves need full range",
+     "until": "and slow reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FULL RANGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Calves need full range",
+     "until": "and slow reps"
+    },
+    {
+     "type": "glow",
+     "anchor": "calves",
+     "color": "#2FD94E",
+     "at": "Calves need full range",
+     "until": "and slow reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and slow reps"
+    },
+    {
+     "type": "text",
+     "text": "SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and slow reps"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "Stand on a stair-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Stand on a stair",
+     "until": "Lower your heels",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ON A STAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Stand on a stair",
+     "until": "Lower your heels"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lower your heels",
+     "until": "Pause",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HEELS DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower your heels",
+     "until": "Pause"
+    },
+    {
+     "type": "glow",
+     "anchor": "calves",
+     "color": "#2FD94E",
+     "at": "Lower your heels",
+     "until": "Pause"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pause",
+     "until": "Then rise as high"
+    },
+    {
+     "type": "text",
+     "text": "PAUSE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pause",
+     "until": "Then rise as high"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then rise as high",
+     "until": "and squeeze for one",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "RISE UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then rise as high",
+     "until": "and squeeze for one"
+    },
+    {
+     "type": "glow",
+     "anchor": "calves",
+     "color": "#2FD94E",
+     "at": "Then rise as high",
+     "until": "and squeeze for one"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and squeeze for one"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and squeeze for one"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen to twenty-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen to twenty",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15-20",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen to twenty",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "every other day"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "every other day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every other day",
+     "until": "Too easy",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "OTHER DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "every other day",
+     "until": "Too easy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Too easy"
+    },
+    {
+     "type": "text",
+     "text": "ONE LEG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Too easy"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "hiding his calves"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "hiding his calves"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "hiding his calves",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hiding his calves",
+     "until": "Because your calves"
+    },
+    {
+     "type": "text",
+     "text": "HIDING HIS CALVES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "hiding his calves",
+     "until": "Because your calves"
+    },
+    {
+     "type": "text",
+     "text": "CALVES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your calves"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your calves"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Walking isn't enough-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Stand on a stair-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Fifteen to twenty-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "no matter what",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Walking isn't enough",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Lower your heels",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Pause",
+   "src": "sfx_click"
+  },
+  {
+   "at": "and squeeze for one",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Too easy",
+   "src": "sfx_ez"
+  },
+  {
+   "at": "hiding his calves",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your calves",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

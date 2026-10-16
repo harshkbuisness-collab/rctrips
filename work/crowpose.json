@@ -1,0 +1,532 @@
+{
+ "title": "The first calisthenics skill anyone can learn",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "first",
+   "calisthenics",
+   "skill",
+   "crow",
+   "pose",
+   "balance",
+   "hands",
+   "elbows",
+   "knees",
+   "forward",
+   "pillow",
+   "holds"
+  ],
+  "bottom": [
+   [
+    "It's called the crow",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "anyone can learn"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "anyone can learn"
+    },
+    {
+     "type": "text",
+     "text": "FIRST SKILL",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "anyone can learn"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "anyone can learn"
+    },
+    {
+     "type": "text",
+     "text": "ANYONE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "anyone can learn"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "anyone can learn",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "start": "It's called the crow-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crow_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's called the crow",
+     "until": "And it takes balance",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CROW POSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's called the crow",
+     "until": "And it takes balance"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it takes balance"
+    },
+    {
+     "type": "text",
+     "text": "BALANCE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And it takes balance"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "Squat down, hands flat-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squat down, hands flat",
+     "until": "Bend your elbows",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HANDS FLAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squat down, hands flat",
+     "until": "Bend your elbows"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Bend your elbows",
+     "until": "rest your knees"
+    },
+    {
+     "type": "text",
+     "text": "BEND ELBOWS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bend your elbows",
+     "until": "rest your knees"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "rest your knees",
+     "until": "Look forward, not down",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "KNEES ON ARMS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "rest your knees",
+     "until": "Look forward, not down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Look forward, not down",
+     "until": "Slowly lean forward",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOOK FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Look forward, not down",
+     "until": "Slowly lean forward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Slowly lean forward"
+    },
+    {
+     "type": "text",
+     "text": "LEAN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Slowly lean forward"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Slowly lean forward",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "start": "Put a pillow-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_scared_peek",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Put a pillow",
+     "until": "Practice ten-second holds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PILLOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Put a pillow",
+     "until": "Practice ten-second holds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crow_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Practice ten-second holds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10 SEC DAILY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Practice ten-second holds"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who thinks he has"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who thinks he has"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who thinks he has",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who thinks he has",
+     "until": "Because the first"
+    },
+    {
+     "type": "text",
+     "text": "NO BALANCE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who thinks he has",
+     "until": "Because the first"
+    },
+    {
+     "type": "text",
+     "text": "CROW...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because the first"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because the first"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It's called the crow-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Squat down, hands flat-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Put a pillow-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "anyone can learn",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And it takes balance",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "rest your knees",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Slowly lean forward",
+   "src": "sfx_wow"
+  },
+  {
+   "at": "Put a pillow",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Practice ten-second holds",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who thinks he has",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because the first",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

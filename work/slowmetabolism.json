@@ -1,0 +1,561 @@
+{
+ "title": "You probably don't have a slow metabolism",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "slow",
+   "metabolism",
+   "people",
+   "size",
+   "similar",
+   "movement",
+   "steps",
+   "calories",
+   "snacks",
+   "oil",
+   "track",
+   "muscle"
+  ],
+  "bottom": [
+   [
+    "People of the same size",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Most people don't"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Most people don't"
+    },
+    {
+     "type": "text",
+     "text": "SLOW METABOLISM?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Most people don't"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people don't"
+    },
+    {
+     "type": "text",
+     "text": "PROBABLY NOT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people don't"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Most people don't",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "People of the same size-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "People of the same size",
+     "until": "a surprisingly similar",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAME SIZE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "People of the same size",
+     "until": "a surprisingly similar"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a surprisingly similar"
+    },
+    {
+     "type": "text",
+     "text": "SIMILAR",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a surprisingly similar"
+    }
+   ]
+  },
+  {
+   "id": "move",
+   "start": "The bigger difference-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The bigger difference",
+     "until": "Steps, standing",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MOVEMENT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The bigger difference",
+     "until": "Steps, standing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Steps, standing",
+     "until": "That can change hundreds"
+    },
+    {
+     "type": "text",
+     "text": "STEPS • STANDING • WALKING",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Steps, standing",
+     "until": "That can change hundreds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_mind_blown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That can change hundreds"
+    },
+    {
+     "type": "text",
+     "text": "HUNDREDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That can change hundreds"
+    }
+   ]
+  },
+  {
+   "id": "eat",
+   "start": "And most people eat-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And most people eat",
+     "until": "Snacks, drinks",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EAT MORE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And most people eat",
+     "until": "Snacks, drinks"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tempted_pizza",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Snacks, drinks"
+    },
+    {
+     "type": "text",
+     "text": "SNACKS • DRINKS • OIL",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Snacks, drinks"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So walk more-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So walk more",
+     "until": "track your food",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WALK MORE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So walk more",
+     "until": "track your food"
+    },
+    {
+     "type": "image",
+     "asset": "hero_writing_notes",
+     "shadow": true,
+     "enter": "whip",
+     "at": "track your food",
+     "until": "and build muscle"
+    },
+    {
+     "type": "text",
+     "text": "TRACK FOOD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "track your food",
+     "until": "and build muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and build muscle",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BUILD MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and build muscle"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who blames his"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who blames his"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who blames his",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who blames his",
+     "until": "Because you think"
+    },
+    {
+     "type": "text",
+     "text": "BLAMES HIS METABOLISM",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who blames his",
+     "until": "Because you think"
+    },
+    {
+     "type": "text",
+     "text": "SLOW...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you think"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you think"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "People of the same size-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "The bigger difference-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "And most people eat-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So walk more-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Most people don't",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "a surprisingly similar",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "That can change hundreds",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "Snacks, drinks",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "track your food",
+   "src": "sfx_click"
+  },
+  {
+   "at": "who blames his",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you think",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,587 @@
+{
+ "title": "Big upper body, chicken legs? Do this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "upper",
+   "chicken",
+   "legs",
+   "squats",
+   "load",
+   "bulgarian",
+   "split",
+   "chair",
+   "knee",
+   "heel",
+   "free",
+   "reps"
+  ],
+  "bottom": [
+   [
+    "Bodyweight squats stop",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Chicken legs"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Chicken legs"
+    },
+    {
+     "type": "text",
+     "text": "BIG UPPER BODY",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Chicken legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Chicken legs"
+    },
+    {
+     "type": "text",
+     "text": "CHICKEN LEGS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Chicken legs"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Chicken legs",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Bodyweight squats stop-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Bodyweight squats stop",
+     "until": "Your legs need more load",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TOO EASY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bodyweight squats stop",
+     "until": "Your legs need more load"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your legs need more load",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MORE LOAD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your legs need more load"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do Bulgarian-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "So do Bulgarian",
+     "until": "Lower straight down"
+    },
+    {
+     "type": "text",
+     "text": "BULGARIAN SPLIT SQUATS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "So do Bulgarian",
+     "until": "Back foot on a chair"
+    },
+    {
+     "type": "text",
+     "text": "BACK FOOT UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Back foot on a chair",
+     "until": "Lower straight down"
+    },
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Lower straight down",
+     "until": "Push through your front heel"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower straight down",
+     "until": "Push through your front heel"
+    },
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.1,
+     "enter": "whip",
+     "at": "Push through your front heel"
+    },
+    {
+     "type": "text",
+     "text": "FRONT HEEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push through your front heel"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "All your bodyweight-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lunge",
+     "shadow": true,
+     "enter": "whip",
+     "at": "All your bodyweight",
+     "until": "like adding weight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ONE LEG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "All your bodyweight",
+     "until": "like adding weight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like adding weight"
+    },
+    {
+     "type": "text",
+     "text": "FREE WEIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like adding weight"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Eight to twelve-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Eight to twelve",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "8-12",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Eight to twelve",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who skips leg day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who skips leg day"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who skips leg day",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_leg_day_zombie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who skips leg day",
+     "until": "Because big upper"
+    },
+    {
+     "type": "text",
+     "text": "SKIPS LEG DAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who skips leg day",
+     "until": "Because big upper"
+    },
+    {
+     "type": "text",
+     "text": "UPPER BODY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because big upper"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because big upper"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Bodyweight squats stop-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So do Bulgarian-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "All your bodyweight-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Eight to twelve-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Chicken legs",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Your legs need more load",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Lower straight down",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Push through your front heel",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "like adding weight",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "who skips leg day",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because big upper",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

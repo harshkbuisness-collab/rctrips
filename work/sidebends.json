@@ -1,0 +1,451 @@
+{
+ "title": "Heavy side bends make your waist WIDER",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "side",
+   "bends",
+   "waist",
+   "smaller",
+   "wider",
+   "heavy",
+   "muscles",
+   "thicker",
+   "fat",
+   "core",
+   "planks",
+   "V-shape"
+  ],
+  "bottom": [
+   [
+    "Actually, they can make",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "make your waist smaller"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "make your waist smaller"
+    },
+    {
+     "type": "text",
+     "text": "SIDE BENDS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "make your waist smaller"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "make your waist smaller"
+    },
+    {
+     "type": "text",
+     "text": "SMALLER?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "make your waist smaller"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "make your waist smaller",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Actually, they can make-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_this_big",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Actually, they can make",
+     "until": "Side bends with heavy weights",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WIDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Actually, they can make",
+     "until": "Side bends with heavy weights"
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Side bends with heavy weights",
+     "until": "Bigger muscles there"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER SIDES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Side bends with heavy weights",
+     "until": "Bigger muscles there"
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#E3262E",
+     "at": "Side bends with heavy weights",
+     "until": "Bigger muscles there"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Bigger muscles there",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THICKER WAIST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bigger muscles there"
+    }
+   ]
+  },
+  {
+   "id": "fat",
+   "start": "A smaller waist comes-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A smaller waist comes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOSE FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "A smaller waist comes"
+    }
+   ]
+  },
+  {
+   "id": "core",
+   "start": "So train your core-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "So train your core",
+     "until": "and build your shoulders"
+    },
+    {
+     "type": "text",
+     "text": "PLANKS + LEG RAISES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "So train your core",
+     "until": "and build your shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and build your shoulders",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "V-SHAPE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and build your shoulders"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "doing side bends"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "doing side bends"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "doing side bends",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "doing side bends",
+     "until": "Because heavy side"
+    },
+    {
+     "type": "text",
+     "text": "HEAVY SIDE BENDS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "doing side bends",
+     "until": "Because heavy side"
+    },
+    {
+     "type": "text",
+     "text": "SIDE BENDS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because heavy side"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because heavy side"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Actually, they can make-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "A smaller waist comes-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So train your core-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "make your waist smaller",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Actually, they can make",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "Bigger muscles there",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "A smaller waist comes",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "and build your shoulders",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "doing side bends",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because heavy side",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

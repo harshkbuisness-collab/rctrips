@@ -1,0 +1,525 @@
+{
+ "title": "Can't touch your toes? Stretch like this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "toes",
+   "hamstrings",
+   "wrong",
+   "bounce",
+   "round",
+   "hinge",
+   "flat",
+   "stretch",
+   "thirty",
+   "reach",
+   "leg",
+   "weeks"
+  ],
+  "bottom": [
+   [
+    "Most people stretch",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "touch your toes#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "TOUCH YOUR TOES?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Most people stretch-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people stretch",
+     "until": "Don't bounce",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WRONG WAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people stretch",
+     "until": "Don't bounce"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Don't bounce",
+     "until": "and don't round your back"
+    },
+    {
+     "type": "text",
+     "text": "NO BOUNCING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Don't bounce",
+     "until": "and don't round your back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and don't round your back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO ROUNDING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and don't round your back"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Sit on the floor-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Sit on the floor",
+     "until": "Hinge forward from your hips",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ONE LEG STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Sit on the floor",
+     "until": "Hinge forward from your hips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hinge forward from your hips",
+     "until": "Hold thirty seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HINGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hinge forward from your hips",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "glow",
+     "anchor": "legs",
+     "color": "#2FD94E",
+     "at": "Hinge forward from your hips",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold thirty seconds",
+     "until": "Breathe out and reach"
+    },
+    {
+     "type": "text",
+     "text": "30 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold thirty seconds",
+     "until": "Breathe out and reach"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Breathe out and reach",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "REACH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Breathe out and reach"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three times each leg-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three times each leg",
+     "until": "every day",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3X EACH LEG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three times each leg",
+     "until": "every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every day",
+     "until": "Many people touch"
+    },
+    {
+     "type": "text",
+     "text": "DAILY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every day",
+     "until": "Many people touch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Many people touch",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FEW WEEKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Many people touch"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who can't reach past"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who can't reach past"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who can't reach past",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stretch_hamstring",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who can't reach past",
+     "until": "Because can't touch"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T PASS HIS KNEES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who can't reach past",
+     "until": "Because can't touch"
+    },
+    {
+     "type": "text",
+     "text": "TOES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because can't touch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because can't touch"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Most people stretch-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Sit on the floor-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Three times each leg-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "touch your toes#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Don't bounce",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Hinge forward from your hips",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Hold thirty seconds",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Many people touch",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "who can't reach past",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because can't touch",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

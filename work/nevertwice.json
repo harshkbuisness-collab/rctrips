@@ -1,0 +1,559 @@
+{
+ "title": "Missed a workout? Never miss two in a row",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "missed",
+   "workout",
+   "never",
+   "two",
+   "rule",
+   "normal",
+   "life",
+   "habit",
+   "training",
+   "push-ups",
+   "walk",
+   "showing"
+  ],
+  "bottom": [
+   [
+    "That one rule",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Never miss two#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Never miss two#1"
+    },
+    {
+     "type": "text",
+     "text": "MISSED A WORKOUT?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Never miss two#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Never miss two#1"
+    },
+    {
+     "type": "text",
+     "text": "NEVER TWICE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Never miss two#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Never miss two#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "start": "That one rule-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That one rule",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 RULE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That one rule"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Missing one day-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Missing one day",
+     "until": "Life happens",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Missing one day",
+     "until": "Life happens"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Life happens",
+     "until": "But missing two days"
+    },
+    {
+     "type": "text",
+     "text": "LIFE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Life happens",
+     "until": "But missing two days"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But missing two days",
+     "until": "the habit of not",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NEW HABIT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But missing two days",
+     "until": "the habit of not"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the habit of not"
+    },
+    {
+     "type": "text",
+     "text": "NOT TRAINING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "the habit of not"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So if you missed-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So if you missed",
+     "until": "Even ten push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO SOMETHING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So if you missed",
+     "until": "Even ten push-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Even ten push-ups",
+     "until": "and a short walk"
+    },
+    {
+     "type": "text",
+     "text": "10 PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Even ten push-ups",
+     "until": "and a short walk"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and a short walk"
+    },
+    {
+     "type": "text",
+     "text": "SHORT WALK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and a short walk"
+    }
+   ]
+  },
+  {
+   "id": "streak",
+   "start": "Your streak is about-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your streak is about",
+     "until": "not being perfect",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHOW UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your streak is about",
+     "until": "not being perfect"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not being perfect"
+    },
+    {
+     "type": "text",
+     "text": "PERFECT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not being perfect+0.35",
+     "at": "not being perfect"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who quits after one"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who quits after one"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who quits after one",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who quits after one",
+     "until": "Because never"
+    },
+    {
+     "type": "text",
+     "text": "QUITS AFTER 1 MISS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who quits after one",
+     "until": "Because never"
+    },
+    {
+     "type": "text",
+     "text": "NEVER TWICE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because never"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because never"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That one rule-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Missing one day-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So if you missed-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Your streak is about-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Never miss two#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Life happens",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "But missing two days",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "Even ten push-ups",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "not being perfect",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "who quits after one",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because never",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

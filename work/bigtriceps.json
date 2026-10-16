@@ -1,0 +1,585 @@
+{
+ "title": "Want bigger arms? Train triceps",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "biceps",
+   "bigger",
+   "arms",
+   "triceps",
+   "thirds",
+   "back",
+   "chair",
+   "dips",
+   "parallel",
+   "diamond",
+   "elbows",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "But your triceps",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "for bigger arms#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "for bigger arms#1"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER ARMS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "for bigger arms#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "for bigger arms#1"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "for bigger arms#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "for bigger arms#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "But your triceps-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But your triceps",
+     "until": "about two thirds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TRICEPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But your triceps",
+     "until": "about two thirds"
+    },
+    {
+     "type": "glow",
+     "anchor": "arms",
+     "color": "#2FD94E",
+     "at": "But your triceps",
+     "until": "about two thirds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_big",
+     "shadow": true,
+     "enter": "whip",
+     "at": "about two thirds",
+     "until": "train the back of them",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2/3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 320,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "about two thirds",
+     "until": "train the back of them"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "train the back of them",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "train the back of them"
+    }
+   ]
+  },
+  {
+   "id": "dips",
+   "start": "Chair dips-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Chair dips",
+     "until": "then press up"
+    },
+    {
+     "type": "text",
+     "text": "CHAIR DIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Chair dips",
+     "until": "lower until your upper arms"
+    },
+    {
+     "type": "text",
+     "text": "PARALLEL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lower until your upper arms",
+     "until": "then press up"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "then press up"
+    },
+    {
+     "type": "text",
+     "text": "PRESS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "then press up"
+    }
+   ]
+  },
+  {
+   "id": "diamond",
+   "start": "Diamond push-ups-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_diamond_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Diamond push-ups"
+    },
+    {
+     "type": "text",
+     "text": "DIAMOND PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Diamond push-ups",
+     "until": "elbows tight"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS TIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "elbows tight"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Ten to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who only does curls"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who only does curls"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who only does curls",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who only does curls",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "ONLY DOES CURLS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who only does curls",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you train"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "But your triceps-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Chair dips-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Diamond push-ups-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Ten to fifteen-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "for bigger arms#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "about two thirds",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "train the back of them",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "then press up",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "elbows tight",
+   "src": "sfx_click"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "who only does curls",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you train",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

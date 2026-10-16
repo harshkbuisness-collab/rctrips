@@ -1,0 +1,531 @@
+{
+ "title": "Gained 2 kg overnight? It's not fat",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "kilos",
+   "overnight",
+   "relax",
+   "fat",
+   "salt",
+   "carbs",
+   "water",
+   "food",
+   "calories",
+   "morning",
+   "toilet",
+   "average"
+  ],
+  "bottom": [
+   [
+    "That's not fat",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Relax"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Relax"
+    },
+    {
+     "type": "text",
+     "text": "+2 KG OVERNIGHT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Relax"
+    },
+    {
+     "type": "image",
+     "asset": "hero_meditating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Relax"
+    },
+    {
+     "type": "text",
+     "text": "RELAX",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Relax"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Relax",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "That's not fat-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's not fat",
+     "until": "Your weight goes up"
+    },
+    {
+     "type": "text",
+     "text": "FAT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "That's not fat+0.35",
+     "at": "That's not fat",
+     "until": "Your weight goes up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your weight goes up",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "UP AND DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your weight goes up"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Salt, carbs-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Salt, carbs",
+     "until": "can add one or two"
+    },
+    {
+     "type": "text",
+     "text": "SALT • CARBS • WATER • FOOD",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Salt, carbs",
+     "until": "can add one or two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "can add one or two"
+    },
+    {
+     "type": "text",
+     "text": "1-2 KG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 260,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "can add one or two"
+    }
+   ]
+  },
+  {
+   "id": "fat",
+   "start": "To gain one kilo-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_tempted_pizza",
+     "shadow": true,
+     "enter": "whip",
+     "at": "To gain one kilo",
+     "until": "thousands of extra",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 KG FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "To gain one kilo",
+     "until": "thousands of extra"
+    },
+    {
+     "type": "image",
+     "asset": "hero_mind_blown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "thousands of extra"
+    },
+    {
+     "type": "text",
+     "text": "THOUSANDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "thousands of extra"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "So weigh yourself-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So weigh yourself",
+     "until": "after the toilet",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EVERY MORNING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 160,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So weigh yourself",
+     "until": "after the toilet"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "after the toilet",
+     "until": "and look at the weekly"
+    },
+    {
+     "type": "text",
+     "text": "AFTER TOILET",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "after the toilet",
+     "until": "and look at the weekly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and look at the weekly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEKLY AVERAGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and look at the weekly"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who panics at"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who panics at"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who panics at",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who panics at",
+     "until": "Because you gained"
+    },
+    {
+     "type": "text",
+     "text": "PANICS AT THE SCALE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who panics at",
+     "until": "Because you gained"
+    },
+    {
+     "type": "text",
+     "text": "2 KILOS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you gained"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you gained"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's not fat-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Salt, carbs-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "To gain one kilo-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So weigh yourself-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Relax",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "That's not fat",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "can add one or two",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "thousands of extra",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "after the toilet",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "who panics at",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you gained",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

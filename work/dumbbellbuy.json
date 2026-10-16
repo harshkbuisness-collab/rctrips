@@ -1,0 +1,444 @@
+{
+ "title": "Buying your first dumbbells? Watch this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "dumbbells",
+   "first",
+   "light",
+   "pair",
+   "month",
+   "adjustable",
+   "heavy",
+   "body",
+   "years",
+   "beginners",
+   "kilos",
+   "fixed"
+  ],
+  "bottom": [
+   [
+    "You'll outgrow it",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Don't buy one light"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Don't buy one light"
+    },
+    {
+     "type": "text",
+     "text": "FIRST DUMBBELLS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Don't buy one light"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Don't buy one light"
+    },
+    {
+     "type": "text",
+     "text": "NOT LIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Don't buy one light"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Don't buy one light",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You'll outgrow it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You'll outgrow it",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 MONTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You'll outgrow it"
+    }
+   ]
+  },
+  {
+   "id": "buy",
+   "start": "Buy an adjustable-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pick_dumbbell",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Buy an adjustable",
+     "until": "One pair that goes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ADJUSTABLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Buy an adjustable",
+     "until": "One pair that goes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "One pair that goes",
+     "until": "covers your whole body"
+    },
+    {
+     "type": "text",
+     "text": "LIGHT TO HEAVY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "One pair that goes",
+     "until": "covers your whole body"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "covers your whole body",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHOLE BODY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "covers your whole body"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "For most beginners-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "For most beginners",
+     "until": "If you buy fixed",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15-20 KG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 280,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "For most beginners",
+     "until": "If you buy fixed"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_alternate",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If you buy fixed"
+    },
+    {
+     "type": "text",
+     "text": "LIGHT + HEAVY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "If you buy fixed"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with tiny two-kilo"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with tiny two-kilo"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with tiny two-kilo",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with tiny two-kilo",
+     "until": "Because buying"
+    },
+    {
+     "type": "text",
+     "text": "TINY 2-KG DUMBBELLS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with tiny two-kilo",
+     "until": "Because buying"
+    },
+    {
+     "type": "text",
+     "text": "DUMBBELLS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because buying"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because buying"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You'll outgrow it-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Buy an adjustable-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "For most beginners-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Don't buy one light",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You'll outgrow it",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Buy an adjustable",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "covers your whole body",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "For most beginners",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "with tiny two-kilo",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because buying",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

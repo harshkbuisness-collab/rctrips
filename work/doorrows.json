@@ -1,0 +1,581 @@
+{
+ "title": "No pull-up bar? Use your door",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "pull-up",
+   "bar",
+   "door",
+   "pulling",
+   "towel",
+   "handle",
+   "lean",
+   "chest",
+   "squeeze",
+   "slowly",
+   "harder",
+   "locked"
+  ],
+  "bottom": [
+   [
+    "Most home workouts",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Use your door"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.64,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Use your door"
+    },
+    {
+     "type": "text",
+     "text": "NO PULL-UP BAR?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Use your door"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Use your door"
+    },
+    {
+     "type": "text",
+     "text": "YOUR DOOR",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Use your door"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Use your door",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Most home workouts-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most home workouts",
+     "until": "This fixes it",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "NO PULLING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most home workouts",
+     "until": "This fixes it"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_towel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "This fixes it",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 TOWEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "This fixes it"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Loop a towel-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Pull your chest"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Loop a towel",
+     "until": "Hold both ends",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DOOR HANDLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Loop a towel",
+     "until": "Hold both ends"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.64,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Hold both ends",
+     "until": "and lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "LEAN BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold both ends",
+     "until": "Pull your chest"
+    },
+    {
+     "type": "text",
+     "text": "CHEST TO DOOR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull your chest",
+     "until": "squeeze your shoulder blades"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 200,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "squeeze your shoulder blades",
+     "until": "and lower slowly"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.64,
+     "rate": 0.6,
+     "enter": "whip",
+     "at": "and lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Walk your feet closer-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Walk your feet closer",
+     "until": "Ten to fifteen",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Walk your feet closer",
+     "until": "Ten to fifteen"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "Make sure the door",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "Make sure the door"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Make sure the door",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOCKED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Make sure the door"
+    },
+    {
+     "type": "text",
+     "text": "LOCK THE DOOR",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Make sure the door"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with no back workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with no back workout"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with no back workout",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with no back workout",
+     "until": "Because no pull-up"
+    },
+    {
+     "type": "text",
+     "text": "NO BACK WORKOUT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with no back workout",
+     "until": "Because no pull-up"
+    },
+    {
+     "type": "text",
+     "text": "NO BAR...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because no pull-up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because no pull-up"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Most home workouts-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Loop a towel-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Walk your feet closer-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Use your door",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "This fixes it",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Pull your chest",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "squeeze your shoulder blades",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Walk your feet closer",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Make sure the door",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "with no back workout",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because no pull-up",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

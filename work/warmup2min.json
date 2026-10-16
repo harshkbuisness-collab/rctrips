@@ -1,0 +1,565 @@
+{
+ "title": "2-minute warm-up before every workout",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "warm-up",
+   "minutes",
+   "circles",
+   "knees",
+   "squats",
+   "push-ups",
+   "warm",
+   "joints",
+   "stronger",
+   "pain",
+   "heavy",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "Here's one that",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "it takes too long"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "cut",
+     "at": "start",
+     "until": "it takes too long"
+    },
+    {
+     "type": "text",
+     "text": "WARM-UP?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "it takes too long"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "it takes too long"
+    },
+    {
+     "type": "text",
+     "text": "TOO LONG?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "it takes too long"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "it takes too long",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "two",
+   "start": "Here's one that-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's one that",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 MINUTES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's one that"
+    }
+   ]
+  },
+  {
+   "id": "moves",
+   "start": "Thirty seconds of arm-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_arm_circles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty seconds of arm",
+     "until": "Thirty seconds of high",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ARM CIRCLES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds of arm",
+     "until": "Thirty seconds of high"
+    },
+    {
+     "type": "image",
+     "asset": "hero_high_knees",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty seconds of high",
+     "until": "Ten slow bodyweight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HIGH KNEES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds of high",
+     "until": "Ten slow bodyweight"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Ten slow bodyweight",
+     "until": "Ten push-ups"
+    },
+    {
+     "type": "text",
+     "text": "SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten slow bodyweight",
+     "until": "Ten push-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Ten push-ups"
+    },
+    {
+     "type": "text",
+     "text": "KNEE PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten push-ups"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Your muscles get warm-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your muscles get warm",
+     "until": "your joints get ready"
+    },
+    {
+     "type": "text",
+     "text": "WARM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your muscles get warm",
+     "until": "your joints get ready"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your joints get ready",
+     "until": "and your first set",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "READY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your joints get ready",
+     "until": "and your first set"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your first set"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your first set"
+    }
+   ]
+  },
+  {
+   "id": "save",
+   "start": "Two minutes now-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Two minutes now",
+     "until": "weeks of pain",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 MIN NOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two minutes now",
+     "until": "weeks of pain"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "weeks of pain"
+    },
+    {
+     "type": "text",
+     "text": "WEEKS OF PAIN",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "weeks of pain+0.35",
+     "at": "weeks of pain"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who jumps straight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who jumps straight"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who jumps straight",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who jumps straight",
+     "until": "Because you skip"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT TO HEAVY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who jumps straight",
+     "until": "Because you skip"
+    },
+    {
+     "type": "text",
+     "text": "WARM-UP...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you skip"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you skip"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's one that-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Thirty seconds of arm-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Your muscles get warm-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Two minutes now-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "it takes too long",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Here's one that",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Thirty seconds of high",
+   "src": "sfx_running"
+  },
+  {
+   "at": "Ten push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "and your first set",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "weeks of pain",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "who jumps straight",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you skip",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

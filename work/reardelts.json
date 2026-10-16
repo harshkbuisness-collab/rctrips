@@ -1,0 +1,657 @@
+{
+ "title": "Shoulders flat from the side? Train rear delts",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "shoulders",
+   "round",
+   "flat",
+   "back",
+   "flies",
+   "bottles",
+   "hinge",
+   "thumbs",
+   "squeeze",
+   "slowly",
+   "fuller",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "You're missing the back",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "but flat from the side"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "but flat from the side"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but flat from the side"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but flat from the side"
+    },
+    {
+     "type": "text",
+     "text": "FLAT?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but flat from the side"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "but flat from the side",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You're missing the back-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're missing the back",
+     "until": "Almost nobody trains",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "REAR DELTS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're missing the back",
+     "until": "Almost nobody trains"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#E3262E",
+     "at": "You're missing the back",
+     "until": "Almost nobody trains"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Almost nobody trains"
+    },
+    {
+     "type": "text",
+     "text": "NOBODY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Almost nobody trains"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do reverse flies-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "and squeeze your shoulder blades"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "So do reverse flies",
+     "until": "Hold two water bottles"
+    },
+    {
+     "type": "text",
+     "text": "REVERSE FLIES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do reverse flies",
+     "until": "Hold two water bottles"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold two water bottles",
+     "until": "Hinge forward"
+    },
+    {
+     "type": "text",
+     "text": "2 BOTTLES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold two water bottles",
+     "until": "Hinge forward"
+    },
+    {
+     "type": "image",
+     "asset": "prop_water_bottle",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Hold two water bottles",
+     "until": "Hinge forward"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Hinge forward",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "HINGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hinge forward",
+     "until": "Lift your arms out"
+    },
+    {
+     "type": "text",
+     "text": "THUMBS DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lift your arms out",
+     "until": "and squeeze your shoulder blades"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and squeeze your shoulder blades",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.6,
+     "enter": "whip",
+     "at": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "They make your shoulders-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They make your shoulders",
+     "until": "and pull them back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FULLER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "They make your shoulders",
+     "until": "and pull them back"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#2FD94E",
+     "at": "They make your shoulders",
+     "until": "and pull them back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and pull them back"
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and pull them back"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen to twenty-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen to twenty",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15-20",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen to twenty",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with flat shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with flat shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with flat shoulders",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with flat shoulders",
+     "until": "Because your shoulders"
+    },
+    {
+     "type": "text",
+     "text": "FLAT SHOULDERS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with flat shoulders",
+     "until": "Because your shoulders"
+    },
+    {
+     "type": "text",
+     "text": "ROUND...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your shoulders"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You're missing the back-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So do reverse flies-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "They make your shoulders-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Fifteen to twenty-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "but flat from the side",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Almost nobody trains",
+   "src": "sfx_shush"
+  },
+  {
+   "at": "Hold two water bottles",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "and squeeze your shoulder blades",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "They make your shoulders",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "with flat shoulders",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your shoulders",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

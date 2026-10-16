@@ -1,0 +1,537 @@
+{
+ "title": "How much water do you really need?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "water",
+   "glasses",
+   "magic",
+   "weather",
+   "sweat",
+   "pee",
+   "yellow",
+   "fine",
+   "liters",
+   "hot",
+   "bottle",
+   "sip"
+  ],
+  "bottom": [
+   [
+    "How much you need",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "isn't a magic number"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "isn't a magic number"
+    },
+    {
+     "type": "text",
+     "text": "8 GLASSES?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "isn't a magic number"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "isn't a magic number"
+    },
+    {
+     "type": "text",
+     "text": "MAGIC NUMBER",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "isn't a magic number+0.35",
+     "at": "isn't a magic number"
+    }
+   ]
+  },
+  {
+   "id": "depends",
+   "start": "How much you need-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "How much you need",
+     "until": "the weather",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "IT DEPENDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "How much you need",
+     "until": "the weather"
+    },
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the weather",
+     "until": "how much you sweat"
+    },
+    {
+     "type": "text",
+     "text": "WEATHER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "the weather",
+     "until": "how much you sweat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "how much you sweat",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SWEAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "how much you sweat"
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "start": "Easy check-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Easy check",
+     "until": "Pale yellow means",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PEE CHECK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Easy check",
+     "until": "Pale yellow means"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pale yellow means",
+     "until": "Dark yellow means",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PALE = FINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pale yellow means",
+     "until": "Dark yellow means"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Dark yellow means"
+    },
+    {
+     "type": "text",
+     "text": "DARK = DRINK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Dark yellow means"
+    }
+   ]
+  },
+  {
+   "id": "amount",
+   "start": "For most active people-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "For most active people",
+     "until": "more on hot days",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2-3 LITERS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "For most active people",
+     "until": "more on hot days"
+    },
+    {
+     "type": "image",
+     "asset": "prop_water_bottle",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "For most active people",
+     "until": "more on hot days"
+    },
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "more on hot days",
+     "until": "Keep a bottle with you"
+    },
+    {
+     "type": "text",
+     "text": "MORE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "more on hot days",
+     "until": "Keep a bottle with you"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Keep a bottle with you",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SIP ALL DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep a bottle with you"
+    },
+    {
+     "type": "image",
+     "asset": "prop_water_bottle",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Keep a bottle with you"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who drinks one glass"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who drinks one glass"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who drinks one glass",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who drinks one glass",
+     "until": "Because eight"
+    },
+    {
+     "type": "text",
+     "text": "ONE GLASS A DAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who drinks one glass",
+     "until": "Because eight"
+    },
+    {
+     "type": "text",
+     "text": "8 GLASSES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because eight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because eight"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "How much you need-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Easy check-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "For most active people-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "isn't a magic number",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "the weather",
+   "src": "sfx_wind"
+  },
+  {
+   "at": "Easy check",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "Dark yellow means",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "For most active people",
+   "src": "sfx_gulp"
+  },
+  {
+   "at": "who drinks one glass",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because eight",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

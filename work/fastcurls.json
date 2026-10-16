@@ -1,0 +1,591 @@
+{
+ "title": "Your curls are too fast",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "curls",
+   "fast",
+   "swing",
+   "biceps",
+   "slow",
+   "elbows",
+   "squeeze",
+   "seconds",
+   "lowering",
+   "lighter",
+   "jug",
+   "reps"
+  ],
+  "bottom": [
+   [
+    "Your biceps barely work",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "You swing the weight"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 2.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "You swing the weight"
+    },
+    {
+     "type": "text",
+     "text": "TOO FAST",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "You swing the weight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_alternate",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You swing the weight"
+    },
+    {
+     "type": "text",
+     "text": "SWINGING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You swing the weight"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "You swing the weight",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your biceps barely work-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your biceps barely work",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BARELY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your biceps barely work"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Slow down-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Slow down",
+     "until": "then lower for three"
+    },
+    {
+     "type": "text",
+     "text": "SLOW DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Slow down",
+     "until": "Elbows pinned"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS PINNED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Elbows pinned",
+     "until": "Curl up in one second"
+    },
+    {
+     "type": "text",
+     "text": "1 SEC UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Curl up in one second",
+     "until": "squeeze at the top"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "squeeze at the top",
+     "until": "then lower for three"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.5,
+     "enter": "whip",
+     "at": "then lower for three"
+    },
+    {
+     "type": "text",
+     "text": "3 SEC DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "then lower for three"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "The lowering part-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_curl_down",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The lowering part",
+     "until": "and most people skip it",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOWERING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The lowering part",
+     "until": "and most people skip it"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and most people skip it"
+    },
+    {
+     "type": "text",
+     "text": "SKIPPED",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and most people skip it"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Use a lighter weight-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Use a lighter weight",
+     "until": "A water jug",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LIGHTER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Use a lighter weight",
+     "until": "A water jug"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_down",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A water jug",
+     "until": "Ten to twelve"
+    },
+    {
+     "type": "text",
+     "text": "WATER JUG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "A water jug",
+     "until": "Ten to twelve"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to twelve",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-12",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to twelve",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "swinging curls"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "swinging curls"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "swinging curls",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "swinging curls",
+     "until": "Because your curls"
+    },
+    {
+     "type": "text",
+     "text": "SWINGING IN THE MIRROR",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "swinging curls",
+     "until": "Because your curls"
+    },
+    {
+     "type": "text",
+     "text": "TOO FAST...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your curls"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your curls"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your biceps barely work-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Slow down-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "The lowering part-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Use a lighter weight-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You swing the weight",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Your biceps barely work",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Slow down",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "squeeze at the top",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "then lower for three",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "swinging curls",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your curls",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

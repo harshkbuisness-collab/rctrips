@@ -1,0 +1,602 @@
+{
+ "title": "Lower back aches from sitting? Do supermans",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "back",
+   "aches",
+   "sitting",
+   "weak",
+   "supermans",
+   "face",
+   "lift",
+   "glutes",
+   "three",
+   "slowly",
+   "walking",
+   "doctor"
+  ],
+  "bottom": [
+   [
+    "Often, your back muscles",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "after sitting all day"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "after sitting all day"
+    },
+    {
+     "type": "text",
+     "text": "LOWER BACK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "after sitting all day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "after sitting all day"
+    },
+    {
+     "type": "text",
+     "text": "ACHES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "after sitting all day"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "after sitting all day",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Often, your back muscles-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Often, your back muscles",
+     "until": "Supermans make them",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEAK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Often, your back muscles",
+     "until": "Supermans make them"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#E3262E",
+     "at": "Often, your back muscles",
+     "until": "Supermans make them"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Supermans make them",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SUPERMANS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Supermans make them"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Lie face down-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lie face down",
+     "until": "Lift your arms, chest",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "FACE DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lie face down",
+     "until": "Lift your arms, chest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lift your arms, chest",
+     "until": "Squeeze your glutes",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "LIFT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lift your arms, chest",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "Lift your arms, chest",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squeeze your glutes",
+     "until": "and hold for three",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes",
+     "until": "and hold for three"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and hold for three",
+     "until": "Lower slowly",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "3 SEC",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and hold for three",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Lower slowly",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve reps, three-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twelve reps, three",
+     "until": "every other day",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "12 x 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve reps, three",
+     "until": "every other day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every other day",
+     "until": "Pair it with walking"
+    },
+    {
+     "type": "text",
+     "text": "OTHER DAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every other day",
+     "until": "Pair it with walking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pair it with walking",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WALK + PLANKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pair it with walking"
+    }
+   ]
+  },
+  {
+   "id": "doc",
+   "start": "If the pain is sharp-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If the pain is sharp"
+    },
+    {
+     "type": "text",
+     "text": "SHARP PAIN? SEE A DOCTOR",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "If the pain is sharp"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with the stiff back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with the stiff back"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with the stiff back",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with the stiff back",
+     "until": "Because your lower"
+    },
+    {
+     "type": "text",
+     "text": "STIFF BACK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with the stiff back",
+     "until": "Because your lower"
+    },
+    {
+     "type": "text",
+     "text": "BACK...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your lower"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your lower"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Often, your back muscles-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Lie face down-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Twelve reps, three-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "If the pain is sharp-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "after sitting all day",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Supermans make them",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Lift your arms, chest",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "and hold for three",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "If the pain is sharp",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "with the stiff back",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your lower",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

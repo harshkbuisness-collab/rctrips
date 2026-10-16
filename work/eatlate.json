@@ -1,0 +1,481 @@
+{
+ "title": "Eating late at night makes you fat? Mostly a myth",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "late",
+   "night",
+   "fat",
+   "myth",
+   "eight",
+   "calories",
+   "chips",
+   "sweets",
+   "light",
+   "protein",
+   "curd",
+   "milk"
+  ],
+  "bottom": [
+   [
+    "That's mostly a myth",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "makes you fat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "makes you fat"
+    },
+    {
+     "type": "text",
+     "text": "LATE NIGHT EATING",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "makes you fat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "makes you fat"
+    },
+    {
+     "type": "text",
+     "text": "FAT?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "makes you fat"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "makes you fat",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "myth",
+   "start": "That's mostly a myth-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's mostly a myth",
+     "until": "Your body doesn't store"
+    },
+    {
+     "type": "text",
+     "text": "MYTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's mostly a myth",
+     "until": "Your body doesn't store"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your body doesn't store",
+     "until": "Fat gain comes from",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "8 PM?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your body doesn't store",
+     "until": "Fat gain comes from"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fat gain comes from",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TOTAL CALORIES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fat gain comes from"
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "The real problem with-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_tempted_pizza",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The real problem with",
+     "until": "Chips, sweets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT YOU EAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The real problem with",
+     "until": "Chips, sweets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Chips, sweets"
+    },
+    {
+     "type": "text",
+     "text": "CHIPS • SWEETS • 2ND DINNER",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Chips, sweets"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So if you're hungry-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_cooking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So if you're hungry",
+     "until": "Curd, eggs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EAT LIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So if you're hungry",
+     "until": "Curd, eggs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drinking_shake",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Curd, eggs"
+    },
+    {
+     "type": "text",
+     "text": "CURD • EGGS • MILK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Curd, eggs"
+    },
+    {
+     "type": "image",
+     "asset": "prop_eggs",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Curd, eggs"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who won't eat after"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who won't eat after"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who won't eat after",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who won't eat after",
+     "until": "Because eating late"
+    },
+    {
+     "type": "text",
+     "text": "NO FOOD AFTER 7",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who won't eat after",
+     "until": "Because eating late"
+    },
+    {
+     "type": "text",
+     "text": "LATE NIGHT...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because eating late"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because eating late"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's mostly a myth-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "The real problem with-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So if you're hungry-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "makes you fat",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That's mostly a myth",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Fat gain comes from",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Chips, sweets",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "So if you're hungry",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "who won't eat after",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because eating late",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

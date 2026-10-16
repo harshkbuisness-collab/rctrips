@@ -1,0 +1,495 @@
+{
+ "title": "Rounded shoulders? Grab a towel",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "rounded",
+   "shoulders",
+   "towel",
+   "arms",
+   "straight",
+   "pull",
+   "apart",
+   "rip",
+   "squeeze",
+   "blades",
+   "five",
+   "back"
+  ],
+  "bottom": [
+   [
+    "Hold a towel in front",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Grab a towel"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Grab a towel"
+    },
+    {
+     "type": "text",
+     "text": "ROUNDED SHOULDERS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Grab a towel"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_towel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Grab a towel"
+    },
+    {
+     "type": "text",
+     "text": "TOWEL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Grab a towel"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Grab a towel",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Hold a towel in front-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold a towel in front",
+     "until": "Pull your hands apart",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ARMS STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold a towel in front",
+     "until": "Pull your hands apart"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arm_circles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pull your hands apart",
+     "until": "like you're trying to rip",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PULL APART",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull your hands apart",
+     "until": "like you're trying to rip"
+    },
+    {
+     "type": "image",
+     "asset": "hero_angry_shout",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like you're trying to rip",
+     "until": "Squeeze your shoulder blades"
+    },
+    {
+     "type": "text",
+     "text": "RIP IT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like you're trying to rip",
+     "until": "Squeeze your shoulder blades"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squeeze your shoulder blades",
+     "until": "Hold for five seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your shoulder blades",
+     "until": "Hold for five seconds"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulder_blades",
+     "color": "#2FD94E",
+     "at": "Squeeze your shoulder blades",
+     "until": "Hold for five seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold for five seconds"
+    },
+    {
+     "type": "text",
+     "text": "5 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold for five seconds"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Ten reps, a few-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten reps, a few",
+     "until": "It wakes up your upper",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten reps, a few",
+     "until": "It wakes up your upper"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It wakes up your upper",
+     "until": "and pulls your shoulders back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "UPPER BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It wakes up your upper",
+     "until": "and pulls your shoulders back"
+    },
+    {
+     "type": "glow",
+     "anchor": "upper_back",
+     "color": "#2FD94E",
+     "at": "It wakes up your upper",
+     "until": "and pulls your shoulders back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and pulls your shoulders back"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS BACK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and pulls your shoulders back"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with the hunched back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with the hunched back"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with the hunched back",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with the hunched back",
+     "until": "Because rounded"
+    },
+    {
+     "type": "text",
+     "text": "HUNCHED BACK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with the hunched back",
+     "until": "Because rounded"
+    },
+    {
+     "type": "text",
+     "text": "ROUNDED...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because rounded"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because rounded"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Hold a towel in front-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Ten reps, a few-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Grab a towel",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Pull your hands apart",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "like you're trying to rip",
+   "src": "sfx_raaah"
+  },
+  {
+   "at": "Hold for five seconds",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "and pulls your shoulders back",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "with the hunched back",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because rounded",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

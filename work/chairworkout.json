@@ -1,0 +1,536 @@
+{
+ "title": "One chair, full body workout",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "chair",
+   "full",
+   "body",
+   "dips",
+   "triceps",
+   "elbows",
+   "decline",
+   "push-ups",
+   "split",
+   "squats",
+   "rounds",
+   "strong"
+  ],
+  "bottom": [
+   [
+    "Chair dips for your",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Full body workout"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Full body workout"
+    },
+    {
+     "type": "text",
+     "text": "ONE CHAIR",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Full body workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Full body workout"
+    },
+    {
+     "type": "text",
+     "text": "FULL BODY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Full body workout"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Full body workout",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "dips",
+   "start": "Chair dips for your-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Chair dips for your",
+     "until": "press up"
+    },
+    {
+     "type": "text",
+     "text": "CHAIR DIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Chair dips for your",
+     "until": "Hands on the edge"
+    },
+    {
+     "type": "text",
+     "text": "90°",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 280,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands on the edge",
+     "until": "press up"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "press up"
+    },
+    {
+     "type": "text",
+     "text": "PRESS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "press up"
+    }
+   ]
+  },
+  {
+   "id": "decline",
+   "start": "Decline push-ups for-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Decline push-ups for"
+    },
+    {
+     "type": "text",
+     "text": "DECLINE PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Decline push-ups for",
+     "until": "Feet on the chair"
+    },
+    {
+     "type": "text",
+     "text": "FEET UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Feet on the chair"
+    }
+   ]
+  },
+  {
+   "id": "split",
+   "start": "Bulgarian split squats-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Bulgarian split squats"
+    },
+    {
+     "type": "text",
+     "text": "SPLIT SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bulgarian split squats",
+     "until": "Back foot on the chair"
+    },
+    {
+     "type": "text",
+     "text": "BACK FOOT UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Back foot on the chair"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Ten to twelve reps-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to twelve reps",
+     "until": "three rounds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-12",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to twelve reps",
+     "until": "three rounds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three rounds",
+     "until": "Use a strong chair"
+    },
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three rounds",
+     "until": "Use a strong chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Use a strong chair",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRONG CHAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Use a strong chair"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who uses his chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who uses his chair"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who uses his chair",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who uses his chair",
+     "until": "Because one chair"
+    },
+    {
+     "type": "text",
+     "text": "CHAIR ONLY FOR GAMING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who uses his chair",
+     "until": "Because one chair"
+    },
+    {
+     "type": "text",
+     "text": "ONE CHAIR...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because one chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because one chair"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Chair dips for your-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Decline push-ups for-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Bulgarian split squats-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Ten to twelve reps-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Full body workout",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "press up",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Feet on the chair",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Back foot on the chair",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Use a strong chair",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "who uses his chair",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because one chair",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "title": "How many reps build muscle?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "reps",
+   "muscle",
+   "six",
+   "thirty",
+   "failure",
+   "last",
+   "hard",
+   "easy",
+   "range",
+   "harder",
+   "sets",
+   "struggles"
+  ],
+  "bottom": [
+   [
+    "Anywhere from six",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "to build muscle#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "to build muscle#1"
+    },
+    {
+     "type": "text",
+     "text": "HOW MANY REPS?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "to build muscle#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "to build muscle#1"
+    },
+    {
+     "type": "text",
+     "text": "MUSCLE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "to build muscle#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "to build muscle#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "range",
+   "start": "Anywhere from six-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Anywhere from six",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "6-30 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Anywhere from six"
+    }
+   ]
+  },
+  {
+   "id": "fail",
+   "start": "What matters is how-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "What matters is how",
+     "until": "The last two or three",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FAILURE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "What matters is how",
+     "until": "The last two or three"
+    },
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The last two or three",
+     "until": "Twenty easy push-ups"
+    },
+    {
+     "type": "text",
+     "text": "HARD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "The last two or three",
+     "until": "Twenty easy push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twenty easy push-ups"
+    },
+    {
+     "type": "text",
+     "text": "20 EASY REPS",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "Twenty easy push-ups+0.35",
+     "at": "Twenty easy push-ups"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "So pick a rep range-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So pick a rep range",
+     "until": "push close to failure",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PICK A RANGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So pick a rep range",
+     "until": "push close to failure"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "push close to failure",
+     "until": "and add a rep"
+    },
+    {
+     "type": "text",
+     "text": "NEAR FAILURE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "push close to failure",
+     "until": "and add a rep"
+    },
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "and add a rep",
+     "until": "Three to four hard sets"
+    },
+    {
+     "type": "text",
+     "text": "+1 REP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and add a rep",
+     "until": "Three to four hard sets"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Three to four hard sets"
+    },
+    {
+     "type": "text",
+     "text": "3-4 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three to four hard sets"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who counts reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who counts reps"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who counts reps",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who counts reps",
+     "until": "Because how many"
+    },
+    {
+     "type": "text",
+     "text": "NEVER STRUGGLES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who counts reps",
+     "until": "Because how many"
+    },
+    {
+     "type": "text",
+     "text": "HOW MANY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because how many"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because how many"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Anywhere from six-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "What matters is how-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So pick a rep range-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "to build muscle#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Anywhere from six",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "The last two or three",
+   "src": "sfx_raaah"
+  },
+  {
+   "at": "Twenty easy push-ups",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "and add a rep",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "who counts reps",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because how many",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

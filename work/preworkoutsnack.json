@@ -1,0 +1,548 @@
+{
+ "title": "Feel weak training on an empty stomach?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "empty",
+   "stomach",
+   "weak",
+   "fuel",
+   "snack",
+   "banana",
+   "peanut",
+   "curd",
+   "carbs",
+   "protein",
+   "water",
+   "morning"
+  ],
+  "bottom": [
+   [
+    "Your body needs fuel",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "and feel weak"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "and feel weak"
+    },
+    {
+     "type": "text",
+     "text": "EMPTY STOMACH",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and feel weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and feel weak"
+    },
+    {
+     "type": "text",
+     "text": "WEAK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and feel weak"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and feel weak",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fuel",
+   "start": "Your body needs fuel-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your body needs fuel",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FUEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your body needs fuel"
+    }
+   ]
+  },
+  {
+   "id": "snack",
+   "start": "Eat a small snack-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Eat a small snack",
+     "until": "A banana#1",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30-60 MIN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Eat a small snack",
+     "until": "A banana#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A banana#1",
+     "until": "Bread with peanut"
+    },
+    {
+     "type": "text",
+     "text": "BANANA",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "A banana#1",
+     "until": "Bread with peanut"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cooking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Bread with peanut",
+     "until": "Or curd with fruit",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PEANUT BUTTER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bread with peanut",
+     "until": "Or curd with fruit"
+    },
+    {
+     "type": "image",
+     "asset": "hero_grocery_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Or curd with fruit"
+    },
+    {
+     "type": "text",
+     "text": "CURD + FRUIT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Or curd with fruit"
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "start": "Easy carbs for energy-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Easy carbs for energy",
+     "until": "a bit of protein",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EASY CARBS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Easy carbs for energy",
+     "until": "a bit of protein"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drinking_shake",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a bit of protein",
+     "until": "and nothing heavy"
+    },
+    {
+     "type": "text",
+     "text": "+ PROTEIN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a bit of protein",
+     "until": "and nothing heavy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_disgusted_burger",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and nothing heavy",
+     "until": "Drink a glass of water",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT HEAVY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and nothing heavy",
+     "until": "Drink a glass of water"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Drink a glass of water",
+     "until": "If you train early"
+    },
+    {
+     "type": "text",
+     "text": "WATER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Drink a glass of water",
+     "until": "If you train early"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If you train early",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BANANA",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "If you train early"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who almost faints"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who almost faints"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who almost faints",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who almost faints",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "FAINTS DOING SQUATS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who almost faints",
+     "until": "Because you train"
+    },
+    {
+     "type": "text",
+     "text": "EMPTY STOMACH...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you train"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your body needs fuel-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Eat a small snack-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Easy carbs for energy-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "and feel weak",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Your body needs fuel",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "A banana#1",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "and nothing heavy",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Drink a glass of water",
+   "src": "sfx_gulp"
+  },
+  {
+   "at": "who almost faints",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you train",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

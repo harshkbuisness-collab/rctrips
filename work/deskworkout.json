@@ -1,0 +1,467 @@
+{
+ "title": "5-minute desk break that wakes you up",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "desk",
+   "break",
+   "body",
+   "push-ups",
+   "chair",
+   "squats",
+   "shoulder",
+   "rolls",
+   "hips",
+   "stretch",
+   "twice",
+   "energy"
+  ],
+  "bottom": [
+   [
+    "Here's a five-minute",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "at a desk all day#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "DESK ALL DAY",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "id": "brk",
+   "start": "Here's a five-minute-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's a five-minute",
+     "until": "wakes your whole body",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5-MIN BREAK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's a five-minute",
+     "until": "wakes your whole body"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "wakes your whole body"
+    },
+    {
+     "type": "text",
+     "text": "WAKE UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "wakes your whole body"
+    }
+   ]
+  },
+  {
+   "id": "moves",
+   "start": "Ten desk push-ups-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pushup_top_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten desk push-ups",
+     "until": "Ten chair squats",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "DESK PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten desk push-ups",
+     "until": "Ten chair squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten chair squats",
+     "until": "Ten shoulder rolls",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHAIR SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten chair squats",
+     "until": "Ten shoulder rolls"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arm_circles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten shoulder rolls",
+     "until": "Then stand and stretch",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHOULDER ROLLS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten shoulder rolls",
+     "until": "Then stand and stretch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then stand and stretch",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HIP STRETCH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then stand and stretch"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Do it twice a day-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Do it twice a day",
+     "until": "Your back, hips",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Do it twice a day",
+     "until": "Your back, hips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your back, hips"
+    },
+    {
+     "type": "text",
+     "text": "BACK • HIPS • ENERGY",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Your back, hips"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "glued to his chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "glued to his chair"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "glued to his chair",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "glued to his chair",
+     "until": "Because you sit"
+    },
+    {
+     "type": "text",
+     "text": "GLUED TO HIS CHAIR",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "glued to his chair",
+     "until": "Because you sit"
+    },
+    {
+     "type": "text",
+     "text": "DESK...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you sit"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you sit"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's a five-minute-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Ten desk push-ups-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Do it twice a day-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "at a desk all day#1",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "Here's a five-minute",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Ten chair squats",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Then stand and stretch",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Your back, hips",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "glued to his chair",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you sit",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+{
+ "title": "Your sofa is a glute machine",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "sofa",
+   "glute",
+   "machine",
+   "hip",
+   "thrusts",
+   "bench",
+   "heels",
+   "hips",
+   "table",
+   "squeeze",
+   "backpack",
+   "reps"
+  ],
+  "bottom": [
+   [
+    "Hip thrusts are one",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "a glute machine#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "a glute machine#1"
+    },
+    {
+     "type": "text",
+     "text": "SOFA • GLUTES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "a glute machine#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hands_hips_look_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a glute machine#1"
+    },
+    {
+     "type": "text",
+     "text": "GLUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a glute machine#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "a glute machine#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Hip thrusts are one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_glute_bridge_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hip thrusts are one",
+     "until": "And you don't need",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "HIP THRUSTS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hip thrusts are one",
+     "until": "And you don't need"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And you don't need"
+    },
+    {
+     "type": "text",
+     "text": "BENCH",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "And you don't need+0.35",
+     "at": "And you don't need"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Sit on the floor-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Sit on the floor",
+     "until": "Squeeze your glutes hard"
+    },
+    {
+     "type": "text",
+     "text": "BACK ON SOFA",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Sit on the floor",
+     "until": "Push through your heels"
+    },
+    {
+     "type": "text",
+     "text": "HEELS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push through your heels",
+     "until": "flat like a table"
+    },
+    {
+     "type": "text",
+     "text": "FLAT TABLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "flat like a table",
+     "until": "Squeeze your glutes hard"
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "Squeeze your glutes hard"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes hard"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen reps-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen reps",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "15 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen reps",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "Too easy"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "Too easy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_gym_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Too easy",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "+ BACKPACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Too easy"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who lives on the sofa"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who lives on the sofa"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who lives on the sofa",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who lives on the sofa",
+     "until": "Because your sofa"
+    },
+    {
+     "type": "text",
+     "text": "LIVES ON THE SOFA",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who lives on the sofa",
+     "until": "Because your sofa"
+    },
+    {
+     "type": "text",
+     "text": "SOFA...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your sofa"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your sofa"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Hip thrusts are one-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Sit on the floor-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Fifteen reps-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "a glute machine#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And you don't need",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Push through your heels",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Squeeze your glutes hard",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Too easy",
+   "src": "sfx_ez"
+  },
+  {
+   "at": "who lives on the sofa",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your sofa",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

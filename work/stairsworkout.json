@@ -1,0 +1,592 @@
+{
+ "title": "Your stairs are a free gym",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "stairs",
+   "free",
+   "gym",
+   "legs",
+   "heart",
+   "fast",
+   "slow",
+   "rounds",
+   "step-ups",
+   "calf",
+   "raises",
+   "stamina"
+  ],
+  "bottom": [
+   [
+    "Climbing stairs builds",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "a free gym#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_toward",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "a free gym#1"
+    },
+    {
+     "type": "text",
+     "text": "STAIRS = GYM",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "a free gym#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a free gym#1"
+    },
+    {
+     "type": "text",
+     "text": "FREE GYM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a free gym#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "a free gym#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Climbing stairs builds-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_running",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Climbing stairs builds",
+     "until": "and your heart",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LEGS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Climbing stairs builds",
+     "until": "and your heart"
+    },
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your heart"
+    },
+    {
+     "type": "text",
+     "text": "HEART",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your heart"
+    }
+   ]
+  },
+  {
+   "id": "workout",
+   "start": "Here's a stairs workout-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's a stairs workout",
+     "until": "Walk up fast",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WORKOUT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's a stairs workout",
+     "until": "Walk up fast"
+    },
+    {
+     "type": "image",
+     "asset": "hero_running",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Walk up fast",
+     "until": "walk down slow",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "UP FAST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Walk up fast",
+     "until": "walk down slow"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "walk down slow",
+     "until": "Five rounds"
+    },
+    {
+     "type": "text",
+     "text": "DOWN SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "walk down slow",
+     "until": "Five rounds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Five rounds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Five rounds"
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "start": "Then step-ups-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lunge",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then step-ups",
+     "until": "Then calf raises",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then step-ups",
+     "until": "Then calf raises"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then calf raises",
+     "until": "twenty reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CALF RAISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then calf raises",
+     "until": "twenty reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twenty reps"
+    },
+    {
+     "type": "text",
+     "text": "20 REPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "twenty reps"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twice a week-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twice a week",
+     "until": "and your legs and stamina",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twice a week",
+     "until": "and your legs and stamina"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your legs and stamina"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your legs and stamina"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who waits ten minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who waits ten minutes"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who waits ten minutes",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who waits ten minutes",
+     "until": "Because your stairs"
+    },
+    {
+     "type": "text",
+     "text": "WAITS FOR THE LIFT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who waits ten minutes",
+     "until": "Because your stairs"
+    },
+    {
+     "type": "text",
+     "text": "STAIRS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your stairs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your stairs"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Climbing stairs builds-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Here's a stairs workout-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Then step-ups-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Twice a week-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "a free gym#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "and your heart",
+   "src": "sfx_heavy_breathing"
+  },
+  {
+   "at": "Walk up fast",
+   "src": "sfx_running"
+  },
+  {
+   "at": "Five rounds",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Then calf raises",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "and your legs and stamina",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "who waits ten minutes",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your stairs",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

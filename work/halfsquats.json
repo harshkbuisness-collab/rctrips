@@ -1,0 +1,548 @@
+{
+ "title": "Half squats skip the best part",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "squats",
+   "halfway",
+   "glutes",
+   "legs",
+   "parallel",
+   "heels",
+   "back",
+   "chair",
+   "lower",
+   "deep",
+   "safe",
+   "form"
+  ],
+  "bottom": [
+   [
+    "Half squats skip",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "halfway down#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "halfway down#1"
+    },
+    {
+     "type": "text",
+     "text": "HALF SQUATS?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "halfway down#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "halfway down#1"
+    },
+    {
+     "type": "text",
+     "text": "HALFWAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "halfway down#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "halfway down#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Half squats skip-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Half squats skip",
+     "until": "that builds your glutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SKIPPED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Half squats skip",
+     "until": "that builds your glutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hands_hips_look_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "that builds your glutes"
+    },
+    {
+     "type": "text",
+     "text": "GLUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "that builds your glutes"
+    },
+    {
+     "type": "glow",
+     "anchor": "glutes",
+     "color": "#2FD94E",
+     "at": "that builds your glutes"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "Go down until-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Go down until"
+    },
+    {
+     "type": "text",
+     "text": "PARALLEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Go down until",
+     "until": "Lower if your heels"
+    },
+    {
+     "type": "text",
+     "text": "HEELS DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower if your heels",
+     "until": "and your back stays"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your back stays"
+    }
+   ]
+  },
+  {
+   "id": "chair",
+   "start": "Can't go that low-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_confused_scratch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Can't go that low",
+     "until": "Squat to a chair",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TOO LOW?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Can't go that low",
+     "until": "Squat to a chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squat to a chair",
+     "until": "Use a lower chair",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TO A CHAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squat to a chair",
+     "until": "Use a lower chair"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Use a lower chair"
+    },
+    {
+     "type": "text",
+     "text": "LOWER IT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Use a lower chair"
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "start": "Deep squats are safe-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Deep squats are safe",
+     "until": "when your form is good",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAFE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Deep squats are safe",
+     "until": "when your form is good"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "when your form is good"
+    },
+    {
+     "type": "text",
+     "text": "GOOD FORM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "when your form is good"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "doing half squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "doing half squats"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "doing half squats",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "doing half squats",
+     "until": "Because your squats"
+    },
+    {
+     "type": "text",
+     "text": "HALF SQUATS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "doing half squats",
+     "until": "Because your squats"
+    },
+    {
+     "type": "text",
+     "text": "HALFWAY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your squats"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Half squats skip-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Go down until-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Can't go that low-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Deep squats are safe-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "halfway down#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Half squats skip",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Go down until",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Squat to a chair",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Deep squats are safe",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "doing half squats",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your squats",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

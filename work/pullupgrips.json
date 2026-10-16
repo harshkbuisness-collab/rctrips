@@ -1,0 +1,574 @@
+{
+ "title": "Wide grip or close grip pull-ups?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "wide",
+   "close",
+   "grip",
+   "pull-ups",
+   "back",
+   "lats",
+   "harder",
+   "chin-ups",
+   "biceps",
+   "easier",
+   "beginners",
+   "both"
+  ],
+  "bottom": [
+   [
+    "Both train your back",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "close grip pull-ups"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "WIDE OR CLOSE?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "id": "both",
+   "start": "Both train your back-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Both train your back",
+     "until": "But they feel different",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BOTH WORK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Both train your back",
+     "until": "But they feel different"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But they feel different"
+    },
+    {
+     "type": "text",
+     "text": "DIFFERENT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "But they feel different"
+    }
+   ]
+  },
+  {
+   "id": "wide",
+   "start": "Wide grip, palms away-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Wide grip, palms away",
+     "until": "more upper back",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "WIDE GRIP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Wide grip, palms away",
+     "until": "more upper back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "more upper back",
+     "until": "It's harder"
+    },
+    {
+     "type": "text",
+     "text": "LATS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "more upper back",
+     "until": "It's harder"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "more upper back",
+     "until": "It's harder"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's harder",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's harder"
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "start": "Close grip, palms-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Close grip, palms",
+     "until": "More biceps",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "CHIN-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Close grip, palms",
+     "until": "More biceps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "More biceps",
+     "until": "easier, more reps"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "More biceps",
+     "until": "easier, more reps"
+    },
+    {
+     "type": "glow",
+     "anchor": "arms",
+     "color": "#2FD94E",
+     "at": "More biceps",
+     "until": "easier, more reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "easier, more reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EASIER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "easier, more reps"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Beginners should start-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Beginners should start",
+     "until": "then add wide grip",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHIN-UPS FIRST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Beginners should start",
+     "until": "then add wide grip"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "then add wide grip",
+     "until": "The best plan",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "+ WIDE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "then add wide grip",
+     "until": "The best plan"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The best plan",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO BOTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The best plan"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who only does one grip"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who only does one grip"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who only does one grip",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who only does one grip",
+     "until": "Because wide grip"
+    },
+    {
+     "type": "text",
+     "text": "ONLY ONE GRIP",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who only does one grip",
+     "until": "Because wide grip"
+    },
+    {
+     "type": "text",
+     "text": "WIDE OR CLOSE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because wide grip"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because wide grip"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Both train your back-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Wide grip, palms away-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Close grip, palms-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Beginners should start-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "close grip pull-ups",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "But they feel different",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "It's harder",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "More biceps",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "The best plan",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who only does one grip",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because wide grip",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

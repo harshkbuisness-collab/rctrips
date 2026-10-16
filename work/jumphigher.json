@@ -1,0 +1,582 @@
+{
+ "title": "Want to jump higher? Train this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "jump",
+   "higher",
+   "strong",
+   "fast",
+   "squats",
+   "split",
+   "explode",
+   "softly",
+   "five",
+   "rest",
+   "quality",
+   "weeks"
+  ],
+  "bottom": [
+   [
+    "Strong: squats",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "You need strong legs"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.4,
+     "enter": "cut",
+     "at": "start",
+     "until": "You need strong legs"
+    },
+    {
+     "type": "text",
+     "text": "JUMP HIGHER",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "You need strong legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You need strong legs"
+    },
+    {
+     "type": "text",
+     "text": "STRONG + FAST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You need strong legs"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "You need strong legs",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "strong",
+   "start": "Strong: squats-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Strong: squats",
+     "until": "split squats"
+    },
+    {
+     "type": "text",
+     "text": "STRONG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Strong: squats",
+     "until": "split squats"
+    },
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "split squats",
+     "until": "slow and controlled"
+    },
+    {
+     "type": "text",
+     "text": "SPLIT SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "split squats",
+     "until": "slow and controlled"
+    },
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "slow and controlled"
+    },
+    {
+     "type": "text",
+     "text": "SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "slow and controlled"
+    }
+   ]
+  },
+  {
+   "id": "fast",
+   "start": "Fast: squat jumps-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fast: squat jumps",
+     "until": "Squat down halfway",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SQUAT JUMPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fast: squat jumps",
+     "until": "Squat down halfway"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squat down halfway",
+     "until": "then explode up",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HALFWAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squat down halfway",
+     "until": "then explode up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "then explode up",
+     "until": "Land softly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EXPLODE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "then explode up",
+     "until": "Land softly"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "then explode up",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Land softly"
+    },
+    {
+     "type": "text",
+     "text": "SOFT LANDING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Land softly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Five jumps-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Five jumps",
+     "until": "full rest",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 x 5",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 300,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Five jumps",
+     "until": "full rest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_towel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "full rest",
+     "until": "Quality over quantity"
+    },
+    {
+     "type": "text",
+     "text": "FULL REST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "full rest",
+     "until": "Quality over quantity"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Quality over quantity",
+     "until": "Twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "QUALITY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Quality over quantity",
+     "until": "Twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twice a week"
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who can't touch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who can't touch"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who can't touch",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who can't touch",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T TOUCH THE CEILING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who can't touch",
+     "until": "Because you want"
+    },
+    {
+     "type": "text",
+     "text": "JUMP HIGHER...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you want"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you want"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Strong: squats-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Fast: squat jumps-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Five jumps-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You need strong legs",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "split squats",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "then explode up",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Land softly",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Quality over quantity",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who can't touch",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you want",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

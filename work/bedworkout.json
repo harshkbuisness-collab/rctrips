@@ -1,0 +1,570 @@
+{
+ "title": "Too lazy to get out of bed? Work out in it",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "lazy",
+   "bed",
+   "glute",
+   "bridges",
+   "squeeze",
+   "leg",
+   "raises",
+   "slowly",
+   "plank",
+   "mattress",
+   "wobbles",
+   "breakfast"
+  ],
+  "bottom": [
+   [
+    "Glute bridges",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Work out in it"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Work out in it",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "TOO LAZY?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Work out in it"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Work out in it"
+    },
+    {
+     "type": "text",
+     "text": "BED WORKOUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Work out in it"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Work out in it",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "bridges",
+   "start": "Glute bridges-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Glute bridges"
+    },
+    {
+     "type": "text",
+     "text": "GLUTE BRIDGES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Glute bridges",
+     "until": "lift your hips and squeeze"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lift your hips and squeeze",
+     "until": "Fifteen reps"
+    },
+    {
+     "type": "text",
+     "text": "15 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen reps"
+    }
+   ]
+  },
+  {
+   "id": "raises",
+   "start": "Leg raises-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Leg raises",
+     "until": "lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "LEG RAISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Leg raises",
+     "until": "lower slowly"
+    },
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lower slowly",
+     "until": "Twelve reps"
+    },
+    {
+     "type": "text",
+     "text": "12 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve reps"
+    }
+   ]
+  },
+  {
+   "id": "plank",
+   "start": "Then a plank on-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Then a plank on"
+    },
+    {
+     "type": "text",
+     "text": "MATTRESS PLANK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then a plank on",
+     "until": "because it wobbles"
+    },
+    {
+     "type": "text",
+     "text": "WOBBLES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "because it wobbles",
+     "until": "Thirty seconds"
+    },
+    {
+     "type": "text",
+     "text": "30 SEC",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three rounds-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three rounds",
+     "until": "Five minutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three rounds",
+     "until": "Five minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Five minutes",
+     "until": "Done before breakfast"
+    },
+    {
+     "type": "text",
+     "text": "5 MIN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Five minutes",
+     "until": "Done before breakfast"
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Done before breakfast",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Done before breakfast"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who never leaves"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who never leaves"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who never leaves",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who never leaves",
+     "until": "Because too lazy"
+    },
+    {
+     "type": "text",
+     "text": "BED ALL SUNDAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who never leaves",
+     "until": "Because too lazy"
+    },
+    {
+     "type": "text",
+     "text": "TOO LAZY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because too lazy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because too lazy"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Glute bridges-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Leg raises-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Then a plank on-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Three rounds-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Work out in it",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "lift your hips and squeeze",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "lower slowly",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "because it wobbles",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Done before breakfast",
+   "src": "sfx_oh_yeah"
+  },
+  {
+   "at": "who never leaves",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because too lazy",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

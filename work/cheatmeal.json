@@ -1,0 +1,567 @@
+{
+ "title": "One cheat meal doesn't ruin your diet",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "pizza",
+   "diet",
+   "ruined",
+   "meal",
+   "week",
+   "days",
+   "scale",
+   "water",
+   "salt",
+   "damage",
+   "enjoy",
+   "normally"
+  ],
+  "bottom": [
+   [
+    "It isn't",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "your diet is ruined"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tempted_pizza",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "your diet is ruined"
+    },
+    {
+     "type": "text",
+     "text": "PIZZA LAST NIGHT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "your diet is ruined"
+    },
+    {
+     "type": "image",
+     "asset": "hero_despair_kneel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your diet is ruined"
+    },
+    {
+     "type": "text",
+     "text": "RUINED?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your diet is ruined"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "your diet is ruined",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It isn't-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It isn't",
+     "until": "One meal doesn't erase",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT RUINED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It isn't",
+     "until": "One meal doesn't erase"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "One meal doesn't erase",
+     "until": "Fat gain comes from what",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 MEAL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "One meal doesn't erase",
+     "until": "Fat gain comes from what"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fat gain comes from what"
+    },
+    {
+     "type": "text",
+     "text": "MOST DAYS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fat gain comes from what"
+    }
+   ]
+  },
+  {
+   "id": "scale",
+   "start": "The scale might jump-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The scale might jump",
+     "until": "but that's mostly water",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "+ WATER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The scale might jump",
+     "until": "but that's mostly water"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but that's mostly water"
+    },
+    {
+     "type": "text",
+     "text": "WATER + SALT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but that's mostly water"
+    }
+   ]
+  },
+  {
+   "id": "damage",
+   "start": "The real damage-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The real damage",
+     "until": "so why stop now",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE THOUGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The real damage",
+     "until": "so why stop now"
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "so why stop now"
+    },
+    {
+     "type": "text",
+     "text": "WHY STOP?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "so why stop now"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "so why stop now",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So enjoy it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So enjoy it",
+     "until": "drink water",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ENJOY IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So enjoy it",
+     "until": "drink water"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "drink water",
+     "until": "and eat normally"
+    },
+    {
+     "type": "text",
+     "text": "WATER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "drink water",
+     "until": "and eat normally"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cooking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and eat normally",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EAT NORMAL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and eat normally"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who quits his diet"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who quits his diet"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who quits his diet",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_disgusted_burger",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who quits his diet",
+     "until": "Because you ate"
+    },
+    {
+     "type": "text",
+     "text": "QUITS AFTER 1 BURGER",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who quits his diet",
+     "until": "Because you ate"
+    },
+    {
+     "type": "text",
+     "text": "PIZZA...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you ate"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you ate"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It isn't-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "The scale might jump-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "The real damage-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So enjoy it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "your diet is ruined",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "It isn't",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "The scale might jump",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "so why stop now",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So enjoy it",
+   "src": "sfx_oh_yeah"
+  },
+  {
+   "at": "who quits his diet",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you ate",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

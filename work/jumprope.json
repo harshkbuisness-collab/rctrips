@@ -1,0 +1,554 @@
+{
+ "title": "10 minutes of skipping rope",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "skipping",
+   "rope",
+   "minutes",
+   "cardio",
+   "heart",
+   "calves",
+   "coordination",
+   "thirty",
+   "rounds",
+   "balls",
+   "jumps",
+   "motion"
+  ],
+  "bottom": [
+   [
+    "It's one of the fastest",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "of skipping rope#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "of skipping rope#1"
+    },
+    {
+     "type": "text",
+     "text": "SKIPPING ROPE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "of skipping rope#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "of skipping rope#1"
+    },
+    {
+     "type": "text",
+     "text": "10 MINUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "of skipping rope#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "of skipping rope#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "It's one of the fastest-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's one of the fastest",
+     "until": "It gets your heart rate",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FAST CARDIO",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's one of the fastest",
+     "until": "It gets your heart rate"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It gets your heart rate",
+     "until": "trains your calves"
+    },
+    {
+     "type": "text",
+     "text": "HEART RATE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "It gets your heart rate",
+     "until": "trains your calves"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "trains your calves",
+     "until": "and improves your coordination",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CALVES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "trains your calves",
+     "until": "and improves your coordination"
+    },
+    {
+     "type": "glow",
+     "anchor": "calves",
+     "color": "#2FD94E",
+     "at": "trains your calves",
+     "until": "and improves your coordination"
+    },
+    {
+     "type": "image",
+     "asset": "hero_high_knees",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and improves your coordination"
+    },
+    {
+     "type": "text",
+     "text": "COORDINATION",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and improves your coordination"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Start easy-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Start easy",
+     "until": "Thirty seconds of jumping",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "START EASY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Start easy",
+     "until": "Thirty seconds of jumping"
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty seconds of jumping",
+     "until": "ten rounds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 ON 30 OFF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds of jumping",
+     "until": "ten rounds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "ten rounds"
+    },
+    {
+     "type": "text",
+     "text": "10 ROUNDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "ten rounds"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "start": "Stay on the balls-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_high_knees",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Stay on the balls",
+     "until": "No rope",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SMALL JUMPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Stay on the balls",
+     "until": "No rope"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "No rope",
+     "until": "Do the same motion"
+    },
+    {
+     "type": "text",
+     "text": "NO ROPE?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "No rope",
+     "until": "Do the same motion"
+    },
+    {
+     "type": "image",
+     "asset": "hero_burpee_jump_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Do the same motion",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAME MOTION",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Do the same motion"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who hates running"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who hates running"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who hates running",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who hates running",
+     "until": "Because ten minutes"
+    },
+    {
+     "type": "text",
+     "text": "HATES RUNNING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who hates running",
+     "until": "Because ten minutes"
+    },
+    {
+     "type": "text",
+     "text": "SKIPPING...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because ten minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because ten minutes"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It's one of the fastest-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Start easy-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Stay on the balls-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "of skipping rope#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "It gets your heart rate",
+   "src": "sfx_heavy_breathing"
+  },
+  {
+   "at": "trains your calves",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Thirty seconds of jumping",
+   "src": "sfx_running"
+  },
+  {
+   "at": "No rope",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "who hates running",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because ten minutes",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

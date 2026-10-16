@@ -1,0 +1,567 @@
+{
+ "title": "Stiff every morning? 2-minute fix",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "stiff",
+   "morning",
+   "minutes",
+   "coffee",
+   "child's",
+   "pose",
+   "cobra",
+   "circles",
+   "squats",
+   "hours",
+   "movement",
+   "week"
+  ],
+  "bottom": [
+   [
+    "Two minutes before",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "every morning#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "every morning#1"
+    },
+    {
+     "type": "text",
+     "text": "STIFF MORNINGS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "every morning#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every morning#1"
+    },
+    {
+     "type": "text",
+     "text": "STIFF",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every morning#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "every morning#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "Two minutes before-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Two minutes before",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 MINUTES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two minutes before"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "start": "Child's pose-0.5",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_childs_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Child's pose",
+     "until": "breathe deep",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "CHILD'S POSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Child's pose",
+     "until": "breathe deep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_childs_pose",
+     "shadow": true,
+     "enter": "whip",
+     "at": "breathe deep",
+     "until": "Cobra stretch",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "BREATHE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "breathe deep",
+     "until": "Cobra stretch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Cobra stretch",
+     "until": "Ten arm circles",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "COBRA",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Cobra stretch",
+     "until": "Ten arm circles"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arm_circles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten arm circles",
+     "until": "Ten slow squats",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ARM CIRCLES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten arm circles",
+     "until": "Ten slow squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten slow squats"
+    },
+    {
+     "type": "text",
+     "text": "SQUATS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten slow squats"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Your body sat still-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your body sat still",
+     "until": "It just needs movement",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "8 HOURS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your body sat still",
+     "until": "It just needs movement"
+    },
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It just needs movement"
+    },
+    {
+     "type": "text",
+     "text": "MOVE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "It just needs movement"
+    }
+   ]
+  },
+  {
+   "id": "week",
+   "start": "Do it every morning-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Do it every morning",
+     "until": "and feel the difference",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Do it every morning",
+     "until": "and feel the difference"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and feel the difference"
+    },
+    {
+     "type": "text",
+     "text": "FEEL IT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and feel the difference"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who groans getting"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who groans getting"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who groans getting",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who groans getting",
+     "until": "Because you wake"
+    },
+    {
+     "type": "text",
+     "text": "GROANS OUT OF BED",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who groans getting",
+     "until": "Because you wake"
+    },
+    {
+     "type": "text",
+     "text": "STIFF...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you wake"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you wake"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Two minutes before-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Child's pose-0.5",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Your body sat still-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Do it every morning-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "every morning#1",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Two minutes before",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "breathe deep",
+   "src": "sfx_wind"
+  },
+  {
+   "at": "Cobra stretch",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Ten arm circles",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "It just needs movement",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who groans getting",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you wake",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

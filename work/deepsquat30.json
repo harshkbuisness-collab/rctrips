@@ -1,0 +1,608 @@
+{
+ "title": "Deep squat 1 minute a day for 30 days",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "deep",
+   "squat",
+   "minute",
+   "thirty",
+   "heels",
+   "hips",
+   "lower",
+   "ankles",
+   "looser",
+   "deeper",
+   "toes",
+   "door"
+  ],
+  "bottom": [
+   [
+    "Here's what happens",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Thirty days"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Thirty days"
+    },
+    {
+     "type": "text",
+     "text": "DEEP SQUAT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Thirty days"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty days",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Thirty days",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "start": "Here's what happens-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's what happens",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT HAPPENS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's what happens"
+    }
+   ]
+  },
+  {
+   "id": "weeks",
+   "start": "Week one-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week one",
+     "until": "your heels lift",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEK 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week one",
+     "until": "your heels lift"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your heels lift",
+     "until": "Week two"
+    },
+    {
+     "type": "text",
+     "text": "HEELS UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your heels lift",
+     "until": "Week two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week two",
+     "until": "you sit lower",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEK 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week two",
+     "until": "you sit lower"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you sit lower",
+     "until": "By the end of the month"
+    },
+    {
+     "type": "text",
+     "text": "LOWER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you sit lower",
+     "until": "By the end of the month"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "By the end of the month",
+     "until": "your lower back feels looser",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HIPS FREE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "By the end of the month",
+     "until": "your lower back feels looser"
+    },
+    {
+     "type": "glow",
+     "anchor": "hips",
+     "color": "#2FD94E",
+     "at": "By the end of the month",
+     "until": "your lower back feels looser"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your lower back feels looser",
+     "until": "and your squats get deeper"
+    },
+    {
+     "type": "text",
+     "text": "LOOSER BACK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your lower back feels looser",
+     "until": "and your squats get deeper"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your squats get deeper",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DEEPER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your squats get deeper"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "start": "Feet a bit wider-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Feet a bit wider",
+     "until": "toes out",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FEET WIDE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Feet a bit wider",
+     "until": "toes out"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "toes out",
+     "until": "heels down"
+    },
+    {
+     "type": "text",
+     "text": "TOES OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "toes out",
+     "until": "heels down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "heels down",
+     "until": "Hold a door frame",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HEELS DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "heels down",
+     "until": "Hold a door frame"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_wall",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold a door frame"
+    },
+    {
+     "type": "text",
+     "text": "HOLD ON",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold a door frame"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who can't squat without"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who can't squat without"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who can't squat without",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who can't squat without",
+     "until": "Because sit"
+    },
+    {
+     "type": "text",
+     "text": "FALLS BACK IN SQUATS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who can't squat without",
+     "until": "Because sit"
+    },
+    {
+     "type": "text",
+     "text": "DEEP SQUAT...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because sit"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because sit"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's what happens-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Week one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Feet a bit wider-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Thirty days",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "your heels lift",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "By the end of the month",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "and your squats get deeper",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Hold a door frame",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "who can't squat without",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because sit",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
