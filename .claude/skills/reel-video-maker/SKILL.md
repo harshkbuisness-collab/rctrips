@@ -105,7 +105,7 @@ Send this to the friend who <…> 👇
 
 Thumbnail prompt: follow `references/thumbnail-prompts.md` exactly (the owner's thumbnail skill: full standalone
 prompt per video, attached H character, plain white background, two-line text label with the Anton font line,
-crop-safe spacing, AVOID list; a batch goes in ONE code block starting "CREATE ALL IMAGES FOR THESE N THUMBNAILS").
+crop-safe spacing, AVOID list; boxes of at most 5, each starting "CREATE ALL IMAGES FOR THESE N THUMBNAILS").
 Thumbnail prompts are always in English.
 
 Answer the owner in simple Hinglish; titles, descriptions, scripts and JSON stay English.
