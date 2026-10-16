@@ -1,0 +1,926 @@
+{
+ "title": "Push-ups before bed",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "tomorrow",
+   "habit",
+   "easy",
+   "two",
+   "minutes",
+   "push-ups",
+   "form",
+   "automatic",
+   "thirty",
+   "firmer",
+   "light",
+   "brutal"
+  ],
+  "bottom": [
+   [
+    "Here's a habit",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "tomorrow#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "TOMORROW • TOMORROW",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "start",
+     "speed": 420,
+     "until": "tomorrow#1"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "at": "start",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "until": "tomorrow#1"
+    },
+    {
+     "type": "text",
+     "text": "TOMORROW?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "tomorrow#1",
+     "until": "Every single day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "tomorrow#1",
+     "until": "Every single day"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "tomorrow#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "tomorrow#1"
+    },
+    {
+     "type": "speed",
+     "at": "Every single day"
+    },
+    {
+     "type": "text",
+     "text": "EVERY DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Every single day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Every single day",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EVERY SINGLE DAY",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "Every single day",
+     "behind": false
+    }
+   ]
+  },
+  {
+   "id": "habit",
+   "start": "Here's a habit-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SO EASY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's a habit",
+     "until": "you can't skip it"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's a habit",
+     "until": "you can't skip it",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO SKIP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 240,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you can't skip it",
+     "until": "And it takes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you can't skip it",
+     "until": "And it takes"
+    },
+    {
+     "type": "text",
+     "text": "2 MINUTES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 200,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And it takes",
+     "until": "before bed#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it takes",
+     "until": "before bed#1",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BEFORE BED",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "before bed#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "before bed#1"
+    }
+   ]
+  },
+  {
+   "id": "pushups",
+   "start": "Every night-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "EVERY NIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Every night",
+     "until": "do three easy sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleepy_standing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Every night",
+     "until": "do three easy sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 EASY SETS • PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "do three easy sets",
+     "speed": 400,
+     "until": "Not to failure"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "at": "do three easy sets",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "until": "just solid reps"
+    },
+    {
+     "type": "text",
+     "text": "NOT TO FAILURE",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "Not to failure",
+     "behind": false,
+     "until": "just solid reps"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Not to failure",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "GOOD FORM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "just solid reps"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "at": "just solid reps",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "good form"
+    }
+   ]
+  },
+  {
+   "id": "progress",
+   "start": "Night one-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "NIGHT 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Night one",
+     "until": "it feels like nothing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Night one",
+     "until": "it feels like nothing",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EASY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 260,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "it feels like nothing",
+     "until": "By night ten"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "it feels like nothing",
+     "until": "By night ten"
+    },
+    {
+     "type": "text",
+     "text": "NIGHT 10",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 220,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "By night ten",
+     "until": "it's automatic"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "By night ten",
+     "until": "it's automatic",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "AUTOMATIC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "it's automatic",
+     "until": "By night thirty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "it's automatic",
+     "until": "By night thirty"
+    },
+    {
+     "type": "text",
+     "text": "NIGHT 30",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 220,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "By night thirty",
+     "until": "you can do more reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "By night thirty",
+     "until": "you can do more reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MORE REPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you can do more reps",
+     "until": "your chest and arms"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you can do more reps",
+     "until": "your chest and arms"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "more reps",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FIRMER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your chest and arms",
+     "until": "and you've built"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your chest and arms",
+     "until": "and you've built",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#2FD94E",
+     "at": "your chest and arms",
+     "until": "and you've built"
+    },
+    {
+     "type": "text",
+     "text": "DAILY HABIT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you've built"
+    },
+    {
+     "type": "image",
+     "asset": "hero_trophy",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you've built",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "warning",
+   "start": "Keep it light-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "LIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 260,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep it light",
+     "until": "A few easy sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_peace_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Keep it light",
+     "until": "A few easy sets"
+    },
+    {
+     "type": "text",
+     "text": "GOOD SLEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "A few easy sets",
+     "until": "Just don't do"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A few easy sets",
+     "until": "Just don't do",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "DON'T",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Just don't do",
+     "until": "a brutal workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Just don't do",
+     "until": "a brutal workout",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BRUTAL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 240,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "a brutal workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "a brutal workout"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "a brutal workout",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "NOT BEFORE BED",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "right before bed",
+     "behind": false
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "always starts tomorrow"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "always starts tomorrow"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "always starts tomorrow",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "always starts tomorrow",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "STARTS TOMORROW",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "always starts tomorrow",
+     "behind": false,
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "TOMORROW...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "tomorrow#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Every single day",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Here's a habit-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "you can't skip it",
+   "src": "sfx_ez"
+  },
+  {
+   "at": "two minutes",
+   "src": "sfx_click"
+  },
+  {
+   "at": "before bed#1",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "Every night-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "do three easy sets",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Not to failure",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "good form",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Night one-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "By night ten",
+   "src": "sfx_few_moments_later"
+  },
+  {
+   "at": "By night thirty",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "more reps",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "daily habit",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "Keep it light-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "a brutal workout",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "always starts tomorrow",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you'll start#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
