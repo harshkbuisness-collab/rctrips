@@ -1,0 +1,803 @@
+{
+ "title": "3 plank mistakes hurting your back",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "plank",
+   "back",
+   "three",
+   "mistakes",
+   "sagging",
+   "glutes",
+   "high",
+   "abs",
+   "straight",
+   "neck",
+   "floor",
+   "harder"
+  ],
+  "bottom": [
+   [
+    "Three mistakes",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "hurting your back#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "hurting your back#1"
+    },
+    {
+     "type": "text",
+     "text": "PLANK • PLANK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "hurting your back#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hurting your back#1"
+    },
+    {
+     "type": "text",
+     "text": "YOUR BACK?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "hurting your back#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "hurting your back#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "hurting your back#1"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "start": "Three mistakes-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three mistakes",
+     "until": "Almost everyone",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 MISTAKES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three mistakes",
+     "until": "Almost everyone"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Almost everyone"
+    },
+    {
+     "type": "text",
+     "text": "EVERYONE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Almost everyone"
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "start": "Mistake one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake one",
+     "until": "Sagging hips",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MISTAKE 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake one",
+     "until": "Sagging hips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Sagging hips",
+     "until": "Your lower back takes"
+    },
+    {
+     "type": "text",
+     "text": "SAGGING HIPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Sagging hips",
+     "until": "Your lower back takes"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Sagging hips",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your lower back takes",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "text",
+     "text": "LOWER BACK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your lower back takes",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Squeeze your glutes"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes",
+     "until": "and your hips come up"
+    },
+    {
+     "type": "text",
+     "text": "HIPS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your hips come up"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": "Mistake two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake two",
+     "until": "Hips too high",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MISTAKE 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake two",
+     "until": "Hips too high"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pike_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hips too high",
+     "until": "It feels easier",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "TOO HIGH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hips too high",
+     "until": "It feels easier"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Hips too high",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It feels easier",
+     "until": "Lower them until",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ABS OFF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It feels easier",
+     "until": "Lower them until"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Lower them until"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT LINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower them until"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": "Mistake three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm_v3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake three",
+     "until": "Looking up",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MISTAKE 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake three",
+     "until": "Looking up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Looking up",
+     "until": "It strains your neck",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "LOOKING UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Looking up",
+     "until": "It strains your neck"
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It strains your neck",
+     "until": "Look at the floor",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NECK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It strains your neck",
+     "until": "Look at the floor"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "It strains your neck",
+     "duration": 0.2
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Look at the floor"
+    },
+    {
+     "type": "text",
+     "text": "LOOK DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Look at the floor"
+    }
+   ]
+  },
+  {
+   "id": "proof",
+   "start": "Do it right-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Do it right",
+     "until": "will feel harder",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 SECONDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Do it right",
+     "until": "will feel harder"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "will feel harder",
+     "until": "than a sloppy"
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "will feel harder",
+     "until": "than a sloppy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "than a sloppy"
+    },
+    {
+     "type": "text",
+     "text": "SLOPPY 2 MIN",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "than a sloppy+0.35",
+     "at": "than a sloppy"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who brags about"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who brags about"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who brags about",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who brags about",
+     "until": "Because your plank"
+    },
+    {
+     "type": "text",
+     "text": "5-MINUTE PLANK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who brags about",
+     "until": "Because your plank"
+    },
+    {
+     "type": "text",
+     "text": "YOUR BACK...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your plank"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your plank"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Three mistakes-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Mistake one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Mistake two-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Mistake three-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Do it right-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "hurting your back#1",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Sagging hips",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "Squeeze your glutes",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Hips too high",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "It strains your neck",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Look at the floor",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "will feel harder",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "who brags about",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because your plank",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

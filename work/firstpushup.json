@@ -1,0 +1,847 @@
+{
+ "title": "Can't do one push-up? Follow this ladder",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-up",
+   "weak",
+   "level",
+   "ladder",
+   "wall",
+   "twenty",
+   "incline",
+   "table",
+   "lowering",
+   "five",
+   "knees",
+   "weeks"
+  ],
+  "bottom": [
+   [
+    "Here's the ladder",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "single push-up#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "You're not weak"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T DO ONE?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "You're not weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're not weak",
+     "until": "You're just starting",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT WEAK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're not weak",
+     "until": "You're just starting"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "You're not weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_confused_scratch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're just starting",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WRONG LEVEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're just starting"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "You're just starting",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "ladder",
+   "start": "Here's the ladder-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's the ladder",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE LADDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's the ladder"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": "Step one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step one",
+     "until": "Wall push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step one",
+     "until": "Wall push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Wall push-ups",
+     "until": "lower your chest to",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WALL PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Wall push-ups",
+     "until": "lower your chest to"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_in_talk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "lower your chest to",
+     "until": "When you can do",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TO THE WALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "lower your chest to",
+     "until": "When you can do"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you can do"
+    },
+    {
+     "type": "text",
+     "text": "20 REPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you can do"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": "Step two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step two",
+     "until": "Incline push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step two",
+     "until": "Incline push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Incline push-ups",
+     "until": "Hands on a table",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "INCLINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Incline push-ups",
+     "until": "Hands on a table"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hands on a table",
+     "until": "Same straight body",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "TABLE OR BED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands on a table",
+     "until": "Same straight body"
+    },
+    {
+     "type": "image",
+     "asset": "prop_bed",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Hands on a table",
+     "until": "Same straight body"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top_v3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Same straight body",
+     "until": "Twenty clean reps",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Same straight body",
+     "until": "Twenty clean reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twenty clean reps"
+    },
+    {
+     "type": "text",
+     "text": "20 CLEAN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twenty clean reps"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": "Step three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step three",
+     "until": "Lowering",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step three",
+     "until": "Lowering"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.5,
+     "enter": "whip",
+     "at": "Lowering",
+     "until": "Then drop your knees"
+    },
+    {
+     "type": "text",
+     "text": "LOWERING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lowering",
+     "until": "From the top of"
+    },
+    {
+     "type": "text",
+     "text": "FROM THE TOP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "From the top of",
+     "until": "lower yourself slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lower yourself slowly",
+     "until": "for five seconds"
+    },
+    {
+     "type": "text",
+     "text": "5 SECONDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "for five seconds",
+     "until": "Then drop your knees"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crouch_talk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then drop your knees",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "KNEES DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then drop your knees"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets, every-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets, every",
+     "until": "every other day",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets, every",
+     "until": "every other day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every other day",
+     "until": "Most people get"
+    },
+    {
+     "type": "text",
+     "text": "OTHER DAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every other day",
+     "until": "Most people get"
+    },
+    {
+     "type": "image",
+     "asset": "hero_celebrate_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people get",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIRST PUSH-UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people get"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Most people get",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who says he can't"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who says he can't"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who says he can't",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says he can't",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SAYS HE CAN'T",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says he can't",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's the ladder-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Step one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Step two-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Step three-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Three sets, every-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You're not weak",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "You're just starting",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Wall push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Incline push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Lowering",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Most people get",
+   "src": "sfx_yeah_boy"
+  },
+  {
+   "at": "who says he can't",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "can't do a single push-up#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,786 @@
+{
+ "title": "Your first pull-up in 4-8 weeks",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "pull-up",
+   "normal",
+   "path",
+   "dead",
+   "hangs",
+   "grip",
+   "table",
+   "rows",
+   "back",
+   "negatives",
+   "five",
+   "weeks"
+  ],
+  "bottom": [
+   [
+    "That's normal",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "That's normal"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "That's normal"
+    },
+    {
+     "type": "text",
+     "text": "PULL-UPS • PULL-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "That's normal"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's normal",
+     "until": "And there's a simple"
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's normal",
+     "until": "And there's a simple"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "That's normal",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "That's normal"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And there's a simple",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SIMPLE PATH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And there's a simple"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "start": "Step one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step one",
+     "until": "Dead hangs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step one",
+     "until": "Dead hangs"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Dead hangs"
+    },
+    {
+     "type": "text",
+     "text": "DEAD HANGS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Dead hangs",
+     "until": "Hang from a bar"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT ARMS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hang from a bar",
+     "until": "Build up to thirty"
+    },
+    {
+     "type": "text",
+     "text": "30 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Build up to thirty",
+     "until": "This makes your grip"
+    },
+    {
+     "type": "text",
+     "text": "GRIP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "This makes your grip"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": "Step two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step two",
+     "until": "Table rows",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step two",
+     "until": "Table rows"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.64,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Table rows"
+    },
+    {
+     "type": "text",
+     "text": "TABLE ROWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Table rows",
+     "until": "Lie under a sturdy"
+    },
+    {
+     "type": "text",
+     "text": "UNDER A TABLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lie under a sturdy",
+     "until": "grab the edge"
+    },
+    {
+     "type": "text",
+     "text": "GRAB",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 200,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "grab the edge",
+     "until": "and pull your chest"
+    },
+    {
+     "type": "text",
+     "text": "CHEST UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and pull your chest",
+     "until": "This builds your back"
+    },
+    {
+     "type": "text",
+     "text": "BACK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 200,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "This builds your back"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": "Step three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Step three",
+     "until": "Negatives",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STEP 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Step three",
+     "until": "Negatives"
+    },
+    {
+     "type": "image",
+     "asset": "hero_look_up_bar",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Negatives",
+     "until": "Jump to the top",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "NEGATIVES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Negatives",
+     "until": "Jump to the top"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Jump to the top",
+     "until": "and lower yourself",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "JUMP UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Jump to the top",
+     "until": "and lower yourself"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and lower yourself",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "5 SECONDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lower yourself"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets of each-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets of each",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets of each",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "until": "Most people get"
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week",
+     "until": "Most people get"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people get",
+     "until": "in four to eight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIRST PULL-UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people get",
+     "until": "in four to eight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_celebrate_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "in four to eight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "4-8 WEEKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "in four to eight"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "in four to eight",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who just hangs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who just hangs"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who just hangs",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who just hangs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "JUST HANGS THERE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who just hangs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "PULL-UP...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Step one-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Step two-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Step three-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Three sets of each-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's normal",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Dead hangs",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "This makes your grip",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Table rows",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Negatives",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "and lower yourself",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "in four to eight",
+   "src": "sfx_yeah_boy"
+  },
+  {
+   "at": "who just hangs",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "single pull-up#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "title": "1-minute plank every day for 30 days",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "minute",
+   "planks",
+   "thirty",
+   "six",
+   "pack",
+   "shakes",
+   "stronger",
+   "straighter",
+   "fat",
+   "elbows",
+   "glutes",
+   "straight"
+  ],
+  "bottom": [
+   [
+    "Here's what actually",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Thirty days"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "Every day"
+    },
+    {
+     "type": "text",
+     "text": "1 MINUTE • PLANK",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Every day",
+     "until": "Thirty days"
+    },
+    {
+     "type": "text",
+     "text": "EVERY DAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Every day",
+     "until": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "Every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty days",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Thirty days",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Here's what actually-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's what actually",
+     "until": "And it's not",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT HAPPENS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's what actually",
+     "until": "And it's not"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it's not"
+    },
+    {
+     "type": "text",
+     "text": "SIX PACK",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "And it's not+0.35",
+     "at": "And it's not"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "And it's not",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "weeks",
+   "start": "Week one-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_plank",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week one",
+     "until": "your stomach shakes",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "WEEK 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week one",
+     "until": "your stomach shakes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your stomach shakes",
+     "until": "Week two"
+    },
+    {
+     "type": "text",
+     "text": "SHAKING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your stomach shakes",
+     "until": "Week two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week two",
+     "until": "you hold the full",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEK 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week two",
+     "until": "you hold the full"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you hold the full",
+     "until": "By week four"
+    },
+    {
+     "type": "text",
+     "text": "FULL MINUTE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you hold the full",
+     "until": "By week four"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "By week four",
+     "until": "your core is stronger",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEK 4",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "By week four",
+     "until": "your core is stronger"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your core is stronger",
+     "until": "your lower back feels"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your core is stronger",
+     "until": "your lower back feels"
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "your core is stronger",
+     "until": "your lower back feels"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your lower back feels",
+     "until": "and you stand up",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STABLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your lower back feels",
+     "until": "and you stand up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you stand up",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHTER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you stand up"
+    }
+   ]
+  },
+  {
+   "id": "fat",
+   "start": "But a plank won't-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "But a plank won't"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But a plank won't",
+     "until": "Abs show when",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BELLY FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But a plank won't",
+     "until": "Abs show when"
+    },
+    {
+     "type": "text",
+     "text": "WON'T BURN IT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "But a plank won't",
+     "until": "Abs show when"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "But a plank won't",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Abs show when",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FAT DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Abs show when"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do it right-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do it right",
+     "until": "Elbows under your",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO IT RIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do it right",
+     "until": "Elbows under your"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Elbows under your",
+     "until": "If your hips sag"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS UNDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Elbows under your",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes",
+     "until": "Body in one straight"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT LINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Body in one straight",
+     "until": "If your hips sag"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If your hips sag"
+    },
+    {
+     "type": "text",
+     "text": "HIPS SAG?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "If your hips sag"
+    },
+    {
+     "type": "text",
+     "text": "STOP AND REST",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "If your hips sag"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who wants abs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who wants abs"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who wants abs",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who wants abs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "ABS IN A WEEK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who wants abs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "PLANKS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's what actually-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Week one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "But a plank won't-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So do it right-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Thirty days",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "not a six pack",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "your stomach shakes",
+   "src": "sfx_shiver"
+  },
+  {
+   "at": "By week four",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "won't burn belly fat",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Squeeze your glutes",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "who wants abs",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "one minute of planks#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

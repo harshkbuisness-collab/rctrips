@@ -1,0 +1,669 @@
+{
+ "title": "Leg raises hurt your lower back? Fix it",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "leg",
+   "raises",
+   "back",
+   "abs",
+   "hip",
+   "arches",
+   "spine",
+   "flat",
+   "knees",
+   "slowly",
+   "hips",
+   "reps"
+  ],
+  "bottom": [
+   [
+    "That means your abs",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "hurt your lower back#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "hurt your lower back#1"
+    },
+    {
+     "type": "text",
+     "text": "LEG RAISES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "hurt your lower back#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hurt your lower back#1"
+    },
+    {
+     "type": "text",
+     "text": "BACK PAIN?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "hurt your lower back#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "hurt your lower back#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "hurt your lower back#1"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "That means your abs-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That means your abs",
+     "until": "Your hip muscles are",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ABS OFF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That means your abs",
+     "until": "Your hip muscles are"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your hip muscles are",
+     "until": "When your lower back arches",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HIP MUSCLES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your hip muscles are",
+     "until": "When your lower back arches"
+    },
+    {
+     "type": "image",
+     "asset": "hero_leg_raise_down",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When your lower back arches",
+     "until": "your hip flexors pull",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "ARCHING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "When your lower back arches",
+     "until": "your hip flexors pull"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your hip flexors pull",
+     "until": "Your abs barely",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PULLS SPINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your hip flexors pull",
+     "until": "Your abs barely"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "your hip flexors pull",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your abs barely",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BARELY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your abs barely"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So fix it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So fix it",
+     "until": "Hands under your hips",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So fix it",
+     "until": "Hands under your hips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lying_topdown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hands under your hips",
+     "until": "Press your lower back flat",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "HANDS UNDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands under your hips",
+     "until": "Press your lower back flat"
+    },
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Press your lower back flat"
+    },
+    {
+     "type": "text",
+     "text": "BACK FLAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Press your lower back flat"
+    }
+   ]
+  },
+  {
+   "id": "lift",
+   "start": "Bend your knees-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Lift your hips slightly"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_leg_raise",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Bend your knees"
+    },
+    {
+     "type": "text",
+     "text": "BEND KNEES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bend your knees",
+     "until": "Lift your legs slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lift your legs slowly",
+     "until": "and lower them only"
+    },
+    {
+     "type": "text",
+     "text": "STAY FLAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lower them only",
+     "until": "Lift your hips slightly"
+    },
+    {
+     "type": "text",
+     "text": "HIPS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lift your hips slightly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Ten to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose back hurts"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose back hurts"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose back hurts",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose back hurts",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "BACK HURTS AFTER ABS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose back hurts",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "LEG RAISES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That means your abs-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So fix it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Bend your knees-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Ten to fifteen-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "hurt your lower back#1",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Your abs barely",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "your hip flexors pull",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "Press your lower back flat",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Lift your legs slowly",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Lift your hips slightly",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "whose back hurts",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "leg raises hurt your lower back#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

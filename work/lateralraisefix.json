@@ -1,0 +1,788 @@
+{
+ "title": "Lateral raises not working? Fix this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "lateral",
+   "raises",
+   "heavy",
+   "traps",
+   "shrug",
+   "neck",
+   "lighter",
+   "bottles",
+   "elbows",
+   "shoulder",
+   "slowly",
+   "burn"
+  ],
+  "bottom": [
+   [
+    "You're swinging too",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "aren't working#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.4,
+     "enter": "cut",
+     "at": "start",
+     "until": "aren't working#1"
+    },
+    {
+     "type": "text",
+     "text": "LATERAL RAISES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "aren't working#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "aren't working#1"
+    },
+    {
+     "type": "text",
+     "text": "NOT WORKING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "aren't working#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "aren't working#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "aren't working#1"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You're swinging too-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're swinging too",
+     "until": "And your traps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TOO HEAVY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're swinging too",
+     "until": "And your traps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_neck_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And your traps",
+     "until": "When the weight is"
+    },
+    {
+     "type": "text",
+     "text": "TRAPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And your traps",
+     "until": "When the weight is"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When the weight is",
+     "until": "Your neck muscles",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHRUG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When the weight is",
+     "until": "Your neck muscles"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your neck muscles",
+     "until": "your side shoulders"
+    },
+    {
+     "type": "text",
+     "text": "NECK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your neck muscles",
+     "until": "your side shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your side shoulders",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BARELY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your side shoulders"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "your side shoulders",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So fix it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So fix it",
+     "until": "Go lighter",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So fix it",
+     "until": "Go lighter"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Go lighter",
+     "until": "Water bottles are",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GO LIGHTER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Go lighter",
+     "until": "Water bottles are"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Water bottles are"
+    },
+    {
+     "type": "text",
+     "text": "BOTTLES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Water bottles are"
+    },
+    {
+     "type": "image",
+     "asset": "prop_water_bottle",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Water bottles are"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "start": "Lean slightly forward-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Stop at shoulder"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Lean slightly forward",
+     "until": "Lower slowly for three"
+    },
+    {
+     "type": "text",
+     "text": "LEAN FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lean slightly forward",
+     "until": "Lift with your elbows"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS LEAD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lift with your elbows",
+     "until": "out to the sides"
+    },
+    {
+     "type": "text",
+     "text": "OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "out to the sides",
+     "until": "Stop at shoulder"
+    },
+    {
+     "type": "text",
+     "text": "STOP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Stop at shoulder",
+     "until": "Lower slowly for three"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.6,
+     "enter": "whip",
+     "at": "Lower slowly for three"
+    },
+    {
+     "type": "text",
+     "text": "3 SEC DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower slowly for three"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve to twenty-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twelve to twenty",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "12-20",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve to twenty",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "until": "It should burn",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week",
+     "until": "It should burn"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It should burn",
+     "until": "not your neck"
+    },
+    {
+     "type": "text",
+     "text": "BURN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "It should burn",
+     "until": "not your neck"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#2FD94E",
+     "at": "It should burn",
+     "until": "not your neck"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not your neck",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT NECK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "not your neck"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "swinging heavy dumbbells"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "swinging heavy dumbbells"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "swinging heavy dumbbells",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "swinging heavy dumbbells",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "TOO HEAVY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "swinging heavy dumbbells",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "NOT WORKING...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You're swinging too-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So fix it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Lean slightly forward-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Twelve to twenty-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "aren't working#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And your traps",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "you shrug and swing",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "barely work",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Go lighter",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Lower slowly for three",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "It should burn",
+   "src": "sfx_whoosh_fire"
+  },
+  {
+   "at": "swinging heavy dumbbells",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "aren't working#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

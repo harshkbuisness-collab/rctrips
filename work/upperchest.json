@@ -1,0 +1,696 @@
+{
+ "title": "Flat upper chest? Do decline push-ups",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "upper",
+   "chest",
+   "flat",
+   "middle",
+   "top",
+   "feet",
+   "incline",
+   "decline",
+   "chair",
+   "straight",
+   "nose",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "Normal push-ups hit",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "looks flat#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "looks flat#1"
+    },
+    {
+     "type": "text",
+     "text": "UPPER CHEST",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "looks flat#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "looks flat#1"
+    },
+    {
+     "type": "text",
+     "text": "FLAT?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "looks flat#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "looks flat#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "looks flat#1"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Normal push-ups hit-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Normal push-ups hit",
+     "until": "The top gets less",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "MIDDLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Normal push-ups hit",
+     "until": "The top gets less"
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#2FD94E",
+     "at": "Normal push-ups hit",
+     "until": "The top gets less"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The top gets less"
+    },
+    {
+     "type": "text",
+     "text": "TOP?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "The top gets less"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "When your feet are-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When your feet are",
+     "until": "your arms push more",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FEET HIGHER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When your feet are",
+     "until": "your arms push more"
+    },
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your arms push more",
+     "until": "like an incline press"
+    },
+    {
+     "type": "text",
+     "text": "UPWARD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your arms push more",
+     "until": "like an incline press"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like an incline press",
+     "until": "That puts more work",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "INCLINE PRESS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "like an incline press",
+     "until": "That puts more work"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That puts more work",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "UPPER CHEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That puts more work"
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#2FD94E",
+     "at": "That puts more work"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do decline push-ups-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "So do decline push-ups",
+     "until": "Lower until your nose"
+    },
+    {
+     "type": "text",
+     "text": "DECLINE PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "So do decline push-ups",
+     "until": "Feet on a chair"
+    },
+    {
+     "type": "text",
+     "text": "FEET ON CHAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Feet on a chair",
+     "until": "Hands on the floor"
+    },
+    {
+     "type": "text",
+     "text": "OUTSIDE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands on the floor",
+     "until": "Body straight"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Body straight",
+     "until": "Lower until your nose"
+    },
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Lower until your nose",
+     "until": "then press up"
+    },
+    {
+     "type": "text",
+     "text": "NOSE DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower until your nose",
+     "until": "then press up"
+    },
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "then press up"
+    },
+    {
+     "type": "text",
+     "text": "PRESS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "then press up"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Eight to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Eight to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "8-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Eight to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose chest stops"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose chest stops"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose chest stops",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose chest stops",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "FLAT UPPER CHEST",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose chest stops",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "FLAT...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Normal push-ups hit-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "When your feet are-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So do decline push-ups-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Eight to fifteen-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "looks flat#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "The top gets less",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "your arms push more",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "That puts more work",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "Lower until your nose",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "then press up",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "whose chest stops",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "upper chest looks flat#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

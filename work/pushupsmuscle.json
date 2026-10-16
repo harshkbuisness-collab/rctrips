@@ -1,0 +1,768 @@
+{
+ "title": "Can push-ups alone build muscle?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "muscle",
+   "yes",
+   "harder",
+   "easy",
+   "feet",
+   "slow",
+   "triceps",
+   "sets",
+   "failure",
+   "front",
+   "rows"
+  ],
+  "bottom": [
+   [
+    "Muscle grows when",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Yes"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "Yes"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS ONLY?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Yes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Yes",
+     "until": "But only if"
+    },
+    {
+     "type": "text",
+     "text": "YES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Yes",
+     "until": "But only if"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Yes",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "Yes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But only if",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ONLY IF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But only if"
+    },
+    {
+     "type": "text",
+     "text": "SAME PUSH-UP FOREVER",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "But only if"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Muscle grows when-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Muscle grows when",
+     "until": "Once thirty push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Muscle grows when",
+     "until": "Once thirty push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Once thirty push-ups",
+     "until": "they stop working"
+    },
+    {
+     "type": "text",
+     "text": "TOO EASY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Once thirty push-ups",
+     "until": "they stop working"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "they stop working",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STOP WORKING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "they stop working"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "they stop working",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "harder",
+   "start": "So make them harder-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "One, raise your feet"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So make them harder",
+     "until": "One, raise your feet",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So make them harder",
+     "until": "One, raise your feet"
+    },
+    {
+     "type": "video",
+     "asset": "clip_decline_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "One, raise your feet"
+    },
+    {
+     "type": "text",
+     "text": "FEET UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "One, raise your feet",
+     "until": "More weight goes"
+    },
+    {
+     "type": "text",
+     "text": "MORE WEIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "More weight goes"
+    }
+   ]
+  },
+  {
+   "id": "slow",
+   "start": "Two, go slow-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Three, bring your hands"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.6,
+     "enter": "whip",
+     "at": "Two, go slow",
+     "until": "Three, bring your hands"
+    },
+    {
+     "type": "text",
+     "text": "GO SLOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two, go slow",
+     "until": "Three seconds down"
+    },
+    {
+     "type": "text",
+     "text": "3 SEC DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three seconds down",
+     "until": "Three, bring your hands"
+    },
+    {
+     "type": "video",
+     "asset": "clip_diamond_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Three, bring your hands"
+    },
+    {
+     "type": "text",
+     "text": "HANDS CLOSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three, bring your hands",
+     "until": "for your triceps"
+    },
+    {
+     "type": "text",
+     "text": "TRICEPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "for your triceps"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three hard sets-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three hard sets",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 HARD SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three hard sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "until": "close to failure"
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week",
+     "until": "close to failure"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "close to failure"
+    },
+    {
+     "type": "text",
+     "text": "CLOSE TO FAILURE",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "close to failure"
+    }
+   ]
+  },
+  {
+   "id": "back",
+   "start": "One more thing-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "enter": "whip",
+     "at": "One more thing",
+     "until": "Push-ups train your front",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 MORE THING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "One more thing",
+     "until": "Push-ups train your front"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Push-ups train your front",
+     "until": "Add rows or pull-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FRONT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push-ups train your front",
+     "until": "Add rows or pull-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.64,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Add rows or pull-ups"
+    },
+    {
+     "type": "text",
+     "text": "ADD ROWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.17,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Add rows or pull-ups"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who thinks you need"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who thinks you need"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who thinks you need",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_gym_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who thinks you need",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "NEED A GYM?",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who thinks you need",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Muscle grows when-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So make them harder-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Two, go slow-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Three hard sets-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "One more thing-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Yes",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "they stop working",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "One, raise your feet",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Three, bring your hands",
+   "src": "sfx_click"
+  },
+  {
+   "at": "close to failure",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Add rows or pull-ups",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "who thinks you need",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "can push-ups alone build muscle#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

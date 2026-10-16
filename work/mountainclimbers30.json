@@ -1,0 +1,865 @@
+{
+ "title": "Mountain climbers every day for 30 days",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "mountain",
+   "climbers",
+   "thirty",
+   "mistake",
+   "cardio",
+   "core",
+   "heart",
+   "breath",
+   "fat",
+   "diet",
+   "hips",
+   "rounds"
+  ],
+  "bottom": [
+   [
+    "Here's what changes",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Thirty days"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_mountain_climbers",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.4,
+     "enter": "cut",
+     "at": "start",
+     "until": "Every day"
+    },
+    {
+     "type": "text",
+     "text": "MOUNTAIN CLIMBERS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Every day",
+     "until": "Thirty days"
+    },
+    {
+     "type": "text",
+     "text": "EVERY DAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Every day",
+     "until": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "Every day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty days",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty days"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Thirty days",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "start": "Here's what changes-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's what changes",
+     "until": "And the mistake that",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT CHANGES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's what changes",
+     "until": "And the mistake that"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And the mistake that",
+     "until": "makes them useless",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE MISTAKE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And the mistake that",
+     "until": "makes them useless"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "makes them useless"
+    },
+    {
+     "type": "text",
+     "text": "USELESS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "makes them useless"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "makes them useless",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "both",
+   "start": "They're cardio and core-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_mountain_climbers",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "whip",
+     "at": "They're cardio and core"
+    },
+    {
+     "type": "text",
+     "text": "CARDIO + CORE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "They're cardio and core",
+     "until": "Your heart rate goes"
+    },
+    {
+     "type": "text",
+     "text": "HEART RATE UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your heart rate goes",
+     "until": "and your abs hold"
+    },
+    {
+     "type": "text",
+     "text": "ABS HOLD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your abs hold"
+    }
+   ]
+  },
+  {
+   "id": "month",
+   "start": "After a month-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "After a month",
+     "until": "you'll last much longer",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 MONTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "After a month",
+     "until": "you'll last much longer"
+    },
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you'll last much longer",
+     "until": "Your core feels",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LAST LONGER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "you'll last much longer",
+     "until": "Your core feels"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your core feels",
+     "until": "But they won't melt"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your core feels",
+     "until": "But they won't melt"
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "Your core feels",
+     "until": "But they won't melt"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But they won't melt",
+     "until": "That comes from your diet",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BELLY FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But they won't melt",
+     "until": "That comes from your diet"
+    },
+    {
+     "type": "text",
+     "text": "WON'T MELT IT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "But they won't melt",
+     "until": "That comes from your diet"
+    },
+    {
+     "type": "image",
+     "asset": "hero_grocery_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That comes from your diet"
+    },
+    {
+     "type": "text",
+     "text": "DIET",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That comes from your diet"
+    }
+   ]
+  },
+  {
+   "id": "mistake",
+   "start": "The mistake#2-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "Hips bouncing"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The mistake#2",
+     "until": "Hips bouncing",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE MISTAKE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The mistake#2",
+     "until": "Hips bouncing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pike_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hips bouncing",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "BOUNCING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hips bouncing"
+    },
+    {
+     "type": "text",
+     "text": "HIPS UP AND DOWN",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Hips bouncing"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Hips bouncing",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "Keep your hips low-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_mountain_climbers",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Keep your hips low"
+    },
+    {
+     "type": "text",
+     "text": "HIPS LOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep your hips low",
+     "until": "and drive your knees"
+    },
+    {
+     "type": "text",
+     "text": "KNEES IN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and drive your knees"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Thirty seconds on-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty seconds on",
+     "until": "thirty seconds rest",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 ON",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds on",
+     "until": "thirty seconds rest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_towel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "thirty seconds rest",
+     "until": "Five rounds"
+    },
+    {
+     "type": "text",
+     "text": "30 REST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "thirty seconds rest",
+     "until": "Five rounds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Five rounds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Five rounds"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who hates cardio"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who hates cardio"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who hates cardio",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who hates cardio",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "HATES CARDIO",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who hates cardio",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CLIMBERS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Here's what changes-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "They're cardio and core-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "After a month-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "The mistake#2-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Keep your hips low-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Thirty seconds on-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Thirty days",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "makes them useless",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Your heart rate goes",
+   "src": "sfx_heavy_breathing"
+  },
+  {
+   "at": "you'll last much longer",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "But they won't melt",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Hips bouncing",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Five rounds",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "who hates cardio",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because mountain climbers",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

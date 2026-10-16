@@ -1,0 +1,753 @@
+{
+ "title": "Big shoulders with no weights: pike push-ups",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "shoulders",
+   "weights",
+   "overhead",
+   "floor",
+   "pike",
+   "hips",
+   "V",
+   "head",
+   "press",
+   "reps",
+   "chair",
+   "easy"
+  ],
+  "bottom": [
+   [
+    "Push-ups won't do",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "without weights#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "without weights#1"
+    },
+    {
+     "type": "text",
+     "text": "BIG SHOULDERS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "without weights#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "without weights#1"
+    },
+    {
+     "type": "text",
+     "text": "NO WEIGHTS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "without weights#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "without weights#1",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "without weights#1"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Push-ups won't do-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Push-ups won't do",
+     "until": "You need to push",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "NOT ALONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push-ups won't do",
+     "until": "You need to push"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You need to push",
+     "until": "And you can do",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "OVERHEAD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You need to push",
+     "until": "And you can do"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_down",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And you can do",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ON THE FLOOR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And you can do"
+    }
+   ]
+  },
+  {
+   "id": "pike",
+   "start": "It's called a pike-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "It's called a pike"
+    },
+    {
+     "type": "text",
+     "text": "PIKE PUSH-UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's called a pike",
+     "until": "hips high"
+    },
+    {
+     "type": "text",
+     "text": "HIPS HIGH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "hips high",
+     "until": "so your body makes"
+    },
+    {
+     "type": "text",
+     "text": "UPSIDE-DOWN V",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "so your body makes"
+    }
+   ]
+  },
+  {
+   "id": "lower",
+   "start": "Bend your elbows-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Then press back up"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Bend your elbows",
+     "until": "Then press back up"
+    },
+    {
+     "type": "text",
+     "text": "BEND",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bend your elbows",
+     "until": "and lower the top"
+    },
+    {
+     "type": "text",
+     "text": "HEAD DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lower the top",
+     "until": "between your hands"
+    },
+    {
+     "type": "text",
+     "text": "BETWEEN HANDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "between your hands",
+     "until": "Then press back up"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "Then press back up"
+    },
+    {
+     "type": "text",
+     "text": "PRESS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then press back up"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Now your shoulders-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Now your shoulders",
+     "until": "like an overhead press",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Now your shoulders",
+     "until": "like an overhead press"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#2FD94E",
+     "at": "Now your shoulders",
+     "until": "like an overhead press"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like an overhead press",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "OVERHEAD PRESS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "like an overhead press"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Six to twelve-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Six to twelve",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "6-12",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Six to twelve",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "until": "Too easy",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week",
+     "until": "Too easy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Too easy",
+     "until": "Put your feet on"
+    },
+    {
+     "type": "text",
+     "text": "TOO EASY?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Too easy",
+     "until": "Put your feet on"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pike_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Put your feet on",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "FEET ON CHAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Put your feet on"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with no shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with no shoulders"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with no shoulders",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with no shoulders",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "NO SHOULDERS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with no shoulders",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Push-ups won't do-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "It's called a pike-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Bend your elbows-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Now your shoulders-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Six to twelve-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "without weights#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You need to push",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "hips high",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "and lower the top",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Then press back up",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "like an overhead press",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "Too easy",
+   "src": "sfx_ez"
+  },
+  {
+   "at": "with no shoulders",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "big shoulders without weights#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
