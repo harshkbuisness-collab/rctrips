@@ -343,6 +343,23 @@
     },
     {
      "type": "text",
+     "text": "LOWER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower only until",
+     "until": "are parallel to the floor"
+    },
+    {
+     "type": "text",
      "text": "PARALLEL",
      "look": "echo",
      "behind": true,
@@ -355,7 +372,7 @@
      "animation": "none",
      "untype": false,
      "tilt": 0,
-     "at": "Lower only until"
+     "at": "are parallel to the floor"
     }
    ]
   },
@@ -638,7 +655,7 @@
    "src": "sfx_ding"
   },
   {
-   "at": "Lower only until",
+   "at": "are parallel to the floor",
    "src": "sfx_stretch"
   },
   {

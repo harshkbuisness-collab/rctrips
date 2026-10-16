@@ -150,18 +150,18 @@
      "shadow": true,
      "enter": "whip",
      "at": "When you sit, the",
-     "until": "Over time they get",
+     "until": "stay short all day",
      "width": 0.8,
      "y": 0.66
     },
     {
      "type": "text",
-     "text": "SHORT",
+     "text": "SITTING",
      "look": "giant",
      "behind": true,
      "x": 0.5,
      "y": 0.19,
-     "size": 230,
+     "size": 210,
      "color": "#E3262E",
      "align": "center",
      "maxWidth": 1,
@@ -169,6 +169,31 @@
      "untype": false,
      "tilt": 0,
      "at": "When you sit, the",
+     "until": "stay short all day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "stay short all day",
+     "until": "Over time they get"
+    },
+    {
+     "type": "text",
+     "text": "SHORT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "stay short all day",
      "until": "Over time they get"
     },
     {

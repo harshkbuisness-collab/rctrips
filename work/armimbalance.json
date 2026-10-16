@@ -1,0 +1,634 @@
+{
+ "title": "One arm bigger than the other? Even it out",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "arm",
+   "bigger",
+   "normal",
+   "dominant",
+   "strong",
+   "side",
+   "one",
+   "hammer",
+   "weaker",
+   "reps",
+   "same",
+   "smaller"
+  ],
+  "bottom": [
+   [
+    "Your dominant arm",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "than the other"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "than the other"
+    },
+    {
+     "type": "text",
+     "text": "1 ARM BIGGER?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "than the other"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_big",
+     "shadow": true,
+     "enter": "whip",
+     "at": "than the other",
+     "until": "That's normal"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "than the other",
+     "until": "That's normal"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "than the other",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's normal",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's normal"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Your dominant arm-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your dominant arm",
+     "until": "so it's often bigger",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DOMINANT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your dominant arm",
+     "until": "so it's often bigger"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "so it's often bigger",
+     "until": "In push-ups and two-arm"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "so it's often bigger",
+     "until": "In push-ups and two-arm"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "In push-ups and two-arm",
+     "until": "the strong side quietly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TWO-ARM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "In push-ups and two-arm",
+     "until": "the strong side quietly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_alternate",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the strong side quietly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TAKES OVER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "the strong side quietly"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "the strong side quietly",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So train one arm-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Not one more"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "So train one arm",
+     "until": "Not one more"
+    },
+    {
+     "type": "text",
+     "text": "ONE ARM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So train one arm",
+     "until": "Hammer curls with"
+    },
+    {
+     "type": "text",
+     "text": "HAMMER CURLS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hammer curls with",
+     "until": "Always start with your weaker"
+    },
+    {
+     "type": "text",
+     "text": "WEAKER FIRST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Always start with your weaker",
+     "until": "Count the reps"
+    },
+    {
+     "type": "text",
+     "text": "COUNT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Count the reps",
+     "until": "then do exactly the same"
+    },
+    {
+     "type": "text",
+     "text": "SAME NUMBER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "then do exactly the same",
+     "until": "Not one more"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Not one more"
+    },
+    {
+     "type": "text",
+     "text": "ONE MORE",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "Not one more+0.35",
+     "at": "Not one more"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets per arm-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets per arm",
+     "until": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS EACH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets per arm",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "until": "In a few months"
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week",
+     "until": "In a few months"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "In a few months",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SMALLER GAP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "In a few months"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who only flexes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who only flexes"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who only flexes",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who only flexes",
+     "until": "Because one arm"
+    },
+    {
+     "type": "text",
+     "text": "FLEXES ONE ARM",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who only flexes",
+     "until": "Because one arm"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because one arm"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because one arm"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your dominant arm-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So train one arm-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Three sets per arm-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "than the other",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That's normal",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "the strong side quietly",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Always start with your weaker",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Count the reps",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Not one more",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "In a few months",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "who only flexes",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because one arm",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

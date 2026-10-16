@@ -453,6 +453,23 @@
      "untype": false,
      "tilt": 0,
      "at": "Push your knees out",
+     "until": "in the same direction"
+    },
+    {
+     "type": "text",
+     "text": "WITH TOES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "in the same direction",
      "until": "Keep your whole foot"
     },
     {
@@ -712,7 +729,7 @@
    "src": "sfx_hammer"
   },
   {
-   "at": "That old rule",
+   "at": "mostly a myth",
    "src": "sfx_get_out"
   },
   {
@@ -724,12 +741,8 @@
    "src": "sfx_bone_crack"
   },
   {
-   "at": "Push your knees out",
+   "at": "in the same direction",
    "src": "sfx_ding"
-  },
-  {
-   "at": "Pain",
-   "src": "sfx_ouch"
   },
   {
    "at": "who's scared of squats",

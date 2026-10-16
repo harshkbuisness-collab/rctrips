@@ -387,7 +387,7 @@
     },
     {
      "type": "text",
-     "text": "MILK • PEANUT BUTTER • BANANAS • EGGS • RICE",
+     "text": "MILK • EGGS • RICE",
      "look": "marquee",
      "behind": true,
      "x": 0.5,
@@ -541,28 +541,53 @@
     },
     {
      "type": "image",
-     "asset": "hero_measuring_waist",
+     "asset": "hero_lazy_couch",
      "shadow": true,
      "enter": "whip",
      "at": "Without training, the",
+     "until": "becomes fat instead",
      "width": 0.8,
      "y": 0.66
     },
     {
      "type": "text",
-     "text": "FAT",
+     "text": "NO TRAINING?",
      "look": "giant",
      "behind": true,
      "x": 0.5,
      "y": 0.19,
-     "size": 230,
+     "size": 150,
      "color": "#E3262E",
      "align": "center",
      "maxWidth": 1,
      "animation": "letters",
      "untype": false,
      "tilt": 0,
-     "at": "Without training, the"
+     "at": "Without training, the",
+     "until": "becomes fat instead"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "becomes fat instead"
+    },
+    {
+     "type": "text",
+     "text": "FAT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "becomes fat instead"
     },
     {
      "type": "text",
@@ -574,7 +599,7 @@
      "tilt": -8,
      "speed": 240,
      "behind": false,
-     "at": "Without training, the"
+     "at": "becomes fat instead"
     }
    ]
   },
@@ -814,7 +839,7 @@
    "src": "sfx_shocked_2"
   },
   {
-   "at": "Without training, the",
+   "at": "becomes fat instead",
    "src": "sfx_get_out"
   },
   {

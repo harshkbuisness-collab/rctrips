@@ -1,0 +1,714 @@
+{
+ "title": "Bad sleep is killing your gains",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "sleep",
+   "gains",
+   "grow",
+   "repair",
+   "growth",
+   "hormone",
+   "five",
+   "hours",
+   "junk",
+   "seven",
+   "phone",
+   "supplement"
+  ],
+  "bottom": [
+   [
+    "You train hard",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "killing your gains#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "killing your gains#1"
+    },
+    {
+     "type": "text",
+     "text": "BAD SLEEP",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "killing your gains#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleepy_standing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "killing your gains#1"
+    },
+    {
+     "type": "text",
+     "text": "GAINS?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "killing your gains#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "killing your gains#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You train hard-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You train hard",
+     "until": "and still don't grow",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TRAIN HARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You train hard",
+     "until": "and still don't grow"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and still don't grow",
+     "until": "Look at your sleep"
+    },
+    {
+     "type": "text",
+     "text": "NO GROWTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and still don't grow",
+     "until": "Look at your sleep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Look at your sleep",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SLEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Look at your sleep"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Your muscles repair-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your muscles repair",
+     "until": "That's also when your body",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "REPAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your muscles repair",
+     "until": "That's also when your body"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's also when your body",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "GROWTH HORMONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's also when your body"
+    }
+   ]
+  },
+  {
+   "id": "bad",
+   "start": "Sleep five hours-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_yawning",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Sleep five hours",
+     "until": "your recovery slows",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 HOURS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Sleep five hours",
+     "until": "your recovery slows"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your recovery slows",
+     "until": "your strength drops"
+    },
+    {
+     "type": "text",
+     "text": "SLOWER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your recovery slows",
+     "until": "your strength drops"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your strength drops",
+     "until": "and you feel hungrier",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEAKER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your strength drops",
+     "until": "and you feel hungrier"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tempted_pizza",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you feel hungrier"
+    },
+    {
+     "type": "text",
+     "text": "JUNK FOOD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you feel hungrier"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and you feel hungrier",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So aim for seven-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So aim for seven",
+     "until": "Same bedtime every",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "7-9 HOURS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So aim for seven",
+     "until": "Same bedtime every"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Same bedtime every",
+     "until": "No phone for thirty"
+    },
+    {
+     "type": "text",
+     "text": "SAME TIME",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Same bedtime every",
+     "until": "No phone for thirty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_phone_scroll",
+     "shadow": true,
+     "enter": "whip",
+     "at": "No phone for thirty",
+     "until": "Dark, cool room",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO PHONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "No phone for thirty",
+     "until": "Dark, cool room"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sleeping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Dark, cool room",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "DARK + COOL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Dark, cool room"
+    },
+    {
+     "type": "image",
+     "asset": "prop_bed",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.2,
+     "motion": {
+      "type": "pulse"
+     },
+     "at": "Dark, cool room"
+    }
+   ]
+  },
+  {
+   "id": "cheap",
+   "start": "Sleep is the cheapest-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Sleep is the cheapest",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHEAPEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Sleep is the cheapest"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Sleep is the cheapest",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who scrolls till"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who scrolls till"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who scrolls till",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_phone_scroll",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who scrolls till",
+     "until": "Because bad sleep"
+    },
+    {
+     "type": "text",
+     "text": "SCROLLS TILL 3 AM",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who scrolls till",
+     "until": "Because bad sleep"
+    },
+    {
+     "type": "text",
+     "text": "BAD SLEEP...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because bad sleep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because bad sleep"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You train hard-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Your muscles repair-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Sleep five hours-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So aim for seven-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Sleep is the cheapest-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "killing your gains#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Look at your sleep",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "Your muscles repair",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "your strength drops",
+   "src": "sfx_dog_cry"
+  },
+  {
+   "at": "and you feel hungrier",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "No phone for thirty",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Sleep is the cheapest",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "who scrolls till",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because bad sleep",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

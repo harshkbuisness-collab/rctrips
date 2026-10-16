@@ -61,7 +61,7 @@
     },
     {
      "type": "text",
-     "text": "EVERY DAY? • EVERY DAY?",
+     "text": "EVERY DAY?",
      "look": "marquee",
      "behind": true,
      "x": 0.5,
@@ -395,13 +395,13 @@
      "shadow": true,
      "enter": "whip",
      "at": "So train each muscle",
-     "until": "with a day of rest",
+     "until": "two or three times",
      "width": 0.8,
      "y": 0.66
     },
     {
      "type": "text",
-     "text": "2-3X A WEEK",
+     "text": "EACH MUSCLE",
      "look": "giant",
      "behind": true,
      "x": 0.5,
@@ -414,6 +414,31 @@
      "untype": false,
      "tilt": 0,
      "at": "So train each muscle",
+     "until": "two or three times"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "two or three times",
+     "until": "with a day of rest"
+    },
+    {
+     "type": "text",
+     "text": "2-3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "two or three times",
      "until": "with a day of rest"
     },
     {
@@ -660,7 +685,7 @@
    "src": "sfx_hammer"
   },
   {
-   "at": "Your muscles grow on",
+   "at": "your rest days",
    "src": "sfx_snore"
   },
   {

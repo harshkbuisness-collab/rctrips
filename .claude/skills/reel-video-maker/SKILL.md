@@ -18,6 +18,7 @@ the JSON (follow steps 2–3 and give the file).
 |---|---|
 | `tool/` | The whole Reel Engine tool, H images included (`tool/public/library/hero`); `setup` copies it to `~/reel-engine-tool` |
 | `scripts/make_video.py` | Does everything after the plan: server, voice, cover, render, compress, frame sheet |
+| `scripts/add_cover.py` | Puts the owner's thumbnail on the first 0.1 s of a finished MP4 (no re-render) |
 | `scripts/check_plan.py` | Checks a plan against its script and the v5 style rules |
 | `references/style-guide.md` | **The approved look**. Read first, always |
 | `references/spec.md` | Plan format: time phrases, layer types and fields |
@@ -38,6 +39,16 @@ It copies `tool/` to `~/reel-engine-tool` (writable), runs `npm install`, instal
 voice; the first voice downloads the voice model (~350 MB from github.com) once. `check` and `video` do this by
 themselves if it was not done. Needs Node 18+ and Python 3.9+ (ffmpeg optional). No API keys.
 `TOOL` below means `~/reel-engine-tool`; `--tool` can be left out everywhere.
+
+## Step 0.5: thumbnail prompts FIRST (owner's rule, 16 Oct)
+
+Before making any video, give the owner the thumbnail prompts for every video in the batch (one code block, see
+`references/thumbnail-prompts.md`). The owner makes the thumbnails and sends them back. Render the videos meanwhile;
+when a thumbnail arrives, put it on the first 0.1 s of its video:
+```bash
+python3 scripts/add_cover.py <out>/<name>.mp4 <thumbnail.jpg>      # seconds, no re-render
+```
+Deliver videos only with their cover on. Ask the owner to name each thumbnail after its video (or its number).
 
 ## Step 1: script
 

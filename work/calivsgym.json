@@ -1,0 +1,675 @@
+{
+ "title": "Calisthenics or the gym? The real difference",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "calisthenics",
+   "gym",
+   "muscle",
+   "difference",
+   "dumbbell",
+   "weight",
+   "hard",
+   "legs",
+   "beginners",
+   "free",
+   "harder",
+   "both"
+  ],
+  "bottom": [
+   [
+    "Your muscles don't know",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Both build muscle"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "Both build muscle"
+    },
+    {
+     "type": "text",
+     "text": "CALISTHENICS OR GYM?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Both build muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Both build muscle",
+     "until": "Here's the real"
+    },
+    {
+     "type": "text",
+     "text": "BOTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Both build muscle",
+     "until": "Here's the real"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Both build muscle",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's the real",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DIFFERENCE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's the real"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your muscles don't know-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your muscles don't know",
+     "until": "or your body weight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DUMBBELL?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your muscles don't know",
+     "until": "or your body weight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "or your body weight",
+     "until": "They only know how",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "BODY WEIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "or your body weight",
+     "until": "They only know how"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lifting_giant",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They only know how",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HOW HARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "They only know how"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "They only know how",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "gym",
+   "start": "The gym makes it easy-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_deadlift_end",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The gym makes it easy",
+     "until": "every week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "+ WEIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The gym makes it easy",
+     "until": "every week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every week",
+     "until": "That's great for legs"
+    },
+    {
+     "type": "text",
+     "text": "EVERY WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "every week",
+     "until": "That's great for legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_front",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's great for legs",
+     "until": "and for beginners",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LEGS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's great for legs",
+     "until": "and for beginners"
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and for beginners"
+    },
+    {
+     "type": "text",
+     "text": "BEGINNERS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and for beginners"
+    }
+   ]
+  },
+  {
+   "id": "cali",
+   "start": "Calisthenics is free-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Calisthenics is free",
+     "until": "and builds control"
+    },
+    {
+     "type": "text",
+     "text": "FREE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Calisthenics is free",
+     "until": "works anywhere"
+    },
+    {
+     "type": "text",
+     "text": "ANYWHERE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "works anywhere",
+     "until": "and builds control"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "and builds control",
+     "until": "But you have to keep"
+    },
+    {
+     "type": "text",
+     "text": "CONTROL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and builds control",
+     "until": "But you have to keep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tuck_planche",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But you have to keep",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HARDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But you have to keep"
+    }
+   ]
+  },
+  {
+   "id": "pick",
+   "start": "So pick the one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So pick the one",
+     "until": "Or mix both",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PICK ONE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So pick the one",
+     "until": "Or mix both"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clapping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Or mix both"
+    },
+    {
+     "type": "text",
+     "text": "MIX BOTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Or mix both"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who says calisthenics"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who says calisthenics"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who says calisthenics",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says calisthenics",
+     "until": "Because calisthenics"
+    },
+    {
+     "type": "text",
+     "text": "SAYS IT DOESN'T WORK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says calisthenics",
+     "until": "Because calisthenics"
+    },
+    {
+     "type": "text",
+     "text": "CALISTHENICS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because calisthenics"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because calisthenics"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your muscles don't know-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "The gym makes it easy-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Calisthenics is free-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So pick the one-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Both build muscle",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "They only know how",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "The gym makes it easy",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "and for beginners",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "works anywhere",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "But you have to keep",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Or mix both",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "who says calisthenics",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because calisthenics",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

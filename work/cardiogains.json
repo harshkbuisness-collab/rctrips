@@ -1,0 +1,722 @@
+{
+ "title": "Does cardio kill your gains? Mostly a myth",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "cardio",
+   "gains",
+   "myth",
+   "muscle",
+   "heart",
+   "recover",
+   "hours",
+   "enough",
+   "sessions",
+   "walking",
+   "leg",
+   "keep"
+  ],
+  "bottom": [
+   [
+    "That's mostly a myth",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "won't kill your gains#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_mountain_climbers",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "won't kill your gains#1"
+    },
+    {
+     "type": "text",
+     "text": "CARDIO • CARDIO",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "won't kill your gains#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "won't kill your gains#1"
+    },
+    {
+     "type": "text",
+     "text": "GAINS OK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "won't kill your gains#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "won't kill your gains#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "myth",
+   "start": "That's mostly a myth-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's mostly a myth",
+     "until": "And skipping it can"
+    },
+    {
+     "type": "text",
+     "text": "MYTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's mostly a myth",
+     "until": "And skipping it can"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lazy_couch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And skipping it can",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SKIPPING IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And skipping it can"
+    }
+   ]
+  },
+  {
+   "id": "facts",
+   "start": "A few cardio sessions-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A few cardio sessions",
+     "until": "A stronger heart helps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STILL GROW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "A few cardio sessions",
+     "until": "A stronger heart helps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_running",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A stronger heart helps",
+     "until": "you recover between sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRONG HEART",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "A stronger heart helps",
+     "until": "you recover between sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_towel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you recover between sets"
+    },
+    {
+     "type": "text",
+     "text": "RECOVER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you recover between sets"
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "It only becomes a-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It only becomes a",
+     "until": "like running for hours",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PROBLEM?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It only becomes a",
+     "until": "like running for hours"
+    },
+    {
+     "type": "image",
+     "asset": "hero_running_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like running for hours",
+     "until": "while not eating enough"
+    },
+    {
+     "type": "text",
+     "text": "HOURS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like running for hours",
+     "until": "while not eating enough"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "while not eating enough",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT EATING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "while not eating enough"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "while not eating enough",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do it like this-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do it like this",
+     "until": "Two or three sessions",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do it like this",
+     "until": "Two or three sessions"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Two or three sessions",
+     "until": "twenty to thirty minutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2-3X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two or three sessions",
+     "until": "twenty to thirty minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twenty to thirty minutes",
+     "until": "Walking, cycling"
+    },
+    {
+     "type": "text",
+     "text": "20-30 MIN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "twenty to thirty minutes",
+     "until": "Walking, cycling"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Walking, cycling",
+     "until": "Keep your hard cardio"
+    },
+    {
+     "type": "text",
+     "text": "WALK • CYCLE • RUN",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Walking, cycling",
+     "until": "Keep your hard cardio"
+    },
+    {
+     "type": "image",
+     "asset": "hero_leg_day_zombie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Keep your hard cardio",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NOT ON LEG DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep your hard cardio"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "start": "Train, eat enough-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Train, eat enough",
+     "until": "and you'll keep your muscle",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TRAIN + EAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Train, eat enough",
+     "until": "and you'll keep your muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you'll keep your muscle"
+    },
+    {
+     "type": "text",
+     "text": "KEEP MUSCLE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you'll keep your muscle"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "scared of running"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "scared of running"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "scared of running",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_scared_peek",
+     "shadow": true,
+     "enter": "whip",
+     "at": "scared of running",
+     "until": "Because cardio"
+    },
+    {
+     "type": "text",
+     "text": "SCARED OF RUNNING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "scared of running",
+     "until": "Because cardio"
+    },
+    {
+     "type": "text",
+     "text": "CARDIO...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because cardio"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because cardio"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That's mostly a myth-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "A few cardio sessions-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "It only becomes a-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So do it like this-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Train, eat enough-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "won't kill your gains#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That's mostly a myth",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "A stronger heart helps",
+   "src": "sfx_heavy_breathing"
+  },
+  {
+   "at": "while not eating enough",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Walking, cycling",
+   "src": "sfx_running"
+  },
+  {
+   "at": "Keep your hard cardio",
+   "src": "sfx_shiver"
+  },
+  {
+   "at": "and you'll keep your muscle",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "scared of running",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because cardio",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

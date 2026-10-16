@@ -596,7 +596,7 @@
      "shadow": true,
      "enter": "whip",
      "at": "Slide your arms up",
-     "until": "Ten slow reps",
+     "until": "keeping them on the wall",
      "width": 0.8,
      "y": 0.66
     },
@@ -615,6 +615,33 @@
      "untype": false,
      "tilt": 0,
      "at": "Slide your arms up",
+     "until": "keeping them on the wall"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_wall",
+     "shadow": true,
+     "enter": "whip",
+     "at": "keeping them on the wall",
+     "until": "Ten slow reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ON THE WALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "keeping them on the wall",
      "until": "Ten slow reps"
     },
     {
@@ -823,16 +850,8 @@
    "src": "sfx_crying_laugh"
   },
   {
-   "at": "Two, wall angels-0.1",
-   "src": "sfx_desk_bell"
-  },
-  {
    "at": "Slide your arms up",
    "src": "sfx_whoosh_soft"
-  },
-  {
-   "at": "And hold your phone",
-   "src": "sfx_ding"
   },
   {
    "at": "who's always looking",
