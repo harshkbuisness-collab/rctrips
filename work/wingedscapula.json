@@ -193,7 +193,7 @@
      "font": "display",
      "x": 0.5,
      "y": 0.62,
-     "size": 130,
+     "size": 110,
      "align": "center",
      "color": "#111111",
      "animation": "none",
@@ -261,7 +261,7 @@
      "untype": false,
      "tilt": 0,
      "at": "The serratus holds",
-     "until": "When it's weak"
+     "until": "flat against your ribs"
     },
     {
      "type": "image",
