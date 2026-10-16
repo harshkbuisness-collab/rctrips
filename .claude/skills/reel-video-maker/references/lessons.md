@@ -77,3 +77,4 @@ Each line is a real problem the owner saw, and the rule that prevents it.
 | Split solid / outline word, neon glow, marker highlight, sticker box, word pop | Rejected by the owner: do not use |
 | A caption ("Every single day.") was printed on top of a caution tape | Fixed in the tool (v19): every caption moves just above any tape on screen. Keep tapes at `y` 0.72–0.74 |
 | Words at `y` 0.28 sat on the bar of `clip_inverted_row` (the bar is high in that clip) | Inverted-row clip at `"y": 0.64`; its words at `y` 0.17 |
+| `hero_eating` holds a chicken drumstick: it reads wrong for "chewing gum" | No gum pose: use reaction poses (point_viewer, smirk) for gum / candy topics |

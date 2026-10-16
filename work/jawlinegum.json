@@ -60,7 +60,7 @@
     },
     {
      "type": "image",
-     "asset": "hero_eating",
+     "asset": "hero_point_viewer",
      "shadow": true,
      "enter": "cut",
      "at": "start",
@@ -246,7 +246,7 @@
      "untype": false,
      "tilt": 0,
      "at": "A defined jaw",
-     "until": "And chewing hard"
+     "until": "is lower"
     },
     {
      "type": "text",
@@ -661,7 +661,7 @@
     },
     {
      "type": "image",
-     "asset": "hero_eating",
+     "asset": "hero_smirk",
      "shadow": true,
      "enter": "whip",
      "at": "chewing gum for a jawline",
