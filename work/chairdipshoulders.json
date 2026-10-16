@@ -1,0 +1,661 @@
+{
+ "title": "Chair dips hurting your shoulders? Fix this",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "chair",
+   "dips",
+   "shoulders",
+   "deep",
+   "forward",
+   "low",
+   "pain",
+   "fingers",
+   "chest",
+   "parallel",
+   "press",
+   "knees"
+  ],
+  "bottom": [
+   [
+    "You're going too deep",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "hurting your shoulders#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "cut",
+     "at": "start",
+     "until": "hurting your shoulders#1"
+    },
+    {
+     "type": "text",
+     "text": "CHAIR DIPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "hurting your shoulders#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shoulder_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hurting your shoulders#1"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "hurting your shoulders#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "hurting your shoulders#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You're going too deep-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_dip_bottom",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're going too deep",
+     "until": "And your shoulders are",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "TOO DEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're going too deep",
+     "until": "And your shoulders are"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And your shoulders are",
+     "until": "When you drop too"
+    },
+    {
+     "type": "text",
+     "text": "ROLLING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And your shoulders are",
+     "until": "When you drop too"
+    },
+    {
+     "type": "image",
+     "asset": "hero_dip_bottom",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you drop too",
+     "until": "the front of your shoulder",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "TOO LOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.15,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you drop too",
+     "until": "the front of your shoulder"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shoulder_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the front of your shoulder",
+     "until": "That's where the pain"
+    },
+    {
+     "type": "text",
+     "text": "FRONT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "the front of your shoulder",
+     "until": "That's where the pain"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#E3262E",
+     "at": "the front of your shoulder",
+     "until": "That's where the pain"
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's where the pain",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PAIN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's where the pain"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "That's where the pain",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So fix it-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So fix it",
+     "until": "Hands on the chair",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So fix it",
+     "until": "Hands on the chair"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Hands on the chair"
+    },
+    {
+     "type": "text",
+     "text": "FINGERS FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hands on the chair",
+     "until": "Shoulders down and back"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Shoulders down and back",
+     "until": "Lower only until"
+    },
+    {
+     "type": "text",
+     "text": "PARALLEL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower only until"
+    }
+   ]
+  },
+  {
+   "id": "press",
+   "start": "Keep your back close-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Keep your back close",
+     "until": "Then press up through"
+    },
+    {
+     "type": "text",
+     "text": "CLOSE TO CHAIR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep your back close",
+     "until": "Then press up through"
+    },
+    {
+     "type": "video",
+     "asset": "clip_chair_dip",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "Then press up through"
+    },
+    {
+     "type": "text",
+     "text": "PRESS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then press up through",
+     "until": "Bend your knees"
+    },
+    {
+     "type": "text",
+     "text": "EASIER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Bend your knees"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Ten to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose shoulders click"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose shoulders click"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose shoulders click",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_shoulder_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose shoulders click",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CLICKING SHOULDERS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose shoulders click",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CHAIR DIPS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You're going too deep-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So fix it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Keep your back close-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Ten to fifteen-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "hurting your shoulders#1",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "And your shoulders are",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "That's where the pain",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "Shoulders down and back",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Lower only until",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Then press up through",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "whose shoulders click",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "chair dips hurting your shoulders#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

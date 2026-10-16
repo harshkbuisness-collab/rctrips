@@ -1,0 +1,743 @@
+{
+ "title": "Knees past your toes? It's mostly a myth",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "knees",
+   "toes",
+   "myth",
+   "deep",
+   "forward",
+   "normal",
+   "caving",
+   "inward",
+   "out",
+   "heels",
+   "chest",
+   "slowly"
+  ],
+  "bottom": [
+   [
+    "That old rule",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "past your toes#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "cut",
+     "at": "start",
+     "until": "past your toes#1"
+    },
+    {
+     "type": "text",
+     "text": "KNEES • TOES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "past your toes#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "past your toes#1"
+    },
+    {
+     "type": "text",
+     "text": "IT'S OK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "past your toes#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "past your toes#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "myth",
+   "start": "That old rule-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That old rule",
+     "until": "Here's what actually"
+    },
+    {
+     "type": "text",
+     "text": "MYTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That old rule",
+     "until": "Here's what actually"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's what actually",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WHAT HURTS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's what actually"
+    }
+   ]
+  },
+  {
+   "id": "travel",
+   "start": "To squat deep-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "To squat deep"
+    },
+    {
+     "type": "text",
+     "text": "SQUAT DEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "To squat deep",
+     "until": "your knees have to travel"
+    },
+    {
+     "type": "text",
+     "text": "KNEES FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your knees have to travel",
+     "until": "For most healthy"
+    },
+    {
+     "type": "text",
+     "text": "NORMAL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "For most healthy"
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "The real problem-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "your knees caving inward"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The real problem",
+     "until": "your knees caving inward",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "REAL PROBLEM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The real problem",
+     "until": "your knees caving inward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your knees caving inward",
+     "until": "That's what stresses"
+    },
+    {
+     "type": "text",
+     "text": "CAVING IN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your knees caving inward",
+     "until": "That's what stresses"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "your knees caving inward",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's what stresses",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRESS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's what stresses"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So squat like this-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So squat like this",
+     "until": "Feet shoulder-width apart",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So squat like this",
+     "until": "Feet shoulder-width apart"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Feet shoulder-width apart"
+    },
+    {
+     "type": "text",
+     "text": "FEET WIDE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Feet shoulder-width apart",
+     "until": "toes slightly out"
+    },
+    {
+     "type": "text",
+     "text": "TOES OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "toes slightly out"
+    }
+   ]
+  },
+  {
+   "id": "knees",
+   "start": "Push your knees out-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Push your knees out"
+    },
+    {
+     "type": "text",
+     "text": "KNEES OUT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push your knees out",
+     "until": "Keep your whole foot"
+    },
+    {
+     "type": "text",
+     "text": "WHOLE FOOT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep your whole foot",
+     "until": "Sit down between"
+    },
+    {
+     "type": "text",
+     "text": "CHEST UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Sit down between"
+    }
+   ]
+  },
+  {
+   "id": "pain",
+   "start": "Pain-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pain",
+     "until": "Go less deep"
+    },
+    {
+     "type": "text",
+     "text": "PAIN?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pain",
+     "until": "Go less deep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Go less deep",
+     "until": "and build up slowly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LESS DEEP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Go less deep",
+     "until": "and build up slowly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and build up slowly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SLOWLY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and build up slowly"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who's scared of squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who's scared of squats"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who's scared of squats",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_scared_peek",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who's scared of squats",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SCARED OF SQUATS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who's scared of squats",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "TOES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "That old rule-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "To squat deep-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "The real problem-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "So squat like this-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Push your knees out-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Pain-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "past your toes#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That old rule",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "your knees have to travel",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "your knees caving inward",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Push your knees out",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Pain",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "who's scared of squats",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "can go past your toes#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

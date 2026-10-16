@@ -1,0 +1,846 @@
+{
+ "title": "Your phone is changing your posture",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "phone",
+   "posture",
+   "rounded",
+   "forward",
+   "smaller",
+   "chest",
+   "back",
+   "chin",
+   "wall",
+   "angels",
+   "goalpost",
+   "eye"
+  ],
+  "bottom": [
+   [
+    "Rounded shoulders",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "changing your posture#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_phone_scroll",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "changing your posture#1"
+    },
+    {
+     "type": "text",
+     "text": "YOUR PHONE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "changing your posture#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "changing your posture#1"
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "changing your posture#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "changing your posture#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "Rounded shoulders-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Rounded shoulders",
+     "until": "Head forward",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ROUNDED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Rounded shoulders",
+     "until": "Head forward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Head forward",
+     "until": "And it makes you"
+    },
+    {
+     "type": "text",
+     "text": "HEAD FORWARD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Head forward",
+     "until": "And it makes you"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it makes you",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SMALLER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And it makes you"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "And it makes you",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "Hours of looking-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_phone_scroll_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hours of looking",
+     "until": "make your chest tight",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOOKING DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hours of looking",
+     "until": "make your chest tight"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "make your chest tight",
+     "until": "and your upper back weak"
+    },
+    {
+     "type": "text",
+     "text": "TIGHT CHEST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "make your chest tight",
+     "until": "and your upper back weak"
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#E3262E",
+     "at": "make your chest tight",
+     "until": "and your upper back weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your upper back weak",
+     "until": "Your shoulders roll",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEAK BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your upper back weak",
+     "until": "Your shoulders roll"
+    },
+    {
+     "type": "glow",
+     "anchor": "upper_back",
+     "color": "#E3262E",
+     "at": "and your upper back weak",
+     "until": "Your shoulders roll"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your shoulders roll"
+    },
+    {
+     "type": "text",
+     "text": "ROLL FORWARD",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your shoulders roll"
+    }
+   ]
+  },
+  {
+   "id": "fix1",
+   "start": "Two fixes-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Two fixes",
+     "until": "One, chin tucks",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 FIXES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two fixes",
+     "until": "One, chin tucks"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "One, chin tucks",
+     "until": "Pull your chin",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHIN TUCKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "One, chin tucks",
+     "until": "Pull your chin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pull your chin",
+     "until": "like making a double",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CHIN BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull your chin",
+     "until": "like making a double"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like making a double",
+     "until": "Hold five seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DOUBLE CHIN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "like making a double",
+     "until": "Hold five seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold five seconds",
+     "until": "Ten reps"
+    },
+    {
+     "type": "text",
+     "text": "5 SECONDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold five seconds",
+     "until": "Ten reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "10 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten reps"
+    }
+   ]
+  },
+  {
+   "id": "fix2",
+   "start": "Two, wall angels-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Two, wall angels",
+     "until": "Back against a wall",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WALL ANGELS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Two, wall angels",
+     "until": "Back against a wall"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_wall",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Back against a wall",
+     "until": "arms up like a goalpost",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BACK TO WALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Back against a wall",
+     "until": "arms up like a goalpost"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "arms up like a goalpost",
+     "until": "Slide your arms up"
+    },
+    {
+     "type": "text",
+     "text": "GOALPOST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "arms up like a goalpost",
+     "until": "Slide your arms up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Slide your arms up",
+     "until": "Ten slow reps",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SLIDE UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Slide your arms up",
+     "until": "Ten slow reps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten slow reps"
+    },
+    {
+     "type": "text",
+     "text": "10 SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten slow reps"
+    }
+   ]
+  },
+  {
+   "id": "eye",
+   "start": "And hold your phone-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And hold your phone",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EYE LEVEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And hold your phone"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who's always looking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who's always looking"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who's always looking",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_phone_scroll_v3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who's always looking",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "ALWAYS LOOKING DOWN",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who's always looking",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "POSTURE...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Rounded shoulders-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Hours of looking-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Two fixes-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Two, wall angels-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "And hold your phone-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "changing your posture#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And it makes you",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "make your chest tight",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "One, chin tucks",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "like making a double",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Two, wall angels-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Slide your arms up",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "And hold your phone",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "who's always looking",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "phone is changing your posture#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

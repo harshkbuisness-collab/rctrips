@@ -1,0 +1,781 @@
+{
+ "title": "When will you see results? The honest timeline",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "results",
+   "timeline",
+   "quit",
+   "stronger",
+   "brain",
+   "clothes",
+   "energy",
+   "mirror",
+   "firmer",
+   "notice",
+   "photo",
+   "sixty"
+  ],
+  "bottom": [
+   [
+    "Here's the honest",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Most people quit"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "Here's the honest"
+    },
+    {
+     "type": "text",
+     "text": "RESULTS? • RESULTS?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Here's the honest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's the honest",
+     "until": "Most people quit",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TIMELINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's the honest",
+     "until": "Most people quit"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_away",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people quit"
+    },
+    {
+     "type": "text",
+     "text": "THEY QUIT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people quit"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Most people quit",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "w12",
+   "start": "Weeks one and two-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Weeks one and two",
+     "until": "You get stronger fast",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEEK 1-2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Weeks one and two",
+     "until": "You get stronger fast"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You get stronger fast",
+     "until": "but you won't see it"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You get stronger fast",
+     "until": "but you won't see it"
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but you won't see it",
+     "until": "That's your brain",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CAN'T SEE IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "but you won't see it",
+     "until": "That's your brain"
+    },
+    {
+     "type": "image",
+     "asset": "hero_mind_blown",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's your brain"
+    },
+    {
+     "type": "text",
+     "text": "BRAIN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's your brain"
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "start": "Month one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Month one",
+     "until": "Clothes fit a little",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MONTH 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Month one",
+     "until": "Clothes fit a little"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_confident",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Clothes fit a little",
+     "until": "You have more energy",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "CLOTHES FIT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Clothes fit a little",
+     "until": "You have more energy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You have more energy"
+    },
+    {
+     "type": "text",
+     "text": "ENERGY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You have more energy"
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": "Months two and three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Months two and three",
+     "until": "You see changes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MONTH 2-3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Months two and three",
+     "until": "You see changes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You see changes",
+     "until": "Arms look firmer"
+    },
+    {
+     "type": "text",
+     "text": "MIRROR",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You see changes",
+     "until": "Arms look firmer"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Arms look firmer",
+     "until": "posture looks better",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIRMER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Arms look firmer",
+     "until": "posture looks better"
+    },
+    {
+     "type": "glow",
+     "anchor": "arms",
+     "color": "#2FD94E",
+     "at": "Arms look firmer",
+     "until": "posture looks better"
+    },
+    {
+     "type": "image",
+     "asset": "hero_low_angle_hero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "posture looks better"
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "posture looks better"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": "Month six-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_superhero",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Month six",
+     "until": "Other people start",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "MONTH 6",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Month six",
+     "until": "Other people start"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_confident",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Other people start"
+    },
+    {
+     "type": "text",
+     "text": "THEY NOTICE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Other people start"
+    }
+   ]
+  },
+  {
+   "id": "photo",
+   "start": "It feels slow-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It feels slow",
+     "until": "Take a photo today"
+    },
+    {
+     "type": "text",
+     "text": "SLOW?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "It feels slow",
+     "until": "Take a photo today"
+    },
+    {
+     "type": "image",
+     "asset": "hero_selfie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Take a photo today",
+     "until": "and compare in sixty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PHOTO TODAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Take a photo today",
+     "until": "and compare in sixty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and compare in sixty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "60 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and compare in sixty"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and compare in sixty",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who quits after"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who quits after"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who quits after",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_away",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who quits after",
+     "until": "Because when will"
+    },
+    {
+     "type": "text",
+     "text": "QUITS AFTER 2 WEEKS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who quits after",
+     "until": "Because when will"
+    },
+    {
+     "type": "text",
+     "text": "RESULTS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because when will"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because when will"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Weeks one and two-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Month one-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Months two and three-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Month six-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "It feels slow-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Most people quit",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You get stronger fast",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "That's your brain",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "You have more energy",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Arms look firmer",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "Other people start",
+   "src": "sfx_wow"
+  },
+  {
+   "at": "Take a photo today",
+   "src": "sfx_camera"
+  },
+  {
+   "at": "who quits after",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "when will you see results#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

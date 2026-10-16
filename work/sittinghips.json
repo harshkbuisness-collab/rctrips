@@ -1,0 +1,681 @@
+{
+ "title": "Sit 8 hours a day? Your hips pay for it",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "sit",
+   "eight",
+   "hours",
+   "hips",
+   "back",
+   "short",
+   "tight",
+   "pelvis",
+   "stiff",
+   "kneel",
+   "glute",
+   "stretch"
+  ],
+  "bottom": [
+   [
+    "When you sit, the",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Your hips pay"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "Your hips pay"
+    },
+    {
+     "type": "text",
+     "text": "8 HOURS • 8 HOURS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "Your hips pay"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your hips pay",
+     "until": "And your lower back too"
+    },
+    {
+     "type": "text",
+     "text": "HIPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your hips pay",
+     "until": "And your lower back too"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Your hips pay",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And your lower back too",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LOWER BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And your lower back too"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "When you sit, the-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you sit, the",
+     "until": "Over time they get",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHORT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you sit, the",
+     "until": "Over time they get"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Over time they get",
+     "until": "and they pull your pelvis"
+    },
+    {
+     "type": "text",
+     "text": "TIGHT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Over time they get",
+     "until": "and they pull your pelvis"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_confident",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and they pull your pelvis",
+     "until": "That's why your lower back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PELVIS FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and they pull your pelvis",
+     "until": "That's why your lower back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That's why your lower back"
+    },
+    {
+     "type": "text",
+     "text": "STIFF",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That's why your lower back"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "That's why your lower back",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do this every-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do this every",
+     "until": "Kneel on one knee",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do this every",
+     "until": "Kneel on one knee"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Kneel on one knee",
+     "until": "like proposing",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "KNEEL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Kneel on one knee",
+     "until": "like proposing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_kneel_shoe",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like proposing",
+     "until": "Squeeze the glute"
+    },
+    {
+     "type": "text",
+     "text": "PROPOSING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like proposing",
+     "until": "Squeeze the glute"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Squeeze the glute",
+     "until": "and push your hips forward",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze the glute",
+     "until": "and push your hips forward"
+    },
+    {
+     "type": "glow",
+     "anchor": "glutes",
+     "color": "#2FD94E",
+     "at": "Squeeze the glute",
+     "until": "and push your hips forward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and push your hips forward",
+     "until": "You'll feel a stretch",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HIPS FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and push your hips forward",
+     "until": "You'll feel a stretch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You'll feel a stretch",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "text",
+     "text": "STRETCH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You'll feel a stretch",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "glow",
+     "anchor": "hips",
+     "color": "#2FD94E",
+     "at": "You'll feel a stretch",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold thirty seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 SEC EACH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "hour",
+   "start": "And every hour-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And every hour",
+     "until": "stand up and walk",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EVERY HOUR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And every hour",
+     "until": "stand up and walk"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "stand up and walk"
+    },
+    {
+     "type": "text",
+     "text": "WALK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "stand up and walk"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who sits all day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who sits all day"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who sits all day",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_laptop",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who sits all day",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SITS ALL DAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who sits all day",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "8 HOURS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "When you sit, the-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "So do this every-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "And every hour-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "Your hips pay",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "and they pull your pelvis",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "That's why your lower back",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "like proposing",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Squeeze the glute",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "You'll feel a stretch",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "stand up and walk",
+   "src": "sfx_running"
+  },
+  {
+   "at": "who sits all day",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "sit for eight hours a day#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

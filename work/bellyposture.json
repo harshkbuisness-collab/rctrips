@@ -1,0 +1,747 @@
+{
+ "title": "Belly sticks out but you're not fat?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "belly",
+   "fat",
+   "posture",
+   "hips",
+   "glutes",
+   "weak",
+   "pelvis",
+   "bridges",
+   "squeeze",
+   "planks",
+   "tuck",
+   "hour"
+  ],
+  "bottom": [
+   [
+    "It might be your",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "but you're not fat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "cut",
+     "at": "start",
+     "until": "but you're not fat"
+    },
+    {
+     "type": "text",
+     "text": "BELLY OUT?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but you're not fat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but you're not fat"
+    },
+    {
+     "type": "text",
+     "text": "NOT FAT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but you're not fat"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "but you're not fat",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It might be your-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It might be your",
+     "until": "And two exercises",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It might be your",
+     "until": "And two exercises"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And two exercises",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 EXERCISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And two exercises"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "When you sit all day-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you sit all day",
+     "until": "the front of your hips",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SITTING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you sit all day",
+     "until": "the front of your hips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "the front of your hips",
+     "until": "and your glutes get weak",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TIGHT HIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "the front of your hips",
+     "until": "and your glutes get weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your glutes get weak",
+     "until": "Your pelvis tips"
+    },
+    {
+     "type": "text",
+     "text": "WEAK GLUTES",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 180,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your glutes get weak",
+     "until": "Your pelvis tips"
+    },
+    {
+     "type": "glow",
+     "anchor": "glutes",
+     "color": "#E3262E",
+     "at": "and your glutes get weak",
+     "until": "Your pelvis tips"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lean_confident",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your pelvis tips",
+     "until": "and your stomach gets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TIPS FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your pelvis tips",
+     "until": "and your stomach gets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your stomach gets"
+    },
+    {
+     "type": "text",
+     "text": "PUSHED OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your stomach gets"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and your stomach gets",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "So do this-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do this",
+     "until": "Glute bridges",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do this",
+     "until": "Glute bridges"
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Glute bridges"
+    },
+    {
+     "type": "text",
+     "text": "GLUTE BRIDGES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Glute bridges",
+     "until": "squeeze your glutes hard"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "squeeze your glutes hard",
+     "until": "Fifteen reps"
+    },
+    {
+     "type": "text",
+     "text": "15 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen reps"
+    }
+   ]
+  },
+  {
+   "id": "planks",
+   "start": "Then planks-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Then planks"
+    },
+    {
+     "type": "text",
+     "text": "PLANKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then planks",
+     "until": "tuck your hips"
+    },
+    {
+     "type": "text",
+     "text": "TUCK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "tuck your hips",
+     "until": "Thirty seconds"
+    },
+    {
+     "type": "text",
+     "text": "30 SEC",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three rounds, every-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three rounds, every",
+     "until": "And stand up and",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three rounds, every",
+     "until": "And stand up and"
+    },
+    {
+     "type": "image",
+     "asset": "hero_hip_flexor_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And stand up and",
+     "until": "every hour"
+    },
+    {
+     "type": "text",
+     "text": "STRETCH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And stand up and",
+     "until": "every hour"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "every hour",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EVERY HOUR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "every hour"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who's always sucking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who's always sucking"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who's always sucking",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who's always sucking",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SUCKING IT IN",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who's always sucking",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "BELLY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It might be your-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "When you sit all day-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "So do this-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Then planks-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Three rounds, every-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "but you're not fat",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And two exercises",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "and your glutes get weak",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "and your stomach gets",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "squeeze your glutes hard",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "tuck your hips",
+   "src": "sfx_click"
+  },
+  {
+   "at": "every hour",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "who's always sucking",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "belly sticks out#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

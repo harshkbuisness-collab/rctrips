@@ -1,0 +1,781 @@
+{
+ "title": "Heels lift when you squat? Fix your ankles",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "heels",
+   "squat",
+   "ankles",
+   "minutes",
+   "stiff",
+   "forward",
+   "wider",
+   "toes",
+   "lunge",
+   "knee",
+   "thirty",
+   "deeper"
+  ],
+  "bottom": [
+   [
+    "It's your ankles",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "when you squat#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.9"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.7"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "cut",
+     "at": "start",
+     "until": "when you squat#1"
+    },
+    {
+     "type": "text",
+     "text": "HEELS UP?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "when you squat#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "when you squat#1"
+    },
+    {
+     "type": "text",
+     "text": "HEELS UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "when you squat#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "when you squat#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It's your ankles-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_kneel_shoe",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's your ankles",
+     "until": "not your legs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ANKLES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's your ankles",
+     "until": "not your legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "not your legs",
+     "until": "And it takes two"
+    },
+    {
+     "type": "text",
+     "text": "LEGS",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not your legs+0.35",
+     "at": "not your legs",
+     "until": "And it takes two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it takes two",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 MINUTES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And it takes two"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "start": "When your ankles are-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_sore_knee",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When your ankles are",
+     "until": "your knees can't travel"
+    },
+    {
+     "type": "text",
+     "text": "STIFF",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "When your ankles are",
+     "until": "your knees can't travel"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your knees can't travel",
+     "until": "So your heels pop",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STUCK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your knees can't travel",
+     "until": "So your heels pop"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So your heels pop",
+     "until": "and you tip forward"
+    },
+    {
+     "type": "text",
+     "text": "HEELS POP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "So your heels pop",
+     "until": "and you tip forward"
+    },
+    {
+     "type": "image",
+     "asset": "hero_step_back_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you tip forward",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TIP FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you tip forward"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and you tip forward",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix1",
+   "start": "Fix one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fix one",
+     "until": "Stand a little wider",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fix one",
+     "until": "Stand a little wider"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Stand a little wider"
+    },
+    {
+     "type": "text",
+     "text": "WIDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Stand a little wider",
+     "until": "and turn your toes"
+    },
+    {
+     "type": "text",
+     "text": "TOES OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and turn your toes",
+     "until": "Your heels will stay"
+    },
+    {
+     "type": "text",
+     "text": "HEELS DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your heels will stay"
+    }
+   ]
+  },
+  {
+   "id": "fix2",
+   "start": "Fix two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fix two",
+     "until": "Kneel in a lunge",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FIX 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fix two",
+     "until": "Kneel in a lunge"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lunge",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Kneel in a lunge",
+     "until": "Push your front knee",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LUNGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Kneel in a lunge",
+     "until": "Push your front knee"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lunge_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Push your front knee",
+     "until": "without lifting the heel",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "KNEE FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push your front knee",
+     "until": "without lifting the heel"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lunge",
+     "shadow": true,
+     "enter": "whip",
+     "at": "without lifting the heel",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "text",
+     "text": "HEEL DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "without lifting the heel",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold thirty seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "30 SEC EACH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "start": "Do it daily-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Do it daily",
+     "until": "your squat will get",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DAILY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Do it daily",
+     "until": "your squat will get"
+    },
+    {
+     "type": "image",
+     "asset": "hero_deep_squat_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your squat will get"
+    },
+    {
+     "type": "text",
+     "text": "DEEPER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your squat will get"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who squats on his toes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who squats on his toes"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who squats on his toes",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_wrong",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who squats on his toes",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SQUATS ON HIS TOES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who squats on his toes",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "HEELS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "It's your ankles-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "When your ankles are-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Fix one-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Fix two-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Do it daily-0.1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "when you squat#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "not your legs",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "So your heels pop",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "and you tip forward",
+   "src": "sfx_scream"
+  },
+  {
+   "at": "Your heels will stay",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Push your front knee",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "your squat will get",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "who squats on his toes",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "heels lift when you squat#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
