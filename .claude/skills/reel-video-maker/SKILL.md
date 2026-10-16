@@ -89,6 +89,10 @@ clips on white, nothing small. Fix the plan and render again if anything is wron
 
 ## Step 6: deliver
 
+A batch goes in ONE zip (owner's choice). The file upload limit is 400 MB: for a big batch, re-encode the covered MP4s with
+`ffmpeg -i in.mp4 -c:v libx264 -preset medium -crf 24 -pix_fmt yuv420p -c:a copy -movflags +faststart out.mp4`
+(about 8 MB per 40 s reel, 45 reels = 368 MB) and zip with `zip -0`.
+
 Give the MP4 (send the file if you can), then for each video:
 
 ```
