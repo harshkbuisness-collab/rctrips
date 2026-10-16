@@ -1,0 +1,778 @@
+{
+ "title": "50 squats a day for 30 days",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "weak",
+   "stairs",
+   "breath",
+   "fifty",
+   "squats",
+   "month",
+   "sore",
+   "energy",
+   "easy",
+   "stronger",
+   "catch",
+   "slow"
+  ],
+  "bottom": [
+   [
+    "Fifty squats a day",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "out of breath"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "WEAK LEGS • WEAK LEGS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and climbing stairs"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "and climbing stairs"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "legs feel weak#1"
+    },
+    {
+     "type": "text",
+     "text": "STAIRS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and climbing stairs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and climbing stairs"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "out of breath",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "OUT OF BREATH",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "out of breath"
+    }
+   ]
+  },
+  {
+   "id": "squats",
+   "start": "Fifty squats a day-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "50 SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifty squats a day",
+     "until": "in a month"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "whip",
+     "at": "Fifty squats a day",
+     "until": "Here's exactly what"
+    },
+    {
+     "type": "text",
+     "text": "1 MONTH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "in a month",
+     "until": "Here's exactly what"
+    },
+    {
+     "type": "text",
+     "text": "WHAT HAPPENS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's exactly what"
+    },
+    {
+     "type": "image",
+     "asset": "hero_present_right",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's exactly what",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "weeks",
+   "start": "Week one-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "WEEK 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week one",
+     "until": "your legs get sore"
+    },
+    {
+     "type": "image",
+     "asset": "hero_leg_day_zombie",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week one",
+     "until": "Week two",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SORE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your legs get sore",
+     "until": "Week two"
+    },
+    {
+     "type": "text",
+     "text": "WEEK 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week two",
+     "until": "you feel more energy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_jog_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week two",
+     "until": "Week three",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ENERGY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "you feel more energy",
+     "until": "Week three"
+    },
+    {
+     "type": "text",
+     "text": "WEEK 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week three",
+     "until": "stairs feel easy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walk_toward",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week three",
+     "until": "Week four",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "EASY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "stairs feel easy",
+     "until": "Week four"
+    },
+    {
+     "type": "text",
+     "text": "WEEK 4",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Week four",
+     "until": "your legs are stronger"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Week four",
+     "until": "and you've built",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "your legs are stronger",
+     "until": "and you've built"
+    },
+    {
+     "type": "text",
+     "text": "DAILY HABIT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you've built"
+    },
+    {
+     "type": "image",
+     "asset": "hero_trophy",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you've built",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "catch",
+   "start": "But here's the catch-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE CATCH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But here's the catch",
+     "until": "Once fifty squats"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But here's the catch",
+     "until": "Once fifty squats",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TOO EASY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Once fifty squats",
+     "until": "they stop building"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Once fifty squats",
+     "until": "they stop building"
+    },
+    {
+     "type": "text",
+     "text": "NO MORE MUSCLE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "they stop building"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "they stop building"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "they stop building",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So after thirty days-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "30 DAYS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So after thirty days",
+     "until": "slow down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So after thirty days",
+     "until": "slow down",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "slow down",
+     "until": "or switch to"
+    },
+    {
+     "type": "text",
+     "text": "3 SEC DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "slow down",
+     "until": "add a pause"
+    },
+    {
+     "type": "text",
+     "text": "PAUSE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "add a pause",
+     "until": "or switch to"
+    },
+    {
+     "type": "video",
+     "asset": "clip_bulgarian_split_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "or switch to"
+    },
+    {
+     "type": "text",
+     "text": "BULGARIAN SPLIT SQUATS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "or switch to"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who gets tired"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who gets tired"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who gets tired",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who gets tired",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "TIRED ON THE STAIRS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who gets tired",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "WEAK LEGS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "out of breath",
+   "src": "sfx_out_of_breath"
+  },
+  {
+   "at": "Fifty squats a day-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "in a month",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "Week one-0.1",
+   "src": "sfx_few_moments_later"
+  },
+  {
+   "at": "your legs get sore",
+   "src": "sfx_dog_cry"
+  },
+  {
+   "at": "Week two",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Week three",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Week four",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "daily habit",
+   "src": "sfx_yeah_boy"
+  },
+  {
+   "at": "But here's the catch-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "they stop building",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "So after thirty days-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "add a pause",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "or switch to",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who gets tired",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "legs feel weak#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

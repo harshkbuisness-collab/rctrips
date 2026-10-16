@@ -1,0 +1,804 @@
+{
+ "title": "Shoulder blades that stick out",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "mirror",
+   "shoulder",
+   "blades",
+   "wings",
+   "weak",
+   "serratus",
+   "flat",
+   "ribs",
+   "scapular",
+   "push-ups",
+   "together",
+   "apart"
+  ],
+  "bottom": [
+   [
+    "It's a weak",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "back in the mirror#1"
+    },
+    {
+     "at": "like wings"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "IN THE MIRROR",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "If your shoulder"
+    },
+    {
+     "type": "speed",
+     "at": "in the mirror#1"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "If your shoulder"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "back in the mirror#1"
+    },
+    {
+     "type": "text",
+     "text": "WINGS?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "If your shoulder",
+     "until": "this is for you"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If your shoulder",
+     "until": "this is for you"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulder_blades",
+     "color": "#E3262E",
+     "at": "If your shoulder",
+     "until": "this is for you"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "like wings",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FOR YOU",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "this is for you"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "this is for you",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It's a weak-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "not bad bones"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "WEAK MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's a weak",
+     "until": "not bad bones"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's a weak",
+     "until": "And the fix is",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BAD BONES",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not bad bones+0.25",
+     "at": "not bad bones",
+     "until": "And the fix is"
+    },
+    {
+     "type": "text",
+     "text": "1 PUSH-UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And the fix is",
+     "until": "The serratus holds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And the fix is",
+     "until": "The serratus holds",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "serratus",
+   "start": "The serratus holds-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "lift away"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "SERRATUS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The serratus holds",
+     "until": "When it's weak"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The serratus holds",
+     "until": "When it's weak",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FLAT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "flat against your ribs",
+     "until": "When it's weak"
+    },
+    {
+     "type": "text",
+     "text": "LIFT AWAY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "When it's weak",
+     "until": "your posture looks off"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When it's weak",
+     "until": "your posture looks off"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulder_blades",
+     "color": "#E3262E",
+     "at": "When it's weak",
+     "until": "your posture looks off"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "lift away",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your posture looks off",
+     "until": "and push-ups feel"
+    },
+    {
+     "type": "text",
+     "text": "LESS STABLE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and push-ups feel"
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and push-ups feel"
+    }
+   ]
+  },
+  {
+   "id": "scap",
+   "start": "So do scapular push-ups-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "let your chest sink"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "SCAPULAR PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "So do scapular push-ups",
+     "until": "Get into a push-up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do scapular push-ups",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT ARMS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Get into a push-up",
+     "until": "Without bending"
+    },
+    {
+     "type": "text",
+     "text": "NO BENDING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Without bending",
+     "until": "let your chest sink"
+    },
+    {
+     "type": "text",
+     "text": "SINK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "let your chest sink",
+     "until": "so your shoulder blades come"
+    },
+    {
+     "type": "text",
+     "text": "TOGETHER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "so your shoulder blades come",
+     "until": "then push the floor"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulder_blades",
+     "color": "#2FD94E",
+     "at": "so your shoulder blades come",
+     "until": "then push the floor"
+    }
+   ]
+  },
+  {
+   "id": "push",
+   "start": "then push the floor-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "push the floor away"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "then push the floor",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "PUSH AWAY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "then push the floor",
+     "until": "so they spread apart"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "push the floor away",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "SPREAD APART",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "so they spread apart"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "so they spread apart"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Fifteen reps-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "15 REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fifteen reps",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fifteen reps",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clapping",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose shoulder blades"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose shoulder blades"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose shoulder blades",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose shoulder blades",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "THEY STICK OUT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose shoulder blades",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "MIRROR...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "like wings",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "this is for you",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "It's a weak-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "not bad bones",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "And the fix is",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "The serratus holds",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "lift away",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "feel less stable",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So do scapular push-ups-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "let your chest sink",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "push the floor away",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Fifteen reps-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "three times a week",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "whose shoulder blades",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "back in the mirror#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

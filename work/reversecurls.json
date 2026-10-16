@@ -1,0 +1,768 @@
+{
+ "title": "Reverse curls for thick forearms",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "forearms",
+   "thin",
+   "half",
+   "one",
+   "exercise",
+   "thick",
+   "reverse",
+   "curls",
+   "palms",
+   "down",
+   "slowly",
+   "burning"
+  ],
+  "bottom": [
+   [
+    "You're only training",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "train your forearms#1"
+    },
+    {
+     "at": "they still look thin"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "FOREARMS • FOREARMS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "they still look thin"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "but from the side#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but from the side#1",
+     "until": "they still look thin"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "your forearms#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "but from the side#1"
+    },
+    {
+     "type": "speed",
+     "at": "but from the side#1"
+    },
+    {
+     "type": "text",
+     "text": "THIN?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "they still look thin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "they still look thin"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "they still look thin",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FROM THE SIDE",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "they still look thin"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You're only training-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "ONLY HALF",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're only training",
+     "until": "And the other half"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You're only training",
+     "until": "And the other half",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 EXERCISE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And the other half",
+     "until": "The muscle on top"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And the other half",
+     "until": "The muscle on top",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "muscle",
+   "start": "The muscle on top-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "barely touch it"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "TOP MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The muscle on top",
+     "until": "near your elbow"
+    },
+    {
+     "type": "text",
+     "text": "NEAR ELBOW",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "near your elbow",
+     "until": "is what makes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The muscle on top",
+     "until": "is what makes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "glow",
+     "anchor": "forearms",
+     "color": "#2FD94E",
+     "at": "The muscle on top",
+     "until": "is what makes"
+    },
+    {
+     "type": "text",
+     "text": "THICK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "is what makes",
+     "until": "Wrist curls and"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "is what makes",
+     "until": "Wrist curls and"
+    },
+    {
+     "type": "text",
+     "text": "WRIST CURLS",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "barely touch it",
+     "at": "Wrist curls and"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Wrist curls and"
+    },
+    {
+     "type": "text",
+     "text": "BARELY",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "barely touch it"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "barely touch it",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "reverse",
+   "start": "So do reverse curls-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "REVERSE CURLS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do reverse curls",
+     "until": "Hold a loaded"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So do reverse curls",
+     "until": "Hold a loaded",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Hold a loaded",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "WATER JUG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold a loaded",
+     "until": "with your palms facing"
+    },
+    {
+     "type": "text",
+     "text": "PALMS DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "with your palms facing",
+     "until": "Keep your elbows"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS IN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep your elbows",
+     "until": "and curl the weight"
+    },
+    {
+     "type": "text",
+     "text": "CURL",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and curl the weight",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.7,
+     "enter": "whip",
+     "at": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "12-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twelve to fifteen",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "until": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week",
+     "until": "You'll feel the top"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week",
+     "until": "You'll feel the top",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BURNING",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "You'll feel the top"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You'll feel the top"
+    },
+    {
+     "type": "glow",
+     "anchor": "forearms",
+     "color": "#E3262E",
+     "at": "You'll feel the top"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "forearm burning",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose forearms look thin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose forearms look thin"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose forearms look thin",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose forearms look thin",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "THIN FROM THE SIDE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose forearms look thin",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "FOREARMS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "they still look thin",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You're only training-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "half of them",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "one exercise",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "is what makes",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "barely touch it",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "So do reverse curls-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "palms facing down",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Lower slowly",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Twelve to fifteen-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "forearm burning",
+   "src": "sfx_whoosh_fire"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "whose forearms look thin",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you train your forearms#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

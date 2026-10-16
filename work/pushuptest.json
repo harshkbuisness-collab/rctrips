@@ -1,0 +1,796 @@
+{
+ "title": "How many push-ups can you do?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "perfect",
+   "honest",
+   "number",
+   "strength",
+   "full",
+   "beginner",
+   "average",
+   "strong",
+   "raise",
+   "failure",
+   "comment"
+  ],
+  "bottom": [
+   [
+    "Be honest",
+    "Comment your number"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "right now"
+    },
+    {
+     "at": "with perfect form"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "HOW MANY? • HOW MANY?",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "with perfect form"
+    },
+    {
+     "type": "speed",
+     "at": "in one set"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "in one set"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "right now"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "in one set",
+     "until": "with perfect form"
+    },
+    {
+     "type": "speed",
+     "at": "right now"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "can you do#1"
+    },
+    {
+     "type": "text",
+     "text": "PERFECT FORM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "with perfect form"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with perfect form"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "with perfect form",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "honest",
+   "start": "Be honest-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "BE HONEST",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Be honest",
+     "until": "says a lot"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Be honest",
+     "until": "Because your number"
+    },
+    {
+     "type": "text",
+     "text": "YOUR NUMBER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because your number"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because your number",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "guide",
+   "start": "Here's a rough guide-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE GUIDE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's a rough guide",
+     "until": "Full reps only"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's a rough guide",
+     "until": "Full reps only",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Full reps only"
+    },
+    {
+     "type": "text",
+     "text": "FULL REPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Full reps only",
+     "until": "chest close"
+    },
+    {
+     "type": "text",
+     "text": "CHEST DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "chest close",
+     "until": "body straight"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "body straight"
+    }
+   ]
+  },
+  {
+   "id": "levels",
+   "start": "Under ten-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "UNDER 10",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Under ten",
+     "until": "you're a beginner"
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Under ten",
+     "until": "Ten to twenty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BEGINNER",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "you're a beginner",
+     "until": "Ten to twenty"
+    },
+    {
+     "type": "text",
+     "text": "10-20",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 280,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to twenty",
+     "until": "average"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten to twenty",
+     "until": "Twenty to thirty-five",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "AVERAGE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "average",
+     "until": "Twenty to thirty-five"
+    },
+    {
+     "type": "text",
+     "text": "20-35",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 280,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twenty to thirty-five",
+     "until": "strong. Over"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Twenty to thirty-five",
+     "until": "Over forty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRONG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "strong. Over",
+     "until": "Over forty"
+    },
+    {
+     "type": "text",
+     "text": "40+",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 300,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Over forty",
+     "until": "very strong"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Over forty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "VERY STRONG",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "very strong"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "very strong",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "raise",
+   "start": "Whatever your number-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "RAISE IT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Whatever your number",
+     "until": "Three hard sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Whatever your number",
+     "until": "Three hard sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 HARD SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three hard sets",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three hard sets",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week",
+     "until": "stopping just before"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "until": "stopping just before"
+    },
+    {
+     "type": "text",
+     "text": "JUST BEFORE FAILURE",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "stopping just before",
+     "until": "Add one rep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "stopping just before",
+     "until": "Add one rep"
+    },
+    {
+     "type": "text",
+     "text": "+1 REP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 260,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Add one rep"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Add one rep",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Add one rep",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Comment your number-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "COMMENT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Comment your number",
+     "until": "And send this to"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Comment your number",
+     "until": "who says he can"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Comment your number",
+     "until": "who says he can",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And send this to",
+     "until": "who says he can"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says he can",
+     "until": "Because how many"
+    },
+    {
+     "type": "text",
+     "text": "HE SAYS 50",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says he can",
+     "until": "Because how many"
+    },
+    {
+     "type": "text",
+     "text": "HOW MANY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because how many"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because how many"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "with perfect form",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Be honest-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "says a lot",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "Here's a rough guide-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "body straight",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Under ten-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "you're a beginner",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Ten to twenty",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Twenty to thirty-five",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "very strong",
+   "src": "sfx_lion_roar"
+  },
+  {
+   "at": "Whatever your number-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Add one rep",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Comment your number-0.1",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "who says he can",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because how many",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

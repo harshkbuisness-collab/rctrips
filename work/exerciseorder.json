@@ -1,0 +1,860 @@
+{
+ "title": "Workout order: big first, small last",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "curls",
+   "crunches",
+   "order",
+   "muscle",
+   "hardest",
+   "freshest",
+   "fewer",
+   "growth",
+   "first",
+   "big",
+   "small",
+   "last"
+  ],
+  "bottom": [
+   [
+    "That order is",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "curls and crunches"
+    },
+    {
+     "at": "for the end"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "CURLS • CRUNCHES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and save push-ups"
+    },
+    {
+     "type": "speed",
+     "at": "and crunches"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "curls and crunches"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "and save push-ups"
+    },
+    {
+     "type": "speed",
+     "at": "and save push-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "and save push-ups",
+     "until": "for the end"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and save push-ups",
+     "until": "for the end"
+    },
+    {
+     "type": "text",
+     "text": "THE END?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "for the end"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "for the end"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "for the end",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "for the end"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "That order is-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "costing you muscle"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "ORDER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "That order is",
+     "until": "And the fix doesn't"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That order is",
+     "until": "And the fix doesn't"
+    },
+    {
+     "type": "text",
+     "text": "COSTING YOU MUSCLE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "costing you muscle",
+     "until": "And the fix doesn't"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "costing you muscle",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "SAME EXERCISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And the fix doesn't",
+     "until": "Your hardest exercises"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And the fix doesn't",
+     "until": "Your hardest exercises",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "start": "Your hardest exercises-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "means less growth"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "HARDEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your hardest exercises",
+     "until": "your freshest energy"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your hardest exercises",
+     "until": "your freshest energy",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FRESH ENERGY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "your freshest energy",
+     "until": "If your arms are"
+    },
+    {
+     "type": "image",
+     "asset": "hero_celebrate_jump",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your freshest energy",
+     "until": "If your arms are",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "TIRED",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "If your arms are",
+     "until": "you'll do fewer"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If your arms are",
+     "until": "you'll do fewer"
+    },
+    {
+     "type": "text",
+     "text": "FEWER REPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "you'll do fewer",
+     "until": "means less growth"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "you'll do fewer",
+     "until": "Fewer reps on the big"
+    },
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fewer reps on the big",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LESS GROWTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fewer reps on the big"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "means less growth",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "order",
+   "start": "So follow this order-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "rows"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE ORDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So follow this order",
+     "until": "First, the hardest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So follow this order",
+     "until": "First, the hardest",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BIG FIRST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "First, the hardest",
+     "until": "squats, push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "First, the hardest",
+     "until": "squats, push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "squats, push-ups",
+     "until": "push-ups, pull-ups"
+    },
+    {
+     "type": "text",
+     "text": "SQUATS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "squats, push-ups",
+     "until": "push-ups, pull-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "push-ups, pull-ups",
+     "until": "rows"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "push-ups, pull-ups",
+     "until": "rows"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.2,
+     "enter": "whip",
+     "at": "rows",
+     "until": "Then single-muscle"
+    },
+    {
+     "type": "text",
+     "text": "ROWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "rows",
+     "until": "Then single-muscle"
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "start": "Then single-muscle-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "Core work"
+    }
+   ],
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.1,
+     "enter": "whip",
+     "at": "Then single-muscle",
+     "until": "and lateral raises"
+    },
+    {
+     "type": "text",
+     "text": "THEN SMALL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then single-muscle",
+     "until": "and lateral raises"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.1,
+     "enter": "whip",
+     "at": "and lateral raises",
+     "until": "Core work"
+    },
+    {
+     "type": "text",
+     "text": "RAISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lateral raises",
+     "until": "Core work"
+    },
+    {
+     "type": "video",
+     "asset": "clip_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Core work"
+    },
+    {
+     "type": "text",
+     "text": "CORE LAST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Core work"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "start": "Big first, small last-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "BIG FIRST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Big first, small last",
+     "until": "small last"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Big first, small last",
+     "until": "small last",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SMALL LAST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "small last"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "small last"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who starts every workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who starts every workout"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who starts every workout",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who starts every workout",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CURLS FIRST",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who starts every workout",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CURLS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "and save push-ups",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "for the end",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That order is-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "costing you muscle",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "And the fix doesn't",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "freshest energy",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "you'll do fewer",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So follow this order-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "squats, push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Then single-muscle",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Core work",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Big first, small last-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "small last",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who starts every workout",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you start your workout#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "title": "3 push-up mistakes",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "flat",
+   "three",
+   "mistakes",
+   "seconds",
+   "hips",
+   "glutes",
+   "straight",
+   "half",
+   "floor",
+   "hands",
+   "chest"
+  ],
+  "bottom": [
+   [
+    "You already know",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "still looks flat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS • PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and your chest still"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "and your chest still"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "every day#1"
+    },
+    {
+     "type": "text",
+     "text": "FLAT?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and your chest still"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and your chest still"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "still looks flat",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FLAT CHEST",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "still looks flat"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "start": "You already know-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "FLARED ELBOWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 140,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You already know",
+     "until": "But there are three"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You already know",
+     "until": "But there are three",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 MORE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But there are three",
+     "until": "And each one"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But there are three",
+     "until": "And each one",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 SECONDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And each one"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And each one"
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "start": "Mistake one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "MISTAKE 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake one",
+     "until": "Your lower back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake one",
+     "until": "Squeeze your glutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAGGING HIPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Sagging hips",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "text",
+     "text": "LOWER BACK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your lower back",
+     "until": "Squeeze your glutes"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Sagging hips",
+     "duration": 0.2
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.9,
+     "enter": "whip",
+     "at": "Squeeze your glutes"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Squeeze your glutes",
+     "until": "stay in one straight"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT LINE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "stay in one straight"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": "Mistake two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "MISTAKE 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake two",
+     "until": "Half reps#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake two",
+     "until": "Half reps#1",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "whip",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Half reps#1"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "Half reps#1+0.4"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "Half reps#1+0.8"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "Half reps#1+1.2"
+      }
+     ],
+     "at": "Half reps#1",
+     "until": "If your chest isn't",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "HALF REPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Half reps#1",
+     "until": "If your chest isn't"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "If your chest isn't"
+    },
+    {
+     "type": "text",
+     "text": "CHEST DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "If your chest isn't",
+     "until": "you're skipping the part"
+    },
+    {
+     "type": "text",
+     "text": "BUILDS MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "you're skipping the part"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "builds muscle",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": "Mistake three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "MISTAKE 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Mistake three",
+     "until": "Put them under"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Mistake three",
+     "until": "Put them under",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HANDS TOO FAR FORWARD",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Hands too far",
+     "until": "Put them under"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Put them under"
+    },
+    {
+     "type": "text",
+     "text": "UNDER CHEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Put them under",
+     "until": "just outside your"
+    },
+    {
+     "type": "text",
+     "text": "OUTSIDE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "just outside your"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who does fifty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who does fifty"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who does fifty",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who does fifty",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "50 HALF REPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who does fifty",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "EVERY DAY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "still looks flat",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You already know-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "three more mistakes",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "two seconds",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Mistake one-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Sagging hips",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "Squeeze your glutes",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Mistake two-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Half reps#1",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "builds muscle",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Mistake three-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Hands too far",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "Put them under",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who does fifty",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "do push-ups every day#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

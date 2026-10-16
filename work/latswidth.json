@@ -1,0 +1,823 @@
+{
+ "title": "Lats for a wide back at home",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "front",
+   "behind",
+   "narrow",
+   "lats",
+   "width",
+   "pulling",
+   "table",
+   "rows",
+   "chest",
+   "superman",
+   "elbows",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "Your lats aren't",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "you look narrow"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "FROM THE FRONT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "But from behind"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "But from behind"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "you look okay#1"
+    },
+    {
+     "type": "text",
+     "text": "NARROW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "But from behind"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But from behind"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "you look narrow",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FROM BEHIND",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "you look narrow"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your lats aren't-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "NOT GROWING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your lats aren't",
+     "until": "And you don't need"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your lats aren't",
+     "until": "And you don't need",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO BAR",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And you don't need",
+     "until": "Your lats are the big"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And you don't need",
+     "until": "Your lats are the big",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "lats",
+   "start": "Your lats are the big-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "workouts skip"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "LATS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your lats are the big",
+     "until": "on the sides"
+    },
+    {
+     "type": "text",
+     "text": "SIDES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "on the sides",
+     "until": "They create width"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your lats are the big",
+     "until": "They create width"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "Your lats are the big",
+     "until": "They create width"
+    },
+    {
+     "type": "text",
+     "text": "WIDTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "They create width",
+     "until": "And they only grow"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_big",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They create width",
+     "until": "And they only grow",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PULLING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And they only grow",
+     "until": "which most home"
+    },
+    {
+     "type": "image",
+     "asset": "hero_row_end",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And they only grow",
+     "until": "which most home",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "MOST SKIP IT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "which most home"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "which most home"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "workouts skip",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "rows",
+   "start": "So here's what to do-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 220,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So here's what to do",
+     "until": "Table rows"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So here's what to do",
+     "until": "Table rows",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Table rows",
+     "until": "Ten to fifteen"
+    },
+    {
+     "type": "text",
+     "text": "TABLE ROWS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Table rows",
+     "until": "grab the edge"
+    },
+    {
+     "type": "text",
+     "text": "GRAB",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "grab the edge",
+     "until": "pull your chest up"
+    },
+    {
+     "type": "text",
+     "text": "CHEST UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "pull your chest up",
+     "until": "elbows toward your hips"
+    },
+    {
+     "type": "text",
+     "text": "TO HIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "elbows toward your hips",
+     "until": "Ten to fifteen"
+    },
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "whip",
+     "at": "Ten to fifteen"
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten to fifteen"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Ten to fifteen reps",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "superman",
+   "start": "Then superman pulls-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SUPERMAN PULLS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Then superman pulls",
+     "until": "lie face down"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then superman pulls",
+     "until": "pull your elbows down",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "FACE DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "lie face down",
+     "until": "arms forward"
+    },
+    {
+     "type": "text",
+     "text": "ARMS FORWARD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "arms forward",
+     "until": "pull your elbows down"
+    },
+    {
+     "type": "text",
+     "text": "ELBOWS DOWN",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "pull your elbows down",
+     "until": "while lifting your chest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "pull your elbows down",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "pull your elbows down"
+    },
+    {
+     "type": "text",
+     "text": "CHEST UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "while lifting your chest"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets each-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets each",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets each",
+     "until": "three times a week"
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who never trains back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who never trains back"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who never trains back",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who never trains back",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "NEVER TRAINS BACK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who never trains back",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "OKAY...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "you look narrow",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Your lats aren't-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "don't need a pull-up bar",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "They create width",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "workouts skip",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So here's what to do-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "pull your chest up",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Ten to fifteen reps",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Then superman pulls-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "pull your elbows down",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Three sets each-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "three times a week",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who never trains back",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you look okay#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

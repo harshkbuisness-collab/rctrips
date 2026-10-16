@@ -1,0 +1,779 @@
+{
+ "title": "Chewing gum for a jawline? The truth",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "gum",
+   "jawline",
+   "truth",
+   "jaw",
+   "little",
+   "fat",
+   "pain",
+   "posture",
+   "chin",
+   "five",
+   "head",
+   "body"
+  ],
+  "bottom": [
+   [
+    "Here's the honest",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "sharper jawline"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "JAWLINE • JAWLINE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "to get a sharper"
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "cut",
+     "at": "start",
+     "until": "to get a sharper"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "chewing gum every day#1"
+    },
+    {
+     "type": "text",
+     "text": "GUM?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "to get a sharper"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "to get a sharper"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "sharper jawline",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Here's the honest-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE TRUTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Here's the honest",
+     "until": "And it might save"
+    },
+    {
+     "type": "image",
+     "asset": "hero_whisper",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Here's the honest",
+     "until": "And it might save",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SAVE YOUR JAW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And it might save",
+     "until": "Chewing does work"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And it might save",
+     "until": "Chewing does work"
+    },
+    {
+     "type": "text",
+     "text": "A LITTLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Chewing does work",
+     "until": "But it won't give"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Chewing does work",
+     "until": "But it won't give",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SHARP JAWLINE",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "a sharp jawline",
+     "at": "But it won't give"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But it won't give",
+     "until": "A defined jaw"
+    }
+   ]
+  },
+  {
+   "id": "fat",
+   "start": "A defined jaw-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "with jaw pain"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "BODY FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "A defined jaw",
+     "until": "And chewing hard"
+    },
+    {
+     "type": "text",
+     "text": "LOWER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "is lower",
+     "until": "And chewing hard"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A defined jaw",
+     "until": "your overall body",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "image",
+     "asset": "hero_on_scale_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "your overall body",
+     "until": "And chewing hard"
+    },
+    {
+     "type": "text",
+     "text": "HOURS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "And chewing hard",
+     "until": "can actually leave"
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And chewing hard",
+     "until": "can actually leave"
+    },
+    {
+     "type": "image",
+     "asset": "hero_despair_kneel",
+     "shadow": true,
+     "enter": "whip",
+     "at": "can actually leave"
+    },
+    {
+     "type": "text",
+     "text": "JAW PAIN",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with jaw pain"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "with jaw pain",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So here's what works-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "WORKS BETTER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So here's what works",
+     "until": "Fix your posture"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So here's what works",
+     "until": "Fix your posture",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "POSTURE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Fix your posture",
+     "until": "Pull your chin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_good_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Fix your posture",
+     "until": "Pull your chin"
+    },
+    {
+     "type": "text",
+     "text": "CHIN BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pull your chin",
+     "until": "like making a double"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pull your chin",
+     "until": "like making a double",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DOUBLE CHIN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "like making a double",
+     "until": "and hold for five"
+    },
+    {
+     "type": "image",
+     "asset": "hero_laughing",
+     "shadow": true,
+     "enter": "whip",
+     "at": "like making a double",
+     "until": "and hold for five",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "5 SECONDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and hold for five",
+     "until": "Ten reps a day"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and hold for five",
+     "until": "Ten reps a day",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "reps",
+   "start": "Ten reps a day-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "shakes": [
+    {
+     "at": "hides your jawline"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "10 REPS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Ten reps a day",
+     "until": "A forward head"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Ten reps a day",
+     "until": "A forward head"
+    },
+    {
+     "type": "text",
+     "text": "FORWARD HEAD",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "A forward head"
+    },
+    {
+     "type": "image",
+     "asset": "hero_bad_posture_desk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "A forward head"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "hides your jawline",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "start": "Then train your whole-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "WHOLE BODY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then train your whole",
+     "until": "to lower your body"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "whip",
+     "at": "Then train your whole",
+     "until": "to lower your body"
+    },
+    {
+     "type": "text",
+     "text": "LOWER BODY FAT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "to lower your body"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "whip",
+     "at": "to lower your body"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "chewing gum for a jawline"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "chewing gum for a jawline"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "chewing gum for a jawline",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_eating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "chewing gum for a jawline",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "GUM FOR A JAWLINE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "chewing gum for a jawline",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "CHEWING...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "sharper jawline",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Here's the honest-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "honest truth",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "save your jaw",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "a sharp jawline",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "with jaw pain",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "So here's what works-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Pull your chin",
+   "src": "sfx_click"
+  },
+  {
+   "at": "double chin",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Ten reps a day",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "hides your jawline",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Then train your whole-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "lower your body fat",
+   "src": "sfx_whoosh_fire"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "chewing gum for a jawline",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "chewing gum every day#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

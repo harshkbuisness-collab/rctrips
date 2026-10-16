@@ -1,0 +1,805 @@
+{
+ "title": "Grip strength without a gym",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "hands",
+   "grip",
+   "weak",
+   "two",
+   "gym",
+   "heavy",
+   "pinching",
+   "neither",
+   "farmer",
+   "walk",
+   "books",
+   "rounds"
+  ],
+  "bottom": [
+   [
+    "Your grip is the weak",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "before your muscles"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "GRIP • GRIP • GRIP",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "On pull-ups"
+    },
+    {
+     "type": "video",
+     "asset": "clip_dead_hang",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "On pull-ups"
+    },
+    {
+     "type": "speed",
+     "at": "before your muscles"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "hands give out#1"
+    },
+    {
+     "type": "text",
+     "text": "GIVE OUT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "before your muscles",
+     "until": "On pull-ups"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "before your muscles",
+     "duration": 0.2
+    },
+    {
+     "type": "image",
+     "asset": "hero_drop_from_bar",
+     "shadow": true,
+     "enter": "whip",
+     "at": "On pull-ups",
+     "until": "on carrying bags"
+    },
+    {
+     "type": "image",
+     "asset": "hero_grocery_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "on carrying bags",
+     "until": "everywhere"
+    },
+    {
+     "type": "text",
+     "text": "EVERYWHERE",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "everywhere"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "everywhere"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your grip is the weak-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "WEAK LINK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your grip is the weak",
+     "until": "And these two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your grip is the weak",
+     "until": "And these two",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2 EXERCISES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And these two",
+     "until": "without any gym"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And these two",
+     "until": "without any gym",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO GYM",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "without any gym",
+     "until": "There are different"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "without any gym",
+     "until": "There are different"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "start": "There are different-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "train neither"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "GRIP TYPES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "There are different",
+     "until": "Holding heavy things"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "There are different",
+     "until": "Holding heavy things",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HOLD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Holding heavy things",
+     "until": "and pinching"
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Holding heavy things",
+     "until": "and pinching",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PINCH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and pinching",
+     "until": "Most people train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and pinching",
+     "until": "Most people train",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NEITHER",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Most people train"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people train"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "train neither",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "farmer",
+   "start": "Exercise one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "FARMER CARRIES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Exercise one",
+     "until": "pick up two"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Exercise one",
+     "until": "pick up two",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "HEAVY BAGS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "pick up two",
+     "until": "and walk until"
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "pick up two",
+     "until": "and walk until",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "glow",
+     "anchor": "forearms",
+     "color": "#2FD94E",
+     "at": "pick up two",
+     "until": "and walk until"
+    },
+    {
+     "type": "text",
+     "text": "WALK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and walk until",
+     "until": "about to give out"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and walk until",
+     "until": "Three rounds#1",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ALMOST GONE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 170,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "about to give out",
+     "until": "Three rounds#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "about to give out",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three rounds#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three rounds#1",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "pinch",
+   "start": "Exercise two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "BOOK PINCHES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Exercise two",
+     "until": "spines out"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Exercise two",
+     "until": "hold two heavy books",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "image",
+     "asset": "hero_reading",
+     "shadow": true,
+     "enter": "whip",
+     "at": "hold two heavy books",
+     "until": "pinched between",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "SPINES OUT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "spines out",
+     "until": "pinched between"
+    },
+    {
+     "type": "text",
+     "text": "PINCH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "pinched between",
+     "until": "Hold as long"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "pinched between",
+     "until": "Hold as long"
+    },
+    {
+     "type": "text",
+     "text": "HOLD",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold as long",
+     "until": "Three rounds per hand"
+    },
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold as long",
+     "until": "Three rounds per hand",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 PER HAND",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three rounds per hand"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three rounds per hand"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with the weakest"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with the weakest"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with the weakest",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with the weakest",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "WEAKEST HANDSHAKE",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with the weakest",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "GIVE OUT...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "before your muscles",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "on carrying bags",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Your grip is the weak-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "weak link",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "without any gym",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "train neither",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Exercise one-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "and walk until",
+   "src": "sfx_running"
+  },
+  {
+   "at": "about to give out",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Exercise two-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "pinched between",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Three rounds per hand",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "weakest handshake",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "hands give out#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

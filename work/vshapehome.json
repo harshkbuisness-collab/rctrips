@@ -1,0 +1,741 @@
+{
+ "title": "Full V-shape workout at home",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "home",
+   "same",
+   "push-ups",
+   "pulling",
+   "V-shape",
+   "wide",
+   "width",
+   "pike",
+   "table",
+   "rows",
+   "snow",
+   "rounds"
+  ],
+  "bottom": [
+   [
+    "Most home workouts",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "exactly the same"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "AT HOME • AT HOME",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "look exactly the same"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "look exactly the same"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "your shoulders and back"
+    },
+    {
+     "type": "text",
+     "text": "SAME?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "look exactly the same"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "look exactly the same"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "exactly the same",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "SAME AS LAST YEAR",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "as last year"
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "Most home workouts-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "needs pulling too"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "ALL PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most home workouts",
+     "until": "And a V-shape needs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most home workouts",
+     "until": "And a V-shape needs",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "PULLING",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And a V-shape needs",
+     "until": "For a V-shape"
+    },
+    {
+     "type": "image",
+     "asset": "hero_row_end",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And a V-shape needs",
+     "until": "For a V-shape",
+     "width": 0.82,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "wide",
+   "start": "For a V-shape-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "shakes": [
+    {
+     "at": "build width"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "WIDE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "For a V-shape",
+     "until": "Push-ups alone"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "For a V-shape",
+     "until": "Push-ups alone"
+    },
+    {
+     "type": "glow",
+     "anchor": "shoulders",
+     "color": "#2FD94E",
+     "at": "wide shoulders on top",
+     "until": "and a wide back"
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#2FD94E",
+     "at": "and a wide back",
+     "until": "Push-ups alone"
+    },
+    {
+     "type": "text",
+     "text": "CHEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Push-ups alone",
+     "until": "they don't build width"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Push-ups alone",
+     "until": "they don't build width",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WIDTH",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 200,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "build width",
+     "at": "they don't build width"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "they don't build width"
+    }
+   ]
+  },
+  {
+   "id": "workout",
+   "start": "So here's a full-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "V WORKOUT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So here's a full",
+     "until": "Pike push-ups"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So here's a full",
+     "until": "Pike push-ups",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_pike_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Pike push-ups",
+     "until": "Table rows"
+    },
+    {
+     "type": "text",
+     "text": "PIKE PUSH-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pike push-ups",
+     "until": "eight to twelve"
+    },
+    {
+     "type": "text",
+     "text": "8-12",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "eight to twelve",
+     "until": "Table rows"
+    }
+   ]
+  },
+  {
+   "id": "rows",
+   "start": "Table rows-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_inverted_row",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.1,
+     "enter": "whip",
+     "at": "Table rows",
+     "until": "Reverse snow angels"
+    },
+    {
+     "type": "text",
+     "text": "TABLE ROWS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Table rows",
+     "until": "ten to fifteen"
+    },
+    {
+     "type": "text",
+     "text": "10-15",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "ten to fifteen",
+     "until": "Reverse snow angels"
+    }
+   ]
+  },
+  {
+   "id": "angels",
+   "start": "Reverse snow angels-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "Reverse snow angels"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_cobra_stretch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Reverse snow angels",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "REVERSE SNOW ANGELS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Reverse snow angels",
+     "until": "twelve slow reps"
+    },
+    {
+     "type": "text",
+     "text": "12 SLOW",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "twelve slow reps",
+     "until": "for your upper back"
+    },
+    {
+     "type": "text",
+     "text": "UPPER BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "for your upper back"
+    },
+    {
+     "type": "glow",
+     "anchor": "upper_back",
+     "color": "#2FD94E",
+     "at": "for your upper back"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three rounds-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "3 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three rounds",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three rounds",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "whose home workout"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "whose home workout"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose home workout",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "whose home workout",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "ONLY PUSH-UPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "whose home workout",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "AT HOME...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "exactly the same",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "as last year",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Most home workouts-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "needs pulling too",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "wide shoulders on top",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "build width",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "So here's a full-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Pike push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Table rows",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Reverse snow angels",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "rear shoulders",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Three rounds-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "three times a week",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "whose home workout",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you train at home#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

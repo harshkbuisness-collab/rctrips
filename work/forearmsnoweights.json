@@ -1,0 +1,752 @@
+{
+ "title": "Bigger forearms with no weights",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "forearms",
+   "weights",
+   "fingers",
+   "floor",
+   "enough",
+   "fingertip",
+   "planks",
+   "tension",
+   "knuckle",
+   "fists",
+   "wrists",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "You don't need them",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "any weights at home"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "BIGGER FOREARMS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but you don't have"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "but you don't have"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "bigger forearms#1"
+    },
+    {
+     "type": "text",
+     "text": "NO WEIGHTS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but you don't have"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but you don't have"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "any weights at home",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You don't need them-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "DON'T NEED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You don't need them",
+     "until": "Your fingers and the floor"
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You don't need them",
+     "until": "Your fingers and the floor",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "FINGERS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your fingers and the floor",
+     "until": "are enough"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your fingers and the floor",
+     "until": "are enough",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "ENOUGH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "are enough"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "are enough"
+    }
+   ]
+  },
+  {
+   "id": "fingertip",
+   "start": "Exercise one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "FINGERTIP PLANKS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Exercise one",
+     "until": "Get into a push-up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Exercise one",
+     "until": "Hold for fifteen",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "FINGERTIPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Get into a push-up",
+     "until": "instead of flat palms"
+    },
+    {
+     "type": "text",
+     "text": "FLAT PALMS",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.74,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "instead of flat palms+0.25",
+     "at": "instead of flat palms",
+     "until": "Hold for fifteen"
+    }
+   ]
+  },
+  {
+   "id": "hold",
+   "start": "Hold for fifteen-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "shakes": [
+    {
+     "at": "huge tension"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_plank",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold for fifteen",
+     "until": "This puts huge",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top_v2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "This puts huge",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "15-20 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold for fifteen",
+     "until": "This puts huge"
+    },
+    {
+     "type": "text",
+     "text": "TENSION",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "This puts huge",
+     "until": "fingers, wrists"
+    },
+    {
+     "type": "glow",
+     "anchor": "forearms",
+     "color": "#E3262E",
+     "at": "This puts huge"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "huge tension",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "FOREARMS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "fingers, wrists"
+    }
+   ]
+  },
+  {
+   "id": "knuckle",
+   "start": "Exercise two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "KNUCKLE PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "Exercise two",
+     "until": "Make fists"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Exercise two",
+     "until": "at the same time"
+    },
+    {
+     "type": "text",
+     "text": "SOFT MAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "on a soft mat",
+     "until": "Make fists"
+    },
+    {
+     "type": "text",
+     "text": "FISTS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Make fists",
+     "until": "with straight wrists"
+    },
+    {
+     "type": "text",
+     "text": "STRAIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "with straight wrists",
+     "until": "It strengthens"
+    },
+    {
+     "type": "text",
+     "text": "STRONGER",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "It strengthens",
+     "until": "at the same time"
+    },
+    {
+     "type": "text",
+     "text": "BOTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "at the same time"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "at the same time",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets each-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets each",
+     "until": "three times a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets each",
+     "until": "three times a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three times a week",
+     "until": "Start on your knees"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three times a week",
+     "until": "Start on your knees"
+    },
+    {
+     "type": "text",
+     "text": "KNEES OK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Start on your knees"
+    },
+    {
+     "type": "image",
+     "asset": "hero_ok_sign",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Start on your knees",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who says he needs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who says he needs"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who says he needs",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_dumbbell_hold",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says he needs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "DUMBBELLS FIRST",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says he needs",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "FOREARMS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "any weights at home",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You don't need them-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "are enough",
+   "src": "sfx_ez"
+  },
+  {
+   "at": "Exercise one-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "on your fingertips",
+   "src": "sfx_click"
+  },
+  {
+   "at": "instead of flat palms",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Hold for fifteen",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "huge tension",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Exercise two-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Make fists",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "It strengthens",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Three sets each-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Start on your knees",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who says he needs",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "bigger forearms#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

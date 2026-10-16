@@ -1,0 +1,829 @@
+{
+ "title": "4 tricks for more push-ups",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "twenty",
+   "shaking",
+   "breath",
+   "strength",
+   "four",
+   "tricks",
+   "breathe",
+   "steady",
+   "pause",
+   "ten",
+   "quits"
+  ],
+  "bottom": [
+   [
+    "It's not your",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "rep twenty"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS • PUSH-UPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and you're done"
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.4,
+     "enter": "cut",
+     "at": "start",
+     "until": "and you're done"
+    },
+    {
+     "type": "speed",
+     "at": "and you're done"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "for push-ups#1"
+    },
+    {
+     "type": "text",
+     "text": "REP 20",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and you're done",
+     "until": "Arms shaking"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and you're done",
+     "until": "Out of breath"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "rep twenty",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "ARMS SHAKING",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Arms shaking",
+     "until": "Out of breath"
+    },
+    {
+     "type": "text",
+     "text": "OUT OF BREATH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Out of breath"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Out of breath",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It's not your-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "STRENGTH",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "your strength",
+     "at": "It's not your",
+     "until": "It's how you're"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's not your",
+     "until": "It's how you're"
+    },
+    {
+     "type": "text",
+     "text": "THE SET",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "It's how you're",
+     "until": "And these four"
+    },
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It's how you're",
+     "until": "And these four",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "4 TRICKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And these four"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_4",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And these four",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "start": "Trick one-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "TRICK 1",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Trick one",
+     "until": "Breathe in on the way"
+    },
+    {
+     "type": "image",
+     "asset": "hero_crack_knuckles",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Trick one",
+     "until": "Breathe in on the way",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip",
+     "at": "Breathe in on the way",
+     "until": "Most people hold"
+    },
+    {
+     "type": "text",
+     "text": "IN ON DOWN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Breathe in on the way",
+     "until": "breathe out hard"
+    },
+    {
+     "type": "text",
+     "text": "OUT ON UP",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "breathe out hard",
+     "until": "Most people hold"
+    },
+    {
+     "type": "text",
+     "text": "HOLDING BREATH",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Most people hold"
+    },
+    {
+     "type": "image",
+     "asset": "hero_nervous_sweat",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Most people hold"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "gas out",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "start": "Trick two-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "TRICK 2",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Trick two",
+     "until": "Keep a steady"
+    },
+    {
+     "type": "image",
+     "asset": "hero_teacher_pointer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Trick two",
+     "until": "Keep a steady",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_pushup",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "Keep a steady"
+    },
+    {
+     "type": "text",
+     "text": "STEADY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Keep a steady",
+     "until": "Not fast"
+    },
+    {
+     "type": "text",
+     "text": "NOT FAST • NOT SLOW",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "Not fast"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "start": "Trick three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "TRICK 3",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Trick three",
+     "until": "When you get tired"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Trick three",
+     "until": "When you get tired",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When you get tired",
+     "until": "pause at the top"
+    },
+    {
+     "type": "text",
+     "text": "TIRED?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "When you get tired",
+     "until": "pause at the top"
+    },
+    {
+     "type": "text",
+     "text": "PAUSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "pause at the top",
+     "until": "and take two breaths"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pushup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "pause at the top",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "2 BREATHS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and take two breaths",
+     "until": "You're still in"
+    },
+    {
+     "type": "text",
+     "text": "STILL IN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "You're still in"
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "start": "Trick four-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "TRICK 4",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Trick four",
+     "until": "Don't think about"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_4",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Trick four",
+     "until": "Don't think about",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "80",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 260,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "about eighty",
+     "at": "Don't think about",
+     "until": "Think ten"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shocked",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Don't think about",
+     "until": "Think ten"
+    },
+    {
+     "type": "text",
+     "text": "10",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 320,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Think ten",
+     "until": "then ten more"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Think ten",
+     "until": "then ten more",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "+10",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 280,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "then ten more"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "then ten more"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "who quits at twenty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "who quits at twenty"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "who quits at twenty",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_stumble_tired",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who quits at twenty",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "QUITS AT 20",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who quits at twenty",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "rep twenty",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Out of breath",
+   "src": "sfx_out_of_breath"
+  },
+  {
+   "at": "It's not your-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "your strength",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "four tricks",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Trick one-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "breathe out hard",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "gas out",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Trick two-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "Not fast",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Trick three-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "pause at the top",
+   "src": "sfx_chime"
+  },
+  {
+   "at": "Trick four-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "about eighty",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "then ten more",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "who quits at twenty",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "drop down for push-ups#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

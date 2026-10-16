@@ -1,0 +1,733 @@
+{
+ "title": "Stomach vacuums for a V-shape",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "shoulders",
+   "V-shaped",
+   "waist",
+   "never",
+   "core",
+   "belt",
+   "stomach",
+   "vacuums",
+   "belly",
+   "fifteen",
+   "five",
+   "fat"
+  ],
+  "bottom": [
+   [
+    "The problem is",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "look V-shaped"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS • SHOULDERS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.18,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "but your body still"
+    },
+    {
+     "type": "video",
+     "asset": "clip_lateral_raise",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "but your body still"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "built your shoulders#1"
+    },
+    {
+     "type": "text",
+     "text": "NO V?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "but your body still"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but your body still"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "look V-shaped",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "start": "The problem is-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "Your waist"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE PROBLEM",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "The problem is",
+     "until": "Your waist"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "The problem is",
+     "until": "Your waist",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WAIST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your waist",
+     "until": "And there's an exercise"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your waist",
+     "until": "And there's an exercise"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Your waist",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "NEVER TRIED",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And there's an exercise",
+     "until": "Your deep core"
+    },
+    {
+     "type": "image",
+     "asset": "hero_whisper",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And there's an exercise",
+     "until": "have never tried",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "image",
+     "asset": "hero_shush",
+     "shadow": true,
+     "enter": "whip",
+     "at": "have never tried",
+     "until": "Your deep core",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "core",
+   "start": "Your deep core-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "DEEP CORE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your deep core",
+     "until": "like a belt"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your deep core",
+     "until": "When it's weak",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "Your deep core",
+     "until": "When it's weak"
+    },
+    {
+     "type": "text",
+     "text": "BELT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "like a belt",
+     "until": "When it's weak"
+    },
+    {
+     "type": "text",
+     "text": "STOMACH PUSHES OUT",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "When it's weak",
+     "until": "even if you're not"
+    },
+    {
+     "type": "image",
+     "asset": "hero_slumped",
+     "shadow": true,
+     "enter": "whip",
+     "at": "When it's weak",
+     "until": "even if you're not"
+    },
+    {
+     "type": "text",
+     "text": "FAT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 200,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "not fat",
+     "at": "even if you're not"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "even if you're not"
+    }
+   ]
+  },
+  {
+   "id": "vacuum",
+   "start": "So try stomach vacuums-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "STOMACH VACUUMS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "So try stomach vacuums",
+     "until": "Breathe all the air"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So try stomach vacuums",
+     "until": "Breathe all the air",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "AIR OUT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Breathe all the air",
+     "until": "Then pull your belly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Breathe all the air",
+     "until": "Then pull your belly",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BELLY IN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then pull your belly",
+     "until": "Hold for fifteen"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Then pull your belly",
+     "until": "Hold for fifteen",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "glow",
+     "anchor": "abs",
+     "color": "#2FD94E",
+     "at": "Then pull your belly",
+     "until": "Hold for fifteen"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "as hard as you can",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "15-20 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold for fifteen",
+     "until": "while breathing lightly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Hold for fifteen",
+     "until": "while breathing lightly"
+    },
+    {
+     "type": "text",
+     "text": "BREATHE LIGHT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "while breathing lightly"
+    },
+    {
+     "type": "image",
+     "asset": "hero_meditating",
+     "shadow": true,
+     "enter": "whip",
+     "at": "while breathing lightly",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Five rounds a day-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "5 ROUNDS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Five rounds a day",
+     "until": "It won't burn fat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Five rounds a day",
+     "until": "It won't burn fat",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BURN FAT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "won't burn fat+0.3",
+     "at": "It won't burn fat",
+     "until": "but it trains the muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "It won't burn fat",
+     "until": "but it trains the muscle"
+    },
+    {
+     "type": "text",
+     "text": "STOMACH IN",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "but it trains the muscle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_self_hug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "but it trains the muscle",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "building shoulders with no V"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "building shoulders with no V"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "building shoulders with no V",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "building shoulders with no V",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "NO V",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "building shoulders with no V",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "SHOULDERS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "look V-shaped",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "The problem is-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Your waist",
+   "src": "sfx_shocked"
+  },
+  {
+   "at": "never tried",
+   "src": "sfx_shush"
+  },
+  {
+   "at": "like a belt",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "your stomach pushes out",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So try stomach vacuums-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Breathe all the air",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "as hard as you can",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Hold for fifteen",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "Five rounds a day-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "It won't burn fat",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "holds your stomach in",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "with no V",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "built your shoulders#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

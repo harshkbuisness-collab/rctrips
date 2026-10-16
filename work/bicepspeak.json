@@ -1,0 +1,742 @@
+{
+ "title": "Biceps peak: finish the twist",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "biceps",
+   "flat",
+   "peak",
+   "genetics",
+   "detail",
+   "palm",
+   "twist",
+   "chin-ups",
+   "squeeze",
+   "pinky",
+   "slowly",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "Part of that",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "and it looks flat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS • BICEPS",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "and it looks flat"
+    },
+    {
+     "type": "video",
+     "asset": "clip_hammer_curl_dumbbells",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 1.3,
+     "enter": "cut",
+     "at": "start",
+     "until": "and it looks flat"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "flex your biceps#1"
+    },
+    {
+     "type": "text",
+     "text": "FLAT?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 250,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and it looks flat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and it looks flat"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "and it looks flat",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "NO PEAK",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "No peak at all"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Part of that-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "shakes": [
+    {
+     "at": "one detail"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "GENETICS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Part of that",
+     "until": "But most guys"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Part of that",
+     "until": "But most guys",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "1 DETAIL",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But most guys",
+     "until": "Your biceps don't"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "enter": "whip",
+     "at": "But most guys",
+     "until": "that makes a big",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "enter": "whip",
+     "at": "that makes a big",
+     "until": "Your biceps don't",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "one detail",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "start": "Your biceps don't-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "BEND",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your biceps don't",
+     "until": "They also turn"
+    },
+    {
+     "type": "image",
+     "asset": "hero_curl_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your biceps don't",
+     "until": "They also turn",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "PALM UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "They also turn",
+     "until": "If you never finish"
+    },
+    {
+     "type": "image",
+     "asset": "hero_explain",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They also turn",
+     "until": "If you never finish",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "NO TWIST",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "If you never finish"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "If you never finish"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "finish that twist",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "NOT FULLY WORKING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "you're not fully"
+    }
+   ]
+  },
+  {
+   "id": "chinups",
+   "start": "So try chin-ups-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "CHIN-UPS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So try chin-ups",
+     "until": "with your palms facing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "So try chin-ups",
+     "until": "with your palms facing",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with your palms facing",
+     "until": "At the top, squeeze",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "PALMS TO YOU",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "with your palms facing",
+     "until": "At the top, squeeze"
+    },
+    {
+     "type": "text",
+     "text": "SQUEEZE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "At the top, squeeze",
+     "until": "and pull your pinky"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "At the top, squeeze",
+     "until": "Can't do a chin-up",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "glow",
+     "anchor": "arms",
+     "color": "#2FD94E",
+     "at": "At the top, squeeze",
+     "until": "Can't do a chin-up"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "squeeze hard",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "PINKY UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and pull your pinky",
+     "until": "Can't do a chin-up"
+    },
+    {
+     "type": "text",
+     "text": "CAN'T?",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Can't do a chin-up",
+     "until": "Jump to the top"
+    },
+    {
+     "type": "image",
+     "asset": "hero_confused_scratch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Can't do a chin-up",
+     "until": "Jump to the top",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "JUMP UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Jump to the top",
+     "until": "and lower yourself"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_top",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Jump to the top",
+     "until": "and lower yourself",
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "text",
+     "text": "5 SECONDS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.2,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lower yourself"
+    },
+    {
+     "type": "image",
+     "asset": "hero_pullup_hang",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and lower yourself",
+     "width": 0.72,
+     "y": 0.62
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets, twice-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Three sets, twice",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Three sets, twice",
+     "until": "twice a week",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "2X A WEEK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "with flat biceps"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "with flat biceps"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "with flat biceps",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "with flat biceps",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "FLAT BICEPS",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "with flat biceps",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "and it looks flat",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "No peak at all",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Part of that-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "one detail",
+   "src": "sfx_shush"
+  },
+  {
+   "at": "turn your palm up",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "finish that twist",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "So try chin-ups-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "squeeze hard",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "pinky slightly up",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Can't do a chin-up",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "for five seconds",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Three sets, twice-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "twice a week",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "with flat biceps",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "you flex your biceps#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
