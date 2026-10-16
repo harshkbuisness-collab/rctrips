@@ -1,0 +1,765 @@
+{
+ "title": "Push-ups: flat chest fix (v2 motion graphics)",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "chest",
+   "flat",
+   "number",
+   "answer",
+   "struggle",
+   "hard",
+   "sets",
+   "failure",
+   "harder",
+   "slow",
+   "friend"
+  ],
+  "bottom": [
+   [
+    "And here's the real",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FF8A80",
+   "shakes": [
+    {
+     "at": "still looks flat"
+    },
+    {
+     "at": "It's not the number"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "cut",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "start"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "every day#1"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "and your chest"
+      }
+     ],
+     "until": "still looks flat",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "PUSH-UPS *EVERY DAY?*",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 96,
+     "align": "center",
+     "at": "start",
+     "until": "still looks flat",
+     "animation": "words"
+    },
+    {
+     "type": "chip",
+     "text": "100 A DAY",
+     "at": "every day#1",
+     "x": 0.24,
+     "y": 0.32,
+     "until": "still looks flat",
+     "icon": "dumbbell"
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#FF4D3D",
+     "at": "your chest still",
+     "until": "still looks flat"
+    },
+    {
+     "type": "speed",
+     "at": "still looks flat"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "at": "still looks flat",
+     "until": "It's not the number",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "CHEST STILL *FLAT*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 104,
+     "align": "center",
+     "at": "still looks flat",
+     "until": "It's not the number",
+     "animation": "words"
+    },
+    {
+     "type": "pulse",
+     "at": "still looks flat",
+     "kind": "edge",
+     "color": "#FF4D3D"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "at": "It's not the number",
+     "until": "Fifty",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "NOT THE *NUMBER*",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 104,
+     "align": "center",
+     "at": "It's not the number",
+     "until": "Fifty",
+     "animation": "words"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_big",
+     "shadow": true,
+     "at": "Fifty",
+     "until": "doesn't matter",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "50? *100?*",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 120,
+     "align": "center",
+     "at": "Fifty",
+     "until": "doesn't matter",
+     "animation": "words"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "at": "doesn't matter",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "DOESN'T *MATTER*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 104,
+     "align": "center",
+     "at": "doesn't matter",
+     "animation": "words"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "And here's the real-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#7FB2FF",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE REAL ANSWER",
+     "until": "in ten seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "until": "Your chest grows",
+     "enter": "punch"
+    },
+    {
+     "type": "chip",
+     "text": "10 SEC",
+     "at": "ten seconds",
+     "x": 0.8,
+     "y": 0.42,
+     "until": "Your chest grows",
+     "icon": "timer",
+     "color": "#3DA5FF"
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "punch",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Your chest grows"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "last few reps"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "of a set"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "are a real"
+      }
+     ],
+     "at": "Your chest grows",
+     "until": "real struggle",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "glow",
+     "anchor": "chest",
+     "color": "#3DDC84",
+     "at": "Your chest grows",
+     "until": "real struggle"
+    },
+    {
+     "type": "text",
+     "text": "LAST *FEW* REPS",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 104,
+     "align": "center",
+     "at": "last few reps",
+     "until": "real struggle",
+     "animation": "words"
+    },
+    {
+     "type": "speed",
+     "at": "real struggle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "at": "real struggle",
+     "until": "push-ups do less",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "REAL *STRUGGLE*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "real struggle",
+     "until": "push-ups do less",
+     "animation": "words"
+    },
+    {
+     "type": "pulse",
+     "at": "real struggle",
+     "kind": "edge",
+     "color": "#FF4D3D"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "at": "push-ups do less",
+     "until": "three hard sets",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "100 EASY = *LESS*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 104,
+     "align": "center",
+     "at": "push-ups do less",
+     "until": "three hard sets",
+     "animation": "words"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "at": "three hard sets",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "3 *HARD* SETS",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "three hard sets",
+     "animation": "words"
+    },
+    {
+     "type": "chip",
+     "text": "MORE GROWTH",
+     "at": "three hard sets",
+     "x": 0.22,
+     "y": 0.34,
+     "icon": "arrowUp",
+     "color": "#3DDC84",
+     "hot": 2
+    },
+    {
+     "type": "pulse",
+     "at": "three hard sets",
+     "kind": "edge",
+     "color": "#3DDC84"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "So here's what-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE PLAN",
+     "until": "Three to four"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "until": "Three to four",
+     "enter": "punch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_4",
+     "shadow": true,
+     "at": "Three to four",
+     "until": "three times a week",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "*3-4* SETS",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 120,
+     "align": "center",
+     "at": "Three to four",
+     "until": "three times a week",
+     "animation": "words"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "at": "three times a week",
+     "until": "Every set within",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "*3x* A WEEK",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 120,
+     "align": "center",
+     "at": "three times a week",
+     "until": "Every set within",
+     "animation": "words"
+    },
+    {
+     "type": "chip",
+     "text": "MON WED FRI",
+     "at": "three times a week",
+     "x": 0.24,
+     "y": 0.34,
+     "until": "Every set within",
+     "icon": "calendar",
+     "color": "#3DDC84"
+    },
+    {
+     "type": "image",
+     "asset": "hero_wipe_sweat",
+     "shadow": true,
+     "at": "Every set within",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "2-3 REPS FROM *FAILURE*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 84,
+     "align": "center",
+     "at": "Every set within",
+     "animation": "words"
+    },
+    {
+     "type": "pulse",
+     "at": "reps of failure",
+     "kind": "edge",
+     "color": "#FF4D3D"
+    }
+   ]
+  },
+  {
+   "id": "harder",
+   "start": "And when you can-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "rays",
+   "backdropColor": "#3DDC84",
+   "layers": [
+    {
+     "type": "text",
+     "text": "LEVEL UP",
+     "until": "more than thirty"
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "punch",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "And when you can"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "more than thirty"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "in a row"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "make them harder"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "Feet on a chair"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "or slow down"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "the way down|end"
+      }
+     ],
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "*30+* IN A ROW?",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 110,
+     "align": "center",
+     "at": "more than thirty",
+     "until": "make them harder",
+     "animation": "words"
+    },
+    {
+     "type": "text",
+     "text": "MAKE THEM *HARDER*",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 100,
+     "align": "center",
+     "at": "make them harder",
+     "until": "Feet on a chair",
+     "animation": "words"
+    },
+    {
+     "type": "glow",
+     "anchor": "feet",
+     "color": "#3DA5FF",
+     "at": "Feet on a chair",
+     "until": "or slow down"
+    },
+    {
+     "type": "text",
+     "text": "FEET ON A *CHAIR*",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 104,
+     "align": "center",
+     "at": "Feet on a chair",
+     "until": "or slow down",
+     "animation": "words"
+    },
+    {
+     "type": "text",
+     "text": "*3 SECONDS* DOWN",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 104,
+     "align": "center",
+     "at": "or slow down",
+     "animation": "words"
+    },
+    {
+     "type": "chip",
+     "text": "3 SEC",
+     "at": "three seconds on",
+     "x": 0.24,
+     "y": 0.48,
+     "icon": "timer",
+     "color": "#FF4D3D"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "a hundred easy push-ups a day",
+     "enter": "punch"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "a hundred easy push-ups a day",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "text",
+     "text": "*SEND* THIS",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "Send this to",
+     "until": "a hundred easy push-ups a day",
+     "animation": "words"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "at": "a hundred easy push-ups a day",
+     "until": "Because",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "100 EASY *A DAY...*",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 100,
+     "align": "center",
+     "at": "a hundred easy push-ups a day",
+     "until": "Because",
+     "animation": "words"
+    },
+    {
+     "type": "pulse",
+     "at": "a hundred easy push-ups a day",
+     "kind": "edge",
+     "color": "#FF4D3D"
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "punch",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Because"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "every day#2"
+      }
+     ],
+     "at": "Because",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "*EVERY* DAY...",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "every day#2",
+     "animation": "words"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "every day#1",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "still looks flat",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "It's not the number",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "Fifty",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "doesn't matter",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "And here's the real-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "real struggle",
+   "src": "sfx_raaah"
+  },
+  {
+   "at": "push-ups do less",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "three hard sets",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "So here's what-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Three to four",
+   "src": "sfx_click"
+  },
+  {
+   "at": "reps of failure",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "And when you can-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "make them harder",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "three seconds on",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "a hundred easy push-ups a day",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "every day#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

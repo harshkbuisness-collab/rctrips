@@ -1,0 +1,631 @@
+{
+ "title": "Skinny wrists fix",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "skinny",
+   "bigger",
+   "bones",
+   "fix",
+   "bottle",
+   "grow",
+   "muscles",
+   "nobody",
+   "palms",
+   "reps",
+   "week",
+   "friend"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "until": "even when",
+     "enter": "cut"
+    },
+    {
+     "type": "highlight",
+     "anchor": "hands",
+     "at": "look skinny#1",
+     "until": "even when",
+     "color": "#E3262E"
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "YOUR WRISTS",
+       "at": "start"
+      },
+      {
+       "text": "LOOK SKINNY?",
+       "at": "look skinny#1",
+       "look": "box"
+      }
+     ],
+     "until": "even when"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "at": "even when",
+     "until": "It's not just",
+     "enter": "squash"
+    },
+    {
+     "type": "bars",
+     "y": 0.3,
+     "height": 0.26,
+     "at": "the rest",
+     "until": "It's not just",
+     "items": [
+      {
+       "label": "ARMS",
+       "value": 90,
+       "display": "BIG"
+      },
+      {
+       "label": "WRISTS",
+       "value": 18,
+       "display": "TINY",
+       "at": "getting bigger"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "at": "It's not just",
+     "until": "And the fix",
+     "enter": "right",
+     "flipX": true
+    },
+    {
+     "type": "text",
+     "text": "JUST *BONES*?",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 105,
+     "align": "center",
+     "at": "your bones",
+     "until": "And the fix",
+     "strike": "your bones|end"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "at": "And the fix",
+     "until": "with a water",
+     "enter": "squash"
+    },
+    {
+     "type": "banner",
+     "text": "THE FIX",
+     "y": 0.7,
+     "at": "And the fix",
+     "until": "two exercises",
+     "color": "#2FD94E",
+     "shadowBand": "#111111",
+     "side": "right"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 2
+     },
+     "label": "exercises. that is it.",
+     "icon": "dumbbell",
+     "at": "two exercises",
+     "until": "with a water"
+    },
+    {
+     "type": "image",
+     "asset": "hero_drink_bottle",
+     "shadow": true,
+     "at": "with a water",
+     "enter": "left",
+     "x": 0.4
+    },
+    {
+     "type": "image",
+     "asset": "prop_water_bottle",
+     "at": "water bottle#1",
+     "x": 0.8,
+     "y": 0.42,
+     "width": 0.3,
+     "enter": "flyRight",
+     "motion": {
+      "type": "float"
+     }
+    },
+    {
+     "type": "accent",
+     "kind": "lines",
+     "x": 0.8,
+     "y": 0.42,
+     "size": 0.42,
+     "at": "water bottle#1"
+    },
+    {
+     "type": "text",
+     "text": "JUST A *WATER BOTTLE*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 90,
+     "align": "center",
+     "at": "water bottle#1",
+     "marker": "water bottle#1+0.3"
+    }
+   ],
+   "shakes": [
+    {
+     "at": "look skinny#1"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your wrist bone-0.1",
+   "transition": "glitch",
+   "backdrop": "notebook",
+   "camera": [
+    {
+     "at": "Your wrist bone",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "wrist bone",
+     "zoom": 1.15,
+     "focus": "hands"
+    },
+    {
+     "at": "But the muscles",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE TRUTH",
+     "until": "can't grow"
+    },
+    {
+     "type": "image",
+     "asset": "hero_adjust_wristband",
+     "shadow": true,
+     "until": "But the muscles",
+     "enter": "cut"
+    },
+    {
+     "type": "callout",
+     "text": "BONE",
+     "anchor": "hands",
+     "x": 0.28,
+     "y": 0.62,
+     "at": "wrist bone",
+     "until": "But the muscles"
+    },
+    {
+     "type": "text",
+     "text": "*CAN'T* GROW",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 100,
+     "align": "center",
+     "at": "can't grow",
+     "until": "But the muscles"
+    },
+    {
+     "type": "slider",
+     "before": {
+      "asset": "hero_this_small",
+      "label": "untrained"
+     },
+     "after": {
+      "asset": "hero_double_biceps",
+      "label": "trained"
+     },
+     "at": "But the muscles",
+     "until": "almost nobody",
+     "revealAt": "it can",
+     "y": 0.42,
+     "height": 0.5
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "at": "almost nobody",
+     "until": "So do this",
+     "enter": "up"
+    },
+    {
+     "type": "checklist",
+     "title": "what gym bros train",
+     "y": 0.29,
+     "at": "almost nobody",
+     "until": "So do this",
+     "items": [
+      {
+       "text": "CHEST",
+       "at": "almost nobody"
+      },
+      {
+       "text": "BICEPS",
+       "at": "nobody trains"
+      },
+      {
+       "text": "FOREARMS",
+       "mark": "cross",
+       "at": "them directly"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "at": "So do this",
+     "enter": "zoom",
+     "flipX": true
+    },
+    {
+     "type": "banner",
+     "text": "DO THIS",
+     "y": 0.72,
+     "at": "So do this",
+     "color": "#111111",
+     "shadowBand": "#E3262E"
+    }
+   ]
+  },
+  {
+   "id": "curl",
+   "start": "Sit down-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "camera": [
+    {
+     "at": "Sit down",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "Curl your wrist",
+     "zoom": 1.2,
+     "focus": "forearms"
+    },
+    {
+     "at": "Fifteen to",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "#1 WRIST CURL",
+     "until": "palms up"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_bench_talk",
+     "shadow": true,
+     "enter": "right"
+    },
+    {
+     "type": "callout",
+     "text": "ON THIGHS",
+     "anchor": "forearms",
+     "x": 0.3,
+     "y": 0.4,
+     "at": "forearms on",
+     "until": "palms up"
+    },
+    {
+     "type": "text",
+     "text": "PALMS *UP*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.66,
+     "size": 110,
+     "align": "center",
+     "at": "palms up",
+     "until": "Curl your wrist",
+     "marker": "palms up+0.2"
+    },
+    {
+     "type": "icon",
+     "name": "water",
+     "label": "full bottle",
+     "x": 0.2,
+     "y": 0.27,
+     "at": "full water",
+     "until": "Curl your wrist"
+    },
+    {
+     "type": "arrow",
+     "anchor": "forearms",
+     "pointing": "up",
+     "at": "all the way up",
+     "until": "all the way down",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "arrow",
+     "anchor": "forearms",
+     "pointing": "down",
+     "at": "all the way down",
+     "until": "Fifteen to",
+     "color": "#E3262E"
+    },
+    {
+     "type": "ring",
+     "y": 0.31,
+     "count": {
+      "from": 0,
+      "to": 20
+     },
+     "label": "15-20 reps",
+     "at": "Fifteen to"
+    }
+   ]
+  },
+  {
+   "id": "reverse",
+   "start": "Then flip-0.1",
+   "transition": "circle",
+   "backdrop": "stripes",
+   "camera": [
+    {
+     "at": "Then flip",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "palms down",
+     "zoom": 1.2,
+     "focus": "forearms"
+    },
+    {
+     "at": "do the same",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "#2 REVERSE CURL",
+     "until": "do the same"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sit_bench_talk",
+     "shadow": true,
+     "enter": "left",
+     "flipX": true
+    },
+    {
+     "type": "callout",
+     "text": "PALMS DOWN",
+     "anchor": "forearms",
+     "x": 0.68,
+     "y": 0.42,
+     "at": "palms down"
+    },
+    {
+     "type": "text",
+     "text": "SAME *REPS*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "do the same"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets each-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "dots",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_writing_notes",
+     "shadow": true,
+     "enter": "up"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 3,
+      "suffix": " sets"
+     },
+     "label": "of each exercise",
+     "icon": "dumbbell",
+     "y": 0.24,
+     "at": "Three sets each",
+     "until": "three times"
+    },
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "label": "MON",
+       "at": "three times"
+      },
+      {
+       "label": "WED",
+       "at": "times a week"
+      },
+      {
+       "label": "FRI",
+       "at": "a week"
+      }
+     ],
+     "y": 0.3,
+     "at": "three times"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": "glitch",
+   "backdrop": "blobs",
+   "shakes": [
+    {
+     "at": "hides his wrists"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "Because",
+     "enter": "squash"
+    },
+    {
+     "type": "comment",
+     "user": "@your_best_friend",
+     "text": "why did you send me this??",
+     "likes": "12K",
+     "ago": "just now",
+     "at": "the friend who",
+     "until": "every photo"
+    },
+    {
+     "type": "chat",
+     "name": "Best friend",
+     "y": 0.28,
+     "at": "every photo",
+     "until": "Because",
+     "messages": [
+      {
+       "text": "you know why",
+       "side": "right",
+       "at": "every photo"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "at": "Because",
+     "enter": "slam"
+    },
+    {
+     "type": "highlight",
+     "anchor": "hands",
+     "at": "look skinny#2",
+     "color": "#E3262E"
+    },
+    {
+     "type": "banner",
+     "text": "SKINNY WRISTS...",
+     "y": 0.7,
+     "at": "look skinny#2",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "look skinny#1",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "getting bigger",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "your bones",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "water bottle#1",
+   "src": "sfx_gulp"
+  },
+  {
+   "at": "Your wrist bone-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "can't grow",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "them directly",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So do this",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Sit down-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "all the way up",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "all the way down",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Then flip-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "do the same",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Three sets each-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "every photo",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "look skinny#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

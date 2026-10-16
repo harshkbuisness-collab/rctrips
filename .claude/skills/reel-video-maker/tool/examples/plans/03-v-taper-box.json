@@ -1,0 +1,571 @@
+{
+ "title": "Box body to V-taper",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "box",
+   "width",
+   "shoulders",
+   "waist",
+   "genetics",
+   "home",
+   "V-taper",
+   "delts",
+   "lats",
+   "skip",
+   "burns",
+   "sets"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "shakes": [
+    {
+     "at": "like a box#1"
+    }
+   ],
+   "camera": [
+    {
+     "at": "start",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "like a box#1",
+     "zoom": 1.3,
+     "focus": "body"
+    },
+    {
+     "at": "Same width at the shoulders",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stand",
+     "shadow": true,
+     "until": "It's not your genetics",
+     "enter": "cut"
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "YOUR BODY",
+       "at": "start"
+      },
+      {
+       "text": "LOOKS LIKE A BOX?",
+       "at": "like a box#1",
+       "look": "box"
+      }
+     ],
+     "until": "Same width at the shoulders"
+    },
+    {
+     "type": "measure",
+     "from": "left_shoulder",
+     "to": "right_shoulder",
+     "label": "SAME",
+     "at": "at the shoulders",
+     "until": "It's not your genetics"
+    },
+    {
+     "type": "measure",
+     "from": "left_hip",
+     "to": "right_hip",
+     "label": "SAME",
+     "at": "at the waist",
+     "until": "It's not your genetics"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "at": "It's not your genetics",
+     "until": "And you can change",
+     "enter": "squash"
+    },
+    {
+     "type": "text",
+     "text": "BAD *GENETICS*?",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 100,
+     "align": "center",
+     "at": "It's not your genetics",
+     "until": "And you can change",
+     "strike": "genetics|end"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "at": "And you can change",
+     "enter": "punch"
+    },
+    {
+     "type": "banner",
+     "text": "AT HOME. NO GYM.",
+     "y": 0.72,
+     "at": "at home",
+     "color": "#2FD94E",
+     "shadowBand": "#111111",
+     "side": "right"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "A V-taper-0.1",
+   "transition": "glitch",
+   "backdrop": "notebook",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE *V-TAPER*",
+     "until": "two muscles|end"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "until": "Most people",
+     "enter": "squash"
+    },
+    {
+     "type": "highlight",
+     "anchor": "shoulders",
+     "at": "side delts",
+     "until": "Most people",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "callout",
+     "text": "SIDE DELTS",
+     "anchor": "shoulders",
+     "x": 0.25,
+     "y": 0.3,
+     "at": "side delts",
+     "until": "Most people"
+    },
+    {
+     "type": "highlight",
+     "anchor": "back",
+     "at": "wide lats",
+     "until": "Most people",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "callout",
+     "text": "LATS",
+     "anchor": "back",
+     "x": 0.78,
+     "y": 0.6,
+     "at": "wide lats",
+     "until": "Most people"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "at": "Most people",
+     "enter": "up"
+    },
+    {
+     "type": "checklist",
+     "title": "what most people train",
+     "y": 0.29,
+     "at": "Most people",
+     "items": [
+      {
+       "text": "CHEST",
+       "at": "train chest and"
+      },
+      {
+       "text": "ABS",
+       "at": "and abs"
+      },
+      {
+       "text": "SIDE DELTS",
+       "mark": "cross",
+       "at": "skip both"
+      },
+      {
+       "text": "LATS",
+       "mark": "cross",
+       "at": "skip both+0.35"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pike",
+   "start": "So here are-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "until": "Pike push-ups",
+     "enter": "squash"
+    },
+    {
+     "type": "banner",
+     "text": "3 EXERCISES",
+     "y": 0.7,
+     "at": "three exercises",
+     "until": "Pike push-ups",
+     "color": "#111111",
+     "shadowBand": "#E3262E"
+    },
+    {
+     "type": "text",
+     "text": "#1 PIKE PUSH-UP",
+     "at": "Pike push-ups"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pike_top",
+       "at": "Pike push-ups"
+      },
+      {
+       "asset": "hero_pike_bottom",
+       "at": "for your shoulders"
+      },
+      {
+       "asset": "hero_pike_top",
+       "at": "for your shoulders|end"
+      }
+     ],
+     "shadow": true,
+     "at": "Pike push-ups",
+     "enter": "squash",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "highlight",
+     "anchor": "shoulders",
+     "at": "for your shoulders",
+     "color": "#2FD94E"
+    }
+   ]
+  },
+  {
+   "id": "rows",
+   "start": "Table rows-0.1",
+   "transition": "slideLeft",
+   "backdrop": "stripes",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#2 TABLE ROW",
+     "until": "lie under"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_row_start",
+       "at": "Table rows"
+      },
+      {
+       "asset": "hero_row_end",
+       "at": "for your lats"
+      },
+      {
+       "asset": "hero_row_start",
+       "at": "lie under"
+      },
+      {
+       "asset": "hero_row_end",
+       "at": "pull your chest up"
+      },
+      {
+       "asset": "hero_row_start",
+       "at": "pull your chest up|end"
+      }
+     ],
+     "shadow": true,
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "LATS",
+     "anchor": "back",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "for your lats",
+     "until": "lie under",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "text",
+     "text": "*STURDY* TABLE",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 96,
+     "align": "center",
+     "at": "sturdy table",
+     "until": "pull your chest up"
+    },
+    {
+     "type": "arrow",
+     "anchor": "chest",
+     "pointing": "up",
+     "color": "#2FD94E",
+     "at": "pull your chest up"
+    }
+   ]
+  },
+  {
+   "id": "raise",
+   "start": "And backpack-0.1",
+   "transition": "circle",
+   "backdrop": "dots",
+   "camera": [
+    {
+     "at": "And backpack",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "until it burns",
+     "zoom": 1.25,
+     "focus": "shoulders"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "#3 LATERAL RAISE",
+     "until": "slow, until"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arm_circles",
+     "shadow": true,
+     "enter": "squash"
+    },
+    {
+     "type": "arrow",
+     "anchor": "hands",
+     "pointing": "up",
+     "color": "#2FD94E",
+     "at": "lateral raises",
+     "until": "until it burns"
+    },
+    {
+     "type": "text",
+     "text": "*SLOW*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 130,
+     "align": "center",
+     "at": "slow, until",
+     "until": "until it burns"
+    },
+    {
+     "type": "highlight",
+     "anchor": "shoulders",
+     "at": "until it burns",
+     "color": "#E3262E"
+    },
+    {
+     "type": "icon",
+     "name": "fire",
+     "label": "burn",
+     "x": 0.8,
+     "y": 0.27,
+     "at": "it burns"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets each-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "plus",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_writing_notes",
+     "shadow": true,
+     "enter": "up"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 3,
+      "suffix": " sets"
+     },
+     "label": "of each exercise",
+     "icon": "dumbbell",
+     "y": 0.24,
+     "at": "Three sets each",
+     "until": "three times"
+    },
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "label": "MON",
+       "at": "three times"
+      },
+      {
+       "label": "WED",
+       "at": "times a week"
+      },
+      {
+       "label": "FRI",
+       "at": "a week"
+      }
+     ],
+     "y": 0.3,
+     "at": "three times"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": "flash",
+   "backdrop": "blobs",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "Because",
+     "enter": "squash"
+    },
+    {
+     "type": "comment",
+     "user": "@your_best_friend",
+     "text": "every day is chest day bro",
+     "likes": "9K",
+     "ago": "just now",
+     "at": "the friend who",
+     "until": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stand",
+     "shadow": true,
+     "at": "Because",
+     "enter": "slam"
+    },
+    {
+     "type": "measure",
+     "from": "left_shoulder",
+     "to": "right_shoulder",
+     "label": "BOX",
+     "at": "like a box#2"
+    },
+    {
+     "type": "banner",
+     "text": "STILL A BOX...",
+     "y": 0.72,
+     "at": "like a box#2",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "like a box#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "at the shoulders",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "at the waist",
+   "src": "sfx_pop_2"
+  },
+  {
+   "at": "It's not your genetics",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "And you can change",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "A V-taper-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "side delts",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "wide lats",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "So here are-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Pike push-ups",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Table rows-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "pull your chest up",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "And backpack-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "it burns",
+   "src": "sfx_whoosh_fire"
+  },
+  {
+   "at": "Three sets each-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "only trains chest",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "like a box#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

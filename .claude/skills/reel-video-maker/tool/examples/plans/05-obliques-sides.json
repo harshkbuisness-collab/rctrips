@@ -1,0 +1,509 @@
+{
+ "title": "Obliques: sides of abs",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "abs",
+   "flat",
+   "plain",
+   "missing",
+   "sides",
+   "wrong",
+   "wider",
+   "obliques",
+   "sharper",
+   "heavy",
+   "straight",
+   "reps"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "shakes": [
+    {
+     "at": "still looks flat"
+    },
+    {
+     "at": "look wider"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "your stomach",
+     "enter": "cut"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_down",
+     "shadow": true,
+     "at": "your stomach",
+     "until": "still looks flat",
+     "enter": "punch"
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "TRAINING ABS?",
+       "at": "start"
+      },
+      {
+       "text": "STILL FLAT?",
+       "at": "still looks flat",
+       "look": "box"
+      }
+     ],
+     "until": "You're missing"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "at": "still looks flat",
+     "until": "You're missing",
+     "enter": "punch"
+    },
+    {
+     "type": "highlight",
+     "anchor": "abs",
+     "at": "flat and plain",
+     "until": "You're missing",
+     "color": "#E3262E"
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "at": "You're missing",
+     "until": "And training them",
+     "enter": "squash"
+    },
+    {
+     "type": "callout",
+     "text": "SIDES?",
+     "anchor": "abs",
+     "x": 0.78,
+     "y": 0.42,
+     "at": "on the sides",
+     "until": "And training them",
+     "color": "#E3262E"
+    },
+    {
+     "type": "text",
+     "text": "MISSING: *SIDES*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 100,
+     "align": "center",
+     "at": "on the sides",
+     "until": "And training them"
+    },
+    {
+     "type": "banner",
+     "text": "THE WRONG WAY",
+     "y": 0.3,
+     "at": "the wrong way",
+     "until": "look wider",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "at": "And training them",
+     "enter": "right",
+     "flipX": true
+    },
+    {
+     "type": "text",
+     "text": "*WIDER* WAIST",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 110,
+     "align": "center",
+     "at": "look wider"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your obliques frame-0.1",
+   "transition": "glitch",
+   "backdrop": "notebook",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE TRUTH",
+     "until": "frame your abs|end"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "until": "Strong, defined",
+     "enter": "squash"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "at": "Strong, defined",
+     "until": "But heavy side",
+     "enter": "squash"
+    },
+    {
+     "type": "highlight",
+     "anchor": "abs",
+     "at": "frame your abs",
+     "until": "Strong, defined",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "highlight",
+     "anchor": "abs",
+     "at": "whole midsection",
+     "until": "But heavy side",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "callout",
+     "text": "OBLIQUES",
+     "anchor": "abs",
+     "x": 0.25,
+     "y": 0.36,
+     "at": "frame your abs",
+     "until": "Strong, defined",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "text",
+     "text": "*SHARPER* MIDSECTION",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 92,
+     "align": "center",
+     "at": "look sharper",
+     "until": "But heavy side"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arms_crossed",
+     "shadow": true,
+     "at": "But heavy side",
+     "enter": "up"
+    },
+    {
+     "type": "versus",
+     "left": {
+      "label": "heavy side bends",
+      "asset": "hero_dumbbell_hold",
+      "at": "But heavy side"
+     },
+     "right": {
+      "label": "side planks",
+      "asset": "hero_plank",
+      "at": "So train them"
+     },
+     "y": 0.42,
+     "height": 0.44,
+     "at": "But heavy side"
+    }
+   ]
+  },
+  {
+   "id": "plank",
+   "start": "Side planks-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "camera": [
+    {
+     "at": "Side planks",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "one forearm",
+     "zoom": 1.25,
+     "focus": "elbows"
+    },
+    {
+     "at": "thirty seconds",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "#1 SIDE PLANK",
+     "until": "straight line"
+    },
+    {
+     "type": "image",
+     "asset": "hero_plank",
+     "shadow": true,
+     "enter": "squash",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "measure",
+     "from": "feet",
+     "to": "head",
+     "label": "STRAIGHT",
+     "color": "#2FD94E",
+     "at": "straight line",
+     "until": "one forearm"
+    },
+    {
+     "type": "callout",
+     "text": "ONE FOREARM",
+     "anchor": "elbows",
+     "x": 0.3,
+     "y": 0.36,
+     "at": "one forearm",
+     "until": "thirty seconds"
+    },
+    {
+     "type": "ring",
+     "count": {
+      "from": 0,
+      "to": 30
+     },
+     "label": "30 sec each side",
+     "y": 0.31,
+     "duration": 2,
+     "at": "thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "bicycle",
+   "start": "Then slow bicycle-0.1",
+   "transition": "circle",
+   "backdrop": "stripes",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#2 BICYCLE CRUNCH",
+     "until": "opposite knee"
+    },
+    {
+     "type": "image",
+     "asset": "hero_reverse_crunch",
+     "shadow": true,
+     "enter": "squash",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "ELBOW TO KNEE",
+     "anchor": "knees",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "opposite knee",
+     "until": "fully extend"
+    },
+    {
+     "type": "arrow",
+     "anchor": "feet",
+     "pointing": "right",
+     "color": "#2FD94E",
+     "at": "fully extend",
+     "until": "Twenty reps"
+    },
+    {
+     "type": "highlight",
+     "anchor": "abs",
+     "at": "fully extend",
+     "until": "Twenty reps",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "ring",
+     "count": {
+      "from": 0,
+      "to": 20
+     },
+     "label": "20 reps",
+     "y": 0.31,
+     "duration": 1.5,
+     "at": "Twenty reps"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three rounds-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "dots",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_writing_notes",
+     "shadow": true,
+     "enter": "up"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 3,
+      "suffix": " rounds"
+     },
+     "label": "side plank + bicycle",
+     "icon": "fire",
+     "y": 0.24,
+     "at": "Three rounds",
+     "until": "three times"
+    },
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "label": "MON",
+       "at": "three times"
+      },
+      {
+       "label": "WED",
+       "at": "times a week"
+      },
+      {
+       "label": "FRI",
+       "at": "a week"
+      }
+     ],
+     "y": 0.3,
+     "at": "three times"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": "flash",
+   "backdrop": "blobs",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "Because",
+     "enter": "squash"
+    },
+    {
+     "type": "comment",
+     "user": "@your_best_friend",
+     "text": "heavier side bends = smaller waist, right?",
+     "likes": "8K",
+     "ago": "just now",
+     "at": "the friend doing",
+     "until": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "at": "Because",
+     "enter": "slam"
+    },
+    {
+     "type": "highlight",
+     "anchor": "abs",
+     "at": "train your abs#2",
+     "color": "#E3262E"
+    },
+    {
+     "type": "banner",
+     "text": "STILL FLAT...",
+     "y": 0.72,
+     "at": "train your abs#2",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "still looks flat",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "You're missing",
+   "src": "sfx_sparkle"
+  },
+  {
+   "at": "And training them",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "look wider",
+   "src": "sfx_fahhh"
+  },
+  {
+   "at": "Your obliques frame-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "frame your abs",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "look sharper",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "thicken your waist",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "So train them",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Side planks-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "one forearm",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "Then slow bicycle-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "opposite knee",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Three rounds-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "train your abs#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

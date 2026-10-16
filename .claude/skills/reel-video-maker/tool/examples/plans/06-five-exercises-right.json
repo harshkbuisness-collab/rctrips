@@ -1,0 +1,509 @@
+{
+ "title": "5 exercises done right",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "wrong",
+   "push-ups",
+   "shoulders",
+   "straight",
+   "chest",
+   "squats",
+   "hips",
+   "knees",
+   "plank",
+   "glutes",
+   "sag",
+   "lunges",
+   "knee",
+   "bridges",
+   "heels",
+   "squeeze",
+   "save"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "shakes": [
+    {
+     "at": "wrong"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "five exercises",
+     "enter": "cut"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_5",
+     "shadow": true,
+     "at": "five exercises",
+     "until": "wrong",
+     "enter": "punch"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "at": "wrong",
+     "enter": "squash"
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "5 EXERCISES",
+       "at": "start"
+      },
+      {
+       "text": "DONE WRONG",
+       "at": "wrong",
+       "look": "box"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pushup",
+   "start": "Number one-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#1 *PUSH-UP*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.2,
+     "size": 120,
+     "align": "center",
+     "at": "Number one"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Number one"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "lower your chest"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "all the way down|end"
+      }
+     ],
+     "shadow": true,
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "UNDER SHOULDERS",
+     "anchor": "hands",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "Hands under",
+     "until": "body in one"
+    },
+    {
+     "type": "measure",
+     "from": "feet",
+     "to": "head",
+     "label": "STRAIGHT",
+     "color": "#2FD94E",
+     "at": "one straight line",
+     "until": "lower your chest"
+    },
+    {
+     "type": "arrow",
+     "anchor": "chest",
+     "pointing": "down",
+     "color": "#E3262E",
+     "at": "lower your chest",
+     "until": "Number two"
+    },
+    {
+     "type": "text",
+     "text": "CHEST *ALL THE WAY*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.74,
+     "size": 86,
+     "align": "center",
+     "at": "all the way down"
+    }
+   ]
+  },
+  {
+   "id": "squat",
+   "start": "Number two-0.1",
+   "transition": "circle",
+   "backdrop": "dots",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#2 *SQUAT*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.2,
+     "size": 120,
+     "align": "center",
+     "at": "Number two",
+     "until": "keep your knees"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_squat_top",
+       "at": "Number two"
+      },
+      {
+       "asset": "hero_squat_mid",
+       "at": "push your hips"
+      }
+     ],
+     "shadow": true,
+     "until": "keep your knees",
+     "width": 0.64,
+     "y": 0.62
+    },
+    {
+     "type": "callout",
+     "text": "FEET WIDE",
+     "anchor": "feet",
+     "x": 0.75,
+     "y": 0.64,
+     "at": "Feet shoulder",
+     "until": "push your hips"
+    },
+    {
+     "type": "callout",
+     "text": "HIPS BACK",
+     "anchor": "hips",
+     "x": 0.24,
+     "y": 0.66,
+     "at": "push your hips",
+     "until": "keep your knees"
+    },
+    {
+     "type": "versus",
+     "left": {
+      "label": "knees in",
+      "asset": "hero_squat_wrong"
+     },
+     "right": {
+      "label": "knees out",
+      "asset": "hero_squat_front",
+      "at": "over your toes"
+     },
+     "y": 0.46,
+     "height": 0.44,
+     "at": "keep your knees"
+    }
+   ]
+  },
+  {
+   "id": "plank",
+   "start": "Number three-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "stripes",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#3 *PLANK*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.2,
+     "size": 120,
+     "align": "center",
+     "at": "Number three"
+    },
+    {
+     "type": "image",
+     "asset": "hero_plank",
+     "shadow": true,
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "ELBOWS DOWN",
+     "anchor": "elbows",
+     "x": 0.3,
+     "y": 0.36,
+     "at": "Elbows under",
+     "until": "squeeze your glutes"
+    },
+    {
+     "type": "highlight",
+     "anchor": "glutes",
+     "color": "#2FD94E",
+     "at": "squeeze your glutes",
+     "until": "don't let"
+    },
+    {
+     "type": "callout",
+     "text": "SQUEEZE",
+     "anchor": "glutes",
+     "x": 0.62,
+     "y": 0.36,
+     "color": "#2FD94E",
+     "at": "squeeze your glutes",
+     "until": "don't let"
+    },
+    {
+     "type": "arrow",
+     "anchor": "hips",
+     "pointing": "up",
+     "color": "#2FD94E",
+     "at": "don't let"
+    },
+    {
+     "type": "text",
+     "text": "HIPS *DON'T SAG*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.74,
+     "size": 92,
+     "align": "center",
+     "at": "don't let"
+    }
+   ]
+  },
+  {
+   "id": "lunge",
+   "start": "Number four-0.1",
+   "transition": "wipe",
+   "backdrop": "halftone",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#4 *LUNGE*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.2,
+     "size": 120,
+     "align": "center",
+     "at": "Number four"
+    },
+    {
+     "type": "image",
+     "asset": "hero_lunge",
+     "shadow": true,
+     "enter": "squash"
+    },
+    {
+     "type": "callout",
+     "text": "LONG STEP",
+     "anchor": "feet",
+     "x": 0.75,
+     "y": 0.62,
+     "at": "Take a long",
+     "until": "drop your back"
+    },
+    {
+     "type": "arrow",
+     "anchor": "knees",
+     "pointing": "down",
+     "color": "#E3262E",
+     "at": "drop your back",
+     "until": "keep your chest"
+    },
+    {
+     "type": "callout",
+     "text": "CHEST UP",
+     "anchor": "chest",
+     "x": 0.27,
+     "y": 0.36,
+     "color": "#2FD94E",
+     "at": "keep your chest"
+    }
+   ]
+  },
+  {
+   "id": "bridge",
+   "start": "Number five-0.1",
+   "transition": "circle",
+   "backdrop": "plus",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#5 *GLUTE BRIDGE*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.2,
+     "size": 110,
+     "align": "center",
+     "at": "Number five"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_glute_bridge_down",
+       "at": "Number five"
+      },
+      {
+       "asset": "hero_glute_bridge_up",
+       "at": "drive through"
+      }
+     ],
+     "shadow": true,
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "FEET CLOSE",
+     "anchor": "feet",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "Feet close",
+     "until": "drive through"
+    },
+    {
+     "type": "arrow",
+     "anchor": "hips",
+     "pointing": "up",
+     "color": "#2FD94E",
+     "at": "drive through",
+     "until": "squeeze hard"
+    },
+    {
+     "type": "highlight",
+     "anchor": "glutes",
+     "color": "#2FD94E",
+     "at": "squeeze hard"
+    },
+    {
+     "type": "text",
+     "text": "*SQUEEZE* AT THE TOP",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.74,
+     "size": 86,
+     "align": "center",
+     "at": "squeeze hard"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Save this-0.1",
+   "transition": "flash",
+   "backdrop": "blobs",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "squash"
+    },
+    {
+     "type": "checklist",
+     "title": "save this",
+     "mark": "number",
+     "stagger": 0.15,
+     "y": 0.25,
+     "size": 52,
+     "items": [
+      {
+       "text": "Push-up"
+      },
+      {
+       "text": "Squat"
+      },
+      {
+       "text": "Plank"
+      },
+      {
+       "text": "Lunge"
+      },
+      {
+       "text": "Glute bridge"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "wrong",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "Number one-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "one straight line",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "lower your chest",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Number two-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "push your hips",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Number three-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "squeeze your glutes",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Number four-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "drop your back",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "Number five-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "drive through",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "squeeze hard",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "Save this-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "today",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

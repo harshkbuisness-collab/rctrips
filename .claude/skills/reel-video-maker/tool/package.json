@@ -1,0 +1,39 @@
+{
+  "name": "reel-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Renders illustrated explainer reels from a timeline JSON (images + voiceover + word timings).",
+  "scripts": {
+    "placeholders": "node scripts/make-placeholders.mjs",
+    "srt": "node scripts/srt-to-words.mjs",
+    "validate": "node scripts/validate.mjs",
+    "studio": "node scripts/studio.mjs",
+    "render": "node scripts/render.mjs",
+    "test": "node scripts/self-test.mjs",
+    "start": "node tools/server.mjs"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/archivo": "^5.3.0",
+    "@fontsource/archivo-black": "^5.3.0",
+    "@fontsource/bangers": "^5.3.0",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/dela-gothic-one": "^5.3.0",
+    "@fontsource/jost": "^5.3.0",
+    "@fontsource/lilita-one": "^5.3.0",
+    "@fontsource/luckiest-guy": "^5.3.0",
+    "@fontsource/rubik": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@fontsource/unbounded": "^5.3.0",
+    "@remotion/bundler": "4.0.532",
+    "@remotion/cli": "4.0.532",
+    "@remotion/player": "4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "esbuild": "^0.28.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "4.0.532",
+    "zod": "4.5.4"
+  }
+}

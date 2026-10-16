@@ -1,0 +1,91 @@
+{
+  "assets": [
+    {
+      "id": "demo_stand",
+      "file": "demo/stand.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: stand",
+      "tags": [
+        "placeholder",
+        "stand"
+      ]
+    },
+    {
+      "id": "demo_flex",
+      "file": "demo/flex.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: flex",
+      "tags": [
+        "placeholder",
+        "flex"
+      ]
+    },
+    {
+      "id": "demo_plank",
+      "file": "demo/plank.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: plank",
+      "tags": [
+        "placeholder",
+        "plank"
+      ]
+    },
+    {
+      "id": "demo_walk",
+      "file": "demo/walk.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: walk",
+      "tags": [
+        "placeholder",
+        "walk"
+      ]
+    },
+    {
+      "id": "demo_pike_top",
+      "file": "demo/pike_top.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: pike top",
+      "tags": [
+        "placeholder",
+        "pike_top"
+      ]
+    },
+    {
+      "id": "demo_pike_bottom",
+      "file": "demo/pike_bottom.svg",
+      "kind": "image",
+      "description": "placeholder figure, pose: pike bottom",
+      "tags": [
+        "placeholder",
+        "pike_bottom"
+      ]
+    },
+    {
+      "id": "demo_pike_top_legs_mask",
+      "file": "demo/pike_top_legs_mask.svg",
+      "kind": "mask",
+      "description": "mask of the front leg in demo_pike_top",
+      "tags": [
+        "mask"
+      ]
+    },
+    {
+      "id": "sfx_pop",
+      "file": "sfx/pop.wav",
+      "kind": "audio",
+      "description": "short pop",
+      "tags": [
+        "sfx"
+      ]
+    },
+    {
+      "id": "sfx_whoosh",
+      "file": "sfx/whoosh.wav",
+      "kind": "audio",
+      "description": "soft whoosh for transitions",
+      "tags": [
+        "sfx"
+      ]
+    }
+  ]
+}

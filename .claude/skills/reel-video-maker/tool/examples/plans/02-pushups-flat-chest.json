@@ -1,0 +1,507 @@
+{
+ "title": "Push-ups flat chest",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "push-ups",
+   "flat",
+   "number",
+   "matter",
+   "answer",
+   "struggle",
+   "hard",
+   "sets",
+   "failure",
+   "harder",
+   "slow",
+   "friend"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "shakes": [
+    {
+     "at": "still looks flat"
+    }
+   ],
+   "layers": [
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "start"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "every day#1"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "and your chest"
+      }
+     ],
+     "shadow": true,
+     "until": "still looks flat",
+     "enter": "cut",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "PUSH-UPS DAILY",
+       "at": "start"
+      },
+      {
+       "text": "CHEST STILL FLAT?",
+       "at": "still looks flat",
+       "look": "box"
+      }
+     ],
+     "until": "It's not the number"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "at": "still looks flat",
+     "until": "It's not the number",
+     "enter": "punch"
+    },
+    {
+     "type": "highlight",
+     "anchor": "chest",
+     "at": "still looks flat",
+     "until": "It's not the number",
+     "color": "#E3262E"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "at": "It's not the number",
+     "until": "And here's the real",
+     "enter": "right",
+     "flipX": true
+    },
+    {
+     "type": "text",
+     "text": "50? *100?*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 120,
+     "align": "center",
+     "at": "Fifty",
+     "until": "And here's the real",
+     "strike": "doesn't matter"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "at": "And here's the real",
+     "enter": "squash"
+    },
+    {
+     "type": "banner",
+     "text": "THE REAL ANSWER",
+     "y": 0.7,
+     "at": "real answer",
+     "color": "#2FD94E",
+     "shadowBand": "#111111",
+     "side": "right"
+    },
+    {
+     "type": "icon",
+     "name": "timer",
+     "label": "10 sec",
+     "x": 0.8,
+     "y": 0.36,
+     "at": "ten seconds"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your chest grows-0.1",
+   "transition": "glitch",
+   "backdrop": "notebook",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE TRUTH",
+     "until": "last few reps"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Your chest grows"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "last few reps"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "of a set"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "are a real"
+      }
+     ],
+     "shadow": true,
+     "until": "real struggle",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "highlight",
+     "anchor": "chest",
+     "at": "Your chest grows",
+     "until": "real struggle",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "image",
+     "asset": "hero_tired_sweating",
+     "shadow": true,
+     "at": "real struggle",
+     "until": "push-ups do less",
+     "enter": "squash"
+    },
+    {
+     "type": "text",
+     "text": "*REAL* STRUGGLE",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 110,
+     "align": "center",
+     "at": "real struggle",
+     "until": "push-ups do less"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thinking",
+     "shadow": true,
+     "at": "push-ups do less",
+     "enter": "up"
+    },
+    {
+     "type": "bars",
+     "y": 0.3,
+     "height": 0.26,
+     "at": "push-ups do less",
+     "items": [
+      {
+       "label": "100 EASY",
+       "value": 30,
+       "display": "WEAK",
+       "color": "#E3262E"
+      },
+      {
+       "label": "3 HARD SETS",
+       "value": 95,
+       "display": "GROWS",
+       "color": "#2FD94E",
+       "at": "three hard sets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "So here's what-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "dots",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "squash"
+    },
+    {
+     "type": "banner",
+     "text": "DO THIS",
+     "y": 0.7,
+     "at": "So here's what",
+     "until": "Three to four",
+     "color": "#111111",
+     "shadowBand": "#E3262E"
+    },
+    {
+     "type": "stat",
+     "value": "3-4",
+     "label": "sets",
+     "icon": "dumbbell",
+     "at": "Three to four",
+     "until": "three times a week"
+    },
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "label": "MON",
+       "at": "three times a week"
+      },
+      {
+       "label": "WED",
+       "at": "times a week"
+      },
+      {
+       "label": "FRI",
+       "at": "a week"
+      }
+     ],
+     "y": 0.3,
+     "at": "three times a week",
+     "until": "Every set within"
+    },
+    {
+     "type": "ring",
+     "text": "2-3",
+     "label": "reps from failure",
+     "y": 0.31,
+     "at": "Every set within"
+    }
+   ]
+  },
+  {
+   "id": "harder",
+   "start": "And when you can-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "camera": [
+    {
+     "at": "Feet on a chair",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "on a chair",
+     "zoom": 1.25,
+     "focus": "feet"
+    },
+    {
+     "at": "or slow down",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 30,
+      "suffix": " in a row"
+     },
+     "label": "then level up",
+     "icon": "arrowUp",
+     "at": "more than thirty",
+     "until": "Feet on a chair"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "And when you can"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "more than thirty"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "make them harder"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "three seconds on"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "the way down|end"
+      }
+     ],
+     "shadow": true,
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "text",
+     "text": "MAKE IT *HARDER*",
+     "at": "make them harder",
+     "until": "Feet on a chair"
+    },
+    {
+     "type": "callout",
+     "text": "FEET UP",
+     "anchor": "feet",
+     "x": 0.75,
+     "y": 0.36,
+     "at": "Feet on a chair",
+     "until": "or slow down",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "icon",
+     "name": "timer",
+     "label": "3 sec down",
+     "x": 0.2,
+     "y": 0.3,
+     "at": "slow down"
+    },
+    {
+     "type": "arrow",
+     "anchor": "chest",
+     "pointing": "down",
+     "color": "#E3262E",
+     "at": "three seconds on"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": "flash",
+   "backdrop": "blobs",
+   "shakes": [
+    {
+     "at": "a hundred easy push-ups a day"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "easy push-ups a day",
+     "enter": "squash"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "at": "easy push-ups a day",
+     "until": "Because",
+     "enter": "squash"
+    },
+    {
+     "type": "comment",
+     "user": "@your_best_friend",
+     "text": "bro I do 100 a day, chest still flat",
+     "likes": "12K",
+     "ago": "just now",
+     "at": "the friend doing",
+     "until": "Because"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Because"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "every day#2"
+      }
+     ],
+     "shadow": true,
+     "at": "Because",
+     "enter": "slam",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "banner",
+     "text": "EVERY DAY...",
+     "y": 0.72,
+     "at": "every day#2",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "still looks flat",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "It's not the number",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "doesn't matter",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "And here's the real",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Your chest grows-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "last few reps",
+   "src": "sfx_electric"
+  },
+  {
+   "at": "real struggle",
+   "src": "sfx_raaah"
+  },
+  {
+   "at": "three hard sets",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "So here's what-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "And when you can-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Feet on a chair",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "three seconds on",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "a hundred easy push-ups a day",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "every day#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

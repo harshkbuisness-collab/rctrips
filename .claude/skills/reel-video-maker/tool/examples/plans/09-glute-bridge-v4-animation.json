@@ -1,0 +1,707 @@
+{
+ "title": "Glute bridge v4 demo",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "glute",
+   "bridges",
+   "back",
+   "glutes",
+   "work",
+   "arching",
+   "tuck",
+   "pelvis",
+   "heels",
+   "squeeze",
+   "reps",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "Most people push",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "in your lower back"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "text",
+     "text": "GLUTE BRIDGES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "start",
+     "until": "in your lower back",
+     "speed": 420
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "at": "start",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.3,
+     "enter": "cut",
+     "until": "in your lower back"
+    },
+    {
+     "type": "speed",
+     "at": "but you feel"
+    },
+    {
+     "type": "text",
+     "text": "BACK?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 240,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "in your lower back",
+     "until": "That means"
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "in your lower back",
+     "until": "That means"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "in your lower back",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "WRONG",
+     "look": "tape",
+     "boxColor": "#FFD23F",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "in your lower back",
+     "behind": false,
+     "until": "That means"
+    },
+    {
+     "type": "text",
+     "text": "YOUR GLUTES",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "at": "not your glutes",
+     "until": "That means",
+     "strike": "not your glutes+0.25"
+    },
+    {
+     "type": "text",
+     "text": "WRONG MUSCLE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "That means",
+     "until": "And two small"
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "That means",
+     "until": "And two small"
+    },
+    {
+     "type": "text",
+     "text": "2 FIXES",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And two small"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And two small",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#E3262E",
+     "at": "but you feel"
+    },
+    {
+     "type": "speed",
+     "at": "glute bridges#1"
+    }
+   ]
+  },
+  {
+   "id": "mistake",
+   "start": "Most people push-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE MISTAKE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 160,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Most people push",
+     "until": "their hips up"
+    },
+    {
+     "type": "poses",
+     "shadow": true,
+     "crossfade": 0,
+     "enter": "whip",
+     "frames": [
+      {
+       "asset": "hero_glute_bridge_down",
+       "at": "Most people push"
+      },
+      {
+       "asset": "hero_glute_bridge_up",
+       "at": "their hips up"
+      }
+     ],
+     "at": "Most people push",
+     "until": "Your glutes barely",
+     "width": 0.82,
+     "y": 0.56
+    },
+    {
+     "type": "glow",
+     "anchor": "back",
+     "color": "#E3262E",
+     "at": "by arching",
+     "until": "Your glutes barely"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "by arching",
+     "duration": 0.2
+    },
+    {
+     "type": "text",
+     "text": "ARCHING",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.74,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "by arching",
+     "behind": false,
+     "until": "Your glutes barely"
+    },
+    {
+     "type": "text",
+     "text": "OFF",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 260,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Your glutes barely"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_view",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Your glutes barely"
+    },
+    {
+     "type": "glow",
+     "anchor": "glutes",
+     "color": "#E3262E",
+     "at": "Your glutes barely"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "start": "So do this-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "DO THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 220,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "So do this",
+     "until": "Lie on your back"
+    },
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "enter": "whip",
+     "until": "Lie on your back",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "at": "Lie on your back",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 0.8,
+     "enter": "whip",
+     "until": "Then push through"
+    },
+    {
+     "type": "text",
+     "text": "FEET CLOSE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 170,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "feet flat",
+     "until": "First, tuck"
+    },
+    {
+     "type": "text",
+     "text": "TUCK",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 240,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "First, tuck",
+     "until": "like you're flattening"
+    },
+    {
+     "type": "text",
+     "text": "FLAT BACK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 180,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "like you're flattening",
+     "until": "Then push through"
+    }
+   ]
+  },
+  {
+   "id": "lift",
+   "start": "Then push through-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SQUEEZE \u2022 SQUEEZE",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "At the top",
+     "speed": 380
+    },
+    {
+     "type": "video",
+     "asset": "clip_glute_bridge",
+     "at": "Then push through",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.25,
+     "enter": "whip"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "squeeze your glutes",
+     "duration": 0.2
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "lift your hips"
+    },
+    {
+     "type": "text",
+     "text": "HEELS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 260,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Then push through",
+     "until": "lift your hips"
+    },
+    {
+     "type": "text",
+     "text": "LIFT",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.3,
+     "size": 260,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "lift your hips",
+     "until": "At the top"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve to fifteen-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "text",
+     "text": "12-15",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 330,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Twelve to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "until": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 230,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "three sets",
+     "width": 0.8,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "feels bridges"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "until": "feels bridges"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "feels bridges",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_sore_back",
+     "shadow": true,
+     "enter": "whip",
+     "at": "feels bridges",
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "IN HIS BACK",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "at": "feels bridges",
+     "behind": false,
+     "until": "Because"
+    },
+    {
+     "type": "text",
+     "text": "BRIDGES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "do glute bridges#2"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "in your lower back",
+   "src": "sfx_bone_crack"
+  },
+  {
+   "at": "not your glutes",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "That means",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "And two small",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Most people push-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "by arching",
+   "src": "sfx_ouch"
+  },
+  {
+   "at": "Your glutes barely",
+   "src": "sfx_snore"
+  },
+  {
+   "at": "So do this-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "First, tuck",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Then push through-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "squeeze your glutes",
+   "src": "sfx_crush"
+  },
+  {
+   "at": "Twelve to fifteen-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "feels bridges",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "do glute bridges#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "assets": [
+  {
+   "id": "clip_plank",
+   "file": "clip_plank.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    608
+   ],
+   "description": "Forearm plank hold, side view, head on the left, steady breathing (8 s loop)",
+   "tags": [
+    "plank",
+    "core",
+    "abs",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_pike_pushup",
+   "file": "clip_pike_pushup.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    990,
+    924
+   ],
+   "description": "Pike push-up, side view: hips high, head lowers toward the floor and back up (8 s loop)",
+   "tags": [
+    "pike",
+    "shoulders",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_dead_hang",
+   "file": "clip_dead_hang.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    1910
+   ],
+   "description": "Dead hang from a black bar, front view, small swing (he does not pull up) (8 s loop)",
+   "tags": [
+    "hang",
+    "grip",
+    "bar",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_squat",
+   "file": "clip_squat.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    836,
+    1752
+   ],
+   "description": "Bodyweight squat, side view, arms forward, several reps (8 s loop)",
+   "tags": [
+    "squat",
+    "legs",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_chair_dip",
+   "file": "clip_chair_dip.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1032,
+    1590
+   ],
+   "description": "Chair dip, side view, hands on a black chair behind him, lowers and presses up (8 s loop)",
+   "tags": [
+    "dip",
+    "triceps",
+    "chair",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_glute_bridge",
+   "file": "clip_glute_bridge.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    570
+   ],
+   "description": "Glute bridge, side view, lying on his back, hips up and down (8 s loop)",
+   "tags": [
+    "glutes",
+    "bridge",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_hammer_curl",
+   "file": "clip_hammer_curl.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    914,
+    1676
+   ],
+   "description": "Curls with a big water jug, front view, switching hands (8 s loop)",
+   "tags": [
+    "curl",
+    "biceps",
+    "water jug",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_pushup",
+   "file": "clip_pushup.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1074,
+    816
+   ],
+   "description": "Push-ups, side view, head on the left, full reps (8 s loop)",
+   "tags": [
+    "pushup",
+    "chest",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_bulgarian_split_squat",
+   "file": "clip_bulgarian_split_squat.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    930,
+    1680
+   ],
+   "description": "Bulgarian split squat, side view, back foot on a black chair, reps (8 s loop)",
+   "tags": [
+    "split squat",
+    "legs",
+    "chair",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_decline_pushup",
+   "file": "clip_decline_pushup.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    770
+   ],
+   "description": "Decline push-up, side view, feet on a black chair, head on the left (8 s loop)",
+   "tags": [
+    "pushup",
+    "chest",
+    "chair",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_hammer_curl_dumbbells",
+   "file": "clip_hammer_curl_dumbbells.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1058,
+    1754
+   ],
+   "description": "Hammer curls with two dumbbells, front view, both arms together (8 s loop)",
+   "tags": [
+    "curl",
+    "biceps",
+    "brachialis",
+    "dumbbell",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_leg_raise",
+   "file": "clip_leg_raise.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    854
+   ],
+   "description": "Lying leg raise, side view, legs up to vertical and slowly down (8 s loop)",
+   "tags": [
+    "abs",
+    "core",
+    "leg raise",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_mountain_climbers",
+   "file": "clip_mountain_climbers.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    782
+   ],
+   "description": "Mountain climbers, side view, knees drive to the chest (8 s loop)",
+   "tags": [
+    "cardio",
+    "core",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_diamond_pushup",
+   "file": "clip_diamond_pushup.mp4",
+   "kind": "video",
+   "duration": 6.8,
+   "size": [
+    1068,
+    990
+   ],
+   "description": "Close-grip (diamond) push-ups, side view, head on the left (starts 1.2 s in) (6.8 s loop)",
+   "tags": [
+    "pushup",
+    "triceps",
+    "chest",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_inverted_row",
+   "file": "clip_inverted_row.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    972
+   ],
+   "description": "Inverted row under a black bar, side view, chest pulls up to the bar (8 s loop)",
+   "tags": [
+    "row",
+    "back",
+    "lats",
+    "bar",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_lateral_raise",
+   "file": "clip_lateral_raise.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    1080,
+    1760
+   ],
+   "description": "Lateral raises with dumbbells, front view, arms out to shoulder height (8 s loop)",
+   "tags": [
+    "shoulders",
+    "side delts",
+    "dumbbell",
+    "animation",
+    "white background"
+   ]
+  },
+  {
+   "id": "clip_side_plank",
+   "file": "clip_side_plank.mp4",
+   "kind": "video",
+   "duration": 8,
+   "size": [
+    948,
+    918
+   ],
+   "description": "Side plank on one forearm, front view, holding (8 s loop)",
+   "tags": [
+    "obliques",
+    "core",
+    "plank",
+    "animation",
+    "white background"
+   ]
+  }
+ ]
+}

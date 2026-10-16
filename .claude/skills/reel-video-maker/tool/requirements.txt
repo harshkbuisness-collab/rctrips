@@ -1,0 +1,8 @@
+# Python helpers used by the web tool (Python 3.9 - 3.12; 3.11 recommended)
+pillow>=10
+numpy
+scipy
+pocketsphinx>=5.0.4   # syncs an English voiceover with its script (offline; Python 3.9 - 3.13)
+mediapipe==0.10.14    # finds H's body parts in new images (offline)
+kokoro-onnx>=0.4      # AI voiceover from the script (offline after a one-time model download)
+soundfile

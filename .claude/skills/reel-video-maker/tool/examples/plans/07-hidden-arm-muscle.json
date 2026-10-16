@@ -1,0 +1,653 @@
+{
+ "title": "Hidden arm muscle: hammer curls",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "biceps",
+   "flex",
+   "side",
+   "thin",
+   "hidden",
+   "brachialis",
+   "wider",
+   "hammer",
+   "palm",
+   "slowly",
+   "reps",
+   "sets"
+  ],
+  "bottom": [
+   [
+    "It's called the brachialis",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "spotlight",
+   "backdropColor": "#FF8A80",
+   "shakes": [
+    {
+     "at": "when you flex#1"
+    },
+    {
+     "at": "looks thin"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "until": "but from the side",
+     "enter": "cut"
+    },
+    {
+     "type": "text",
+     "text": "BICEPS OKAY?",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "start",
+     "until": "but from the side"
+    },
+    {
+     "type": "accent",
+     "kind": "lines",
+     "x": 0.86,
+     "y": 0.46,
+     "size": 0.36,
+     "at": "look okay#1",
+     "until": "but from the side"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "color": "#3DDC84",
+     "at": "when you flex#1",
+     "until": "but from the side"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "at": "but from the side",
+     "until": "There's a hidden",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "THIN FROM THE SIDE",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 96,
+     "align": "center",
+     "at": "but from the side",
+     "until": "There's a hidden"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "color": "#FF4D3D",
+     "at": "your arm looks thin",
+     "until": "There's a hidden"
+    },
+    {
+     "type": "image",
+     "asset": "hero_detective",
+     "shadow": true,
+     "at": "There's a hidden",
+     "until": "And one simple",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "HIDDEN MUSCLE",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "hidden muscle",
+     "until": "And one simple"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_1",
+     "shadow": true,
+     "at": "And one simple",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "1 SIMPLE CHANGE",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 104,
+     "align": "center",
+     "at": "one simple change"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "It's called the brachialis-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#7FB2FF",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE HIDDEN MUSCLE",
+     "until": "It sits"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "until": "makes your whole arm",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "BRACHIALIS",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "the brachialis",
+     "until": "It sits underneath"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "color": "#3DDC84",
+     "at": "underneath your biceps",
+     "until": "makes your whole arm"
+    },
+    {
+     "type": "text",
+     "text": "UNDER THE BICEPS",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 96,
+     "align": "center",
+     "at": "underneath your biceps",
+     "until": "pushes your biceps up"
+    },
+    {
+     "type": "arrow",
+     "anchor": "left_arm",
+     "pointing": "up",
+     "color": "#3DDC84",
+     "at": "pushes your biceps up",
+     "until": "makes your whole arm"
+    },
+    {
+     "type": "text",
+     "text": "PUSHES IT UP",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 104,
+     "align": "center",
+     "at": "pushes your biceps up",
+     "until": "makes your whole arm"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "at": "makes your whole arm",
+     "until": "from every angle",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "WIDER ARMS",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "look wider",
+     "until": "from every angle"
+    },
+    {
+     "type": "image",
+     "asset": "hero_back_double_biceps",
+     "shadow": true,
+     "at": "from every angle",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "EVERY ANGLE",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 104,
+     "align": "center",
+     "at": "every angle"
+    }
+   ]
+  },
+  {
+   "id": "hammer",
+   "start": "So here's how to train it-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "rays",
+   "backdropColor": "#3DDC84",
+   "camera": [
+    {
+     "at": "So here's how",
+     "zoom": 1,
+     "focus": "body"
+    },
+    {
+     "at": "palm facing in",
+     "zoom": 1.25,
+     "focus": "hands"
+    },
+    {
+     "at": "like holding",
+     "zoom": 1,
+     "focus": "body"
+    }
+   ],
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE FIX",
+     "until": "Hammer curls"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "until": "Hammer curls",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "HAMMER CURLS",
+     "at": "Hammer curls",
+     "until": "Hold a water"
+    },
+    {
+     "type": "poses",
+     "at": "Hammer curls",
+     "enter": "punch",
+     "shadow": true,
+     "width": 0.66,
+     "y": 0.6,
+     "crossfade": 0,
+     "frames": [
+      {
+       "asset": "hero_curl_down",
+       "at": "Hammer curls"
+      },
+      {
+       "asset": "hero_curl_up",
+       "at": "a water jug"
+      },
+      {
+       "asset": "hero_curl_down",
+       "at": "loaded backpack"
+      },
+      {
+       "asset": "hero_curl_up",
+       "at": "like holding"
+      },
+      {
+       "asset": "hero_curl_down",
+       "at": "and curl it"
+      },
+      {
+       "asset": "hero_curl_up",
+       "at": "curl it up"
+      },
+      {
+       "asset": "hero_curl_down",
+       "at": "Lower slowly"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "WATER JUG OR BACKPACK",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 84,
+     "align": "center",
+     "at": "a water jug",
+     "until": "palm facing in"
+    },
+    {
+     "type": "text",
+     "text": "PALM FACING IN",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 100,
+     "align": "center",
+     "at": "palm facing in",
+     "until": "curl it up"
+    },
+    {
+     "type": "arrow",
+     "anchor": "left_hand",
+     "pointing": "up",
+     "color": "#3DDC84",
+     "at": "curl it up",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "CURL UP",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "curl it up",
+     "until": "Lower slowly"
+    },
+    {
+     "type": "arrow",
+     "anchor": "left_hand",
+     "pointing": "down",
+     "color": "#FF4D3D",
+     "at": "Lower slowly"
+    },
+    {
+     "type": "text",
+     "text": "LOWER SLOWLY",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 110,
+     "align": "center",
+     "at": "Lower slowly"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Twelve to fifteen-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "until": "three sets",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "12-15 REPS / ARM",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 100,
+     "align": "center",
+     "at": "Twelve to fifteen",
+     "until": "three sets"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "at": "three sets",
+     "until": "twice a week",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "3 SETS",
+     "look": "box",
+     "boxColor": "#3DA5FF",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 120,
+     "align": "center",
+     "at": "three sets",
+     "until": "twice a week"
+    },
+    {
+     "type": "image",
+     "asset": "hero_count_2",
+     "shadow": true,
+     "at": "twice a week",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "2x A WEEK",
+     "look": "box",
+     "boxColor": "#3DDC84",
+     "x": 0.5,
+     "y": 0.58,
+     "size": 120,
+     "align": "center",
+     "at": "twice a week"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "circle",
+    "duration": 0.6
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "whose arms look thin",
+     "enter": "punch"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "whose arms look thin",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "box",
+     "boxColor": "#111111",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 110,
+     "align": "center",
+     "at": "Send this to",
+     "until": "whose arms look thin"
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_view",
+     "shadow": true,
+     "at": "whose arms look thin",
+     "until": "Because",
+     "enter": "punch"
+    },
+    {
+     "type": "text",
+     "text": "THIN FROM THE SIDE",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 96,
+     "align": "center",
+     "at": "whose arms look thin",
+     "until": "Because"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "at": "Because",
+     "enter": "punch"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "color": "#FF4D3D",
+     "at": "look okay when you flex#2"
+    },
+    {
+     "type": "text",
+     "text": "ONLY WHEN YOU FLEX",
+     "look": "box",
+     "boxColor": "#FF4D3D",
+     "x": 0.5,
+     "y": 0.7,
+     "size": 96,
+     "align": "center",
+     "at": "look okay when you flex#2"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "when you flex#1",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "but from the side",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "looks thin",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "hidden muscle",
+   "src": "sfx_shush"
+  },
+  {
+   "at": "one simple change",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "It's called the brachialis-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "the brachialis",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "underneath your biceps",
+   "src": "sfx_click"
+  },
+  {
+   "at": "pushes your biceps up",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "look wider",
+   "src": "sfx_magic"
+  },
+  {
+   "at": "every angle",
+   "src": "sfx_pop_2"
+  },
+  {
+   "at": "So here's how to train it-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Hammer curls",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "palm facing in",
+   "src": "sfx_pop"
+  },
+  {
+   "at": "curl it up",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Lower slowly",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Twelve to fifteen-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "three sets",
+   "src": "sfx_click"
+  },
+  {
+   "at": "twice a week",
+   "src": "sfx_pop_2"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "whose arms look thin",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "look okay when you flex#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

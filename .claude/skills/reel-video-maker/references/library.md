@@ -1,0 +1,330 @@
+# Allowed ids (the complete library the tool loads)
+
+Use nothing that is not listed here. `(other drawings: _v2 …)` means `hero_x_v2` is also allowed. Icons for `icon.name`: dumbbell clock timer fire water calendar heart bolt trophy check cross apple moon scale phone warning arrowUp arrowDown thumbsUp muscle steps brain bed.
+
+### Character images (186)
+- hero_abs: H, chest and abs close-up crop
+- hero_adjust_wristband: Adjusting the wristband on his left wrist, focused, getting ready.
+- hero_angry_alarm: Angry and sleepy, holding a ringing red alarm clock at arm's length, shouting at it.
+- hero_angry_shout: Shouting angrily like a drill instructor, mouth wide open, fists clenched. (other drawings: _v2)
+- hero_arm: H, right arm (viewer's left) crop: shoulder, biceps, forearm, fist
+- hero_arm_circles: Warm-up arm circles: standing, both arms straight out to the sides, small motion lines around his hands.
+- hero_arms_crossed: Arms crossed over his chest, serious, slightly smug expression. (other drawings: _v2, _v3, _v4, _v5, _v6, _v7)
+- hero_back_double_biceps: Back double-biceps flex, arms raised, back muscles spread wide, head turned to the side.
+- hero_back_view: Standing straight, arms down, large back muscles visible. (other drawings: _v2)
+- hero_bad_posture_desk: Bad posture: sitting hunched forward, rounded back, head pushed forward, looking at a phone (no chair).
+- hero_bear_crawl: Bear crawl: on hands and feet, knees hovering just above the floor, back flat, one hand moving forward.
+- hero_beginner: SAME face, H on the forehead and same outfit, BUT with a skinny untrained beginner body; standing shyly, slightly hunched. (other drawings: _v2)
+- hero_blank_sign: Holding a big blank white rectangular sign board in front of his chest with both hands, the board completely empty. (other drawings: _v2, _v3, _v4, _v5)
+- hero_boxing_guard: Boxing guard stance: fists up protecting his face, knees slightly bent, focused. (other drawings: _v2)
+- hero_boxing_punch: Throwing a straight punch with his right fist, left fist guarding his face. (other drawings: _v2)
+- hero_burpee_jump: Jumping straight up in the air with both arms raised overhead, feet off the ground. (other drawings: _v2, _v3)
+- hero_butterfly_stretch: Butterfly stretch: sitting on the floor, soles of the feet together, knees out to the sides, hands holding his feet. (other drawings: _v2)
+- hero_celebrate_jump: Jumping in celebration, one fist punching the air, feet off the ground. (other drawings: _v2, _v3, _v4)
+- hero_chalk_hands: Clapping chalk off his hands, a white chalk cloud between his palms.
+- hero_check_watch: Looking at the watch on his left wrist, impatient. (other drawings: _v2, _v3, _v4, _v5)
+- hero_childs_pose: Child's pose: kneeling, sitting back on his heels, torso folded forward, arms stretched forward on the floor.
+- hero_clapping: Clapping his hands, happy, proud of the viewer. (other drawings: _v2, _v3, _v4, _v5)
+- hero_clipboard: Holding a clipboard and a pen like a coach, looking at the clipboard (blank paper). (other drawings: _v2, _v3, _v4)
+- hero_cobra_stretch: Cobra stretch: lying face down, hips on the floor, arms straight pushing his chest up, looking up. (other drawings: _v2)
+- hero_come_on: Beckoning the viewer with his right hand, 'come on' gesture, confident grin. (other drawings: _v2, _v3, _v4, _v5)
+- hero_confused_scratch: Confused: scratching the back of his head, one eyebrow raised, three cartoon question marks above his head. (other drawings: _v2)
+- hero_cooking: Cooking a healthy meal: holding a frying pan with vegetables and chicken, chef-like and focused.
+- hero_count_1: Holding up his right hand toward the viewer showing one finger (index finger). (other drawings: _v2)
+- hero_count_2: Holding up his right hand toward the viewer showing two fingers. (other drawings: _v2)
+- hero_count_3: Holding up his right hand toward the viewer showing three fingers.
+- hero_count_4: Holding up his right hand toward the viewer showing four fingers. (other drawings: _v2)
+- hero_count_5: Holding up his right hand toward the viewer with an open palm showing five fingers. (other drawings: _v2)
+- hero_counting_fingers: Counting on his fingers while thinking, looking up. (other drawings: _v2)
+- hero_crack_knuckles: Cracking his knuckles in front of his chest, smirking, ready to train.
+- hero_crouch_talk: Crouching low on the balls of his feet, forearms resting on his knees, hands loose, talking to the viewer at eye level.
+- hero_crow_pose: Crow pose: squatting forward balancing on his hands, knees resting on the backs of his upper arms, feet off the floor. (other drawings: _v2) [no body parts: place rings with x/y]
+- hero_curl_alternate: standing, one dumbbell curled up and the other down
+- hero_curl_down: Standing, holding a dumbbell in each hand, arms straight down by his sides. (other drawings: _v2, _v3)
+- hero_curl_up: Standing, biceps curl: both dumbbells curled up to his shoulders, elbows at his sides. (other drawings: _v2)
+- hero_deadlift_end: Barbell deadlift finish: standing tall, arms straight, holding a loaded barbell at hip height. Draw the barbell. (other drawings: _v2, _v3)
+- hero_deadlift_mid: barbell deadlift halfway: knees bent, bar at knee height, side view
+- hero_deadlift_start: Barbell deadlift start: hips pushed back, back flat, arms straight, gripping a loaded barbell resting on the floor. Draw the barbell. (other drawings: _v2)
+- hero_deep_squat_hold: Deep squat hold: relaxed deep squat, heels down, elbows pushing knees out, palms together.
+- hero_despair_kneel: Dramatic despair: kneeling, fists on the floor, head down.
+- hero_detective: Detective: leaning forward, looking closely through a magnifying glass, one eye big through the lens. (other drawings: _v2)
+- hero_dip_bottom: Dip bottom position on two parallel bars: elbows bent at 90 degrees, shoulders lowered, body upright, legs slightly bent behind. Draw the parallel bars.
+- hero_dip_top: Dip top position on two parallel bars: arms straight supporting his body, body upright, legs slightly bent behind. Draw the parallel bars. (other drawings: _v2, _v3, _v4, _v5, _v6)
+- hero_disgusted_burger: Disgusted: pushing away a greasy burger held in front of him, tongue out.
+- hero_double_biceps: Classic bodybuilding double-biceps flex with both arms raised, proud expression.
+- hero_drink_bottle: drinking from a water bottle (other drawings: _v2)
+- hero_drinking_shake: Drinking from a protein shaker bottle held in his right hand.
+- hero_drop_from_bar: Landing on the floor after dropping from a pull-up bar, knees bent to absorb the landing, arms out.
+- hero_dumbbell_hold: standing relaxed holding one dumbbell at his side
+- hero_eating: Happily eating a big grilled chicken leg held in his right hand. (other drawings: _v2, _v3)
+- hero_explain: Explaining something: right hand open with the palm up in front of him, left arm relaxed.
+- hero_face: H, head and face close-up crop, serious expression
+- hero_face_neutral: face close-up: Neutral stern face, looking at the viewer.
+- hero_face_smile: face close-up: Big friendly smile.
+- hero_facepalm: Facepalm: right palm covering his face, disappointed, left arm relaxed.
+- hero_fingers_crossed: Fingers crossed on both hands, hopeful face. (other drawings: _v2)
+- hero_flying: Flying like a superhero: horizontal in the air, right fist forward, body straight, cape flowing. (other drawings: _v2)
+- hero_front_lever: hanging from a bar with straight arms, body horizontal (lever)
+- hero_glute_bridge_down: Lying on his back, knees bent, feet flat, arms flat on the floor, hips resting on the floor. (other drawings: _v2)
+- hero_glute_bridge_up: Glute bridge: lying on his back, feet flat, arms flat on the floor, hips raised so knees, hips and shoulders form one straight line. (other drawings: _v2, _v3)
+- hero_good_posture_desk: Good posture: sitting tall with a straight back and relaxed shoulders (no chair).
+- hero_grocery_bag: Holding a paper grocery bag full of vegetables and fruit, smiling.
+- hero_gym_bag: Walking with a gym bag slung over his shoulder, mid-stride, casual.
+- hero_hands_hips_look_back: Standing with hands on hips, turning his head to look over his shoulder at the viewer.
+- hero_hands_on_hips: standing with both hands on hips, front view, serious
+- hero_handstand: Freestanding handstand: hands on the floor, body perfectly straight and vertical, legs together pointing up. (other drawings: _v2, _v3)
+- hero_heart_hands: Making a heart shape with both hands in front of his chest, smiling. (other drawings: _v2, _v3, _v4)
+- hero_high_knees: High knees: running in place, right knee raised to hip height, arms pumping.
+- hero_hip_flexor_stretch: Kneeling hip flexor stretch: one knee on the floor, other foot forward, hips pushed forward, torso upright.
+- hero_human_flag: Human flag: gripping a vertical pole with both hands, body held straight and horizontal out to the side. Draw the pole. (other drawings: _v2)
+- hero_idea_bulb: Sudden idea: index finger raised, eyes wide and excited, a glowing cartoon light bulb above his head. (other drawings: _v2)
+- hero_jog_toward: Jogging toward the viewer, one foot off the ground, arms pumping, leaning forward.
+- hero_kneel_shoe: Kneeling on one knee tying the laces of his shoe, looking up at the viewer.
+- hero_laptop: Sitting and typing on a laptop on his lap, focused (no chair).
+- hero_laughing: Laughing hard with his head tilted back and eyes closed. (other drawings: _v2)
+- hero_lazy_couch: Slumped lazily as if sitting on an invisible couch, holding a burger, lazy expression. (other drawings: _v2)
+- hero_lean_confident: dynamic confident pose leaning to one side, one hand on hip (other drawings: _v2)
+- hero_lean_in_talk: Leaning forward toward the viewer with hands on his knees, as if telling something important.
+- hero_lean_wall: Leaning his shoulder against an invisible wall on his left, arms crossed, one ankle crossed over the other, relaxed.
+- hero_leg_day_zombie: Walking stiffly like a zombie after leg day, legs trembling, pained face.
+- hero_leg_raise_down: Lying on his back, hands under his hips, both legs straight and held just above the floor.
+- hero_leg_raise_up: Lying on his back, hands under his hips, both legs straight and raised to vertical. (other drawings: _v2, _v3)
+- hero_legs: H, legs crop from shorts down to shoes
+- hero_lifting_giant: Comedy: lifting a giant cartoon dumbbell much bigger than himself overhead, veins popping, red face.
+- hero_look_back: Walking away but turning his head and upper body to look back over his shoulder at the viewer.
+- hero_look_up_bar: Standing under a horizontal pull-up bar looking up at it, rolling his shoulders, about to jump. Draw the bar.
+- hero_low_angle_hero: Standing tall with fists clenched, looking down at the camera, powerful and intimidating.
+- hero_lunge: Forward lunge: front knee bent at 90 degrees, back knee just above the floor, torso upright, hands on hips. (other drawings: _v2)
+- hero_lying_topdown: lying flat on his back seen from above, arms by his sides
+- hero_lying_topdown_hands_head: lying on his back seen from above, hands behind his head
+- hero_measuring_waist: Measuring his waist with a measuring tape, looking down.
+- hero_medal: Showing a gold medal hanging around his neck, biting it playfully. (other drawings: _v2)
+- hero_meditating: Meditating: sitting cross-legged, hands resting on his knees, eyes closed, calm. (other drawings: _v2)
+- hero_mind_blown: Mind blown: both hands on his temples, eyes huge, cartoon explosion puff above his head. (other drawings: _v2)
+- hero_mountain_a: Mountain climber: high plank with arms straight, right knee pulled toward his chest, left leg straight back.
+- hero_mountain_b: Mountain climber: high plank with arms straight, left knee pulled toward his chest, right leg straight back.
+- hero_muscle_up: Muscle-up transition: on a horizontal bar, chest rising over the bar, elbows bending into the dip position. Draw the bar. (other drawings: _v2)
+- hero_namaste: Namaste greeting: palms pressed together at his chest, slight bow, warm smile. (other drawings: _v2, _v3, _v4, _v5)
+- hero_neck_stretch: Tilting his head to one side, stretching his neck with one hand, shoulders relaxed.
+- hero_nervous_sweat: Nervous: forced smile, a single big sweat drop on his forehead, hands fidgeting.
+- hero_ok_sign: OK sign with his right hand, winking. (other drawings: _v2)
+- hero_on_scale_shocked: Standing on a bathroom weighing scale looking down at it, shocked.
+- hero_peace_sign: Peace sign with his right hand near his face, grinning. (other drawings: _v2)
+- hero_peek_side: Leaning in from the right edge of the image, only his head, shoulders and one hand visible, peeking curiously. Body cut off by the image edge on the right.
+- hero_phone_scroll: Looking down at a smartphone held in both hands, bored expression. (other drawings: _v2, _v3)
+- hero_pick_dumbbell: Squatting down with a straight back to pick up a dumbbell from the floor.
+- hero_pike_bottom: Pike push-up bottom position: hands and feet on the floor, hips still high in an upside-down V, elbows bent, head lowered toward the floor just in front of the hands.
+- hero_pike_top: Pike push-up top position: hands and feet on the floor, hips pushed high so the body forms an upside-down V, arms and legs straight, head between the arms. (other drawings: _v2, _v3)
+- hero_pike_wrong: Pike push-up done WRONG: hands and feet on the floor but hips too low, body almost flat like a normal push-up.
+- hero_plank: Forearm plank: forearms and toes on the floor, body perfectly straight from head to heels.
+- hero_point_down: Pointing down at the ground in front of him with his right index finger, looking at the viewer. (other drawings: _v2, _v3, _v4, _v5)
+- hero_point_left: Pointing to his left with his right arm extended, looking that way. (other drawings: _v2, _v3, _v4, _v5)
+- hero_point_right: Pointing to his right with his left arm extended, looking that way. (other drawings: _v2, _v3, _v4, _v5)
+- hero_point_viewer: Pointing his right index finger straight at the viewer, confident look.
+- hero_present_left: Presenting: both open palms gesturing to his left side as if showing something there, smiling. (other drawings: _v2, _v3, _v4, _v5)
+- hero_present_right: Presenting: both open palms gesturing to his right side as if showing something there, smiling. (other drawings: _v2, _v3, _v4)
+- hero_pullup_hang: Dead hang from a horizontal pull-up bar above him, both hands gripping the bar, arms fully straight, legs straight down. Draw the pull-up bar. (other drawings: _v2)
+- hero_pullup_top: Top of a pull-up: hands gripping a horizontal pull-up bar, chin above the bar, elbows bent and pulled down to his sides, legs straight down. Draw the pull-up bar.
+- hero_pushup_leg_raise: high plank on hands with one straight leg raised high behind him
+- hero_pushup_mid: Push-up halfway down: hands on the floor under his shoulders, elbows bent 45 degrees, body straight, between the top and bottom positions.
+- hero_pushup_top: Push-up top position: hands on the floor under his shoulders, arms straight, body in one straight line from head to heels, toes on the floor. (other drawings: _v2, _v3, _v4)
+- hero_quad_stretch: Standing quad stretch: holding his right foot behind him against his glute, standing on the left leg. (other drawings: _v2)
+- hero_reading: Reading an open book, eyebrows raised, interested.
+- hero_reverse_crunch: lying on his back pulling both knees toward his chest (other drawings: _v2)
+- hero_row_end: Inverted row top: under a low horizontal bar, hands gripping it, chest pulled up to the bar, body straight, heels on the floor. Draw the bar.
+- hero_row_start: Inverted row start: hanging under a low horizontal bar, hands gripping it, arms straight, body straight, heels on the floor. Draw the bar. (other drawings: _v2, _v3)
+- hero_run_start: leaning forward into a run, side view, about to sprint (other drawings: _v2)
+- hero_running: Running fast mid-stride, arms pumping, one foot off the ground. (other drawings: _v2)
+- hero_sad_crying: Exaggerated cartoon crying, big tears streaming down his face, shoulders slumped. (other drawings: _v2)
+- hero_salute: Military salute, standing straight, serious. (other drawings: _v2, _v3, _v4, _v5)
+- hero_scared_peek: Scared: hiding his face behind his hands, peeking through his fingers.
+- hero_self_hug: Hugging himself, eyes closed, proud and content.
+- hero_selfie: Taking a gym selfie with a phone held up in his right hand, flexing his left biceps.
+- hero_shocked: Shocked: eyes wide, mouth open, both hands raised near his face.
+- hero_shoulder_stretch: Cross-body shoulder stretch: right arm pulled straight across his chest by the left arm. (other drawings: _v2)
+- hero_shrug: Shrug: both palms up, shoulders raised, eyebrows up, 'I don't know' expression. (other drawings: _v2)
+- hero_shush: Shushing: index finger on his lips, eyes narrowed playfully. (other drawings: _v2, _v3, _v4, _v5)
+- hero_side_chest: Bodybuilding side-chest pose. (other drawings: _v2)
+- hero_side_view: Standing straight and relaxed, arms down. (other drawings: _v2)
+- hero_sit_bench_talk: Sitting on a flat gym bench, leaning forward, elbows on his knees, one hand gesturing while talking. Draw the bench.
+- hero_sit_bench_think: Sitting on a flat gym bench, elbow on his knee, chin resting on his fist, thinking. Draw the bench.
+- hero_sit_floor_explain: Sitting cross-legged on the floor, leaning slightly forward, one hand raised explaining.
+- hero_sit_towel: Sitting on a gym bench after training, towel around his neck, leaning back on his hands, satisfied. Draw the bench and towel.
+- hero_sleeping: Lying on his side on the floor, peacefully asleep, eyes closed, hands under his head.
+- hero_sleepy_standing: comedy: asleep while standing, head resting on his folded hands, knees bent (other drawings: _v2)
+- hero_slide_in: Skidding to a stop after running in from the left, leaning back, one foot braking forward, arms out for balance.
+- hero_slumped: standing with feet wide, shoulders slumped, arms hanging, tired
+- hero_smirk: Smug smirk: one corner of the mouth up, chin raised, hands on hips. (other drawings: _v2, _v3, _v4, _v5)
+- hero_sore_back: Holding his lower back in pain, hunched, wincing.
+- hero_sore_knee: Holding his right knee in pain, standing on one leg, wincing.
+- hero_sprint_start: Sprint start position: crouched with fingertips on the floor, one knee down, ready to explode forward.
+- hero_squat_front: half squat, front view, fists together at the chest, straining
+- hero_squat_mid: half squat, side view, arms stretched forward
+- hero_squat_top: Bodyweight squat start: standing tall, feet flat, both arms stretched straight forward at shoulder height.
+- hero_squat_wrong: Squat done WRONG: half squat with knees caving inward toward each other and back rounded.
+- hero_stand: standing straight, front view, arms down, fists clenched, serious
+- hero_step_back_shocked: Recoiling backward in shock, weight on the back foot, upper body leaning away, hands raised.
+- hero_stop_palm: Stop gesture: right palm pushed toward the viewer, stern face. (other drawings: _v2, _v3, _v4, _v5)
+- hero_stretch_hamstring: Standing hamstring stretch: legs straight, bending forward from the hips, hands touching his toes. (other drawings: _v2, _v3)
+- hero_stumble_tired: Stumbling forward exhausted, knees buckling, arms dangling, head drooping.
+- hero_sumo_squat: Sumo squat bottom: feet very wide, toes out, deep squat, hands clasped in front of his chest.
+- hero_superhero: Superhero pose: fists on hips, chest out, chin up, a cape blowing in the wind behind him. (other drawings: _v2)
+- hero_teacher_pointer: Teacher: holding a long pointer stick, pointing it to his right, explaining. (other drawings: _v2, _v3, _v4, _v5)
+- hero_tempted_pizza: Tempted: staring hungrily at a slice of pizza in his hand, drooling.
+- hero_thinking: One hand on his chin, looking up and to the side, thinking.
+- hero_this_big: arms spread slightly with open palms, showing size (other drawings: _v2)
+- hero_this_small: Showing 'this small': thumb and index finger almost touching held up near his face, squinting. (other drawings: _v2, _v3, _v4, _v5)
+- hero_three_quarter: standing relaxed, three-quarter view
+- hero_thumbs_up: Giving a big thumbs up with his right hand, small confident smile.
+- hero_tired_sweating: Exhausted: bent forward with both hands on his knees, breathing hard, big cartoon sweat drops on his head.
+- hero_trophy: Holding a golden trophy above his head, proud. (other drawings: _v2)
+- hero_tuck_planche: Tuck planche: balancing on straight arms with hands on the floor, knees tucked to his chest, feet off the floor. (other drawings: _v2)
+- hero_victory: Victory: both fists raised high above his head, shouting with joy. (other drawings: _v2, _v3, _v4)
+- hero_walk_away: Walking away from the viewer mid-stride, arms swinging.
+- hero_walk_toward: Walking confidently toward the viewer mid-stride, one foot forward, arms swinging, shoulders rolling.
+- hero_walking: Walking calmly mid-step, arms swinging naturally. (other drawings: _v2)
+- hero_wave_hello: Waving hello with his right hand, friendly smile. (other drawings: _v2, _v3, _v4, _v5)
+- hero_what: arms down and out, palms open, mouth open: "what?!" reaction (other drawings: _v2, _v3)
+- hero_whisper: Whispering a secret: leaning toward the viewer, hand cupped next to his mouth, eyes sideways. (other drawings: _v2, _v3, _v4, _v5)
+- hero_wipe_sweat: Wiping sweat off his forehead with a small towel, breathing hard, weight on one leg.
+- hero_writing_notes: Writing in a small notebook with a pen, focused. (other drawings: _v2)
+- hero_yawning: Big yawn, stretching his arms up, sleepy eyes.
+
+### Movement sets (use as poses frames, in this order)
+hero_curl: hero_curl_down → hero_curl_up
+hero_deadlift: hero_deadlift_start → hero_deadlift_mid → hero_deadlift_end
+hero_dip: hero_dip_top → hero_dip_bottom
+hero_glute_bridge: hero_glute_bridge_down → hero_glute_bridge_up
+hero_leg_raise: hero_leg_raise_down → hero_leg_raise_up
+hero_mountain: hero_mountain_a → hero_mountain_b
+hero_pike: hero_pike_top → hero_pike_bottom
+hero_pushup: hero_pushup_top → hero_pushup_mid
+hero_row: hero_row_start → hero_row_end
+hero_squat: hero_squat_top → hero_squat_mid
+
+### Animation clips (H really moves; use instead of still poses for these exercises)
+- clip_plank: Forearm plank hold, side view, head on the left, steady breathing (8 s loop)
+- clip_pike_pushup: Pike push-up, side view: hips high, head lowers toward the floor and back up (8 s loop)
+- clip_dead_hang: Dead hang from a black bar, front view, small swing (he does not pull up) (8 s loop)
+- clip_squat: Bodyweight squat, side view, arms forward, several reps (8 s loop)
+- clip_chair_dip: Chair dip, side view, hands on a black chair behind him, lowers and presses up (8 s loop)
+- clip_glute_bridge: Glute bridge, side view, lying on his back, hips up and down (8 s loop)
+- clip_hammer_curl: Curls with a big water jug, front view, switching hands (8 s loop)
+- clip_pushup: Push-ups, side view, head on the left, full reps (8 s loop)
+- clip_bulgarian_split_squat: Bulgarian split squat, side view, back foot on a black chair, reps (8 s loop)
+- clip_decline_pushup: Decline push-up, side view, feet on a black chair, head on the left (8 s loop)
+- clip_hammer_curl_dumbbells: Hammer curls with two dumbbells, front view, both arms together (8 s loop)
+- clip_leg_raise: Lying leg raise, side view, legs up to vertical and slowly down (8 s loop)
+- clip_mountain_climbers: Mountain climbers, side view, knees drive to the chest (8 s loop)
+- clip_diamond_pushup: Close-grip (diamond) push-ups, side view, head on the left (starts 1.2 s in) (6.8 s loop)
+- clip_inverted_row: Inverted row under a black bar, side view, chest pulls up to the bar (8 s loop)
+- clip_lateral_raise: Lateral raises with dumbbells, front view, arms out to shoulder height (8 s loop)
+- clip_side_plank: Side plank on one forearm, front view, holding (8 s loop)
+
+Missing clips (ask the owner to make one, 12 credits each, with the clip prompt in `references/clip-prompt.md`):
+pull-up (a real one: the old clip only hangs), burpee, jumping jacks, running, lunge (forward), H walking in, H flexing.
+
+### Props (22)
+- prop_alarm_clock: a classic red twin-bell alarm clock
+- prop_barbell: a loaded barbell with black plates, side view (other drawings: _v2)
+- prop_bed: a simple single bed with a pillow and blanket, side view
+- prop_burger: a big cheeseburger (other drawings: _v2)
+- prop_calendar: a wall calendar page
+- prop_dumbbell: one black dumbbell, side view (other drawings: _v2)
+- prop_eggs: three white eggs (other drawings: _v2)
+- prop_fire: a cartoon flame
+- prop_green_check: a bold green check mark
+- prop_kettlebell: a black kettlebell (other drawings: _v2)
+- prop_phone: a smartphone, front view, screen glowing
+- prop_pizza: a pizza slice (other drawings: _v2)
+- prop_protein_food: a plate with grilled chicken, boiled eggs and rice (other drawings: _v2)
+- prop_pullup_bar: a horizontal pull-up bar on two posts (other drawings: _v2)
+- prop_red_x: a bold red X mark
+- prop_resistance_band: a coiled green resistance band (other drawings: _v2)
+- prop_shaker: a protein shaker bottle
+- prop_stopwatch: a silver stopwatch
+- prop_sweat_drops: a group of three cartoon sweat drops
+- prop_water_bottle: a large gym water bottle (other drawings: _v2)
+- prop_weighing_scale: a bathroom weighing scale, top view
+- prop_yoga_mat: a rolled-out purple exercise mat seen from the side (other drawings: _v2)
+
+### Sound effects
+**Transitions**
+- sfx_whoosh: whoosh → scene change (0.5 s)
+- sfx_whoosh_fast: fast airy whoosh → scene change, slideLeft, something flying in (1.39 s)
+- sfx_whoosh_soft: soft quick whoosh → small movement, text sliding in (0.83 s)
+- sfx_whoosh_short: very short swipe → quick cut, pose change (0.27 s)
+- sfx_whoosh_fire: fiery whoosh → intense / "burn" / fat-burning moments (0.65 s)
+- sfx_swish: jump swish → jumps, H popping in, arm swing (0.71 s)
+- sfx_whoosh_big: big heavy whoosh → hook start, big reveal, final scene (2.37 s)
+- sfx_whoosh_swipe: swipe whoosh → next tip / slide transition (0.65 s)
+- sfx_riser: rising tension build-up (5 s) → start it ~4 s before a big reveal (4.53 s)
+**Pops, clicks, dings**
+- sfx_pop: short pop → text, arrow, ring or prop appearing (0.3 s)
+- sfx_pop_2: bubbly pop → text, arrow, ring or prop appearing (alternative to sfx_pop) (0.25 s)
+- sfx_click: mouse click → checklist tick, button, number appearing (0.18 s)
+- sfx_click_soft: tiny soft click → small captions/labels, subtle pops (0.12 s)
+- sfx_typing: keyboard typing (3 s) → typewriter title text being typed (2.9 s)
+- sfx_camera: camera shutter → before/after photo, freeze frame, "look at this" (0.43 s)
+- sfx_notification: phone notification → reminder, "save this", tip alert (1.14 s)
+- sfx_chime: bright two-tone chime → correct answer, good form, tip unlocked (0.84 s)
+- sfx_ding: clear ding → right way / good point / idea (1.24 s)
+- sfx_desk_bell: desk bell ding → "number one/two/three", rep done, next step (1.2 s)
+- sfx_coin: game coin → reward, gains, bonus tip (0.92 s)
+- sfx_counter: fast ticking counter → numbers counting up, reps or calories adding up (1.91 s)
+- sfx_magic: magic sparkle → transformation, glow up, "results" (1.71 s)
+- sfx_sparkle: mysterious chime → secret, hidden trick, "here's the truth" (1.04 s)
+- sfx_level_start: game boy start-up ding → start of the workout, "let's go" (1.51 s)
+- sfx_gold_bell: golden bell → achievement, final result, ending (3.24 s)
+**Impacts**
+- sfx_flashbang: flashbang bang + ringing → "flash" transition, mind-blown, shocking fact (4.2 s)
+- sfx_hammer: cartoon hammer hit → big point lands, stamp, "WRONG"/"STOP" (0.67 s)
+- sfx_bone_crack: bone crack → bad form, joint pain, injury warning (0.78 s)
+- sfx_concrete_break: concrete breaking → breaking a plateau, breaking a myth (1.08 s)
+- sfx_crush: crunch/crush → crushing a workout, squeeze, crunches (0.69 s)
+- sfx_whip: whip crack → fast punchy word, "snap", explosive move (1.79 s)
+- sfx_thunder: thunder crack → powerful moment, beast mode, dramatic hook (3.35 s)
+- sfx_electric: electric zap → muscle activation, "feel the burn", energy (1.43 s)
+- sfx_stretch: rope tightening creak → muscle stretch, tension, holding a stretch (2 s)
+- sfx_pec_bounce: boing-boing twitch → pec bounce, chest flex, muscle twitch (0.8 s)
+**Reactions & memes (voice clips: use sparingly)**
+- sfx_bruh: "bruh" voice → mistake, silly excuse, facepalm (0.58 s)
+- sfx_get_out: "GET OUT!" shout → reject a bad habit / myth (0.97 s)
+- sfx_oh_yeah: "oh yeah" voice → satisfying result, flex (1.06 s)
+- sfx_yeah_boy: "yeahhh boy" → hype, win, big result (1.9 s)
+- sfx_rizz: rizz "vine boom"-style sting → confident flex, cool moment (1.44 s)
+- sfx_fahhh: loud "FAHHH" → shock, painful mistake, fail (1.86 s)
+- sfx_fahhh_pump: "fahhh" pump → huge pump, veins, swole (1.98 s)
+- sfx_scream: short scream → panic, pain, burning muscles (2 s)
+- sfx_scream_long: long dramatic "ahhhh" → fail, dramatic fall (2.4 s)
+- sfx_raaah: roaring "RAAAH" → beast mode, last rep, aggression (1.24 s)
+- sfx_shocked: shocked sting → surprising fact (1.18 s)
+- sfx_shocked_2: gasp/shock → "wait, what?", myth busted (1 s)
+- sfx_wow: "wow" crowd → impressive result, transformation (3.68 s)
+- sfx_anime_wow: anime "wow" → cute surprise, amazed (3.78 s)
+- sfx_woo_hoo: "woo-hoo!" → celebration, done, finished set (0.84 s)
+- sfx_ez: "EZ" → easy move, simple trick (1.38 s)
+- sfx_few_moments_later: "a few moments later" → time skip, results after weeks (1.8 s)
+- sfx_shush: "shhh" → secret, "nobody tells you this" (1.39 s)
+- sfx_aag_laga_di: "aag laga di" (Hindi) → on fire, amazing result, burning fat (2.1 s)
+- sfx_ammi_bacha_la: "ammi bacha la re" (Hindi, 11 s) → painful workout, leg day fear (11.37 s)
+- sfx_ghar_jaana_hai: "mujhe ghar jaana hai" crying (Hindi) → want to quit, too hard (5.43 s)
+- sfx_dil_garden: "dil garden garden ho riya hai" (Hindi) → so happy, great result (4.27 s)
+- sfx_crying_laugh: crying/laughing man → funny fail, embarrassing mistake (3.97 s)
+- sfx_shiver: cartoon shiver → scared, cold, fear of leg day (4.83 s)
+- sfx_teeth_chatter: teeth chattering → cold, cold shower, nervous (2.87 s)
+- sfx_snore: snoring → sleep, recovery, boring workout (3.93 s)
+- sfx_ouch: "ouch" → pain, wrong form hurts (0.39 s)
+- sfx_dog_bark: dog barking → angry, aggressive, funny interruption (2.27 s)
+- sfx_dog_cry: dog whimper → sore muscles, sad, DOMS (2.81 s)
+- sfx_lion_roar: lion roar → beast mode, alpha, strongest moment (4.33 s)
+**Body**
+- sfx_heavy_breathing: heavy breathing → tired, cardio, hard set (5 s)
+- sfx_out_of_breath: out of breath panting → after running, exhausted (4.55 s)
+- sfx_running: running footsteps → running, cardio, jumping jacks (2.44 s)
+- sfx_gulp: gulping drink → drinking water, protein shake, hydration (2.9 s)
+**Ambience (long, quiet)**
+- sfx_wind: wind (9 s) → empty / lonely / cold moment, quiet scene (8.95 s)
+- sfx_night: night crickets (10 s) → night, sleep tips (9.34 s)
+- sfx_fire: crackling fire (6 s) → burning fat, burn, intensity (5.93 s)
+- sfx_birds: birds singing (6 s) → morning routine, fresh start (5.89 s)

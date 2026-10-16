@@ -102,6 +102,10 @@
      "type": "pulse",
      "kind": "edge",
      "color": "#E3262E",
+     "at": "working out"
+    },
+    {
+     "type": "speed",
      "at": "tomorrow#1"
     },
     {

@@ -1,0 +1,538 @@
+{
+ "title": "Skinny arms: triceps",
+ "theme": "effortless",
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "curls",
+   "skinny",
+   "wrong",
+   "fix",
+   "biceps",
+   "third",
+   "triceps",
+   "thick",
+   "flexing",
+   "tight",
+   "failure",
+   "friend"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "halftone",
+   "shakes": [
+    {
+     "at": "wrong muscle"
+    }
+   ],
+   "layers": [
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_curl_down",
+       "at": "start"
+      },
+      {
+       "asset": "hero_curl_up",
+       "at": "curls for months#1"
+      },
+      {
+       "asset": "hero_curl_down",
+       "at": "and your arms"
+      }
+     ],
+     "shadow": true,
+     "until": "still look skinny",
+     "enter": "cut"
+    },
+    {
+     "type": "kinetic",
+     "lines": [
+      {
+       "text": "MONTHS OF CURLS",
+       "at": "start"
+      },
+      {
+       "text": "STILL SKINNY?",
+       "at": "still look skinny",
+       "look": "box"
+      }
+     ],
+     "until": "You're training"
+    },
+    {
+     "type": "image",
+     "asset": "hero_this_small",
+     "shadow": true,
+     "at": "still look skinny",
+     "until": "You're training",
+     "enter": "punch"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "at": "still look skinny",
+     "until": "You're training",
+     "color": "#E3262E"
+    },
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "at": "You're training",
+     "until": "And the fix",
+     "enter": "right",
+     "flipX": true
+    },
+    {
+     "type": "text",
+     "text": "WRONG *MUSCLE*",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 110,
+     "align": "center",
+     "at": "wrong muscle",
+     "until": "And the fix"
+    },
+    {
+     "type": "image",
+     "asset": "hero_idea_bulb",
+     "shadow": true,
+     "at": "And the fix",
+     "enter": "squash"
+    },
+    {
+     "type": "banner",
+     "text": "THE FIX",
+     "y": 0.7,
+     "at": "And the fix",
+     "until": "two exercises",
+     "color": "#2FD94E",
+     "shadowBand": "#111111",
+     "side": "right"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 2
+     },
+     "label": "exercises. that is it.",
+     "icon": "dumbbell",
+     "at": "two exercises"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "Your biceps are-0.1",
+   "transition": "glitch",
+   "backdrop": "notebook",
+   "layers": [
+    {
+     "type": "text",
+     "text": "THE TRUTH",
+     "until": "one third"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "until": "That's the muscle",
+     "enter": "squash"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "at": "Your biceps",
+     "until": "The other two",
+     "color": "#E3262E"
+    },
+    {
+     "type": "bars",
+     "y": 0.3,
+     "height": 0.26,
+     "at": "one third",
+     "until": "That's the muscle",
+     "items": [
+      {
+       "label": "BICEPS",
+       "value": 33,
+       "display": "1/3",
+       "color": "#E3262E"
+      },
+      {
+       "label": "TRICEPS",
+       "value": 67,
+       "display": "2/3",
+       "color": "#2FD94E",
+       "at": "two thirds"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "asset": "hero_side_chest",
+     "shadow": true,
+     "at": "That's the muscle",
+     "enter": "right"
+    },
+    {
+     "type": "callout",
+     "text": "TRICEPS",
+     "anchor": "arms",
+     "x": 0.25,
+     "y": 0.36,
+     "at": "That's the muscle",
+     "until": "even when",
+     "color": "#2FD94E"
+    },
+    {
+     "type": "text",
+     "text": "*THICK* ARMS",
+     "look": "thumb",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 110,
+     "align": "center",
+     "at": "look thick",
+     "until": "even when"
+    },
+    {
+     "type": "image",
+     "asset": "hero_arms_crossed",
+     "shadow": true,
+     "at": "even when",
+     "enter": "squash"
+    },
+    {
+     "type": "accent",
+     "kind": "lines",
+     "x": 0.8,
+     "y": 0.42,
+     "size": 0.4,
+     "at": "not flexing"
+    }
+   ]
+  },
+  {
+   "id": "diamond",
+   "start": "So add these-0.1",
+   "transition": "wipe",
+   "backdrop": "grid",
+   "camera": [
+    {
+     "at": "hands together",
+     "zoom": 1.25,
+     "focus": "hands"
+    },
+    {
+     "at": "elbows tight",
+     "zoom": 1.2,
+     "focus": "elbows"
+    }
+   ],
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_come_on",
+     "shadow": true,
+     "until": "Diamond push-ups",
+     "enter": "squash",
+     "flipX": true
+    },
+    {
+     "type": "banner",
+     "text": "ADD THESE",
+     "y": 0.7,
+     "at": "So add these",
+     "until": "Diamond push-ups",
+     "color": "#111111",
+     "shadowBand": "#E3262E"
+    },
+    {
+     "type": "text",
+     "text": "#1 DIAMOND PUSH-UP",
+     "at": "Diamond push-ups",
+     "until": "hands together"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_pushup_top",
+       "at": "Diamond push-ups"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "hands together"
+      },
+      {
+       "asset": "hero_pushup_top",
+       "at": "under your chest"
+      },
+      {
+       "asset": "hero_pushup_mid",
+       "at": "elbows tight"
+      }
+     ],
+     "shadow": true,
+     "at": "Diamond push-ups",
+     "enter": "squash",
+     "width": 0.92,
+     "y": 0.56
+    },
+    {
+     "type": "callout",
+     "text": "HANDS TOGETHER",
+     "anchor": "hands",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "hands together",
+     "until": "elbows tight"
+    },
+    {
+     "type": "callout",
+     "text": "ELBOWS TIGHT",
+     "anchor": "elbows",
+     "x": 0.5,
+     "y": 0.36,
+     "at": "elbows tight",
+     "color": "#2FD94E"
+    }
+   ]
+  },
+  {
+   "id": "dips",
+   "start": "And chair dips-0.1",
+   "transition": "circle",
+   "backdrop": "stripes",
+   "layers": [
+    {
+     "type": "text",
+     "text": "#2 CHAIR DIP",
+     "until": "behind you"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_dip_top",
+       "at": "And chair dips"
+      },
+      {
+       "asset": "hero_dip_bottom",
+       "at": "lower down"
+      },
+      {
+       "asset": "hero_dip_top",
+       "at": "press up"
+      }
+     ],
+     "shadow": true,
+     "width": 0.72,
+     "y": 0.62
+    },
+    {
+     "type": "callout",
+     "text": "HANDS BEHIND",
+     "anchor": "hands",
+     "x": 0.25,
+     "y": 0.4,
+     "at": "hands on a chair",
+     "until": "lower down"
+    },
+    {
+     "type": "arrow",
+     "anchor": "shoulders",
+     "pointing": "down",
+     "color": "#E3262E",
+     "at": "lower down",
+     "until": "press up"
+    },
+    {
+     "type": "arrow",
+     "anchor": "shoulders",
+     "pointing": "up",
+     "color": "#2FD94E",
+     "at": "press up"
+    },
+    {
+     "type": "highlight",
+     "anchor": "arms",
+     "at": "press up",
+     "color": "#2FD94E"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Three sets each-0.1",
+   "transition": "zoomThrough",
+   "backdrop": "dots",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_writing_notes",
+     "shadow": true,
+     "enter": "up"
+    },
+    {
+     "type": "stat",
+     "count": {
+      "from": 0,
+      "to": 3,
+      "suffix": " sets"
+     },
+     "label": "close to failure",
+     "icon": "fire",
+     "y": 0.24,
+     "at": "Three sets each",
+     "until": "three times"
+    },
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "label": "MON",
+       "at": "three times"
+      },
+      {
+       "label": "WED",
+       "at": "times a week"
+      },
+      {
+       "label": "FRI",
+       "at": "a week"
+      }
+     ],
+     "y": 0.3,
+     "at": "three times"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": "flash",
+   "backdrop": "blobs",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "until": "Because",
+     "enter": "squash"
+    },
+    {
+     "type": "comment",
+     "user": "@your_best_friend",
+     "text": "curls are all you need bro",
+     "likes": "11K",
+     "ago": "just now",
+     "at": "the friend who",
+     "until": "Because"
+    },
+    {
+     "type": "poses",
+     "frames": [
+      {
+       "asset": "hero_curl_down",
+       "at": "Because"
+      },
+      {
+       "asset": "hero_curl_up",
+       "at": "curls for months#2"
+      }
+     ],
+     "shadow": true,
+     "at": "Because",
+     "enter": "slam"
+    },
+    {
+     "type": "banner",
+     "text": "MONTHS OF CURLS...",
+     "y": 0.72,
+     "at": "curls for months#2",
+     "color": "#E3262E",
+     "shadowBand": "#111111"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "still look skinny",
+   "src": "sfx_shocked_2"
+  },
+  {
+   "at": "wrong muscle",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "And the fix",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Your biceps are-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "That's the muscle",
+   "src": "sfx_pec_bounce"
+  },
+  {
+   "at": "look thick",
+   "src": "sfx_oh_yeah"
+  },
+  {
+   "at": "So add these-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Diamond push-ups",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "elbows tight",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "And chair dips-0.1",
+   "src": "sfx_desk_bell"
+  },
+  {
+   "at": "lower down",
+   "src": "sfx_whoosh_short"
+  },
+  {
+   "at": "press up",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "Three sets each-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "only does curls",
+   "src": "sfx_bruh"
+  },
+  {
+   "at": "curls for months#2",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}
