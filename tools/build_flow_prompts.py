@@ -16,7 +16,7 @@ RULES (follow for every single image):
 3. Work in batches of 24. Generate Batch 1 completely (all 24 images). As soon as Batch 1 is finished, immediately continue with Batch 2, then Batch 3, and so on, without stopping, until every item in the list is done.
 4. Keep the exact item order. If you can, use the item code (for example A01) as the image file name. Never draw or write the code inside the picture.
 5. The narrator and Penny must look exactly like the reference image in every image: same face, same hair, same glasses, same scarf, same colours, same line thickness.
-6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face.
+6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face. ALL people must be simple stick figures exactly like the narrator: big round peach head with dot eyes, thin single-line black stick body, arms and legs. Show clothing only as small simple items (a tie, a hoodie outline, a jacket outline). No realistic bodies, no detailed faces, no wrinkles, no shading. Never make anyone look like a real, famous person.
 7. Never add text, letters, words, watermarks or logos unless the item asks for them.
 8. Style for every image: {style}
 
@@ -31,5 +31,13 @@ def build(items, ar, style, fname):
     out.append("\nEND OF LIST. Make sure every item from the first to the last has its own separate image.")
     open(fname, 'w').write("\n".join(out) + "\n")
     print(fname, len(items), "images,", len(bs), "batches")
-build([r for r in rows if r[0][0] != 'F'], "9:16 (portrait)", STYLE, "FLOW_PROMPT_1_portrait_9x16.txt")
-build([r for r in rows if r[0][0] == 'F'], "16:9 (landscape)", BG, "FLOW_PROMPT_2_landscape_16x9.txt")
+import sys, os
+if len(sys.argv) > 1:  # only the codes listed in this file (e.g. still-missing images)
+    want = open(sys.argv[1]).read().split()
+    rows = [r for r in rows if r[0] in want]
+    tag = sys.argv[2]
+else:
+    tag = ""
+build([r for r in rows if r[0][0] != 'F'], "9:16 (portrait)", STYLE, f"FLOW_PROMPT_1{tag}_portrait_9x16.txt")
+if any(r[0][0] == 'F' for r in rows):
+    build([r for r in rows if r[0][0] == 'F'], "16:9 (landscape)", BG, f"FLOW_PROMPT_2{tag}_landscape_16x9.txt")
