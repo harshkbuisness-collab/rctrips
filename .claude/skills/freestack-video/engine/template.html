@@ -75,6 +75,21 @@
   .pattern{position:absolute;inset:-200px;display:flex;flex-direction:column;gap:6px;transform:rotate(-12deg)}
   .pattern div{font:400 150px/1 Anton;color:#f5d900;white-space:nowrap}
   .pattern div:nth-child(odd){color:#ecd000}
+  /* studio theme: cinematic wall, window light, film grain (new style) */
+  #stage.th-studio{background:radial-gradient(ellipse at 70% 10%,#ffffff 0%,#efeeeb 45%,#d9d7d2 100%)}
+  #stage.th-studio .shd{display:none}
+  .lite{position:absolute;inset:-300px;pointer-events:none;opacity:.9;
+    background:repeating-linear-gradient(115deg,rgba(255,255,255,0) 0 130px,rgba(255,255,255,.55) 130px 330px,rgba(255,255,255,0) 330px 420px,rgba(60,55,50,.10) 420px 470px);filter:blur(22px)}
+  .grain{position:absolute;inset:-60px;pointer-events:none;opacity:.10;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>")}
+  .vign{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 55%,rgba(0,0,0,.28) 100%)}
+  .bigword{left:-200px;right:-200px;text-align:center;font:400 330px/1 Anton;text-transform:uppercase;color:#8E2A2A;letter-spacing:.02em;white-space:nowrap}
+  .chip{left:60px;top:250px;display:flex;align-items:center;gap:18px;background:#8E2A2A;color:#fff;font:800 54px Inter;padding:10px 36px 10px 12px;border-radius:60px;box-shadow:0 12px 26px rgba(0,0,0,.2)}
+  .chip b{width:74px;height:74px;border-radius:50%;background:#fff;color:#8E2A2A;display:flex;align-items:center;justify-content:center;font:400 50px Anton}
+  #cap.min{top:1470px}
+  #cap.min .bk{background:none;box-shadow:none;padding:0;color:#fff;-webkit-text-stroke:3px #111;paint-order:stroke fill;text-shadow:0 6px 16px rgba(0,0,0,.45)}
+  #cap.min .on{color:#111;-webkit-text-stroke:0;text-shadow:none;border-radius:10px}
+  #cap.min span span{margin:0 6px}
 </style></head>
 <body><div id="stage">
 <div class="shd" style="left:120px;top:-200px;width:240px;height:2400px"></div>
@@ -113,6 +128,7 @@ let PLAN,chunks,E={},S=[];
 window.init=function(plan){
   PLAN=plan; window.TOTAL=plan.total;
   document.getElementById('stage').classList.add('th-'+(plan.theme||'wall'));
+  if(plan.theme==='studio'){E.lite=el(`<div class="lite"></div>`,document.getElementById('stage'));document.getElementById('stage').insertBefore(E.lite,R);}
   E.prog=el(`<div id="prog" class="abs"></div>`);
   plan.scenes.forEach((sc,i)=>{sc.i=i; const b=BUILD[sc.type]; if(!b) throw new Error('unknown scene type '+sc.type); S.push({sc,parts:b(sc)});});
   E.brand=el(`<div id="brand" class="abs"><img src="icon.png"><span><em>FREE</em>STACK AI</span></div>`);
@@ -124,6 +140,8 @@ window.init=function(plan){
     if(cur.length>=3||/[.,?!:]$/.test(w.w)||!nx||nx.line!==w.line){chunks.push(cur);cur=[]}});
   chunks.forEach((c,i)=>{c.t0=c[0].t0;c.t1=chunks[i+1]&&chunks[i+1][0].line===c[0].line?chunks[i+1][0].t0:c[c.length-1].t1+0.25});
   E.cap=el(`<div id="cap" class="abs"></div>`);
+  if(plan.captions==='minimal') E.cap.classList.add('min');
+  if(plan.theme==='studio'){const st=document.getElementById('stage');E.grain=el(`<div class="grain"></div>`,st);el(`<div class="vign"></div>`,st);}
 };
 
 /* ---------------- scene builders ---------------- */
@@ -170,6 +188,8 @@ const BUILD={
  },
  talk(sc){
   const p={};
+  if(sc.bigword) p.big=el(`<div class="abs bigword" style="top:${sc.big_top||560}px;font-size:${Math.min(330,Math.round(1950/String(sc.bigword).length))}px">${sc.bigword}</div>`);
+  if(sc.chip) p.chip=el(`<div class="abs chip"><b>${sc.chip[0]}</b>${sc.chip[1]}</div>`);
   p.m=el(`<img class="mascot" style="left:118px;top:600px;width:844px;${sc.flip?'transform:scaleX(-1)':''}">`);
   p.title=el(`<div class="abs anton big" style="top:250px;font-size:${sc.title_size||130}px">${hl(sc.title)}</div>`);
   if(sc.tag) p.tag=el(`<div class="abs" style="left:0;right:0;top:${sc.tag_top||560}px;text-align:center"><span class="hand" style="font-size:80px;color:#111">${sc.tag}</span></div>`);
@@ -184,7 +204,7 @@ const BUILD={
  },
  outro(sc){
   const p={};
-  p.pat=el(`<div class="full" style="overflow:hidden;background:#FFE500"><div class="pattern">${Array(16).fill(`<div>BYE BYE BYE BYE BYE BYE BYE</div>`).join('')}</div></div>`);
+  p.pat=el(`<div class="full" style="overflow:hidden;background:#FFE500"><div class="pattern">${Array(16).fill(`<div>${(sc.word||'BYE BYE BYE BYE BYE BYE BYE')}</div>`).join('')}</div></div>`);
   p.m=el(`<img class="mascot" style="left:0;top:380px;width:1080px">`);
   p.handle=el(`<div class="abs" style="left:0;right:0;top:250px;text-align:center"><span class="pill" style="background:#111;color:var(--y);font-size:54px">${sc.handle||'@freestack.ai'}</span></div>`);
   const se=PLAN.series;
@@ -568,6 +588,8 @@ const RENDER={
   const q=outBack(prog(u,0,0.25));p.title.style.transform=`scale(${q})`;
   if(p.tag){const h=outCubic(prog(u,0.25,0.5));op(p.tag,h)}
   p.m.style.transform=(sc.flip?'scaleX(-1) ':'')+`translateY(${(1-outCubic(prog(u,0,0.25)))*120}px)`;
+  if(p.big){const b=outCubic(prog(u,0,0.35));op(p.big,b);p.big.style.transform=`translateX(${(1-b)*-140+u*-18}px) scale(${1.15-0.15*b})`;}
+  if(p.chip){const c=outBack(prog(u,0.1,0.35));p.chip.style.transform=`scale(${c})`;op(p.chip,c>0?1:0);}
  },
  cta(sc,p,t){
   const u=t-sc.start; seq(p.bg,'c9-cta-room',u+0.3);
@@ -600,7 +622,11 @@ window.render=function(t){
     E.cap.style.transform=`scale(${(0.85+0.15*pc)*fit})`;op(E.cap,1);
   } else op(E.cap,0);
   E.prog.style.width=(1080*t/PLAN.total)+'px';
-  R.style.transform=`translate(${SHAKE}px,${SHAKE*0.6}px)`;
+  let push=1;
+  if(PLAN.theme==='studio'&&active){push=1+0.035*clamp((t-active.start)/Math.max(1,active.dur));}
+  if(E.lite) E.lite.style.transform=`translateX(${Math.sin(t*0.35)*40}px)`;
+  if(E.grain) E.grain.style.transform=`translate(${(Math.floor(t*24)*37)%60-30}px,${(Math.floor(t*24)*53)%60-30}px)`;
+  R.style.transform=`translate(${SHAKE}px,${SHAKE*0.6}px) scale(${push})`;
   return Promise.all(PENDING);
 };
 </script></body></html>
