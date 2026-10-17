@@ -12,8 +12,20 @@
    - Sections A–E (**STYLE**): *Simple hand-drawn doodle cartoon, thick black marker outlines with slightly wobbly lines, flat colours, minimal detail, no shading, no gradients, pure white background, centred, full body, lots of empty space around the subject, no text.*
    - Section F (backgrounds) uses its own line, given there.
 3. **Choosing:** make 2 options per prompt and keep the best one. **Don't rename the files.** Each prompt starts with unique words, and Flow names the file after those words, so I can match every file automatically.
-4. **Sending:** send a zip **per section, or every 25–40 images**. You don't need to wait until everything is finished.
-5. **Order:** go from top to bottom. Sections A and B matter most. If you run out of time, D and E can come later.
+4. **Work in batches of 24 images.** Finish one batch, zip it, send it to me, then start the next. You don't need to wait for my reply between batches.
+
+| Batch | Prompts | Images |
+|---|---|---|
+| 1 | A01 – A24 | 24 |
+| 2 | A25 – A48 | 24 |
+| 3 | A49 – A50, B01 – B12, C01 – C10 | 24 |
+| 4 | C11 – C28, D01 – D06 | 24 |
+| 5 | D07 – D30 | 24 |
+| 6 | E01 – E24 | 24 |
+| 7 | E25 – E48 | 24 |
+| 8 | E49 – E55, F01 – F08 | 15 |
+
+5. **Order:** go from batch 1 to batch 8. The sample video needs only batches 1, 3 and parts of 5–7, so the sample can be finished early.
 
 Character shorthand used below:
 - **NARRATOR** = *the same stick-figure man from the reference image (round peach head, messy brown hair, round glasses, orange scarf)*
