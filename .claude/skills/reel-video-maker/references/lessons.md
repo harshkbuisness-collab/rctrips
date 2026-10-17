@@ -79,3 +79,14 @@ Each line is a real problem the owner saw, and the rule that prevents it.
 | Words at `y` 0.28 sat on the bar of `clip_inverted_row` (the bar is high in that clip) | Inverted-row clip at `"y": 0.64`; its words at `y` 0.17 |
 | `hero_eating` holds a chicken drumstick: it reads wrong for "chewing gum" | No gum pose: use reaction poses (point_viewer, smirk) for gum / candy topics |
 | `hero_row_end` / `hero_row_start` are drawn upright under a high bar, not lying: the bar hides a word at `y` 0.3 | Use them only with the word at `y` 0.17, or pick another pose |
+
+## Batches of 15–60 (16–17 Oct)
+| Problem | Rule |
+|---|---|
+| A plan was refused: "speed: until must be after at" when the hook was shorter than 1.7 s | `plan_lib.auto(hook=True)` puts its extra speed/edge pulses at start, start+0.6, start+1.0 (fits every hook) |
+| A render job was killed at the 2-hour shell limit mid-video | Render 12–15 reels per `batch.py render` call; it skips finished videos, so just run it again |
+| A watchdog with `pgrep -f` matched its own command line and never restarted the runner | Don't use watchdogs; re-run `batch.py render` |
+| `pkill -f` killed the shell that ran it (exit 144) | Anchor the pattern (`'^node tools/server[.]mjs'`) or kill by PID |
+| 544 MB and 403.8 MB zips were refused (limit 400 MB) | `batch.py pack` (crf 24 → ~6–8 MB per reel, 60 reels ≈ 365 MB) |
+| The owner asked for all 105 videos in one zip with no quality loss (1.1 GB) | Impossible under 400 MB: give `batch.py pack --full` parts (≈ 380 MB each) and say why |
+| A thumbnail label printed the words "black" / "red" | Describe the colors in words around the text, never inside quotes with it (`thumb_prompts.py` does it) |

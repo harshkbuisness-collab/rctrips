@@ -1,0 +1,609 @@
+{
+ "title": "How long can you hold a wall sit?",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "wall",
+   "sit",
+   "legs",
+   "strong",
+   "ninety",
+   "weak",
+   "average",
+   "minutes",
+   "holds",
+   "five",
+   "comment",
+   "time"
+  ],
+  "bottom": [
+   [
+    "This simple test",
+    "Comment your time"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "can you hold#1"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.6"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.0"
+    },
+    {
+     "type": "video",
+     "asset": "clip_squat",
+     "width": 0.66,
+     "y": 0.62,
+     "rate": 0.5,
+     "enter": "cut",
+     "at": "start",
+     "until": "can you hold#1"
+    },
+    {
+     "type": "text",
+     "text": "WALL SIT • WALL SIT",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "can you hold#1"
+    },
+    {
+     "type": "image",
+     "asset": "hero_check_watch",
+     "shadow": true,
+     "enter": "whip",
+     "at": "can you hold#1"
+    },
+    {
+     "type": "text",
+     "text": "HOW LONG?",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "can you hold#1"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "can you hold#1",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "start": "This simple test-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_clipboard",
+     "shadow": true,
+     "enter": "whip",
+     "at": "This simple test",
+     "until": "how strong your legs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "THE TEST",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "This simple test",
+     "until": "how strong your legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "how strong your legs",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "LEG STRENGTH",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "how strong your legs"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "start": "Back flat against-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_lean_wall",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Back flat against",
+     "until": "Slide down until",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BACK FLAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Back flat against",
+     "until": "Slide down until"
+    },
+    {
+     "type": "image",
+     "asset": "hero_squat_mid",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Slide down until",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "90°",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 300,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Slide down until"
+    }
+   ]
+  },
+  {
+   "id": "levels",
+   "start": "Under thirty seconds-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_beginner",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Under thirty seconds",
+     "until": "Thirty to sixty",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "WEAK",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 230,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Under thirty seconds",
+     "until": "Thirty to sixty"
+    },
+    {
+     "type": "image",
+     "asset": "hero_shrug",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Thirty to sixty",
+     "until": "One to two minutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "AVERAGE",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Thirty to sixty",
+     "until": "One to two minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_double_biceps",
+     "shadow": true,
+     "enter": "whip",
+     "at": "One to two minutes",
+     "until": "Over two minutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "STRONG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "One to two minutes",
+     "until": "Over two minutes"
+    },
+    {
+     "type": "image",
+     "asset": "hero_victory",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Over two minutes",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "VERY STRONG",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 165,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Over two minutes"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "Over two minutes",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "improve",
+   "start": "To improve, do three-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#2FD94E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_count_3",
+     "shadow": true,
+     "enter": "whip",
+     "at": "To improve, do three",
+     "until": "and add five seconds",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "3 HOLDS A DAY",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 150,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "To improve, do three",
+     "until": "and add five seconds"
+    },
+    {
+     "type": "image",
+     "asset": "hero_thumbs_up",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and add five seconds",
+     "until": "Comment your time"
+    },
+    {
+     "type": "text",
+     "text": "+5 SEC",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and add five seconds",
+     "until": "Comment your time"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Comment your time",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "COMMENT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Comment your time"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "And send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "And send this to",
+     "until": "who says his legs"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "And send this to",
+     "until": "who says his legs"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "And send this to",
+     "until": "who says his legs",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_smirk",
+     "shadow": true,
+     "enter": "whip",
+     "at": "who says his legs",
+     "until": "Because how long"
+    },
+    {
+     "type": "text",
+     "text": "SAYS HE'S STRONG",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "who says his legs",
+     "until": "Because how long"
+    },
+    {
+     "type": "text",
+     "text": "WALL SIT...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because how long"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because how long"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "This simple test-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "Back flat against-0.1",
+   "src": "sfx_whoosh_fast"
+  },
+  {
+   "at": "Under thirty seconds-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "To improve, do three-0.1",
+   "src": "sfx_swish"
+  },
+  {
+   "at": "And send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "can you hold#1",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "how strong your legs",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "Slide down until",
+   "src": "sfx_stretch"
+  },
+  {
+   "at": "Thirty to sixty",
+   "src": "sfx_click"
+  },
+  {
+   "at": "Over two minutes",
+   "src": "sfx_lion_roar"
+  },
+  {
+   "at": "and add five seconds",
+   "src": "sfx_coin"
+  },
+  {
+   "at": "Comment your time",
+   "src": "sfx_notification"
+  },
+  {
+   "at": "who says his legs",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because how long",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

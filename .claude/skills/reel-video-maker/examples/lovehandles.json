@@ -1,0 +1,469 @@
+{
+ "title": "Love handles won't leave? Stop doing side crunches",
+ "progressBar": true,
+ "captions": {
+  "mode": "word",
+  "keywords": [
+   "love",
+   "handles",
+   "crunches",
+   "fat",
+   "spot",
+   "planks",
+   "elbow",
+   "hips",
+   "thirty",
+   "deficit",
+   "walks",
+   "side"
+  ],
+  "bottom": [
+   [
+    "You can't burn fat",
+    "Send this to"
+   ]
+  ]
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": "start",
+   "backdrop": "none",
+   "shakes": [
+    {
+     "at": "They're still there"
+    }
+   ],
+   "layers": [
+    {
+     "type": "speed",
+     "at": "start"
+    },
+    {
+     "type": "pulse",
+     "kind": "edge",
+     "color": "#2FD94E",
+     "at": "start+0.6"
+    },
+    {
+     "type": "speed",
+     "at": "start+1.0"
+    },
+    {
+     "type": "video",
+     "asset": "clip_side_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "cut",
+     "at": "start",
+     "until": "They're still there"
+    },
+    {
+     "type": "text",
+     "text": "LOVE HANDLES",
+     "look": "marquee",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 230,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "speed": 400,
+     "at": "start",
+     "until": "They're still there"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "They're still there"
+    },
+    {
+     "type": "text",
+     "text": "STILL THERE",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 200,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "They're still there"
+    },
+    {
+     "type": "pulse",
+     "kind": "impact",
+     "at": "They're still there",
+     "duration": 0.2
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "start": "You can't burn fat-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "spotlight",
+   "backdropColor": "#E3262E",
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_stop_palm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "You can't burn fat",
+     "until": "Love handles shrink"
+    },
+    {
+     "type": "text",
+     "text": "ONE SPOT",
+     "font": "display",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 130,
+     "align": "center",
+     "color": "#111111",
+     "animation": "none",
+     "untype": false,
+     "strike": "You can't burn fat+0.35",
+     "at": "You can't burn fat",
+     "until": "Love handles shrink"
+    },
+    {
+     "type": "image",
+     "asset": "hero_measuring_waist",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Love handles shrink",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "BODY FAT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Love handles shrink"
+    }
+   ]
+  },
+  {
+   "id": "do",
+   "start": "But side planks make-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "none",
+   "layers": [
+    {
+     "type": "video",
+     "asset": "clip_side_plank",
+     "width": 1.0,
+     "y": 0.58,
+     "rate": 1.0,
+     "enter": "whip",
+     "at": "But side planks make"
+    },
+    {
+     "type": "text",
+     "text": "SIDE PLANKS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "But side planks make",
+     "until": "Lie on your side"
+    },
+    {
+     "type": "text",
+     "text": "ELBOW UNDER",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 165,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Lie on your side",
+     "until": "and lift your hips"
+    },
+    {
+     "type": "text",
+     "text": "HIPS UP",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "and lift your hips",
+     "until": "Hold thirty seconds"
+    },
+    {
+     "type": "text",
+     "text": "30 SEC EACH",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.28,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Hold thirty seconds"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "start": "Pair it with-0.1",
+   "transition": {
+    "type": "zoomBlur",
+    "duration": 0.45
+   },
+   "backdrop": "grid",
+   "backdropColor": "#B0B6BE",
+   "backdropOpacity": 0.6,
+   "layers": [
+    {
+     "type": "image",
+     "asset": "hero_grocery_bag",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Pair it with",
+     "until": "and daily walks",
+     "width": 0.8,
+     "y": 0.66
+    },
+    {
+     "type": "text",
+     "text": "DEFICIT",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 210,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Pair it with",
+     "until": "and daily walks"
+    },
+    {
+     "type": "image",
+     "asset": "hero_walking",
+     "shadow": true,
+     "enter": "whip",
+     "at": "and daily walks"
+    },
+    {
+     "type": "text",
+     "text": "WALK DAILY",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 190,
+     "color": "#2FD94E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "and daily walks"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": "Send this to-0.1",
+   "transition": {
+    "type": "whip",
+    "duration": 0.32
+   },
+   "backdrop": "rays",
+   "backdropColor": "#FFD23F",
+   "layers": [
+    {
+     "type": "text",
+     "text": "SEND THIS",
+     "look": "giant",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.19,
+     "size": 190,
+     "color": "#111111",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "letters",
+     "untype": false,
+     "tilt": 0,
+     "at": "Send this to",
+     "until": "doing side crunches"
+    },
+    {
+     "type": "image",
+     "asset": "hero_point_viewer",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Send this to",
+     "until": "doing side crunches"
+    },
+    {
+     "type": "image",
+     "asset": "prop_phone",
+     "at": "Send this to",
+     "until": "doing side crunches",
+     "x": 0.8,
+     "y": 0.4,
+     "width": 0.18,
+     "motion": {
+      "type": "pulse"
+     }
+    },
+    {
+     "type": "image",
+     "asset": "hero_facepalm",
+     "shadow": true,
+     "enter": "whip",
+     "at": "doing side crunches",
+     "until": "Because you do"
+    },
+    {
+     "type": "text",
+     "text": "SIDE CRUNCHES",
+     "look": "tape",
+     "boxColor": "#E3262E",
+     "y": 0.72,
+     "size": 84,
+     "tilt": -8,
+     "speed": 240,
+     "behind": false,
+     "at": "doing side crunches",
+     "until": "Because you do"
+    },
+    {
+     "type": "text",
+     "text": "CRUNCHES...",
+     "look": "echo",
+     "behind": true,
+     "x": 0.5,
+     "y": 0.27,
+     "size": 165,
+     "color": "#E3262E",
+     "align": "center",
+     "maxWidth": 1,
+     "animation": "none",
+     "untype": false,
+     "tilt": 0,
+     "at": "Because you do"
+    },
+    {
+     "type": "image",
+     "asset": "hero_what",
+     "shadow": true,
+     "enter": "whip",
+     "at": "Because you do"
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "at": "start",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "You can't burn fat-0.1",
+   "src": "sfx_whoosh_swipe"
+  },
+  {
+   "at": "But side planks make-0.1",
+   "src": "sfx_level_start"
+  },
+  {
+   "at": "Pair it with-0.1",
+   "src": "sfx_whoosh_soft"
+  },
+  {
+   "at": "Send this to-0.1",
+   "src": "sfx_whoosh_big"
+  },
+  {
+   "at": "They're still there",
+   "src": "sfx_hammer"
+  },
+  {
+   "at": "You can't burn fat",
+   "src": "sfx_get_out"
+  },
+  {
+   "at": "Love handles shrink",
+   "src": "sfx_ding"
+  },
+  {
+   "at": "and lift your hips",
+   "src": "sfx_whip"
+  },
+  {
+   "at": "Hold thirty seconds",
+   "src": "sfx_counter"
+  },
+  {
+   "at": "and daily walks",
+   "src": "sfx_running"
+  },
+  {
+   "at": "doing side crunches",
+   "src": "sfx_crying_laugh"
+  },
+  {
+   "at": "Because you do",
+   "src": "sfx_gold_bell"
+  }
+ ]
+}

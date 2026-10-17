@@ -20,6 +20,10 @@ the JSON (follow steps 2–3 and give the file).
 | `scripts/make_video.py` | Does everything after the plan: server, voice, cover, render, compress, frame sheet |
 | `scripts/add_cover.py` | Puts the owner's thumbnail on the first 0.1 s of a finished MP4 (no re-render) |
 | `scripts/check_plan.py` | Checks a plan against its script and the v5 style rules |
+| `scripts/plan_lib.py` | Plan builder: a whole v5 plan in ~25 lines of Python (beats, scenes, CTA, auto sound effects) |
+| `scripts/thumb_prompts.py` | Writes the upload text and all thumbnail prompts in ONE box |
+| `scripts/batch.py` | Big batches: `render` (one after another, skips done), `cover` (match thumbnails), `pack` (zips under 400 MB) |
+| `scripts/frame_strips.py` | One contact sheet for up to 10 videos (10 frames each) to check a batch fast |
 | `references/style-guide.md` | **The approved look**. Read first, always |
 | `references/spec.md` | Plan format: time phrases, layer types and fields |
 | `references/library.md` | Every allowed image / clip / sound id. Never use an id not in it |
@@ -27,6 +31,7 @@ the JSON (follow steps 2–3 and give the file).
 | `references/thumbnail-prompts.md` | How to write the thumbnail image prompts (owner's own rules) |
 | `references/clip-prompt.md` | Prompt for a new animation clip when an exercise has none |
 | `examples/05-glute-bridge-v5.json` + `.txt` | The gold plan. Copy its structure, never its phrases |
+| `examples/plan-builder-example.py` | Two real reels (lovehandles, wallsit) written with `plan_lib.py`, with their `.txt` and `.json` |
 
 ## Step 0: the tool (bundled, nothing to ask the owner)
 
@@ -87,11 +92,23 @@ One render takes ~3–8 min; run batches one after another, not in parallel.
 Open `<name>-frames.jpg` and check: H big in every frame, no word hidden behind his head, no text on his face,
 clips on white, nothing small. Fix the plan and render again if anything is wrong (max one re-render per video).
 
+## Batch mode (15–60 reels at once, the usual case)
+
+1. Write all scripts (`work/<name>.txt`), show them to the owner, and give the thumbnail prompts in one box.
+2. Write the plans with `plan_lib.py` (one builder file per 15 videos, see `examples/plan-builder-example.py`), then
+   `check_plan.py` + `make_video.py check` for each.
+3. `python3 scripts/batch.py render name1 … name15` (12–15 per call; re-run to continue, it skips finished ones).
+4. `python3 scripts/frame_strips.py sheet.jpg name1 … name10` and look at every sheet; fix and re-render (max once).
+5. When the thumbnails arrive: `python3 scripts/batch.py cover --thumbs work/thumbnails --out work/final --start 46 name…`
+   (thumbnail files named `<number>-<name>.jpg`; it lists the missing ones → give a prompt box for only those).
+6. `python3 scripts/batch.py pack --src work/final --zip work/<Batch>.zip --text work/UPLOAD-TEXT.md`.
+
 ## Step 6: deliver
 
-A batch goes in ONE zip (owner's choice). The file upload limit is 400 MB: for a big batch, re-encode the covered MP4s with
-`ffmpeg -i in.mp4 -c:v libx264 -preset medium -crf 24 -pix_fmt yuv420p -c:a copy -movflags +faststart out.mp4`
-(about 8 MB per 40 s reel, 45 reels = 368 MB) and zip with `zip -0`.
+A batch goes in ONE zip (owner's choice). The file upload limit is 400 MB: `batch.py pack` re-encodes the covered MP4s
+at crf 24 (6–8 MB per reel, 60 reels ≈ 365 MB, no visible loss on a phone) and zips with `zip -0`.
+When the owner wants full quality and the total is over 400 MB, `--full` makes balanced parts (`-part1-of-3.zip` …);
+tell them one zip is impossible at that size. Number the files `<NN>-<name>.mp4` and the upload text to match.
 
 Give the MP4 (send the file if you can), then for each video:
 
@@ -109,7 +126,8 @@ Send this to the friend who <…> 👇
 
 Thumbnail prompt: follow `references/thumbnail-prompts.md` exactly (the owner's thumbnail skill: full standalone
 prompt per video, attached H character, plain white background, two-line text label with the Anton font line,
-crop-safe spacing, AVOID list; boxes of at most 5, each starting "CREATE ALL IMAGES FOR THESE N THUMBNAILS").
+crop-safe spacing, AVOID list; ALL prompts in ONE box starting "CREATE ALL IMAGES FOR THESE N THUMBNAILS"; failed
+images → one new box with only the missing ones). `scripts/thumb_prompts.py` writes it.
 Thumbnail prompts are always in English.
 
 Answer the owner in simple Hinglish; titles, descriptions, scripts and JSON stay English.

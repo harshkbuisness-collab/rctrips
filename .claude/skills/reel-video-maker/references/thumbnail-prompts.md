@@ -22,8 +22,8 @@ Always reply in English, even if the user writes in Hindi or Hinglish.
   - **Thumbnail text:** the two lines, and why they name the topic.
   - **Concept:** one or two sentences describing the visual idea.
 - Then the prompt in one code block.
-- Batches: at most 5 thumbnails per code block (16 Oct: in a box of 15, only the first 5 images were made and the other 10 failed). Several boxes go one after another, and the owner pastes one box at a time.
-- When the user sends several scripts at once: put the prompts in boxes of 5. First line of each box: "CREATE ALL IMAGES FOR THESE N THUMBNAILS. Make each one as a SEPARATE image (N images total). Treat every prompt below as a completely separate, independent image request. Attach the same character reference image to every single one. Follow each prompt exactly as written." Then each prompt under a header "THUMBNAIL X OF N (video V: name, save it as V.jpg)" so the owner can name the files for the covers.
+- Batches: ALL prompts of a batch go in ONE code block (owner's choice, 16 Oct; `scripts/thumb_prompts.py` builds it). If some images fail, the owner sends back the ones that worked: match them to the videos and give ONE new box with only the missing prompts.
+- First line of the box: "CREATE ALL IMAGES FOR THESE N THUMBNAILS. Make each one as a SEPARATE image (N images total). Treat every prompt below as a completely separate, independent image request. Attach the same character reference image to every single one. Follow each prompt exactly as written." Then each prompt under a header "THUMBNAIL X OF N: name" so the owner can name the files for the covers ("<number>-<name>.jpg").
 - CRITICAL: every prompt must be fully STANDALONE. Repeat the size, character block, crop-safe block, background, text block with the font line, style and avoid list inside EVERY prompt. Never put shared rules once at the top and refer to them. Agents run each prompt separately, and shared rules get lost, which causes thin or changed fonts and character drift.
 
 ## The character (never changes)
