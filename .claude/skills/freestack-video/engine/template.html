@@ -457,6 +457,21 @@ function buildDemo(p,d){
     const top=k==='voice'?430:200;
     p.ticks=(d.items||[]).slice(0,5).map((x,i)=>el(`<div class="abs" style="left:110px;top:${top+i*130}px;display:flex;align-items:center;gap:26px;font:400 80px Anton;color:#111;text-transform:uppercase">${CHECK}<span>${x}</span></div>`,box));
   }
+  if(k==='photos'){
+    // Photo-library search: query types, non-matching photos fade, matches light up. Drawn scenes, illustrative only.
+    const S={beach:'radial-gradient(circle at 74% 22%,#FFE36B 0 9%,transparent 10%),linear-gradient(#8FD3F5 0 46%,#2F8FC7 46% 64%,#F3D59C 64%)',
+      sunset:'radial-gradient(circle at 50% 50%,#FFD15C 0 12%,transparent 13%),linear-gradient(#FF8A5C 0 50%,#2D6FA3 50% 68%,#E9C68B 68%)',
+      mountain:'linear-gradient(135deg,transparent 50%,#fff0 50%),conic-gradient(from 135deg at 50% 30%,#6B7A8F 0 90deg,transparent 90deg),linear-gradient(#BFE3F7 0 70%,#6FAE5B 70%)',
+      city:'linear-gradient(90deg,#2B2F48 0 18%,#3B4166 18% 34%,#2B2F48 34% 52%,#454C78 52% 70%,#2B2F48 70%),linear-gradient(#0F1530,#0F1530)',
+      food:'radial-gradient(circle at 50% 52%,#F28C28 0 18%,#fff 19% 34%,transparent 35%),linear-gradient(#8B5A36,#7A4D2E)',
+      party:'radial-gradient(circle at 30% 40%,#FF3D7F 0 8%,transparent 9%),radial-gradient(circle at 65% 30%,#FFE500 0 8%,transparent 9%),radial-gradient(circle at 55% 65%,#3DB5FF 0 8%,transparent 9%),linear-gradient(#3A1E5C,#24123D)'};
+    const grid=d.grid||['beach','city','food','mountain','sunset','party','food','beach','city'];
+    p.q=el(`<div class="abs" style="left:60px;top:20px;width:840px;height:110px;background:#fff;border-radius:55px;border:6px solid #111;display:flex;align-items:center;gap:18px;padding:0 36px;font:700 50px Inter;color:#111;box-shadow:0 12px 26px rgba(0,0,0,.12)"><svg width="50" height="50" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7" fill="none" stroke="#111" stroke-width="3"/><path d="M15 15l6 6" stroke="#111" stroke-width="3" stroke-linecap="round"/></svg><span class="tx"></span></div>`,box);
+    p.qt=p.q.querySelector('.tx');
+    p.ph=grid.slice(0,9).map((g,i)=>el(`<div class="abs" style="left:${45+(i%3)*300}px;top:${170+Math.floor(i/3)*250}px;width:270px;height:225px;border-radius:22px;background:${S[g]||S.beach};border:6px solid #fff;box-shadow:0 10px 22px rgba(0,0,0,.15)"></div>`,box));
+    p.hit=grid.slice(0,9).map(g=>g===(d.match||'beach')||(d.match||'beach')==='beach'&&g==='sunset');
+    if(d.pill) p.pill=el(`<div class="abs" style="left:0;right:0;top:940px;text-align:center"><span class="pill" style="background:var(--y);color:#111;font-size:44px">${d.pill}</span></div>`,box);
+  }
   if(k==='text'){
     p.txt=el(`<div class="abs anton big" style="left:0;right:0;top:200px;font-size:${d.size||150}px">${hl(d.text)}</div>`,box);
   }
@@ -473,6 +488,9 @@ function renderDemo(p,d,u,a){
     p.links.forEach((e,i)=>{e.style.width=(60*outCubic(prog(u,a+0.4+i*0.4,a+0.6+i*0.4)))+'px'});
     const bl=outBack(prog(u,a+1.2,a+1.5));p.bill.style.transform=`scale(${bl})`;op(p.bill,bl>0?1:0)}
   if(p.ticks) p.ticks.forEach((e,i)=>{const q=outBack(prog(u,a+0.2+i*0.3,a+0.45+i*0.3));e.style.transform=`translateX(${(1-q)*-200}px)`;op(e,q>0?1:0)});
+  if(k==='photos'){const q=d.query||'beach';const n=Math.floor(q.length*prog(u,a+0.4,a+1.0));p.qt.textContent=q.slice(0,n);
+    const f=outCubic(prog(u,a+1.1,a+1.4));p.ph.forEach((e,i)=>{if(p.hit[i]){e.style.borderColor=f>0.5?'#FFE500':'#fff';e.style.transform=`scale(${1+0.06*f})`}else{op(e,1-0.85*f);e.style.transform=`scale(${1-0.08*f})`}});
+    if(p.pill){const w=outBack(prog(u,a+1.5,a+1.8));p.pill.style.transform=`scale(${w})`;op(p.pill,w>0?1:0)}}
   if(k==='text'){const q=outBack(prog(u,a,a+0.3));p.txt.style.transform=`scale(${q})`;op(p.txt,q>0?1:0)}
 }
 
