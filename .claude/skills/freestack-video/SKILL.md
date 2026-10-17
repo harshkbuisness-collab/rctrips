@@ -1,6 +1,6 @@
 ---
 name: freestack-video
-description: Turn a voiceover audio file into a finished FreeStack AI vertical Reel (1080x1920) with the mascot, Paid-vs-Free cards, tool demos, GitHub star zoom, word-synced captions, sound effects and optional background music. Use whenever the user sends a voiceover (wav/mp3/m4a) for a FreeStack AI video, or asks to make/render/rebuild a FreeStack reel from audio or a script.
+description: Make a finished FreeStack AI vertical Reel (1080x1920) end to end - from the voiceover the user sends (default) or, only when they ask, a Raju AI voiceover from ElevenLabs - with the mascot, a fast multi-shot opening, Paid-vs-Free cards, tool demos, GitHub star zoom, word-synced captions, sound effects and background music. Default look is the cinematic "studio" style. Use whenever the user sends a voiceover (wav/mp3/m4a), gives a topic or script for a FreeStack video, or asks to make/render/rebuild a FreeStack reel.
 ---
 
 # FreeStack AI: voiceover → Reel
@@ -13,16 +13,66 @@ SKILL_DIR="$(dirname "$(find / -path '*freestack-video/SKILL.md' 2>/dev/null | h
 | Path | What it is |
 |---|---|
 | `$SKILL_DIR/engine/build.py` | The pipeline (transcribe, plan, capture GitHub, sound, render, QA) |
-| `$SKILL_DIR/engine/template.html` | The animated scene template (white wall theme, Bold Pop brand) |
+| `$SKILL_DIR/engine/template.html` | The animated scene template (themes incl. cinematic `studio`, beats opening, Bold Pop brand) |
 | `$SKILL_DIR/mascot/clips/` | Animated mascot clips with transparency (`c1-talk` … `c10-bye`, `c9-cta-room.mp4`) |
 | `$SKILL_DIR/mascot/poses/` | Still mascot cutouts as WebP (thumbnails / extra uses) |
 | `$SKILL_DIR/brand/` | Logo, icon, `BRAND-KIT.md` |
-| `$SKILL_DIR/examples/5-paid-ai-tools/` | **Worked example** (`scenes.json` + voiceover). Copy its `scenes.json` as the starting point |
+| `$SKILL_DIR/examples/new-style-immich/` | **Worked example, new style** (`scenes.json` + Raju voiceover). Copy its `scenes.json` as the starting point |
+| `$SKILL_DIR/examples/5-paid-ai-tools/` | Older example in the original "wall" style |
 
 Each video gets its own project folder in the **working directory** (not inside the skill folder): `projects/<slug>/` holding `scenes.json`, the voiceover and an optional `music.mp3`.
 
 ## Requirements
 Python 3 with pip, ffmpeg, Node.js with Playwright + Chromium, and internet access (GitHub pages, Google Fonts, and a one-time Whisper model download). `setup.sh` installs the Python packages and checks the rest. If something is missing and can't be installed, tell the user exactly what is missing instead of producing a lower-quality video.
+
+## Full pipeline (voiceover → finished Reel)
+
+The user records and sends the voiceover themselves. Everything after that is automatic: they should not have to edit anything.
+
+1. **Script** (only if the user asks for one to record). Max 35 s (≤ 85 words), 4 parts: hook → problem → payoff → CTA.
+   Natural spoken Hinglish in "tum" (full sentences, like a friend talking, never clipped commands).
+   CTA template: "Agar iska link chahiye, toh comment mein KEYWORD likh do, main tumhe DM kar dunga."
+   Only real, verified free/open-source tools; marketing/business angle; no income claims.
+2. **Voice: use the user's recording.** Never generate a voice unless the user explicitly asks for one.
+   Only then: ElevenLabs library voice **Raju – Relatable Voice for Reels & Shorts** (`voice_id: En6h099lt2QcramUUkvb`,
+   model `eleven_v4`) via the ElevenLabs connector (`creative_generate_speech`, `generations_count: 1`, poll
+   `creative_get_flow_run_status`, download the mp3). Prompt in Devanagari with English words in Latin script and tool
+   names spelled phonetically (Immich → इमिच); no style notes in the prompt, since everything in it is spoken.
+3. **Clean the audio.** Transcribe, read it, and cut anything that is not the script (spoken instructions,
+   retakes, long silences) with ffmpeg `atrim`/`concat`. Tell the user what was cut.
+4. **Build** in the new style (below), QA, deliver (steps 5-8 of the Workflow).
+
+## New style (default): `"theme": "studio"`
+
+Modelled on top faceless creators: one calm cinematic set, many small beats. Start from
+`examples/new-style-immich/scenes.json`.
+
+- `"theme": "studio"`: soft wall with drifting window light, film grain, vignette, slow camera push-in on every scene.
+  Talk and beats mascots are framed as a medium close-up so the clip edges never show.
+- `"captions": "minimal"`: white outlined words, active word on yellow, no white boxes.
+- **First 3 seconds must change at least 3 times.** Open with a `beats` scene, never one held shot:
+```jsonc
+{"type": "beats", "start": "<first words as Whisper wrote them>", "text": "<hook + problem sentences>",
+ "beats": [
+  {"pose": "15-point-viewer", "shot": "mid", "zoomout": true, "tags": ["TUM BHI?"]},          // face fills frame, pulls back
+  {"at": "google", "pose": "17-money", "shot": "full", "big": "PAISE?", "tags": ["HAR MAHINE"]},
+  {"at": "rakhne", "pose": "12-annoyed", "shot": "mid", "bubble": "sirf photos ke liye?!", "bubble_side": "left"},
+  {"at": "phone", "pose": "06-phone", "notif": {"app": "Google One", "text": "Storage full · upgrade your plan", "amt": "100%"}},
+  {"at": "aur", "pose": "02-shocked", "shot": "close", "big": "UPGRADE?", "big_top": 240, "bubble": "plan upgrade karo...", "bubble_top": 1250}
+ ]}
+```
+  - `at`: word in this scene's `text` where the cut happens (first beat starts at the scene start). Aim for a cut every 0.7-1.5 s.
+  - `pose`: still from `mascot/poses/` (01-wave, 02-shocked, 03-point-left, 04-point-right, 05-thinking, 06-phone,
+    07-laptop, 08-excited, 10-bye, 11-sign, 12-annoyed, 13-laughing, 14-wink, 15-point-viewer, 16-whisper, 17-money, 18-thumbnail).
+    Never the same pose twice in a row.
+  - `shot`: `full` | `mid` | `close`. Mix them. Each cut gets a punch-in zoom, a whoosh, and a pop per label.
+  - Extras (any mix): `big` (huge dark-red word behind the mascot), `tags` (yellow sticky labels, max 2),
+    `bubble` (handwritten speech bubble; move with `bubble_top`/`bubble_side` so it never covers the mouth),
+    `chips` (numbered red squares), `notif` (phone notification card).
+- `talk` scenes also take `"bigword": "STORAGE"` (word behind the mascot) and `"chip": ["1", "GOOGLE PHOTOS"]` (step label).
+- Demo kind `photos`: photo-library search, `{"kind": "photos", "query": "beach", "pill": "SMART SEARCH"}` (drawn, illustrative).
+- CTA stays in the warm night room (`cta` scene), which is the second "set" of the style.
+
 
 ## Workflow
 

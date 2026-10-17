@@ -1,0 +1,117 @@
+{
+ "audio": "voiceover.mp3",
+ "language": "en",
+ "whisper_model": "medium",
+ "scenes": [
+  {
+   "type": "beats",
+   "start": "do you",
+   "text": "Kya tum bhi har mahine Google ko sirf photos rakhne ke liye paise de rahe ho? Phone ki storage full ho jaati hai, aur phir Google bolta hai ki plan upgrade karo.",
+   "beats": [
+    {
+     "pose": "15-point-viewer",
+     "shot": "mid",
+     "zoomout": true,
+     "tags": [
+      "TUM BHI?"
+     ],
+     "tag_top": 300
+    },
+    {
+     "at": "google",
+     "pose": "17-money",
+     "shot": "full",
+     "big": "PAISE?",
+     "tags": [
+      "HAR MAHINE"
+     ],
+     "tag_top": 330
+    },
+    {
+     "at": "rakhne",
+     "pose": "12-annoyed",
+     "shot": "mid",
+     "bubble": "sirf photos ke liye?!",
+     "bubble_side": "left",
+     "bubble_top": 250
+    },
+    {
+     "at": "phone",
+     "pose": "06-phone",
+     "shot": "mid",
+     "notif": {
+      "app": "Google One",
+      "text": "Storage full · upgrade your plan",
+      "amt": "100%"
+     },
+     "notif_top": 300
+    },
+    {
+     "at": "aur",
+     "pose": "02-shocked",
+     "shot": "close",
+     "big": "UPGRADE?",
+     "big_top": 240,
+     "bubble": "plan upgrade karo...",
+     "bubble_top": 1250,
+     "bubble_side": "left"
+    }
+   ]
+  },
+  {
+   "type": "tool",
+   "start": "iska ek",
+   "paid": "Google Photos",
+   "free": "Immich",
+   "mascot": "c5-point-right",
+   "tag": "free photo backup",
+   "flow": [
+    "vs",
+    "intro"
+   ],
+   "text": "Iska ek free tareeka hai. Immich naam ka ek tool hai,"
+  },
+  {
+   "type": "tool",
+   "start": "jo tumhari",
+   "free": "Immich",
+   "repo": "immich-app/immich",
+   "demo": {
+    "kind": "checklist",
+    "items": [
+     "Saari photos ka backup",
+     "Apna laptop / hard disk",
+     "Koi monthly plan nahi"
+    ]
+   },
+   "flow": [
+    "card",
+    "demo"
+   ],
+   "text": "jo tumhari saari photos tumhare apne laptop ya hard disk pe backup kar deta hai."
+  },
+  {
+   "type": "tool",
+   "start": "aur search",
+   "free": "Immich",
+   "demo": {
+    "kind": "photos",
+    "query": "beach",
+    "pill": "SMART SEARCH"
+   },
+   "flow": [
+    "demo"
+   ],
+   "text": "Aur search bhi karta hai. Beach likhoge, toh saari beach waali photos saamne aa jaayengi."
+  },
+  {
+   "type": "cta",
+   "start": "agar iska",
+   "keyword": "PHOTOS",
+   "text": "Agar iska link chahiye, toh comment mein PHOTOS likh do, main tumhe DM kar dunga."
+  }
+ ],
+ "whisper_hint": "Kya tum bhi har mahine Google ko sirf photos rakhne ke liye paise de rahe ho? Phone ki storage full ho jaati hai, aur phir Google bolta hai ki plan upgrade karo. Iska ek free tareeka hai. Immich naam ka ek tool hai, jo tumhari saari photos tumhare apne laptop ya hard disk pe backup kar deta hai. Aur search bhi karta hai. Beach likhoge, toh saari beach waali photos saamne aa jaayengi. Agar iska link chahiye, toh comment mein PHOTOS likh do, main tumhe DM kar dunga.",
+ "theme": "studio",
+ "captions": "minimal"
+}
