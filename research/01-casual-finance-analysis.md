@@ -80,11 +80,78 @@ Most of the weak ones are older (2025 or early 2026), before the channel had an 
 - **Money.** Videos carry **sponsor reads**: WhisperFlow in the SpaceX video and gamma.app in "Brace For Impact". [Verified] The sponsor sits in the middle of the video, right before the big reveal.
 - **The name.** "Casual Finance" with stick-figure art is very close in spirit to the established comedy channel *Casually Explained*. That is a reminder to give **our** channel its own name and character design (see Section 9).
 
-### Thumbnails: limitation
+### Thumbnail analysis
 
-My environment's network blocked downloading YouTube thumbnail images. **I have not seen the thumbnails**, so I won't describe them. Two cheap fixes:
-- You send me screenshots of 8–10 thumbnails, or
-- I use vidIQ's "similar thumbnails" tool (it costs credits).
+*Source: a PDF screenshot of the channel's "Popular" Videos tab showing **33 thumbnails** (supplied 17 Oct 2026). The images are small, so fine details like exact fonts and colour values are estimates.*
+
+**The winning formula** [Observed in about 22 of 33 thumbnails, including **all of the top 8**]
+
+```
++------------------------------------------------+
+| Short Statement.        [ real chart, line   ] |
+| (black serif, 2 lines)  [ shoots up in RED,  ] |
+|                         [ red circles/arrows,] |
+|   (character)           [ "2008" vs "2026"   ] |
+|  worried / blank        [ in red handwriting ] |
++------------------------------------------------+
+            plain WHITE background
+```
+
+1. **Text, top-left.** It is 2–4 words in **bold black serif type** (newspaper-like), on two lines and ending with a full stop. It reads as a calm, ominous **statement**, not a question.
+   - Examples: "This Should've Crashed.", "It's Happening Again.", "Nobody Can Stop It.", "It's A Trap.", "It's Just Starting.", "They're Selling Garbage.", "Nobody's Reacting.", "Guess Who Paid.", "We Can't Stop It.", "Open Your Eyes.", "Nobody's Paying Attention.", "Everyone's Missing This."
+   - **The text never repeats the title.** It adds a second emotional layer: title = topic, thumbnail = feeling.
+   - The vague subject ("It", "Nobody", "They") creates curiosity because the viewer must click to learn what "it" is.
+   - Red is used for just one word occasionally ("Are We **Cooked.**", "We're **F\*\*\*D.**").
+2. **A real data chart** on the right half: a screenshot of an actual financial chart.
+   - The line usually **spikes up (or crashes) in red at the far right end**, meaning "now".
+   - **Hand-drawn red annotations** sit on top: circles on peaks, arrows, and **year labels comparing a past crisis to today** ("2008" vs "2026", "1986" vs "2026", "2007–2008" vs "2026").
+   - This says "it's happening again" without words.
+   - Sometimes the chart is drawn **inside a cartoon frame** (an easel, a green chalkboard or a newspaper) so it feels part of the doodle world.
+3. **One small character, bottom-left or centre**, with a **worried, blank or smug face**.
+   - The recurring cast: the narrator stick figure; a **green USA-map character with big eyes** (the channel's real mascot, in about 10 thumbnails); a grey robot for AI topics; a top-hat banker; a politician-at-podium caricature; a Statue of Liberty.
+   - The character is small (about 15–25% of the frame). **The data is the star, the character gives the emotion.**
+4. **Lots of white space**, black linework, and **red as the only strong colour** (plus the green map). The result is very readable at phone size and stands out against the busy, photo-heavy thumbnails of other finance channels.
+
+**Exceptions that performed worse** [Observed; time is a confounding factor]
+- These broke the formula and sit lower on the popular list:
+  - Full-colour illustrated scenes: crypto magician on stage (589K), "Something Feels Off" prize wheel (560K), Statue of Liberty drowning (120K).
+  - A busy four-quadrant collage: "Every Type of Investor" (192K).
+  - No-text doodles: "Dumbest Investors" (237K), "Stock Market is BROKEN" (116K).
+- Most of these are **older**, from before the channel had an audience. So "the formula wins" is likely but **not proven** [Medium confidence].
+- The formula clearly became the **standard** for every recent upload.
+
+**How they are probably made** [Estimate]
+- A simple layered composite in **Photoshop, Canva or similar**: a library character PNG + a chart screenshot + hand-drawn red marks + a serif font.
+- Nothing looks AI-generated.
+- The same **template** is reused every week, which makes the channel instantly recognisable in the feed.
+
+**Branding seen on the page**
+- **Avatar:** the narrator's face.
+- **Banner:** a hand-drawn NYC skyline with "Subscribe" in handwriting.
+- **Bio:** "i make finance videos".
+- The channel has **Join** (memberships) and **Community** tabs enabled.
+
+### Our original thumbnail system (proposal)
+
+Keep the **principles**, change the **look**, so we are not a copy:
+
+| Element | Casual Finance | Ours (proposal) |
+|---|---|---|
+| Statement text | Black serif, 2–4 words, full stop | A different typeface (e.g. a heavy condensed sans-serif), still 2–4 words and never repeating the title |
+| Accent colour | Red only | Pick **one** different signature colour (e.g. orange or electric blue) for highlights and chart annotations |
+| Mascot | Green USA map with eyes | Our own recurring mascot, e.g. a worried dollar bill or a piggy bank (to be designed) |
+| Chart | Real chart, red "2008 vs 2026" labels | Real chart, our accent colour, our own annotation style (e.g. a highlighter box instead of circles) |
+| Layout | Text top-left, character bottom-left, chart right | A mirrored or different fixed grid, used consistently |
+
+**Thumbnail checklist for every video**
+1. One chart that shows the story at a glance.
+2. One emotional character, small.
+3. One 2–4 word statement that adds to the title rather than repeating it.
+4. One accent colour.
+5. White space.
+6. It must read clearly at phone size (test at 160 px wide).
+
+**Automation:** once the template exists, I can produce two or three text and chart variants per video for A/B testing (YouTube's "Test & Compare" feature). Choosing the final one stays a human decision.
 
 ---
 
@@ -356,7 +423,7 @@ channel/
 - What tools the creator actually uses (editing software, drawing app).
 - Whether any drawings are AI-assisted.
 - How much background music sits under the voice (needs listening, not measurement).
-- How the thumbnails look (blocked here; send screenshots).
+- Exact thumbnail fonts and colour values (only a small screenshot was available).
 - Audience retention numbers (only the channel owner can see these).
 
 ## Confidence summary
