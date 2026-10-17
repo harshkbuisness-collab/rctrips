@@ -1,4 +1,4 @@
-You are generating a full image asset library for a cartoon YouTube channel. Use the attached reference image (character style sheet) for character consistency and line style.
+You are generating a full image asset library for a cartoon YouTube channel about finance and economics. Use the attached reference image (character style sheet) for character consistency and line style.
 
 RULES (follow for every single image):
 1. Generate ONE separate image for EACH numbered item below. Never combine two items into one image.

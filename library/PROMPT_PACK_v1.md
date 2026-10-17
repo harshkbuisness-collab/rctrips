@@ -1,4 +1,4 @@
-# Master Asset Library — Prompt Pack v1 (≈180 images, generate once)
+# Master Asset Library — Prompt Pack v1 (≈207 images, generate once)
 
 **Purpose:** make the whole reusable library **one time**, in bulk. After that, every video is built from:
 1. This library
@@ -24,6 +24,7 @@
 | 6 | E01 – E24 | 24 |
 | 7 | E25 – E48 | 24 |
 | 8 | E49 – E55, F01 – F08 | 15 |
+| 9 | G01 – G24 | 24 |
 
 5. **Order:** go from batch 1 to batch 8. The sample video needs only batches 1, 3 and parts of 5–7, so the sample can be finished early.
 
@@ -237,6 +238,35 @@ Use the reference image for **line style only**. These are **new** characters, s
 | E54 | snail | Cute snail: a small cute snail moving slowly with tiny motion lines. |
 | E55 | handcuffs_chain | Ball and chain: a heavy iron ball on a chain. |
 
+## G. Finance extras (24) — added to cover all the reference channel's topic types
+
+| # | File | Prompt |
+|---|---|---|
+| G01 | bull_happy | Stock market bull happy: a cartoon green bull character standing proudly, happy face, flexing. |
+| G02 | bear_angry | Stock market bear angry: a cartoon brown bear character, angry face, claws up. |
+| G03 | bull_vs_bear | Bull and bear fighting: the green bull and the brown bear characters pushing against each other, cartoon fight. |
+| G04 | percent_happy | Percent sign character happy: a big orange percent sign character with dot eyes and a smile, stick arms and legs. |
+| G05 | percent_angry | Percent sign character angry growing: the same orange percent sign character, angry face, growing bigger, steam puffs. |
+| G06 | euro_coin | Euro coin character: a gold euro coin character with dot eyes and a nervous smile. |
+| G07 | yen_coin | Yen coin character: a silver yen coin character with dot eyes, worried face. |
+| G08 | yuan_coin | Yuan coin character: a red yuan coin character with dot eyes, smug face. |
+| G09 | capitol_building | Government capitol building: a white domed government capitol building, simple. |
+| G10 | central_bank_building | Central bank building: a grey stone central bank building with columns and a flag on top. |
+| G11 | stock_exchange | Stock exchange building: a classic stock exchange building with six columns and a big banner area left blank. |
+| G12 | ipo_bell | Stock exchange bell: a big brass bell ringing, with ring lines. |
+| G13 | map_usa_grey | USA map character: a grey map of the United States with big cartoon eyes and a worried mouth. |
+| G14 | map_china | China map character: a red map of China with big cartoon eyes and a smug smile. |
+| G15 | map_japan | Japan map character: a white-and-pink map of Japan with big cartoon eyes and a nervous face. |
+| G16 | map_europe | Europe map character: a blue map of Europe with big cartoon eyes and a tired face. |
+| G17 | map_india | India map character: a saffron-orange map of India with big cartoon eyes and a confident smile. |
+| G18 | army_tank | Cartoon army tank: a small simple green army tank. |
+| G19 | tariff_wall | Tariff wall: a brick wall with a big dollar sign painted on it and a cargo container stuck in front. |
+| G20 | loan_shark | Loan shark: a cartoon shark in a business suit holding a contract, grinning. |
+| G21 | landlord | Greedy landlord: a stick-figure landlord with a moustache and keys, holding out his hand for rent. |
+| G22 | for_rent_sign | For rent sign: a small house with a hanging sign showing a dollar sign and an up arrow. |
+| G23 | credit_meter | Credit score meter: a semicircle gauge meter going from red to green, needle pointing to red. |
+| G24 | storm_cloud | Recession storm cloud: a dark grey storm cloud with lightning and falling banknotes instead of rain. |
+
 ## F. Backgrounds (8)
 
 **Format:** 16:9, landscape. Instead of the STYLE line, use this:
@@ -255,7 +285,7 @@ Use the reference image for **line style only**. These are **new** characters, s
 
 ---
 
-**Total: 183 images.** At roughly 2 generations per image, expect about 350–400 generations in Flow; check your Flow credit balance before starting.
+**Total: 207 images.** At roughly 2 generations per image, expect about 400–450 generations in Flow; check your Flow credit balance before starting.
 
 ### What still happens per video (no work for you)
 - **Charts, news screenshots, headline cards and text:** I make these.
