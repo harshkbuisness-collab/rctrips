@@ -1,0 +1,40 @@
+# Sample 02: same topic, rebuilt to match the reference channel's style
+# (hook with real numbers -> "it's you" -> open loop -> skit -> chapters -> payoff -> callback + subscribe)
+# Facts: US CPI-U Jan 2020 257.971, Jan 2022 281.148, Jan 2025 317.671 (BLS) -> $100 buys $92 / $81.
+#        June 2022 CPI inflation 9.1% y/y, highest since Nov 1981. 100/1.03^10 = 74.4.
+
+Between twenty twenty and twenty twenty-five, || "What $100 buys"@0.5,0.12:84; bars:"2020"=100; A01@0.88,0.8:0.38
+American prices jumped more than twenty percent. || "What $100 buys"@0.5,0.12:84; bars:"2020"=100,"2022"=92; A01@0.88,0.8:0.38
+Which means a hundred dollars from twenty twenty || "What $100 buys"@0.5,0.12:84; bars:"2020"=100,"2022"=92,"2025"=81; A01@0.88,0.8:0.38
+now buys about eighty-one dollars of stuff. || "What $100 buys"@0.5,0.12:84; bars:"2020"=100,"2022"=92,"2025"=81:circle; A45@0.88,0.8:0.32; label:"ouch"@0.52,0.9>0.66,0.72
+So if you're wondering who's paying for all of this, || A05@0.5,0.55:0.75
+well, the answer is you. || A46@0.5,0.5:0.7!
+Or more specifically, the money sitting in your savings account. || B01@0.55,0.55:0.55; label:"your savings"@0.2,0.3>0.42,0.42
+And it's happening quietly, every single year. || B01@0.4,0.55:0.55; E23@0.72,0.5:0.4
+But before we get to who's actually winning here, || A06@0.5,0.55:0.75
+you need to understand one thing. || A17@0.5,0.55:0.75
+If you ask people on the street whether their money is safe in the bank, || A40@0.28,0.62:0.7; C09@0.72,0.62:0.62; bubble:"Is your money safe in the bank?"@0.44,0.2:l; label:"very serious journalist"@0.13,0.12>0.22,0.32
+most will say yes. || A40@0.28,0.62:0.7; C11@0.72,0.62:0.62; bubble:"Of course! It's in a BANK."@0.62,0.18:r
+And technically, they're right. || A14@0.5,0.55:0.75
+The number in your account never goes down. || B01@0.5,0.58:0.55; "$100"@0.5,0.14:120:orange
+But the stuff it buys does. || B01@0.3,0.58:0.5; "$100"@0.3,0.14:120:orange; E38@0.72,0.55:0.55!
+|| card:"THE SILENT TAX"|"chapter one"
+Economists call it inflation. || "INFLATION"@0.5,0.45:190:orange; A01@0.88,0.8:0.38
+I call it the silent tax. || "INFLATION"@0.5,0.45:190:orange; label:"(the silent tax)"@0.5,0.63; A04@0.12,0.75:0.42
+Prices creep up a little bit every year, || E37@0.5,0.55:0.7
+so every dollar you hold buys a little less. || E38@0.3,0.58:0.55; D02@0.72,0.58:0.55; bubble:"I used to be somebody."@0.72,0.15:r
+At a normal three percent, || chart@0-0
+your hundred dollars loses a quarter of its power in just ten years. || chart@0-10
+And that's the calm version. || chart@10-10; A14@0.86,0.25:0.3
+In June twenty twenty-two, US inflation hit nine point one percent. || headline:"US inflation hits 9.1%, the fastest price rise in four decades"|"US Bureau of Labor Statistics, June 2022"@0.55,0.42:9.1%; A08@0.12,0.78:0.4
+The highest in over forty years. || headline:"US inflation hits 9.1%, the fastest price rise in four decades"|"US Bureau of Labor Statistics, June 2022"@0.55,0.42:9.1%; A45@0.12,0.8:0.34; label:"not great"@0.5,0.85>0.32,0.82
+|| card:"SO WHO WINS?"|"chapter two"
+Here's the part nobody mentions. || A37@0.5,0.55:0.75
+If you owe a lot of money, inflation is kind of your friend, || D28@0.5,0.55:0.65; bubble:"Finally, some good news!"@0.78,0.18:r
+because the debt shrinks too. || D28@0.38,0.58:0.5; E46@0.75,0.55:0.4!
+So guess who the biggest borrower on the planet is? || A07@0.5,0.55:0.75
+The US government. || C05@0.45,0.58:0.7; D19@0.8,0.6:0.4; bubble:"We'll pay it back. Eventually."@0.25,0.18:l
+So the piggy bank isn't safe. || B02@0.5,0.58:0.55
+It's just... slow. || B02@0.35,0.58:0.5; E54@0.72,0.62:0.28!
+In the next video, I'll show you where money actually keeps its power. || A18@0.32,0.55:0.75; E17@0.68,0.45:0.35
+Subscribe, so inflation doesn't eat your savings before then. || A23@0.28,0.55:0.75; "SUBSCRIBE!"@0.68,0.42:150:orange; D03@0.68,0.75:0.3; "Not financial advice"@0.5,0.95:40:grey
