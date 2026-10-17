@@ -20,3 +20,8 @@
 3. A bridge in the same DM: "Ye Reel Claude ne banayi. Dekhna hai kaise?" leads to a demo, and we collect WhatsApp or email.
 4. Follow-up over 3–5 days: value, behind the scenes, the offer.
 5. About 1 in 5 Reels is product-world content, such as Claude demos and behind the scenes.
+
+## Brand voice (decided)
+- ElevenLabs library voice **Raju – Relatable Voice for Reels & Shorts**, voice_id `En6h099lt2QcramUUkvb`, model `eleven_v4`.
+- Write the script in Devanagari with English words in Latin (Google, photos, tool, link) for natural Hinglish. Write tool names phonetically in Devanagari (Immich = इमिच).
+- Free tier gets blocked from the cloud proxy; a paid plan (Starter) is needed for steady automation.
