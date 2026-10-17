@@ -190,6 +190,10 @@ def prepare_assets(cfg, build):
             os.makedirs(os.path.join(build, "poses"), exist_ok=True)
             for f in os.listdir(os.path.join(MASCOT, "poses")):
                 shutil.copy(os.path.join(MASCOT, "poses", f), os.path.join(build, "poses", f))
+        if sc["type"] == "beats" and not os.path.isdir(os.path.join(build, "poses")):
+            os.makedirs(os.path.join(build, "poses"), exist_ok=True)
+            for f in os.listdir(os.path.join(MASCOT, "poses")):
+                shutil.copy(os.path.join(MASCOT, "poses", f), os.path.join(build, "poses", f))
         if sc["type"] == "talk" and not sc.get("mascot"):
             clips.add("c1-talk")
     frames = {}
@@ -292,6 +296,14 @@ def sfx(plan, build):
                 x += ln[k]
         elif sc["type"] == "talk":
             place(pop(800, 0.12), a + 0.05, 0.4)
+        elif sc["type"] == "beats":
+            for j, b in enumerate(sc.get("beats", [])):
+                bt = a if j == 0 else wt(i, b.get("at", ""))
+                if bt is None:
+                    continue
+                place(whoosh(0.22) if j else hit() * 0.6, bt - (0.12 if j else 0), 0.45)
+                for k in range(len(b.get("tags", [])) + len(b.get("chips", [])) + bool(b.get("bubble")) + bool(b.get("notif"))):
+                    place(pop(850 + k * 140, 0.07), bt + 0.2 + k * 0.2, 0.3)
         elif sc["type"] == "cta":
             t = wt(i, sc.get("banner_at", "follow"))
             place(pop(600, 0.14), t if t is not None else a + 0.6, 0.5)

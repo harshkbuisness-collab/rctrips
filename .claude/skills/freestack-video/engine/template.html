@@ -90,6 +90,12 @@
   #cap.min .bk{background:none;box-shadow:none;padding:0;color:#fff;-webkit-text-stroke:3px #111;paint-order:stroke fill;text-shadow:0 6px 16px rgba(0,0,0,.45)}
   #cap.min .on{color:#111;-webkit-text-stroke:0;text-shadow:none;border-radius:10px}
   #cap.min span span{margin:0 6px}
+  /* beats: fast multi-shot opening (new style) */
+  .bt-tag{font:800 62px Inter;background:#FFE58A;color:#111;padding:12px 28px;border-radius:6px;box-shadow:0 10px 20px rgba(0,0,0,.18);white-space:nowrap}
+  .bt-tag:before{content:"";position:absolute;left:50%;top:-14px;width:70px;height:26px;margin-left:-35px;background:rgba(255,255,255,.7);transform:rotate(-4deg)}
+  .bt-bub{background:#fff;border:6px solid #111;border-radius:40px;padding:24px 40px;font:700 86px/1.05 Caveat;color:#111;max-width:620px;text-align:center;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+  .bt-bub:after{content:"";position:absolute;left:70px;bottom:-34px;border:18px solid transparent;border-top:24px solid #111}
+  .bt-chip{width:150px;height:150px;border-radius:34px;background:#8E2A2A;color:#fff;font:400 96px Anton;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 28px rgba(0,0,0,.25)}
 </style></head>
 <body><div id="stage">
 <div class="shd" style="left:120px;top:-200px;width:240px;height:2400px"></div>
@@ -146,6 +152,24 @@ window.init=function(plan){
 
 /* ---------------- scene builders ---------------- */
 const BUILD={
+ beats(sc){
+  const p={groups:[]};
+  const FR={full:[160,470,760],mid:[-20,360,1120],close:[-330,170,1740]};
+  (sc.beats||[]).forEach((b,i)=>{
+    const g=el(`<div class="full"></div>`); const o={g,b};
+    if(b.big) o.big=el(`<div class="abs bigword" style="top:${b.big_top||560}px;font-size:${Math.min(330,Math.round(1950/String(b.big).length))}px">${b.big}</div>`,g);
+    const f=FR[b.shot||'mid'];
+    o.m=el(`<img class="mascot" src="poses/${b.pose}.webp" style="left:${f[0]}px;top:${f[1]}px;width:${f[2]}px;transform-origin:50% 30%;${b.flip?'transform:scaleX(-1)':''}">`,g);
+    if(b.notif) o.notif=el(`<div class="abs notif" style="top:${b.notif_top||330}px"><div class="ic" style="background:#2E6BE6">${b.notif.app[0]}</div>
+       <div class="tx"><div class="t1">${b.notif.app}</div><div class="t2">${b.notif.text}</div></div><div class="amt">${b.notif.amt||'!'}</div></div>`,g);
+    o.tags=(b.tags||[]).map((x,j)=>el(`<div class="abs bt-tag" style="${j%2?'right:70px':'left:70px'};top:${(b.tag_top||330)+j*150}px">${x}</div>`,g));
+    if(b.bubble) o.bub=el(`<div class="abs bt-bub" style="${b.bubble_side==='left'?'left:60px':'right:60px'};top:${b.bubble_top||300}px">${b.bubble}</div>`,g);
+    o.chips=(b.chips||[]).map((x,j)=>el(`<div class="abs bt-chip" style="right:${90+j*40}px;top:${(b.chip_top||520)+j*200}px">${x}</div>`,g));
+    p.groups.push(o);
+  });
+  p.gs=p.groups.map(o=>o.g);   // DOM roots, so the scene loop hides them outside this scene
+  return p;
+ },
  hook(sc){
   const p={};
   const se=PLAN.series;
@@ -534,6 +558,24 @@ function renderIdent(sc,p,t,tS){
 /* ---------------- scene renderers ---------------- */
 let SHAKE=0, FLASH=0;
 const RENDER={
+ beats(sc,p,t){
+  const ts=p.groups.map((o,i)=>i===0?sc.start:(wordT(sc.i,o.b.at)??sc.start+i*sc.dur/p.groups.length));
+  let k=0; ts.forEach((x,i)=>{if(t>=x)k=i;});
+  p.groups.forEach((o,i)=>{
+    show(o.g,i===k); if(i!==k) return;
+    const u=t-ts[i], b=o.b;
+    let sc0=1.16-0.16*outCubic(prog(u,0,0.22));                 // punch-in on every beat
+    if(b.zoomout) sc0=2.0-1.0*outCubic(prog(u,0,0.7));           // face fills frame, then pulls back
+    const rise=i===0&&!b.zoomout?(1-outCubic(prog(u,0,0.3)))*500:0;
+    o.m.style.transform=(b.flip?'scaleX(-1) ':'')+`translateY(${rise}px) scale(${sc0*(1+0.015*u)})`;
+    if(o.big){const q=outCubic(prog(u,0.05,0.35));op(o.big,q);o.big.style.transform=`translateX(${(1-q)*-160+u*-20}px) scale(${1.2-0.2*q})`;}
+    if(o.notif){const q=outBack(prog(u,0.15,0.4));o.notif.style.transform=`translateY(${(1-q)*-400}px)`;op(o.notif,q>0?1:0);}
+    o.tags.forEach((e,j)=>{const q=outBack(prog(u,0.15+j*0.2,0.38+j*0.2));e.style.transform=`rotate(${j%2?4:-4}deg) scale(${q})`;op(e,q>0?1:0);});
+    if(o.bub){const q=outBack(prog(u,0.2,0.45));o.bub.style.transform=`scale(${q}) rotate(-2deg)`;op(o.bub,q>0?1:0);}
+    o.chips.forEach((e,j)=>{const q=outBack(prog(u,0.15+j*0.22,0.4+j*0.22));e.style.transform=`scale(${q}) rotate(${j%2?6:-6}deg)`;op(e,q>0?1:0);});
+    if(u<0.08&&i>0) FLASH=Math.max(FLASH,0.0);
+  });
+ },
  hook(sc,p,t){
   const u=t-sc.start;
   const tI=sc.impact?(wordT(sc.i,sc.impact.at)??sc.start+sc.dur*0.4):Infinity;
