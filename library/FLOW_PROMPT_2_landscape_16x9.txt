@@ -1,0 +1,26 @@
+You are generating a full image asset library for a cartoon YouTube channel. Use the attached reference image (character style sheet) for character consistency and line style.
+
+RULES (follow for every single image):
+1. Generate ONE separate image for EACH numbered item below. Never combine two items into one image.
+2. Aspect ratio: 16:9 (landscape) for every image.
+3. Work in batches of 24. Generate Batch 1 completely (all 24 images). As soon as Batch 1 is finished, immediately continue with Batch 2, then Batch 3, and so on, without stopping, until every item in the list is done.
+4. Keep the exact item order. If you can, use the item code (for example A01) as the image file name. Never draw or write the code inside the picture.
+5. The narrator and Penny must look exactly like the reference image in every image: same face, same hair, same glasses, same scarf, same colours, same line thickness.
+6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face.
+7. Never add text, letters, words, watermarks or logos unless the item asks for them.
+8. Style for every image: Simple hand-drawn doodle cartoon background, thick black marker outlines, flat muted colours, minimal detail, empty scene with no people, no text, wide landscape view.
+
+TOTAL: 8 images in 1 batches.
+
+
+=== BATCH 1 of 1 (8 images) ===
+F01. Living room background: a cosy living room with an orange couch, a lamp and a window.
+F02. Office background: a simple office with a desk, a computer and a window.
+F03. Bank lobby background: a grand bank lobby with columns and a teller counter.
+F04. City street background: a city street with shops and tall buildings.
+F05. Trading floor background: a stock trading floor with many screens showing charts.
+F06. Classroom background: a classroom with an empty green chalkboard and desks.
+F07. City skyline at night background: a city skyline at night with a moon.
+F08. Supermarket background: a supermarket aisle with shelves of products.
+
+END OF LIST. Make sure every item from the first to the last has its own separate image.

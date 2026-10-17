@@ -1,0 +1,207 @@
+You are generating a full image asset library for a cartoon YouTube channel. Use the attached reference image (character style sheet) for character consistency and line style.
+
+RULES (follow for every single image):
+1. Generate ONE separate image for EACH numbered item below. Never combine two items into one image.
+2. Aspect ratio: 9:16 (portrait) for every image.
+3. Work in batches of 24. Generate Batch 1 completely (all 24 images). As soon as Batch 1 is finished, immediately continue with Batch 2, then Batch 3, and so on, without stopping, until every item in the list is done.
+4. Keep the exact item order. If you can, use the item code (for example A01) as the image file name. Never draw or write the code inside the picture.
+5. The narrator and Penny must look exactly like the reference image in every image: same face, same hair, same glasses, same scarf, same colours, same line thickness.
+6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face.
+7. Never add text, letters, words, watermarks or logos unless the item asks for them.
+8. Style for every image: Simple hand-drawn doodle cartoon, thick black marker outlines with slightly wobbly lines, flat colours, minimal detail, no shading, no gradients, pure white background, centred, full body, lots of empty space around the subject, no text.
+
+TOTAL: 175 images in 8 batches.
+
+
+=== BATCH 1 of 8 (24 images) ===
+A01. Narrator standing neutral: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) standing straight, arms relaxed, calm neutral face.
+A02. Narrator happy smiling: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with a big friendly smile, arms relaxed.
+A03. Narrator laughing hard: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) laughing with eyes closed, mouth wide open, holding his belly.
+A04. Narrator smug arms crossed: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with a smug half-smile, arms crossed, confident.
+A05. Narrator suspicious hand on chin: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with one eyebrow raised, eyes narrowed, hand on chin.
+A06. Narrator thinking finger on temple: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) looking up, one finger on his temple, thinking.
+A07. Narrator confused question marks: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) scratching his head, confused face, three small question marks floating above him.
+A08. Narrator shocked hands on cheeks: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with eyes wide, mouth open in a big O, both hands on cheeks.
+A09. Narrator scared trembling: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) trembling with fear, knees together, small shake lines around him.
+A10. Narrator panicking running: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) running to the left in panic, arms flailing, sweat drops flying.
+A11. Narrator crying tears: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) crying with two streams of tears, sad open mouth.
+A12. Narrator angry red face: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) furious, red face, clenched fists, small steam puffs from his head.
+A13. Narrator facepalm: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with one hand covering his face in disappointment.
+A14. Narrator shrugging palms up: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) shrugging with both palms up, flat unimpressed face.
+A15. Narrator pointing right: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pointing to the right with his arm fully extended, serious explaining face, body facing right.
+A16. Narrator pointing left: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pointing to the left with his arm fully extended, serious explaining face, body facing left.
+A17. Narrator pointing up: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pointing straight up with one finger, mouth open as if making a point.
+A18. Narrator presenting open palm: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) presenting something to his right with an open palm, friendly face.
+A19. Narrator holding out empty hand: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with one arm held out to the right, palm up and empty, as if holding a small object, neutral face.
+A20. Narrator holding with both hands: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding both hands together in front of his chest, empty, as if holding a box, neutral face.
+A21. Narrator thumbs up: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) giving a thumbs up with a wink.
+A22. Narrator thumbs down: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) giving a thumbs down with a disappointed face.
+A23. Narrator waving hello: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) waving hello with a friendly smile.
+A24. Narrator at desk laptop: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) sitting at a simple desk typing on a laptop, side view.
+
+=== BATCH 2 of 8 (24 images) ===
+A25. Narrator sitting on couch: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) relaxing on a simple orange couch.
+A26. Narrator sleeping: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) asleep standing up, eyes closed, a few Z letters above his head.
+A27. Narrator reading newspaper: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) reading a large open newspaper, only his eyes and glasses visible above it.
+A28. Narrator looking at phone: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) staring at a smartphone in his hand, worried face.
+A29. Narrator drinking coffee: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) calmly sipping from a coffee mug.
+A30. Narrator counting money: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) happily counting a stack of green banknotes.
+A31. Narrator throwing money: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) throwing green banknotes into the air, excited face.
+A32. Narrator empty pockets: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pulling out his empty trouser pockets, a moth flying out, sad face.
+A33. Narrator walking right: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) walking to the right, side view, mid-step.
+A34. Narrator jumping celebrating: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) jumping in the air with both arms up, celebrating.
+A35. Narrator nervous sweating: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) nervous with a forced smile, big sweat drops on his face.
+A36. Narrator mind blown: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with a small cartoon explosion coming out of the top of his head, shocked face.
+A37. Narrator whispering secret: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) leaning forward with a hand beside his mouth, whispering a secret.
+A38. Narrator teacher with pointer stick: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding a long thin pointer stick aimed to the right, teacher pose.
+A39. Narrator magnifying glass: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) looking through a large magnifying glass, one eye huge.
+A40. Narrator holding microphone: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding a microphone like a street interviewer, cheerful face.
+A41. Narrator sitting on floor sad: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) sitting on the floor hugging his knees, sad face.
+A42. Narrator lying on floor defeated: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) lying flat on his back on the floor, arms spread, defeated face.
+A43. Narrator peeking from edge: only the head and one hand of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) peeking in from the left edge of the image, curious face.
+A44. Narrator head close-up neutral: big close-up of only the head of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf), neutral face.
+A45. Narrator head close-up shocked: big close-up of only the head of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf), extremely shocked face, mouth wide open.
+A46. Narrator head close-up smug: big close-up of only the head of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf), smug knowing smile, one eyebrow raised.
+A47. Narrator head close-up dead inside: big close-up of only the head of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf), blank tired stare, flat mouth.
+A48. Narrator stop hand: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding up one palm towards the viewer in a stop gesture, serious face.
+
+=== BATCH 3 of 8 (24 images) ===
+A49. Narrator in fancy suit: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) wearing a black tuxedo jacket and top hat over his scarf, posh smug face.
+A50. Narrator superhero pose: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with a small orange cape, hands on hips, heroic pose.
+B01. Penny happy sitting: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) smiling happily, sitting upright.
+B02. Penny worried sweating: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) with a worried face, nervous sweat drops, eyes looking sideways.
+B03. Penny crying: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) crying with big tears.
+B04. Penny angry: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) angry with a red face and furrowed brows.
+B05. Penny shocked: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) with a shocked face, eyes huge, mouth open.
+B06. Penny sleeping: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) asleep with eyes closed and small Z letters above.
+B07. Penny cool sunglasses: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) wearing black sunglasses, smug cool smile.
+B08. Penny cracked broken: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) with big cracks across her body, dizzy eyes.
+B09. Penny upside down empty: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) upside down being shaken, a single coin falling out of the slot.
+B10. Penny overflowing coins: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) very happy with gold coins overflowing from her slot.
+B11. Penny shrinking tiny: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) very small and shrinking, worried face, a large empty white space around her.
+B12. Penny running away: the same pink piggy bank character Penny from the reference image (pink, big round cartoon eyes, coin slot on top, small stubby legs) running away to the left on her little legs, scared face, motion lines.
+C01. Wall Street banker neutral: a stick-figure man in a navy suit and red tie with slick black hair, neutral face.
+C02. Wall Street banker greedy: the same navy-suit banker with slick black hair rubbing his hands together, greedy grin.
+C03. Wall Street banker shocked: the same navy-suit banker with slick black hair, shocked face, hands up.
+C04. Wall Street banker carrying money bag: the same navy-suit banker running away with a big sack marked with a dollar sign.
+C05. Politician at podium: a generic stick-figure politician in a grey suit and blue tie standing behind a wooden podium, talking, one hand raised.
+C06. Politician nervous: the same grey-suit politician sweating nervously, pulling his collar.
+C07. Politician fingers crossed: the same grey-suit politician smiling while hiding crossed fingers behind his back.
+C08. Politician shrugging: the same grey-suit politician shrugging, innocent face.
+C09. Young woman worker neutral: a stick-figure young woman with a brown ponytail and a green hoodie, neutral face.
+C10. Young woman worker stressed: the same ponytail woman in a green hoodie looking at a bill, stressed face.
+
+=== BATCH 4 of 8 (24 images) ===
+C11. Young woman worker happy: the same ponytail woman in a green hoodie smiling, holding a small paycheck.
+C12. Young woman worker shocked: the same ponytail woman in a green hoodie, shocked face, hands on head.
+C13. Old retiree with cane: an old stick-figure man with white hair and a walking cane, gentle smile.
+C14. Old retiree worried: the same old man with white hair and a cane looking worried at an empty wallet.
+C15. Old retiree relaxing: the same old man with white hair relaxing in a beach chair with sunglasses.
+C16. Old retiree angry: the same old man with white hair shaking his cane angrily.
+C17. AI robot neutral: a simple boxy grey robot with round eyes and a small antenna, standing.
+C18. AI robot evil grin: the same boxy grey robot with glowing red eyes and an evil grin, rubbing its metal hands.
+C19. AI robot broken: the same boxy grey robot with sparks, a loose spring and dizzy eyes.
+C20. AI robot eating money: the same boxy grey robot eating green banknotes.
+C21. Tech billionaire neutral: a generic stick-figure billionaire in a black turtleneck with dark sunglasses and slicked hair, smug face.
+C22. Tech billionaire riding rocket: the same black-turtleneck billionaire sitting on top of a small white rocket.
+C23. Tech billionaire laughing: the same black-turtleneck billionaire laughing while lying on a pile of money.
+C24. Tech billionaire shocked: the same black-turtleneck billionaire, shocked face, sunglasses slipping off.
+C25. Central banker with money printer: a stick-figure old man with a grey beard and glasses in a grey suit, turning the crank of a money printing machine that spits out banknotes.
+C26. Central banker worried: the same grey-beard central banker sweating, looking at a chart.
+C27. Curious kid: a small stick-figure kid with a red cap, curious face, asking a question.
+C28. Crowd of tiny stick figures: a loose group of fifteen tiny simple stick figures standing around.
+D01. Dollar bill character waving: a green paper dollar bill character with dot eyes, a smile and thin stick arms and legs, waving.
+D02. Dollar bill character sad: the same green dollar bill character with a sad face and drooping arms.
+D03. Dollar bill character melting: the same green dollar bill character melting like ice cream into a puddle, sad droopy eyes.
+D04. Dollar bill character running away: the same green dollar bill character running to the left, motion lines.
+D05. Dollar bill character flying away: the same green dollar bill character with small white wings flying away, waving goodbye.
+D06. Gold coin character happy: a round gold coin character with dot eyes and a smile, stick arms and legs.
+
+=== BATCH 5 of 8 (24 images) ===
+D07. Gold bar character smug: a shiny gold bar character with sunglasses and a smug smile.
+D08. Bitcoin coin character nervous: an orange Bitcoin coin character sweating nervously.
+D09. House character happy: a small cartoon house with windows as eyes and the door as a smiling mouth.
+D10. House character sad: the same small house with sad window eyes and a frowning door mouth.
+D11. House character with huge price tag: the same small house proudly wearing a giant price tag.
+D12. House character cracked: the same small house with big cracks and a worried face.
+D13. Green arrow character up: a thick green upward arrow character with a happy face, flexing.
+D14. Red arrow character crashing: a thick red downward arrow character with a scared face, falling.
+D15. Bank building character: a classic bank building with columns, with a smug face on the front.
+D16. Bank building character scared: the same columned bank building with a scared face, sweating.
+D17. Oil barrel character: a black oil barrel character with dot eyes and an angry face.
+D18. Credit card character evil: a credit card character with an evil grin, holding a tiny chain.
+D19. Money printer character: a money printing machine with happy eyes spitting out banknotes.
+D20. Earth globe character worried: a planet Earth character with a worried face, sweating.
+D21. Factory character sad: a small factory with smokestacks and a sad face, no smoke.
+D22. Car character: a small red car character with headlight eyes and a smile.
+D23. Computer chip character: a square computer chip character with a smug face and small stick legs.
+D24. Bond certificate character: an old paper bond certificate character with a nervous face.
+D25. Retirement fund document character: a paper document labelled with a small chart icon, with eyes and stick legs, nervous face.
+D26. Tax form character evil: a paper tax form character with an evil grin.
+D27. Calculator character shocked: a calculator character with a shocked face.
+D28. Debt monster: a big friendly-scary blob monster made of paper bills, with a huge grin.
+D29. Bubble character: a big shiny soap bubble character with a nervous face, about to pop.
+D30. Shopping bag character sad: a paper grocery bag character, almost empty, sad face.
+
+=== BATCH 6 of 8 (24 images) ===
+E01. Stack of green banknotes: a neat stack of green banknotes.
+E02. Money sack with dollar sign: a tied cloth sack with a big dollar sign.
+E03. Falling banknotes: about twenty green banknotes falling, scattered.
+E04. Pile of gold coins: a pile of gold coins.
+E05. Stack of gold bars: a pyramid stack of shiny gold bars.
+E06. Black briefcase: a closed black briefcase.
+E07. Open laptop: an open laptop with a blank screen.
+E08. Smartphone: a smartphone with a blank screen, front view.
+E09. Folded newspaper: a folded newspaper with squiggle lines for text.
+E10. Blank green chalkboard: an empty green chalkboard in a wooden frame.
+E11. Blank cork board: an empty cork board with four red pins.
+E12. Blank easel board: a wooden easel holding a large blank white board.
+E13. Old TV blank screen: an old box television with a blank screen.
+E14. Wooden podium: an empty wooden podium with a small microphone.
+E15. Simple desk: an empty simple wooden desk.
+E16. Magnifying glass: a large magnifying glass.
+E17. Glowing light bulb: a light bulb with yellow glow lines.
+E18. Cartoon bomb: a round black cartoon bomb with a lit fuse.
+E19. Cartoon fire: a cartoon flame, orange and yellow.
+E20. Metal trash can: a metal trash can with a lid.
+E21. Bank safe: a heavy steel safe with a round dial.
+E22. Balance scale: a balance scale with two empty pans, balanced.
+E23. Hourglass: an hourglass with sand running down.
+E24. Wall clock: a round wall clock.
+
+=== BATCH 7 of 8 (24 images) ===
+E25. Desk calendar: a desk calendar with a blank page.
+E26. White rocket: a small white rocket flying upward with a flame.
+E27. Gold crown: a gold crown.
+E28. Gold trophy: a gold trophy cup.
+E29. Wooden ladder: a tall wooden ladder.
+E30. Broken bridge: a simple bridge broken in the middle.
+E31. Cargo ship: a cargo ship stacked with colourful containers.
+E32. Oil rig: an oil pump jack.
+E33. Factory: a small factory with smokestacks and smoke.
+E34. Skyscrapers: three tall skyscrapers together.
+E35. Small house: a small simple house with a red roof.
+E36. Shopping cart full: a shopping cart full of groceries.
+E37. Shopping cart with rising prices: a shopping cart full of groceries with three price tags floating above it, each with a small upward orange arrow.
+E38. Shopping cart almost empty: a shopping cart with only one sad lonely apple inside.
+E39. Grocery bag: a paper grocery bag with bread and vegetables.
+E40. Takeaway coffee cup: a takeaway coffee cup.
+E41. Red car: a small red car, side view.
+E42. Airplane: a small passenger airplane flying.
+E43. Earth globe: a planet Earth globe.
+E44. Warning sign: a triangle warning sign with an exclamation mark, orange.
+E45. Big orange up arrow: a big hand-drawn orange arrow pointing up.
+E46. Big orange down arrow: a big hand-drawn orange arrow pointing down.
+E47. Cartoon explosion burst: a cartoon explosion burst, orange and yellow.
+E48. Three question marks: three hand-drawn black question marks.
+
+=== BATCH 8 of 8 (7 images) ===
+E49. Three exclamation marks: three hand-drawn orange exclamation marks.
+E50. Sweat drops: three light blue cartoon sweat drops.
+E51. Blank speech bubble: an empty white speech bubble with a black outline.
+E52. Blank thought bubble: an empty white cloud-shaped thought bubble with small circles.
+E53. Money printing machine: a money printing machine spitting out green banknotes.
+E54. Cute snail: a small cute snail moving slowly with tiny motion lines.
+E55. Ball and chain: a heavy iron ball on a chain.
+
+END OF LIST. Make sure every item from the first to the last has its own separate image.
