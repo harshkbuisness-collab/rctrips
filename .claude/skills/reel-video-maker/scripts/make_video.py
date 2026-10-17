@@ -13,7 +13,7 @@ video : check + optional cover (first 0.1 s, the Shorts thumbnail) + render + a 
         (<name>-frames.jpg, one frame per second) to look at before handing the video over.
 The tool's server is started automatically (and left running) when it is not already up.
 """
-import argparse, json, os, shutil, subprocess, sys, time, urllib.error, urllib.request
+import argparse, json, os, shutil, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 
 def say(*a):
@@ -177,11 +177,11 @@ def find_tool(given):
     writable folder (again when the skill ships a newer tool, see tool/VERSION)."""
     if given:
         return os.path.abspath(given)
-    if not os.path.isdir(BUNDLED):
-        sys.exit('no --tool given and this skill has no bundled tool/ folder')
     dest = os.environ.get('REEL_TOOL_DIR') or os.path.join(os.path.expanduser('~'), 'reel-engine-tool')
     ver = lambda d: open(os.path.join(d, 'VERSION')).read().strip() if os.path.exists(os.path.join(d, 'VERSION')) else ''
-    if ver(dest) != ver(BUNDLED) or not os.path.exists(os.path.join(dest, 'package.json')):
+    if not os.path.isdir(BUNDLED):
+        download_tool(dest, ver(dest))
+    elif ver(dest) != ver(BUNDLED) or not os.path.exists(os.path.join(dest, 'package.json')):
         say(f'== copying the Reel Engine tool to {dest}')
         shutil.copytree(BUNDLED, dest, dirs_exist_ok=True)
     hero = os.path.join(dest, 'public', 'library', 'hero')
@@ -191,6 +191,43 @@ def find_tool(given):
             say(f'== copying the H images from {pack}')
             shutil.copytree(pack, hero, dirs_exist_ok=True)
     return dest
+
+
+MANIFEST = os.path.join(os.path.dirname(HERE), 'tool-manifest.txt')
+
+
+def download_tool(dest, have_version):
+    """Light version of the skill (no tool/ folder, fits the 30 MB skill upload limit): download the full tool,
+    H images, clips and sounds at full quality from GitHub once (~62 MB, 591 files)."""
+    if not os.path.exists(MANIFEST):
+        sys.exit('no --tool given and this skill has neither a tool/ folder nor tool-manifest.txt')
+    meta, files = {}, []
+    for line in open(MANIFEST).read().splitlines():
+        if not line or line.startswith('#'): continue
+        k, _, v = line.partition(' ')
+        if k in ('repo', 'ref', 'prefix', 'version') and v: meta[k] = v
+        else: files.append(line)
+    if have_version == meta['version'] and os.path.exists(os.path.join(dest, 'package.json')):
+        return
+    from concurrent.futures import ThreadPoolExecutor
+    base = f"https://raw.githubusercontent.com/{meta['repo']}/{meta['ref']}/{meta['prefix']}"
+    say(f"== downloading the Reel Engine tool ({len(files)} files) to {dest}")
+
+    def get(rel):
+        out = os.path.join(dest, rel); os.makedirs(os.path.dirname(out), exist_ok=True)
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(base + urllib.parse.quote(rel), timeout=120) as r, open(out, 'wb') as f:
+                    shutil.copyfileobj(r, f)
+                return
+            except Exception as e:
+                if attempt == 3: raise SystemExit(f'download failed for {rel}: {e} (is github.com reachable?)')
+                time.sleep(2 ** attempt)
+    with ThreadPoolExecutor(12) as ex:
+        list(ex.map(get, files))
+    for sh in ('start.sh',):
+        if os.path.exists(os.path.join(dest, sh)): os.chmod(os.path.join(dest, sh), 0o755)
+    say('== tool downloaded')
 
 
 def find_hero_packs():

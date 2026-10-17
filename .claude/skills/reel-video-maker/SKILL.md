@@ -17,6 +17,7 @@ the JSON (follow steps 2–3 and give the file).
 | File | What |
 |---|---|
 | `tool/` | The whole Reel Engine tool, H images included (`tool/public/library/hero`); `setup` copies it to `~/reel-engine-tool` |
+| `tool-manifest.txt` | Light version (no `tool/`, under the 30 MB upload limit): `setup` downloads the same tool from GitHub instead |
 | `scripts/make_video.py` | Does everything after the plan: server, voice, cover, render, compress, frame sheet |
 | `scripts/add_cover.py` | Puts the owner's thumbnail on the first 0.1 s of a finished MP4 (no re-render) |
 | `scripts/check_plan.py` | Checks a plan against its script and the v5 style rules |
@@ -40,7 +41,8 @@ owner for tool files, never fall back to "JSON only". Once per computer / sessio
 ```bash
 python3 <skill>/scripts/make_video.py setup
 ```
-It copies `tool/` to `~/reel-engine-tool` (writable), runs `npm install`, installs the Python helpers and the AI
+It copies `tool/` to `~/reel-engine-tool` (writable; the light version without `tool/` downloads the identical
+files from github.com/harshkbuisness-collab/rctrips, ~62 MB, about 15 s), runs `npm install`, installs the Python helpers and the AI
 voice; the first voice downloads the voice model (~350 MB from github.com) once. `check` and `video` do this by
 themselves if it was not done. Needs Node 18+ and Python 3.9+ (ffmpeg optional). No API keys.
 `TOOL` below means `~/reel-engine-tool`; `--tool` can be left out everywhere.
