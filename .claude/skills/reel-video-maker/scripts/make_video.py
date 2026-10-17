@@ -179,7 +179,9 @@ def find_tool(given):
         return os.path.abspath(given)
     dest = os.environ.get('REEL_TOOL_DIR') or os.path.join(os.path.expanduser('~'), 'reel-engine-tool')
     ver = lambda d: open(os.path.join(d, 'VERSION')).read().strip() if os.path.exists(os.path.join(d, 'VERSION')) else ''
-    if not os.path.isdir(BUNDLED):
+    if not os.path.isdir(BUNDLED) and os.path.exists(BUNDLED_TAR):
+        unpack_tool(dest, ver(dest))
+    elif not os.path.isdir(BUNDLED):
         download_tool(dest, ver(dest))
     elif ver(dest) != ver(BUNDLED) or not os.path.exists(os.path.join(dest, 'package.json')):
         say(f'== copying the Reel Engine tool to {dest}')
@@ -191,6 +193,24 @@ def find_tool(given):
             say(f'== copying the H images from {pack}')
             shutil.copytree(pack, hero, dirs_exist_ok=True)
     return dest
+
+
+BUNDLED_TAR = os.path.join(os.path.dirname(HERE), 'tool.tar.gz')
+
+
+def unpack_tool(dest, have_version):
+    """Core version of the skill (skill uploads allow at most 200 files): the tool ships as one tool.tar.gz."""
+    import tarfile
+    with tarfile.open(BUNDLED_TAR) as tf:
+        v = tf.extractfile('VERSION').read().decode().strip()
+        if have_version == v and os.path.exists(os.path.join(dest, 'package.json')):
+            return
+        say(f'== unpacking the Reel Engine tool to {dest}')
+        os.makedirs(dest, exist_ok=True)
+        try:
+            tf.extractall(dest, filter='data')
+        except TypeError:          # Python < 3.12
+            tf.extractall(dest)
 
 
 MANIFEST = os.path.join(os.path.dirname(HERE), 'tool-manifest.txt')
