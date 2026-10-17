@@ -190,7 +190,8 @@ const BUILD={
   const p={};
   if(sc.bigword) p.big=el(`<div class="abs bigword" style="top:${sc.big_top||560}px;font-size:${Math.min(330,Math.round(1950/String(sc.bigword).length))}px">${sc.bigword}</div>`);
   if(sc.chip) p.chip=el(`<div class="abs chip"><b>${sc.chip[0]}</b>${sc.chip[1]}</div>`);
-  p.m=el(`<img class="mascot" style="left:118px;top:600px;width:844px;${sc.flip?'transform:scaleX(-1)':''}">`);
+  const close=PLAN.theme==='studio';   // medium close-up: clip edges fall outside the frame
+  p.m=el(`<img class="mascot" style="${close?'left:-150px;top:470px;width:1380px':'left:118px;top:600px;width:844px'};${sc.flip?'transform:scaleX(-1)':''}">`);
   p.title=el(`<div class="abs anton big" style="top:250px;font-size:${sc.title_size||130}px">${hl(sc.title)}</div>`);
   if(sc.tag) p.tag=el(`<div class="abs" style="left:0;right:0;top:${sc.tag_top||560}px;text-align:center"><span class="hand" style="font-size:80px;color:#111">${sc.tag}</span></div>`);
   return p;
