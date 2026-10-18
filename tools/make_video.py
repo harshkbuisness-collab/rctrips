@@ -65,11 +65,11 @@ TTS_MODEL = os.environ.get("KOKORO_DIR", "")
 # Emotional voice: Chatterbox (MIT licence) copies the Michael voice from VOICE_REF and adds feeling.
 # It needs its own Python (torch); point CHATTERBOX_PY at it. Without it, the flat Kokoro voice is used.
 CHATTERBOX_PY = os.environ.get("CHATTERBOX_PY", "")
-VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael_expressive.wav")   # an expressive take -> livelier copy
+VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael.wav")   # calm Michael take
 # [tag] at the start of a beat's words -> (exaggeration, cfg_weight). Higher exaggeration = more feeling,
 # lower cfg = slower, more deliberate delivery.
-EMOTIONS = {"neutral": (0.7, 0.4), "calm": (0.6, 0.45), "serious": (0.7, 0.4), "sarcastic": (0.85, 0.35),
-            "dramatic": (1.0, 0.3), "excited": (1.15, 0.3)}
+EMOTIONS = {"neutral": (0.45, 0.5), "calm": (0.4, 0.5), "serious": (0.45, 0.5), "sarcastic": (0.5, 0.5),
+            "dramatic": (0.55, 0.45), "excited": (0.6, 0.45)}   # calm narrator (owner approved, 18 Oct 2026)
 _fonts = {}
 
 
@@ -352,7 +352,13 @@ _marked = {}
 def doc_base(vdir, e):
     key = ("doc", e["file"])
     if key not in _cache:
-        _cache[key] = Image.open(os.path.join(vdir, "02_assets", "screens", e["file"])).convert("RGB")
+        im = Image.open(os.path.join(vdir, "02_assets", "screens", e["file"]))
+        if im.mode in ("RGBA", "LA", "P"):             # see-through charts go on white, not black
+            im = im.convert("RGBA")
+            bg = Image.new("RGBA", im.size, "white")
+            bg.alpha_composite(im)
+            im = bg
+        _cache[key] = im.convert("RGB")
     return _cache[key]
 
 
@@ -673,7 +679,8 @@ def render(beats, timings, audio, out_mp4, workdir, vdir):
     sf.write(mix_path, mix, SR)
     os.remove(voice_path)
     # raise to -14 LUFS (YouTube's level) with a peak limiter so loud syllables don't clip
-    loud = comp + f",volume={gain:.2f}dB,alimiter=limit=0.74:level=false"
+    soft = "highshelf=f=5000:g=-4,deesser=i=0.4,lowpass=f=11000,"   # takes the sharp edge off the voice
+    loud = soft + comp + f",volume={gain:.2f}dB,alimiter=limit=0.74:level=false"
 
     ff = subprocess.Popen(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", mix_path,
@@ -721,6 +728,11 @@ def check(beats, timings, vdir):
                 (ka, A), (kc, C) = texts[a], texts[c]
                 if A[0] < C[2] and C[0] < A[2] and A[1] < C[3] and C[1] < A[3]:
                     warnings.append(f"beat {i + 1}: {ka} overlaps {kc}")
+        things = [e for e in b["elems"] if e["kind"] not in ("title", "source", "sting", "hold", "endscreen")]
+        weight = sum(3 if e["kind"] == "group" else 2 if e["kind"] == "doc" or (e["kind"] == "img" and e["h"] >= 0.9) else 1
+                     for e in things)
+        if b["words"] and weight < 3:           # the reference fills each frame with several small things
+            warnings.append(f"beat {i + 1}: only {len(things)} thing(s) on screen")
         th = im.resize((480, 270))
         ImageDraw.Draw(th).text((8, 6), str(i + 1), font=font(FONT_HAND, 36), fill=(0, 90, 255))
         thumbs.append(th)
@@ -740,6 +752,12 @@ def main():
     wav, tj = os.path.join(vdir, "03_voice", "voiceover.wav"), os.path.join(vdir, "03_voice", "timings.json")
     if "--check" in sys.argv and os.path.exists(tj) and len(json.load(open(tj))) == len(beats):
         timings = json.load(open(tj))       # reuse the voice timings while fixing the layout
+    elif "--check" in sys.argv:             # no voice yet: estimate 150 words/min, enough for a layout check
+        timings, t = [], 0.25
+        for i, b in enumerate(beats):
+            d = max(0.8, len(b["words"].split()) / 2.5) if b["words"] else hold_of(b)
+            timings.append({"beat": i, "start": round(t, 3), "end": round(t + d, 3)})
+            t += d
     else:
         timings, audio = make_voice(beats, wav, tj)
         print(f"voice: {len(audio) / SR:.1f}s, {len(beats)} beats")

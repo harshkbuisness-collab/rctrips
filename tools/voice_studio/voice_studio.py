@@ -28,8 +28,8 @@ OUT_DIR = os.path.join(HERE, "output")
 CACHE_DIR = os.path.join(HERE, "cache")
 SR = 24000
 # feeling -> (exaggeration, cfg_weight): more exaggeration = more emotion, lower cfg = slower, more deliberate
-EMOTIONS = {"neutral": (0.7, 0.4), "calm": (0.6, 0.45), "serious": (0.7, 0.4), "sarcastic": (0.85, 0.35),
-            "dramatic": (1.0, 0.3), "excited": (1.15, 0.3)}
+EMOTIONS = {"neutral": (0.45, 0.5), "calm": (0.4, 0.5), "serious": (0.45, 0.5), "sarcastic": (0.5, 0.5),
+            "dramatic": (0.55, 0.45), "excited": (0.6, 0.45)}   # calm narrator (owner approved, 18 Oct 2026)
 PAUSE, PAUSE_LONG, PAUSE_PARAGRAPH = 0.25, 0.45, 0.7      # seconds after a sentence / "?" or "..." / blank line
 MAX_CHARS = 280                                            # longer sentences are split at commas
 
@@ -132,6 +132,11 @@ def save_voice(script, number, parts):
         audio += [a, np.zeros(int(pause * SR), dtype=np.float32)]
         t += len(a) / SR + pause
     full = np.concatenate(audio)
+    try:                                   # soften the sharp top end so the voice is easy on the ears
+        from scipy.signal import butter, sosfilt
+        full = sosfilt(butter(2, 9500, "low", fs=SR, output="sos"), full).astype(np.float32)
+    except Exception:
+        pass
     try:                                   # even loudness for every file (-16 LUFS)
         import pyloudnorm
         full = pyloudnorm.normalize.loudness(full, pyloudnorm.Meter(SR).integrated_loudness(full), -16.0)

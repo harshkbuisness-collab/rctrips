@@ -328,3 +328,30 @@ Simpler style for these: mostly black line art with at most one or two flat colo
 - **One-off gags** (like "a country map wearing sunglasses"):
   - With the Gemini API key set up, I generate them myself.
   - Without it, I build the gag from library pieces, or skip it.
+
+---
+
+## I. History and story props (added 18 Oct 2026 for Day 1 "1929 crash"; useful for every history video)
+
+| Code | Name | Prompt |
+|---|---|---|
+| I01 | narrator_1920s_flatcap | 1920s narrator: NARRATOR wearing a 1920s flat cap and suspenders, smiling and waving. |
+| I02 | shoeshine_boy | Shoeshine boy: a small stick-figure boy with a flat cap kneeling beside a small wooden shoeshine box, holding a brush. |
+| I03 | ticker_tape_machine | Stock ticker machine: an old 1920s stock ticker machine under a glass dome with a long curling paper tape coming out. |
+| I04 | radio_1920s | Old table radio: a 1920s wooden table radio with a round speaker grille and two round knobs. |
+| I05 | fridge_1920s | Old refrigerator: a 1920s white electric refrigerator on small legs with a round cooling coil on top. |
+| I06 | model_t_car | Old black car: a simple black 1920s car like a Model T, side view, no logo. |
+| I07 | assembly_line | Assembly line: a short factory conveyor belt carrying three identical little black 1920s cars. |
+| I08 | farmer_tractor | Farmer with tractor: a stick-figure farmer in a straw hat and overalls standing next to a small old red tractor. |
+| I09 | top_hat_rich_man | Rich man in top hat: a stick-figure rich man with a black top hat, monocle and tailcoat, smug smile. |
+| I10 | candlestick_phone | Old telephone: a 1920s candlestick telephone with the ear piece hanging on a hook. |
+| I11 | breadline_crowd | Breadline: a long line of small stick figures in hats and coats waiting in a queue, side view. |
+| I12 | hooverville_shack | Shack: a small shack built from scrap wood and cardboard with a dented tin roof. |
+| I13 | dust_storm_wall | Dust storm: a huge brown wall of dust rolling toward a small farmhouse. |
+| I14 | loaded_old_car | Car loaded with belongings: an old 1930s car piled high with furniture, a mattress and a chair tied on the roof, driving to the right. |
+| I15 | tent_camp | Tent camp: a row of three patched army tents with a small campfire. |
+| I16 | old_radio_microphone | 1930s microphone: a big round 1930s radio-broadcast microphone on a stand. |
+| I17 | bank_boarded_up | Closed bank: a small classical bank building with boarded-up doors and a big padlock. |
+| I18 | professor_mortarboard | Professor: a stick-figure professor with a mortarboard hat holding a pointer, very confident smile. |
+| I19 | crowd_panic | Panicking crowd: a crowd of small stick figures running in panic with arms up. |
+| I20 | narrator_pointing_chart_1920s | Narrator with old chart: NARRATOR holding a long pointer at a blank easel board, worried face. |

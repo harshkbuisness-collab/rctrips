@@ -19,7 +19,7 @@
 - Model T price fell from about $850 (1908) to $260 (1925).
 - Irving Fisher, "permanently high plateau" (Oct 1929). Roger Babson, "sooner or later a crash is coming" (5 Sep 1929).
 - Hoover, "nearer to the final triumph over poverty than ever before" (Aug 1928).
-- Bank of United States closed 11 Dec 1930 (about 400,000 depositors). About 9,000 banks failed in the 1930s. Money supply fell about one third, 1929–33.
+- Bank of United States closed 11 Dec 1930 (about 400,000 depositors). About 9,000 banks failed in the 1930s. Money supply fell nearly 30%, fall 1930 to winter 1933 (Federal Reserve History).
 - Smoot-Hawley Tariff signed June 1930; 1,028 economists asked Hoover to veto it. World trade fell by about two-thirds, 1929–34.
 - Unemployment about 25% (1933). Bonus Army, July 1932.
 - FDR inaugurated 4 Mar 1933, bank holiday 6 Mar; FDIC 1933; SEC 1934; Social Security 1935. FDIC limit today: $250,000.
@@ -189,7 +189,7 @@ So people did the only logical thing. They ran. If you hear your bank might be i
 [serious] Then it spread. Wave after wave of bank runs, city after city. Over the next few years, about nine thousand American banks failed.
 *[VISUAL: map of the US filling with small bank icons turning red one by one]*
 
-[calm] And here's where it turned from bad to catastrophic. When banks fail and people hide cash under the mattress, the amount of money moving through the economy shrinks. Between 1929 and 1933, America's money supply fell by about a third.
+[calm] And here's where it turned from bad to catastrophic. When banks fail and people hide cash under the mattress, the amount of money moving through the economy shrinks. Between 1930 and 1933, America's money supply fell by nearly thirty percent.
 *[VISUAL: pile of money shrinking by a third; mattress with cash under it]*
 
 Less money means prices fall. That sounds nice… cheaper groceries! But think about it from the other side. If you're a farmer, your crops sell for less, but your mortgage payment stays exactly the same. If you're a factory, your products sell for less, so you cut wages, or you cut workers. Every falling price is somebody's falling paycheck.
