@@ -56,3 +56,7 @@ beyond the screenshots, sting is a simple self-made chord (owner may supply a be
 **Network:** the owner set environment Network access = Full. Fetching news/data sites and screenshots should work in a new session (in the old session, apnews/bls/cnbc returned 403).
 
 **Library images:** all 235 present (G06, G13, G15, G18, H01, H12, H14, H15 added 18 Oct 2026; extra bricks/TV/apartment versions in `alt/`).
+
+
+## Owner rule (18 Oct 2026)
+- **No new drawings.** The owner will not make more Google Flow images. Build every video from `library/assets` (235 images) plus real screenshots/photos only. Don't ask for new prompts. (`FLOW_PROMPT_1_history_*` was made before this rule; ignore it.)
