@@ -6,12 +6,13 @@ Already saved screenshots are skipped. HTML pages: real headless Chromium throug
 scrolled to the quoted highlight text and that text's box is stored (fractions) for the yellow highlighter.
 PDFs: downloaded, the page holding the quote is rendered with pdftoppm.
 """
-import json, os, re, subprocess, sys, tempfile, urllib.request
+import json, os, re, subprocess, sys, tempfile
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "sheet"))
 import parse_script
 
 W, H = 1600, 1000
+CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium")
 
 
 def cues(script):
@@ -32,11 +33,18 @@ def quote(what):
     return m.group(1).strip() if m else ""
 
 
-def get_pdf(c, path):
-    tmp = tempfile.mkdtemp()
-    pdf = os.path.join(tmp, "f.pdf")
-    req = urllib.request.Request(c["url"], headers={"User-Agent": "Mozilla/5.0"})
-    open(pdf, "wb").write(urllib.request.urlopen(req, timeout=60).read())
+PDFS = {}
+
+
+def get_pdf(ctx, c, path):
+    pdf = PDFS.get(c["url"])
+    if not pdf:
+        r = ctx.request.get(c["url"], timeout=60000)
+        if not r.ok:
+            raise RuntimeError(f"HTTP {r.status}")
+        pdf = os.path.join(tempfile.mkdtemp(), "f.pdf")
+        open(pdf, "wb").write(r.body())
+        PDFS[c["url"]] = pdf
     page, q = 1, quote(c["what"]).lower()
     if q:
         txt = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout
@@ -49,8 +57,8 @@ def get_pdf(c, path):
     return None, page
 
 
-def get_html(browser, c, path):
-    pg = browser.new_page(viewport={"width": W, "height": H})
+def get_html(ctx, c, path):
+    pg = ctx.new_page()
     try:
         pg.goto(c["url"], wait_until="domcontentloaded", timeout=45000)
         pg.wait_for_timeout(2500)
@@ -84,9 +92,12 @@ def main(script, vdir):
     os.makedirs(out, exist_ok=True)
     meta_p = os.path.join(out, "screens.json")
     old = {m["file"]: m for m in json.load(open(meta_p))} if os.path.exists(meta_p) else {}
-    cs, browser = cues(script), None
+    cs = cues(script)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
+        proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+        browser = p.chromium.launch(executable_path=CHROME, proxy={"server": proxy} if proxy else None)
+        ctx = browser.new_context(viewport={"width": W, "height": H}, accept_downloads=True)
         for c in cs:
             path = os.path.join(out, c["file"])
             if os.path.exists(path) and old.get(c["file"], {}).get("url") == c["url"]:
@@ -94,20 +105,16 @@ def main(script, vdir):
                 continue
             try:
                 if c["url"].lower().split("?")[0].endswith(".pdf"):
-                    c["box"], c["page"] = get_pdf(c, path)
+                    c["box"], c["page"] = get_pdf(ctx, c, path)
                 else:
-                    if browser is None:
-                        proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
-                        browser = p.chromium.launch(proxy={"server": proxy} if proxy else None)
-                    c["box"], c["page"] = get_html(browser, c, path)
+                    c["box"], c["page"] = get_html(ctx, c, path)
                 c["ok"] = True
             except Exception as e:
                 c["ok"], c["error"] = False, str(e).splitlines()[0][:200]
                 if os.path.exists(path):
                     os.remove(path)
             print(("ok  " if c["ok"] else "FAIL"), c["file"], c["url"], c.get("error", ""))
-        if browser:
-            browser.close()
+        browser.close()
     json.dump(cs, open(meta_p, "w"), indent=1)
     bad = [c for c in cs if not c.get("ok")]
     print(f"{len(cs) - len(bad)}/{len(cs)} screenshots saved in {out}")
