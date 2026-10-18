@@ -21,6 +21,11 @@ save credits, commit and push every change.
    chapter bridges to the next. About 2,000–2,200 words (about 14 minutes). Rules and file format:
    `research/07-script-style-guide.md`.
 6. US / tier-1 audience. Render only the requested video.
+7. **Save credits, always (owner rule, 18 Oct 2026).** Work in a small, organised way:
+   - Ask before any big or costly job (many subagents, lots of web research, long renders). Say first roughly how big it is.
+   - Never run many subagents in parallel unless the owner agrees to it for that job.
+   - Do one step at a time. Commit and push after each step. Keep replies short.
+   - The owner writes scripts with ChatGPT (`research/08-chatgpt-prompts.md`). Claude checks the format, builds the sheet and makes the videos.
 
 ### Current task: 30 full scripts, then one review sheet
 - The plan for 30 days is in `tools/sheet/plan_rows.py` (title, hook, outline, facts, evidence) and
