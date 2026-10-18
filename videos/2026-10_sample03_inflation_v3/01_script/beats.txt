@@ -9,10 +9,10 @@
 
 # --- hook: the real report, then "it's you"
 [calm] Last week, the Bureau of Labor Statistics || doc:bls_logo.jpg@0.5,0.45 w=0.62 frame=0
-put out a report you probably didn't read. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="U.S. Bureau of Labor Statistics, 14 Oct 2026"; H04@0.9,1.0:0.36:bottom
-[serious] It says prices are up three point seven percent in a year. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73+0.6; H04@0.9,1.0:0.36:bottom
-[dramatic] And gasoline? || doc:bls_release.jpg@0.47,0.4 w=0.86 src="U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835; H04@0.9,1.0:0.36:bottom
-[excited] Up nine percent. In one month. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835 circ=0.215,0.75,0.35,0.86+0.5; A16@0.88,0.82:0.36; note:"in ONE month"@0.42,0.9>0.28,0.6
+put out a report you probably didn't read. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026"; H04@0.92,1.0:0.33:bottom
+[serious] It says prices are up three point seven percent in a year. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73+0.6; H04@0.92,1.0:0.33:bottom
+[dramatic] And gasoline? || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835; H04@0.92,1.0:0.33:bottom
+[excited] Up nine percent. In one month. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835 circ=0.215,0.75,0.35,0.86+0.5; A16@0.88,0.82:0.36; note:"in ONE month"@0.42,0.9>0.28,0.6
 [sarcastic] So if you're wondering who's paying for all of this, || A05@0.5,0.55:0.75
 [dramatic] well... it's you. || A46@0.5,0.72:1.5
 Or more specifically, the money sitting in your savings account. || B01@0.55,0.58:0.55; label:"your savings"@0.2,0.3>0.42,0.45
@@ -42,13 +42,13 @@ That's the last five years. || doc:fred_cpi_1947_2026.jpg@0.42,0.5 w=0.76 circ=0
 
 # --- section 2: the news
 || title:"The receipts"; sting; A27@0.5,0.56:0.72; hold:1.3
-[serious] And it's heating up again. || title:"The receipts"; doc:npr_headline.jpg@0.42,0.54 w=0.58 h=0.8 src="NPR, 14 Oct 2026"; H04@0.85,1.0:0.42:bottom
-Inflation sizzled in September, according to NPR. || doc:npr_headline.jpg@0.42,0.54 w=0.58 h=0.8 src="NPR, 14 Oct 2026" circ=0.22,0.045,0.46,0.12; H04@0.85,1.0:0.42:bottom
-[serious] Heating oil, which millions of families use to stay warm, is up seventy-four percent in a year. || doc:npr_para_heating_oil.jpg@0.5,0.34 w=0.88 src="NPR, 14 Oct 2026" hl=0.06,0.44,0.295,0.6+2.5; A35@0.82,0.76:0.5
+[serious] And it's heating up again. || title:"The receipts"; doc:npr_headline.jpg@0.42,0.52 w=0.58 h=0.78 src="Source: NPR, 14 Oct 2026"; H04@0.85,1.0:0.42:bottom
+Inflation sizzled in September, according to NPR. || doc:npr_headline.jpg@0.42,0.52 w=0.58 h=0.78 src="Source: NPR, 14 Oct 2026" circ=0.22,0.045,0.46,0.12; H04@0.85,1.0:0.42:bottom
+[serious] Heating oil, which millions of families use to stay warm, is up seventy-four percent in a year. || doc:npr_para_heating_oil.jpg@0.5,0.34 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.06,0.44,0.295,0.6+2.5; A35@0.82,0.76:0.5
 [excited] Yes. Seventy-four. || A45@0.5,0.72:1.5
-Social Security is raising payments by three point six percent next year, || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38+1.2; C15@0.2,0.78:0.4
-[sarcastic] which sounds nice, until you remember prices already went up three point seven. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red
-[dramatic] So the raise is spent before it even arrives. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red; xmark+0.5
+Social Security is raising payments by three point six percent next year, || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38+1.2; C15@0.2,0.78:0.4
+[sarcastic] which sounds nice, until you remember prices already went up three point seven. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red
+[dramatic] So the raise is spent before it even arrives. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red; xmark+0.5
 
 # --- section 3: who wins
 || title:"So who wins?"; sting; A06@0.5,0.56:0.72; hold:1.3

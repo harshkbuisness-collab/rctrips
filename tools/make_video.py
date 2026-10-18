@@ -59,17 +59,17 @@ POS = {"center": (0.5, 0.52), "left": (0.3, 0.52), "right": (0.7, 0.52), "top": 
 PROP_AREA = {"H16": (0.1, 0.12, 0.9, 0.88, BLACK), "H17": (0.08, 0.42, 0.7, 0.86, BLACK),
              "H18": (0.44, 0.22, 0.96, 0.56, (255, 255, 255))}
 VOICE, SPEED = "am_michael", 1.1
-GAP, GAP_LONG = 0.18, 0.3            # pause after a sentence / after "..." or "?"
+GAP, GAP_LONG = 0.25, 0.45           # pause after a sentence / after "..." or "?"
 ROOM_TONE_DB = -56                   # faint room noise under everything, like a real microphone
 TTS_MODEL = os.environ.get("KOKORO_DIR", "")
 # Emotional voice: Chatterbox (MIT licence) copies the Michael voice from VOICE_REF and adds feeling.
 # It needs its own Python (torch); point CHATTERBOX_PY at it. Without it, the flat Kokoro voice is used.
 CHATTERBOX_PY = os.environ.get("CHATTERBOX_PY", "")
-VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael.wav")
+VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael_expressive.wav")   # an expressive take -> livelier copy
 # [tag] at the start of a beat's words -> (exaggeration, cfg_weight). Higher exaggeration = more feeling,
 # lower cfg = slower, more deliberate delivery.
-EMOTIONS = {"neutral": (0.5, 0.5), "calm": (0.35, 0.5), "serious": (0.45, 0.55), "sarcastic": (0.6, 0.45),
-            "dramatic": (0.7, 0.3), "excited": (0.9, 0.35)}
+EMOTIONS = {"neutral": (0.7, 0.4), "calm": (0.6, 0.45), "serious": (0.7, 0.4), "sarcastic": (0.85, 0.35),
+            "dramatic": (1.0, 0.3), "excited": (1.15, 0.3)}
 _fonts = {}
 
 
@@ -402,9 +402,9 @@ def draw_doc(canvas, vdir, e, t, boxes):
     canvas.paste(im, (px, py))
     if e["frame"]:
         d.rectangle([px - 1, py - 1, px + dw, py + dh], outline=(150, 150, 150), width=2)
-    if e["src"]:
-        d.text((px, py + dh + 22), e["src"], font=font(FONT_HAND, 34), fill=GREY, anchor="lm")
-    boxes.append(("doc", (px, py, px + dw, py + dh + (44 if e["src"] else 0))))
+    if e["src"]:   # source line: clear of the box shadow, lined up with the box's left edge
+        d.text((px, py + dh + 30), e["src"], font=font(FONT_HAND, 36), fill=GREY, anchor="lt")
+    boxes.append(("doc", (px, py, px + dw, py + dh + (72 if e["src"] else 0))))
 
 
 # ---------- drawing ----------
