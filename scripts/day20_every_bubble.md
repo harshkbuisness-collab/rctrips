@@ -29,6 +29,8 @@ Traders met in taverns to buy and sell. Often they signed a paper promising to b
 > SCREEN: Wikipedia, "Tulip mania" | https://en.wikipedia.org/wiki/Tulip_mania | the lead paragraph; highlight "more than 10 times the annual income of a skilled artisan"
 Then, in early February 1637, at an auction in Haarlem, the buyers simply did not show up.
 > VISUAL: E25_calendar flips to "FEB 1637"; E14_podium with a small auctioneer; empty chairs slide in one by one; H09 stands alone in the room holding his box; E24_clock ticks.
+Imagine standing in that room. Yesterday, your bulb was worth more than a house. Today, nobody will even make an offer.
+> VISUAL: close-up on H09 holding H19_box_closed; E35_small_house doodle above the box fades out; H17 price tag flips to "NO OFFERS"; E50_sweat_drops appear.
 Within days, the trade stopped. Most of those paper promises were never paid at all.
 > VISUAL: H15 paper notes drop one by one into E20_trash_can; D14_chart_arrow_down slides in; H09 changes to A41_narrator_sitting_sad pose beside the trash can.
 [calm] Now, to be fair, modern historians think the damage was smaller than the old stories say. Only a handful of big traders went broke.
@@ -36,7 +38,7 @@ Within days, the trade stopped. Most of those paper promises were never paid at 
 But the lesson stuck. A price can climb far above what a thing is worth, just because everyone expects someone else to pay more.
 > VISUAL: E29_ladder slides in; H17 price tag climbs it rung by rung; at the top, E48_question_marks appear; D29_bubble_character floats beside the ladder.
 And less than a hundred years later, in London, the same idea came back, this time wearing a powdered wig.
-> VISUAL: E25_calendar flips from "1637" to "1720"; H49 style: A49_narrator_bow_tie_fancy slides in from the right; F04_bg_city_street changes to a grey London tint.
+> VISUAL: E25_calendar flips from "1637" to "1720"; A49_narrator_bow_tie_fancy slides in from the right; F04_bg_city_street changes to a grey London tint.
 
 ## CHAPTER 2: The Company That Bought a Country's Debt
 [calm] In 1720, Britain owed a lot of money from its wars. A trading firm called the South Sea Company made the government an offer.
@@ -44,6 +46,8 @@ And less than a hundred years later, in London, the same idea came back, this ti
 > SCREEN: Wikimedia Commons, Category: South Sea Bubble | https://commons.wikimedia.org/wiki/Category:South_Sea_Bubble | the gallery of 1720 prints; highlight the folder "Het Groote Tafereel der Dwaasheid, 1720"
 The deal was simple. People who held government debt could swap it for shares in the company.
 > VISUAL: D24_bond_document slides from the debt monster toward the briefcase; an arrow appears; a share certificate H15_paper_note_blank slides back; G04_percent_happy pops up.
+A share is a small slice of a company. If the company does well, your slice is worth more.
+> VISUAL: a pie doodle on E12_easel_board; one slice slides out to a stick figure; D13_chart_arrow_up appears next to the slice and the slice grows a little.
 If the share price went up, everyone won. So the company had one big reason to make the price go up.
 > VISUAL: D13_chart_arrow_up rises in steps; C02_banker_greedy walks in rubbing his hands; E17_light_bulb flicks on above him.
 And it did. In January 1720, one share cost about one hundred and twenty-eight pounds. By early August, it was about one thousand.
@@ -51,6 +55,8 @@ And it did. In January 1720, one share cost about one hundred and twenty-eight p
 > SCREEN: Wikimedia Commons, South Sea Bubble price chart | https://commons.wikimedia.org/wiki/File:South-sea-bubble-chart.png | the 1720 spike; circle the August peak in red
 [calm] Lords, servants, and shopkeepers all jumped in. New companies popped up everywhere, some with no clear business at all.
 > VISUAL: C28_crowd_small walks in from both sides; H09_guy_curly_neutral is in the crowd again, now in a wig doodle; small H18_sign_blank boards pop up reading "NEW COMPANY", "NEW COMPANY", "???".
+That June, Parliament passed a law called the Bubble Act, to stop new companies forming without permission. The South Sea Company itself pushed for it, to keep rivals away from investors' money.
+> VISUAL: G09_capitol_building; H28_paper_stack with a stamp "BUBBLE ACT, JUNE 1720"; the "NEW COMPANY" signs slide off screen one by one; E06_briefcase "SOUTH SEA CO." grins with A04_narrator_smug face beside it.
 Even Isaac Newton, one of the smartest people who ever lived, owned South Sea stock.
 > VISUAL: A06_narrator_thinking in a wig slides in; E10_chalkboard behind him fills with math doodles; a share certificate drops into his hands.
 > SCREEN: Wikimedia Commons, Category: Isaac Newton | https://commons.wikimedia.org/wiki/Category:Isaac_Newton | the Godfrey Kneller portrait of Newton
@@ -59,6 +65,8 @@ Then the price turned. By the end of September it was down to about one hundred 
 Records show Newton lost at least ten thousand pounds, a fortune at the time.
 > VISUAL: A41_narrator_sitting_sad in a wig; E04_coin_pile shrinks beside him; label "at least £10,000 lost".
 > SCREEN: Wikipedia, "South Sea Company" | https://en.wikipedia.org/wiki/South_Sea_Company | the 1720 share price paragraph and the line on Newton's losses
+People often quote him saying he could calculate the stars, but not the madness of people. Historians are not sure he ever said it. But the loss was real.
+> VISUAL: E51_speech_bubble with stars doodle appears over the wigged figure; a small E48_question_marks stamp lands on the bubble; then the bubble fades, leaving the E04 coin pile shrinking.
 [calm] And our last buyer? He bought in the summer, at the top, with the whole town cheering.
 > VISUAL: H09 holds a share certificate up proudly; the crowd behind him fades out one by one; he is left alone; E50_sweat_drops appear.
 But here's what makes the next bubble different. This time, the thing people were buying was real, useful, and about to change the world.
@@ -69,6 +77,8 @@ But here's what makes the next bubble different. This time, the thing people wer
 > VISUAL: F04_bg_city_street; E41_car "steam train" crosses the screen left to right; small houses E35_small_house and factories E33_factory pop up along its track.
 A trip that took days by horse now took hours. Every town wanted a station. Every investor wanted a railway share.
 > VISUAL: E24_clock spins fast then slows; H18_sign_blank stations pop up reading "STATION" in a row; C28_crowd_small runs in from the right holding E01 cash.
+And it was easy to believe. Trains were real. You could see them, ride them, and hear them. How could that ever be a bubble?
+> VISUAL: H09 waves at the passing train with A23_narrator_wave pose; puff clouds drift by; E52_thought_bubble over him reads "This is real"; a small D29_bubble_character floats in quietly behind the train.
 In 1846 alone, Parliament passed two hundred and sixty-three acts to create new railway companies.
 > VISUAL: G09_capitol_building slides in; H28_paper_stack grows taller and taller; a counter label climbs to "263".
 > SCREEN: Wikipedia, "Railway Mania" | https://en.wikipedia.org/wiki/Railway_Mania | highlight "263 Acts of Parliament" and "9,500 miles"
@@ -97,6 +107,8 @@ So a bubble can sit on top of something real. That idea will matter a lot when w
 Many buyers did not pay full price for their stocks. They put down about ten percent and borrowed the rest. That's called buying on margin.
 > VISUAL: E12_easel_board slides in with a bar: small green part "10% yours", big grey part "90% borrowed"; C01_banker_neutral hands E01 cash to H09.
 > SCREEN: Federal Reserve History, "Stock Market Crash of 1929" | https://www.federalreservehistory.org/essays/stock-market-crash-of-1929 | highlight the sentence on buyers paying about 10 percent and borrowing the rest
+The New York Fed pushed to raise its interest rate, and by August 1929 it reached six percent. Borrowing was getting more expensive, just like in London eighty years before.
+> VISUAL: G10_central_bank_building slides in from the left; G05_percent_angry steps up to "6%"; E25_calendar "AUG 1929"; for one second, the 1845 Bank of England scene flashes in a small frame top-right.
 On September third, 1929, the Dow Jones index closed at a record. Then, in October, the selling began.
 > VISUAL: E25_calendar "SEP 3, 1929"; D13 arrow at its highest; then E25 flips to "OCT 1929"; G11_stock_exchange shakes slightly; C28_crowd_small gathers outside.
 > SCREEN: Wikimedia Commons, Category: Wall Street Crash of 1929 | https://commons.wikimedia.org/wiki/Category:Wall_Street_Crash_of_1929 | a public-domain photo of the crowd on Wall Street, October 1929
@@ -118,6 +130,8 @@ Sixty years later, on the other side of the world, borrowed money would build th
 Banks lent freely, and land and stock prices soared. At the peak, people said the land under the Imperial Palace in Tokyo was worth more than all the real estate in California.
 > VISUAL: E34_skyscraper towers rise one by one on the Japan map; D11_house_expensive drops in; a small Imperial Palace label appears; G13_map_usa_grey slides in and points to California; E22_scale tips toward Tokyo.
 > SCREEN: Wikimedia Commons, Category: Tokyo Imperial Palace | https://commons.wikimedia.org/wiki/Category:Tokyo_Imperial_Palace | a photo of the palace grounds; caption "once valued above all of California, by one famous estimate"
+Here's how that loop worked. When land keeps rising, banks happily lend more against it. That new loan buys more land, which pushes the price up again.
+> VISUAL: loop diagram draws itself arrow by arrow: E35_small_house "land up" → D15_bank_building "lend more" → E01_cash_stack → "buy more land" → back to the house; the loop spins faster each time.
 On December twenty-ninth, 1989, Japan's main stock index, the Nikkei, closed at about thirty-eight thousand, nine hundred.
 > VISUAL: E25_calendar "DEC 29, 1989"; D13_chart_arrow_up reaches a peak; H09 last buyer stands at the very top in a suit, holding E06_briefcase; D29_bubble_character floats above him, large.
 > SCREEN: Wikipedia, "Japanese asset price bubble" | https://en.wikipedia.org/wiki/Japanese_asset_price_bubble | highlight the December 29, 1989 close of 38,915.87
@@ -141,9 +155,13 @@ Exuberance just means wild excitement. And the excitement was about something re
 > VISUAL: E07_laptop slides in from the right; E17_light_bulb glows above it; C27_kid_curious and C09_worker_woman_neutral walk in and stare at the screen.
 Any company with dot-com in its name seemed to get money. Some had big plans and very little profit.
 > VISUAL: H18_sign_blank boards drop in reading ".com", ".com", ".com"; E03_money_rain falls on them; one sign has a tiny E04_coin_pile labelled "profit" next to a huge E02_money_bag labelled "money raised".
+Some judged success not by profit, but by "eyeballs", the number of people visiting a website.
+> VISUAL: E07_laptop with many tiny eye doodles popping up on the screen; a counter label climbs; next to it, a small H17 price tag "profit" stays at "0".
 In January 2000, a dozen or more dot-com companies bought ads during the Super Bowl, at around two million dollars for thirty seconds.
 > VISUAL: H21_flat_tv_blank slides in; small ads flash on it one after another; H17 price tag "$2 million / 30 seconds"; C28_crowd_small on a couch F01_bg_living_room.
 > SCREEN: Wikipedia, "Dot-com bubble" | https://en.wikipedia.org/wiki/Dot-com_bubble | the Super Bowl XXXIV paragraph; highlight the ad price range
+Our last buyer had watched his friends' tech stocks double. In early 2000, he finally moved his savings in.
+> VISUAL: H09 at E15_desk with E07_laptop; C28 friends behind him point at their screens with A34_narrator_celebrate_jump poses; H09 drags E02_money_bag onto the laptop.
 [calm] On March tenth, 2000, the Nasdaq index, full of tech stocks, closed at about five thousand and forty-eight.
 > VISUAL: E25_calendar "MAR 10, 2000"; D13_chart_arrow_up hits its peak; H09 last buyer at E07 laptop clicks "BUY"; D29_bubble_character hovers, huge.
 > SCREEN: FRED, NASDAQ Composite Index | https://fred.stlouisfed.org/series/NASDAQCOM | the 2000 peak and the 2002 low; mark 5,048.62 and 1,114.11 in red
@@ -164,19 +182,25 @@ But the money that left tech went looking for a new home. And it found one that 
 Lenders gave mortgages to people who could not really afford them. Rising prices made people expect more rises, and that pushed prices higher still.
 > VISUAL: C01_banker_neutral hands E01 cash to C09_worker_woman_neutral; D24_bond_document stamped quickly; a loop arrow draws: "prices up → more buyers → prices up".
 > SCREEN: Federal Reserve History, "Subprime Mortgage Crisis, 2007–2010" | https://www.federalreservehistory.org/essays/subprime-mortgage-crisis | highlight "induced expectations of still more house price gains"
+A mortgage is a loan to buy a home, paid back over many years. Some of these loans started with small payments that grew much bigger a few years later.
+> VISUAL: D24_bond_document "MORTGAGE" slides in; a payment bar shows small at first, then E25_calendar flips two pages and the bar jumps tall; C09_worker_woman_neutral changes to C10_worker_woman_stressed.
 Our last buyer finally got his own home in the summer of 2006, right at the national peak.
 > VISUAL: H09 walks to D11_house_expensive holding keys; E25_calendar "JULY 2006"; D29_bubble_character sits on the roof.
 Then prices turned. By early 2012, the national home price index was down by more than a quarter.
 > VISUAL: D11 changes to D10_house_sad then D12_house_cracked; D14_chart_arrow_down; G22_for_rent_sign pops in on a neighbour's lawn; E25_calendar flips to "2012".
 > SCREEN: FRED, S&P CoreLogic Case-Shiller U.S. National Home Price Index | https://fred.stlouisfed.org/series/CSUSHPINSA | the 2006 peak and 2012 low; mark both points
-Millions of owners owed more than their homes were worth. And the banks that made the loans nearly fell with them.
+Many owners now owed more than their homes were worth. And the banks that made the loans nearly fell with them.
 > VISUAL: D16_bank_building_scared shakes; C28_crowd_small with E50_sweat_drops; houses with H17 tags "owes more than worth".
 > SCREEN: Wikimedia Commons, Category: Subprime mortgage crisis | https://commons.wikimedia.org/wiki/Category:Subprime_mortgage_crisis | a public-domain photo of a foreclosure sign
+Our last buyer kept his home. But for years, it was worth less than he owed, and he felt stuck.
+> VISUAL: H09 sits on the steps of D12_house_cracked; H17 tag on the house reads "worth less than the loan"; E23_hourglass turns slowly beside him.
 [calm] A little over a decade later came the newest bubble. Not a flower, not a train, not a house. A digital coin.
 > VISUAL: E25_calendar flips to "2021"; D08_bitcoin_nervous drops in from the top; E08_phone slides in with a price ticker doodle.
 In November 2021, bitcoin traded near sixty-seven thousand dollars. Celebrities promoted coins. Apps made buying them as easy as ordering food.
 > VISUAL: D13 rises; C22_billionaire_rocket flies in on E26_rocket; E08_phone screens pop up "BUY"; H09 holds E08 and taps.
 > SCREEN: FRED, Coinbase Bitcoin (CBBTCUSD) | https://fred.stlouisfed.org/series/CBBTCUSD | the November 2021 peak and November 2022 low
+Many people bought their first coin that year, right when the headlines were loudest.
+> VISUAL: E09_newspaper headlines drop in one after another with D08 doodles; C28_crowd_small walks in holding E08 phones; H09 is at the back of the line.
 Then, in 2022, the Federal Reserve began raising interest rates. Cheap money became expensive money.
 > VISUAL: G10_central_bank_building slides in; G05_percent_angry grows step by step; E02_money_bag walks off screen.
 > SCREEN: Federal Reserve, Open Market Operations (rate history table) | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | the rows for 2022 rate increases
@@ -199,6 +223,8 @@ Step four, the sentence "this time is different." Rates don't matter. Houses nev
 > VISUAL: box 4 fills: H18_sign_blank reading "THIS TIME IS DIFFERENT"; E44_warning_sign drops in next to it.
 And step five, a trigger. Very often, it is borrowing getting more expensive. Then everyone runs for the same small door.
 > VISUAL: box 5 fills: G05_percent_angry; then C28 crowd runs toward a tiny door doodle; A10_narrator_panic_run joins them.
+Not every rising price is a bubble. Sometimes prices rise because things really got better. The hard part is that the difference usually becomes clear only later.
+> VISUAL: E22_scale slides in: left pan "real growth" with E33_factory, right pan "bubble" with D29; the scale wobbles back and forth; E24_clock ticks; E48_question_marks float above.
 [calm] And think about who gets hurt most. It's rarely the person who started the boom. It's the last buyer.
 > VISUAL: all boxes fade back; H09_guy_curly_neutral walks into the center alone; the light dims around him except a soft spotlight.
 He bought last because the price had already gone up so much. The rise itself was the reason he trusted it.
@@ -209,6 +235,8 @@ Here's the honest answer. Nobody knows ahead of time. But remember the railways 
 > VISUAL: left: train doodle; middle: E07_laptop; right: D23_ai_chip; all three have a D29 bubble floating above them; E22_scale balances "real" against "too far".
 So instead of guessing, watch for the five steps. Borrowed money. New buyers who just want their turn. And the sentence "this time is different."
 > VISUAL: the five boxes slide back in; three of them light up one by one; A39_narrator_magnifying looks at them closely.
+And if you own something everyone loves, ask one quiet question. If the price stopped rising tomorrow, would I still want to own it?
+> VISUAL: A06_narrator_thinking walks in from the right; E52_thought_bubble slowly fills with the words "Would I still want it?"; a small D13 arrow inside flattens to a level line.
 [calm] The man in Haarlem was not stupid. Neither was Newton. They were simply sure. And being sure is the most expensive feeling in finance.
 > VISUAL: quick calm montage, one per second: H09 with tulip box, Newton doodle in wig, train, H09 at the laptop, H09 at the house; then back to the tulip.
 Next time, we'll look at where money itself comes from. Because most of the dollars behind these bubbles were never printed at all.

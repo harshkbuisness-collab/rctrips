@@ -18,6 +18,8 @@ She never picked any stocks. When she signed up, the plan put her into a target-
 She is far from alone. Vanguard says that at the end of twenty twenty-four, fifty-nine percent of people in the work plans it runs were in a single target-date fund.
 > VISUAL: C28 crowd slides in from the right; six of ten figures light up one at a time; E12 easel board drops in with "59%"
 > SCREEN: Vanguard | https://institutional.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/251121.01_TL_HAS_COMM_PMA_v7.pdf | "Fifty-nine percent were invested in a single target-date fund"
+Maria's dollar is quiet. It doesn't read the news or watch rocket launches. It just goes where it's told, every payday, for decades.
+> VISUAL: D01 dollar walks in from the left; A26 narrator sleeping drifts by in the background; E25 calendar pages flip one after another as the dollar keeps walking
 A target-date fund is like a meal kit. You get one box, and inside are other funds. Most of those are index funds.
 > VISUAL: H19 closed box drops in; it swaps to H20 open box; three small D01 dollars hop out of it one after another, each with a tiny label "index fund"
 So let's ask a simple question. When Maria's dollar lands in an index fund, who decides where it goes next?
@@ -48,8 +50,11 @@ It joined in December twenty twenty. S and P said it would create one of the lar
 > SCREEN: Al Jazeera | https://www.aljazeera.com/economy/2020/11/16/tesla-shares-up-12-after-announcement-it-will-zoom-onto-sp-500 | the quote "will generate one of the largest funding trades in S&P 500 history"
 A funding trade means the funds have to raise money for the new stock. So they sell a little of everything else to buy it. Keep that idea in your pocket. We'll need it later.
 > VISUAL: a row of five small company boxes H19 each lose one coin; the coins roll right into one new box; A37 narrator whispers "funding trade"
+Big changes usually happen at a quarterly rebalance, a scheduled tidy-up every three months. Tesla was added at the December one.
+> VISUAL: E25 calendar drops in; four pages flip, one per season, each with a small check mark; D22 car slides onto the December page
+> SCREEN: CNBC | https://www.cnbc.com/2020/11/30/teslas-stock-will-be-added-to-the-sp-500-in-a-single-step-before-the-open-on-dec-21.html | "added to the S&P 500 in a single step before the open on Dec. 21"
 For years, that system was slow and boring. Then a company arrived that was too big to wait in line.
-> VISUAL: the door scene shrinks to the left; a huge shadow slides in from the right; E26 rocket tip appears at the top edge
+> VISUAL: the door scene shrinks to the left; C22 billionaire with rocket slides in from the right; E26 rocket tip appears at the top edge
 
 ## CHAPTER 3: The Biggest IPO Ever
 [calm] An IPO, or initial public offering, is the day a private company first sells shares to the public. It's like a family restaurant opening its books and selling slices to strangers.
@@ -61,19 +66,23 @@ By then it was no longer only a rocket company. In February it had merged with x
 > VISUAL: E26 rocket slides in from the left; D23 AI chip slides in from the right; they meet in the middle with a small flash; C17 robot pops up beside them
 > SCREEN: SEC EDGAR | https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm | "acquired by SpaceX, effective February 2, 2026 (the 'xAI Merger')"
 The filing also showed something the S and P rules care about a lot. SpaceX was losing money. It lost about four point nine billion dollars in twenty twenty-five.
-> VISUAL: D14 chart arrow down drops in; D02 sad dollar walks off the right edge; E27 calculator... A35 narrator sweating slides in
+> VISUAL: D14 chart arrow down drops in; D02 sad dollar walks off the right edge; D27 shocked calculator drops in; A35 narrator sweating slides in
 > SCREEN: SEC EDGAR | https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm | "net losses of $(4,937) million ... for the years ended December 31, 2025"
 On June eleventh, the price was set at one hundred thirty-five dollars a share. SpaceX raised about seventy-five billion dollars.
 > VISUAL: H17 price tag drops in reading "$135"; E01 cash stacks slide in from the left, one, two, three; E03 money rain falls lightly
 > SCREEN: NPR | https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk | "raised some $75 billion selling more than 555 million shares at its offer price of $135"
+That price valued the whole company at about one point seven seven trillion dollars. And Elon Musk kept most of the voting power through a special class of shares.
+> VISUAL: E12 easel board shows "$1.77 trillion"; C22 billionaire with rocket slides in; E27 crown drops gently on his head; a small H16 sticky note "most of the votes"
 The next day it started trading on the Nasdaq under the ticker S P C X. It closed its first day up nineteen percent.
 > VISUAL: G11 stock exchange zooms in; E13 TV screen drops in showing "SPCX"; D13 chart arrow up climbs; G01 happy bull trots across
 But here is the detail that matters for Maria. Seventy-five billion dollars sounds huge, yet it was only around five percent of the whole company.
 > VISUAL: a big round pie made of E04 coin pile appears; a thin five percent slice slides out to the right; A06 narrator thinking walks in
 That slice is called the float. Think of a giant pizza where only one slice is on the counter for sale. The rest stays in the kitchen with insiders.
-> VISUAL: H19 box opens as a pizza-like circle; one slice sits on E15 desk; the rest moves behind a door labelled "insiders"; C21 billionaire stands in the doorway
+> VISUAL: E04 coin pile splits; one small pile sits on E15 desk; the rest slides behind E21 safe vault labelled "insiders"; C21 billionaire stands in the doorway
 Index rules usually count only the slice on the counter. And many had a minimum size for that slice. SpaceX's slice was too small for some of them.
 > VISUAL: E16 magnifying glass slides over the slice; H16 sticky note pops up "too small?"; E44 warning sign drops in
+Under the old rules, a company with a float that small would have waited months, or longer, to join most of the big indexes.
+> VISUAL: E26 rocket parks beside a door H18; E23 hourglass drops beside it; E24 clock hands spin; A41 narrator sitting sad waits next to it
 So the index makers faced a choice. Wait, as the old rules said. Or open the door early.
 > VISUAL: A20 narrator two hands empty; left hand shows E23 hourglass, right hand shows an open door H18; both fade in one after the other
 
@@ -85,9 +94,13 @@ On March thirtieth, Nasdaq announced a new "fast entry" rule. It took effect on 
 Under it, a newly listed giant can join the Nasdaq one hundred after just fifteen trading days. The old rules made a new company wait about three months.
 > VISUAL: E24 clock spins quickly; fifteen small tick marks appear one by one; beside them a slow E54 snail labelled "3 months" crawls and is passed
 > SCREEN: Invesco | https://www.invesco.com/apac/en/institutional/insights/etf/nasdaq-100-index-methodology-updates.html | the Fast Entry section: "included after their 15th trading day"
+The newcomer doesn't even replace anyone. The list simply grows past one hundred names until the next yearly reshuffle.
+> VISUAL: a row of small H19 boxes; one extra box slides in at the end; a counter above the row ticks from "100" to "101"
 Nasdaq also dropped its minimum float rule. Instead, a company with a small float is counted at up to three times the value of its float.
-> VISUAL: the pizza slice from Chapter 3 returns; it copies itself, one, two, three times; H16 sticky note "x3" drops on top
+> VISUAL: the small coin pile from Chapter 3 returns; it copies itself, one, two, three times; H16 sticky note "x3" drops on top
 > SCREEN: Invesco | https://www.invesco.com/apac/en/institutional/insights/etf/nasdaq-100-index-methodology-updates.html | "the lesser of full eligible listed market cap or three times the value of free-floating shares"
+Invesco, which runs the best known Nasdaq one hundred fund, gave an example. A one trillion dollar company with a six percent float would count as about one hundred eighty billion. That's about one percent of the index.
+> VISUAL: E12 easel board; three numbers appear one by one: "$1 trillion", "6% float", "counts as $180 billion"; A38 narrator with pointer taps each one
 In late May, FTSE Russell, the company behind the Russell one thousand, approved a fast entry rule too. Big newcomers could get in after five trading days.
 > VISUAL: H18 sign drops in reading "Russell 1000"; its door swings open; five tick marks appear quickly; A14 narrator shrugs
 The index behind many total stock market funds, run with Morningstar, also had a fast route for giant newcomers.
@@ -114,6 +127,8 @@ So the stage was set. Three doors were open, one was shut, and Maria's dollar wa
 On June twenty-sixth, Nasdaq announced that SpaceX would join the Nasdaq one hundred before the market opened on July seventh.
 > VISUAL: E13 TV screen slides in with "Nasdaq-100: July 7"; E25 calendar flips; G12 bell rings once
 > SCREEN: Finviz (Nasdaq press release) | https://finviz.com/news/364436/space-exploration-technologies-corporation-to-join-the-nasdaq-100-index-beginning-july-7-2026 | "will become a component of the Nasdaq-100 Index" and "prior to market open on Tuesday, July 7, 2026"
+The Nasdaq one hundred is followed by more than two hundred investment products, holding over eight hundred billion dollars. All of them had to make room.
+> VISUAL: a long line of small E06 briefcases slides in from the right, one after another; each opens and a D01 dollar hops out toward the E26 rocket
 So how much did Maria end up owning? Vanguard published the numbers for its own funds.
 > VISUAL: C09 Maria walks back in from the left; E07 laptop drops on E15 desk; A24 narrator at desk slides in beside her
 At the end of June, its Total Stock Market Index Fund held about three point two billion dollars of SpaceX. That was about zero point one four percent of the fund.
@@ -133,7 +148,7 @@ And as of mid-October twenty twenty-six, it trades around one hundred forty-six 
 > VISUAL: E13 TV screen slides in showing a wavy line; a small marker labelled "Oct 2026" settles near the middle; A06 narrator thinking
 > SCREEN: Google Finance | https://www.google.com/finance/quote/SPCX:NASDAQ | the October 16, 2026 close near $146
 So who was on the other side of all that buying? Who was selling to the funds near the top?
-> VISUAL: D01 dollar stands at a counter E15; across the counter, a shadow figure slides in from the right; E48 question marks appear
+> VISUAL: D01 dollar stands at a counter E15; across the counter, H13 bowtie man slides in from the right; E48 question marks appear
 
 ## CHAPTER 6: Who Sells, Who Buys
 [calm] In any trade, there's a buyer and a seller. In an IPO, the first sellers are the company itself, and sometimes its early owners.
@@ -142,21 +157,23 @@ After that, anyone holding shares can sell to anyone who wants them. And an inde
 > VISUAL: the crowd thins; one calm C13 retiree remains with a D25 retirement document; small sellers walk up to him one by one with H17 price tags
 Professional traders know the dates in advance. Some buy early, hoping to sell to the funds on the day. That is legal, and it's been happening for decades.
 > VISUAL: E25 calendar with a circled date; H13 bowtie man smug walks in early and waits; then hands a box H19 to the retiree on the circled day
+The pension funds' letter made a related point. When many index makers relax their rules at once, trillions of passive dollars may have to buy stocks that would not have qualified six months earlier.
+> VISUAL: H15 paper letter slides up again; one line highlights; a big wave of small D01 dollars moves right toward an open door H18
 Remember the funding trade? When a fund buys a new stock without new money, it sells a little of every other stock to pay for it.
 > VISUAL: five H19 boxes from Chapter 2 return; each loses one coin; the coins roll into a box with an E26 rocket sticker
 Nasdaq's fast entry adds the new company without kicking anyone out. So the other members of the list each give up a small share of the space.
-> VISUAL: a row of chairs; a new chair slides in from the right; all other chairs shuffle slightly closer together
+> VISUAL: a row of H19 boxes on a shelf; a new box slides in from the right; all other boxes shuffle slightly closer together
 Then there are the insiders, the people holding the rest of the pizza in the kitchen. After an IPO, they usually agree not to sell for a while. That promise is called a lock-up.
-> VISUAL: the kitchen door from Chapter 3 returns with E55 handcuffs chain on the handle; C21 billionaire waits behind it, checking E24 clock
+> VISUAL: E21 safe vault from Chapter 3 returns with E55 handcuffs chain on the handle; C21 billionaire waits behind it, checking E24 clock
 SpaceX made its lock-ups end in stages, starting in August. Elon Musk's own shares are locked for about a year.
 > VISUAL: E55 chain breaks into links one at a time; small boxes slide out through the door each time; one large box stays locked with a label "about 1 year"
 > SCREEN: SEC EDGAR | https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm | risk factor "Upon the expiration or earlier waiver of the lock-up restrictions ... Mr. Musk will not be subject to any obligation to maintain his ownership interest"
 Each time a lock-up ends, more shares can trade. The float gets bigger. And index funds that count the float may need to buy more.
-> VISUAL: the pizza slice on the counter grows; the row of small D01 dollars steps forward again; H16 sticky note "float grows = funds buy more"
+> VISUAL: the small coin pile on the desk grows; the row of small D01 dollars steps forward again; H16 sticky note "float grows = funds buy more"
 Nobody here is breaking the law. Insiders selling after a lock-up is normal. Index funds buying on schedule is their whole job.
 > VISUAL: E22 scale balances in the center; C21 on one side, C13 on the other; A21 narrator thumbs up slides in
 But it does mean something simple. Maria's fund is a buyer that never says "too expensive". That's usually fine over thirty years. It's worth knowing on the way in.
-> VISUAL: C09 Maria walks in; D25 retirement document in her hand; a long road E29 ladder style stretches far right with "30 years" at the end
+> VISUAL: C09 Maria walks in; D25 retirement document in her hand; E25 calendar pages fly off one by one to the right until a sign H18 "30 years" drops in
 So should Maria be worried? Let's look at what this really means for her four-oh-one-k, and for yours.
 > VISUAL: A33 narrator walking slides in from the left; C09 Maria walks beside him; they head toward F01 living room
 
@@ -171,12 +188,16 @@ That's not a reason to panic. It's a reason to know which index your fund follow
 Third, the holdout. The S and P five hundred still requires twelve months of trading and real profits. SpaceX can't join before June twenty twenty-seven, and only if it makes money.
 > VISUAL: the S&P door returns, still closed; E25 calendar flips to "June 2027"; E26 rocket waits outside with E23 hourglass; D13 small arrow labelled "profits?"
 Fourth, small floats can swing hard. When only a thin slice trades, a wave of buyers or sellers moves the price a lot. We watched that happen this summer.
-> VISUAL: a small boat on waves; G24 storm cloud drifts in; the boat rocks up and down in rhythm with D13 and D14 arrows
+> VISUAL: G24 storm cloud drifts in; D08 nervous coin bounces up and down in rhythm with D13 and D14 arrows
 And this probably won't be the last time. In June twenty twenty-six, two more artificial intelligence companies, OpenAI and Anthropic, filed confidentially for IPOs.
 > VISUAL: two C17 robots walk in from the right one after another, each holding H28 paper stack; G12 IPO bell appears faintly above them
 > SCREEN: Gulf Business (Reuters) | https://gulfbusiness.com/en/2026/06/anthropic-edges-ahead-of-openai-with-confidential-ipo-filing/ | "Anthropic has confidentially filed for a US initial public offering"
 As of mid-October, neither has set a date. But if they do list, the new fast lanes are already built.
 > VISUAL: E26 rocket's fast lane arrow E45 reappears; it stays empty; a small sign H18 "next?" drops at its start
+If you want to check your own account, it takes about five minutes. Look up your fund's benchmark index, then look up that index's rules for new companies.
+> VISUAL: E08 phone slides in; A28 narrator on phone; a checklist H16 appears with two ticks, one after the other; E24 clock shows "5 min"
+Maria checked hers. Her target-date fund holds a total market fund, so she owns a tiny bit of SpaceX. She decided that was fine, and kept saving.
+> VISUAL: C11 worker woman happy sits in H25 armchair; E07 laptop on her lap; a tiny E26 rocket icon appears on the screen; she nods; D01 dollar drops into D25 retirement document
 So let's go back to Maria's dollar. It didn't choose SpaceX. It followed a list, and the list changed its rules.
 > VISUAL: D01 dollar walks back into the center; behind it, the doors from Chapter 4 fade in one by one; Maria watches from the armchair
 For most people, owning the whole market is still a sensible, low-cost way to save. The lesson is not to run from index funds.
@@ -211,3 +232,10 @@ Maria's dollar went on a quiet trip this summer. Next time, we follow money that
 - Elon Musk lock-up about one year (366 days) — Business Insider — https://www.businessinsider.com/spacex-ipo-spcx-stock-lockup-period-expire-nasdaq-elon-musk-2026-6 (VERIFY against the 424B4 prospectus)
 - Anthropic filed confidentially June 1, 2026; OpenAI filed confidentially June 8, 2026 — Gulf Business (Reuters) — https://gulfbusiness.com/en/2026/06/anthropic-edges-ahead-of-openai-with-confidential-ipo-filing/ and Nairametrics — https://nairametrics.com/2026/06/09/openai-files-confidentially-for-ipo-as-ai-rivalry-with-anthropic-heats-up/
 - Neither OpenAI nor Anthropic has set an IPO date as of mid-October 2026 — secondary trackers only (VERIFY on recording day)
+- S&P 500 changes made at quarterly rebalances; Tesla added at the December 2020 quarterly rebalance — CNBC — https://www.cnbc.com/2020/11/30/teslas-stock-will-be-added-to-the-sp-500-in-a-single-step-before-the-open-on-dec-21.html
+- IPO valuation about $1.77 trillion at $135 — CNBC — https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html (also Wikipedia, "Initial public offering of SpaceX")
+- Musk keeps majority voting power through Class B shares (about 42% of equity) — Moneywise via Yahoo Finance, June 1, 2026 — https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-could-hit-popular-101500534.html; SpaceX Form S-1 — https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm
+- Fast Entry companies are added without removing another security; count rises until the next annual reconstitution — Invesco — https://www.invesco.com/apac/en/institutional/insights/etf/nasdaq-100-index-methodology-updates.html
+- Example: ~$1 trillion company with ~6% float counts as ~$180 billion, about 1% of the index — Invesco — https://www.invesco.com/apac/en/institutional/insights/etf/nasdaq-100-index-methodology-updates.html
+- Nasdaq-100 tracked by more than 200 investment products with over $800 billion in assets — Nasdaq press release, June 26, 2026, via Finviz — https://finviz.com/news/364436/space-exploration-technologies-corporation-to-join-the-nasdaq-100-index-beginning-july-7-2026
+- "trillions of dollars in passive assets are forced to purchase securities that would not have qualified under the rules that existed six months earlier" — NYC Comptroller letter, June 10, 2026 — https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex/

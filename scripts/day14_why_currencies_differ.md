@@ -26,6 +26,7 @@ Because Sam's yen were not always this cheap. Just five years ago, his one hundr
 > VISUAL: E25 calendar flips back to 2021; H09's pile of G07 coins shrinks to a smaller pile; H09 shrugs as A14.
 > SCREEN: FRED, DEXJPUS | https://fred.stlouisfed.org/series/DEXJPUS | zoom on January 2021, about 103 yen per dollar, then on 9 October 2026, about 158
 So who changed the price of a yen? To answer that, we need to see who is buying it, and who is selling.
+> VISUAL: A16 points left at the G07 pile; two small C28 groups walk in from opposite sides, one labeled with E45, one with E46; the G07 pile sits between them.
 
 ## CHAPTER 2: Money Is a Product
 [calm] Every day, people around the world swap one currency for another. Most of them are not tourists like Sam.
@@ -42,12 +43,15 @@ Now flip it around. When a Japanese family buys an American phone or flies to Ne
 > VISUAL: G15 map on the left, G13 map on the right; E08 phone and E42 airplane fly from right to left; G07 coins walk out of Japan and come back as D01.
 Millions of swaps like these happen every second. Each one pushes the price a tiny bit up or a tiny bit down.
 > VISUAL: E13 TV screen slides in with a ticking number; E24 clock spins fast; the number flickers up and down.
+Then there are traders who never touch a car or a plane ticket. They buy a currency simply because they think its price will rise next week, and that moves the price too.
+> VISUAL: H13 bowtie man slides in from the left with E07 laptop; a small chart on the laptop ticks up; he clicks and a G07 coin hops into his E06 briefcase.
 > SCREEN: Federal Reserve, The International Role of the U.S. Dollar, 2025 Edition | https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-u-s-dollar-2025-edition-20250718.html | highlight the line that the dollar was on one side of about 88 percent of all foreign exchange trades in April 2022
 And notice one thing on that page. The dollar is on one side of almost nine out of ten currency trades in the world.
 > VISUAL: ten small D01 icons line up; nine light up green one after another; A08 shocked face pops in at the bottom right.
 Trade matters. Tourists matter. But for a few years now, the biggest force pushing the yen down has not been cars or travelers at all.
 > VISUAL: D22 and E42 slide off screen to the left; an empty stage remains; E52 thought bubble appears over H09.
 It has been something much quieter. The price of borrowing money.
+> VISUAL: the stage dims; G04 percent happy tiptoes in from the right and stands in a soft spotlight; A37 whisper pose at the edge.
 
 ## CHAPTER 3: The Interest Rate Magnet
 [calm] An interest rate is what money earns when you lend it out. If your bank pays you four percent, every hundred dollars grows to one hundred and four in a year.
@@ -82,6 +86,7 @@ In one month in 2024 alone, it spent about nine point eight trillion yen, around
 It helps for a while. But you cannot fight interest rates forever with your savings. And Japan is not the only country that has tried to hold its price still.
 > VISUAL: the money tower wobbles; A06 thinking face; a dotted line leads off the right edge of the screen.
 Some countries do much more than try. They lock their money to the dollar for decades. But to understand why anyone would do that, we first need to see why the dollar is so special.
+> VISUAL: a D06 coin is chained to D01 with E55; D01 slowly grows larger; E27 crown hovers above it; A06 thinking face watches.
 
 ## CHAPTER 4: The World's Favorite Money
 [calm] In 1944, near the end of World War Two, leaders from forty-four countries met at a hotel in Bretton Woods, New Hampshire.
@@ -96,6 +101,7 @@ Then, on August 15, 1971, President Nixon closed the gold window. Foreign govern
 > VISUAL: E13 TV screen slides in showing C05 at a podium; the E55 chain between D01 and E05 snaps; gold bars slide off to the left.
 Within a couple of years, most big currencies began to float. That means their prices were set by buying and selling every day, the way we saw in chapter two.
 > VISUAL: the smaller chains snap one by one; G06 and G07 float up like balloons and bob gently; E24 clock ticks.
+> SCREEN: Federal Reserve History, The Smithsonian Agreement | https://www.federalreservehistory.org/essays/smithsonian-agreement | highlight the paragraph explaining that the new fixed rates broke down and currencies moved to floating
 You might expect the dollar to lose its crown after that. But it found a new anchor. Oil.
 > VISUAL: E27 crown wobbles on D01 and then holds; D17 oil barrel rolls in from the right and stops next to D01.
 Oil is mostly bought and sold in dollars. So almost every country needs dollars to keep its lights on and its cars running.
@@ -115,6 +121,7 @@ The euro is young. It was launched in 1999, and today it is the money of twenty-
 So when Sam's dollar buys only eighty-nine euro cents, that is not a weak dollar. It is a strong euro, backed by a huge trading bloc and its own popular savings currency.
 > VISUAL: H09 returns holding D01; G06 stands on a big base labeled with G16; E22 scale shows the two nearly balanced.
 Because the dollar matters this much, some countries decided not to float at all. They tied themselves to the dollar on purpose.
+> VISUAL: G06 and G07 keep floating on their balloons; a third coin D06 walks in from the right and clips a chain E55 to D01; A15 points at it.
 
 ## CHAPTER 5: Countries That Hold the Line
 [calm] Sam's flight to Tokyo has a stopover in Hong Kong. At the airport shop, he notices something odd. The price of the Hong Kong dollar barely ever moves.
@@ -134,6 +141,8 @@ For an oil seller, this makes sense. Its oil is sold in dollars, so a fixed pric
 > VISUAL: E31 cargo ship tankers leave; D01 flows back in; a calm line on E13 stays flat; A21 thumbs up.
 But a peg has a hidden cost. If your money is tied to the dollar, your interest rates have to follow America's, whether that suits you or not.
 > VISUAL: G04 from the US G10 building walks across; a smaller G04 in Hong Kong copies its every move like a shadow; A05 suspicious face.
+So when the Federal Reserve raised its rate in September 2026, banks in Hong Kong felt the pull right away, even though nobody there voted for it.
+> VISUAL: E25 calendar flips to September 2026; G10 US building pulses; a thin rope from it tugs the small Hong Kong G04 upward; H12 shocked woman watches.
 If America raises rates while your own economy is weak, you raise rates too. You have handed the steering wheel to someone else.
 > VISUAL: D22 car character drives in; the steering wheel is held by a hand coming from the US side; H09 in the passenger seat looks worried.
 And if investors ever stop believing the promise, the central bank has to spend its savings fast to defend it.
@@ -141,6 +150,7 @@ And if investors ever stop believing the promise, the central bank has to spend 
 So every country makes a choice. Let the price float, like Japan and Europe, or lock it, like Hong Kong. Either way, someone wins and someone pays.
 > VISUAL: E22 scale drops in; on one side G07 and G06 floating on balloons, on the other side D06 with a chain; the scale tilts slowly back and forth.
 And that brings us to the question Sam never thought to ask. When the dollar is strong, who exactly is winning?
+> VISUAL: H09 walks back in from the left; E48 question marks pop above him; D01 flexes on a E28 trophy base; G03 bull vs bear slides in small at the corner.
 
 ## CHAPTER 6: Strong or Weak, Who Wins?
 [calm] For Sam, a strong dollar is wonderful. His hotel in Tokyo, his train tickets and his ramen all cost less in dollars than they did a few years ago.
@@ -160,6 +170,8 @@ But Japan's big exporters, the companies that sell cars and machines abroad, oft
 > VISUAL: E31 cargo ship with D22 cars sails out of Japan; it returns with E02 money bags that turn into G07 piles; C11 happy worker.
 So there is no simple good or bad. A strong currency helps the people who buy from abroad. A weak one helps the people who sell abroad.
 > VISUAL: E22 scale with a shopping bag E39 on one side and E33 factory on the other; it tilts left, then right.
+It is a bit like the weather. A sunny day is great for the beach and bad for the farmer who needs rain. Same sky, different winners.
+> VISUAL: G24 storm cloud slides in on one side, a sun drawn on H15 note on the other; C09 farmer-style worker frowns under the sun while H09 smiles; they swap places.
 > SCREEN: FRED, Nominal Broad U.S. Dollar Index (DTWEXBGS) | https://fred.stlouisfed.org/series/DTWEXBGS | highlight the January 2025 peak near 130 and the October 2026 level near 121.6
 Even the dollar itself rises and falls. Against a basket of many currencies, it peaked in January 2025, and as of October 2026 it is about seven percent lower.
 > VISUAL: E13 shows the broad dollar line rising and then easing; D01 climbs a E29 ladder and steps down a few rungs; A15 points.
@@ -169,6 +181,7 @@ And the euro has swung a lot too. In 2000, one euro cost about eighty-three cent
 So the price on Sam's board is never final. It is a snapshot of millions of decisions, made by people chasing trade, safety and the best interest rate.
 > VISUAL: E13 TV screen with numbers flickering; C28 crowd figures, C21 billionaire, C09 worker and H09 all appear in small frames around it.
 Which brings us back to the airport, and to the one hundred dollars still in Sam's hand.
+> VISUAL: quick wipe back to F04; E15 counter slides in; H09 walks up holding E01; H18 sign above the counter lights up.
 
 ## CHAPTER 7: Back at the Counter
 [calm] Sam finally changes his money. Fifteen thousand eight hundred yen for Tokyo, and the rest kept for Paris.
@@ -184,6 +197,8 @@ And he knows that this center is slowly shifting. The dollar's share of world sa
 > VISUAL: the pie chart from chapter 4 returns on E12; the dollar slice shrinks by a hair; G06 slice grows a hair; A06 thinking.
 None of this means you should trade currencies. It means the price of a vacation, a car or a tank of gas is linked to decisions made far away.
 > VISUAL: A01 calm at the center; E41 car, E42 airplane and D17 slide in around him; thin lines connect each to E43 globe.
+When Japan's central bank changes its rate in Tokyo, or Saudi Arabia defends its peg, the effects travel all the way to an American gas station and an American factory floor.
+> VISUAL: G15 and D17 sit on the left; a dotted line travels across E43 globe to G13 on the right, where E41 car at a pump and E33 factory light up one after another.
 So the next time you see an exchange rate, read it as a story. Someone, somewhere, wanted that money a little more, or a little less, than yesterday.
 > VISUAL: E13 TV with the H.10 numbers; one number ticks up by a tiny amount; H09 smiles and walks off to the right with his bag.
 And remember 1971, the year the dollar left gold. Two years later, with prices rising and oil about to explode, American investors were about to learn a hard lesson.
