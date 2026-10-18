@@ -7,6 +7,10 @@ Usage:
   --check  renders the last frame of every beat into contact sheets (05_export/check_*.jpg)
            and prints layout warnings (text off screen, text over text, text over a drawing).
 
+Owner voice: put the recorded/generated voice at <slug>/03_voice/owner_voice.wav (or .mp3/.m4a). The builder
+then times every beat to that voice with word timestamps (faster-whisper) instead of making its own voice.
+  --clip A-B  renders only seconds A to B (quick preview: 05_export/<slug>_clip.mp4)
+
 Inputs:  <slug>/01_script/beats.txt, <slug>/02_assets/screens/* (real screenshots),
          library/assets/*.jpg, library/fonts/*.ttf
 Outputs: <slug>/03_voice/voiceover.wav + timings.json, <slug>/05_export/<slug>.mp4
@@ -14,6 +18,13 @@ Outputs: <slug>/03_voice/voiceover.wav + timings.json, <slug>/05_export/<slug>.m
 Beat sheet line:   [emotion] spoken words || element; element; ...
   [emotion] is optional: calm, serious, sarcastic, dramatic or excited (the Chatterbox voice only).
 An element listed again in the next beat stays on screen (a highlight already drawn stays drawn). Append +SECONDS to delay it.
+Motion (v4): things enter with movement instead of just appearing. Append ~MOTION before any +SECONDS:
+  ~l ~r ~t ~b  slide in from that side      ~pop  grow in with a small overshoot     ~drop  fall in from the top
+  ~walk        walk in from the nearest side ~none  hard cut
+  ~float       keeps bobbing gently          ~shake keeps shaking                      ~spin  keeps turning
+  Defaults: people slide in from the nearest side, props pop in, screenshots slide up from the bottom,
+  bubbles/labels/text pop, arrows and circles are drawn on, close-ups (height >= 0.9) cut in.
+  The narrator (A.., H01-H08) breathes gently while talking.
   A01@pos[:height[:anchor]]             library image (height = share of screen height; >= 0.9 makes a
                                         close-up cut by the frame). anchor = left|right|top|bottom pins that
                                         edge of the drawing to pos, for peeking in from the frame edge
@@ -38,6 +49,7 @@ An element listed again in the next beat stays on screen (a highlight already dr
   sting                                 short soft music sting (section breaks only)
   endscreen                             "Subscribe for more" end card with a box for the next video
   hold:SECONDS                          length of a beat with no words (default 1.0)
+  rain:E01*20[:height]                  icons falling across the whole screen while the beat lasts (money rain)
 pos = center|left|right|top|bottom|low|tl|tr|bl|br or x,y as screen fractions (0.3,0.5).
 """
 import json, math, os, re, subprocess, sys
@@ -70,6 +82,10 @@ VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael.wav")   # cal
 # lower cfg = slower, more deliberate delivery.
 EMOTIONS = {"neutral": (0.45, 0.5), "calm": (0.4, 0.5), "serious": (0.45, 0.5), "sarcastic": (0.5, 0.5),
             "dramatic": (0.55, 0.45), "excited": (0.6, 0.45)}   # calm narrator (owner approved, 18 Oct 2026)
+ENTER = 0.4                          # seconds an entrance animation takes
+PEOPLE = ("A", "B", "C", "H01", "H02", "H03", "H04", "H05", "H06", "H07", "H08", "H09", "H10", "H11", "H12",
+          "H13", "H14")
+NARRATOR = ("A", "H01", "H02", "H03", "H04", "H05", "H06", "H07", "H08")
 _fonts = {}
 
 
@@ -99,10 +115,12 @@ def split_delay(s):
 def parse_doc(item):
     head, *opts = re.findall(r'(?:[^\s"]|"[^"]*")+', item[4:])
     f, _, p = head.partition("@")
-    e = {"kind": "doc", "file": f, "pos": p, "w": 0.7, "h": 0.84, "frame": 1, "src": "", "marks": []}
+    e = {"kind": "doc", "file": f, "pos": p, "w": 0.7, "h": 0.84, "frame": 1, "src": "", "marks": [], "motion": "b"}
     for o in opts:
         k, _, v = o.partition("=")
-        if k in ("hl", "box", "circ"):
+        if k.startswith("~"):
+            e["motion"] = k[1:]
+        elif k in ("hl", "box", "circ"):
             v, dl = split_delay(v)
             e["marks"].append({"kind": k, "rect": nums(v), "delay": dl})
         elif k == "src":
@@ -116,7 +134,9 @@ def parse_elem(item):
     if item.startswith("doc:"):          # its marks carry their own +delays
         return {**parse_doc(item), "delay": 0.0}
     item, delay = split_delay(item)
-    e = {"delay": delay}
+    m = re.search(r"~(\w+)$", item)
+    e = {"delay": delay, "motion": m.group(1) if m else ""}
+    item = item[:m.start()] if m else item
     if item in ("xmark", "sting", "endscreen"):
         return {**e, "kind": item}
     if item.startswith("hold:"):
@@ -129,6 +149,9 @@ def parse_elem(item):
         return {**e, "kind": "arrow", "a": nums(a), "b": nums(b)}
     if item.startswith("circle:"):
         return {**e, "kind": "circle", "rect": nums(item[7:])}
+    if item.startswith("rain:"):
+        m = re.match(r"rain:(\w+)\*(\d+)(?::([\d.]+))?$", item)
+        return {**e, "kind": "rain", "code": m.group(1), "n": int(m.group(2)), "h": float(m.group(3) or 0.12)}
     if item.startswith("group:"):
         m = re.match(r"group:(\w+)\*(\d+)@([\d.,]+)(?::([\d.]+))?$", item)
         return {**e, "kind": "group", "code": m.group(1), "n": int(m.group(2)), "rect": nums(m.group(3)),
@@ -252,6 +275,79 @@ def make_voice(beats, out_wav, out_json):
     return timings, full
 
 
+def owner_voice(vdir):
+    for ext in ("wav", "mp3", "m4a", "flac", "ogg"):
+        p = os.path.join(vdir, "03_voice", f"owner_voice.{ext}")
+        if os.path.exists(p):
+            return p
+    return ""
+
+
+def norm_words(text):
+    return [w for w in (re.sub(r"[^a-z0-9]", "", x.lower()) for x in text.split()) if w]
+
+
+def align_voice(beats, voice_path, out_wav, out_json):
+    """Times every beat to the owner's voice: speech recognition gives word times, which are matched to the
+    beat sheet's words. Wordless beats (section breaks, end screen) get their hold as inserted silence."""
+    import difflib, soundfile as sf
+    from faster_whisper import WhisperModel
+    dec = lambda sr: np.frombuffer(subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", voice_path, "-ac", "1",
+                                                   "-ar", str(sr), "-f", "f32le", "-"],
+                                                  capture_output=True, check=True).stdout, np.float32)
+    voice = dec(SR)
+    segs, _ = WhisperModel("base.en", device="cpu", compute_type="int8").transcribe(dec(16000), word_timestamps=True)
+    heard = [(w, x.start, x.end) for s in segs for x in s.words for w in norm_words(x.word)[:1]]
+    script, owner = [], []                       # every script word, and the beat it belongs to
+    for i, b in enumerate(beats):
+        for w in norm_words(b["words"]):
+            script.append(w); owner.append(i)
+    times = [None] * len(script)
+    sm = difflib.SequenceMatcher(None, script, [h[0] for h in heard], autojunk=False)
+    for a, c, n in sm.get_matching_blocks():
+        for k in range(n):
+            times[a + k] = heard[c + k][1]
+    known = [k for k, v in enumerate(times) if v is not None]
+    if len(known) < 0.5 * len(script):
+        sys.exit(f"the voice does not match the beat sheet (only {len(known)} of {len(script)} words found)")
+    for k in range(len(times)):                  # words the recogniser heard differently: interpolate
+        if times[k] is None:
+            lo = max([j for j in known if j < k], default=None)
+            hi = min([j for j in known if j > k], default=None)
+            if lo is None:
+                times[k] = times[hi]
+            elif hi is None:
+                times[k] = times[lo] + 0.3 * (k - lo)
+            else:
+                times[k] = times[lo] + (times[hi] - times[lo]) * (k - lo) / (hi - lo)
+    first = {}
+    for k, i in enumerate(owner):
+        first.setdefault(i, times[k])
+    end_of_speech = heard[-1][2] if heard else len(voice) / SR
+    pieces, timings, shift, cut = [np.zeros(int(0.25 * SR), np.float32)], [], 0.25, 0.0
+    for i, b in enumerate(beats):
+        if b["words"]:
+            start = first[i]
+            nxt = next((first[j] for j in range(i + 1, len(beats)) if j in first), None)
+            end = (nxt - 0.02) if nxt is not None else end_of_speech + 0.3
+            timings.append({"beat": i, "start": round(start + shift, 3), "end": round(end + shift, 3)})
+        else:                                     # insert the hold as silence at this point of the voice
+            here = next((first[j] for j in range(i + 1, len(beats)) if j in first), len(voice) / SR)
+            here = max(cut, here - 0.15)
+            pieces.append(voice[int(cut * SR):int(here * SR)])
+            cut = here
+            d = hold_of(b)
+            timings.append({"beat": i, "start": round(here + shift, 3), "end": round(here + shift + d, 3)})
+            pieces.append(np.zeros(int(d * SR), np.float32))
+            shift += d
+    pieces.append(voice[int(cut * SR):])
+    full = np.concatenate(pieces)
+    sf.write(out_wav, full, SR)
+    json.dump(timings, open(out_json, "w"), indent=1)
+    print(f"owner voice: {len(voice) / SR:.1f}s, {len(known)}/{len(script)} words matched")
+    return timings, full
+
+
 # ---------- hand-drawn strokes ----------
 def rough(pts, seed, amp=3.0):
     """Adds a small, smooth wobble to a polyline so it looks drawn with a marker."""
@@ -276,18 +372,22 @@ def stroke(d, pts, color, width):
         d.ellipse([x - r, y - r, x + r, y + r], fill=color)
 
 
-def rough_arrow(d, a, b, color=RED, width=7, seed=1):
+def rough_arrow(d, a, b, color=RED, width=7, seed=1, p=1.0):
+    """p < 1 draws only the first part of the arrow (it is being drawn on)."""
     (sx, sy), (ex, ey) = a, b
     mx, my = (sx + ex) / 2 + (ey - sy) * 0.08, (sy + ey) / 2 - (ex - sx) * 0.08    # slight curve
     curve = [((1 - u) ** 2 * sx + 2 * u * (1 - u) * mx + u * u * ex, (1 - u) ** 2 * sy + 2 * u * (1 - u) * my + u * u * ey)
              for u in np.linspace(0, 1, 12)]
-    stroke(d, rough(curve, seed, 1.2), color, width)
+    line = rough(curve, seed, 1.2)
+    stroke(d, line[:max(2, int(len(line) * min(1.0, p / 0.8)))], color, width)
+    if p < 0.85:
+        return
     ang = math.atan2(ey - my, ex - mx)
     for da in (2.6, -2.6):
         stroke(d, [(ex, ey), (ex + 34 * math.cos(ang + da), ey + 34 * math.sin(ang + da))], color, width)
 
 
-def rough_ellipse(d, box, color=RED, width=7, seed=1):
+def rough_ellipse(d, box, color=RED, width=7, seed=1, p=1.0):
     x0, y0, x1, y1 = box
     cx, cy, rx, ry = (x0 + x1) / 2, (y0 + y1) / 2, (x1 - x0) / 2, (y1 - y0) / 2
     rng = np.random.default_rng(seed)
@@ -297,7 +397,7 @@ def rough_ellipse(d, box, color=RED, width=7, seed=1):
         a = start + i / 72 * 2 * math.pi * 1.1
         k = 1 + wob * math.sin(3 * a) + 0.05 * i / 72
         pts.append((cx + rx * k * math.cos(a), cy + ry * k * math.sin(a)))
-    stroke(d, pts, color, width)
+    stroke(d, pts[:max(2, int(len(pts) * p))], color, width)
 
 
 # ---------- library images ----------
@@ -402,6 +502,9 @@ def draw_doc(canvas, vdir, e, t, boxes):
     im = doc_marked(vdir, e, ages).resize((dw, dh), Image.LANCZOS)
     x, y = pos(e["pos"])
     px, py = int(x * W - dw / 2), int(y * H - dh / 2)
+    boxes.append(("doc", (px, py, px + dw, py + dh + (72 if e["src"] else 0))))
+    if e.get("motion") not in ("none", "pop", "float", "shake", "spin"):   # slides in, then stands still
+        _, (px, py) = moved(Image.new("L", (dw, dh)), (px, py), e, t)
     d = ImageDraw.Draw(canvas)
     if e["frame"]:
         d.rectangle([px + 9, py + 11, px + dw + 9, py + dh + 11], fill=(205, 205, 205))
@@ -410,7 +513,6 @@ def draw_doc(canvas, vdir, e, t, boxes):
         d.rectangle([px - 1, py - 1, px + dw, py + dh], outline=(150, 150, 150), width=2)
     if e["src"]:   # source line: clear of the box shadow, lined up with the box's left edge
         d.text((px, py + dh + 30), e["src"], font=font(FONT_HAND, 36), fill=GREY, anchor="lt")
-    boxes.append(("doc", (px, py, px + dw, py + dh + (72 if e["src"] else 0))))
 
 
 # ---------- drawing ----------
@@ -481,9 +583,12 @@ def draw_title(d, e):
     return (x0, y0, x1, y1 + 14)
 
 
-def draw_xmark(d):
-    stroke(d, rough([(W * 0.22, H * 0.12), (W * 0.78, H * 0.88)], 11, 6), RED, 30)
-    stroke(d, rough([(W * 0.77, H * 0.1), (W * 0.24, H * 0.9)], 12, 6), RED, 30)
+def draw_xmark(d, p=1.0):
+    a = rough([(W * 0.22, H * 0.12), (W * 0.78, H * 0.88)], 11, 6)
+    b = rough([(W * 0.77, H * 0.1), (W * 0.24, H * 0.9)], 12, 6)
+    stroke(d, a[:max(2, int(len(a) * min(1.0, p * 2)))], RED, 30)
+    if p > 0.5:
+        stroke(d, b[:max(2, int(len(b) * (p - 0.5) * 2))], RED, 30)
 
 
 def draw_endscreen(canvas, d):
@@ -541,7 +646,7 @@ def draw_chart(d, year):
     return (x0, 70, x1 + 40, y1 + 130)
 
 
-ORDER = {"endscreen": 0, "img": 1, "group": 1, "doc": 1, "chart": 2, "bars": 2, "text": 4, "source": 4,
+ORDER = {"endscreen": 0, "rain": 9, "img": 1, "group": 1, "doc": 1, "chart": 2, "bars": 2, "text": 4, "source": 4,
          "bubble": 5, "think": 5, "label": 6, "note": 6, "arrow": 6, "circle": 6, "title": 7, "xmark": 8}
 TEXT_KINDS = ("text", "bubble", "think", "label", "note", "title", "source")
 
@@ -550,17 +655,23 @@ def ident(e):
     """What makes an element 'the same one' as in the previous beat (so it stays and keeps animating)."""
     if e["kind"] == "doc":
         return ("doc", e["file"], e["pos"], e["w"], e["h"])
-    return json.dumps({k: v for k, v in e.items() if k not in ("delay", "t0", "t_end", "chain")}, sort_keys=True)
+    return json.dumps({k: v for k, v in e.items() if k not in ("delay", "t0", "t_end", "chain", "motion")}, sort_keys=True)
 
 
 def link_elements(beats, tm):
     """Gives every element its first-appearance time t0 and the time t_end it leaves the screen."""
     for i, b in enumerate(beats):
         prev = {ident(p): p for p in beats[i - 1]["elems"]} if i else {}
+        # new things without their own +delay arrive one after another, not all at once (the reference
+        # adds something about every 0.8 s); persistent items keep their time
+        fresh = [e for e in b["elems"] if ident(e) not in prev and not e["delay"]
+                 and e["kind"] not in ("title", "source", "sting", "hold", "endscreen", "rain")]
+        step = min(0.6, (tm[i]["end"] - tm[i]["start"]) / (len(fresh) + 1)) if len(fresh) > 1 else 0
+        stagger = {id(e): k * step for k, e in enumerate(fresh)}
         for e in b["elems"]:
             p = prev.get(ident(e))
             e["chain"] = p["chain"] if p else [e]
-            e["t0"] = p["t0"] if p else tm[i]["start"] + e["delay"]
+            e["t0"] = p["t0"] if p else tm[i]["start"] + e["delay"] + stagger.get(id(e), 0)
             if p is not None and p is not e:
                 e["chain"].append(e)
             if e["kind"] == "doc":
@@ -573,6 +684,96 @@ def link_elements(beats, tm):
                 c["t_end"] = tm[i]["end"]
 
 
+# ---------- motion ----------
+def ease_out(u):
+    return 1 - (1 - u) ** 3
+
+
+def ease_back(u, k=1.2):
+    """Ease-out with a small overshoot, like a hand-placed sticker settling."""
+    u -= 1
+    return 1 + (k + 1) * u ** 3 + k * u ** 2
+
+
+def default_motion(e):
+    if e["kind"] == "img":
+        if e["h"] >= 0.9:
+            return "none"
+        if e.get("anchor") in ("top", "bottom"):        # peeking in from the top or bottom edge
+            return "t" if pos(e["pos"])[1] < 0.5 else "b"
+        if e["code"].startswith(PEOPLE):
+            return "l" if pos(e["pos"])[0] < 0.5 else "r"
+        return "pop"
+    return {"doc": "b", "group": "pop"}.get(e["kind"], "pop")
+
+
+def moved(im, xy, e, t, t0=None, talking=False):
+    """Applies the element's entrance or loop motion: returns (image, top-left corner)."""
+    m = e.get("motion") or default_motion(e)
+    age = t - (e["t0"] if t0 is None else t0)
+    x, y = xy
+    if m in ("l", "r", "t", "b", "walk", "drop") and age < (0.9 if m == "walk" else ENTER):
+        u = ease_out(age / (0.9 if m == "walk" else ENTER)) if m != "drop" else ease_back(age / ENTER, 0.8)
+        if m == "walk":
+            m = "l" if x + im.width / 2 < W / 2 else "r"
+            y -= int(abs(math.sin(age * 14)) * 10)
+        sx = {"l": -im.width - 30, "r": W + 30}.get(m, x)
+        sy = {"t": -im.height - 30, "drop": -im.height - 30, "b": H + 30}.get(m, y)
+        x, y = int(sx + (x - sx) * u), int(sy + (y - sy) * u)
+    elif m == "pop" and age < ENTER * 0.8:
+        s = max(0.05, ease_back(age / (ENTER * 0.8)))
+        cx, cy = x + im.width / 2, y + im.height / 2
+        im = im.resize((max(1, int(im.width * s)), max(1, int(im.height * s))), Image.BILINEAR)
+        x, y = int(cx - im.width / 2), int(cy - im.height / 2)
+    elif m == "float":
+        y += int(8 * math.sin(age * 2 * math.pi * 0.7))
+    elif m == "shake":
+        x += int(6 * math.sin(age * 71)); y += int(4 * math.sin(age * 53))
+    elif m == "spin":
+        cx, cy = x + im.width / 2, y + im.height / 2
+        im = im.rotate(-age * 90, resample=Image.BICUBIC, expand=True)
+        x, y = int(cx - im.width / 2), int(cy - im.height / 2)
+    if talking and age >= ENTER:     # gentle breathing while the narrator speaks
+        s = 1 + 0.012 * math.sin(age * 2 * math.pi * 1.4)
+        nh = int(im.height * s)
+        if nh != im.height:
+            im = im.resize((im.width, nh), Image.BILINEAR)
+            y -= nh - int(im.height / s)
+    return im, (x, y)
+
+
+def popped_layer(canvas, draw_fn, e, t):
+    """Draws text-like elements; while they pop in, draws them on a layer and scales it."""
+    age = t - e["t0"]
+    m = e.get("motion") or "pop"
+    if m == "none" or age >= ENTER * 0.8:
+        return draw_fn(ImageDraw.Draw(canvas))
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    box = draw_fn(ImageDraw.Draw(layer))
+    x0, y0, x1, y1 = [int(v) for v in box]
+    x0, y0, x1, y1 = max(0, x0 - 60), max(0, y0 - 60), min(W, x1 + 60), min(H, y1 + 90)
+    part = layer.crop((x0, y0, x1, y1))
+    im, xy = moved(part, (x0, y0), {**e, "motion": m}, t)
+    canvas.paste(im, xy, im)
+    return box
+
+
+def rain(canvas, e, t):
+    im0 = load_img(e["code"], e["h"])
+    rng = np.random.default_rng(len(e["code"]) * 7 + e["n"])
+    age = t - e["t0"]
+    for j in range(e["n"]):
+        x = rng.uniform(0, W)
+        v = rng.uniform(380, 620)                 # pixels per second
+        start = rng.uniform(0, 1.6)
+        ang = rng.choice([-25, -12, 0, 12, 25])
+        if age < start:
+            continue
+        y = ((age - start) * v) % (H + 2 * im0.height) - im0.height
+        im = im0.rotate(ang + 20 * math.sin(age * 2 + j), resample=Image.BILINEAR, expand=True)
+        canvas.paste(im, (int(x + 30 * math.sin(age * 1.5 + j) - im.width / 2), int(y)), im)
+
+
 def render_frame(beats, tm, cur, t, vdir, boxes, masks):
     b, bt = beats[cur], tm[cur]
     canvas = Image.new("RGB", (W, H), "white")
@@ -581,11 +782,15 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
         k = e["kind"]
         if k in ("sting", "hold") or t < e["t0"]:
             continue
+        talking = bool(b["words"]) and bt["start"] <= t < bt["end"]
         if k == "img":
             im = load_img(e["code"], e["h"], e["word"])
             xy = place(im, e)
-            canvas.paste(im, xy, im)
             masks.append((xy, im.getchannel("A")))
+            im, xy = moved(im, xy, e, t, talking=talking and e["code"].startswith(NARRATOR) and e["h"] < 0.9)
+            canvas.paste(im, xy, im)
+        elif k == "rain":
+            rain(canvas, e, t)
         elif k == "group":
             x0, y0, x1, y1 = e["rect"]
             cols = e["n"] if e["n"] <= 6 else math.ceil(e["n"] / 2)
@@ -596,13 +801,14 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
                     break
                 cx = (x0 + (x1 - x0) * (j % cols + 0.5) / cols) * W
                 cy = (y0 + (y1 - y0) * (j // cols + 0.5) / rows) * H
-                canvas.paste(im, (int(cx - im.width / 2), int(cy - im.height / 2)), im)
+                gi, gxy = moved(im, (int(cx - im.width / 2), int(cy - im.height / 2)), e, t, t0=e["t0"] + 0.15 * j)
+                canvas.paste(gi, gxy, gi)
         elif k == "doc":
             draw_doc(canvas, vdir, e, t, boxes)
         elif k == "endscreen":
             draw_endscreen(canvas, d)
         elif k == "text":
-            boxes.append((k, draw_text(d, e)))
+            boxes.append((k, popped_layer(canvas, lambda dd: draw_text(dd, e), e, t)))
         elif k == "title":
             boxes.append((k, draw_title(d, e)))
         elif k == "source":
@@ -610,16 +816,17 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
             d.text((70, H - 50), e["text"], font=f, fill=GREY, anchor="lm")
             boxes.append((k, d.textbbox((70, H - 50), e["text"], font=f, anchor="lm")))
         elif k in ("bubble", "think"):
-            boxes.append((k, draw_bubble(d, e, think=k == "think")))
+            boxes.append((k, popped_layer(canvas, lambda dd: draw_bubble(dd, e, think=k == "think"), e, t)))
         elif k in ("label", "note"):
-            boxes.append((k, draw_label(d, e, BLACK if k == "label" else RED)))
-        elif k == "arrow":
-            rough_arrow(d, (e["a"][0] * W, e["a"][1] * H), (e["b"][0] * W, e["b"][1] * H), seed=3)
+            boxes.append((k, popped_layer(canvas, lambda dd: draw_label(dd, e, BLACK if k == "label" else RED), e, t)))
+        elif k == "arrow":       # drawn on, like a marker stroke
+            rough_arrow(d, (e["a"][0] * W, e["a"][1] * H), (e["b"][0] * W, e["b"][1] * H), seed=3,
+                        p=min(1.0, (t - e["t0"]) / 0.35))
         elif k == "circle":
             x0, y0, x1, y1 = e["rect"]
-            rough_ellipse(d, (x0 * W, y0 * H, x1 * W, y1 * H), seed=6)
+            rough_ellipse(d, (x0 * W, y0 * H, x1 * W, y1 * H), seed=6, p=min(1.0, (t - e["t0"]) / 0.35))
         elif k == "xmark":
-            draw_xmark(d)
+            draw_xmark(d, min(1.0, (t - e["t0"]) / 0.3))
         elif k == "bars":
             boxes.append((k, draw_bars(d, e)))
         elif k == "chart":
@@ -654,7 +861,7 @@ def room_tone(n):
     return (pink / np.sqrt(np.mean(pink ** 2))).astype(np.float32)
 
 
-def render(beats, timings, audio, out_mp4, workdir, vdir):
+def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=None):
     import soundfile as sf
     tm = {t["beat"]: t for t in timings}
     link_elements(beats, tm)
@@ -679,17 +886,18 @@ def render(beats, timings, audio, out_mp4, workdir, vdir):
     sf.write(mix_path, mix, SR)
     os.remove(voice_path)
     # raise to -14 LUFS (YouTube's level) with a peak limiter so loud syllables don't clip
-    soft = "highshelf=f=5000:g=-4,deesser=i=0.4,lowpass=f=11000,"   # takes the sharp edge off the voice
+    soft = "highshelf=f=5000:g=-4,deesser=i=0.4,lowpass=f=11000," if soft_eq else ""  # softens our TTS voice
     loud = soft + comp + f",volume={gain:.2f}dB,alimiter=limit=0.74:level=false"
 
+    f0, f1 = (int(clip[0] * FPS), min(n_frames, int(clip[1] * FPS))) if clip else (0, n_frames)
     ff = subprocess.Popen(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
-                           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", mix_path,
+                           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-ss", f"{f0 / FPS:.3f}", "-i", mix_path,
                            "-af", loud, "-ar", "48000",
                            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
                            "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", out_mp4],
                           stdin=subprocess.PIPE)
     cur = 0
-    for f in range(n_frames):
+    for f in range(f0, f1):
         t = f / FPS
         while cur + 1 < len(beats) and t >= tm[cur + 1]["start"]:
             cur += 1
@@ -758,6 +966,13 @@ def main():
             d = max(0.8, len(b["words"].split()) / 2.5) if b["words"] else hold_of(b)
             timings.append({"beat": i, "start": round(t, 3), "end": round(t + d, 3)})
             t += d
+    elif owner_voice(vdir):
+        ov = owner_voice(vdir)
+        if (os.path.exists(tj) and os.path.getmtime(tj) > max(os.path.getmtime(ov), os.path.getmtime(
+                os.path.join(vdir, "01_script", "beats.txt"))) and len(json.load(open(tj))) == len(beats)):
+            timings = json.load(open(tj))      # already timed to this voice and this beat sheet
+        else:
+            timings, _ = align_voice(beats, ov, wav, tj)
     else:
         timings, audio = make_voice(beats, wav, tj)
         print(f"voice: {len(audio) / SR:.1f}s, {len(beats)} beats")
@@ -768,8 +983,9 @@ def main():
         return
     import soundfile as sf
     audio, _ = sf.read(wav, dtype="float32")
-    out = os.path.join(vdir, "05_export", os.path.basename(vdir) + ".mp4")
-    render(beats, timings, audio, out, os.path.join(vdir, "03_voice"), vdir)
+    clip = next((tuple(float(v) for v in sys.argv[k + 1].split("-")) for k, a in enumerate(sys.argv) if a == "--clip"), None)
+    out = os.path.join(vdir, "05_export", os.path.basename(vdir) + ("_clip" if clip else "") + ".mp4")
+    render(beats, timings, audio, out, os.path.join(vdir, "03_voice"), vdir, soft_eq=not owner_voice(vdir), clip=clip)
     print("video:", out)
 
 
