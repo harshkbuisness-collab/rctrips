@@ -1,7 +1,11 @@
 # Project handoff: doodle finance explainer channel
 
-## START HERE (latest state, 18 Oct 2026, evening)
-Branch: `claude/sharp-gauss-1j9ov4` (harshkbuisness-collab/rctrips). The owner writes in Hindi/Hinglish: reply in **simple English**,
+## START HERE (latest state, 18 Oct 2026, late)
+**Owner decision:** the owner will write the remaining scripts with ChatGPT. Do NOT write scripts or spawn writers.
+Prompts and steps: `research/08-chatgpt-prompts.md`. Day 11 is now finished (2,009 words); Days 20 and 29 are already over 2,000.
+When the owner adds scripts to `scripts/`, check the format with `tools/sheet/parse_script.py` and rebuild the sheet.
+
+Branch: `claude/doodle-finance-scripts-y51bqy` (was `claude/sharp-gauss-1j9ov4`) (harshkbuisness-collab/rctrips). The owner writes in Hindi/Hinglish: reply in **simple English**,
 save credits, commit and push every change.
 
 ### Owner rules (all still apply)
