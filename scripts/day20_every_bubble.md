@@ -144,6 +144,8 @@ The years that followed became known as the Lost Decade. And then, more or less,
 [calm] Here's how long it took. The Nikkei did not close above its 1989 record until February twenty-second, 2024. More than thirty-four years.
 > VISUAL: E23_hourglass empties; E25_calendar flips to "FEB 22, 2024"; a small green check appears; H09 is now C15_retiree_happy, very old, smiling a little.
 > SCREEN: Wikipedia, "Nikkei 225" | https://en.wikipedia.org/wiki/Nikkei_225 | highlight "closed at 39,098.68, finally surpassing its 1989 record high"
+For anyone who bought near the top in 1989, the wait was longer than most careers. Many of them never saw their money come back.
+> VISUAL: a row of E25_calendar pages flutters past; C13_retiree_neutral and C14_retiree_worried walk slowly across the frame from left to right; E46_arrow_down_big fades to a flat line.
 Back in America, the Federal Reserve chairman was watching closely. And he started asking a famous question.
 > VISUAL: G15_map_japan slides out right; G10_central_bank_building slides in left; C26_central_banker_worried walks to E14_podium.
 
@@ -261,4 +263,6 @@ Next time, we'll look at where money itself comes from. Because most of the doll
 - Bitcoin (Coinbase daily) high 67,510 on 8 Nov 2021; low 15,755 on 21 Nov 2022 (−77%) — FRED CBBTCUSD (downloaded 18 Oct 2026) — https://fred.stlouisfed.org/series/CBBTCUSD
 - Crypto market fell below $1 trillion (Sept 2022) — CNBC — https://www.cnbc.com/amp/2022/09/07/bitcoin-btc-price-falls-as-cryptocurrency-market-drops-below-1-trillion-.html
 - FTX collapse and bankruptcy filing, 11 Nov 2022 — CNBC — https://www.cnbc.com/2022/11/11/sam-bankman-frieds-cryptocurrency-exchange-ftx-files-for-bankruptcy.html
+- Bubble Act passed June 1720; promoted by the South Sea Company; Newton "madness of people" quote reported only second-hand — Wikipedia, "South Sea Company" — https://en.wikipedia.org/wiki/South_Sea_Company
+- New York Fed pushed to raise discount rate, 6 percent by August 1929 — Federal Reserve History — https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
 - Fed rate increases in 2022 — Federal Reserve, Open Market Operations — https://www.federalreserve.gov/monetarypolicy/openmarket.htm
