@@ -2,6 +2,7 @@
 
 Usage:
   KOKORO_DIR=<model dir> python3 tools/make_video.py videos/<slug> [--voice-only | --check]
+  CHATTERBOX_PY=<python with chatterbox-tts> python3 tools/make_video.py videos/<slug>   (emotional voice)
 
   --check  renders the last frame of every beat into contact sheets (05_export/check_*.jpg)
            and prints layout warnings (text off screen, text over text, text over a drawing).
@@ -10,8 +11,9 @@ Inputs:  <slug>/01_script/beats.txt, <slug>/02_assets/screens/* (real screenshot
          library/assets/*.jpg, library/fonts/*.ttf
 Outputs: <slug>/03_voice/voiceover.wav + timings.json, <slug>/05_export/<slug>.mp4
 
-Beat sheet line:   spoken words || element; element; ...
-An element listed again in the next beat stays on screen (a doc keeps zooming). Append +SECONDS to delay it.
+Beat sheet line:   [emotion] spoken words || element; element; ...
+  [emotion] is optional: calm, serious, sarcastic, dramatic or excited (the Chatterbox voice only).
+An element listed again in the next beat stays on screen (a highlight already drawn stays drawn). Append +SECONDS to delay it.
   A01@pos[:height[:anchor]]             library image (height = share of screen height; >= 0.9 makes a
                                         close-up cut by the frame). anchor = left|right|top|bottom pins that
                                         edge of the drawing to pos, for peeking in from the frame edge
@@ -26,11 +28,10 @@ An element listed again in the next beat stays on screen (a doc keeps zooming). 
   arrow:x,y>x,y                         red hand-drawn arrow
   circle:x0,y0,x1,y1                    red hand-drawn circle around a screen box
   xmark                                 big red X across the scene
-  doc:FILE@pos w=0.7 [h=0.8] [zoom=1.06] [focus=x,y] [scroll] [frame=0] [src="Source"]
-      [hl=x0,y0,x1,y1] [box=x0,y0,x1,y1] [circ=x0,y0,x1,y1]
-                                        real screenshot with a slow zoom toward focus (or a slow scroll).
-                                        hl = yellow highlighter, box/circ = red marks, all in fractions of
-                                        the screenshot; each may end in +SECONDS
+  doc:FILE@pos w=0.7 [h=0.84] [frame=0] [src="Source"] [hl=x0,y0,x1,y1] [box=x0,y0,x1,y1] [circ=x0,y0,x1,y1]
+                                        real screenshot, shown whole and still (no zoom, never cut), fitted
+                                        inside w x h of the screen. hl = yellow highlighter, box/circ = red
+                                        marks, all in fractions of the screenshot; each may end in +SECONDS
   bars:"2020"=100,"2025"=81[:circle]    horizontal bar chart of dollar values, built one row per beat
   chart@a-b                             "$100 at 3% inflation" line chart, drawn from year a to b
   source:"TEXT"                         small grey source line, bottom left
@@ -61,6 +62,14 @@ VOICE, SPEED = "am_michael", 1.1
 GAP, GAP_LONG = 0.18, 0.3            # pause after a sentence / after "..." or "?"
 ROOM_TONE_DB = -56                   # faint room noise under everything, like a real microphone
 TTS_MODEL = os.environ.get("KOKORO_DIR", "")
+# Emotional voice: Chatterbox (MIT licence) copies the Michael voice from VOICE_REF and adds feeling.
+# It needs its own Python (torch); point CHATTERBOX_PY at it. Without it, the flat Kokoro voice is used.
+CHATTERBOX_PY = os.environ.get("CHATTERBOX_PY", "")
+VOICE_REF = os.path.join(ROOT, "library", "voice", "ref_am_michael.wav")
+# [tag] at the start of a beat's words -> (exaggeration, cfg_weight). Higher exaggeration = more feeling,
+# lower cfg = slower, more deliberate delivery.
+EMOTIONS = {"neutral": (0.5, 0.5), "calm": (0.35, 0.5), "serious": (0.45, 0.55), "sarcastic": (0.6, 0.45),
+            "dramatic": (0.7, 0.3), "excited": (0.9, 0.35)}
 _fonts = {}
 
 
@@ -90,19 +99,14 @@ def split_delay(s):
 def parse_doc(item):
     head, *opts = re.findall(r'(?:[^\s"]|"[^"]*")+', item[4:])
     f, _, p = head.partition("@")
-    e = {"kind": "doc", "file": f, "pos": p, "w": 0.7, "h": 0, "zoom": 1.06, "focus": "0.5,0.5",
-         "scroll": False, "frame": 1, "src": "", "marks": []}
+    e = {"kind": "doc", "file": f, "pos": p, "w": 0.7, "h": 0.84, "frame": 1, "src": "", "marks": []}
     for o in opts:
         k, _, v = o.partition("=")
         if k in ("hl", "box", "circ"):
             v, dl = split_delay(v)
             e["marks"].append({"kind": k, "rect": nums(v), "delay": dl})
-        elif k == "scroll":
-            e["scroll"] = True
         elif k == "src":
             e["src"] = v.strip('"')
-        elif k == "focus":
-            e["focus"] = v
         else:
             e[k] = float(v)
     return e
@@ -159,7 +163,12 @@ def parse_beats(path):
         if not line or line.startswith("#"):
             continue
         words, vis = [s.strip() for s in line.split("||")]
-        beats.append({"words": words, "elems": [parse_elem(v.strip()) for v in vis.split(";") if v.strip()]})
+        m = re.match(r"\[(\w+)\]\s*", words)
+        emo = m.group(1) if m else ""
+        if emo and emo not in EMOTIONS:
+            sys.exit(f"unknown emotion [{emo}]; use one of {', '.join(EMOTIONS)}")
+        beats.append({"words": words[m.end():] if m else words, "emo": emo,
+                      "elems": [parse_elem(v.strip()) for v in vis.split(";") if v.strip()]})
     return beats
 
 
@@ -176,24 +185,56 @@ def trim(a, thr=0.008, pad=0.03):
     return a[max(0, idx[0] - p): idx[-1] + p]
 
 
-def make_voice(beats, out_wav, out_json):
-    from kokoro_onnx import Kokoro
-    import soundfile as sf
-    k = Kokoro(os.path.join(TTS_MODEL, "kokoro-v1.0.onnx"), os.path.join(TTS_MODEL, "voices-v1.0.bin"))
-    audio, t, timings, group = [np.zeros(int(0.25 * SR), dtype=np.float32)], 0.25, [], []
+def sentence_groups(beats):
+    """Beats spoken together in one breath: up to a sentence end, or before a wordless beat."""
+    groups, group = [], []
     for i, b in enumerate(beats):
         group.append(i)
         last = i == len(beats) - 1
-        if not (not b["words"] or re.search(r"[.?!]$", b["words"]) or last or (i + 1 < len(beats) and not beats[i + 1]["words"])):
-            continue
-        spoken = [j for j in group if beats[j]["words"]]
-        if spoken:
-            text = " ".join(beats[j]["words"] for j in spoken)
-            a, sr = k.create(text, voice=VOICE, speed=SPEED, lang="en-us")
-            a = trim(a.astype(np.float32))
+        if not b["words"] or re.search(r"[.?!]$", b["words"]) or last or not beats[i + 1]["words"]:
+            groups.append(group)
+            group = []
+    return groups
+
+
+def speak_chatterbox(jobs, cache):
+    """jobs = [(text, emotion)]; returns one float32 array per job. Results are cached by text + emotion."""
+    import hashlib, soundfile as sf
+    os.makedirs(cache, exist_ok=True)
+    todo, paths = [], []
+    for text, emo in jobs:
+        ex, cfg = EMOTIONS[emo or "neutral"]
+        path = os.path.join(cache, hashlib.sha1(f"{text}|{ex}|{cfg}".encode()).hexdigest()[:16] + ".wav")
+        paths.append(path)
+        if not os.path.exists(path):
+            todo.append({"text": text, "ex": ex, "cfg": cfg, "out": path})
+    if todo:
+        job_file = os.path.join(cache, "jobs.json")
+        json.dump({"ref": VOICE_REF, "jobs": todo}, open(job_file, "w"))
+        subprocess.run([CHATTERBOX_PY, os.path.join(ROOT, "tools", "chatterbox_tts.py"), job_file], check=True)
+    return [sf.read(p, dtype="float32")[0] for p in paths]
+
+
+def make_voice(beats, out_wav, out_json):
+    import soundfile as sf
+    groups = sentence_groups(beats)
+    texts = [(" ".join(beats[j]["words"] for j in g if beats[j]["words"]),
+              next((beats[j]["emo"] for j in g if beats[j]["emo"]), "")) for g in groups]
+    spoken = [(t, e) for t, e in texts if t]
+    if CHATTERBOX_PY:
+        clips = speak_chatterbox(spoken, os.path.join(os.path.dirname(out_wav), "cache"))
+    else:
+        from kokoro_onnx import Kokoro
+        k = Kokoro(os.path.join(TTS_MODEL, "kokoro-v1.0.onnx"), os.path.join(TTS_MODEL, "voices-v1.0.bin"))
+        clips = [k.create(t, voice=VOICE, speed=SPEED, lang="en-us")[0] for t, _ in spoken]
+    clips = iter(clips)
+    audio, t, timings = [np.zeros(int(0.25 * SR), dtype=np.float32)], 0.25, []
+    for group, (text, _) in zip(groups, texts):
+        if text:
+            a = trim(next(clips).astype(np.float32))
             dur = len(a) / SR
         else:
-            dur, text = hold_of(b), ""          # wordless beat: section break or end screen
+            dur = hold_of(beats[group[-1]])        # wordless beat: section break or end screen
             a = np.zeros(int(dur * SR), dtype=np.float32)
         # split the sentence time between its beats by character count (approximate word timing)
         lens = [max(1, len(beats[j]["words"])) for j in group]
@@ -205,7 +246,6 @@ def make_voice(beats, out_wav, out_json):
         gap = GAP_LONG if text.endswith(("...", "?")) else GAP if text else 0.0
         audio += [a, np.zeros(int(gap * SR), dtype=np.float32)]
         t += dur + gap
-        group = []
     full = np.concatenate(audio)
     sf.write(out_wav, full, SR)
     json.dump(timings, open(out_json, "w"), indent=1)
@@ -347,20 +387,13 @@ def doc_marked(vdir, e, ages):
 
 
 def draw_doc(canvas, vdir, e, t, boxes):
+    """The whole screenshot, standing still, scaled to fit inside w x h of the screen (never cut)."""
     base = doc_base(vdir, e)
     iw, ih = base.size
-    dw = int(e["w"] * W)
-    dh = int(e["h"] * H) if e["h"] else int(dw * ih / iw)
-    win_h = iw * dh / dw                                   # screenshot pixels visible at zoom 1
-    life = max(0.5, e["t_end"] - e["t0"])
-    p = min(1.0, max(0.0, (t - e["t0"]) / life))
-    oy = (ih - win_h) * p if e["scroll"] and ih > win_h else 0
-    z = 1 + (e["zoom"] - 1) * p
-    fx, fy = nums(e["focus"])
-    rw, rh = iw / z, min(ih, win_h) / z
-    left, top = fx * iw * (1 - 1 / z), oy + fy * min(ih, win_h) * (1 - 1 / z)
+    k = min(e["w"] * W / iw, e["h"] * H / ih)
+    dw, dh = int(iw * k), int(ih * k)
     ages = [t - m["t0"] for m in e["marks"]]
-    im = doc_marked(vdir, e, ages).crop((int(left), int(top), int(left + rw), int(top + rh))).resize((dw, dh), Image.BILINEAR)
+    im = doc_marked(vdir, e, ages).resize((dw, dh), Image.LANCZOS)
     x, y = pos(e["pos"])
     px, py = int(x * W - dw / 2), int(y * H - dh / 2)
     d = ImageDraw.Draw(canvas)
@@ -371,7 +404,7 @@ def draw_doc(canvas, vdir, e, t, boxes):
         d.rectangle([px - 1, py - 1, px + dw, py + dh], outline=(150, 150, 150), width=2)
     if e["src"]:
         d.text((px, py + dh + 22), e["src"], font=font(FONT_HAND, 34), fill=GREY, anchor="lm")
-    boxes.append(("doc", (px, py, px + dw, py + dh)))
+    boxes.append(("doc", (px, py, px + dw, py + dh + (44 if e["src"] else 0))))
 
 
 # ---------- drawing ----------
@@ -676,6 +709,9 @@ def check(beats, timings, vdir):
             reg = np.array(cov.crop((int(x0), int(y0), int(x1), int(y1))))
             if reg.size and (reg > 128).mean() > 0.08:
                 warnings.append(f"beat {i + 1}: {k} covers a drawing ({(reg > 128).mean():.0%})")
+        for _, (x0, y0, x1, y1) in [b for b in boxes if b[0] == "doc"]:
+            if x0 < 0 or y0 < 0 or x1 > W or y1 > H:
+                warnings.append(f"beat {i + 1}: screenshot is cut by the frame edge")
         for k, A in texts:
             for C in [bx for kd, bx in boxes if kd == "doc"]:
                 if k in ("title", "source") and A[0] < C[2] and C[0] < A[2] and A[1] < C[3] and C[1] < A[3]:
