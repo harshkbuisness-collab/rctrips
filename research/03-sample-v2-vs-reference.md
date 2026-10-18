@@ -1,63 +1,56 @@
-# Sample v2 vs Reference — measured differences (18 Oct 2026)
+# Sample v2 vs Reference: deep comparison (18 Oct 2026, revised)
 
-Method: frame sampling (1–4 fps strips), black-screen detection, change-rate counts per minute at three sensitivity levels, silence detection, on all 6 reference videos and our `sample02_inflation_v2`.
+**Method:**
+- All 6 reference videos sampled at 1 frame per 10 s across the whole video, plus dense 1–4 fps strips at chosen moments.
+- Black-screen detection.
+- Change rate per minute, at three sensitivity levels.
+- Cut/fade detection.
+- Audio: loudness percentiles and a spectral "flatness" test (noise vs tonal sound) in the pauses and at section breaks.
 
-## 1. Black screens
-| | Reference | Ours v2 |
-|---|---|---|
-| Black chapter cards | **None.** Only dark frames found: the real SpaceX logo animation (SpaceX video, 3 times, ~1–2 s) and ~1.5 s in "To Save the Economy" | **2 black glowing chapter cards (1.6 s each)** |
-| How chapters are marked | A **small red handwritten title in the top-left corner** of a normal white scene ("The good") + music sting | Full black card + whoosh |
+## A. In the reference but missing in ours
 
-**Fix:** remove black cards. Use a small red/orange handwritten corner title on the white scene.
+| # | Item | Evidence | Fix needs |
+|---|---|---|---|
+| 1 | **Real documents and screenshots on about 40–50% of screen time**: article pages, PDFs in a viewer, earnings-call transcripts, government/agency tables, stock-quote pages, data charts from banks | Whole-video samples: about 45 of 104 frames ("Dumping Ground") and about 40 of 80 ("To Save the Economy") show real material | Network access to news and data sites |
+| 2 | **Highlighter on documents**: mostly yellow, some green, blue or pink; red box around table rows | Seen in almost every document scene | Builder feature |
+| 3 | **Narrator explaining over the document**: small at the right or bottom edge, pointing with a stick or arm, or at a desk with a laptop | Very frequent | Builder feature (we have the poses) |
+| 4 | **Real photos and video clips**: people (CEOs, a former Fed chair), interview clips inside a TV or laptop frame, YouTube clips | Several per video | Network access; fair-use care |
+| 5 | **Company logos** shown big on their own, or several logos together | Many per video | Network access, or official press kits |
+| 6 | **Section titles as small red or black handwriting, top-left** ("The good", "Way 1", "Startup", "Asymmetric bet") | All videos | Builder change |
+| 7 | **Short music sting (about 1–2 s) only at section changes and logo moments**; tonal audio measured at 260–261 s in the SpaceX video | Transcripts also mark "[music]" only at those points | One licence-free sting |
+| 8 | **Natural room tone**: pauses are about −52 to −62 dB of noise, never true silence | Measured flatness 0.7–0.9 = noise, not music | Add a faint noise floor |
+| 9 | **Sponsor segment**: product screenshots, QR code, and a **thin yellow progress line along the bottom** of the frame during the whole sponsor read | Seen in "Dumping Ground" (Bilt) and "To Save the Economy" (Odoo) | Only when we have sponsors |
+| 10 | **End screen**: about 10 s of white card, "Subscribe for more / Casual Finance", a box for the next-video end-screen element, social handles | Seen in the SpaceX video and "To Save the Economy" | Builder feature |
+| 11 | **Extreme close-ups** (head and hand cut off by the frame edge) and varied character sizes | Many | Builder feature (crop) |
+| 12 | **Scenes that build up**: items added one by one to the same scene; groups of small icons (many houses or money bags) | Many | Beat-sheet practice |
+| 13 | **Big red X** crossing out a scene; red hand-drawn arrows and circles on charts | Several | Builder feature |
+| 14 | **Occasional big red marker text** for shock numbers ("$5.9 QUADRILLION", "NUMBERS BIG AF", "15x!!!"), and "SUBSCRIBE!" in black marker once | Rare (1–3 per video) | Already supported (make it red/black, rarely) |
+| 15 | Real data charts with annotations: hand-drawn arrows, "up 57%", red circles | Many | Network access + builder |
+| 16 | Real human voice with personality | All | Paid voice or own recording |
 
-## 2. Real documents and screen recordings (biggest visual gap)
-Reference (e.g. Housing video, 6:40–7:10): about **a third of mid-video screen time** shows real material:
-- Screen recordings of PDFs and websites, **scrolling and zooming in** (the only camera movement in these videos)
-- **Yellow highlighter** over the key sentence in transcripts/articles; red box around a table row
-- Article pages (The Real Deal), earnings-call transcripts, Yahoo Finance quotes, BLS tables
-- Doodle characters **peeking in from the side/bottom over the document**; doodle icons popping on top of the document
-- Big standalone **company logos** (Lennar, Nasdaq, SpaceX)
+## B. In ours but not in the reference (remove or change)
 
-Ours: **none** (one recreated headline card).
-**Fix:** needs network access to news/data sites (environment setting). Builder needs: screenshot + slow zoom/scroll + yellow highlight + red box + character peeking over.
+| # | Item in ours | Reference | Action |
+|---|---|---|---|
+| 1 | **Black glowing chapter cards** | None; only the real SpaceX logo clip is dark | Remove |
+| 2 | **Bounce pop-in animation** | Things just appear (hard cut); 144 of 148 cuts measured as hard cuts | Remove bounce, except very rarely |
+| 3 | **Pop sounds and whooshes** | Almost no sound effects | Remove |
+| 4 | **Dead digital silence between sentences** (−180 dB) | Room noise in every pause | Add a faint noise floor and shorter pauses |
+| 5 | **Big orange marker words** ("INFLATION") | Big text is rare and red/black | Mostly small handwriting |
+| 6 | **Orange used for everything** (labels, arrows, circles) | Red for annotations, yellow for highlights | Red annotations, yellow highlights, orange only as a small brand touch |
+| 7 | **Colourful, detailed props** (Penny with shading, full-colour carts) | Simpler, flatter, fewer colours | Acceptable as our own look, but prefer simpler items |
+| 8 | **Every sentence is a fresh scene** | Scenes build up over several sentences | Build up more |
+| 9 | Chart drawn by us with no source line | Usually a real chart screenshot with its source visible | Add a source line; use real charts when possible |
 
-## 3. Framing / camera
-| | Reference | Ours |
-|---|---|---|
-| Character size | Varies a lot: small full-body, medium, **extreme close-ups cropped by the frame edge** (big head + hand holding a bill) | Mostly one size (full body, 55–75% height, centred) |
-| Motion | Static doodles; only documents scroll/zoom | Static (correct) + pop-bounce on some items |
-| Micro-motion (wobble) | None (measured: 1 change in a 2-s static shot) | None ✓ |
+## C. Already matching
+- White background, stick figures, speech bubbles, labels with arrows
+- Speaking speed (~155 words/min)
+- No background music bed
+- Hard cuts, no wobble/micro-motion
+- Line chart building as it's spoken; bar comparisons
+- Loudness around −14 to −15 LUFS
+- 24 fps
 
-**Fix:** add close-up crops (head + hand bleeding off frame), more size variety, smaller characters in many scenes.
-
-## 4. How scenes build up
-| | Reference | Ours |
-|---|---|---|
-| Changes per minute (small/big) | 40–88 small, 20–22 big | 30 small, 16 big |
-| Build style | **Items accumulate** in one scene one by one (box → DEBT note → FEE note → money bag) | Often a new scene per sentence |
-| Groups of repeated small icons | Yes (many houses + SALE signs scattered) | No |
-| Gags | Red X crossing out a scene, small red side-notes ("still too broke", "victory twerk"), speech bubbles | Bubbles + labels (good), no red X, side-notes are black/orange |
-
-**Fix:** ~1.5–2× more changes; accumulate items within a scene; scattered icon groups; red X gag; red handwritten side-notes.
-
-## 5. Colours and text
-- Reference annotation colour is **red** (circles, X, side-notes, chapter titles); highlight is **yellow** on documents. Ours uses orange everywhere. (We keep orange as brand accent, but documents need yellow highlight.)
-- Reference big text is rare; most text is **small handwriting**. Ours has big marker words ("INFLATION", "SUBSCRIBE!") that the reference never uses.
-
-## 6. Audio
-| | Reference | Ours |
-|---|---|---|
-| Background bed | Quiet continuous music/room tone: only **6** gaps below −50 dB in 80 s | **Dead silence** between sentences: **34** gaps below −50 dB |
-| Pauses | Short, natural | Fixed 0.3–0.45 s machine gaps |
-| Voice | Real human, sarcastic, varied pace | Flat TTS |
-| SFX | Rare | Pops + whooshes (too many) |
-
-**Fix:** quiet music bed under everything (needs a licence-free track), shorter pauses, remove whooshes, fewer pops; better voice.
-
-## 7. Ending
-Reference: last ~8–10 s is a **white end screen** — "Subscribe for more / Casual Finance", small YouTube logo with "only on" note and crossed-out social icons — space for YouTube end-screen elements.
-Ours: ends abruptly on the subscribe line.
-**Fix:** add a 10–20 s end screen in our branding.
-
-## 8. Script
-Reference: 12–17 min, real current news, named sources, exact quotes on screen, sponsor at ~55–60%. Ours: 89-s evergreen sample, quotes recreated. (Format limit, not a builder problem.)
+## D. Corrections to the earlier report
+- **There is NO background music bed** (you were right). The quiet sound in their pauses is microphone room noise. Music appears only as short stings at section breaks and logo moments.
+- Real-document screen time is **about 40–50%**, not about a third.
