@@ -267,6 +267,41 @@ Use the reference image for **line style only**. These are **new** characters, s
 | G23 | credit_meter | Credit score meter: a semicircle gauge meter going from red to green, needle pointing to red. |
 | G24 | storm_cloud | Recession storm cloud: a dark grey storm cloud with lightning and falling banknotes instead of rain. |
 
+## H. Reference-match extras (28) — added after the deep comparison with the reference videos
+
+Simpler style for these: mostly black line art with at most one or two flat colours, like a quick marker doodle.
+
+| # | File | Prompt |
+|---|---|---|
+| H01 | narrator_point_viewer | Narrator pointing at the viewer: NARRATOR pointing straight at the viewer with one finger, smug grin. |
+| H02 | narrator_heart_eyes | Narrator in love heart eyes: NARRATOR with pink heart-shaped eyes, dreamy smile, hands together. |
+| H03 | narrator_victory_dance | Narrator victory dance: NARRATOR doing a silly victory dance, one leg up, arms waving. |
+| H04 | narrator_peek_bottom | Narrator peeking up from the bottom edge: only the head, shoulders and one hand of NARRATOR rising from the bottom edge of the image, curious face. |
+| H05 | narrator_reading_book | Narrator reading a book: NARRATOR reading an open book, focused face. |
+| H06 | narrator_reading_paper | Narrator reading a sheet of paper worried: NARRATOR holding a single sheet of paper with squiggle lines, worried face. |
+| H07 | narrator_closeup_bill | Narrator close-up holding a dollar bill: big close-up of the head and one hand of NARRATOR holding a green dollar bill, the body cut off by the bottom edge, unimpressed face. |
+| H08 | narrator_armchair | Narrator relaxing in armchair: NARRATOR leaning back in a simple red armchair, relaxed smug face. |
+| H09 | guy_curly_neutral | Curly-haired guy standing: a simple stick figure with a big round peach head, dot eyes, curly brown hair, thin single-line body, neutral face. |
+| H10 | guy_curly_talking | Curly-haired guy explaining: the same curly-haired stick figure talking with one hand raised, open mouth. |
+| H11 | woman_shorthair_neutral | Short-haired woman standing: a simple stick figure woman with a big round peach head, dot eyes, short black bob hair, thin single-line body, neutral face. |
+| H12 | woman_shorthair_shocked | Short-haired woman shocked: the same short-haired stick figure woman, shocked face, hands on cheeks. |
+| H13 | bowtie_man_smug | Bow-tie man smug: a simple stick figure man with a big round brown head, black hair, a small red bow tie, smug smile. |
+| H14 | bowtie_man_worried | Bow-tie man worried: the same bow-tie stick figure man, worried face, sweat drop. |
+| H15 | paper_note_blank | Blank paper note: a single sheet of white paper with a few black squiggle lines for text and an empty space at the top. |
+| H16 | sticky_note_blank | Blank yellow sticky note: an empty square yellow sticky note. |
+| H17 | price_tag_blank | Blank price tag: an empty paper price tag on a string. |
+| H18 | sign_blank | Blank hanging sign: an empty red rectangular sign hanging from a small wooden post. |
+| H19 | box_closed | Closed cardboard box: a plain closed grey cardboard box with a small arrow symbol. |
+| H20 | box_open | Open cardboard box: the same plain grey cardboard box, open and empty. |
+| H21 | flat_tv_blank | Flat TV with blank screen: a modern flat TV on a small stand with an empty white screen. |
+| H22 | book_open | Open book: an open book with squiggle lines for text. |
+| H23 | apartment_building | Small apartment building: a small grey apartment building with a few windows. |
+| H24 | bricks_stack | Stack of bricks: a small stack of red bricks. |
+| H25 | armchair_red | Red armchair: an empty simple red armchair. |
+| H26 | gold_medal | Gold medal: a gold medal on a blue ribbon. |
+| H27 | heart | Pink heart: a simple pink cartoon heart. |
+| H28 | paper_stack | Stack of documents: a messy stack of white paper documents. |
+
 ## F. Backgrounds (8)
 
 **Format:** 16:9, landscape. Instead of the STYLE line, use this:

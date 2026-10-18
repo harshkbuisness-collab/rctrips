@@ -2,7 +2,7 @@
 import re
 rows = []
 for line in open('PROMPT_PACK_v1.md'):
-    m = re.match(r'\| ([A-G]\d\d) \| (\S+) \| (.+) \|$', line.strip())
+    m = re.match(r'\| ([A-H]\d\d) \| (\S+) \| (.+) \|$', line.strip())
     if m: rows.append(m.groups())
 STYLE = "Simple hand-drawn doodle cartoon, thick black marker outlines with slightly wobbly lines, flat colours, minimal detail, no shading, no gradients, pure white background, centred, full body, lots of empty space around the subject, no text."
 BG = "Simple hand-drawn doodle cartoon background, thick black marker outlines, flat muted colours, minimal detail, empty scene with no people, no text, wide landscape view."

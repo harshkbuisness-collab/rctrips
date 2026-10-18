@@ -1,0 +1,58 @@
+You are generating a full image asset library for a cartoon YouTube channel about finance and economics. Use the attached reference image (character style sheet) for character consistency and line style.
+
+RULES (follow for every single image):
+1. Generate ONE separate image for EACH numbered item below. Never combine two items into one image.
+2. Aspect ratio: 9:16 (portrait) for every image.
+3. Work in batches of 24. Generate Batch 1 completely (all 24 images). As soon as Batch 1 is finished, immediately continue with Batch 2, then Batch 3, and so on, without stopping, until every item in the list is done.
+4. Keep the exact item order. If you can, use the item code (for example A01) as the image file name. Never draw or write the code inside the picture.
+5. The narrator and Penny must look exactly like the reference image in every image: same face, same hair, same glasses, same scarf, same colours, same line thickness.
+6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face. ALL people must be simple stick figures exactly like the narrator: big round peach head with dot eyes, thin single-line black stick body, arms and legs. Show clothing only as small simple items (a tie, a hoodie outline, a jacket outline). No realistic bodies, no detailed faces, no wrinkles, no shading. Never make anyone look like a real, famous person.
+7. Never add text, letters, words, watermarks or logos unless the item asks for them.
+8. Style for every image: Simple hand-drawn doodle cartoon, thick black marker outlines with slightly wobbly lines, flat colours, minimal detail, no shading, no gradients, pure white background, centred, full body, lots of empty space around the subject, no text.
+
+9. For all H items: keep the drawing even simpler, like a quick marker doodle, mostly black lines with at most one or two flat colours.
+
+TOTAL: 36 images in 2 batches.
+
+
+=== BATCH 1 of 2 (24 images) ===
+E55. Ball and chain: a heavy iron ball on a chain.
+G06. Euro coin character: a gold euro coin character with dot eyes and a nervous smile.
+G09. Government capitol building: a white domed government capitol building, simple.
+G10. Central bank building: a grey stone central bank building with columns and a flag on top.
+G13. USA map character: a grey map of the United States with big cartoon eyes and a worried mouth.
+G15. Japan map character: a white-and-pink map of Japan with big cartoon eyes and a nervous face.
+G18. Cartoon army tank: a small simple green army tank.
+G22. For rent sign: a small house with a hanging sign showing a dollar sign and an up arrow.
+H01. Narrator pointing at the viewer: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pointing straight at the viewer with one finger, smug grin.
+H02. Narrator in love heart eyes: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) with pink heart-shaped eyes, dreamy smile, hands together.
+H03. Narrator victory dance: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) doing a silly victory dance, one leg up, arms waving.
+H04. Narrator peeking up from the bottom edge: only the head, shoulders and one hand of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) rising from the bottom edge of the image, curious face.
+H05. Narrator reading a book: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) reading an open book, focused face.
+H06. Narrator reading a sheet of paper worried: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding a single sheet of paper with squiggle lines, worried face.
+H07. Narrator close-up holding a dollar bill: big close-up of the head and one hand of the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) holding a green dollar bill, the body cut off by the bottom edge, unimpressed face.
+H08. Narrator relaxing in armchair: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) leaning back in a simple red armchair, relaxed smug face.
+H09. Curly-haired guy standing: a simple stick figure with a big round peach head, dot eyes, curly brown hair, thin single-line body, neutral face.
+H10. Curly-haired guy explaining: the same curly-haired stick figure talking with one hand raised, open mouth.
+H11. Short-haired woman standing: a simple stick figure woman with a big round peach head, dot eyes, short black bob hair, thin single-line body, neutral face.
+H12. Short-haired woman shocked: the same short-haired stick figure woman, shocked face, hands on cheeks.
+H13. Bow-tie man smug: a simple stick figure man with a big round brown head, black hair, a small red bow tie, smug smile.
+H14. Bow-tie man worried: the same bow-tie stick figure man, worried face, sweat drop.
+H15. Blank paper note: a single sheet of white paper with a few black squiggle lines for text and an empty space at the top.
+H16. Blank yellow sticky note: an empty square yellow sticky note.
+
+=== BATCH 2 of 2 (12 images) ===
+H17. Blank price tag: an empty paper price tag on a string.
+H18. Blank hanging sign: an empty red rectangular sign hanging from a small wooden post.
+H19. Closed cardboard box: a plain closed grey cardboard box with a small arrow symbol.
+H20. Open cardboard box: the same plain grey cardboard box, open and empty.
+H21. Flat TV with blank screen: a modern flat TV on a small stand with an empty white screen.
+H22. Open book: an open book with squiggle lines for text.
+H23. Small apartment building: a small grey apartment building with a few windows.
+H24. Stack of bricks: a small stack of red bricks.
+H25. Red armchair: an empty simple red armchair.
+H26. Gold medal: a gold medal on a blue ribbon.
+H27. Pink heart: a simple pink cartoon heart.
+H28. Stack of documents: a messy stack of white paper documents.
+
+END OF LIST. Make sure every item from the first to the last has its own separate image.
