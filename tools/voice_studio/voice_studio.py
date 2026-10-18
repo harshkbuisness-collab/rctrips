@@ -7,6 +7,12 @@ Inside a script you can set the feeling with a tag in square brackets. It applie
 until the next tag:  [calm] [serious] [sarcastic] [dramatic] [excited] [neutral]
 A blank line inside a script gives a longer pause.
 
+Two speeds: "fast" (Turbo model, over 2x faster, tags ignored: the feeling then comes only from
+the voice sample) and "quality" (emotion tags work). With an NVIDIA card or on Google Colab it is much faster.
+While it runs, the page shows a progress bar with the time left, and every finished voice can be
+played and downloaded right away. Add --fast to use it without the app,
+and --share to get a public link (for running on a free Google Colab GPU).
+
 Output (folder "output"): script_01.wav, script_01.json (each sentence with its start/end time), ...
 plus all_voices.zip. Finished sentences are remembered in "cache", so if you stop and start again,
 it continues where it left off.
@@ -27,18 +33,26 @@ EMOTIONS = {"neutral": (0.7, 0.4), "calm": (0.6, 0.45), "serious": (0.7, 0.4), "
 PAUSE, PAUSE_LONG, PAUSE_PARAGRAPH = 0.25, 0.45, 0.7      # seconds after a sentence / "?" or "..." / blank line
 MAX_CHARS = 280                                            # longer sentences are split at commas
 
-_model = None
+_models = {}
 
 
-def model():
-    global _model
-    if _model is None:
+def model(fast=False):
+    """Loads a model once and reads the voice sample once (not again for every sentence)."""
+    if fast not in _models:
         import torch
-        from chatterbox.tts import ChatterboxTTS
         device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
-        print(f"Loading the voice model on {device} (first time downloads about 3 GB)...", flush=True)
-        _model = ChatterboxTTS.from_pretrained(device=device)
-    return _model
+        torch.set_num_threads(os.cpu_count() or 4)
+        print(f"Loading the {'fast' if fast else 'quality'} voice model on {device} "
+              "(the first time it downloads a few GB)...", flush=True)
+        if fast:
+            from chatterbox.tts_turbo import ChatterboxTurboTTS
+            m = ChatterboxTurboTTS.from_pretrained(device=device)
+        else:
+            from chatterbox.tts import ChatterboxTTS
+            m = ChatterboxTTS.from_pretrained(device=device)
+        m.prepare_conditionals(REF_VOICE)
+        _models[fast] = m
+    return _models[fast]
 
 
 # ---------- reading the scripts ----------
@@ -95,27 +109,25 @@ def trim(a, thr=0.01, pad=0.04):
     return a[max(0, idx[0] - p): idx[-1] + p]
 
 
-def speak(sentence, emotion, seed):
-    ex, cfg = EMOTIONS[emotion]
+def speak(sentence, emotion, seed, fast=False):
+    ex, cfg = EMOTIONS[emotion] if not fast else ("turbo", "")
     os.makedirs(CACHE_DIR, exist_ok=True)
     key = hashlib.sha1(f"{sentence}|{ex}|{cfg}|{seed}|{os.path.getsize(REF_VOICE)}".encode()).hexdigest()[:20]
     path = os.path.join(CACHE_DIR, key + ".wav")
     if not os.path.exists(path):
         import torch
         torch.manual_seed(seed)
-        m = model()
-        wav = m.generate(sentence, audio_prompt_path=REF_VOICE, exaggeration=ex, cfg_weight=cfg)
+        m = model(fast)
+        wav = m.generate(sentence) if fast else m.generate(sentence, exaggeration=ex, cfg_weight=cfg)
         sf.write(path, wav.squeeze(0).cpu().numpy(), m.sr)
     a, _ = sf.read(path, dtype="float32")
     return trim(a)
 
 
-def make_voice(script, number, default_emotion="neutral", seed=1, log=print):
-    sents = split_sentences(script, default_emotion)
+def save_voice(script, number, parts):
+    """parts = [(sentence, emotion, pause, audio)] -> script_NN.wav + script_NN.json."""
     audio, t, timing = [np.zeros(int(0.2 * SR), dtype=np.float32)], 0.2, []
-    for i, (s, emo, pause) in enumerate(sents, 1):
-        log(f"Script {number}: sentence {i}/{len(sents)} [{emo}]")
-        a = speak(s, emo, seed)
+    for s, emo, pause, a in parts:
         timing.append({"text": s, "emotion": emo, "start": round(t, 3), "end": round(t + len(a) / SR, 3)})
         audio += [a, np.zeros(int(pause * SR), dtype=np.float32)]
         t += len(a) / SR + pause
@@ -134,25 +146,61 @@ def make_voice(script, number, default_emotion="neutral", seed=1, log=print):
     return base + ".wav", base + ".json"
 
 
-def make_all(text, default_emotion="neutral", seed=1, log=print):
+def clock(sec):
+    sec = int(sec)
+    return f"{sec // 3600}h {sec // 60 % 60:02d}m" if sec >= 3600 else f"{sec // 60}m {sec % 60:02d}s"
+
+
+def generate_all(text, default_emotion="neutral", seed=1, fast=False):
+    """Makes every script, yielding progress after each sentence:
+    {"done": 0..1, "msg": str, "eta": str, "finished": [(number, wav, json)], "zip": path or None}"""
     scripts = split_scripts(text)
     if not scripts:
         raise ValueError('No scripts found. Put every script inside double quotes, like "This is my script."')
-    for i, s in enumerate(scripts, 1):           # check every script first, so a typo fails fast
-        split_sentences(s, default_emotion)
-    files, start = [], time.time()
-    for i, s in enumerate(scripts, 1):
-        files += make_voice(s, i, default_emotion, seed, log)
-        log(f"Done {i}/{len(scripts)} scripts ({(time.time() - start) / 60:.1f} min so far)")
+    plans = [split_sentences(s, default_emotion) for s in scripts]     # a typo in any script fails fast
+    total = sum(len(x[0]) for p in plans for x in p)
+    state = {"done": 0.0, "msg": "Loading the voice model...", "eta": "calculating...", "finished": [], "zip": None}
+    yield state
+    model(fast)
+    done = work_chars = 0
+    work_time, start = 0.0, time.time()
+    for n, (script, plan) in enumerate(zip(scripts, plans), 1):
+        parts = []
+        for i, (s, emo, pause) in enumerate(plan, 1):
+            t0 = time.time()
+            a = speak(s, emo, seed, fast)
+            if time.time() - t0 > 0.5:                     # not from the cache: counts for the time estimate
+                work_time += time.time() - t0
+                work_chars += len(s)
+            parts.append((s, emo, pause, a))
+            done += len(s)
+            left = (total - done) * work_time / work_chars if work_chars else 0
+            state.update(done=done / total, eta=clock(left) if work_chars else "calculating...",
+                         msg=f"Script {n} of {len(scripts)}, sentence {i} of {len(plan)}  |  "
+                             f"running for {clock(time.time() - start)}")
+            yield state
+        state["finished"].append((n, *save_voice(script, n, parts)))
+        yield state
     zpath = os.path.join(OUT_DIR, "all_voices.zip")
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
-        for f in files:
-            z.write(f, os.path.basename(f))
-    return zpath, files, len(scripts)
+        for _, w, j in state["finished"]:
+            z.write(w, os.path.basename(w))
+            z.write(j, os.path.basename(j))
+    state.update(done=1.0, eta="0m 00s", zip=zpath,
+                 msg=f"Finished all {len(scripts)} script(s) in {clock(time.time() - start)}. Files are in: {OUT_DIR}")
+    yield state
 
 
 # ---------- the app ----------
-def app():
+BAR = """<div style="font-family:sans-serif">
+<div style="display:flex;justify-content:space-between;font-size:15px;margin-bottom:6px">
+<b>{pct:.0f}% done</b><span>Time left: <b>{eta}</b></span></div>
+<div style="background:#e5e5e5;border-radius:8px;height:22px;overflow:hidden">
+<div style="background:#f97316;height:100%;width:{pct:.1f}%;transition:width .4s"></div></div>
+<div style="font-size:13px;color:#666;margin-top:6px">{msg}</div></div>"""
+
+
+def app(share=False):
     import gradio as gr
 
     def preview(text):
@@ -162,42 +210,58 @@ def app():
         lines = [f"Found {len(scripts)} script(s):"]
         for i, s in enumerate(scripts, 1):
             words = len(re.sub(r"\[\w+\]", "", s).split())
-            lines.append(f"  {i:02d}. {words} words (about {words / 150:.1f} min of voice): {s[:70]}...")
+            lines.append(f"  {i:02d}. {words} words (about {words / 150:.1f} min of voice): {" ".join(s.split())[:70]}...")
         return "\n".join(lines)
 
-    def run(text, emotion, seed, progress=gr.Progress()):
-        msgs = []
-        def log(m):
-            msgs.append(m)
-            progress(0, desc=m)
+    def choices(finished):
+        return [f"Script {n:02d}" for n, _, _ in finished]
+
+    def run(text, emotion, seed, speed):
         try:
-            zpath, files, n = make_all(text, emotion, int(seed), log)
+            for st in generate_all(text, emotion, int(seed), fast=speed.startswith("Fast")):
+                done = st["finished"]
+                files = [f for _, w, j in done for f in (w, j)] + ([st["zip"]] if st["zip"] else [])
+                latest = done[-1][1] if done else None
+                yield (BAR.format(pct=st["done"] * 100, eta=st["eta"], msg=st["msg"]), files or None,
+                       gr.update(choices=choices(done), value=f"Script {done[-1][0]:02d}" if done else None),
+                       latest)
         except ValueError as e:
             raise gr.Error(str(e))
-        wavs = [f for f in files if f.endswith(".wav")]
-        return f"Finished {n} script(s). Files are in: {OUT_DIR}", zpath, wavs[0] if wavs else None
+
+    def listen(name):
+        if not name:
+            return None
+        path = os.path.join(OUT_DIR, f"script_{name.split()[-1]}.wav")
+        return path if os.path.exists(path) else None
 
     with gr.Blocks(title="Voice Studio") as ui:
         gr.Markdown("# Voice Studio\nPaste all your scripts. **Each script must be inside double quotes \"...\"**. "
-                    "Add feelings with tags like `[excited]`, `[sarcastic]`, `[dramatic]`, `[calm]`, `[serious]`.")
-        text = gr.Textbox(label="Your scripts", lines=18,
+                    "Feelings (Quality speed only): `[excited]` `[sarcastic]` `[dramatic]` `[calm]` `[serious]`.")
+        text = gr.Textbox(label="Your scripts", lines=14,
                           placeholder='"[calm] First script goes here. [excited] This part sounds excited!"\n\n"Second script..."')
-        found = gr.Textbox(label="What the tool found", lines=6, interactive=False)
+        found = gr.Textbox(label="What the tool found", lines=5, interactive=False)
         with gr.Row():
+            speed = gr.Radio(["Fast (over 2x faster, feeling tags ignored)", "Quality (feeling tags work, slower)"],
+                             value="Fast (over 2x faster, feeling tags ignored)", label="Speed")
             emotion = gr.Dropdown(list(EMOTIONS), value="neutral", label="Feeling when a script has no tag")
-            seed = gr.Number(value=1, precision=0, label="Take number (change it to get a different take)")
+            seed = gr.Number(value=1, precision=0, label="Take number (change for a different take)")
         go = gr.Button("Make all voices", variant="primary")
-        status = gr.Textbox(label="Status", interactive=False)
-        zfile = gr.File(label="Download all voices (zip)")
-        listen = gr.Audio(label="Listen to script 1", type="filepath")
+        bar = gr.HTML(BAR.format(pct=0, eta="-", msg="Waiting to start"))
+        gr.Markdown("### Finished voices (you can listen and download while the rest are being made)")
+        with gr.Row():
+            pick = gr.Dropdown([], label="Listen to")
+            player = gr.Audio(label="Player", type="filepath")
+        files = gr.File(label="Download (each .wav with its .json, and all_voices.zip at the end)", file_count="multiple")
         text.change(preview, text, found)
-        go.click(run, [text, emotion, seed], [status, zfile, listen])
-    ui.queue().launch(inbrowser=True)
+        go.click(run, [text, emotion, seed, speed], [bar, files, pick, player])
+        pick.change(listen, pick, player, concurrency_limit=None)
+    ui.queue().launch(inbrowser=not share, share=share)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        zpath, _, n = make_all(open(sys.argv[1], encoding="utf-8").read())
-        print(f"Finished {n} script(s): {zpath}")
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if args:
+        for st in generate_all(open(args[0], encoding="utf-8").read(), fast="--fast" in sys.argv):
+            print(f"{st['done'] * 100:5.1f}%  time left {st['eta']:>14}  {st['msg']}", flush=True)
     else:
-        app()
+        app(share="--share" in sys.argv)
