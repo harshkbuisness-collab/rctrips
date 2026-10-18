@@ -3,3 +3,4 @@ videos/*/03_voice/cache/
 tools/voice_studio/venv/
 tools/voice_studio/output/
 tools/voice_studio/cache/
+__pycache__/

@@ -21,11 +21,11 @@ It starts with something that takes about two seconds. The swipe.
 
 ## CHAPTER 2: The Swipe
 [calm] Friday night, Maya takes a friend to dinner. The bill is fifty dollars. She taps her card, and the waiter says thank you.
-> VISUAL: F02 office background swapped for F04 street at night; C11 Maya and H11 friend walk in from the left; H17 price tag drops in "$50"; D18 card slides to the right
+> VISUAL: F07 city night background fades in; C11 Maya and H11 friend walk in from the left; H17 price tag drops in "$50"; D18 card slides to the right
 To Maya, it costs fifty dollars. But the restaurant does not get fifty dollars.
 > VISUAL: H18 sign "RESTAURANT" slides down from the top; E01 cash stack moves toward it, then a small slice breaks off and floats away
 A small slice goes to the bank that gave Maya her card. That slice is called the interchange fee. Think of it as a toll the shop pays every time a card is used.
-> VISUAL: D15 bank building slides in from the right; the slice of cash lands on it; label "interchange fee" in red handwriting; E29 ladder-like toll arm (H18 sign "TOLL") drops in
+> VISUAL: D15 bank building slides in from the right; the slice of cash lands on it; label "interchange fee" in red handwriting; H18 sign "TOLL" drops in beside the bank
 Visa publishes these tolls. For a restaurant, a basic Visa credit card costs two point one percent of the bill.
 > VISUAL: A38 narrator with teacher pointer walks in from the left; E12 easel board drops in; red underline appears under "2.10%"
 > SCREEN: Visa USA Interchange Reimbursement Fees (18 April 2026) | https://usa.visa.com/content/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf | Consumer credit table, "Restaurant" row: Traditional 2.10%, Visa Infinite 2.60%
@@ -84,7 +84,7 @@ Still, more people are paying only the minimum. In 2024, about fifteen percent o
 > VISUAL: C28 crowd walks in from the right; three figures turn red one at a time; H17 tag "15%"; small label "highest since 2015"
 > SCREEN: CFPB credit card market report 2025 (PDF) | https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf | "About 15 percent of general purpose cardholders made only the minimum payment"
 [calm] Maya decides to pay a bit more than the minimum. But one busy month, she forgets the due date entirely.
-> VISUAL: C10 Maya with E28-free hands holding E08 phone; E24 clock spins fast to past midnight; E25 calendar shows a red X; red section title "The minimum"
+> VISUAL: C10 Maya walks in holding E08 phone; E24 clock spins fast to past midnight; E25 calendar shows a red X; red section title "The minimum"
 
 ## CHAPTER 5: The Fees
 [calm] The next morning, there is a new line on her account. A late fee.
@@ -93,12 +93,12 @@ For years, a typical late fee at big card companies was about thirty-two dollars
 > VISUAL: H17 price tag drops in "$32"; D18 card frowns behind it; A27 narrator with newspaper walks in from the left
 > SCREEN: CFPB press release, 5 March 2024 | https://www.consumerfinance.gov/about-us/newsroom/cfpb-bans-excessive-credit-card-late-fees-lowers-typical-fee-from-32-to-8/ | headline "Lowers Typical Fee from $32 to $8" and "more than $14 billion a year"
 In 2024, the government's consumer bureau wrote a rule to cut that to eight dollars for the largest banks.
-> VISUAL: G09 capitol building slides in; C05 politician at podium walks in; the "$32" tag shrinks to "$8"; E21-style small celebration with A34 narrator jumping
+> VISUAL: G09 capitol building slides in; C05 politician at podium walks in; the "$32" tag shrinks to "$8"; A34 narrator celebrate jump hops in from the left
 But bank groups sued. In April 2025, a federal court in Texas threw the rule out, and the bureau itself agreed it should go.
-> VISUAL: E14 podium turns into a judge's bench; E55 handcuffs-free gavel substitute: H18 sign "VACATED" drops in red; the "$8" tag grows back to "$32"
+> VISUAL: E14 podium slides in from the left; C01 banker neutral and C02 banker greedy walk up to it; H18 sign "VACATED" drops in red; the "$8" tag grows back to "$32"
 > SCREEN: ABA Banking Journal, 15 April 2025 | https://bankingjournal.aba.com/2025/04/court-vacates-cfpb-credit-card-late-fee-rule/ | "court vacates CFPB credit card late fee rule" headline and first paragraph
 So the fees stayed. In 2024, cardholders paid about thirty-one billion dollars in fees, and seventeen billion of that was late fees alone.
-> VISUAL: E04 coin pile slides in labeled "fees $31.3B"; a big slice glows yellow "late fees $17B"; D16 bank building scared? no — D15 bank building smiles in the background
+> VISUAL: E04 coin pile slides in labeled "fees $31.3B"; a big slice glows yellow "late fees $17B"; D15 bank building slides in behind the pile
 > SCREEN: CFPB credit card market report 2025 (PDF) | https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf | section 3.3: "$31.3 billion in fees" and "Late fees comprised the largest category at $17 billion"
 And here is the quiet part. Late fees do not fall on everyone equally.
 > VISUAL: C28 crowd splits into two groups that walk apart, one left, one right; E22 scale drops between them
