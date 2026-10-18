@@ -188,6 +188,8 @@ The Fed's own numbers tell us what happened next. From April to June 2026, the a
 > SCREEN: Federal Reserve G.19 (7 Oct 2026) | https://www.federalreserve.gov/releases/g19/current/default.htm | 2026 Q2 rows: 20.94 (all accounts) and 22.15 (accounts assessed interest)
 Card companies argue that a cap would hurt the very people it is meant to help. They say banks would simply stop lending to anyone with a weaker credit score.
 > VISUAL: C01 banker neutral walks in from the left with E51 speech bubble "LESS CREDIT"; C10 worker woman stressed stands near a closing door of D15 bank
+And behind that giant national number are millions of people like Maya. Each one started with one swipe, one dinner, one small balance they meant to clear next month. Most of them never planned to borrow at all.
+> VISUAL: G13 map zooms in; small C11, C10 and C28 figures pop up across it one by one; each gets a tiny D18 card; a tiny H17 tag "next month" pops above each, then flips to "next year"
 [calm] So the system is not changing soon. The good news is that you do not need it to change. You just need to know how it works.
 > VISUAL: A01 narrator walks to the center; D18 card slides into his hand; E17 light bulb switches on above; red section title "The whole country"
 
