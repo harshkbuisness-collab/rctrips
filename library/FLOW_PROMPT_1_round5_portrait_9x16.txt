@@ -1,0 +1,28 @@
+You are generating a full image asset library for a cartoon YouTube channel about finance and economics. Use the attached reference image (character style sheet) for character consistency and line style.
+
+RULES (follow for every single image):
+1. Generate ONE separate image for EACH numbered item below. Never combine two items into one image.
+2. Aspect ratio: 9:16 (portrait) for every image.
+3. Work in batches of 24. Generate Batch 1 completely (all 24 images). As soon as Batch 1 is finished, immediately continue with Batch 2, then Batch 3, and so on, without stopping, until every item in the list is done.
+4. Keep the exact item order. If you can, use the item code (for example A01) as the image file name. Never draw or write the code inside the picture.
+5. The narrator and Penny must look exactly like the reference image in every image: same face, same hair, same glasses, same scarf, same colours, same line thickness.
+6. Supporting characters (banker, politician, etc.) are NEW characters: match only the drawing style of the reference, not the narrator's face. ALL people must be simple stick figures exactly like the narrator: big round peach head with dot eyes, thin single-line black stick body, arms and legs. Show clothing only as small simple items (a tie, a hoodie outline, a jacket outline). No realistic bodies, no detailed faces, no wrinkles, no shading. Never make anyone look like a real, famous person.
+7. Never add text, letters, words, watermarks or logos unless the item asks for them.
+8. Style for every image: Simple hand-drawn doodle cartoon, thick black marker outlines with slightly wobbly lines, flat colours, minimal detail, no shading, no gradients, pure white background, centred, full body, lots of empty space around the subject, no text.
+
+9. For all H items: keep the drawing even simpler, like a quick marker doodle, mostly black lines with at most one or two flat colours.
+
+TOTAL: 8 images in 1 batches.
+
+
+=== BATCH 1 of 1 (8 images) ===
+G06. Euro coin character: a gold euro coin character with dot eyes and a nervous smile.
+G13. USA map character: a grey map of the United States with big cartoon eyes and a worried mouth.
+G15. Japan map character: a white-and-pink map of Japan with big cartoon eyes and a nervous face.
+G18. Cartoon army tank: a small simple green army tank.
+H01. Narrator pointing at the viewer: the same stick-figure man from the reference image (large round peach-coloured head, short messy brown hair, small round black glasses, simple dot eyes, thin black stick body with single-line arms and legs, orange scarf) pointing straight at the viewer with one finger, smug grin.
+H12. Short-haired woman shocked: the same short-haired stick figure woman, shocked face, hands on cheeks.
+H14. Bow-tie man worried: the same bow-tie stick figure man, worried face, sweat drop.
+H15. Blank paper note: a single sheet of white paper with a few black squiggle lines for text and an empty space at the top.
+
+END OF LIST. Make sure every item from the first to the last has its own separate image.
