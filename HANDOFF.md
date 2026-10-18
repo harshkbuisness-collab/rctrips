@@ -8,7 +8,7 @@
 - `library/assets/`: ~227 approved images, named `CODE_name.jpg` (A narrator, B Penny, C cast, D object characters, E props, F backgrounds, G finance extras, H reference-match extras). `library/assets/alt/` holds alternates.
 - `library/PROMPT_PACK_v1.md`: every prompt. `tools/build_flow_prompts.py <codes.txt> <tag>` builds Google Flow prompts for the missing codes.
 - `library/style_reference/style_sheet.jpg`: the character reference used in Flow.
-- `tools/make_video.py`: beat sheet → Kokoro voice (bm_lewis, speed 1.1) → 1080p MP4 at −14 LUFS. The element syntax is in its docstring.
+- `tools/make_video.py`: beat sheet → Kokoro voice (am_michael, speed 1.1; owner chose it on 18 Oct 2026) → 1080p MP4 at −14 LUFS. The element syntax is in its docstring.
   - Run: `KOKORO_DIR=<dir with kokoro-v1.0.onnx + voices-v1.0.bin> python3 tools/make_video.py videos/<slug>`
   - Setup: `pip install kokoro-onnx soundfile`; model files are at github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
 - Samples: `videos/2026-10_sample01_inflation` (v1), `videos/2026-10_sample02_inflation_v2` (v2) and `videos/2026-10_sample03_inflation_v3` (v3, current style).

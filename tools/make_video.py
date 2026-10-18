@@ -57,7 +57,7 @@ POS = {"center": (0.5, 0.52), "left": (0.3, 0.52), "right": (0.7, 0.52), "top": 
 # writable area of the blank props, as fractions of the drawing: x0, y0, x1, y1, ink colour
 PROP_AREA = {"H16": (0.1, 0.12, 0.9, 0.88, BLACK), "H17": (0.08, 0.42, 0.7, 0.86, BLACK),
              "H18": (0.44, 0.22, 0.96, 0.56, (255, 255, 255))}
-VOICE, SPEED = "bm_lewis", 1.1
+VOICE, SPEED = "am_michael", 1.1
 GAP, GAP_LONG = 0.18, 0.3            # pause after a sentence / after "..." or "?"
 ROOM_TONE_DB = -56                   # faint room noise under everything, like a real microphone
 TTS_MODEL = os.environ.get("KOKORO_DIR", "")
