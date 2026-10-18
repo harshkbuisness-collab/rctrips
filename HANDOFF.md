@@ -11,9 +11,27 @@
 - `tools/make_video.py`: beat sheet → Kokoro voice (bm_lewis, speed 1.1) → 1080p MP4 at −14 LUFS. The element syntax is in its docstring.
   - Run: `KOKORO_DIR=<dir with kokoro-v1.0.onnx + voices-v1.0.bin> python3 tools/make_video.py videos/<slug>`
   - Setup: `pip install kokoro-onnx soundfile`; model files are at github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
-- Samples: `videos/2026-10_sample01_inflation` (v1) and `videos/2026-10_sample02_inflation_v2` (v2).
+- Samples: `videos/2026-10_sample01_inflation` (v1), `videos/2026-10_sample02_inflation_v2` (v2) and `videos/2026-10_sample03_inflation_v3` (v3, current style).
+  - Layout check before rendering: `python3 tools/make_video.py videos/<slug> --check` (contact sheets + warnings in 05_export).
+  - Real screenshots go in `videos/<slug>/02_assets/screens/`, sources in `SOURCES.md`.
 
-## Next: version 3 (the owner wants it to match the reference exactly)
+## Version 3 (done, 18 Oct 2026)
+Removed: black chapter cards, bounce, pop/whoosh sounds, big orange words, digital silence.
+Added (builder elements, see docstring): `title:` red section titles, `note:`/`arrow:`/`circle:`/`xmark` red marks,
+`doc:` real screenshots with slow zoom/scroll + `hl=` yellow highlighter + `box=`/`circ=` red marks + source line,
+`source:` line for our charts, close-ups (height >= 0.9), `:bottom`/`:left` anchors for peeking,
+`group:` icons added one by one, words on blank props (H16-H18), `sting` (self-made 1.5 s chord), room tone at -56 dB,
+shorter pauses (0.18/0.3 s), `endscreen` (10 s). Loudness measured -14.8 LUFS.
+
+**Network (18 Oct 2026):** a plain download from apnews/bls/cnbc gets 403. A real headless browser (Playwright +
+/opt/pw-browsers chromium, through $HTTPS_PROXY) works for bls.gov, fred.stlouisfed.org, npr.org, cbsnews.com,
+theguardian.com, bbc.com. AP News, Axios (Cloudflare) and CNBC still block. BLS API has a shared daily limit.
+
+**Still different from the reference:** AI voice (no personality), no real photos/video clips or company logos
+beyond the screenshots, sting is a simple self-made chord (owner may supply a better one), no sponsor progress line
+(no sponsor yet), no channel name on the end screen, drawings are more colourful than the reference.
+
+## Original v3 plan (kept for reference)
 **Remove from the builder and the beat sheet:**
 - Black chapter cards
 - Bounce pop-ins
@@ -37,4 +55,4 @@
 
 **Network:** the owner set environment Network access = Full. Fetching news/data sites and screenshots should work in a new session (in the old session, apnews/bls/cnbc returned 403).
 
-**Still missing images:** G06, G13, G15, G18, H01, H12, H14, H15. The prompt is `library/FLOW_PROMPT_1_round5_portrait_9x16.txt`.
+**Library images:** all 235 present (G06, G13, G15, G18, H01, H12, H14, H15 added 18 Oct 2026; extra bricks/TV/apartment versions in `alt/`).
