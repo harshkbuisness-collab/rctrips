@@ -22,4 +22,4 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
    and the render for each day, and writes a summary to `videos/batch_log.txt`. Run it in the background, read only the log,
    and send the mp4 files to the owner (they are too big for git). Test one day before a group of 5.
 4. The owner sends all changes in one message, and Claude makes one fix round.
-5. One video per session.
+5. One batch (up to 5 videos) per session.
