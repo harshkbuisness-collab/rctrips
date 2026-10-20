@@ -1,6 +1,4 @@
 @echo off
-REM Drag a video file onto this file.
-python "%~dp0analyze_video.py" "%~1"
-echo.
-echo Open the folder next to your video ending in _analysis and paste REPORT.md into Claude.
+REM Double-click to choose a video, or drag a video onto this file.
+where py >nul 2>nul && (py "%~dp0analyze_video.py" %*) || (python "%~dp0analyze_video.py" %*)
 pause

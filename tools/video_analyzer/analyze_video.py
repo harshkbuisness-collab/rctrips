@@ -123,7 +123,7 @@ def main(path, use_speech=True):
             segs = speech(path)
             words = sum(len(s[2].split()) for s in segs)
             talk = sum(e - s for s, e, _ in segs)
-            open(os.path.join(out, "transcript.txt"), "w").write(
+            open(os.path.join(out, "transcript.txt"), "w", encoding="utf-8").write(
                 "\n".join(f"[{int(s) // 60}:{int(s) % 60:02d}] {t}" for s, e, t in segs))
             first = " ".join(t for s, e, t in segs if s < 60)
             r += ["", "## Speech",
@@ -135,10 +135,36 @@ def main(path, use_speech=True):
             r += ["", f"## Speech\n- skipped ({e.__class__.__name__}: {str(e)[:80]}); install faster-whisper"]
     r += ["", f"## Files", f"- sheet.jpg: 24 frames (scene changes, else evenly spaced), times (s): {times}",
           "- transcript.txt: full text with times"]
-    open(os.path.join(out, "REPORT.md"), "w").write("\n".join(r) + "\n")
+    open(os.path.join(out, "REPORT.md"), "w", encoding="utf-8").write("\n".join(r) + "\n")
     print("\n".join(r))
     print(f"\nSaved in {out}/  -> paste REPORT.md into Claude")
+    return out
+
+
+def pick_and_run():
+    """Double-click mode: choose the video in a window, then open the result folder."""
+    import shutil, tkinter as tk
+    from tkinter import filedialog, messagebox
+    root = tk.Tk()
+    root.withdraw()
+    if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
+        messagebox.showerror("Video Analyzer", "ffmpeg is not installed.\nWindows: open PowerShell and run\n"
+                             "winget install ffmpeg\nthen restart the computer and try again.")
+        return
+    path = sys.argv[1] if len(sys.argv) > 1 else filedialog.askopenfilename(
+        title="Choose the video to analyze", filetypes=[("Videos", "*.mp4 *.mov *.mkv *.webm *.avi"), ("All", "*.*")])
+    if not path:
+        return
+    print("Analyzing", path, "- this takes a few minutes, keep this window open...")
+    try:
+        out = main(path, "--no-speech" not in sys.argv)
+    except Exception as e:
+        messagebox.showerror("Video Analyzer", f"Error: {e}")
+        raise
+    messagebox.showinfo("Video Analyzer", f"Done! Paste REPORT.md into Claude.\n\nFolder:\n{out}")
+    if os.name == "nt":
+        os.startfile(out)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], "--no-speech" not in sys.argv)
+    pick_and_run()

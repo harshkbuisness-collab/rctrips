@@ -1,6 +1,6 @@
 @echo off
-python -m pip install numpy pillow faster-whisper
+where py >nul 2>nul && (py -m pip install numpy pillow faster-whisper) || (python -m pip install numpy pillow faster-whisper)
+where ffmpeg >nul 2>nul || winget install -e --id Gyan.FFmpeg
 echo.
-echo Also install ffmpeg: open PowerShell and run:  winget install ffmpeg
-echo Done!
+echo Done! If ffmpeg was just installed, restart the computer once.
 pause
