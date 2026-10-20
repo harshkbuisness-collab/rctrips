@@ -142,7 +142,7 @@ def main(path, use_speech=True):
 
 
 def pick_and_run():
-    """Double-click mode: choose the video in a window, then open the result folder."""
+    """Double-click mode: choose one or many videos in a window, then open the result folder(s)."""
     import shutil, tkinter as tk
     from tkinter import filedialog, messagebox
     root = tk.Tk()
@@ -151,19 +151,32 @@ def pick_and_run():
         messagebox.showerror("Video Analyzer", "ffmpeg is not installed.\nWindows: open PowerShell and run\n"
                              "winget install ffmpeg\nthen restart the computer and try again.")
         return
-    path = sys.argv[1] if len(sys.argv) > 1 else filedialog.askopenfilename(
-        title="Choose the video to analyze", filetypes=[("Videos", "*.mp4 *.mov *.mkv *.webm *.avi"), ("All", "*.*")])
-    if not path:
+    paths = [a for a in sys.argv[1:] if not a.startswith("--")] or list(filedialog.askopenfilenames(
+        title="Choose the videos to analyze (Ctrl+click or Ctrl+A for many)",
+        filetypes=[("Videos", "*.mp4 *.mov *.mkv *.webm *.avi"), ("All", "*.*")]))
+    if not paths:
         return
-    print("Analyzing", path, "- this takes a few minutes, keep this window open...")
-    try:
-        out = main(path, "--no-speech" not in sys.argv)
-    except Exception as e:
-        messagebox.showerror("Video Analyzer", f"Error: {e}")
-        raise
-    messagebox.showinfo("Video Analyzer", f"Done! Paste REPORT.md into Claude.\n\nFolder:\n{out}")
-    if os.name == "nt":
-        os.startfile(out)
+    done, failed = [], []
+    for n, path in enumerate(paths, 1):
+        print(f"\n[{n}/{len(paths)}] Analyzing {path} - keep this window open...")
+        try:
+            done.append(main(path, "--no-speech" not in sys.argv))
+        except Exception as e:
+            print("ERROR:", e)
+            failed.append(f"{os.path.basename(path)}: {e}")
+    if len(done) > 1:                          # one file with every report, to paste into Claude at once
+        allp = os.path.join(os.path.dirname(done[0]), "ALL_REPORTS.md")
+        with open(allp, "w", encoding="utf-8") as f:
+            for d in done:
+                f.write(open(os.path.join(d, "REPORT.md"), encoding="utf-8").read() + "\n---\n\n")
+        msg = f"Done: {len(done)} videos.\nPaste ALL_REPORTS.md into Claude:\n{allp}"
+    else:
+        msg = f"Done! Paste REPORT.md into Claude.\n\nFolder:\n{done[0]}" if done else "Nothing finished."
+    if failed:
+        msg += "\n\nFailed:\n" + "\n".join(failed)
+    messagebox.showinfo("Video Analyzer", msg)
+    if done and os.name == "nt":
+        os.startfile(os.path.dirname(done[0]) if len(done) > 1 else done[0])
 
 
 if __name__ == "__main__":
