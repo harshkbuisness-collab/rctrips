@@ -25,6 +25,6 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 5. One batch (up to 5 videos) per session.
 
 ## Video analysis (reference or our own videos)
-- Never look at many video frames: images cost a lot of tokens. Run `python3 tools/analyze_video.py <video>` (or the owner
+- Never look at many video frames: images cost a lot of tokens. Run `python3 tools/video_analyzer/analyze_video.py <video>` (or the owner
   runs it on their computer and pastes `REPORT.md`). Read only REPORT.md; look at `sheet.jpg` at most once, and only if
   the look matters. Read `transcript.txt` only if the words matter.

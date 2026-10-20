@@ -1,6 +1,6 @@
 """Analyze a video without Claude and write one short report to paste into Claude.
 
-Usage:  python3 tools/analyze_video.py <video.mp4> [--no-speech]
+Usage:  python3 tools/video_analyzer/analyze_video.py <video.mp4> [--no-speech]
 Needs:  ffmpeg, numpy, pillow; for speech also `pip install faster-whisper` (runs on CPU).
 Output (next to the video, in <name>_analysis/):
   REPORT.md        short text report: copy all of it into Claude

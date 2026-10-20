@@ -1,0 +1,11 @@
+YOUR TOOLS (all free, run on your own computer, no Claude credits)
+===================================================================
+1. VOICE STUDIO  (tools/voice_studio/)  - make voice files from your scripts in the channel voice,
+   with emotions like [calm] [excited]. Read its README.txt. Save each voice as voices/dayNN.mp3.
+2. VIDEO ANALYZER (tools/video_analyzer/) - drop in any video, get a short REPORT.md
+   (pace, cuts, speech speed, hook text). Paste only REPORT.md into Claude.
+3. CHATGPT SCRIPT PROMPTS (research/08-chatgpt-prompts.md) - paste the MASTER PROMPT, then one
+   DAY block, into ChatGPT (web search ON). Save the answer as scripts/dayNN_<name>.md.
+
+WHAT CLAUDE DOES: screenshots, script format check, review sheet, and making the videos
+(python3 tools/batch.py 2 3 4 5 6). Give Claude the scripts + voices, 5 days at a time.
