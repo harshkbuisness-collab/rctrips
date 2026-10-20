@@ -5,196 +5,196 @@
 [calm] Sam is standing at a currency counter in an American airport, holding one hundred dollars. || title:"The Airport Counter"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve H.10 Foreign Exchange Rates"; H04@0.9,1.0:0.3:bottom
 He is flying to Tokyo first, then to Paris. || title:"The Airport Counter"; H09@0.2,0.6:0.58~l; E01@0.62,0.4:0.32~l; E15@0.85,0.4:0.32~r
 He looks at the board. || title:"The Airport Counter"; H09@0.2,0.6:0.58
-His one hundred dollars would buy him about fifteen thousand eight hundred yen. || title:"The Airport Counter"; H09@0.2,0.6:0.58; G07@0.62,0.4:0.32~drop; G06@0.85,0.4:0.32~drop
-But it would buy him only about eighty-nine euros. || title:"The Airport Counter"; H09@0.2,0.6:0.58; G07@0.62,0.4:0.32~drop; G06@0.85,0.4:0.32~drop; E48@0.62,0.76:0.32~pop
-So Sam asks a simple question. || title:"The Airport Counter"; H09@0.2,0.6:0.58~none; D01@0.62,0.4:0.32~l
-If a dollar, a euro and a yen are all just paper, why is one worth a hundred and fifty of another? || title:"The Airport Counter"; H09@0.2,0.6:0.58~none; D01@0.62,0.4:0.32~l; G06@0.85,0.4:0.32~l; G07@0.62,0.76:0.32~l; E22@0.85,0.76:0.32~drop
+His one hundred dollars would buy him about fifteen thousand eight hundred yen. || title:"The Airport Counter"; H09@0.80,0.6:0.58; G07@0.38,0.4:0.32~drop; G06@0.15,0.4:0.32~drop
+But it would buy him only about eighty-nine euros. || title:"The Airport Counter"; H09@0.80,0.6:0.58; G07@0.38,0.4:0.32~drop; G06@0.15,0.4:0.32~drop; E48@0.38,0.76:0.32~pop
+So Sam asks a simple question. || title:"The Airport Counter"; H09@0.80,0.6:0.58; D01@0.38,0.4:0.32~r
+If a dollar, a euro and a yen are all just paper, why is one worth a hundred and fifty of another? || title:"The Airport Counter"; E22@0.5,0.6:0.76
 That number on the board is called an exchange rate. || title:"The Airport Counter"; A38@0.2,0.6:0.58~r; E10@0.62,0.4:0.32
 It is simply the price of one country's money, paid in another country's money. || title:"The Airport Counter"; A38@0.2,0.6:0.58~r; E10@0.62,0.4:0.32; note:"exchange rate = a price"@0.66,0.12
 Think of it like the price of apples. || title:"The Airport Counter"; G07@0.62,0.4:0.32~drop
-An apple costs a few cents or a dollar, depending on where you are. || title:"The Airport Counter"; G07@0.62,0.4:0.32~drop; note:"about two-thirds of a cent"@0.66,0.12
-A yen is just a product with a price tag. || title:"The Airport Counter"; G07@0.62,0.4:0.32~drop; note:"about two-thirds of a cent"@0.66,0.12; A02@0.2,0.6:0.58
-And here is the first surprise. || title:"The Airport Counter"; G15@0.62,0.4:0.32~r
-The big number for the yen does not mean Japan is poor. || title:"The Airport Counter"; G15@0.62,0.4:0.32~r; E34@0.85,0.4:0.32~b
-It mostly comes from history and the size of the unit. || title:"The Airport Counter"; G15@0.62,0.4:0.32~r; E34@0.85,0.4:0.32~b; A06@0.2,0.6:0.58
+An apple costs a few cents or a dollar, depending on where you are. || title:"The Airport Counter"; G07@0.38,0.4:0.32~drop; note:"about two-thirds of a cent"@0.66,0.12
+A yen is just a product with a price tag. || title:"The Airport Counter"; G07@0.38,0.4:0.32~drop; note:"about two-thirds of a cent"@0.66,0.12; A02@0.80,0.6:0.58
+And here is the first surprise. || title:"The Airport Counter"; G15@0.5,0.6:0.76
+The big number for the yen does not mean Japan is poor. || title:"The Airport Counter"; E34@0.5,0.6:0.76
+It mostly comes from history and the size of the unit. || title:"The Airport Counter"; E34@0.5,0.6:0.76
 After World War Two, Japan's money was set at three hundred and sixty yen to one dollar. || title:"The Airport Counter"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, Japanese Yen to U.S. Dollar Spot Exchange Rate (DEXJPUS)"; H04@0.9,1.0:0.3:bottom
 A yen was always meant to be a small coin, more like a penny than a dollar. || title:"The Airport Counter"; A06@0.2,0.6:0.58~none; E25@0.62,0.4:0.32; note:"360"@0.66,0.12; D06@0.85,0.4:0.32~l; G07@0.62,0.76:0.32~l
-So the size of the number tells you very little. || title:"The Airport Counter"; E45@0.62,0.4:0.32
-What matters is how the price moves. || title:"The Airport Counter"; E45@0.62,0.4:0.32; E46@0.85,0.4:0.32
-And that is where our story really begins. || title:"The Airport Counter"; E45@0.62,0.4:0.32; E46@0.85,0.4:0.32; A15@0.2,0.6:0.58
+So the size of the number tells you very little. || title:"The Airport Counter"; E45@0.38,0.4:0.32
+What matters is how the price moves. || title:"The Airport Counter"; E46@0.5,0.6:0.76
+And that is where our story really begins. || title:"The Airport Counter"; E46@0.5,0.6:0.76
 Because Sam's yen were not always this cheap. || title:"The Airport Counter"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, DEXJPUS"; H04@0.9,1.0:0.3:bottom
-Just five years ago, his one hundred dollars would have bought him far fewer of them. || title:"The Airport Counter"; E25@0.62,0.4:0.32; H09@0.2,0.6:0.58; G07@0.85,0.4:0.32; A14@0.4,0.64:0.46
+Just five years ago, his one hundred dollars would have bought him far fewer of them. || title:"The Airport Counter"; G07@0.5,0.6:0.76
 So who changed the price of a yen? || title:"The Airport Counter"; A16@0.2,0.6:0.58; G07@0.62,0.4:0.32
 To answer that, we need to see who is buying it, and who is selling. || title:"The Airport Counter"; A16@0.2,0.6:0.58; G07@0.62,0.4:0.32; C28@0.4,0.64:0.46~walk; E45@0.85,0.4:0.32~walk; E46@0.62,0.76:0.32~walk
 
 # ---------- CHAPTER 2: Money Is a Product ----------
 || title:"Money Is a Product"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Every day, people around the world swap one currency for another. || title:"Money Is a Product"; E43@0.62,0.4:0.32~spin; C28@0.2,0.6:0.58
-Most of them are not tourists like Sam. || title:"Money Is a Product"; E43@0.62,0.4:0.32~spin; C28@0.2,0.6:0.58; E51@0.85,0.4:0.32~pop
-They are companies paying for parts, investors buying stocks and bonds, and banks moving money for their customers. || title:"Money Is a Product"; C28@0.2,0.6:0.58~none; E33@0.62,0.4:0.32~l; E31@0.85,0.4:0.32~r; G11@0.62,0.76:0.32~drop
-Like anything with a price, a currency gets more expensive when more people want it, and cheaper when more people want to get rid of it. || title:"Money Is a Product"; A38@0.2,0.6:0.58; E10@0.62,0.4:0.32; G07@0.85,0.4:0.32; E45@0.62,0.76:0.32~spin; E46@0.85,0.76:0.32~spin
+[calm] Every day, people around the world swap one currency for another. || title:"Money Is a Product"; E43@0.38,0.4:0.32~spin; C28@0.80,0.6:0.58
+Most of them are not tourists like Sam. || title:"Money Is a Product"; E43@0.38,0.4:0.32~spin; C28@0.80,0.6:0.58; E51@0.15,0.4:0.32~pop
+They are companies paying for parts, investors buying stocks and bonds, and banks moving money for their customers. || title:"Money Is a Product"; G11@0.5,0.6:0.76
+Like anything with a price, a currency gets more expensive when more people want it, and cheaper when more people want to get rid of it. || title:"Money Is a Product"; E46@0.5,0.6:0.76
 Here is an everyday example. || title:"Money Is a Product"; E31@0.62,0.4:0.32; D22@0.85,0.4:0.32
-When an American car dealer buys cars from Japan, the Japanese maker wants to be paid in yen in the end. || title:"Money Is a Product"; E31@0.62,0.4:0.32; D22@0.85,0.4:0.32; C09@0.2,0.6:0.58
-So the dealer's dollars get swapped into yen somewhere along the way. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; D01@0.62,0.4:0.32~walk
-That swap is a little bit of demand for yen. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; D01@0.62,0.4:0.32~walk; G07@0.85,0.4:0.32; E45@0.62,0.76:0.32
-Now flip it around. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; G13@0.85,0.4:0.32; E08@0.62,0.76:0.32
-When a Japanese family buys an American phone or flies to New York, they sell yen and buy dollars. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; G13@0.85,0.4:0.32; E08@0.62,0.76:0.32; E42@0.85,0.76:0.32; G07@0.42,0.24:0.32~walk; D01@0.62,0.4:0.32~walk
+When an American car dealer buys cars from Japan, the Japanese maker wants to be paid in yen in the end. || title:"Money Is a Product"; E31@0.38,0.4:0.32; D22@0.15,0.4:0.32; C09@0.80,0.6:0.58
+So the dealer's dollars get swapped into yen somewhere along the way. || title:"Money Is a Product"; C09@0.80,0.6:0.58; D01@0.38,0.4:0.32~walk
+That swap is a little bit of demand for yen. || title:"Money Is a Product"; E45@0.5,0.6:0.76
+Now flip it around. || title:"Money Is a Product"; E08@0.5,0.6:0.76
+When a Japanese family buys an American phone or flies to New York, they sell yen and buy dollars. || title:"Money Is a Product"; D01@0.5,0.6:0.76
 Millions of swaps like these happen every second. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; E13@0.62,0.4:0.32
 Each one pushes the price a tiny bit up or a tiny bit down. || title:"Money Is a Product"; C09@0.2,0.6:0.58~none; E13@0.62,0.4:0.32; E24@0.85,0.4:0.32~spin
 Then there are traders who never touch a car or a plane ticket. || title:"Money Is a Product"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve, The International Role of the U.S. Dollar, 2025 Edition"; H04@0.9,1.0:0.3:bottom
-They buy a currency simply because they think its price will rise next week, and that moves the price too. || title:"Money Is a Product"; H13@0.2,0.6:0.58~l; E07@0.62,0.4:0.32~l; G07@0.85,0.4:0.32; E06@0.62,0.76:0.32
-And notice one thing on that page. || title:"Money Is a Product"; D01@0.62,0.4:0.32
-The dollar is on one side of almost nine out of ten currency trades in the world. || title:"Money Is a Product"; D01@0.62,0.4:0.32; A08@0.2,0.6:0.58~pop
+They buy a currency simply because they think its price will rise next week, and that moves the price too. || title:"Money Is a Product"; H13@0.80,0.6:0.58~r; E07@0.38,0.4:0.32~r; G07@0.15,0.4:0.32; E06@0.38,0.76:0.32
+And notice one thing on that page. || title:"Money Is a Product"; D01@0.5,0.6:0.76
+The dollar is on one side of almost nine out of ten currency trades in the world. || title:"Money Is a Product"; D01@0.5,0.6:0.76
 Trade matters. || title:"Money Is a Product"; D22@0.62,0.4:0.32
 Tourists matter. || title:"Money Is a Product"; D22@0.62,0.4:0.32; E42@0.85,0.4:0.32; E52@0.62,0.76:0.32
 But for a few years now, the biggest force pushing the yen down has not been cars or travelers at all. || title:"Money Is a Product"; D22@0.62,0.4:0.32; E42@0.85,0.4:0.32; E52@0.62,0.76:0.32; H09@0.2,0.6:0.58
-It has been something much quieter. || title:"Money Is a Product"; G04@0.62,0.4:0.32~r
-The price of borrowing money. || title:"Money Is a Product"; G04@0.62,0.4:0.32~r; A37@0.2,0.6:0.58
+It has been something much quieter. || title:"Money Is a Product"; G04@0.38,0.4:0.32~l
+The price of borrowing money. || title:"Money Is a Product"; G04@0.38,0.4:0.32~l; A37@0.80,0.6:0.58
 
 # ---------- CHAPTER 3: The Interest Rate Magnet ----------
 || title:"The Interest Rate Magnet"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] An interest rate is what money earns when you lend it out. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58; E01@0.62,0.4:0.32
-If your bank pays you four percent, every hundred dollars grows to one hundred and four in a year. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58; E01@0.62,0.4:0.32; C01@0.4,0.64:0.46; G04@0.85,0.4:0.32~drop
+[calm] An interest rate is what money earns when you lend it out. || title:"The Interest Rate Magnet"; H09@0.80,0.6:0.58; E01@0.38,0.4:0.32
+If your bank pays you four percent, every hundred dollars grows to one hundred and four in a year. || title:"The Interest Rate Magnet"; G04@0.5,0.6:0.76
 Now imagine you are a big investor with money to park. || title:"The Interest Rate Magnet"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve press release, 16 September 2026" hl=0.134,0.567,0.623,0.655+0.8; H04@0.9,1.0:0.3:bottom
 Where would you put it? || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~r; E06@0.62,0.4:0.32~r
 In the country that pays more, of course. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~r; E06@0.62,0.4:0.32~r; G04@0.85,0.4:0.32
 As of October 2026, || title:"The Interest Rate Magnet"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: European Central Bank, Key ECB interest rates"; H04@0.9,1.0:0.3:bottom
-America's central bank, the Federal Reserve, has set its key rate between three and three quarters and four percent. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~drop; G04@0.85,0.4:0.32; note:"3.75 to 4%"@0.66,0.12
+America's central bank, the Federal Reserve, has set its key rate between three and three quarters and four percent. || title:"The Interest Rate Magnet"; C21@0.80,0.6:0.58; G10@0.38,0.4:0.32~drop; G04@0.15,0.4:0.32; note:"3.75 to 4%"@0.66,0.12
 In Europe, || title:"The Interest Rate Magnet"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Bank of Japan, Change in the Guideline for Money Market Operations, 18 September 2026"; H04@0.9,1.0:0.3:bottom
-the main rate is two and a half percent. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; G10@0.62,0.4:0.32; G16@0.85,0.4:0.32; G04@0.62,0.76:0.32; note:"2.5%"@0.66,0.12
-And in Japan, even after a raise in September, it is about one and a quarter percent. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; G10@0.62,0.4:0.32; G15@0.85,0.4:0.32; G04@0.62,0.76:0.32; note:"1.25%"@0.66,0.12; G05@0.85,0.76:0.32
+the main rate is two and a half percent. || title:"The Interest Rate Magnet"; G04@0.5,0.6:0.76
+And in Japan, even after a raise in September, it is about one and a quarter percent. || title:"The Interest Rate Magnet"; G05@0.5,0.6:0.76
 So picture the money as water. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; E43@0.62,0.4:0.32
 It flows downhill from the place that pays the least to the place that pays the most. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; E43@0.62,0.4:0.32; G07@0.85,0.4:0.32; E21@0.62,0.76:0.32
 For years, Japan paid almost nothing. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~walk
-Investors borrowed cheap yen, sold them, and bought dollars that earned more. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~walk; G07@0.62,0.4:0.32~walk; D01@0.85,0.4:0.32~walk
-Traders call this the carry trade. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~walk; G07@0.62,0.4:0.32~walk; D01@0.85,0.4:0.32~walk; note:"carry trade"@0.66,0.12
+Investors borrowed cheap yen, sold them, and bought dollars that earned more. || title:"The Interest Rate Magnet"; C21@0.80,0.6:0.58~walk; G07@0.38,0.4:0.32~walk; D01@0.15,0.4:0.32~walk
+Traders call this the carry trade. || title:"The Interest Rate Magnet"; C21@0.80,0.6:0.58~walk; G07@0.38,0.4:0.32~walk; D01@0.15,0.4:0.32~walk; note:"carry trade"@0.66,0.12
 Every time someone did that, they sold yen. || title:"The Interest Rate Magnet"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, DEXJPUS"; H04@0.9,1.0:0.3:bottom
-And when a lot of people keep selling something, its price falls. || title:"The Interest Rate Magnet"; C21@0.2,0.6:0.58~none; G07@0.62,0.4:0.32; E46@0.85,0.4:0.32~drop; E13@0.62,0.76:0.32
+And when a lot of people keep selling something, its price falls. || title:"The Interest Rate Magnet"; E13@0.5,0.6:0.76
 By the summer of 2026, one dollar bought almost one hundred and sixty-four yen. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58~walk; A34@0.4,0.64:0.46~walk
 Sam's trip to Tokyo had become a bargain. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58~walk; A34@0.4,0.64:0.46~walk; E39@0.62,0.4:0.32~drop; E40@0.85,0.4:0.32~drop
 But for Japan, a cheap yen is not all good news. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58~none; E32@0.62,0.4:0.32~r
 Japan buys much of its oil, gas and food from abroad, and pays for most of it in dollars. || title:"The Interest Rate Magnet"; H09@0.2,0.6:0.58~none; E32@0.62,0.4:0.32~r; D17@0.85,0.4:0.32~r; E39@0.62,0.76:0.32
 So Japan's government has stepped in several times since 2022, || title:"The Interest Rate Magnet"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Japan Ministry of Finance, Foreign Exchange Intervention Operations"; H04@0.9,1.0:0.3:bottom
-selling dollars from its savings and buying yen to slow the fall. || title:"The Interest Rate Magnet"; C05@0.2,0.6:0.58; E14@0.62,0.4:0.32; E21@0.85,0.4:0.32; D01@0.62,0.76:0.32; G07@0.85,0.76:0.32; E44@0.42,0.24:0.32
-In one month in 2024 alone, it spent about nine point eight trillion yen, around sixty-two billion dollars, doing exactly that. || title:"The Interest Rate Magnet"; E02@0.62,0.4:0.32; note:"about 62 billion dollars"@0.66,0.12; A08@0.2,0.6:0.58
+selling dollars from its savings and buying yen to slow the fall. || title:"The Interest Rate Magnet"; E44@0.5,0.6:0.76
+In one month in 2024 alone, it spent about nine point eight trillion yen, around sixty-two billion dollars, doing exactly that. || title:"The Interest Rate Magnet"; E02@0.5,0.6:0.76
 It helps for a while. || title:"The Interest Rate Magnet"; A06@0.2,0.6:0.58
 But you cannot fight interest rates forever with your savings. || title:"The Interest Rate Magnet"; A06@0.2,0.6:0.58
 And Japan is not the only country that has tried to hold its price still. || title:"The Interest Rate Magnet"; A06@0.2,0.6:0.58
-Some countries do much more than try. || title:"The Interest Rate Magnet"; D06@0.62,0.4:0.32; D01@0.85,0.4:0.32
-They lock their money to the dollar for decades. || title:"The Interest Rate Magnet"; D06@0.62,0.4:0.32; D01@0.85,0.4:0.32; E55@0.62,0.76:0.32
-But to understand why anyone would do that, we first need to see why the dollar is so special. || title:"The Interest Rate Magnet"; D06@0.62,0.4:0.32; D01@0.85,0.4:0.32; E55@0.62,0.76:0.32; E27@0.85,0.76:0.32; A06@0.2,0.6:0.58
+Some countries do much more than try. || title:"The Interest Rate Magnet"; D06@0.38,0.4:0.32; D01@0.15,0.4:0.32
+They lock their money to the dollar for decades. || title:"The Interest Rate Magnet"; D06@0.38,0.4:0.32; D01@0.15,0.4:0.32; E55@0.38,0.76:0.32
+But to understand why anyone would do that, we first need to see why the dollar is so special. || title:"The Interest Rate Magnet"; E27@0.5,0.6:0.76
 
 # ---------- CHAPTER 4: The World's Favorite Money ----------
 || title:"The World's Favorite Money"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] In 1944, || title:"The World's Favorite Money"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History, Creation of the Bretton Woods System"; H04@0.9,1.0:0.3:bottom
-near the end of World War Two, leaders from forty-four countries met at a hotel in Bretton Woods, New Hampshire. || title:"The World's Favorite Money"; E25@0.62,0.4:0.32; G13@0.85,0.4:0.32; E35@0.62,0.76:0.32~drop; C28@0.2,0.6:0.58~walk
+near the end of World War Two, leaders from forty-four countries met at a hotel in Bretton Woods, New Hampshire. || title:"The World's Favorite Money"; E35@0.5,0.6:0.76
 They agreed on a simple plan. || title:"The World's Favorite Money"; C28@0.2,0.6:0.58~none; E05@0.62,0.4:0.32~drop; D01@0.85,0.4:0.32
 Other currencies would be tied to the dollar, and the dollar would be tied to gold at thirty-five dollars an ounce. || title:"The World's Favorite Money"; C28@0.2,0.6:0.58~none; E05@0.62,0.4:0.32~drop; D01@0.85,0.4:0.32; E55@0.62,0.76:0.32; G06@0.85,0.76:0.32; G07@0.42,0.24:0.32
 This is when the yen got its three hundred and sixty. || title:"The World's Favorite Money"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History, Nixon Ends Convertibility of U.S. Dollars to Gold" hl=0.147,0.713,0.677,0.887+0.8; H04@0.9,1.0:0.3:bottom
-The dollar became the center of the whole system. || title:"The World's Favorite Money"; C28@0.2,0.6:0.58~none; G07@0.62,0.4:0.32; note:"360"@0.66,0.12; E27@0.85,0.4:0.32~drop; D01@0.62,0.76:0.32~drop
-Then, on August 15, 1971, President Nixon closed the gold window. || title:"The World's Favorite Money"; E13@0.62,0.4:0.32; C05@0.2,0.6:0.58
-Foreign governments could no longer swap their dollars for American gold. || title:"The World's Favorite Money"; E13@0.62,0.4:0.32; C05@0.2,0.6:0.58; E55@0.85,0.4:0.32; D01@0.62,0.76:0.32; E05@0.85,0.76:0.32
+The dollar became the center of the whole system. || title:"The World's Favorite Money"; D01@0.5,0.6:0.76
+Then, on August 15, 1971, President Nixon closed the gold window. || title:"The World's Favorite Money"; E13@0.5,0.6:0.76
+Foreign governments could no longer swap their dollars for American gold. || title:"The World's Favorite Money"; E05@0.5,0.6:0.76
 Within a couple of years, most big currencies began to float. || title:"The World's Favorite Money"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History, The Smithsonian Agreement"; H04@0.9,1.0:0.3:bottom
 That means their prices were set by buying and selling every day, the way we saw in chapter two. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; G06@0.62,0.4:0.32~float; G07@0.85,0.4:0.32~float; E24@0.62,0.76:0.32
-You might expect the dollar to lose its crown after that. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none
-But it found a new anchor. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; E27@0.62,0.4:0.32; D01@0.85,0.4:0.32
-Oil. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; E27@0.62,0.4:0.32; D01@0.85,0.4:0.32; D17@0.62,0.76:0.32~r
-Oil is mostly bought and sold in dollars. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; G14@0.62,0.76:0.32; G15@0.85,0.76:0.32
-So almost every country needs dollars to keep its lights on and its cars running. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; G14@0.62,0.76:0.32; G15@0.85,0.76:0.32; G16@0.42,0.24:0.32; G17@0.62,0.4:0.32; D01@0.85,0.4:0.32
+You might expect the dollar to lose its crown after that. || title:"The World's Favorite Money"; C05@0.80,0.6:0.58
+But it found a new anchor. || title:"The World's Favorite Money"; C05@0.80,0.6:0.58; E27@0.38,0.4:0.32; D01@0.15,0.4:0.32
+Oil. || title:"The World's Favorite Money"; D17@0.5,0.6:0.76
+Oil is mostly bought and sold in dollars. || title:"The World's Favorite Money"; G15@0.5,0.6:0.76
+So almost every country needs dollars to keep its lights on and its cars running. || title:"The World's Favorite Money"; D01@0.5,0.6:0.76
 In 1974, after the first oil shock, US Treasury Secretary William Simon flew to Saudi Arabia. || title:"The World's Favorite Money"; E42@0.62,0.4:0.32; E25@0.85,0.4:0.32
 Reporting by Bloomberg decades later described the deal that followed. || title:"The World's Favorite Money"; E42@0.62,0.4:0.32; E25@0.85,0.4:0.32; C05@0.2,0.6:0.58~shake; D17@0.62,0.76:0.32~shake
 Saudi Arabia would put a large share of its oil dollars into US government bonds. || title:"The World's Favorite Money"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: IMF Data Brief on COFER, 30 September 2026"; H04@0.9,1.0:0.3:bottom
-Those dollars flowed back into America instead of leaving for good. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; D01@0.62,0.4:0.32; D24@0.85,0.4:0.32~drop
-Today, central banks around the world keep their savings in many currencies. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; E12@0.62,0.4:0.32
-As of mid-2026, about fifty-seven percent of those savings are in dollars. || title:"The World's Favorite Money"; C05@0.2,0.6:0.58~none; E12@0.62,0.4:0.32; D01@0.85,0.4:0.32
+Those dollars flowed back into America instead of leaving for good. || title:"The World's Favorite Money"; C05@0.80,0.6:0.58; D01@0.38,0.4:0.32; D24@0.15,0.4:0.32~drop
+Today, central banks around the world keep their savings in many currencies. || title:"The World's Favorite Money"; E12@0.5,0.6:0.76
+As of mid-2026, about fifty-seven percent of those savings are in dollars. || title:"The World's Favorite Money"; D01@0.5,0.6:0.76
 About twenty-one percent are in euros. || title:"The World's Favorite Money"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: European Central Bank, Introducing the euro" hl=0.121,0.395,0.61,0.609+0.8; H04@0.9,1.0:0.3:bottom
 And only about five percent are in yen. || title:"The World's Favorite Money"; G06@0.62,0.4:0.32; G07@0.85,0.4:0.32; A06@0.2,0.6:0.58
 The euro is young. || title:"The World's Favorite Money"; A06@0.2,0.6:0.58~none; G16@0.62,0.4:0.32
 It was launched in 1999, and today it is the money of twenty-one European Union countries. || title:"The World's Favorite Money"; A06@0.2,0.6:0.58~none; G16@0.62,0.4:0.32; G06@0.85,0.4:0.32; E25@0.62,0.76:0.32
-So when Sam's dollar buys only eighty-nine euro cents, that is not a weak dollar. || title:"The World's Favorite Money"; H09@0.2,0.6:0.58~spin; D01@0.62,0.4:0.32~spin
-It is a strong euro, backed by a huge trading bloc and its own popular savings currency. || title:"The World's Favorite Money"; H09@0.2,0.6:0.58~spin; D01@0.62,0.4:0.32~spin; G06@0.85,0.4:0.32; G16@0.62,0.76:0.32; E22@0.85,0.76:0.32
-Because the dollar matters this much, some countries decided not to float at all. || title:"The World's Favorite Money"; G06@0.62,0.4:0.32~float; G07@0.85,0.4:0.32~float; D06@0.62,0.76:0.32~r
+So when Sam's dollar buys only eighty-nine euro cents, that is not a weak dollar. || title:"The World's Favorite Money"; H09@0.80,0.6:0.58~spin; D01@0.38,0.4:0.32~spin
+It is a strong euro, backed by a huge trading bloc and its own popular savings currency. || title:"The World's Favorite Money"; H09@0.80,0.6:0.58~spin; D01@0.38,0.4:0.32~spin; G06@0.15,0.4:0.32; G16@0.38,0.76:0.32; E22@0.15,0.76:0.32
+Because the dollar matters this much, some countries decided not to float at all. || title:"The World's Favorite Money"; D06@0.5,0.6:0.76
 They tied themselves to the dollar on purpose. || title:"The World's Favorite Money"; G06@0.62,0.4:0.32~float; G07@0.85,0.4:0.32~float; D06@0.62,0.76:0.32~r; E55@0.85,0.76:0.32~r; D01@0.42,0.24:0.32~r; A15@0.2,0.6:0.58
 
 # ---------- CHAPTER 5: Countries That Hold the Line ----------
 || title:"Countries That Hold the Line"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Sam's flight to Tokyo has a stopover in Hong Kong. || title:"Countries That Hold the Line"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Hong Kong Monetary Authority, Linked Exchange Rate System" hl=0.121,0.522,0.879,0.599+0.8; H04@0.9,1.0:0.3:bottom
 At the airport shop, he notices something odd. || title:"Countries That Hold the Line"; E42@0.62,0.4:0.32; E34@0.85,0.4:0.32
-The price of the Hong Kong dollar barely ever moves. || title:"Countries That Hold the Line"; E42@0.62,0.4:0.32; E34@0.85,0.4:0.32; H09@0.2,0.6:0.58~l; E15@0.62,0.76:0.32~l; E13@0.85,0.76:0.32
-Since October 1983, Hong Kong has kept its money between seven dollars seventy-five and seven dollars eighty-five for each US dollar. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E25@0.62,0.4:0.32; D06@0.85,0.4:0.32; D01@0.62,0.76:0.32
-This is called a peg. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E25@0.62,0.4:0.32; D06@0.85,0.4:0.32; D01@0.62,0.76:0.32; E55@0.85,0.76:0.32; H18@0.42,0.24:0.32:"7.75"~drop; note:"7.85"@0.66,0.12
+The price of the Hong Kong dollar barely ever moves. || title:"Countries That Hold the Line"; E42@0.38,0.4:0.32; E34@0.15,0.4:0.32; H09@0.80,0.6:0.58~r; E15@0.38,0.76:0.32~r; E13@0.15,0.76:0.32
+Since October 1983, Hong Kong has kept its money between seven dollars seventy-five and seven dollars eighty-five for each US dollar. || title:"Countries That Hold the Line"; H09@0.80,0.6:0.58; E25@0.38,0.4:0.32; D06@0.15,0.4:0.32; D01@0.38,0.76:0.32
+This is called a peg. || title:"Countries That Hold the Line"; H18@0.5,0.6:0.76:"7.75"
 A peg works like a promise. || title:"Countries That Hold the Line"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: HKMA, How Does the LERS Work?"; H04@0.9,1.0:0.3:bottom
 The central bank says, || title:"Countries That Hold the Line"; C01@0.2,0.6:0.58
-if the price ever reaches the edge of the band, we will buy or sell as much as needed to push it back. || title:"Countries That Hold the Line"; C01@0.2,0.6:0.58; D06@0.62,0.4:0.32~float
+if the price ever reaches the edge of the band, we will buy or sell as much as needed to push it back. || title:"Countries That Hold the Line"; D06@0.5,0.6:0.76
 On the October 9 Federal Reserve table, the Hong Kong dollar sat at about seven point eight five. || title:"Countries That Hold the Line"; E13@0.62,0.4:0.32; D06@0.85,0.4:0.32
-Right at the edge, and still holding. || title:"Countries That Hold the Line"; E13@0.62,0.4:0.32; D06@0.85,0.4:0.32; C01@0.2,0.6:0.58; note:"7.85"@0.66,0.12
+Right at the edge, and still holding. || title:"Countries That Hold the Line"; E13@0.38,0.4:0.32; D06@0.15,0.4:0.32; C01@0.80,0.6:0.58; note:"7.85"@0.66,0.12
 Saudi Arabia does the same thing. || title:"Countries That Hold the Line"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Arab News, Confirmed: Riyal peg to dollar"; H04@0.9,1.0:0.3:bottom
-Its riyal has been held at three point seven five to the dollar since 1986. || title:"Countries That Hold the Line"; C01@0.2,0.6:0.58~none; D17@0.62,0.4:0.32; D06@0.85,0.4:0.32; D01@0.62,0.76:0.32; note:"3.75"@0.66,0.12; E25@0.85,0.76:0.32
-For an oil seller, this makes sense. || title:"Countries That Hold the Line"; E31@0.62,0.4:0.32; D01@0.85,0.4:0.32
-Its oil is sold in dollars, so a fixed price for its own money keeps life simple and predictable. || title:"Countries That Hold the Line"; E31@0.62,0.4:0.32; D01@0.85,0.4:0.32; E13@0.62,0.76:0.32; A21@0.2,0.6:0.58
+Its riyal has been held at three point seven five to the dollar since 1986. || title:"Countries That Hold the Line"; C01@0.80,0.6:0.58; D17@0.38,0.4:0.32; D06@0.15,0.4:0.32; D01@0.38,0.76:0.32; note:"3.75"@0.66,0.12; E25@0.15,0.76:0.32
+For an oil seller, this makes sense. || title:"Countries That Hold the Line"; D01@0.5,0.6:0.76
+Its oil is sold in dollars, so a fixed price for its own money keeps life simple and predictable. || title:"Countries That Hold the Line"; E13@0.5,0.6:0.76
 But a peg has a hidden cost. || title:"Countries That Hold the Line"; G04@0.62,0.4:0.32~walk; G10@0.85,0.4:0.32~walk
 If your money is tied to the dollar, your interest rates have to follow America's, whether that suits you or not. || title:"Countries That Hold the Line"; G04@0.62,0.4:0.32~walk; G10@0.85,0.4:0.32~walk; A05@0.2,0.6:0.58
-So when the Federal Reserve raised its rate in September 2026, || title:"Countries That Hold the Line"; E25@0.62,0.4:0.32; G10@0.85,0.4:0.32
-banks in Hong Kong felt the pull right away, even though nobody there voted for it. || title:"Countries That Hold the Line"; E25@0.62,0.4:0.32; G10@0.85,0.4:0.32; G04@0.62,0.76:0.32; H12@0.2,0.6:0.58
-If America raises rates while your own economy is weak, you raise rates too. || title:"Countries That Hold the Line"; D22@0.62,0.4:0.32
+So when the Federal Reserve raised its rate in September 2026, || title:"Countries That Hold the Line"; E25@0.38,0.4:0.32; G10@0.15,0.4:0.32
+banks in Hong Kong felt the pull right away, even though nobody there voted for it. || title:"Countries That Hold the Line"; E25@0.38,0.4:0.32; G10@0.15,0.4:0.32; G04@0.38,0.76:0.32; H12@0.80,0.6:0.58
+If America raises rates while your own economy is weak, you raise rates too. || title:"Countries That Hold the Line"; D22@0.5,0.6:0.76
 You have handed the steering wheel to someone else. || title:"Countries That Hold the Line"; D22@0.62,0.4:0.32; H09@0.2,0.6:0.58
 And if investors ever stop believing the promise, the central bank has to spend its savings fast to defend it. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E21@0.62,0.4:0.32; D01@0.85,0.4:0.32; E44@0.62,0.76:0.32~drop
-So every country makes a choice. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E22@0.62,0.4:0.32~drop
-Let the price float, like Japan and Europe, or lock it, like Hong Kong. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E22@0.62,0.4:0.32~drop; G07@0.85,0.4:0.32~float
-Either way, someone wins and someone pays. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~none; E22@0.62,0.4:0.32~drop; G07@0.85,0.4:0.32~float; G06@0.62,0.76:0.32~float; D06@0.85,0.76:0.32~float
-And that brings us to the question Sam never thought to ask. || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~l; E48@0.62,0.4:0.32~pop
-When the dollar is strong, who exactly is winning? || title:"Countries That Hold the Line"; H09@0.2,0.6:0.58~l; E48@0.62,0.4:0.32~pop; D01@0.85,0.4:0.32; E28@0.62,0.76:0.32; G03@0.85,0.76:0.32
+So every country makes a choice. || title:"Countries That Hold the Line"; H09@0.80,0.6:0.58; E22@0.38,0.4:0.32~drop
+Let the price float, like Japan and Europe, or lock it, like Hong Kong. || title:"Countries That Hold the Line"; H09@0.80,0.6:0.58; E22@0.38,0.4:0.32~drop; G07@0.15,0.4:0.32~float
+Either way, someone wins and someone pays. || title:"Countries That Hold the Line"; H09@0.80,0.6:0.58; E22@0.38,0.4:0.32~drop; G07@0.15,0.4:0.32~float; G06@0.38,0.76:0.32~float; D06@0.15,0.76:0.32~float
+And that brings us to the question Sam never thought to ask. || title:"Countries That Hold the Line"; E48@0.5,0.6:0.76
+When the dollar is strong, who exactly is winning? || title:"Countries That Hold the Line"; G03@0.5,0.6:0.76
 
 # ---------- CHAPTER 6: Strong or Weak, Who Wins? ----------
 || title:"Strong or Weak, Who Wins?"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] For Sam, a strong dollar is wonderful. || title:"Strong or Weak, Who Wins?"; H09@0.2,0.6:0.58~walk; E40@0.62,0.4:0.32~walk
 His hotel in Tokyo, his train tickets and his ramen all cost less in dollars than they did a few years ago. || title:"Strong or Weak, Who Wins?"; H09@0.2,0.6:0.58~walk; E40@0.62,0.4:0.32~walk; A02@0.4,0.64:0.46
-Americans who buy imported things win too. || title:"Strong or Weak, Who Wins?"; H09@0.2,0.6:0.58~none; E36@0.62,0.4:0.32; D22@0.85,0.4:0.32
-A strong dollar can make some foreign cars, electronics and clothes a little cheaper. || title:"Strong or Weak, Who Wins?"; H09@0.2,0.6:0.58~none; E36@0.62,0.4:0.32; D22@0.85,0.4:0.32; E07@0.62,0.76:0.32; E08@0.85,0.76:0.32; E46@0.42,0.24:0.32
-But now meet a different American. || title:"Strong or Weak, Who Wins?"; C09@0.2,0.6:0.58~r; E33@0.62,0.4:0.32~b
-She works at a factory in Ohio that sells machines to Japan. || title:"Strong or Weak, Who Wins?"; C09@0.2,0.6:0.58~r; E33@0.62,0.4:0.32~b; G13@0.85,0.4:0.32
-When the dollar is strong, her machines cost more in yen. || title:"Strong or Weak, Who Wins?"; H19@0.62,0.4:0.32; C13@0.2,0.6:0.58~spin
+Americans who buy imported things win too. || title:"Strong or Weak, Who Wins?"; H09@0.80,0.6:0.58; E36@0.38,0.4:0.32; D22@0.15,0.4:0.32
+A strong dollar can make some foreign cars, electronics and clothes a little cheaper. || title:"Strong or Weak, Who Wins?"; H09@0.80,0.6:0.58; E36@0.38,0.4:0.32; D22@0.15,0.4:0.32; E07@0.38,0.76:0.32; E08@0.15,0.76:0.32; E46@0.42,0.24:0.32
+But now meet a different American. || title:"Strong or Weak, Who Wins?"; C09@0.80,0.6:0.58~l; E33@0.38,0.4:0.32~b
+She works at a factory in Ohio that sells machines to Japan. || title:"Strong or Weak, Who Wins?"; G13@0.5,0.6:0.76
+When the dollar is strong, her machines cost more in yen. || title:"Strong or Weak, Who Wins?"; H19@0.5,0.6:0.76
 Japanese buyers start looking at cheaper machines from somewhere else. || title:"Strong or Weak, Who Wins?"; H19@0.62,0.4:0.32; C13@0.2,0.6:0.58~spin; C10@0.4,0.64:0.46
 Fewer sales can mean fewer shifts and smaller raises. || title:"Strong or Weak, Who Wins?"; E25@0.62,0.4:0.32; D21@0.85,0.4:0.32
 That is the hidden side of a strong dollar. || title:"Strong or Weak, Who Wins?"; E25@0.62,0.4:0.32; D21@0.85,0.4:0.32; E33@0.62,0.76:0.32; E50@0.85,0.76:0.32~drop; C10@0.2,0.6:0.58~drop
 In Japan, it works the other way around. || title:"Strong or Weak, Who Wins?"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Bank of Japan, Statement on Monetary Policy, 18 September 2026"; H04@0.9,1.0:0.3:bottom
-Japanese families pay more for imported fuel and food, because those are priced in dollars. || title:"Strong or Weak, Who Wins?"; G15@0.62,0.4:0.32; E38@0.85,0.4:0.32; D17@0.62,0.76:0.32; C14@0.2,0.6:0.58
-But Japan's big exporters, the companies that sell cars and machines abroad, often earn more yen for every dollar they bring home. || title:"Strong or Weak, Who Wins?"; E31@0.62,0.4:0.32; D22@0.85,0.4:0.32; E02@0.62,0.76:0.32~spin; G07@0.85,0.76:0.32~spin; C11@0.2,0.6:0.58
+Japanese families pay more for imported fuel and food, because those are priced in dollars. || title:"Strong or Weak, Who Wins?"; G15@0.38,0.4:0.32; E38@0.15,0.4:0.32; D17@0.38,0.76:0.32; C14@0.80,0.6:0.58
+But Japan's big exporters, the companies that sell cars and machines abroad, often earn more yen for every dollar they bring home. || title:"Strong or Weak, Who Wins?"; G07@0.5,0.6:0.76
 So there is no simple good or bad. || title:"Strong or Weak, Who Wins?"; C11@0.2,0.6:0.58~none
 A strong currency helps the people who buy from abroad. || title:"Strong or Weak, Who Wins?"; C11@0.2,0.6:0.58~none; E22@0.62,0.4:0.32; E39@0.85,0.4:0.32
 A weak one helps the people who sell abroad. || title:"Strong or Weak, Who Wins?"; C11@0.2,0.6:0.58~none; E22@0.62,0.4:0.32; E39@0.85,0.4:0.32; E33@0.62,0.76:0.32
 It is a bit like the weather. || title:"Strong or Weak, Who Wins?"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, Nominal Broad U.S. Dollar Index (DTWEXBGS)"; H04@0.9,1.0:0.3:bottom
-A sunny day is great for the beach and bad for the farmer who needs rain. || title:"Strong or Weak, Who Wins?"; G24@0.62,0.4:0.32; C09@0.2,0.6:0.58
-Same sky, different winners. || title:"Strong or Weak, Who Wins?"; G24@0.62,0.4:0.32; C09@0.2,0.6:0.58; H09@0.4,0.64:0.46
+A sunny day is great for the beach and bad for the farmer who needs rain. || title:"Strong or Weak, Who Wins?"; G24@0.38,0.4:0.32; C09@0.80,0.6:0.58
+Same sky, different winners. || title:"Strong or Weak, Who Wins?"; G24@0.38,0.4:0.32; C09@0.80,0.6:0.58; H09@0.60,0.64:0.46
 Even the dollar itself rises and falls. || title:"Strong or Weak, Who Wins?"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, U.S. Dollars to Euro Spot Exchange Rate (DEXUSEU)"; H04@0.9,1.0:0.3:bottom
-Against a basket of many currencies, it peaked in January 2025, and as of October 2026 it is about seven percent lower. || title:"Strong or Weak, Who Wins?"; E13@0.62,0.4:0.32; D01@0.85,0.4:0.32; E29@0.62,0.76:0.32; A15@0.2,0.6:0.58
+Against a basket of many currencies, it peaked in January 2025, and as of October 2026 it is about seven percent lower. || title:"Strong or Weak, Who Wins?"; E29@0.5,0.6:0.76
 And the euro has swung a lot too. || title:"Strong or Weak, Who Wins?"; A15@0.2,0.6:0.58~none; G06@0.62,0.4:0.32
 In 2000, one euro cost about eighty-three cents. || title:"Strong or Weak, Who Wins?"; A15@0.2,0.6:0.58~none; G06@0.62,0.4:0.32; D01@0.85,0.4:0.32; E25@0.62,0.76:0.32
 By 2008, it cost about a dollar sixty. || title:"Strong or Weak, Who Wins?"; A15@0.2,0.6:0.58~none; G06@0.62,0.4:0.32; D01@0.85,0.4:0.32; E25@0.62,0.76:0.32; E45@0.85,0.76:0.32~spin; E46@0.42,0.24:0.32~spin
-So the price on Sam's board is never final. || title:"Strong or Weak, Who Wins?"; E13@0.62,0.4:0.32; C09@0.2,0.6:0.58
-It is a snapshot of millions of decisions, made by people chasing trade, safety and the best interest rate. || title:"Strong or Weak, Who Wins?"; E13@0.62,0.4:0.32; C09@0.2,0.6:0.58; H09@0.4,0.64:0.46
-Which brings us back to the airport, and to the one hundred dollars still in Sam's hand. || title:"Strong or Weak, Who Wins?"; E15@0.62,0.4:0.32; H09@0.2,0.6:0.58~walk; E01@0.85,0.4:0.32~walk
+So the price on Sam's board is never final. || title:"Strong or Weak, Who Wins?"; E13@0.38,0.4:0.32; C09@0.80,0.6:0.58
+It is a snapshot of millions of decisions, made by people chasing trade, safety and the best interest rate. || title:"Strong or Weak, Who Wins?"; E13@0.38,0.4:0.32; C09@0.80,0.6:0.58; H09@0.60,0.64:0.46
+Which brings us back to the airport, and to the one hundred dollars still in Sam's hand. || title:"Strong or Weak, Who Wins?"; E01@0.5,0.6:0.76
 
 # ---------- CHAPTER 7: Back at the Counter ----------
 || title:"Back at the Counter"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Sam finally changes his money. || title:"Back at the Counter"; H09@0.2,0.6:0.58; E15@0.62,0.4:0.32
-Fifteen thousand eight hundred yen for Tokyo, and the rest kept for Paris. || title:"Back at the Counter"; H09@0.2,0.6:0.58; E15@0.62,0.4:0.32; E01@0.85,0.4:0.32; G07@0.62,0.76:0.32
+[calm] Sam finally changes his money. || title:"Back at the Counter"; E15@0.5,0.6:0.76
+Fifteen thousand eight hundred yen for Tokyo, and the rest kept for Paris. || title:"Back at the Counter"; G07@0.5,0.6:0.76
 He now knows that the big yen number is mostly history. || title:"Back at the Counter"; E25@0.62,0.4:0.32~float; E52@0.85,0.4:0.32~float
 Japan chose a small unit long ago, and it never mattered as much as people think. || title:"Back at the Counter"; E25@0.62,0.4:0.32~float; E52@0.85,0.4:0.32~float; H09@0.2,0.6:0.58~float; note:"360"@0.66,0.12
-He knows the real driver is demand. || title:"Back at the Counter"; H09@0.2,0.6:0.58~none; E31@0.62,0.4:0.32
-Who wants the money, for trade, for travel and, most of all, for the interest it can earn. || title:"Back at the Counter"; H09@0.2,0.6:0.58~none; E31@0.62,0.4:0.32; E42@0.85,0.4:0.32; G04@0.62,0.76:0.32
+He knows the real driver is demand. || title:"Back at the Counter"; H09@0.80,0.6:0.58; E31@0.38,0.4:0.32
+Who wants the money, for trade, for travel and, most of all, for the interest it can earn. || title:"Back at the Counter"; H09@0.80,0.6:0.58; E31@0.38,0.4:0.32; E42@0.15,0.4:0.32; G04@0.38,0.76:0.32
 He knows the dollar sits at the center because the world prices oil in it, || title:"Back at the Counter"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: IMF COFER data brief"; H04@0.9,1.0:0.3:bottom
 saves in it and trades in it, even after it left gold behind. || title:"Back at the Counter"; H09@0.2,0.6:0.58~none; D01@0.62,0.4:0.32; E27@0.85,0.4:0.32; D17@0.62,0.76:0.32; E21@0.85,0.76:0.32; E43@0.42,0.24:0.32
 And he knows that this center is slowly shifting. || title:"Back at the Counter"; E12@0.62,0.4:0.32~spin; G06@0.85,0.4:0.32
 The dollar's share of world savings is still the biggest by far, but it has been drifting lower for years. || title:"Back at the Counter"; E12@0.62,0.4:0.32~spin; G06@0.85,0.4:0.32; A06@0.2,0.6:0.58
-None of this means you should trade currencies. || title:"Back at the Counter"; A01@0.2,0.6:0.58; E41@0.62,0.4:0.32
-It means the price of a vacation, a car or a tank of gas is linked to decisions made far away. || title:"Back at the Counter"; A01@0.2,0.6:0.58; E41@0.62,0.4:0.32; E42@0.85,0.4:0.32; D17@0.62,0.76:0.32; E43@0.85,0.76:0.32
-When Japan's central bank changes its rate in Tokyo, || title:"Back at the Counter"; A01@0.2,0.6:0.58~none; D17@0.85,0.4:0.32; E43@0.62,0.76:0.32
+None of this means you should trade currencies. || title:"Back at the Counter"; A01@0.80,0.6:0.58; E41@0.38,0.4:0.32
+It means the price of a vacation, a car or a tank of gas is linked to decisions made far away. || title:"Back at the Counter"; A01@0.80,0.6:0.58; E41@0.38,0.4:0.32; E42@0.15,0.4:0.32; D17@0.38,0.76:0.32; E43@0.15,0.76:0.32
+When Japan's central bank changes its rate in Tokyo, || title:"Back at the Counter"; E43@0.5,0.6:0.76
 or Saudi Arabia defends its peg, the effects travel all the way to an American gas station and an American factory floor. || title:"Back at the Counter"; A01@0.2,0.6:0.58~none; D17@0.85,0.4:0.32; E43@0.62,0.76:0.32; G13@0.85,0.76:0.32; E41@0.42,0.24:0.32; E33@0.62,0.4:0.32
 So the next time you see an exchange rate, read it as a story. || title:"Back at the Counter"; E13@0.62,0.4:0.32
-Someone, somewhere, wanted that money a little more, or a little less, than yesterday. || title:"Back at the Counter"; E13@0.62,0.4:0.32; H09@0.2,0.6:0.58~walk
-And remember 1971, the year the dollar left gold. || title:"Back at the Counter"; H09@0.2,0.6:0.58~none; E25@0.62,0.4:0.32
-Two years later, with prices rising and oil about to explode, American investors were about to learn a hard lesson. || title:"Back at the Counter"; H09@0.2,0.6:0.58~none; E25@0.62,0.4:0.32; D17@0.85,0.4:0.32; G11@0.62,0.76:0.32; E46@0.85,0.76:0.32
+Someone, somewhere, wanted that money a little more, or a little less, than yesterday. || title:"Back at the Counter"; E13@0.38,0.4:0.32; H09@0.80,0.6:0.58~walk
+And remember 1971, the year the dollar left gold. || title:"Back at the Counter"; E25@0.5,0.6:0.76
+Two years later, with prices rising and oil about to explode, American investors were about to learn a hard lesson. || title:"Back at the Counter"; E46@0.5,0.6:0.76
 In the next video, we go back to 1973, to fifty stocks everyone said you could buy and never sell. || title:"Back at the Counter"; E09@0.62,0.4:0.32~drop
 It is a crash almost everyone has forgotten. || title:"Back at the Counter"; E09@0.62,0.4:0.32~drop; A23@0.2,0.6:0.58
 

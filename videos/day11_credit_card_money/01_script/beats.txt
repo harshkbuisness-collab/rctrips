@@ -5,210 +5,210 @@
 [calm] This is Maya. || title:"The Free Flight"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB, The Consumer Credit Card Market (Dec 2025)" hl=0.124,0.502,0.563,0.72+0.8; H04@0.9,1.0:0.3:bottom
 She just got a new credit card, and it came with a gift: enough points for a free flight home. || title:"The Free Flight"; C11@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~drop; E42@0.85,0.4:0.32~r; H16@0.62,0.76:0.32:"FREE"~r
 Banks hand out gifts like this every day. || title:"The Free Flight"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
-In 2024, American cardholders earned about forty-seven and a half billion dollars in rewards. || title:"The Free Flight"; A18@0.2,0.6:0.58~r; E04@0.62,0.4:0.32; H17@0.85,0.4:0.32:"47.5 BILLION"~drop; note:"2024"@0.66,0.12
-Maya is twenty-nine. || title:"The Free Flight"; H23@0.62,0.4:0.32~l; note:"HOSPITAL"@0.66,0.12
-She works long shifts at a hospital, and she has not been home to see her parents in two years. || title:"The Free Flight"; H23@0.62,0.4:0.32~l; note:"HOSPITAL"@0.66,0.12; C11@0.2,0.6:0.58~walk; E25@0.85,0.4:0.32~drop
-So the flight matters to her. || title:"The Free Flight"; H23@0.62,0.4:0.32~l; note:"HOSPITAL"@0.66,0.12; C11@0.2,0.6:0.58~walk; E25@0.85,0.4:0.32~drop; note:"2 years"@0.5,0.92; H27@0.62,0.76:0.32~float
-She reads the offer twice. || title:"The Free Flight"; E09@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"NO FEE"
+In 2024, American cardholders earned about forty-seven and a half billion dollars in rewards. || title:"The Free Flight"; A18@0.80,0.6:0.58~l; E04@0.38,0.4:0.32; H17@0.15,0.4:0.32:"47.5 BILLION"~drop; note:"2024"@0.66,0.12
+Maya is twenty-nine. || title:"The Free Flight"; H23@0.38,0.4:0.32~r; note:"HOSPITAL"@0.66,0.12
+She works long shifts at a hospital, and she has not been home to see her parents in two years. || title:"The Free Flight"; H23@0.38,0.4:0.32~r; note:"HOSPITAL"@0.66,0.12; C11@0.80,0.6:0.58~walk; E25@0.15,0.4:0.32~drop
+So the flight matters to her. || title:"The Free Flight"; H27@0.5,0.6:0.76
+She reads the offer twice. || title:"The Free Flight"; H16@0.5,0.6:0.76:"NO FEE"
 No annual fee for the first year, points on every purchase, and a bonus if she spends enough in three months. || title:"The Free Flight"; E09@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"NO FEE"; note:"POINTS"@0.66,0.12
 It all sounds simple. || title:"The Free Flight"; E09@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"NO FEE"; note:"POINTS"@0.66,0.12; note:"BONUS"@0.5,0.92; A06@0.2,0.6:0.58~r
-But a bank is a business. || title:"The Free Flight"; D15@0.62,0.4:0.32~l; C04@0.2,0.6:0.58
-It does not give away billions because it is kind. || title:"The Free Flight"; D15@0.62,0.4:0.32~l; C04@0.2,0.6:0.58; A05@0.4,0.64:0.46~r
-In fact, card companies earn money from three places at once. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; note:"INTEREST"@0.5,0.92
-From the shops where you swipe, from the interest you pay, and from the fees you are charged. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; note:"INTEREST"@0.5,0.92; note:"FEES"@0.66,0.12; D15@0.62,0.4:0.32
-So in this video we will follow Maya, and one simple dinner she pays for with that card. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; E40@0.62,0.4:0.32
+But a bank is a business. || title:"The Free Flight"; D15@0.38,0.4:0.32~r; C04@0.80,0.6:0.58
+It does not give away billions because it is kind. || title:"The Free Flight"; D15@0.38,0.4:0.32~r; C04@0.80,0.6:0.58; A05@0.60,0.64:0.46~l
+In fact, card companies earn money from three places at once. || title:"The Free Flight"; C04@0.80,0.6:0.58; note:"INTEREST"@0.5,0.92
+From the shops where you swipe, from the interest you pay, and from the fees you are charged. || title:"The Free Flight"; D15@0.5,0.6:0.76
+So in this video we will follow Maya, and one simple dinner she pays for with that card. || title:"The Free Flight"; E40@0.5,0.6:0.76
 We will watch where every dollar goes. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; E40@0.62,0.4:0.32; E39@0.85,0.4:0.32
 [calm] And by the end, we will know who is really paying for her free flight. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; E42@0.62,0.4:0.32; E48@0.85,0.4:0.32~pop; note:"The free flight"@0.66,0.12
-It starts with something that takes about two seconds. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; D18@0.62,0.4:0.32~r
-The swipe. || title:"The Free Flight"; C04@0.2,0.6:0.58~none; D18@0.62,0.4:0.32~r; E24@0.85,0.4:0.32
+It starts with something that takes about two seconds. || title:"The Free Flight"; C04@0.80,0.6:0.58; D18@0.38,0.4:0.32~l
+The swipe. || title:"The Free Flight"; C04@0.80,0.6:0.58; D18@0.38,0.4:0.32~l; E24@0.15,0.4:0.32
 
 # ---------- CHAPTER 2: The Swipe ----------
 || title:"The Swipe"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Friday night, Maya takes a friend to dinner. || title:"The Swipe"; C11@0.2,0.6:0.58~l
-The bill is fifty dollars. || title:"The Swipe"; C11@0.2,0.6:0.58~l; H11@0.4,0.64:0.46~l; H17@0.62,0.4:0.32:"$50"~drop
-She taps her card, and the waiter says thank you. || title:"The Swipe"; C11@0.2,0.6:0.58~l; H11@0.4,0.64:0.46~l; H17@0.62,0.4:0.32:"$50"~drop; D18@0.85,0.4:0.32
-To Maya, it costs fifty dollars. || title:"The Swipe"; C11@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"RESTAURANT"~drop
-But the restaurant does not get fifty dollars. || title:"The Swipe"; C11@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"RESTAURANT"~drop; E01@0.85,0.4:0.32
+[calm] Friday night, Maya takes a friend to dinner. || title:"The Swipe"; C11@0.80,0.6:0.58~r
+The bill is fifty dollars. || title:"The Swipe"; H17@0.5,0.6:0.76:"$50"
+She taps her card, and the waiter says thank you. || title:"The Swipe"; D18@0.5,0.6:0.76
+To Maya, it costs fifty dollars. || title:"The Swipe"; H18@0.5,0.6:0.76:"RESTAURANT"
+But the restaurant does not get fifty dollars. || title:"The Swipe"; E01@0.5,0.6:0.76
 A small slice goes to the bank that gave Maya her card. || title:"The Swipe"; C11@0.2,0.6:0.58~none
 That slice is called the interchange fee. || title:"The Swipe"; C11@0.2,0.6:0.58~none; D15@0.62,0.4:0.32~r; note:"interchange fee"@0.66,0.12
 Think of it as a toll the shop pays every time a card is used. || title:"The Swipe"; C11@0.2,0.6:0.58~none; D15@0.62,0.4:0.32~r; note:"interchange fee"@0.66,0.12; H18@0.85,0.4:0.32:"TOLL"~drop
-Here is the chain. || title:"The Swipe"; C11@0.2,0.6:0.58~none
-Maya's bank gave her the card. || title:"The Swipe"; C11@0.2,0.6:0.58~none; D15@0.62,0.4:0.32
-The restaurant has its own bank that takes card payments. || title:"The Swipe"; C11@0.2,0.6:0.58~none; D15@0.62,0.4:0.32; E43@0.85,0.4:0.32; note:"network"@0.5,0.92
-And between them is a network like Visa or Mastercard that passes the message along. || title:"The Swipe"; C11@0.2,0.6:0.58~none; D15@0.62,0.4:0.32; E43@0.85,0.4:0.32; note:"network"@0.5,0.92; note:"restaurant's bank"@0.66,0.12
-In about two seconds, the message goes out, the answer comes back, and everyone in the chain takes a small cut. || title:"The Swipe"; E24@0.62,0.4:0.32; D06@0.85,0.4:0.32~drop
+Here is the chain. || title:"The Swipe"; C11@0.80,0.6:0.58
+Maya's bank gave her the card. || title:"The Swipe"; C11@0.80,0.6:0.58; D15@0.38,0.4:0.32
+The restaurant has its own bank that takes card payments. || title:"The Swipe"; C11@0.80,0.6:0.58; D15@0.38,0.4:0.32; E43@0.15,0.4:0.32; note:"network"@0.5,0.92
+And between them is a network like Visa or Mastercard that passes the message along. || title:"The Swipe"; E43@0.5,0.6:0.76
+In about two seconds, the message goes out, the answer comes back, and everyone in the chain takes a small cut. || title:"The Swipe"; D06@0.5,0.6:0.76
 The biggest cut goes to Maya's bank. || title:"The Swipe"; E24@0.62,0.4:0.32; D06@0.85,0.4:0.32~drop; A15@0.2,0.6:0.58
 Visa publishes these tolls. || title:"The Swipe"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Visa USA Interchange Reimbursement Fees (18 April 2026)"; H04@0.9,1.0:0.3:bottom
-For a restaurant, a basic Visa credit card costs two point one percent of the bill. || title:"The Swipe"; A38@0.2,0.6:0.58~l; E12@0.62,0.4:0.32~drop; note:"2.10%"@0.66,0.12
-But Maya's card is a fancy rewards card. || title:"The Swipe"; A38@0.2,0.6:0.58~none; D18@0.62,0.4:0.32~drop; E27@0.85,0.4:0.32~drop
-For that one, the same restaurant pays two point six percent. || title:"The Swipe"; A38@0.2,0.6:0.58~none; D18@0.62,0.4:0.32~drop; E27@0.85,0.4:0.32~drop; G05@0.62,0.76:0.32~r; H17@0.85,0.76:0.32:"2.10%"; note:"2.60%"@0.66,0.12
+For a restaurant, a basic Visa credit card costs two point one percent of the bill. || title:"The Swipe"; A38@0.80,0.6:0.58~r; E12@0.38,0.4:0.32~drop; note:"2.10%"@0.66,0.12
+But Maya's card is a fancy rewards card. || title:"The Swipe"; A38@0.80,0.6:0.58; D18@0.38,0.4:0.32~drop; E27@0.15,0.4:0.32~drop
+For that one, the same restaurant pays two point six percent. || title:"The Swipe"; A38@0.80,0.6:0.58; D18@0.38,0.4:0.32~drop; E27@0.15,0.4:0.32~drop; G05@0.38,0.76:0.32~l; H17@0.15,0.76:0.32:"2.10%"; note:"2.60%"@0.66,0.12
 So the fancier the card in your wallet, the bigger the toll the shop pays. || title:"The Swipe"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve Bank of Kansas City, Credit and Debit Card Interchange Fees, August 2026 Update"; H04@0.9,1.0:0.3:bottom
-On her dinner, that is about a dollar thirty. || title:"The Swipe"; A38@0.2,0.6:0.58~none; E22@0.62,0.4:0.32~drop; D06@0.85,0.4:0.32; note:"$1.30"@0.66,0.12
+On her dinner, that is about a dollar thirty. || title:"The Swipe"; D06@0.5,0.6:0.76
 The same table shows something else. || title:"The Swipe"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Visa USA Interchange Reimbursement Fees (18 April 2026)"; H04@0.9,1.0:0.3:bottom
 A plain debit card, the kind linked to a checking account, often costs the shop much less than a fancy credit card. || title:"The Swipe"; E12@0.62,0.4:0.32; D18@0.85,0.4:0.32; A21@0.2,0.6:0.58
-A dollar thirty sounds tiny. || title:"The Swipe"; C28@0.2,0.6:0.58~l
-But the restaurant pays it on almost every meal, so it quietly builds it into the menu prices. || title:"The Swipe"; C28@0.2,0.6:0.58~l
-For everyone. || title:"The Swipe"; C28@0.2,0.6:0.58~l; E45@0.62,0.4:0.32~b
-Even the shops that would rather not take cards usually do. || title:"The Swipe"; H18@0.62,0.4:0.32:"CASH ONLY"; C28@0.2,0.6:0.58~walk
-If they refuse, customers simply walk across the street to a shop that does. || title:"The Swipe"; H18@0.62,0.4:0.32:"CASH ONLY"; C28@0.2,0.6:0.58~walk; note:"CARDS WELCOME"@0.66,0.12
+A dollar thirty sounds tiny. || title:"The Swipe"; C28@0.80,0.6:0.58~r
+But the restaurant pays it on almost every meal, so it quietly builds it into the menu prices. || title:"The Swipe"; C28@0.80,0.6:0.58~r
+For everyone. || title:"The Swipe"; E45@0.5,0.6:0.76
+Even the shops that would rather not take cards usually do. || title:"The Swipe"; H18@0.5,0.6:0.76:"CASH ONLY"
+If they refuse, customers simply walk across the street to a shop that does. || title:"The Swipe"; H18@0.5,0.6:0.76:"CASH ONLY"
 [calm] Still, these fees are only the small coins in this story. || title:"The Swipe"; C28@0.2,0.6:0.58~none; D06@0.62,0.4:0.32
 The real money starts the day Maya cannot pay her bill in full. || title:"The Swipe"; C28@0.2,0.6:0.58~none; D06@0.62,0.4:0.32; D28@0.85,0.4:0.32~b; note:"The swipe"@0.66,0.12
 
 # ---------- CHAPTER 3: The Interest ----------
 || title:"The Interest"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] For a while, Maya does everything right. || title:"The Interest"; C11@0.2,0.6:0.58; E07@0.62,0.4:0.32
-Each month she pays the full balance, and she pays zero interest. || title:"The Interest"; C11@0.2,0.6:0.58; E07@0.62,0.4:0.32; E15@0.85,0.4:0.32; E25@0.62,0.76:0.32
+[calm] For a while, Maya does everything right. || title:"The Interest"; C11@0.80,0.6:0.58; E07@0.38,0.4:0.32
+Each month she pays the full balance, and she pays zero interest. || title:"The Interest"; C11@0.80,0.6:0.58; E07@0.38,0.4:0.32; E15@0.15,0.4:0.32; E25@0.38,0.76:0.32
 That is thanks to the grace period. || title:"The Interest"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB, What is a grace period for a credit card?"; H04@0.9,1.0:0.3:bottom
-It is the gap between the end of the billing month and the due date. || title:"The Interest"; E25@0.62,0.4:0.32~l; note:"grace period"@0.66,0.12
-Pay everything by then, and purchases cost no interest. || title:"The Interest"; E25@0.62,0.4:0.32~l; note:"grace period"@0.66,0.12; A21@0.2,0.6:0.58~r
+It is the gap between the end of the billing month and the due date. || title:"The Interest"; E25@0.5,0.6:0.76
+Pay everything by then, and purchases cost no interest. || title:"The Interest"; E25@0.5,0.6:0.76
 Then, one Tuesday, her car breaks down. || title:"The Interest"; E41@0.62,0.4:0.32~r; E50@0.85,0.4:0.32~r
 The repair is five thousand dollars, and it goes on the card. || title:"The Interest"; E41@0.62,0.4:0.32~r; E50@0.85,0.4:0.32~r; C10@0.2,0.6:0.58~walk; H17@0.62,0.76:0.32:"$5,000"~drop; D18@0.85,0.76:0.32
 Now she cannot pay it all at once. || title:"The Interest"; C10@0.2,0.6:0.58~none; E23@0.62,0.4:0.32~drop
-And the moment a balance is left over, interest starts. || title:"The Interest"; C10@0.2,0.6:0.58~none; E23@0.62,0.4:0.32~drop; G05@0.85,0.4:0.32~r; D18@0.62,0.76:0.32~r
-The price of borrowing on a card is the APR, the annual percentage rate. || title:"The Interest"; H17@0.62,0.4:0.32:"APR"~drop; E10@0.85,0.4:0.32
-It is the yearly cost of the loan, written as a percent of what you owe. || title:"The Interest"; H17@0.62,0.4:0.32:"APR"~drop; E10@0.85,0.4:0.32; note:"yearly price of borrowing"@0.66,0.12; A38@0.2,0.6:0.58
+And the moment a balance is left over, interest starts. || title:"The Interest"; C10@0.80,0.6:0.58; E23@0.38,0.4:0.32~drop; G05@0.15,0.4:0.32~l; D18@0.38,0.76:0.32~l
+The price of borrowing on a card is the APR, the annual percentage rate. || title:"The Interest"; H17@0.38,0.4:0.32:"APR"~drop; E10@0.15,0.4:0.32
+It is the yearly cost of the loan, written as a percent of what you owe. || title:"The Interest"; E10@0.5,0.6:0.76
 How much? || title:"The Interest"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve G.19 Consumer Credit release (7 Oct 2026)"; H04@0.9,1.0:0.3:bottom
-The Federal Reserve tracks this. || title:"The Interest"; A38@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~l
-For card accounts that were charged interest, the average rate from April to June 2026 was about twenty-two percent a year. || title:"The Interest"; A38@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~l; E12@0.85,0.4:0.32; note:"22.15%"@0.66,0.12; note:"Q2 2026"@0.5,0.92
+The Federal Reserve tracks this. || title:"The Interest"; G10@0.5,0.6:0.76
+For card accounts that were charged interest, the average rate from April to June 2026 was about twenty-two percent a year. || title:"The Interest"; E12@0.5,0.6:0.76
 For Maya, that means about ninety dollars of interest in the very first month. || title:"The Interest"; A38@0.2,0.6:0.58~none; D27@0.62,0.4:0.32~drop
-And next month, interest is charged on the new total, including last month's interest. || title:"The Interest"; A38@0.2,0.6:0.58~none; D27@0.62,0.4:0.32~drop; E04@0.85,0.4:0.32; note:"$92"@0.66,0.12
-Most cards work out interest on the balance every single day, then add it up at the end of the month. || title:"The Interest"; A38@0.2,0.6:0.58~none; E25@0.62,0.4:0.32
-So every day the debt sits there, it gets a little heavier. || title:"The Interest"; A38@0.2,0.6:0.58~none; E25@0.62,0.4:0.32; D06@0.85,0.4:0.32~drop; D28@0.62,0.76:0.32~drop
+And next month, interest is charged on the new total, including last month's interest. || title:"The Interest"; A38@0.80,0.6:0.58; D27@0.38,0.4:0.32~drop; E04@0.15,0.4:0.32; note:"$92"@0.66,0.12
+Most cards work out interest on the balance every single day, then add it up at the end of the month. || title:"The Interest"; A38@0.80,0.6:0.58; E25@0.38,0.4:0.32
+So every day the debt sits there, it gets a little heavier. || title:"The Interest"; D28@0.5,0.6:0.76
 That is compounding. || title:"The Interest"; E46@0.62,0.4:0.32
 It is like a snowball rolling downhill, picking up snow that is made of earlier snow. || title:"The Interest"; E46@0.62,0.4:0.32; A06@0.2,0.6:0.58~l
 Maya is not careless. || title:"The Interest"; A41@0.4,0.64:0.46
-She just had a bad week, like millions of people do. || title:"The Interest"; A41@0.4,0.64:0.46; C28@0.2,0.6:0.58; D28@0.62,0.4:0.32
-And for a card company, that bad week is where most of the money is made. || title:"The Interest"; A41@0.4,0.64:0.46; C28@0.2,0.6:0.58; D28@0.62,0.4:0.32; D15@0.85,0.4:0.32
+She just had a bad week, like millions of people do. || title:"The Interest"; A41@0.60,0.64:0.46; C28@0.80,0.6:0.58; D28@0.38,0.4:0.32
+And for a card company, that bad week is where most of the money is made. || title:"The Interest"; A41@0.60,0.64:0.46; C28@0.80,0.6:0.58; D28@0.38,0.4:0.32; D15@0.15,0.4:0.32
 Across America, this adds up. || title:"The Interest"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
-In 2024, people were charged about one hundred sixty billion dollars in credit card interest. || title:"The Interest"; A41@0.4,0.64:0.46~none; G13@0.62,0.4:0.32~b; E03@0.85,0.4:0.32~drop; H17@0.62,0.76:0.32:"160 BILLION"~drop
-Interest is the biggest cost of having a card. || title:"The Interest"; A41@0.4,0.64:0.46~none; E22@0.62,0.4:0.32~drop
+In 2024, people were charged about one hundred sixty billion dollars in credit card interest. || title:"The Interest"; H17@0.5,0.6:0.76:"160 BILLION"
+Interest is the biggest cost of having a card. || title:"The Interest"; E22@0.5,0.6:0.76
 In 2024, it was about five times bigger than all the fees put together. || title:"The Interest"; A41@0.4,0.64:0.46~none; E22@0.62,0.4:0.32~drop; note:"interest"@0.66,0.12; note:"fees"@0.5,0.92
 [calm] Maya's statement arrives. || title:"The Interest"; E09@0.62,0.4:0.32~drop; C11@0.2,0.6:0.58
 And right there, in friendly big numbers, the bank offers her an easy way out. || title:"The Interest"; E09@0.62,0.4:0.32~drop; C11@0.2,0.6:0.58; note:"The interest"@0.66,0.12
 
 # ---------- CHAPTER 4: The Minimum Payment ----------
 || title:"The Minimum Payment"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] The easy way out is the minimum payment. || title:"The Minimum Payment"; H16@0.62,0.4:0.32:"MINIMUM DUE"~r; A15@0.2,0.6:0.58
-It is the smallest amount you can pay this month without being late. || title:"The Minimum Payment"; H16@0.62,0.4:0.32:"MINIMUM DUE"~r; A15@0.2,0.6:0.58; E54@0.85,0.4:0.32
+[calm] The easy way out is the minimum payment. || title:"The Minimum Payment"; H16@0.38,0.4:0.32:"MINIMUM DUE"~l; A15@0.80,0.6:0.58
+It is the smallest amount you can pay this month without being late. || title:"The Minimum Payment"; H16@0.38,0.4:0.32:"MINIMUM DUE"~l; A15@0.80,0.6:0.58; E54@0.15,0.4:0.32
 Most big banks set it at about one percent of the balance, plus that month's interest and fees. || title:"The Minimum Payment"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
-The most common floor is forty dollars. || title:"The Minimum Payment"; A15@0.2,0.6:0.58~none; E10@0.62,0.4:0.32~drop; note:"+ fees"@0.66,0.12; note:"at least $40"@0.5,0.92
+The most common floor is forty dollars. || title:"The Minimum Payment"; E10@0.5,0.6:0.76
 The minimum is set low on purpose. || title:"The Minimum Payment"; E54@0.62,0.4:0.32; D28@0.85,0.4:0.32
 It keeps you from missing a payment, and it keeps the balance alive for a long time. || title:"The Minimum Payment"; E54@0.62,0.4:0.32; D28@0.85,0.4:0.32; A05@0.2,0.6:0.58
-For Maya's five thousand dollars, the first minimum is about one hundred forty dollars. || title:"The Minimum Payment"; C11@0.2,0.6:0.58; E01@0.62,0.4:0.32
-That feels doable. || title:"The Minimum Payment"; C11@0.2,0.6:0.58; E01@0.62,0.4:0.32; note:"$142"@0.66,0.12; A21@0.4,0.64:0.46~r
-But we ran the numbers. || title:"The Minimum Payment"; E25@0.62,0.4:0.32; C10@0.2,0.6:0.58~walk
-If she pays only the minimum every month and never buys anything else, it takes her about fifteen years to clear the debt. || title:"The Minimum Payment"; E25@0.62,0.4:0.32; C10@0.2,0.6:0.58~walk; C13@0.4,0.64:0.46~walk
-That is because most of each minimum payment goes to interest. || title:"The Minimum Payment"; C10@0.2,0.6:0.58~none; E01@0.62,0.4:0.32; D15@0.85,0.4:0.32
+For Maya's five thousand dollars, the first minimum is about one hundred forty dollars. || title:"The Minimum Payment"; C11@0.80,0.6:0.58; E01@0.38,0.4:0.32
+That feels doable. || title:"The Minimum Payment"; C11@0.80,0.6:0.58; E01@0.38,0.4:0.32; note:"$142"@0.66,0.12; A21@0.60,0.64:0.46~l
+But we ran the numbers. || title:"The Minimum Payment"; E25@0.38,0.4:0.32; C10@0.80,0.6:0.58~walk
+If she pays only the minimum every month and never buys anything else, it takes her about fifteen years to clear the debt. || title:"The Minimum Payment"; E25@0.38,0.4:0.32; C10@0.80,0.6:0.58~walk; C13@0.60,0.64:0.46~walk
+That is because most of each minimum payment goes to interest. || title:"The Minimum Payment"; D15@0.5,0.6:0.76
 Only a thin slice actually shrinks the debt. || title:"The Minimum Payment"; C10@0.2,0.6:0.58~none; E01@0.62,0.4:0.32; D15@0.85,0.4:0.32; D28@0.62,0.76:0.32; note:"interest"@0.5,0.92; note:"debt"@0.66,0.12
 And she pays about seven thousand five hundred dollars in interest. || title:"The Minimum Payment"; E22@0.62,0.4:0.32~drop; note:"$5,000 repair"@0.66,0.12
 More than the car repair itself. || title:"The Minimum Payment"; E22@0.62,0.4:0.32~drop; note:"$5,000 repair"@0.66,0.12; note:"$7,500 interest"@0.5,0.92; A08@0.2,0.6:0.58~b
-If she pays a steady two hundred dollars a month instead, she is done in under three years, with about eighteen hundred dollars of interest. || title:"The Minimum Payment"; A08@0.2,0.6:0.58~none; E22@0.62,0.4:0.32; E28@0.85,0.4:0.32~drop; note:"$200 a month: under 3 years"@0.66,0.12
+If she pays a steady two hundred dollars a month instead, she is done in under three years, with about eighteen hundred dollars of interest. || title:"The Minimum Payment"; A08@0.80,0.6:0.58; E22@0.38,0.4:0.32; E28@0.15,0.4:0.32~drop; note:"$200 a month: under 3 years"@0.66,0.12
 The law actually makes banks show this. || title:"The Minimum Payment"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB, A box on my credit card bill says I will pay off the balance in three years" hl=0.124,0.576,0.563,0.761+0.8; H04@0.9,1.0:0.3:bottom
 Every statement must have a box that says how long the minimum would take, || title:"The Minimum Payment"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB, Regulation Z section 1026.7, Periodic statement" hl=0.326,0.757,0.765,0.843+0.8; H04@0.9,1.0:0.3:bottom
-and what you would need to pay to finish in three years. || title:"The Minimum Payment"; A08@0.2,0.6:0.58~none; G09@0.62,0.4:0.32~l; E09@0.85,0.4:0.32~drop; E44@0.62,0.76:0.32~pop
+and what you would need to pay to finish in three years. || title:"The Minimum Payment"; E44@0.5,0.6:0.76
 Most people never read that box. || title:"The Minimum Payment"; E09@0.62,0.4:0.32; C11@0.2,0.6:0.58
 It sits there quietly, month after month, telling the truth in small print. || title:"The Minimum Payment"; E09@0.62,0.4:0.32; C11@0.2,0.6:0.58; A13@0.4,0.64:0.46~l
 Still, more people are paying only the minimum. || title:"The Minimum Payment"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
-In 2024, about fifteen percent of regular cardholders did, the highest since at least 2015. || title:"The Minimum Payment"; C28@0.2,0.6:0.58~r; H17@0.62,0.4:0.32:"15%"; note:"highest since 2015"@0.66,0.12
-[calm] Maya decides to pay a bit more than the minimum. || title:"The Minimum Payment"; C10@0.2,0.6:0.58~walk; E08@0.62,0.4:0.32~walk; E24@0.85,0.4:0.32~spin
-But one busy month, she forgets the due date entirely. || title:"The Minimum Payment"; C10@0.2,0.6:0.58~walk; E08@0.62,0.4:0.32~walk; E24@0.85,0.4:0.32~spin; E25@0.62,0.76:0.32; xmark; note:"The minimum"@0.66,0.12
+In 2024, about fifteen percent of regular cardholders did, the highest since at least 2015. || title:"The Minimum Payment"; C28@0.80,0.6:0.58~l; H17@0.38,0.4:0.32:"15%"; note:"highest since 2015"@0.66,0.12
+[calm] Maya decides to pay a bit more than the minimum. || title:"The Minimum Payment"; E24@0.5,0.6:0.76
+But one busy month, she forgets the due date entirely. || title:"The Minimum Payment"; E25@0.5,0.6:0.76
 
 # ---------- CHAPTER 5: The Fees ----------
 || title:"The Fees"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] The next morning, there is a new line on her account. || title:"The Fees"; E08@0.62,0.4:0.32; H16@0.85,0.4:0.32:"LATE FEE"~drop
+[calm] The next morning, there is a new line on her account. || title:"The Fees"; H16@0.5,0.6:0.76:"LATE FEE"
 A late fee. || title:"The Fees"; E08@0.62,0.4:0.32; H16@0.85,0.4:0.32:"LATE FEE"~drop; C12@0.2,0.6:0.58~r
 For years, || title:"The Fees"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB press release, 5 March 2024" hl=0.124,0.361,0.626,0.466+0.8; H04@0.9,1.0:0.3:bottom
 a typical late fee at big card companies was about thirty-two dollars. || title:"The Fees"; H17@0.62,0.4:0.32:"$32"~drop; D18@0.85,0.4:0.32; A27@0.2,0.6:0.58~l
 In 2024, the government's consumer bureau wrote a rule to cut that to eight dollars for the largest banks. || title:"The Fees"; G09@0.62,0.4:0.32; C05@0.2,0.6:0.58~walk; note:"$32"@0.66,0.12; note:"$8"@0.5,0.92; A34@0.4,0.64:0.46~l
 But bank groups sued. || title:"The Fees"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: ABA Banking Journal, 15 April 2025" hl=0.134,0.372,0.623,0.489+0.8; H04@0.9,1.0:0.3:bottom
-In April 2025, a federal court in Texas threw the rule out, and the bureau itself agreed it should go. || title:"The Fees"; E14@0.62,0.4:0.32~l; C01@0.2,0.6:0.58~walk; C02@0.4,0.64:0.46~walk; H18@0.85,0.4:0.32:"VACATED"~drop; note:"$8"@0.66,0.12; note:"$32"@0.5,0.92
-And remember, a late payment can also hurt your credit score, which can make the next loan more expensive too. || title:"The Fees"; G23@0.62,0.4:0.32~r; C12@0.2,0.6:0.58
+In April 2025, a federal court in Texas threw the rule out, and the bureau itself agreed it should go. || title:"The Fees"; E14@0.38,0.4:0.32~r; C01@0.80,0.6:0.58~walk; C02@0.60,0.64:0.46~walk; H18@0.15,0.4:0.32:"VACATED"~drop; note:"$8"@0.66,0.12; note:"$32"@0.5,0.92
+And remember, a late payment can also hurt your credit score, which can make the next loan more expensive too. || title:"The Fees"; G23@0.5,0.6:0.76
 So the fees stayed. || title:"The Fees"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
 In 2024, cardholders paid about thirty-one billion dollars in fees, and seventeen billion of that was late fees alone. || title:"The Fees"; C12@0.2,0.6:0.58~none; E04@0.62,0.4:0.32; note:"fees $31.3B"@0.66,0.12; note:"late fees $17B"@0.5,0.92; D15@0.85,0.4:0.32
-And here is the quiet part. || title:"The Fees"; C28@0.2,0.6:0.58~walk
-Late fees do not fall on everyone equally. || title:"The Fees"; C28@0.2,0.6:0.58~walk; E22@0.62,0.4:0.32~drop
-People with the best credit scores hold fifty-nine percent of card accounts, but pay less than eight percent of the late fees. || title:"The Fees"; C28@0.2,0.6:0.58~none; E27@0.62,0.4:0.32; H17@0.85,0.4:0.32:"59% OF ACCOUNTS"; note:"7.8% of late fees"@0.66,0.12
+And here is the quiet part. || title:"The Fees"; C28@0.80,0.6:0.58~walk
+Late fees do not fall on everyone equally. || title:"The Fees"; C28@0.80,0.6:0.58~walk; E22@0.38,0.4:0.32~drop
+People with the best credit scores hold fifty-nine percent of card accounts, but pay less than eight percent of the late fees. || title:"The Fees"; C28@0.80,0.6:0.58; E27@0.38,0.4:0.32; H17@0.15,0.4:0.32:"59% OF ACCOUNTS"; note:"7.8% of late fees"@0.66,0.12
 People with the lowest scores hold about fourteen percent of accounts, || title:"The Fees"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
 and pay forty percent of the late fees. || title:"The Fees"; C10@0.2,0.6:0.58; H17@0.62,0.4:0.32:"14% OF ACCOUNTS"; E02@0.85,0.4:0.32~drop; note:"40% of late fees"@0.66,0.12
 So the same card can be a great deal for one person and an expensive habit for another. || title:"The Fees"; D18@0.62,0.4:0.32; H16@0.85,0.4:0.32:"GREAT DEAL"
-It all depends on how they pay the bill. || title:"The Fees"; D18@0.62,0.4:0.32; H16@0.85,0.4:0.32:"GREAT DEAL"; note:"EXPENSIVE"@0.66,0.12; A14@0.2,0.6:0.58
-[calm] Which brings us back to Maya's free flight. || title:"The Fees"; A14@0.2,0.6:0.58~none; E42@0.62,0.4:0.32~r
-Because now we can finally see who pays for it. || title:"The Fees"; A14@0.2,0.6:0.58~none; E42@0.62,0.4:0.32~r; note:"The fees"@0.66,0.12
+It all depends on how they pay the bill. || title:"The Fees"; D18@0.38,0.4:0.32; H16@0.15,0.4:0.32:"GREAT DEAL"; note:"EXPENSIVE"@0.66,0.12; A14@0.80,0.6:0.58
+[calm] Which brings us back to Maya's free flight. || title:"The Fees"; A14@0.80,0.6:0.58; E42@0.38,0.4:0.32~l
+Because now we can finally see who pays for it. || title:"The Fees"; A14@0.80,0.6:0.58; E42@0.38,0.4:0.32~l; note:"The fees"@0.66,0.12
 
 # ---------- CHAPTER 6: Who Pays for the Rewards ----------
 || title:"Who Pays for the Rewards"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Card companies make money in three main ways: the swipe toll, interest, and fees. || title:"Who Pays for the Rewards"; A15@0.2,0.6:0.58; note:"interest"@0.5,0.92
-The rewards are paid out of that pile. || title:"Who Pays for the Rewards"; A15@0.2,0.6:0.58; note:"interest"@0.5,0.92; note:"fees"@0.66,0.12; E21@0.62,0.4:0.32~drop; E42@0.85,0.4:0.32
+The rewards are paid out of that pile. || title:"Who Pays for the Rewards"; E42@0.5,0.6:0.76
 Now think about two kinds of people. || title:"Who Pays for the Rewards"; C11@0.2,0.6:0.58~l
 Some pay the full bill every month. || title:"Who Pays for the Rewards"; C11@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~l
 Banks call them transactors. || title:"Who Pays for the Rewards"; C11@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~l; note:"transactor"@0.66,0.12
 Others carry a balance from month to month. || title:"Who Pays for the Rewards"; C10@0.2,0.6:0.58~r; D28@0.62,0.4:0.32~r
 Banks call them revolvers. || title:"Who Pays for the Rewards"; C10@0.2,0.6:0.58~r; D28@0.62,0.4:0.32~r; note:"revolver"@0.66,0.12
-A transactor pays no interest, but still earns the points. || title:"Who Pays for the Rewards"; C10@0.2,0.6:0.58~none; E42@0.62,0.4:0.32
-The bank still collects the swipe toll from the shop. || title:"Who Pays for the Rewards"; C10@0.2,0.6:0.58~none; E42@0.62,0.4:0.32; E28@0.85,0.4:0.32; H18@0.62,0.76:0.32:"RESTAURANT"; D15@0.85,0.76:0.32
-A revolver earns the same points, but often pays far more in interest than the points are worth. || title:"Who Pays for the Rewards"; A32@0.2,0.6:0.58~walk
-So in a way, the people who carry balances help keep the reward machine running. || title:"Who Pays for the Rewards"; A32@0.2,0.6:0.58~none; E04@0.62,0.4:0.32~spin
+A transactor pays no interest, but still earns the points. || title:"Who Pays for the Rewards"; C10@0.80,0.6:0.58; E42@0.38,0.4:0.32
+The bank still collects the swipe toll from the shop. || title:"Who Pays for the Rewards"; C10@0.80,0.6:0.58; E42@0.38,0.4:0.32; E28@0.15,0.4:0.32; H18@0.38,0.76:0.32:"RESTAURANT"; D15@0.15,0.76:0.32
+A revolver earns the same points, but often pays far more in interest than the points are worth. || title:"Who Pays for the Rewards"; A32@0.80,0.6:0.58~walk
+So in a way, the people who carry balances help keep the reward machine running. || title:"Who Pays for the Rewards"; E04@0.5,0.6:0.76
 The bank can be generous with points because it earns so much on interest. || title:"Who Pays for the Rewards"; A32@0.2,0.6:0.58~none; E04@0.62,0.4:0.32~spin; E42@0.85,0.4:0.32~pop
 And there is a third person in this story, one who never even uses a credit card. || title:"Who Pays for the Rewards"; C13@0.2,0.6:0.58~l; E01@0.62,0.4:0.32~l; E48@0.85,0.4:0.32
-Remember the restaurant building the toll into its menu prices? || title:"Who Pays for the Rewards"; C13@0.2,0.6:0.58~none
-The cash customer pays those higher prices too, but earns no points at all. || title:"Who Pays for the Rewards"; C13@0.2,0.6:0.58~none; note:"RESTAURANT"@0.66,0.12
+Remember the restaurant building the toll into its menu prices? || title:"Who Pays for the Rewards"; C13@0.80,0.6:0.58
+The cash customer pays those higher prices too, but earns no points at all. || title:"Who Pays for the Rewards"; C13@0.80,0.6:0.58; note:"RESTAURANT"@0.66,0.12
 Economists at the Boston Fed measured this. || title:"Who Pays for the Rewards"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve Bank of Boston, Who Gains and Who Loses from Credit Card Payments? (2010)" hl=0.195,0.497,0.805,0.777+0.8; H04@0.9,1.0:0.3:bottom
-They estimated that each household paying cash sends about one hundred fifty dollars a year to card users, through higher prices. || title:"Who Pays for the Rewards"; C13@0.2,0.6:0.58~none; G10@0.62,0.4:0.32; E12@0.85,0.4:0.32; E35@0.62,0.76:0.32; note:"$149 a year"@0.66,0.12
+They estimated that each household paying cash sends about one hundred fifty dollars a year to card users, through higher prices. || title:"Who Pays for the Rewards"; E35@0.5,0.6:0.76
 They also found it runs uphill. || title:"Who Pays for the Rewards"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve Bank of Boston, discussion paper 10-03 abstract" hl=0.195,0.497,0.805,0.777+0.8; H04@0.9,1.0:0.3:bottom
 The lowest-income households lose a little, and the highest-income households gain the most. || title:"Who Pays for the Rewards"; E29@0.62,0.4:0.32~drop; C21@0.2,0.6:0.58
-[calm] So Maya's free flight is paid for by many hands. || title:"Who Pays for the Rewards"; E42@0.62,0.4:0.32; C28@0.2,0.6:0.58
-Shops, cash payers, and, in the months she carried that balance, Maya herself. || title:"Who Pays for the Rewards"; E42@0.62,0.4:0.32; C28@0.2,0.6:0.58; C10@0.4,0.64:0.46; note:"Who pays"@0.66,0.12
-But Maya is just one person. || title:"Who Pays for the Rewards"; C28@0.2,0.6:0.58~none
-What happens when you add up the whole country? || title:"Who Pays for the Rewards"; C28@0.2,0.6:0.58~none; G13@0.62,0.4:0.32
+[calm] So Maya's free flight is paid for by many hands. || title:"Who Pays for the Rewards"; E42@0.38,0.4:0.32; C28@0.80,0.6:0.58
+Shops, cash payers, and, in the months she carried that balance, Maya herself. || title:"Who Pays for the Rewards"; E42@0.38,0.4:0.32; C28@0.80,0.6:0.58; C10@0.60,0.64:0.46; note:"Who pays"@0.66,0.12
+But Maya is just one person. || title:"Who Pays for the Rewards"; C28@0.80,0.6:0.58
+What happens when you add up the whole country? || title:"Who Pays for the Rewards"; G13@0.5,0.6:0.76
 
 # ---------- CHAPTER 7: The Whole Country ----------
 || title:"The Whole Country"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] As of the summer of 2026, || title:"The Whole Country"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: New York Fed, Household Debt and Credit press release (11 Aug 2026)" hl=0.246,0.602,0.554,0.742+0.8; H04@0.9,1.0:0.3:bottom
-Americans owed about one point two six trillion dollars on their credit cards. || title:"The Whole Country"; A15@0.2,0.6:0.58; G13@0.62,0.4:0.32; D28@0.85,0.4:0.32; H17@0.62,0.76:0.32:"$1.26 TRILLION"~drop; note:"June 2026"@0.66,0.12
+Americans owed about one point two six trillion dollars on their credit cards. || title:"The Whole Country"; H17@0.5,0.6:0.76:"$1.26 TRILLION"
 Rates have climbed too. || title:"The Whole Country"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB credit card market report 2025 (PDF)"; H04@0.9,1.0:0.3:bottom
 A new card opened in 2024 charged about twenty-seven and a half percent on average. || title:"The Whole Country"; A15@0.2,0.6:0.58; D13@0.62,0.4:0.32
 Ten years earlier, it was under twenty. || title:"The Whole Country"; A15@0.2,0.6:0.58; D13@0.62,0.4:0.32; note:"19.8% (2014)"@0.66,0.12; note:"27.5% (2024)"@0.5,0.92; G05@0.85,0.4:0.32
-That is a lot of debt carried at a high price. || title:"The Whole Country"; A15@0.2,0.6:0.58; D28@0.62,0.4:0.32
-Remember, in 2024 the interest alone came to about one hundred sixty billion dollars. || title:"The Whole Country"; A15@0.2,0.6:0.58; D28@0.62,0.4:0.32; E23@0.85,0.4:0.32
-That is more than a hundred billion dollars a year, flowing from cardholders to banks. || title:"The Whole Country"; A15@0.2,0.6:0.58; D28@0.62,0.4:0.32; E23@0.85,0.4:0.32; E03@0.62,0.76:0.32~drop; D15@0.85,0.76:0.32~drop
+That is a lot of debt carried at a high price. || title:"The Whole Country"; A15@0.80,0.6:0.58; D28@0.38,0.4:0.32
+Remember, in 2024 the interest alone came to about one hundred sixty billion dollars. || title:"The Whole Country"; A15@0.80,0.6:0.58; D28@0.38,0.4:0.32; E23@0.15,0.4:0.32
+That is more than a hundred billion dollars a year, flowing from cardholders to banks. || title:"The Whole Country"; D15@0.5,0.6:0.76
 In January 2026, the President called for a one-year cap of ten percent on card interest. || title:"The Whole Country"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: NPR, Trump calls for a 10% cap on credit card interest rates (12 Jan 2026)"; H04@0.9,1.0:0.3:bottom
 Experts noted that a real cap would need Congress. || title:"The Whole Country"; C05@0.2,0.6:0.58~r; E51@0.62,0.4:0.32; note:"10% CAP"@0.66,0.12; G09@0.85,0.4:0.32; E48@0.62,0.76:0.32
 The Fed's own numbers tell us what happened next. || title:"The Whole Country"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve G.19 (7 Oct 2026)"; H04@0.9,1.0:0.3:bottom
-From April to June 2026, the average rate on cards charging interest was still about twenty-two percent. || title:"The Whole Country"; E13@0.62,0.4:0.32; note:"10%"@0.66,0.12; note:"22.15%"@0.5,0.92; A14@0.2,0.6:0.58~walk
-Card companies argue that a cap would hurt the very people it is meant to help. || title:"The Whole Country"; C01@0.2,0.6:0.58~l; E51@0.62,0.4:0.32~l
-They say banks would simply stop lending to anyone with a weaker credit score. || title:"The Whole Country"; C01@0.2,0.6:0.58~l; E51@0.62,0.4:0.32~l; note:"LESS CREDIT"@0.66,0.12; C10@0.4,0.64:0.46; D15@0.85,0.4:0.32
-And behind that giant national number are millions of people like Maya. || title:"The Whole Country"; G13@0.62,0.4:0.32; C10@0.4,0.64:0.46~pop
+From April to June 2026, the average rate on cards charging interest was still about twenty-two percent. || title:"The Whole Country"; E13@0.38,0.4:0.32; note:"10%"@0.66,0.12; note:"22.15%"@0.5,0.92; A14@0.80,0.6:0.58~walk
+Card companies argue that a cap would hurt the very people it is meant to help. || title:"The Whole Country"; C01@0.80,0.6:0.58~r; E51@0.38,0.4:0.32~r
+They say banks would simply stop lending to anyone with a weaker credit score. || title:"The Whole Country"; D15@0.5,0.6:0.76
+And behind that giant national number are millions of people like Maya. || title:"The Whole Country"; G13@0.5,0.6:0.76
 Each one started with one swipe, one dinner, one small balance they meant to clear next month. || title:"The Whole Country"; G13@0.62,0.4:0.32; C10@0.4,0.64:0.46~pop; C28@0.2,0.6:0.58~pop; D18@0.85,0.4:0.32
 Most of them never planned to borrow at all. || title:"The Whole Country"; G13@0.62,0.4:0.32; C10@0.4,0.64:0.46~pop; C28@0.2,0.6:0.58~pop; D18@0.85,0.4:0.32; H17@0.62,0.76:0.32:"NEXT MONTH"~pop; note:"next year"@0.66,0.12
-[calm] So the system is not changing soon. || title:"The Whole Country"; A01@0.2,0.6:0.58~walk
-The good news is that you do not need it to change. || title:"The Whole Country"; A01@0.2,0.6:0.58~walk; D18@0.62,0.4:0.32; E17@0.85,0.4:0.32
-You just need to know how it works. || title:"The Whole Country"; A01@0.2,0.6:0.58~walk; D18@0.62,0.4:0.32; E17@0.85,0.4:0.32; note:"The whole country"@0.66,0.12
+[calm] So the system is not changing soon. || title:"The Whole Country"; A01@0.80,0.6:0.58~walk
+The good news is that you do not need it to change. || title:"The Whole Country"; A01@0.80,0.6:0.58~walk; D18@0.38,0.4:0.32; E17@0.15,0.4:0.32
+You just need to know how it works. || title:"The Whole Country"; E17@0.5,0.6:0.76
 
 # ---------- CHAPTER 8: Using a Card Without Losing ----------
 || title:"Using a Card Without Losing"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Here is how Maya turns things around. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58; E15@0.62,0.4:0.32
-None of this is financial advice, just how the machine works. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58; E15@0.62,0.4:0.32; E11@0.85,0.4:0.32~drop
+[calm] Here is how Maya turns things around. || title:"Using a Card Without Losing"; E15@0.5,0.6:0.76
+None of this is financial advice, just how the machine works. || title:"Using a Card Without Losing"; E11@0.5,0.6:0.76
 First, she pays the full statement balance every month. || title:"Using a Card Without Losing"; doc:s23.png@0.44,0.54 w=0.72 h=0.76 src="Source: CFPB, What is a grace period for a credit card?"; H04@0.9,1.0:0.3:bottom
 That keeps her grace period, so purchases cost no interest at all. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"PAY IN FULL"@0.66,0.12; E25@0.62,0.4:0.32; G05@0.85,0.4:0.32~walk
 Second, she turns on autopay for at least the minimum. || title:"Using a Card Without Losing"; note:"AUTOPAY"@0.66,0.12; E08@0.62,0.4:0.32
-So a busy week can never turn into a late fee again. || title:"Using a Card Without Losing"; note:"AUTOPAY"@0.66,0.12; E08@0.62,0.4:0.32; E24@0.85,0.4:0.32~spin; C11@0.2,0.6:0.58
-Third, while she still has the car debt, she pays a fixed amount far above the minimum. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"FIXED $200"@0.66,0.12
-She uses the three-year box on her statement as her target. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"FIXED $200"@0.66,0.12; D28@0.62,0.4:0.32; E09@0.85,0.4:0.32
+So a busy week can never turn into a late fee again. || title:"Using a Card Without Losing"; note:"AUTOPAY"@0.66,0.12; E08@0.38,0.4:0.32; E24@0.15,0.4:0.32~spin; C11@0.80,0.6:0.58
+Third, while she still has the car debt, she pays a fixed amount far above the minimum. || title:"Using a Card Without Losing"; C11@0.80,0.6:0.58; note:"FIXED $200"@0.66,0.12
+She uses the three-year box on her statement as her target. || title:"Using a Card Without Losing"; E09@0.5,0.6:0.76
 And fourth, she stops chasing points. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"POINTS ARE NOT FREE"@0.66,0.12
 A reward is only free if you never pay interest to earn it. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"POINTS ARE NOT FREE"@0.66,0.12; E42@0.62,0.4:0.32; E22@0.85,0.4:0.32
 She also keeps an emergency fund, even a small one, in her savings account. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"EMERGENCY FUND"@0.66,0.12
-So the next car repair comes out of savings, not out of a twenty-two percent loan. || title:"Using a Card Without Losing"; C11@0.2,0.6:0.58~none; note:"EMERGENCY FUND"@0.66,0.12; E21@0.62,0.4:0.32~l; E01@0.85,0.4:0.32~drop; E41@0.62,0.76:0.32
-Three years later, the repair is paid off. || title:"Using a Card Without Losing"; E25@0.62,0.4:0.32; D28@0.85,0.4:0.32~pop
-And this time, her free flight really is free. || title:"Using a Card Without Losing"; E25@0.62,0.4:0.32; D28@0.85,0.4:0.32~pop; C11@0.2,0.6:0.58~walk
-Mostly. || title:"Using a Card Without Losing"; E25@0.62,0.4:0.32; D28@0.85,0.4:0.32~pop; C11@0.2,0.6:0.58~walk; E42@0.62,0.76:0.32~walk; A23@0.4,0.64:0.46~r
-And she never forgets the lesson from that one dinner. || title:"Using a Card Without Losing"; H17@0.62,0.4:0.32:"$50"~float
-Every swipe has a price. || title:"Using a Card Without Losing"; H17@0.62,0.4:0.32:"$50"~float; C11@0.2,0.6:0.58
-The only question is who pays it. || title:"Using a Card Without Losing"; H17@0.62,0.4:0.32:"$50"~float; C11@0.2,0.6:0.58; D18@0.85,0.4:0.32
+So the next car repair comes out of savings, not out of a twenty-two percent loan. || title:"Using a Card Without Losing"; C11@0.80,0.6:0.58; note:"EMERGENCY FUND"@0.66,0.12; E21@0.38,0.4:0.32~r; E01@0.15,0.4:0.32~drop; E41@0.38,0.76:0.32
+Three years later, the repair is paid off. || title:"Using a Card Without Losing"; E25@0.38,0.4:0.32; D28@0.15,0.4:0.32~pop
+And this time, her free flight really is free. || title:"Using a Card Without Losing"; E25@0.38,0.4:0.32; D28@0.15,0.4:0.32~pop; C11@0.80,0.6:0.58~walk
+Mostly. || title:"Using a Card Without Losing"; E42@0.5,0.6:0.76
+And she never forgets the lesson from that one dinner. || title:"Using a Card Without Losing"; H17@0.5,0.6:0.76:"$50"
+Every swipe has a price. || title:"Using a Card Without Losing"; H17@0.5,0.6:0.76:"$50"
+The only question is who pays it. || title:"Using a Card Without Losing"; D18@0.5,0.6:0.76
 [calm] A credit card is a tool. || title:"Using a Card Without Losing"; E22@0.62,0.4:0.32
 Used one way, it pays you. || title:"Using a Card Without Losing"; E22@0.62,0.4:0.32; D18@0.85,0.4:0.32; D15@0.62,0.76:0.32
 Used the other way, it pays the bank, a little every single month. || title:"Using a Card Without Losing"; E22@0.62,0.4:0.32; D18@0.85,0.4:0.32; D15@0.62,0.76:0.32; A01@0.2,0.6:0.58
-In the next video, || title:"Using a Card Without Losing"; C21@0.2,0.6:0.58~r
-we follow a very different kind of borrower: billionaires who borrow against their stock, and how that helps them pay less tax than you. || title:"Using a Card Without Losing"; C21@0.2,0.6:0.58~r; E05@0.62,0.4:0.32~r
-Legally. || title:"Using a Card Without Losing"; C21@0.2,0.6:0.58~r; E05@0.62,0.4:0.32~r; D26@0.85,0.4:0.32
+In the next video, || title:"Using a Card Without Losing"; C21@0.80,0.6:0.58~l
+we follow a very different kind of borrower: billionaires who borrow against their stock, and how that helps them pay less tax than you. || title:"Using a Card Without Losing"; C21@0.80,0.6:0.58~l; E05@0.38,0.4:0.32~l
+Legally. || title:"Using a Card Without Losing"; D26@0.5,0.6:0.76
 
 || endscreen; hold:10

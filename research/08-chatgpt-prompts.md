@@ -26,6 +26,8 @@ STORY RULES
 - ONE thread from the first line to the last: follow one person, one company, one dollar or one question, and come back to it in every chapter.
 - No shock tricks ("you won't believe"), no random jokes, no fake drama, no topic jumps.
 - Start inside the story in the first 10 seconds. No "hey guys, welcome back".
+- HOOK (first 60 seconds): open with ONE striking real chart or number comparison (e.g. "these 3 companies are worth more than every tech IPO since 1980 combined"), show it with a SCREEN cue, then ask the simple question the video answers, then say why the real answer is simpler or different than people think.
+- Keep sentences short (about 10-12 words) so the voice can be read at about 175 words per minute.
 - Every chapter ends with a bridge sentence that leads into the next chapter. If you open a question, answer it later.
 - Explain every money word the first time, with a one-sentence everyday example.
 - End with a calm takeaway and one line that leads into the next video.

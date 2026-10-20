@@ -100,6 +100,29 @@ def place(items):
     return [e for e in out if keep[spot(e)] is e]
 
 
+SCENE_WORDS = 26           # new scene about every 8-9 s of speech (the reference cuts about every 8 s)
+
+
+def scene(el, v):
+    """Same items, new look: v=0 normal, 1 mirrored left-right (everything enters again), 2 close-up of the newest prop."""
+    if v == 1:
+        out = []
+        for e in el:
+            m = re.search(r"@([\d.]+),([\d.]+)", e)
+            if m and not e.startswith("note") and float(m.group(2)) >= 0.3:    # keep notes and top items clear of the title
+                e = e.replace(m.group(0), f"@{1 - float(m.group(1)):.2f},{m.group(2)}")
+            e = e.replace("~none", "").replace("~l", "~R").replace("~r", "~l").replace("~R", "~r")
+            out.append(e)
+        return out
+    if v == 2:
+        props = [e for e in el if "@" in e and not e.startswith("note") and not PEOPLE.match(e.split("@")[0])]
+        if props:
+            code = props[-1].split("@")[0]
+            word = re.search(r':"[^"]*"', props[-1].split("@")[1])
+            return [f"{code}@0.5,0.6:0.76" + (word.group(0) if word else "")]
+    return el
+
+
 def doc_elem(c, meta):
     m = meta.get(c)
     if not m or not m.get("ok"):
@@ -117,7 +140,7 @@ def main(script, vdir):
     for s in shots:
         by_line.setdefault(s["line"], []).append(s)
     meta = {id(s): s for s in shots}
-    lines, chap, title, missing, last_person = [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
+    spoken, lines, chap, title, missing, last_person = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
     for i, ln in enumerate(d["lines"]):
         if ln["chap"] != chap:
             chap, last_person = ln["chap"], ""
@@ -149,8 +172,10 @@ def main(script, vdir):
             else:
                 k = j - len(docs)
                 n = len(items) if k == rest - 1 else round(len(items) * (k + 1) / rest)
-                el = [f'title:"{clean(title)}"'] + (items[:max(n, 1)] if items else ["A01@0.5,0.58:0.6"])
+                el = scene(items[:max(n, 1)] if items else ["A01@0.5,0.58:0.6"], (spoken // SCENE_WORDS) % 3)
+                el = [f'title:"{clean(title)}"'] + el
             lines.append(f"{words} || " + "; ".join(el))
+            spoken += len(s.split())
     lines += ["", "|| endscreen; hold:10"]
     out = os.path.join(vdir, "01_script")
     os.makedirs(out, exist_ok=True)
