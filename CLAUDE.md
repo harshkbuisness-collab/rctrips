@@ -12,6 +12,7 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 
 ## Who does what
 - **Owner:** writes scripts with ChatGPT (`research/08-chatgpt-prompts.md`), makes the voice, and sends all feedback in one list.
+- **Channel voice (owner, 21 Oct 2026):** Kokoro "Heart" (af_heart) in Voice Studio, free and offline. Speed about 1.0-1.05.
 - **Claude:** takes the screenshots, checks the script format, builds the sheet (`python3 tools/sheet/build_sheet.py`), and makes the video.
 - If a step can be done without Claude, tell the owner in one line instead of doing it.
 
