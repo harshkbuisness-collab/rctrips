@@ -61,7 +61,7 @@ class ProviderError(Exception):
 
 # ---------------------------------------------------------------------------------------------
 class Edge:
-    id, name, ext, max_chars, parallel = "edge", "Microsoft Edge voices (free, no key)", "mp3", 800, 12
+    id, name, ext, max_chars, parallel = "edge", "Microsoft Edge voices (free, no key)", "mp3", 800, 6
     note = "Natural Microsoft neural voices. Free, fast, needs internet."
     _cache = None
 
@@ -91,9 +91,10 @@ class Edge:
             c = edge_tts.Communicate(text, voice, rate=rate, proxy=_proxy())
             await c.save(path)
         except edge_tts.exceptions.NoAudioReceived:
-            raise ProviderError(f"Edge returned no audio for voice '{voice}'. Check the voice name.")
+            # usually Edge being busy (too many requests at once), not a bad voice: the job retries it
+            raise RuntimeError(f"Edge sent no audio (busy) for voice '{voice}'")
         if not os.path.exists(path) or os.path.getsize(path) < 200:
-            raise ProviderError("Edge returned an empty file.")
+            raise RuntimeError("Edge returned an empty file")
 
 
 # ---------------------------------------------------------------------------------------------

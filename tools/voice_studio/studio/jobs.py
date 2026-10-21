@@ -2,9 +2,9 @@
 
 Speed tricks:
 - several scripts run at once (you choose how many), and inside each script several chunks run at once,
-  up to the provider's safe limit (Edge 12, OpenAI 4, ElevenLabs 3, local models 1);
+  up to the provider's safe limit (Edge 6, OpenAI 4, ElevenLabs 3, local models 1);
 - every chunk is cached by (provider, voice, speed, text): a retry or a re-run only makes what is missing;
-- no waiting between scripts; network errors are retried automatically (3 tries, short back-off).
+- no waiting between scripts; network errors are retried automatically (5 tries, growing back-off).
 """
 import asyncio, hashlib, os, re, shutil, subprocess, time, uuid, zipfile
 
@@ -37,7 +37,7 @@ async def synth_cached(pid, text, voice, speed, folder=CACHE):
         return path
     tmp = path + ".part." + p.ext
     last = None
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             async with _sem(pid):
                 await p.synth(text, voice, speed, tmp)
@@ -47,8 +47,8 @@ async def synth_cached(pid, text, voice, speed, folder=CACHE):
             raise                                   # a clear problem (bad key, bad voice): retrying won't help
         except Exception as e:                      # network hiccup: try again soon
             last = e
-            await asyncio.sleep(1.5 * (attempt + 1))
-    raise ProviderError(f"Failed after 3 tries: {type(last).__name__}: {str(last)[:160]}")
+            await asyncio.sleep(2 ** attempt)          # 1, 2, 4, 8, 16 s: gives a busy service time to recover
+    raise ProviderError(f"Failed after 5 tries: {type(last).__name__}: {str(last)[:160]}")
 
 
 def join_audio(files, out_path, fmt):
