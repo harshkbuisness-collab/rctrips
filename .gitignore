@@ -15,3 +15,4 @@ tools/voice_studio/kokoro/
 tools/voice_studio/venv/
 tools/voice_studio/**/__pycache__/
 voices/*.mp3
+videos/*/05_export/*_analysis/

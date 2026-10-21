@@ -180,4 +180,13 @@ def pick_and_run():
 
 
 if __name__ == "__main__":
-    pick_and_run()
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    try:
+        import tkinter  # noqa: F401  (the file-picker window)
+    except ImportError:
+        tkinter = None
+    if args and tkinter is None:                 # command line on a computer without windows (servers)
+        for a in args:
+            main(a, "--no-speech" not in sys.argv)
+    else:
+        pick_and_run()
