@@ -1,149 +1,210 @@
 # Day 03: The Real Wolf of Wall Street Was Worse
-TITLES: The Real Wolf of Wall Street Was Worse | The Real Wolf of Wall Street Was Worse | The Real Wolf of Wall Street Was Worse
-THUMBNAIL: THE REAL VICTIMS — narrator and the main financial object
-THREAD: one telephone call to a retail investor
+TITLES: The Real Wolf of Wall Street Was Worse | The Wolf of Wall Street: What the Movie Left Out | The Phone Call That Cost Carol Everything
+THUMBNAIL: THE MOVIE LIED — a smiling broker on the phone, a worried woman on the other end
+THREAD: Carol, a school nurse in Arizona, who gets one phone call from Stratton Oakmont in 1993
 
-## CHAPTER 1: Who Belfort was before Wall Street
-A judge ordered one stockbroker to pay back about one hundred ten million dollars to roughly fifteen hundred people. It started with a phone call like this. Your phone rings, and a man with a remarkably confident voice tells you he has found a stock Wall Street hasn't discovered yet. The company is small.
-> VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
-The share price is tiny. He says the opportunity won't last, and he makes the whole thing sound as if he's doing you a favor. By the time the call ends, you've sent money to someone you've never met.
-> VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-You believe you bought a piece of the future. The man on the other end believes he made his commission. And the person running the operation may already be planning how to get out before you realize what you've purchased.
-> VISUAL: A15_narrator_point_right slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "In March 1992, the SEC charged Stratton"
-That was the basic machinery behind one of Wall Street's most notorious fraud stories. Its central character, Jordan Belfort, is familiar to millions because of a movie. But movies have a problem when their main character is charming.
-> VISUAL: A18_narrator_present_right slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-If the villain makes people laugh, drives expensive cars, and gives memorable speeches, audiences can start cheering for him. The people who lost money become background characters. So let's tell the same kind of story from the other end of that phone call, where the financial damage actually happened.
-> VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
-Belfort didn't invent selling stocks, and he didn't invent the idea of selling dreams. Brokers have connected buyers and sellers for generations. A legitimate broker helps execute an investment transaction and is expected to follow rules about disclosure and customer treatment.
-> VISUAL: A01_narrator_neutral slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "Jordan Belfort"
-A dishonest broker can exploit exactly the same machinery. The customer cannot see what happens inside the trading desk. The share certificate, the account statement, and the company's glossy brochure can look official.
-> VISUAL: A06_narrator_thinking slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
+## CHAPTER 1: The Phone Call
+[calm] A judge once ordered a stockbroker to pay back about one hundred ten million dollars to roughly fifteen hundred people. It all started with phone calls like this one.
+> VISUAL: A01_narrator_neutral slides in from the left; E14_podium drops in; H17 price tag pops in "$110 MILLION"; C28_crowd_small pops in; E08_phone slides in from the right
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "Jordan Ross Belfort"
+It's nineteen ninety-three. Carol is a school nurse in Arizona. She's saved about twenty thousand dollars over fifteen years. One evening, her phone rings.
+> VISUAL: C09_worker_woman_neutral walks in from the left; E25_calendar pops in "1993"; E01_cash_stack drops in; E08_phone pops in; F01_bg_living_room
+The man on the line sounds warm and sure of himself. He says he works for a firm in New York, and he's found a small company that Wall Street hasn't noticed yet.
+> VISUAL: C02_banker_greedy slides in from the right; E08_phone pops in; E34_skyscraper drops in; E16_magnifying_glass pops in; E51_speech_bubble pops in
+He says the stock costs just a few dollars a share. He says it could double in weeks. And he says this chance won't last past Friday.
+> VISUAL: C02_banker_greedy stays; H17 price tag pops in "$4 a share"; D13_chart_arrow_up draws on; E24_clock drops in; "Friday!"
+Carol hesitates. Twenty thousand dollars is everything she has. But the man is patient. He tells her about other customers, regular people, who already doubled their money.
+> VISUAL: C10_worker_woman_stressed walks in from the left; E01_cash_stack pops in; E51_speech_bubble pops in; C28_crowd_small drops in; E45_arrow_up_big pops in
+Carol has never bought a stock before. But he's friendly. He knows her name. He makes her feel smart for listening. By the end of the call, she's agreed to buy.
+> VISUAL: C11_worker_woman_happy walks in from the left; E51_speech_bubble pops in; E01_cash_stack slides in from the right; red arrow from Carol to the phone
+The man on the phone works for a firm called Stratton Oakmont. And the man who built it would later become famous as the Wolf of Wall Street.
+> VISUAL: C02_banker_greedy slides in from the right; E34_skyscraper drops in; H18 sign pops in "STRATTON OAKMONT"; A05_narrator_suspicious slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight "Stratton Oakmont, Inc."
+You may have seen the movie. The parties, the yachts, the money flying around. It's fun to watch. But by the end of this video, you'll see why the real story was much worse, and why Carol never saw most of her money again.
+> VISUAL: A04_narrator_smug slides in from the left; E13_tv_screen drops in; E03_money_rain pours down; C10_worker_woman_stressed walks in from the right
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film) | highlight "The Wolf of Wall Street"
+To understand how that one phone call worked, we need to go back to the man behind it, and to the day Wall Street crashed.
+> VISUAL: A33_narrator_walking walks in from the left; E23_hourglass pops in; D14_chart_arrow_down draws on; red arrow
 
-## CHAPTER 2: Black Monday 1987 and penny stocks
-The one thing the customer is asked to provide immediately is trust. In the late nineteen eighties, penny stocks offered a particularly useful setting for dishonest salespeople. These were shares in small companies, often thinly traded and difficult for ordinary people to research.
-> VISUAL: A15_narrator_point_right slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "fraudulent sales practices"
-If a large company's stock trades every second, a buyer can usually compare many competing prices. If a tiny stock barely trades, the broker may have much more influence over what a customer hears and the price being quoted. A salesperson could make a small company sound like the next great American success story, while the investor had very little independent information with which to challenge the claim.
-> VISUAL: A18_narrator_present_right slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-At Stratton Oakmont, the firm Belfort helped build, the phone became the engine. Picture a crowded room of brokers making call after call. They weren't building a relationship with a family's long-term savings.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-They were pushing hard, directing conversations, overcoming objections, and aiming to close the sale before the person on the other end had time to reconsider. The room rewarded the ability to persuade. That skill can be valuable when used honestly.
-> VISUAL: A01_narrator_neutral slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "market price of the securities"
-In the wrong system, it becomes a way to move enormous risks onto people who barely understand them. Here's how a classic pump-and-dump scheme works. Imagine a company with shares that rarely change hands.
-> VISUAL: A06_narrator_thinking slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-A promoter accumulates an interest in those shares, directly or through arrangements designed to benefit insiders. Then a sales machine begins telling customers how exciting the company is. As buyers arrive, the price can rise.
-> VISUAL: A15_narrator_point_right slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
-That rise becomes the next sales pitch. Look, the broker says, the market agrees with us. More customers buy.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
+## CHAPTER 2: The Day the Market Fell
+[calm] Jordan Belfort grew up in Queens, New York, in the nineteen sixties and seventies. His parents were both accountants. Money was always on his mind.
+> VISUAL: H13_bowtie_man_smug walks in from the left; G13_map_usa_grey drops in "New York"; D27_calculator_shocked pops in; E01_cash_stack pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "Early life"
+As a teenager, he sold Italian ice on the beach and made thousands of dollars in one summer. He learned early that he was very good at one thing. Selling.
+> VISUAL: H13_bowtie_man_smug stays; E40_coffee_cup pops in; E02_money_bag drops in; H18 sign pops in "SELLING"; A21_narrator_thumbs_up slides in from the right
+In his twenties, he started a meat and seafood business. It grew fast, then went bankrupt. He was broke, and looking for a new way to make money.
+> VISUAL: H14_bowtie_man_worried walks in from the left; H20_box_open pops in; D14_chart_arrow_down draws on; A32_narrator_empty_pockets slides in from the right
+He even tried dental school for a short time. He quit on the very first day, after the dean told the class that dentists don't get rich.
+> VISUAL: H13_bowtie_man_smug walks in from the left; F06_bg_classroom; E14_podium drops in; E20_trash_can pops in; A14_narrator_shrug slides in from the right
+In nineteen eighty-seven, he got a job as a trainee at a Wall Street firm called L. F. Rothschild. He studied hard and earned his license to sell stocks.
+> VISUAL: H13_bowtie_man_smug walks in from the left; E34_skyscraper drops in; H22_book_open pops in; E28_trophy pops in; E25_calendar pops in "1987"
+His first day as a licensed broker was a Monday. October nineteenth, nineteen eighty-seven.
+> VISUAL: E25_calendar drops in "Oct 19, 1987"; G11_stock_exchange pops in; A08_narrator_shocked slides in from the left; E44_warning_sign pops in
+That day, the Dow Jones fell about twenty-two percent. It's still the biggest one-day percentage drop in its history. People called it Black Monday.
+> VISUAL: D14_chart_arrow_down draws on; G02_bear_angry walks in from the right; E47_explosion pops in; H18 sign pops in "BLACK MONDAY"; A45_narrator_head_shocked pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Black_Monday_(1987) | highlight "Black Monday"
+> SCREEN: Federal Reserve History | https://www.federalreservehistory.org/essays/stock-market-crash-of-1987 | highlight "Stock Market Crash of 1987"
+A few months later, Belfort's firm closed its doors. He was out of a job again. But he soon found a corner of the market most people ignored. Penny stocks.
+> VISUAL: E34_skyscraper pops in; E20_trash_can drops in; H14_bowtie_man_worried walks in from the left; B11_penny_tiny pops in; E16_magnifying_glass pops in
+The crash taught him something dangerous. Prices aren't always set by what a company is worth. Sometimes they're set by fear, and by excitement. And excitement can be sold.
+> VISUAL: A06_narrator_thinking slides in from the left; E52_thought_bubble pops in; G03_bull_vs_bear drops in; E17_light_bulb pops in
+Penny stocks are shares of tiny companies that cost very little, often under five dollars. They're risky, hard to check, and easy to push around.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; B11_penny_tiny drops in; H17 price tag pops in "under $5"; E44_warning_sign pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Penny_stock | highlight "penny stock"
+Big stock exchanges have strict rules about what companies must report. Many penny stocks traded outside those exchanges, where far less information was public.
+> VISUAL: G11_stock_exchange drops in; H28_paper_stack pops in; B11_penny_tiny slides in from the right; E16_magnifying_glass pops in; E48_question_marks pop in
+That meant a buyer like Carol had almost no way to check if a company was real, healthy, or worth anything at all. She had to trust the voice on the phone.
+> VISUAL: C09_worker_woman_neutral walks in from the left; E16_magnifying_glass pops in; E08_phone drops in; E48_question_marks pop in
+And the brokers who sold them could earn huge commissions, much bigger than on normal stocks. Belfort saw a gold mine. He just needed an army of salesmen.
+> VISUAL: C04_banker_money_bag walks in from the right; E05_gold_bars drops in; E04_coin_pile pops in; C28_crowd_small pops in; H13_bowtie_man_smug slides in from the left
 
-## CHAPTER 3: Stratton Oakmont: the boiler room, the sales script
-And then the people who were promoting the stock sell into that demand. The buyers are left holding shares without the promised support, and the price can collapse. What makes this scheme powerful is that the price movement can look like evidence.
-> VISUAL: A38_narrator_teacher_pointer slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-A cautious investor might ask, why is the stock rising? The salesperson replies, because smart investors are discovering it. But perhaps the activity is being created by the same operation that is recommending the shares.
-> VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "In March 1992, the SEC charged Stratton"
-The apparent proof is part of the trap. And that is why a story about one dishonest broker is also a story about the difference between a market price and an honestly informed market. There's an important question behind the mechanics of these sales calls.
-> VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-Why would a broker spend so much energy pushing a stock to a stranger who had never asked to buy it? Consider the compensation. If the broker earns a large commission when a customer buys, the broker's immediate financial incentive may be separate from whether the investment performs well.
-> VISUAL: A15_narrator_point_right slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "Jordan Belfort"
-That's a conflict of interest. It doesn't automatically make every commission-based sale improper, but it means you should ask what the salesperson receives and whose interests guide the recommendation. In a boiler-room operation, that conflict could become the center of the entire business.
-> VISUAL: A18_narrator_present_right slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-People were trained to control conversations, overwhelm objections, and keep the customer's attention on potential gains rather than on risk. Put yourself back on that call. The salesperson knows you are busy.
-> VISUAL: A38_narrator_teacher_pointer slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "fraudulent sales practices"
-They try to make the decision feel urgent. If you ask about financial statements, they redirect to an exciting future project. If you say you need to speak with your partner, they suggest that waiting means losing the opportunity.
-> VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
+## CHAPTER 3: The Boiler Room
+[calm] Around nineteen eighty-nine, Belfort and his partner Danny Porush took control of a small firm on Long Island. They named it Stratton Oakmont, because it sounded like old money.
+> VISUAL: H13_bowtie_man_smug walks in from the left; H09_guy_curly_neutral walks in from the right; E34_skyscraper drops in; E27_crown pops in; H18 sign pops in "STRATTON OAKMONT"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight "Long Island"
+Inside, it didn't look like old money at all. It was a huge room full of young men with phones, shouting, cheering, and calling strangers all day long.
+> VISUAL: F05_bg_trading_floor; C28_crowd_small drops in; E08_phone pops in; E08_phone pops in; E49_exclamation_marks pop in
+This kind of office has a name. A boiler room. A place where salespeople make high-pressure calls to sell investments that are often bad or worthless.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; E19_fire drops in; E08_phone pops in; H18 sign pops in "BOILER ROOM"; E44_warning_sign pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Boiler_room_(business) | highlight "boiler room"
+Many of the brokers were barely twenty. Some had no finance background at all. What they did have was a script.
+> VISUAL: H09_guy_curly_neutral walks in from the left; H10_guy_curly_talking pops in; H15_paper_note_blank drops in; E10_chalkboard pops in
+Belfort trained them himself. He gave fiery speeches on the sales floor, telling them they could get rich if they just kept dialing.
+> VISUAL: A40_narrator_microphone slides in from the left; E14_podium drops in; C28_crowd_small pops in; E03_money_rain pours down; E08_phone pops in
+New brokers who hit their targets got big bonuses, nice cars, and fancy apartments. Brokers who didn't were shouted at, or fired. The pressure never stopped.
+> VISUAL: E41_car drops in; H23_apartment_building pops in; E28_trophy pops in; A12_narrator_angry slides in from the left; E50_sweat_drops pop in
+The script told them exactly what to say. How to sound like an expert. How to answer every worry. And how to never, ever take no for an answer.
+> VISUAL: H15_paper_note_blank pops in "THE SCRIPT"; H10_guy_curly_talking slides in from the right; E51_speech_bubble pops in; A48_narrator_stop_hand slides in from the left
+First, they'd call with a safe, well-known stock, to build trust. Then, on the second call, they'd push the risky penny stock they really wanted to sell.
+> VISUAL: E08_phone pops in; H16 sticky note pops in "CALL 1: TRUST"; H16 sticky note pops in "CALL 2: PENNY STOCK"; B11_penny_tiny drops in; red arrow
+That's exactly what happened to Carol. The first stock she bought was a name she'd heard of. It went up a little. She felt good. So when he called back, she listened.
+> VISUAL: C11_worker_woman_happy walks in from the left; D13_chart_arrow_up draws on; E08_phone pops in; E51_speech_bubble pops in
+At its peak, Stratton Oakmont had around a thousand brokers. They called people across America, every single day. Most of their customers were people like Carol.
+> VISUAL: C28_crowd_small drops in; G13_map_usa_grey pops in; E08_phone pops in; H18 sign pops in "1,000 BROKERS"; C09_worker_woman_neutral walks in from the right
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight "brokers"
+But selling a stock is not a crime. So how did Stratton turn these sales into a fraud? The answer is a trick called the pump and dump.
+> VISUAL: A06_narrator_thinking slides in from the left; E22_scale drops in; E48_question_marks pop in; H18 sign pops in "PUMP & DUMP"
 
-## CHAPTER 4: Pump and dump explained with stickmen
-They may use confident predictions or stories about other clients making money. None of those tactics tells you what the company owns, sells, or earns. That's why the most valuable question is often the boring one: where can I find independently verified information about this business?
-> VISUAL: A06_narrator_thinking slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-If the salesperson cannot answer clearly, the phone call has already taught you something useful. You don't need to win an argument. You can simply refuse to make the purchase.
-> VISUAL: A15_narrator_point_right slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "market price of the securities"
-The structure of a pump-and-dump scheme deserves careful explanation because it reveals who carries the risk. Manipulators may accumulate shares in a thinly traded company, promote the shares using false or misleading claims, and benefit when demand pushes the price upward. Later, as they sell into that demand or the promotion ends, prices can collapse.
-> VISUAL: A18_narrator_present_right slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-A small company may have few investors trading each day, making its price especially sensitive to concentrated purchases and selling. These patterns are not proof that every small company is dishonest. They show how a price can move for reasons unrelated to changes in business value.
-> VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
-The final buyer may be holding stock at a price no informed investor would have paid without the misleading promotion. The movie version of a scam tends to focus on one charismatic person. Real-world schemes rely on organizations.
-> VISUAL: A01_narrator_neutral slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-Someone finds leads. Someone trains sales staff. Someone manages transactions.
-> VISUAL: A06_narrator_thinking slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-Someone controls the promotion. Someone handles complaints. The individual customer may interact with only one enthusiastic employee and never see the wider machinery.
-> VISUAL: A15_narrator_point_right slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "In March 1992, the SEC charged Stratton"
-That's why investigating financial fraud often requires tracing communications, ownership, trading records, and payments across multiple participants. It's also why the final legal record may be less cinematic than the public remembers. Financial wrongdoing is often a series of ordinary documents and ordinary decisions joined into an extraordinary pattern.
-> VISUAL: A18_narrator_present_right slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
+## CHAPTER 4: Pump and Dump
+[calm] Here's how a pump and dump works. Step one: insiders quietly buy up lots of shares of a tiny company, while the price is very low.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; C04_banker_money_bag walks in from the right; B11_penny_tiny drops in; H16 sticky note pops in "1. BUY CHEAP"
+> SCREEN: Investor.gov, U.S. SEC | https://www.investor.gov/introduction-investing/investing-basics/glossary/pump-and-dump-schemes | highlight "Pump and dump"
+Step two is the pump. Hundreds of brokers call people like Carol and tell them the stock is about to take off. Everyone buys, and the price shoots up.
+> VISUAL: E08_phone pops in; C28_crowd_small drops in; D13_chart_arrow_up draws on; E45_arrow_up_big pops in; H16 sticky note pops in "2. PUMP"
+The brokers didn't explain the risks. They talked about rockets and secrets and getting in early. Fear of missing out did the rest.
+> VISUAL: E26_rocket drops in; A37_narrator_whisper slides in from the left; E24_clock pops in; E49_exclamation_marks pop in
+Step three is the dump. Once the price is high, the insiders sell all their shares at once, for a big profit.
+> VISUAL: C02_banker_greedy walks in from the right; E02_money_bag drops in; E03_money_rain pours down; H16 sticky note pops in "3. DUMP"
+With nobody left to keep buying, the price crashes. And the people holding the shares at the end are the ones who were told it was a sure thing.
+> VISUAL: D14_chart_arrow_down draws on; E46_arrow_down_big drops in; C10_worker_woman_stressed walks in from the left; B08_penny_cracked pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Pump_and_dump | highlight "pump and dump"
+That's the cruel trick. The early buyers win only because the late buyers lose. And the brokers always made sure the insiders sold first.
+> VISUAL: E22_scale drops in; C02_banker_greedy walks in from the right; C10_worker_woman_stressed walks in from the left; red arrow from Carol to the banker
+Stratton had an extra trick. It helped small companies go public, through IPOs. That's when a company first sells its shares to the public.
+> VISUAL: G12_ipo_bell drops in; E33_factory pops in; H18 sign pops in "IPO"; A38_narrator_teacher_pointer slides in from the left
+But many of those new shares quietly went to Belfort's friends and secret accounts at very low prices. The brokers then pumped the price up, and the insiders sold.
+> VISUAL: C04_banker_money_bag walks in from the right; E21_safe_vault pops in; A37_narrator_whisper pops in; D13_chart_arrow_up draws on; E02_money_bag drops in
+One of those companies was a shoe brand, Steve Madden. Steve Madden himself later went to prison for his part in the stock scheme.
+> VISUAL: H19_box_closed drops in; H18 sign pops in "STEVE MADDEN"; E55_handcuffs_chain pops in; A05_narrator_suspicious slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Steve_Madden | highlight "Steve Madden"
+For Carol, it looked simple. Her broker said buy, so she bought. Then he said hold, so she held. When she finally asked to sell, he talked her out of it, again and again.
+> VISUAL: C09_worker_woman_neutral walks in from the left; E08_phone pops in; A48_narrator_stop_hand slides in from the right; E51_speech_bubble pops in
+By the time she got out, her twenty thousand dollars had shrunk to about four thousand. And her money had helped pay for something she'd never see.
+> VISUAL: C12_worker_woman_shocked walks in from the left; H17 price tag pops in "$20,000 → $4,000"; D14_chart_arrow_down draws on; E50_sweat_drops pop in
+She didn't tell her family for months. She felt foolish. She thought it was her own fault for trusting a stranger.
+> VISUAL: C10_worker_woman_stressed walks in from the left; A41_narrator_sitting_sad pops in; E52_thought_bubble pops in; E48_question_marks pop in
+But it wasn't just her. Thousands of people across the country got the same calls, heard the same script, and lost money the same way.
+> VISUAL: C28_crowd_small drops in; G13_map_usa_grey pops in; E08_phone pops in; H15_paper_note_blank pops in "SAME SCRIPT"
+A life of crazy spending. And that's the part the movie loves to show.
+> VISUAL: E26_rocket drops in; E03_money_rain pours down; C23_billionaire_laughing walks in from the right
 
-## CHAPTER 5: The excess (kept PG)
-One last reason the story resonates is that the promises sound like things people genuinely want. More money to care for family. A comfortable retirement.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "Jordan Belfort"
-The feeling of finally getting ahead. Fraudsters don't need to invent entirely new human desires; they exploit existing ones. A worried retiree may not respond to a technical explanation of market liquidity, but may respond strongly to the suggestion that a limited opportunity could make savings grow.
-> VISUAL: A01_narrator_neutral slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-That makes the conduct more serious than a clever sales contest. It turns a person's hope into a source of financial vulnerability. And that is why the victim's experience needs to stay at the center, even when the perpetrator has the louder personality.
-> VISUAL: A06_narrator_thinking slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-The incentives inside a boiler room can make the problem worse. Suppose a broker is paid according to what customers buy, not according to whether those customers do well. One investment might be suitable for a retiree who needs steady income; another might be a speculative business with a substantial chance of failure.
-> VISUAL: A15_narrator_point_right slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "fraudulent sales practices"
-A broker paid to push the second one has an incentive to ignore that distinction. Add a culture where the loudest closer gets the greatest reward, and the pressure on customers becomes intense. The firm can celebrate revenue before anyone bothers to measure what happened to the people who provided it.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-The lifestyle surrounding Belfort is the part popular culture remembers: expensive parties, extravagant spending, and behavior so extreme it becomes almost cartoonish. But extravagant spending is not evidence that somebody is a genius. If the money comes from extracting commissions and manipulating customers, the party is simply where the proceeds go.
-> VISUAL: A38_narrator_teacher_pointer slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "market price of the securities"
-Imagine watching a magician pull hundred-dollar bills from a hat, and then learning those bills had been taken from the audience's wallets. The trick is suddenly less impressive. Investigators eventually began pulling at the system.
-> VISUAL: A01_narrator_neutral slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
+## CHAPTER 5: The Party
+[calm] Belfort was reportedly making tens of millions of dollars a year. He spent it as fast as it came in. Mansions, cars, helicopters, and a yacht.
+> VISUAL: C23_billionaire_laughing walks in from the left; E27_crown pops in; E41_car drops in; E34_skyscraper pops in; E03_money_rain pours down
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "Stratton Oakmont"
+The yacht, called Nadine, was once owned by a famous fashion designer. In nineteen ninety-six, it sank in a storm off the coast of Italy. Everyone on board was rescued.
+> VISUAL: E31_cargo_ship slides in from the right; G24_storm_cloud drops in; E46_arrow_down_big pops in; G16_map_europe pops in "Italy"; A08_narrator_shocked slides in from the left
+There were wild office parties, heavy drug use, and a lot of cash moving in strange ways. Some of it was smuggled to secret Swiss bank accounts.
+> VISUAL: C28_crowd_small drops in; E49_exclamation_marks pop in; E06_briefcase pops in; G16_map_europe pops in "Switzerland"; E21_safe_vault slides in from the right
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film) | highlight "Leonardo DiCaprio"
+In the movie, this part feels like a thrill ride. You laugh. You're almost cheering for him.
+> VISUAL: E13_tv_screen drops in; A03_narrator_laugh slides in from the left; E26_rocket pops in; H03_narrator_victory_dance pops in
 
-## CHAPTER 6: The FBI case and the wire
-Securities regulators and law-enforcement authorities examined the firm's practices. Belfort pleaded guilty to crimes connected with securities fraud and money laundering, and he received a prison sentence. Court-ordered restitution sought compensation for victims, although the question of how much has actually been recovered is different from the amount a court ordered.
-> VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
-The legal consequences matter, but they cannot reverse years of financial decisions made by families who believed the sales pitch. That brings us to something uncomfortable. Why do people still admire this story?
-> VISUAL: A15_narrator_point_right slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-Part of the answer is that confidence is entertaining. A villain who hesitates is not particularly cinematic. A villain who knows exactly what to say can be fascinating, especially when the audience isn't the one taking the loss.
-> VISUAL: A18_narrator_present_right slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-We also like stories where an outsider gets rich, breaks rules, and humiliates powerful institutions. The trouble is that this version leaves out the person who trusted a broker with savings collected over decades. Let's return to the kitchen table.
-> VISUAL: A38_narrator_teacher_pointer slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "In March 1992, the SEC charged Stratton"
-You have a job. You have expenses. You might be saving for retirement or your children's education.
-> VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
-You don't have the time to research every obscure company in the market, so you rely on somebody who sounds knowledgeable. A few months later, the stock falls. You call the broker.
-> VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "Jordan Belfort"
-Perhaps he has a new explanation, perhaps a new stock, perhaps no time to speak at all. The loss stays with you. The commission was already paid.
-> VISUAL: A15_narrator_point_right slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-There's one more reason not to treat this episode as merely a story about a dishonest man. It exposes a failure in information. The broker knew what commission he would earn, what sales tactics the firm used, and how urgently it wanted orders.
-> VISUAL: A18_narrator_present_right slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
+But stop and think about where every one of those dollars came from. Not from building a business. From people like Carol.
+> VISUAL: A12_narrator_angry slides in from the left; E02_money_bag pops in; red arrow from Carol to the money bag; C10_worker_woman_stressed walks in from the right
+Every yacht party was paid for by a teacher, a nurse, a mechanic, or a retiree who trusted a voice on the phone.
+> VISUAL: C09_worker_woman_neutral walks in from the left; C13_retiree_neutral walks in from the right; C28_crowd_small pops in; E31_cargo_ship drops in
+> SCREEN: Investor.gov, U.S. SEC | https://www.investor.gov/introduction-investing/investing-basics/glossary/pump-and-dump-schemes | highlight "investors"
+Regulators had noticed. As early as nineteen ninety-two, the S E C was taking Stratton to court. But the firm kept fighting, and kept calling.
+> VISUAL: G09_capitol_building drops in; E16_magnifying_glass pops in; E14_podium pops in; E08_phone pops in; A05_narrator_suspicious slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight "Securities and Exchange Commission"
+It took years. But in the end, the people who had protected Belfort started to turn against him.
+> VISUAL: E23_hourglass pops in; C28_crowd_small drops in; E52_thought_bubble pops in; E55_handcuffs_chain pops in
 
-## CHAPTER 7: The victims and unpaid restitution
-The customer often knew only the story delivered over the phone. When one side controls most of the useful information, confidence becomes a powerful substitute for evidence. Regulations, disclosures, and enforcement can reduce that imbalance, but ordinary investors still need a habit of independent verification.
-> VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "fraudulent sales practices"
-A legitimate broker should be able to explain risks and provide documents without treating every question as an insult. Financial trust is built by transparency, not by turning the pressure higher. And notice how fame changes the aftermath.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-A convicted financial fraudster may receive attention for telling an extraordinary story, while victims often remain anonymous. That doesn't mean audiences are wrong to watch a compelling film. It means a good explanation should restore the balance.
-> VISUAL: A06_narrator_thinking slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "market price of the securities"
-The most important transaction wasn't the expensive party or the outrageous office speech. It was the moment someone trusted a stranger with savings that took decades to build. Every detail about charisma, compensation, and manipulation matters because it helps explain why that trust was misplaced.
-> VISUAL: A15_narrator_point_right slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-The lesson is not that every persuasive broker is a criminal or that every small stock is a scam. Small businesses can become excellent investments, and many financial professionals take their duties seriously. The warning signs are more specific: pressure to act immediately, claims that a return is virtually certain, difficulty finding reliable financial information, and a salesperson who seems more interested in your payment than in your circumstances.
-> VISUAL: A18_narrator_present_right slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-Good opportunities can survive reasonable questions. A scheme built on urgency often cannot. One of the oldest mistakes in finance is confusing a successful salesperson with a successful investment.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; E44_warning_sign draws; E55_handcuffs_chain pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
-The first knows how to make a purchase feel exciting. The second has to produce economic value after the excitement fades. Jordan Belfort's story is memorable because the salesmanship was so theatrical.
-> VISUAL: A01_narrator_neutral slides left; E44_warning_sign drops; E55_handcuffs_chain draws; C01_banker_neutral pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-The damage came from the much quieter moment when ordinary people mistook that salesmanship for evidence. If there's one character to remember when you see a glamorous Wall Street fraud story, remember the person waiting beside a telephone, hoping the man who sounded so confident was telling the truth.
-> VISUAL: A06_narrator_thinking slides left; E55_handcuffs_chain drops; C01_banker_neutral draws; D24_bond_document pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "In March 1992, the SEC charged Stratton"
+## CHAPTER 6: The Fall
+[calm] In December nineteen ninety-six, the industry's regulator, the N A S D, kicked Stratton Oakmont out for good. The firm shut down.
+> VISUAL: E34_skyscraper pops in; A48_narrator_stop_hand slides in from the left; H18 sign drops in "CLOSED"; E20_trash_can pops in; E25_calendar pops in "1996"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight "1996"
+> SCREEN: FINRA | https://www.finra.org/about | highlight "FINRA"
+But the money trail didn't end there. The FBI had been watching for years, and in nineteen ninety-eight, Belfort was charged with securities fraud and money laundering.
+> VISUAL: E16_magnifying_glass pops in; E55_handcuffs_chain drops in; D26_tax_form_evil pops in; H14_bowtie_man_worried walks in from the left
+He pleaded guilty. And then he made a deal. To get a shorter sentence, he agreed to help the government catch others.
+> VISUAL: E14_podium drops in; H14_bowtie_man_worried stays; E22_scale pops in; E51_speech_bubble pops in
+That's right. The Wolf of Wall Street wore a wire. He secretly recorded conversations with his old friends and partners.
+> VISUAL: A37_narrator_whisper slides in from the left; E08_phone pops in; E16_magnifying_glass pops in; C28_crowd_small drops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "cooperated"
+In two thousand three, a judge sentenced him to four years in prison. He served about twenty-two months, in a federal prison camp.
+> VISUAL: E14_podium drops in; E55_handcuffs_chain pops in; E25_calendar pops in "2003"; H17 price tag pops in "22 months"
+His partner Danny Porush was also sent to prison. So were other Stratton brokers and executives. In total, dozens of people connected to the firm faced charges.
+> VISUAL: H09_guy_curly_neutral walks in from the right; E55_handcuffs_chain drops in; C28_crowd_small pops in; E14_podium pops in
+Twenty-two months. For a fraud that hurt roughly fifteen hundred people and cost them around two hundred million dollars.
+> VISUAL: A12_narrator_angry slides in from the left; C28_crowd_small drops in; E22_scale pops in; H18 sign pops in "$200 MILLION LOST"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "restitution"
+Meanwhile, many of Stratton's victims were still paying for their losses. Some had lost retirement money. Some had lost college savings for their kids.
+> VISUAL: C14_retiree_worried walks in from the left; D25_retirement_document pops in; C27_kid_curious walks in from the right; H22_book_open drops in; D14_chart_arrow_down draws on
+The judge also ordered him to pay back one hundred ten million dollars to his victims. Carol's name was on that list. She waited for her check.
+> VISUAL: H17 price tag drops in "$110 MILLION"; H15_paper_note_blank pops in; C09_worker_woman_neutral walks in from the left; E24_clock pops in
+And that's where the story gets truly ugly.
+> VISUAL: A41_narrator_sitting_sad slides in from the left; G24_storm_cloud drops in; E44_warning_sign pops in
+
+## CHAPTER 7: The Money That Never Came Back
+[serious] After prison, Belfort became a motivational speaker. He wrote two best-selling books about his life. He traveled the world teaching people how to sell.
+> VISUAL: A40_narrator_microphone slides in from the left; H22_book_open drops in; E14_podium pops in; E43_globe pops in; E01_cash_stack pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(book) | highlight "memoir"
+In twenty thirteen, his story became a Hollywood movie starring Leonardo DiCaprio. It made hundreds of millions of dollars around the world.
+> VISUAL: E13_tv_screen drops in; E28_trophy pops in; E03_money_rain pours down; E43_globe pops in; E25_calendar pops in "2013"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film) | highlight "box office"
+[calm] But that same year, federal prosecutors told a court something shocking. Of the one hundred ten million dollars he owed his victims, only about eleven million had been paid back.
+> VISUAL: E14_podium drops in; H17 price tag pops in "$11M of $110M"; D14_chart_arrow_down draws on; A08_narrator_shocked slides in from the left
+That's about ten cents for every dollar. Carol got a few small checks over the years. Nowhere near what she lost.
+> VISUAL: C14_retiree_worried walks in from the left; B11_penny_tiny drops in; H15_paper_note_blank pops in; E38_cart_almost_empty pops in
+Belfort has said he wants to repay his victims, and that he has given money from his speaking and his books. But his victims are still waiting for most of it.
+> VISUAL: A40_narrator_microphone slides in from the left; H22_book_open pops in; E01_cash_stack drops in; E24_clock pops in; E48_question_marks pop in
+By then, Carol was retired. The money she had saved for her old age was mostly gone, while the man who took it was famous again.
+> VISUAL: C14_retiree_worried stays; D25_retirement_document pops in; E13_tv_screen slides in from the right; C23_billionaire_laughing pops in
+So here's why the real story was worse than the movie. The movie is about the wolf. The real story is about the sheep. The fifteen hundred people who never got their lives back.
+> VISUAL: A12_narrator_angry slides in from the left; E13_tv_screen pops in; C28_crowd_small drops in; H27_heart pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Jordan_Belfort | highlight "victims"
+Fraud like this does a second kind of damage, too. People who get burned often stop investing completely. They miss years of honest growth, because they no longer trust anyone.
+> VISUAL: C14_retiree_worried walks in from the left; E21_safe_vault pops in; D13_chart_arrow_up draws on; A48_narrator_stop_hand slides in from the right
+And schemes like Stratton's never really went away. Today, the calls come as texts, social media posts, and group chats promising the next big stock or coin.
+> VISUAL: E08_phone pops in; E07_laptop drops in; E51_speech_bubble pops in; D08_bitcoin_nervous pops in; E44_warning_sign pops in
+> SCREEN: Investor.gov, U.S. SEC | https://www.investor.gov/protect-your-investments/fraud/types-fraud | highlight "Types of Fraud"
+Here's the takeaway. If a stranger calls with a sure thing, a tiny price, and a deadline, hang up. Real opportunities don't need to rush you.
+> VISUAL: A48_narrator_stop_hand slides in from the left; E08_phone pops in; H18 sign drops in "HANG UP"; E24_clock pops in
+And always check who you're dealing with. FINRA's free BrokerCheck tool shows any broker's record in seconds.
+> VISUAL: A39_narrator_magnifying slides in from the left; E07_laptop drops in; E16_magnifying_glass pops in; A21_narrator_thumbs_up pops in
+> SCREEN: FINRA BrokerCheck | https://brokercheck.finra.org/ | highlight "BrokerCheck"
+Carol learned that lesson the hard way. But Stratton was a small fraud compared to what came next. Next time, we'll see how millions of ordinary mortgages nearly broke the whole world.
+> VISUAL: C14_retiree_worried walks in from the left; D09_house_happy drops in; D12_house_cracked pops in; E43_globe pops in; A23_narrator_wave slides in from the right
 
 ## SOURCES
-- Research source — U.S. District Court — SEC v. Stratton Oakmont — https://en.wikipedia.org/wiki/Stratton_Oakmont
-- VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- Belfort restitution about $110M to about 1,500 investors (2003) — https://en.wikipedia.org/wiki/Jordan_Belfort
+- Belfort ordered to repay about $110.4M to about 1,500 victims; served about 22 months of a 4-year sentence (2003); pleaded guilty 1999, cooperated (wore a wire) — https://en.wikipedia.org/wiki/Jordan_Belfort
+- Prosecutors in 2013: about $11.6M of restitution repaid — https://en.wikipedia.org/wiki/Jordan_Belfort (VERIFY exact amount)
+- Stratton Oakmont founded about 1989, Long Island; about 1,000 brokers at peak; SEC action from 1992; expelled by NASD December 1996 — https://en.wikipedia.org/wiki/Stratton_Oakmont
+- Black Monday, 19 Oct 1987: Dow fell about 22.6% — https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+- Investor losses about $200M (VERIFY) — https://en.wikipedia.org/wiki/Jordan_Belfort
+- Yacht Nadine sank 1996 off Sardinia, Italy — https://en.wikipedia.org/wiki/Jordan_Belfort
+- Steve Madden IPO; Madden pleaded guilty (2000) — https://en.wikipedia.org/wiki/Steve_Madden
+- Pump-and-dump explanation — https://www.investor.gov/introduction-investing/investing-basics/glossary/pump-and-dump-schemes
+- Carol is a fictional example of a typical victim.
