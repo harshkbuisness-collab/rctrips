@@ -8,3 +8,9 @@ videos/*/05_export/check_*.jpg
 videos/*/05_export/*_clip.mp4
 videos/day*/05_export/*.mp4
 videos/_test/
+tools/voice_studio/output/
+tools/voice_studio/cache/
+tools/voice_studio/config.json
+tools/voice_studio/kokoro/
+tools/voice_studio/venv/
+tools/voice_studio/**/__pycache__/
