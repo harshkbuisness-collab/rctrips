@@ -62,12 +62,14 @@ They'd quietly buy a stock, trade it back and forth among themselves to make it 
 And the market went up. Then up again. From nineteen twenty-one to its peak in September nineteen twenty-nine, the Dow Jones went up about six times.
 > VISUAL: A15_narrator_point_right slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
 People started believing the line could only go one way. Even the experts agreed. One of the most famous economists in America, a Yale professor named Irving Fisher, said stock prices had reached… quote… “a permanently high plateau.“
+> VISUAL: A06_narrator_thinking slides in from the left; C01_banker_neutral pops in; D13_chart_arrow_up draws; H18 sign drops in "PLATEAU"; red circle
 He said that about two weeks before the crash.
 > VISUAL: A18_narrator_present_right slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve History — Great Depression | https://www.federalreservehistory.org/essays/great-depression | highlight exactly "Unemployment soared"
 Not his best work. There were warnings. In September, an investor named Roger Babson stood up and said, “Sooner or later a crash is coming, and it may be terrific.“ That day, the market dropped.
 > VISUAL: A38_narrator_teacher_pointer slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 People called it the “Babson Break“… and then they went right back to buying. Even the new president, Herbert Hoover, had promised America was “nearer to the final triumph over poverty than ever before in the history of any land.“
+> VISUAL: A05_narrator_suspicious slides in from the left; D14_chart_arrow_down drops; G11_stock_exchange pops in; C01_banker_neutral walks in; "Babson Break"
 Everyone was a genius. Everyone was rich, on paper.
 > VISUAL: A01_narrator_neutral slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
 And almost nobody asked what would happen if the line went down. Thursday, October 24th, nineteen twenty-nine. The market opened, and the selling started.
@@ -96,7 +98,7 @@ As prices dropped, brokers called their customers and demanded more money: “ma
 Paper fortunes that took years to build disappeared before lunch. But here's the strange part. By the spring of nineteen thirty, the market had actually recovered some of its losses.
 > VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
 A lot of people thought the worst was over. It wasn't. The worst hadn't even started.
-[MID-VIDEO: sponsor slot if we have one; otherwise a five-second subscribe ask:]
+> VISUAL: A09_narrator_scared slides in from the left; D14_chart_arrow_down drops; G11_stock_exchange shakes; E44_warning_sign pops in
 Quick thing: if you're enjoying this, hit subscribe.
 > VISUAL: A06_narrator_thinking slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 These take a ridiculous amount of research, and it genuinely helps. Okay. Back to nineteen thirty.
@@ -133,7 +135,6 @@ Every falling price is somebody's falling paycheck. And the Federal Reserve, the
 > VISUAL: A38_narrator_teacher_pointer slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
 
 ## CHAPTER 6: The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army
-We're very sorry.“
 Washington also had some ideas. Unfortunately. In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories.
 > VISUAL: A01_narrator_neutral slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve History — Stock Market Crash of 1929 | https://www.federalreservehistory.org/essays/stock-market-crash-of-1929 | highlight exactly "Stock Market Crash of 1929"
@@ -160,6 +161,7 @@ Millions of people left the Plains, many heading west to California, looking for
 They needed it now. They camped near the Capitol, peacefully, for weeks. In the end, the army was sent in to clear them out.
 > VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
 Soldiers, using tear gas, against the soldiers of the last war. Americans saw the photos, and something broke. In March nineteen thirty-three, Franklin Roosevelt took office and said the most famous line of the whole era: “The only thing we have to fear is fear itself.“
+> VISUAL: A12_narrator_angry slides in from the left; E44_warning_sign drops; D09_house_happy pops in; "March 1933"
 Two days later, he closed every bank in the country.
 > VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve History — Stock Market Crash of 1929 | https://www.federalreservehistory.org/essays/stock-market-crash-of-1929 | highlight exactly "On Black Monday, October 28, 1929"
@@ -180,6 +182,7 @@ Companies have to report their numbers. But some things can't be fixed with a la
 > VISUAL: A15_narrator_point_right slides left; E01_cash_stack drops; D15_bank_building draws; C01_banker_neutral pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "Banking Panics of 1930-31"
 Borrowed money that feels like free money. Stock tips from people who've never had a bad year. And the most expensive belief in finance: “this time is different.“
+> VISUAL: A06_narrator_thinking slides in from the left; D13_chart_arrow_up draws; D14_chart_arrow_down drops; E44_warning_sign pops in; "This time is different"
 Every bubble in history has had all three.
 > VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 So the next time everyone around you is getting rich on something they can't explain… remember the guy who bought in September nineteen twenty-nine. Not because he was stupid. Because he was sure.

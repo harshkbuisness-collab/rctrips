@@ -147,4 +147,4 @@ Few people understood that better than John D. Rockefeller.
 - Research source — FHFA — Lock-In Effect of Rising Mortgage Rates — https://www.fhfa.gov/research/papers/wp2403?trk=article-ssr-frontend-pulse_little-text-block
 - Research source — Federal Reserve — Survey of Consumer Finances — https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- FHFA working paper 24-03: lock-in prevented about 1.33 million sales (VERIFY exact figure)
+- FHFA working paper 24-03: lock-in prevented 1.33 million sales, 2022Q2-2023Q4 — https://www.fhfa.gov/research/papers/wp2403

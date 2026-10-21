@@ -4,7 +4,7 @@ THUMBNAIL: SMALL, BUT RICH — narrator and the main financial object
 THREAD: one trading port becoming a rich economy
 
 ## CHAPTER 1: Singapore's crisis in 1965
-Singapore has almost no farmland and no oil, yet its income per person is now higher than America's. Imagine a small place without vast farmland, enormous oil reserves, or room to build endless factories. You might assume it would struggle to become wealthy.
+Singapore has almost no farmland and no oil, yet its income per person is now about as high as America's, or even higher. Imagine a small place without vast farmland, enormous oil reserves, or room to build endless factories. You might assume it would struggle to become wealthy.
 > VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D01_dollar_happy draws; D02_dollar_sad pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: World Bank — Singapore Overview | https://www.worldbank.org/ext/en/country/singapore | highlight exactly "Singapore"
 Yet some small economies have achieved high levels of prosperity by specializing in trade, finance, advanced services, logistics, and productive industries. Singapore and Switzerland are useful examples. Dubai is a city and emirate rather than an independent country, but its development also raises interesting questions.
@@ -149,4 +149,4 @@ The story isn't that resources don't matter. It's that human capital, institutio
 - Research source — World Bank — Singapore Overview — https://www.worldbank.org/ext/en/country/singapore
 - Research source — St. Louis Fed — Dollar Reserve Currency — https://www.stlouisfed.org/publications/page-one-economics/2026/sep/why-is-us-dollar-world-dominant-reserve-currency
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- GDP per capita 2024: Singapore about $90.7k vs US about $85.8k — World Bank (VERIFY latest)
+- GDP per capita 2024: Singapore about $90.7k vs US about $85.8k — World Bank via FRED PCAGDPSGA646NWDB (Singapore); US similar range

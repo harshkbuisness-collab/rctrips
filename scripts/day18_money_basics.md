@@ -154,4 +154,4 @@ Financial literacy isn't a collection of clever tricks. It's the ability to see 
 - Research source — SEC Investor.gov — Stock Funds — https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-fund
 - Research source — CFPB — Credit Card Grace Period — https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- Fed SHED 2024: 63% would cover a $400 expense with cash or its equivalent (VERIFY latest year)
+- Fed SHED 2024: 63% would cover a $400 expense with cash or its equivalent; 2025 survey also 63% — https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm
