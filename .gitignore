@@ -14,3 +14,4 @@ tools/voice_studio/config.json
 tools/voice_studio/kokoro/
 tools/voice_studio/venv/
 tools/voice_studio/**/__pycache__/
+voices/*.mp3
