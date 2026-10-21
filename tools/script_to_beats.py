@@ -113,7 +113,7 @@ def scene(el, v):
             m = re.search(r"@([\d.]+),([\d.]+)", e)
             if m and not e.startswith("note") and float(m.group(2)) >= 0.3:    # keep notes and top items clear of the title
                 e = e.replace(m.group(0), f"@{1 - float(m.group(1)):.2f},{m.group(2)}")
-            e = e.replace("~none", "").replace("~l", "~R").replace("~r", "~l").replace("~R", "~r")
+            e = e.replace("~l", "~R").replace("~r", "~l").replace("~R", "~r")
             out.append(e)
         return out
     if v == 2:
@@ -125,22 +125,29 @@ def scene(el, v):
     return el
 
 
-def sentence_elements(s, j, person, spare):
-    """What this one sentence shows: a person, its key number on a sign, and the things it names."""
+def sentence_elements(s, j, person, spare, pick, names=()):
+    """What this one sentence shows: who is talking about it, its key number or words on a sign, and the
+    things it names. `pick` keeps the video varied (use limits, no repeat in the next scene)."""
     props = [c[:3] for c in sv.sentence_props(s)]
     if "G11" in props and "E37" in props:          # "prices fell" about stocks, not shopping
         props.remove("E37")
-    if not props and re.search(r"!|catastroph|disaster|terrible|worst|shock", s, re.I):
-        props = ["E49"]                             # nothing named: just the narrator's reaction
-    who = person or sv.narrator_for(s, j)[:3]
-    out = [f"{who}@{PEOPLE_SLOTS[0]}"]
-    sign = sv.number_sign(s)
+    about_person = person and (re.search(r"\b(she|he|her|his|him)\b", s, re.I) or any(n in s for n in names))
+    who = person if about_person else pick.pose(s)
+    props = [x for x in (pick.prop(c) for c in props) if x and x != who][:3]
+    sign = sv.number_sign(s) or ("" if props else sv.key_words(s))
     slots = iter(PROP_SLOTS)
+    out = [f"{who}@{PEOPLE_SLOTS[0]}~none"]       # Casual Finance style: poses swap, nothing slides
+    quote = re.search(r'[“"]([^”"]{3,40})[”"]', s)
+    if quote:                                       # a quoted line becomes a speech bubble
+        out.append(f'bubble:"{clean(quote.group(1))}"@0.36,0.26:l')
+    elif s.endswith("?") and len(s) <= 46:          # a short question becomes a thought bubble
+        out.append(f'think:"{clean(s)}"@0.36,0.26')
     if sign:
-        out.append(f'H18@{next(slots)}:0.34:"{clean(sign)[:18]}"~pop')
-    for c in props[:3 if not sign else 2]:
-        out.append(f"{c}@{next(slots)}:0.32")
-    return out
+        out.append(f'{"H18" if sv.number_sign(s) else "H16"}@{next(slots)}:0.34:"{clean(sign)[:18]}"~pop')
+    for c in props[:2 if not sign else 1]:          # 1-3 things on screen, like the reference
+        out.append(f"{c}@{next(slots)}:0.34" + (f':"{clean(sign)[:18]}"' if c in PROPS_WITH_WORD else "") + "~pop")
+    pick.take([who] + props)
+    return [e for e in out if not re.match(r"H1[5-8]@[^\"]*$", e)]     # blank props always need a word
 
 
 def doc_elem(c, meta):
@@ -160,6 +167,18 @@ def main(script, vdir):
     for s in shots:
         by_line.setdefault(s["line"], []).append(s)
     meta = {id(s): s for s in shots}
+    import hashlib
+    seen = set()                                   # the same screenshot is shown only once
+    for s_ in shots:
+        f_ = os.path.join(vdir, "02_assets", "screens", s_.get("file", ""))
+        if s_.get("ok") and os.path.exists(f_):
+            h_ = hashlib.md5(open(f_, "rb").read()).hexdigest()
+            if h_ in seen:
+                s_["ok"] = False
+            seen.add(h_)
+    pick = sv.Picker()
+    thread = re.search(r"^THREAD:\s*(.*)$", open(script, encoding="utf-8").read(), re.M)
+    names = tuple(w for w in re.findall(r"\b[A-Z][a-z]{2,}\b", thread.group(1)) if w not in ("The", "One", "Ohio")) if thread else ()
     spoken, lines, chap, title, missing, last_person = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
     for i, ln in enumerate(d["lines"]):
         if ln["chap"] != chap:
@@ -190,7 +209,7 @@ def main(script, vdir):
             if j < len(docs):
                 el = [f'title:"{clean(title)}"', docs[j]]
             else:
-                el = scene(sentence_elements(s, j, last_person or narr, spare), (spoken // SCENE_WORDS) % 3)
+                el = scene(sentence_elements(s, j, last_person, spare, pick, names), (spoken // SCENE_WORDS) % 3)
                 el = [f'title:"{clean(title)}"'] + el
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())

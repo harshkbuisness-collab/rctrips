@@ -216,3 +216,64 @@ if __name__ == "__main__":
               "On October eighth, twenty twenty-six, America owed about forty point three trillion dollars.",
               "One in four workers lost their job."]:
         print(number_sign(t), "|", sentence_props(t), "|", narrator_for(t))
+
+
+# ---------- variety inside one video ----------
+VARIANTS = {
+    "E01": ["E01", "E02", "D01", "E04", "B10", "E05"], "E33": ["E33", "D21", "E34", "E06"],
+    "E37": ["E37", "E38", "D30", "H17"], "G11": ["G11", "G12", "G03"], "E36": ["E36", "E39", "D30", "H19"],
+    "C28": ["C28", "H09", "H11", "C09", "C11"], "D15": ["D15", "C01", "C03", "D16"], "D14": ["D14", "E46", "G02", "D02"],
+    "D13": ["D13", "E45", "G01", "E26"], "E23": ["E23", "E24", "E25"], "G09": ["G09", "C05", "C06", "C08"],
+    "D28": ["D28", "D18", "D24"], "G04": ["G04", "G05"], "E43": ["E43", "D20"], "D09": ["D09", "D11", "E35", "H23"],
+    "C21": ["C21", "C22", "C23", "C24"], "C01": ["C01", "C02", "C03", "C04"], "E55": ["E55", "E14"],
+    "E09": ["E09", "H06"], "E17": ["E17", "H22"], "E44": ["E44", "E49", "E50"], "E21": ["E21", "E05", "H19"],
+    "C09": ["C09", "C10", "C11", "C12"], "C13": ["C13", "C14", "C15", "C16"], "D25": ["D25", "C15", "H28"],
+    "E48": ["E48", "E52"], "D17": ["D17", "E32"], "E41": ["E41", "D22"], "C17": ["C17", "C18", "C20"],
+    "E31": ["E31", "E42"], "D26": ["D26", "H28", "H15"], "D23": ["D23", "C17", "E07"],
+}
+POSES = {   # narrator poses by mood; the least used one that wasn't just on screen is picked
+    "question": ["A06", "A07", "A39", "A14", "A05"], "shock": ["A08", "A45", "A36", "A09", "A10", "A35"],
+    "sad": ["A41", "A11", "A42", "A47", "A32", "A19"], "suspicious": ["A05", "A37", "A04", "A46", "A43"],
+    "good": ["A21", "A02", "A34", "A03", "H03", "A23"], "teach": ["A38", "A18", "A15", "A16", "A17", "H01", "A20"],
+    "neutral": ["A01", "A15", "A18", "A29", "A33", "A44", "A24", "A27", "A28", "H05", "H08", "A40"],
+}
+MOOD = {"A06": "question", "A08": "shock", "A41": "sad", "A05": "suspicious", "A21": "good", "A38": "teach"}
+STOP = set("the a an and or but of to in on for with that this it its is was were be been are as at by from his her "
+           "their they he she we you your our not no so if then than there here what when who how why which into out "
+           "over about after before more most very just also can could would will may might one did does do had has "
+           "have that's it's don't didn't isn't wasn't every each some any all only even still again once".split())
+
+
+class Picker:
+    """Keeps one video varied: each drawing has a use limit, and nothing repeats in the next scene."""
+
+    def __init__(self, limit=5):
+        self.used, self.prev, self.limit = {}, set(), limit
+
+    def _best(self, options):
+        ok = [o for o in options if o not in self.prev] or options
+        return min(ok, key=lambda o: (self.used.get(o, 0), options.index(o)))
+
+    def prop(self, code):
+        c = self._best(VARIANTS.get(code, [code]))
+        return None if self.used.get(c, 0) >= self.limit * 2 else c
+
+    def pose(self, sentence):
+        mood = MOOD.get(narrator_for(sentence)[:3], "neutral")
+        return self._best(POSES[mood])
+
+    def take(self, codes):
+        for c in codes:
+            self.used[c] = self.used.get(c, 0) + 1
+        self.prev = set(codes)
+
+
+def key_words(s, n=3):
+    """A few important words of the sentence for a sign, when no drawing fits."""
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]+", s) if w.lower() not in STOP and len(w) > 3]
+    caps = [w for w in words if w[0].isupper()]
+    pick = (caps + [w for w in words if w not in caps])[:n]
+    text = " ".join(pick).upper()
+    while len(text) > 18 and " " in text:
+        text = text.rsplit(" ", 1)[0]
+    return text[:18]
