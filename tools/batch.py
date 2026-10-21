@@ -57,6 +57,8 @@ def run_day(script, render=True):
     t = time.time()
     r = subprocess.run(mv, capture_output=True, text=True)
     if r.returncode or not os.path.exists(mp4):
+        if os.path.exists(mp4):
+            os.remove(mp4)                            # never keep a half-made video (it would be skipped next time)
         err = (r.stderr or r.stdout).strip().splitlines()[-1:] or ["?"]
         return log(f"day {day}: RENDER FAILED: {err[0][:200]}")
     log(f"day {day}: done in {(time.time() - t) / 60:.0f} min, {note}, {len(warns)} layout warnings -> {mp4}")
