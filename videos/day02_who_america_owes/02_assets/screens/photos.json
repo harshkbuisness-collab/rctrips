@@ -1,0 +1,58 @@
+[
+ {
+  "name": "United States Treasury",
+  "title": "United States Department of the Treasury",
+  "file": "p_united_states_treasury.png",
+  "page": "https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury",
+  "desc": "United States federal executive department"
+ },
+ {
+  "name": "United States",
+  "title": "United States",
+  "file": "p_united_states.png",
+  "page": "https://en.wikipedia.org/wiki/United_States",
+  "desc": "Country primarily in North America"
+ },
+ {
+  "name": "Federal Reserve",
+  "title": "Federal Reserve",
+  "file": "p_federal_reserve.png",
+  "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+  "desc": "Central banking system of the US"
+ },
+ {
+  "name": "Treasury",
+  "title": "Treasury",
+  "file": "p_treasury.jpg",
+  "page": "https://en.wikipedia.org/wiki/Treasury",
+  "desc": "Place or organization holding wealth"
+ },
+ {
+  "name": "China",
+  "title": "China",
+  "file": "p_china.png",
+  "page": "https://en.wikipedia.org/wiki/China",
+  "desc": "Country in East Asia"
+ },
+ {
+  "name": "Mainland China",
+  "title": "Mainland China",
+  "file": "p_mainland_china.png",
+  "page": "https://en.wikipedia.org/wiki/Mainland_China",
+  "desc": "Geopolitical term for China without Hong Kong, Macau, Taiwan"
+ },
+ {
+  "name": "Wall Street",
+  "title": "Wall Street",
+  "file": "p_wall_street.jpg",
+  "page": "https://en.wikipedia.org/wiki/Wall_Street",
+  "desc": "Street in Manhattan, New York"
+ },
+ {
+  "name": "Jake",
+  "title": "Jake Gyllenhaal",
+  "file": "p_jake.jpg",
+  "page": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
+  "desc": "American actor (born 1980)"
+ }
+]

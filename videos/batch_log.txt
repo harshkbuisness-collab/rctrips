@@ -12,3 +12,7 @@
 2026-10-21 11:53 day 1: done in 7 min, 1 screenshots failed (s05.png), 0 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
 2026-10-21 12:03 day 1: done in 8 min, 1 screenshots failed (s05.png), 0 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
 2026-10-21 13:21 day 1: done in 9 min, 1 screenshots failed (s05.png), 1 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
+2026-10-21 13:49 day 1: done in 8 min, 1 screenshots failed (s05.png), 1 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
+2026-10-21 14:03 day 2: done in 8 min, 6 screenshots failed (s01.png, s06.png, s19.png, s21.png, s24.png, s29.png), 4 layout warnings -> /home/user/rctrips/videos/day02_who_america_owes/05_export/day02_who_america_owes.mp4
+2026-10-21 14:14 day 3: done in 7 min, 1 screenshots failed (s19.png), 0 layout warnings -> /home/user/rctrips/videos/day03_real_wolf_of_wall_street/05_export/day03_real_wolf_of_wall_street.mp4
+2026-10-21 14:23 day 4: done in 8 min, all screenshots ok, 3 layout warnings -> /home/user/rctrips/videos/day04_why_100_doesnt_buy_much/05_export/day04_why_100_doesnt_buy_much.mp4

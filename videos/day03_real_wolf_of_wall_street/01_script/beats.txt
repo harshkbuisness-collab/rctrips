@@ -3,229 +3,229 @@
 # ---------- CHAPTER 1: The Phone Call ----------
 || title:"The Phone Call"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] A judge once ordered a stockbroker to pay back about one hundred ten million dollars to roughly fifteen hundred people. || title:"The Phone Call"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.616,0.539,0.714,0.575+0.8; H04@0.9,1.0:0.3:bottom
-It all started with phone calls like this one. || title:"The Phone Call"; A01@0.2,0.6:0.58~l; E14@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"$110 MILLION"~pop; C28@0.4,0.64:0.46~pop; E08@0.62,0.76:0.32~r
-It's nineteen ninety-three. || title:"The Phone Call"; C09@0.80,0.6:0.58~r
-Carol is a school nurse in Arizona. || title:"The Phone Call"; C09@0.80,0.6:0.58~r; E25@0.38,0.4:0.32~pop
-She's saved about twenty thousand dollars over fifteen years. || title:"The Phone Call"; C09@0.80,0.6:0.58~r; E25@0.38,0.4:0.32~pop; note:"1993"@0.66,0.12; E01@0.15,0.4:0.32~drop
-One evening, her phone rings. || title:"The Phone Call"; C09@0.80,0.6:0.58~r; E25@0.38,0.4:0.32~pop; note:"1993"@0.66,0.12; E01@0.15,0.4:0.32~drop; E08@0.38,0.76:0.32~pop
-The man on the line sounds warm and sure of himself. || title:"The Phone Call"; E08@0.5,0.6:0.76
-He says he works for a firm in New York, and he's found a small company that Wall Street hasn't noticed yet. || title:"The Phone Call"; E51@0.5,0.6:0.76
-He says the stock costs just a few dollars a share. || title:"The Phone Call"; C02@0.2,0.6:0.58; H17@0.62,0.4:0.32:"$4 A SHARE"~pop
-He says it could double in weeks. || title:"The Phone Call"; C02@0.2,0.6:0.58; H17@0.62,0.4:0.32:"$4 A SHARE"~pop; D13@0.85,0.4:0.32
-And he says this chance won't last past Friday. || title:"The Phone Call"; C02@0.80,0.6:0.58; H17@0.38,0.4:0.32:"$4 A SHARE"~pop; D13@0.15,0.4:0.32; E24@0.38,0.76:0.32~drop; note:"Friday!"@0.66,0.12
-Carol hesitates. || title:"The Phone Call"; C10@0.80,0.6:0.58~r
-Twenty thousand dollars is everything she has. || title:"The Phone Call"; C10@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~pop
-But the man is patient. || title:"The Phone Call"; C10@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~pop; E51@0.15,0.4:0.32~pop; C28@0.60,0.64:0.46~drop
-He tells her about other customers, regular people, who already doubled their money. || title:"The Phone Call"; C10@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~pop; E51@0.15,0.4:0.32~pop; C28@0.60,0.64:0.46~drop; E45@0.38,0.76:0.32~pop
-Carol has never bought a stock before. || title:"The Phone Call"; C11@0.2,0.6:0.58~l
-But he's friendly. || title:"The Phone Call"; C11@0.2,0.6:0.58~l
-He knows her name. || title:"The Phone Call"; E51@0.5,0.6:0.76
-He makes her feel smart for listening. || title:"The Phone Call"; E51@0.5,0.6:0.76
-By the end of the call, she's agreed to buy. || title:"The Phone Call"; C11@0.2,0.6:0.58~l; E51@0.62,0.4:0.32~pop; E01@0.85,0.4:0.32~r
+It all started with phone calls like this one. || title:"The Phone Call"; A01@0.2,0.6:0.58~none; E08@0.62,0.4:0.34~pop
+It's nineteen ninety-three. || title:"The Phone Call"; A15@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"1993"~pop
+Carol is a school nurse in Arizona. || title:"The Phone Call"; C09@0.80,0.6:0.58~none; E10@0.38,0.4:0.34~pop
+She's saved about twenty thousand dollars over fifteen years. || title:"The Phone Call"; C09@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"$20,000"~pop; E21@0.15,0.4:0.34~pop
+One evening, her phone rings. || title:"The Phone Call"; C09@0.80,0.6:0.58~none; E08@0.38,0.4:0.34~pop
+The man on the line sounds warm and sure of himself. || title:"The Phone Call"; H16@0.5,0.6:0.76:"LINE SOUNDS WARM"
+He says he works for a firm in New York, and he's found a small company that Wall Street hasn't noticed yet. || title:"The Phone Call"; A21@0.16,0.62:0.5~none; doc:p_wall_street.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Wall Street"
+He says the stock costs just a few dollars a share. || title:"The Phone Call"; C02@0.2,0.6:0.58~none; G11@0.62,0.4:0.34~pop; E02@0.85,0.4:0.34~pop
+He says it could double in weeks. || title:"The Phone Call"; C02@0.2,0.6:0.58~none; D13@0.62,0.4:0.34~pop; E25@0.85,0.4:0.34~pop
+And he says this chance won't last past Friday. || title:"The Phone Call"; C02@0.80,0.6:0.58~none; E25@0.38,0.4:0.34~pop
+Carol hesitates. || title:"The Phone Call"; C10@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"CAROL HESITATES"~pop
+Twenty thousand dollars is everything she has. || title:"The Phone Call"; C10@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"$20,000"~pop; D01@0.15,0.4:0.34~pop
+But the man is patient. || title:"The Phone Call"; A29@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"PATIENT"~pop
+He tells her about other customers, regular people, who already doubled their money. || title:"The Phone Call"; C10@0.80,0.6:0.58~none; E36@0.38,0.4:0.34~pop; C28@0.15,0.4:0.34~pop
+Carol has never bought a stock before. || title:"The Phone Call"; C11@0.2,0.6:0.58~none; G12@0.62,0.4:0.34~pop; E39@0.85,0.4:0.34~pop
+But he's friendly. || title:"The Phone Call"; H16@0.5,0.6:0.76:"HE'S FRIENDLY"
+He knows her name. || title:"The Phone Call"; H16@0.5,0.6:0.76:"KNOWS NAME"
+He makes her feel smart for listening. || title:"The Phone Call"; H16@0.5,0.6:0.76:"MAKES FEEL SMART"
+By the end of the call, she's agreed to buy. || title:"The Phone Call"; C11@0.2,0.6:0.58~none; E08@0.62,0.4:0.34~pop; D30@0.85,0.4:0.34~pop
 The man on the phone works for a firm called Stratton Oakmont. || title:"The Phone Call"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.559,0.216,0.764,0.259+0.8; H04@0.9,1.0:0.3:bottom
-And the man who built it would later become famous as the Wolf of Wall Street. || title:"The Phone Call"; C02@0.80,0.6:0.58~l; E34@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"STRATTON OAKMONT"~pop; A05@0.60,0.64:0.46~r
+And the man who built it would later become famous as the Wolf of Wall Street. || title:"The Phone Call"; A33@0.16,0.62:0.5~none; doc:p_wolf.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Wolf"
 You may have seen the movie. || title:"The Phone Call"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.341,0.135+0.8; H04@0.9,1.0:0.3:bottom
-The parties, the yachts, the money flying around. || title:"The Phone Call"; A04@0.80,0.6:0.58~r
-It's fun to watch. || title:"The Phone Call"; E03@0.5,0.6:0.76
-But by the end of this video, you'll see why the real story was much worse, and why Carol never saw most of her money again. || title:"The Phone Call"; E03@0.5,0.6:0.76
-To understand how that one phone call worked, we need to go back to the man behind it, and to the day Wall Street crashed. || title:"The Phone Call"; A33@0.2,0.6:0.58~l; E23@0.62,0.4:0.32~pop; D14@0.85,0.4:0.32
+The parties, the yachts, the money flying around. || title:"The Phone Call"; A33@0.80,0.6:0.58~none; E42@0.38,0.4:0.34~pop; E04@0.15,0.4:0.34~pop
+It's fun to watch. || title:"The Phone Call"; H16@0.5,0.6:0.76:"WATCH"
+But by the end of this video, you'll see why the real story was much worse, and why Carol never saw most of her money again. || title:"The Phone Call"; E48@0.5,0.6:0.76
+To understand how that one phone call worked, we need to go back to the man behind it, and to the day Wall Street crashed. || title:"The Phone Call"; A08@0.2,0.6:0.58~none; E17@0.62,0.4:0.34~pop; E08@0.85,0.4:0.34~pop
 
 # ---------- CHAPTER 2: The Day the Market Fell ----------
 || title:"The Day the Market Fell"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Jordan Belfort grew up in Queens, New York, in the nineteen sixties and seventies. || title:"The Day the Market Fell"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.196,0.082,0.232+0.8; H04@0.9,1.0:0.3:bottom
-His parents were both accountants. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop
-Money was always on his mind. || title:"The Day the Market Fell"; E01@0.5,0.6:0.76
-As a teenager, he sold Italian ice on the beach and made thousands of dollars in one summer. || title:"The Day the Market Fell"; E40@0.5,0.6:0.76
-He learned early that he was very good at one thing. || title:"The Day the Market Fell"; E02@0.5,0.6:0.76
-Selling. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58; E40@0.62,0.4:0.32~pop; E02@0.85,0.4:0.32~drop; H18@0.62,0.76:0.32:"SELLING"~pop; A21@0.4,0.64:0.46~r
-In his twenties, he started a meat and seafood business. || title:"The Day the Market Fell"; H14@0.2,0.6:0.58~l
-It grew fast, then went bankrupt. || title:"The Day the Market Fell"; H14@0.2,0.6:0.58~l; H20@0.62,0.4:0.32~pop; D14@0.85,0.4:0.32
-He was broke, and looking for a new way to make money. || title:"The Day the Market Fell"; H14@0.80,0.6:0.58~r; H20@0.38,0.4:0.32~pop; D14@0.15,0.4:0.32; A32@0.60,0.64:0.46~l
-He even tried dental school for a short time. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~r; E14@0.38,0.4:0.32~drop
-He quit on the very first day, after the dean told the class that dentists don't get rich. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~r; E14@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop; A14@0.60,0.64:0.46~l
-In nineteen eighty-seven, he got a job as a trainee at a Wall Street firm called L. || title:"The Day the Market Fell"; E34@0.5,0.6:0.76
-F. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58~l; E34@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop
-Rothschild. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58~l; E34@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E28@0.62,0.76:0.32~pop
-He studied hard and earned his license to sell stocks. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58~l; E34@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E28@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"1987"@0.66,0.12
-His first day as a licensed broker was a Monday. || title:"The Day the Market Fell"; E25@0.62,0.4:0.32~drop; note:"Oct 19, 1987"@0.66,0.12
-October nineteenth, nineteen eighty-seven. || title:"The Day the Market Fell"; E25@0.38,0.4:0.32~drop; note:"Oct 19, 1987"@0.66,0.12; G11@0.15,0.4:0.32~pop; A08@0.80,0.6:0.58~r; E44@0.38,0.76:0.32~pop
+His parents were both accountants. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"PARENTS BOTH"~pop
+Money was always on his mind. || title:"The Day the Market Fell"; E05@0.5,0.6:0.76
+As a teenager, he sold Italian ice on the beach and made thousands of dollars in one summer. || title:"The Day the Market Fell"; H19@0.5,0.6:0.76
+He learned early that he was very good at one thing. || title:"The Day the Market Fell"; H22@0.5,0.6:0.76
+Selling. || title:"The Day the Market Fell"; A24@0.2,0.6:0.58~none; E36@0.62,0.4:0.34~pop
+In his twenties, he started a meat and seafood business. || title:"The Day the Market Fell"; H14@0.2,0.6:0.58~none; E33@0.62,0.4:0.34~pop
+It grew fast, then went bankrupt. || title:"The Day the Market Fell"; A27@0.2,0.6:0.58~none; G01@0.62,0.4:0.34~pop; E24@0.85,0.4:0.34~pop
+He was broke, and looking for a new way to make money. || title:"The Day the Market Fell"; H14@0.80,0.6:0.58~none; E02@0.38,0.4:0.34~pop
+He even tried dental school for a short time. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~none; E10@0.38,0.4:0.34~pop
+He quit on the very first day, after the dean told the class that dentists don't get rich. || title:"The Day the Market Fell"; H13@0.80,0.6:0.58~none; E10@0.38,0.4:0.34~pop; C21@0.15,0.4:0.34~pop
+In nineteen eighty-seven, he got a job as a trainee at a Wall Street firm called L. || title:"The Day the Market Fell"; H18@0.5,0.6:0.76:"1987"
+F. || title:"The Day the Market Fell"; A28@0.2,0.6:0.58~none
+Rothschild. || title:"The Day the Market Fell"; H05@0.2,0.6:0.58~none; C27@0.62,0.4:0.34~pop
+He studied hard and earned his license to sell stocks. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58~none; G12@0.62,0.4:0.34~pop; E39@0.85,0.4:0.34~pop
+His first day as a licensed broker was a Monday. || title:"The Day the Market Fell"; H13@0.2,0.6:0.58~none; E25@0.62,0.4:0.34~pop
+October nineteenth, nineteen eighty-seven. || title:"The Day the Market Fell"; H08@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"1987"~pop
 That day, the Dow Jones fell about twenty-two percent. || title:"The Day the Market Fell"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.335,0.135+0.8; H04@0.9,1.0:0.3:bottom
 It's still the biggest one-day percentage drop in its history. || title:"The Day the Market Fell"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History" hl=0.47,0.178,0.616,0.22+0.8; H04@0.9,1.0:0.3:bottom
-People called it Black Monday. || title:"The Day the Market Fell"; D14@0.38,0.4:0.32; G02@0.15,0.4:0.32~l; E47@0.38,0.76:0.32~pop; H18@0.15,0.76:0.32:"BLACK MONDAY"~pop; A45@0.80,0.6:0.58~pop
-A few months later, Belfort's firm closed its doors. || title:"The Day the Market Fell"; E34@0.5,0.6:0.76
-He was out of a job again. || title:"The Day the Market Fell"; E20@0.5,0.6:0.76
-But he soon found a corner of the market most people ignored. || title:"The Day the Market Fell"; E20@0.5,0.6:0.76
-Penny stocks. || title:"The Day the Market Fell"; E34@0.62,0.4:0.32~pop; E20@0.85,0.4:0.32~drop; H14@0.2,0.6:0.58~l; B11@0.4,0.64:0.46~pop; E16@0.62,0.76:0.32~pop
-The crash taught him something dangerous. || title:"The Day the Market Fell"; A06@0.2,0.6:0.58~l
-Prices aren't always set by what a company is worth. || title:"The Day the Market Fell"; A06@0.2,0.6:0.58~l; E52@0.62,0.4:0.32~pop
-Sometimes they're set by fear, and by excitement. || title:"The Day the Market Fell"; A06@0.2,0.6:0.58~l; E52@0.62,0.4:0.32~pop; G03@0.85,0.4:0.32~drop
-And excitement can be sold. || title:"The Day the Market Fell"; A06@0.80,0.6:0.58~r; E52@0.38,0.4:0.32~pop; G03@0.15,0.4:0.32~drop; E17@0.38,0.76:0.32~pop
+People called it Black Monday. || title:"The Day the Market Fell"; A38@0.80,0.6:0.58~none; E08@0.38,0.4:0.34~pop; H11@0.15,0.4:0.34~pop
+A few months later, Belfort's firm closed its doors. || title:"The Day the Market Fell"; A40@0.16,0.62:0.5~none; doc:p_jordan_belfort.png@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Jordan Belfort"
+He was out of a job again. || title:"The Day the Market Fell"; H14@0.2,0.6:0.58~none; C12@0.62,0.4:0.34~pop
+But he soon found a corner of the market most people ignored. || title:"The Day the Market Fell"; G03@0.5,0.6:0.76
+Penny stocks. || title:"The Day the Market Fell"; A40@0.2,0.6:0.58~none; E04@0.62,0.4:0.34~pop; G11@0.85,0.4:0.34~pop
+The crash taught him something dangerous. || title:"The Day the Market Fell"; H14@0.2,0.6:0.58~none; E44@0.62,0.4:0.34~pop; D14@0.85,0.4:0.34~pop
+Prices aren't always set by what a company is worth. || title:"The Day the Market Fell"; A01@0.2,0.6:0.58~none; E37@0.62,0.4:0.34~pop; D21@0.85,0.4:0.34~pop
+Sometimes they're set by fear, and by excitement. || title:"The Day the Market Fell"; A15@0.2,0.6:0.58~none; E49@0.62,0.4:0.34~pop
+And excitement can be sold. || title:"The Day the Market Fell"; A18@0.80,0.6:0.58~none; D30@0.38,0.4:0.34~pop
 Penny stocks are shares of tiny companies that cost very little, often under five dollars. || title:"The Day the Market Fell"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.264,0.135+0.8; H04@0.9,1.0:0.3:bottom
-They're risky, hard to check, and easy to push around. || title:"The Day the Market Fell"; A38@0.80,0.6:0.58~r; B11@0.60,0.64:0.46~drop; H17@0.38,0.4:0.32:"UNDER $5"~pop; E44@0.15,0.4:0.32~pop
-Big stock exchanges have strict rules about what companies must report. || title:"The Day the Market Fell"; H28@0.5,0.6:0.76
-Many penny stocks traded outside those exchanges, where far less information was public. || title:"The Day the Market Fell"; E48@0.5,0.6:0.76
-That meant a buyer like Carol had almost no way to check if a company was real, healthy, or worth anything at all. || title:"The Day the Market Fell"; C09@0.2,0.6:0.58~l; E16@0.62,0.4:0.32~pop
-She had to trust the voice on the phone. || title:"The Day the Market Fell"; C09@0.80,0.6:0.58~r; E16@0.38,0.4:0.32~pop; E08@0.15,0.4:0.32~drop; E48@0.38,0.76:0.32~pop
-And the brokers who sold them could earn huge commissions, much bigger than on normal stocks. || title:"The Day the Market Fell"; E05@0.38,0.4:0.32~drop
-Belfort saw a gold mine. || title:"The Day the Market Fell"; E04@0.5,0.6:0.76
-He just needed an army of salesmen. || title:"The Day the Market Fell"; E04@0.5,0.6:0.76
+They're risky, hard to check, and easy to push around. || title:"The Day the Market Fell"; A29@0.80,0.6:0.58~none; E50@0.38,0.4:0.34~pop
+Big stock exchanges have strict rules about what companies must report. || title:"The Day the Market Fell"; A33@0.2,0.6:0.58~none; G12@0.62,0.4:0.34~pop; H22@0.85,0.4:0.34~pop
+Many penny stocks traded outside those exchanges, where far less information was public. || title:"The Day the Market Fell"; A44@0.2,0.6:0.58~none; E04@0.62,0.4:0.34~pop; G03@0.85,0.4:0.34~pop
+That meant a buyer like Carol had almost no way to check if a company was real, healthy, or worth anything at all. || title:"The Day the Market Fell"; C09@0.2,0.6:0.58~none; E33@0.62,0.4:0.34~pop
+She had to trust the voice on the phone. || title:"The Day the Market Fell"; C09@0.80,0.6:0.58~none; E08@0.38,0.4:0.34~pop
+And the brokers who sold them could earn huge commissions, much bigger than on normal stocks. || title:"The Day the Market Fell"; A24@0.80,0.6:0.58~none; G11@0.38,0.4:0.34~pop; H19@0.15,0.4:0.34~pop
+Belfort saw a gold mine. || title:"The Day the Market Fell"; E05@0.5,0.6:0.76
+He just needed an army of salesmen. || title:"The Day the Market Fell"; G18@0.5,0.6:0.76
 
 # ---------- CHAPTER 3: The Boiler Room ----------
 || title:"The Boiler Room"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Around nineteen eighty-nine, Belfort and his partner Danny Porush took control of a small firm on Long Island. || title:"The Boiler Room"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.202,0.769,0.326+0.8; H04@0.9,1.0:0.3:bottom
-They named it Stratton Oakmont, because it sounded like old money. || title:"The Boiler Room"; H13@0.2,0.6:0.58~l; H09@0.4,0.64:0.46~r; E34@0.62,0.4:0.32~drop; E27@0.85,0.4:0.32~pop; H18@0.62,0.76:0.32:"STRATTON OAKMONT"~pop
-Inside, it didn't look like old money at all. || title:"The Boiler Room"; C28@0.2,0.6:0.58~drop; E08@0.62,0.4:0.32~pop
-It was a huge room full of young men with phones, shouting, cheering, and calling strangers all day long. || title:"The Boiler Room"; C28@0.80,0.6:0.58~drop; E08@0.38,0.4:0.32~pop; E49@0.15,0.4:0.32~pop
+[calm] Around nineteen eighty-nine, Belfort and his partner Danny Porush took control of a small firm on Long Island. || title:"The Boiler Room"; A28@0.16,0.62:0.5~none; doc:p_danny_porush.png@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Danny Porush"
+They named it Stratton Oakmont, because it sounded like old money. || title:"The Boiler Room"; A28@0.16,0.62:0.5~none; doc:p_stratton.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Tiffany Stratton"
+Inside, it didn't look like old money at all. || title:"The Boiler Room"; A28@0.2,0.6:0.58~none; D01@0.62,0.4:0.34~pop
+It was a huge room full of young men with phones, shouting, cheering, and calling strangers all day long. || title:"The Boiler Room"; H05@0.80,0.6:0.58~none; E08@0.38,0.4:0.34~pop; E25@0.15,0.4:0.34~pop
 This kind of office has a name. || title:"The Boiler Room"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.28,0.129,0.316+0.8; H04@0.9,1.0:0.3:bottom
-A boiler room. || title:"The Boiler Room"; E19@0.5,0.6:0.76
-A place where salespeople make high-pressure calls to sell investments that are often bad or worthless. || title:"The Boiler Room"; E44@0.5,0.6:0.76
-Many of the brokers were barely twenty. || title:"The Boiler Room"; H09@0.2,0.6:0.58~l
-Some had no finance background at all. || title:"The Boiler Room"; H09@0.2,0.6:0.58~l; H10@0.4,0.64:0.46~pop
-What they did have was a script. || title:"The Boiler Room"; H09@0.2,0.6:0.58~l; H10@0.4,0.64:0.46~pop; E10@0.62,0.4:0.32~pop
-Belfort trained them himself. || title:"The Boiler Room"; A40@0.2,0.6:0.58~l; E14@0.62,0.4:0.32~drop
-He gave fiery speeches on the sales floor, telling them they could get rich if they just kept dialing. || title:"The Boiler Room"; A40@0.2,0.6:0.58~l; E14@0.62,0.4:0.32~drop; C28@0.4,0.64:0.46~pop; E03@0.85,0.4:0.32~drop; E08@0.62,0.76:0.32~pop
-New brokers who hit their targets got big bonuses, nice cars, and fancy apartments. || title:"The Boiler Room"; E41@0.38,0.4:0.32~drop; H23@0.15,0.4:0.32~pop
-Brokers who didn't were shouted at, or fired. || title:"The Boiler Room"; E28@0.5,0.6:0.76
-The pressure never stopped. || title:"The Boiler Room"; E50@0.5,0.6:0.76
-The script told them exactly what to say. || title:"The Boiler Room"; H15@0.5,0.6:0.76:"THE SCRIPT"
-How to sound like an expert. || title:"The Boiler Room"; H15@0.5,0.6:0.76:"THE SCRIPT"
-How to answer every worry. || title:"The Boiler Room"; H15@0.62,0.4:0.32:"THE SCRIPT"~pop; H10@0.2,0.6:0.58~r; E51@0.85,0.4:0.32~pop
-And how to never, ever take no for an answer. || title:"The Boiler Room"; H15@0.62,0.4:0.32:"THE SCRIPT"~pop; H10@0.2,0.6:0.58~r; E51@0.85,0.4:0.32~pop; A48@0.4,0.64:0.46~l
-First, they'd call with a safe, well-known stock, to build trust. || title:"The Boiler Room"; E08@0.62,0.4:0.32~pop; H16@0.85,0.4:0.32:"CALL 1: TRUST"~pop
-Then, on the second call, they'd push the risky penny stock they really wanted to sell. || title:"The Boiler Room"; E08@0.38,0.4:0.32~pop; H16@0.15,0.4:0.32:"CALL 1: TRUST"~pop; note:"CALL 2: PENNY STOCK"@0.66,0.12; B11@0.80,0.6:0.58~drop
-That's exactly what happened to Carol. || title:"The Boiler Room"; C11@0.80,0.6:0.58~r
-The first stock she bought was a name she'd heard of. || title:"The Boiler Room"; C11@0.80,0.6:0.58~r; D13@0.38,0.4:0.32
-It went up a little. || title:"The Boiler Room"; D13@0.5,0.6:0.76
-She felt good. || title:"The Boiler Room"; E08@0.5,0.6:0.76
-So when he called back, she listened. || title:"The Boiler Room"; E51@0.5,0.6:0.76
+A boiler room. || title:"The Boiler Room"; H16@0.5,0.6:0.76:"BOILER ROOM"
+A place where salespeople make high-pressure calls to sell investments that are often bad or worthless. || title:"The Boiler Room"; A40@0.2,0.6:0.58~none; E08@0.62,0.4:0.34~pop; E36@0.85,0.4:0.34~pop
+Many of the brokers were barely twenty. || title:"The Boiler Room"; H18@0.5,0.6:0.76:"20"
+Some had no finance background at all. || title:"The Boiler Room"; A15@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"FINANCE BACKGROUND"~pop
+What they did have was a script. || title:"The Boiler Room"; A18@0.2,0.6:0.58~none; E52@0.62,0.4:0.34~pop
+Belfort trained them himself. || title:"The Boiler Room"; A29@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"BELFORT TRAINED"~pop
+He gave fiery speeches on the sales floor, telling them they could get rich if they just kept dialing. || title:"The Boiler Room"; H10@0.2,0.6:0.58~none; C22@0.62,0.4:0.34~pop
+New brokers who hit their targets got big bonuses, nice cars, and fancy apartments. || title:"The Boiler Room"; A33@0.80,0.6:0.58~none; E41@0.38,0.4:0.34~pop; E48@0.15,0.4:0.34~pop
+Brokers who didn't were shouted at, or fired. || title:"The Boiler Room"; E52@0.5,0.6:0.76
+The pressure never stopped. || title:"The Boiler Room"; H16@0.5,0.6:0.76:"PRESSURE NEVER"
+The script told them exactly what to say. || title:"The Boiler Room"; E48@0.5,0.6:0.76
+How to sound like an expert. || title:"The Boiler Room"; E52@0.5,0.6:0.76
+How to answer every worry. || title:"The Boiler Room"; H05@0.2,0.6:0.58~none; E44@0.62,0.4:0.34~pop; E48@0.85,0.4:0.34~pop
+And how to never, ever take no for an answer. || title:"The Boiler Room"; H08@0.2,0.6:0.58~none; E52@0.62,0.4:0.34~pop
+First, they'd call with a safe, well-known stock, to build trust. || title:"The Boiler Room"; A21@0.2,0.6:0.58~none; E08@0.62,0.4:0.34~pop; E21@0.85,0.4:0.34~pop
+Then, on the second call, they'd push the risky penny stock they really wanted to sell. || title:"The Boiler Room"; A16@0.80,0.6:0.58~none; E08@0.38,0.4:0.34~pop; E49@0.15,0.4:0.34~pop
+That's exactly what happened to Carol. || title:"The Boiler Room"; C11@0.80,0.6:0.58~none; E48@0.38,0.4:0.34~pop
+The first stock she bought was a name she'd heard of. || title:"The Boiler Room"; C11@0.80,0.6:0.58~none; G03@0.38,0.4:0.34~pop; E39@0.15,0.4:0.34~pop
+It went up a little. || title:"The Boiler Room"; H16@0.5,0.6:0.76:"WENT LITTLE"
+She felt good. || title:"The Boiler Room"; H16@0.5,0.6:0.76:"FELT GOOD"
+So when he called back, she listened. || title:"The Boiler Room"; H16@0.5,0.6:0.76:"CALLED BACK"
 At its peak, Stratton Oakmont had around a thousand brokers. || title:"The Boiler Room"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.62,0.769,0.848+0.8; H04@0.9,1.0:0.3:bottom
-They called people across America, every single day. || title:"The Boiler Room"; C28@0.2,0.6:0.58~drop; G13@0.62,0.4:0.32~pop
-Most of their customers were people like Carol. || title:"The Boiler Room"; C28@0.2,0.6:0.58~drop; G13@0.62,0.4:0.32~pop; E08@0.85,0.4:0.32~pop; H18@0.62,0.76:0.32:"1,000 BROKERS"~pop; C09@0.4,0.64:0.46~r
-But selling a stock is not a crime. || title:"The Boiler Room"; A06@0.2,0.6:0.58~l
-So how did Stratton turn these sales into a fraud? || title:"The Boiler Room"; A06@0.80,0.6:0.58~r; E22@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop
-The answer is a trick called the pump and dump. || title:"The Boiler Room"; A06@0.80,0.6:0.58~r; E22@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop; H18@0.38,0.76:0.32:"PUMP & DUMP"~pop
+They called people across America, every single day. || title:"The Boiler Room"; A17@0.2,0.6:0.58~none; H09@0.62,0.4:0.34~pop; G13@0.85,0.4:0.34~pop
+Most of their customers were people like Carol. || title:"The Boiler Room"; C09@0.2,0.6:0.58~none; D30@0.62,0.4:0.34~pop; H11@0.85,0.4:0.34~pop
+But selling a stock is not a crime. || title:"The Boiler Room"; A01@0.2,0.6:0.58~none; G11@0.62,0.4:0.34~pop; E55@0.85,0.4:0.34~pop
+So how did Stratton turn these sales into a fraud? || title:"The Boiler Room"; C09@0.80,0.6:0.58~none; E14@0.38,0.4:0.34~pop; E52@0.15,0.4:0.34~pop
+The answer is a trick called the pump and dump. || title:"The Boiler Room"; A05@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"ANSWER TRICK"~pop
 
 # ---------- CHAPTER 4: Pump and Dump ----------
 || title:"Pump and Dump"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Here's how a pump and dump works. || title:"Pump and Dump"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC" hl=0.373,0.294,0.81,0.354+0.8; H04@0.9,1.0:0.3:bottom
-Step one: insiders quietly buy up lots of shares of a tiny company, while the price is very low. || title:"Pump and Dump"; C04@0.4,0.64:0.46~r; B11@0.2,0.6:0.58~drop
-Step two is the pump. || title:"Pump and Dump"; E08@0.5,0.6:0.76
-Hundreds of brokers call people like Carol and tell them the stock is about to take off. || title:"Pump and Dump"; E08@0.62,0.4:0.32~pop; C28@0.2,0.6:0.58~drop; D13@0.85,0.4:0.32
-Everyone buys, and the price shoots up. || title:"Pump and Dump"; E08@0.62,0.4:0.32~pop; C28@0.2,0.6:0.58~drop; D13@0.85,0.4:0.32; E45@0.62,0.76:0.32~pop
-The brokers didn't explain the risks. || title:"Pump and Dump"; E26@0.38,0.4:0.32~drop
-They talked about rockets and secrets and getting in early. || title:"Pump and Dump"; E26@0.38,0.4:0.32~drop; A37@0.80,0.6:0.58~r; E24@0.15,0.4:0.32~pop
-Fear of missing out did the rest. || title:"Pump and Dump"; E26@0.38,0.4:0.32~drop; A37@0.80,0.6:0.58~r; E24@0.15,0.4:0.32~pop; E49@0.38,0.76:0.32~pop
-Step three is the dump. || title:"Pump and Dump"; C02@0.80,0.6:0.58~l; E02@0.38,0.4:0.32~drop
-Once the price is high, the insiders sell all their shares at once, for a big profit. || title:"Pump and Dump"; E03@0.5,0.6:0.76
+Step one: insiders quietly buy up lots of shares of a tiny company, while the price is very low. || title:"Pump and Dump"; A15@0.2,0.6:0.58~none; G12@0.62,0.4:0.34~pop; D21@0.85,0.4:0.34~pop
+Step two is the pump. || title:"Pump and Dump"; H18@0.5,0.6:0.76:"2 IS"
+Hundreds of brokers call people like Carol and tell them the stock is about to take off. || title:"Pump and Dump"; C04@0.2,0.6:0.58~none; G03@0.62,0.4:0.34~pop; C28@0.85,0.4:0.34~pop
+Everyone buys, and the price shoots up. || title:"Pump and Dump"; A29@0.2,0.6:0.58~none; E38@0.62,0.4:0.34~pop; H09@0.85,0.4:0.34~pop
+The brokers didn't explain the risks. || title:"Pump and Dump"; A33@0.80,0.6:0.58~none; E50@0.38,0.4:0.34~pop
+They talked about rockets and secrets and getting in early. || title:"Pump and Dump"; A37@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"TALKED ROCKETS"~pop
+Fear of missing out did the rest. || title:"Pump and Dump"; A44@0.80,0.6:0.58~none; E44@0.38,0.4:0.34~pop
+Step three is the dump. || title:"Pump and Dump"; A24@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"3 IS"~pop
+Once the price is high, the insiders sell all their shares at once, for a big profit. || title:"Pump and Dump"; A27@0.2,0.6:0.58~none; G11@0.62,0.4:0.34~pop; D30@0.85,0.4:0.34~pop
 With nobody left to keep buying, the price crashes. || title:"Pump and Dump"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.294,0.135+0.8; H04@0.9,1.0:0.3:bottom
-And the people holding the shares at the end are the ones who were told it was a sure thing. || title:"Pump and Dump"; D14@0.62,0.4:0.32; E46@0.85,0.4:0.32~drop; C10@0.2,0.6:0.58~l; B08@0.4,0.64:0.46~pop
-That's the cruel trick. || title:"Pump and Dump"; E22@0.62,0.4:0.32~drop
-The early buyers win only because the late buyers lose. || title:"Pump and Dump"; E22@0.38,0.4:0.32~drop; C02@0.80,0.6:0.58~l
-And the brokers always made sure the insiders sold first. || title:"Pump and Dump"; E22@0.38,0.4:0.32~drop; C02@0.80,0.6:0.58~l; C10@0.60,0.64:0.46~r
-Stratton had an extra trick. || title:"Pump and Dump"; G12@0.38,0.4:0.32~drop
-It helped small companies go public, through IPOs. || title:"Pump and Dump"; H18@0.5,0.6:0.76:"IPO"
-That's when a company first sells its shares to the public. || title:"Pump and Dump"; H18@0.5,0.6:0.76:"IPO"
-But many of those new shares quietly went to Belfort's friends and secret accounts at very low prices. || title:"Pump and Dump"; E21@0.5,0.6:0.76
-The brokers then pumped the price up, and the insiders sold. || title:"Pump and Dump"; C04@0.2,0.6:0.58~r; E21@0.62,0.4:0.32~pop; A37@0.4,0.64:0.46~pop; D13@0.85,0.4:0.32; E02@0.62,0.76:0.32~drop
+And the people holding the shares at the end are the ones who were told it was a sure thing. || title:"Pump and Dump"; A28@0.2,0.6:0.58~none; G12@0.62,0.4:0.34~pop; H11@0.85,0.4:0.34~pop
+That's the cruel trick. || title:"Pump and Dump"; A04@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"CRUEL TRICK"~pop
+The early buyers win only because the late buyers lose. || title:"Pump and Dump"; A02@0.80,0.6:0.58~none; E28@0.38,0.4:0.34~pop; E46@0.15,0.4:0.34~pop
+And the brokers always made sure the insiders sold first. || title:"Pump and Dump"; H01@0.80,0.6:0.58~none; H19@0.38,0.4:0.34~pop
+Stratton had an extra trick. || title:"Pump and Dump"; C02@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"STRATTON EXTRA"~pop
+It helped small companies go public, through IPOs. || title:"Pump and Dump"; E34@0.5,0.6:0.76
+That's when a company first sells its shares to the public. || title:"Pump and Dump"; A20@0.2,0.6:0.58~none; E06@0.62,0.4:0.34~pop; G03@0.85,0.4:0.34~pop
+But many of those new shares quietly went to Belfort's friends and secret accounts at very low prices. || title:"Pump and Dump"; A46@0.16,0.62:0.5~none; doc:p_jordan_belfort.png@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Jordan Belfort"
+The brokers then pumped the price up, and the insiders sold. || title:"Pump and Dump"; H08@0.2,0.6:0.58~none; H17@0.62,0.4:0.34:""~pop; E39@0.85,0.4:0.34~pop
 One of those companies was a shoe brand, Steve Madden. || title:"Pump and Dump"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.28,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Steve Madden himself later went to prison for his part in the stock scheme. || title:"Pump and Dump"; H19@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"STEVE MADDEN"~pop; E55@0.38,0.76:0.32~pop; A05@0.80,0.6:0.58~r
-For Carol, it looked simple. || title:"Pump and Dump"; C09@0.80,0.6:0.58~r
-Her broker said buy, so she bought. || title:"Pump and Dump"; C09@0.80,0.6:0.58~r; E08@0.38,0.4:0.32~pop
-Then he said hold, so she held. || title:"Pump and Dump"; E08@0.5,0.6:0.76
-When she finally asked to sell, he talked her out of it, again and again. || title:"Pump and Dump"; E51@0.5,0.6:0.76
-By the time she got out, her twenty thousand dollars had shrunk to about four thousand. || title:"Pump and Dump"; C12@0.2,0.6:0.58~l; H17@0.62,0.4:0.32:"$20,000 → $4,000"~pop
-And her money had helped pay for something she'd never see. || title:"Pump and Dump"; C12@0.2,0.6:0.58~l; H17@0.62,0.4:0.32:"$20,000 → $4,000"~pop; D14@0.85,0.4:0.32; E50@0.62,0.76:0.32~drop
-She didn't tell her family for months. || title:"Pump and Dump"; C10@0.80,0.6:0.58~r
-She felt foolish. || title:"Pump and Dump"; C10@0.80,0.6:0.58~r; A41@0.60,0.64:0.46~pop; E52@0.38,0.4:0.32~pop
-She thought it was her own fault for trusting a stranger. || title:"Pump and Dump"; C10@0.80,0.6:0.58~r; A41@0.60,0.64:0.46~pop; E52@0.38,0.4:0.32~pop; E48@0.15,0.4:0.32~pop
-But it wasn't just her. || title:"Pump and Dump"; C28@0.80,0.6:0.58~drop; G13@0.38,0.4:0.32~pop
-Thousands of people across the country got the same calls, heard the same script, and lost money the same way. || title:"Pump and Dump"; H15@0.5,0.6:0.76:"SAME SCRIPT"
-A life of crazy spending. || title:"Pump and Dump"; E03@0.5,0.6:0.76
-And that's the part the movie loves to show. || title:"Pump and Dump"; E26@0.62,0.4:0.32~drop; E03@0.85,0.4:0.32~drop; C23@0.2,0.6:0.58~r
+Steve Madden himself later went to prison for his part in the stock scheme. || title:"Pump and Dump"; C04@0.80,0.6:0.58~none; E55@0.38,0.4:0.34~pop; G11@0.15,0.4:0.34~pop
+For Carol, it looked simple. || title:"Pump and Dump"; C09@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"CAROL LOOKED"~pop
+Her broker said buy, so she bought. || title:"Pump and Dump"; C09@0.80,0.6:0.58~none; D30@0.38,0.4:0.34~pop
+Then he said hold, so she held. || title:"Pump and Dump"; H16@0.5,0.6:0.76:"SAID HOLD HELD"
+When she finally asked to sell, he talked her out of it, again and again. || title:"Pump and Dump"; H19@0.5,0.6:0.76
+By the time she got out, her twenty thousand dollars had shrunk to about four thousand. || title:"Pump and Dump"; C12@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"$20,000"~pop; B10@0.85,0.4:0.34~pop
+And her money had helped pay for something she'd never see. || title:"Pump and Dump"; C12@0.2,0.6:0.58~none; E01@0.62,0.4:0.34~pop
+She didn't tell her family for months. || title:"Pump and Dump"; C10@0.80,0.6:0.58~none; H27@0.38,0.4:0.34~pop; E25@0.15,0.4:0.34~pop
+She felt foolish. || title:"Pump and Dump"; C10@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"FELT FOOLISH"~pop
+She thought it was her own fault for trusting a stranger. || title:"Pump and Dump"; C10@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"THOUGHT FAULT"~pop
+But it wasn't just her. || title:"Pump and Dump"; C10@0.80,0.6:0.58~none
+Thousands of people across the country got the same calls, heard the same script, and lost money the same way. || title:"Pump and Dump"; E43@0.5,0.6:0.76
+A life of crazy spending. || title:"Pump and Dump"; H16@0.5,0.6:0.76:"LIFE CRAZY"
+And that's the part the movie loves to show. || title:"Pump and Dump"; A01@0.2,0.6:0.58~none; E13@0.62,0.4:0.34~pop
 
 # ---------- CHAPTER 5: The Party ----------
 || title:"The Party"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Belfort was reportedly making tens of millions of dollars a year. || title:"The Party"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.28,0.125,0.316+0.8; H04@0.9,1.0:0.3:bottom
-He spent it as fast as it came in. || title:"The Party"; C23@0.2,0.6:0.58~l; E27@0.62,0.4:0.32~pop
-Mansions, cars, helicopters, and a yacht. || title:"The Party"; C23@0.80,0.6:0.58~r; E27@0.38,0.4:0.32~pop; E41@0.15,0.4:0.32~drop; E34@0.38,0.76:0.32~pop; E03@0.15,0.76:0.32~drop
-The yacht, called Nadine, was once owned by a famous fashion designer. || title:"The Party"; E31@0.38,0.4:0.32~l; G24@0.15,0.4:0.32~drop
-In nineteen ninety-six, it sank in a storm off the coast of Italy. || title:"The Party"; E31@0.38,0.4:0.32~l; G24@0.15,0.4:0.32~drop; E46@0.38,0.76:0.32~pop; G16@0.15,0.76:0.32~pop
-Everyone on board was rescued. || title:"The Party"; G16@0.5,0.6:0.76
-There were wild office parties, heavy drug use, and a lot of cash moving in strange ways. || title:"The Party"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.638,0.76,0.732,0.796+0.8; H04@0.9,1.0:0.3:bottom
-Some of it was smuggled to secret Swiss bank accounts. || title:"The Party"; C28@0.2,0.6:0.58~drop; E49@0.62,0.4:0.32~pop; E06@0.85,0.4:0.32~pop; G16@0.62,0.76:0.32~pop; note:"Switzerland"@0.66,0.12; E21@0.85,0.76:0.32~r
-In the movie, this part feels like a thrill ride. || title:"The Party"; E13@0.62,0.4:0.32~drop
-You laugh. || title:"The Party"; E13@0.38,0.4:0.32~drop; A03@0.80,0.6:0.58~r; E26@0.15,0.4:0.32~pop
-You're almost cheering for him. || title:"The Party"; E13@0.38,0.4:0.32~drop; A03@0.80,0.6:0.58~r; E26@0.15,0.4:0.32~pop; H03@0.60,0.64:0.46~pop
-But stop and think about where every one of those dollars came from. || title:"The Party"; A12@0.80,0.6:0.58~r
-Not from building a business. || title:"The Party"; A12@0.80,0.6:0.58~r; E02@0.38,0.4:0.32~pop
-From people like Carol. || title:"The Party"; A12@0.80,0.6:0.58~r; E02@0.38,0.4:0.32~pop; C10@0.60,0.64:0.46~l
+[calm] Belfort was reportedly making tens of millions of dollars a year. || title:"The Party"; A15@0.2,0.6:0.58~none; H22@0.62,0.4:0.34~pop; H09@0.85,0.4:0.34~pop
+He spent it as fast as it came in. || title:"The Party"; C23@0.2,0.6:0.58~none; E24@0.62,0.4:0.34~pop
+Mansions, cars, helicopters, and a yacht. || title:"The Party"; A18@0.80,0.6:0.58~none; D22@0.38,0.4:0.34~pop
+The yacht, called Nadine, was once owned by a famous fashion designer. || title:"The Party"; A38@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"NADINE YACHT"~pop
+In nineteen ninety-six, it sank in a storm off the coast of Italy. || title:"The Party"; A29@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"1996"~pop; G24@0.15,0.4:0.34~pop
+Everyone on board was rescued. || title:"The Party"; A33@0.2,0.6:0.58~none; H11@0.62,0.4:0.34~pop
+There were wild office parties, heavy drug use, and a lot of cash moving in strange ways. || title:"The Party"; A44@0.2,0.6:0.58~none; E34@0.62,0.4:0.34~pop; D01@0.85,0.4:0.34~pop
+Some of it was smuggled to secret Swiss bank accounts. || title:"The Party"; A46@0.2,0.6:0.58~none; G16@0.62,0.4:0.34~pop; D15@0.85,0.4:0.34~pop
+In the movie, this part feels like a thrill ride. || title:"The Party"; A24@0.2,0.6:0.58~none; E13@0.62,0.4:0.34~pop
+You laugh. || title:"The Party"; A27@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"LAUGH"~pop
+You're almost cheering for him. || title:"The Party"; C23@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"YOU'RE ALMOST"~pop
+But stop and think about where every one of those dollars came from. || title:"The Party"; A28@0.80,0.6:0.58~none; B10@0.38,0.4:0.34~pop
+Not from building a business. || title:"The Party"; H05@0.80,0.6:0.58~none; E33@0.38,0.4:0.34~pop
+From people like Carol. || title:"The Party"; C10@0.80,0.6:0.58~none; C28@0.38,0.4:0.34~pop
 Every yacht party was paid for by a teacher, || title:"The Party"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC"; H04@0.9,1.0:0.3:bottom
-a nurse, a mechanic, or a retiree who trusted a voice on the phone. || title:"The Party"; E31@0.5,0.6:0.76
-Regulators had noticed. || title:"The Party"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.448,0.769,0.624+0.8; H04@0.9,1.0:0.3:bottom
-As early as nineteen ninety-two, the S E C was taking Stratton to court. || title:"The Party"; G09@0.62,0.4:0.32~drop; E16@0.85,0.4:0.32~pop
-But the firm kept fighting, and kept calling. || title:"The Party"; G09@0.62,0.4:0.32~drop; E16@0.85,0.4:0.32~pop; E14@0.62,0.76:0.32~pop; E08@0.85,0.76:0.32~pop; A05@0.2,0.6:0.58~l
-It took years. || title:"The Party"; E23@0.62,0.4:0.32~pop; C28@0.2,0.6:0.58~drop
-But in the end, the people who had protected Belfort started to turn against him. || title:"The Party"; E23@0.38,0.4:0.32~pop; C28@0.80,0.6:0.58~drop; E52@0.15,0.4:0.32~pop; E55@0.38,0.76:0.32~pop
+a nurse, a mechanic, or a retiree who trusted a voice on the phone. || title:"The Party"; D25@0.5,0.6:0.76
+Regulators had noticed. || title:"The Party"; A40@0.2,0.6:0.58~none; E14@0.62,0.4:0.34~pop
+As early as nineteen ninety-two, the S E C was taking Stratton to court. || title:"The Party"; A01@0.16,0.62:0.5~none; doc:p_stratton.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Tiffany Stratton"
+But the firm kept fighting, and kept calling. || title:"The Party"; A01@0.2,0.6:0.58~none; D21@0.62,0.4:0.34~pop
+It took years. || title:"The Party"; A15@0.2,0.6:0.58~none; E23@0.62,0.4:0.34~pop
+But in the end, the people who had protected Belfort started to turn against him. || title:"The Party"; C09@0.80,0.6:0.58~none; E21@0.38,0.4:0.34~pop; H09@0.15,0.4:0.34~pop
 
 # ---------- CHAPTER 6: The Fall ----------
 || title:"The Fall"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] In December nineteen ninety-six, the industry's regulator, the N A S D, kicked Stratton Oakmont out for good. || title:"The Fall"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.844,0.769,0.994+0.8; H04@0.9,1.0:0.3:bottom
-The firm shut down. || title:"The Fall"; E25@0.5,0.6:0.76
-But the money trail didn't end there. || title:"The Fall"; E55@0.5,0.6:0.76
-The FBI had been watching for years, and in nineteen ninety-eight, Belfort was charged with securities fraud and money laundering. || title:"The Fall"; D26@0.5,0.6:0.76
-He pleaded guilty. || title:"The Fall"; E14@0.62,0.4:0.32~drop
-And then he made a deal. || title:"The Fall"; E14@0.62,0.4:0.32~drop; H14@0.2,0.6:0.58; E22@0.85,0.4:0.32~pop
-To get a shorter sentence, he agreed to help the government catch others. || title:"The Fall"; E14@0.62,0.4:0.32~drop; H14@0.2,0.6:0.58; E22@0.85,0.4:0.32~pop; E51@0.62,0.76:0.32~pop
+[calm] In December nineteen ninety-six, the industry's regulator, the N A S D, kicked Stratton Oakmont out for good. || title:"The Fall"; A18@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"1996"~pop; E14@0.15,0.4:0.34~pop
+The firm shut down. || title:"The Fall"; A29@0.2,0.6:0.58~none; E06@0.62,0.4:0.34~pop; D02@0.85,0.4:0.34~pop
+But the money trail didn't end there. || title:"The Fall"; E05@0.5,0.6:0.76
+The FBI had been watching for years, and in nineteen ninety-eight, Belfort was charged with securities fraud and money laundering. || title:"The Fall"; A43@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"1998"~pop; E55@0.85,0.4:0.34~pop
+He pleaded guilty. || title:"The Fall"; H14@0.2,0.6:0.58~none; E14@0.62,0.4:0.34~pop
+And then he made a deal. || title:"The Fall"; H14@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"MADE DEAL"~pop
+To get a shorter sentence, he agreed to help the government catch others. || title:"The Fall"; H14@0.2,0.6:0.58~none; G09@0.62,0.4:0.34~pop
 That's right. || title:"The Fall"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.634,0.769,0.966+0.8; H04@0.9,1.0:0.3:bottom
-The Wolf of Wall Street wore a wire. || title:"The Fall"; A37@0.80,0.6:0.58~r; E08@0.38,0.4:0.32~pop
-He secretly recorded conversations with his old friends and partners. || title:"The Fall"; A37@0.80,0.6:0.58~r; E08@0.38,0.4:0.32~pop; E16@0.15,0.4:0.32~pop; C28@0.60,0.64:0.46~drop
-In two thousand three, a judge sentenced him to four years in prison. || title:"The Fall"; E55@0.5,0.6:0.76
-He served about twenty-two months, in a federal prison camp. || title:"The Fall"; H17@0.5,0.6:0.76:"22 MONTHS"
-His partner Danny Porush was also sent to prison. || title:"The Fall"; H09@0.2,0.6:0.58~r
-So were other Stratton brokers and executives. || title:"The Fall"; H09@0.2,0.6:0.58~r; E55@0.62,0.4:0.32~drop; C28@0.4,0.64:0.46~pop
-In total, dozens of people connected to the firm faced charges. || title:"The Fall"; H09@0.2,0.6:0.58~r; E55@0.62,0.4:0.32~drop; C28@0.4,0.64:0.46~pop; E14@0.85,0.4:0.32~pop
-Twenty-two months. || title:"The Fall"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.308,0.098,0.344+0.8; H04@0.9,1.0:0.3:bottom
-For a fraud that hurt roughly fifteen hundred people and cost them around two hundred million dollars. || title:"The Fall"; A12@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop; E22@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"$200 MILLION LOST"~pop
-Meanwhile, many of Stratton's victims were still paying for their losses. || title:"The Fall"; C14@0.80,0.6:0.58~r; D25@0.38,0.4:0.32~pop
-Some had lost retirement money. || title:"The Fall"; D25@0.5,0.6:0.76
-Some had lost college savings for their kids. || title:"The Fall"; D14@0.5,0.6:0.76
-The judge also ordered him to pay back one hundred ten million dollars to his victims. || title:"The Fall"; H17@0.5,0.6:0.76:"$110 MILLION"
-Carol's name was on that list. || title:"The Fall"; H17@0.62,0.4:0.32:"$110 MILLION"~drop; C09@0.2,0.6:0.58~l
-She waited for her check. || title:"The Fall"; H17@0.62,0.4:0.32:"$110 MILLION"~drop; C09@0.2,0.6:0.58~l; E24@0.85,0.4:0.32~pop
-And that's where the story gets truly ugly. || title:"The Fall"; A41@0.2,0.6:0.58~l; G24@0.62,0.4:0.32~drop; E44@0.85,0.4:0.32~pop
+The Wolf of Wall Street wore a wire. || title:"The Fall"; A44@0.16,0.62:0.5~none; doc:p_wolf.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Wolf"
+He secretly recorded conversations with his old friends and partners. || title:"The Fall"; H14@0.80,0.6:0.58~none; E28@0.38,0.4:0.34~pop; G12@0.15,0.4:0.34~pop
+In two thousand three, a judge sentenced him to four years in prison. || title:"The Fall"; H14@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"4 YEARS"~pop; E14@0.85,0.4:0.34~pop
+He served about twenty-two months, in a federal prison camp. || title:"The Fall"; H14@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"22 MONTHS"~pop; E55@0.85,0.4:0.34~pop
+His partner Danny Porush was also sent to prison. || title:"The Fall"; A44@0.16,0.62:0.5~none; doc:p_danny_porush.png@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Danny Porush"
+So were other Stratton brokers and executives. || title:"The Fall"; H14@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"STRATTON OTHER"~pop
+In total, dozens of people connected to the firm faced charges. || title:"The Fall"; A44@0.2,0.6:0.58~none; E33@0.62,0.4:0.34~pop; H11@0.85,0.4:0.34~pop
+Twenty-two months. || title:"The Fall"; A24@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"22 MONTHS"~pop; E25@0.15,0.4:0.34~pop
+For a fraud that hurt roughly fifteen hundred people and cost them around two hundred million dollars. || title:"The Fall"; A05@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"$200 MILLION"~pop; E55@0.15,0.4:0.34~pop
+Meanwhile, many of Stratton's victims were still paying for their losses. || title:"The Fall"; C14@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"MEANWHILE"~pop
+Some had lost retirement money. || title:"The Fall"; D14@0.5,0.6:0.76
+Some had lost college savings for their kids. || title:"The Fall"; A09@0.2,0.6:0.58~none; E10@0.62,0.4:0.34~pop; E21@0.85,0.4:0.34~pop
+The judge also ordered him to pay back one hundred ten million dollars to his victims. || title:"The Fall"; C09@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"$110 MILLION"~pop; E14@0.85,0.4:0.34~pop
+Carol's name was on that list. || title:"The Fall"; C09@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"CAROL'S NAME LIST"~pop
+She waited for her check. || title:"The Fall"; C09@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"WAITED CHECK"~pop
+And that's where the story gets truly ugly. || title:"The Fall"; A27@0.2,0.6:0.58~none; H16@0.62,0.4:0.34:"WHERE STORY GETS"~pop
 
 # ---------- CHAPTER 7: The Money That Never Came Back ----------
 || title:"The Money That Never Came Back"; sting; A23@0.5,0.56:0.6; hold:1.2
 [serious] After prison, Belfort became a motivational speaker. || title:"The Money That Never Came Back"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
-He wrote two best-selling books about his life. || title:"The Money That Never Came Back"; A40@0.80,0.6:0.58~r; H22@0.38,0.4:0.32~drop
-He traveled the world teaching people how to sell. || title:"The Money That Never Came Back"; A40@0.80,0.6:0.58~r; H22@0.38,0.4:0.32~drop; E14@0.15,0.4:0.32~pop; E43@0.38,0.76:0.32~pop; E01@0.15,0.76:0.32~pop
-In twenty thirteen, his story became a Hollywood movie starring Leonardo DiCaprio. || title:"The Money That Never Came Back"; doc:s23.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.476,0.095,0.512+0.8; H04@0.9,1.0:0.3:bottom
-It made hundreds of millions of dollars around the world. || title:"The Money That Never Came Back"; E25@0.5,0.6:0.76
-[calm] But that same year, federal prosecutors told a court something shocking. || title:"The Money That Never Came Back"; H17@0.5,0.6:0.76:"$11M OF $110M"
-Of the one hundred ten million dollars he owed his victims, only about eleven million had been paid back. || title:"The Money That Never Came Back"; E14@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"$11M OF $110M"~pop; D14@0.62,0.76:0.32; A08@0.2,0.6:0.58~l
-That's about ten cents for every dollar. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~r
-Carol got a few small checks over the years. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~r; B11@0.60,0.64:0.46~drop
-Nowhere near what she lost. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~r; B11@0.60,0.64:0.46~drop; E38@0.38,0.4:0.32~pop
-Belfort has said he wants to repay his victims, and that he has given money from his speaking and his books. || title:"The Money That Never Came Back"; A40@0.80,0.6:0.58~r; H22@0.38,0.4:0.32~pop
-But his victims are still waiting for most of it. || title:"The Money That Never Came Back"; E48@0.5,0.6:0.76
-By then, Carol was retired. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58; D25@0.62,0.4:0.32~pop
-The money she had saved for her old age was mostly gone, while the man who took it was famous again. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58; D25@0.62,0.4:0.32~pop; E13@0.85,0.4:0.32~r; C23@0.4,0.64:0.46~pop
+He wrote two best-selling books about his life. || title:"The Money That Never Came Back"; A28@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"2 BEST"~pop; E28@0.15,0.4:0.34~pop
+He traveled the world teaching people how to sell. || title:"The Money That Never Came Back"; H05@0.80,0.6:0.58~none; E42@0.38,0.4:0.34~pop; D20@0.15,0.4:0.34~pop
+In twenty thirteen, his story became a Hollywood movie starring Leonardo DiCaprio. || title:"The Money That Never Came Back"; H08@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"33"~pop; E13@0.85,0.4:0.34~pop
+It made hundreds of millions of dollars around the world. || title:"The Money That Never Came Back"; E43@0.5,0.6:0.76
+[calm] But that same year, federal prosecutors told a court something shocking. || title:"The Money That Never Came Back"; A10@0.2,0.6:0.58~none; E14@0.62,0.4:0.34~pop; E24@0.85,0.4:0.34~pop
+Of the one hundred ten million dollars he owed his victims, only about eleven million had been paid back. || title:"The Money That Never Came Back"; A01@0.2,0.6:0.58~none; H18@0.62,0.4:0.34:"$110 MILLION"~pop; D28@0.85,0.4:0.34~pop
+That's about ten cents for every dollar. || title:"The Money That Never Came Back"; A15@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"10 CENTS"~pop; E04@0.15,0.4:0.34~pop
+Carol got a few small checks over the years. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~none; E23@0.38,0.4:0.34~pop
+Nowhere near what she lost. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~none; E48@0.38,0.4:0.34~pop; E46@0.15,0.4:0.34~pop
+Belfort has said he wants to repay his victims, and that he has given money from his speaking and his books. || title:"The Money That Never Came Back"; C14@0.80,0.6:0.58~none; H22@0.38,0.4:0.34~pop; E01@0.15,0.4:0.34~pop
+But his victims are still waiting for most of it. || title:"The Money That Never Came Back"; H16@0.5,0.6:0.76:"VICTIMS WAITING"
+By then, Carol was retired. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~none; H28@0.62,0.4:0.34~pop
+The money she had saved for her old age was mostly gone, while the man who took it was famous again. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~none; E21@0.62,0.4:0.34~pop; E02@0.85,0.4:0.34~pop
 So here's why the real story was worse than the movie. || title:"The Money That Never Came Back"; doc:s24.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.751,0.769,0.849+0.8; H04@0.9,1.0:0.3:bottom
-The movie is about the wolf. || title:"The Money That Never Came Back"; A12@0.80,0.6:0.58~r
-The real story is about the sheep. || title:"The Money That Never Came Back"; A12@0.80,0.6:0.58~r; E13@0.38,0.4:0.32~pop; C28@0.60,0.64:0.46~drop
-The fifteen hundred people who never got their lives back. || title:"The Money That Never Came Back"; A12@0.80,0.6:0.58~r; E13@0.38,0.4:0.32~pop; C28@0.60,0.64:0.46~drop; H27@0.15,0.4:0.32~pop
-Fraud like this does a second kind of damage, too. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~l
-People who get burned often stop investing completely. || title:"The Money That Never Came Back"; D13@0.5,0.6:0.76
-They miss years of honest growth, because they no longer trust anyone. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~l; E21@0.62,0.4:0.32~pop; D13@0.85,0.4:0.32; A48@0.4,0.64:0.46~r
+The movie is about the wolf. || title:"The Money That Never Came Back"; A18@0.80,0.6:0.58~none; E13@0.38,0.4:0.34~pop
+The real story is about the sheep. || title:"The Money That Never Came Back"; A29@0.80,0.6:0.58~none; H16@0.38,0.4:0.34:"REAL STORY SHEEP"~pop
+The fifteen hundred people who never got their lives back. || title:"The Money That Never Came Back"; A41@0.80,0.6:0.58~none; H18@0.38,0.4:0.34:"1,500 PEOPLE"~pop; C28@0.15,0.4:0.34~pop
+Fraud like this does a second kind of damage, too. || title:"The Money That Never Came Back"; E55@0.5,0.6:0.76
+People who get burned often stop investing completely. || title:"The Money That Never Came Back"; E19@0.5,0.6:0.76
+They miss years of honest growth, because they no longer trust anyone. || title:"The Money That Never Came Back"; A44@0.2,0.6:0.58~none; E24@0.62,0.4:0.34~pop; E26@0.85,0.4:0.34~pop
 And schemes like Stratton's never really went away. || title:"The Money That Never Came Back"; doc:s25.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC"; H04@0.9,1.0:0.3:bottom
-Today, the calls come as texts, social media posts, and group chats promising the next big stock or coin. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~none; E08@0.62,0.4:0.32~pop; E07@0.85,0.4:0.32~drop; E51@0.62,0.76:0.32~pop; D08@0.85,0.76:0.32~pop; E44@0.42,0.24:0.32~pop
-Here's the takeaway. || title:"The Money That Never Came Back"; A48@0.80,0.6:0.58~r
-If a stranger calls with a sure thing, a tiny price, and a deadline, hang up. || title:"The Money That Never Came Back"; A48@0.80,0.6:0.58~r; E08@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"HANG UP"~drop
-Real opportunities don't need to rush you. || title:"The Money That Never Came Back"; E24@0.5,0.6:0.76
+Today, the calls come as texts, social media posts, and group chats promising the next big stock or coin. || title:"The Money That Never Came Back"; A24@0.2,0.6:0.58~none; G03@0.62,0.4:0.34~pop; E04@0.85,0.4:0.34~pop
+Here's the takeaway. || title:"The Money That Never Came Back"; A16@0.80,0.6:0.58~none; E17@0.38,0.4:0.34~pop
+If a stranger calls with a sure thing, a tiny price, and a deadline, hang up. || title:"The Money That Never Came Back"; A27@0.80,0.6:0.58~none; E38@0.38,0.4:0.34~pop; E24@0.15,0.4:0.34~pop
+Real opportunities don't need to rush you. || title:"The Money That Never Came Back"; H16@0.5,0.6:0.76:"REAL OPPORTUNITIES"
 And always check who you're dealing with. || title:"The Money That Never Came Back"; doc:s26.png@0.44,0.54 w=0.72 h=0.76 src="Source: FINRA BrokerCheck" hl=0.649,0.012,0.835,0.052+0.8; H04@0.9,1.0:0.3:bottom
-FINRA's free BrokerCheck tool shows any broker's record in seconds. || title:"The Money That Never Came Back"; E16@0.5,0.6:0.76
-Carol learned that lesson the hard way. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop
-But Stratton was a small fraud compared to what came next. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop; D12@0.85,0.4:0.32~pop
-Next time, we'll see how millions of ordinary mortgages nearly broke the whole world. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop; D12@0.85,0.4:0.32~pop; E43@0.62,0.76:0.32~pop; A23@0.4,0.64:0.46~r
+FINRA's free BrokerCheck tool shows any broker's record in seconds. || title:"The Money That Never Came Back"; E28@0.5,0.6:0.76
+Carol learned that lesson the hard way. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~none; E17@0.62,0.4:0.34~pop
+But Stratton was a small fraud compared to what came next. || title:"The Money That Never Came Back"; C14@0.2,0.6:0.58~none; E55@0.62,0.4:0.34~pop; E22@0.85,0.4:0.34~pop
+Next time, we'll see how millions of ordinary mortgages nearly broke the whole world. || title:"The Money That Never Came Back"; A11@0.2,0.6:0.58~none; D09@0.62,0.4:0.34~pop; D20@0.85,0.4:0.34~pop
 
 || endscreen; hold:10

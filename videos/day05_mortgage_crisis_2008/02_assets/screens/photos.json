@@ -1,0 +1,37 @@
+[
+ {
+  "name": "Lehman Brothers",
+  "title": "Lehman Brothers",
+  "file": "p_lehman_brothers.jpg",
+  "page": "https://en.wikipedia.org/wiki/Lehman_Brothers",
+  "desc": "1850\u20132008 American financial services firm"
+ },
+ {
+  "name": "Wall Street",
+  "title": "Wall Street",
+  "file": "p_wall_street.jpg",
+  "page": "https://en.wikipedia.org/wiki/Wall_Street",
+  "desc": "Street in Manhattan, New York"
+ },
+ {
+  "name": "Bear Stearns",
+  "title": "Bear Stearns",
+  "file": "p_bear_stearns.jpg",
+  "page": "https://en.wikipedia.org/wiki/Bear_Stearns",
+  "desc": "Defunct American investment bank"
+ },
+ {
+  "name": "Federal Reserve",
+  "title": "Federal Reserve",
+  "file": "p_federal_reserve.png",
+  "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+  "desc": "Central banking system of the US"
+ },
+ {
+  "name": "Consumer Financial Protection Bureau",
+  "title": "Consumer Financial Protection Bureau",
+  "file": "p_consumer_financial_protection_bureau.png",
+  "page": "https://en.wikipedia.org/wiki/Consumer_Financial_Protection_Bureau",
+  "desc": "United States government agency"
+ }
+]
