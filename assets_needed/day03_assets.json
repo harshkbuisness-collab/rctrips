@@ -1,0 +1,186 @@
+{
+ "CH1": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH2": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH3": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH4": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH5": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH6": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH7": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "CH8": {
+  "type": "pose",
+  "character": "Carol"
+ },
+ "S01": {
+  "type": "scene",
+  "sentence": "The man on the line sounds warm and sure of himself."
+ },
+ "S02": {
+  "type": "scene",
+  "sentence": "He says it could double in weeks."
+ },
+ "S03": {
+  "type": "scene",
+  "sentence": "And he says this chance won't last past Friday."
+ },
+ "S04": {
+  "type": "scene",
+  "sentence": "Twenty thousand dollars is everything she has."
+ },
+ "S05": {
+  "type": "scene",
+  "sentence": "He tells her about other customers, regular people, who already doubled their money."
+ },
+ "S06": {
+  "type": "scene",
+  "sentence": "He makes her feel smart for listening."
+ },
+ "S07": {
+  "type": "scene",
+  "sentence": "As a teenager, he sold Italian ice on the beach and made thousands of dollars in one summer."
+ },
+ "S08": {
+  "type": "scene",
+  "sentence": "It grew fast, then went bankrupt."
+ },
+ "S09": {
+  "type": "scene",
+  "sentence": "He was broke, and looking for a new way to make money."
+ },
+ "S10": {
+  "type": "scene",
+  "sentence": "His first day as a licensed broker was a Monday."
+ },
+ "S11": {
+  "type": "scene",
+  "sentence": "Inside, it didn't look like old money at all."
+ },
+ "S12": {
+  "type": "scene",
+  "sentence": "Many of the brokers were barely twenty."
+ },
+ "S13": {
+  "type": "scene",
+  "sentence": "Some had no finance background at all."
+ },
+ "S14": {
+  "type": "scene",
+  "sentence": "What they did have was a script."
+ },
+ "S15": {
+  "type": "scene",
+  "sentence": "Brokers who didn't were shouted at, or fired."
+ },
+ "S16": {
+  "type": "scene",
+  "sentence": "The script told them exactly what to say."
+ },
+ "S17": {
+  "type": "scene",
+  "sentence": "How to sound like an expert."
+ },
+ "S18": {
+  "type": "scene",
+  "sentence": "And how to never, ever take no for an answer."
+ },
+ "S19": {
+  "type": "scene",
+  "sentence": "That's exactly what happened to Carol."
+ },
+ "S20": {
+  "type": "scene",
+  "sentence": "They talked about rockets and secrets and getting in early."
+ },
+ "S21": {
+  "type": "scene",
+  "sentence": "And the brokers always made sure the insiders sold first."
+ },
+ "S22": {
+  "type": "scene",
+  "sentence": "Her broker said buy, so she bought."
+ },
+ "S23": {
+  "type": "scene",
+  "sentence": "Then he said hold, so she held."
+ },
+ "S24": {
+  "type": "scene",
+  "sentence": "When she finally asked to sell, he talked her out of it, again and again."
+ },
+ "S25": {
+  "type": "scene",
+  "sentence": "By the time she got out, her twenty thousand dollars had shrunk to about four thousand."
+ },
+ "S26": {
+  "type": "scene",
+  "sentence": "And her money had helped pay for something she'd never see."
+ },
+ "S27": {
+  "type": "scene",
+  "sentence": "She thought it was her own fault for trusting a stranger."
+ },
+ "S28": {
+  "type": "scene",
+  "sentence": "But stop and think about where every one of those dollars came from."
+ },
+ "S29": {
+  "type": "scene",
+  "sentence": "But the money trail didn't end there."
+ },
+ "S30": {
+  "type": "scene",
+  "sentence": "And then he made a deal."
+ },
+ "S31": {
+  "type": "scene",
+  "sentence": "So were other Stratton brokers and executives."
+ },
+ "S32": {
+  "type": "scene",
+  "sentence": "Meanwhile, many of Stratton's victims were still paying for their losses."
+ },
+ "S33": {
+  "type": "scene",
+  "sentence": "Carol's name was on that list."
+ },
+ "S34": {
+  "type": "scene",
+  "sentence": "And that's where the story gets truly ugly."
+ },
+ "S35": {
+  "type": "scene",
+  "sentence": "Carol got a few small checks over the years."
+ },
+ "S36": {
+  "type": "scene",
+  "sentence": "But his victims are still waiting for most of it."
+ },
+ "S37": {
+  "type": "scene",
+  "sentence": "They miss years of honest growth, because they no longer trust anyone."
+ },
+ "S38": {
+  "type": "scene",
+  "sentence": "Real opportunities don't need to rush you."
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "CH1": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH2": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH3": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH4": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH5": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH6": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH7": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "CH8": {
+  "type": "pose",
+  "character": "Linda"
+ },
+ "S01": {
+  "type": "scene",
+  "sentence": "Whenever that number shows up in the news, the same question follows."
+ },
+ "S02": {
+  "type": "scene",
+  "sentence": "The real answer is less scary, and much more surprising."
+ },
+ "S03": {
+  "type": "scene",
+  "sentence": "She has never once thought about where that money comes from."
+ },
+ "S04": {
+  "type": "scene",
+  "sentence": "She is also one of its lenders."
+ },
+ "S05": {
+  "type": "scene",
+  "sentence": "So who are all these lenders?"
+ },
+ "S06": {
+  "type": "scene",
+  "sentence": "The deficit is this year's shortfall."
+ },
+ "S07": {
+  "type": "scene",
+  "sentence": "Those shortfalls piled up, one on top of another, into the number we see today."
+ },
+ "S08": {
+  "type": "scene",
+  "sentence": "Linda never goes to an auction."
+ },
+ "S09": {
+  "type": "scene",
+  "sentence": "It can't gamble with their money."
+ },
+ "S10": {
+  "type": "scene",
+  "sentence": "It's millions of IOUs, held by all kinds of owners."
+ },
+ "S11": {
+  "type": "scene",
+  "sentence": "Now Linda's benefits depend on that money coming back."
+ },
+ "S12": {
+  "type": "scene",
+  "sentence": "Someone still has to come up with it."
+ },
+ "S13": {
+  "type": "scene",
+  "sentence": "Some of it is held by people just like Linda's neighbors."
+ },
+ "S14": {
+  "type": "scene",
+  "sentence": "But a big slice lives far outside Ohio, across two oceans."
+ },
+ "S15": {
+  "type": "scene",
+  "sentence": "It promises to pay them decades from now."
+ },
+ "S16": {
+  "type": "scene",
+  "sentence": "So that money crossed the Pacific."
+ },
+ "S17": {
+  "type": "scene",
+  "sentence": "They buy because it helps them."
+ },
+ "S18": {
+  "type": "scene",
+  "sentence": "And that bill has become enormous."
+ },
+ "S19": {
+  "type": "scene",
+  "sentence": "The bill grew fourfold while most people weren't watching."
+ },
+ "S20": {
+  "type": "scene",
+  "sentence": "So the system works, as long as buyers keep showing up."
+ },
+ "S21": {
+  "type": "scene",
+  "sentence": "But imagine an auction where fewer people show up."
+ },
+ "S22": {
+  "type": "scene",
+  "sentence": "This doesn't mean America suddenly goes broke."
+ },
+ "S23": {
+  "type": "scene",
+  "sentence": "A lower rating doesn't mean America won't pay."
+ },
+ "S24": {
+  "type": "scene",
+  "sentence": "For the first time, she sees both sides of the same story."
+ },
+ "S25": {
+  "type": "scene",
+  "sentence": "Next time, we meet a man who sold people promises that were never real."
+ }
+}

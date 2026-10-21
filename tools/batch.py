@@ -37,11 +37,11 @@ def run_day(script, render=True):
     mp4 = os.path.join(vdir, "05_export", f"{name}.mp4")
     if os.path.exists(mp4):
         return log(f"day {day}: video already made, skipped")
-    bad = get_screens.main(script, vdir)
     try:
-        get_photos.main(script, vdir)                 # free real photos from Wikimedia Commons
+        get_photos.main(script, vdir)                 # free real photos from Wikimedia Commons (first: they add evidence pages)
     except Exception as e:
         print('photos skipped:', e)
+    bad = get_screens.main(script, vdir)
     script_to_beats.main(script, vdir)
     mv = [sys.executable, os.path.join(ROOT, "tools", "make_video.py"), vdir]
     chk = subprocess.run(mv + ["--check"], capture_output=True, text=True)

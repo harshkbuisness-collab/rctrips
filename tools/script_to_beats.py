@@ -126,6 +126,7 @@ def scene(el, v):
 
 
 NUM_STYLES = ["sign", "text", "label", "paper", "tag"]
+POSES_NOW = {}          # the current video's character poses (set in main)
 
 
 def sentence_elements(s, person, pick, names, line, mirror):
@@ -141,7 +142,7 @@ def sentence_elements(s, person, pick, names, line, mirror):
             line.append(c)
     del line[:-4]                                   # at most 4 things, the oldest leave first
     slots = [(0.58, 0.36), (0.84, 0.36), (0.58, 0.74), (0.84, 0.74)]
-    out = [f"{who}@{X(0.2)},0.6:0.58~none"]
+    out = [f"{who}@{X(0.2)},0.6:0.58~none" if not POSES_NOW else person_elem(s, pick, POSES_NOW, names, mirror)]
     num = sv.number_sign(s)
     m = re.match(r"(\d{1,2}) ([A-Z]+)$", num or "")
     group = line[-1] if (m and 2 <= int(m.group(1)) <= 12 and line) else ""
@@ -174,6 +175,42 @@ def sentence_elements(s, person, pick, names, line, mirror):
             out.append(f'{code}@{X(free[0])},{free[1]}:0.32:"{t}"~pop')
     pick.take([who] + line)
     return out
+
+
+CH_MOOD = {"question": "CH3", "shock": "CH4", "sad": "CH8", "suspicious": "CH3", "good": "CH2", "teach": "CH5",
+           "neutral": "CH1"}
+
+
+def load_custom(day, vdir):
+    """Owner-made pictures in library/custom/dayNN/: scene pictures (S01..) and the character's poses (CH1..)."""
+    import shutil
+    tag = f"day{int(day):02d}"
+    src = os.path.join(ROOT, "library", "custom", tag)
+    meta = os.path.join(ROOT, "assets_needed", f"{tag}_assets.json")
+    if not os.path.isdir(src) or not os.path.exists(meta):
+        return {}, {}, {}
+    assets = json.load(open(meta))
+    dst = os.path.join(vdir, "02_assets", "screens")
+    os.makedirs(dst, exist_ok=True)
+    files = {}
+    for f in os.listdir(src):
+        aid, ext = os.path.splitext(f)
+        if aid in assets and ext.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+            shutil.copy(os.path.join(src, f), os.path.join(dst, f"c_{tag}_{aid}{ext.lower()}"))
+            files[aid] = f"c_{tag}_{aid}{ext.lower()}"
+    scene_of = {a["sentence"]: files[k] for k, a in assets.items() if a["type"] == "scene" and k in files}
+    poses = {k: files[k] for k, a in assets.items() if a["type"] == "pose" and k in files}
+    return files, scene_of, poses
+
+
+def person_elem(s, pick, poses, names, mirror):
+    """The narrator pose, or the story character's own pose picture when the sentence is about them."""
+    x = 0.8 if mirror else 0.2
+    if poses and (re.search(r"\b(she|he|her|his|him)\b", s, re.I) or any(n in s for n in names)):
+        mood = sv.MOOD.get(sv.narrator_for(s)[:3], "neutral")
+        f = poses.get(CH_MOOD[mood]) or poses.get("CH1") or next(iter(poses.values()))
+        return f"doc:{f}@{x},0.6 w=0.3 h=0.62 frame=0"
+    return f"{pick.pose(s)}@{x},0.6:0.58~none"
 
 
 def photo_for(s, photos, used, now):
@@ -220,6 +257,9 @@ def main(script, vdir):
     photos = [p_ for p_ in (json.load(open(pp)) if os.path.exists(pp) else [])
               if os.path.exists(os.path.join(vdir, "02_assets", "screens", p_["file"]))]
     photo_used = {}
+    custom, scene_of, poses = load_custom(d["day"], vdir)
+    global POSES_NOW
+    POSES_NOW = poses
     thread = re.search(r"^THREAD:\s*(.*)$", open(script, encoding="utf-8").read(), re.M)
     names = tuple(w for w in re.findall(r"\b[A-Z][a-z]{2,}\b", thread.group(1)) if w not in ("The", "One", "Ohio")) if thread else ()
     spoken, lines, chap, title, missing, last_person = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
@@ -254,6 +294,12 @@ def main(script, vdir):
                 el = [f'title:"{clean(title)}"', docs[j]]
             else:
                 ph = photo_for(s, photos, photo_used, len(lines))
+                if s in scene_of:                        # the owner's own picture made for this sentence
+                    el = [f'title:"{clean(title)}"', person_elem(s, pick, poses, names, mirror=False),
+                          f"doc:{scene_of[s]}@0.62,0.52 w=0.56 h=0.74 frame=0"]
+                    lines.append(f"{words} || " + "; ".join(el))
+                    spoken += len(s.split())
+                    continue
                 money = sv.money_values(s)
                 if ph:                                   # a real photo of the person, company or place just named
                     el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",

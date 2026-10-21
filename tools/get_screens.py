@@ -30,6 +30,29 @@ def cues(script):
     return out
 
 
+def photo_cues(script, vdir):
+    """More evidence: the Wikipedia page of every real person, company or place the script names (found by
+    get_photos.py), shown at a later mention, scrolled to the paragraph that matches what is being said."""
+    pp = os.path.join(vdir, "02_assets", "screens", "photos.json")
+    if not os.path.exists(pp):
+        return []
+    lines = parse_script.parse(script)["lines"]
+    out, n0, pages = [], len(cues(script)), set()
+    for ph in json.load(open(pp)):
+        if not ph.get("page") or ph["page"] in pages:
+            continue
+        pages.add(ph["page"])
+        hits = [i for i, ln in enumerate(lines) if re.search(r"\b" + re.escape(ph["name"].split()[-1]) + r"\b", ln["text"])
+                and not ln["screen"].strip()]
+        if len(hits) >= 2:                          # first mention shows the photo, a later one shows the page
+            i = hits[1]
+            out.append({"line": i, "source": f"Wikipedia – {ph['title']}", "url": ph["page"], "what": "",
+                        "said": lines[i]["text"]})
+    for k, c in enumerate(out, n0 + 1):
+        c["file"] = f"s{k:02d}.png"
+    return out
+
+
 def quote(what):
     """Text to look for on the page: the first quoted phrase, or nothing."""
     m = re.search(r'["“]([^"”]{6,120})["”]', what)
@@ -137,7 +160,7 @@ def main(script, vdir):
     os.makedirs(out, exist_ok=True)
     meta_p = os.path.join(out, "screens.json")
     old = {m["file"]: m for m in json.load(open(meta_p))} if os.path.exists(meta_p) else {}
-    cs = cues(script)
+    cs = cues(script) + photo_cues(script, vdir)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
