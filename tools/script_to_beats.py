@@ -167,8 +167,10 @@ def sentence_elements(s, person, pick, names, line, mirror):
             out.append(f'label:"{t}"@{X(0.62)},0.16>{X(tx)},{ty - 0.12:.2f}')
         elif style == "text" or (style == "label" and not line):
             out.append(f'"{t}"@{X(0.7)},0.17:64:red')
+        elif style == "paper":
+            out.append(f'note:"{t}"@{X(free[0])},{free[1]}')
         else:
-            code = {"sign": "H18", "paper": "H15", "tag": "H17"}[style]
+            code = {"sign": "H18", "tag": "H17"}[style]
             out.append(f'{code}@{X(free[0])},{free[1]}:0.32:"{t}"~pop')
     pick.take([who] + line)
     return out

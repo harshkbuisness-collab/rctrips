@@ -9,7 +9,7 @@ You bought the whole market. || title:"The party"; A18@0.8,0.6:0.58~none; G12@0.
 The safest bet in America. || title:"The party"; A29@0.16,0.62:0.5~none; doc:p_america.png@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – United States"
 In the space of three years, the market lost almost ninety percent of its value. || title:"The party"; A08@0.8,0.6:0.58~none; E36@0.42,0.36:0.3~pop; G03@0.16,0.36:0.3~pop; G04@0.42,0.74:0.3~pop; E24@0.16,0.74:0.3~pop; "90%"@0.3,0.17:64:red
 One in four workers lost their job. || title:"The party"; A45@0.2,0.6:0.58~none; C09@0.58,0.36:0.3~pop; C28@0.84,0.36:0.3~pop; D14@0.58,0.74:0.3~pop; label:"1 IN 4"@0.62,0.16>0.58,0.62
-Nine thousand banks shut their doors, and the people's savings went with them. || title:"The party"; A29@0.2,0.6:0.58~none; D14@0.58,0.36:0.3~pop; D15@0.84,0.36:0.3~pop; D16@0.58,0.74:0.3~pop; E21@0.84,0.74:0.3~pop; H15@0.71,0.55:0.32:"9,000 BANKS"~pop
+Nine thousand banks shut their doors, and the people's savings went with them. || title:"The party"; A29@0.2,0.6:0.58~none; D14@0.58,0.36:0.3~pop; D15@0.84,0.36:0.3~pop; D16@0.58,0.74:0.3~pop; E21@0.84,0.74:0.3~pop; note:"9,000 BANKS"@0.71,0.55
 But here's the part they skip in school. || title:"The party"; A38@0.2,0.6:0.58~none; D15@0.58,0.36:0.3~pop; D16@0.84,0.36:0.3~pop; E21@0.58,0.74:0.3~pop; E10@0.84,0.74:0.3~pop
 The crash didn't cause the Great Depression on its own. || title:"The party"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.302,0.178,0.42,0.22+0.8; H04@0.9,1.0:0.3:bottom
 It was the spark. || title:"The party"; A33@0.8,0.6:0.58~none
@@ -59,7 +59,7 @@ And here's the thing that made it truly dangerous. || title:"The casino"; A20@0.
 You didn't need much money to play. || title:"The casino"; A28@0.2,0.6:0.58~none; G12@0.58,0.36:0.3~pop; E44@0.84,0.36:0.3~pop; E04@0.58,0.74:0.3~pop
 You could buy stocks on margin. || title:"The casino"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.147,0.311,0.677,0.417+0.8; H04@0.9,1.0:0.3:bottom
 Here's how margin worked. || title:"The casino"; A02@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop
-You want a hundred dollars of stock. || title:"The casino"; H05@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop; G03@0.16,0.36:0.3~pop; B10@0.42,0.74:0.3~pop; H15@0.16,0.74:0.32:"$100"~pop
+You want a hundred dollars of stock. || title:"The casino"; H05@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop; G03@0.16,0.36:0.3~pop; B10@0.42,0.74:0.3~pop; note:"$100"@0.16,0.74
 You put down ten dollars of your own money, and your broker lends you the other ninety. || title:"The casino"; H08@0.2,0.6:0.58~none; G02@0.58,0.36:0.3~pop; E05@0.84,0.36:0.3~pop; H17@0.58,0.74:0.32:"$10"~pop
 If the stock goes up ten percent, you've made ten dollars on a ten-dollar bet. || title:"The casino"; A40@0.16,0.62:0.5~none; bars:"Ve Made"=10,"Dollars On"=11
 You just doubled your money. || title:"The casino"; A40@0.2,0.6:0.58~none; G02@0.58,0.36:0.3~pop; E05@0.84,0.36:0.3~pop; D13@0.58,0.74:0.3~pop; E01@0.84,0.74:0.3~pop
@@ -92,7 +92,7 @@ Even the new president, Herbert Hoover, had promised America was “nearer to th
 Everyone was a genius. || title:"The crash"; A15@0.8,0.6:0.58~none; H09@0.42,0.36:0.3~pop
 Everyone was rich, on paper. || title:"The crash"; A18@0.8,0.6:0.58~none; H09@0.42,0.36:0.3~pop; C24@0.16,0.36:0.3~pop; H22@0.42,0.74:0.3~pop; C09@0.16,0.74:0.3~pop
 And almost nobody asked what would happen if the line went down. || title:"The crash"; A42@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; D14@0.84,0.36:0.3~pop
-Thursday, October 24th, nineteen twenty-nine. || title:"The crash"; A29@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; D14@0.84,0.36:0.3~pop; E25@0.58,0.74:0.3~pop; H15@0.84,0.74:0.32:"1929"~pop
+Thursday, October 24th, nineteen twenty-nine. || title:"The crash"; A29@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; D14@0.84,0.36:0.3~pop; E25@0.58,0.74:0.3~pop; note:"1929"@0.84,0.74
 The market opened, and the selling started. || title:"The crash"; A33@0.2,0.6:0.58~none; D14@0.58,0.36:0.3~pop; E25@0.84,0.36:0.3~pop; G11@0.58,0.74:0.3~pop; E36@0.84,0.74:0.3~pop
 And then it didn't stop. || title:"The crash"; A44@0.8,0.6:0.58~none
 Prices fell so fast that the ticker tape, the machine that printed stock prices, fell more than an hour behind. || title:"The crash"; A24@0.8,0.6:0.58~none; D19@0.42,0.36:0.3~pop; G03@0.16,0.36:0.3~pop; E46@0.42,0.74:0.3~pop
@@ -120,7 +120,7 @@ Remember margin? || title:"The banks"; A06@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~
 This is where it turned deadly. || title:"The banks"; A33@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop
 As prices dropped, brokers called their customers and demanded more money: “margin calls“. || title:"The banks"; A16@0.2,0.6:0.58~none; E37@0.58,0.36:0.3~pop; E08@0.84,0.36:0.3~pop; D02@0.58,0.74:0.3~pop
 People who didn't have the money had their stocks sold automatically, which pushed prices down further, which triggered more margin calls. || title:"The banks"; A44@0.2,0.6:0.58~none; E08@0.58,0.36:0.3~pop; D02@0.84,0.36:0.3~pop; G03@0.58,0.74:0.3~pop; C09@0.84,0.74:0.3~pop
-In a few weeks, the market lost about forty percent. || title:"The banks"; A08@0.2,0.6:0.58~none; C09@0.58,0.36:0.3~pop; G12@0.84,0.36:0.3~pop; G05@0.58,0.74:0.3~pop; E25@0.84,0.74:0.3~pop; H15@0.71,0.55:0.32:"40%"~pop
+In a few weeks, the market lost about forty percent. || title:"The banks"; A08@0.2,0.6:0.58~none; C09@0.58,0.36:0.3~pop; G12@0.84,0.36:0.3~pop; G05@0.58,0.74:0.3~pop; E25@0.84,0.74:0.3~pop; note:"40%"@0.71,0.55
 Paper fortunes that took years to build disappeared before lunch. || title:"The banks"; A24@0.8,0.6:0.58~none; H22@0.42,0.36:0.3~pop; C22@0.16,0.36:0.3~pop; E23@0.42,0.74:0.3~pop
 But here's the strange part. || title:"The banks"; A17@0.8,0.6:0.58~none; H22@0.42,0.36:0.3~pop; C22@0.16,0.36:0.3~pop; E23@0.42,0.74:0.3~pop
 By the spring of nineteen thirty, the market had actually recovered some of its losses. || title:"The banks"; A27@0.8,0.6:0.58~none; H22@0.42,0.36:0.3~pop; C22@0.16,0.36:0.3~pop; E23@0.42,0.74:0.3~pop; G03@0.16,0.74:0.3~pop; H18@0.29,0.55:0.32:"1930"~pop
@@ -153,7 +153,7 @@ It's lent out. || title:"Making it worse"; A40@0.2,0.6:0.58~none
 In December nineteen thirty, a rumor spread in New York about a bank with a very official-sounding name: the Bank of United States. || title:"Making it worse"; A01@0.16,0.62:0.5~none; doc:p_bank_of_united_states.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – Bank of United States"
 Thousands of people lined up to pull their money out. || title:"Making it worse"; A01@0.2,0.6:0.58~none; C09@0.58,0.36:0.3~pop; E01@0.84,0.36:0.3~pop
 Within days, the bank closed. || title:"Making it worse"; A15@0.8,0.6:0.58~none; C03@0.42,0.36:0.3~pop; D16@0.16,0.36:0.3~pop; E25@0.42,0.74:0.3~pop
-Around four hundred thousand depositors were locked out of their savings. || title:"Making it worse"; A18@0.8,0.6:0.58~none; C03@0.42,0.36:0.3~pop; D16@0.16,0.36:0.3~pop; E25@0.42,0.74:0.3~pop; E21@0.16,0.74:0.3~pop; H15@0.29,0.55:0.32:"400,000 DEPOSITORS"~pop
+Around four hundred thousand depositors were locked out of their savings. || title:"Making it worse"; A18@0.8,0.6:0.58~none; C03@0.42,0.36:0.3~pop; D16@0.16,0.36:0.3~pop; E25@0.42,0.74:0.3~pop; E21@0.16,0.74:0.3~pop; note:"400,000 DEPOSITORS"@0.29,0.55
 It wasn't even a government bank. || title:"Making it worse"; A29@0.8,0.6:0.58~none; E25@0.42,0.36:0.3~pop; E21@0.16,0.36:0.3~pop; C06@0.42,0.74:0.3~pop; D15@0.16,0.74:0.3~pop
 It just sounded like one, which made the panic so much worse. || title:"Making it worse"; A08@0.2,0.6:0.58~none; E50@0.58,0.36:0.3~pop
 Then it spread. || title:"Making it worse"; A33@0.2,0.6:0.58~none; E50@0.58,0.36:0.3~pop
@@ -184,7 +184,7 @@ World trade fell by about two-thirds over the next few years. || title:"The bott
 American farmers, the people the tariff was supposed to help, lost the customers they had left. || title:"The bottom"; A45@0.8,0.6:0.58~none; D20@0.42,0.36:0.3~pop; E42@0.16,0.36:0.3~pop; E46@0.42,0.74:0.3~pop; E39@0.16,0.74:0.3~pop
 Then, in nineteen thirty-two, with the economy already on the floor, the government raised taxes sharply to balance the budget. || title:"The bottom"; A24@0.2,0.6:0.58~none; G09@0.58,0.36:0.3~pop; H28@0.84,0.36:0.3~pop; E22@0.58,0.74:0.3~pop; label:"1932"@0.62,0.16>0.58,0.62
 Squeezing an economy that was already struggling to breathe. || title:"The bottom"; A27@0.2,0.6:0.58~none; G09@0.58,0.36:0.3~pop; H28@0.84,0.36:0.3~pop; E22@0.58,0.74:0.3~pop
-By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak. || title:"The bottom"; A36@0.2,0.6:0.58~none; H28@0.58,0.36:0.3~pop; E22@0.84,0.36:0.3~pop; G04@0.58,0.74:0.3~pop; D02@0.84,0.74:0.3~pop; H15@0.71,0.55:0.32:"89%"~pop
+By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak. || title:"The bottom"; A36@0.2,0.6:0.58~none; H28@0.58,0.36:0.3~pop; E22@0.84,0.36:0.3~pop; G04@0.58,0.74:0.3~pop; D02@0.84,0.74:0.3~pop; note:"89%"@0.71,0.55
 A share that was worth a hundred dollars was now worth about eleven. || title:"The bottom"; A28@0.8,0.6:0.58~none; E02@0.42,0.36:0.3~pop; H17@0.16,0.36:0.32:"$100"~pop
 By nineteen thirty-three, one in four American workers had no job. || title:"The bottom"; H05@0.8,0.6:0.58~none; E02@0.42,0.36:0.3~pop; C10@0.16,0.36:0.3~pop; H18@0.42,0.74:0.32:"1 IN 4"~pop
 There was no unemployment insurance. || title:"The bottom"; H08@0.8,0.6:0.58~none; E02@0.42,0.36:0.3~pop; C10@0.16,0.36:0.3~pop; E05@0.42,0.74:0.3~pop; C28@0.16,0.74:0.3~pop
@@ -225,7 +225,7 @@ And Social Security. || title:"The way back"; A27@0.2,0.6:0.58~none; E14@0.58,0.
 The recovery was slow and bumpy. || title:"The way back"; A28@0.2,0.6:0.58~none; E14@0.58,0.36:0.3~pop; D21@0.84,0.36:0.3~pop; D25@0.58,0.74:0.3~pop; E54@0.84,0.74:0.3~pop
 It took World War Two to finally bring unemployment all the way down. || title:"The way back"; H05@0.16,0.62:0.5~none; doc:p_world_war_two.jpg@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – World War II"
 And the stock market? || title:"The way back"; A07@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop; think:"And the stock market?"@0.64,0.24
-It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || title:"The way back"; H05@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop; E23@0.16,0.36:0.3~pop; H15@0.42,0.74:0.32:"1929"~pop
+It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || title:"The way back"; H05@0.8,0.6:0.58~none; E52@0.42,0.36:0.3~pop; E23@0.16,0.36:0.3~pop; note:"1929"@0.42,0.74
 A lot of what broke in nineteen twenty-nine has been fixed. || title:"The way back"; A41@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; H18@0.84,0.36:0.32:"1929"~pop
 Your bank deposits are insured. || title:"The way back"; A21@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; C03@0.84,0.36:0.3~pop; H19@0.58,0.74:0.3~pop
 The Fed now steps in fast instead of watching. || title:"The way back"; H08@0.2,0.6:0.58~none; C03@0.58,0.36:0.3~pop; H19@0.84,0.36:0.3~pop; G10@0.58,0.74:0.3~pop; E24@0.84,0.74:0.3~pop
