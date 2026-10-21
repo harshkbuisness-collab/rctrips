@@ -125,29 +125,53 @@ def scene(el, v):
     return el
 
 
-def sentence_elements(s, j, person, spare, pick, names=()):
-    """What this one sentence shows: who is talking about it, its key number or words on a sign, and the
-    things it names. `pick` keeps the video varied (use limits, no repeat in the next scene)."""
+NUM_STYLES = ["sign", "text", "label", "paper", "tag"]
+
+
+def sentence_elements(s, person, pick, names, line, mirror):
+    """One sentence inside a scene that builds up: things named earlier in the same spoken line stay where they
+    are (`line` holds them, max 4), new ones pop in, the narrator swaps pose, and the sentence's key number is
+    shown in a rotating style (sign, red text, red label with arrow, paper note, price tag) or as a group of icons."""
+    X = (lambda x: round(1 - x, 2)) if mirror else (lambda x: x)
     props = [c[:3] for c in sv.sentence_props(s)]
-    if "G11" in props and "E37" in props:          # "prices fell" about stocks, not shopping
-        props.remove("E37")
     about_person = person and (re.search(r"\b(she|he|her|his|him)\b", s, re.I) or any(n in s for n in names))
     who = person if about_person else pick.pose(s)
-    props = [x for x in (pick.prop(c) for c in props) if x and x != who][:3]
-    sign = sv.number_sign(s) or ("" if props else sv.key_words(s))
-    slots = iter(PROP_SLOTS)
-    out = [f"{who}@{PEOPLE_SLOTS[0]}~none"]       # Casual Finance style: poses swap, nothing slides
+    for c in (pick.prop(c) for c in props):
+        if c and c != who and c not in line:
+            line.append(c)
+    del line[:-4]                                   # at most 4 things, the oldest leave first
+    slots = [(0.58, 0.36), (0.84, 0.36), (0.58, 0.74), (0.84, 0.74)]
+    out = [f"{who}@{X(0.2)},0.6:0.58~none"]
+    num = sv.number_sign(s)
+    m = re.match(r"(\d{1,2}) ([A-Z]+)$", num or "")
+    group = line[-1] if (m and 2 <= int(m.group(1)) <= 12 and line) else ""
+    for k, c in enumerate(line):
+        x, y = slots[k]
+        if c == group:                              # "three banks" -> three small banks
+            out.append(f"group:{c}*{m.group(1)}@{X(x) - 0.13:.2f},{y - 0.12:.2f},{X(x) + 0.13:.2f},{y + 0.12:.2f}:0.13")
+        else:
+            out.append(f"{c}@{X(x)},{y}:0.3~pop")
     quote = re.search(r'[“"]([^”"]{3,40})[”"]', s)
-    if quote:                                       # a quoted line becomes a speech bubble
-        out.append(f'bubble:"{clean(quote.group(1))}"@0.36,0.26:l')
-    elif s.endswith("?") and len(s) <= 46:          # a short question becomes a thought bubble
-        out.append(f'think:"{clean(s)}"@0.36,0.26')
-    if sign:
-        out.append(f'{"H18" if sv.number_sign(s) else "H16"}@{next(slots)}:0.34:"{clean(sign)[:18]}"~pop')
-    for c in props[:2 if not sign else 1]:          # 1-3 things on screen, like the reference
-        out.append(f"{c}@{next(slots)}:0.34" + (f':"{clean(sign)[:18]}"' if c in PROPS_WITH_WORD else "") + "~pop")
-    pick.take([who] + props)
-    return [e for e in out if not re.match(r"H1[5-8]@[^\"]*$", e)]     # blank props always need a word
+    if quote:
+        out.append(f'bubble:"{clean(quote.group(1))}"@{X(0.36)},0.24:{"r" if mirror else "l"}')
+    elif s.endswith("?") and len(s) <= 46:
+        out.append(f'think:"{clean(s)}"@{X(0.36)},0.24')
+    if num and not group:
+        style = min((st for st in NUM_STYLES if st != "tag" or num.startswith("$")),
+                    key=lambda st: (pick.used.get("style:" + st, 0), NUM_STYLES.index(st)))
+        pick.used["style:" + style] = pick.used.get("style:" + style, 0) + 1
+        t = clean(num)[:18]
+        free = slots[len(line)] if len(line) < 4 else (0.71, 0.55)
+        if style == "label" and line:
+            tx, ty = slots[len(line) - 1]
+            out.append(f'label:"{t}"@{X(0.62)},0.16>{X(tx)},{ty - 0.12:.2f}')
+        elif style == "text" or (style == "label" and not line):
+            out.append(f'"{t}"@{X(0.7)},0.17:64:red')
+        else:
+            code = {"sign": "H18", "paper": "H15", "tag": "H17"}[style]
+            out.append(f'{code}@{X(free[0])},{free[1]}:0.32:"{t}"~pop')
+    pick.take([who] + line)
+    return out
 
 
 def photo_for(s, photos, used, now):
@@ -221,6 +245,7 @@ def main(script, vdir):
         spare = [c for c in para if not PEOPLE.match(c)]
         narr = sv.narrator_for(ln["text"], i)[:3]          # one narrator pose per spoken line, not per sentence
         tag = f"[{ln['tag']}] " if ln["tag"] else ""
+        line_items = []                              # the scene of this spoken line builds up sentence by sentence
         for j, s in enumerate(sents):
             words = (tag if j == 0 else "") + s
             if j < len(docs):
@@ -235,8 +260,7 @@ def main(script, vdir):
                     el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
                           "bars:" + ",".join(f'"{clean(a)}"={v:.0f}' for a, v in money[:4])]
                 else:
-                    el = scene(sentence_elements(s, j, last_person, spare, pick, names), (spoken // SCENE_WORDS) % 3)
-                    el = [f'title:"{clean(title)}"'] + el
+                    el = [f'title:"{clean(title)}"'] + sentence_elements(s, last_person, pick, names, line_items, i % 2 == 1)
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())
     lines += ["", "|| endscreen; hold:10"]
