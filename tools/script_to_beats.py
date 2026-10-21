@@ -22,7 +22,7 @@ PROPS_WITH_WORD = {"H15", "H16", "H17", "H18"}
 PEOPLE_SLOTS = ["0.2,0.6:0.58", "0.4,0.64:0.46"]
 PROP_SLOTS = ["0.62,0.4", "0.85,0.4", "0.62,0.76", "0.85,0.76", "0.42,0.24"]
 NOTE_SLOTS = ["0.66,0.12", "0.5,0.92"]
-MOTION = [(r"from the left|slides? in left", "l"), (r"from the right|slides? in right", "r"),
+MOTION = [(r"from the left|slides? (in )?left", "l"), (r"from the right|slides? (in )?right", "r"),
           (r"from the top|drops?|falls?|pours?", "drop"), (r"from the bottom|rises?", "b"),
           (r"walks?", "walk"), (r"pops?", "pop"), (r"shakes?|trembles?", "shake"),
           (r"spins?|turns?|rotates?", "spin"), (r"floats?|bobs?|drifts?", "float")]
@@ -49,7 +49,7 @@ def visual_items(vis):
     items, seen = [], set()
     for clause in re.split(r";|\bthen\b|\. ", vis):
         mo = next((m for pat, m in MOTION if re.search(pat, clause, re.I)), "")
-        for code in re.findall(r"\b([A-H]\d\d)\b", clause):
+        for code in re.findall(r"\b([A-H]\d\d)(?=_|\b)", clause):
             if code not in CODES or code.startswith("F") or code in seen:
                 continue
             seen.add(code)
