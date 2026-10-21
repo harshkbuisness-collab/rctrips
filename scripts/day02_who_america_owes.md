@@ -1,188 +1,227 @@
-# Day 02: Who Does America Owe $40 Trillion?
-TITLES: Who Does America Owe $40 Trillion? | Who Does America Owe $38 Trillion? | Who Does America Owe $40 Trillion?
-THUMBNAIL: WHO OWNS IT? — narrator and the main financial object
-THREAD: one Treasury IOU and its ultimate holder
+# Day 02: Who Does America Owe Forty Trillion Dollars?
+TITLES: Who Does America Owe $40 Trillion? | Who Gets Paid When America Borrows? | America's $40 Trillion IOU, Explained
+THUMBNAIL: WHO OWNS IT? — a giant IOU with Japan, China, a retiree and the Fed pulling on it
+THREAD: Linda, a retired teacher in Ohio, whose pension quietly lends money to the US government
 
-## CHAPTER 1: How big the debt is (per person, vs GDP)
-On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "Debt Position and Activity Report"
-Trillion. And whenever that number appears in a headline, someone asks the same question. Who exactly does America owe all that money to?
-> VISUAL: A06_narrator_thinking slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-China? Japan? Wall Street?
-> VISUAL: A15_narrator_point_right slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-A secret club of billionaires sitting around collecting interest? The answer is less dramatic, but much more interesting. A huge amount is owed to American investors and institutions.
-> VISUAL: A18_narrator_present_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "Major Foreign Holders of Treasury Securities"
-Another part represents promises held by accounts inside the federal government. And the rest connects America to investors around the world. So instead of staring at a giant number, let's follow one small piece of it.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-Imagine buying a one-thousand-dollar Treasury security. Where does your money go? Why would the government want it?
-> VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-And how does an ordinary investment eventually become part of a forty-trillion-dollar argument? We'll start with the number itself. The national debt is the accumulation of money the federal government has borrowed and has not yet repaid.
-> VISUAL: A06_narrator_thinking slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-A budget deficit is different. That's what happens when the government spends more during a period than it receives in revenue. A deficit adds to debt, although the total can also change for other financing reasons.
-> VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — TIC August 2026 | https://home.treasury.gov/news/press-releases/sb0662/ | highlight exactly "Treasury International Capital Data for August 2026"
-Think of the deficit as this year's shortfall and the debt as the outstanding balance from many years of borrowing. They're connected. They're not interchangeable.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-Now divide the national debt by the number of people in the country. You get a startling figure per person. But nobody is mailing every American a personal invoice for that amount.
-> VISUAL: A38_narrator_teacher_pointer slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-It's a scale comparison, not an individual legal obligation. Economists often make another comparison: debt relative to the economy. If you owe a hundred thousand dollars and earn twenty thousand a year, that feels different from owing the same amount while earning two million.
-> VISUAL: A01_narrator_neutral slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — Interest on Reserve Balances | https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm | highlight exactly "Interest on Reserve Balances"
+## CHAPTER 1: The Forty Trillion IOU
+[calm] On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion. Trillion.
+> VISUAL: A08_narrator_shocked slides in from the left; D28_debt_monster drops in; H18 sign pops in "$40.3 TRILLION"; E25_calendar pops in; G09_capitol_building slides in from the right
+> SCREEN: Reuters | https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/ | highlight "Under Trump, deficits remain high while borrowing costs escalate"
+Whenever that number shows up in the news, the same question follows. Who exactly is America borrowing all that money from?
+> VISUAL: A06_narrator_thinking slides in from the left; E09_newspaper drops in; E48_question_marks pop in; G09_capitol_building pops in
+China? Japan? A few billionaires counting interest in a back room? The real answer is less scary, and much more surprising.
+> VISUAL: A05_narrator_suspicious slides in from the left; G14_map_china slides in from the right; G15_map_japan slides in from the right; C21_billionaire_neutral pops in; E48_question_marks pop in
+Because one of the lenders might be a retired teacher in Ohio. Let's call her Linda.
+> VISUAL: C13_retiree_neutral walks in from the left; G13_map_usa_grey drops in; H18 sign pops in "OHIO"; A15_narrator_point_right slides in from the right
+Linda taught fourth grade for thirty-one years. Now she lives on her pension. And her pension fund owns United States Treasury bonds.
+> VISUAL: C15_retiree_happy walks in from the left; E10_chalkboard pops in; D25_retirement_document drops in; D24_bond_document pops in; "31 years"
+> SCREEN: Treasury Direct | https://www.treasurydirect.gov/marketable-securities/treasury-bonds/ | highlight "Treasury bonds"
+Every month, a check arrives. It pays for her groceries, her medicine, and the occasional trip to see her grandkids. She has never once thought about where that money comes from.
+> VISUAL: C15_retiree_happy stays; E39_grocery_bag pops in; E25_calendar pops in; E42_airplane slides in from the right; E52_thought_bubble pops in
+Part of it comes from interest. Interest paid by the United States government, on money it borrowed from funds like hers.
+> VISUAL: C13_retiree_neutral stays; G04_percent_happy pops in; G09_capitol_building drops in; E01_cash_stack pops in; red arrow from the Capitol to Linda
+So when Washington borrows, part of that money comes from funds like hers. Linda is not just a citizen of the debt. She is also one of its lenders.
+> VISUAL: C13_retiree_neutral stays; D25_retirement_document slides in from the right; E02_money_bag walks in; G09_capitol_building pops in; red arrow from the money bag to the Capitol
+By the end of this video, you'll see why the scariest part of the debt isn't who we owe. It's what the borrowing now costs, and who feels that cost.
+> VISUAL: A17_narrator_point_up slides in from the left; D27_calculator_shocked drops in; G05_percent_angry pops in; E24_clock pops in
+First, let's make that number feel real. Divide forty point three trillion dollars by about three hundred forty-three million Americans.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; E10_chalkboard drops in; C28_crowd_small pops in; D27_calculator_shocked pops in
+> SCREEN: U.S. Census Bureau | https://www.census.gov/popclock/ | highlight "U.S. Population"
+You get roughly one hundred eighteen thousand dollars for every man, woman and child. Linda will never get a bill for that. But it shows the size of what has been promised.
+> VISUAL: C14_retiree_worried walks in from the left; H17 price tag drops in "$118,000"; H15_paper_note_blank pops in; E44_warning_sign pops in
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/ | highlight "national debt"
+Here's another way to see it. The debt is now bigger than everything America produces in a whole year. About one hundred twenty-three percent of it.
+> VISUAL: A18_narrator_present_right slides in from the left; D13_chart_arrow_up draws on; E33_factory pops in; E22_scale drops in; "123%"
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/GFDEGDQ188S | highlight "Federal Debt: Total Public Debt as Percent of Gross Domestic Product"
+So who are all these lenders? To find out, we need to follow one bond from the moment it is born.
+> VISUAL: A33_narrator_walking walks in from the left; D24_bond_document pops in; E16_magnifying_glass slides in from the right; red arrow
 
-## CHAPTER 2: How borrowing works: Treasury bonds, auctions
-Governments are more complicated than households, but the idea is useful. Debt becomes easier to carry when the economy and its tax base grow relative to what is owed. There is also a detail that matters for the rest of our story.
-> VISUAL: A06_narrator_thinking slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-The biggest headline number is gross federal debt. It includes debt held outside government accounts and Treasury securities held by certain federal accounts. When economists discuss borrowing from financial markets, they often focus on debt held by the public instead.
-> VISUAL: A15_narrator_point_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-Keep those two categories in mind. Now come back to your one-thousand-dollar Treasury security. You didn't walk into the White House and hand over a stack of cash.
-> VISUAL: A18_narrator_present_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "debt held by the public"
-The Treasury raises money through the sale of securities, including bills, notes and bonds. Bills generally mature sooner. Notes cover intermediate terms.
-> VISUAL: A38_narrator_teacher_pointer slides left; D27_calculator_shocked drops; D24_bond_document draws; G04_percent_happy pops right; G05_percent_angry walks in; zoom; red circle; yellow highlight
-Bonds cover longer terms. Investors bid in Treasury auctions. The process determines the terms at which the government raises funds.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; G04_percent_happy draws; G05_percent_angry pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-And those securities can later be bought and sold in a large secondary market. Why would you buy one? Maybe you want a relatively low-credit-risk investment.
-> VISUAL: A06_narrator_thinking slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "Japan"
-Maybe your savings need a predictable maturity date. Maybe you're a money-market fund that needs liquid assets. Whatever your reason, the Treasury receives financing and you receive a security with contractual payment terms.
-> VISUAL: A15_narrator_point_right slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-This is one reason government borrowing looks different from a household loan. There isn't just one lender negotiating a single giant deal. There are countless buyers with different reasons for holding these securities, and the securities keep changing hands.
-> VISUAL: A18_narrator_present_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-Now imagine that your bond matures. The Treasury needs to make the promised payment. It can use tax revenue and other available funds.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; G04_percent_happy draws; G05_percent_angry pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
+## CHAPTER 2: How a Bond Is Born
+[calm] When the government spends more than it collects in taxes, it has to borrow the difference. That gap is called the deficit. In fiscal twenty twenty-six, it was close to two trillion dollars.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; D26_tax_form_evil drops in; E01_cash_stack pops in; E46_arrow_down_big pops in; "$2 trillion gap"
+> SCREEN: Reuters | https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/ | highlight "largest in 5 years"
+Think of it like this. The deficit is this year's shortfall. The debt is the total of every shortfall that hasn't been paid back yet.
+> VISUAL: A20_narrator_two_hands_empty slides in from the left; H24_bricks_stack drops in; H28_paper_stack pops in; D28_debt_monster pops in
+The government has run a deficit in almost every year since nineteen seventy. Those shortfalls piled up, one on top of another, into the number we see today.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; H24_bricks_stack drops in; D13_chart_arrow_up draws on; E25_calendar pops in "1970"; D28_debt_monster grows
+To borrow, the Treasury sells IOUs. You give the government money today, and it promises to pay you back later, with interest along the way.
+> VISUAL: A19_narrator_hand_out_empty slides in from the left; D24_bond_document drops in; E02_money_bag slides in from the right; G04_percent_happy pops in; red arrow
+> SCREEN: Treasury Direct | https://www.treasurydirect.gov/marketable-securities/ | highlight "Marketable Securities"
+Short IOUs, paid back within a year, are called bills. Medium ones are notes. Long ones, up to thirty years, are bonds. People often call them all "Treasuries."
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; H16 sticky note pops in "BILLS"; H16 sticky note pops in "NOTES"; H16 sticky note pops in "BONDS"; E23_hourglass drops in
+They are sold at auctions, many times every week. Big buyers send in bids, and the auction decides the interest rate the government has to pay.
+> VISUAL: A40_narrator_microphone slides in from the left; E14_podium pops in; C01_banker_neutral walks in; C04_banker_money_bag walks in; G04_percent_happy pops in
+> SCREEN: Treasury Direct | https://www.treasurydirect.gov/auctions/upcoming/ | highlight "Upcoming Auctions"
+Linda never goes to an auction. Her pension fund does. A manager buys Treasuries because they are about the safest promise in the world.
+> VISUAL: C13_retiree_neutral walks in from the left; C01_banker_neutral slides in from the right; D24_bond_document pops in; E21_safe_vault drops in; E27_crown pops in
+Why safe? Because the United States has paid every Treasury on time, and it borrows in dollars, the money it prints itself.
+> VISUAL: A21_narrator_thumbs_up slides in from the left; D01_dollar_happy pops in; D19_money_printer drops in; E28_trophy pops in
+That safety is why Linda's pension fund likes them. The fund has to pay thousands of retired teachers every month, for decades. It can't gamble with their money.
+> VISUAL: C13_retiree_neutral walks in from the left; C28_crowd_small pops in; D25_retirement_document drops in; E21_safe_vault pops in; A48_narrator_stop_hand slides in from the right
+And once a bond is sold, it doesn't sit still. It can be sold again and again, to banks, funds and foreign buyers, every single day.
+> VISUAL: A15_narrator_point_right slides in from the left; D24_bond_document slides in from the right; D15_bank_building pops in; E43_globe pops in; red arrow
+> SCREEN: Federal Reserve | https://www.federalreserve.gov/econres/notes/feds-notes/default.htm | highlight "FEDS Notes"
+So the forty trillion dollars isn't one loan from one lender. It's millions of IOUs, held by all kinds of owners. Let's meet them.
+> VISUAL: A18_narrator_present_right slides in from the left; H28_paper_stack drops in; C28_crowd_small pops in; E48_question_marks pop in
 
-## CHAPTER 3: Who holds it: the public, the Fed, Social Security & other trust funds, foreign countries
-It can also issue new securities and use those proceeds to finance payments on maturing debt. That process is called refinancing. Governments do it all the time.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — TIC August 2026 | https://home.treasury.gov/news/press-releases/sb0662/ | highlight exactly "October 16, 2026"
-So here's our first answer. The debt is not a single invoice with one name at the top. It's an enormous collection of promises held by different investors.
-> VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-But then we encounter something that sounds almost absurd. Part of the government's debt is held by its own accounts. Federal trust funds, including Social Security trust funds, hold special Treasury securities.
-> VISUAL: A15_narrator_point_right slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-When the funds have money available for investment, those securities represent assets of the trust fund and liabilities of the Treasury. Imagine two departments in the same large organization. One has funds to invest.
-> VISUAL: A18_narrator_present_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — Interest on Reserve Balances | https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm | highlight exactly "Only the Federal Reserve, as the central bank, can create reserves"
-The other issues an IOU. From the perspective of the whole organization, that's an internal obligation. But each department still has a responsibility attached to it.
-> VISUAL: A38_narrator_teacher_pointer slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-And when a trust fund needs to redeem those securities to pay benefits, the Treasury has to provide the cash. That may mean using taxes, other revenue or financing from outside investors. So no, internal government debt is not a magical pile of free money.
-> VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-It represents claims that matter for federal financing. Let's move outside those accounts. Who holds the debt classified as debt held by the public?
-> VISUAL: A06_narrator_thinking slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "intragovernmental holdings"
-Ordinary households can hold Treasuries. So can banks, pension funds, insurance companies, investment funds, corporations, foreign investors and central banks. And the Federal Reserve Banks also hold Treasury securities.
-> VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-That last one surprises people. Isn't the Federal Reserve part of the government? Yes, it is part of the broader public financial system.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-But in federal debt statistics, the Fed's Treasury holdings are generally counted under debt held by the public rather than intragovernmental holdings. The distinction is important. You cannot simply add every government-related entity together and say the debt has vanished.
-> VISUAL: A38_narrator_teacher_pointer slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
 
-## CHAPTER 4: Japan and China: why they buy
-The Fed uses Treasury securities in its monetary-policy operations. When it purchases securities, they appear as assets on its balance sheet. The system also has liabilities, including reserves and currency.
-> VISUAL: A01_narrator_neutral slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "United Kingdom"
-Buying a bond is not the same thing as erasing it. Now think about your retirement plan. You may have never purchased a Treasury bond directly.
-> VISUAL: A06_narrator_thinking slides left; D24_bond_document drops; G04_percent_happy draws; G05_percent_angry pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-But your retirement account may own a fund that holds bonds. Those bonds may include U.S. Treasuries.
-> VISUAL: A15_narrator_point_right slides left; G04_percent_happy drops; G05_percent_angry draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-So in an indirect sense, your future savings can include claims on the same government whose debt headlines worry you. And that's the strange thing. Treasury debt is a federal obligation, but it is also an investment asset owned across the financial system.
-> VISUAL: A18_narrator_present_right slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — TIC August 2026 | https://home.treasury.gov/news/press-releases/sb0662/ | highlight exactly "foreign holdings of U.S. securities"
-Banks use it. Funds hold it. Investors trade it.
-> VISUAL: A38_narrator_teacher_pointer slides left; E21_safe_vault drops; E01_cash_stack draws; D15_bank_building pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-Institutions post it as collateral. The financial system doesn't merely put up with government debt. It relies on a deep and liquid Treasury market.
-> VISUAL: A01_narrator_neutral slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-Now let's travel overseas, because this is where the headlines usually point. When people talk about foreign ownership of America's debt, they often jump straight to China. But foreign Treasury holders are far more diverse.
-> VISUAL: A06_narrator_thinking slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — Interest on Reserve Balances | https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm | highlight exactly "This process does not affect the amount of outstanding Treasury debt"
-Japan has long been a major holder. The United Kingdom also appears prominently in Treasury data, and China remains significant. What makes them willing to hold American securities?
-> VISUAL: A15_narrator_point_right slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-Start with a Japanese financial institution. It may have large pools of savings to invest. It needs assets it can trade readily.
-> VISUAL: A18_narrator_present_right slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-It may also have liabilities denominated in dollars, or investment objectives that call for dollar exposure. Treasuries can serve those needs because the market is large and liquid. Foreign central banks have another reason.
-> VISUAL: A38_narrator_teacher_pointer slides left; E01_cash_stack drops; D15_bank_building draws; C01_banker_neutral pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "Issue and redemption activity"
-Countries that manage substantial foreign-exchange reserves may want liquid dollar-denominated assets for international payments and market operations. Buying Treasuries isn't necessarily a compliment to American politics. It's a financial choice made because the securities provide particular functions.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
+## CHAPTER 3: Who Holds It
+[calm] Start with the strangest owner of all. The government itself. About eight trillion dollars of the debt is held inside federal accounts.
+> VISUAL: A07_narrator_confused slides in from the left; G09_capitol_building drops in; D24_bond_document pops in; E21_safe_vault pops in; "about $8 trillion"
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/ | highlight "Intragovernmental Holdings"
+The biggest of these is Social Security. For years, it collected more in payroll taxes than it paid out. It lent that extra money to the Treasury.
+> VISUAL: C15_retiree_happy walks in from the left; D25_retirement_document drops in; E01_cash_stack pops in; G09_capitol_building pops in; red arrow
+> SCREEN: Social Security Administration | https://www.ssa.gov/oact/progdata/investheld.html | highlight "Trust Fund"
+Now Linda's benefits depend on that money coming back. To pay retirees, the Treasury has to turn those IOUs into cash, using taxes or new borrowing.
+> VISUAL: C14_retiree_worried walks in from the left; D24_bond_document slides in from the right; D26_tax_form_evil drops in; E01_cash_stack pops in
+So money the government owes itself is still real money. Someone still has to come up with it.
+> VISUAL: A14_narrator_shrug slides in from the left; E21_safe_vault pops in; A19_narrator_hand_out_empty pops in; E48_question_marks pop in
+The other thirty-two trillion dollars or so is held by the public. That means everyone outside the government's own accounts.
+> VISUAL: A18_narrator_present_right slides in from the left; C28_crowd_small drops in; D15_bank_building pops in; E43_globe pops in; "$32 trillion"
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/ | highlight "Debt Held by the Public"
+That includes pension funds like Linda's. It includes banks, insurance companies, money market funds, and ordinary people who buy savings bonds.
+> VISUAL: C13_retiree_neutral walks in from the left; D15_bank_building pops in; E06_briefcase pops in; D25_retirement_document drops in; C11_worker_woman_happy slides in from the right
+Some of it is held by people just like Linda's neighbors. Grandparents who buy a savings bond as a birthday gift. Workers whose retirement accounts hold a bond fund.
+> VISUAL: C15_retiree_happy walks in from the left; C27_kid_curious walks in from the right; D24_bond_document pops in; H19_box_closed drops in; D25_retirement_document pops in
+If you have a four oh one k or a pension, there's a good chance you're one of America's lenders too, without ever buying a bond yourself.
+> VISUAL: A01_narrator_neutral slides in from the left; H01_narrator_point_viewer pops in; D25_retirement_document drops in; D24_bond_document pops in; E49_exclamation_marks pop in
+And it includes one owner that surprises almost everyone. The Federal Reserve, America's central bank.
+> VISUAL: A08_narrator_shocked slides in from the left; G10_central_bank_building drops in; C25_central_banker_printer walks in; E49_exclamation_marks pop in
+> SCREEN: Federal Reserve | https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm | highlight "Recent balance sheet trends"
+To understand why, picture the Fed as the bank for banks. It doesn't sell groceries or build roads. Its job is to keep money and prices steady.
+> VISUAL: G10_central_bank_building pops in; D15_bank_building drops in; E22_scale pops in; A38_narrator_teacher_pointer slides in from the left
+The Fed bought trillions of dollars of Treasuries, mostly to calm markets during crises like twenty twenty. But buying an IOU doesn't make it disappear.
+> VISUAL: C25_central_banker_printer stays; D24_bond_document pops in; D19_money_printer drops in; E25_calendar pops in "2020"; A22_narrator_thumbs_down slides in from the left
+The Treasury still pays the Fed interest, and the bonds still have to be paid back when they come due.
+> VISUAL: G10_central_bank_building pops in; G09_capitol_building slides in from the left; E01_cash_stack pops in; red arrow
+So most of the debt is owed to Americans and American institutions. Linda, her neighbors, her bank, and her own government. But a big slice lives far outside Ohio, across two oceans.
+> VISUAL: C13_retiree_neutral walks in from the left; G13_map_usa_grey drops in; E43_globe slides in from the right; E42_airplane pops in
 
-## CHAPTER 5: The real problem: interest now costs more than defense
-And it is not correct to say one foreign country owns America. No single foreign holder owns anything close to the total national debt. There is also a technical limitation.
-> VISUAL: A06_narrator_thinking slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-The Treasury's foreign-holdings tables often reflect where securities are held through custodians, and that does not always identify the ultimate beneficial owner. The country labels are useful, but they aren't a perfect map of who controls every security. So now we know the buyers.
-> VISUAL: A15_narrator_point_right slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-We still have to ask why their willingness to buy matters. Imagine a Treasury auction in a normal week. Investors submit bids, and the government raises financing.
-> VISUAL: A18_narrator_present_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "China, Mainland"
-But suppose investors begin demanding a higher return. Maybe inflation looks more persistent. Maybe interest rates are expected to stay elevated.
-> VISUAL: A38_narrator_teacher_pointer slides left; G04_percent_happy drops; G05_percent_angry draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-Maybe the market is worried about the amount of new borrowing that will be required. The government can still attract buyers, but the price changes. Investors want a higher yield.
-> VISUAL: A01_narrator_neutral slides left; G05_percent_angry drops; D27_calculator_shocked draws; D24_bond_document pops right; G04_percent_happy walks in; zoom; red circle; yellow highlight
-And because the United States refinances enormous amounts of debt over time, the cost of new borrowing matters. Try a simple calculation. One trillion dollars refinanced at three percent interest costs about thirty billion dollars a year in interest.
-> VISUAL: A06_narrator_thinking slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — TIC August 2026 | https://home.treasury.gov/news/press-releases/sb0662/ | highlight exactly "custodial data"
-At five percent, the annual cost is roughly fifty billion dollars. That's twenty billion dollars more each year on the same trillion dollars of principal. Of course, not every Treasury security is refinanced at once.
-> VISUAL: A15_narrator_point_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-Existing fixed-rate securities retain their terms until maturity. The full effect comes gradually as securities roll over and new borrowing takes place. But across trillions of dollars, small changes in financing costs add up.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-Now consider what that money competes with. Federal budgets have to fund many things. Social programs, defense, infrastructure, public administration and interest payments all require resources.
-> VISUAL: A38_narrator_teacher_pointer slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — Interest on Reserve Balances | https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm | highlight exactly "Interest on Reserve Balances"
 
-## CHAPTER 6: What happens if buyers step back
-If interest payments consume a larger share of federal revenue and spending, Congress faces harder choices. It can change taxes. It can change other spending.
-> VISUAL: A01_narrator_neutral slides left; D14_chart_arrow_down drops; C01_banker_neutral draws; G11_stock_exchange pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-It can borrow more. It can try to support stronger long-term growth. None of those choices is automatic or painless.
-> VISUAL: A06_narrator_thinking slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-There's a subtle point here. Interest payments don't disappear into a black hole. They become income for investors holding Treasury securities.
-> VISUAL: A15_narrator_point_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-Some goes to American households and institutions. Some goes abroad. But from the Treasury's perspective, those payments still have to be financed.
-> VISUAL: A18_narrator_present_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "Debt Position and Activity Report"
-And that takes us to the question most viewers really care about. What does any of this have to do with a family trying to buy a house? Treasury yields are reference points across financial markets.
-> VISUAL: A38_narrator_teacher_pointer slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-The ten-year Treasury yield, for example, is an important benchmark for mortgage lending. Mortgage rates don't simply equal Treasury yields. Lenders consider other risks and mortgage-backed securities markets.
-> VISUAL: A01_narrator_neutral slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-Still, if longer-term yields rise, mortgage financing can become more expensive. Picture two households looking at the same home with the same down payment. If one gets a substantially higher mortgage rate, its monthly payment is larger.
-> VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "Billions of dollars"
-A house that looks affordable on paper may no longer work in the monthly budget. That doesn't mean the national debt alone sets mortgage rates. It means federal borrowing costs interact with the broader price of money.
-> VISUAL: A15_narrator_point_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-Higher financing costs can affect businesses too. Companies evaluating new factories, warehouses or equipment often compare possible returns against what borrowing will cost. If the cost of money rises, some investments no longer look attractive.
-> VISUAL: A18_narrator_present_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-There is no direct line from one Treasury auction to every mortgage, job or stock price. But the connections are real enough that markets watch government borrowing closely. So here's the final question.
-> VISUAL: A38_narrator_teacher_pointer slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — TIC August 2026 | https://home.treasury.gov/news/press-releases/sb0662/ | highlight exactly "Treasury International Capital Data for August 2026"
+## CHAPTER 4: Japan and China
+[calm] Foreign investors hold roughly a quarter of the debt owned by the public. And when people picture them, they usually think of one country first. China.
+> VISUAL: A06_narrator_thinking slides in from the left; E43_globe drops in; G14_map_china pops in; G08_yuan_coin pops in; "about 1/4"
+> SCREEN: U.S. Treasury | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight "Major Foreign Holders of Treasury Securities"
+But China isn't even number one. In August twenty twenty-six, Japan held about one point zero seven trillion dollars. The United Kingdom held about one trillion.
+> VISUAL: A15_narrator_point_right slides in from the left; G15_map_japan drops in; G07_yen_coin pops in; G16_map_europe slides in from the right; H18 sign pops in "#1 JAPAN"
+> SCREEN: U.S. Treasury | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight "Japan"
+Mainland China held about five hundred ninety-one billion. That's a lot of money. But it's only a small piece of forty trillion dollars.
+> VISUAL: G14_map_china pops in; G08_yuan_coin pops in; B11_penny_tiny drops in; D28_debt_monster slides in from the right; "$591 billion"
+> SCREEN: U.S. Treasury | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight "China, Mainland"
+One catch. These lists show where bonds are kept, not always who really owns them. Bonds stored at a bank in London might belong to someone in another country.
+> VISUAL: A05_narrator_suspicious slides in from the left; E21_safe_vault pops in; G16_map_europe drops in; E16_magnifying_glass pops in; E48_question_marks pop in
+So why does Japan buy so much? Japanese banks and insurers hold huge piles of savings. For years, interest at home was close to zero.
+> VISUAL: G15_map_japan slides in from the right; D15_bank_building drops in; E04_coin_pile pops in; G04_percent_happy pops in "0%"; A06_narrator_thinking slides in from the left
+> SCREEN: Bank of Japan | https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm | highlight "Monetary Policy"
+Think of a Japanese insurance company with millions of customers. It promises to pay them decades from now. It needs safe investments that pay more than almost nothing.
+> VISUAL: G15_map_japan stays; H11_woman_shorthair_neutral walks in from the right; D25_retirement_document pops in; E23_hourglass drops in; G04_percent_happy pops in
+American Treasuries paid more, and they were easy to sell at any time. So that money crossed the Pacific.
+> VISUAL: G07_yen_coin slides in from the left; E31_cargo_ship drops in; D24_bond_document pops in; G13_map_usa_grey pops in; red arrow
+China's reason is different. It sells a lot to the world and earns a lot of dollars. It needs a safe place to park them, and Treasuries are the biggest parking lot there is.
+> VISUAL: G14_map_china slides in from the right; E31_cargo_ship pops in; E02_money_bag drops in; E21_safe_vault pops in; H18 sign pops in "PARKED"
+> SCREEN: U.S. Treasury | https://home.treasury.gov/news/press-releases/sb0662/ | highlight "Treasury International Capital Data for August"
+Britain is a different story again. London is one of the world's biggest money centers. Banks and funds from many countries keep their Treasuries there.
+> VISUAL: G16_map_europe slides in from the right; E34_skyscraper drops in; D15_bank_building pops in; E21_safe_vault pops in; "London"
+In recent years, China has actually been holding fewer Treasuries, not more. So the idea that China controls America's debt doesn't match the numbers.
+> VISUAL: G14_map_china pops in; D14_chart_arrow_down draws on; G08_yuan_coin pops in; E22_scale drops in; A05_narrator_suspicious slides in from the left
+So foreign buyers aren't doing America a favor. They buy because it helps them. And here's the part that affects everyone, whoever holds the bonds.
+> VISUAL: A04_narrator_smug slides in from the left; G15_map_japan pops in; G14_map_china pops in; E22_scale drops in
+Every one of those IOUs pays interest, whether it sits in Tokyo, London, or Linda's pension fund. And that bill has become enormous.
+> VISUAL: A08_narrator_shocked slides in from the left; D28_debt_monster drops in; G05_percent_angry pops in; E49_exclamation_marks pop in
 
-## CHAPTER 7: What it means for your mortgage & taxes
-What if foreign investors suddenly stop buying Treasuries? It depends on what 'stop' means. If one institution reduces its holdings, another investor might buy those securities.
-> VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-The price may adjust. Yields might need to rise to attract buyers. If demand weakened broadly and persistently, the government could face more expensive financing and financial markets could become less stable.
-> VISUAL: A06_narrator_thinking slides left; G05_percent_angry drops; D27_calculator_shocked draws; D24_bond_document pops right; G04_percent_happy walks in; zoom; red circle; yellow highlight
-But a decline in one country's purchases does not automatically mean the United States misses its next payment. Treasury securities trade in a deep global market, and the United States borrows in its own currency. Those are major advantages.
-> VISUAL: A15_narrator_point_right slides left; G09_capitol_building drops; D27_calculator_shocked draws; D24_bond_document pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — Interest on Reserve Balances | https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm | highlight exactly "Only the Federal Reserve, as the central bank, can create reserves"
-They are not reasons to ignore risk. They are reasons to avoid simplistic predictions. Now return to your original one-thousand-dollar Treasury security.
-> VISUAL: A18_narrator_present_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-You bought it because it served a purpose in your savings. A bank might hold one for liquidity. A pension fund might hold one to match future payments.
-> VISUAL: A38_narrator_teacher_pointer slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-A foreign central bank might hold one as a reserve asset. A federal trust fund may hold another type of Treasury obligation. From the government's side, every security is a promise to pay.
-> VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
-That is the answer to who owns America's debt. No single country, family or institution controls the entire balance. It is spread among an enormous network of holders, and every category exists for a different reason.
-> VISUAL: A06_narrator_thinking slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "debt held by the public"
-But the more useful question was hiding underneath the first one. Not just who America owes. What it costs America to keep borrowing, and whether the economy and the federal budget can support that cost over time.
-> VISUAL: A15_narrator_point_right slides left; D27_calculator_shocked drops; D24_bond_document draws; E01_cash_stack pops right; G09_capitol_building walks in; zoom; red circle; yellow highlight
-Because the debt number tells us what has already been promised. The rate investors demand on the next dollar of borrowing helps determine how expensive those promises become. And once you understand that, there's another side of finance worth examining.
-> VISUAL: A18_narrator_present_right slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
-What happens when someone sells investors a promise that isn't worth what it seems? That's where the real Wolf of Wall Street enters the story.
-> VISUAL: A38_narrator_teacher_pointer slides left; E01_cash_stack drops; G09_capitol_building draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
-> SCREEN: U.S. Treasury — Major Foreign Holders | https://ticdata.treasury.gov/Publish/slt_table5.html | highlight exactly "Major Foreign Holders of Treasury Securities"
+## CHAPTER 5: The Interest Bill
+[serious] In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. That's more than America spent on its entire military.
+> VISUAL: A08_narrator_shocked slides in from the left; G05_percent_angry drops in; G18_army_tank slides in from the right; E22_scale pops in; "$1 trillion"
+> SCREEN: Congressional Budget Office | https://www.cbo.gov/publication/62105 | highlight "The Budget and Economic Outlook"
+[calm] Read that again. Paying interest on old borrowing now costs more than tanks, ships, planes and soldiers, combined.
+> VISUAL: G18_army_tank pops in; E42_airplane pops in; E31_cargo_ship pops in; D27_calculator_shocked drops in; A35_narrator_sweating slides in from the left
+It's also about four times what the government spent on interest ten years earlier. The bill grew fourfold while most people weren't watching.
+> VISUAL: A45_narrator_head_shocked pops in; D13_chart_arrow_up draws on; E45_arrow_up_big pops in; E24_clock pops in; "4x"
+Spread across every American, that's about three thousand dollars each, every year, just for interest.
+> VISUAL: C28_crowd_small drops in; H17 price tag pops in "$3,000 a year"; G05_percent_angry pops in; A35_narrator_sweating slides in from the left
+Why did it jump so fast? For years, America borrowed at very low rates. Then, starting in twenty twenty-two, rates rose fast to fight inflation.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; D13_chart_arrow_up draws on; E37_cart_prices_up pops in; G05_percent_angry drops in; E25_calendar pops in "2022"
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/DGS10 | highlight "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity"
+Old bonds keep their old rates. But every time one comes due, the Treasury pays it off by selling a new one, at today's higher rate.
+> VISUAL: D24_bond_document slides in from the left; E23_hourglass pops in; D24_bond_document slides in from the right; G05_percent_angry pops in; red arrow
+And a lot of bonds come due every year. Trillions of dollars of old, cheap borrowing gets replaced with new, more expensive borrowing. Slowly, the whole pile gets pricier.
+> VISUAL: H28_paper_stack drops in; E23_hourglass pops in; G05_percent_angry pops in; D13_chart_arrow_up draws on; A35_narrator_sweating slides in from the left
+Here's a simple example. Borrow one trillion dollars at three percent, and you pay thirty billion dollars a year. At five percent, it's fifty billion.
+> VISUAL: A30_narrator_counting_money slides in from the left; E10_chalkboard drops in; H16 sticky note pops in "3% = $30B"; H16 sticky note pops in "5% = $50B"
+That's twenty billion dollars more, every year, for the same trillion. Now repeat that across thousands of billions of dollars of borrowing.
+> VISUAL: D27_calculator_shocked drops in; E03_money_rain pours down; A45_narrator_head_shocked pops in; E45_arrow_up_big pops in
+> SCREEN: Congressional Budget Office | https://www.cbo.gov/topics/budget/federal-debt-and-statutory-limit | highlight "Federal Debt"
+Linda reads about this in the paper and frowns. Because every dollar spent on interest is a dollar that can't go to roads, schools, or her Social Security.
+> VISUAL: C14_retiree_worried walks in from the left; E09_newspaper pops in; E10_chalkboard pops in; D25_retirement_document drops in; E20_trash_can pops in
+There's a twist, though. That interest doesn't vanish. It's paid to the bondholders. Some of it ends up in Linda's own pension.
+> VISUAL: C15_retiree_happy walks in from the left; E01_cash_stack drops in; D25_retirement_document pops in; E27_crown pops in
+> SCREEN: Social Security Administration | https://www.ssa.gov/oact/progdata/investheld.html | highlight "interest"
+So the system works, as long as buyers keep showing up. Which raises the big question. What happens if they don't?
+> VISUAL: A06_narrator_thinking slides in from the left; C28_crowd_small pops in; E48_question_marks drop in; E44_warning_sign pops in
+
+## CHAPTER 6: When Buyers Step Back
+[calm] Every week, the Treasury needs buyers for new IOUs. Usually there are plenty. But imagine an auction where fewer people show up.
+> VISUAL: A40_narrator_microphone slides in from the left; E14_podium drops in; C01_banker_neutral walks in; E48_question_marks pop in
+The Treasury would still sell its bonds. It would just have to offer a higher interest rate to tempt buyers.
+> VISUAL: D24_bond_document pops in; G05_percent_angry drops in; E45_arrow_up_big pops in; C02_banker_greedy slides in from the right
+> SCREEN: Treasury Direct | https://www.treasurydirect.gov/auctions/auction-query/ | highlight "Auction Query"
+A higher rate means a bigger interest bill. A bigger bill means more borrowing. That's the loop budget experts worry about most.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; G05_percent_angry pops in; D28_debt_monster drops in; E24_clock pops in; red circle around the loop
+This doesn't mean America suddenly goes broke. It borrows in its own currency, and its bond market is the deepest in the world.
+> VISUAL: A21_narrator_thumbs_up slides in from the left; D01_dollar_happy pops in; G11_stock_exchange drops in; E43_globe pops in
+But the warning lights have started to blink. In twenty twenty-three, Fitch lowered America's credit rating. In twenty twenty-five, Moody's did the same, taking away America's last top rating.
+> VISUAL: A35_narrator_sweating slides in from the left; E44_warning_sign drops in; H18 sign pops in "AAA → AA+"; D14_chart_arrow_down draws on; E09_newspaper pops in
+> SCREEN: Reuters | https://www.reuters.com/markets/us/moodys-downgrades-us-sovereign-credit-rating-aa1-2025-05-16/ | highlight "Moody's downgrades"
+A lower rating doesn't mean America won't pay. It's a signal that lenders are paying closer attention to how much it borrows.
+> VISUAL: A06_narrator_thinking slides in from the left; E16_magnifying_glass pops in; C01_banker_neutral walks in; D24_bond_document pops in
+But it does mean the cost of money can rise for everyone. Because Treasury rates are the starting point for many other loans.
+> VISUAL: A18_narrator_present_right slides in from the left; D24_bond_document pops in; D18_credit_card drops in; E41_car pops in; D09_house_happy pops in
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/DGS10 | highlight "10-Year"
+Car loans, business loans, and most of all, mortgages. And that's where Linda's story comes home.
+> VISUAL: C13_retiree_neutral walks in from the left; E41_car pops in; E33_factory pops in; D09_house_happy drops in
+
+## CHAPTER 7: Your Mortgage, Your Money
+[calm] Linda's grandson, Jake, is twenty-nine. He's a nurse in Columbus, and he's trying to buy his first home.
+> VISUAL: C13_retiree_neutral walks in from the left; H09_guy_curly_neutral walks in from the right; D09_house_happy drops in; H22_book_open pops in
+He keeps asking why mortgage rates are so much higher than when his parents bought. Part of the answer runs through the bond market.
+> VISUAL: H10_guy_curly_talking slides in from the right; D11_house_expensive drops in; G05_percent_angry pops in; E48_question_marks pop in
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/MORTGAGE30US | highlight "30-Year Fixed Rate Mortgage Average in the United States"
+Mortgage rates tend to follow the ten-year Treasury rate, plus a little extra for the bank's risk. When Treasury rates climb, mortgages usually climb too.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; D24_bond_document pops in; D13_chart_arrow_up draws on; D11_house_expensive pops in; red arrow
+> SCREEN: Freddie Mac | https://www.freddiemac.com/pmms | highlight "Primary Mortgage Market Survey"
+On a three hundred thousand dollar loan, one extra percentage point adds roughly two hundred dollars to the monthly payment. That can decide whether Jake gets the house.
+> VISUAL: H09_guy_curly_neutral stays; H17 price tag drops in "+$200 a month"; D27_calculator_shocked pops in; D10_house_sad pops in
+Government debt isn't the only reason rates are high. Inflation and the Fed matter too. But a government that borrows more, at higher cost, pushes in the same direction.
+> VISUAL: A20_narrator_two_hands_empty slides in from the left; E37_cart_prices_up pops in; G10_central_bank_building pops in; D28_debt_monster drops in; E22_scale pops in
+Linda listens and nods. For the first time, she sees both sides of the same story. Her pension gains when rates rise. Her grandson pays more.
+> VISUAL: C13_retiree_neutral walks in from the left; H09_guy_curly_neutral walks in from the right; E22_scale drops in; D25_retirement_document pops in; D11_house_expensive pops in
+That's the hidden truth of government debt. It's not someone else's problem. It's a deal between all of us, the savers who lend and the borrowers who pay.
+> VISUAL: A18_narrator_present_right slides in from the left; C28_crowd_small drops in; E22_scale pops in; H27_heart pops in
+So let's answer our question. Who does America owe forty trillion dollars to? Mostly to itself, to Americans, and to people like Linda.
+> VISUAL: C15_retiree_happy walks in from the left; G13_map_usa_grey drops in; D25_retirement_document pops in; C28_crowd_small pops in
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/ | highlight "Who owns"
+Then to Japan, Britain, China, and many other countries. No single lender controls it, and no foreign country owns America.
+> VISUAL: G15_map_japan slides in from the right; G16_map_europe pops in; G14_map_china pops in; E43_globe drops in; A21_narrator_thumbs_up slides in from the left
+But the scariest part was never who we owe. It's the price of borrowing. A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones.
+> VISUAL: A12_narrator_angry slides in from the left; D28_debt_monster drops in; G05_percent_angry pops in; E45_arrow_up_big pops in
+> SCREEN: Congressional Budget Office | https://www.cbo.gov/publication/62105 | highlight "net interest"
+Here's the takeaway. When you hear "the debt," ask a better question. Not just how big is it, but what does it cost us each year, and what are we giving up to pay it?
+> VISUAL: A17_narrator_point_up slides in from the left; E17_light_bulb pops in; H18 sign drops in "WHAT DOES IT COST?"; E22_scale pops in
+Linda folds her pension statement and puts it away. Her IOU is safe. But not every promise on Wall Street is.
+> VISUAL: C13_retiree_neutral walks in from the left; D25_retirement_document pops in; E21_safe_vault pops in; G11_stock_exchange slides in from the right
+And Jake? He decides to wait a few months, save a bigger down payment, and watch the rates. Not because of panic. Because now he understands what moves them.
+> VISUAL: H09_guy_curly_neutral walks in from the right; E01_cash_stack pops in; E25_calendar pops in; D13_chart_arrow_up draws on; A21_narrator_thumbs_up slides in from the left
+[dramatic] Next time, we meet a man who sold people promises that were never real. The real Wolf of Wall Street.
+> VISUAL: C02_banker_greedy slides in from the right; E08_phone pops in; E02_money_bag drops in; E55_handcuffs_chain pops in; A23_narrator_wave slides in from the left
 
 ## SOURCES
-- Research source — TreasuryDirect — Debt Position and Activity Report — https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/
-- Research source — U.S. Treasury — Major Foreign Holders — https://ticdata.treasury.gov/Publish/slt_table5.html
-- Research source — U.S. Treasury — TIC August 2026 — https://home.treasury.gov/news/press-releases/sb0662/
-- Research source — Federal Reserve — Interest on Reserve Balances — https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm
-- VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- Total public debt $40.31T on 8 Oct 2026 — Treasury Debt to the Penny, https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/
+- Total public debt about $40.31 trillion on 8 Oct 2026; debt held by the public about $32.45T — Treasury Debt to the Penny — https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/ (via PrimeRates summary; VERIFY exact daily figure before recording)
+- Population about 343 million — U.S. Census Bureau — https://www.census.gov/popclock/
+- Debt about 123% of GDP (Q1 2026) — FRED GFDEGDQ188S — https://fred.stlouisfed.org/series/GFDEGDQ188S
+- Fiscal 2026 deficit close to $2 trillion (about $1.99T) — Reuters, 16 Oct 2026 — https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/
+- Japan about $1.07T, UK about $1T, mainland China about $591B (Aug 2026) — Treasury TIC Table 5 — https://ticdata.treasury.gov/Publish/slt_table5.html
+- Foreign holders about a quarter of debt held by the public (VERIFY total foreign holdings in TIC table)
+- Net interest about $1 trillion in FY2026, more than defense (about $900B) — CBO — https://www.cbo.gov/publication/62105
+- Social Security trust funds hold special Treasury securities — SSA — https://www.ssa.gov/oact/progdata/investheld.html
+- About $200 more per month per extra percentage point on a $300,000 30-year loan (standard mortgage math, about 6% to 7%)
+- Linda and Jake are fictional examples.
