@@ -4,7 +4,7 @@ THUMBNAIL: THE TAX GAP — narrator and the main financial object
 THREAD: one dollar of wages versus one dollar of assets
 
 ## CHAPTER 1: Income vs wealth
-Tax rules can treat inherited investments very differently from income earned at work. The first is a highly paid employee. Most of their compensation arrives as wages, with taxes withheld throughout the year.
+Between twenty fourteen and twenty eighteen, the twenty-five richest Americans paid a true tax rate of about three point four percent, according to IRS data reported by ProPublica. Picture two people ending the year with very different tax returns. The first is a highly paid employee. Most of their compensation arrives as wages, with taxes withheld throughout the year.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: IRS — Gifts and Inheritances | https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances | highlight exactly "Gifts & inheritances"
 The second owns a large business and shares that have increased substantially in value. On paper, the owner's wealth has risen by far more. Yet the cash income reported on a personal tax return may be much smaller than the increase in wealth.
@@ -141,3 +141,4 @@ Once you see those distinctions, seemingly impossible tax headlines become easie
 - Research source — IRS — Gifts and Inheritances — https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances
 - Research source — IRS — Form 8949 Instructions — https://www.irs.gov/instructions/i8949
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- ProPublica 'The Secret IRS Files' (June 2021): 3.4% true tax rate, 2014-2018

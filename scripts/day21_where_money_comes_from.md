@@ -4,7 +4,7 @@ THUMBNAIL: WHO CREATES IT? — narrator and the main financial object
 THREAD: one small-business bank loan
 
 ## CHAPTER 1: Cash vs bank money
-In modern banking, most money does not begin as freshly printed paper. The loan officer approves your application and the bank credits your account. You look at the balance on your phone.
+In Britain, the central bank says only about three percent of money is cash. The rest is numbers in bank accounts. Picture walking into a bank to borrow money for a small business. The loan officer approves your application and the bank credits your account. You look at the balance on your phone.
 > VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
 > SCREEN: Bank of England — Money creation in the modern economy | https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy | highlight exactly "Money creation in the modern economy"
 The money appears to be there, ready to pay employees and suppliers. But what exactly happened? Did the bank take cash from someone else's safe-deposit box and move it into your account?
@@ -148,3 +148,4 @@ Once you understand this balance between money and trust, a technology that trie
 - Research source — Bank of England — Money in the modern economy — https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-in-the-modern-economy-an-introduction
 - Research source — Federal Reserve — Interest on Reserve Balances — https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Bank of England QB 2014 Q1: notes and coins about 3% of broad money

@@ -4,7 +4,7 @@ THUMBNAIL: LOCKED OUT — narrator and the main financial object
 THREAD: one prospective homeowner
 
 ## CHAPTER 1: Prices vs incomes (then vs now)
-Researchers at the federal housing regulator found that mortgage rate lock-in held back millions of potential home sales. They have similar houses, similar incomes, and similar families. One bought a home years ago with a low fixed mortgage rate.
+Federal researchers estimate that low mortgage rates kept so many owners in place that about one point three million home sales never happened. Picture two neighbors living on the same street. They have similar houses, similar incomes, and similar families. One bought a home years ago with a low fixed mortgage rate.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: FHFA — Lock-In Effect of Rising Mortgage Rates | https://www.fhfa.gov/research/papers/wp2403?trk=article-ssr-frontend-pulse_little-text-block | highlight exactly "The Lock-In Effect of Rising Mortgage Rates"
 The other is trying to buy today. The first neighbor feels trapped because moving would mean giving up an unusually cheap loan. The second feels locked out because a new loan costs so much.
@@ -147,3 +147,4 @@ Few people understood that better than John D. Rockefeller.
 - Research source — FHFA — Lock-In Effect of Rising Mortgage Rates — https://www.fhfa.gov/research/papers/wp2403?trk=article-ssr-frontend-pulse_little-text-block
 - Research source — Federal Reserve — Survey of Consumer Finances — https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- FHFA working paper 24-03: lock-in prevented about 1.33 million sales (VERIFY exact figure)

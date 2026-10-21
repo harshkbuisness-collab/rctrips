@@ -4,7 +4,7 @@ THUMBNAIL: THE YEN TRADE — narrator and the main financial object
 THREAD: one investor borrowing cheap Japanese yen
 
 ## CHAPTER 1: Japan's lost decades
-In March twenty twenty-four, Japan ended an era of negative interest-rate policy. Imagine borrowing money at an extremely low interest rate, converting it into another currency, and investing where the returns are higher. On a spreadsheet it looks remarkably easy.
+On August fifth, twenty twenty-four, Japan's stock market fell more than twelve percent in one day, its worst drop since nineteen eighty-seven. Imagine borrowing money at an extremely low interest rate, converting it into another currency, and investing where the returns are higher. On a spreadsheet it looks remarkably easy.
 > VISUAL: A01_narrator_neutral slides left; G04_percent_happy drops; G05_percent_angry draws; D27_calculator_shocked pops right; D24_bond_document walks in; zoom; red circle; yellow highlight
 > SCREEN: Bank of Japan — March 2024 Policy Changes | https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm | highlight exactly "Changes in the Monetary Policy Framework"
 You're collecting the difference between two rates. But now suppose the currency you borrowed suddenly rises in value. The debt you owe becomes more expensive in your home currency, and the supposedly safe gap disappears.
@@ -146,3 +146,4 @@ A small change in one place can matter far away when many people have built plan
 - Research source — U.S. Treasury — Major Foreign Holders — https://ticdata.treasury.gov/Publish/slt_table5.html
 - Research source — St. Louis Fed — Dollar Reserve Currency — https://www.stlouisfed.org/publications/page-one-economics/2026/sep/why-is-us-dollar-world-dominant-reserve-currency
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Nikkei -12.4% on 5 Aug 2024 — Reuters

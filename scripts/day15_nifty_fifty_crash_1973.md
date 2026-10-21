@@ -4,7 +4,7 @@ THUMBNAIL: SAFE STOCKS? — narrator and the main financial object
 THREAD: one supposedly safe growth stock
 
 ## CHAPTER 1: The Nifty Fifty idea
-By the end of nineteen seventy-two, popular Nifty Fifty stocks traded at unusually high earnings multiples. The message sounds wonderfully simple. Buy a collection of America's best companies, hold them forever, and stop worrying about stock-market noise.
+From January nineteen seventy-three to October nineteen seventy-four, the S and P five hundred lost almost half its value. Picture opening an investing magazine in the early nineteen seventies. The message sounds wonderfully simple. Buy a collection of America's best companies, hold them forever, and stop worrying about stock-market noise.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: Bridgeway — Nifty Fifty Market History | https://bridgeway.com/perspectives/party-like-its-1972-what-can-the-nifty-fifty-teach-us-about-todays-market/ | highlight exactly "Party Like It’s 1972"
 These firms have famous names, reliable products, and respected management teams. The idea feels sensible because many are genuinely excellent businesses. Investors begin treating their shares as almost immune to ordinary valuation concerns.
@@ -158,3 +158,4 @@ And that question becomes especially interesting when a company survives repeate
 - Research source — Border to Coast — Nifty Fifty and Dot-Com Bubbles — https://www.bordertocoast.org.uk/news-insights/lessons-from-the-past-what-the-nifty-fifty-and-the-dot-com-bubbles-taught-us/
 - Research source — Federal Reserve History — Oil Shock of 1973-74 — https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- S&P 500 fell about 48% Jan 1973 - Oct 1974 — https://en.wikipedia.org/wiki/1973%E2%80%931974_stock_market_crash

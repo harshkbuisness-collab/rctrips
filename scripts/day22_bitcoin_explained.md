@@ -4,7 +4,7 @@ THUMBNAIL: WHAT IS BITCOIN? — narrator and the main financial object
 THREAD: one Bitcoin transfer
 
 ## CHAPTER 1: The 2008 white paper
-In January twenty twenty-four, the securities regulator approved trading of spot Bitcoin exchange-traded products. How would both of you know the payment was genuine? What would stop you from sending the same digital money to two different people?
+There will only ever be twenty-one million Bitcoin. In January twenty twenty-four, the SEC approved funds that let ordinary investors buy it like a stock. Picture sending money to someone across the world without asking a bank. How would both of you know the payment was genuine? What would stop you from sending the same digital money to two different people?
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: SEC — Spot Bitcoin ETP Approval | https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023 | highlight exactly "Statement on the Approval of Spot Bitcoin Exchange-Traded Products"
 Those questions sit at the heart of Bitcoin. Its creator proposed a system in which participants could verify a shared record without one institution controlling the entire process. Since then, Bitcoin has become an investment, a payment network, a political argument, and a source of speculation.
@@ -147,3 +147,4 @@ That distinction matters whenever a technology company sells a revolutionary pro
 - Research source — SEC — Spot Bitcoin ETP Approval — https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023
 - Research source — SEC Investor.gov — Index Funds — https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- 21 million cap; SEC approved spot bitcoin ETPs 10 Jan 2024 — SEC

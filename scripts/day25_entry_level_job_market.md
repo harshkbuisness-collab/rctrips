@@ -4,7 +4,7 @@ THUMBNAIL: WHY NO JOB? — narrator and the main financial object
 THREAD: one graduate looking for the first job
 
 ## CHAPTER 1: The numbers: openings vs hires (JOLTS)
-The federal government tracks job openings and actual hires separately, because the two numbers tell different stories. Imagine spending an evening applying for a job. The listing says entry level.
+In twenty twenty-six, American employers hired at one of the slowest rates since twenty thirteen, even with millions of jobs still open. Imagine spending an evening applying for a job. The listing says entry level.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: Bureau of Labor Statistics — JOLTS | https://www.bls.gov/news.release/jolts.nr0.htm?aff_id=1262 | highlight exactly "Job Openings and Labor Turnover Summary"
 The requirements ask for years of experience. You update your resume, write a thoughtful note, and submit the application. A week passes.
@@ -151,3 +151,4 @@ And the same idea applies when people approach the stock market: what looks like
 - Research source — Bureau of Labor Statistics — JOLTS — https://www.bls.gov/news.release/jolts.nr0.htm?aff_id=1262
 - Research source — Federal Reserve — Survey of Consumer Finances — https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Hires rate about 3.2% (July 2026); EPI: lowest since 2013 — BLS JOLTS

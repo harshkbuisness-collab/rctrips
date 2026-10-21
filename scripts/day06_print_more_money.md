@@ -4,7 +4,7 @@ THUMBNAIL: JUST PRINT IT? — narrator and the main financial object
 THREAD: one loaf of bread and its price
 
 ## CHAPTER 1: The bread-loaf thought experiment
-In Zimbabwe, prices rose so quickly in two thousand eight that normal money almost stopped working. Every family has enough money to buy a loaf. Now the mayor announces a solution to poverty: give everyone twice as much money.
+In late two thousand eight, prices in Zimbabwe were doubling about every day, and the country printed a one hundred trillion dollar note. To see why, picture a town with one hundred families and one hundred loaves of bread. Every family has enough money to buy a loaf. Now the mayor announces a solution to poverty: give everyone twice as much money.
 > VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D01_dollar_happy draws; D02_dollar_sad pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: Bank of England — Money creation in the modern economy | https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy | highlight exactly "Money creation in the modern economy"
 Nobody had to work harder. Nobody had to produce more bread. Everyone opens an envelope and finds extra cash.
@@ -160,3 +160,4 @@ The real limit is not how many digits can appear on a bank statement. It is how 
 - Research source — Bank of England — Money in the modern economy — https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-in-the-modern-economy-an-introduction
 - Research source — Federal Reserve — Interest on Reserve Balances — https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Zimbabwe prices doubled about every 24.7 hours (Nov 2008, Hanke); Z$100 trillion note (2009) — https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe

@@ -4,7 +4,7 @@ THUMBNAIL: THE GREAT CRASH — narrator and the main financial object
 THREAD: one investor watching a 1929 share price
 
 ## CHAPTER 1: The party: 1920s boom, radio, Model T, buy-now-pay-later
-The Dow's nineteen twenty-nine peak recovered in nineteen fifty-four, excluding dividends. Twenty-five years. And that's not because you picked a bad stock.
+If you put one thousand dollars into the stock market in September nineteen twenty-nine, you would wait about twenty-five years just to get it back. Twenty-five years. And that's not because you picked a bad stock.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve History — Stock Market Crash of 1929 | https://www.federalreservehistory.org/essays/stock-market-crash-of-1929 | highlight exactly "Stock Market Crash of 1929"
 You bought the whole market. The safest bet in America. In the space of three years, the market lost almost ninety percent of its value.
@@ -193,3 +193,4 @@ In the next video, we're looking at the other side of that story: who America ac
 - Research source — Federal Reserve History — Great Depression — https://www.federalreservehistory.org/essays/great-depression
 - Research source — Federal Reserve History — Banking Panics — https://www.federalreservehistory.org/essays/banking-panics-1930-31
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Dow peak Sept 1929, recovered Nov 1954 — Federal Reserve History

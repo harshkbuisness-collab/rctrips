@@ -4,7 +4,7 @@ THUMBNAIL: OIL EMPIRE — narrator and the main financial object
 THREAD: one Cleveland oil refinery
 
 ## CHAPTER 1: Childhood and the con-man father
-In nineteen eleven, the United States Supreme Court ordered the breakup of Standard Oil. You're trying to sell a useful product: kerosene that families can use to light their homes. You spend money on barrels, workers, transport, and raw oil.
+By eighteen eighty, one company refined about nine out of every ten barrels of oil in America. Picture yourself running a small oil refinery in Cleveland in the eighteen seventies. You're trying to sell a useful product: kerosene that families can use to light their homes. You spend money on barrels, workers, transport, and raw oil.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
 Your biggest problem isn't producing the oil. It's moving it. Railroad companies control the routes to your customers, and transport costs can decide whether your business survives.
@@ -146,3 +146,4 @@ Sometimes it creates power that demands public scrutiny. And sometimes, as anoth
 ## SOURCES
 - Research source — Supreme Court Historical Society — Standard Oil — https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Standard Oil about 90% of US refining by 1880 — https://en.wikipedia.org/wiki/Standard_Oil

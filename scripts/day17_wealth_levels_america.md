@@ -4,7 +4,7 @@ THUMBNAIL: WEALTH LADDER — narrator and the main financial object
 THREAD: one household moving up the wealth ladder
 
 ## CHAPTER 1: Broke
-The Federal Reserve measures American families across income and wealth groups, and the gap is striking. One earns twice as much as the other. The obvious assumption is that the first person is richer.
+The typical American family is worth about one hundred ninety-three thousand dollars, but families at the very top are worth many millions. Picture two people sitting at the same coffee shop. One earns twice as much as the other. The obvious assumption is that the first person is richer.
 > VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D01_dollar_happy draws; D02_dollar_sad pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve — Survey of Consumer Finances | https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm | highlight exactly "Changes in U.S. Family Finances from 2019 to 2022"
 But now Picture the higher earner has expensive loans, no savings, and a lifestyle that consumes every paycheck. The lower earner owns a modest home, has investments, and carries little debt. Suddenly the picture looks different.
@@ -155,3 +155,4 @@ And those choices become easier when you understand a handful of money concepts 
 - Research source — Federal Reserve — Survey of Consumer Finances — https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm
 - Research source — Federal Reserve — SCF 2022 Data — https://www.federalreserve.gov/econres/scf_2022.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Median family net worth $192,900 (2022) — Fed Survey of Consumer Finances

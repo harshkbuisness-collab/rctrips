@@ -4,7 +4,7 @@ THUMBNAIL: THE REAL VICTIMS — narrator and the main financial object
 THREAD: one telephone call to a retail investor
 
 ## CHAPTER 1: Who Belfort was before Wall Street
-In nineteen ninety-two, securities regulators charged a brokerage called Stratton Oakmont with fraudulent practices. Your phone rings, and a man with a remarkably confident voice tells you he has found a stock Wall Street hasn't discovered yet. The company is small.
+A judge ordered one stockbroker to pay back about one hundred ten million dollars to roughly fifteen hundred people. It started with a phone call like this. Your phone rings, and a man with a remarkably confident voice tells you he has found a stock Wall Street hasn't discovered yet. The company is small.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: U.S. District Court — SEC v. Stratton Oakmont | https://en.wikipedia.org/wiki/Stratton_Oakmont | highlight exactly "SEC v. Stratton Oakmont, Inc."
 The share price is tiny. He says the opportunity won't last, and he makes the whole thing sound as if he's doing you a favor. By the time the call ends, you've sent money to someone you've never met.
@@ -146,3 +146,4 @@ The damage came from the much quieter moment when ordinary people mistook that s
 ## SOURCES
 - Research source — U.S. District Court — SEC v. Stratton Oakmont — https://en.wikipedia.org/wiki/Stratton_Oakmont
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Belfort restitution about $110M to about 1,500 investors (2003) — https://en.wikipedia.org/wiki/Jordan_Belfort

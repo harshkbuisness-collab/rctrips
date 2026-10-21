@@ -4,7 +4,7 @@ THUMBNAIL: PALANTIR FILES — narrator and the main financial object
 THREAD: one data record moving through Palantir
 
 ## CHAPTER 1: Founded after 9/11, In-Q-Tel money
-In September twenty twenty, Palantir filed paperwork explaining its business to public-market investors. Imagine an investigator staring at a screen filled with disconnected records. Names, phone numbers, financial transfers, travel histories, and reports sit in different systems.
+Palantir started in two thousand three with early money from the CIA's venture fund, In-Q-Tel. Imagine an investigator staring at a screen filled with disconnected records. Names, phone numbers, financial transfers, travel histories, and reports sit in different systems.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: SEC — Palantir S-1 Registration | https://www.sec.gov/Archives/edgar/data/1321655/000119312520239121/d904406ds1a.htm | highlight exactly "Palantir Technologies Inc."
 Individually, each entry seems ordinary. Together, they might reveal an important relationship. But finding it is difficult.
@@ -151,3 +151,4 @@ Governance determines what they should do. Palantir's story is compelling precis
 - Research source — SEC — Palantir S-1 Registration — https://www.sec.gov/Archives/edgar/data/1321655/000119312520239121/d904406ds1a.htm
 - Research source — SEC Investor.gov — Stock Funds — https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-fund
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- In-Q-Tel early investor — https://en.wikipedia.org/wiki/Palantir_Technologies

@@ -4,7 +4,7 @@ THUMBNAIL: STOCKS VS BETS — narrator and the main financial object
 THREAD: one share in a real business
 
 ## CHAPTER 1: What a share is
-An index fund can own parts of hundreds of businesses while tracking a single market benchmark. One wants to own part of a business for the next twenty years. The other plans to sell within ten minutes because the price chart looks promising.
+Since nineteen fifty-seven, the S and P five hundred has returned about ten percent a year on average, yet many people still call it gambling. Picture two people buying the same stock on the same afternoon. One wants to own part of a business for the next twenty years. The other plans to sell within ten minutes because the price chart looks promising.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: SEC Investor.gov — Index Funds | https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4 | highlight exactly "Index Funds"
 Both are using the stock market. But they are participating in very different activities. That's why asking whether the stock market is gambling leads to a surprisingly useful question: what exactly are you doing when you buy a share?
@@ -153,3 +153,4 @@ It's what you actually own, why you bought it, and what would make you sell. Und
 - Research source — SEC Investor.gov — Index Funds — https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4
 - Research source — SEC Investor.gov — Stock Funds — https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-fund
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- S&P 500 long-run average about 10% a year with dividends (VERIFY period)

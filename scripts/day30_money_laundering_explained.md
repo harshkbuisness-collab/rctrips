@@ -4,7 +4,7 @@ THUMBNAIL: FOLLOW THE MONEY — narrator and the main financial object
 THREAD: one suspicious bank transaction
 
 ## CHAPTER 1: Placement
-In twenty twelve, HSBC agreed to forfeit more than one billion dollars over financial-compliance violations. The account belongs to a small company. Some payments have explanations that look vague.
+Every year, criminals may hide between eight hundred billion and two trillion dollars, about two to five percent of the world economy, according to the United Nations. Picture a bank compliance officer noticing that a customer's transactions don't fit their ordinary business. The account belongs to a small company. Some payments have explanations that look vague.
 > VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; D24_bond_document draws; E44_warning_sign pops right; E55_handcuffs_chain walks in; zoom; red circle; yellow highlight
 > SCREEN: DOJ — HSBC Money Laundering Case | https://www.justice.gov/archives/opa/pr/hsbc-holdings-plc-and-hsbc-bank-usa-na-admit-anti-money-laundering-and-sanctions-violations?trk=public_post_comment-text | highlight exactly "HSBC Holdings Plc. and HSBC Bank USA N.A."
 Other transfers involve parties and countries the bank doesn't usually associate with the customer. None of this proves a crime. Businesses can have complicated and perfectly legitimate finances.
@@ -146,3 +146,4 @@ And that is where our next financial investigation begins: with one question, on
 ## SOURCES
 - Research source — DOJ — HSBC Money Laundering Case — https://www.justice.gov/archives/opa/pr/hsbc-holdings-plc-and-hsbc-bank-usa-na-admit-anti-money-laundering-and-sanctions-violations?trk=public_post_comment-text
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- UNODC estimate: 2-5% of global GDP, $800B-$2T laundered yearly

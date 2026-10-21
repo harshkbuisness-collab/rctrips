@@ -4,7 +4,7 @@ THUMBNAIL: AMAZON DAY ONE — narrator and the main financial object
 THREAD: one early Amazon online order
 
 ## CHAPTER 1: Leaving a hedge fund
-Amazon’s original shareholder letter, published in nineteen ninety-seven, emphasized long-term customer value. It's the mid-nineteen nineties. Most households do not shop online.
+Amazon started in nineteen ninety-four in a garage, and in nineteen ninety-seven its shares were first sold to the public for eighteen dollars each. It's the mid-nineteen nineties. Most households do not shop online.
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 > SCREEN: Amazon — Original 1997 Shareholder Letter | https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders | highlight exactly "Amazon's original 1997 letter to shareholders"
 Some people are still learning what a website is. You decide to sell books through a computer screen. The idea sounds modest, even dull, compared with today's technology headlines.
@@ -154,3 +154,4 @@ And as more technology firms reach huge valuations before ordinary investors can
 - Research source — SEC — Amazon 2006 Shareholder Letter — https://www.sec.gov/Archives/edgar/data/1018724/000119312507093886/dex991.htm
 - Research source — Amazon — Initial Public Offering Announcement — https://press.aboutamazon.com/1997/3/amazon-com-files-for-initial-public-offering
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Founded 1994; IPO May 1997 at $18 — https://en.wikipedia.org/wiki/Amazon_(company)

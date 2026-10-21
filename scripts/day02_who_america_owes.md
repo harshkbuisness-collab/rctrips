@@ -4,7 +4,7 @@ THUMBNAIL: WHO OWNS IT? — narrator and the main financial object
 THREAD: one Treasury IOU and its ultimate holder
 
 ## CHAPTER 1: How big the debt is (per person, vs GDP)
-America owes more than forty trillion dollars. Not million. Not billion.
+On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion.
 > VISUAL: A01_narrator_neutral slides left; D24_bond_document drops; E01_cash_stack draws; G09_capitol_building pops right; D27_calculator_shocked walks in; zoom; red circle; yellow highlight
 > SCREEN: TreasuryDirect — Debt Position and Activity Report | https://www.treasurydirect.gov/government/public-debt-reports/debt-position-and-activity-report/ | highlight exactly "Debt Position and Activity Report"
 Trillion. And whenever that number appears in a headline, someone asks the same question. Who exactly does America owe all that money to?
@@ -185,3 +185,4 @@ What happens when someone sells investors a promise that isn't worth what it see
 - Research source — U.S. Treasury — TIC August 2026 — https://home.treasury.gov/news/press-releases/sb0662/
 - Research source — Federal Reserve — Interest on Reserve Balances — https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Total public debt $40.31T on 8 Oct 2026 — Treasury Debt to the Penny, https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/

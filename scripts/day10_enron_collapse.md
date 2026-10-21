@@ -4,7 +4,7 @@ THUMBNAIL: IT WAS HIDDEN — narrator and the main financial object
 THREAD: one Enron financial statement
 
 ## CHAPTER 1: Pipelines to 'energy trading'
-In October two thousand two, securities regulators charged Enron’s former finance chief with fraud. Imagine working for a company that everyone admires. Its share price is rising.
+In December two thousand one, Enron, a company that reported sixty-three billion dollars in assets, collapsed in what was then the biggest bankruptcy in American history. Imagine working for a company that everyone admires. Its share price is rising.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: SEC — Charges Fastow With Fraud | https://www.sec.gov/newsroom/press-releases/2002-143-sec-charges-fastow-former-enron-cfo-fraud | highlight exactly "SEC Charges Fastow, Former Enron CFO, With Fraud"
 Business magazines praise its executives. The office is filled with confident people who use complicated words and promise that the future belongs to them. You put part of your retirement savings into company stock because you think you understand the business you help build.
@@ -163,3 +163,4 @@ A company may have a celebrated founder, a rising share price, and a glamorous o
 - Research source — SEC — Charges Fastow With Fraud — https://www.sec.gov/newsroom/press-releases/2002-143-sec-charges-fastow-former-enron-cfo-fraud
 - Research source — SEC — Andrew S. Fastow — https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18543
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Enron bankruptcy Dec 2001, $63.4B assets — https://en.wikipedia.org/wiki/Enron_scandal

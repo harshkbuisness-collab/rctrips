@@ -4,7 +4,7 @@ THUMBNAIL: WHO PAYS? — narrator and the main financial object
 THREAD: one imported product moving to a store shelf
 
 ## CHAPTER 1: What a tariff is
-Federal Reserve researchers found that American import tariffs raised prices paid by American consumers. The price has been agreed. The products are packed.
+In fiscal year twenty twenty-five, the United States collected about one hundred ninety-five billion dollars in tariffs. But who actually paid it? Picture an American store owner ordering a shipment of kitchen appliances from overseas. The price has been agreed. The products are packed.
 > VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D01_dollar_happy draws; D02_dollar_sad pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: Federal Reserve — Tariff Effects on Consumer Prices | https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20250509.html | highlight exactly "Detecting Tariff Effects on Consumer Prices in Real Time"
 A ship crosses the ocean, and the goods arrive at a U.S. port. Then a tariff applies. The store owner, or the importing company in the transaction, has to deal with an extra tax when the goods enter the country.
@@ -152,3 +152,4 @@ Why does forty dollars convert into a different number of euros, yen, or pounds?
 ## SOURCES
 - Research source — Federal Reserve — Tariff Effects on Consumer Prices — https://www.federalreserve.gov/econres/notes/feds-notes/detecting-tariff-effects-on-consumer-prices-in-real-time-20250509.html
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- FY2025 customs duties $194.9B — https://usafacts.org/answers/how-much-revenue-does-the-federal-government-collect-from-tariffs/country/united-states/

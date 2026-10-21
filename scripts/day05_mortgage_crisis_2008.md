@@ -4,7 +4,7 @@ THUMBNAIL: THE MORTGAGE TRAP — narrator and the main financial object
 THREAD: one mortgage traveling through Wall Street
 
 ## CHAPTER 1: Cheap money after 2001
-The crisis of two thousand eight began years before the collapse of Lehman Brothers. The banker smiles. The real estate agent hands you a pen.
+In September two thousand eight, Lehman Brothers filed the biggest bankruptcy in American history, with more than six hundred billion dollars in assets. But it really started with a conversation like this. You sign a mortgage for a house you can barely afford. The banker smiles. The real estate agent hands you a pen.
 > VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
 > SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
 Everyone tells you that property values only go up over time. You aren't particularly sure how the monthly payment will look after the introductory rate expires. But you can always refinance, they say.
@@ -160,3 +160,4 @@ If governments could create emergency liquidity to stop the collapse, why can't 
 - Research source — Federal Reserve — 2007 Monetary Policy Report — https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm
 - Research source — Federal Reserve History — Banking Panics — https://www.federalreservehistory.org/essays/banking-panics-1930-31
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Lehman bankruptcy, about $639B assets — https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers

@@ -4,7 +4,7 @@ THUMBNAIL: THE NVIDIA BET — narrator and the main financial object
 THREAD: one graphics chip company
 
 ## CHAPTER 1: Founding at Denny's
-NVIDIA began in nineteen ninety-three, years before artificial intelligence became its defining market. The idea isn't to build a social network, sell subscriptions, or create an advertising platform. It's to improve the kind of computing that makes graphics possible.
+In twenty twenty-five, NVIDIA became the first company ever worth five trillion dollars. It started with three engineers in a booth at a Denny's restaurant. The idea isn't to build a social network, sell subscriptions, or create an advertising platform. It's to improve the kind of computing that makes graphics possible.
 > VISUAL: A01_narrator_neutral slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 > SCREEN: NVIDIA — Corporate Timeline | https://www.nvidia.com/en-in/about-nvidia/corporate-timeline/ | highlight exactly "NVIDIA History"
 In nineteen ninety-three, that was the beginning of NVIDIA. Today the company is central to the infrastructure behind modern artificial intelligence. From the outside, the path looks almost obvious: smart founders identify a growing market and keep winning.
@@ -146,3 +146,4 @@ It's that the value came from choices whose payoff was uncertain for years. When
 ## SOURCES
 - Research source — NVIDIA — Corporate Timeline — https://www.nvidia.com/en-in/about-nvidia/corporate-timeline/
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- NVIDIA first to $5T market value, Oct 2025 — Reuters

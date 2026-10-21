@@ -4,7 +4,7 @@ THUMBNAIL: AI MONEY TEST — narrator and the main financial object
 THREAD: one AI data-center investment
 
 ## CHAPTER 1: How much is being spent (capex)
-The International Energy Agency projects data centers could use about nine hundred forty-five terawatt-hours by twenty thirty. You promise residents that it will transform their lives. You hire engineers, buy land, install power lines, and fill buildings with expensive equipment.
+By twenty thirty, data centers could use about as much electricity as all of Japan uses today, according to the International Energy Agency. Imagine you're building a new city. You promise residents that it will transform their lives. You hire engineers, buy land, install power lines, and fill buildings with expensive equipment.
 > VISUAL: A01_narrator_neutral slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 > SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "Executive summary"
 Investors love the vision. There's just one unanswered question: will enough paying residents move in to cover what you've spent? That is a useful way to understand the economics of artificial intelligence.
@@ -157,3 +157,4 @@ And that question leads naturally to another market where huge investments can c
 - Research source — IEA — Key Questions on Energy and AI — https://en.wikipedia.org/wiki/Data_center
 - Research source — IEA — Energy demand from AI — https://en.wikipedia.org/wiki/AI_boom
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- IEA Energy and AI (2025): about 945 TWh by 2030, slightly more than Japan uses today

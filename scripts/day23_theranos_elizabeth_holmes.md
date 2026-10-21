@@ -4,7 +4,7 @@ THUMBNAIL: THE FAILED TEST — narrator and the main financial object
 THREAD: one Theranos blood test
 
 ## CHAPTER 1: Stanford dropout
-In November twenty twenty-two, a federal judge sentenced Elizabeth Holmes to eleven years and three months in prison. Imagine walking into a pharmacy and being told that a tiny drop of blood can reveal important information about your health. No large needle, no traditional laboratory appointment, just a quick test using a compact machine.
+Theranos was once valued at about nine billion dollars, and its founder was sentenced to more than eleven years in prison. Imagine walking into a pharmacy and being told that a tiny drop of blood can reveal important information about your health. No large needle, no traditional laboratory appointment, just a quick test using a compact machine.
 > VISUAL: A01_narrator_neutral slides left; E07_laptop drops; H15_paper_note_blank draws; H21_flat_tv_blank pops right; E44_warning_sign walks in; zoom; red circle; yellow highlight
 > SCREEN: DOJ — Elizabeth Holmes Sentenced | https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds | highlight exactly "Elizabeth Holmes Sentenced To More Than 11 Years"
 It sounds wonderfully convenient. Now imagine learning that the technology behind the promise could not reliably do much of what customers and investors were led to believe. That's the heart of the Theranos story.
@@ -144,3 +144,4 @@ You can build an impressive narrative around a genuine need and still fail to de
 ## SOURCES
 - Research source — DOJ — Elizabeth Holmes Sentenced — https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- $9B valuation (2014); Holmes 135 months (Nov 2022) — DOJ

@@ -4,7 +4,7 @@ THUMBNAIL: MONEY SHRINKS — narrator and the main financial object
 THREAD: one hundred-dollar bill
 
 ## CHAPTER 1: What $100 bought in 2020 vs today (BLS/FRED)
-In June of twenty twenty-two, American consumer prices were rising nine point one percent from a year earlier. Take a hundred-dollar bill and put it in a drawer. Don't spend it, don't lend it, and don't lose it.
+In June twenty twenty-two, prices in America were rising nine point one percent a year, the fastest in about forty years. Here is what that does to your money. Take a hundred-dollar bill and put it in a drawer. Don't spend it, don't lend it, and don't lose it.
 > VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D01_dollar_happy draws; D02_dollar_sad pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
 > SCREEN: BLS — Consumer Price Index June 2022 | https://www.bls.gov/news.release/archives/cpi_07132022.htm?mf_ct_campaign=yahoo-synd-feed | highlight exactly "Consumer Price Index News Release"
 Five years later, you open the drawer, and there it is. Exactly one hundred dollars. The number hasn't changed.
@@ -160,3 +160,4 @@ Once you understand that difference, economic headlines start to make a lot more
 - Research source — BLS — CPI Chart — https://www.bls.gov/charts/consumer-price-index/consumer-price-index-by-category-line-chart.htm?50976b45_page=2&595b0f15_page=3&dbe437e9_page=35
 - Research source — Federal Reserve — Survey of Consumer Finances — https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- CPI +9.1% y/y June 2022, largest since Nov 1981 — BLS

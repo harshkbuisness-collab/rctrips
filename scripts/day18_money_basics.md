@@ -4,7 +4,7 @@ THUMBNAIL: MONEY RULES — narrator and the main financial object
 THREAD: one worker’s first paycheck
 
 ## CHAPTER 1: Taxes
-Federal consumer-finance guidance explains risks people face before they ever buy a stock. You know how to calculate an angle but not what a credit report is. You can solve an equation, yet a credit-card statement looks like a foreign language.
+More than one in three American adults could not cover a surprise four hundred dollar bill with cash, according to the Federal Reserve. Picture finishing school with a good grade in math. You know how to calculate an angle but not what a credit report is. You can solve an equation, yet a credit-card statement looks like a foreign language.
 > VISUAL: A01_narrator_neutral slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 > SCREEN: SEC Investor.gov — Index Funds | https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4 | highlight exactly "Index Funds"
 That doesn't mean school was useless. It means financial life has its own vocabulary, and people often learn it only after making an expensive mistake. So let's follow a fictional young worker named Sam through an ordinary year.
@@ -154,3 +154,4 @@ Financial literacy isn't a collection of clever tricks. It's the ability to see 
 - Research source — SEC Investor.gov — Stock Funds — https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-fund
 - Research source — CFPB — Credit Card Grace Period — https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
+- Fed SHED 2024: 63% would cover a $400 expense with cash or its equivalent (VERIFY latest year)
