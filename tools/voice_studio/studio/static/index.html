@@ -109,8 +109,10 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 const store = {get(k, d){try{return localStorage.getItem(k) ?? d}catch{return d}}, set(k, v){try{localStorage.setItem(k, v)}catch{}}};
 
 async function api(url, opts = {}) {
-  const r = await fetch(url, {headers: {"Content-Type": "application/json"}, ...opts,
-                              body: opts.body ? JSON.stringify(opts.body) : undefined});
+  let r;
+  try { r = await fetch(url, {headers: {"Content-Type": "application/json"}, ...opts,
+                              body: opts.body ? JSON.stringify(opts.body) : undefined}); }
+  catch { throw new Error("Can't reach Voice Studio. Is its black window still open? If not, start 2_START_windows.bat again and reload this page."); }
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(j.detail || `Error ${r.status}`);
   return j;
