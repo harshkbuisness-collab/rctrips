@@ -1,0 +1,332 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"Hyperinflation in Zimbabwe\"",
+  "said": "In late two thousand eight, prices in Zimbabwe were doubling about every day, and the country printed a one hundred trillion dollar note. To see why, picture a town with one hundred families and one hundred loaves of bread.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.083,
+   0.382,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 1,
+  "source": "Federal Reserve Bank of St. Louis",
+  "url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-9-functions-of-money",
+  "what": "highlight \"Functions of Money\"",
+  "said": "Every family has one dollar. Every loaf costs one dollar. Each family buys one loaf, and everyone eats. Simple.",
+  "file": "s02.png",
+  "box": [
+   0.048,
+   0.296,
+   0.953,
+   0.36
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 10,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"Weimar Republic\"",
+  "said": "Before Zimbabwe, there was Germany. After World War One, Germany owed huge payments to the winners, and its government was broke.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.083,
+   0.457,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"loaf of bread\"",
+  "said": "A loaf of bread in Berlin cost about two hundred billion marks. Ten years earlier, it had cost less than one mark.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/German_papiermark",
+  "what": "highlight \"Papiermark\"",
+  "said": "Some families burned paper money in their stoves, because it was cheaper than buying firewood. Children built kites and towers out of stacks of cash.",
+  "file": "s05.png",
+  "box": [
+   0.036,
+   0.38,
+   0.145,
+   0.432
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Rentenmark",
+  "what": "highlight \"Rentenmark\"",
+  "said": "Germany finally stopped it by creating a new currency and strictly limiting how much could be printed. But the anger it caused helped shape the dark years that followed.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.083,
+   0.264,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Zimbabwe",
+  "what": "highlight \"Harare\"",
+  "said": "Meet Tendai. In the early two thousands, she runs a small bakery in Harare, the capital of Zimbabwe. Her bread is the best on the street.",
+  "file": "s07.png",
+  "box": [
+   0.642,
+   0.865,
+   0.689,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Federal Reserve Bank of Dallas",
+  "url": "https://www.dallasfed.org/research/basics/zimbabwe",
+  "what": "highlight \"Zimbabwe\"",
+  "said": "Farm output fell sharply. Over the next decade, Zimbabwe's whole economy shrank by around half, according to many estimates.",
+  "file": "s08.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar",
+  "what": "highlight \"Zimbabwean dollar\"",
+  "said": "By two thousand eight, a single loaf of bread cost millions of Zimbabwe dollars. Then billions. The government kept printing bigger notes to keep up.",
+  "file": "s09.png",
+  "box": [
+   0.125,
+   0.083,
+   0.285,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"79.6 billion percent\"",
+  "said": "In November two thousand eight, one economist estimated that Zimbabwe's prices were rising by about seventy-nine billion percent a month.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar",
+  "what": "highlight \"100 trillion\"",
+  "said": "In January two thousand nine, the government released a one hundred trillion dollar note. A one, followed by fourteen zeros.",
+  "file": "s11.png",
+  "box": [
+   0.125,
+   0.199,
+   0.738,
+   0.245
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Venezuela",
+  "what": "highlight \"Hyperinflation in Venezuela\"",
+  "said": "Venezuela sits on some of the largest oil reserves in the world. For years, oil money paid for food imports and government programs.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.083,
+   0.379,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+  "what": "highlight \"Crude Oil Prices\"",
+  "said": "When oil prices crashed in twenty fourteen, the money dried up. Instead of cutting spending, the government printed more and more bolivars.",
+  "file": "s13.png",
+  "box": [
+   0.087,
+   0.216,
+   0.655,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Venezuelan_refugee_crisis",
+  "what": "highlight \"Venezuelan refugee crisis\"",
+  "said": "More than seven million Venezuelans eventually left the country. It's one of the largest migrations in modern history.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.083,
+   0.36,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "International Monetary Fund",
+  "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation",
+  "what": "highlight \"Inflation\"",
+  "said": "In each case, leaders promised that printing would help ordinary people. In each case, ordinary people paid the highest price.",
+  "file": "s15.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 58,
+  "source": "Bureau of Engraving and Printing",
+  "url": "https://www.bep.gov/",
+  "what": "highlight \"Bureau of Engraving and Printing\"",
+  "said": "The paper bills you carry are printed by the Bureau of Engraving and Printing. But most money today isn't paper at all. It's numbers in bank accounts.",
+  "file": "s16.png",
+  "box": [
+   0.488,
+   0.789,
+   0.509,
+   0.81
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/faqs/about_12594.htm",
+  "what": "highlight \"Federal Reserve\"",
+  "said": "The Federal Reserve is the one that creates new money. It's independent from the president and Congress, so politicians can't simply order it to print.",
+  "file": "s17.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+  "what": "highlight \"balance sheet\"",
+  "said": "Those bonds aren't erased. The Fed holds them, collects interest, and can sell them later, pulling that money back out of the economy.",
+  "file": "s18.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/M2SL",
+  "what": "highlight \"M2\"",
+  "said": "In twenty twenty, the Fed and Congress acted fast to fight the pandemic. America's money supply grew about forty percent in just two years.",
+  "file": "s19.png",
+  "box": [
+   0.418,
+   0.778,
+   0.635,
+   0.822
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+  "what": "highlight \"Consumer Price Index\"",
+  "said": "And what happened next? Inflation hit nine point one percent in twenty twenty-two. Not Zimbabwe. But a real taste of the same lesson.",
+  "file": "s20.png",
+  "box": [
+   0.25,
+   0.162,
+   0.443,
+   0.201
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+  "what": "highlight \"2 percent\"",
+  "said": "That's why central banks aim for slow, steady inflation, about two percent a year. A little new money, matched by a little more stuff.",
+  "file": "s21.png",
+  "box": [
+   0.317,
+   0.446,
+   0.866,
+   0.626
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation",
+  "what": "highlight \"Hyperinflation\"",
+  "said": "It breaks when three things happen together. The country stops producing enough. The government spends far more than it collects. And the printer is used to cover the gap, year after year.",
+  "file": "s22.png",
+  "box": [
+   0.029,
+   0.28,
+   0.146,
+   0.332
+  ],
+  "page": null,
+  "ok": true
+ }
+]

@@ -1,0 +1,366 @@
+[
+ {
+  "line": 0,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+  "what": "highlight \"9.1 percent\"",
+  "said": "In June twenty twenty-two, prices in America were rising nine point one percent a year, the fastest in about forty years. Here is what that does to your money.",
+  "file": "s01.png",
+  "box": [
+   0,
+   0.316,
+   1,
+   0.88
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/cpi/factsheets/",
+  "what": "highlight \"Factsheets\"",
+  "said": "Ava had a plan. When she turned sixteen, she would use it to buy a new pair of headphones and a big pizza dinner with her friends.",
+  "file": "s02.png",
+  "box": [
+   0.417,
+   0.166,
+   0.48,
+   0.207
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 8,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/data/inflation_calculator.htm",
+  "what": "highlight \"CPI Inflation Calculator\"",
+  "said": "Nobody stole her money. Nobody touched it. So what happened? By the end of this video, you'll know exactly where her money went, and how to protect yours.",
+  "file": "s03.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/cpi/",
+  "what": "highlight \"Consumer Price Index\"",
+  "said": "Every month, government workers check the prices of thousands of things. Food, rent, gas, haircuts, car insurance, doctor visits.",
+  "file": "s04.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/cpi/tables/relative-importance/",
+  "what": "highlight \"Relative importance\"",
+  "said": "Not everything in the cart counts equally. Rent and housing are the biggest part, about a third of the whole cart. Gas and food come after that.",
+  "file": "s05.png",
+  "box": [
+   0.172,
+   0.326,
+   0.828,
+   0.384
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+  "what": "highlight \"Consumer Price Index for All Urban Consumers\"",
+  "said": "If the cart costs one hundred dollars this year and one hundred and three dollars next year, inflation is three percent.",
+  "file": "s06.png",
+  "box": [
+   0.087,
+   0.216,
+   0.695,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+  "what": "highlight \"2 percent\"",
+  "said": "A little inflation is normal. The Federal Reserve actually aims for about two percent a year. Low and steady, so people can plan.",
+  "file": "s07.png",
+  "box": [
+   0.317,
+   0.385,
+   0.866,
+   0.451
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"The Great Inflation\"",
+  "said": "During the pandemic, factories closed and shipping got stuck. There were fewer things to buy. Cars, furniture, even computer chips ran short.",
+  "file": "s08.png",
+  "box": [
+   0.302,
+   0.178,
+   0.406,
+   0.22
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CUSR0000SETA02",
+  "what": "highlight \"Used cars and trucks\"",
+  "said": "Ships waited for weeks outside ports in California, full of goods nobody could unload. Store shelves had gaps. Used car prices jumped by around forty percent in one year.",
+  "file": "s09.png",
+  "box": [
+   0.087,
+   0.216,
+   0.818,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/GASREGW",
+  "what": "highlight \"US Regular All Formulations Gas Price\"",
+  "said": "Then, in early twenty twenty-two, Russia invaded Ukraine. Oil, gas and food prices jumped around the world.",
+  "file": "s10.png",
+  "box": [
+   0.087,
+   0.216,
+   0.437,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+  "what": "highlight \"CPIAUCSL\"",
+  "said": "In early twenty twenty-one, inflation was under two percent. By June twenty twenty-two, it hit nine point one percent.",
+  "file": "s11.png",
+  "box": [
+   0.619,
+   0.223,
+   0.695,
+   0.262
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+  "what": "highlight \"all items index increased 9.1 percent\"",
+  "said": "That was the highest rate since November nineteen eighty-one. A whole generation of Americans had never seen prices rise this fast.",
+  "file": "s12.png",
+  "box": [
+   0,
+   0.316,
+   1,
+   0.88
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "U.S. Energy Information Administration",
+  "url": "https://www.eia.gov/petroleum/gasdiesel/",
+  "what": "highlight \"Gasoline and Diesel Fuel Update\"",
+  "said": "Gas was the first thing people noticed. In June twenty twenty-two, the average price of regular gas passed five dollars a gallon for the first time.",
+  "file": "s13.png",
+  "box": [
+   0.2,
+   0.211,
+   0.366,
+   0.252
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "U.S. Department of Agriculture ERS",
+  "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+  "what": "highlight \"Food Price Outlook\"",
+  "said": "Food at the grocery store rose about eleven percent in a single year, the fastest in more than four decades. Families started buying store brands and skipping meat.",
+  "file": "s14.png",
+  "box": [
+   0.253,
+   0.186,
+   0.357,
+   0.228
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/news.release/realer.nr0.htm",
+  "what": "highlight \"Real Earnings\"",
+  "said": "Workers can lose too, if prices rise faster than their pay. In twenty twenty-two, many Americans got raises, but their raises didn't keep up.",
+  "file": "s15.png",
+  "box": [
+   0.204,
+   0.164,
+   0.273,
+   0.208
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Social Security Administration",
+  "url": "https://www.ssa.gov/oact/cola/colaseries.html",
+  "what": "highlight \"Cost-of-Living Adjustments\"",
+  "said": "Social Security is different. Its payments are adjusted every year for inflation. In twenty twenty-three, retirees got a raise of eight point seven percent, the largest in four decades.",
+  "file": "s16.png",
+  "box": [
+   0.178,
+   0.09,
+   0.822,
+   0.158
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/publications/october-2023-changes-in-us-family-finances-from-2019-to-2022.htm",
+  "what": "highlight \"Changes in U.S. Family Finances from 2019 to 2022\"",
+  "said": "Think of a family with a mortgage at three percent. Their payment stays the same, while their paychecks and their home value rise.",
+  "file": "s17.png",
+  "box": [
+   0.243,
+   0.271,
+   0.481,
+   0.308
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+  "what": "highlight \"Federal Open Market Committee\"",
+  "said": "The Federal Reserve's main tool is interest rates. When inflation is too high, the Fed raises rates to cool things down.",
+  "file": "s18.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+  "what": "highlight \"Federal Funds Effective Rate\"",
+  "said": "Starting in March twenty twenty-two, the Fed raised rates eleven times, from near zero to above five percent. It was the fastest rise in about forty years.",
+  "file": "s19.png",
+  "box": [
+   0.087,
+   0.216,
+   0.376,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+  "what": "highlight \"30-Year Fixed Rate Mortgage Average\"",
+  "said": "It worked, slowly. Inflation fell back toward about three percent. But it came with costs. Mortgage rates more than doubled, and buying a home got much harder.",
+  "file": "s20.png",
+  "box": [
+   0.087,
+   0.216,
+   0.597,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/people/paul-a-volcker",
+  "what": "highlight \"Paul A. Volcker\"",
+  "said": "The Fed has done this before. In nineteen eighty-one, Fed chair Paul Volcker pushed rates near twenty percent to crush inflation. It worked, but it caused a painful recession.",
+  "file": "s21.png",
+  "box": [
+   0.225,
+   0.178,
+   0.313,
+   0.22
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 74,
+  "source": "Treasury Direct",
+  "url": "https://www.treasurydirect.gov/savings-bonds/i-bonds/",
+  "what": "highlight \"I bonds\"",
+  "said": "Second, the government sells special savings bonds called I bonds, whose interest goes up with inflation. They're built for exactly Ava's problem.",
+  "file": "s22.png",
+  "box": [
+   0.022,
+   0.378,
+   0.077,
+   0.417
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 75,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest",
+  "what": "highlight \"Save and Invest\"",
+  "said": "Third, for money you won't need for many years, investing in a broad mix of companies has historically grown faster than inflation, though it can drop a lot along the way.",
+  "file": "s23.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "U.S. Bureau of Labor Statistics",
+  "url": "https://www.bls.gov/news.release/realer.nr0.htm",
+  "what": "highlight \"real average hourly earnings\"",
+  "said": "And if you work, ask for raises that at least match inflation. A raise of three percent when prices rise four percent is really a pay cut.",
+  "file": "s24.png",
+  "box": [
+   0,
+   0.316,
+   1,
+   1
+  ],
+  "page": null,
+  "ok": true
+ }
+]

@@ -1,0 +1,415 @@
+[
+ {
+  "line": 0,
+  "source": "Reuters",
+  "url": "https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/",
+  "what": "highlight \"Under Trump, deficits remain high while borrowing costs escalate\"",
+  "said": "On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion. Trillion.",
+  "file": "s01.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 4,
+  "source": "Treasury Direct",
+  "url": "https://www.treasurydirect.gov/marketable-securities/treasury-bonds/",
+  "what": "highlight \"Treasury bonds\"",
+  "said": "Linda taught fourth grade for thirty-one years. Now she lives on her pension. And her pension fund owns United States Treasury bonds.",
+  "file": "s02.png",
+  "box": [
+   0.149,
+   0.218,
+   0.385,
+   0.278
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 9,
+  "source": "U.S. Census Bureau",
+  "url": "https://www.census.gov/popclock/",
+  "what": "highlight \"U.S. Population\"",
+  "said": "First, let's make that number feel real. Divide forty point three trillion dollars by about three hundred forty-three million Americans.",
+  "file": "s03.png",
+  "box": [
+   0.262,
+   0.373,
+   0.424,
+   0.426
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 10,
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"national debt\"",
+  "said": "You get roughly one hundred eighteen thousand dollars for every man, woman and child. Linda will never get a bill for that. But it shows the size of what has been promised.",
+  "file": "s04.png",
+  "box": [
+   0.323,
+   0.211,
+   0.677,
+   0.307
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 11,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/GFDEGDQ188S",
+  "what": "highlight \"Federal Debt: Total Public Debt as Percent of Gross Domestic Product\"",
+  "said": "Here's another way to see it. The debt is now bigger than everything America produces in a whole year. About one hundred twenty-three percent of it.",
+  "file": "s05.png",
+  "box": [
+   0.087,
+   0.216,
+   0.667,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Reuters",
+  "url": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/",
+  "what": "highlight \"largest in 5 years\"",
+  "said": "When the government spends more than it collects in taxes, it has to borrow the difference. That gap is called the deficit. In fiscal twenty twenty-six, it was close to two trillion dollars.",
+  "file": "s06.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 16,
+  "source": "Treasury Direct",
+  "url": "https://www.treasurydirect.gov/marketable-securities/",
+  "what": "highlight \"Marketable Securities\"",
+  "said": "To borrow, the Treasury sells IOUs. You give the government money today, and it promises to pay you back later, with interest along the way.",
+  "file": "s07.png",
+  "box": [
+   0.145,
+   0.103,
+   0.362,
+   0.167
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Treasury Direct",
+  "url": "https://www.treasurydirect.gov/auctions/upcoming/",
+  "what": "highlight \"Upcoming Auctions\"",
+  "said": "They are sold at auctions, many times every week. Big buyers send in bids, and the auction decides the interest rate the government has to pay.",
+  "file": "s08.png",
+  "box": [
+   0.275,
+   0.773,
+   0.858,
+   0.828
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/econres/notes/feds-notes/default.htm",
+  "what": "highlight \"FEDS Notes\"",
+  "said": "And once a bond is sold, it doesn't sit still. It can be sold again and again, to banks, funds and foreign buyers, every single day.",
+  "file": "s09.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/",
+  "what": "highlight \"Intragovernmental Holdings\"",
+  "said": "Start with the strangest owner of all. The government itself. About eight trillion dollars of the debt is held inside federal accounts.",
+  "file": "s10.png",
+  "box": [
+   0.134,
+   0.344,
+   0.866,
+   0.464
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Social Security Administration",
+  "url": "https://www.ssa.gov/oact/progdata/investheld.html",
+  "what": "highlight \"Trust Fund\"",
+  "said": "The biggest of these is Social Security. For years, it collected more in payroll taxes than it paid out. It lent that extra money to the Treasury.",
+  "file": "s11.png",
+  "box": [
+   0.197,
+   0.356,
+   0.284,
+   0.393
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/",
+  "what": "highlight \"Debt Held by the Public\"",
+  "said": "The other thirty-two trillion dollars or so is held by the public. That means everyone outside the government's own accounts.",
+  "file": "s12.png",
+  "box": [
+   0.134,
+   0.344,
+   0.866,
+   0.464
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+  "what": "highlight \"Recent balance sheet trends\"",
+  "said": "And it includes one owner that surprises almost everyone. The Federal Reserve, America's central bank.",
+  "file": "s13.png",
+  "box": [
+   0.134,
+   0.573,
+   0.318,
+   0.637
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "U.S. Treasury",
+  "url": "https://ticdata.treasury.gov/Publish/slt_table5.html",
+  "what": "highlight \"Major Foreign Holders of Treasury Securities\"",
+  "said": "Foreign investors hold roughly a quarter of the debt owned by the public. And when people picture them, they usually think of one country first. China.",
+  "file": "s14.png",
+  "box": [
+   0,
+   0.001,
+   0.538,
+   0.043
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "U.S. Treasury",
+  "url": "https://ticdata.treasury.gov/Publish/slt_table5.html",
+  "what": "highlight \"Japan\"",
+  "said": "But China isn't even number one. In August twenty twenty-six, Japan held about one point zero seven trillion dollars. The United Kingdom held about one trillion.",
+  "file": "s15.png",
+  "box": [
+   0,
+   0.775,
+   0.538,
+   0.817
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "U.S. Treasury",
+  "url": "https://ticdata.treasury.gov/Publish/slt_table5.html",
+  "what": "highlight \"China, Mainland\"",
+  "said": "Mainland China held about five hundred ninety-one billion. That's a lot of money. But it's only a small piece of forty trillion dollars.",
+  "file": "s16.png",
+  "box": [
+   0,
+   0.193,
+   0.538,
+   0.235
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Bank of Japan",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm",
+  "what": "highlight \"Monetary Policy\"",
+  "said": "So why does Japan buy so much? Japanese banks and insurers hold huge piles of savings. For years, interest at home was close to zero.",
+  "file": "s17.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/news/press-releases/sb0662/",
+  "what": "highlight \"Treasury International Capital Data for August\"",
+  "said": "China's reason is different. It sells a lot to the world and earns a lot of dollars. It needs a safe place to park them, and Treasuries are the biggest parking lot there is.",
+  "file": "s18.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Congressional Budget Office",
+  "url": "https://www.cbo.gov/publication/62105",
+  "what": "highlight \"The Budget and Economic Outlook\"",
+  "said": "In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. That's more than America spent on its entire military.",
+  "file": "s19.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 53,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "what": "highlight \"Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity\"",
+  "said": "Why did it jump so fast? For years, America borrowed at very low rates. Then, starting in twenty twenty-two, rates rose fast to fight inflation.",
+  "file": "s20.png",
+  "box": [
+   0.087,
+   0.216,
+   0.84,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Congressional Budget Office",
+  "url": "https://www.cbo.gov/topics/budget/federal-debt-and-statutory-limit",
+  "what": "highlight \"Federal Debt\"",
+  "said": "That's twenty billion dollars more, every year, for the same trillion. Now repeat that across thousands of billions of dollars of borrowing.",
+  "file": "s21.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 59,
+  "source": "Social Security Administration",
+  "url": "https://www.ssa.gov/oact/progdata/investheld.html",
+  "what": "highlight \"interest\"",
+  "said": "There's a twist, though. That interest doesn't vanish. It's paid to the bondholders. Some of it ends up in Linda's own pension.",
+  "file": "s22.png",
+  "box": [
+   0.197,
+   0.247,
+   0.275,
+   0.284
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "Treasury Direct",
+  "url": "https://www.treasurydirect.gov/auctions/auction-query/",
+  "what": "highlight \"Auction Query\"",
+  "said": "The Treasury would still sell its bonds. It would just have to offer a higher interest rate to tempt buyers.",
+  "file": "s23.png",
+  "box": [
+   0.347,
+   0.416,
+   0.565,
+   0.476
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Reuters",
+  "url": "https://www.reuters.com/markets/us/moodys-downgrades-us-sovereign-credit-rating-aa1-2025-05-16/",
+  "what": "highlight \"Moody's downgrades\"",
+  "said": "But the warning lights have started to blink. In twenty twenty-three, Fitch lowered America's credit rating. In twenty twenty-five, Moody's did the same, taking away America's last top rating.",
+  "file": "s24.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 67,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "what": "highlight \"10-Year\"",
+  "said": "But it does mean the cost of money can rise for everyone. Because Treasury rates are the starting point for many other loans.",
+  "file": "s25.png",
+  "box": [
+   0.087,
+   0.216,
+   0.84,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+  "what": "highlight \"30-Year Fixed Rate Mortgage Average in the United States\"",
+  "said": "He keeps asking why mortgage rates are so much higher than when his parents bought. Part of the answer runs through the bond market.",
+  "file": "s26.png",
+  "box": [
+   0.087,
+   0.216,
+   0.597,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Freddie Mac",
+  "url": "https://www.freddiemac.com/pmms",
+  "what": "highlight \"Primary Mortgage Market Survey\"",
+  "said": "Mortgage rates tend to follow the ten-year Treasury rate, plus a little extra for the bank's risk. When Treasury rates climb, mortgages usually climb too.",
+  "file": "s27.png",
+  "box": [
+   0.99,
+   0.125,
+   1,
+   0.3
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 76,
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"Who owns\"",
+  "said": "So let's answer our question. Who does America owe forty trillion dollars to? Mostly to itself, to Americans, and to people like Linda.",
+  "file": "s28.png",
+  "box": [
+   0.312,
+   0.72,
+   0.699,
+   0.88
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 78,
+  "source": "Congressional Budget Office",
+  "url": "https://www.cbo.gov/publication/62105",
+  "what": "highlight \"net interest\"",
+  "said": "But the scariest part was never who we owe. It's the price of borrowing. A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones.",
+  "file": "s29.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ }
+]

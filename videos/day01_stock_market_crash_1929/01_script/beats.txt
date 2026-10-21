@@ -1,0 +1,247 @@
+# Day 1: The Crash That Broke America. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The party: 1920s boom, radio, Model T, buy-now-pay-later ----------
+|| title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; sting; A23@0.5,0.56:0.6; hold:1.2
+If you put one thousand dollars into the stock market in September nineteen twenty-nine, you would wait about twenty-five years just to get it back. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.47,0.178,0.615,0.22+0.8; H04@0.9,1.0:0.3:bottom
+Twenty-five years. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+And that's not because you picked a bad stock. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; E01@0.15,0.4:0.32~pop; E23@0.38,0.76:0.32~l
+You bought the whole market. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop
+The safest bet in America. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D14@0.15,0.4:0.32~pop
+In the space of three years, the market lost almost ninety percent of its value. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D14@0.15,0.4:0.32~pop; E21@0.38,0.76:0.32~l; E23@0.15,0.76:0.32~pop
+One in four workers lost their job. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; D15@0.5,0.6:0.76
+Nine thousand banks shut their doors, and the people's savings went with them. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; D14@0.5,0.6:0.76
+But here's the part they skip in school. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; E33@0.62,0.76:0.32~r; E01@0.85,0.76:0.32~pop
+The crash didn't cause the Great Depression on its own. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.302,0.178,0.42,0.22+0.8; H04@0.9,1.0:0.3:bottom
+It was the spark. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.2,0.6:0.58~l; D14@0.62,0.4:0.32~drop
+What turned a bad week on Wall Street into the worst ten years in American history was a chain of very human decisions. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A08@0.2,0.6:0.58~l; D14@0.62,0.4:0.32~drop; E23@0.85,0.4:0.32~pop
+And a few of those decisions sound… uncomfortably familiar. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E26@0.38,0.4:0.32~drop
+So let's go back to the party, before anyone knew it was ending. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E26@0.5,0.6:0.76
+It's nineteen twenty-two. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E26@0.5,0.6:0.76
+The war is over, America won, and everyone has decided that the future is going to be amazing. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l
+And honestly, it was. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; E23@0.62,0.4:0.32~drop; C27@0.4,0.64:0.46~pop
+For the first time, ordinary families could buy things that felt like science fiction. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; E23@0.62,0.4:0.32~drop; C27@0.4,0.64:0.46~pop; E48@0.85,0.4:0.32~r
+Electric refrigerators. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r
+Vacuum cleaners. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r; E13@0.38,0.4:0.32~drop; E08@0.15,0.4:0.32~pop
+And the radio, which was basically the iPhone of the 1920s. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r; E13@0.38,0.4:0.32~drop; E08@0.15,0.4:0.32~pop; G11@0.38,0.76:0.32~l
+Everybody had to have one, and nobody fully understood how it worked. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.392,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Then there was Henry Ford. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop
+His moving assembly line took the price of a Model T from about eight hundred and fifty dollars down to two hundred and sixty. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E01@0.5,0.6:0.76
+A car went from a rich man's toy to something a factory worker could actually own. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; E41@0.62,0.4:0.32~drop
+But there was a small problem. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; E41@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop
+Most families still didn't have two hundred and sixty dollars lying around. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r; E41@0.38,0.4:0.32~drop; E33@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l; C04@0.60,0.64:0.46~pop
+So America invented a brand new idea… buy now, pay later. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.80,0.6:0.58~r
+The installment plan. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E48@0.5,0.6:0.76
+A little down, a little every month. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; E01@0.5,0.6:0.76
+Radios on credit, furniture on credit, cars on credit. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.196,0.109,0.232+0.8; H04@0.9,1.0:0.3:bottom
+By the late twenties, most cars in America were bought on credit. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; D18@0.5,0.6:0.76
+And it worked, for a while. || title:"The party: 1920s boom, radio, Model T, buy-now-pay-later"; A15@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~drop; E41@0.85,0.4:0.32~pop; E13@0.62,0.76:0.32~r; E26@0.85,0.76:0.32~pop
+
+# ---------- CHAPTER 2: The casino: margin, pools, shoeshine boy, Fisher's 'plateau' ----------
+|| title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; sting; A23@0.5,0.56:0.6; hold:1.2
+Factories made more, workers earned more, people bought more. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l
+Prices were stable, wages were going up, and the economy felt like a machine that only had one gear: forward. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; E33@0.62,0.4:0.32~drop; E26@0.85,0.4:0.32~pop
+But underneath the party, two groups of people weren't invited. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~drop; E26@0.15,0.4:0.32~pop; H22@0.38,0.76:0.32~pop
+The first was farmers. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; D18@0.5,0.6:0.76
+During the war, Europe needed American food, so farmers borrowed money to buy more land and more tractors. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; D14@0.5,0.6:0.76
+When the war ended, Europe started growing its own food again, prices collapsed, and farmers were stuck with the debt. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; E01@0.5,0.6:0.76
+A quarter of Americans still lived on farms. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.2,0.6:0.58~l
+That's a lot of people quietly going broke during the “Roaring“ Twenties. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.2,0.6:0.58~l; D13@0.62,0.4:0.32~drop; E39@0.85,0.4:0.32~pop
+The second group was everyone who looked closely at the numbers. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.80,0.6:0.58~r; D13@0.38,0.4:0.32~drop; E39@0.15,0.4:0.32~pop; E26@0.38,0.76:0.32~l
+Because the money wasn't just going into radios and Fords anymore. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.80,0.6:0.58~r; E13@0.38,0.4:0.32~drop
+It was going somewhere much more exciting. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; G11@0.5,0.6:0.76
+Before the 1920s, the stock market was mostly for rich people in top hats. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; E01@0.5,0.6:0.76
+By nineteen twenty-nine, it was for everyone. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l
+Teachers, nurses, factory workers, your barber. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+There's a famous story, || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; C04@0.4,0.64:0.46~r
+maybe true, maybe not, that a rich investor named Joseph Kennedy got a stock tip from the boy shining his shoes… and decided it was time to sell everything. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; C04@0.4,0.64:0.46~r; E23@0.62,0.76:0.32~pop
+When the shoeshine boy is giving stock tips, the party might be ending. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop
+And here's the thing that made it truly dangerous. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; E01@0.5,0.6:0.76
+You didn't need much money to play. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; E44@0.5,0.6:0.76
+You could buy stocks on margin. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.147,0.311,0.677,0.417+0.8; H04@0.9,1.0:0.3:bottom
+Here's how margin worked. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+You want a hundred dollars of stock. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E01@0.85,0.4:0.32~pop; E48@0.62,0.76:0.32~r
+You put down ten dollars of your own money, and your broker lends you the other ninety. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.2,0.6:0.58~l
+If the stock goes up ten percent, you've made ten dollars on a ten-dollar bet. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32~pop
+You just doubled your money. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; A41@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l
+But if the stock drops ten percent, your ten dollars is gone. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; D18@0.5,0.6:0.76
+And if it drops more, you owe the broker money you don't have. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; G11@0.5,0.6:0.76
+By nineteen twenty-nine, Americans had borrowed around eight and a half billion dollars just to buy stocks. || title:"The casino: margin, pools, shoeshine boy, Fisher's 'plateau'"; E01@0.5,0.6:0.76
+
+# ---------- CHAPTER 3: The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday ----------
+|| title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; sting; A23@0.5,0.56:0.6; hold:1.2
+For context, that was more than all the cash circulating in the entire country at the time. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.151,0.346,0.728,0.392+0.8; H04@0.9,1.0:0.3:bottom
+Wall Street had its own tricks too. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~drop
+Groups of wealthy traders formed “pools“. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~drop; C04@0.60,0.64:0.46~pop; E43@0.15,0.4:0.32~l; E23@0.38,0.76:0.32~pop
+They'd quietly buy a stock, || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r
+trade it back and forth among themselves to make it look popular, let the newspapers hype it up… then sell to everyone who came running. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop
+Totally illegal today. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; E09@0.5,0.6:0.76
+Totally normal back then. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E09@0.85,0.4:0.32~pop; E01@0.62,0.76:0.32~r
+And the market went up. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l
+Then up again. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D13@0.85,0.4:0.32~pop
+From nineteen twenty-one to its peak in September nineteen twenty-nine, the Dow Jones went up about six times. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D13@0.85,0.4:0.32~pop; E23@0.62,0.76:0.32~r
+People started believing the line could only go one way. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop
+Even the experts agreed. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop; G11@0.38,0.4:0.32~pop
+One of the most famous economists in America, a Yale professor named Irving Fisher, said stock prices had reached… quote… “a permanently high plateau.“ || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop; G11@0.38,0.4:0.32~pop; E09@0.15,0.4:0.32~l; E10@0.38,0.76:0.32~pop
+He said that about two weeks before the crash. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+Not his best work. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A08@0.2,0.6:0.58~l
+There were warnings. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A08@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+In September, || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A08@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32~r
+an investor named Roger Babson stood up and said, “Sooner or later a crash is coming, and it may be terrific.“ That day, the market dropped. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A08@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32~r; E09@0.85,0.76:0.32~pop
+People called it the “Babson Break“… and then they went right back to buying. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; G09@0.38,0.4:0.32~drop
+Even the new president, Herbert Hoover, had promised America was “nearer to the final triumph over poverty than ever before in the history of any land.“ || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; G09@0.38,0.4:0.32~drop; E09@0.15,0.4:0.32~pop; E08@0.38,0.76:0.32~l
+Everyone was a genius. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; C04@0.4,0.64:0.46~drop
+Everyone was rich, on paper. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; C04@0.4,0.64:0.46~drop; E23@0.62,0.4:0.32~pop; E48@0.85,0.4:0.32~r
+And almost nobody asked what would happen if the line went down. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l
+Thursday, October 24th, nineteen twenty-nine. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop; G11@0.62,0.4:0.32~pop
+The market opened, and the selling started. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop; G11@0.62,0.4:0.32~pop; E01@0.85,0.4:0.32~r
+And then it didn't stop. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.147,0.311,0.677,0.417+0.8; H04@0.9,1.0:0.3:bottom
+Prices fell so fast that the ticker tape, the machine that printed stock prices, fell more than an hour behind. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop
+People were selling stocks without knowing what the price even was. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; D14@0.5,0.6:0.76
+Crowds gathered outside the New York Stock Exchange. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l
+Police were sent to Wall Street. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; G11@0.5,0.6:0.76
+Around noon, the biggest bankers in New York met in secret and decided to rescue the market. || title:"The crash: Black Thursday, bankers' rescue, Black Monday/Tuesday"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop; C04@0.4,0.64:0.46~r
+
+# ---------- CHAPTER 4: The banks: bank runs, Bank of United States, money supply -30% ----------
+|| title:"The banks: bank runs, Bank of United States, money supply -30%"; sting; A23@0.5,0.56:0.6; hold:1.2
+They sent one man onto the trading floor, Richard Whitney, the vice president of the exchange. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+He walked up and loudly offered to buy U.S. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32~pop
+Steel way above the market price. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32~pop; G09@0.38,0.76:0.32~l; C04@0.60,0.64:0.46~pop
+Then he did the same with stock after stock. || title:"The banks: bank runs, Bank of United States, money supply -30%"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+And it worked! || title:"The banks: bank runs, Bank of United States, money supply -30%"; G11@0.5,0.6:0.76
+Prices bounced. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E48@0.5,0.6:0.76
+The newspapers relaxed. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l
+Crisis over. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E09@0.5,0.6:0.76
+For about three days. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E01@0.5,0.6:0.76
+On Monday, the Dow fell almost thirteen percent. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l
+On Tuesday, October 29th, it fell almost twelve percent more. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop
+Sixteen million shares changed hands, a record that stood for decades. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; E23@0.62,0.76:0.32~r
+And this time, nobody came to the rescue. || title:"The banks: bank runs, Bank of United States, money supply -30%"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+Remember margin? || title:"The banks: bank runs, Bank of United States, money supply -30%"; A06@0.80,0.6:0.58~r; E23@0.38,0.4:0.32~drop
+This is where it turned deadly. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A06@0.80,0.6:0.58~r; E23@0.38,0.4:0.32~drop; C28@0.60,0.64:0.46~pop; E48@0.15,0.4:0.32~l
+As prices dropped, brokers called their customers and demanded more money: “margin calls“. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.80,0.6:0.58~r
+People who didn't have the money had their stocks sold automatically, which pushed prices down further, which triggered more margin calls. || title:"The banks: bank runs, Bank of United States, money supply -30%"; D14@0.5,0.6:0.76
+In a few weeks, the market lost about forty percent. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E01@0.5,0.6:0.76
+Paper fortunes that took years to build disappeared before lunch. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l
+But here's the strange part. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E23@0.85,0.4:0.32~pop
+By the spring of nineteen thirty, the market had actually recovered some of its losses. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E23@0.85,0.4:0.32~pop; H22@0.62,0.76:0.32~r
+A lot of people thought the worst was over. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.80,0.6:0.58~r
+It wasn't. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~drop; G11@0.15,0.4:0.32~pop
+The worst hadn't even started. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~drop; G11@0.15,0.4:0.32~pop; E23@0.38,0.76:0.32~l
+Quick thing: if you're enjoying this, hit subscribe. || title:"The banks: bank runs, Bank of United States, money supply -30%"; G11@0.5,0.6:0.76
+These take a ridiculous amount of research, and it genuinely helps. || title:"The banks: bank runs, Bank of United States, money supply -30%"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.47,0.178,0.612,0.22+0.8; H04@0.9,1.0:0.3:bottom
+Okay. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l
+Back to nineteen thirty. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E48@0.5,0.6:0.76
+The crash hurt investors. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.2,0.6:0.58~l
+What happened next hurt everyone. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop
+And it started with the banks. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; C28@0.4,0.64:0.46~r
+In nineteen thirty, there was no such thing as deposit insurance. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop
+If your bank failed, your savings were simply… gone. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; G09@0.85,0.4:0.32~pop
+No government guarantee. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; G09@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l; E21@0.15,0.76:0.32~pop
+No phone number to call. || title:"The banks: bank runs, Bank of United States, money supply -30%"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+And a lot of small banks had done exactly what everyone else did. || title:"The banks: bank runs, Bank of United States, money supply -30%"; A15@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop
+They'd lent money to people buying stocks, or invested in stocks themselves. || title:"The banks: bank runs, Bank of United States, money supply -30%"; E08@0.5,0.6:0.76
+
+# ---------- CHAPTER 5: Making it worse: Smoot-Hawley, 1932 tax hike ----------
+|| title:"Making it worse: Smoot-Hawley, 1932 tax hike"; sting; A23@0.5,0.56:0.6; hold:1.2
+When the market crashed, those loans went bad. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l
+So people did the only logical thing. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; G11@0.5,0.6:0.76
+They ran. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32~r
+If you hear your bank might be in trouble, you don't wait to find out. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l
+You go get your money right now. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop
+And when everybody does that at once, even a healthy bank collapses, because banks don't keep all your money in the building. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; D14@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l
+It's lent out. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+In December nineteen thirty, a rumor spread in New York about a bank with a very official-sounding name: the Bank of United States. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; D15@0.5,0.6:0.76
+Thousands of people lined up to pull their money out. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; E01@0.5,0.6:0.76
+Within days, the bank closed. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.2,0.6:0.58~l
+Around four hundred thousand depositors were locked out of their savings. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; G09@0.85,0.4:0.32~pop
+It wasn't even a government bank. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; G09@0.85,0.4:0.32~pop; E01@0.62,0.76:0.32~r
+It just sounded like one, which made the panic so much worse. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.80,0.6:0.58~r
+Then it spread. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop
+Wave after wave of bank runs, city after city. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l
+Over the next few years, about nine thousand American banks failed. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.2,0.6:0.58~l
+And here's where it turned from bad to catastrophic. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; E01@0.5,0.6:0.76
+When banks fail and people hide cash under the mattress, the amount of money moving through the economy shrinks. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; E23@0.5,0.6:0.76
+Between nineteen thirty and nineteen thirty-three, America's money supply fell by nearly thirty percent. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.147,0.739,0.677,0.861+0.8; H04@0.9,1.0:0.3:bottom
+Less money means prices fall. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.80,0.6:0.58~r; D14@0.38,0.4:0.32~drop
+That sounds nice… cheaper groceries! || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.80,0.6:0.58~r; D14@0.38,0.4:0.32~drop; E01@0.15,0.4:0.32~pop
+But think about it from the other side. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.80,0.6:0.58~r; E39@0.38,0.4:0.32~drop
+If you're a farmer, your crops sell for less, but your mortgage payment stays exactly the same. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A15@0.80,0.6:0.58~r; E39@0.38,0.4:0.32~drop; E33@0.15,0.4:0.32~pop
+If you're a factory, your products sell for less, so you cut wages, or you cut workers. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; H22@0.5,0.6:0.76
+Every falling price is somebody's falling paycheck. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l
+And the Federal Reserve, the one institution built to stop exactly this kind of panic, mostly stood back and watched. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.2,0.6:0.58~l; G10@0.62,0.4:0.32~drop; E23@0.85,0.4:0.32~r
+Decades later, a future Fed chairman, Ben Bernanke, publicly admitted it: “Regarding the Great Depression… we did it. || title:"Making it worse: Smoot-Hawley, 1932 tax hike"; A08@0.80,0.6:0.58~r; G10@0.38,0.4:0.32~drop; E23@0.15,0.4:0.32~l; H22@0.38,0.76:0.32~pop
+
+# ---------- CHAPTER 6: The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army ----------
+|| title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; sting; A23@0.5,0.56:0.6; hold:1.2
+Washington also had some ideas. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.362,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Unfortunately. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; E39@0.5,0.6:0.76
+In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; E21@0.5,0.6:0.76
+More than a thousand economists signed a letter begging President Hoover not to sign it. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; G09@0.5,0.6:0.76
+He signed it anyway. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l; G09@0.62,0.4:0.32~drop; E10@0.85,0.4:0.32~pop
+Other countries did exactly what you'd expect. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l; G09@0.62,0.4:0.32~drop; E10@0.85,0.4:0.32~pop; E43@0.62,0.76:0.32~r; H22@0.85,0.76:0.32~pop
+They put their own tariffs on American goods. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.2,0.6:0.58~l; D14@0.62,0.4:0.32~drop
+World trade fell by about two-thirds over the next few years. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.80,0.6:0.58~r; D14@0.38,0.4:0.32~drop; E39@0.15,0.4:0.32~pop
+American farmers, the people the tariff was supposed to help, lost the customers they had left. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.80,0.6:0.58~r; D14@0.38,0.4:0.32~drop; E39@0.15,0.4:0.32~pop; G19@0.38,0.76:0.32~l; E43@0.15,0.76:0.32~pop
+Then, in nineteen thirty-two, with the economy already on the floor, the government raised taxes sharply to balance the budget. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Great Depression" hl=0.147,0.726,0.677,0.874+0.8; H04@0.9,1.0:0.3:bottom
+Squeezing an economy that was already struggling to breathe. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; G11@0.5,0.6:0.76
+By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32~pop; G09@0.62,0.76:0.32~r
+A share that was worth a hundred dollars was now worth about eleven. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop
+By nineteen thirty-three, one in four American workers had no job. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; E33@0.15,0.4:0.32~pop
+There was no unemployment insurance. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.80,0.6:0.58~r; G11@0.38,0.4:0.32~drop; E33@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l; E21@0.15,0.76:0.32~pop
+No food stamps. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l
+Just lines. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; E23@0.5,0.6:0.76
+Breadlines stretching around city blocks. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; E01@0.5,0.6:0.76
+Men in suits, men who used to be bankers and salesmen, waiting for a bowl of soup. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; D15@0.5,0.6:0.76
+Families who lost their homes built shacks out of scrap wood and cardboard. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; E41@0.85,0.4:0.32~pop
+People called them “Hoovervilles“. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A08@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; E41@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32~r; G09@0.85,0.76:0.32~pop
+And then nature joined in. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.254,0.135+0.8; H04@0.9,1.0:0.3:bottom
+In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l; E39@0.62,0.4:0.32~drop
+Storms of black dust rolled across Oklahoma, Kansas and Texas, so thick they blocked out the sun. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.80,0.6:0.58~r; E39@0.38,0.4:0.32~drop; G24@0.15,0.4:0.32~pop; D28@0.38,0.76:0.32~l; E23@0.15,0.76:0.32~pop
+Millions of people left the Plains, many heading west to California, looking for any kind of work. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; G09@0.5,0.6:0.76
+In the summer of nineteen thirty-two, around twenty thousand World War I veterans marched on Washington. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; G18@0.5,0.6:0.76
+They'd been promised a bonus for their service, payable in nineteen forty-five. || title:"The bottom: 25% unemployment, Hoovervilles, Dust Bowl, Bonus Army"; A15@0.2,0.6:0.58~l; G09@0.62,0.4:0.32~drop; G18@0.85,0.4:0.32~pop; E09@0.62,0.76:0.32~r; E43@0.85,0.76:0.32~pop
+
+# ---------- CHAPTER 7: The way back: FDR, bank holiday, FDIC, SEC ----------
+|| title:"The way back: FDR, bank holiday, FDIC, SEC"; sting; A23@0.5,0.56:0.6; hold:1.2
+They needed it now. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l
+They camped near the Capitol, peacefully, for weeks. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r; G18@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop
+In the end, the army was sent in to clear them out. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r; G18@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop; C28@0.60,0.64:0.46~l
+Soldiers, using tear gas, against the soldiers of the last war. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A41@0.80,0.6:0.58~r
+Americans saw the photos, and something broke. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A41@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop
+In March nineteen thirty-three, || title:"The way back: FDR, bank holiday, FDIC, SEC"; G18@0.5,0.6:0.76
+Franklin Roosevelt took office and said the most famous line of the whole era: “The only thing we have to fear is fear itself.“ || title:"The way back: FDR, bank holiday, FDIC, SEC"; E09@0.5,0.6:0.76
+Two days later, || title:"The way back: FDR, bank holiday, FDIC, SEC"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.147,0.311,0.677,0.389+0.8; H04@0.9,1.0:0.3:bottom
+he closed every bank in the country. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; E43@0.85,0.4:0.32~pop; E23@0.62,0.76:0.32~r
+A “bank holiday“. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop
+Inspectors checked the books, and only the healthy banks were allowed to reopen. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; E13@0.15,0.4:0.32~pop
+Then he went on the radio and explained, in plain English, why your money would be safer in the bank than under your mattress. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; E13@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l; E21@0.15,0.76:0.32~pop
+And people believed him, which tells you how good that radio voice must have been. || title:"The way back: FDR, bank holiday, FDIC, SEC"; D15@0.5,0.6:0.76
+When the banks reopened, people actually put money back in. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A21@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop
+The bank runs stopped. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A21@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop; E01@0.62,0.76:0.32~r; H22@0.85,0.76:0.32~pop
+Then came the rules we still live with today. || title:"The way back: FDR, bank holiday, FDIC, SEC"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: FDIC" hl=0,0.257,-61.959,0.335+0.8; H04@0.9,1.0:0.3:bottom
+The FDIC, so your bank deposits are insured. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A21@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop
+Today that's up to two hundred and fifty thousand dollars. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A21@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~l; E21@0.15,0.76:0.32~pop
+The SEC, so companies have to tell the truth to investors, and those “pools“ from earlier became illegal. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r
+And Social Security. || title:"The way back: FDR, bank holiday, FDIC, SEC"; E01@0.5,0.6:0.76
+The recovery was slow and bumpy. || title:"The way back: FDR, bank holiday, FDIC, SEC"; E01@0.5,0.6:0.76
+It took World War Two to finally bring unemployment all the way down. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A06@0.2,0.6:0.58~l
+And the stock market? || title:"The way back: FDR, bank holiday, FDIC, SEC"; A06@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop
+It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A06@0.2,0.6:0.58~l; G11@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; E43@0.62,0.76:0.32~r
+A lot of what broke in nineteen twenty-nine has been fixed. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A41@0.2,0.6:0.58~l
+Your bank deposits are insured. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A41@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; G10@0.15,0.4:0.32~pop
+The Fed now steps in fast instead of watching. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A41@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; G10@0.15,0.4:0.32~pop; E21@0.38,0.76:0.32~l
+Companies have to report their numbers. || title:"The way back: FDR, bank holiday, FDIC, SEC"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Banking Panics" hl=0.147,0.752,0.677,0.849+0.8; H04@0.9,1.0:0.3:bottom
+But some things can't be fixed with a law. || title:"The way back: FDR, bank holiday, FDIC, SEC"; D15@0.5,0.6:0.76
+Because they aren't in the banks… they're in us. || title:"The way back: FDR, bank holiday, FDIC, SEC"; E23@0.5,0.6:0.76
+Borrowed money that feels like free money. || title:"The way back: FDR, bank holiday, FDIC, SEC"; D18@0.5,0.6:0.76
+Stock tips from people who've never had a bad year. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop
+And the most expensive belief in finance: “this time is different.“ || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D18@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop; E01@0.62,0.76:0.32~r; D28@0.85,0.76:0.32~pop
+Every bubble in history has had all three. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D29@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop; E23@0.62,0.76:0.32~r
+So the next time everyone around you is getting rich on something they can't explain… remember the guy who bought in September nineteen twenty-nine. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.80,0.6:0.58~r
+Not because he was stupid. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; C04@0.4,0.64:0.46~drop
+Because he was sure. || title:"The way back: FDR, bank holiday, FDIC, SEC"; E23@0.5,0.6:0.76
+In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || title:"The way back: FDR, bank holiday, FDIC, SEC"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.147,0.956,0.677,1+0.8; H04@0.9,1.0:0.3:bottom
+The answer might surprise you. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D28@0.62,0.4:0.32~drop
+Subscribe so you don't miss it. || title:"The way back: FDR, bank holiday, FDIC, SEC"; A15@0.2,0.6:0.58~l; D28@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E01@0.62,0.76:0.32~r
+
+|| endscreen; hold:10

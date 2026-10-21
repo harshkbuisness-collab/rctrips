@@ -1,0 +1,235 @@
+# Day 6: Why Can't the Government Just Print More Money?. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The Magic Printer ----------
+|| title:"The Magic Printer"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In late two thousand eight, prices in Zimbabwe were doubling about every day, and the country printed a one hundred trillion dollar note. || title:"The Magic Printer"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.382,0.135+0.8; H04@0.9,1.0:0.3:bottom
+To see why, picture a town with one hundred families and one hundred loaves of bread. || title:"The Magic Printer"; A08@0.2,0.6:0.58~l; note:"$100,000,000,000,000"@0.66,0.12; D19@0.62,0.4:0.32~pop; C28@0.4,0.64:0.46~pop; H17@0.85,0.4:0.32:"100 LOAVES"~pop
+Every family has one dollar. || title:"The Magic Printer"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve Bank of St. Louis" hl=0.048,0.296,0.953,0.36+0.8; H04@0.9,1.0:0.3:bottom
+Every loaf costs one dollar. || title:"The Magic Printer"; C28@0.80,0.6:0.58~drop; D01@0.38,0.4:0.32~pop
+Each family buys one loaf, and everyone eats. || title:"The Magic Printer"; C28@0.80,0.6:0.58~drop; D01@0.38,0.4:0.32~pop; note:"$1"@0.66,0.12; E39@0.15,0.4:0.32~pop
+Simple. || title:"The Magic Printer"; H17@0.5,0.6:0.76:"$1"
+Now the mayor has an idea. || title:"The Magic Printer"; C05@0.2,0.6:0.58~r
+He prints a second dollar for every family. || title:"The Magic Printer"; D19@0.5,0.6:0.76
+Everyone wakes up with twice as much money. || title:"The Magic Printer"; D01@0.5,0.6:0.76
+Poverty is solved. || title:"The Magic Printer"; C05@0.2,0.6:0.58~r; D19@0.62,0.4:0.32~drop; E03@0.85,0.4:0.32~drop; D01@0.62,0.76:0.32~pop; note:"x2"@0.66,0.12
+Right? || title:"The Magic Printer"; C05@0.2,0.6:0.58~r; D19@0.62,0.4:0.32~drop; E03@0.85,0.4:0.32~drop; D01@0.62,0.76:0.32~pop; note:"x2"@0.66,0.12; E48@0.85,0.76:0.32~pop
+Not quite. || title:"The Magic Printer"; A48@0.2,0.6:0.58~l; E39@0.62,0.4:0.32~drop
+Nobody baked more bread. || title:"The Magic Printer"; A48@0.2,0.6:0.58~l; E39@0.62,0.4:0.32~drop; note:"100 loaves"@0.66,0.12
+There are still one hundred loaves. || title:"The Magic Printer"; A48@0.2,0.6:0.58~l; E39@0.62,0.4:0.32~drop; note:"100 loaves"@0.66,0.12; E01@0.85,0.4:0.32~pop
+But now there are two hundred dollars trying to buy them. || title:"The Magic Printer"; A48@0.2,0.6:0.58~l; E39@0.62,0.4:0.32~drop; note:"100 loaves"@0.66,0.12; E01@0.85,0.4:0.32~pop; note:"$200"@0.5,0.92; E22@0.62,0.76:0.32~pop
+So the baker does the obvious thing. || title:"The Magic Printer"; C11@0.80,0.6:0.58~l
+She raises the price to two dollars. || title:"The Magic Printer"; C11@0.80,0.6:0.58~l; H17@0.38,0.4:0.32:"$1 → $2"~pop; E39@0.15,0.4:0.32~pop
+Everyone has more money, and everyone is exactly as rich as before. || title:"The Magic Printer"; C11@0.80,0.6:0.58~l; H17@0.38,0.4:0.32:"$1 → $2"~pop; E39@0.15,0.4:0.32~pop; A14@0.60,0.64:0.46~r
+And the people who lose are the ones who saved. || title:"The Magic Printer"; E21@0.5,0.6:0.76
+A family that had tucked away ten dollars can now buy only five loaves instead of ten. || title:"The Magic Printer"; D02@0.5,0.6:0.76
+That's the whole idea in one picture. || title:"The Magic Printer"; A38@0.2,0.6:0.58~l
+Money isn't wealth by itself. || title:"The Magic Printer"; A38@0.2,0.6:0.58~l; H15@0.62,0.4:0.32:"TICKET"~drop
+It's a ticket to buy real things. || title:"The Magic Printer"; A38@0.2,0.6:0.58~l; H15@0.62,0.4:0.32:"TICKET"~drop; E39@0.85,0.4:0.32~pop
+Print more tickets without making more things, and each ticket is worth less. || title:"The Magic Printer"; A38@0.2,0.6:0.58~l; H15@0.62,0.4:0.32:"TICKET"~drop; E39@0.85,0.4:0.32~pop; D03@0.62,0.76:0.32~pop
+The same thing works the other way. || title:"The Magic Printer"; A38@0.80,0.6:0.58; E39@0.38,0.4:0.32~drop
+If the town baked two hundred loaves and kept one hundred dollars, bread would get cheaper. || title:"The Magic Printer"; A38@0.80,0.6:0.58; E39@0.38,0.4:0.32~drop; note:"200 loaves"@0.66,0.12; E01@0.15,0.4:0.32~pop; note:"$100"@0.5,0.92
+What matters is money compared to stuff. || title:"The Magic Printer"; E22@0.5,0.6:0.76
+By the end of this video, || title:"The Magic Printer"; G16@0.5,0.6:0.76
+you'll see three countries that tried the magic printer, what happened to their people, and how America prints money today without, usually, blowing up. || title:"The Magic Printer"; D19@0.5,0.6:0.76
+But first, let's meet someone who lived through the real version. || title:"The Magic Printer"; A33@0.2,0.6:0.58~l
+Not a thought experiment. || title:"The Magic Printer"; A33@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~drop; note:"BAKERY"@0.66,0.12
+A real bakery, in a real country, where the printer never stopped. || title:"The Magic Printer"; A33@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~drop; note:"BAKERY"@0.66,0.12; E39@0.15,0.4:0.32~pop
+
+# ---------- CHAPTER 2: Germany, 1923 ----------
+|| title:"Germany, 1923"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Before Zimbabwe, there was Germany. || title:"Germany, 1923"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.457,0.135+0.8; H04@0.9,1.0:0.3:bottom
+After World War One, Germany owed huge payments to the winners, and its government was broke. || title:"Germany, 1923"; G16@0.38,0.4:0.32~drop; note:"Germany"@0.66,0.12; E25@0.15,0.4:0.32~pop; note:"1919"@0.5,0.92; G18@0.38,0.76:0.32~pop; D28@0.15,0.76:0.32~pop; A06@0.80,0.6:0.58~r
+So it did what seemed easiest. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none
+It printed money to pay its bills. || title:"Germany, 1923"; D19@0.5,0.6:0.76
+At first, prices rose slowly. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop; E53@0.85,0.4:0.32~pop
+Then faster. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop; E53@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32
+Then out of control. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop; E53@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32; E19@0.85,0.76:0.32~pop
+The central bank's printing presses ran day and night. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop; E53@0.85,0.4:0.32~pop
+At one point, more than a hundred and thirty printing companies were working just to produce enough banknotes. || title:"Germany, 1923"; A06@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop; E53@0.85,0.4:0.32~pop; E33@0.62,0.76:0.32~pop; E24@0.85,0.76:0.32~pop; note:"24/7"@0.66,0.12
+By November nineteen twenty-three, one American dollar was worth about four point two trillion German marks. || title:"Germany, 1923"; D01@0.38,0.4:0.32~pop; note:"= 4,200,000,000,000 MARKS"@0.5,0.92; A45@0.80,0.6:0.58~pop; E25@0.15,0.4:0.32~pop; note:"Nov 1923"@0.66,0.12
+A loaf of bread in Berlin cost about two hundred billion marks. || title:"Germany, 1923"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.777,0.769,0.823+0.8; H04@0.9,1.0:0.3:bottom
+Ten years earlier, it had cost less than one mark. || title:"Germany, 1923"; E25@0.5,0.6:0.76
+Workers were paid twice a day, so they could run to the shops before prices rose again. || title:"Germany, 1923"; E24@0.5,0.6:0.76
+People carried their wages in baskets and wheelbarrows. || title:"Germany, 1923"; C09@0.2,0.6:0.58~l; E24@0.62,0.4:0.32~pop; E01@0.85,0.4:0.32~drop; H20@0.62,0.76:0.32~pop; A10@0.4,0.64:0.46~r
+Some families burned paper money in their stoves, because it was cheaper than buying firewood. || title:"Germany, 1923"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.38,0.145,0.432+0.8; H04@0.9,1.0:0.3:bottom
+Children built kites and towers out of stacks of cash. || title:"Germany, 1923"; E19@0.38,0.4:0.32~drop; E01@0.15,0.4:0.32~pop; C27@0.80,0.6:0.58~r; H24@0.38,0.76:0.32~pop
+People who had saved their whole lives were wiped out. || title:"Germany, 1923"; C14@0.80,0.6:0.58~r; D25@0.38,0.4:0.32~pop
+A pension that once paid for a comfortable life couldn't buy a single loaf of bread. || title:"Germany, 1923"; E39@0.5,0.6:0.76
+But some people won. || title:"Germany, 1923"; C21@0.2,0.6:0.58~r
+Anyone who owed money could pay off a giant debt with paper that was nearly worthless. || title:"Germany, 1923"; C21@0.2,0.6:0.58~r; D28@0.62,0.4:0.32~pop; B11@0.4,0.64:0.46~drop
+Some businessmen grew very rich. || title:"Germany, 1923"; C21@0.2,0.6:0.58~r; D28@0.62,0.4:0.32~pop; B11@0.4,0.64:0.46~drop; E27@0.85,0.4:0.32~pop
+Germany finally stopped it by creating a new currency and strictly limiting how much could be printed. || title:"Germany, 1923"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.264,0.135+0.8; H04@0.9,1.0:0.3:bottom
+But the anger it caused helped shape the dark years that followed. || title:"Germany, 1923"; H15@0.38,0.4:0.32:"NEW MARK"~drop; A48@0.80,0.6:0.58~r; G24@0.15,0.4:0.32~pop; E44@0.38,0.76:0.32~pop
+You might think the world learned that lesson for good. || title:"Germany, 1923"; E23@0.38,0.4:0.32~pop
+It didn't. || title:"Germany, 1923"; E48@0.5,0.6:0.76
+About eighty years later, it happened again, in southern Africa. || title:"Germany, 1923"; E48@0.5,0.6:0.76
+
+# ---------- CHAPTER 3: Tendai's Bakery ----------
+|| title:"Tendai's Bakery"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Meet Tendai. || title:"Tendai's Bakery"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.642,0.865,0.689,0.901+0.8; H04@0.9,1.0:0.3:bottom
+In the early two thousands, she runs a small bakery in Harare, the capital of Zimbabwe. || title:"Tendai's Bakery"; E35@0.5,0.6:0.76
+Her bread is the best on the street. || title:"Tendai's Bakery"; C11@0.2,0.6:0.58~l; E35@0.62,0.4:0.32~drop; note:"BAKERY"@0.66,0.12; E39@0.85,0.4:0.32~pop; E28@0.62,0.76:0.32~pop
+She opens at five every morning. || title:"Tendai's Bakery"; E24@0.62,0.4:0.32~pop; note:"5 AM"@0.66,0.12
+Her customers are teachers, bus drivers and nurses. || title:"Tendai's Bakery"; E24@0.38,0.4:0.32~pop; note:"5 AM"@0.66,0.12; C28@0.80,0.6:0.58~drop
+A loaf costs about the same as a short bus ride. || title:"Tendai's Bakery"; E24@0.38,0.4:0.32~pop; note:"5 AM"@0.66,0.12; C28@0.80,0.6:0.58~drop; E41@0.15,0.4:0.32~pop
+Life isn't easy, but it's steady. || title:"Tendai's Bakery"; E24@0.38,0.4:0.32~pop; note:"5 AM"@0.66,0.12; C28@0.80,0.6:0.58~drop; E41@0.15,0.4:0.32~pop; E39@0.38,0.76:0.32~pop; H27@0.15,0.76:0.32~pop
+Zimbabwe had once been called the breadbasket of Africa. || title:"Tendai's Bakery"; E36@0.5,0.6:0.76
+It grew so much food that it sold it to its neighbors. || title:"Tendai's Bakery"; E31@0.5,0.6:0.76
+But starting around two thousand, government policies seized many large farms and handed them out, often to people with no farming experience. || title:"Tendai's Bakery"; E35@0.5,0.6:0.76
+Food production collapsed. || title:"Tendai's Bakery"; C05@0.2,0.6:0.58~r; E35@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32; E38@0.62,0.76:0.32~pop
+Farm output fell sharply. || title:"Tendai's Bakery"; C05@0.2,0.6:0.58~none; D14@0.62,0.4:0.32
+Over the next decade, Zimbabwe's whole economy shrank by around half, according to many estimates. || title:"Tendai's Bakery"; C05@0.2,0.6:0.58~none; D14@0.62,0.4:0.32; H17@0.85,0.4:0.32:"-50%"~pop; D21@0.62,0.76:0.32~pop; E46@0.85,0.76:0.32~drop
+Fewer crops meant fewer exports, fewer jobs, and less money coming in. || title:"Tendai's Bakery"; C05@0.80,0.6:0.58; E31@0.38,0.4:0.32~pop
+The government was spending far more than it earned. || title:"Tendai's Bakery"; C05@0.80,0.6:0.58; E31@0.38,0.4:0.32~pop; D21@0.15,0.4:0.32~drop; D28@0.38,0.76:0.32~pop
+So it turned on the printer. || title:"Tendai's Bakery"; E03@0.5,0.6:0.76
+Officials blamed greedy shopkeepers and foreign enemies for the rising prices. || title:"Tendai's Bakery"; E51@0.5,0.6:0.76
+But the main cause was the printing press, sitting in their own central bank. || title:"Tendai's Bakery"; D19@0.5,0.6:0.76
+Now remember the town with one hundred loaves. || title:"Tendai's Bakery"; C07@0.2,0.6:0.58~none; E39@0.62,0.4:0.32~drop
+Zimbabwe had fewer loaves every year, and more money every month. || title:"Tendai's Bakery"; C07@0.2,0.6:0.58~none; E39@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32; E01@0.62,0.76:0.32~pop
+It was the worst possible mix. || title:"Tendai's Bakery"; C07@0.80,0.6:0.58; E39@0.38,0.4:0.32~drop; D14@0.15,0.4:0.32; E01@0.38,0.76:0.32~pop; D13@0.15,0.76:0.32; E47@0.42,0.24:0.32~pop
+For Tendai, it started with flour. || title:"Tendai's Bakery"; C10@0.80,0.6:0.58~r
+Every week, her supplier charged more. || title:"Tendai's Bakery"; C10@0.80,0.6:0.58~r; H20@0.38,0.4:0.32~pop
+She raised her bread prices. || title:"Tendai's Bakery"; C10@0.80,0.6:0.58~r; H20@0.38,0.4:0.32~pop; note:"FLOUR"@0.66,0.12
+Then her supplier raised his again. || title:"Tendai's Bakery"; E45@0.5,0.6:0.76
+Soon she was changing her prices every morning. || title:"Tendai's Bakery"; E24@0.5,0.6:0.76
+Then twice a day. || title:"Tendai's Bakery"; E02@0.5,0.6:0.76
+Customers stood in line with bags of cash, worried that prices would rise before they reached the counter. || title:"Tendai's Bakery"; E02@0.5,0.6:0.76
+Tendai stopped keeping cash overnight. || title:"Tendai's Bakery"; C10@0.2,0.6:0.58~l; E02@0.62,0.4:0.32~pop
+At the end of each day, she rushed to spend it on flour, sugar, anything that would still be worth something tomorrow. || title:"Tendai's Bakery"; C10@0.2,0.6:0.58~l; E02@0.62,0.4:0.32~pop; H20@0.85,0.4:0.32~drop; note:"FLOUR"@0.66,0.12; A10@0.4,0.64:0.46~r
+Her workers asked to be paid in bread instead of money. || title:"Tendai's Bakery"; C28@0.80,0.6:0.58~drop; E39@0.38,0.4:0.32~pop
+Bread, at least, kept its value until the next morning. || title:"Tendai's Bakery"; C28@0.80,0.6:0.58~drop; E39@0.38,0.4:0.32~pop; E01@0.15,0.4:0.32~pop; A14@0.60,0.64:0.46~r
+By two thousand eight, a single loaf of bread cost millions of Zimbabwe dollars. || title:"Tendai's Bakery"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.125,0.083,0.285,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Then billions. || title:"Tendai's Bakery"; E39@0.5,0.6:0.76
+The government kept printing bigger notes to keep up. || title:"Tendai's Bakery"; D19@0.5,0.6:0.76
+And the numbers got truly unbelievable. || title:"Tendai's Bakery"; A45@0.2,0.6:0.58~pop; E49@0.62,0.4:0.32~pop; D27@0.85,0.4:0.32~drop
+
+# ---------- CHAPTER 4: A Hundred Trillion Dollars ----------
+|| title:"A Hundred Trillion Dollars"; sting; A23@0.5,0.56:0.6; hold:1.2
+[serious] In November two thousand eight, || title:"A Hundred Trillion Dollars"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.199,0.769,0.401+0.8; H04@0.9,1.0:0.3:bottom
+one economist estimated that Zimbabwe's prices were rising by about seventy-nine billion percent a month. || title:"A Hundred Trillion Dollars"; D27@0.62,0.4:0.32~drop; note:"79,600,000,000% a month"@0.66,0.12; D13@0.85,0.4:0.32; A08@0.2,0.6:0.58~l
+[calm] That means prices doubled about every twenty-five hours. || title:"A Hundred Trillion Dollars"; A08@0.80,0.6:0.58; E25@0.38,0.4:0.32~pop
+Something that cost one dollar on Monday cost about two on Tuesday, and four on Wednesday. || title:"A Hundred Trillion Dollars"; A08@0.80,0.6:0.58; E25@0.38,0.4:0.32~pop; note:"TUE $2"@0.5,0.92; note:"WED $4"@0.66,0.12; E24@0.15,0.4:0.32~drop
+In January two thousand nine, the government released a one hundred trillion dollar note. || title:"A Hundred Trillion Dollars"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.125,0.199,0.738,0.245+0.8; H04@0.9,1.0:0.3:bottom
+A one, followed by fourteen zeros. || title:"A Hundred Trillion Dollars"; E25@0.5,0.6:0.76
+Even that wasn't enough. || title:"A Hundred Trillion Dollars"; A36@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"$100 TRILLION"~pop
+That note couldn't buy much more than a bus ticket. || title:"A Hundred Trillion Dollars"; A36@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"$100 TRILLION"~pop; E41@0.85,0.4:0.32~pop
+Today, collectors buy it online as a curiosity, for a few dollars. || title:"A Hundred Trillion Dollars"; A36@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"$100 TRILLION"~pop; E41@0.85,0.4:0.32~pop; E07@0.62,0.76:0.32~drop; H17@0.85,0.76:0.32:"$5"~pop
+Banks set daily limits on how much cash people could take out. || title:"A Hundred Trillion Dollars"; D15@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"DAILY LIMIT"~pop
+Sometimes the limit wasn't even enough to pay for the bus ride to the bank. || title:"A Hundred Trillion Dollars"; D15@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"DAILY LIMIT"~pop; E41@0.38,0.76:0.32~pop; A13@0.80,0.6:0.58~r
+The government also chopped zeros off the currency, over and over. || title:"A Hundred Trillion Dollars"; H18@0.5,0.6:0.76:"000000"
+In just a few years, it removed twenty-five zeros in total. || title:"A Hundred Trillion Dollars"; H16@0.5,0.6:0.76:"-25 ZEROS"
+Tendai's savings, years of hard work, became worthless. || title:"A Hundred Trillion Dollars"; D25@0.5,0.6:0.76
+Her customers stopped using Zimbabwe dollars at all. || title:"A Hundred Trillion Dollars"; C10@0.2,0.6:0.58~l; D25@0.62,0.4:0.32~pop; D01@0.85,0.4:0.32~pop; note:"US$"@0.66,0.12
+They traded with American dollars, South African rand, or even bags of sugar. || title:"A Hundred Trillion Dollars"; C10@0.2,0.6:0.58~l; D25@0.62,0.4:0.32~pop; D01@0.85,0.4:0.32~pop; note:"US$"@0.66,0.12; E39@0.62,0.76:0.32~drop; H20@0.85,0.76:0.32~pop
+She had saved enough to buy a second oven. || title:"A Hundred Trillion Dollars"; C10@0.80,0.6:0.58~r; E21@0.38,0.4:0.32~pop; H19@0.15,0.4:0.32~drop
+By the time she went to buy it, her savings couldn't buy a single bag of flour. || title:"A Hundred Trillion Dollars"; C10@0.80,0.6:0.58~r; E21@0.38,0.4:0.32~pop; H19@0.15,0.4:0.32~drop; note:"OVEN"@0.66,0.12; H20@0.38,0.76:0.32~pop; note:"FLOUR"@0.5,0.92
+Shops had empty shelves. || title:"A Hundred Trillion Dollars"; E38@0.5,0.6:0.76
+Hospitals ran out of medicine. || title:"A Hundred Trillion Dollars"; E44@0.5,0.6:0.76
+Millions of Zimbabweans left the country to find work. || title:"A Hundred Trillion Dollars"; E42@0.5,0.6:0.76
+The government even ordered shops to cut their prices by law. || title:"A Hundred Trillion Dollars"; C05@0.2,0.6:0.58~r
+But you can't order bread into existence. || title:"A Hundred Trillion Dollars"; C05@0.2,0.6:0.58~r; H17@0.62,0.4:0.32:"PRICE CUT"~pop; E38@0.85,0.4:0.32~drop
+Shops just ran out, and the real buying moved to the black market. || title:"A Hundred Trillion Dollars"; C05@0.2,0.6:0.58~r; H17@0.62,0.4:0.32:"PRICE CUT"~pop; E38@0.85,0.4:0.32~drop; A37@0.4,0.64:0.46~l
+In April two thousand nine, Zimbabwe gave up. || title:"A Hundred Trillion Dollars"; E25@0.62,0.4:0.32~pop; note:"April 2009"@0.66,0.12
+It stopped using its own currency and let people use foreign money instead. || title:"A Hundred Trillion Dollars"; E25@0.38,0.4:0.32~pop; note:"April 2009"@0.66,0.12; A48@0.80,0.6:0.58~r
+Prices finally calmed down. || title:"A Hundred Trillion Dollars"; E25@0.38,0.4:0.32~pop; note:"April 2009"@0.66,0.12; A48@0.80,0.6:0.58~r; D01@0.15,0.4:0.32~drop; D14@0.38,0.76:0.32
+Tendai's bakery survived, barely. || title:"A Hundred Trillion Dollars"; C11@0.80,0.6:0.58~r
+She now prices her bread in U.S. || title:"A Hundred Trillion Dollars"; E35@0.5,0.6:0.76
+dollars. || title:"A Hundred Trillion Dollars"; H17@0.5,0.6:0.76:"$1"
+Her lesson is simple: money only works if people trust it. || title:"A Hundred Trillion Dollars"; H27@0.5,0.6:0.76
+And yet, in the twenty-tens, it happened once more, in one of the most oil-rich countries on Earth. || title:"A Hundred Trillion Dollars"; E44@0.5,0.6:0.76
+
+# ---------- CHAPTER 5: Venezuela ----------
+|| title:"Venezuela"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Venezuela sits on some of the largest oil reserves in the world. || title:"Venezuela"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.379,0.135+0.8; H04@0.9,1.0:0.3:bottom
+For years, oil money paid for food imports and government programs. || title:"Venezuela"; E43@0.62,0.4:0.32~drop; E32@0.85,0.4:0.32~pop; D17@0.62,0.76:0.32~pop; E36@0.85,0.76:0.32~pop; A18@0.2,0.6:0.58~l
+When oil prices crashed in twenty fourteen, the money dried up. || title:"Venezuela"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.655,0.265+0.8; H04@0.9,1.0:0.3:bottom
+Instead of cutting spending, the government printed more and more bolivars. || title:"Venezuela"; D17@0.38,0.4:0.32~pop; D14@0.15,0.4:0.32; C05@0.80,0.6:0.58~l; D19@0.38,0.76:0.32~drop
+By twenty eighteen, inflation was estimated at around one million percent a year. || title:"Venezuela"; H18@0.5,0.6:0.76:"1,000,000%"
+People stood in line for hours for basic food. || title:"Venezuela"; E38@0.5,0.6:0.76
+Many weighed cash instead of counting it. || title:"Venezuela"; H18@0.62,0.4:0.32:"1,000,000%"~drop; C28@0.2,0.6:0.58~pop; E38@0.85,0.4:0.32~pop; E22@0.62,0.76:0.32~pop; E01@0.85,0.76:0.32~pop
+A cup of coffee in Caracas could cost more by the time you finished drinking it. || title:"Venezuela"; C28@0.2,0.6:0.58~none; E40@0.62,0.4:0.32~drop
+People used dollars and bartered goods whenever they could. || title:"Venezuela"; C28@0.2,0.6:0.58~none; E40@0.62,0.4:0.32~drop; E45@0.85,0.4:0.32~pop; D01@0.62,0.76:0.32~pop; note:"US$"@0.66,0.12
+More than seven million Venezuelans eventually left the country. || title:"Venezuela"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.36,0.135+0.8; H04@0.9,1.0:0.3:bottom
+It's one of the largest migrations in modern history. || title:"Venezuela"; C28@0.80,0.6:0.58~drop; E42@0.38,0.4:0.32~pop; E43@0.15,0.4:0.32~pop; A41@0.60,0.64:0.46~r
+Venezuela changed its currency several times and chopped off zeros, just like Zimbabwe. || title:"Venezuela"; H18@0.38,0.4:0.32:"000"~drop; E20@0.15,0.4:0.32~pop
+It didn't fix the problem, because the printing never really stopped. || title:"Venezuela"; D19@0.5,0.6:0.76
+Germany, Zimbabwe, Venezuela. || title:"Venezuela"; G16@0.5,0.6:0.76
+Three very different places, with the same pattern. || title:"Venezuela"; D17@0.5,0.6:0.76
+Production fell, the government ran out of money, and the printer filled the gap. || title:"Venezuela"; A13@0.2,0.6:0.58~none; G16@0.62,0.4:0.32~pop; E43@0.85,0.4:0.32~pop; D17@0.62,0.76:0.32~pop; D14@0.85,0.76:0.32; D19@0.42,0.24:0.32~drop
+In each case, leaders promised that printing would help ordinary people. || title:"Venezuela"; C05@0.2,0.6:0.58~r; E51@0.62,0.4:0.32~pop
+In each case, ordinary people paid the highest price. || title:"Venezuela"; C05@0.80,0.6:0.58~l; E51@0.38,0.4:0.32~pop; C28@0.60,0.64:0.46~drop; D02@0.15,0.4:0.32~pop
+So here's the obvious question. || title:"Venezuela"; C05@0.80,0.6:0.58
+America creates new money too. || title:"Venezuela"; C05@0.80,0.6:0.58; G13@0.38,0.4:0.32~drop
+Trillions of dollars of it. || title:"Venezuela"; C05@0.80,0.6:0.58; G13@0.38,0.4:0.32~drop; G10@0.15,0.4:0.32~pop; E03@0.38,0.76:0.32~drop
+Why doesn't it end up like Zimbabwe? || title:"Venezuela"; E48@0.5,0.6:0.76
+
+# ---------- CHAPTER 6: How America Prints Money ----------
+|| title:"How America Prints Money"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] First, a surprise. || title:"How America Prints Money"; G09@0.5,0.6:0.76
+The U.S. || title:"How America Prints Money"; D24@0.5,0.6:0.76
+government doesn't just print money to pay its bills. || title:"How America Prints Money"; E02@0.5,0.6:0.76
+When it needs money, it borrows, by selling Treasury bonds to investors. || title:"How America Prints Money"; E02@0.5,0.6:0.76
+The paper bills you carry are printed by the Bureau of Engraving and Printing. || title:"How America Prints Money"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Bureau of Engraving and Printing" hl=0.488,0.789,0.509,0.81+0.8; H04@0.9,1.0:0.3:bottom
+But most money today isn't paper at all. || title:"How America Prints Money"; C01@0.2,0.6:0.58~none; D19@0.62,0.4:0.32~drop
+It's numbers in bank accounts. || title:"How America Prints Money"; C01@0.80,0.6:0.58; D19@0.38,0.4:0.32~drop; E07@0.15,0.4:0.32~pop; D15@0.38,0.76:0.32~pop; H18@0.15,0.76:0.32:"MOSTLY DIGITAL"~pop
+The Federal Reserve is the one that creates new money. || title:"How America Prints Money"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve"; H04@0.9,1.0:0.3:bottom
+It's independent from the president and Congress, so politicians can't simply order it to print. || title:"How America Prints Money"; G10@0.38,0.4:0.32~drop; C25@0.80,0.6:0.58~l; G09@0.15,0.4:0.32~pop; A48@0.60,0.64:0.46~r
+In a crisis, the Fed buys government bonds and other assets from banks, paying with brand new money. || title:"How America Prints Money"; G10@0.5,0.6:0.76
+This is called quantitative easing, or Q E. || title:"How America Prints Money"; C25@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~pop; D24@0.85,0.4:0.32~drop; E03@0.62,0.76:0.32~drop; H18@0.85,0.76:0.32:"QE"~pop
+Those bonds aren't erased. || title:"How America Prints Money"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve"; H04@0.9,1.0:0.3:bottom
+The Fed holds them, collects interest, and can sell them later, pulling that money back out of the economy. || title:"How America Prints Money"; C25@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~drop; D24@0.85,0.4:0.32~pop; E21@0.62,0.76:0.32~pop; D14@0.85,0.76:0.32
+In twenty twenty, the Fed and Congress acted fast to fight the pandemic. || title:"How America Prints Money"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.418,0.778,0.635,0.822+0.8; H04@0.9,1.0:0.3:bottom
+America's money supply grew about forty percent in just two years. || title:"How America Prints Money"; C25@0.80,0.6:0.58; E25@0.38,0.4:0.32~pop; note:"2020"@0.66,0.12; D13@0.15,0.4:0.32; H17@0.38,0.76:0.32:"+40%"~pop; E03@0.15,0.76:0.32~drop
+And what happened next? || title:"How America Prints Money"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.25,0.162,0.443,0.201+0.8; H04@0.9,1.0:0.3:bottom
+Inflation hit nine point one percent in twenty twenty-two. || title:"How America Prints Money"; E37@0.5,0.6:0.76
+Not Zimbabwe. || title:"How America Prints Money"; E39@0.5,0.6:0.76
+But a real taste of the same lesson. || title:"How America Prints Money"; E39@0.5,0.6:0.76
+The difference is that America's economy kept producing. || title:"How America Prints Money"; E33@0.62,0.4:0.32~drop
+Factories reopened. || title:"How America Prints Money"; E33@0.62,0.4:0.32~drop; E36@0.85,0.4:0.32~pop
+Shelves refilled. || title:"How America Prints Money"; E33@0.62,0.4:0.32~drop; E36@0.85,0.4:0.32~pop; G10@0.62,0.76:0.32~pop; G05@0.85,0.76:0.32~pop
+And the Fed raised interest rates to pull money back in. || title:"How America Prints Money"; E33@0.62,0.4:0.32~drop; E36@0.85,0.4:0.32~pop; G10@0.62,0.76:0.32~pop; G05@0.85,0.76:0.32~pop; A21@0.2,0.6:0.58~l
+There's one more big difference. || title:"How America Prints Money"; E43@0.38,0.4:0.32~drop
+The world trusts the U.S. || title:"How America Prints Money"; E43@0.38,0.4:0.32~drop; D01@0.15,0.4:0.32~pop
+dollar. || title:"How America Prints Money"; E43@0.38,0.4:0.32~drop; D01@0.15,0.4:0.32~pop; E27@0.38,0.76:0.32~pop; E21@0.15,0.76:0.32~pop
+People and countries everywhere want to hold it, which gives America more room than most countries. || title:"How America Prints Money"; E43@0.38,0.4:0.32~drop; D01@0.15,0.4:0.32~pop; E27@0.38,0.76:0.32~pop; E21@0.15,0.76:0.32~pop; A21@0.80,0.6:0.58~r
+But that trust isn't automatic, and it isn't unlimited. || title:"How America Prints Money"; D01@0.5,0.6:0.76
+If America ever acted like Zimbabwe, it could lose it too. || title:"How America Prints Money"; D03@0.5,0.6:0.76
+So creating money isn't always bad. || title:"How America Prints Money"; E22@0.5,0.6:0.76
+Sometimes it helps. || title:"How America Prints Money"; E22@0.62,0.4:0.32~drop; D19@0.85,0.4:0.32~pop; A06@0.2,0.6:0.58~l
+The real question is when it works, and when it breaks. || title:"How America Prints Money"; E22@0.62,0.4:0.32~drop; D19@0.85,0.4:0.32~pop; A06@0.2,0.6:0.58~l; E48@0.62,0.76:0.32~pop
+And the Fed made mistakes too. || title:"How America Prints Money"; G10@0.62,0.4:0.32~drop
+In twenty twenty-one, it said rising prices would be temporary. || title:"How America Prints Money"; G10@0.62,0.4:0.32~drop; E51@0.85,0.4:0.32~pop
+They weren't. || title:"How America Prints Money"; G10@0.38,0.4:0.32~drop; E51@0.15,0.4:0.32~pop; note:"TEMPORARY"@0.66,0.12; E24@0.38,0.76:0.32~pop
+It started raising rates later than many economists now think it should have. || title:"How America Prints Money"; G10@0.38,0.4:0.32~drop; E51@0.15,0.4:0.32~pop; note:"TEMPORARY"@0.66,0.12; E24@0.38,0.76:0.32~pop; A14@0.80,0.6:0.58~r
+
+# ---------- CHAPTER 7: The Final Answer ----------
+|| title:"The Final Answer"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] A growing economy needs some new money. || title:"The Final Answer"; E39@0.38,0.4:0.32~drop; E01@0.15,0.4:0.32~pop
+If more bread is baked every year, you need a few more dollars to buy it, or prices would fall. || title:"The Final Answer"; D13@0.5,0.6:0.76
+That's why central banks aim for slow, steady inflation, about two percent a year. || title:"The Final Answer"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve" hl=0.317,0.446,0.866,0.626+0.8; H04@0.9,1.0:0.3:bottom
+A little new money, matched by a little more stuff. || title:"The Final Answer"; A38@0.2,0.6:0.58~none; G10@0.62,0.4:0.32~drop; G04@0.85,0.4:0.32~pop; note:"2%"@0.66,0.12; E22@0.62,0.76:0.32~pop; E54@0.85,0.76:0.32~pop
+Creating money can also help in a panic, like two thousand eight or twenty twenty, when people suddenly stop spending and banks stop lending. || title:"The Final Answer"; A38@0.2,0.6:0.58~none; D16@0.62,0.4:0.32~drop; E44@0.85,0.4:0.32~pop; G10@0.62,0.76:0.32~pop; E03@0.85,0.76:0.32~drop
+It breaks when three things happen together. || title:"The Final Answer"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.28,0.146,0.332+0.8; H04@0.9,1.0:0.3:bottom
+The country stops producing enough. || title:"The Final Answer"; A38@0.80,0.6:0.58
+The government spends far more than it collects. || title:"The Final Answer"; A38@0.2,0.6:0.58~none
+And the printer is used to cover the gap, year after year. || title:"The Final Answer"; E47@0.5,0.6:0.76
+When that happens, people stop trusting the money. || title:"The Final Answer"; C28@0.2,0.6:0.58~drop
+They spend it as fast as they can, which pushes prices up even faster. || title:"The Final Answer"; C28@0.2,0.6:0.58~drop; A10@0.4,0.64:0.46~l; E45@0.62,0.4:0.32~pop
+That's when inflation becomes hyperinflation. || title:"The Final Answer"; C28@0.2,0.6:0.58~drop; A10@0.4,0.64:0.46~l; E45@0.62,0.4:0.32~pop; E19@0.85,0.4:0.32~pop
+Here's the takeaway. || title:"The Final Answer"; A17@0.2,0.6:0.58~l
+Money is a promise. || title:"The Final Answer"; A17@0.80,0.6:0.58~r; H15@0.38,0.4:0.32:"A PROMISE"~drop
+It's only worth something because people trust that it will still buy things tomorrow. || title:"The Final Answer"; A17@0.80,0.6:0.58~r; H15@0.38,0.4:0.32:"A PROMISE"~drop; H27@0.15,0.4:0.32~pop
+Print too much, and the promise breaks. || title:"The Final Answer"; A17@0.80,0.6:0.58~r; H15@0.38,0.4:0.32:"A PROMISE"~drop; H27@0.15,0.4:0.32~pop; D03@0.38,0.76:0.32~pop
+That's why it matters who controls the printer, and why it's kept away from politicians who want to win the next election. || title:"The Final Answer"; G10@0.5,0.6:0.76
+So next time someone says, "Why don't they just print more money?", you'll know the answer. || title:"The Final Answer"; A04@0.2,0.6:0.58~l
+They can. || title:"The Final Answer"; A04@0.2,0.6:0.58~l; D19@0.62,0.4:0.32~pop; E39@0.85,0.4:0.32~drop
+But money only works if there's something real to buy with it. || title:"The Final Answer"; A04@0.2,0.6:0.58~l; D19@0.62,0.4:0.32~pop; E39@0.85,0.4:0.32~drop; E17@0.62,0.76:0.32~pop
+Tendai still keeps one old note on the wall of her bakery. || title:"The Final Answer"; C11@0.80,0.6:0.58~r
+One hundred trillion dollars. || title:"The Final Answer"; C11@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~pop
+Her customers laugh when they see it. || title:"The Final Answer"; C11@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"$100 TRILLION"~drop
+She doesn't. || title:"The Final Answer"; C11@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"$100 TRILLION"~drop; C28@0.60,0.64:0.46~pop
+[calm] Printing money is one way a promise can break. || title:"The Final Answer"; D23@0.38,0.4:0.32~drop; C17@0.80,0.6:0.58~l
+But there's another way, quieter and newer. || title:"The Final Answer"; D29@0.5,0.6:0.76
+Next time, we'll look at the AI boom, and the one weak spot that could make it burst. || title:"The Final Answer"; E44@0.5,0.6:0.76
+
+|| endscreen; hold:10
