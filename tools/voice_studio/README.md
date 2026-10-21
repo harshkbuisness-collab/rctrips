@@ -24,10 +24,10 @@ Turn many scripts into voiceovers at once, in your browser.
 
 | Provider | Cost / key | Speed | Notes |
 |---|---|---|---|
-| **Microsoft Edge voices** (default) | Free, no key | Fast: a 2,000-word script in about 1–2 min | 40+ English neural voices (US, UK, AU, IN…). Needs internet. |
+| **Microsoft Edge voices** | Free, no key | Fast: a 2,000-word script in about 1–2 min | 40+ English neural voices (US, UK, AU, IN…). Needs internet. |
 | OpenAI | `OPENAI_API_KEY`, paid per character | Fast | 11 very natural voices (`gpt-4o-mini-tts`). |
 | ElevenLabs | `ELEVENLABS_API_KEY`, paid plan | Medium | The most expressive voices, including your own cloned voice from your ElevenLabs account. |
-| Kokoro | Free, offline | About 4 s per sentence on a normal computer | 28 English voices. No internet needed after the download. |
+| **Kokoro** (default once installed, channel voice: Heart) | Free, offline | About 4 s per sentence on a normal computer | 28 English voices. No internet needed after the download. |
 | Chatterbox | Free, offline | Slow without an NVIDIA card | Copies the channel voice in `ref_voice.wav`. You can add more samples as `.wav` files in `voice_samples/`. Uses the original `voice_studio.py`. |
 
 Why Edge is the default: it is free, needs no key, sounds natural, runs many requests in parallel, and has a native speed setting. The other providers are ready when you want a different sound.

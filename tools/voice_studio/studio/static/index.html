@@ -120,7 +120,7 @@ async function loadProviders(keep) {
   const d = await api("/api/providers");
   state.providers = d.providers;
   $("#copyWrap").style.display = d.project_voices ? "" : "none";
-  const sel = $("#provider"), want = keep || store.get("provider", "edge");
+  const sel = $("#provider"), want = keep || store.get("provider", "kokoro");
   sel.innerHTML = d.providers.map(p => `<option value="${p.id}" ${p.available ? "" : "disabled"}>${esc(p.name)}${p.available ? "" : " — not set up"}</option>`).join("");
   const first = d.providers.find(p => p.id === want && p.available) || d.providers.find(p => p.available);
   if (first) sel.value = first.id;
