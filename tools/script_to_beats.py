@@ -150,6 +150,19 @@ def sentence_elements(s, j, person, spare, pick, names=()):
     return [e for e in out if not re.match(r"H1[5-8]@[^\"]*$", e)]     # blank props always need a word
 
 
+def photo_for(s, photos, used, now):
+    """The photo whose name (or a person's surname) is said in this sentence; each photo at most twice, far apart."""
+    for p in photos:
+        words = p["name"].split()
+        keys = [p["name"]] + ([words[-1]] if len(words) > 1 and words[-1][0].isupper() and len(words[-1]) > 4 else [])
+        if any(re.search(r"\b" + re.escape(k) + r"\b", s) for k in keys):
+            last = used.get(p["file"], [])
+            if len(last) < 2 and (not last or now - last[-1] > 60):
+                used.setdefault(p["file"], []).append(now)
+                return p
+    return None
+
+
 def doc_elem(c, meta):
     m = meta.get(c)
     if not m or not m.get("ok"):
@@ -177,6 +190,10 @@ def main(script, vdir):
                 s_["ok"] = False
             seen.add(h_)
     pick = sv.Picker()
+    pp = os.path.join(vdir, "02_assets", "screens", "photos.json")
+    photos = [p_ for p_ in (json.load(open(pp)) if os.path.exists(pp) else [])
+              if os.path.exists(os.path.join(vdir, "02_assets", "screens", p_["file"]))]
+    photo_used = {}
     thread = re.search(r"^THREAD:\s*(.*)$", open(script, encoding="utf-8").read(), re.M)
     names = tuple(w for w in re.findall(r"\b[A-Z][a-z]{2,}\b", thread.group(1)) if w not in ("The", "One", "Ohio")) if thread else ()
     spoken, lines, chap, title, missing, last_person = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
@@ -209,8 +226,17 @@ def main(script, vdir):
             if j < len(docs):
                 el = [f'title:"{clean(title)}"', docs[j]]
             else:
-                el = scene(sentence_elements(s, j, last_person, spare, pick, names), (spoken // SCENE_WORDS) % 3)
-                el = [f'title:"{clean(title)}"'] + el
+                ph = photo_for(s, photos, photo_used, len(lines))
+                money = sv.money_values(s)
+                if ph:                                   # a real photo of the person, company or place just named
+                    el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
+                          f'doc:{ph["file"]}@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – {clean(ph["title"])}"']
+                elif len(money) >= 2:                    # two or more dollar amounts: a bar chart builds up
+                    el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
+                          "bars:" + ",".join(f'"{clean(a)}"={v:.0f}' for a, v in money[:4])]
+                else:
+                    el = scene(sentence_elements(s, j, last_person, spare, pick, names), (spoken // SCENE_WORDS) % 3)
+                    el = [f'title:"{clean(title)}"'] + el
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())
     lines += ["", "|| endscreen; hold:10"]

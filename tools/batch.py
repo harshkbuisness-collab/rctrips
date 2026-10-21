@@ -11,7 +11,7 @@ import glob, os, shutil, subprocess, sys, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
-import get_screens, script_to_beats
+import get_screens, get_photos, script_to_beats
 
 LOG = os.path.join(ROOT, "videos", "batch_log.txt")
 
@@ -38,6 +38,10 @@ def run_day(script, render=True):
     if os.path.exists(mp4):
         return log(f"day {day}: video already made, skipped")
     bad = get_screens.main(script, vdir)
+    try:
+        get_photos.main(script, vdir)                 # free real photos from Wikimedia Commons
+    except Exception as e:
+        print('photos skipped:', e)
     script_to_beats.main(script, vdir)
     mv = [sys.executable, os.path.join(ROOT, "tools", "make_video.py"), vdir]
     chk = subprocess.run(mv + ["--check"], capture_output=True, text=True)

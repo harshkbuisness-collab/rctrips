@@ -277,3 +277,14 @@ def key_words(s, n=3):
     while len(text) > 18 and " " in text:
         text = text.rsplit(" ", 1)[0]
     return text[:18]
+
+
+def money_values(s):
+    """All dollar amounts said in the sentence, with a short label (the two words before each), for a bar chart."""
+    out = []
+    for m in NUMWORD.finditer(s):
+        r = _value(m.group(0).strip(" -"))
+        if r and r[1] == "num" and s[m.end():m.end() + 7].lower().startswith("dollar"):
+            before = re.findall(r"[A-Za-z]+", s[:m.start()])[-2:]
+            out.append((" ".join(before).title()[:14] or "$", r[0]))
+    return out

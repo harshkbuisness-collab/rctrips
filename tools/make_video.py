@@ -24,7 +24,7 @@ Motion (v4): things enter with movement instead of just appearing. Append ~MOTIO
   ~float       keeps bobbing gently          ~shake keeps shaking                      ~spin  keeps turning
   Defaults: people slide in from the nearest side, props pop in, screenshots slide up from the bottom,
   bubbles/labels/text pop, arrows and circles are drawn on, close-ups (height >= 0.9) cut in.
-  The narrator (A.., H01-H08) breathes gently while talking.
+  The narrator (A.., H01-H08) stands still like the reference; BREATHE=1 adds gentle breathing while talking.
   A01@pos[:height[:anchor]]             library image (height = share of screen height; >= 0.9 makes a
                                         close-up cut by the frame). anchor = left|right|top|bottom pins that
                                         edge of the drawing to pos, for peeking in from the frame edge
@@ -74,6 +74,7 @@ VOICE, SPEED = "am_michael", 1.1
 GAP, GAP_LONG = 0.25, 0.45           # pause after a sentence / after "..." or "?"
 ROOM_TONE_DB = -56                   # faint room noise under everything, like a real microphone
 TTS_MODEL = os.environ.get("KOKORO_DIR", "")
+BREATHE = os.environ.get("BREATHE", "0") == "1"
 # Emotional voice: Chatterbox (MIT licence) copies the Michael voice from VOICE_REF and adds feeling.
 # It needs its own Python (torch); point CHATTERBOX_PY at it. Without it, the flat Kokoro voice is used.
 CHATTERBOX_PY = os.environ.get("CHATTERBOX_PY", "")
@@ -733,7 +734,7 @@ def moved(im, xy, e, t, t0=None, talking=False):
         cx, cy = x + im.width / 2, y + im.height / 2
         im = im.rotate(-age * 90, resample=Image.BICUBIC, expand=True)
         x, y = int(cx - im.width / 2), int(cy - im.height / 2)
-    if talking and age >= ENTER:     # gentle breathing while the narrator speaks
+    if BREATHE and talking and age >= ENTER:     # optional gentle breathing (off: Casual Finance poses stand still)
         s = 1 + 0.012 * math.sin(age * 2 * math.pi * 1.4)
         nh = int(im.height * s)
         if nh != im.height:
