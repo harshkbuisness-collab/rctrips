@@ -76,6 +76,36 @@ Reply "Ready" and wait for the topic.
 
 ---
 
+## CONVERT PROMPT (for scripts you already wrote as plain text)
+
+Steps: new ChatGPT chat, web search ON. Paste the MASTER PROMPT, wait for "Ready", then paste the box below
+with your script under it. If the answer stops in the middle, type "continue". Save the full answer as
+`scripts/dayNN_<short_name>.md` (example: `scripts/day02_who_america_owes.md`). Check 4-6 screenshot links open.
+Skip Days 11, 14, 20 and 29: those are already done in this format.
+
+```
+Below is a finished narration script for Day NN. Turn it into the OUTPUT FORMAT from my master prompt.
+Keep my story, my words and my order as much as you can. Only change these things:
+1. HOOK: if it starts with "Imagine..." (or any slow opening), rewrite only the first 4-6 lines so it opens with
+   ONE striking real number or chart comparison, with a SCREEN cue under the first line, then the simple question
+   the video answers. Don't use "Imagine" anywhere in the first minute.
+2. FACTS: web-search every number, date, name and quote. Fix wrong ones to the newest real figure (today is
+   October 2026). If the title and the script disagree on a number, use the true one in both. If you can't confirm
+   something, say it more softly and mark it (VERIFY) in SOURCES. Never invent numbers, quotes or URLs.
+3. Split it into 6-8 chapters ("## CHAPTER n: name"), each ending with a bridge line into the next.
+4. Spoken lines of 1-3 sentences. Add an emotion tag only where it helps, mostly [calm].
+5. Under every spoken line add "> VISUAL:" with 4-6 drawing codes from my list, moving in one by one.
+6. At least 22 "> SCREEN:" lines from trusted sources (real pages you opened, exact page words in "double quotes"),
+   the first in the first 15 seconds, then about one every 30-40 seconds.
+7. Keep 2,050-2,250 spoken words. Numbers in words. Add TITLES, THUMBNAIL, THREAD and SOURCES.
+If it is too long for one reply, stop after Chapter 4 and write CONTINUE; I will say "continue".
+
+SCRIPT:
+<paste the script here>
+```
+
+---
+
 ## DAY BLOCKS (paste one after the master prompt)
 
 ### DAY 2
