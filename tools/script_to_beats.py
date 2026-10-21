@@ -14,6 +14,8 @@ import json, os, re, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "sheet"))
 import parse_script
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sentence_visuals as sv
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CODES = {l.split("_")[0] for l in open(os.path.join(ROOT, "library", "ASSET_LIST.txt")).read().split()}
@@ -117,10 +119,26 @@ def scene(el, v):
     if v == 2:
         props = [e for e in el if "@" in e and not e.startswith("note") and not PEOPLE.match(e.split("@")[0])]
         if props:
-            code = props[-1].split("@")[0]
-            word = re.search(r':"[^"]*"', props[-1].split("@")[1])
+            code = props[0].split("@")[0]
+            word = re.search(r':"[^"]*"', props[0].split("@")[1])
             return [f"{code}@0.5,0.6:0.76" + (word.group(0) if word else "")]
     return el
+
+
+def sentence_elements(s, j, person, spare):
+    """What this one sentence shows: a person, its key number on a sign, and the things it names."""
+    props = [c[:3] for c in sv.sentence_props(s)]
+    if not props:                                   # nothing named: fall back to the script's VISUAL note
+        props = spare[j % len(spare):][:2] if spare else []
+    who = person or sv.narrator_for(s, j)[:3]
+    out = [f"{who}@{PEOPLE_SLOTS[0]}"]
+    sign = sv.number_sign(s)
+    slots = iter(PROP_SLOTS)
+    if sign:
+        out.append(f'H18@{next(slots)}:0.34:"{clean(sign)[:18]}"~pop')
+    for c in props[:3 if not sign else 2]:
+        out.append(f"{c}@{next(slots)}:0.32")
+    return out
 
 
 def doc_elem(c, meta):
@@ -145,6 +163,9 @@ def main(script, vdir):
         if ln["chap"] != chap:
             chap, last_person = ln["chap"], ""
             title = re.sub(r"^CHAPTER\s*\d+\s*:\s*", "", chap, flags=re.I)
+            title = re.split(r"\s*[:(]\s*", title)[0].strip()             # planning notes after ':' stay off screen
+            while len(title) > 30 and " " in title:
+                title = title.rsplit(" ", 1)[0].rstrip(",&-")
             lines += ["", f"# ---------- {chap} ----------",
                       f'|| title:"{clean(title)}"; sting; A23@0.5,0.56:0.6; hold:1.2']
         sents = sentences(ln["text"])
@@ -155,24 +176,19 @@ def main(script, vdir):
             k = max(range(len(sents)), key=lambda j: len(sents[j]) if ", " in sents[j] else 0)
             a, b = sents[k].split(", ", 1)
             sents[k:k + 1] = [a + ",", b]
-        items = place(visual_items(ln["visual"]))
-        ppl = [e for e in items if PEOPLE.match(e.split("@")[0].split(":")[0])]
-        if ppl:
-            last_person = ppl[0].split("~")[0]
-        elif last_person:                         # the story's person stays on screen
-            items.insert(0, last_person + "~none")
-        else:
-            items.insert(0, "A15@0.2,0.6:0.58")
-        rest = len(sents) - len(docs)
+        para = [it["code"] for it in visual_items(ln["visual"]) if "code" in it]
+        chars = [c for c in para if PEOPLE.match(c) and not re.match(r"^(A\d\d|H0\d)$", c)]
+        if chars:
+            last_person = chars[0]                 # the story's person (not the narrator) stays on screen
+        spare = [c for c in para if not PEOPLE.match(c)]
+        narr = sv.narrator_for(ln["text"], i)[:3]          # one narrator pose per spoken line, not per sentence
         tag = f"[{ln['tag']}] " if ln["tag"] else ""
         for j, s in enumerate(sents):
             words = (tag if j == 0 else "") + s
             if j < len(docs):
                 el = [f'title:"{clean(title)}"', docs[j]]
             else:
-                k = j - len(docs)
-                n = len(items) if k == rest - 1 else round(len(items) * (k + 1) / rest)
-                el = scene(items[:max(n, 1)] if items else ["A01@0.5,0.58:0.6"], (spoken // SCENE_WORDS) % 3)
+                el = scene(sentence_elements(s, j, last_person or narr, spare), (spoken // SCENE_WORDS) % 3)
                 el = [f'title:"{clean(title)}"'] + el
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())

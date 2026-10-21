@@ -3,238 +3,238 @@
 # ---------- CHAPTER 1: The Dream House ----------
 || title:"The Dream House"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] In September two thousand eight, Lehman Brothers filed the biggest bankruptcy in American history, with more than six hundred billion dollars in assets. || title:"The Dream House"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.41,0.135+0.8; H04@0.9,1.0:0.3:bottom
-But it really started with a conversation like this. || title:"The Dream House"; A08@0.2,0.6:0.58~l; E34@0.62,0.4:0.32~drop; H18@0.85,0.4:0.32:"LEHMAN BROTHERS"~pop; H17@0.62,0.76:0.32:"$639 BILLION"~pop; E47@0.85,0.76:0.32~pop
-It's two thousand five. || title:"The Dream House"; H09@0.80,0.6:0.58~r
-Marcus and Tanya live in Stockton, California. || title:"The Dream House"; H09@0.80,0.6:0.58~r; C09@0.60,0.64:0.46~l
-He drives a delivery truck. || title:"The Dream House"; H09@0.80,0.6:0.58~r; C09@0.60,0.64:0.46~l; E41@0.38,0.4:0.32~pop; G13@0.15,0.4:0.32~drop
-She works at a dental office. || title:"The Dream House"; H09@0.80,0.6:0.58~r; C09@0.60,0.64:0.46~l; E41@0.38,0.4:0.32~pop; G13@0.15,0.4:0.32~drop; note:"Stockton, CA"@0.66,0.12
-Together, they earn about sixty thousand dollars a year. || title:"The Dream House"; H17@0.5,0.6:0.76:"$60,000 A YEAR"
-They're tired of renting. || title:"The Dream House"; E20@0.5,0.6:0.76
-Every month, the rent check feels like money thrown away. || title:"The Dream House"; E01@0.5,0.6:0.76
-And everyone around them is buying. || title:"The Dream House"; D09@0.5,0.6:0.76
-Mortgage rates were low, and banks were advertising everywhere. || title:"The Dream House"; E09@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop
-On billboards, on the radio, even in their mailbox. || title:"The Dream House"; E09@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop; H15@0.62,0.76:0.32:"PRE-APPROVED!"~pop
-"You're pre-approved!" || title:"The Dream House"; E09@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop; H15@0.62,0.76:0.32:"PRE-APPROVED!"~pop; G04@0.85,0.76:0.32~pop; A05@0.2,0.6:0.58~l
+But it really started with a conversation like this. || title:"The Dream House"; A08@0.2,0.6:0.58; H18@0.62,0.4:0.32; H17@0.85,0.4:0.32
+It's two thousand five. || title:"The Dream House"; C09@0.80,0.6:0.58; H18@0.38,0.4:0.34:"2005"~pop; E41@0.15,0.4:0.32; G13@0.38,0.76:0.32
+Marcus and Tanya live in Stockton, California. || title:"The Dream House"; C09@0.80,0.6:0.58; G13@0.38,0.4:0.32
+He drives a delivery truck. || title:"The Dream House"; C09@0.80,0.6:0.58; E41@0.38,0.4:0.32
+She works at a dental office. || title:"The Dream House"; C09@0.80,0.6:0.58; E34@0.38,0.4:0.32
+Together, they earn about sixty thousand dollars a year. || title:"The Dream House"; H18@0.5,0.6:0.76:"$60,000"
+They're tired of renting. || title:"The Dream House"; G21@0.5,0.6:0.76
+Every month, the rent check feels like money thrown away. || title:"The Dream House"; E25@0.5,0.6:0.76
+And everyone around them is buying. || title:"The Dream House"; E36@0.5,0.6:0.76
+Mortgage rates were low, and banks were advertising everywhere. || title:"The Dream House"; C28@0.2,0.6:0.58; D09@0.62,0.4:0.32; G04@0.85,0.4:0.32; D15@0.62,0.76:0.32
+On billboards, on the radio, even in their mailbox. || title:"The Dream House"; C28@0.2,0.6:0.58; E13@0.62,0.4:0.32
+"You're pre-approved!" || title:"The Dream House"; C28@0.2,0.6:0.58; H15@0.62,0.4:0.32; G04@0.85,0.4:0.32
 Their friends bought a house last year, and it's already worth fifty thousand dollars more. || title:"The Dream House"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.574,0.265+0.8; H04@0.9,1.0:0.3:bottom
-TV shows teach people how to flip houses for quick profits. || title:"The Dream House"; A05@0.80,0.6:0.58; D09@0.38,0.4:0.32~drop; E45@0.15,0.4:0.32~pop; H17@0.38,0.76:0.32:"+$50,000"~pop; E13@0.15,0.76:0.32~l
-Between nineteen ninety-seven and two thousand six, American home prices more than doubled. || title:"The Dream House"; A05@0.80,0.6:0.58; D09@0.38,0.4:0.32~drop
-For many families, a house felt like a money machine. || title:"The Dream House"; E53@0.5,0.6:0.76
-So Marcus and Tanya meet a mortgage broker. || title:"The Dream House"; H09@0.4,0.64:0.46~l
-He smiles and tells them the good news. || title:"The Dream House"; H09@0.4,0.64:0.46~l; D11@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"$400,000"~pop
-They can afford a house for four hundred thousand dollars. || title:"The Dream House"; H09@0.4,0.64:0.46~l; D11@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"$400,000"~pop; A21@0.2,0.6:0.58~pop
-Tanya is surprised. || title:"The Dream House"; C12@0.2,0.6:0.58~l
-That's almost seven times what they earn. || title:"The Dream House"; C12@0.2,0.6:0.58~l; D27@0.62,0.4:0.32~pop
-But the broker says not to worry. || title:"The Dream House"; C12@0.80,0.6:0.58~r; D27@0.38,0.4:0.32~pop; E51@0.15,0.4:0.32~pop
-Home prices only go up. || title:"The Dream House"; C12@0.80,0.6:0.58~r; D27@0.38,0.4:0.32~pop; E51@0.15,0.4:0.32~pop; D13@0.38,0.76:0.32
-They don't need a down payment. || title:"The Dream House"; C12@0.80,0.6:0.58; H16@0.38,0.4:0.32:"NO DOWN PAYMENT"~pop
-They don't even need to prove their income. || title:"The Dream House"; C12@0.80,0.6:0.58; H16@0.38,0.4:0.32:"NO DOWN PAYMENT"~pop; note:"NO PROOF OF INCOME"@0.66,0.12
-And the first two years have a low teaser rate, so the payments look easy. || title:"The Dream House"; G04@0.5,0.6:0.76
-They sign. || title:"The Dream House"; H10@0.4,0.64:0.46~r
+TV shows teach people how to flip houses for quick profits. || title:"The Dream House"; C28@0.80,0.6:0.58; E13@0.38,0.4:0.32; C28@0.15,0.4:0.32; D09@0.38,0.76:0.32
+Between nineteen ninety-seven and two thousand six, American home prices more than doubled. || title:"The Dream House"; C28@0.80,0.6:0.58; H18@0.38,0.4:0.34:"118,006"~pop; G13@0.15,0.4:0.32; D09@0.38,0.76:0.32
+For many families, a house felt like a money machine. || title:"The Dream House"; H27@0.5,0.6:0.76
+So Marcus and Tanya meet a mortgage broker. || title:"The Dream House"; D09@0.5,0.6:0.76
+He smiles and tells them the good news. || title:"The Dream House"; C01@0.2,0.6:0.58; H17@0.62,0.4:0.32
+They can afford a house for four hundred thousand dollars. || title:"The Dream House"; C01@0.2,0.6:0.58; H18@0.62,0.4:0.34:"$400,000"~pop; E37@0.85,0.4:0.32; D09@0.62,0.76:0.32
+Tanya is surprised. || title:"The Dream House"; C12@0.2,0.6:0.58; D27@0.62,0.4:0.32; E51@0.85,0.4:0.32
+That's almost seven times what they earn. || title:"The Dream House"; C12@0.2,0.6:0.58; H18@0.62,0.4:0.34:"7"~pop; E48@0.85,0.4:0.32
+But the broker says not to worry. || title:"The Dream House"; C12@0.80,0.6:0.58; E44@0.38,0.4:0.32
+Home prices only go up. || title:"The Dream House"; C12@0.80,0.6:0.58; D09@0.38,0.4:0.32; E37@0.15,0.4:0.32
+They don't need a down payment. || title:"The Dream House"; C12@0.80,0.6:0.58; D14@0.38,0.4:0.32
+They don't even need to prove their income. || title:"The Dream House"; C12@0.80,0.6:0.58; G04@0.38,0.4:0.32
+And the first two years have a low teaser rate, so the payments look easy. || title:"The Dream House"; H18@0.5,0.6:0.76:"2 YEARS"
+They sign. || title:"The Dream House"; D09@0.5,0.6:0.76
 They get the keys. || title:"The Dream House"; H27@0.5,0.6:0.76
-They feel like they've finally made it. || title:"The Dream House"; H10@0.4,0.64:0.46~r; D09@0.62,0.4:0.32~drop; H27@0.85,0.4:0.32~pop; A34@0.2,0.6:0.58~pop
-That night, they eat pizza on the floor of their empty living room. || title:"The Dream House"; C11@0.2,0.6:0.58~l; H10@0.4,0.64:0.46~r
-Tanya says it's the best night of her life. || title:"The Dream House"; C11@0.2,0.6:0.58~l; H10@0.4,0.64:0.46~r; H27@0.62,0.4:0.32~pop
-By the end of this video, || title:"The Dream House"; A17@0.80,0.6:0.58~r; H28@0.38,0.4:0.32~drop
-you'll see how millions of signatures like theirs turned into a crisis that shook every country on Earth, and what changed so it doesn't happen again. || title:"The Dream House"; A17@0.80,0.6:0.58~r; H28@0.38,0.4:0.32~drop; E43@0.15,0.4:0.32~pop; D12@0.38,0.76:0.32~pop; E44@0.15,0.76:0.32~pop
-To understand how, we need to ask a simple question. || title:"The Dream House"; E02@0.5,0.6:0.76
-Why would anyone lend four hundred thousand dollars to a couple who might not be able to pay it back? || title:"The Dream House"; D15@0.5,0.6:0.76
+They feel like they've finally made it. || title:"The Dream House"; C11@0.2,0.6:0.58; D09@0.62,0.4:0.32; H27@0.85,0.4:0.32
+That night, they eat pizza on the floor of their empty living room. || title:"The Dream House"; C11@0.2,0.6:0.58; H27@0.62,0.4:0.32
+Tanya says it's the best night of her life. || title:"The Dream House"; C11@0.2,0.6:0.58; E28@0.62,0.4:0.32
+By the end of this video, || title:"The Dream House"; C11@0.80,0.6:0.58; H28@0.38,0.4:0.32; E43@0.15,0.4:0.32
+you'll see how millions of signatures like theirs turned into a crisis that shook every country on Earth, and what changed so it doesn't happen again. || title:"The Dream House"; C11@0.80,0.6:0.58; C28@0.38,0.4:0.32; E43@0.15,0.4:0.32
+To understand how, we need to ask a simple question. || title:"The Dream House"; E17@0.5,0.6:0.76
+Why would anyone lend four hundred thousand dollars to a couple who might not be able to pay it back? || title:"The Dream House"; H18@0.5,0.6:0.76:"$400,000"
 
 # ---------- CHAPTER 2: The Loan Nobody Kept ----------
 || title:"The Loan Nobody Kept"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] In the old days, a bank lent you money and kept your loan for thirty years. || title:"The Loan Nobody Kept"; A38@0.2,0.6:0.58~l; D15@0.62,0.4:0.32~drop
-If you didn't pay, the bank lost money. || title:"The Loan Nobody Kept"; A38@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; C01@0.60,0.64:0.46~walk
-So it was careful. || title:"The Loan Nobody Kept"; A38@0.80,0.6:0.58~r; D15@0.38,0.4:0.32~drop; C01@0.60,0.64:0.46~walk; E21@0.15,0.4:0.32~pop; E23@0.38,0.76:0.32~pop
+[calm] In the old days, a bank lent you money and kept your loan for thirty years. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; H18@0.62,0.4:0.34:"30 YEARS"~pop; E25@0.85,0.4:0.32; D15@0.62,0.76:0.32
+If you didn't pay, the bank lost money. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; E01@0.38,0.4:0.32; D15@0.15,0.4:0.32; D14@0.38,0.76:0.32
+So it was careful. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; E23@0.38,0.4:0.32
 By the two thousands, that had changed. || title:"The Loan Nobody Kept"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History" hl=0.509,0.178,0.646,0.22+0.8; H04@0.9,1.0:0.3:bottom
-Lenders made loans, then quickly sold them to Wall Street. || title:"The Loan Nobody Kept"; A38@0.80,0.6:0.58; D15@0.38,0.4:0.32~pop
-The risk left the building the moment the papers were signed. || title:"The Loan Nobody Kept"; E34@0.5,0.6:0.76
-The broker who sold Marcus and Tanya their loan got paid when they signed. || title:"The Loan Nobody Kept"; E01@0.5,0.6:0.76
-Whether they could pay for thirty years wasn't really his problem anymore. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58~r; E01@0.62,0.4:0.32~pop; A14@0.4,0.64:0.46~l
+Lenders made loans, then quickly sold them to Wall Street. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; D28@0.38,0.4:0.32; E36@0.15,0.4:0.32; G11@0.38,0.76:0.32
+The risk left the building the moment the papers were signed. || title:"The Loan Nobody Kept"; E44@0.5,0.6:0.76
+The broker who sold Marcus and Tanya their loan got paid when they signed. || title:"The Loan Nobody Kept"; E36@0.5,0.6:0.76
+Whether they could pay for thirty years wasn't really his problem anymore. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; H18@0.62,0.4:0.34:"30 YEARS"~pop; E01@0.85,0.4:0.32; E23@0.62,0.76:0.32
 Loans to people with weak credit or little proof of income were called subprime. || title:"The Loan Nobody Kept"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
-They paid lenders higher interest, which made them very profitable. || title:"The Loan Nobody Kept"; A38@0.80,0.6:0.58~r; G23@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"SUBPRIME"~pop; G05@0.38,0.76:0.32~pop; E02@0.15,0.76:0.32~pop
+They paid lenders higher interest, which made them very profitable. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; E01@0.38,0.4:0.32; D13@0.15,0.4:0.32; G04@0.38,0.76:0.32
 By two thousand six, about one in five new mortgages was subprime. || title:"The Loan Nobody Kept"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History" hl=0.509,0.178,0.646,0.22+0.8; H04@0.9,1.0:0.3:bottom
-Ten years earlier, they had been rare. || title:"The Loan Nobody Kept"; E44@0.5,0.6:0.76
+Ten years earlier, they had been rare. || title:"The Loan Nobody Kept"; H18@0.5,0.6:0.76:"10 YEARS"
 And standards kept slipping. || title:"The Loan Nobody Kept"; E16@0.5,0.6:0.76
-Some loans needed no proof of a job at all. || title:"The Loan Nobody Kept"; E16@0.5,0.6:0.76
-People in the industry gave them nicknames, like liar loans. || title:"The Loan Nobody Kept"; H16@0.5,0.6:0.76:"LIAR LOANS"
-Then there was the teaser rate. || title:"The Loan Nobody Kept"; A05@0.2,0.6:0.58~none; E25@0.62,0.4:0.32~pop
-Marcus and Tanya's loan started low, but after two years, the rate would reset much higher. || title:"The Loan Nobody Kept"; A05@0.2,0.6:0.58~none; E25@0.62,0.4:0.32~pop; note:"2 years"@0.66,0.12; G04@0.85,0.4:0.32~drop; G05@0.62,0.76:0.32~pop
-Their payment could jump by hundreds of dollars a month. || title:"The Loan Nobody Kept"; A05@0.80,0.6:0.58; E25@0.38,0.4:0.32~pop; note:"2 years"@0.66,0.12; G04@0.15,0.4:0.32~drop; G05@0.38,0.76:0.32~pop; H17@0.15,0.76:0.32:"+$800 A MONTH"~pop; E44@0.42,0.24:0.32~pop
-Many borrowers didn't fully understand this part. || title:"The Loan Nobody Kept"; H28@0.38,0.4:0.32~drop; E24@0.15,0.4:0.32~pop
-The paperwork was dozens of pages long, and the closing took less than an hour. || title:"The Loan Nobody Kept"; H28@0.38,0.4:0.32~drop; E24@0.15,0.4:0.32~pop; A07@0.80,0.6:0.58~r; E48@0.38,0.76:0.32~pop
-The broker had a plan for that too. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58~r
-Before the rate jumps, just refinance. || title:"The Loan Nobody Kept"; D09@0.5,0.6:0.76
-Your house will be worth more by then, so you'll get a better deal. || title:"The Loan Nobody Kept"; E45@0.5,0.6:0.76
-The whole plan depended on one belief. || title:"The Loan Nobody Kept"; D13@0.62,0.4:0.32
-That home prices would keep rising. || title:"The Loan Nobody Kept"; D13@0.62,0.4:0.32; H24@0.85,0.4:0.32~drop; E44@0.62,0.76:0.32~pop
-If they ever stopped, the plan would fall apart. || title:"The Loan Nobody Kept"; D13@0.62,0.4:0.32; H24@0.85,0.4:0.32~drop; E44@0.62,0.76:0.32~pop; A35@0.2,0.6:0.58~l
-So where did all those loans go after they were sold? || title:"The Loan Nobody Kept"; A35@0.80,0.6:0.58; H28@0.38,0.4:0.32~drop
-Into a machine on Wall Street that turned them into something brand new. || title:"The Loan Nobody Kept"; A35@0.80,0.6:0.58; H28@0.38,0.4:0.32~drop; E34@0.15,0.4:0.32~pop; E53@0.38,0.76:0.32~l; E48@0.15,0.76:0.32~pop
+Some loans needed no proof of a job at all. || title:"The Loan Nobody Kept"; D28@0.5,0.6:0.76
+People in the industry gave them nicknames, like liar loans. || title:"The Loan Nobody Kept"; D28@0.5,0.6:0.76
+Then there was the teaser rate. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; G04@0.62,0.4:0.32
+Marcus and Tanya's loan started low, but after two years, the rate would reset much higher. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; H18@0.62,0.4:0.34:"2 YEARS"~pop; D28@0.85,0.4:0.32; E23@0.62,0.76:0.32
+Their payment could jump by hundreds of dollars a month. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; D13@0.38,0.4:0.32; E01@0.15,0.4:0.32; E25@0.38,0.76:0.32
+Many borrowers didn't fully understand this part. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; D28@0.38,0.4:0.32; E17@0.15,0.4:0.32
+The paperwork was dozens of pages long, and the closing took less than an hour. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; H22@0.38,0.4:0.32; E24@0.15,0.4:0.32
+The broker had a plan for that too. || title:"The Loan Nobody Kept"; E51@0.5,0.6:0.76
+Before the rate jumps, just refinance. || title:"The Loan Nobody Kept"; G04@0.5,0.6:0.76
+Your house will be worth more by then, so you'll get a better deal. || title:"The Loan Nobody Kept"; D09@0.5,0.6:0.76
+The whole plan depended on one belief. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; D13@0.62,0.4:0.32; H24@0.85,0.4:0.32
+That home prices would keep rising. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; D09@0.62,0.4:0.32; E37@0.85,0.4:0.32
+If they ever stopped, the plan would fall apart. || title:"The Loan Nobody Kept"; C01@0.2,0.6:0.58; D14@0.62,0.4:0.32
+So where did all those loans go after they were sold? || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; D28@0.38,0.4:0.32; E36@0.15,0.4:0.32
+Into a machine on Wall Street that turned them into something brand new. || title:"The Loan Nobody Kept"; C01@0.80,0.6:0.58; G11@0.38,0.4:0.32; E34@0.15,0.4:0.32
 
 # ---------- CHAPTER 3: The Wall Street Machine ----------
 || title:"The Wall Street Machine"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Wall Street banks bought thousands of mortgages and bundled them together. || title:"The Wall Street Machine"; H19@0.5,0.6:0.76
-Then they sold investors pieces of the bundle. || title:"The Wall Street Machine"; E34@0.5,0.6:0.76
-These were called mortgage-backed securities. || title:"The Wall Street Machine"; D24@0.5,0.6:0.76
-Every month, homeowners like Marcus and Tanya paid their mortgage. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58~none; D09@0.62,0.4:0.32~drop
-That money flowed through the bundle to investors all over the world. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58~none; D09@0.62,0.4:0.32~drop; E01@0.85,0.4:0.32~pop; H19@0.62,0.76:0.32~pop; E43@0.85,0.76:0.32~pop
-On paper, it looked brilliant. || title:"The Wall Street Machine"; H19@0.62,0.4:0.32~drop
-If a few homeowners stopped paying, the others would still cover the investors. || title:"The Wall Street Machine"; H19@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop
-Spread the risk, and the risk goes away. || title:"The Wall Street Machine"; H19@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop; D10@0.38,0.76:0.32~pop; E22@0.15,0.76:0.32~pop
-That was the theory. || title:"The Wall Street Machine"; H19@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop; D10@0.38,0.76:0.32~pop; E22@0.15,0.76:0.32~pop; A06@0.80,0.6:0.58~r
+[calm] Wall Street banks bought thousands of mortgages and bundled them together. || title:"The Wall Street Machine"; G11@0.5,0.6:0.76
+Then they sold investors pieces of the bundle. || title:"The Wall Street Machine"; E36@0.5,0.6:0.76
+These were called mortgage-backed securities. || title:"The Wall Street Machine"; E08@0.5,0.6:0.76
+Every month, homeowners like Marcus and Tanya paid their mortgage. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; E25@0.62,0.4:0.32; D09@0.85,0.4:0.32; E01@0.62,0.76:0.32
+That money flowed through the bundle to investors all over the world. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; E01@0.62,0.4:0.32; C28@0.85,0.4:0.32; E43@0.62,0.76:0.32
+On paper, it looked brilliant. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; H22@0.62,0.4:0.32
+If a few homeowners stopped paying, the others would still cover the investors. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; D09@0.38,0.4:0.32; C28@0.15,0.4:0.32
+Spread the risk, and the risk goes away. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; E44@0.38,0.4:0.32
+That was the theory. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; E22@0.38,0.4:0.32
 But the theory had a hidden flaw. || title:"The Wall Street Machine"; G13@0.5,0.6:0.76
-It assumed that homes in different places wouldn't all lose value at the same time. || title:"The Wall Street Machine"; E44@0.5,0.6:0.76
-Nobody had planned for a fall across the whole country. || title:"The Wall Street Machine"; E44@0.5,0.6:0.76
-Pension funds, banks in Germany, cities in Norway, insurance companies in Asia. || title:"The Wall Street Machine"; A35@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop; G16@0.85,0.4:0.32~pop
-They all wanted a piece of American homeowners' payments. || title:"The Wall Street Machine"; A35@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop; G16@0.85,0.4:0.32~pop; D25@0.62,0.76:0.32~pop; D15@0.85,0.76:0.32~pop; G15@0.42,0.24:0.32~pop
-Then the banks got creative. || title:"The Wall Street Machine"; H24@0.38,0.4:0.32~drop
-They sliced the bundles into layers. || title:"The Wall Street Machine"; H24@0.38,0.4:0.32~drop; H16@0.15,0.4:0.32:"SAFEST"~pop
-The top layer got paid first and was called the safest. || title:"The Wall Street Machine"; H24@0.38,0.4:0.32~drop; H16@0.15,0.4:0.32:"SAFEST"~pop; note:"RISKIEST"@0.66,0.12
-The bottom layer got paid last and was the riskiest. || title:"The Wall Street Machine"; H16@0.5,0.6:0.76:"SAFEST"
-They even mixed the risky bottom layers into new bundles and sliced those again. || title:"The Wall Street Machine"; H20@0.5,0.6:0.76
-These complex products were called C D Os. || title:"The Wall Street Machine"; E48@0.5,0.6:0.76
-Very few people truly understood them. || title:"The Wall Street Machine"; H19@0.62,0.4:0.32~pop; H20@0.85,0.4:0.32~drop; E48@0.62,0.76:0.32~pop; A07@0.2,0.6:0.58~l; H18@0.85,0.76:0.32:"CDO"~pop
+It assumed that homes in different places wouldn't all lose value at the same time. || title:"The Wall Street Machine"; D09@0.5,0.6:0.76
+Nobody had planned for a fall across the whole country. || title:"The Wall Street Machine"; D14@0.5,0.6:0.76
+Pension funds, banks in Germany, cities in Norway, insurance companies in Asia. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; D25@0.62,0.4:0.32; E01@0.85,0.4:0.32; D15@0.62,0.76:0.32
+They all wanted a piece of American homeowners' payments. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; G13@0.62,0.4:0.32; D09@0.85,0.4:0.32
+Then the banks got creative. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; D15@0.38,0.4:0.32
+They sliced the bundles into layers. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; H16@0.38,0.4:0.32
+The top layer got paid first and was called the safest. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; E01@0.38,0.4:0.32; E08@0.15,0.4:0.32
+The bottom layer got paid last and was the riskiest. || title:"The Wall Street Machine"; E01@0.5,0.6:0.76
+They even mixed the risky bottom layers into new bundles and sliced those again. || title:"The Wall Street Machine"; E44@0.5,0.6:0.76
+These complex products were called C D Os. || title:"The Wall Street Machine"; E08@0.5,0.6:0.76
+Very few people truly understood them. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; C28@0.62,0.4:0.32
 And here's the strangest part. || title:"The Wall Street Machine"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.443,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Rating agencies, the companies paid to judge risk, gave many of these products their highest grade. || title:"The Wall Street Machine"; E28@0.62,0.4:0.32~drop
-Triple A. || title:"The Wall Street Machine"; E28@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"AAA"~pop
-As safe as the U.S. || title:"The Wall Street Machine"; E28@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"AAA"~pop; E27@0.38,0.76:0.32~pop
-government. || title:"The Wall Street Machine"; E28@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"AAA"~pop; E27@0.38,0.76:0.32~pop; A08@0.80,0.6:0.58~r
+Rating agencies, the companies paid to judge risk, gave many of these products their highest grade. || title:"The Wall Street Machine"; C04@0.2,0.6:0.58; E33@0.62,0.4:0.32; E01@0.85,0.4:0.32; E14@0.62,0.76:0.32
+Triple A. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; E27@0.38,0.4:0.32
+As safe as the U.S. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; E21@0.38,0.4:0.32; G13@0.15,0.4:0.32
+government. || title:"The Wall Street Machine"; C04@0.80,0.6:0.58; G09@0.38,0.4:0.32
 Who paid the rating agencies? || title:"The Wall Street Machine"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.323,0.135+0.8; H04@0.9,1.0:0.3:bottom
-The same banks that were selling the products. || title:"The Wall Street Machine"; C02@0.80,0.6:0.58~l; E02@0.38,0.4:0.32~pop
-The referee was being paid by one of the teams. || title:"The Wall Street Machine"; E22@0.5,0.6:0.76
-Some investors even bought insurance against these products failing. || title:"The Wall Street Machine"; E21@0.5,0.6:0.76
-The biggest seller of that insurance was an insurance giant called A I G. || title:"The Wall Street Machine"; D24@0.5,0.6:0.76
+The same banks that were selling the products. || title:"The Wall Street Machine"; C02@0.80,0.6:0.58; D15@0.38,0.4:0.32; E36@0.15,0.4:0.32
+The referee was being paid by one of the teams. || title:"The Wall Street Machine"; E01@0.5,0.6:0.76
+Some investors even bought insurance against these products failing. || title:"The Wall Street Machine"; E36@0.5,0.6:0.76
+The biggest seller of that insurance was an insurance giant called A I G. || title:"The Wall Street Machine"; E21@0.5,0.6:0.76
 A few investors saw the danger coming and bet against the housing market. || title:"The Wall Street Machine"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.276,0.135+0.8; H04@0.9,1.0:0.3:bottom
-When it collapsed, some of them made billions. || title:"The Wall Street Machine"; C21@0.2,0.6:0.58~r; G02@0.62,0.4:0.32~pop
-Their story became the movie The Big Short. || title:"The Wall Street Machine"; C21@0.80,0.6:0.58~l; G02@0.38,0.4:0.32~pop; D14@0.15,0.4:0.32; E13@0.38,0.76:0.32~drop
-Everyone was making money. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58~l
-Brokers, lenders, banks, rating agencies, and investors. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58~l; E03@0.38,0.4:0.32~drop; H09@0.60,0.64:0.46~r
-As long as Marcus and Tanya kept paying. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58~l; E03@0.38,0.4:0.32~drop; H09@0.60,0.64:0.46~r; E24@0.15,0.4:0.32~pop
-But in two thousand seven, their teaser rate ran out. || title:"The Wall Street Machine"; E44@0.5,0.6:0.76
+When it collapsed, some of them made billions. || title:"The Wall Street Machine"; C21@0.2,0.6:0.58; D14@0.62,0.4:0.32
+Their story became the movie The Big Short. || title:"The Wall Street Machine"; C21@0.80,0.6:0.58; E13@0.38,0.4:0.32
+Everyone was making money. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58; C28@0.38,0.4:0.32; E01@0.15,0.4:0.32
+Brokers, lenders, banks, rating agencies, and investors. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58; D15@0.38,0.4:0.32; C28@0.15,0.4:0.32
+As long as Marcus and Tanya kept paying. || title:"The Wall Street Machine"; C23@0.80,0.6:0.58; E03@0.38,0.4:0.32; E24@0.15,0.4:0.32
+But in two thousand seven, their teaser rate ran out. || title:"The Wall Street Machine"; H18@0.5,0.6:0.76:"2007"
 
 # ---------- CHAPTER 4: The Payment That Jumped ----------
 || title:"The Payment That Jumped"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] The letter arrived in the spring. || title:"The Payment That Jumped"; H17@0.5,0.6:0.76:"$2,000 → $2,900"
-Their monthly payment was going up from about two thousand dollars to almost three thousand. || title:"The Payment That Jumped"; E50@0.5,0.6:0.76
-That was more than half of everything they earned. || title:"The Payment That Jumped"; H09@0.2,0.6:0.58~l
-Marcus picked up extra shifts. || title:"The Payment That Jumped"; H09@0.2,0.6:0.58~l; E41@0.62,0.4:0.32~pop
-Tanya cut back on groceries. || title:"The Payment That Jumped"; H09@0.2,0.6:0.58~l; E41@0.62,0.4:0.32~pop; E38@0.85,0.4:0.32~drop; E01@0.62,0.76:0.32~pop
-It still wasn't enough. || title:"The Payment That Jumped"; H09@0.80,0.6:0.58~r; E41@0.38,0.4:0.32~pop; E38@0.15,0.4:0.32~drop; E01@0.38,0.76:0.32~pop; D14@0.15,0.76:0.32
-So they called the broker to refinance, just like he said. || title:"The Payment That Jumped"; E08@0.38,0.4:0.32~pop
-But he had bad news. || title:"The Payment That Jumped"; E08@0.38,0.4:0.32~pop; C01@0.80,0.6:0.58~l
-Their house wasn't worth more anymore. || title:"The Payment That Jumped"; E08@0.38,0.4:0.32~pop; C01@0.80,0.6:0.58~l; D10@0.15,0.4:0.32~drop
-It was worth less. || title:"The Payment That Jumped"; D14@0.5,0.6:0.76
+[calm] The letter arrived in the spring. || title:"The Payment That Jumped"; H17@0.5,0.6:0.76
+Their monthly payment was going up from about two thousand dollars to almost three thousand. || title:"The Payment That Jumped"; H18@0.5,0.6:0.76:"3,000"
+That was more than half of everything they earned. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; E41@0.62,0.4:0.32; E38@0.85,0.4:0.32
+Marcus picked up extra shifts. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; E38@0.62,0.4:0.32; E01@0.85,0.4:0.32
+Tanya cut back on groceries. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; E39@0.62,0.4:0.32
+It still wasn't enough. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; D14@0.38,0.4:0.32
+So they called the broker to refinance, just like he said. || title:"The Payment That Jumped"; C01@0.80,0.6:0.58; E08@0.38,0.4:0.32
+But he had bad news. || title:"The Payment That Jumped"; C01@0.80,0.6:0.58; D10@0.38,0.4:0.32; D14@0.15,0.4:0.32
+Their house wasn't worth more anymore. || title:"The Payment That Jumped"; C01@0.80,0.6:0.58; D09@0.38,0.4:0.32
+It was worth less. || title:"The Payment That Jumped"; E08@0.5,0.6:0.76
 Across America, home prices had stopped rising in two thousand six. || title:"The Payment That Jumped"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.574,0.265+0.8; H04@0.9,1.0:0.3:bottom
-Then they started to fall. || title:"The Payment That Jumped"; D13@0.5,0.6:0.76
-Nationally, they would drop by more than a quarter. || title:"The Payment That Jumped"; H17@0.5,0.6:0.76:"-27%"
-In places like Stockton, it was far worse. || title:"The Payment That Jumped"; D12@0.62,0.4:0.32~drop
-Some homes lost more than half their value. || title:"The Payment That Jumped"; D12@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"-50%"~pop; E22@0.62,0.76:0.32~pop
-Marcus and Tanya now owed more than their house was worth. || title:"The Payment That Jumped"; D12@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"-50%"~pop; E22@0.62,0.76:0.32~pop; C12@0.2,0.6:0.58~l
-There's a name for that. || title:"The Payment That Jumped"; A38@0.80,0.6:0.58~r
-Being underwater. || title:"The Payment That Jumped"; A38@0.80,0.6:0.58~r; D10@0.38,0.4:0.32~drop; E50@0.15,0.4:0.32~drop
-You can't sell your way out, because selling won't even pay off the loan. || title:"The Payment That Jumped"; A38@0.80,0.6:0.58~r; D10@0.38,0.4:0.32~drop; E50@0.15,0.4:0.32~drop; H18@0.38,0.76:0.32:"UNDERWATER"~pop
+Then they started to fall. || title:"The Payment That Jumped"; D14@0.5,0.6:0.76
+Nationally, they would drop by more than a quarter. || title:"The Payment That Jumped"; D14@0.5,0.6:0.76
+In places like Stockton, it was far worse. || title:"The Payment That Jumped"; C12@0.2,0.6:0.58; G13@0.62,0.4:0.32
+Some homes lost more than half their value. || title:"The Payment That Jumped"; C12@0.2,0.6:0.58; D09@0.62,0.4:0.32; D14@0.85,0.4:0.32
+Marcus and Tanya now owed more than their house was worth. || title:"The Payment That Jumped"; C12@0.2,0.6:0.58; D28@0.62,0.4:0.32; D09@0.85,0.4:0.32
+There's a name for that. || title:"The Payment That Jumped"; C12@0.80,0.6:0.58; D10@0.38,0.4:0.32; E50@0.15,0.4:0.32
+Being underwater. || title:"The Payment That Jumped"; C12@0.80,0.6:0.58; D10@0.38,0.4:0.32
+You can't sell your way out, because selling won't even pay off the loan. || title:"The Payment That Jumped"; C12@0.80,0.6:0.58; E36@0.38,0.4:0.32; E01@0.15,0.4:0.32; D28@0.38,0.76:0.32
 They missed one payment. || title:"The Payment That Jumped"; E25@0.5,0.6:0.76
-Then two. || title:"The Payment That Jumped"; H18@0.5,0.6:0.76:"FORECLOSURE"
-Then the bank started the foreclosure process. || title:"The Payment That Jumped"; D10@0.5,0.6:0.76
-In two thousand eight, they had to leave the house. || title:"The Payment That Jumped"; D10@0.5,0.6:0.76
-Tanya cried as they packed. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58~l
-They had lived there less than three years. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58~l; H20@0.62,0.4:0.32~drop; G23@0.85,0.4:0.32~pop
-Their credit score crashed, and the savings they'd put into repairs were gone. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58~l; H20@0.62,0.4:0.32~drop; G23@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32
+Then two. || title:"The Payment That Jumped"; H18@0.5,0.6:0.76:"2"
+Then the bank started the foreclosure process. || title:"The Payment That Jumped"; D15@0.5,0.6:0.76
+In two thousand eight, they had to leave the house. || title:"The Payment That Jumped"; H18@0.5,0.6:0.76:"2008"
+Tanya cried as they packed. || title:"The Payment That Jumped"; H20@0.5,0.6:0.76
+They had lived there less than three years. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; H18@0.62,0.4:0.34:"3 YEARS"~pop; E23@0.85,0.4:0.32
+Their credit score crashed, and the savings they'd put into repairs were gone. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; D18@0.62,0.4:0.32; D14@0.85,0.4:0.32; E21@0.62,0.76:0.32
 They weren't alone. || title:"The Payment That Jumped"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.322,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Their whole street had for-sale signs. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; G22@0.38,0.4:0.32~drop
-Stockton became one of the foreclosure capitals of America. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; G22@0.38,0.4:0.32~drop; D10@0.15,0.4:0.32~pop; D12@0.38,0.76:0.32~pop
-Between two thousand seven and two thousand ten, millions of American homes went into foreclosure. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58
+Their whole street had for-sale signs. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; E34@0.38,0.4:0.32
+Stockton became one of the foreclosure capitals of America. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; G13@0.38,0.4:0.32; D10@0.15,0.4:0.32
+Between two thousand seven and two thousand ten, millions of American homes went into foreclosure. || title:"The Payment That Jumped"; C10@0.80,0.6:0.58; H18@0.38,0.4:0.34:"11,010"~pop; C28@0.15,0.4:0.32; G13@0.38,0.76:0.32
 Whole neighborhoods emptied out. || title:"The Payment That Jumped"; D10@0.5,0.6:0.76
-Grass grew tall, and pools turned green. || title:"The Payment That Jumped"; E20@0.5,0.6:0.76
-Now think back to the Wall Street machine. || title:"The Payment That Jumped"; D10@0.5,0.6:0.76
-When millions of families stop paying, the money stops flowing through the bundles. || title:"The Payment That Jumped"; E34@0.5,0.6:0.76
-And those triple A products? || title:"The Payment That Jumped"; H18@0.62,0.4:0.32:"AAA?"~pop; E48@0.85,0.4:0.32~drop
-Suddenly, nobody knew what they were really worth. || title:"The Payment That Jumped"; H18@0.62,0.4:0.32:"AAA?"~pop; E48@0.85,0.4:0.32~drop; A07@0.2,0.6:0.58~l; D14@0.62,0.76:0.32
+Grass grew tall, and pools turned green. || title:"The Payment That Jumped"; D13@0.5,0.6:0.76
+Now think back to the Wall Street machine. || title:"The Payment That Jumped"; G11@0.5,0.6:0.76
+When millions of families stop paying, the money stops flowing through the bundles. || title:"The Payment That Jumped"; H27@0.5,0.6:0.76
+And those triple A products? || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; E48@0.62,0.4:0.32
+Suddenly, nobody knew what they were really worth. || title:"The Payment That Jumped"; C10@0.2,0.6:0.58; E48@0.62,0.4:0.32
 
 # ---------- CHAPTER 5: The Panic ----------
 || title:"The Panic"; sting; A23@0.5,0.56:0.6; hold:1.2
-[serious] Banks had borrowed huge amounts of money to buy these products. || title:"The Panic"; D15@0.62,0.4:0.32~drop; H24@0.85,0.4:0.32~pop
-Some had about thirty dollars of debt for every dollar of their own money. || title:"The Panic"; D15@0.38,0.4:0.32~drop; H24@0.15,0.4:0.32~pop; H17@0.38,0.76:0.32:"30 : 1"~pop; E44@0.15,0.76:0.32~pop; A35@0.80,0.6:0.58~r
-With that much borrowing, even a small loss could wipe a bank out. || title:"The Panic"; A35@0.80,0.6:0.58; D16@0.38,0.4:0.32~drop
-And the losses weren't small. || title:"The Panic"; E47@0.5,0.6:0.76
+[serious] Banks had borrowed huge amounts of money to buy these products. || title:"The Panic"; A18@0.2,0.6:0.58; D15@0.62,0.4:0.32; D28@0.85,0.4:0.32; E01@0.62,0.76:0.32
+Some had about thirty dollars of debt for every dollar of their own money. || title:"The Panic"; A18@0.80,0.6:0.58; H18@0.38,0.4:0.34:"$30"~pop; E01@0.15,0.4:0.32; D28@0.38,0.76:0.32
+With that much borrowing, even a small loss could wipe a bank out. || title:"The Panic"; A01@0.80,0.6:0.58; D28@0.38,0.4:0.32; D15@0.15,0.4:0.32
+And the losses weren't small. || title:"The Panic"; D14@0.5,0.6:0.76
 In March two thousand eight, the investment bank Bear Stearns nearly collapsed. || title:"The Panic"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History" hl=0.302,0.178,0.518,0.22+0.8; H04@0.9,1.0:0.3:bottom
-It was sold to JPMorgan in an emergency deal backed by the Federal Reserve. || title:"The Panic"; A35@0.2,0.6:0.58~none; E25@0.62,0.4:0.32~pop; note:"March 2008"@0.66,0.12; D16@0.85,0.4:0.32~drop; D15@0.62,0.76:0.32~r; G10@0.85,0.76:0.32~pop
+It was sold to JPMorgan in an emergency deal backed by the Federal Reserve. || title:"The Panic"; A08@0.2,0.6:0.58; E36@0.62,0.4:0.32; G10@0.85,0.4:0.32
 In early September, || title:"The Panic"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.476,0.144,0.544+0.8; H04@0.9,1.0:0.3:bottom
-the government took over Fannie Mae and Freddie Mac, two giant companies that backed about half of America's mortgages. || title:"The Panic"; A35@0.2,0.6:0.58~none; G09@0.62,0.4:0.32~drop; D09@0.85,0.4:0.32~pop; H18@0.62,0.76:0.32:"FANNIE & FREDDIE"~pop; E21@0.85,0.76:0.32~pop
+the government took over Fannie Mae and Freddie Mac, two giant companies that backed about half of America's mortgages. || title:"The Panic"; A18@0.2,0.6:0.58; H18@0.62,0.4:0.34:"2 GIANT"~pop; G09@0.85,0.4:0.32; E33@0.62,0.76:0.32
 Then, on September fifteenth, Lehman Brothers ran out of money. || title:"The Panic"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.199,0.769,0.401+0.8; H04@0.9,1.0:0.3:bottom
-This time, nobody rescued it. || title:"The Panic"; E34@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop; E25@0.38,0.76:0.32~pop
-It filed for bankruptcy. || title:"The Panic"; E47@0.5,0.6:0.76
-The next day, A I G was on the edge of collapse. || title:"The Panic"; H18@0.5,0.6:0.76:"AIG"
-It had sold too much insurance it could never pay. || title:"The Panic"; G09@0.5,0.6:0.76
-The government stepped in with a rescue that eventually reached about one hundred eighty billion dollars. || title:"The Panic"; A08@0.2,0.6:0.58~none; H18@0.62,0.4:0.32:"AIG"~drop; D16@0.85,0.4:0.32~pop; G09@0.62,0.76:0.32~pop; E02@0.85,0.76:0.32~pop; note:"$182B"@0.66,0.12
-Then fear spread everywhere. || title:"The Panic"; A08@0.2,0.6:0.58~none; D15@0.62,0.4:0.32~drop
-Banks stopped lending to each other, because nobody knew who was hiding losses. || title:"The Panic"; A08@0.2,0.6:0.58~none; D15@0.62,0.4:0.32~drop; E48@0.85,0.4:0.32~pop
-Credit, the oil of the economy, froze. || title:"The Panic"; A08@0.80,0.6:0.58; D15@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop; E44@0.38,0.76:0.32~pop; E21@0.15,0.76:0.32~l
-Even big, healthy companies suddenly struggled to borrow money for payroll. || title:"The Panic"; A08@0.80,0.6:0.58; E33@0.38,0.4:0.32~drop
-Some money market funds, seen as safe as cash, briefly lost value. || title:"The Panic"; E44@0.5,0.6:0.76
-On September twenty-ninth, Congress first voted down a rescue plan. || title:"The Panic"; G09@0.5,0.6:0.76
-The Dow fell about seven hundred seventy-seven points that day, the biggest point drop it had ever seen. || title:"The Panic"; G02@0.5,0.6:0.76
+This time, nobody rescued it. || title:"The Panic"; A41@0.80,0.6:0.58; E20@0.38,0.4:0.32; E25@0.15,0.4:0.32
+It filed for bankruptcy. || title:"The Panic"; E25@0.5,0.6:0.76
+The next day, A I G was on the edge of collapse. || title:"The Panic"; E25@0.5,0.6:0.76
+It had sold too much insurance it could never pay. || title:"The Panic"; E36@0.5,0.6:0.76
+The government stepped in with a rescue that eventually reached about one hundred eighty billion dollars. || title:"The Panic"; A08@0.2,0.6:0.58; H18@0.62,0.4:0.34:"$180 BILLION"~pop; G09@0.85,0.4:0.32; E01@0.62,0.76:0.32
+Then fear spread everywhere. || title:"The Panic"; A41@0.2,0.6:0.58; E44@0.62,0.4:0.32
+Banks stopped lending to each other, because nobody knew who was hiding losses. || title:"The Panic"; A41@0.2,0.6:0.58; D15@0.62,0.4:0.32; E48@0.85,0.4:0.32
+Credit, the oil of the economy, froze. || title:"The Panic"; A41@0.80,0.6:0.58; D18@0.38,0.4:0.32; D17@0.15,0.4:0.32
+Even big, healthy companies suddenly struggled to borrow money for payroll. || title:"The Panic"; A08@0.80,0.6:0.58; E33@0.38,0.4:0.32; D28@0.15,0.4:0.32; E01@0.38,0.76:0.32
+Some money market funds, seen as safe as cash, briefly lost value. || title:"The Panic"; E01@0.5,0.6:0.76
+On September twenty-ninth, Congress first voted down a rescue plan. || title:"The Panic"; H18@0.5,0.6:0.76:"20 NINTH"
+The Dow fell about seven hundred seventy-seven points that day, the biggest point drop it had ever seen. || title:"The Panic"; H18@0.5,0.6:0.76:"777 POINTS"
 A few days later, Congress passed a seven hundred billion dollar rescue fund, called TARP. || title:"The Panic"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Treasury" hl=0.11,0.182,0.282,0.23+0.8; H04@0.9,1.0:0.3:bottom
-The financial system was saved, barely. || title:"The Panic"; G09@0.38,0.4:0.32~drop; E02@0.15,0.4:0.32~pop; note:"$700B"@0.66,0.12; E21@0.38,0.76:0.32~pop; A35@0.80,0.6:0.58~r
-The Fed cut interest rates to almost zero and pumped huge amounts of money into the banking system to keep it running. || title:"The Panic"; A35@0.80,0.6:0.58; G10@0.38,0.4:0.32~drop; G04@0.15,0.4:0.32~pop; note:"0%"@0.66,0.12; D19@0.38,0.76:0.32~pop; E03@0.15,0.76:0.32~drop
-But for families like Marcus and Tanya, the real pain was just beginning. || title:"The Panic"; G24@0.5,0.6:0.76
+The financial system was saved, barely. || title:"The Panic"; A08@0.80,0.6:0.58; E21@0.38,0.4:0.32
+The Fed cut interest rates to almost zero and pumped huge amounts of money into the banking system to keep it running. || title:"The Panic"; A01@0.80,0.6:0.58; G10@0.38,0.4:0.32; G04@0.15,0.4:0.32; E01@0.38,0.76:0.32
+But for families like Marcus and Tanya, the real pain was just beginning. || title:"The Panic"; H27@0.5,0.6:0.76
 
 # ---------- CHAPTER 6: The Whole World Shakes ----------
 || title:"The Whole World Shakes"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] When banks stop lending, businesses can't borrow to pay workers or buy supplies. || title:"The Whole World Shakes"; D21@0.5,0.6:0.76
-So they cut back. || title:"The Whole World Shakes"; D21@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; C28@0.2,0.6:0.58~pop
-And layoffs spread like a chain reaction. || title:"The Whole World Shakes"; D21@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; C28@0.2,0.6:0.58~pop; E46@0.62,0.76:0.32~pop
-Marcus lost his delivery job in early two thousand nine. || title:"The Whole World Shakes"; H09@0.2,0.6:0.58~l; E41@0.62,0.4:0.32~pop
-Fewer people were buying things, so fewer things needed delivering. || title:"The Whole World Shakes"; H09@0.80,0.6:0.58~r; E41@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"LAID OFF"~drop; A41@0.60,0.64:0.46~pop
-For a while, they lived with Tanya's parents. || title:"The Whole World Shakes"; H09@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~drop
-Six people in a three-bedroom house. || title:"The Whole World Shakes"; H09@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~drop; C28@0.60,0.64:0.46~pop
-Marcus applied for jobs every day, and heard nothing back. || title:"The Whole World Shakes"; H09@0.80,0.6:0.58~r; E35@0.38,0.4:0.32~drop; C28@0.60,0.64:0.46~pop; E07@0.15,0.4:0.32~pop; E24@0.38,0.76:0.32~pop
+[calm] When banks stop lending, businesses can't borrow to pay workers or buy supplies. || title:"The Whole World Shakes"; D15@0.5,0.6:0.76
+So they cut back. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; E33@0.62,0.4:0.32; E46@0.85,0.4:0.32
+And layoffs spread like a chain reaction. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; C28@0.62,0.4:0.32
+Marcus lost his delivery job in early two thousand nine. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; H18@0.62,0.4:0.34:"2009"~pop; D14@0.85,0.4:0.32; C09@0.62,0.76:0.32
+Fewer people were buying things, so fewer things needed delivering. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; C28@0.38,0.4:0.32; E36@0.15,0.4:0.32
+For a while, they lived with Tanya's parents. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; E35@0.38,0.4:0.32; E07@0.15,0.4:0.32
+Six people in a three-bedroom house. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; H18@0.38,0.4:0.34:"6 PEOPLE"~pop; C28@0.15,0.4:0.32; D09@0.38,0.76:0.32
+Marcus applied for jobs every day, and heard nothing back. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; C09@0.38,0.4:0.32; E25@0.15,0.4:0.32
 By October two thousand nine, unemployment reached ten percent. || title:"The Whole World Shakes"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.633,0.162,0.743,0.201+0.8; H04@0.9,1.0:0.3:bottom
 More than eight million jobs were lost. || title:"The Whole World Shakes"; H18@0.5,0.6:0.76:"8 MILLION JOBS"
-It wasn't just America. || title:"The Whole World Shakes"; E43@0.5,0.6:0.76
-Banks in Europe had bought the same products. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop; G16@0.85,0.4:0.32~pop
-Iceland's banking system collapsed. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop; G16@0.85,0.4:0.32~pop; D16@0.62,0.76:0.32~pop
-Stock markets fell around the world. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop; G16@0.85,0.4:0.32~pop; D16@0.62,0.76:0.32~pop; D14@0.85,0.76:0.32; D20@0.42,0.24:0.32~pop
-That's how a mortgage in Stockton became a problem in Berlin, Tokyo and Reykjavik. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58~none; D10@0.62,0.4:0.32~drop
-The loans were local. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; D10@0.38,0.4:0.32~drop; E43@0.15,0.4:0.32~pop
-The money was global. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; D10@0.38,0.4:0.32~drop; E43@0.15,0.4:0.32~pop; G15@0.38,0.76:0.32~pop; G16@0.15,0.76:0.32~pop
-Over the next few years, the government's rescue money was mostly paid back, with interest. || title:"The Whole World Shakes"; G09@0.38,0.4:0.32~drop; E02@0.15,0.4:0.32~pop
-But the damage to families took much longer to heal. || title:"The Whole World Shakes"; E23@0.5,0.6:0.76
+It wasn't just America. || title:"The Whole World Shakes"; G13@0.5,0.6:0.76
+Banks in Europe had bought the same products. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; D15@0.62,0.4:0.32; G16@0.85,0.4:0.32; E36@0.62,0.76:0.32
+Iceland's banking system collapsed. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; G16@0.62,0.4:0.32; D15@0.85,0.4:0.32; D14@0.62,0.76:0.32
+Stock markets fell around the world. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; G11@0.62,0.4:0.32; D14@0.85,0.4:0.32; E43@0.62,0.76:0.32
+That's how a mortgage in Stockton became a problem in Berlin, Tokyo and Reykjavik. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; D09@0.62,0.4:0.32; G13@0.85,0.4:0.32; G15@0.62,0.76:0.32
+The loans were local. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; D28@0.38,0.4:0.32
+The money was global. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; E01@0.38,0.4:0.32; E43@0.15,0.4:0.32
+Over the next few years, the government's rescue money was mostly paid back, with interest. || title:"The Whole World Shakes"; C28@0.80,0.6:0.58; E23@0.38,0.4:0.32; G09@0.15,0.4:0.32; E01@0.38,0.76:0.32
+But the damage to families took much longer to heal. || title:"The Whole World Shakes"; H27@0.5,0.6:0.76
 American families lost trillions of dollars in wealth. || title:"The Whole World Shakes"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve History"; H04@0.9,1.0:0.3:bottom
-Millions lost their homes. || title:"The Whole World Shakes"; D12@0.5,0.6:0.76
-Many people who had done nothing wrong lost their jobs and savings. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58~drop; D12@0.62,0.4:0.32~pop; D02@0.85,0.4:0.32~pop; E46@0.62,0.76:0.32~pop
+Millions lost their homes. || title:"The Whole World Shakes"; D14@0.5,0.6:0.76
+Many people who had done nothing wrong lost their jobs and savings. || title:"The Whole World Shakes"; C28@0.2,0.6:0.58; C28@0.62,0.4:0.32; D14@0.85,0.4:0.32; C09@0.62,0.76:0.32
 And the people at the top? || title:"The Whole World Shakes"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.315,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Many big banks were rescued, and only one top Wall Street banker went to prison for crimes tied to the crisis. || title:"The Whole World Shakes"; C21@0.2,0.6:0.58~r; E34@0.62,0.4:0.32~pop; E55@0.85,0.4:0.32~drop; A12@0.4,0.64:0.46~l
+Many big banks were rescued, and only one top Wall Street banker went to prison for crimes tied to the crisis. || title:"The Whole World Shakes"; C21@0.2,0.6:0.58; D15@0.62,0.4:0.32; G11@0.85,0.4:0.32; E34@0.62,0.76:0.32
 A government commission later studied the whole disaster. || title:"The Whole World Shakes"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.533,0.79,0.764,0.867+0.8; H04@0.9,1.0:0.3:bottom
-Its conclusion was blunt. || title:"The Whole World Shakes"; G09@0.38,0.4:0.32~drop; H22@0.15,0.4:0.32~pop
-The crisis was avoidable. || title:"The Whole World Shakes"; H18@0.5,0.6:0.76:"AVOIDABLE"
-So what did America change, to stop it from happening again? || title:"The Whole World Shakes"; E21@0.5,0.6:0.76
+Its conclusion was blunt. || title:"The Whole World Shakes"; C21@0.80,0.6:0.58; H22@0.38,0.4:0.32; H18@0.15,0.4:0.32
+The crisis was avoidable. || title:"The Whole World Shakes"; H18@0.5,0.6:0.76
+So what did America change, to stop it from happening again? || title:"The Whole World Shakes"; E48@0.5,0.6:0.76
 
 # ---------- CHAPTER 7: What Changed ----------
 || title:"What Changed"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] In twenty ten, Congress passed a big set of new rules called the Dodd-Frank Act. || title:"What Changed"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.297,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Big banks now have to keep more of their own money as a cushion against losses. || title:"What Changed"; A15@0.2,0.6:0.58; G09@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; note:"DODD-FRANK"@0.66,0.12; E21@0.62,0.76:0.32~pop; D15@0.85,0.76:0.32~pop
+Big banks now have to keep more of their own money as a cushion against losses. || title:"What Changed"; A38@0.2,0.6:0.58; D15@0.62,0.4:0.32; E01@0.85,0.4:0.32
 Every year, the Fed now runs stress tests. || title:"What Changed"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve" hl=0.134,0.305,0.752,0.353+0.8; H04@0.9,1.0:0.3:bottom
-It checks if the largest banks could survive a deep recession, like a fire drill for money. || title:"What Changed"; G10@0.38,0.4:0.32~drop; D15@0.15,0.4:0.32~pop; E19@0.38,0.76:0.32~pop; E44@0.15,0.76:0.32~pop; A21@0.80,0.6:0.58~r
+It checks if the largest banks could survive a deep recession, like a fire drill for money. || title:"What Changed"; A18@0.80,0.6:0.58; D15@0.38,0.4:0.32; E19@0.15,0.4:0.32; E01@0.38,0.76:0.32
 The law also created a new agency to protect borrowers, || title:"What Changed"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Consumer Financial Protection Bureau" hl=0.124,0.21,0.206,0.276+0.8; H04@0.9,1.0:0.3:bottom
 the Consumer Financial Protection Bureau. || title:"What Changed"; E21@0.5,0.6:0.76
 And the loans that sank Marcus and Tanya are now much harder to get. || title:"What Changed"; doc:s23.png@0.44,0.54 w=0.72 h=0.76 src="Source: Consumer Financial Protection Bureau" hl=0.124,0.291,0.626,0.354+0.8; H04@0.9,1.0:0.3:bottom
-Lenders must check that you can actually afford to pay, not just at a teaser rate. || title:"What Changed"; D27@0.5,0.6:0.76
-Here's the takeaway. || title:"What Changed"; A17@0.2,0.6:0.58~l
-A loan isn't approved because you can afford it. || title:"What Changed"; A17@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop
-It's approved because someone wants to make it. || title:"What Changed"; A17@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop; D27@0.85,0.4:0.32~pop
-Only you can decide if it really fits your life. || title:"What Changed"; A17@0.80,0.6:0.58~r; D09@0.38,0.4:0.32~drop; D27@0.15,0.4:0.32~pop; E22@0.38,0.76:0.32~pop
-Before you sign, ask three questions. || title:"What Changed"; A38@0.80,0.6:0.58~r
-What's my payment in the worst case? || title:"What Changed"; A38@0.80,0.6:0.58~r
-What happens if prices fall? || title:"What Changed"; A38@0.2,0.6:0.58~l
-And could I still pay if I lost my job for six months? || title:"What Changed"; A38@0.2,0.6:0.58~l
-Marcus and Tanya rented for years after that. || title:"What Changed"; H09@0.2,0.6:0.58~l; C11@0.4,0.64:0.46~r
-Slowly, they rebuilt their credit and their savings. || title:"What Changed"; H09@0.2,0.6:0.58~l; C11@0.4,0.64:0.46~r; G23@0.62,0.4:0.32~pop
-In twenty seventeen, they bought a small house, with a fixed rate and a real down payment. || title:"What Changed"; H09@0.2,0.6:0.58~l; C11@0.4,0.64:0.46~r; G23@0.62,0.4:0.32~pop; E35@0.85,0.4:0.32~drop; H27@0.62,0.76:0.32~pop
-It was smaller than their dream house. || title:"What Changed"; E35@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"HOME"~drop
-But this time, it was truly theirs. || title:"What Changed"; E35@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"HOME"~drop; A21@0.80,0.6:0.58~r
-[calm] After two thousand eight, the Fed created trillions of new dollars to save the economy. || title:"What Changed"; G10@0.38,0.4:0.32~drop
-Which raises a question people ask all the time. || title:"What Changed"; D19@0.5,0.6:0.76
-Why can't the government just print more money for everyone? || title:"What Changed"; E48@0.5,0.6:0.76
+Lenders must check that you can actually afford to pay, not just at a teaser rate. || title:"What Changed"; E37@0.5,0.6:0.76
+Here's the takeaway. || title:"What Changed"; C09@0.2,0.6:0.58; E17@0.62,0.4:0.32
+A loan isn't approved because you can afford it. || title:"What Changed"; C09@0.2,0.6:0.58; D28@0.62,0.4:0.32; E37@0.85,0.4:0.32
+It's approved because someone wants to make it. || title:"What Changed"; C09@0.2,0.6:0.58; E22@0.62,0.4:0.32
+Only you can decide if it really fits your life. || title:"What Changed"; C09@0.80,0.6:0.58; D09@0.38,0.4:0.32; D27@0.15,0.4:0.32
+Before you sign, ask three questions. || title:"What Changed"; C09@0.80,0.6:0.58; H18@0.38,0.4:0.34:"3 QUESTIONS"~pop
+What's my payment in the worst case? || title:"What Changed"; C09@0.80,0.6:0.58; E48@0.38,0.4:0.32
+What happens if prices fall? || title:"What Changed"; E37@0.5,0.6:0.76
+And could I still pay if I lost my job for six months? || title:"What Changed"; H18@0.5,0.6:0.76:"6 MONTHS"
+Marcus and Tanya rented for years after that. || title:"What Changed"; E23@0.5,0.6:0.76
+Slowly, they rebuilt their credit and their savings. || title:"What Changed"; C11@0.2,0.6:0.58; E54@0.62,0.4:0.32; D18@0.85,0.4:0.32; E21@0.62,0.76:0.32
+In twenty seventeen, they bought a small house, with a fixed rate and a real down payment. || title:"What Changed"; C11@0.2,0.6:0.58; H18@0.62,0.4:0.34:"37"~pop; E36@0.85,0.4:0.32; D09@0.62,0.76:0.32
+It was smaller than their dream house. || title:"What Changed"; C11@0.80,0.6:0.58; D09@0.38,0.4:0.32
+But this time, it was truly theirs. || title:"What Changed"; C11@0.80,0.6:0.58; H18@0.38,0.4:0.32
+[calm] After two thousand eight, the Fed created trillions of new dollars to save the economy. || title:"What Changed"; C11@0.80,0.6:0.58; H18@0.38,0.4:0.34:"2008"~pop; G10@0.15,0.4:0.32; E01@0.38,0.76:0.32
+Which raises a question people ask all the time. || title:"What Changed"; C11@0.2,0.6:0.58; C28@0.62,0.4:0.32
+Why can't the government just print more money for everyone? || title:"What Changed"; G09@0.5,0.6:0.76
 That's next. || title:"What Changed"; E48@0.5,0.6:0.76
 
 || endscreen; hold:10
