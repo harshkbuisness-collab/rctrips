@@ -129,52 +129,116 @@ NUM_STYLES = ["sign", "text", "label", "paper", "tag"]
 POSES_NOW = {}          # the current video's character poses (set in main)
 
 
-def sentence_elements(s, person, pick, names, line, mirror):
+# Scene layouts: each spoken line gets one, chosen so the next line looks different. Slot = (x, y, height, motion).
+LAYOUTS = {
+    "grid":   {"me": (0.2, 0.6, 0.58, ""), "slots": [(0.58, 0.36, 0.3, "pop"), (0.84, 0.36, 0.3, "pop"),
+               (0.58, 0.74, 0.3, "pop"), (0.84, 0.74, 0.3, "pop")], "num": (0.71, 0.55), "say": (0.36, 0.24)},
+    "row":    {"me": (0.86, 1.0, 0.62, "bottom"), "slots": [(0.14, 0.42, 0.28, "l"), (0.38, 0.42, 0.28, "l"),
+               (0.62, 0.42, 0.28, "l"), (0.38, 0.8, 0.24, "b")], "num": (0.62, 0.8), "say": (0.62, 0.14), "flow": 1},
+    "arc":    {"me": (0.5, 0.68, 0.55, ""), "slots": [(0.18, 0.6, 0.3, "l"), (0.82, 0.6, 0.3, "r"),
+               (0.22, 0.24, 0.26, "t"), (0.78, 0.24, 0.26, "t")], "num": (0.5, 0.16), "say": (0.5, 0.18)},
+    "column": {"me": (0.8, 0.6, 0.6, ""), "slots": [(0.2, 0.28, 0.22, "drop"), (0.2, 0.54, 0.22, "drop"),
+               (0.2, 0.8, 0.22, "drop"), (0.48, 0.5, 0.3, "pop")], "num": (0.5, 0.2), "say": (0.56, 0.2), "flow": 1},
+    "hero":   {"me": (0.13, 0.68, 0.48, ""), "slots": [(0.52, 0.5, 0.56, "swing"), (0.86, 0.24, 0.22, "r"),
+               (0.86, 0.76, 0.22, "r"), (0.3, 0.18, 0.18, "t")], "num": (0.86, 0.5), "say": (0.3, 0.2)},
+    "peek":   {"me": (0.0, 0.62, 0.6, "left"), "slots": [(0.34, 0.3, 0.26, "b"), (0.55, 0.5, 0.28, "b"),
+               (0.78, 0.7, 0.3, "b"), (0.82, 0.24, 0.24, "swing")], "num": (0.5, 0.82), "say": (0.4, 0.74), "flow": 1},
+}
+CAUSE = re.compile(r"\b(so|then|which|because|led|meant|until|turned|became|leads?|caused?)\b", re.I)
+BAD = re.compile(r"\b(crash\w*|collaps\w*|panic\w*|fell|fall|lost|broke\w*|fail\w*|bankrupt\w*|shock\w*)\b", re.I)
+
+
+def new_layout(i, pick):
+    """A layout for spoken line i: the least used so far, never the same as the line before, sometimes mirrored."""
+    import random
+    r = random.Random(i * 7 + 3)
+    last = pick.used.get("layout:last")
+    names = [n for n in LAYOUTS if n != last]
+    r.shuffle(names)
+    name = min(names, key=lambda n: pick.used.get("layout:" + n, 0))
+    pick.used["layout:" + name] = pick.used.get("layout:" + name, 0) + 1
+    pick.used["layout:last"] = name
+    return {"name": name, "mirror": r.random() < 0.5, "mot": {}, **LAYOUTS[name]}
+
+
+def sentence_elements(s, person, pick, names, line, lay):
     """One sentence inside a scene that builds up: things named earlier in the same spoken line stay where they
-    are (`line` holds them, max 4), new ones pop in, the narrator swaps pose, and the sentence's key number is
-    shown in a rotating style (sign, red text, red label with arrow, paper note, price tag) or as a group of icons."""
+    are (`line` holds them, max 4), new ones come in the layout's own way, the narrator swaps pose, and the key
+    number is shown in a rotating style (sign, red text, red label with arrow, paper note, price tag) or as icons."""
+    mirror = lay["mirror"]
     X = (lambda x: round(1 - x, 2)) if mirror else (lambda x: x)
+    flip = {"l": "r", "r": "l", "left": "right", "right": "left"}
+    F = (lambda m: flip.get(m, m)) if mirror else (lambda m: m)
     props = [c[:3] for c in sv.sentence_props(s)]
     about_person = person and (re.search(r"\b(she|he|her|his|him)\b", s, re.I) or any(n in s for n in names))
     who = person if about_person else pick.pose(s)
+    order = lay.setdefault("order", [])
     for c in (pick.prop(c) for c in props):
         if c and c != who and c not in line:
-            line.append(c)
-    del line[:-4]                                   # at most 4 things, the oldest leave first
-    slots = [(0.58, 0.36), (0.84, 0.36), (0.58, 0.74), (0.84, 0.74)]
-    out = [f"{who}@{X(0.2)},0.6:0.58~none" if not POSES_NOW else person_elem(s, pick, POSES_NOW, names, mirror)]
+            if len(line) < 4:
+                line.append(c)
+            else:                                   # full: the oldest leaves and the new one takes its place
+                line[line.index(order.pop(0))] = c
+            order.append(c)
+            lay["mot"][c] = "shake" if BAD.search(s) and len(line) > 1 else None
+    slots = lay["slots"]
+    mx, my, mh, anchor = lay["me"]
+    if POSES_NOW:
+        out = [person_elem(s, pick, POSES_NOW, names, mirror, (mx if mx > 0.05 else 0.12, min(my, 0.66), mh))]
+    else:
+        out = [f"{who}@{X(mx)},{my}:{mh}" + (f":{F(anchor)}" if anchor else "") + "~none"]
     num = sv.number_sign(s)
     m = re.match(r"(\d{1,2}) ([A-Z]+)$", num or "")
     group = line[-1] if (m and 2 <= int(m.group(1)) <= 12 and line) else ""
     for k, c in enumerate(line):
-        x, y = slots[k]
+        x, y, h, mot = slots[k]
         if c == group:                              # "three banks" -> three small banks
-            out.append(f"group:{c}*{m.group(1)}@{X(x) - 0.13:.2f},{y - 0.12:.2f},{X(x) + 0.13:.2f},{y + 0.12:.2f}:0.13")
+            g = h * 0.45
+            out.append(f"group:{c}*{m.group(1)}@{X(x) - g:.2f},{y - g:.2f},{X(x) + g:.2f},{y + g:.2f}:{h * 0.42:.2f}")
         else:
-            out.append(f"{c}@{X(x)},{y}:0.3~pop")
+            out.append(f"{c}@{X(x)},{y}:{h}~{lay['mot'].get(c) or F(mot)}")
+    if lay.get("flow") and len(line) >= 2 and CAUSE.search(s):   # one thing leads to the next: draw the arrow
+        (x0, y0, h0, _), (x1, y1, h1, _) = slots[line.index(order[-2])], slots[line.index(order[-1])]
+        dx, dy = x1 - x0, y1 - y0
+        n = max((dx * dx + dy * dy) ** 0.5, 0.01)
+        a, b = 0.13 / n, 1 - 0.13 / n
+        out.append(f"arrow:{X(x0 + dx * a):.2f},{y0 + dy * a:.2f}>{X(x0 + dx * b):.2f},{y0 + dy * b:.2f}")
     quote = re.search(r'[“"]([^”"]{3,40})[”"]', s)
+    sx, sy = lay["say"]
     if quote:
-        out.append(f'bubble:"{clean(quote.group(1))}"@{X(0.36)},0.24:{"r" if mirror else "l"}')
+        out.append(f'bubble:"{clean(quote.group(1))}"@{X(sx)},{sy}:{"r" if X(sx) > X(mx) else "l"}')
     elif s.endswith("?") and len(s) <= 46:
-        out.append(f'think:"{clean(s)}"@{X(0.36)},0.24')
+        out.append(f'think:"{clean(s)}"@{X(sx)},{sy}')
     if num and not group:
         style = min((st for st in NUM_STYLES if st != "tag" or num.startswith("$")),
                     key=lambda st: (pick.used.get("style:" + st, 0), NUM_STYLES.index(st)))
         pick.used["style:" + style] = pick.used.get("style:" + style, 0) + 1
         t = clean(num)[:18]
-        free = slots[len(line)] if len(line) < 4 else (0.71, 0.55)
+        free = slots[len(line)][:2] if len(line) < 4 else lay["num"]
         if style == "label" and line:
-            tx, ty = slots[len(line) - 1]
-            out.append(f'label:"{t}"@{X(0.62)},0.16>{X(tx)},{ty - 0.12:.2f}')
+            tx, ty = slots[line.index(order[-1])][:2]
+            out.append(f'label:"{t}"@{X(sx)},{sy}>{X(tx)},{ty - 0.12:.2f}')
         elif style == "text" or (style == "label" and not line):
-            out.append(f'"{t}"@{X(0.7)},0.17:64:red')
+            out.append(f'"{t}"@{X(lay["num"][0])},{lay["num"][1]}:64:red')
         elif style == "paper":
             out.append(f'note:"{t}"@{X(free[0])},{free[1]}')
         else:
             code = {"sign": "H18", "tag": "H17"}[style]
-            out.append(f'{code}@{X(free[0])},{free[1]}:0.32:"{t}"~pop')
+            out.append(f'{code}@{X(free[0])},{free[1]}:0.3:"{t}"~{"drop" if style == "sign" else "swing"}')
     pick.take([who] + line)
     return out
+
+
+# Picture scenes (owner pictures, photos, bar charts): where the person and the picture go, how the picture enters.
+DOC_LAYOUTS = [((0.16, 0.62, 0.5), (0.6, 0.54), "b"), ((0.84, 0.62, 0.5), (0.4, 0.54), "l"),
+               ((0.88, 0.74, 0.4), (0.44, 0.5), "t"), ((0.12, 0.74, 0.4), (0.56, 0.5), "r"),
+               ((0.5, 0.8, 0.34), (0.5, 0.4), "pop")]
+
+
+def doc_layout(pick):
+    k = pick.used.get("doclay", 0)
+    pick.used["doclay"] = k + 1
+    return DOC_LAYOUTS[(k * 3) % len(DOC_LAYOUTS)]
 
 
 CH_MOOD = {"question": "CH3", "shock": "CH4", "sad": "CH8", "suspicious": "CH3", "good": "CH2", "teach": "CH5",
@@ -203,14 +267,15 @@ def load_custom(day, vdir):
     return files, scene_of, poses
 
 
-def person_elem(s, pick, poses, names, mirror):
+def person_elem(s, pick, poses, names, mirror, at=None):
     """The narrator pose, or the story character's own pose picture when the sentence is about them."""
-    x = 0.8 if mirror else 0.2
+    x, y, h = at or (0.2, 0.6, 0.58)
+    x = round(1 - x, 2) if mirror else x
     if poses and (re.search(r"\b(she|he|her|his|him)\b", s, re.I) or any(n in s for n in names)):
         mood = sv.MOOD.get(sv.narrator_for(s)[:3], "neutral")
         f = poses.get(CH_MOOD[mood]) or poses.get("CH1") or next(iter(poses.values()))
-        return f"doc:{f}@{x},0.6 w=0.3 h=0.62 frame=0"
-    return f"{pick.pose(s)}@{x},0.6:0.58~none"
+        return f"doc:{f}@{x},{y} w={h * 0.52:.2f} h={h + 0.04:.2f} frame=0"
+    return f"{pick.pose(s)}@{x},{y}:{h}~none"
 
 
 def photo_for(s, photos, used, now):
@@ -288,27 +353,30 @@ def main(script, vdir):
         narr = sv.narrator_for(ln["text"], i)[:3]          # one narrator pose per spoken line, not per sentence
         tag = f"[{ln['tag']}] " if ln["tag"] else ""
         line_items = []                              # the scene of this spoken line builds up sentence by sentence
+        lay = new_layout(i, pick)
         for j, s in enumerate(sents):
             words = (tag if j == 0 else "") + s
             if j < len(docs):
                 el = [f'title:"{clean(title)}"', docs[j]]
             else:
                 ph = photo_for(s, photos, photo_used, len(lines))
+                (px, py, ph_), (dx, dy), dm = doc_layout(pick)
+                dw = 0.5 if px == 0.5 else 0.56
                 if s in scene_of:                        # the owner's own picture made for this sentence
-                    el = [f'title:"{clean(title)}"', person_elem(s, pick, poses, names, mirror=False),
-                          f"doc:{scene_of[s]}@0.62,0.52 w=0.56 h=0.74 frame=0"]
+                    el = [f'title:"{clean(title)}"', person_elem(s, pick, poses, names, False, (px, py, ph_)),
+                          f"doc:{scene_of[s]}@{dx},{dy} w={dw} h={0.6 if px == 0.5 else 0.74} frame=0 ~{dm}"]
                     lines.append(f"{words} || " + "; ".join(el))
                     spoken += len(s.split())
                     continue
                 money = sv.money_values(s)
                 if ph:                                   # a real photo of the person, company or place just named
-                    el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
-                          f'doc:{ph["file"]}@0.6,0.54 w=0.6 h=0.7 src="Photo: Wikimedia Commons – {clean(ph["title"])}"']
+                    el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@{px},{py}:{ph_}~none",
+                          f'doc:{ph["file"]}@{dx},{dy} w={dw} h={0.56 if px == 0.5 else 0.68} ~{dm} src="Photo: Wikimedia Commons – {clean(ph["title"])}"']
                 elif len(money) >= 2:                    # two or more dollar amounts: a bar chart builds up
                     el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
                           "bars:" + ",".join(f'"{clean(a)}"={v:.0f}' for a, v in money[:4])]
                 else:
-                    el = [f'title:"{clean(title)}"'] + sentence_elements(s, last_person, pick, names, line_items, i % 2 == 1)
+                    el = [f'title:"{clean(title)}"'] + sentence_elements(s, last_person, pick, names, line_items, lay)
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())
     lines += ["", "|| endscreen; hold:10"]

@@ -21,6 +21,7 @@ An element listed again in the next beat stays on screen (a highlight already dr
 Motion (v4): things enter with movement instead of just appearing. Append ~MOTION before any +SECONDS:
   ~l ~r ~t ~b  slide in from that side      ~pop  grow in with a small overshoot     ~drop  fall in from the top
   ~walk        walk in from the nearest side ~none  hard cut
+  ~swing       swings in from a tilt
   ~float       keeps bobbing gently          ~shake keeps shaking                      ~spin  keeps turning
   Defaults: people slide in from the nearest side, props pop in, screenshots slide up from the bottom,
   bubbles/labels/text pop, arrows and circles are drawn on, close-ups (height >= 0.9) cut in.
@@ -504,7 +505,7 @@ def draw_doc(canvas, vdir, e, t, boxes):
     x, y = pos(e["pos"])
     px, py = int(x * W - dw / 2), int(y * H - dh / 2)
     boxes.append(("doc", (px, py, px + dw, py + dh + (72 if e["src"] else 0))))
-    if e.get("motion") not in ("none", "pop", "float", "shake", "spin"):   # slides in, then stands still
+    if e.get("motion") not in ("none", "pop", "float", "shake", "spin", "swing"):   # slides in, then stands still
         _, (px, py) = moved(Image.new("L", (dw, dh)), (px, py), e, t)
     d = ImageDraw.Draw(canvas)
     if e["frame"]:
@@ -725,6 +726,13 @@ def moved(im, xy, e, t, t0=None, talking=False):
         s = max(0.05, ease_back(age / (ENTER * 0.8)))
         cx, cy = x + im.width / 2, y + im.height / 2
         im = im.resize((max(1, int(im.width * s)), max(1, int(im.height * s))), Image.BILINEAR)
+        x, y = int(cx - im.width / 2), int(cy - im.height / 2)
+    elif m == "swing" and age < ENTER:             # swings in from a tilt, like a hung sign
+        u = ease_back(age / ENTER)
+        cx, cy = x + im.width / 2, y + im.height / 2
+        s = max(0.05, min(1.0, u * 1.2))
+        im = im.resize((max(1, int(im.width * s)), max(1, int(im.height * s))), Image.BILINEAR)
+        im = im.convert("RGBA").rotate((1 - u) * 28, resample=Image.BICUBIC, expand=True)
         x, y = int(cx - im.width / 2), int(cy - im.height / 2)
     elif m == "float":
         y += int(8 * math.sin(age * 2 * math.pi * 0.7))
