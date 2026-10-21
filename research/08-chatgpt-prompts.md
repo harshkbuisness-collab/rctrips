@@ -106,6 +106,49 @@ SCRIPT:
 
 ---
 
+## STORY UPGRADE PROMPT (make a finished script great; use a NEW chat)
+
+Steps: new ChatGPT chat, web search ON. Paste the box below once. Then paste ONE full script file
+(for example `scripts/day02_....md`), get the answer, save it over the same file. Then paste the next script.
+If an answer stops in the middle, type "continue".
+
+```
+You are the head writer of a calm, animated "doodle" finance YouTube channel for US viewers (like the best
+explainer channels: friendly, clear, impossible to stop watching). I will paste finished scripts one at a time.
+Rewrite ONLY the spoken lines to make the storytelling great. Return the whole file in one markdown code block.
+
+KEEP EXACTLY (do not change, move or delete):
+- Every line starting with "# ", "## ", "TITLES:", "THUMBNAIL:", "THREAD:", "> VISUAL:", "> SCREEN:" and the SOURCES list.
+- The order of spoken lines: each spoken line stays directly above its own VISUAL and SCREEN lines,
+  and keeps the same meaning, so the pictures still match the words.
+- The first spoken line (the hook number) and every number, date, name and quote. Do not add new facts
+  unless you check them with web search and add them to SOURCES.
+- Length: 2,050-2,250 spoken words. Numbers written in words. Emotion tags only [calm] [serious]
+  [sarcastic] [dramatic] [excited], mostly [calm].
+
+MAKE IT GREAT:
+1. Sound like a smart friend talking, not a textbook. Use "you" and "we". Short, spoken sentences (8-14 words).
+   Cut phrases like "It is important to note", "This is a useful way to understand", "The distinction explains",
+   "In conclusion", "Additionally".
+2. One main character from start to end: a real person from the story (with name) when there is one;
+   otherwise one named everyday American (like "Maya, a nurse in Ohio") we come back to in every chapter.
+3. Open loops: in the first minute, promise what we will find out ("by the end, you'll see why ..."),
+   and in every chapter plant one small question that the next chapter answers.
+4. Fewer hedges: say things plainly when the facts are solid. Keep "may" or "about" only where it is truly uncertain.
+5. Show, don't tell: use a concrete scene, a real price, or a small moment (a phone call, a receipt,
+   a headline) instead of a general statement.
+6. Every chapter ends with a bridge line that pulls into the next one ("But that was only the first problem.").
+7. Calm and honest: no clickbait, no fake drama, no random jokes, no "you won't believe".
+8. End: a clear takeaway the viewer can use, then one line that leads into another video on the channel.
+
+Before the code block, write 3 short lines: who the main character is, the promise in the first minute,
+and the spoken word count.
+
+Reply "Ready" and wait for the first script.
+```
+
+---
+
 ## DAY BLOCKS (paste one after the master prompt)
 
 ### DAY 2
