@@ -92,14 +92,23 @@ NARRATOR = [(r"\?", "A06_narrator_thinking"),
             (r"\b(here's|first|second|third|means|called|think of|imagine|picture)\b", "A38_narrator_teacher_pointer")]
 
 
+GENERIC = {"D13_chart_arrow_up", "D14_chart_arrow_down", "E23_hourglass", "E25_calendar", "E24_clock",
+           "E48_question_marks", "G13_map_usa_grey", "E01_cash_stack", "C28_crowd_small", "E36_cart_full"}
+
+
 def sentence_props(s, limit=3):
+    """Concrete things first (a bank, a tank, bread), then general ideas (up, down, time), each in spoken order."""
+    if re.search(r"\bstocks?\b|ticker|shares?\b|market", s, re.I):
+        s_prices = re.sub(r"\bprices?\b", "", s, flags=re.I)      # stock prices are not shopping prices
+    else:
+        s_prices = s
     hits = []
     for rx, code in _KW:
-        m = rx.search(s)
+        m = rx.search(s_prices)
         if m:
-            hits.append((m.start(), code))
+            hits.append((code in GENERIC, m.start(), code))
     out = []
-    for _, c in sorted(hits):
+    for _, _, c in sorted(hits):
         if c not in out and not (c == "E48_question_marks" and len(hits) > 2):
             out.append(c)
     return out[:limit]

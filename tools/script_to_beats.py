@@ -118,7 +118,7 @@ def scene(el, v):
         return out
     if v == 2:
         props = [e for e in el if "@" in e and not e.startswith("note") and not PEOPLE.match(e.split("@")[0])]
-        if props:
+        if len(props) == 1:                             # close-up only when the sentence names one thing
             code = props[0].split("@")[0]
             word = re.search(r':"[^"]*"', props[0].split("@")[1])
             return [f"{code}@0.5,0.6:0.76" + (word.group(0) if word else "")]
@@ -128,8 +128,10 @@ def scene(el, v):
 def sentence_elements(s, j, person, spare):
     """What this one sentence shows: a person, its key number on a sign, and the things it names."""
     props = [c[:3] for c in sv.sentence_props(s)]
-    if not props:                                   # nothing named: fall back to the script's VISUAL note
-        props = spare[j % len(spare):][:2] if spare else []
+    if "G11" in props and "E37" in props:          # "prices fell" about stocks, not shopping
+        props.remove("E37")
+    if not props and re.search(r"!|catastroph|disaster|terrible|worst|shock", s, re.I):
+        props = ["E49"]                             # nothing named: just the narrator's reaction
     who = person or sv.narrator_for(s, j)[:3]
     out = [f"{who}@{PEOPLE_SLOTS[0]}"]
     sign = sv.number_sign(s)
@@ -177,7 +179,7 @@ def main(script, vdir):
             a, b = sents[k].split(", ", 1)
             sents[k:k + 1] = [a + ",", b]
         para = [it["code"] for it in visual_items(ln["visual"]) if "code" in it]
-        chars = [c for c in para if PEOPLE.match(c) and not re.match(r"^(A\d\d|H0\d)$", c)]
+        chars = [c for c in para if PEOPLE.match(c) and not re.match(r"^(A\d\d|H0\d|C28)$", c)]   # C28 = a crowd, not a person
         if chars:
             last_person = chars[0]                 # the story's person (not the narrator) stays on screen
         spare = [c for c in para if not PEOPLE.match(c)]
