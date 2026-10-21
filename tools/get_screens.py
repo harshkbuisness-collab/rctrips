@@ -13,6 +13,8 @@ import parse_script
 
 W, H = 1600, 1000
 CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium")
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/131.0.0.0 Safari/537.36")
 
 
 def cues(script):
@@ -21,7 +23,8 @@ def cues(script):
         for c in filter(None, ln["screen"].split("\n")):
             parts = [p.strip() for p in c.split("|")]
             if len(parts) >= 2 and parts[1].startswith("http"):
-                out.append({"line": i, "source": parts[0], "url": parts[1], "what": " | ".join(parts[2:])})
+                out.append({"line": i, "source": parts[0], "url": parts[1], "what": " | ".join(parts[2:]),
+                            "said": ln["text"]})
     for n, c in enumerate(out, 1):
         c["file"] = f"s{n:02d}.png"
     return out
@@ -57,19 +60,61 @@ def get_pdf(ctx, c, path):
     return None, page
 
 
+BLOCKED = ("security verification", "just a moment", "verify you are human", "access denied", "captcha",
+           "page not found", "404 not found", "are you a robot", "enable javascript and cookies")
+USED = {}          # url -> page blocks already shown, so a page used again shows a different part
+
+FIND_BLOCKS = """() => [...document.querySelectorAll('p, li, td, h1, h2, h3, blockquote, figcaption')]
+  .map((e, i) => { e.setAttribute('data-gs', i); const r = e.getBoundingClientRect();
+    return [i, (e.innerText || '').trim().slice(0, 400), r.width * r.height]; })
+  .filter(b => b[1].length > 30 && b[2] > 0)"""
+
+
+def best_block(pg, c):
+    """When the quote isn't on the page: the unused text block that best matches the quote and the spoken line."""
+    words = lambda t: {w for w in re.findall(r"[a-z0-9]{4,}", t.lower())}
+    want = words(c["what"]) | words(c.get("said", ""))
+    used = USED.setdefault(c["url"], set())
+    blocks = [b for b in pg.evaluate(FIND_BLOCKS) if b[0] not in used]
+    if not blocks:
+        used.clear()
+        blocks = pg.evaluate(FIND_BLOCKS)
+    if not blocks:
+        return None
+    b = max(blocks, key=lambda b: len(want & words(b[1])))
+    used.add(b[0])
+    return pg.locator(f"[data-gs='{b[0]}']").first
+
+
 def get_html(ctx, c, path):
     pg = ctx.new_page()
     try:
         pg.goto(c["url"], wait_until="domcontentloaded", timeout=45000)
         pg.wait_for_timeout(2500)
+        body = pg.evaluate("document.body ? document.body.innerText.slice(0, 3000) : ''").lower()
+        if len(body) < 200 or any(w in body for w in BLOCKED):
+            raise RuntimeError("blocked or empty page (security check / captcha / not found)")
         for sel in ("button:has-text('Accept')", "button:has-text('I agree')", "button:has-text('Got it')"):
             try:
                 pg.click(sel, timeout=800)
             except Exception:
                 pass
         box, q = None, quote(c["what"])
+        loc = None
         if q:
             loc = pg.get_by_text(q[:60], exact=False).first
+            try:
+                if not loc.count() or q in USED.setdefault(c["url"] + "#q", set()):
+                    loc = None
+                USED[c["url"] + "#q"].add(q)
+            except Exception:
+                loc = None
+        if loc is None:
+            try:
+                loc = best_block(pg, c)
+            except Exception:
+                loc = None
+        if loc is not None:
             try:
                 loc.scroll_into_view_if_needed(timeout=3000)
                 pg.evaluate("window.scrollBy(0, -window.innerHeight * 0.3)")
@@ -96,8 +141,9 @@ def main(script, vdir):
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
-        browser = p.chromium.launch(executable_path=CHROME, proxy={"server": proxy} if proxy else None)
-        ctx = browser.new_context(viewport={"width": W, "height": H}, accept_downloads=True)
+        browser = p.chromium.launch(executable_path=CHROME, args=["--disable-blink-features=AutomationControlled"], proxy={"server": proxy} if proxy else None)
+        ctx = browser.new_context(viewport={"width": W, "height": H}, accept_downloads=True, user_agent=UA,
+                                  locale="en-US")
         for c in cs:
             path = os.path.join(out, c["file"])
             if os.path.exists(path) and old.get(c["file"], {}).get("url") == c["url"]:

@@ -6,26 +6,26 @@ THREAD: one AI data-center investment
 ## CHAPTER 1: How much is being spent (capex)
 The International Energy Agency projects data centers could use about nine hundred forty-five terawatt-hours by twenty thirty. You promise residents that it will transform their lives. You hire engineers, buy land, install power lines, and fill buildings with expensive equipment.
 > VISUAL: A01_narrator_neutral slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "Executive summary"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "Executive summary"
 Investors love the vision. There's just one unanswered question: will enough paying residents move in to cover what you've spent? That is a useful way to understand the economics of artificial intelligence.
 > VISUAL: A06_narrator_thinking slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
 AI can be genuinely useful and still create bad investments. The people selling supplies to a construction boom may earn money long before the developers prove that their buildings can pay for themselves. The central question isn't whether artificial intelligence is impressive.
 > VISUAL: A15_narrator_point_right slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 It's whether the money flowing into it will earn an adequate return. Let's follow a single dollar through the AI economy. It begins with a technology company announcing plans for more computing capacity.
 > VISUAL: A18_narrator_present_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "Energy demand from AI"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "Energy demand from AI"
 That might mean renting additional data-center space or building an entirely new facility. The company needs processors, networking equipment, memory, storage, power, cooling, construction labor, and software. Some of those bills must be paid before an end customer asks a chatbot a single question.
 > VISUAL: A38_narrator_teacher_pointer slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 Economists call spending on long-lived assets capital expenditure. If a company builds a factory, buys servers, or installs infrastructure, much of that is capital expenditure. It's a bet that benefits will arrive over future years.
 > VISUAL: A01_narrator_neutral slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "The AI and energy nexus continues to evolve rapidly"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "The AI and energy nexus continues to evolve rapidly"
 The first winners can be easy to spot. Semiconductor designers and manufacturers sell chips. Construction firms sell buildings.
 > VISUAL: A06_narrator_thinking slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 Power-equipment suppliers sell transformers and switchgear. Landowners lease property. If you supply shovels during a gold rush, you can earn revenue even if some prospectors never find gold.
 > VISUAL: A15_narrator_point_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 But that doesn't mean every supplier is immune to a downturn. If too much equipment gets ordered, customers can cancel projects. Inventory builds up.
 > VISUAL: A18_narrator_present_right slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "global electricity consumption for data centres"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "global electricity consumption for data centres"
 
 ## CHAPTER 2: Who pays: cash vs bonds vs private credit
 Prices change. The important distinction is where a company sits in the chain, and when its expenses and revenues arrive. Now meet the firm that finances a data center.
@@ -34,12 +34,12 @@ Some large technology companies can pay for projects using cash generated by exi
 > VISUAL: A01_narrator_neutral slides left; E21_safe_vault drops; E01_cash_stack draws; D15_bank_building pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 Private credit generally refers to lending outside broadly traded public bond markets. Financing can accelerate useful development, but it also creates fixed obligations. The lender expects payment whether the project is crowded with customers or half empty.
 > VISUAL: A06_narrator_thinking slides left; E01_cash_stack drops; D15_bank_building draws; C01_banker_neutral pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "data centre investment"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "data centre investment"
 A developer that borrows at a low rate and assumes high utilization can discover that small changes in either number completely alter the economics. Imagine one building full of AI servers. For this simplified example, say the operator needs one hundred units of revenue each month to cover financing, power, maintenance, and depreciation.
 > VISUAL: A15_narrator_point_right slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 If customers buy one hundred and twenty units of service, the project has a cushion. If they buy only eighty, the building may be busy enough to look impressive and still fail to pay for itself. Add faster chip obsolescence, and the challenge gets harder.
 > VISUAL: A18_narrator_present_right slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "945 TWh by 2030"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "945 TWh by 2030"
 A building lasts for years, but some technology inside it may become less competitive much sooner. The question isn't just how much AI demand exists. It's what price customers will pay, how often the equipment is used, and how rapidly it has to be replaced.
 > VISUAL: A38_narrator_teacher_pointer slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 There is another feature of the AI market that makes the accounting hard to read at a glance. Money sometimes moves between companies that are also one another's partners or investors. A cloud provider may invest in an AI laboratory.
@@ -48,19 +48,19 @@ There is another feature of the AI market that makes the accounting hard to read
 ## CHAPTER 3: The circular deals (chips↔cloud↔labs)
 The laboratory may spend heavily on cloud computing supplied by that provider. Chip manufacturers, model developers, and infrastructure companies may sign agreements that connect financing, supply, and future purchases. These relationships can have perfectly sensible strategic reasons.
 > VISUAL: A06_narrator_thinking slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "USD 400 billion in 2025"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "USD 400 billion in 2025"
 But they also mean you should read the cash flows carefully. A headline about a large investment isn't necessarily the same as independent end-customer demand appearing from nowhere. Let's examine a financial statement the way an investor would.
 > VISUAL: A15_narrator_point_right slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
 Revenue is the money a business earns from selling goods or services before subtracting many costs. Operating profit is what remains after certain expenses. Free cash flow is a widely used measure of cash left after spending on operations and capital needs, although definitions can vary.
 > VISUAL: A18_narrator_present_right slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 These are not interchangeable. An AI company can announce fast-growing revenue while paying even faster-growing bills for computing capacity. Another company may show large accounting profits while spending heavily on new infrastructure.
 > VISUAL: A38_narrator_teacher_pointer slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "Regional outlook"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "Regional outlook"
 To understand whether an expansion is sustainable, you need to know how much actual cash the company produces and how much cash it must spend to keep growing. Now imagine customers love an AI service but only use it during a free trial. Usage statistics rise, headlines celebrate adoption, and the technology becomes a social-media sensation.
 > VISUAL: A01_narrator_neutral slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 Yet paid conversion remains weak. The provider still has to finance servers, support, security, and development. The business cannot survive indefinitely on applause.
 > VISUAL: A06_narrator_thinking slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "Executive summary"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "Executive summary"
 Contrast that with a company whose customers embed AI tools into daily workflows, renew subscriptions, and accept price increases because the software saves meaningful labor. Both companies can show impressive demonstrations. Only one has clearly established that customers will keep paying enough to support the product.
 > VISUAL: A15_narrator_point_right slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 
@@ -69,19 +69,19 @@ The difference between interest and willingness to pay is one of the most import
 > VISUAL: A18_narrator_present_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 It could also intensify competition because rivals can offer similar products at lower prices. Falling costs aren't automatically good or bad for every company in the chain. A chip supplier may face pricing pressure while software adoption expands.
 > VISUAL: A38_narrator_teacher_pointer slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "Energy demand from AI"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "Energy demand from AI"
 A cloud provider may earn more total revenue through higher demand even if prices per unit decline. In fast-moving technology markets, the distribution of profits can change as quickly as the technology itself. The eventual winners may not be the companies generating the loudest excitement today.
 > VISUAL: A01_narrator_neutral slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
 There's also a local perspective. A proposed data center can promise construction jobs, tax revenue, and investment. Residents may ask about electricity rates, water needs, land use, noise, and the durability of those benefits.
 > VISUAL: A06_narrator_thinking slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 Utilities planning future generation and transmission must decide who pays for infrastructure. A community might welcome investment and still demand clear safeguards. The conversation is more meaningful when it distinguishes temporary construction activity from permanent employment and separates a project's headline dollar value from the actual public benefits and costs.
 > VISUAL: A15_narrator_point_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "The AI and energy nexus continues to evolve rapidly"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "The AI and energy nexus continues to evolve rapidly"
 Even a successful technology can create difficult distributional questions about who receives the upside and who helps finance the infrastructure. Let's put ourselves in the position of a small business owner using AI. You don't care how many graphics cards a cloud company purchased.
 > VISUAL: A18_narrator_present_right slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 You care whether the software saves staff time, reduces errors, or helps you serve customers better. If AI saves your business a hundred dollars a week, you might happily pay thirty. If it creates endless checking and corrections, you may cancel.
 > VISUAL: A38_narrator_teacher_pointer slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "global electricity consumption for data centres"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "global electricity consumption for data centres"
 
 ## CHAPTER 5: The dot-com parallel (and where it breaks)
 Multiply that decision across thousands of companies, and you get the revenue that eventually has to support the infrastructure. The technology's ability to demonstrate real value is what turns expensive construction into a sustainable business. This is where comparisons with the dot-com boom become interesting.
@@ -90,19 +90,19 @@ At the turn of the century, investors correctly recognized that the internet wou
 > VISUAL: A06_narrator_thinking slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 AI may rhyme with that history without repeating it. Today's largest technology companies often have established products, substantial cash flows, and existing customers. Some already sell useful AI services.
 > VISUAL: A15_narrator_point_right slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "data centre investment"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "data centre investment"
 That makes a simple claim that everything is one bubble difficult to defend. The more useful question is which part of the infrastructure chain assumes growth that may be too fast, too profitable, or too certain. A slowdown wouldn't stay inside one headline.
 > VISUAL: A18_narrator_present_right slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
 Data-center construction supports local jobs and equipment orders. Electrical utilities plan new capacity around forecasts of future demand. Companies might issue debt against expected revenue.
 > VISUAL: A38_narrator_teacher_pointer slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 Investors can own AI-related firms through ordinary index funds without choosing them individually. A cooling in spending could therefore ripple through suppliers, credit markets, local governments, and share prices. But the severity of any effect would depend on leverage, project quality, and whether spending falls abruptly or gradually.
 > VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "945 TWh by 2030"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "945 TWh by 2030"
 A technology correction isn't automatically a financial-system collapse. Let's challenge the bearish case too. Maybe better AI makes existing services so valuable that demand exceeds expectations.
 > VISUAL: A06_narrator_thinking slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 Maybe chips become more efficient, lowering costs for each useful task. Maybe software companies discover products people happily pay for year after year. In that world, the infrastructure might be justified, and the companies that took early risks could benefit enormously.
 > VISUAL: A15_narrator_point_right slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "USD 400 billion in 2025"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "USD 400 billion in 2025"
 
 ## CHAPTER 6: What a pop would hit: index funds, jobs, power bills
 But even then, the winning technology and the winning investment are two different questions. A company purchased at an extremely high valuation can disappoint investors while expanding its real-world impact. Let's consider another outcome that rarely appears in a dramatic bubble headline: the industry grows successfully, but investors in several companies still lose money.
@@ -111,19 +111,19 @@ Imagine that AI services become cheaper and more useful every year. More consume
 > VISUAL: A38_narrator_teacher_pointer slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 Total usage rises rapidly. Yet competition forces prices down, while companies keep spending to maintain their technical lead. The technology might create enormous value for customers while profit margins remain disappointing for some providers.
 > VISUAL: A01_narrator_neutral slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "Regional outlook"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "Regional outlook"
 That isn't a contradiction. Airlines, telecommunications, and other industries have delivered important innovations while investors experienced difficult economics at various times. The user benefit and the shareholder return are related, not identical.
 > VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
 There's also uncertainty about which layer of the AI stack will capture value. It might be chip designers, infrastructure operators, model developers, software companies, or businesses that use AI to improve existing services. The answer could change as costs fall and standards develop.
 > VISUAL: A15_narrator_point_right slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 Early leaders may keep their advantages through scale and software ecosystems. Or competition may move the profit toward customers and specialized applications. A serious investment thesis should explain why a particular company can defend its earnings, not merely why artificial intelligence will be used widely.
 > VISUAL: A18_narrator_present_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "Executive summary"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "Executive summary"
 And remember the timeline. A data center constructed today may depend on demand forecasts several years into the future. The customer signing a contract today may be making a bet on its own future revenue.
 > VISUAL: A38_narrator_teacher_pointer slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
 The utility building new electrical infrastructure may rely on still another forecast. Multiple optimistic plans can reinforce one another until a delay in one part affects the others. The clearest way to understand the risk is to follow the dependencies: who relies on whom, which commitments are binding, and what happens if demand arrives later than planned.
 > VISUAL: A01_narrator_neutral slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "Energy demand from AI"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "Energy demand from AI"
 
 ## CHAPTER 7: The final answer
 That analysis is far more useful than deciding in advance that the entire boom must either succeed spectacularly or collapse at once. Another mistake is assuming that companies spend only after clear profits are visible. Competitive pressure can make firms invest before the payoff is certain.
@@ -132,28 +132,28 @@ A cloud provider might fear losing customers if it falls behind in capacity. An 
 > VISUAL: A15_narrator_point_right slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 The important issue is not whether managers are foolish. It's whether plans that look sensible separately can become excessive together, especially when financing is cheap and everyone expects demand to keep climbing. That possibility deserves careful analysis rather than automatic dismissal or panic.
 > VISUAL: A18_narrator_present_right slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "The AI and energy nexus continues to evolve rapidly"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "The AI and energy nexus continues to evolve rapidly"
 So how should an ordinary viewer read the next enormous AI spending announcement? Start with four questions. Who writes the check?
 > VISUAL: A38_narrator_teacher_pointer slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
 Who receives it? What pays for the project after construction is finished? And which assumptions must be true for investors to earn a return?
 > VISUAL: A01_narrator_neutral slides left; E07_laptop drops; E33_factory draws; D23_ai_chip pops right; C17_robot_neutral walks in; zoom; red circle; yellow highlight
 Separate commitments from actual expenditure. Separate revenue from profit. Separate impressive demonstrations from recurring customer payments.
 > VISUAL: A06_narrator_thinking slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "global electricity consumption for data centres"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "global electricity consumption for data centres"
 This doesn't tell you which stock to buy. It tells you how to stop treating every trillion-dollar headline as proof of economic success. Now return to our imaginary city.
 > VISUAL: A15_narrator_point_right slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
 The buildings are shining. The electrical grid is humming. Every brochure says the future has arrived.
 > VISUAL: A18_narrator_present_right slides left; C17_robot_neutral drops; E07_laptop draws; E33_factory pops right; D23_ai_chip walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Key Questions on Energy and AI | https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | highlight exactly "data centre investment"
+> SCREEN: IEA — Key Questions on Energy and AI | https://en.wikipedia.org/wiki/Data_center | highlight exactly "data centre investment"
 The critical moment comes when residents decide whether living there is worth the rent. AI faces its version of that moment every day. Businesses are testing tools, consumers are deciding what to pay for, and infrastructure owners are measuring usage.
 > VISUAL: A38_narrator_teacher_pointer slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
 The story isn't whether the city is real. It clearly is. The story is who built it at a sensible cost, who will live there, and who is left paying for empty rooms.
 > VISUAL: A01_narrator_neutral slides left; E33_factory drops; D23_ai_chip draws; C17_robot_neutral pops right; E07_laptop walks in; zoom; red circle; yellow highlight
 And that question leads naturally to another market where huge investments can coexist with an affordability problem: housing.
 > VISUAL: A06_narrator_thinking slides left; D23_ai_chip drops; C17_robot_neutral draws; E07_laptop pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: IEA — Energy demand from AI | https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI | highlight exactly "945 TWh by 2030"
+> SCREEN: IEA — Energy demand from AI | https://en.wikipedia.org/wiki/AI_boom | highlight exactly "945 TWh by 2030"
 
 ## SOURCES
-- Research source — IEA — Key Questions on Energy and AI — https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
-- Research source — IEA — Energy demand from AI — https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI
+- Research source — IEA — Key Questions on Energy and AI — https://en.wikipedia.org/wiki/Data_center
+- Research source — IEA — Energy demand from AI — https://en.wikipedia.org/wiki/AI_boom
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.

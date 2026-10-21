@@ -6,7 +6,7 @@ THREAD: one mortgage traveling through Wall Street
 ## CHAPTER 1: Cheap money after 2001
 The crisis of two thousand eight began years before the collapse of Lehman Brothers. The banker smiles. The real estate agent hands you a pen.
 > VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Financial Crisis Inquiry Commission"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
 Everyone tells you that property values only go up over time. You aren't particularly sure how the monthly payment will look after the introductory rate expires. But you can always refinance, they say.
 > VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
 Or sell the house at a profit. It sounds less like taking on a loan and more like receiving an invitation to the American dream. Now Picture that millions of versions of this conversation are happening across the country.
@@ -25,7 +25,7 @@ Lending to this second group was called subprime lending. Not every subprime loa
 > VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
 Others asked very little about the buyer's income. When a salesperson told Daniel that rising house prices would solve any future problem, he was really asking Daniel to gamble on tomorrow's market. Why would a lender take that chance?
 > VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Get the Report"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
 
 ## CHAPTER 2: Subprime and 'NINJA' loans
 The obvious answer should be that a bank loses money when a borrower cannot repay. But lending had changed. Many institutions did not keep mortgages until the final payment.
@@ -46,7 +46,7 @@ The problem was that models depended on assumptions about how many homeowners wo
 > VISUAL: A01_narrator_neutral slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
 And then Wall Street built another layer on top. Collateralized debt obligations, or CDOs, repackaged portions of loans and securities into new structures. Credit default swaps allowed parties to buy and sell protection against certain defaults, roughly like an insurance-style contract, though not identical to household insurance.
 > VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
 
 ## CHAPTER 3: Mortgage bonds and AAA ratings
 Some institutions used the contracts to hedge genuine exposure. Others used them to make bets. In principle, financial engineering can transfer risk to someone willing to bear it.
@@ -67,7 +67,7 @@ Borrowers whose payments reset higher could not always keep up. Defaults increas
 > VISUAL: A18_narrator_present_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
 This feedback loop turned a housing slowdown into something much worse. Now return to that box of mortgage payments. Investors began to question how much money would actually come out of it.
 > VISUAL: A38_narrator_teacher_pointer slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Financial Crisis Inquiry Commission"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
 Securities that had looked safe suddenly became difficult to price. And banks were not only investors. They depended on short-term borrowing to finance longer-term assets.
 > VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
 Imagine owning a building worth a million dollars, but paying for it with a loan that must be renewed every few days. If your lender becomes nervous and refuses to renew, you have a problem even if the building might be valuable over the next twenty years. Funding markets operate at enormous scale, and financial institutions rely on confidence that other people will keep lending.
@@ -90,7 +90,7 @@ There were also concerns about how rating agencies were paid by securities issue
 > VISUAL: A15_narrator_point_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 A strong financial system needs not only experts but also conditions that encourage those experts to challenge clients when the answer is uncomfortable. The crisis also revealed the role of liquidity. A financial asset can have economic value and still be difficult to sell quickly at a reasonable price.
 > VISUAL: A18_narrator_present_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Get the Report"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
 
 ## CHAPTER 5: The crack: falling home prices
 Investors learned that certain complicated securities had few willing buyers when fear rose. Banks holding those assets could face demands for collateral just as asset prices were falling. A firm that looked solvent using optimistic valuations might struggle to raise actual cash.
@@ -111,7 +111,7 @@ Car buyers need financing. Municipalities borrow to maintain infrastructure. If 
 > VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 As uncertainty grew, firms cut jobs and postponed investment. Families reduced spending. Falling spending hurt businesses, which then cut back further.
 > VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
 Unemployment climbed, home values fell, and households watched savings shrink. The financial crisis became a recession that reached well beyond the original mortgages. The United States was at the center, but banks and investors around the world held related assets, so the damage crossed borders.
 > VISUAL: A15_narrator_point_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
 
@@ -132,7 +132,7 @@ That human cost is why an explanation focused only on Wall Street misses half th
 > VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 It does not make the borrower's future payments more certain. If thousands of investors hold pieces of the same underlying economic problem, they may become connected in ways their models did not fully capture. Financial innovation can be useful, but the basic obligation underneath it still matters.
 > VISUAL: A38_narrator_teacher_pointer slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Financial Crisis Inquiry Commission"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
 
 ## CHAPTER 7: Bailouts and TARP
 Daniel either can or cannot afford the mortgage when his circumstances change. That reality survives every clever label attached to the security. One reason the lesson remains relevant is that the architecture of financial products can change faster than the understanding of ordinary investors.
@@ -153,10 +153,10 @@ A responsible system should make clear what he's signing, what happens if prices
 > VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
 If governments could create emergency liquidity to stop the collapse, why can't they simply create money whenever the economy needs it?
 > VISUAL: A15_narrator_point_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://fcic.law.stanford.edu/report | highlight exactly "Get the Report"
+> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
 
 ## SOURCES
-- Research source — Financial Crisis Inquiry Commission — Report — https://fcic.law.stanford.edu/report
+- Research source — Financial Crisis Inquiry Commission — Report — https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission
 - Research source — Federal Reserve — 2007 Monetary Policy Report — https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm
 - Research source — Federal Reserve History — Banking Panics — https://www.federalreservehistory.org/essays/banking-panics-1930-31
 - VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
