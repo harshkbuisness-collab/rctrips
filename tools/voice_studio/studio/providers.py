@@ -77,7 +77,7 @@ class Edge:
             _fix_certs()
             import edge_tts
             vs = await edge_tts.list_voices(proxy=_proxy())
-            Edge._cache = [{"id": v["ShortName"], "name": v["ShortName"].split("-")[-1].replace("Neural", ""),
+            Edge._cache = [{"id": v["ShortName"], "name": v["ShortName"].split("-")[-1].replace("Neural", "").replace("Multilingual", " Multilingual ★"),
                             "gender": v.get("Gender", ""), "accent": v["Locale"]}
                            for v in vs if v["Locale"].startswith("en-")]
             Edge._cache.sort(key=lambda v: (v["accent"] != "en-US", v["accent"], v["name"]))

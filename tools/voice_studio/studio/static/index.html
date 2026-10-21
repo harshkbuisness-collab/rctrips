@@ -138,7 +138,7 @@ async function loadVoices() {
   } catch (e) { $("#voices").innerHTML = `<span class="err">${esc(e.message)}</span>`; state.voices = []; return; }
   const saved = store.get("voice:" + pid, "");
   state.voice = state.voices.some(v => v.id === saved) ? saved
-             : (state.voices.find(v => /Andrew|Ava|onyx|af_heart/i.test(v.id)) || state.voices[0] || {}).id || "";
+             : (state.voices.find(v => /AndrewMultilingual|onyx|af_heart/i.test(v.id)) || state.voices[0] || {}).id || "";
   renderVoices();
 }
 
