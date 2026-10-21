@@ -1,149 +1,211 @@
 # Day 09: Rockefeller: How the First Billionaire Actually Did It
-TITLES: Rockefeller: How the First Billionaire Actually Did It | Rockefeller: How the First Billionaire Actually Did It | Rockefeller
-THUMBNAIL: OIL EMPIRE — narrator and the main financial object
-THREAD: one Cleveland oil refinery
+TITLES: Rockefeller: How the First Billionaire Actually Did It | How One Man Controlled 90% of America's Oil | The Monopoly That the Supreme Court Broke Up
+THUMBNAIL: 90% OF ALL OIL — a stern man in a suit holding the whole map of America on a string of oil barrels
+THREAD: Thomas Walsh, a small oil refiner in Cleveland, whose business crosses paths with Rockefeller
 
-## CHAPTER 1: Childhood and the con-man father
-By eighteen eighty, one company refined about nine out of every ten barrels of oil in America. Picture yourself running a small oil refinery in Cleveland in the eighteen seventies. You're trying to sell a useful product: kerosene that families can use to light their homes. You spend money on barrels, workers, transport, and raw oil.
-> VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
-Your biggest problem isn't producing the oil. It's moving it. Railroad companies control the routes to your customers, and transport costs can decide whether your business survives.
-> VISUAL: A06_narrator_thinking slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-Now Picture a competitor who negotiates better rates, buys struggling refineries, and eventually becomes so powerful that much of the industry has to deal with him on his terms. His name is John D. Rockefeller.
-> VISUAL: A15_narrator_point_right slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "1911"
-The strange thing about his story is that the government eventually broke his empire into pieces, yet his fortune did not simply disappear. Rockefeller grew up in a family where financial stability wasn't guaranteed. His father was a traveling salesman known for questionable practices, while his mother emphasized discipline and thrift.
-> VISUAL: A18_narrator_present_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-Young John became intensely interested in keeping accounts. As a teenager he worked in bookkeeping, learning something most people find boring and he found fascinating: a small difference in cost becomes enormous when repeated thousands of times. When the oil business expanded around the Civil War era, Rockefeller saw an industry full of waste, unpredictable prices, and opportunities to organize production.
-> VISUAL: A38_narrator_teacher_pointer slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-He wasn't the first person to notice oil. He was unusually determined to turn an unstable business into a system he could control. Oil refining made sense to him because crude oil was not yet a consumer product.
-> VISUAL: A01_narrator_neutral slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "John D. Rockefeller"
-It needed processing before people could use it effectively. Refineries turned it into products such as kerosene. But the early business was messy.
-> VISUAL: A06_narrator_thinking slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-Firms duplicated equipment, rushed into new markets, and suffered when prices swung. Rockefeller and his partners believed efficiency could become a lasting advantage. Standard Oil invested in scale and cost control.
-> VISUAL: A15_narrator_point_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "railroads"
+## CHAPTER 1: The Visit
+[calm] By eighteen eighty, one company refined about nine out of every ten barrels of oil in America. Picture yourself running a small oil refinery in Cleveland in the eighteen seventies.
+> VISUAL: A08_narrator_shocked slides in from the left; D17_oil_barrel drops in; H18 sign pops in "9 OUT OF 10"; G13_map_usa_grey pops in; E25_calendar pops in "1880"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Standard_Oil | highlight "Standard Oil"
+Let's call you Thomas Walsh. Your refinery is small but proud. You turn crude oil into kerosene, the fuel families burn in their lamps every night.
+> VISUAL: H13_bowtie_man_smug walks in from the left; E33_factory drops in; D17_oil_barrel pops in; E17_light_bulb pops in; E35_small_house pops in
+Before kerosene, many homes were lit by expensive whale oil or smoky candles. Kerosene was cheap and bright. Every family wanted it.
+> VISUAL: E17_light_bulb drops in; E31_cargo_ship pops in; H17 price tag pops in "WHALE OIL $$$"; C28_crowd_small pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Whale_oil | highlight "Whale oil"
+Business is good. But one day in eighteen seventy-two, a quiet, serious man visits your office. He makes you an offer.
+> VISUAL: E25_calendar pops in "1872"; E15_desk drops in; C01_banker_neutral walks in from the right; E51_speech_bubble pops in
+Thomas has six workers and a wagon. He knows every customer by name. He's saving up to build a second tank, so he can refine more oil each week.
+> VISUAL: H13_bowtie_man_smug walks in from the left; C28_crowd_small pops in; E41_car pops in; D17_oil_barrel drops in
+He wants to buy your refinery. You can take cash, or shares in his company. And he makes it clear that if you say no, you probably won't survive.
+> VISUAL: C01_banker_neutral stays; E01_cash_stack pops in; D24_bond_document pops in; E44_warning_sign drops in; H14_bowtie_man_worried walks in from the left
+His name is John D. Rockefeller. Within a few weeks, he would buy up twenty-two of the twenty-six refineries in Cleveland.
+> VISUAL: H18 sign drops in "JOHN D. ROCKEFELLER"; E33_factory pops in; E33_factory pops in; H17 price tag pops in "22 of 26"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/John_D._Rockefeller | highlight "John Davison Rockefeller"
+Thomas asks for a week to think. Rockefeller says that's fine. But on his way out, he mentions that his company can ship oil far more cheaply than Thomas ever could.
+> VISUAL: H14_bowtie_man_worried walks in from the left; E25_calendar pops in "1 WEEK"; C01_banker_neutral walks in from the right; D17_oil_barrel pops in; A37_narrator_whisper pops in
+By the end of this video, you'll see exactly how he did it, why the government finally broke his company apart, and why breaking it up made him even richer.
+> VISUAL: A17_narrator_point_up slides in from the left; D17_oil_barrel pops in; E14_podium drops in; E30_broken_bridge pops in; E45_arrow_up_big pops in
+But first, you need to know who this man was, and where he came from. Because he didn't start rich at all.
+> VISUAL: A33_narrator_walking walks in from the left; E23_hourglass pops in; B11_penny_tiny drops in
 
-## CHAPTER 2: Bookkeeper to refiner
-It pursued better methods, used more parts of the raw material, and negotiated transport arrangements. These practices could reduce costs, but the story changes when efficiency becomes a way to squeeze the choices available to competitors. Consider a railroad that carries nearly all the barrels out of a region.
-> VISUAL: A18_narrator_present_right slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-If Standard Oil sends far more barrels than a small rival, it can negotiate significant rebates. A rebate is effectively a discount on shipping. That alone can give a large customer an advantage.
-> VISUAL: A38_narrator_teacher_pointer slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-Historical arrangements were more controversial than ordinary volume discounts, including secret concessions and contracts that put pressure on rivals. If one refinery pays less to reach customers, it can lower prices or earn higher margins. A rival might produce equally good kerosene but fail because its transport bill is too high.
-> VISUAL: A01_narrator_neutral slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "monopolies"
-The company that wins the railroad agreement can shape the competition before customers ever see the product. Rockefeller then acquired competitors, sometimes through transactions made under severe pressure. During the rapid consolidation of Cleveland refineries in eighteen seventy-two, the episode later became known as the Cleveland Massacre.
-> VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-The name doesn't mean a literal massacre. It reflects the speed and intensity with which independent refiners lost control of their businesses. Some owners accepted offers because they saw the direction of the market.
-> VISUAL: A15_narrator_point_right slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
-Others resented the tactics and felt they had little practical choice. It's important not to flatten all acquisitions into theft. Buying another company can be legitimate and productive.
-> VISUAL: A18_narrator_present_right slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-The historical criticism concerns the combination of purchasing power, transport advantages, secrecy, and conduct that reduced competition. As Standard Oil grew, ordinary corporate structures became awkward for coordinating operations across multiple states. The trust structure helped its owners centralize control of a sprawling business.
-> VISUAL: A38_narrator_teacher_pointer slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
+## CHAPTER 2: The Bookkeeper
+[calm] John D. Rockefeller was born in eighteen thirty-nine, in a small town in upstate New York. His father was a traveling salesman who was often away, and not always honest.
+> VISUAL: E25_calendar drops in "1839"; G13_map_usa_grey pops in "New York"; E35_small_house pops in; H09_guy_curly_neutral walks in from the right
+His mother was the opposite. Strict, careful, and religious. She taught him to save, to work hard, and to waste nothing.
+> VISUAL: C13_retiree_neutral walks in from the left; H22_book_open pops in; E04_coin_pile pops in; E21_safe_vault drops in
+At sixteen, in Cleveland, he got his first real job as an assistant bookkeeper for a company that shipped goods. He was paid about fifty cents a day.
+> VISUAL: E15_desk drops in; H22_book_open pops in; H17 price tag pops in "50¢ a day"; E25_calendar pops in "1855"
+He saved most of what he earned. By his early twenties, he had enough to start a small trading business with a partner, buying and selling grain and other goods.
+> VISUAL: E21_safe_vault pops in; E04_coin_pile drops in; H20_box_open pops in "GRAIN"; E41_car pops in
+For the rest of his life, he celebrated the day he got that job, like a second birthday.
+> VISUAL: E25_calendar pops in; H27_heart pops in; E28_trophy drops in; A02_narrator_happy slides in from the left
+He loved numbers. He kept a small notebook where he wrote down every cent he earned, spent, and gave to his church.
+> VISUAL: H22_book_open drops in; E04_coin_pile pops in; D27_calculator_shocked pops in; A39_narrator_magnifying slides in from the left
+His boss once asked him to check a bill from a plumber. Rockefeller went through it line by line and found mistakes. People said he never stopped checking.
+> VISUAL: H15_paper_note_blank drops in; E16_magnifying_glass pops in; D27_calculator_shocked pops in; A39_narrator_magnifying slides in from the left
+In eighteen fifty-nine, oil was discovered in western Pennsylvania. It started a gold rush, except the gold was black and sticky.
+> VISUAL: E32_oil_rig drops in; D17_oil_barrel pops in; E05_gold_bars pops in; C28_crowd_small pops in; E25_calendar pops in "1859"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Drake_Well | highlight "Drake Well"
+Thousands of people rushed in to drill. Prices swung wildly. One month, oil was worth a lot. The next month, almost nothing, because everyone pumped too much.
+> VISUAL: C28_crowd_small drops in; E32_oil_rig pops in; D13_chart_arrow_up draws on; D14_chart_arrow_down draws on
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Pennsylvania_oil_rush | highlight "Pennsylvania oil rush"
+Rockefeller noticed something. Drilling was a gamble. But refining, turning crude oil into useful kerosene, was steadier. Everyone needed refiners, whoever struck oil.
+> VISUAL: A06_narrator_thinking slides in from the left; E32_oil_rig pops in; E33_factory drops in; E17_light_bulb pops in
+So in eighteen sixty-three, at age twenty-three, he invested in a refinery. And he hated chaos. His plan was to make the messy oil business orderly, and to control it.
+> VISUAL: E33_factory drops in; E25_calendar pops in "1863"; E22_scale pops in; E27_crown pops in
+In eighteen seventy, he and his partners formed a new company. They named it Standard Oil, because they promised a standard, reliable kerosene.
+> VISUAL: E34_skyscraper drops in; H18 sign pops in "STANDARD OIL"; D17_oil_barrel pops in; E28_trophy pops in
+> SCREEN: Ohio History Central | https://ohiohistorycentral.org/w/Standard_Oil_Company | highlight "Standard Oil Company"
+But being the best refiner wasn't enough for Rockefeller. He found a secret weapon. And it ran on railroad tracks.
+> VISUAL: A37_narrator_whisper slides in from the left; E30_broken_bridge drops in; E41_car pops in; E48_question_marks pop in
 
-## CHAPTER 3: Railroad rebates
-At its height, Standard Oil dominated American refining to an extraordinary degree. That mattered because refining sat between producers and consumers. If one organization controls enough of the middle, it may influence prices, terms, and the ability of others to compete.
-> VISUAL: A01_narrator_neutral slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "1911"
-The public could benefit from cheaper, more reliable kerosene and still face risks from concentrated economic power. That's the central tension of Rockefeller's story: a company could become more efficient while the market around it became less open. Let's look more closely at the incentive structure of an industry controlled by transport bottlenecks.
-> VISUAL: A06_narrator_thinking slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-A refinery can improve its equipment, train better workers, and reduce waste. But it still must ship products to customers. If its shipping cost is significantly higher than a competitor's, every gallon starts with a disadvantage.
-> VISUAL: A15_narrator_point_right slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "John D. Rockefeller"
-Over thousands of barrels, a small difference becomes a large gap in potential profit. Rockefeller's attention to accounting helped him understand these cumulative differences. It also meant he could recognize when controlling or influencing a transport arrangement was more valuable than upgrading another piece of machinery.
-> VISUAL: A18_narrator_present_right slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-The competitive advantage wasn't only inside Standard Oil's factories. It increasingly lived in the relationships surrounding them. Now imagine an independent business owner receiving an offer to sell.
-> VISUAL: A38_narrator_teacher_pointer slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "railroads"
-The amount might be attractive in isolation. The owner has spent years taking risks, and selling can secure the family's future. But consider the alternative.
-> VISUAL: A01_narrator_neutral slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-What if the owner's shipping costs are rising, suppliers face pressure, and access to market depends on an increasingly powerful rival? An offer made within that environment feels different from one made in a genuinely open competitive market. Historical accounts describe a range of experiences, and they shouldn't all be flattened into identical cases.
-> VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
+## CHAPTER 3: The Secret Deals
+[calm] Oil is heavy. To sell it across the country, refiners had to ship it by railroad. And shipping costs could decide who lived and who died in business.
+> VISUAL: D17_oil_barrel drops in; E30_broken_bridge pops in; H17 price tag pops in "SHIPPING $$$"; E22_scale pops in
+Rockefeller shipped so much oil that he could make the railroads compete for his business. He demanded discounts, called rebates.
+> VISUAL: D17_oil_barrel pops in; D17_oil_barrel pops in; D17_oil_barrel pops in; C01_banker_neutral walks in from the right; H17 price tag pops in "REBATE"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/South_Improvement_Company | highlight "South Improvement Company"
+He also promised the railroads a steady flow of oil every single day. For a railroad, a big, reliable customer was worth a lot. So they gave in.
+> VISUAL: E30_broken_bridge drops in; D17_oil_barrel pops in; E24_clock pops in; C01_banker_neutral walks in from the right; E51_speech_bubble pops in
+Big customers often get discounts. That's normal. But Rockefeller went further. In some deals, the railroads also paid him part of what his competitors paid to ship their oil.
+> VISUAL: A05_narrator_suspicious slides in from the left; H13_bowtie_man_smug walks in from the right; E02_money_bag pops in; red arrow from Thomas to Rockefeller
+Think about what that means for Thomas Walsh. Every barrel he shipped made his rival a little richer. He was paying to fund the company trying to crush him.
+> VISUAL: H14_bowtie_man_worried walks in from the left; D17_oil_barrel pops in; E02_money_bag pops in; C01_banker_neutral pops in; A13_narrator_facepalm slides in from the right
+With cheaper shipping, Standard Oil could sell kerosene for less than anyone else. Competitors lost customers, then lost money.
+> VISUAL: H17 price tag drops in "CHEAPER"; C28_crowd_small pops in; D14_chart_arrow_down draws on; D21_factory_sad pops in
+In some towns, Standard Oil would even cut its prices below cost, just long enough to drive a local rival out of business. Then prices could go back up.
+> VISUAL: H17 price tag drops in "below cost"; E35_small_house pops in; D21_factory_sad pops in; E45_arrow_up_big pops in
+That's when Rockefeller would visit, like he visited Thomas. Sell to me, and you'll get shares that make you rich. Refuse, and you'll compete against prices you can't match.
+> VISUAL: C01_banker_neutral walks in from the right; E01_cash_stack pops in; D24_bond_document pops in; E44_warning_sign drops in
+In early eighteen seventy-two, in just a few weeks, he bought twenty-two of Cleveland's twenty-six refineries. Historians later called it the Cleveland Massacre.
+> VISUAL: G13_map_usa_grey drops in "Cleveland"; E33_factory pops in; E33_factory pops in; H18 sign pops in "CLEVELAND MASSACRE"
+Thomas took the shares. He told his wife it was the hardest day of his life. Years later, those shares would make his family wealthy. But his own business was gone.
+> VISUAL: H14_bowtie_man_worried walks in from the left; D24_bond_document pops in; C11_worker_woman_happy walks in from the right; E20_trash_can drops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Cleveland_Massacre | highlight "Cleveland"
+Rockefeller didn't stop in Cleveland. He used the same playbook in Pittsburgh, Philadelphia, and New York. And he kept going.
+> VISUAL: G13_map_usa_grey drops in; E33_factory pops in; E33_factory pops in; E33_factory pops in; red arrow
+By eighteen eighty, Standard Oil controlled about ninety percent of all oil refining in America.
+> VISUAL: H18 sign drops in "90%"; D17_oil_barrel pops in; E27_crown pops in; A45_narrator_head_shocked pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Standard_Oil | highlight "90%"
+And to manage something that big, he invented a new kind of business structure. One that would give America a new word.
+> VISUAL: E34_skyscraper drops in; H22_book_open pops in; E17_light_bulb pops in; E48_question_marks pop in
 
-## CHAPTER 4: Swallowing Cleveland
-Still, consolidation can become self-reinforcing when a company gains scale, uses the scale to secure better terms, and then uses those terms to acquire still more businesses. There was a consumer argument in favor of some of this concentration. Standardized operations and scale can reduce costs.
-> VISUAL: A15_narrator_point_right slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "monopolies"
-Reliable refining can improve product quality and availability. A family buying kerosene cares whether the lamp works safely and whether fuel is affordable. If a large company supplies those things well, consumers may benefit in the short term.
-> VISUAL: A18_narrator_present_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-That is why monopoly questions are difficult. The harm isn't always an immediate price increase visible on tomorrow's receipt. It may be the reduction of future competitive pressure, fewer opportunities for entrepreneurs, or the power to shape the terms on which other businesses operate.
-> VISUAL: A38_narrator_teacher_pointer slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
-Competition can matter even when the current dominant company's products are good. The public debate around Standard Oil also involved the relationship between wealth and political influence. Large firms can afford lobbyists, legal teams, and public campaigns that smaller competitors cannot match.
-> VISUAL: A01_narrator_neutral slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-That doesn't prove every regulatory decision is corrupt. It raises a question about whether the same rules are being applied fairly and whether political institutions remain capable of challenging concentrated private power. The rise of antitrust enforcement reflected concern that markets should not be governed solely by the choices of one exceptionally successful corporation.
-> VISUAL: A06_narrator_thinking slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-People disagreed about how aggressively to intervene, and they still disagree in modern technology markets. Rockefeller's philanthropic legacy introduces another uncomfortable distinction. It is possible for money earned through controversial business methods to later fund institutions that deliver genuine public benefits.
-> VISUAL: A15_narrator_point_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "1911"
-Hospitals, universities, and research organizations can do valuable work regardless of the donor's earlier controversies. But donations do not retrospectively prove that every business tactic was legitimate. Nor does criticism of those tactics mean charitable institutions had no value.
-> VISUAL: A18_narrator_present_right slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
+## CHAPTER 4: The Trust
+[calm] Back then, a company in one state often couldn't legally own companies in other states. So Rockefeller's lawyers found a way around it.
+> VISUAL: G13_map_usa_grey drops in; E14_podium pops in; C05_politician_podium walks in from the right; A05_narrator_suspicious slides in from the left
+In eighteen eighty-two, the owners of dozens of companies handed their shares to a small group of trustees, led by Rockefeller's team. This was the Standard Oil Trust.
+> VISUAL: D24_bond_document drops in; D24_bond_document pops in; E21_safe_vault pops in; H18 sign pops in "STANDARD OIL TRUST"
+Rockefeller himself rarely spoke in public. He ran his empire quietly, from an office in New York, with a small team of trusted partners.
+> VISUAL: E34_skyscraper drops in "26 BROADWAY"; C01_banker_neutral walks in from the right; C28_crowd_small pops in; A37_narrator_whisper slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/26_Broadway | highlight "26 Broadway"
+On paper, the companies were separate. In reality, one small group ran them all. That's why, today, laws against monopolies are called antitrust laws.
+> VISUAL: E33_factory pops in; E33_factory pops in; E27_crown drops in; H18 sign pops in "ANTI-TRUST"
+And to be fair, Standard Oil was also incredibly efficient. It built pipelines, made its own barrels, and used parts of crude oil that others threw away.
+> VISUAL: E33_factory drops in; D17_oil_barrel pops in; H24_bricks_stack pops in; E20_trash_can pops in; A21_narrator_thumbs_up slides in from the left
+The price of kerosene fell a lot during these years. Millions of families could afford to light their homes at night for the first time.
+> VISUAL: E17_light_bulb drops in; H17 price tag pops in "kerosene ↓"; E35_small_house pops in; C28_crowd_small pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Kerosene | highlight "Kerosene"
+So was Rockefeller a villain or a genius? Here's the tricky part. He was both. He lowered prices and he crushed competition. Both things were true at once.
+> VISUAL: E22_scale drops in; A06_narrator_thinking slides in from the left; H16 sticky note pops in "GENIUS?"; H16 sticky note pops in "VILLAIN?"
+He once said that competition was a sin. He believed the oil business was too wild, and that one strong company bringing order was good for everyone.
+> VISUAL: C01_banker_neutral walks in from the right; E51_speech_bubble pops in "COMPETITION IS A SIN"; E22_scale drops in; A05_narrator_suspicious slides in from the left
+The danger of a monopoly isn't always high prices today. It's what can happen once nobody is left to compete. The monopoly can raise prices whenever it wants.
+> VISUAL: E27_crown drops in; H17 price tag pops in; E45_arrow_up_big pops in; E44_warning_sign pops in
+Americans grew angry and afraid of these giant trusts, in oil, sugar, steel and railroads. In eighteen ninety, Congress passed a law against them. The Sherman Antitrust Act.
+> VISUAL: C28_crowd_small drops in; G09_capitol_building pops in; H22_book_open pops in "SHERMAN ACT"; E25_calendar pops in "1890"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Sherman_Antitrust_Act | highlight "Sherman Antitrust Act"
+> SCREEN: National Archives | https://www.archives.gov/milestone-documents/sherman-anti-trust-act | highlight "Sherman Anti-Trust Act"
+But for years, the law was weak and rarely used. Standard Oil kept growing. It took a journalist to change everything.
+> VISUAL: E54_snail pops in; E34_skyscraper drops in; D13_chart_arrow_up draws on; E09_newspaper pops in
 
-## CHAPTER 5: The Standard Oil Trust
-A sophisticated story allows two things to be true. Economic power can produce real efficiency and major public contributions while also concentrating market control in ways society eventually decides to restrain. If you wanted to evaluate a modern company through Rockefeller's story, what would you look for?
-> VISUAL: A38_narrator_teacher_pointer slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "John D. Rockefeller"
-Start with the connections around the core product. Does the firm control a marketplace where its competitors must sell? Does it own infrastructure rivals need?
-> VISUAL: A01_narrator_neutral slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-Can it use information from business partners to compete against them? Does its scale lower prices for customers, and if so, are smaller competitors still able to enter? These questions do not prove wrongdoing.
-> VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-They help distinguish ordinary success from positions of power that deserve closer examination. Rockefeller's most enduring insight may be that markets depend on networks, and control over a network can be more consequential than any one product sold through it. A journalist named Ida Tarbell helped change how the public saw the company.
-> VISUAL: A15_narrator_point_right slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "railroads"
-Her investigation examined Standard Oil's practices and the effects on competitors. Tarbell brought a perspective shaped partly by the oil industry's impact on her own family. Her work documented how a successful business had built and defended its position.
-> VISUAL: A18_narrator_present_right slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-Investigative reporting matters most when it connects large institutional behavior to individual consequences. A shipping contract can sound dull. A local refinery losing access to competitive transportation is a story people understand.
-> VISUAL: A38_narrator_teacher_pointer slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "monopolies"
-Tarbell turned the machinery of monopoly power into a public argument about fairness, law, and the limits of private control. The government eventually pursued Standard Oil under antitrust law. In nineteen eleven, the Supreme Court ordered its breakup.
-> VISUAL: A01_narrator_neutral slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-Many people imagine that the breakup reduced Rockefeller to the status of a normal businessman. But he held ownership interests that turned into shares in the successor companies. As those companies developed, the value of his holdings could rise.
-> VISUAL: A06_narrator_thinking slides left; G11_stock_exchange drops; D13_chart_arrow_up draws; D14_chart_arrow_down pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
+## CHAPTER 5: The Reporter
+[calm] Her name was Ida Tarbell. She grew up in the Pennsylvania oil region. Her father ran a small oil business that was hurt badly by Rockefeller's deals.
+> VISUAL: C09_worker_woman_neutral walks in from the left; E32_oil_rig drops in; D21_factory_sad pops in; E09_newspaper pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Ida_Tarbell | highlight "Ida Minerva Tarbell"
+She became one of the first investigative reporters in America. Starting in nineteen oh two, she published a long series about Standard Oil in McClure's Magazine.
+> VISUAL: E09_newspaper drops in; H22_book_open pops in; E25_calendar pops in "1902"; E16_magnifying_glass pops in
+She didn't just give opinions. She dug through court records, old documents and interviews. She showed, step by step, how the secret railroad deals worked.
+> VISUAL: H28_paper_stack drops in; E16_magnifying_glass pops in; E30_broken_bridge pops in; A39_narrator_magnifying slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company | highlight "The History of the Standard Oil Company"
+Her series ran for two years. When it became a book, historians later ranked it among the most important works of American journalism ever written.
+> VISUAL: E09_newspaper drops in; H22_book_open pops in; E28_trophy pops in; E25_calendar pops in "1902-1904"
+Readers were shocked. The quiet, churchgoing millionaire suddenly looked like a ruthless schemer. Cartoons showed Standard Oil as an octopus wrapping its arms around the country.
+> VISUAL: C28_crowd_small drops in; E49_exclamation_marks pop in; E09_newspaper pops in; G13_map_usa_grey pops in
 
-## CHAPTER 6: Ida Tarbell's investigation
-The irony is almost cinematic. A legal decision intended to restore competitive structure did not necessarily eliminate the wealth accumulated under the old structure. Antitrust law focuses on markets and competition; it doesn't require that every shareholder become poor.
-> VISUAL: A15_narrator_point_right slides left; D13_chart_arrow_up drops; D14_chart_arrow_down draws; C01_banker_neutral pops right; G11_stock_exchange walks in; zoom; red circle; yellow highlight
-The distinction matters whenever a famous breakup is described as a personal punishment. Was Rockefeller simply a robber baron? He used aggressive methods that attracted well-founded criticism and legal intervention.
-> VISUAL: A18_narrator_present_right slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-He also built systems that helped develop a massive industry. Later in life he directed extraordinary wealth toward philanthropy, including education, medicine, and public-health work. These facts do not cancel one another.
-> VISUAL: A38_narrator_teacher_pointer slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "1911"
-A person can contribute to useful institutions and still have acquired power through methods the public should question. Historical storytelling becomes weaker when it decides at the beginning that someone must be entirely a hero or entirely a monster. Imagine the government deciding what to do with Standard Oil without knowing the future.
-> VISUAL: A01_narrator_neutral slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-If it forces a breakup, the successor companies might compete, improve, and expand. They might also face new costs or struggle to coordinate activities once performed centrally. Regulators must weigh evidence about market power, conduct, and remedies under the law.
-> VISUAL: A06_narrator_thinking slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "John D. Rockefeller"
-The fact that Rockefeller's personal wealth remained substantial does not make the breakup meaningless. Competition policy is about the organization and behavior of markets, not merely about changing the ranking of a wealthy individual's bank account. There's an enduring tension in economic history between the entrepreneur who organizes a chaotic industry and the institution that eventually limits the entrepreneur's power.
-> VISUAL: A15_narrator_point_right slides left; E21_safe_vault drops; E01_cash_stack draws; D15_bank_building pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-The same determination that builds efficient systems can encourage an owner to view competition as an obstacle to eliminate. Customers may benefit from lower costs while rivals worry about access and fair terms. A useful history doesn't have to hide that tension behind a simple label.
-> VISUAL: A18_narrator_present_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
+Rockefeller mostly stayed silent. He reportedly called her a nasty name in private, but he refused to answer her in public.
+> VISUAL: C01_banker_neutral walks in from the right; A37_narrator_whisper pops in; A48_narrator_stop_hand slides in from the left
+The public pressure worked. In nineteen oh six, President Theodore Roosevelt's government sued Standard Oil for breaking the antitrust law.
+> VISUAL: C05_politician_podium walks in from the right; G09_capitol_building drops in; E14_podium pops in; E25_calendar pops in "1906"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Theodore_Roosevelt | highlight "trust buster"
+The case went all the way to the highest court in the land.
+> VISUAL: G09_capitol_building pops in; E14_podium drops in; E22_scale pops in
 
-## CHAPTER 7: The 1911 breakup and the windfall
-Rockefeller's legacy is important because it forces us to ask when scale is an achievement and when control over the market becomes a problem in its own right. The public also needs to distinguish between lower prices today and healthy competition tomorrow. A dominant firm might make a product cheaper through efficient operations while discouraging potential rivals from entering the market.
-> VISUAL: A38_narrator_teacher_pointer slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "railroads"
-Consumers welcome affordable goods, but innovation can slow when challengers believe they cannot compete on fair terms. Assessing such cases requires evidence about conduct, market structure, and long-term effects. Rockefeller's story is valuable because it forces us to think beyond easy labels.
-> VISUAL: A01_narrator_neutral slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-Economic success is real. So are the responsibilities that arise when one organization acquires extraordinary influence over an entire industry. There's another lesson in how his industry changed.
-> VISUAL: A06_narrator_thinking slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "monopolies"
-Electricity and the automobile altered demand for petroleum products. Competitors and successor firms adapted. The markets Rockefeller once dominated did not remain frozen in their original form.
-> VISUAL: A15_narrator_point_right slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-Economic power can look permanent from the inside of a generation, then be reshaped by technology, regulation, or the next business model. That's why the better question isn't merely whether a company is large. It's whether customers and competitors have meaningful alternatives, and whether the rules reward innovation or the protection of an existing position.
-> VISUAL: A18_narrator_present_right slides left; D17_oil_barrel drops; E32_oil_rig draws; E33_factory pops right; D13_chart_arrow_up walks in; zoom; red circle; yellow highlight
-Return to the small Cleveland refiner. The owner's problem wasn't just that Standard Oil was bigger. It was that the industry had become a network of relationships he couldn't match: railroad access, financing, suppliers, refining capacity, and distribution.
-> VISUAL: A38_narrator_teacher_pointer slides left; E32_oil_rig drops; E33_factory draws; D13_chart_arrow_up pops right; D17_oil_barrel walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "Standard Oil Company v. United States"
-Rockefeller understood that controlling the connections between businesses can matter more than controlling a single factory. That insight appears again throughout modern business history. Sometimes it creates cheaper products for customers.
-> VISUAL: A01_narrator_neutral slides left; E33_factory drops; D13_chart_arrow_up draws; D17_oil_barrel pops right; E32_oil_rig walks in; zoom; red circle; yellow highlight
-Sometimes it creates power that demands public scrutiny. And sometimes, as another famous energy company would later show, the financial story grows so complicated that nobody outside the boardroom can see what's really happening.
-> VISUAL: A06_narrator_thinking slides left; D13_chart_arrow_up drops; D17_oil_barrel draws; E32_oil_rig pops right; E33_factory walks in; zoom; red circle; yellow highlight
-> SCREEN: Supreme Court Historical Society — Standard Oil | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight exactly "1911"
+## CHAPTER 6: The Breakup
+[calm] On May fifteenth, nineteen eleven, the United States Supreme Court ruled against Standard Oil. It ordered the giant company to be broken apart.
+> VISUAL: E14_podium drops in; E22_scale pops in; E25_calendar pops in "May 15, 1911"; E30_broken_bridge pops in
+> SCREEN: Supreme Court Historical Society | https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/ | highlight "Standard Oil Company v. United States"
+Standard Oil was split into thirty-four separate companies. Each one had to compete on its own.
+> VISUAL: E34_skyscraper pops in; H24_bricks_stack drops in; H18 sign pops in "34 COMPANIES"; E33_factory pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Standard_Oil_Co._of_New_Jersey_v._United_States | highlight "Standard Oil Co. of New Jersey v. United States"
+Each new company got a piece of the map. One for New Jersey, one for New York, one for Ohio, one for California, and so on.
+> VISUAL: G13_map_usa_grey drops in; H16 sticky note pops in "NJ"; H16 sticky note pops in "NY"; H16 sticky note pops in "OH"; H16 sticky note pops in "CA"
+In nineteen ninety-nine, two of those old pieces, Exxon and Mobil, merged again. ExxonMobil became one of the biggest companies in the world.
+> VISUAL: E33_factory pops in "EXXON"; E33_factory slides in from the right "MOBIL"; E34_skyscraper drops in "EXXONMOBIL"; E27_crown pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/ExxonMobil | highlight "ExxonMobil"
+Some of those pieces are names you still know today. Standard Oil of New Jersey became Exxon. Standard Oil of New York became Mobil. Standard Oil of California became Chevron.
+> VISUAL: E33_factory drops in "EXXON"; E33_factory pops in "MOBIL"; E33_factory pops in "CHEVRON"; E41_car pops in
+It looked like a defeat for Rockefeller. But here's the surprise. He still owned about a quarter of the shares in all thirty-four companies.
+> VISUAL: C01_banker_neutral walks in from the right; D24_bond_document pops in; H18 sign pops in "~25%"; A04_narrator_smug slides in from the left
+After the breakup, investors could finally see how valuable each piece was. And the shares jumped in value. The cars were coming, and cars needed gasoline.
+> VISUAL: D13_chart_arrow_up draws on; E45_arrow_up_big pops in; E41_car drops in; D17_oil_barrel pops in
+Henry Ford's Model T arrived in nineteen oh eight. Within a few years, millions of cars were on American roads, all needing gasoline. The timing couldn't have been better.
+> VISUAL: E41_car drops in; E41_car pops in; E41_car pops in; D17_oil_barrel pops in; E25_calendar pops in "1908"
+Within a few years, Rockefeller's fortune grew even bigger. Around nineteen sixteen, newspapers began calling him America's first billionaire.
+> VISUAL: E09_newspaper drops in "FIRST BILLIONAIRE"; E27_crown pops in; E02_money_bag pops in; E25_calendar pops in "1916"
+At his peak, his wealth was a bigger share of the whole American economy than any fortune since. Bigger, relative to the economy, than any tech billionaire today.
+> VISUAL: E22_scale drops in; C21_billionaire_neutral walks in from the right; E27_crown pops in; A45_narrator_head_shocked pops in
+And Thomas Walsh's family? Those Standard Oil shares he'd been forced to take kept growing too. His grandchildren went to college on them.
+> VISUAL: H13_bowtie_man_smug walks in from the left; D24_bond_document pops in; C27_kid_curious walks in from the right; H22_book_open drops in
+But Rockefeller's last chapter wasn't about making money. It was about giving it away.
+> VISUAL: E02_money_bag drops in; H27_heart pops in; A06_narrator_thinking slides in from the left
+
+## CHAPTER 7: The Giveaway
+[calm] Rockefeller gave money away his whole life, starting with tiny gifts to his church as a teenager. In his later years, he gave on a giant scale.
+> VISUAL: E04_coin_pile pops in; H22_book_open drops in; E02_money_bag pops in; H27_heart pops in
+He helped found the University of Chicago. He created a medical research institute that became Rockefeller University. And in nineteen thirteen, he started the Rockefeller Foundation.
+> VISUAL: E34_skyscraper drops in "UNIVERSITY"; E16_magnifying_glass pops in; H22_book_open pops in; E25_calendar pops in "1913"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Rockefeller_Foundation | highlight "Rockefeller Foundation"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Rockefeller_University | highlight "Rockefeller University"
+His money paid for a campaign to wipe out hookworm, a parasite that was making millions of people in the American South sick and weak.
+> VISUAL: C28_crowd_small drops in; E16_magnifying_glass pops in; E44_warning_sign pops in; A21_narrator_thumbs_up slides in from the left
+In total, he gave away hundreds of millions of dollars, worth many billions today. He died in nineteen thirty-seven, at ninety-seven years old.
+> VISUAL: E02_money_bag pops in; E03_money_rain pours down; E25_calendar drops in "1937"; E23_hourglass pops in
+He also liked to hand out shiny new dimes to children and strangers he met. Some saw it as kindness. Others saw it as a way to fix his reputation.
+> VISUAL: B01_penny_happy pops in; C27_kid_curious walks in from the right; C01_banker_neutral walks in from the left; E22_scale drops in
+So how did the first billionaire actually do it? Four moves. He picked the steady part of a wild business. He made it ruthlessly efficient. He used his size to win secret deals. And he bought out anyone in his way.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; H16 sticky note pops in "1. STEADY PART"; H16 sticky note pops in "2. EFFICIENCY"; H16 sticky note pops in "3. SECRET DEALS"; H16 sticky note pops in "4. BUY RIVALS"
+The first two are what great businesses still do. The last two are why we now have antitrust laws.
+> VISUAL: E22_scale drops in; E28_trophy pops in; E14_podium pops in; G09_capitol_building pops in
+> SCREEN: Federal Trade Commission | https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws | highlight "The Antitrust Laws"
+
+And the same debate is happening today, about giant tech companies. Are they winning because they're better, or because they're too big for anyone to challenge?
+> VISUAL: E34_skyscraper drops in; E07_laptop pops in; E08_phone pops in; E22_scale pops in; E48_question_marks pop in
+> SCREEN: U.S. Department of Justice | https://www.justice.gov/atr | highlight "Antitrust Division"
+Here's the takeaway. Competition protects customers. When one company controls almost everything, the question isn't just how it got there. It's what it can do next.
+> VISUAL: A17_narrator_point_up slides in from the left; C28_crowd_small pops in; E27_crown drops in; E44_warning_sign pops in
+Thomas Walsh never forgave Rockefeller for that visit in eighteen seventy-two. But every night, like millions of Americans, he still lit his lamp with Standard Oil kerosene.
+> VISUAL: H14_bowtie_man_worried walks in from the left; E17_light_bulb pops in; D17_oil_barrel drops in; E35_small_house pops in
+[calm] Rockefeller's company was big, but real. Next time, we'll meet a company that looked like a giant, and turned out to be mostly an illusion. Enron.
+> VISUAL: E34_skyscraper drops in "ENRON"; D29_bubble_character pops in; E47_explosion pops in; A23_narrator_wave slides in from the left
 
 ## SOURCES
-- Research source — Supreme Court Historical Society — Standard Oil — https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/
-- VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- Standard Oil about 90% of US refining by 1880 — https://en.wikipedia.org/wiki/Standard_Oil
+- Standard Oil founded 1870; about 90% of US refining by 1880; Standard Oil Trust 1882 — https://en.wikipedia.org/wiki/Standard_Oil
+- Rockefeller born 1839; first job as assistant bookkeeper in Cleveland, Sept 1855 (celebrated as "Job Day"); entered refining 1863; died 1937 aged 97 — https://en.wikipedia.org/wiki/John_D._Rockefeller
+- Railroad rebates and "drawbacks"; South Improvement Company (1872); bought 22 of 26 Cleveland refiners ("Cleveland Massacre") — https://en.wikipedia.org/wiki/South_Improvement_Company
+- Sherman Antitrust Act 1890 — https://en.wikipedia.org/wiki/Sherman_Antitrust_Act
+- Ida Tarbell, McClure's series from 1902 — https://en.wikipedia.org/wiki/Ida_Tarbell
+- Federal suit 1906; Supreme Court ruling 15 May 1911; split into 34 companies — https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/
+- Successors include Exxon (NJ), Mobil (NY), Chevron (CA) — https://en.wikipedia.org/wiki/Standard_Oil
+- Rockefeller kept about a quarter of shares; called first billionaire around 1916 — https://en.wikipedia.org/wiki/John_D._Rockefeller (VERIFY share)
+- University of Chicago (1890), Rockefeller Institute (1901), Rockefeller Foundation (1913), hookworm campaign — https://en.wikipedia.org/wiki/Rockefeller_Foundation
+- Thomas Walsh is a fictional example.
