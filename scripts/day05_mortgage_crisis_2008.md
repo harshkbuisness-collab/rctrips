@@ -1,163 +1,219 @@
 # Day 05: How Your Neighbor's Mortgage Broke the World
-TITLES: How Your Neighbor's Mortgage Broke the World | How Your Neighbor's Mortgage Broke the World | How Your Neighbor's Mortgage Broke the World
-THUMBNAIL: THE MORTGAGE TRAP — narrator and the main financial object
-THREAD: one mortgage traveling through Wall Street
+TITLES: How Your Neighbor's Mortgage Broke the World | 2008: The Crisis That Started With One House | How Bad Loans Nearly Broke the World
+THUMBNAIL: ONE HOUSE, WHOLE WORLD — a cracked house pulling a falling globe on a string
+THREAD: Marcus and Tanya, a young couple in Stockton, California, who buy their first home in 2005
 
-## CHAPTER 1: Cheap money after 2001
-In September two thousand eight, Lehman Brothers filed the biggest bankruptcy in American history, with more than six hundred billion dollars in assets. But it really started with a conversation like this. You sign a mortgage for a house you can barely afford. The banker smiles. The real estate agent hands you a pen.
-> VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
-Everyone tells you that property values only go up over time. You aren't particularly sure how the monthly payment will look after the introductory rate expires. But you can always refinance, they say.
-> VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-Or sell the house at a profit. It sounds less like taking on a loan and more like receiving an invitation to the American dream. Now Picture that millions of versions of this conversation are happening across the country.
-> VISUAL: A15_narrator_point_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-Each conversation seems private. Together, they are building a risk large enough to shake the entire global financial system. That is the story of the financial crisis of two thousand eight.
-> VISUAL: A18_narrator_present_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "Economic and Financial Developments in 2007"
-And the remarkable part is that the trouble did not stop at the front door of the house. Let's follow one imaginary mortgage from beginning to end. We'll call the buyer Daniel.
-> VISUAL: A38_narrator_teacher_pointer slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-Daniel works, earns a paycheck, and wants somewhere permanent to live. Mortgage rates had been relatively low in the years following the early two-thousands recession. Home prices were rising in many places.
-> VISUAL: A01_narrator_neutral slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "Banking Panics of 1930-31"
-Banks and specialized lenders wanted to make more loans. Some borrowers had solid incomes and good credit. Others had weaker financial histories or little proof that they could repay a large mortgage.
-> VISUAL: A06_narrator_thinking slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-Lending to this second group was called subprime lending. Not every subprime loan was abusive, but many loans were structured around optimistic assumptions. Some began with affordable teaser payments that could rise later.
-> VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-Others asked very little about the buyer's income. When a salesperson told Daniel that rising house prices would solve any future problem, he was really asking Daniel to gamble on tomorrow's market. Why would a lender take that chance?
-> VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
+## CHAPTER 1: The Dream House
+[calm] In September two thousand eight, Lehman Brothers filed the biggest bankruptcy in American history, with more than six hundred billion dollars in assets. But it really started with a conversation like this.
+> VISUAL: A08_narrator_shocked slides in from the left; E34_skyscraper drops in; H18 sign pops in "LEHMAN BROTHERS"; H17 price tag pops in "$639 BILLION"; E47_explosion pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers | highlight "Lehman Brothers"
+It's two thousand five. Marcus and Tanya live in Stockton, California. He drives a delivery truck. She works at a dental office. Together, they earn about sixty thousand dollars a year.
+> VISUAL: H09_guy_curly_neutral walks in from the left; C09_worker_woman_neutral walks in from the right; E41_car pops in; G13_map_usa_grey drops in "Stockton, CA"; H17 price tag pops in "$60,000 a year"
+They're tired of renting. Every month, the rent check feels like money thrown away. And everyone around them is buying.
+> VISUAL: H23_apartment_building drops in; E20_trash_can pops in; E01_cash_stack pops in; D09_house_happy slides in from the right; C28_crowd_small pops in
+Mortgage rates were low, and banks were advertising everywhere. On billboards, on the radio, even in their mailbox. "You're pre-approved!"
+> VISUAL: E09_newspaper drops in; E13_tv_screen pops in; H15_paper_note_blank pops in "PRE-APPROVED!"; G04_percent_happy pops in; A05_narrator_suspicious slides in from the left
+Their friends bought a house last year, and it's already worth fifty thousand dollars more. TV shows teach people how to flip houses for quick profits.
+> VISUAL: D09_house_happy drops in; E45_arrow_up_big pops in; H17 price tag pops in "+$50,000"; E13_tv_screen slides in from the right
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/CSUSHPINSA | highlight "S&P CoreLogic Case-Shiller U.S. National Home Price Index"
+Between nineteen ninety-seven and two thousand six, American home prices more than doubled. For many families, a house felt like a money machine.
+> VISUAL: D09_house_happy drops in; D13_chart_arrow_up draws on; H17 price tag pops in "x2"; E53_money_printer_machine pops in
+So Marcus and Tanya meet a mortgage broker. He smiles and tells them the good news. They can afford a house for four hundred thousand dollars.
+> VISUAL: C01_banker_neutral walks in from the right; H09_guy_curly_neutral walks in from the left; D11_house_expensive drops in; H17 price tag pops in "$400,000"; A21_narrator_thumbs_up pops in
+Tanya is surprised. That's almost seven times what they earn. But the broker says not to worry. Home prices only go up.
+> VISUAL: C12_worker_woman_shocked walks in from the left; D27_calculator_shocked pops in; E51_speech_bubble pops in; D13_chart_arrow_up draws on
+They don't need a down payment. They don't even need to prove their income. And the first two years have a low teaser rate, so the payments look easy.
+> VISUAL: H15_paper_note_blank drops in; H16 sticky note pops in "NO DOWN PAYMENT"; H16 sticky note pops in "NO PROOF OF INCOME"; G04_percent_happy pops in "teaser rate"
+They sign. They get the keys. They feel like they've finally made it.
+> VISUAL: C11_worker_woman_happy walks in from the left; H10_guy_curly_talking walks in from the right; D09_house_happy drops in; H27_heart pops in; A34_narrator_celebrate_jump pops in
+That night, they eat pizza on the floor of their empty living room. Tanya says it's the best night of her life.
+> VISUAL: F01_bg_living_room; C11_worker_woman_happy walks in from the left; H10_guy_curly_talking walks in from the right; H27_heart pops in
+By the end of this video, you'll see how millions of signatures like theirs turned into a crisis that shook every country on Earth, and what changed so it doesn't happen again.
+> VISUAL: A17_narrator_point_up slides in from the left; H28_paper_stack drops in; E43_globe pops in; D12_house_cracked pops in; E44_warning_sign pops in
+To understand how, we need to ask a simple question. Why would anyone lend four hundred thousand dollars to a couple who might not be able to pay it back?
+> VISUAL: A06_narrator_thinking slides in from the left; E02_money_bag drops in; E48_question_marks pop in; D15_bank_building pops in
 
-## CHAPTER 2: Subprime and 'NINJA' loans
-The obvious answer should be that a bank loses money when a borrower cannot repay. But lending had changed. Many institutions did not keep mortgages until the final payment.
-> VISUAL: A38_narrator_teacher_pointer slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-They sold them into a financial pipeline. Investment banks gathered thousands of loans and bundled their payments into securities. Imagine placing a thousand household IOUs into one large box.
-> VISUAL: A01_narrator_neutral slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-Investors could buy claims on cash flowing out of the box. As homeowners made monthly payments, money moved through the structure and ultimately to investors. These instruments were called mortgage-backed securities.
-> VISUAL: A06_narrator_thinking slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "subprime-mortgage sector"
-The idea itself wasn't inherently foolish. Pooling many loans can diversify individual risks. The danger came when people treated a large collection of risky loans as if the risks had disappeared.
-> VISUAL: A15_narrator_point_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-The box wasn't necessarily sold as one item. Bankers sliced its cash flows into layers. Some investors accepted the first losses in exchange for potentially higher returns.
-> VISUAL: A18_narrator_present_right slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
-Others wanted a layer designed to suffer losses only after the lower layers were wiped out. Credit rating agencies evaluated these structures, and some senior pieces received very high ratings. To a pension fund or insurer seeking a seemingly safe yield, that rating could be enormously persuasive.
-> VISUAL: A38_narrator_teacher_pointer slides left; D27_calculator_shocked drops; D24_bond_document draws; G04_percent_happy pops right; G05_percent_angry walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "The U.S. appeared to be poised for economic recovery"
-The problem was that models depended on assumptions about how many homeowners would default at once, how prices would move, and how different regions would behave together. If housing prices fell across the country, the supposedly independent risks could suddenly become connected. The same storm could hit hundreds of neighborhoods simultaneously.
-> VISUAL: A01_narrator_neutral slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-And then Wall Street built another layer on top. Collateralized debt obligations, or CDOs, repackaged portions of loans and securities into new structures. Credit default swaps allowed parties to buy and sell protection against certain defaults, roughly like an insurance-style contract, though not identical to household insurance.
-> VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
+## CHAPTER 2: The Loan Nobody Kept
+[calm] In the old days, a bank lent you money and kept your loan for thirty years. If you didn't pay, the bank lost money. So it was careful.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; D15_bank_building drops in; C01_banker_neutral walks in; E21_safe_vault pops in; E23_hourglass pops in
+By the two thousands, that had changed. Lenders made loans, then quickly sold them to Wall Street. The risk left the building the moment the papers were signed.
+> VISUAL: D15_bank_building pops in; H28_paper_stack drops in; E34_skyscraper slides in from the right; red arrow from the bank to Wall Street
+> SCREEN: Federal Reserve History | https://www.federalreservehistory.org/essays/subprime-mortgage-crisis | highlight "Subprime Mortgage Crisis"
+The broker who sold Marcus and Tanya their loan got paid when they signed. Whether they could pay for thirty years wasn't really his problem anymore.
+> VISUAL: C01_banker_neutral walks in from the right; E01_cash_stack pops in; H15_paper_note_blank drops in; A14_narrator_shrug slides in from the left
+Loans to people with weak credit or little proof of income were called subprime. They paid lenders higher interest, which made them very profitable.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; G23_credit_meter drops in; H18 sign pops in "SUBPRIME"; G05_percent_angry pops in; E02_money_bag pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Subprime_mortgage_crisis | highlight "subprime"
+By two thousand six, about one in five new mortgages was subprime. Ten years earlier, they had been rare.
+> VISUAL: H28_paper_stack drops in; H16 sticky note pops in "1 in 5"; D13_chart_arrow_up draws on; E44_warning_sign pops in
+> SCREEN: Federal Reserve History | https://www.federalreservehistory.org/essays/subprime-mortgage-crisis | highlight "subprime"
+And standards kept slipping. Some loans needed no proof of a job at all. People in the industry gave them nicknames, like liar loans.
+> VISUAL: H15_paper_note_blank drops in; E16_magnifying_glass pops in; A05_narrator_suspicious slides in from the left; H16 sticky note pops in "LIAR LOANS"
+Then there was the teaser rate. Marcus and Tanya's loan started low, but after two years, the rate would reset much higher. Their payment could jump by hundreds of dollars a month.
+> VISUAL: E25_calendar pops in "2 years"; G04_percent_happy drops in; G05_percent_angry pops in; H17 price tag pops in "+$800 a month"; E44_warning_sign pops in
+Many borrowers didn't fully understand this part. The paperwork was dozens of pages long, and the closing took less than an hour.
+> VISUAL: H28_paper_stack drops in; E24_clock pops in; A07_narrator_confused slides in from the left; E48_question_marks pop in
+The broker had a plan for that too. Before the rate jumps, just refinance. Your house will be worth more by then, so you'll get a better deal.
+> VISUAL: C01_banker_neutral walks in from the right; E51_speech_bubble pops in; D09_house_happy drops in; E45_arrow_up_big pops in
+The whole plan depended on one belief. That home prices would keep rising. If they ever stopped, the plan would fall apart.
+> VISUAL: D13_chart_arrow_up draws on; H24_bricks_stack drops in; E44_warning_sign pops in; A35_narrator_sweating slides in from the left
+So where did all those loans go after they were sold? Into a machine on Wall Street that turned them into something brand new.
+> VISUAL: H28_paper_stack drops in; E34_skyscraper pops in; E53_money_printer_machine slides in from the right; E48_question_marks pop in
 
-## CHAPTER 3: Mortgage bonds and AAA ratings
-Some institutions used the contracts to hedge genuine exposure. Others used them to make bets. In principle, financial engineering can transfer risk to someone willing to bear it.
-> VISUAL: A15_narrator_point_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-In practice, it can also make the trail of risk difficult to follow. Daniel knew who sent his monthly mortgage bill. He had no idea how many investment portfolios might have exposure to his ability to make that payment.
-> VISUAL: A18_narrator_present_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-And investors several steps away often understood the rating on their security better than the household debts underneath it. For a while, rising prices covered mistakes. A borrower in trouble might sell the house or refinance into another loan.
-> VISUAL: A38_narrator_teacher_pointer slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "Strains in financial markets"
-Investors collected income. Lenders made fees. Bankers received bonuses.
-> VISUAL: A01_narrator_neutral slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-Local governments enjoyed active property markets. The machine rewarded almost everyone while it continued running. But notice what the machine required.
-> VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-It needed homes to retain enough value that problems could be pushed into the future. When prices stopped rising and began falling, the escape route narrowed. Refinancing became harder.
-> VISUAL: A15_narrator_point_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "a series of bank panics"
-Borrowers whose payments reset higher could not always keep up. Defaults increased. Foreclosures pushed more properties onto the market, putting further pressure on prices.
-> VISUAL: A18_narrator_present_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-This feedback loop turned a housing slowdown into something much worse. Now return to that box of mortgage payments. Investors began to question how much money would actually come out of it.
-> VISUAL: A38_narrator_teacher_pointer slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
-Securities that had looked safe suddenly became difficult to price. And banks were not only investors. They depended on short-term borrowing to finance longer-term assets.
-> VISUAL: A01_narrator_neutral slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
-Imagine owning a building worth a million dollars, but paying for it with a loan that must be renewed every few days. If your lender becomes nervous and refuses to renew, you have a problem even if the building might be valuable over the next twenty years. Funding markets operate at enormous scale, and financial institutions rely on confidence that other people will keep lending.
-> VISUAL: A06_narrator_thinking slides left; E21_safe_vault drops; E01_cash_stack draws; D15_bank_building pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
+## CHAPTER 3: The Wall Street Machine
+[calm] Wall Street banks bought thousands of mortgages and bundled them together. Then they sold investors pieces of the bundle. These were called mortgage-backed securities.
+> VISUAL: H28_paper_stack drops in; H19_box_closed pops in; E34_skyscraper slides in from the right; D24_bond_document pops in; C04_banker_money_bag walks in
+> SCREEN: Investor.gov, U.S. SEC | https://www.investor.gov/introduction-investing/investing-basics/investment-products/mortgage-backed-securities | highlight "Mortgage-Backed Securities"
+Every month, homeowners like Marcus and Tanya paid their mortgage. That money flowed through the bundle to investors all over the world.
+> VISUAL: D09_house_happy drops in; E01_cash_stack pops in; H19_box_closed pops in; E43_globe pops in; red arrow from the house to the globe
+On paper, it looked brilliant. If a few homeowners stopped paying, the others would still cover the investors. Spread the risk, and the risk goes away. That was the theory.
+> VISUAL: H19_box_closed drops in; D09_house_happy pops in; D10_house_sad pops in; E22_scale pops in; A06_narrator_thinking slides in from the left
+But the theory had a hidden flaw. It assumed that homes in different places wouldn't all lose value at the same time. Nobody had planned for a fall across the whole country.
+> VISUAL: G13_map_usa_grey drops in; D12_house_cracked pops in; D12_house_cracked pops in; E44_warning_sign pops in; A35_narrator_sweating slides in from the left
+Pension funds, banks in Germany, cities in Norway, insurance companies in Asia. They all wanted a piece of American homeowners' payments.
+> VISUAL: E43_globe drops in; G16_map_europe pops in; D25_retirement_document pops in; D15_bank_building pops in; G15_map_japan pops in
+Then the banks got creative. They sliced the bundles into layers. The top layer got paid first and was called the safest. The bottom layer got paid last and was the riskiest.
+> VISUAL: H24_bricks_stack drops in; H16 sticky note pops in "SAFEST"; H16 sticky note pops in "RISKIEST"; A38_narrator_teacher_pointer slides in from the left
+They even mixed the risky bottom layers into new bundles and sliced those again. These complex products were called C D Os. Very few people truly understood them.
+> VISUAL: H19_box_closed pops in; H20_box_open drops in; E48_question_marks pop in; A07_narrator_confused slides in from the left; H18 sign pops in "CDO"
+And here's the strangest part. Rating agencies, the companies paid to judge risk, gave many of these products their highest grade. Triple A. As safe as the U.S. government.
+> VISUAL: E28_trophy drops in; H18 sign pops in "AAA"; E27_crown pops in; A08_narrator_shocked slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight "Financial Crisis Inquiry Commission"
+Who paid the rating agencies? The same banks that were selling the products. The referee was being paid by one of the teams.
+> VISUAL: C02_banker_greedy walks in from the right; E02_money_bag pops in; E22_scale drops in; A05_narrator_suspicious slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Credit_rating_agency | highlight "credit rating agency"
+Some investors even bought insurance against these products failing. The biggest seller of that insurance was an insurance giant called A I G.
+> VISUAL: E21_safe_vault drops in; E34_skyscraper pops in; H18 sign pops in "AIG"; D24_bond_document pops in
+A few investors saw the danger coming and bet against the housing market. When it collapsed, some of them made billions. Their story became the movie The Big Short.
+> VISUAL: C21_billionaire_neutral walks in from the right; G02_bear_angry pops in; D14_chart_arrow_down draws on; E13_tv_screen drops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/The_Big_Short_(film) | highlight "The Big Short"
+Everyone was making money. Brokers, lenders, banks, rating agencies, and investors. As long as Marcus and Tanya kept paying.
+> VISUAL: C23_billionaire_laughing walks in from the right; E03_money_rain pours down; H09_guy_curly_neutral walks in from the left; E24_clock pops in
+But in two thousand seven, their teaser rate ran out.
+> VISUAL: E25_calendar drops in "2007"; G05_percent_angry pops in; C10_worker_woman_stressed walks in; E44_warning_sign pops in
 
-## CHAPTER 4: CDOs and credit default swaps (the bet)
-When confidence evaporates, institutions scramble for cash at the same moment. To see why the incentives became so dangerous, imagine three businesses lined up along Daniel's mortgage. First is the loan originator, the person or institution arranging the mortgage.
-> VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "Monetary Policy Report"
-Second is the investment bank that turns mortgages into securities. Third is the investment fund that buys the finished product. If the originator is rewarded primarily for issuing more loans, and the loans can quickly be sold onward, the incentive to examine repayment carefully may weaken.
-> VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-The investment bank earns fees for structuring securities. The final investor relies on models, documents, and ratings. Each participant may believe someone else has checked the weak points.
-> VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
-Yet the homeowner is still expected to make every payment for decades. This is a classic principal-agent problem: the people making decisions don't always bear the full consequences of those decisions. Now ask what a credit rating actually does.
-> VISUAL: A01_narrator_neutral slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "Banking Panics of 1930-31"
-It offers an opinion about the credit risk of a security according to the rating agency's methods. It doesn't guarantee repayment. During the housing boom, some investors treated high-rated mortgage securities as close substitutes for safer assets, even when the structures were complicated and exposed to shared housing risks.
-> VISUAL: A06_narrator_thinking slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-There were also concerns about how rating agencies were paid by securities issuers. Imagine asking a restaurant to choose and pay the person who will award it a safety grade. That arrangement doesn't prove the grade is false, but it creates an incentive worth examining.
-> VISUAL: A15_narrator_point_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-A strong financial system needs not only experts but also conditions that encourage those experts to challenge clients when the answer is uncomfortable. The crisis also revealed the role of liquidity. A financial asset can have economic value and still be difficult to sell quickly at a reasonable price.
-> VISUAL: A18_narrator_present_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
+## CHAPTER 4: The Payment That Jumped
+[calm] The letter arrived in the spring. Their monthly payment was going up from about two thousand dollars to almost three thousand.
+> VISUAL: H15_paper_note_blank drops in; C10_worker_woman_stressed walks in from the left; H17 price tag pops in "$2,000 → $2,900"; E50_sweat_drops pop in
+That was more than half of everything they earned. Marcus picked up extra shifts. Tanya cut back on groceries. It still wasn't enough.
+> VISUAL: H09_guy_curly_neutral walks in from the left; E41_car pops in; E38_cart_almost_empty drops in; E01_cash_stack pops in; D14_chart_arrow_down draws on
+So they called the broker to refinance, just like he said. But he had bad news. Their house wasn't worth more anymore. It was worth less.
+> VISUAL: E08_phone pops in; C01_banker_neutral walks in from the right; D10_house_sad drops in; D14_chart_arrow_down draws on
+Across America, home prices had stopped rising in two thousand six. Then they started to fall. Nationally, they would drop by more than a quarter.
+> VISUAL: G13_map_usa_grey drops in; D13_chart_arrow_up draws on; D14_chart_arrow_down draws on; H17 price tag pops in "-27%"; A45_narrator_head_shocked pops in
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/CSUSHPINSA | highlight "Home Price Index"
+In places like Stockton, it was far worse. Some homes lost more than half their value. Marcus and Tanya now owed more than their house was worth.
+> VISUAL: D12_house_cracked drops in; H17 price tag pops in "-50%"; E22_scale pops in; C12_worker_woman_shocked walks in from the left
+There's a name for that. Being underwater. You can't sell your way out, because selling won't even pay off the loan.
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; D10_house_sad drops in; E50_sweat_drops pop in; H18 sign pops in "UNDERWATER"
+They missed one payment. Then two. Then the bank started the foreclosure process. In two thousand eight, they had to leave the house.
+> VISUAL: E25_calendar pops in; H15_paper_note_blank drops in; H18 sign pops in "FORECLOSURE"; D10_house_sad pops in; A11_narrator_crying slides in from the left
+Tanya cried as they packed. They had lived there less than three years. Their credit score crashed, and the savings they'd put into repairs were gone.
+> VISUAL: C10_worker_woman_stressed walks in from the left; H20_box_open drops in; G23_credit_meter pops in; D14_chart_arrow_down draws on
+They weren't alone. Their whole street had for-sale signs. Stockton became one of the foreclosure capitals of America.
+> VISUAL: G22_for_rent_sign drops in; G22_for_rent_sign pops in; D10_house_sad pops in; D12_house_cracked pops in; F04_bg_city_street
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Stockton,_California | highlight "Stockton"
+Between two thousand seven and two thousand ten, millions of American homes went into foreclosure. Whole neighborhoods emptied out. Grass grew tall, and pools turned green.
+> VISUAL: G13_map_usa_grey drops in; D10_house_sad pops in; D10_house_sad pops in; E20_trash_can pops in; F04_bg_city_street
+Now think back to the Wall Street machine. When millions of families stop paying, the money stops flowing through the bundles.
+> VISUAL: D10_house_sad drops in; H19_box_closed pops in; E46_arrow_down_big pops in; E34_skyscraper slides in from the right
+And those triple A products? Suddenly, nobody knew what they were really worth.
+> VISUAL: H18 sign pops in "AAA?"; E48_question_marks drop in; A07_narrator_confused slides in from the left; D14_chart_arrow_down draws on
 
-## CHAPTER 5: The crack: falling home prices
-Investors learned that certain complicated securities had few willing buyers when fear rose. Banks holding those assets could face demands for collateral just as asset prices were falling. A firm that looked solvent using optimistic valuations might struggle to raise actual cash.
-> VISUAL: A38_narrator_teacher_pointer slides left; E21_safe_vault drops; E01_cash_stack draws; D15_bank_building pops right; C01_banker_neutral walks in; zoom; red circle; yellow highlight
-That's why regulators and central banks spend so much time worrying about liquidity, not merely profits. A bank can report earnings in one quarter and still fail if it cannot meet payments the next morning. The difference between a long-term asset and today's obligation is easy to overlook when markets are calm.
-> VISUAL: A01_narrator_neutral slides left; E01_cash_stack drops; D15_bank_building draws; C01_banker_neutral pops right; E21_safe_vault walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "Economic and Financial Developments in 2007"
-In September two thousand eight, Lehman Brothers entered bankruptcy. The failure was not the first sign of trouble. Bear Stearns had already been rescued through an emergency transaction earlier that year.
-> VISUAL: A06_narrator_thinking slides left; D15_bank_building drops; C01_banker_neutral draws; E21_safe_vault pops right; E01_cash_stack walks in; zoom; red circle; yellow highlight
-Fannie Mae and Freddie Mac had been placed into conservatorship. The insurance giant AIG faced severe problems related partly to credit protection it had sold. But the Lehman bankruptcy became a dramatic signal that a major investment bank could disappear.
-> VISUAL: A15_narrator_point_right slides left; C01_banker_neutral drops; E21_safe_vault draws; E01_cash_stack pops right; D15_bank_building walks in; zoom; red circle; yellow highlight
-Institutions began to doubt one another. Money market funds, short-term lenders, banks, and businesses all felt the stress. Suddenly the crisis wasn't merely about homeowners missing payments.
-> VISUAL: A18_narrator_present_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "The U.S. appeared to be poised for economic recovery"
-It was about whether the plumbing of the economy would continue working. That plumbing matters to people who have never purchased a stock. Businesses borrow to meet payroll and stock shelves.
-> VISUAL: A38_narrator_teacher_pointer slides left; C01_banker_neutral drops; G11_stock_exchange draws; D13_chart_arrow_up pops right; D14_chart_arrow_down walks in; zoom; red circle; yellow highlight
-Car buyers need financing. Municipalities borrow to maintain infrastructure. If credit freezes, a company with customers and good products may still run short of cash.
-> VISUAL: A01_narrator_neutral slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-As uncertainty grew, firms cut jobs and postponed investment. Families reduced spending. Falling spending hurt businesses, which then cut back further.
-> VISUAL: A06_narrator_thinking slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "OFFICIAL GOVERNMENT PRINTING OFFICE EDITION"
-Unemployment climbed, home values fell, and households watched savings shrink. The financial crisis became a recession that reached well beyond the original mortgages. The United States was at the center, but banks and investors around the world held related assets, so the damage crossed borders.
-> VISUAL: A15_narrator_point_right slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
+## CHAPTER 5: The Panic
+[serious] Banks had borrowed huge amounts of money to buy these products. Some had about thirty dollars of debt for every dollar of their own money.
+> VISUAL: D15_bank_building drops in; H24_bricks_stack pops in; H17 price tag pops in "30 : 1"; E44_warning_sign pops in; A35_narrator_sweating slides in from the left
+With that much borrowing, even a small loss could wipe a bank out. And the losses weren't small.
+> VISUAL: D16_bank_building_scared drops in; D14_chart_arrow_down draws on; E47_explosion pops in
+In March two thousand eight, the investment bank Bear Stearns nearly collapsed. It was sold to JPMorgan in an emergency deal backed by the Federal Reserve.
+> VISUAL: E25_calendar pops in "March 2008"; D16_bank_building_scared drops in; D15_bank_building slides in from the right; G10_central_bank_building pops in
+> SCREEN: Federal Reserve History | https://www.federalreservehistory.org/essays/great-recession-of-200709 | highlight "The Great Recession"
+In early September, the government took over Fannie Mae and Freddie Mac, two giant companies that backed about half of America's mortgages.
+> VISUAL: G09_capitol_building drops in; D09_house_happy pops in; H18 sign pops in "FANNIE & FREDDIE"; E21_safe_vault pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac | highlight "Fannie Mae"
+Then, on September fifteenth, Lehman Brothers ran out of money. This time, nobody rescued it. It filed for bankruptcy.
+> VISUAL: E34_skyscraper drops in; E20_trash_can pops in; E25_calendar pops in "Sept 15, 2008"; E47_explosion pops in; A08_narrator_shocked slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers | highlight "September 15, 2008"
+The next day, A I G was on the edge of collapse. It had sold too much insurance it could never pay. The government stepped in with a rescue that eventually reached about one hundred eighty billion dollars.
+> VISUAL: H18 sign drops in "AIG"; D16_bank_building_scared pops in; G09_capitol_building pops in; E02_money_bag pops in "$182B"
+Then fear spread everywhere. Banks stopped lending to each other, because nobody knew who was hiding losses. Credit, the oil of the economy, froze.
+> VISUAL: D15_bank_building drops in; D15_bank_building pops in; E48_question_marks pop in; E44_warning_sign pops in; E21_safe_vault slides in from the right
+Even big, healthy companies suddenly struggled to borrow money for payroll. Some money market funds, seen as safe as cash, briefly lost value.
+> VISUAL: E33_factory drops in; E01_cash_stack pops in; D02_dollar_sad pops in; E44_warning_sign pops in
+On September twenty-ninth, Congress first voted down a rescue plan. The Dow fell about seven hundred seventy-seven points that day, the biggest point drop it had ever seen.
+> VISUAL: G09_capitol_building drops in; A22_narrator_thumbs_down slides in from the left; D14_chart_arrow_down draws on; H17 price tag pops in "-777"; G02_bear_angry pops in
+A few days later, Congress passed a seven hundred billion dollar rescue fund, called TARP. The financial system was saved, barely.
+> VISUAL: G09_capitol_building drops in; E02_money_bag pops in "$700B"; E21_safe_vault pops in; A35_narrator_sweating slides in from the left
+> SCREEN: U.S. Treasury | https://home.treasury.gov/data/troubled-assets-relief-program | highlight "Troubled Asset Relief Program"
+The Fed cut interest rates to almost zero and pumped huge amounts of money into the banking system to keep it running.
+> VISUAL: G10_central_bank_building drops in; G04_percent_happy pops in "0%"; D19_money_printer pops in; E03_money_rain pours down
+But for families like Marcus and Tanya, the real pain was just beginning.
+> VISUAL: H09_guy_curly_neutral walks in from the left; C10_worker_woman_stressed walks in from the right; D10_house_sad drops in; G24_storm_cloud pops in
 
-## CHAPTER 6: Lehman Brothers weekend
-The government's response was controversial because almost every option was painful. The Federal Reserve supplied emergency liquidity and cut rates. Congress authorized the Troubled Asset Relief Program, commonly called TARP, to help stabilize parts of the financial system.
-> VISUAL: A18_narrator_present_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "subprime-mortgage sector"
-Other measures supported housing markets and the broader economy. Supporters argued that preventing a total breakdown protected workers and businesses as well as banks. Critics argued that rescue measures rewarded reckless institutions while homeowners experienced severe losses.
-> VISUAL: A38_narrator_teacher_pointer slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-Both concerns deserve attention. A rescue may limit immediate damage and still create serious questions about accountability. If firms expect help when bets go wrong, they may be tempted to take more risk next time.
-> VISUAL: A01_narrator_neutral slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-There's also a popular claim that absolutely nobody faced criminal consequences. That is too broad. Some financial-crisis-related crimes were prosecuted, while the absence of criminal convictions for many prominent executives became a major source of public anger.
-> VISUAL: A06_narrator_thinking slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "a series of bank panics"
-Civil settlements, regulatory changes, and fines also followed. But legal action does not reverse a foreclosure or restore years of lost income. For Daniel, the lesson arrives in a much more ordinary form: he may lose the house, his savings, and the future he planned around a mortgage sales pitch.
-> VISUAL: A15_narrator_point_right slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-That human cost is why an explanation focused only on Wall Street misses half the story. One final warning comes from the difference between risk spreading and risk disappearing. Selling a mortgage into a security can move exposure to another investor.
-> VISUAL: A18_narrator_present_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-It does not make the borrower's future payments more certain. If thousands of investors hold pieces of the same underlying economic problem, they may become connected in ways their models did not fully capture. Financial innovation can be useful, but the basic obligation underneath it still matters.
-> VISUAL: A38_narrator_teacher_pointer slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Financial Crisis Inquiry Commission"
+## CHAPTER 6: The Whole World Shakes
+[calm] When banks stop lending, businesses can't borrow to pay workers or buy supplies. So they cut back. And layoffs spread like a chain reaction.
+> VISUAL: D21_factory_sad drops in; E33_factory pops in; C28_crowd_small pops in; E46_arrow_down_big pops in; red arrow from the bank to the factory
+Marcus lost his delivery job in early two thousand nine. Fewer people were buying things, so fewer things needed delivering.
+> VISUAL: H09_guy_curly_neutral walks in from the left; E41_car pops in; H18 sign drops in "LAID OFF"; A41_narrator_sitting_sad pops in
+For a while, they lived with Tanya's parents. Six people in a three-bedroom house. Marcus applied for jobs every day, and heard nothing back.
+> VISUAL: H09_guy_curly_neutral walks in from the left; E35_small_house drops in; C28_crowd_small pops in; E07_laptop pops in; E24_clock pops in
+By October two thousand nine, unemployment reached ten percent. More than eight million jobs were lost.
+> VISUAL: C28_crowd_small drops in; D14_chart_arrow_down draws on; H17 price tag pops in "10%"; H18 sign pops in "8 MILLION JOBS"
+> SCREEN: FRED, St. Louis Fed | https://fred.stlouisfed.org/series/UNRATE | highlight "Unemployment Rate"
+It wasn't just America. Banks in Europe had bought the same products. Iceland's banking system collapsed. Stock markets fell around the world.
+> VISUAL: E43_globe drops in; G16_map_europe pops in; D16_bank_building_scared pops in; D14_chart_arrow_down draws on; D20_globe_worried pops in
+That's how a mortgage in Stockton became a problem in Berlin, Tokyo and Reykjavik. The loans were local. The money was global.
+> VISUAL: D10_house_sad drops in; E43_globe pops in; G15_map_japan pops in; G16_map_europe pops in; red arrow from the house to the globe
+Over the next few years, the government's rescue money was mostly paid back, with interest. But the damage to families took much longer to heal.
+> VISUAL: G09_capitol_building drops in; E02_money_bag pops in; E23_hourglass pops in; C28_crowd_small pops in
+American families lost trillions of dollars in wealth. Millions lost their homes. Many people who had done nothing wrong lost their jobs and savings.
+> VISUAL: C28_crowd_small drops in; D12_house_cracked pops in; D02_dollar_sad pops in; E46_arrow_down_big pops in
+> SCREEN: Federal Reserve History | https://www.federalreservehistory.org/essays/great-recession-of-200709 | highlight "recession"
+And the people at the top? Many big banks were rescued, and only one top Wall Street banker went to prison for crimes tied to the crisis.
+> VISUAL: C21_billionaire_neutral walks in from the right; E34_skyscraper pops in; E55_handcuffs_chain drops in "1"; A12_narrator_angry slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Kareem_Serageldin | highlight "Kareem Serageldin"
+A government commission later studied the whole disaster. Its conclusion was blunt. The crisis was avoidable.
+> VISUAL: G09_capitol_building drops in; H22_book_open pops in; H18 sign pops in "AVOIDABLE"; A17_narrator_point_up slides in from the left
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight "avoidable"
+So what did America change, to stop it from happening again?
+> VISUAL: A06_narrator_thinking slides in from the left; E48_question_marks pop in; E21_safe_vault drops in
 
-## CHAPTER 7: Bailouts and TARP
-Daniel either can or cannot afford the mortgage when his circumstances change. That reality survives every clever label attached to the security. One reason the lesson remains relevant is that the architecture of financial products can change faster than the understanding of ordinary investors.
-> VISUAL: A01_narrator_neutral slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-New names and new contracts can make familiar risks look sophisticated. Before accepting a complex investment as safe, ask what economic activity ultimately produces the payments. Ask what happens if many borrowers or counterparties fail together.
-> VISUAL: A06_narrator_thinking slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-And ask who might need to sell at the worst possible moment. Those questions are not an argument against innovation. They are a reminder that a clever way of distributing a promise doesn't improve the borrower's ability to keep that promise.
-> VISUAL: A15_narrator_point_right slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve — 2007 Monetary Policy Report | https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm | highlight exactly "Strains in financial markets"
-The first mortgage payment still has to come from a real household budget. It is tempting to end by saying greedy bankers caused everything. Some participants behaved deceptively or irresponsibly.
-> VISUAL: A18_narrator_present_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-But a serious explanation has to show the whole chain: easy credit, incentives to originate loans, weak underwriting, opaque securities, excessive leverage, overconfident models, regulatory failures, and a housing market that everyone assumed could absorb mistakes forever. No single household's mortgage broke the world. The danger came from connecting millions of fragile promises through institutions that could not survive the promises failing together.
-> VISUAL: A38_narrator_teacher_pointer slides left; E35_small_house drops; G21_landlord draws; D09_house_happy pops right; D11_house_expensive walks in; zoom; red circle; yellow highlight
-> SCREEN: Federal Reserve History — Banking Panics | https://www.federalreservehistory.org/essays/banking-panics-1930-31 | highlight exactly "Banking Panics of 1930-31"
-That's the part worth remembering when someone says a financial product is safe because experts have found a clever way to divide and sell the risk. Go back to the kitchen table. Daniel is still holding the pen.
-> VISUAL: A01_narrator_neutral slides left; G21_landlord drops; D09_house_happy draws; D11_house_expensive pops right; E35_small_house walks in; zoom; red circle; yellow highlight
-A responsible system should make clear what he's signing, what happens if prices fall, and what he can reasonably afford without needing the next housing boom to save him. The crisis showed what happens when every person in a long financial chain is paid for a deal today, while the true cost can land on someone else tomorrow. And once you understand why that chain broke, another question becomes hard to ignore.
-> VISUAL: A06_narrator_thinking slides left; D09_house_happy drops; D11_house_expensive draws; E35_small_house pops right; G21_landlord walks in; zoom; red circle; yellow highlight
-If governments could create emergency liquidity to stop the collapse, why can't they simply create money whenever the economy needs it?
-> VISUAL: A15_narrator_point_right slides left; D11_house_expensive drops; E35_small_house draws; G21_landlord pops right; D09_house_happy walks in; zoom; red circle; yellow highlight
-> SCREEN: Financial Crisis Inquiry Commission — Report | https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission | highlight exactly "Get the Report"
+## CHAPTER 7: What Changed
+[calm] In twenty ten, Congress passed a big set of new rules called the Dodd-Frank Act. Big banks now have to keep more of their own money as a cushion against losses.
+> VISUAL: G09_capitol_building drops in; H22_book_open pops in "DODD-FRANK"; E21_safe_vault pops in; D15_bank_building pops in
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/Dodd%E2%80%93Frank_Wall_Street_Reform_and_Consumer_Protection_Act | highlight "Dodd–Frank"
+Every year, the Fed now runs stress tests. It checks if the largest banks could survive a deep recession, like a fire drill for money.
+> VISUAL: G10_central_bank_building drops in; D15_bank_building pops in; E19_fire pops in; E44_warning_sign pops in; A21_narrator_thumbs_up slides in from the left
+> SCREEN: Federal Reserve | https://www.federalreserve.gov/supervisionreg/stress-tests-capital-planning.htm | highlight "Stress Tests"
+
+The law also created a new agency to protect borrowers, the Consumer Financial Protection Bureau.
+> VISUAL: G09_capitol_building drops in; E14_podium pops in; C09_worker_woman_neutral walks in from the left; E21_safe_vault pops in
+> SCREEN: Consumer Financial Protection Bureau | https://www.consumerfinance.gov/about-us/the-bureau/ | highlight "The CFPB"
+And the loans that sank Marcus and Tanya are now much harder to get. Lenders must check that you can actually afford to pay, not just at a teaser rate.
+> VISUAL: H15_paper_note_blank drops in; E16_magnifying_glass pops in; D27_calculator_shocked pops in; H16 sticky note pops in "CAN YOU REALLY PAY?"
+> SCREEN: Consumer Financial Protection Bureau | https://www.consumerfinance.gov/ask-cfpb/what-is-the-ability-to-repay-rule-why-is-it-important-to-me-en-1787/ | highlight "ability-to-repay"
+Here's the takeaway. A loan isn't approved because you can afford it. It's approved because someone wants to make it. Only you can decide if it really fits your life.
+> VISUAL: A17_narrator_point_up slides in from the left; D09_house_happy drops in; D27_calculator_shocked pops in; E22_scale pops in
+
+Before you sign, ask three questions. What's my payment in the worst case? What happens if prices fall? And could I still pay if I lost my job for six months?
+> VISUAL: A38_narrator_teacher_pointer slides in from the left; H16 sticky note pops in "1. WORST-CASE PAYMENT"; H16 sticky note pops in "2. PRICES FALL?"; H16 sticky note pops in "3. LOST JOB?"
+Marcus and Tanya rented for years after that. Slowly, they rebuilt their credit and their savings. In twenty seventeen, they bought a small house, with a fixed rate and a real down payment.
+> VISUAL: H09_guy_curly_neutral walks in from the left; C11_worker_woman_happy walks in from the right; G23_credit_meter pops in; E35_small_house drops in; H27_heart pops in
+It was smaller than their dream house. But this time, it was truly theirs.
+> VISUAL: E35_small_house pops in; H18 sign drops in "HOME"; A21_narrator_thumbs_up slides in from the left
+[calm] After two thousand eight, the Fed created trillions of new dollars to save the economy. Which raises a question people ask all the time. Why can't the government just print more money for everyone? That's next.
+> VISUAL: G10_central_bank_building drops in; D19_money_printer pops in; E03_money_rain pours down; E48_question_marks pop in; A23_narrator_wave slides in from the left
 
 ## SOURCES
-- Research source — Financial Crisis Inquiry Commission — Report — https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission
-- Research source — Federal Reserve — 2007 Monetary Policy Report — https://www.federalreserve.gov/monetarypolicy/mpr_20070718_part2.htm
-- Research source — Federal Reserve History — Banking Panics — https://www.federalreservehistory.org/essays/banking-panics-1930-31
-- VERIFY — Every remaining figure, attributed quote, date and interpretive claim in the narration against contemporaneous primary evidence before publication; source screenshots alone do not establish a complete fact-check.
-- Lehman bankruptcy, about $639B assets — https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+- Lehman Brothers filed for bankruptcy 15 Sept 2008, about $639B in assets, largest in US history — https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+- US home prices fell about 27% from 2006 peak to 2012 (Case-Shiller national) — https://fred.stlouisfed.org/series/CSUSHPINSA
+- Subprime lending, low-documentation loans, adjustable teaser rates — https://www.federalreservehistory.org/essays/subprime-mortgage-crisis
+- Bear Stearns sold to JPMorgan March 2008 with Fed backing; Fannie and Freddie into conservatorship 7 Sept 2008 — https://www.federalreservehistory.org/essays/great-recession-of-200709
+- AIG rescue up to about $182B — https://en.wikipedia.org/wiki/Subprime_mortgage_crisis (VERIFY)
+- Dow fell 777.68 points on 29 Sept 2008 after the House rejected the first rescue bill; TARP $700B signed 3 Oct 2008 — https://home.treasury.gov/data/troubled-assets-relief-program
+- Unemployment 10.0% in Oct 2009; about 8.7 million jobs lost — https://fred.stlouisfed.org/series/UNRATE
+- FCIC concluded the crisis was avoidable (2011) — https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission
+- Kareem Serageldin, only top Wall Street banker jailed for crisis-related crimes — https://en.wikipedia.org/wiki/Kareem_Serageldin
+- Leverage about 30 to 1 at some investment banks (VERIFY)
+- Dodd-Frank (2010), Fed stress tests, CFPB, ability-to-repay rule — sources above
+- Marcus and Tanya are fictional examples.
