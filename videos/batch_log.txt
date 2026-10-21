@@ -17,3 +17,4 @@
 2026-10-21 14:14 day 3: done in 7 min, 1 screenshots failed (s19.png), 0 layout warnings -> /home/user/rctrips/videos/day03_real_wolf_of_wall_street/05_export/day03_real_wolf_of_wall_street.mp4
 2026-10-21 14:23 day 4: done in 8 min, all screenshots ok, 3 layout warnings -> /home/user/rctrips/videos/day04_why_100_doesnt_buy_much/05_export/day04_why_100_doesnt_buy_much.mp4
 2026-10-21 14:41 day 1: RENDER FAILED: KeyError: 'H15'
+2026-10-21 14:44 day 1: video already made, skipped
