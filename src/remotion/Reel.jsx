@@ -654,6 +654,81 @@ function BonusCard({scene, look, u, stage, index}) {
   );
 }
 
+// Reference 4: black, serif; the keyword is red with a white outline and types in. Cards rotate
+// between a staircase (lines stepping to the right, character on the left), a sentence with one
+// outlined red word, and a big red word with white lines beside it (numbers count up with an arrow).
+const STAIR_VARIANTS = ['stair', 'inline', 'stair', 'bigRed'];
+
+function StairCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const heroText = display(hero.text);
+  const num = heroText.match(NUMBER);
+  const v = num ? 'bigRed' : STAIR_VARIANTS[index % STAIR_VARIANTS.length];
+  const red = look.accents[0];
+  const outlined = {color: red, WebkitTextStroke: `${Math.max(1.5, u * 0.18)}px #FFFFFF`, paintOrder: 'stroke fill'};
+  const serif = {fontFamily: look.heroFont, fontWeight: 900, letterSpacing: '-0.01em'};
+  const words_ = (ws, color, size, kind, extra) => ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+    <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={kind} fps={c.fps} frame={c.frame} color={color} style={{fontSize: size, ...extra}} /></React.Fragment>);
+  const heroEl = (size) => num
+    ? <span style={{...serif, ...outlined, fontSize: size, display: 'inline-block', opacity: c.frame >= c.at(hero) ? 1 : 0}}>
+      {Math.round(Number(num[1]) * interpolate(c.frame - c.at(hero), [0, 12], [0, 1], {...clamp, easing: ease}))}{num[2] || ''}</span>
+    : <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="type" fps={c.fps} frame={c.frame} color={red} style={{...serif, ...outlined, fontSize: size}} />;
+  const fit = (cap, share) => {
+    const w = measureText({text: heroText, fontFamily: look.heroFont, fontSize: 100, fontWeight: '900'}).width * 1.08;
+    return Math.min(cap, (stage.w * share / w) * 100);
+  };
+  const charW = stage.w * 0.24;
+  const showChar = v === 'stair' && look.character;
+  const pose = `lib:${CHARACTER_POSES[(index >> 1) % CHARACTER_POSES.length]}`;
+  const charP = spring({frame: c.frame - 2, fps: c.fps, config: {damping: 10, stiffness: 200, mass: 0.6}});
+  let body;
+  if (v === 'stair') {
+    const size = fit(u * 9, 0.5);
+    body = (
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', ...serif}}>
+        {pre.length ? <div style={{fontSize: u * 3.9, color: look.ink, lineHeight: 1.1}}>{words_(pre, look.ink, u * 3.9, look.motion)}</div> : null}
+        <div style={{marginLeft: u * 4, lineHeight: 1.05}}>{heroEl(size)}</div>
+        {post.length ? <div style={{marginLeft: u * 9, fontSize: u * 3.4, color: look.ink, lineHeight: 1.15}}>{words_(post, look.ink, u * 3.4, look.motion)}</div> : null}
+      </div>
+    );
+  } else if (v === 'inline') {
+    body = (
+      <div style={{...serif, fontWeight: 700, fontSize: u * 4.4, lineHeight: 1.4, textAlign: 'center', maxWidth: stage.w * 0.82, color: look.ink}}>
+        {words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}{i === h
+          ? <span style={{fontSize: '1.35em'}}>{heroEl(u * 4.4 * 1.35)}</span>
+          : <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={look.motion} fps={c.fps} frame={c.frame} color={look.ink} />}</React.Fragment>)}
+      </div>
+    );
+  } else {
+    // Big red word (or number) with the rest stacked white beside it; numbers get a curved red arrow.
+    const arrowP = interpolate(c.frame - c.at(hero), [6, 20], [0, 1], {...clamp, easing: ease});
+    body = (
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 1.6, ...serif}}>
+        <div style={{position: 'relative', lineHeight: 1}}>
+          {heroEl(fit(u * 14, 0.45))}
+          {num ? <svg width={u * 9} height={u * 5} style={{position: 'absolute', right: -u * 9.5, top: -u * 1, overflow: 'visible'}}>
+            <path d={`M ${u * 0.5} ${u * 4.2} Q ${u * 4} ${u * 4.6} ${u * 8} ${u * 0.8}`} fill="none" stroke={red} strokeWidth={u * 0.5} strokeLinecap="round" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - arrowP} />
+            <path d={`M ${u * 6.4} ${u * 0.6} L ${u * 8} ${u * 0.8} L ${u * 7.7} ${u * 2.4}`} fill="none" stroke={red} strokeWidth={u * 0.5} strokeLinecap="round" opacity={arrowP > 0.9 ? 1 : 0} /></svg> : null}
+        </div>
+        <div style={{display: 'flex', flexDirection: 'column', maxWidth: stage.w * 0.4, marginLeft: num ? u * 9 : 0}}>
+          {pre.length ? <div style={{fontSize: u * 3.2, lineHeight: 1.15}}>{words_(pre, look.ink, u * 3.2, look.motion)}</div> : null}
+          {post.length ? <div style={{fontSize: u * 3.2, lineHeight: 1.15}}>{words_(post, look.ink, u * 3.2, look.motion)}</div> : null}
+        </div>
+      </div>
+    );
+  }
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      {showChar ? <Img src={staticFile(iconPath(pose))} style={{position: 'absolute', left: stage.w * 0.06, top: stage.h * 0.18, width: charW, height: stage.h * 0.6, objectFit: 'contain',
+        transform: `scale(${charP})`, filter: 'drop-shadow(0 0 0.35rem rgba(255,255,255,.9))'}} /> : null}
+      <AbsoluteFill style={{left: showChar ? charW + stage.w * 0.06 : 0, width: showChar ? stage.w - charW - stage.w * 0.06 : stage.w, alignItems: 'center', justifyContent: 'center'}}>{body}</AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -776,6 +851,7 @@ function cardFor(scene, look) {
   if (look.layout === 'lockup') return LockupCard;
   if (look.layout === 'serif') return SerifCard;
   if (look.layout === 'bonus') return BonusCard;
+  if (look.layout === 'stair') return StairCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }

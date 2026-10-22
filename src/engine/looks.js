@@ -9,6 +9,7 @@ const HAND = `Caveat, ${DEV}`;
 // layout:     stack   — sentence / big-word cards (default)
 //             collage — words scattered at mixed sizes
 //             bonus   — white keyword + ghost / black yellow-script / red script / yellow flash cards, rotating
+//             stair   — staircase lines: small white, red outlined keyword typed, small white; inline and big-red cards
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -82,6 +83,9 @@ export const LOOKS = [
   {id: 'bonus', label: 'Ref 3 · Bold Bonus (white/black, ghost word, yellow script)', layout: 'bonus', motion: 'blur', ghost: true,
     bg: '#FFFFFF', ink: '#111111', dark: '#050505', darkInk: '#FFFFFF', accents: ['#E5262A', '#1F6BFF'], cta: '#FFFFFF', ctaBg: '#29A8F0', ctaHands: true,
     font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, scriptFont: `Yellowtail, ${DEV}`, labelFont: `'Libre Caslon Text', ${DEV}`},
+  {id: 'haider', label: 'Ref 4 · Black Serif Staircase (red outlined keyword)', layout: 'stair', motion: 'fade', character: true,
+    bg: '#000000', ink: '#FFFFFF', dark: '#000000', darkInk: '#FFFFFF', accents: ['#E5161D', '#E5161D'], cta: '#E5161D',
+    font: SERIF, weight: 700, heroFont: SERIF, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#E5161D', boxInk: '#FFFFFF'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).
