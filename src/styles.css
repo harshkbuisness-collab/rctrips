@@ -37,5 +37,6 @@ details summary { cursor: pointer; margin-bottom: 8px; }
 .sceneOpts { grid-template-columns: 1fr 1fr; }
 .bulk { padding-left: 18px; font-size: 11px; display: grid; gap: 4px; }
 .bulk li span { display: block; color: #e9eaee; }
-.bulk li em { color: #7b808c; margin-right: 6px; font-style: normal; }
+.bulk li em { display: block; color: #ffd166; font-weight: 600; margin-right: 6px; font-style: normal; }
 .bulk li b { font-weight: 600; color: #a6aab5; }
+.bulk .mini { padding: 2px 8px; font-size: 11px; margin-top: 3px; }

@@ -138,6 +138,9 @@ export default function ReelEditor() {
         const p = buildProject({words: t.words, duration: Math.max(t.duration, duration), settings: {...settings, lookId: list[i].lookId},
           media: {...media, audioSrc: '', audioBlobPath: pathname, audioDurationSec: duration}});
         p.title = `reel-${String(i + 1).padStart(2, '0')}-${list[i].text.split(/\s+/).slice(0, 4).join('-').replace(/[^a-zA-Z0-9-]+/g, '')}`;
+        // Show it in the preview player so you can see the template while it renders.
+        const view = {...p, audioSrc: URL.createObjectURL(file)};
+        setRow(i, {view}); setProject(view);
         await renderVideo(p, (s) => say(s.replace(/^Render complete.*/, 'Rendering…')));
         say('Done ✓');
       } catch (e) { say(`Error: ${e.message}`); }
@@ -188,7 +191,8 @@ export default function ReelEditor() {
           </div>
           {rows.some((r) => r.status.startsWith('Error')) && !busy ? <button className="ghost" onClick={() => runBulk(true)}>Retry failed</button> : null}
           <ol className="bulk">
-            {rows.map((r, i) => <li key={i}><span>{r.text.slice(0, 40)}…</span><em>{LOOKS.find((l) => l.id === r.lookId)?.label.split(' · ')[0]}</em><b>{r.status}</b></li>)}
+            {rows.map((r, i) => <li key={i}><span>{r.text.slice(0, 40)}…</span><em>🎨 {LOOKS.find((l) => l.id === r.lookId)?.label}</em><b>{r.status}</b>
+              {r.view ? <button className="ghost mini" onClick={() => { setProject(r.view); player.current?.seekTo(0); player.current?.play(); }}>▶ View</button> : null}</li>)}
           </ol>
         </details>
       </aside>
