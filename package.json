@@ -24,6 +24,8 @@
     "@fontsource/libre-caslon-text": "^5.3.0",
     "@fontsource/noto-sans-devanagari": "^5.3.0",
     "@fontsource/oswald": "^5.0.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/space-mono": "^5.3.0",
     "@remotion/bundler": "4.0.526",
     "@remotion/layout-utils": "^4.0.526",
     "@remotion/player": "4.0.526",

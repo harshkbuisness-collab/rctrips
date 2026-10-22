@@ -7,6 +7,7 @@ import {pickHero, heroScore, isFiller, norm} from './words.js';
 import {matchIcon} from './icons.js';
 import {matchObject, matchReaction} from './library.js';
 import {matchSticker} from './stickers.js';
+import {getLook} from './looks.js';
 
 export const THEMES = [
   {id: 'classic', label: 'Classic · Red / Blue', bg: '#FAFAFA', ink: '#111111', dark: '#050505', accents: ['#E5262A', '#1F6BFF'], cta: '#FFE600'},
@@ -24,7 +25,7 @@ export const FORMATS = {
   '16:9-in-9:16': {label: '16:9 inside 9:16', width: 1080, height: 1920, stage: {x: 0, y: 656, w: 1080, h: 608}},
 };
 
-export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', stickerStyle: 'cats', seed: 0};
+export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', stickerStyle: 'cats', lookId: 'editorial', seed: 0};
 
 // Accepts {words:[{word|text|display,start,end}]} (seconds). Returns clean words + duration.
 export function parseTiming(raw) {
@@ -129,7 +130,7 @@ export function buildProject({words, duration = 0, settings = {}, media = {}}) {
   const {width, height, stage} = FORMATS[s.format] || FORMATS['9:16'];
   return {
     version: 2, fps: 30, width, height, stage, durationSec: Number(end.toFixed(3)),
-    settings: s, theme: getTheme(s.themeId), scenes,
+    settings: s, theme: getTheme(s.themeId), look: getLook(s.lookId), scenes,
     audioSrc: '', audioVolume: 1, musicSrc: '', musicVolume: 0.15, ...media,
   };
 }
