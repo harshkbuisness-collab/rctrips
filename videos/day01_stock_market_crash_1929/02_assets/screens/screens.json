@@ -344,5 +344,69 @@
   ],
   "ok": true,
   "page": null
+ },
+ {
+  "line": 5,
+  "source": "Wikipedia \u2013 United States",
+  "url": "https://en.wikipedia.org/wiki/United_States",
+  "what": "",
+  "said": "The war is over, America won, and everyone has decided that the future is going to be amazing. And honestly, it was. For the first time, ordinary families could buy things that felt like science fiction.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.582,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia \u2013 Roger Babson",
+  "url": "https://en.wikipedia.org/wiki/Roger_Babson",
+  "what": "",
+  "said": "People called it the \u201cBabson Break\u201c\u2026 and then they went right back to buying. Even the new president, Herbert Hoover, had promised America was \u201cnearer to the final triumph over poverty than ever before in the history of any land.\u201c",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia \u2013 Herbert Hoover",
+  "url": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+  "what": "",
+  "said": "More than a thousand economists signed a letter begging President Hoover not to sign it. He signed it anyway. Other countries did exactly what you'd expect.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia \u2013 World war",
+  "url": "https://en.wikipedia.org/wiki/World_war",
+  "what": "",
+  "said": "It took World War Two to finally bring unemployment all the way down. And the stock market? It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.621,
+   0.769,
+   0.979
+  ],
+  "page": null,
+  "ok": true
  }
 ]

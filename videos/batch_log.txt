@@ -19,3 +19,4 @@
 2026-10-21 14:41 day 1: RENDER FAILED: KeyError: 'H15'
 2026-10-21 14:44 day 1: video already made, skipped
 2026-10-21 14:56 day 1: done in 8 min, 1 screenshots failed (s05.png), 0 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
+2026-10-22 00:11 day 1: done in 10 min, 1 screenshots failed (s05.png), 0 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
