@@ -25,7 +25,7 @@ export const FORMATS = {
   '16:9-in-9:16': {label: '16:9 inside 9:16', width: 1080, height: 1920, stage: {x: 0, y: 656, w: 1080, h: 608}},
 };
 
-export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', stickerStyle: 'cats', lookId: 'collage', seed: 0};
+export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', stickerStyle: 'cats', lookId: 'collage', sfx: 'auto', seed: 0};
 
 // Accepts {words:[{word|text|display,start,end}]} (seconds). Returns clean words + duration.
 export function parseTiming(raw) {

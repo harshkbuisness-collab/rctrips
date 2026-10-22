@@ -1667,7 +1667,7 @@ export function Reel({project}) {
         {ready && look.layout === 'app' ? <Peeker stage={stage} scenes={project.scenes} /> : null}
         {ready && look.layout === 'ourtypo' ? <CatParade stage={stage} /> : null}
       </div>
-      {ready && look.sfx ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
+      {ready && (project.settings?.sfx === 'on' || (project.settings?.sfx !== 'off' && look.sfx)) ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
       {project.audioSrc ? <Audio src={project.audioSrc} volume={project.audioVolume ?? 1} /> : null}
       {project.musicSrc ? <Audio src={project.musicSrc} volume={(f) => (project.musicVolume ?? 0.05) * (speaking(project.scenes, f / fps) ? 0.45 : 1)} loop /> : null}
     </AbsoluteFill>

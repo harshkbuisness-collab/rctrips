@@ -73,7 +73,7 @@ export default function ReelEditor() {
 
   const rebuild = (t = timing, s = settings, m = media) => t && setProject(buildProject({words: t.words, duration: Math.max(t.duration, m.audioDurationSec || 0), settings: s, media: m}));
   // Theme and format only restyle, so the user's scene edits are kept; the rest re-plan the scenes.
-  const RESTYLE = {lookId: (v) => ({look: getLook(v)}), format: (v) => FORMATS[v]};
+  const RESTYLE = {lookId: (v) => ({look: getLook(v)}), format: (v) => FORMATS[v], sfx: () => ({})};
   const setSetting = (key, value) => {
     const s = {...settings, [key]: value}; setSettings(s);
     if (project && RESTYLE[key]) setProject((p) => ({...p, settings: s, ...RESTYLE[key](value)}));
@@ -227,6 +227,7 @@ export default function ReelEditor() {
         <F label={`Music volume ${Math.round(media.musicVolume * 100)}%`}><input type="range" min="0" max="0.3" step="0.01" value={media.musicVolume} onChange={(e) => setMediaField({musicVolume: Number(e.target.value)})} /></F>
         <F label="Format"><select value={settings.format} onChange={(e) => setSetting('format', e.target.value)}>{opt(Object.entries(FORMATS).map(([k, f]) => [k, f.label]))}</select></F>
         <F label="Template"><select value={settings.lookId} onChange={(e) => setSetting('lookId', e.target.value)}>{opt(LOOKS.map((l) => [l.id, l.label]))}</select></F>
+        <F label="Sound effects"><select value={settings.sfx} onChange={(e) => setSetting('sfx', e.target.value)}>{opt([['auto', 'Template default'], ['on', 'On (whoosh, pop, click)'], ['off', 'Off']])}</select></F>
         <F label="3D icons"><select value={settings.icons} onChange={(e) => setSetting('icons', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
         <F label="Stickers"><select value={settings.stickers} onChange={(e) => setSetting('stickers', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
         <F label="Sticker style"><select value={settings.stickerStyle} onChange={(e) => setSetting('stickerStyle', e.target.value)}>{opt([['cats', 'Cats'], ['mascot', 'Mascot']])}</select></F>
