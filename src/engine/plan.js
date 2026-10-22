@@ -131,6 +131,6 @@ export function buildProject({words, duration = 0, settings = {}, media = {}}) {
   return {
     version: 2, fps: 30, width, height, stage, durationSec: Number(end.toFixed(3)),
     settings: s, theme: getTheme(s.themeId), look: getLook(s.lookId), scenes,
-    audioSrc: '', audioVolume: 1, musicSrc: '', musicVolume: 0.15, ...media,
+    audioSrc: '', audioVolume: 1, musicSrc: '', musicVolume: 0.05, ...media,
   };
 }

@@ -546,15 +546,20 @@ function cardFor(scene, look) {
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
 
+// True while the voice is speaking (with a short tail), so music can duck under it.
+function speaking(scenes, t) {
+  return scenes.some((s) => s.words.some((w) => t >= w.start - 0.05 && t <= w.end + 0.25));
+}
+
 // Typing clicks on every word, a pop when a keyword lands, a whoosh on each transition.
 function SoundEffects({scenes, look, fps}) {
   const cues = [];
   scenes.forEach((s, i) => {
-    if (look.transition && i > 0 && (!look.transitionEvery || i % look.transitionEvery === 0)) cues.push(['whoosh', s.start - 0.05, 0.45]);
+    if (look.transition && i > 0 && (!look.transitionEvery || i % look.transitionEvery === 0)) cues.push(['whoosh', s.start - 0.05, 0.16]);
     if (!['line', 'hero'].includes(s.type)) return;
-    s.words.forEach((w) => cues.push(['click', w.start, 0.22]));
+    s.words.forEach((w) => cues.push(['click', w.start, 0.07]));
     const hero = s.words.find((w) => w.hero);
-    if (hero) cues.push(['pop', hero.start + Math.min(0.5, hero.end - hero.start), 0.5]);
+    if (hero) cues.push(['pop', hero.start + Math.min(0.5, hero.end - hero.start), 0.2]);
   });
   return cues.map(([name, t, volume], i) => (
     <Sequence key={i} from={Math.max(0, Math.round(t * fps))} durationInFrames={Math.round(fps * 0.6)}>
@@ -592,7 +597,7 @@ export function Reel({project}) {
       </div>
       {ready && look.sfx ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
       {project.audioSrc ? <Audio src={project.audioSrc} volume={project.audioVolume ?? 1} /> : null}
-      {project.musicSrc ? <Audio src={project.musicSrc} volume={project.musicVolume ?? 0.15} loop /> : null}
+      {project.musicSrc ? <Audio src={project.musicSrc} volume={(f) => (project.musicVolume ?? 0.05) * (speaking(project.scenes, f / fps) ? 0.45 : 1)} loop /> : null}
     </AbsoluteFill>
   );
 }

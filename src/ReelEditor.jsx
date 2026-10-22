@@ -28,7 +28,7 @@ const isLocal = () => ['localhost', '127.0.0.1'].includes(window.location.hostna
 export default function ReelEditor() {
   const [timing, setTiming] = useState(null); // {words, duration}
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
-  const [media, setMedia] = useState({audioVolume: 1, musicVolume: 0.15});
+  const [media, setMedia] = useState({audioVolume: 1, musicVolume: 0.05});
   const [project, setProject] = useState(null);
   const [script, setScript] = useState('');
   const [voice, setVoice] = useState(VOICES[0][0]);
@@ -126,7 +126,7 @@ export default function ReelEditor() {
         <hr />
         <F label={`Voice volume ${Math.round(media.audioVolume * 100)}%`}><input type="range" min="0" max="2" step="0.05" value={media.audioVolume} onChange={(e) => setMediaField({audioVolume: Number(e.target.value)})} /></F>
         <F label="Background music (optional)"><input type="file" accept="audio/*" disabled={busy} onChange={(e) => onAudio(e.target.files?.[0], 'music')} /></F>
-        <F label={`Music volume ${Math.round(media.musicVolume * 100)}%`}><input type="range" min="0" max="1" step="0.01" value={media.musicVolume} onChange={(e) => setMediaField({musicVolume: Number(e.target.value)})} /></F>
+        <F label={`Music volume ${Math.round(media.musicVolume * 100)}%`}><input type="range" min="0" max="0.3" step="0.01" value={media.musicVolume} onChange={(e) => setMediaField({musicVolume: Number(e.target.value)})} /></F>
         <F label="Format"><select value={settings.format} onChange={(e) => setSetting('format', e.target.value)}>{opt(Object.entries(FORMATS).map(([k, f]) => [k, f.label]))}</select></F>
         <F label="Theme"><select value={settings.themeId} onChange={(e) => setSetting('themeId', e.target.value)}>{opt(THEMES.map((t) => [t.id, t.label]))}</select></F>
         <F label="3D icons"><select value={settings.icons} onChange={(e) => setSetting('icons', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
