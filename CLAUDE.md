@@ -32,6 +32,8 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 - No opening card with only a year (like "1929"): the first frame is real evidence.
 - No next-video box or next-video tease, ever. The video ends with a short thanks frame.
 - Evidence first (charts, real photos, cards); the character is a small guide at the edge.
+- No empty scene: every scene has at least 3 things; render only when `make_video.py <dir> --check` shows 0 warnings.
+- Charts build themselves on screen (bars grow, lines draw): `tools/make_charts.py` makes the frames.
 
 ## Video analysis (reference or our own videos)
 - Never look at many video frames: images cost a lot of tokens. Run `python3 tools/video_analyzer/analyze_video.py <video>` (or the owner
