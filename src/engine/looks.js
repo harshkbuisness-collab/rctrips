@@ -14,6 +14,7 @@ const HAND = `Caveat, ${DEV}`;
 //                       dark number lines, grey serif meme cards, peach cards (reference 5)
 //             super   — huge white serif keyword with small blue words as superscript / subscript / beside,
 //                       yellow accents, a Follow button being clicked (reference 7)
+//             wire    — paper, CAPS title tag on top, a line-drawn UI wireframe panel drawing in (reference 8)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -96,6 +97,9 @@ export const LOOKS = [
   {id: 'superscript', label: 'Ref 7 · Cinematic Serif (white serif + blue super/subscript)', layout: 'super', motion: 'fade',
     bg: '#000000', ink: '#FFFFFF', dark: '#000000', darkInk: '#FFFFFF', accents: ['#2E9BFF', '#FFD60A'], cta: '#FFFFFF',
     font: INTER, weight: 500, heroFont: SERIF, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#FFFFFF', boxInk: '#000000'},
+  {id: 'wireframe', label: 'Ref 8 · Paper Wireframe (title tag + drawn UI panels)', layout: 'wire', motion: 'type', ghost: true, texture: 'paper', questions: true,
+    bg: '#E8E8E5', ink: '#3A3A3A', dark: '#2F5D50', darkInk: '#FFFFFF', accents: ['#2F5D50', '#B9474B'], cta: '#FFFFFF',
+    font: `Caveat, ${DEV}`, weight: 700, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: `Montserrat, ${DEV}`, boxBg: '#FFFFFF', boxInk: '#2F5D50'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

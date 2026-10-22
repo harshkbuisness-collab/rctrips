@@ -12,6 +12,7 @@ import '@fontsource/oswald/700.css';
 import '@fontsource/caveat/700.css';
 import '@fontsource/dancing-script/700.css';
 import '@fontsource/yellowtail/400.css';
+import '@fontsource/montserrat/800.css';
 import '@fontsource/playfair-display/700.css';
 import '@fontsource/playfair-display/900.css';
 import '@fontsource/playfair-display/700-italic.css';
@@ -28,7 +29,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'};
 const ease = Easing.out(Easing.cubic);
 const FONT_FACES = [['600', 'Inter'], ['italic 600', 'Inter'], ['700', 'Inter'], ['800', 'Inter'], ['900', 'Inter'], ['italic 900', 'Inter'],
   ['700', '"Noto Sans Devanagari"', 'क'], ['900', '"Noto Sans Devanagari"', 'क'], ['400', '"Libre Caslon Text"'], ['400', 'Anton'], ['700', 'Oswald'],
-  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['400', 'Yellowtail'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"'], ['italic 700', '"Playfair Display"'], ['italic 900', '"Playfair Display"']];
+  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['400', 'Yellowtail'], ['800', 'Montserrat'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"'], ['italic 700', '"Playfair Display"'], ['italic 900', '"Playfair Display"']];
 
 // Hold the render until fonts are loaded, so measuring and drawing match.
 function useFontsReady() {
@@ -894,6 +895,103 @@ function SuperCard({scene, look, u, stage, index}) {
   );
 }
 
+// Reference 8: paper with a leaf shadow, a CAPS title (green box / red box / plain dark / plain red) with
+// tiny handwriting above it, and a line-drawn UI wireframe that draws itself in the middle.
+const TITLE_STYLES = [{bg: '#2F5D50', ink: '#FFFFFF'}, {bg: 'none', ink: '#3A3A3A'}, {bg: '#B9474B', ink: '#FFFFFF'}, {bg: 'none', ink: '#B9474B'}];
+const PANELS = ['phone', 'doc', 'chat', 'dots', 'calendar'];
+const INK = '#3A3A3A', RED = '#B9474B', GREEN = '#2F5D50';
+
+function Wireframe({kind, w, h, f, icon}) {
+  const draw = interpolate(f, [0, 12], [0, 1], {...clamp, easing: ease});
+  const after = (i, step = 3) => spring({frame: f - 10 - i * step, fps: 30, config: {damping: 13, stiffness: 200}});
+  const sw = Math.max(2, w * 0.012);
+  const outline = (x, y, ww, hh, r, extra) => <rect x={x} y={y} width={ww} height={hh} rx={r} fill="#F6F6F3" stroke={INK} strokeWidth={sw}
+    pathLength="1" strokeDasharray="1" strokeDashoffset={1 - draw} {...extra} />;
+  const bar = (x, y, ww, color, i) => <rect x={x} y={y} width={ww * after(i)} height={h * 0.025} rx={h * 0.012} fill={color} />;
+  let inner = null;
+  if (kind === 'phone') {
+    inner = <>
+      <circle cx={w * 0.2} cy={h * 0.14} r={w * 0.08 * after(0)} fill="none" stroke={GREEN} strokeWidth={sw * 1.4} />
+      {bar(w * 0.34, h * 0.11, w * 0.4, INK, 1)}{bar(w * 0.34, h * 0.16, w * 0.25, '#AAA', 2)}
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => { const p = after(3 + i, 2); const c = i % 3, r = Math.floor(i / 3);
+        return <rect key={i} x={w * (0.1 + c * 0.28)} y={h * (0.3 + r * 0.19)} width={w * 0.24} height={h * 0.16} rx={w * 0.03} fill="none" stroke={INK} strokeWidth={sw} opacity={p} />; })}
+      <circle cx={w * 0.86} cy={h * 0.92} r={w * 0.06 * after(14)} fill={RED} />
+    </>;
+  } else if (kind === 'doc') {
+    inner = <>
+      <rect x={w * 0.1} y={h * 0.07} width={w * 0.45 * after(0)} height={h * 0.06} rx={h * 0.02} fill={RED} />
+      {[0, 1, 2, 3, 4].map((i) => <g key={i} opacity={after(1 + i)}>
+        <rect x={w * 0.1} y={h * (0.22 + i * 0.12)} width={w * 0.07} height={w * 0.07} fill="none" stroke={INK} strokeWidth={sw} />
+        {bar(w * 0.22, h * (0.23 + i * 0.12), w * (0.4 + (i % 2) * 0.2), INK, 1 + i)}</g>)}
+      <circle cx={w * 0.84} cy={h * 0.9} r={w * 0.12 * after(7)} fill={RED} />
+      <text x={w * 0.84} y={h * 0.91} fontFamily="Montserrat" fontWeight="800" fontSize={w * 0.07} fill="#FFF" textAnchor="middle" dominantBaseline="middle" opacity={after(8)}>FREE</text>
+    </>;
+  } else if (kind === 'chat') {
+    inner = <>
+      <circle cx={w * 0.14} cy={h * 0.09} r={w * 0.05 * after(0)} fill={GREEN} />{bar(w * 0.24, h * 0.08, w * 0.35, INK, 0)}
+      {[0, 1, 2, 3].map((i) => { const mine = i % 2 === 1; const p = after(1 + i * 2);
+        return <rect key={i} x={mine ? w * 0.42 : w * 0.08} y={h * (0.22 + i * 0.17)} width={w * 0.5} height={h * 0.11} rx={h * 0.055} opacity={p}
+          fill={mine ? RED : 'none'} stroke={mine ? 'none' : INK} strokeWidth={sw} transform={`translate(0 ${(1 - p) * h * 0.05})`} />; })}
+    </>;
+  } else if (kind === 'dots') {
+    inner = Array.from({length: 40}, (_, i) => { const c = i % 8, r = Math.floor(i / 8); const p = after(c + r, 1);
+      return <circle key={i} cx={w * (0.1 + c * 0.114)} cy={h * (0.15 + r * 0.17)} r={w * 0.028 * p} fill={(i * 7) % 5 === 0 ? RED : GREEN} />; });
+  } else {
+    // 30-day calendar filling up.
+    const filled = Math.floor(interpolate(f, [12, 40], [0, 30], clamp));
+    inner = <>
+      <rect x={0} y={0} width={w * after(0)} height={h * 0.12} rx={w * 0.04} fill={RED} />
+      <text x={w * 0.5} y={h * 0.065} fontFamily="Montserrat" fontWeight="800" fontSize={h * 0.07} fill="#FFF" textAnchor="middle" dominantBaseline="middle">30 DAYS</text>
+      {Array.from({length: 30}, (_, i) => <rect key={i} x={w * (0.08 + (i % 6) * 0.145)} y={h * (0.18 + Math.floor(i / 6) * 0.13)} width={w * 0.12} height={h * 0.1} rx={w * 0.015}
+        fill={i < filled ? GREEN : 'none'} stroke={INK} strokeWidth={sw * 0.6} />)}
+      <text x={w * 0.5} y={h * 0.9} fontFamily="Montserrat" fontWeight="800" fontSize={h * 0.06} fill={INK} textAnchor="middle">{`DAY ${Math.max(1, filled)}/30`}</text>
+    </>;
+  }
+  return (
+    <div style={{position: 'relative', width: w, height: h}}>
+      <svg width={w} height={h} style={{overflow: 'visible'}}>{outline(0, 0, w, h, w * 0.05)}{inner}</svg>
+      {icon ? <Img src={icon} style={{position: 'absolute', right: -w * 0.28, top: -h * 0.12, width: w * 0.45, height: w * 0.45, objectFit: 'contain',
+        transform: `scale(${after(4)}) rotate(${(1 - after(4)) * 20}deg)`}} /> : null}
+    </div>
+  );
+}
+
+// A soft plant-leaf shadow falling across the paper.
+const LEAF = <AbsoluteFill style={{background: 'radial-gradient(ellipse 18% 6% at 18% 20%, rgba(0,0,0,.10), transparent), radial-gradient(ellipse 22% 5% at 30% 32%, rgba(0,0,0,.08), transparent), radial-gradient(ellipse 15% 5% at 80% 15%, rgba(0,0,0,.08), transparent), radial-gradient(ellipse 20% 6% at 88% 80%, rgba(0,0,0,.07), transparent)', filter: 'blur(8px)'}} />;
+
+function WireCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const hero = words[h];
+  const next = words[h + 1];
+  // Two-word titles ("NAYA PAGE") when the next word is short and meaningful.
+  const title = display(hero.text, true) + (next && !FILLER.test(display(next.text)) && (display(hero.text) + display(next.text)).length <= 12 ? ` ${display(next.text, true)}` : '');
+  const ts = TITLE_STYLES[index % TITLE_STYLES.length];
+  const tIn = spring({frame: c.frame - c.at(hero), fps: c.fps, config: {damping: 14, stiffness: 200}});
+  const rest = words.filter((w) => w !== hero && w !== next);
+  const kind = PANELS[index % PANELS.length];
+  const ph = stage.h * 0.56;
+  const pw = kind === 'phone' || kind === 'doc' ? ph * 0.72 : kind === 'dots' ? ph * 1.6 : kind === 'chat' ? ph * 0.9 : ph * 1.05;
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      {LEAF}
+      <Ghost text={title} look={look} ink={look.ink} stage={stage} frame={c.frame} />
+      {look.questions && words.some((w) => QUESTION.test(w.text)) ? <Questions stage={stage} frame={c.frame} color={RED} /> : null}
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', flexDirection: 'column', paddingTop: stage.h * 0.03}}>
+        <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 3, color: '#7A7A7A', minHeight: u * 3.2, maxWidth: stage.w * 0.7, textAlign: 'center'}}>
+          {rest.map((w, i) => <span key={i} style={{opacity: interpolate(c.frame - c.at(w), [0, 6], [0, 1], clamp)}}>{i > 0 ? ' ' : ''}{display(w.text)}</span>)}
+        </div>
+        <div style={{fontFamily: look.heroFont, fontWeight: 800, fontSize: u * 5.6, lineHeight: 1.05, color: ts.ink, background: ts.bg === 'none' ? 'transparent' : ts.bg,
+          padding: `${u * 0.2}px ${u * 1.2}px`, transform: `rotate(${ts.bg === 'none' ? 0 : -1.5}deg)`, letterSpacing: '0.01em',
+          textShadow: ts.bg === 'none' ? '0 3px 0 rgba(0,0,0,.08)' : 'none', clipPath: `inset(-10% ${(1 - Math.min(1, tIn)) * 100}% -10% 0)`}}>{title}</div>
+        <div style={{marginTop: stage.h * 0.05}}><Wireframe kind={kind} w={pw} h={ph} f={c.frame - 3} icon={icon} /></div>
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -1020,6 +1118,7 @@ function cardFor(scene, look) {
   if (look.layout === 'stair') return StairCard;
   if (look.layout === 'meme') return MemeCard;
   if (look.layout === 'super') return SuperCard;
+  if (look.layout === 'wire') return WireCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
