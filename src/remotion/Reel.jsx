@@ -54,7 +54,7 @@ function useCard(scene) {
 
 // Colours for a sentence / big-word card; "cycle" templates change background per card.
 function paletteFor(look, scene, index) {
-  const c = look.cycle ? look.cycle[index % look.cycle.length] : {bg: look.bg, ink: look.ink, accent: look.accents[scene.accent || 0] || look.accents[0]};
+  const c = scene.type === 'hero' && look.heroCycle ? look.heroCycle[index % look.heroCycle.length] : look.cycle ? look.cycle[index % look.cycle.length] : {bg: look.bg, ink: look.ink, accent: look.accents[scene.accent || 0] || look.accents[0]};
   return {...c, accentStyle: c.accent === 'gradient'
     ? {backgroundImage: look.gradient, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}
     : {color: c.accent}};
@@ -724,12 +724,16 @@ export function Reel({project}) {
   const {fps, width, height} = useVideoConfig();
   if (!project?.scenes) return null;
   const look = project.look?.motion ? project.look : getLook(project.settings?.lookId);
-  const stage = project.stage || {x: 0, y: 0, w: width, h: height};
+  const outer = project.stage || {x: 0, y: 0, w: width, h: height};
+  // Framed templates draw every card inside a rounded panel.
+  const stage = look.frame ? {x: outer.x + outer.w * 0.07, y: outer.y + outer.h * 0.1, w: outer.w * 0.86, h: outer.h * 0.8} : outer;
   // Size unit: landscape stages scale with width, portrait stages a little larger.
   const u = stage.w >= stage.h ? stage.w / 100 : stage.w / 62;
   return (
     <AbsoluteFill style={{background: '#000'}}>
-      <div style={{position: 'absolute', left: stage.x, top: stage.y, width: stage.w, height: stage.h, overflow: 'hidden', background: look.bg}}>
+      {look.frame ? <div style={{position: 'absolute', left: outer.x, top: outer.y, width: outer.w, height: outer.h, background: look.frameBg}} /> : null}
+      <div style={{position: 'absolute', left: stage.x, top: stage.y, width: stage.w, height: stage.h, overflow: 'hidden', background: look.bg,
+        borderRadius: look.frame ? stage.h * 0.05 : 0, boxShadow: look.frame ? '0 20px 50px rgba(0,0,0,.5)' : 'none'}}>
         {ready ? project.scenes.map((scene, index) => {
           const Card = cardFor(scene, look);
           const from = Math.round(scene.start * fps);

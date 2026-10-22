@@ -20,6 +20,7 @@ const HAND = `Caveat, ${DEV}`;
 //             scriptFont (every other big word in script), ctaBg (coloured Comment card),
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
 //             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
+//             heroCycle (full-colour backgrounds for big-word cards), frame (cards inside a rounded frame),
 //             bgArt (the card's visual, huge and faded in sepia behind the text),
 //             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
@@ -62,6 +63,21 @@ export const LOOKS = [
   {id: 'statue', label: 'Ref 2 · Serif Statue (cream, faded statue)', layout: 'serif', motion: 'fade', bgArt: true,
     bg: '#FBF3DC', ink: '#2A2522', dark: '#111111', darkInk: '#FBF3DC', accents: ['#CF1B1B', '#CF1B1B'], cta: '#CF1B1B',
     font: SERIF, weight: 700, heroFont: SERIF, heroWeight: 900, heroItalic: false, scriptFont: SCRIPT, labelFont: SERIF, boxBg: '#CF1B1B', boxInk: '#FBF3DC'},
+  {id: 'presenter', label: 'Ref 6 · Presenter (mascot, dark green)', layout: 'run', motion: 'pop', mascot: true,
+    bg: '#0F2E22', ink: '#FFFFFF', dark: '#06140F', darkInk: '#FFFFFF', accents: ['#2FBF71', '#2FBF71'], cta: '#3DDC84',
+    font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, labelFont: INTER, stepPrefix: 'Step', boxBg: '#3DDC84', boxInk: '#06140F'},
+  {id: 'framed', label: 'Ref 10 · Framed Cards (brown / cream)', layout: 'stack', motion: 'type', frame: true, frameBg: '#161616', align: 'center',
+    cycle: [{bg: '#6B4A35', ink: '#F3E3C8', accent: '#FFC94A'}, {bg: '#F3E3C8', ink: '#4A2F1F', accent: '#C0392B'}],
+    bg: '#6B4A35', ink: '#F3E3C8', dark: '#2B1D14', darkInk: '#F3E3C8', accents: ['#FFC94A', '#FFC94A'], cta: '#FFC94A',
+    font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: false, heroScale: 0.85, labelFont: INTER, boxBg: '#FFC94A', boxInk: '#2B1D14'},
+  {id: 'classic2', label: 'Ref 13 · Classic Flash (colour flash cards)', layout: 'stack', motion: 'blur', ghost: true, align: 'center',
+    heroCycle: [{bg: '#FFFFFF', ink: '#111111', accent: '#E5262A'}, {bg: '#FFE14D', ink: '#111111', accent: '#111111'},
+      {bg: '#E5262A', ink: '#FFFFFF', accent: '#FFFFFF'}, {bg: '#29A8F0', ink: '#FFFFFF', accent: '#FFFFFF'}],
+    bg: '#FFFFFF', ink: '#111111', dark: '#050505', darkInk: '#FFFFFF', accents: ['#E5262A', '#E5262A'], cta: '#FFFFFF', ctaBg: '#29A8F0',
+    font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: false, scriptFont: SCRIPT, labelFont: INTER},
+  {id: 'plum', label: 'Ref 14 · Plum (white + yellow, mascot)', layout: 'stack', motion: 'tracking', mascot: true, align: 'center',
+    bg: '#3A1E35', ink: '#FFFFFF', dark: '#2A1426', darkInk: '#FFFFFF', accents: ['#FFD43B', '#FF7AC6'], cta: '#FFD43B',
+    font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: false, heroScale: 0.9, labelFont: INTER, boxBg: '#FFD43B', boxInk: '#2A1426'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).
