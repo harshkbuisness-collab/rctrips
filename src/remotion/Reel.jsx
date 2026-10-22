@@ -1566,7 +1566,31 @@ function TransitionIn({kind, children, stage}) {
   return <AbsoluteFill style={{opacity: p, filter: `blur(${(1 - p) * 18}px)`}}>{children}</AbsoluteFill>;
 }
 
+// Your own screenshot or photo: shown big in a rounded card, with the sentence underneath.
+function ImageCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const pal = paletteFor(look, scene, index);
+  const pop = spring({frame: c.frame, fps: c.fps, config: {damping: 14, mass: 0.7}});
+  const drift = interpolate(c.frame, [0, (scene.end - scene.start) * c.fps], [1, 1.06], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const portrait = stage.h > stage.w;
+  return (
+    <Backdrop bg={pal.bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2.4, padding: u * 3}}>
+        <div style={{width: portrait ? '90%' : '74%', height: portrait ? '62%' : '64%', borderRadius: u * 1.6, overflow: 'hidden', background: '#fff',
+          boxShadow: '0 18px 50px rgba(0,0,0,.35)', opacity: Math.min(1, pop * 1.5), transform: `translateY(${(1 - pop) * u * 6}px) scale(${0.86 + 0.14 * pop})`}}>
+          <Img src={scene.image} style={{width: '100%', height: '100%', objectFit: 'contain', background: '#111', transform: `scale(${drift})`}} />
+        </div>
+        <div style={{maxWidth: stage.w * 0.86, textAlign: 'center', fontFamily: look.font, fontWeight: look.weight, fontSize: u * 3 * (look.textScale || 1),
+          lineHeight: 1.2, letterSpacing: look.tracking || '-0.02em'}}>
+          <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} />
+        </div>
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function cardFor(scene, look) {
+  if (scene.image) return ImageCard;
   if (scene.type === 'step') return StepCard;
   if (scene.type === 'cta') return CtaCard;
   if (look.layout === 'collage') return CollageCard;

@@ -24,6 +24,18 @@ const VOICES = [
 
 const F = ({label, children}) => <label className="field"><span>{label}</span>{children}</label>;
 const fmt = (s) => `${Math.floor(s / 60)}:${(s % 60).toFixed(1).padStart(4, '0')}`;
+// Shrink a picture to a JPEG data URL (max 1280px) so it travels inside the project to the renderer.
+const imageToDataUrl = (file) => new Promise((resolve, reject) => {
+  const img = new Image(), u = URL.createObjectURL(file);
+  img.onload = () => {
+    const k = Math.min(1, 1280 / Math.max(img.width, img.height));
+    const cv = document.createElement('canvas'); cv.width = Math.round(img.width * k); cv.height = Math.round(img.height * k);
+    cv.getContext('2d').drawImage(img, 0, 0, cv.width, cv.height); URL.revokeObjectURL(u);
+    resolve(cv.toDataURL('image/jpeg', 0.82));
+  };
+  img.onerror = () => { URL.revokeObjectURL(u); reject(new Error('Could not read image')); };
+  img.src = u;
+});
 const isLocal = () => ['localhost', '127.0.0.1'].includes(window.location.hostname);
 
 export default function ReelEditor() {
@@ -105,8 +117,18 @@ export default function ReelEditor() {
     setBusy(false);
   }
 
+  async function onImage(id, file) {
+    if (!file) return;
+    try {
+      const image = await imageToDataUrl(file);
+      updateScene(id, (x) => ({...x, image}));
+      setStatus('✓ Image added to scene');
+    } catch (e) { setStatus(`Error: ${e.message}`); }
+  }
+
   async function onRender() {
     if (!project?.audioBlobPath) return setStatus('Generate or upload the voice first');
+    if (JSON.stringify(project).length > 4e6) return setStatus('Too many images — the limit is about 15 per video. Remove a few and try again.');
     setBusy(true);
     try { await renderVideo(project, setStatus); } catch (e) { setStatus(`Error: ${e.message}`); }
     setBusy(false);
@@ -207,7 +229,7 @@ export default function ReelEditor() {
 
       <section className="scenes">
         <h2>Scenes {project ? `(${project.scenes.length})` : ''}</h2>
-        <p className="hint">Click a word = keyword on/off • Double-click = edit text</p>
+        <p className="hint">Click a word = keyword on/off • Double-click = edit text • 📷 = put your own screenshot on a scene</p>
         {project?.scenes.map((s) => (
           <div key={s.id} className="scene">
             <div className="sceneHead">
@@ -217,7 +239,11 @@ export default function ReelEditor() {
                   <option value="line">Sentence</option><option value="hero">Big word</option>
                 </select>
               ) : <span className="tag">{s.type === 'step' ? `Step ${s.num}` : 'Comment CTA'}</span>}
+              <label className="ghost mini imgBtn">{s.image ? '📷 Change' : '📷 Add image'}
+                <input type="file" accept="image/*" hidden onChange={(e) => { onImage(s.id, e.target.files?.[0]); e.target.value = ''; }} /></label>
+              {s.image ? <button className="ghost mini" onClick={() => updateScene(s.id, (x) => ({...x, image: ''}))}>✕</button> : null}
             </div>
+            {s.image ? <img className="thumb" src={s.image} alt="" /> : null}
             <div className="words">
               {s.words.map((w, i) => (
                 <span key={i} className={`chip${w.hero ? ' hero' : ''}`} onClick={() => toggleHero(s.id, i)}
