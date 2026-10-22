@@ -30,7 +30,7 @@ STORY RULES
 - Keep sentences short (about 10-12 words) so the voice can be read at about 175 words per minute.
 - Every chapter ends with a bridge sentence that leads into the next chapter. If you open a question, answer it later.
 - Explain every money word the first time, with a one-sentence everyday example.
-- End with a calm takeaway and one line that leads into the next video.
+- End with a calm takeaway and a short subscribe line. Never tease or name the next video.
 - Length: 2,050 to 2,250 SPOKEN words (count spoken lines only), 6 to 8 chapters.
 - Spoken lines must be easy to read aloud: write numbers in words ("thirty-eight trillion dollars"). No symbols, brackets or markdown inside spoken lines.
 - An optional emotion tag at the start of a line, only these: [calm] [serious] [sarcastic] [dramatic] [excited]. Mostly [calm].
@@ -169,7 +169,7 @@ Outline:
 7) What it means for your mortgage & taxes
 Facts to check: Total debt (check TreasuryDirect 'Debt to the Penny' on the day); interest cost vs defense (CBO); top foreign holders (Treasury TIC data)
 Evidence ideas: TreasuryDirect debt counter; Treasury TIC 'Major Foreign Holders' table; CBO budget outlook; FRED debt-to-GDP chart
-The last line leads into the next video: "The Real Wolf of Wall Street Was Worse"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 3
@@ -191,7 +191,7 @@ Outline:
 8) Why we cheer for villains
 Facts to check: Sentence length; restitution ordered vs paid (court records/DOJ); size of investor losses
 Evidence ideas: SEC/DOJ press releases; court filings; FINRA BrokerCheck page for Stratton Oakmont; NYT/WSJ archive headlines
-The last line leads into the next video: "Why $100 Doesn't Buy What It Used To"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 4
@@ -212,7 +212,7 @@ Outline:
 7) What you can do (not financial advice)
 Facts to check: Latest CPI (BLS release on the day); June 2022 9.1% peak; $100 2020 purchasing power
 Evidence ideas: BLS CPI release; FRED CPI chart; NPR/AP inflation headlines
-The last line leads into the next video: "How Your Neighbor's Mortgage Broke the World"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 5
@@ -234,7 +234,7 @@ Outline:
 8) Who paid, who went to jail (nobody)
 Facts to check: Lehman size & date; TARP $700B; foreclosures and job losses (BLS/Fed); unemployment peak 10%
 Evidence ideas: Lehman bankruptcy filing headline; Fed/Treasury press releases; Financial Crisis Inquiry Report (govinfo.gov); FRED unemployment & home price charts
-The last line leads into the next video: "Why Can't the Government Just Print More Money?"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 6
@@ -254,7 +254,7 @@ Outline:
 6) When printing works and when it breaks
 Facts to check: Weimar bread prices; Zimbabwe 2008 inflation figure; Venezuela inflation (IMF)
 Evidence ideas: Archive photos of Weimar banknotes (public domain); IMF data pages; Fed explainer on QE
-The last line leads into the next video: "The AI Bubble Has One Weak Spot"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 7
@@ -274,7 +274,7 @@ Outline:
 6) What a pop would hit: index funds, jobs, power bills
 Facts to check: Capex numbers from company filings (10-Q/10-K); AI revenue figures; bond issuance (company announcements)
 Evidence ideas: SEC EDGAR filings screenshots; company earnings slides; FRED/BEA investment data
-The last line leads into the next video: "Nobody Can Buy a House… Even When Prices Should Fall"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 8
@@ -294,7 +294,7 @@ Outline:
 6) What would actually fix it
 Facts to check: Median home price & income (Census/NAR); share of mortgages under 4%/5% (FHFA); first-time buyer age (NAR)
 Evidence ideas: Census/HUD new home data; FHFA house price index; Redfin/NAR reports; FRED mortgage rate chart
-The last line leads into the next video: "Rockefeller: How the First Billionaire Actually Did It"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 9
@@ -316,7 +316,7 @@ Outline:
 8) Philanthropy and legacy
 Facts to check: 90% market share; 1911 Supreme Court ruling; first billionaire (1916)
 Evidence ideas: Supreme Court 1911 decision text; McClure's/Tarbell pages (public domain); archive photos
-The last line leads into the next video: "Enron: The $63 Billion Company That Sold Nothing"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 10
@@ -338,7 +338,7 @@ Outline:
 8) Sarbanes-Oxley
 Facts to check: Enron size & bankruptcy date (Dec 2001); sentences; employee losses
 Evidence ideas: SEC complaint documents; DOJ press releases; Powers Report; archive headlines
-The last line leads into the next video: "How Credit Card Companies Make Money Off You"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 12
@@ -358,7 +358,7 @@ Outline:
 6) Why it's legal and the debate
 Facts to check: Capital gains vs top income tax rates (IRS); ProPublica 'true tax rate' figures
 Evidence ideas: IRS rate tables; ProPublica 2021 report pages; Congressional Budget Office notes
-The last line leads into the next video: "Tariffs: Who Really Pays?"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 13
@@ -378,7 +378,7 @@ Outline:
 6) When tariffs can help
 Facts to check: Customs revenue figures (Treasury); studies on price pass-through (Fed/NBER)
 Evidence ideas: Treasury monthly statement; Fed research notes; Smoot-Hawley archive pages
-The last line leads into the next video: "Why $1 Isn't Worth €1 or ¥1"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 15
@@ -398,7 +398,7 @@ Outline:
 6) Then vs the 'Magnificent 7' today
 Facts to check: 1973-74 S&P drawdown; Nifty Fifty P/E examples; today's top-7 share of S&P (index provider)
 Evidence ideas: FRED/S&P charts; archive news pages; index provider fact sheets
-The last line leads into the next video: "NVIDIA: From a Denny's Booth to the World's Biggest Company"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 16
@@ -419,7 +419,7 @@ Outline:
 7) The AI gold rush
 Facts to check: Founding 1993; market cap milestones (exchange data); export rules (Commerce Dept)
 Evidence ideas: NVIDIA filings/IR pages; Commerce/BIS export rule notices; archive press releases
-The last line leads into the next video: "Every Level of Wealth in America"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 17
@@ -441,7 +441,7 @@ Outline:
 8) Does money buy happiness?
 Facts to check: Median household income (Census); top 1% income & wealth thresholds (Fed SCF)
 Evidence ideas: Census income report; Fed Survey of Consumer Finances tables
-The last line leads into the next video: "Money Basics Nobody Taught You in School"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 18
@@ -465,7 +465,7 @@ Outline:
 10) Time
 Facts to check: FDIC limit; credit score ranges (FICO); historical market returns (with source)
 Evidence ideas: FDIC; CFPB; FICO; FRED
-The last line leads into the next video: "Japan Was the World's ATM. Now It's Closing."
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 19
@@ -485,7 +485,7 @@ Outline:
 6) What it means for long-term US rates
 Facts to check: BoJ rate decisions; Japan Treasury holdings (TIC); Aug 2024 Nikkei drop
 Evidence ideas: Bank of Japan statements; Treasury TIC table; news headlines
-The last line leads into the next video: "Every Financial Bubble in History Explained"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 21
@@ -504,7 +504,7 @@ Outline:
 5) Why it matters (credit booms)
 Facts to check: M2 vs currency in circulation (Fed H.6)
 Evidence ideas: Fed H.6 release; Bank of England 'Money creation' paper (2014)
-The last line leads into the next video: "Bitcoin, Honestly Explained"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 22
@@ -525,7 +525,7 @@ Outline:
 7) The honest bull and bear case
 Facts to check: 21M supply cap; ETF approval date (SEC Jan 2024); FTX facts (DOJ)
 Evidence ideas: Bitcoin white paper PDF; SEC approval order; DOJ FTX press release
-The last line leads into the next video: "Theranos: The $9 Billion Blood Test That Didn't Work"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 23
@@ -546,7 +546,7 @@ Outline:
 7) Trial and prison
 Facts to check: Peak valuation $9B; sentence length; investor losses
 Evidence ideas: SEC complaint; DOJ press releases; court documents
-The last line leads into the next video: "How Tiny Countries Got Insanely Rich"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 24
@@ -566,7 +566,7 @@ Outline:
 6) The trade-offs
 Facts to check: GDP per capita comparisons (World Bank)
 Evidence ideas: World Bank data pages; archive photos (public domain)
-The last line leads into the next video: "'Entry Level, 5 Years Experience': Why You Can't Get Hired"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 25
@@ -585,7 +585,7 @@ Outline:
 5) What actually gets people hired
 Facts to check: JOLTS openings/hires (BLS); unemployment for recent grads (NY Fed)
 Evidence ideas: BLS JOLTS release; NY Fed labor market for recent grads page
-The last line leads into the next video: "The Stock Market Explained for People Who Think It's Gambling"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 26
@@ -605,7 +605,7 @@ Outline:
 6) How to start (not advice)
 Facts to check: Long-run S&P returns (source); index fund share of market
 Evidence ideas: SEC investor.gov pages; S&P fact sheets; FRED
-The last line leads into the next video: "Palantir: The Company That Watches Everything"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 27
@@ -626,7 +626,7 @@ Outline:
 7) AI and the questions
 Facts to check: In-Q-Tel investment; Army lawsuit (Court of Federal Claims 2016); IPO date
 Evidence ideas: Court opinion; SEC S-1 filing; government contract records
-The last line leads into the next video: "How Jeff Bezos Actually Built Amazon"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 28
@@ -647,7 +647,7 @@ Outline:
 7) Stepping down
 Facts to check: IPO 1997; stock fall in 2000-01; AWS launch 2006
 Evidence ideas: SEC S-1 (1997); Amazon shareholder letters (1997 letter); archive headlines
-The last line leads into the next video: "Your Retirement Is About to Buy the AI Giants"
+End with a short subscribe line (no next-video tease).
 ```
 
 ### DAY 30
@@ -667,5 +667,5 @@ Outline:
 6) Why it still works
 Facts to check: HSBC 2012 settlement ($1.9B, DOJ); Danske Bank figures (DOJ 2022)
 Evidence ideas: DOJ press releases; FinCEN pages
-The last line leads into the next video: "(last video of the series: point to the channel's next videos)"
+End with a short subscribe line (no next-video tease).
 ```

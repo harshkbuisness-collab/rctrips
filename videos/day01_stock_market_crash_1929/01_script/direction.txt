@@ -3,8 +3,8 @@
 # chalkboards for questions, a joke bubble every 20-40 s, scenes that build up. M.. = owner pictures (fallback after |).
 
 # ---------- HOOK ----------
-1: board:"1929"@0.55,0.48:0.5; A38@0.16,0.62:0.58~none
-2: AUTODOC
+1: doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.5,0.401,0.72,0.496+0.8; H04@0.12,1.0:0.34:bottom
+2: =
 3: doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.24,0.12,0.9,0.42+0.6; "25 YEARS"@0.56,0.92:80:red~pop+0.4
 4: A14@0.16,0.62:0.56~none; G11@0.55,0.5:0.5~pop; xmark+0.6
 5: A20@0.5,0.68:0.5~none; G11@0.2,0.36:0.3~l; D15@0.5,0.24:0.26~t; E33@0.8,0.36:0.3~r; D22@0.2,0.74:0.26~l; E34@0.8,0.74:0.3~r
@@ -243,6 +243,6 @@
 224: A37@0.16,0.62:0.58~none; "SEPTEMBER 1929"@0.58,0.4:110:black~pop; A33@0.6,0.72:0.3~walk+0.8
 225: + xmark
 226: A04@0.5,0.62:0.6~none; "HE WAS SURE."@0.5,0.14:110:red~pop
-227: G13@0.36,0.5:0.44~pop; "WHO AMERICA OWES"@0.36,0.12:90:black~pop; E48@0.68,0.44:0.26~pop; A05@0.88,0.62:0.5~none
-228: + bubble:"the answer might surprise you"@0.7,0.84:l
+227: A06@0.5,0.62:0.6~none; E48@0.5,0.2:0.26~pop
+228: + A02@0.5,0.62:0.6~none
 229: A23@0.5,0.6:0.56~none; "SUBSCRIBE!"@0.5,0.16:150:red~pop; H27@0.78,0.5:0.26~pop+0.4

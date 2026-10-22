@@ -1,7 +1,7 @@
 # Day 1: The Crash That Broke America. Built by tools/script_to_beats.py.
 
 # ---------- CHAPTER 1: The party: 1920s boom, radio, Model T, buy-now-pay-later ----------
-|| board:"1929"@0.55,0.48:0.5; A38@0.16,0.62:0.58~none; sting; hold:1.2
+|| doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.5,0.401,0.72,0.496+0.8; H04@0.12,1.0:0.34:bottom; sting; hold:1.2
 If you put one thousand dollars into the stock market in September nineteen twenty-nine, you would wait about twenty-five years just to get it back. || doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.5,0.401,0.72,0.496+0.8; H04@0.12,1.0:0.34:bottom
 Twenty-five years. || doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.24,0.12,0.9,0.42+0.6; "25 YEARS"@0.56,0.92:80:red~pop+0.4
 And that's not because you picked a bad stock. || A14@0.16,0.62:0.56~none; G11@0.55,0.5:0.5~pop; xmark+0.6
@@ -239,8 +239,8 @@ Every bubble in history has had all three. || "ALL 3"@0.42,0.2:130:red~pop; D29@
 So the next time everyone around you is getting rich on something they can't explain… remember the guy who bought in September nineteen twenty-nine. || A37@0.16,0.62:0.58~none; "SEPTEMBER 1929"@0.58,0.4:110:black~pop; A33@0.6,0.72:0.3~walk+0.8
 Not because he was stupid. || A37@0.16,0.62:0.58~none; "SEPTEMBER 1929"@0.58,0.4:110:black~pop; A33@0.6,0.72:0.3~walk+0.8; xmark
 Because he was sure. || A04@0.5,0.62:0.6~none; "HE WAS SURE."@0.5,0.14:110:red~pop
-In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || G13@0.36,0.5:0.44~pop; "WHO AMERICA OWES"@0.36,0.12:90:black~pop; E48@0.68,0.44:0.26~pop; A05@0.88,0.62:0.5~none
-The answer might surprise you. || G13@0.36,0.5:0.44~pop; "WHO AMERICA OWES"@0.36,0.12:90:black~pop; E48@0.68,0.44:0.26~pop; A05@0.88,0.62:0.5~none; bubble:"the answer might surprise you"@0.7,0.84:l
+In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || A06@0.5,0.62:0.6~none; E48@0.5,0.2:0.26~pop
+The answer might surprise you. || E48@0.5,0.2:0.26~pop; A02@0.5,0.62:0.6~none
 Subscribe so you don't miss it. || A23@0.5,0.6:0.56~none; "SUBSCRIBE!"@0.5,0.16:150:red~pop; H27@0.78,0.5:0.26~pop+0.4
 
-|| endscreen; hold:10
+|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3

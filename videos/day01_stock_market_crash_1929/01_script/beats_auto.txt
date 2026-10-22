@@ -243,4 +243,4 @@ In the next video, we're looking at the other side of that story: who America ac
 The answer might surprise you. || title:"The way back"; H05@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SURPRISE"@0.38,0.14:110:black~drop
 Subscribe so you don't miss it. || title:"The way back"; H08@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SUBSCRIBE"@0.38,0.14:110:red~drop
 
-|| endscreen; hold:10
+|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3

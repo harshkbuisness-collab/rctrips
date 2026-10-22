@@ -467,7 +467,7 @@ def main(script, vdir):
                 prev_el = el
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())
-    lines += ["", "|| endscreen; hold:10"]
+    lines += ["", '|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3']   # no next-video box (owner)
     out = os.path.join(vdir, "01_script")
     os.makedirs(out, exist_ok=True)
     open(os.path.join(out, "beats.txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")

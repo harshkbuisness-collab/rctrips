@@ -28,6 +28,11 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 4. The owner sends all changes in one message, and Claude makes one fix round.
 5. One batch (up to 5 videos) per session.
 
+## Owner style rules (22 Oct 2026)
+- No opening card with only a year (like "1929"): the first frame is real evidence.
+- No next-video box or next-video tease, ever. The video ends with a short thanks frame.
+- Evidence first (charts, real photos, cards); the character is a small guide at the edge.
+
 ## Video analysis (reference or our own videos)
 - Never look at many video frames: images cost a lot of tokens. Run `python3 tools/video_analyzer/analyze_video.py <video>` (or the owner
   runs it on their computer and pastes `REPORT.md`). Read only REPORT.md; look at `sheet.jpg` at most once, and only if
