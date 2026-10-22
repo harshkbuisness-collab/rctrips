@@ -502,8 +502,17 @@ def doc_marked(vdir, e, ages):
     return _marked[key]
 
 
+CHART_GROW = 1.4                     # seconds a data chart takes to build itself (bars grow, lines draw)
+
+
 def draw_doc(canvas, vdir, e, t, boxes):
-    """The whole screenshot, standing still, scaled to fit inside w x h of the screen (never cut)."""
+    """The whole screenshot, standing still, scaled to fit inside w x h of the screen (never cut).
+    A data chart (ch_<key>.png with ch_<key>_fNN.png frames) builds itself up in its first CHART_GROW seconds."""
+    if e["file"].startswith("ch_") and 0 <= t - e["t0"] < CHART_GROW:
+        k = int((t - e["t0"]) / CHART_GROW * 14)
+        f = e["file"][:-4] + f"_f{k:02d}.png"
+        if os.path.exists(os.path.join(vdir, "02_assets", "screens", f)):
+            e = {**e, "file": f, "motion": "none"}
     base = doc_base(vdir, e)
     iw, ih = base.size
     k = min(e["w"] * W / iw, e["h"] * H / ih)
