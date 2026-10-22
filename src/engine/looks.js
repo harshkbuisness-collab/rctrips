@@ -10,13 +10,15 @@ const HAND = `Caveat, ${DEV}`;
 //             collage — words scattered at mixed sizes
 //             bonus   — white keyword + ghost / black yellow-script / red script / yellow flash cards, rotating
 //             stair   — staircase lines: small white, red outlined keyword typed, small white; inline and big-red cards
+//             meme    — dark icon cards with words around the icon, white red-headline cards with a cat rising,
+//                       dark number lines, grey serif meme cards, peach cards (reference 5)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
 //             feed    — lines type in at the bottom and push older lines up
 //             run     — whole line dim, a highlight box runs from word to word
 // motion:     text animation for words (src/remotion/motion.jsx); heroMotion for the big word
-// transition: how a card comes in — wipe (diagonal black), zoom (through the camera), whip (sideways), blur
+// transition: how a card comes in — wipe (diagonal black), circle (white circle grows), zoom (through the camera), whip (sideways), blur
 // extras:     ghost (huge faded keyword behind), texture (paper | grain), cycle (per-card
 //             backgrounds), mascot (corner character), walker (cat walking along the bottom),
 //             scriptFont (every other big word in script), ctaBg (coloured Comment card),
@@ -86,6 +88,9 @@ export const LOOKS = [
   {id: 'haider', label: 'Ref 4 · Black Serif Staircase (red outlined keyword)', layout: 'stair', motion: 'fade', character: true,
     bg: '#000000', ink: '#FFFFFF', dark: '#000000', darkInk: '#FFFFFF', accents: ['#E5161D', '#E5161D'], cta: '#E5161D',
     font: SERIF, weight: 700, heroFont: SERIF, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#E5161D', boxInk: '#FFFFFF'},
+  {id: 'zubair', label: 'Ref 5 · Meme Mix (icon cards, red headlines, circle wipe)', layout: 'meme', motion: 'fade', transition: 'circle',
+    bg: '#2A2A2A', ink: '#FFFFFF', dark: '#2A2A2A', darkInk: '#FFFFFF', accents: ['#E8291C', '#E8291C'], cta: '#E8291C',
+    font: INTER, weight: 600, heroFont: INTER, heroWeight: 700, heroItalic: false, labelFont: INTER, boxBg: '#E8291C', boxInk: '#FFFFFF'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

@@ -729,6 +729,95 @@ function StairCard({scene, look, u, stage, index}) {
   );
 }
 
+// Reference 5: a mix of card types — dark with a white icon and words around it, white with a huge red
+// CAPS headline and a cat rising in front, a dark line with a big red word, grey with a red serif word
+// and a cat, and peach with a red headline over a big visual.
+const MEME_VARIANTS = ['icon', 'headline', 'numberLine', 'serifMeme', 'peach'];
+const MEME_CATS = ['s019', 's005', 's039', 's035', 's014', 's010'];
+
+function MemeCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const heroText = display(hero.text);
+  const num = heroText.match(NUMBER);
+  const v = num ? 'numberLine' : MEME_VARIANTS[index % MEME_VARIANTS.length];
+  const red = look.accents[0];
+  const inter = (weight) => ({fontFamily: look.font, fontWeight: weight});
+  const say = (ws, color, size, extra) => ws.length ? (
+    <div style={{...inter(600), fontSize: size, color, lineHeight: 1.25, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="fade" fps={c.fps} frame={c.frame} color={color} /></React.Fragment>)}
+    </div>
+  ) : null;
+  const fit = (text, font, weight, share, cap) => {
+    const w = measureText({text, fontFamily: font, fontSize: 100, fontWeight: String(weight)}).width * 1.04;
+    return Math.min(cap, (stage.w * share / w) * 100);
+  };
+  const cat = scene.sticker && STICKER_BY_ID[scene.sticker]?.family === 'cat' ? scene.sticker : MEME_CATS[index % MEME_CATS.length];
+  const catSrc = staticFile(STICKER_BY_ID[cat].src.replace(/^\//, ''));
+  const rise = spring({frame: c.frame - 3, fps: c.fps, config: {damping: 14, stiffness: 120}});
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  const fillHero = (size, font, weight, upper) => <MotionText text={upper ? heroText.toUpperCase() : heroText} f={c.frame - c.at(hero)} dur={Math.max(8, c.dur(hero))} kind="fill"
+    fps={c.fps} frame={c.frame} color={red} style={{fontFamily: font, fontWeight: weight, fontSize: size, lineHeight: 0.95, whiteSpace: 'nowrap'}} />;
+  let bg = look.bg, content;
+  if (v === 'icon') {
+    // White silhouette icon in the middle; words appear to its left and right, keyword under it.
+    const ip = spring({frame: c.frame - 2, fps: c.fps, config: {damping: 12, stiffness: 180}});
+    content = (
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: u * 2.5}}>
+        <div style={{flex: 1, textAlign: 'right'}}>{say(pre, '#FFFFFF', u * 2.6)}</div>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: u * 0.8}}>
+          {icon ? <Img src={icon} style={{width: u * 11, height: u * 11, objectFit: 'contain', filter: 'brightness(0) invert(1)', transform: `scale(${ip})`}} /> : null}
+          <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="fade" fps={c.fps} frame={c.frame} color="#FFFFFF" style={{...inter(700), fontSize: u * 4}} />
+        </div>
+        <div style={{flex: 1, textAlign: 'left'}}>{say(post, '#FFFFFF', u * 2.6)}</div>
+      </AbsoluteFill>
+    );
+  } else if (v === 'headline' || v === 'peach') {
+    // Huge red CAPS headline at the top edge; a cat (or the visual) rises in front of it.
+    bg = v === 'peach' ? '#F6D3B8' : '#FFFFFF';
+    const art = v === 'peach' && icon ? icon : catSrc;
+    content = <>
+      <div style={{position: 'absolute', top: -stage.h * 0.02, left: 0, right: 0, textAlign: 'center'}}>
+        {fillHero(fit(heroText.toUpperCase(), look.font, 700, 0.94, stage.h * 0.36), look.font, 700, true)}
+      </div>
+      <Img src={art} style={{position: 'absolute', left: '50%', bottom: 0, height: stage.h * 0.7, width: stage.w * 0.4, objectFit: 'contain', objectPosition: 'bottom',
+        transform: `translateX(-50%) translateY(${(1 - rise) * stage.h * 0.6}px)`}} />
+      <div style={{position: 'absolute', left: stage.w * 0.06, top: stage.h * 0.48, width: stage.w * 0.26}}>{say(pre, '#111111', u * 2.6)}</div>
+      <div style={{position: 'absolute', right: stage.w * 0.06, top: stage.h * 0.48, width: stage.w * 0.26, textAlign: 'right'}}>{say(post, '#111111', u * 2.6)}</div>
+    </>;
+  } else if (v === 'numberLine') {
+    // One dark line; the keyword (often a number) big and red in the middle.
+    content = (
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
+        <div style={{...inter(600), display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', justifyContent: 'center', gap: u * 1, maxWidth: stage.w * 0.86}}>
+          {say(pre, '#FFFFFF', u * 3)}
+          <span style={{...inter(800), fontSize: u * 8, color: red, lineHeight: 1}}>{num
+            ? Math.round(Number(num[1]) * interpolate(c.frame - c.at(hero), [0, 12], [0, 1], {...clamp, easing: ease})) + (num[2] || '')
+            : <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="pop" fps={c.fps} frame={c.frame} color={red} />}</span>
+          {say(post, '#9A9A9A', u * 3)}
+        </div>
+      </AbsoluteFill>
+    );
+  } else {
+    // Light grey; huge red lowercase serif word, a cat on the right, small text under the word.
+    bg = '#E3E3E3';
+    content = <>
+      <div style={{position: 'absolute', left: stage.w * 0.08, top: stage.h * 0.16, display: 'flex', flexDirection: 'column'}}>
+        {say(pre, '#111111', u * 2.6)}
+        {fillHero(fit(heroText, look.heroFont === SERIF_FAMILY ? SERIF_FAMILY : "'Playfair Display'", 900, 0.55, stage.h * 0.34), "'Playfair Display', 'Noto Sans Devanagari', serif", 900, false)}
+        {say(post, '#111111', u * 2.6, {marginTop: u * 0.6})}
+      </div>
+      <Img src={catSrc} style={{position: 'absolute', right: stage.w * 0.06, bottom: 0, height: stage.h * 0.62, width: stage.w * 0.34, objectFit: 'contain',
+        objectPosition: 'bottom', transform: `translateY(${(1 - rise) * stage.h * 0.6}px)`}} />
+    </>;
+  }
+  return <Backdrop bg={bg} look={look}>{content}</Backdrop>;
+}
+const SERIF_FAMILY = "'Playfair Display'";
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -836,6 +925,7 @@ function TransitionIn({kind, children, stage}) {
       </AbsoluteFill>
     );
   }
+  if (kind === 'circle') return <AbsoluteFill style={{clipPath: `circle(${p * 75}% at 50% 50%)`}}>{children}</AbsoluteFill>;
   if (kind === 'zoom') return <AbsoluteFill style={{opacity: p, transform: `scale(${2.6 - 1.6 * p})`, filter: `blur(${(1 - p) * 14}px)`}}>{children}</AbsoluteFill>;
   if (kind === 'whip') return <AbsoluteFill style={{transform: `translateX(${(1 - p) * stage.w}px)`, filter: `blur(${(1 - p) * 16}px)`}}>{children}</AbsoluteFill>;
   return <AbsoluteFill style={{opacity: p, filter: `blur(${(1 - p) * 18}px)`}}>{children}</AbsoluteFill>;
@@ -852,6 +942,7 @@ function cardFor(scene, look) {
   if (look.layout === 'serif') return SerifCard;
   if (look.layout === 'bonus') return BonusCard;
   if (look.layout === 'stair') return StairCard;
+  if (look.layout === 'meme') return MemeCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
