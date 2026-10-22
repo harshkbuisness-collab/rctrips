@@ -97,6 +97,8 @@ export function MotionText({text, f, dur = 10, kind, color, fps = 30, style, fra
     case 'slide': // slides in from the left
       return <span style={{...base, opacity: interpolate(f, [0, 6], [0, 1], clamp),
         transform: `translateX(${interpolate(f, [0, 12], [-1.2, 0], {...clamp, easing: Easing.out(Easing.poly(4))})}em)`}}>{text}</span>;
+    case 'fade': // gentle fade with a soft blur, no movement
+      return <span style={{...base, opacity: interpolate(f, [0, 10], [0, 1], clamp), filter: `blur(${interpolate(f, [0, 10], [6, 0], clamp)}px)`}}>{text}</span>;
     default: // blur rise
       return <span style={{...base, opacity: interpolate(f, [0, 6], [0, 1], clamp), filter: `blur(${interpolate(f, [0, 7], [12, 0], clamp)}px)`,
         transform: `translateY(${interpolate(f, [0, 8], [0.3, 0], {...clamp, easing: ease})}em)`}}>{text}</span>;

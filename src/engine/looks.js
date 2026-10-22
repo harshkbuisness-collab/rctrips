@@ -8,6 +8,7 @@ const HAND = `Caveat, ${DEV}`;
 
 // layout:     stack   — sentence / big-word cards (default)
 //             collage — words scattered at mixed sizes
+//             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
 //             feed    — lines type in at the bottom and push older lines up
@@ -19,6 +20,7 @@ const HAND = `Caveat, ${DEV}`;
 //             scriptFont (every other big word in script), ctaBg (coloured Comment card),
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
 //             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
+//             bgArt (the card's visual, huge and faded in sepia behind the text),
 //             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
@@ -57,13 +59,16 @@ export const LOOKS = [
     cycle: [{bg: '#F7E7B0', ink: '#111111', accent: '#1F5BFF'}, {bg: '#000000', ink: '#FFFFFF', accent: '#3D7BFF'}],
     bg: '#F7E7B0', ink: '#111111', dark: '#000000', darkInk: '#FFFFFF', accents: ['#1F5BFF', '#1F5BFF'], cta: '#F7E7B0',
     font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, heroScale: 0.8, labelFont: INTER, stepPrefix: 'Step:', boxBg: '#F7E7B0', boxInk: '#111111'},
+  {id: 'statue', label: 'Ref 2 · Serif Statue (cream, faded statue)', layout: 'serif', motion: 'fade', bgArt: true,
+    bg: '#FBF3DC', ink: '#2A2522', dark: '#111111', darkInk: '#FBF3DC', accents: ['#CF1B1B', '#CF1B1B'], cta: '#CF1B1B',
+    font: SERIF, weight: 700, heroFont: SERIF, heroWeight: 900, heroItalic: false, scriptFont: SCRIPT, labelFont: SERIF, boxBg: '#CF1B1B', boxInk: '#FBF3DC'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).
 export const MOTIONS = [
   ['blur', 'Blur Rise'], ['mask', 'Mask Slide'], ['drop', 'Letter Drop'], ['decode', 'Decode'], ['type', 'Typewriter'],
   ['zoom', 'Zoom Punch'], ['tracking', 'Tracking In'], ['flip', '3D Flip'], ['fill', 'Fill Sweep'], ['glitch', 'Glitch'],
-  ['pop', 'Pop'], ['stamp', 'Stamp'], ['scatter', 'Scatter'], ['slide', 'Slide'],
+  ['pop', 'Pop'], ['stamp', 'Stamp'], ['scatter', 'Scatter'], ['slide', 'Slide'], ['fade', 'Fade'],
 ];
 
 // Older projects saved 'editorial'; it is the classic template without the ghost word.

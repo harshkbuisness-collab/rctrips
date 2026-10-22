@@ -13,6 +13,8 @@ import '@fontsource/caveat/700.css';
 import '@fontsource/dancing-script/700.css';
 import '@fontsource/playfair-display/700.css';
 import '@fontsource/playfair-display/900.css';
+import '@fontsource/playfair-display/700-italic.css';
+import '@fontsource/playfair-display/900-italic.css';
 import React, {useEffect, useState} from 'react';
 import {AbsoluteFill, Audio, Img, Sequence, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
 import {measureText} from '@remotion/layout-utils';
@@ -25,7 +27,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'};
 const ease = Easing.out(Easing.cubic);
 const FONT_FACES = [['600', 'Inter'], ['italic 600', 'Inter'], ['700', 'Inter'], ['800', 'Inter'], ['900', 'Inter'], ['italic 900', 'Inter'],
   ['700', '"Noto Sans Devanagari"', 'क'], ['900', '"Noto Sans Devanagari"', 'क'], ['400', '"Libre Caslon Text"'], ['400', 'Anton'], ['700', 'Oswald'],
-  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"']];
+  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"'], ['italic 700', '"Playfair Display"'], ['italic 900', '"Playfair Display"']];
 
 // Hold the render until fonts are loaded, so measuring and drawing match.
 function useFontsReady() {
@@ -490,6 +492,93 @@ function LockupCard({scene, look, u, stage, index, scenes}) {
   );
 }
 
+// Serif lockups (reference 2): red + dark serif with italic, script and small-caps mixes,
+// a different arrangement per card, over a huge faded sepia visual.
+const SERIF_VARIANTS = ['twoLine', 'scoreLine', 'bigItalic', 'scriptWord', 'scriptLine', 'smallCaps'];
+const keyIndex = (words) => {
+  const h = words.findIndex((w) => w.hero);
+  return h >= 0 ? h : words.reduce((best, w, i) => (!FILLER.test(display(w.text)) && display(w.text).length > display(words[best].text).length ? i : best), 0);
+};
+
+function BgArt({scene, scenes, index, stage, frame}) {
+  // The latest visual so far stays behind the text, like a section image.
+  let icon = '';
+  for (let i = index; i >= 0 && !icon; i--) icon = scenes[i].icon || '';
+  if (!icon) return null;
+  return (
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
+      <Img src={staticFile(iconPath(icon))} style={{height: stage.h * 0.95, width: stage.h * 0.95, objectFit: 'contain', opacity: 0.2,
+        filter: 'grayscale(1) sepia(0.55) contrast(0.9)', transform: `scale(${interpolate(frame, [0, 120], [1.06, 1], clamp)})`}} />
+    </AbsoluteFill>
+  );
+}
+
+function SerifCard({scene, look, u, stage, index, scenes}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const v = SERIF_VARIANTS[index % SERIF_VARIANTS.length];
+  const red = look.accents[0], dark = look.ink;
+  const serif = (italic, weight) => ({fontFamily: look.heroFont, fontStyle: italic ? 'italic' : 'normal', fontWeight: weight});
+  const fit = (text, font, cap) => {
+    const w = measureText({text, fontFamily: font.fontFamily, fontSize: 100, fontWeight: String(font.fontWeight), fontStyle: font.fontStyle}).width * 1.08;
+    return Math.min(cap, (stage.w * 0.72 / w) * 100);
+  };
+  const line = (ws, color, font, size, extra) => ws.length ? (
+    <div style={{fontSize: size, lineHeight: 1.12, color, ...font, letterSpacing: '-0.01em', textAlign: 'center', maxWidth: stage.w * 0.86, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={look.motion} fps={c.fps} frame={c.frame} color={color} /></React.Fragment>)}
+    </div>
+  ) : null;
+  const heroText = display(hero.text);
+  let body;
+  if (v === 'twoLine') {
+    // "hashtag" (big red) / "ka use karoge" (dark).
+    body = <>{line(pre, dark, serif(false, 700), u * 3.6)}{line([hero], red, serif(false, 900), fit(heroText, serif(false, 900), u * 11))}{line(post, dark, serif(false, 700), u * 4.6)}</>;
+  } else if (v === 'scoreLine') {
+    // "To views" (small red italic) / "50" (big dark italic) + "hi milenge" (red italic).
+    body = (
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+        {line(pre, red, serif(true, 700), u * 4, {textAlign: 'left'})}
+        <div style={{display: 'flex', alignItems: 'baseline', gap: u * 1.2}}>
+          {line([hero], dark, serif(true, 900), fit(heroText, serif(true, 900), u * 10) * 0.85)}
+          {line(post, red, serif(true, 700), u * 4.4, {textAlign: 'left', maxWidth: stage.w * 0.4})}
+        </div>
+      </div>
+    );
+  } else if (v === 'bigItalic') {
+    // "video" (big dark italic) / "viral karna hai" (red).
+    body = <>{line(pre, dark, serif(false, 700), u * 3.6)}{line([hero], dark, serif(true, 900), fit(heroText, serif(true, 900), u * 10))}{line(post, red, serif(false, 900), u * 4.6)}</>;
+  } else if (v === 'scriptWord') {
+    // One dark serif line with the keyword in red script.
+    body = (
+      <div style={{fontSize: u * 4.6, lineHeight: 1.3, color: dark, ...serif(false, 700), textAlign: 'center', maxWidth: stage.w * 0.86}}>
+        {words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+          <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={look.motion} fps={c.fps} frame={c.frame} color={i === h ? red : dark}
+            style={i === h ? {fontFamily: look.scriptFont, fontWeight: 700, fontStyle: 'normal', fontSize: '1.55em', transform: 'rotate(-5deg)'} : undefined} /></React.Fragment>)}
+      </div>
+    );
+  } else if (v === 'scriptLine') {
+    // The whole line in red script, like "taiyaar ho jaao".
+    body = line(words, red, {fontFamily: look.scriptFont, fontWeight: 700}, u * 6.4);
+  } else {
+    // Dark serif with a red handwritten small-caps tail: "haqikat me PANE KE LIYE".
+    body = (
+      <div style={{display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', justifyContent: 'center', gap: u * 1.2, maxWidth: stage.w * 0.86}}>
+        {line([...pre, hero], dark, serif(false, 900), u * 5.4)}
+        {line(post.map((w) => ({...w, text: display(w.text).toUpperCase()})), red, {fontFamily: 'Caveat', fontWeight: 700}, u * 4.4)}
+      </div>
+    );
+  }
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      {look.bgArt ? <BgArt scene={scene} scenes={scenes} index={index} stage={stage} frame={c.frame} /> : null}
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>{body}</AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -603,6 +692,7 @@ function cardFor(scene, look) {
   if (look.layout === 'feed') return FeedCard;
   if (look.layout === 'run') return RunCard;
   if (look.layout === 'lockup') return LockupCard;
+  if (look.layout === 'serif') return SerifCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
