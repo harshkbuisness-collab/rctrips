@@ -133,16 +133,16 @@ POSES_NOW = {}          # the current video's character poses (set in main)
 LAYOUTS = {
     "grid":   {"me": (0.2, 0.6, 0.58, ""), "slots": [(0.58, 0.36, 0.3, "pop"), (0.84, 0.36, 0.3, "pop"),
                (0.58, 0.74, 0.3, "pop"), (0.84, 0.74, 0.3, "pop")], "num": (0.71, 0.55), "say": (0.36, 0.24)},
-    "row":    {"me": (0.86, 1.0, 0.62, "bottom"), "slots": [(0.14, 0.42, 0.28, "l"), (0.38, 0.42, 0.28, "l"),
-               (0.62, 0.42, 0.28, "l"), (0.38, 0.8, 0.24, "b")], "num": (0.62, 0.8), "say": (0.62, 0.14), "flow": 1},
-    "arc":    {"me": (0.5, 0.68, 0.55, ""), "slots": [(0.18, 0.6, 0.3, "l"), (0.82, 0.6, 0.3, "r"),
-               (0.22, 0.24, 0.26, "t"), (0.78, 0.24, 0.26, "t")], "num": (0.5, 0.16), "say": (0.5, 0.18)},
-    "column": {"me": (0.8, 0.6, 0.6, ""), "slots": [(0.2, 0.28, 0.22, "drop"), (0.2, 0.54, 0.22, "drop"),
-               (0.2, 0.8, 0.22, "drop"), (0.48, 0.5, 0.3, "pop")], "num": (0.5, 0.2), "say": (0.56, 0.2), "flow": 1},
-    "hero":   {"me": (0.13, 0.68, 0.48, ""), "slots": [(0.52, 0.5, 0.56, "swing"), (0.86, 0.24, 0.22, "r"),
-               (0.86, 0.76, 0.22, "r"), (0.3, 0.18, 0.18, "t")], "num": (0.86, 0.5), "say": (0.3, 0.2)},
-    "peek":   {"me": (0.0, 0.62, 0.6, "left"), "slots": [(0.34, 0.3, 0.26, "b"), (0.55, 0.5, 0.28, "b"),
-               (0.78, 0.7, 0.3, "b"), (0.82, 0.24, 0.24, "swing")], "num": (0.5, 0.82), "say": (0.4, 0.74), "flow": 1},
+    "row":    {"me": (0.86, 1.0, 0.62, "bottom"), "slots": [(0.14, 0.4, 0.32, "l"), (0.38, 0.4, 0.32, "l"),
+               (0.62, 0.4, 0.32, "l"), (0.38, 0.8, 0.3, "b")], "num": (0.62, 0.8), "say": (0.62, 0.14), "flow": 1},
+    "arc":    {"me": (0.5, 0.68, 0.55, ""), "slots": [(0.17, 0.62, 0.34, "l"), (0.83, 0.62, 0.34, "r"),
+               (0.22, 0.28, 0.3, "t"), (0.78, 0.28, 0.3, "t")], "num": (0.5, 0.16), "say": (0.5, 0.18)},
+    "column": {"me": (0.8, 0.6, 0.66, ""), "slots": [(0.2, 0.32, 0.32, "drop"), (0.2, 0.74, 0.32, "drop"),
+               (0.47, 0.32, 0.32, "drop"), (0.47, 0.74, 0.32, "drop")], "num": (0.62, 0.14), "say": (0.56, 0.2), "flow": 1},
+    "hero":   {"me": (0.13, 0.68, 0.48, ""), "slots": [(0.52, 0.5, 0.56, "swing"), (0.87, 0.34, 0.28, "r"),
+               (0.87, 0.78, 0.28, "r"), (0.32, 0.22, 0.24, "t")], "num": (0.52, 0.9), "say": (0.3, 0.2)},
+    "peek":   {"me": (0.0, 0.62, 0.6, "left"), "slots": [(0.36, 0.3, 0.32, "b"), (0.58, 0.52, 0.32, "b"),
+               (0.8, 0.74, 0.32, "b"), (0.82, 0.26, 0.3, "swing")], "num": (0.5, 0.82), "say": (0.4, 0.74), "flow": 1},
 }
 CAUSE = re.compile(r"\b(so|then|which|because|led|meant|until|turned|became|leads?|caused?)\b", re.I)
 BAD = re.compile(r"\b(crash\w*|collaps\w*|panic\w*|fell|fall|lost|broke\w*|fail\w*|bankrupt\w*|shock\w*)\b", re.I)
@@ -183,9 +183,12 @@ def sentence_elements(s, person, pick, names, line, lay):
             lay["mot"][c] = "jolt" if BAD.search(s) and len(line) > 1 else None
     slots = lay["slots"]
     mx, my, mh, anchor = lay["me"]
+    if anchor and len(line) < 2:                   # peeking only works in a full scene: else stand at the side
+        mx, my, mh, anchor = (0.84 if mx > 0.5 else 0.16), 0.6, 0.62, ""
     if POSES_NOW:
         out = [person_elem(s, pick, POSES_NOW, names, mirror, (mx if mx > 0.05 else 0.12, min(my, 0.66), mh))]
     else:
+        who = face(who, X(mx), 0.5)
         out = [f"{who}@{X(mx)},{my}:{mh}" + (f":{F(anchor)}" if anchor else "") + "~none"]
     num = sv.number_sign(s)
     m = re.match(r"(\d{1,2}) ([A-Z]+)$", num or "")
@@ -196,13 +199,21 @@ def sentence_elements(s, person, pick, names, line, lay):
             g = h * 0.45
             out.append(f"group:{c}*{m.group(1)}@{X(x) - g:.2f},{y - g:.2f},{X(x) + g:.2f},{y + g:.2f}:{h * 0.42:.2f}")
         else:
+            if PEOPLE.match(c):                     # thin stick people need more height to read
+                h = min(round(h * 1.45, 2), 0.46 if k == 0 else 0.36)
             out.append(f"{c}@{X(x)},{y}:{h}~{lay['mot'].get(c) or F(mot)}")
-    if len(line) < 2 and not num:                  # too empty: the sentence's key words, handwritten in a free slot
-        kw = sv.key_words(s, 2)
+    if len(line) < 2 and not num:                  # too empty: the sentence's key word, big and handwritten
+        kw = key_word(s)
         if kw and kw != lay.get("kw"):
             lay["kw"] = kw
-            fx, fy = slots[len(line)][:2]
-            out.append(f'"{clean(kw)}"@{X(fx)},{fy}:72:{"red" if len(kw) % 2 else "black"}~{F(slots[len(line)][3])}')
+            size = 150 if not line else 110
+            half = len(kw) * size * 0.3 / 1920          # about half the word's width, as a share of the screen
+            if line:
+                fx, fy = lay["num"]
+            else:                                     # nothing else: the word fills the free side
+                fx, fy = (0.5, 0.2) if mx == 0.5 else ((0.6 if mx < 0.5 else 0.4), 0.45)
+            fx = min(max(X(fx), half + 0.04), 1 - half - 0.04)
+            out.append(f'"{clean(kw)}"@{fx:.2f},{fy}:{size}:{"red" if len(kw) % 2 else "black"}~{F(slots[len(line)][3])}')
     if lay.get("flow") and len(line) >= 2 and CAUSE.search(s):   # one thing leads to the next: draw the arrow
         (x0, y0, h0, _), (x1, y1, h1, _) = slots[line.index(order[-2])], slots[line.index(order[-1])]
         dx, dy = x1 - x0, y1 - y0
@@ -218,14 +229,21 @@ def sentence_elements(s, person, pick, names, line, lay):
     if num and not group:
         style = min((st for st in NUM_STYLES if st != "tag" or num.startswith("$")),
                     key=lambda st: (pick.used.get("style:" + st, 0), NUM_STYLES.index(st)))
+        if len(line) >= 4 and style in ("sign", "tag", "paper"):
+            style = "text"                          # no free slot left: a red number fits along the edge
         pick.used["style:" + style] = pick.used.get("style:" + style, 0) + 1
+        if re.fullmatch(r"\d+", num) and re.search(r"\btimes\b", s):
+            num += "X"                              # "went up six times" -> 6X
         t = clean(num)[:18]
+        if len(t) <= 3 and style == "paper":
+            style = "text"                          # a short number reads better big and red than on a note
+        tx_ = lambda x, size: round(min(max(x, len(t) * size * 0.3 / 1920 + 0.04), 0.96 - len(t) * size * 0.3 / 1920), 2)
         free = slots[len(line)][:2] if len(line) < 4 else lay["num"]
         if style == "label" and line:
             tx, ty = slots[line.index(order[-1])][:2]
             out.append(f'label:"{t}"@{X(sx)},{sy}>{X(tx)},{ty - 0.12:.2f}')
         elif style == "text" or (style == "label" and not line):
-            out.append(f'"{t}"@{X(lay["num"][0])},{lay["num"][1]}:64:red')
+            out.append(f'"{t}"@{tx_(X(lay["num"][0]), 100)},{lay["num"][1]}:100:red')
         elif style == "paper":
             out.append(f'note:"{t}"@{X(free[0])},{free[1]}')
         else:
@@ -238,7 +256,31 @@ def sentence_elements(s, person, pick, names, line, lay):
 # Picture scenes (owner pictures, photos, bar charts): where the person and the picture go, how the picture enters.
 DOC_LAYOUTS = [((0.16, 0.62, 0.5), (0.6, 0.54), "b"), ((0.84, 0.62, 0.5), (0.4, 0.54), "l"),
                ((0.88, 0.74, 0.4), (0.44, 0.5), "t"), ((0.12, 0.74, 0.4), (0.56, 0.5), "r"),
-               ((0.5, 0.8, 0.34), (0.5, 0.4), "pop")]
+               ((0.82, 0.6, 0.6), (0.36, 0.52), "drop")]
+RIGHT, LEFT = {"A15": "A16", "A18": "A16"}, {"A16": "A15", "A43": "A15"}   # poses that face one side
+
+
+def face(code, x, target_x):
+    """Turn a pose that faces away from what it talks about into the matching pose facing it."""
+    if target_x < x:
+        return RIGHT.get(code, code)
+    return LEFT.get(code, code)
+
+
+def key_word(s):
+    """The one strongest word of a sentence (a name, or the longest plain noun-like word), for a big handwritten word."""
+    n = names_in(s)
+    if n:
+        return n.split()[0][:12]
+    w = [x for x in re.findall(r"[A-Za-z]{4,}", s) if x.lower() not in sv.STOP and not x.endswith("ly")
+         and x.lower() not in ("that", "there", "their", "they", "what", "when", "with", "just", "into", "about")]
+    return max(w, key=len).upper()[:12] if w else ""
+
+
+def names_in(s):
+    """Names and places said in the sentence (capital words not at the start), for a short picture label."""
+    w = [x for x in re.findall(r"(?<=[a-z,] )[A-Z][a-z]+(?: [A-Z][a-z]+)?", s) if x.split()[0] not in sv.STOP]
+    return " ".join(w[:2]).upper()[:18]
 
 
 def doc_layout(pick):
@@ -333,10 +375,10 @@ def main(script, vdir):
     POSES_NOW = poses
     thread = re.search(r"^THREAD:\s*(.*)$", open(script, encoding="utf-8").read(), re.M)
     names = tuple(w for w in re.findall(r"\b[A-Z][a-z]{2,}\b", thread.group(1)) if w not in ("The", "One", "Ohio")) if thread else ()
-    spoken, lines, chap, title, missing, last_person = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, ""
+    spoken, lines, chap, title, missing, last_person, prev_el = 0, [f"# Day {d['day']}: {d['title']}. Built by tools/script_to_beats.py."], None, "", 0, "", None
     for i, ln in enumerate(d["lines"]):
         if ln["chap"] != chap:
-            chap, last_person = ln["chap"], ""
+            chap, last_person, prev_el = ln["chap"], "", None
             title = re.sub(r"^CHAPTER\s*\d+\s*:\s*", "", chap, flags=re.I)
             title = re.split(r"\s*[:(]\s*", title)[0].strip()             # planning notes after ':' stay off screen
             while len(title) > 30 and " " in title:
@@ -367,26 +409,32 @@ def main(script, vdir):
             else:
                 ph = photo_for(s, photos, photo_used, len(lines))
                 (px, py, ph_), (dx, dy), dm = doc_layout(pick)
-                dw = 0.5 if px == 0.5 else 0.56
+                dw = 0.56
                 if s in scene_of:                        # the owner's own picture made for this sentence
                     el = [f'title:"{clean(title)}"', person_elem(s, pick, poses, names, False, (px, py, ph_)),
-                          f"doc:{scene_of[s]}@{dx},{dy} w={dw} h={0.6 if px == 0.5 else 0.74} frame=0 ~{dm}"]
-                    kw = sv.number_sign(s) or sv.key_words(s, 2)
+                          f"doc:{scene_of[s]}@{dx},{dy} w={dw} h=0.74 frame=0 ~{dm}"]
+                    kw = sv.number_sign(s) or names_in(s)
                     if kw:
-                        lx = 0.5 if px == 0.5 else (0.2 if dx > 0.5 else 0.8)
-                        el.append(f'note:"{clean(kw)[:18]}"@{lx},{0.16 if px == 0.5 else 0.2}>{dx:.2f},{dy - 0.2:.2f}+1.2')
+                        lx = 0.2 if dx > 0.5 else 0.8
+                        el.append(f'note:"{clean(kw)[:18]}"@{lx},0.2>{dx:.2f},{dy - 0.2:.2f}+1.2')
                     lines.append(f"{words} || " + "; ".join(el))
                     spoken += len(s.split())
                     continue
                 money = sv.money_values(s)
                 if ph:                                   # a real photo of the person, company or place just named
-                    el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@{px},{py}:{ph_}~none",
-                          f'doc:{ph["file"]}@{dx},{dy} w={dw} h={0.56 if px == 0.5 else 0.68} ~{dm} src="Photo: Wikimedia Commons – {clean(ph["title"])}"']
+                    el = [f'title:"{clean(title)}"', f"{face(pick.pose(s), px, dx)}@{px},{py}:{ph_}~none",
+                          f'doc:{ph["file"]}@{dx},{dy} w={dw} h=0.68 ~{dm} src="Photo: Wikimedia Commons – {clean(ph["title"])}"']
                 elif len(money) >= 2:                    # two or more dollar amounts: a bar chart builds up
                     el = [f'title:"{clean(title)}"', f"{pick.pose(s)}@0.16,0.62:0.5~none",
                           "bars:" + ",".join(f'"{clean(a)}"={v:.0f}' for a, v in money[:4])]
+                elif len(s.split()) <= 4 and prev_el and not sv.number_sign(s):   # "Okay." keeps the scene, new face
+                    el = list(prev_el)
+                    m = re.match(r"^([AH]\d\d)(@.*)$", el[1])
+                    if m and m.group(1)[0] in "AH" and not m.group(1).startswith(("H09", "H1")):
+                        el[1] = face(pick.pose(s), 0.5, 0.5) + m.group(2)
                 else:
                     el = [f'title:"{clean(title)}"'] + sentence_elements(s, last_person, pick, names, line_items, lay)
+                prev_el = el
             lines.append(f"{words} || " + "; ".join(el))
             spoken += len(s.split())
     lines += ["", "|| endscreen; hold:10"]

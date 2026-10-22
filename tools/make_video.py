@@ -798,7 +798,7 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
         if k == "img":
             im = load_img(e["code"], e["h"], e["word"])
             xy = place(im, e)
-            masks.append((xy, im.getchannel("A")))
+            masks.append((xy, im.getchannel("A"), e["code"]))
             im, xy = moved(im, xy, e, t, talking=talking and e["code"].startswith(NARRATOR) and e["h"] < 0.9)
             canvas.paste(im, xy, im)
         elif k == "rain":
@@ -919,6 +919,47 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
 
 
 # ---------- layout check ----------
+def audit(i, b, boxes, masks):
+    """Stricter look at one finished frame: drawings on top of each other or on the character, a mostly empty
+    screen, and things too small to read."""
+    out, solid = [], []
+    for xy, a, code in masks:
+        m = Image.new("L", (W // 4, H // 4), 0)
+        small = a.resize((max(1, a.width // 4), max(1, a.height // 4)))
+        m.paste(small, (xy[0] // 4, xy[1] // 4))
+        solid.append((code, np.array(m) > 128))
+    for kd, bx in boxes:                               # screenshots and texts count as filled boxes
+        m = np.zeros((H // 4, W // 4), bool)
+        x0, y0, x1, y1 = [max(0, int(v) // 4) for v in bx]
+        m[y0:y1, x0:x1] = True
+        solid.append((kd, m))
+    for a in range(len(solid)):
+        for c in range(a + 1, len(solid)):
+            (ka, A), (kc, C) = solid[a], solid[c]
+            if "title" in (ka, kc):
+                continue
+            both = (A & C).sum()
+            small = max(1, min(A.sum(), C.sum()))
+            if both / small > 0.06:
+                who = [k for k in (ka, kc) if re.match(r"^(A\d\d|H0\d)$", k)]
+                out.append(f"beat {i + 1}: {ka} and {kc} overlap ({both / small:.0%})" + (" ON THE CHARACTER" if who else ""))
+    if b["words"]:
+        allm = np.zeros((H // 4, W // 4), bool)
+        for _, m in solid:
+            allm |= m
+        cells = allm.reshape(6, H // 24, 8, W // 32).any(axis=(1, 3)).mean()
+        if cells < 0.35:
+            out.append(f"beat {i + 1}: screen mostly empty ({cells:.0%} of areas used)")
+    for kd, (x0, y0, x1, y1) in boxes:
+        if kd == "text" and y1 - y0 < 55:
+            out.append(f"beat {i + 1}: text too small")
+    for code, m in solid:
+        rows = np.flatnonzero(m.any(axis=1))
+        if re.match(r"^[A-H]\d\d$", code) and len(rows) and rows[-1] - rows[0] < H // 4 * 0.2:
+            out.append(f"beat {i + 1}: {code} too small")
+    return out
+
+
 def check(beats, timings, vdir):
     tm = {t["beat"]: t for t in timings}
     link_elements(beats, tm)
@@ -928,8 +969,9 @@ def check(beats, timings, vdir):
         im = render_frame(beats, tm, i, tm[i]["end"] - 0.02, vdir, boxes, masks)
         texts = [(k, bx) for k, bx in boxes if k in TEXT_KINDS]
         cov = Image.new("L", (W, H), 0)
-        for xy, a in masks:
+        for xy, a, _ in masks:
             cov.paste(a, xy, a)
+        warnings += audit(i, b, boxes, masks)
         for k, (x0, y0, x1, y1) in texts:
             if x0 < 20 or y0 < 10 or x1 > W - 20 or y1 > H - 10:
                 warnings.append(f"beat {i + 1}: {k} goes off screen")

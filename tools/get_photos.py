@@ -32,7 +32,7 @@ def candidates(script):
     out, seen = [], set()
     singles = [w for w in set(single) if single.count(w) >= 3 and w not in SINGLE_SKIP
                and not any(w in m.split() for m in multi if len(m.split()) > 1 and m.split()[-1] == w and m.split()[0] not in SKIP)]
-    multi = [m for m in multi if not re.search(r"\b(Star Wars|Model)\b", m)]
+    multi = [m for m in multi if not re.search(r"\b(Star Wars|Model|United States|North America|South America)\b", m)]
     title = [w for w in re.findall(r"\b[A-Z][A-Za-z]{3,}\b", d.get("title", ""))
              if w not in SINGLE_SKIP and len(re.findall(r"[a-z,] " + w + r"\b", text)) >= 2][:1]   # a real name, not "Crash"
     for name in ["?" + w for w in title] + multi + ["?" + w for w in singles]:   # the title's subject first     # "?" = find the best page by search (e.g. Rockefeller)

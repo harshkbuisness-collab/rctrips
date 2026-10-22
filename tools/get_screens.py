@@ -84,7 +84,8 @@ def get_pdf(ctx, c, path):
 
 
 BLOCKED = ("security verification", "just a moment", "verify you are human", "access denied", "captcha",
-           "page not found", "404 not found", "are you a robot", "enable javascript and cookies")
+           "page not found", "404 not found", "are you a robot", "enable javascript and cookies",
+           "does not have an article with this exact name")
 USED = {}          # url -> page blocks already shown, so a page used again shows a different part
 
 FIND_BLOCKS = """() => [...document.querySelectorAll('p, li, td, h1, h2, h3, blockquote, figcaption')]
