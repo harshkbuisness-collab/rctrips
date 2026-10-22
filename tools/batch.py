@@ -42,6 +42,9 @@ def run_day(script, render=True):
     except Exception as e:
         print('photos skipped:', e)
     bad = get_screens.main(script, vdir)
+    if os.path.exists(os.path.join(vdir, "01_script", "charts.json")):
+        import make_charts
+        make_charts.main(vdir)                        # data charts (ch_*.png) for hand-directed videos
     script_to_beats.main(script, vdir)
     mv = [sys.executable, os.path.join(ROOT, "tools", "make_video.py"), vdir]
     chk = subprocess.run(mv + ["--check"], capture_output=True, text=True)
