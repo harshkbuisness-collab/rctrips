@@ -94,7 +94,11 @@ export default function ReelEditor() {
   }
 
   // Script → MP3 file + word timings (Edge voices via /api/tts, or /api/tts-local on localhost).
-  async function scriptToVoice(text) {
+  // The Edge voice service sometimes returns "No audio was received", so it gets a second try.
+  async function scriptToVoice(text, tries = 2) {
+    try { return await voiceOnce(text); } catch (e) { if (tries > 1) return scriptToVoice(text, tries - 1); throw e; }
+  }
+  async function voiceOnce(text) {
     const res = await fetch(isLocal() ? '/api/tts-local' : '/api/tts', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice, speed})});
     const d = await res.json().catch(() => ({}));
     if (!res.ok || d.error) throw new Error(d.error || `Voice service error (${res.status})`);
