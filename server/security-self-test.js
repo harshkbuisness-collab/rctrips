@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx',import.meta.url),'utf8');
+const editor=['../src/cloud.js','../src/ReelEditor.jsx'].map((p)=>fs.readFileSync(new URL(p,import.meta.url),'utf8')).join('\n');
 const upload=fs.readFileSync(new URL('../src/app/api/upload-url/route.js',import.meta.url),'utf8');
 const project=fs.readFileSync(new URL('../src/app/api/project/route.js',import.meta.url),'utf8');
 const render=fs.readFileSync(new URL('../src/app/api/render/route.js',import.meta.url),'utf8');

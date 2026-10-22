@@ -35,3 +35,7 @@ details summary { cursor: pointer; margin-bottom: 8px; }
 .sceneHead select { width: auto; padding: 3px 6px; font-size: 12px; }
 .tag { font-size: 11px; padding: 2px 8px; border-radius: 6px; background: #30343d; }
 .sceneOpts { grid-template-columns: 1fr 1fr; }
+.bulk { padding-left: 18px; font-size: 11px; display: grid; gap: 4px; }
+.bulk li span { display: block; color: #e9eaee; }
+.bulk li em { color: #7b808c; margin-right: 6px; font-style: normal; }
+.bulk li b { font-weight: 600; color: #a6aab5; }

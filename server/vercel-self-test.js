@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import pkg from '../package.json' with {type:'json'};
 const render=fs.readFileSync(new URL('../src/app/api/render/route.js',import.meta.url),'utf8');
 const upload=fs.readFileSync(new URL('../src/app/api/upload-url/route.js',import.meta.url),'utf8');
-const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx',import.meta.url),'utf8');
+const editor=['../src/cloud.js','../src/ReelEditor.jsx'].map((p)=>fs.readFileSync(new URL(p,import.meta.url),'utf8')).join('\n');
 assert.ok(pkg.dependencies['@vercel/blob'],'@vercel/blob dependency missing');
 assert.ok(pkg.dependencies['@vercel/sandbox'],'@vercel/sandbox dependency missing');
 assert.ok(editor.includes("/api/upload-url"),'Signed private upload endpoint missing');

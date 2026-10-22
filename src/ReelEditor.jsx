@@ -2,7 +2,8 @@
 import React, {useRef, useState} from 'react';
 import {Player} from '@remotion/player';
 import {Reel} from './remotion/Reel.jsx';
-import {THEMES, FORMATS, DEFAULT_SETTINGS, getTheme, parseTiming, buildProject} from './engine/plan.js';
+import {FORMATS, DEFAULT_SETTINGS, parseTiming, buildProject} from './engine/plan.js';
+import {LOOKS, getLook} from './engine/looks.js';
 import {ICON_NAMES} from './engine/icons.js';
 import {STICKERS} from './engine/stickers.js';
 import {LIBRARY} from './engine/library.js';
@@ -39,7 +40,7 @@ export default function ReelEditor() {
 
   const rebuild = (t = timing, s = settings, m = media) => t && setProject(buildProject({words: t.words, duration: Math.max(t.duration, m.audioDurationSec || 0), settings: s, media: m}));
   // Theme and format only restyle, so the user's scene edits are kept; the rest re-plan the scenes.
-  const RESTYLE = {themeId: (v) => ({theme: getTheme(v)}), format: (v) => FORMATS[v]};
+  const RESTYLE = {lookId: (v) => ({look: getLook(v)}), format: (v) => FORMATS[v]};
   const setSetting = (key, value) => {
     const s = {...settings, [key]: value}; setSettings(s);
     if (project && RESTYLE[key]) setProject((p) => ({...p, settings: s, ...RESTYLE[key](value)}));
@@ -59,17 +60,21 @@ export default function ReelEditor() {
     if (t) rebuild(t, settings, m); else setProject((p) => (p ? {...p, ...m} : p));
   }
 
+  // Script → MP3 file + word timings (Edge voices via /api/tts, or /api/tts-local on localhost).
+  async function scriptToVoice(text) {
+    const res = await fetch(isLocal() ? '/api/tts-local' : '/api/tts', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice, speed})});
+    const d = await res.json().catch(() => ({}));
+    if (!res.ok || d.error) throw new Error(d.error || `Voice service error (${res.status})`);
+    const bytes = Uint8Array.from(atob(d.audio), (c) => c.charCodeAt(0));
+    return {file: new File([bytes], 'voice.mp3', {type: 'audio/mpeg'}), timing: parseTiming({words: d.words})};
+  }
+
   async function generateVoice() {
     if (!script.trim()) return setStatus('Paste a script first');
     setBusy(true);
     try {
       setStatus('Generating voice...');
-      const res = await fetch(isLocal() ? '/api/tts-local' : '/api/tts', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text: script, voice, speed})});
-      const d = await res.json().catch(() => ({}));
-      if (!res.ok || d.error) throw new Error(d.error || `Voice service error (${res.status})`);
-      const bytes = Uint8Array.from(atob(d.audio), (c) => c.charCodeAt(0));
-      const file = new File([bytes], 'voice.mp3', {type: 'audio/mpeg'});
-      const t = parseTiming({words: d.words});
+      const {file, timing: t} = await scriptToVoice(script);
       setTiming(t);
       await attachVoice(file, t);
       setStatus(`✓ Voice ready • ${t.words.length} words • video planned`);
@@ -107,6 +112,40 @@ export default function ReelEditor() {
     setBusy(false);
   }
 
+  // Bulk: one script per block (separated by a line with ---), each turned into voice + MP4 in turn.
+  const [bulkText, setBulkText] = useState('');
+  const [bulkMode, setBulkMode] = useState('same');
+  const [rows, setRows] = useState([]);
+  const stopBulk = useRef(false);
+  const splitScripts = (text) => text.split(/^\s*-{3,}\s*$/m).map((x) => x.trim()).filter(Boolean).slice(0, 30);
+  const setRow = (i, patch) => setRows((r) => r.map((x, j) => (j === i ? {...x, ...patch} : x)));
+  async function runBulk(onlyFailed) {
+    const list = onlyFailed ? rows : splitScripts(bulkText).map((text, i) => ({text, status: 'Waiting', lookId: bulkMode === 'same' ? settings.lookId
+      : bulkMode === 'rotate' ? LOOKS[i % LOOKS.length].id : LOOKS[Math.floor(Math.random() * LOOKS.length)].id}));
+    if (!list.length) return setStatus('Paste scripts first (separate them with a line containing ---)');
+    if (!onlyFailed) setRows(list);
+    stopBulk.current = false;
+    setBusy(true);
+    for (let i = 0; i < list.length; i++) {
+      if (stopBulk.current) break;
+      if (onlyFailed && !list[i].status.startsWith('Error')) continue;
+      const say = (s) => setRow(i, {status: s});
+      try {
+        say('Voice…');
+        const {file, timing: t} = await scriptToVoice(list[i].text);
+        const {pathname} = await uploadMedia(file, 'voice', () => {});
+        const duration = await getAudioDuration(file);
+        const p = buildProject({words: t.words, duration: Math.max(t.duration, duration), settings: {...settings, lookId: list[i].lookId},
+          media: {...media, audioSrc: '', audioBlobPath: pathname, audioDurationSec: duration}});
+        p.title = `reel-${String(i + 1).padStart(2, '0')}-${list[i].text.split(/\s+/).slice(0, 4).join('-').replace(/[^a-zA-Z0-9-]+/g, '')}`;
+        await renderVideo(p, (s) => say(s.replace(/^Render complete.*/, 'Rendering…')));
+        say('Done ✓');
+      } catch (e) { say(`Error: ${e.message}`); }
+    }
+    setBusy(false);
+    setStatus(stopBulk.current ? 'Bulk stopped' : 'Bulk finished');
+  }
+
   const seek = (sec) => { player.current?.seekTo(Math.round(sec * 30)); player.current?.pause(); };
   const opt = (list) => list.map(([value, label]) => <option key={value} value={value}>{label}</option>);
 
@@ -128,7 +167,7 @@ export default function ReelEditor() {
         <F label="Background music (optional)"><input type="file" accept="audio/*" disabled={busy} onChange={(e) => onAudio(e.target.files?.[0], 'music')} /></F>
         <F label={`Music volume ${Math.round(media.musicVolume * 100)}%`}><input type="range" min="0" max="0.3" step="0.01" value={media.musicVolume} onChange={(e) => setMediaField({musicVolume: Number(e.target.value)})} /></F>
         <F label="Format"><select value={settings.format} onChange={(e) => setSetting('format', e.target.value)}>{opt(Object.entries(FORMATS).map(([k, f]) => [k, f.label]))}</select></F>
-        <F label="Theme"><select value={settings.themeId} onChange={(e) => setSetting('themeId', e.target.value)}>{opt(THEMES.map((t) => [t.id, t.label]))}</select></F>
+        <F label="Template"><select value={settings.lookId} onChange={(e) => setSetting('lookId', e.target.value)}>{opt(LOOKS.map((l) => [l.id, l.label]))}</select></F>
         <F label="3D icons"><select value={settings.icons} onChange={(e) => setSetting('icons', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
         <F label="Stickers"><select value={settings.stickers} onChange={(e) => setSetting('stickers', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
         <F label="Sticker style"><select value={settings.stickerStyle} onChange={(e) => setSetting('stickerStyle', e.target.value)}>{opt([['cats', 'Cats'], ['mascot', 'Mascot']])}</select></F>
@@ -136,6 +175,22 @@ export default function ReelEditor() {
         <hr />
         <button className="primary" disabled={busy || !project} onClick={onRender}>Render MP4</button>
         <p className="status">{status}</p>
+        <hr />
+        <details>
+          <summary>Bulk: up to 30 scripts → voice + MP4 each</summary>
+          <F label="Scripts (separate each one with a line: ---)"><textarea rows={8} value={bulkText} onChange={(e) => setBulkText(e.target.value)}
+            placeholder={'First script...\n---\nSecond script...\n---\nThird script...'} /></F>
+          <F label="Template for each video"><select value={bulkMode} onChange={(e) => setBulkMode(e.target.value)}>{opt([['same', 'Same as selected template'], ['rotate', 'Rotate through all templates'], ['random', 'Random template']])}</select></F>
+          <p className="hint">Uses the voice, speed, format, music and sticker settings above. Keep this tab open; each MP4 downloads when ready.</p>
+          <div className="row">
+            <button className="primary" disabled={busy} onClick={() => runBulk(false)}>Generate {splitScripts(bulkText).length || ''} videos</button>
+            <button className="ghost" disabled={!busy} onClick={() => { stopBulk.current = true; }}>Stop</button>
+          </div>
+          {rows.some((r) => r.status.startsWith('Error')) && !busy ? <button className="ghost" onClick={() => runBulk(true)}>Retry failed</button> : null}
+          <ol className="bulk">
+            {rows.map((r, i) => <li key={i}><span>{r.text.slice(0, 40)}…</span><em>{LOOKS.find((l) => l.id === r.lookId)?.label.split(' · ')[0]}</em><b>{r.status}</b></li>)}
+          </ol>
+        </details>
       </aside>
 
       <main className="preview">

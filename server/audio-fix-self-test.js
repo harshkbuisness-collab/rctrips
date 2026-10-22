@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx', import.meta.url),'utf8');
+const editor=['../src/cloud.js','../src/ReelEditor.jsx'].map((p)=>fs.readFileSync(new URL(p,import.meta.url),'utf8')).join('\n');
 const health=fs.readFileSync(new URL('../src/app/api/health/route.js', import.meta.url),'utf8');
 const render=fs.readFileSync(new URL('../src/app/api/render/route.js', import.meta.url),'utf8');
 assert.match(editor,/URL\.createObjectURL\(file\)/,'Browser preview must use a local object URL');
-assert.match(editor,/audio controls preload="auto"/,'Voice preview audio element must preload directly');
-assert.match(editor,/d\.done&&d\.url/,'Client must support synchronous OIDC render completion');
+assert.match(editor,/<Player[\s\S]*inputProps=\{\{project\}\}/,'Voice preview must play through the Remotion preview player');
+assert.match(editor,/d\.done\s*&&\s*d\.url/,'Client must support synchronous OIDC render completion');
 assert.match(health,/issueSignedToken/,'Health check must support OIDC-backed Private Blob');
 assert.doesNotMatch(health,/Boolean\(process\.env\.BLOB_READ_WRITE_TOKEN\)/,'Health must not require a static blob token');
 assert.match(render,/mode:'oidc-sync'/,'Render route must include OIDC fallback');

@@ -5,6 +5,7 @@ import {addBundleToSandbox, createSandbox, renderMediaOnVercel} from '@remotion/
 import {bundle} from '@remotion/bundler';
 import {renderMedia, selectComposition} from '@remotion/renderer';
 import fs from 'node:fs/promises';
+import {readFileSync} from 'node:fs';
 import {requireBasicAuth, safePrivatePath} from '../../../lib/security.js';
 import {signedGetUrl} from '../../../lib/privateBlob.js';
 
@@ -28,11 +29,15 @@ async function getLocalBundle(){
 }
 
 async function renderLocally(request,incoming,fileName){
-  const origin=new URL(request.url).origin;
+  // Read local uploads from disk as data URLs: fetching them over HTTP would hit Basic Auth.
+  const uploads=path.join(process.cwd(),'public','local-uploads');
   const localize=(value)=>{
     const v=String(value||'');
-    if(v.startsWith('/local-uploads/'))return origin+v;
-    return v;
+    if(!v.startsWith('/local-uploads/'))return v;
+    const file=path.join(process.cwd(),'public',v);
+    if(!file.startsWith(uploads+path.sep))throw new Error('Invalid local upload path');
+    const type=/\.wav$/i.test(file)?'audio/wav':/\.m4a$/i.test(file)?'audio/mp4':'audio/mpeg';
+    return `data:${type};base64,${readFileSync(file).toString('base64')}`;
   };
   const project={...incoming};
   if(project.audioBlobPath?.startsWith('/local-uploads/'))project.audioSrc=localize(project.audioBlobPath);
@@ -145,11 +150,11 @@ export async function POST(request) {
     const incoming = body?.project;
     if (!incoming) throw new Error('Missing project');
     if (!incoming.audioBlobPath && !incoming.audioSrc) throw new Error('Voice audio is missing');
-    if (!Array.isArray(incoming.timingWords) || !incoming.timingWords.length) throw new Error('Word timing JSON is missing');
+    if (!Array.isArray(incoming.scenes) || !incoming.scenes.length) throw new Error('The video has no scenes yet — generate or upload the voice first');
 
-    const project = await refreshPrivateMedia(incoming);
-    const fileName = `${safe(project.projectId || project.title || 'reel')}-${Date.now()}-${crypto.randomUUID().slice(0,8)}.mp4`;
+    const fileName = `${safe(incoming.projectId || incoming.title || 'reel')}-${Date.now()}-${crypto.randomUUID().slice(0,8)}.mp4`;
     if(process.env.LOCAL_TOOL_MODE==='1')return await renderLocally(request,incoming,fileName);
+    const project = await refreshPrivateMedia(incoming);
     const blobPath = `renders/${fileName}`;
     const sandbox = await createPreparedSandbox();
 
