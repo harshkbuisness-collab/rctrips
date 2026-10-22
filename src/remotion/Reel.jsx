@@ -818,6 +818,82 @@ function MemeCard({scene, look, u, stage, index}) {
 }
 const SERIF_FAMILY = "'Playfair Display'";
 
+// Reference 7: black, a huge white heavy serif keyword whose letters assemble, with small blue words
+// stuck to it as superscript (top-left) and subscript (bottom-right) or on both sides; some cards add a
+// yellow condensed tail, a small icon, the mascot, or a pink Follow button that gets clicked.
+const SUPER_VARIANTS = ['corner', 'inline', 'corner', 'yellow'];
+const FOLLOW = /^(follow|subscribe|फॉलो)$/i;
+
+function FollowButton({u, frame}) {
+  const pop = spring({frame: frame - 4, fps: 30, config: {damping: 11, stiffness: 200}});
+  const click = interpolate(frame, [14, 17, 20], [1, 0.9, 1], clamp);
+  const cursor = interpolate(frame, [6, 14], [1, 0], {...clamp, easing: ease});
+  return (
+    <div style={{position: 'relative', transform: `scale(${pop * click})`}}>
+      <div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: u * 3.2, color: '#FFF', background: '#F0245E', padding: `${u * 0.8}px ${u * 3}px`, borderRadius: u * 1}}>Follow</div>
+      <svg viewBox="0 0 24 24" width={u * 4} height={u * 4} style={{position: 'absolute', right: -u * 1.5 + cursor * u * 8, bottom: -u * 2 - cursor * u * 6}}>
+        <path d="M4 2 L4 20 L9 15 L12 22 L15 21 L12 14 L19 14 Z" fill="#FFF" stroke="#000" strokeWidth="1.2" /></svg>
+    </div>
+  );
+}
+
+function SuperCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const v = SUPER_VARIANTS[index % SUPER_VARIANTS.length];
+  const blue = look.accents[0], yellow = look.accents[1];
+  const heroText = display(hero.text);
+  const w100 = measureText({text: heroText, fontFamily: look.heroFont, fontSize: 100, fontWeight: '900'}).width * 1.06;
+  const size = Math.min(u * 12, (stage.w * (v === 'inline' ? 0.42 : 0.62) / w100) * 100);
+  const heroEl = <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="scatter" fps={c.fps} frame={c.frame} color={look.ink}
+    style={{fontFamily: look.heroFont, fontWeight: 900, fontSize: size, lineHeight: 0.95, letterSpacing: '-0.02em', whiteSpace: 'nowrap'}} />;
+  const small = (ws, color, sizeU, extra) => ws.length ? (
+    <span style={{fontFamily: look.font, fontWeight: look.weight, fontSize: u * sizeU, color, lineHeight: 1.15, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="fade" fps={c.fps} frame={c.frame} color={color} /></React.Fragment>)}
+    </span>
+  ) : null;
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  const follow = words.some((w) => FOLLOW.test(display(w.text)));
+  let body;
+  if (v === 'inline') {
+    body = (
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 1.2}}>
+        {small(pre, blue, 3)}{heroEl}{small(post, blue, 3)}
+      </div>
+    );
+  } else {
+    // Superscript lead-in at the top-left, subscript (blue, or a yellow condensed tail) at the bottom-right.
+    const tail = v === 'yellow'
+      ? small(post, yellow, 3.6, {fontFamily: "Oswald, 'Noto Sans Devanagari', sans-serif", fontWeight: 700, textTransform: 'lowercase'})
+      : small(post, blue, 3);
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+        <div style={{alignSelf: 'flex-start', marginLeft: size * 0.05, marginBottom: -size * 0.1}}>{small(pre, blue, 3.2)}</div>
+        <div style={{display: 'flex', alignItems: 'center', gap: u * 1.2}}>
+          {heroEl}
+          {icon ? <Art src={icon} size={u * 8} frame={c.frame - c.at(hero) - 6} /> : null}
+        </div>
+        <div style={{alignSelf: 'flex-end', marginTop: size * 0.04, maxWidth: stage.w * 0.5, textAlign: 'right'}}>{tail}</div>
+      </div>
+    );
+  }
+  const mascot = index % 4 === 0;
+  const mp = spring({frame: c.frame - 3, fps: c.fps, config: {damping: 11, stiffness: 180}});
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2}}>
+        {body}
+        {follow ? <FollowButton u={u} frame={c.frame} /> : null}
+      </AbsoluteFill>
+      {mascot ? <Img src={staticFile(iconPath(`lib:${CHARACTER_POSES[(index >> 2) % CHARACTER_POSES.length]}`))} style={{position: 'absolute', left: stage.w * 0.04, bottom: stage.h * 0.04,
+        width: stage.h * 0.3, height: stage.h * 0.3, objectFit: 'contain', transform: `scale(${mp})`}} /> : null}
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -943,6 +1019,7 @@ function cardFor(scene, look) {
   if (look.layout === 'bonus') return BonusCard;
   if (look.layout === 'stair') return StairCard;
   if (look.layout === 'meme') return MemeCard;
+  if (look.layout === 'super') return SuperCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }

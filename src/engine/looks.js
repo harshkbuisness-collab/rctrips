@@ -12,6 +12,8 @@ const HAND = `Caveat, ${DEV}`;
 //             stair   — staircase lines: small white, red outlined keyword typed, small white; inline and big-red cards
 //             meme    — dark icon cards with words around the icon, white red-headline cards with a cat rising,
 //                       dark number lines, grey serif meme cards, peach cards (reference 5)
+//             super   — huge white serif keyword with small blue words as superscript / subscript / beside,
+//                       yellow accents, a Follow button being clicked (reference 7)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -91,6 +93,9 @@ export const LOOKS = [
   {id: 'zubair', label: 'Ref 5 · Meme Mix (icon cards, red headlines, circle wipe)', layout: 'meme', motion: 'fade', transition: 'circle',
     bg: '#2A2A2A', ink: '#FFFFFF', dark: '#2A2A2A', darkInk: '#FFFFFF', accents: ['#E8291C', '#E8291C'], cta: '#E8291C',
     font: INTER, weight: 600, heroFont: INTER, heroWeight: 700, heroItalic: false, labelFont: INTER, boxBg: '#E8291C', boxInk: '#FFFFFF'},
+  {id: 'superscript', label: 'Ref 7 · Cinematic Serif (white serif + blue super/subscript)', layout: 'super', motion: 'fade',
+    bg: '#000000', ink: '#FFFFFF', dark: '#000000', darkInk: '#FFFFFF', accents: ['#2E9BFF', '#FFD60A'], cta: '#FFFFFF',
+    font: INTER, weight: 500, heroFont: SERIF, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#FFFFFF', boxInk: '#000000'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).
