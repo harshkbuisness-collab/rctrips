@@ -22,6 +22,7 @@ Motion (v4): things enter with movement instead of just appearing. Append ~MOTIO
   ~l ~r ~t ~b  slide in from that side      ~pop  grow in with a small overshoot     ~drop  fall in from the top
   ~walk        walk in from the nearest side ~none  hard cut
   ~swing       swings in from a tilt
+  ~jolt        shakes for a moment, then stands still
   ~float       keeps bobbing gently          ~shake keeps shaking                      ~spin  keeps turning
   Defaults: people slide in from the nearest side, props pop in, screenshots slide up from the bottom,
   bubbles/labels/text pop, arrows and circles are drawn on, close-ups (height >= 0.9) cut in.
@@ -505,7 +506,7 @@ def draw_doc(canvas, vdir, e, t, boxes):
     x, y = pos(e["pos"])
     px, py = int(x * W - dw / 2), int(y * H - dh / 2)
     boxes.append(("doc", (px, py, px + dw, py + dh + (72 if e["src"] else 0))))
-    if e.get("motion") not in ("none", "pop", "float", "shake", "spin", "swing"):   # slides in, then stands still
+    if e.get("motion") not in ("none", "pop", "float", "shake", "spin", "swing", "jolt"):   # slides in, then stands still
         _, (px, py) = moved(Image.new("L", (dw, dh)), (px, py), e, t)
     d = ImageDraw.Draw(canvas)
     if e["frame"]:
@@ -736,6 +737,8 @@ def moved(im, xy, e, t, t0=None, talking=False):
         x, y = int(cx - im.width / 2), int(cy - im.height / 2)
     elif m == "float":
         y += int(8 * math.sin(age * 2 * math.pi * 0.7))
+    elif m == "jolt" and age < 1.0:               # a short shake when bad news lands, then still
+        x += int(9 * math.sin(age * 71) * (1 - age)); y += int(5 * math.sin(age * 53) * (1 - age))
     elif m == "shake":
         x += int(6 * math.sin(age * 71)); y += int(4 * math.sin(age * 53))
     elif m == "spin":

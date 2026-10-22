@@ -180,7 +180,7 @@ def sentence_elements(s, person, pick, names, line, lay):
             else:                                   # full: the oldest leaves and the new one takes its place
                 line[line.index(order.pop(0))] = c
             order.append(c)
-            lay["mot"][c] = "shake" if BAD.search(s) and len(line) > 1 else None
+            lay["mot"][c] = "jolt" if BAD.search(s) and len(line) > 1 else None
     slots = lay["slots"]
     mx, my, mh, anchor = lay["me"]
     if POSES_NOW:
@@ -197,6 +197,12 @@ def sentence_elements(s, person, pick, names, line, lay):
             out.append(f"group:{c}*{m.group(1)}@{X(x) - g:.2f},{y - g:.2f},{X(x) + g:.2f},{y + g:.2f}:{h * 0.42:.2f}")
         else:
             out.append(f"{c}@{X(x)},{y}:{h}~{lay['mot'].get(c) or F(mot)}")
+    if len(line) < 2 and not num:                  # too empty: the sentence's key words, handwritten in a free slot
+        kw = sv.key_words(s, 2)
+        if kw and kw != lay.get("kw"):
+            lay["kw"] = kw
+            fx, fy = slots[len(line)][:2]
+            out.append(f'"{clean(kw)}"@{X(fx)},{fy}:72:{"red" if len(kw) % 2 else "black"}~{F(slots[len(line)][3])}')
     if lay.get("flow") and len(line) >= 2 and CAUSE.search(s):   # one thing leads to the next: draw the arrow
         (x0, y0, h0, _), (x1, y1, h1, _) = slots[line.index(order[-2])], slots[line.index(order[-1])]
         dx, dy = x1 - x0, y1 - y0
@@ -365,6 +371,10 @@ def main(script, vdir):
                 if s in scene_of:                        # the owner's own picture made for this sentence
                     el = [f'title:"{clean(title)}"', person_elem(s, pick, poses, names, False, (px, py, ph_)),
                           f"doc:{scene_of[s]}@{dx},{dy} w={dw} h={0.6 if px == 0.5 else 0.74} frame=0 ~{dm}"]
+                    kw = sv.number_sign(s) or sv.key_words(s, 2)
+                    if kw:
+                        lx = 0.5 if px == 0.5 else (0.2 if dx > 0.5 else 0.8)
+                        el.append(f'note:"{clean(kw)[:18]}"@{lx},{0.16 if px == 0.5 else 0.2}>{dx:.2f},{dy - 0.2:.2f}+1.2')
                     lines.append(f"{words} || " + "; ".join(el))
                     spoken += len(s.split())
                     continue
