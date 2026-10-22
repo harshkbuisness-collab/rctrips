@@ -86,9 +86,9 @@ function Ghost({text, look, ink, stage, frame}) {
   );
 }
 
-function Word({w, look, ink, pal, isHero, extra, c}) {
+function Word({w, look, ink, pal, isHero, extra, c, kind}) {
   const style = isHero ? {...pal.accentStyle, ...extra} : extra;
-  return <MotionText text={display(w.text, look.upper)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={look.motion} fps={c.fps} frame={c.frame}
+  return <MotionText text={display(w.text, look.upper)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={kind || look.motion} fps={c.fps} frame={c.frame}
     color={isHero ? (pal.accentStyle.color || ink) : ink} style={style} />;
 }
 
@@ -98,11 +98,42 @@ function Sentence({words, look, ink, pal, heroExtra, c}) {
   ));
 }
 
-function Art({src, size, frame, style}) {
+// Visual entrance: pop (default), slide (in from the bottom-right corner, rotating) or draw (grows up from the bottom).
+function Art({src, size, frame, style, enter}) {
   const {fps} = useVideoConfig();
   const p = spring({frame: frame - 4, fps, config: {damping: 12, stiffness: 160, mass: 0.7}});
-  return <Img src={src} style={{width: size, height: size, objectFit: 'contain', opacity: Math.min(1, p * 2),
-    transform: `translateY(${Math.sin(frame / 16) * size * 0.03}px) scale(${0.5 + 0.5 * p}) rotate(${(1 - p) * -12}deg)`, ...style}} />;
+  const float = `translateY(${Math.sin(frame / 16) * size * 0.03}px)`;
+  const motion = enter === 'slide' ? `translate(${(1 - p) * 70}%, ${(1 - p) * 60}%) rotate(${(1 - p) * 35}deg)`
+    : enter === 'draw' ? `scaleY(${interpolate(frame, [2, 14], [0, 1], {...clamp, easing: ease})})`
+      : `scale(${0.5 + 0.5 * p}) rotate(${(1 - p) * -12}deg)`;
+  return <Img src={src} style={{width: size, height: size, objectFit: 'contain', opacity: enter === 'draw' ? 1 : Math.min(1, p * 2),
+    transformOrigin: enter === 'draw' ? 'bottom center' : 'center', transform: `${float} ${motion}`, ...style}} />;
+}
+
+// iOS-style switch that turns on, for lines about settings.
+const TOGGLE_WORDS = /^(on|off|setting|settings|enable|turn|switch|chalu|band|activate)$/i;
+function Toggle({u, frame}) {
+  const on = interpolate(frame, [10, 18], [0, 1], {...clamp, easing: ease});
+  const pop = spring({frame: frame - 4, fps: 30, config: {damping: 12, stiffness: 200}});
+  return (
+    <div style={{width: u * 8, height: u * 4.2, borderRadius: u * 2.1, background: on > 0.5 ? '#34C759' : '#D9D9D9', position: 'relative',
+      transform: `scale(${pop})`, boxShadow: 'inset 0 2px 6px rgba(0,0,0,.15)', transition: 'none'}}>
+      <div style={{position: 'absolute', top: u * 0.35, left: u * 0.35 + on * u * 3.8, width: u * 3.5, height: u * 3.5, borderRadius: '50%', background: '#FFF',
+        boxShadow: '0 3px 8px rgba(0,0,0,.25)'}} />
+    </div>
+  );
+}
+const wantsToggle = (look, scene) => look.toggle && scene.words.some((w) => TOGGLE_WORDS.test(display(w.text)));
+
+// "?" marks popping around a question card.
+const QUESTION = /\?$|^(why|how|what|kya|kaise|kyun|stuck)$/i;
+function Questions({stage, frame, color}) {
+  const spots = [[0.2, 0.3], [0.78, 0.26], [0.16, 0.72], [0.84, 0.68], [0.5, 0.15]];
+  return spots.map(([x, y], i) => {
+    const p = spring({frame: frame - 6 - i * 3, fps: 30, config: {damping: 9, stiffness: 220}});
+    return <div key={i} style={{position: 'absolute', left: stage.w * x, top: stage.h * y, fontFamily: 'Oswald', fontWeight: 700, fontSize: stage.h * 0.08, color,
+      transform: `scale(${p}) rotate(${(i % 2 ? 1 : -1) * 14}deg)`, opacity: 0.85}}>?</div>;
+  });
 }
 // The mascot template shows its own character, so it skips per-card stickers.
 const artSrc = (scene, look) => {
@@ -125,7 +156,8 @@ function LineCard({scene, look, u, stage, index}) {
     <Backdrop bg={pal.bg} look={look}>
       {look.ghost ? <Ghost text={heroOf(scene)?.text} look={look} ink={pal.ink} stage={stage} frame={c.frame} /> : null}
       <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2, ...shiftOf(look, stage)}}>
-        {src ? <Art src={src} size={u * 15} frame={c.frame} /> : null}
+        {src ? <Art src={src} size={u * 15} frame={c.frame} enter={look.artEnter} /> : null}
+        {wantsToggle(look, scene) ? <Toggle u={u} frame={c.frame} /> : null}
         <div style={{maxWidth: areaOf(look, stage), textAlign: align, fontFamily: look.font, fontWeight: look.weight, fontSize: u * 3.6 * (look.textScale || 1),
           lineHeight: 1.25, letterSpacing: look.tracking || '-0.02em'}}>
           <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} />
@@ -161,14 +193,15 @@ function HeroCard({scene, look, u, stage, index}) {
         <div style={{display: 'flex', flexDirection: 'column', alignItems: centered ? 'center' : 'flex-start', maxWidth: maxW}}>
           {kicker.length ? <div style={{...small, fontSize: u * 3.2 * (look.textScale || 1), lineHeight: 1.2, marginBottom: u * 0.3}}>
             <Sentence words={kicker} look={look} ink={pal.ink} pal={pal} c={c} /></div> : null}
-          <Word w={{...hero, text}} look={look} ink={pal.ink} pal={pal} isHero c={c}
+          <Word w={{...hero, text}} look={look} ink={pal.ink} pal={pal} isHero c={c} kind={look.heroMotion}
             extra={{fontFamily: font, fontWeight: look.heroWeight, fontStyle: italic ? 'italic' : 'normal', fontSize: size, lineHeight: 1.08,
               letterSpacing: tracking, whiteSpace: 'nowrap', paddingRight: italic || script ? '0.1em' : 0}} />
           {sub.length ? <div style={{...small, fontFamily: subFont, fontStyle: look.subFont || look.font !== look.heroFont || look.upperHero ? 'normal' : 'italic',
             fontSize: u * 2.4 * (look.subScale || 1), lineHeight: 1.25, marginTop: u * 0.6}}>
             <Sentence words={sub} look={look} ink={look.subInk || pal.ink} pal={pal} c={c} /></div> : null}
+          {wantsToggle(look, scene) ? <div style={{marginTop: u * 1.2}}><Toggle u={u} frame={c.frame - c.at(hero)} /></div> : null}
         </div>
-        {src ? <Art src={src} size={artSize} frame={c.frame - c.at(hero)} /> : null}
+        {src ? <Art src={src} size={artSize} frame={c.frame - c.at(hero)} enter={look.artEnter} /> : null}
       </AbsoluteFill>
     </Backdrop>
   );
@@ -210,13 +243,86 @@ function TagCard({scene, look, u, stage, index}) {
   return (
     <Backdrop bg={pal.bg} look={look}>
       {look.ghost ? <Ghost text={key.text} look={look} ink={pal.ink} stage={stage} frame={c.frame} /> : null}
+      {look.questions && scene.words.some((w) => QUESTION.test(w.text)) ? <Questions stage={stage} frame={c.frame} color={look.accents[1]} /> : null}
       <AbsoluteFill style={{alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'column', padding: `${stage.h * 0.06}px 0`}}>
         <div style={{fontFamily: look.heroFont, fontWeight: look.heroWeight, fontSize: u * 5.4, lineHeight: 1, color: look.tagInk, background: look.tagBg,
           padding: `${u * 0.4}px ${u * 1.4}px`, borderRadius: u * 0.8, boxShadow: '0 6px 0 rgba(0,0,0,.18)', letterSpacing: '0.02em',
-          opacity: Math.min(1, tagIn * 2), transform: `scale(${0.7 + 0.3 * tagIn})`}}>{display(key.text, true)}</div>
-        {src ? <Art src={src} size={stage.h * 0.36} frame={c.frame} /> : null}
+          clipPath: `inset(0 ${(1 - Math.min(1, tagIn)) * 100}% 0 0)`}}>{display(key.text, true)}</div>
+        {src ? <Art src={src} size={stage.h * 0.36} frame={c.frame} enter={look.artEnter} /> : null}
         <div style={{maxWidth: stage.w * 0.8, textAlign: 'center', fontFamily: look.font, fontWeight: look.weight, fontSize: u * (src ? 2.4 : 3.4), lineHeight: 1.3}}>
           <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 800}} c={c} />
+        </div>
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
+// Lines type in at the bottom and push the older lines up, like a chat feed.
+function FeedCard({scene, look, u, stage, index, scenes}) {
+  const c = useCard(scene);
+  const pal = paletteFor(look, scene, index);
+  const prev = [];
+  for (let i = index - 1; i >= 0 && prev.length < 2; i--) { if (['line', 'hero'].includes(scenes[i].type)) prev.unshift(scenes[i]); else break; }
+  const lineH = u * 6.2;
+  const push = spring({frame: c.frame, fps: c.fps, config: {damping: 16, stiffness: 160}});
+  const src = artSrc(scene, look);
+  const kind = index % 2 ? 'tracking' : look.motion;
+  return (
+    <Backdrop bg={pal.bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-end', flexDirection: 'column', paddingBottom: stage.h * 0.36}}>
+        <div style={{transform: `translateY(${(1 - push) * lineH}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          {prev.map((s, i) => (
+            <div key={s.id} style={{fontFamily: look.font, fontWeight: look.weight, fontSize: u * 2.6, lineHeight: `${lineH}px`, color: pal.ink,
+              opacity: 0.35 + 0.25 * i, whiteSpace: 'nowrap'}}>{s.words.map((w) => display(w.text)).join(' ')}</div>
+          ))}
+          <div style={{fontFamily: look.font, fontWeight: look.weight, fontSize: u * 3.8, lineHeight: `${lineH}px`, maxWidth: stage.w * 0.88, textAlign: 'center'}}>
+            {scene.words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+              <Word w={w} look={look} ink={pal.ink} pal={pal} isHero={w.hero} c={c} kind={kind} extra={w.hero ? {fontWeight: 900} : undefined} /></React.Fragment>)}
+          </div>
+        </div>
+      </AbsoluteFill>
+      {src ? <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-end', paddingBottom: stage.h * 0.1}}><Art src={src} size={stage.h * 0.22} frame={c.frame} /></AbsoluteFill> : null}
+    </Backdrop>
+  );
+}
+
+// Whole line shown dim; a highlight box runs from word to word as each is spoken.
+function RunCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const pal = paletteFor(look, scene, index);
+  const size = u * 4.2;
+  const maxW = areaOf(look, stage);
+  const gap = size * 0.28, lineH = size * 1.35;
+  const font = {fontFamily: look.font, fontSize: size, fontWeight: String(look.weight)};
+  const boxes = []; let x = 0, line = 0;
+  scene.words.forEach((w) => {
+    const t = display(w.text);
+    const width = measureText({...font, text: t}).width + size * 0.3;
+    if (x > 0 && x + width > maxW) { x = 0; line++; }
+    boxes.push({t, x, y: line * lineH, w: width});
+    x += width + gap;
+  });
+  const lines = line + 1;
+  const lineW = (l) => Math.max(...boxes.filter((b) => b.y === l * lineH).map((b) => b.x + b.w));
+  boxes.forEach((b) => { b.x += (maxW - lineW(b.y / lineH)) / 2; });
+  let cur = -1;
+  scene.words.forEach((w, i) => { if (c.frame >= c.at(w)) cur = i; });
+  const from = boxes[Math.max(0, cur - 1)], to = boxes[Math.max(0, cur)];
+  const k = cur < 0 ? 0 : interpolate(c.frame - c.at(scene.words[cur]), [0, 4], [cur === 0 ? 1 : 0, 1], {...clamp, easing: ease});
+  const mix = (a, b) => a + (b - a) * k;
+  const box = {x: mix(from.x, to.x), y: mix(from.y, to.y), w: mix(from.w, to.w)};
+  const src = artSrc(scene, look);
+  return (
+    <Backdrop bg={pal.bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2, ...shiftOf(look, stage)}}>
+        {src ? <Art src={src} size={u * 13} frame={c.frame} /> : null}
+        <div style={{position: 'relative', width: maxW, height: lines * lineH, opacity: interpolate(c.frame, [0, 5], [0, 1], clamp)}}>
+          {cur >= 0 ? <div style={{position: 'absolute', left: box.x - size * 0.05, top: box.y + size * 0.06, width: box.w + size * 0.1, height: lineH - size * 0.12,
+            background: pal.accent, borderRadius: size * 0.18}} /> : null}
+          {boxes.map((b, i) => (
+            <div key={i} style={{position: 'absolute', left: b.x, top: b.y, width: b.w, textAlign: 'center', lineHeight: `${lineH}px`, ...font, fontWeight: look.weight,
+              color: i === cur ? '#FFFFFF' : i < cur ? pal.ink : `${pal.ink}55`}}>{b.t}</div>
+          ))}
         </div>
       </AbsoluteFill>
     </Backdrop>
@@ -304,11 +410,37 @@ function Walker({id, stage}) {
     transform: `translateY(${Math.abs(Math.sin(frame / 4)) * -size * 0.08}px) rotate(${Math.sin(frame / 4) * 4}deg)`}} />;
 }
 
+// How a card comes in over the previous one (cards overlap by TRANSITION frames).
+const TRANSITION = 8;
+function TransitionIn({kind, children, stage}) {
+  const f = useCurrentFrame();
+  if (!kind || f >= TRANSITION) return <AbsoluteFill>{children}</AbsoluteFill>;
+  const p = interpolate(f, [0, TRANSITION], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+  if (kind === 'wipe') {
+    // A black diagonal sweeps across, covering the old card, then uncovers the new one.
+    const cover = Math.min(1, p * 2), reveal = Math.max(0, p * 2 - 1);
+    const edge = (t) => `${100 - t * 160}%`;
+    return (
+      <AbsoluteFill>
+        {reveal > 0 ? <AbsoluteFill>{children}</AbsoluteFill> : null}
+        <AbsoluteFill style={{background: '#000', clipPath: reveal > 0
+          ? `polygon(0 0, ${100 - reveal * 160 + 60}% 0, ${100 - reveal * 160}% 100%, 0 100%)`
+          : `polygon(${edge(cover)} 100%, calc(${edge(cover)} + 60%) 0, 100% 0, 100% 100%)`}} />
+      </AbsoluteFill>
+    );
+  }
+  if (kind === 'zoom') return <AbsoluteFill style={{opacity: p, transform: `scale(${2.6 - 1.6 * p})`, filter: `blur(${(1 - p) * 14}px)`}}>{children}</AbsoluteFill>;
+  if (kind === 'whip') return <AbsoluteFill style={{transform: `translateX(${(1 - p) * stage.w}px)`, filter: `blur(${(1 - p) * 16}px)`}}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{opacity: p, filter: `blur(${(1 - p) * 18}px)`}}>{children}</AbsoluteFill>;
+}
+
 function cardFor(scene, look) {
   if (scene.type === 'step') return StepCard;
   if (scene.type === 'cta') return CtaCard;
   if (look.layout === 'collage') return CollageCard;
   if (look.layout === 'tag') return TagCard;
+  if (look.layout === 'feed') return FeedCard;
+  if (look.layout === 'run') return RunCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
@@ -327,9 +459,12 @@ export function Reel({project}) {
         {ready ? project.scenes.map((scene, index) => {
           const Card = cardFor(scene, look);
           const from = Math.round(scene.start * fps);
+          const overlap = look.transition && index < project.scenes.length - 1 ? TRANSITION : 0;
           return (
-            <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, Math.round(scene.end * fps) - from)}>
-              <Card scene={scene} look={look} u={u} stage={stage} index={index} />
+            <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, Math.round(scene.end * fps) - from + overlap)}>
+              <TransitionIn kind={index > 0 ? look.transition : null} stage={stage}>
+                <Card scene={scene} look={look} u={u} stage={stage} index={index} scenes={project.scenes} />
+              </TransitionIn>
             </Sequence>
           );
         }) : null}

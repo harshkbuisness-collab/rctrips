@@ -86,6 +86,16 @@ export function MotionText({text, f, dur = 10, kind, color, fps = 30, style, fra
       const k = interpolate(f, [0, 6], [0, 1], {...clamp, easing: Easing.out(Easing.back(2))});
       return <span style={{...base, opacity: f >= 0 ? 1 : 0, transform: `scale(${1.7 - 0.7 * k}) rotate(${(1 - k) * -8}deg)`}}>{text}</span>;
     }
+    case 'scatter': // letters fly in from random spots and settle into the word
+      return <span style={base}>{perLetter(text, (i) => {
+        const lf = f - Math.floor(noise(i, 9) * 6);
+        const k = interpolate(lf, [0, 10], [1, 0], {...clamp, easing: Easing.out(Easing.cubic)});
+        return {opacity: interpolate(lf, [0, 4], [0, 1], clamp), filter: `blur(${k * 6}px)`,
+          transform: `translate(${(noise(i, 3) - 0.5) * 2.4 * k}em, ${(noise(i, 5) - 0.5) * 1.6 * k}em) rotate(${(noise(i, 7) - 0.5) * 80 * k}deg)`};
+      })}</span>;
+    case 'slide': // slides in from the left
+      return <span style={{...base, opacity: interpolate(f, [0, 6], [0, 1], clamp),
+        transform: `translateX(${interpolate(f, [0, 12], [-1.2, 0], {...clamp, easing: Easing.out(Easing.poly(4))})}em)`}}>{text}</span>;
     default: // blur rise
       return <span style={{...base, opacity: interpolate(f, [0, 6], [0, 1], clamp), filter: `blur(${interpolate(f, [0, 7], [12, 0], clamp)}px)`,
         transform: `translateY(${interpolate(f, [0, 8], [0.3, 0], {...clamp, easing: ease})}em)`}}>{text}</span>;
