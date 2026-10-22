@@ -41,7 +41,7 @@ def candidates(script):
         words = name.lstrip("?").split()
         if not words or words[0] in SKIP or all(w in SKIP for w in words) or set(words) & fiction:
             continue
-        if name.lstrip("?").lower() in ("america", "world war", "united states", "europe"):
+        if name.lstrip("?").lower() in ("america", "world war", "united states", "europe", "china", "mainland china", "japan"):
             continue                                 # a flag or a general page is not evidence
         if name.lower() not in seen:
             seen.add(name.lower())
@@ -77,6 +77,9 @@ def lookup(name):
         pages = json.loads(raw).get("pages", []) if raw else []
         pages.sort(key=lambda p: p["title"] not in CONTEXT)          # prefer a page the script itself names
         for p in pages:
+            words = re.sub(r"\s*\(.*\)", "", p["title"]).split()
+            if not all(w in CONTEXT for w in words):     # "Jake" must not become "Jake Gyllenhaal"
+                continue
             r = lookup(p["key"])                     # first of the top 3 results that has a free photo
             if r:
                 return r

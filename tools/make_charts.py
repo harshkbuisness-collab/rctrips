@@ -24,6 +24,10 @@ def fmt(v, unit):
         return f"${v:,.0f}" if v >= 10 else f"${v:,.2f}".rstrip("0").rstrip(".")
     if unit == "$B":
         return f"${v:,.1f}B".replace(".0B", "B")
+    if unit == "$T":
+        return f"${v:g}T"
+    if unit == "$Bn":
+        return f"${v:,.0f}B"
     if unit == "%":
         return f"{v:g}%"
     return f"{v:,.0f}"

@@ -411,5 +411,85 @@
   "file": "s29.png",
   "ok": false,
   "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia \u2013 Treasury",
+  "url": "https://en.wikipedia.org/wiki/Treasury",
+  "what": "",
+  "said": "Now Linda's benefits depend on that money coming back. To pay retirees, the Treasury has to turn those IOUs into cash, using taxes or new borrowing.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia \u2013 China",
+  "url": "https://en.wikipedia.org/wiki/China",
+  "what": "",
+  "said": "In recent years, China has actually been holding fewer Treasuries, not more. So the idea that China controls America's debt doesn't match the numbers.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": false
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia \u2013 Mainland China",
+  "url": "https://en.wikipedia.org/wiki/Mainland_China",
+  "what": "",
+  "said": "In recent years, China has actually been holding fewer Treasuries, not more. So the idea that China controls America's debt doesn't match the numbers.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": false
+ },
+ {
+  "line": 82,
+  "source": "Wikipedia \u2013 Wall Street",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street",
+  "what": "",
+  "said": "Next time, we meet a man who sold people promises that were never real. The real Wolf of Wall Street.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia \u2013 Jake Gyllenhaal",
+  "url": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
+  "what": "",
+  "said": "On a three hundred thousand dollar loan, one extra percentage point adds roughly two hundred dollars to the monthly payment. That can decide whether Jake gets the house.",
+  "file": "s34.png",
+  "box": [
+   0.185,
+   0.719,
+   0.468,
+   0.88
+  ],
+  "page": null,
+  "ok": false
  }
 ]
