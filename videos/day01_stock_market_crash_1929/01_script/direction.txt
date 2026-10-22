@@ -5,17 +5,17 @@
 # ---------- HOOK ----------
 1: board:"1929"@0.55,0.48:0.5; A38@0.16,0.62:0.58~none
 2: AUTODOC
-3: "25"@0.5,0.42:260:red~pop; "YEARS"@0.5,0.72:110:black~pop+0.3; A35@0.86,0.64:0.5~none
+3: doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.24,0.12,0.9,0.42+0.6; "25 YEARS"@0.56,0.92:80:red~pop+0.4
 4: A14@0.16,0.62:0.56~none; G11@0.55,0.5:0.5~pop; xmark+0.6
 5: A20@0.5,0.68:0.5~none; G11@0.2,0.36:0.3~l; D15@0.5,0.24:0.26~t; E33@0.8,0.36:0.3~r; D22@0.2,0.74:0.26~l; E34@0.8,0.74:0.3~r
 6: + label:"the safest bet"@0.5,0.1>0.5,0.2
-7: A08@0.14,0.64:0.52~none; D14@0.5,0.5:0.5~pop; "-90%"@0.8,0.42:180:red~pop+0.6
-8: group:C28*4@0.3,0.25,0.7,0.75:0.42; A09@0.88,0.64:0.5~none; "1 IN 4"@0.5,0.12:120:red~pop; xmark+0.9
-9: M26|D16@0.5,0.48:0.5~pop; "9,000 BANKS"@0.5,0.12:120:red~drop; M18|B03@0.86,0.74:0.3~r; A11@0.13,0.66:0.5~none
-10: A37@0.16,0.62:0.58~none; E10@0.58,0.5:0.6~pop; think:"wait, what?"@0.62,0.18
+7: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-89%"@0.7,0.9:90:red~pop+0.6
+8: doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"1 in 4"@0.66,0.16>0.4,0.3+0.6
+9: doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – bank run, 1931"; H04@0.9,1.0:0.3:bottom~none; "9,000 BANKS"@0.43,0.08:90:red~drop+0.6
+10: board:"The part they skip in school"@0.56,0.46:0.56; A37@0.14,0.62:0.56~none
 11: AUTODOC
 12: A16@0.84,0.62:0.56~none; E19@0.4,0.5:0.5~pop; "THE SPARK"@0.4,0.14:120:red~pop+0.4
-13: doc:p_wall_street.jpg@0.44,0.5 w=0.62 h=0.66 ~l src="Photo: Wikimedia Commons – Wall Street"; A15@0.86,0.62:0.5~none
+13: doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none
 14: A05@0.86,0.62:0.56~none; doc:c_day01_S01.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop; bubble:"uh oh"@0.72,0.2:l
 15: board:"The party"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; M25|E47@0.88,0.24:0.24~swing+0.6
 
@@ -24,13 +24,13 @@
 17: M01|G01@0.52,0.52:0.56~pop; A34@0.15,0.64:0.56~none; bubble:"WE WON!"@0.82,0.2:l
 18: A04@0.84,0.62:0.56~none; M01|G01@0.45,0.52:0.56~none; label:"it really was"@0.45,0.12>0.45,0.25
 19: A36@0.84,0.62:0.56~none; E26@0.42,0.5:0.5~pop; "SCIENCE FICTION"@0.42,0.12:96:black~pop+0.4
-20: M12|E33@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none
+20: M12|E17@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none
 21: + E36@0.55,0.48:0.34~pop
-22: M11|E13@0.24,0.48:0.4~l; "= iPHONE"@0.56,0.48:120:red~pop+0.5; E08@0.56,0.76:0.26~b+0.8; A03@0.86,0.62:0.56~none
+22: doc:h_radio.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – 1920s radio"; H04@0.9,1.0:0.3:bottom~none; bubble:"the iPhone of the 1920s"@0.78,0.16:l
 23: AUTODOC
 24: doc:p_henry_ford.png@0.38,0.5 w=0.5 h=0.7 ~l src="Photo: Wikimedia Commons – Henry Ford"; A15@0.86,0.62:0.5~none
-25: M10|D22@0.5,0.56:0.46~r; "$850"@0.26,0.2:120:red~pop; arrow:0.36,0.2>0.6,0.2+0.8; "$260"@0.74,0.2:120:green~pop+1.0; A21@0.13,0.64:0.5~none
-26: C21@0.2,0.56:0.5~l; M10|D22@0.5,0.62:0.36~none; C09@0.8,0.56:0.5~r; arrow:0.32,0.4>0.68,0.4+0.6
+25: doc:ch_modelt.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+26: doc:h_modelt.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Ford Model T"; H04@0.9,1.0:0.3:bottom~none; label:"a factory worker could own one"@0.6,0.92>0.5,0.8
 27: A06@0.84,0.62:0.56~none; doc:c_day01_S03.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop
 28: A32@0.5,0.62:0.58~none; "$260?"@0.2,0.3:110:green~pop; think:"lol no"@0.78,0.2
 29: A17@0.15,0.62:0.58~none; "BUY NOW"@0.55,0.34:130:green~pop; "PAY LATER"@0.55,0.62:130:red~pop+0.9
@@ -47,13 +47,13 @@
 38: doc:c_day01_S05.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A05@0.87,0.62:0.5~none
 39: M14|C14@0.45,0.52:0.56~l; "#1 FARMERS"@0.45,0.12:110:black~pop; A06@0.86,0.62:0.5~none
 40: G16@0.24,0.34:0.3~l; arrow:0.36,0.34>0.56,0.34; M14|C14@0.7,0.52:0.5~none; E33@0.24,0.72:0.28~b; "DEBT"@0.86,0.16:90:red~pop+1.0
-41: + D14@0.24,0.72:0.3~jolt; A11@0.08,0.66:0.36~none
+41: + D14@0.5,0.8:0.26~jolt; A11@0.08,0.66:0.36~none
 42: G13@0.5,0.5:0.52~pop; "1 IN 4"@0.5,0.12:110:red~pop; A08@0.88,0.64:0.5~none
 43: M14|C14@0.35,0.52:0.52~none; B03@0.66,0.6:0.3~pop; bubble:"roaring? me??"@0.7,0.2:l
 44: "#2"@0.32,0.2:110:black~pop; A39@0.5,0.62:0.58~none; E16@0.78,0.5:0.34~r
-45: M11|E13@0.24,0.48:0.36~none; M10|D22@0.52,0.5:0.36~none; xmark+0.5
+45: M11|E17@0.24,0.48:0.36~none; M10|D22@0.52,0.5:0.36~none; xmark+0.5
 46: doc:c_day01_S06.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A36@0.87,0.62:0.5~none
-47: M07|C21@0.44,0.52:0.56~l; G11@0.8,0.44:0.36~pop+0.4; A01@0.12,0.66:0.4~none
+47: doc:p_new_york_stock_exchange.jpg@0.43,0.5 w=0.62 h=0.68 ~l src="Photo: Wikimedia Commons – New York Stock Exchange"; M07|C21@0.86,0.56:0.44~r+0.6
 48: doc:c_day01_S07.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A34@0.87,0.62:0.5~none
 49: C09@0.16,0.52:0.44~l; C11@0.38,0.52:0.44~l; C13@0.6,0.52:0.44~l; M28|C27@0.84,0.52:0.44~r; label:"your barber!"@0.84,0.12>0.84,0.26+0.6
 50: A37@0.16,0.62:0.58~none; H22@0.56,0.5:0.44~pop; "maybe true, maybe not"@0.56,0.14:64:grey~pop+0.4
@@ -76,13 +76,13 @@
 65: + "> ALL CASH IN AMERICA"@0.56,0.88:72:red~pop
 66: doc:p_wall_street.jpg@0.42,0.5 w=0.56 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; A05@0.86,0.62:0.5~none; label:"tricks"@0.86,0.14>0.66,0.26+0.6
 67: group:C21*4@0.2,0.3,0.7,0.8:0.36; "POOLS"@0.45,0.12:120:black~pop; A05@0.88,0.62:0.5~none
-68: + G11@0.82,0.3:0.26~r
+68: + G11@0.8,0.2:0.22~r
 69: C21@0.2,0.5:0.4~l; arrow:0.3,0.4>0.46,0.4; C02@0.5,0.5:0.4~pop; E09@0.72,0.36:0.3~t+0.6; C28@0.84,0.7:0.3~r+1.2; E03@0.3,0.82:0.2~b+1.8
 70: E55@0.42,0.5:0.44~pop; "ILLEGAL TODAY"@0.42,0.14:100:red~pop; A12@0.86,0.62:0.5~none
 71: + bubble:"1929: lol"@0.72,0.84:l
-72: D13@0.4,0.6:0.36~b; A02@0.85,0.62:0.5~none
-73: + D13@0.62,0.4:0.36~b
-74: D13@0.4,0.52:0.56~b; "DOW JONES"@0.4,0.12:96:black~pop; "6X"@0.78,0.42:220:green~pop+0.8; A34@0.9,0.8:0.3~none
+72: doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+73: doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; arrow:0.3,0.8>0.62,0.3+0.2
+74: doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "6X"@0.74,0.5:200:green~pop+0.6
 75: doc:c_day01_S10.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A04@0.87,0.62:0.5~none
 76: group:A38*3@0.2,0.4,0.8,0.86:0.4; "EXPERTS AGREE"@0.5,0.14:100:black~pop
 77: doc:p_irving_fisher.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Irving Fisher"; bubble:"a permanently high plateau"@0.7,0.3:l; D13@0.74,0.72:0.3~pop+0.8
@@ -96,12 +96,12 @@
 85: A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop
 86: + H15@0.82,0.5:0.32~swing; label:"on paper"@0.82,0.84>0.82,0.68
 87: doc:c_day01_S11.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
-88: E25@0.36,0.48:0.46~pop; "OCT 24, 1929"@0.7,0.3:96:red~pop; "BLACK THURSDAY"@0.7,0.6:80:black~pop+0.6; A35@0.9,0.84:0.3~none
-89: G12@0.4,0.44:0.4~swing; group:D14*3@0.6,0.3,0.92,0.7:0.24; A09@0.13,0.66:0.46~none
+88: doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none; "OCT 24, 1929"@0.43,0.08:90:red~pop
+89: doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none; group:D14*3@0.82,0.3,0.98,0.7:0.18
 90: + xmark
-91: M08|E13@0.42,0.5:0.5~jolt; "1 HOUR LATE"@0.42,0.12:100:red~pop+0.6; A08@0.86,0.62:0.5~none
+91: M08|D14@0.42,0.5:0.5~jolt; "1 HOUR LATE"@0.42,0.12:100:red~pop+0.6; A08@0.86,0.62:0.5~none
 92: A07@0.84,0.62:0.56~none; G11@0.4,0.5:0.44~none; E48@0.4,0.16:0.24~pop; think:"price??"@0.66,0.2
-93: doc:p_new_york_stock_exchange.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – New York Stock Exchange"; C28@0.86,0.72:0.36~r
+93: doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none
 94: doc:p_wall_street.jpg@0.42,0.5 w=0.6 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; E55@0.86,0.36:0.24~drop; C28@0.86,0.72:0.36~none
 95: group:C01*4@0.2,0.3,0.75,0.82:0.4; "SECRET MEETING"@0.48,0.12:96:black~pop; A37@0.88,0.64:0.5~none
 
@@ -116,21 +116,21 @@
 103: E09@0.42,0.5:0.44~pop; A29@0.86,0.62:0.5~none; bubble:"phew"@0.7,0.2:l
 104: board:"Crisis over!"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none
 105: + "(for 3 days)"@0.56,0.88:80:red~pop
-106: D14@0.4,0.5:0.5~jolt; "-13%"@0.76,0.36:170:red~pop; A08@0.88,0.8:0.3~none; label:"Monday"@0.4,0.12>0.4,0.25
-107: + "-12%"@0.76,0.68:170:red~pop; label:"Tuesday"@0.2,0.86>0.36,0.74
-108: M08|E13@0.36,0.5:0.5~jolt; "16 MILLION"@0.74,0.36:110:red~pop; "shares"@0.74,0.56:70:black~pop+0.4
+106: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-13%"@0.62,0.9:80:red~pop+0.4
+107: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-12% MORE"@0.62,0.9:80:red~pop+0.4
+108: M08|D14@0.36,0.5:0.5~jolt; "16 MILLION"@0.74,0.36:110:red~pop; "shares"@0.74,0.56:70:black~pop+0.4
 109: A41@0.5,0.66:0.5~none; E48@0.2,0.36:0.26~pop; think:"hello??"@0.76,0.24
 110: board:"Remember margin?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
 111: + E18@0.88,0.24:0.24~jolt
 112: M04|C02@0.32,0.54:0.52~l; E08@0.56,0.4:0.24~pop; bubble:"pay up. NOW."@0.72,0.2:l; A35@0.88,0.66:0.44~none
 113: G11@0.2,0.46:0.3~pop; arrow:0.3,0.46>0.46,0.46; D14@0.56,0.46:0.3~pop+0.5; arrow:0.66,0.46>0.8,0.46+0.8; E08@0.88,0.46:0.24~pop+1.0; arrow:0.86,0.64>0.24,0.64+1.6
-114: "-40%"@0.42,0.42:240:red~pop; "in weeks"@0.42,0.72:80:black~pop+0.4; A11@0.86,0.66:0.48~none
+114: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-40% IN WEEKS"@0.56,0.9:80:red~pop+0.4
 115: D03@0.42,0.5:0.5~pop; E24@0.74,0.3:0.26~r; label:"before lunch"@0.74,0.62>0.74,0.42; A42@0.86,0.86:0.26~none
 116: A05@0.16,0.62:0.58~none; E48@0.56,0.5:0.44~pop
-117: D13@0.42,0.5:0.48~b; "SPRING 1930"@0.42,0.12:96:green~pop; A02@0.86,0.62:0.5~none
+117: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.3,0.3,0.62,0.62+0.6
 118: doc:c_day01_S13.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A29@0.87,0.62:0.5~none
 119: + xmark
-120: A09@0.84,0.62:0.56~none; M15|G24@0.4,0.4:0.48~t; "THE WORST..."@0.4,0.82:90:red~pop+0.6
+120: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "THE WORST..."@0.62,0.9:80:red~pop+0.4
 121: doc:c_day01_S14.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; H27@0.86,0.3:0.22~pop+0.6; A23@0.86,0.7:0.4~none
 122: A24@0.42,0.6:0.6~pop; H28@0.78,0.5:0.36~drop; bubble:"also the editor stayed up til 3am"@0.72,0.16:l
 123: A01@0.5,0.62:0.6~none; "OKAY."@0.5,0.14:110:black~pop
@@ -138,7 +138,7 @@
 125: G11@0.4,0.5:0.44~none; C02@0.72,0.56:0.44~r; A11@0.12,0.66:0.4~none; label:"investors"@0.72,0.14>0.72,0.3
 126: group:C28*3@0.2,0.3,0.8,0.8:0.4; "EVERYONE"@0.5,0.12:120:red~pop
 127: M02|D16@0.42,0.52:0.56~pop; A15@0.86,0.62:0.5~none; label:"the banks"@0.74,0.14>0.52,0.24
-128: E21@0.42,0.52:0.5~pop; "NO INSURANCE"@0.42,0.12:100:red~pop; A14@0.86,0.62:0.5~none
+128: doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "NO INSURANCE"@0.43,0.92:80:red~pop+0.6
 129: M18|B03@0.42,0.52:0.5~pop; "GONE."@0.78,0.42:130:red~pop+0.6
 130: E09@0.4,0.5:0.4~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 131: E08@0.4,0.5:0.4~pop; xmark+0.5; A28@0.86,0.62:0.5~none
@@ -154,18 +154,18 @@
 139: doc:c_day01_S16.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "RIGHT NOW!"@0.82,0.2:80:red~pop+0.4
 140: M16|C28@0.42,0.56:0.5~r; M02|D16@0.82,0.5:0.4~jolt; A35@0.1,0.66:0.36~none
 141: + label:"lent out"@0.82,0.14>0.82,0.3; E03@0.66,0.2:0.2~drop
-142: E09@0.4,0.5:0.48~pop; "BANK OF UNITED STATES"@0.5,0.12:84:black~pop; A05@0.86,0.62:0.5~none
-143: M16|C28@0.44,0.56:0.56~r; A09@0.88,0.62:0.5~none
+142: doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – a bank run in New York"; H04@0.9,1.0:0.3:bottom~none; label:"Bank of United States"@0.43,0.08>0.43,0.2
+143: doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – a bank run in New York"; H04@0.9,1.0:0.3:bottom~none; "THOUSANDS IN LINE"@0.43,0.08:72:red~pop+0.5
 144: D16@0.44,0.52:0.5~jolt; H18@0.8,0.3:0.3:"CLOSED"~drop
 145: "400,000"@0.46,0.3:170:red~pop; "people locked out"@0.46,0.56:72:black~pop+0.4; E21@0.46,0.8:0.24~b; A11@0.88,0.66:0.44~none
 146: G10@0.4,0.5:0.48~pop; xmark+0.5; A16@0.86,0.62:0.5~none
 147: + bubble:"just the name lol"@0.72,0.2:l
 148: group:D16*3@0.2,0.3,0.8,0.7:0.3; A09@0.92,0.8:0.3~none
-149: M26|D16@0.48,0.5:0.56~pop; label:"city after city"@0.48,0.12>0.48,0.24
-150: "9,000"@0.48,0.4:240:red~pop; "banks failed"@0.48,0.72:80:black~pop+0.4; A42@0.88,0.82:0.3~none
+149: doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+150: doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "ABOUT 9,000"@0.6,0.92:80:red~pop+0.4
 151: doc:c_day01_S17.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A08@0.87,0.62:0.5~none
 152: M22|E04@0.36,0.56:0.5~pop; E01@0.74,0.5:0.3~pop; arrow:0.74,0.3>0.74,0.7+0.8
-153: AUTODOC
+153: doc:ch_money.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-30%"@0.66,0.9:90:red~pop+0.6
 154: "PRICES DOWN"@0.42,0.4:150:red~pop; E39@0.42,0.72:0.28~b; A06@0.86,0.62:0.5~none
 155: A02@0.16,0.62:0.58~none; E36@0.52,0.5:0.44~pop; bubble:"cheap groceries!"@0.76,0.2:l
 156: doc:c_day01_S18.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
@@ -181,35 +181,35 @@
 164: G09@0.42,0.5:0.48~pop; A13@0.86,0.62:0.5~none; "unfortunately."@0.42,0.12:80:red~pop
 165: M17|G19@0.42,0.5:0.5~drop; "SMOOT-HAWLEY TARIFF"@0.42,0.1:84:black~pop; E31@0.84,0.62:0.3~r
 166: AUTODOC
-167: doc:p_herbert_hoover.jpg@0.36,0.5 w=0.42 h=0.62 src="Photo: Wikimedia Commons – Herbert Hoover"; D24@0.76,0.5:0.36~pop; label:"signed anyway"@0.76,0.14>0.76,0.3
+167: doc:h_hoover.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Herbert Hoover"; H04@0.9,1.0:0.3:bottom~none; D24@0.86,0.36:0.3~r+0.4; label:"signed it anyway"@0.62,0.92>0.8,0.5+0.8
 168: G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none
-169: + G19@0.5,0.75:0.3~drop; bubble:"fine, us too"@0.82,0.12:l
-170: E43@0.42,0.5:0.5~pop; "-2/3"@0.78,0.42:170:red~pop+0.5; E31@0.42,0.84:0.2~jolt
+169: + G19@0.84,0.74:0.28~drop; bubble:"fine, us too"@0.82,0.12:l
+170: doc:ch_trade.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-2/3"@0.66,0.9:90:red~pop+0.6
 171: M14|C14@0.36,0.54:0.52~l; xmark+0.8; A13@0.86,0.62:0.5~none
 172: G09@0.36,0.5:0.44~pop; D26@0.72,0.52:0.4~r; "TAXES UP"@0.72,0.12:100:red~pop
 173: D21@0.42,0.52:0.5~jolt; E50@0.62,0.28:0.2~pop; A35@0.86,0.62:0.5~none
-174: "-89%"@0.46,0.42:260:red~pop; D14@0.46,0.8:0.24~b; A42@0.88,0.84:0.28~none
-175: "$100"@0.26,0.42:150:green~pop; arrow:0.4,0.42>0.6,0.42+0.6; "$11"@0.76,0.42:150:red~pop+0.8; A08@0.5,0.82:0.3~none
-176: group:C28*4@0.24,0.3,0.76,0.78:0.4; "1 IN 4"@0.5,0.12:110:red~pop; A41@0.9,0.7:0.36~none
+174: doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-89%"@0.7,0.9:90:red~pop+0.4
+175: doc:ch_share.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+176: doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"1 in 4"@0.66,0.16>0.4,0.3+0.4
 177: H15@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 178: E39@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
-179: M19|C28@0.5,0.54:0.6~pop; A41@0.88,0.72:0.34~none
-180: + "BREADLINES"@0.5,0.12:110:black~pop
-181: M21|C01@0.4,0.54:0.56~l; E40@0.7,0.6:0.26~pop; label:"used to be a banker"@0.74,0.14>0.5,0.26
-182: M20|E35@0.44,0.54:0.56~pop; H24@0.82,0.7:0.24~drop; A11@0.12,0.66:0.4~none
-183: + "HOOVERVILLES"@0.44,0.12:110:red~pop
+179: doc:h_breadline.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – breadline, 1930s"; A41@0.9,0.74:0.32~none
+180: + "BREADLINES"@0.43,0.08:110:black~pop
+181: doc:h_soup.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – soup kitchen line, 1931"; H04@0.9,1.0:0.3:bottom~none; label:"men in suits"@0.43,0.07>0.43,0.2
+182: doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none
+183: doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none; "HOOVERVILLES"@0.43,0.08:96:red~pop
 184: AUTODOC
-185: doc:p_the_great_plains.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – Great Plains"; A08@0.88,0.66:0.44~none
-186: M15|G24@0.44,0.44:0.56~t; "OKLAHOMA  KANSAS  TEXAS"@0.44,0.86:64:black~pop+0.6; A09@0.88,0.66:0.44~none
-187: doc:c_day01_S19.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~r; label:"to California"@0.84,0.2>0.7,0.36
-188: "20,000"@0.4,0.24:150:black~pop; "veterans"@0.4,0.46:80:black~pop+0.4; G09@0.4,0.74:0.3~b; A01@0.86,0.62:0.5~none
+185: doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none
+186: doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none; "OKLAHOMA  KANSAS  TEXAS"@0.43,0.08:64:red~pop+0.5
+187: doc:h_migrant.jpg@0.4,0.5 w=0.5 h=0.7 ~l src="Photo: Dorothea Lange, Migrant Mother, California 1936 (Wikimedia Commons)"; doc:c_day01_S19.png@0.82,0.5 w=0.34 h=0.62 frame=0 ~r+0.8
+188: doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; "20,000 VETERANS"@0.43,0.08:84:black~pop+0.4
 189: doc:c_day01_S20.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "1945"@0.84,0.3:110:red~pop+0.6; bubble:"we need it now"@0.84,0.7:l
 
 # ---------- THE WAY BACK ----------
 190: board:"The way back"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; E17@0.88,0.22:0.22~pop+0.6
-191: E23@0.42,0.5:0.48~pop; "NOW."@0.78,0.42:150:red~pop+0.4
+191: doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; bubble:"we need it NOW"@0.78,0.16:l
 192: doc:c_day01_S21.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
-193: G18@0.42,0.54:0.5~l; A09@0.86,0.62:0.5~none
+193: doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; G18@0.86,0.36:0.3~r+0.4
 194: + E47@0.62,0.3:0.26~pop; label:"vs their own vets"@0.42,0.12>0.42,0.28
 195: doc:c_day01_S22.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A11@0.87,0.64:0.48~none
 196: E25@0.42,0.5:0.46~pop; "MARCH 1933"@0.42,0.12:100:black~pop; A01@0.86,0.62:0.5~none
@@ -217,8 +217,8 @@
 198: D15@0.42,0.52:0.5~pop; H18@0.8,0.3:0.3:"CLOSED"~drop; A08@0.88,0.8:0.3~none
 199: + bubble:"bank holiday!"@0.24,0.16:r
 200: E16@0.36,0.5:0.4~pop; H28@0.6,0.56:0.3~pop; E21@0.82,0.5:0.3~r+0.8; A39@0.12,0.66:0.4~none
-201: M11|E13@0.42,0.5:0.5~pop; bubble:"bank > mattress"@0.76,0.2:l; A29@0.86,0.7:0.36~none
-202: + A02@0.86,0.7:0.36~none; label:"what a voice"@0.24,0.84>0.36,0.7
+201: doc:h_fireside.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Roosevelt, fireside chat"; H04@0.9,1.0:0.3:bottom~none; bubble:"bank > mattress"@0.8,0.16:l
+202: doc:h_fireside.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Roosevelt, fireside chat"; H04@0.9,1.0:0.3:bottom~none; label:"what a voice"@0.43,0.07>0.43,0.2
 203: D15@0.42,0.52:0.46~pop; E01@0.2,0.5:0.24~r+0.4; arrow:0.26,0.5>0.32,0.5+0.6; A21@0.86,0.62:0.5~none
 204: + "RUNS STOPPED"@0.42,0.12:100:green~pop
 205: AUTODOC
@@ -227,9 +227,9 @@
 208: "SEC"@0.28,0.2:120:black~pop; D24@0.28,0.56:0.4~pop; group:C21*3@0.6,0.36,0.92,0.76:0.3; xmark+1.2
 209: C13@0.42,0.54:0.5~pop; "SOCIAL SECURITY"@0.42,0.12:96:black~pop; A21@0.86,0.62:0.5~none
 210: E54@0.42,0.56:0.44~l; D13@0.72,0.36:0.3~pop+0.6; A29@0.12,0.66:0.4~none
-211: G18@0.36,0.54:0.44~l; "JOBS UP"@0.74,0.4:120:green~pop+0.6
+211: doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.72,0.56,0.95,0.86+0.4
 212: board:"And the stock market?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
-213: doc:c_day01_S23.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "25 YEARS"@0.84,0.3:90:red~pop+0.6; A41@0.87,0.72:0.36~none
+213: doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "25 YEARS"@0.6,0.92:80:red~pop+0.4
 214: doc:c_day01_S24.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A21@0.87,0.62:0.5~none
 215: M23|E21@0.3,0.5:0.4~pop; A21@0.86,0.62:0.5~none; "FIXED"@0.6,0.3:130:green~pop
 216: G10@0.3,0.5:0.4~pop; "FIXED"@0.6,0.3:130:green~pop; A50@0.86,0.62:0.5~none

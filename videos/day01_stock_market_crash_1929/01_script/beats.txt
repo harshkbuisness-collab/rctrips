@@ -3,30 +3,30 @@
 # ---------- CHAPTER 1: The party: 1920s boom, radio, Model T, buy-now-pay-later ----------
 || board:"1929"@0.55,0.48:0.5; A38@0.16,0.62:0.58~none; sting; hold:1.2
 If you put one thousand dollars into the stock market in September nineteen twenty-nine, you would wait about twenty-five years just to get it back. || doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Stock Market Crash of 1929" hl=0.5,0.401,0.72,0.496+0.8; H04@0.12,1.0:0.34:bottom
-Twenty-five years. || "25"@0.5,0.42:260:red~pop; "YEARS"@0.5,0.72:110:black~pop+0.3; A35@0.86,0.64:0.5~none
+Twenty-five years. || doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.24,0.12,0.9,0.42+0.6; "25 YEARS"@0.56,0.92:80:red~pop+0.4
 And that's not because you picked a bad stock. || A14@0.16,0.62:0.56~none; G11@0.55,0.5:0.5~pop; xmark+0.6
 You bought the whole market. || A20@0.5,0.68:0.5~none; G11@0.2,0.36:0.3~l; D15@0.5,0.24:0.26~t; E33@0.8,0.36:0.3~r; D22@0.2,0.74:0.26~l; E34@0.8,0.74:0.3~r
 The safest bet in America. || A20@0.5,0.68:0.5~none; G11@0.2,0.36:0.3~l; D15@0.5,0.24:0.26~t; E33@0.8,0.36:0.3~r; D22@0.2,0.74:0.26~l; E34@0.8,0.74:0.3~r; label:"the safest bet"@0.5,0.1>0.5,0.2
-In the space of three years, the market lost almost ninety percent of its value. || A08@0.14,0.64:0.52~none; D14@0.5,0.5:0.5~pop; "-90%"@0.8,0.42:180:red~pop+0.6
-One in four workers lost their job. || group:C28*4@0.3,0.25,0.7,0.75:0.42; A09@0.88,0.64:0.5~none; "1 IN 4"@0.5,0.12:120:red~pop; xmark+0.9
-Nine thousand banks shut their doors, and the people's savings went with them. || D16@0.5,0.48:0.5~pop; "9,000 BANKS"@0.5,0.12:120:red~drop; B03@0.86,0.74:0.3~r; A11@0.13,0.66:0.5~none
-But here's the part they skip in school. || A37@0.16,0.62:0.58~none; E10@0.58,0.5:0.6~pop; think:"wait, what?"@0.62,0.18
+In the space of three years, the market lost almost ninety percent of its value. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-89%"@0.7,0.9:90:red~pop+0.6
+One in four workers lost their job. || doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"1 in 4"@0.66,0.16>0.4,0.3+0.6
+Nine thousand banks shut their doors, and the people's savings went with them. || doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – bank run, 1931"; H04@0.9,1.0:0.3:bottom~none; "9,000 BANKS"@0.43,0.08:90:red~drop+0.6
+But here's the part they skip in school. || board:"The part they skip in school"@0.56,0.46:0.56; A37@0.14,0.62:0.56~none
 The crash didn't cause the Great Depression on its own. || doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Great Depression" hl=0.245,0.401,0.424,0.496+0.8; H04@0.12,1.0:0.34:bottom
 It was the spark. || A16@0.84,0.62:0.56~none; E19@0.4,0.5:0.5~pop; "THE SPARK"@0.4,0.14:120:red~pop+0.4
-What turned a bad week on Wall Street into the worst ten years in American history was a chain of very human decisions. || doc:p_wall_street.jpg@0.44,0.5 w=0.62 h=0.66 ~l src="Photo: Wikimedia Commons – Wall Street"; A15@0.86,0.62:0.5~none
+What turned a bad week on Wall Street into the worst ten years in American history was a chain of very human decisions. || doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none
 And a few of those decisions sound… uncomfortably familiar. || A05@0.86,0.62:0.56~none; doc:c_day01_S01.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop; bubble:"uh oh"@0.72,0.2:l
 So let's go back to the party, before anyone knew it was ending. || board:"The party"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; E47@0.88,0.24:0.24~swing+0.6
 It's nineteen twenty-two. || "1922"@0.5,0.45:240:black~pop; A23@0.15,0.62:0.56~none
 The war is over, America won, and everyone has decided that the future is going to be amazing. || G01@0.52,0.52:0.56~pop; A34@0.15,0.64:0.56~none; bubble:"WE WON!"@0.82,0.2:l
 And honestly, it was. || A04@0.84,0.62:0.56~none; G01@0.45,0.52:0.56~none; label:"it really was"@0.45,0.12>0.45,0.25
 For the first time, ordinary families could buy things that felt like science fiction. || A36@0.84,0.62:0.56~none; E26@0.42,0.5:0.5~pop; "SCIENCE FICTION"@0.42,0.12:96:black~pop+0.4
-Electric refrigerators. || E33@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none
-Vacuum cleaners. || E33@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none; E36@0.55,0.48:0.34~pop
-And the radio, which was basically the iPhone of the 1920s. || E13@0.24,0.48:0.4~l; "= iPHONE"@0.56,0.48:120:red~pop+0.5; E08@0.56,0.76:0.26~b+0.8; A03@0.86,0.62:0.56~none
+Electric refrigerators. || E17@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none
+Vacuum cleaners. || E17@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none; E36@0.55,0.48:0.34~pop
+And the radio, which was basically the iPhone of the 1920s. || doc:h_radio.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – 1920s radio"; H04@0.9,1.0:0.3:bottom~none; bubble:"the iPhone of the 1920s"@0.78,0.16:l
 Everybody had to have one, and nobody fully understood how it worked. || doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.058,0.181,0.404,0.294+0.8; H04@0.12,1.0:0.34:bottom
 Then there was Henry Ford. || doc:p_henry_ford.png@0.38,0.5 w=0.5 h=0.7 ~l src="Photo: Wikimedia Commons – Henry Ford"; A15@0.86,0.62:0.5~none
-His moving assembly line took the price of a Model T from about eight hundred and fifty dollars down to two hundred and sixty. || D22@0.5,0.56:0.46~r; "$850"@0.26,0.2:120:red~pop; arrow:0.36,0.2>0.6,0.2+0.8; "$260"@0.74,0.2:120:green~pop+1.0; A21@0.13,0.64:0.5~none
-A car went from a rich man's toy to something a factory worker could actually own. || C21@0.2,0.56:0.5~l; D22@0.5,0.62:0.36~none; C09@0.8,0.56:0.5~r; arrow:0.32,0.4>0.68,0.4+0.6
+His moving assembly line took the price of a Model T from about eight hundred and fifty dollars down to two hundred and sixty. || doc:ch_modelt.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+A car went from a rich man's toy to something a factory worker could actually own. || doc:h_modelt.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Ford Model T"; H04@0.9,1.0:0.3:bottom~none; label:"a factory worker could own one"@0.6,0.92>0.5,0.8
 But there was a small problem. || A06@0.84,0.62:0.56~none; doc:c_day01_S03.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop
 Most families still didn't have two hundred and sixty dollars lying around. || A32@0.5,0.62:0.58~none; "$260?"@0.2,0.3:110:green~pop; think:"lol no"@0.78,0.2
 So America invented a brand new idea… buy now, pay later. || A17@0.15,0.62:0.58~none; "BUY NOW"@0.55,0.34:130:green~pop; "PAY LATER"@0.55,0.62:130:red~pop+0.9
@@ -43,13 +43,13 @@ Prices were stable, wages were going up, and the economy felt like a machine tha
 But underneath the party, two groups of people weren't invited. || doc:c_day01_S05.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A05@0.87,0.62:0.5~none
 The first was farmers. || C14@0.45,0.52:0.56~l; "#1 FARMERS"@0.45,0.12:110:black~pop; A06@0.86,0.62:0.5~none
 During the war, Europe needed American food, so farmers borrowed money to buy more land and more tractors. || G16@0.24,0.34:0.3~l; arrow:0.36,0.34>0.56,0.34; C14@0.7,0.52:0.5~none; E33@0.24,0.72:0.28~b; "DEBT"@0.86,0.16:90:red~pop+1.0
-When the war ended, Europe started growing its own food again, prices collapsed, and farmers were stuck with the debt. || G16@0.24,0.34:0.3~l; arrow:0.36,0.34>0.56,0.34; C14@0.7,0.52:0.5~none; E33@0.24,0.72:0.28~b; "DEBT"@0.86,0.16:90:red~pop+1.0; D14@0.24,0.72:0.3~jolt; A11@0.08,0.66:0.36~none
+When the war ended, Europe started growing its own food again, prices collapsed, and farmers were stuck with the debt. || G16@0.24,0.34:0.3~l; arrow:0.36,0.34>0.56,0.34; C14@0.7,0.52:0.5~none; E33@0.24,0.72:0.28~b; "DEBT"@0.86,0.16:90:red~pop+1.0; D14@0.5,0.8:0.26~jolt; A11@0.08,0.66:0.36~none
 A quarter of Americans still lived on farms. || G13@0.5,0.5:0.52~pop; "1 IN 4"@0.5,0.12:110:red~pop; A08@0.88,0.64:0.5~none
 That's a lot of people quietly going broke during the “Roaring“ Twenties. || C14@0.35,0.52:0.52~none; B03@0.66,0.6:0.3~pop; bubble:"roaring? me??"@0.7,0.2:l
 The second group was everyone who looked closely at the numbers. || "#2"@0.32,0.2:110:black~pop; A39@0.5,0.62:0.58~none; E16@0.78,0.5:0.34~r
-Because the money wasn't just going into radios and Fords anymore. || E13@0.24,0.48:0.36~none; D22@0.52,0.5:0.36~none; xmark+0.5
+Because the money wasn't just going into radios and Fords anymore. || E17@0.24,0.48:0.36~none; D22@0.52,0.5:0.36~none; xmark+0.5
 It was going somewhere much more exciting. || doc:c_day01_S06.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A36@0.87,0.62:0.5~none
-Before the 1920s, the stock market was mostly for rich people in top hats. || C21@0.44,0.52:0.56~l; G11@0.8,0.44:0.36~pop+0.4; A01@0.12,0.66:0.4~none
+Before the 1920s, the stock market was mostly for rich people in top hats. || doc:p_new_york_stock_exchange.jpg@0.43,0.5 w=0.62 h=0.68 ~l src="Photo: Wikimedia Commons – New York Stock Exchange"; C21@0.86,0.56:0.44~r+0.6
 By nineteen twenty-nine, it was for everyone. || doc:c_day01_S07.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A34@0.87,0.62:0.5~none
 Teachers, nurses, factory workers, your barber. || C09@0.16,0.52:0.44~l; C11@0.38,0.52:0.44~l; C13@0.6,0.52:0.44~l; C27@0.84,0.52:0.44~r; label:"your barber!"@0.84,0.12>0.84,0.26+0.6
 There's a famous story, || A37@0.16,0.62:0.58~none; H22@0.56,0.5:0.44~pop; "maybe true, maybe not"@0.56,0.14:64:grey~pop+0.4
@@ -72,13 +72,13 @@ By nineteen twenty-nine, Americans had borrowed around eight and a half billion 
 For context, that was more than all the cash circulating in the entire country at the time. || board:"The crash"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D14@0.88,0.24:0.22~jolt+0.6; "> ALL CASH IN AMERICA"@0.56,0.88:72:red~pop
 Wall Street had its own tricks too. || doc:p_wall_street.jpg@0.42,0.5 w=0.56 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; A05@0.86,0.62:0.5~none; label:"tricks"@0.86,0.14>0.66,0.26+0.6
 Groups of wealthy traders formed “pools“. || group:C21*4@0.2,0.3,0.7,0.8:0.36; "POOLS"@0.45,0.12:120:black~pop; A05@0.88,0.62:0.5~none
-They'd quietly buy a stock, || group:C21*4@0.2,0.3,0.7,0.8:0.36; "POOLS"@0.45,0.12:120:black~pop; A05@0.88,0.62:0.5~none; G11@0.82,0.3:0.26~r
+They'd quietly buy a stock, || group:C21*4@0.2,0.3,0.7,0.8:0.36; "POOLS"@0.45,0.12:120:black~pop; A05@0.88,0.62:0.5~none; G11@0.8,0.2:0.22~r
 trade it back and forth among themselves to make it look popular, let the newspapers hype it up… then sell to everyone who came running. || C21@0.2,0.5:0.4~l; arrow:0.3,0.4>0.46,0.4; C02@0.5,0.5:0.4~pop; E09@0.72,0.36:0.3~t+0.6; C28@0.84,0.7:0.3~r+1.2; E03@0.3,0.82:0.2~b+1.8
 Totally illegal today. || E55@0.42,0.5:0.44~pop; "ILLEGAL TODAY"@0.42,0.14:100:red~pop; A12@0.86,0.62:0.5~none
 Totally normal back then. || E55@0.42,0.5:0.44~pop; "ILLEGAL TODAY"@0.42,0.14:100:red~pop; A12@0.86,0.62:0.5~none; bubble:"1929: lol"@0.72,0.84:l
-And the market went up. || D13@0.4,0.6:0.36~b; A02@0.85,0.62:0.5~none
-Then up again. || D13@0.4,0.6:0.36~b; A02@0.85,0.62:0.5~none; D13@0.62,0.4:0.36~b
-From nineteen twenty-one to its peak in September nineteen twenty-nine, the Dow Jones went up about six times. || D13@0.4,0.52:0.56~b; "DOW JONES"@0.4,0.12:96:black~pop; "6X"@0.78,0.42:220:green~pop+0.8; A34@0.9,0.8:0.3~none
+And the market went up. || doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+Then up again. || doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; arrow:0.3,0.8>0.62,0.3+0.2
+From nineteen twenty-one to its peak in September nineteen twenty-nine, the Dow Jones went up about six times. || doc:ch_dowup.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "6X"@0.74,0.5:200:green~pop+0.6
 People started believing the line could only go one way. || doc:c_day01_S10.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A04@0.87,0.62:0.5~none
 Even the experts agreed. || group:A38*3@0.2,0.4,0.8,0.86:0.4; "EXPERTS AGREE"@0.5,0.14:100:black~pop
 One of the most famous economists in America, a Yale professor named Irving Fisher, said stock prices had reached… quote… “a permanently high plateau.“ || doc:p_irving_fisher.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Irving Fisher"; bubble:"a permanently high plateau"@0.7,0.3:l; D13@0.74,0.72:0.3~pop+0.8
@@ -92,12 +92,12 @@ Even the new president, Herbert Hoover, had promised America was “nearer to th
 Everyone was a genius. || A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop
 Everyone was rich, on paper. || A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop; H15@0.82,0.5:0.32~swing; label:"on paper"@0.82,0.84>0.82,0.68
 And almost nobody asked what would happen if the line went down. || doc:c_day01_S11.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
-Thursday, October 24th, nineteen twenty-nine. || E25@0.36,0.48:0.46~pop; "OCT 24, 1929"@0.7,0.3:96:red~pop; "BLACK THURSDAY"@0.7,0.6:80:black~pop+0.6; A35@0.9,0.84:0.3~none
-The market opened, and the selling started. || G12@0.4,0.44:0.4~swing; group:D14*3@0.6,0.3,0.92,0.7:0.24; A09@0.13,0.66:0.46~none
-And then it didn't stop. || G12@0.4,0.44:0.4~swing; group:D14*3@0.6,0.3,0.92,0.7:0.24; A09@0.13,0.66:0.46~none; xmark
-Prices fell so fast that the ticker tape, the machine that printed stock prices, fell more than an hour behind. || E13@0.42,0.5:0.5~jolt; "1 HOUR LATE"@0.42,0.12:100:red~pop+0.6; A08@0.86,0.62:0.5~none
+Thursday, October 24th, nineteen twenty-nine. || doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none; "OCT 24, 1929"@0.43,0.08:90:red~pop
+The market opened, and the selling started. || doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none; group:D14*3@0.82,0.3,0.98,0.7:0.18
+And then it didn't stop. || doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none; group:D14*3@0.82,0.3,0.98,0.7:0.18; xmark
+Prices fell so fast that the ticker tape, the machine that printed stock prices, fell more than an hour behind. || D14@0.42,0.5:0.5~jolt; "1 HOUR LATE"@0.42,0.12:100:red~pop+0.6; A08@0.86,0.62:0.5~none
 People were selling stocks without knowing what the price even was. || A07@0.84,0.62:0.56~none; G11@0.4,0.5:0.44~none; E48@0.4,0.16:0.24~pop; think:"price??"@0.66,0.2
-Crowds gathered outside the New York Stock Exchange. || doc:p_new_york_stock_exchange.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – New York Stock Exchange"; C28@0.86,0.72:0.36~r
+Crowds gathered outside the New York Stock Exchange. || doc:h_crowd.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – crowd on Wall Street, 1929"; H04@0.9,1.0:0.3:bottom~none
 Police were sent to Wall Street. || doc:p_wall_street.jpg@0.42,0.5 w=0.6 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; E55@0.86,0.36:0.24~drop; C28@0.86,0.72:0.36~none
 Around noon, the biggest bankers in New York met in secret and decided to rescue the market. || group:C01*4@0.2,0.3,0.75,0.82:0.4; "SECRET MEETING"@0.48,0.12:96:black~pop; A37@0.88,0.64:0.5~none
 
@@ -112,21 +112,21 @@ Prices bounced. || D13@0.42,0.5:0.5~b; A21@0.86,0.62:0.5~none
 The newspapers relaxed. || E09@0.42,0.5:0.44~pop; A29@0.86,0.62:0.5~none; bubble:"phew"@0.7,0.2:l
 Crisis over. || board:"Crisis over!"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none
 For about three days. || board:"Crisis over!"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; "(for 3 days)"@0.56,0.88:80:red~pop
-On Monday, the Dow fell almost thirteen percent. || D14@0.4,0.5:0.5~jolt; "-13%"@0.76,0.36:170:red~pop; A08@0.88,0.8:0.3~none; label:"Monday"@0.4,0.12>0.4,0.25
-On Tuesday, October 29th, it fell almost twelve percent more. || D14@0.4,0.5:0.5~jolt; "-13%"@0.76,0.36:170:red~pop; A08@0.88,0.8:0.3~none; label:"Monday"@0.4,0.12>0.4,0.25; "-12%"@0.76,0.68:170:red~pop; label:"Tuesday"@0.2,0.86>0.36,0.74
-Sixteen million shares changed hands, a record that stood for decades. || E13@0.36,0.5:0.5~jolt; "16 MILLION"@0.74,0.36:110:red~pop; "shares"@0.74,0.56:70:black~pop+0.4
+On Monday, the Dow fell almost thirteen percent. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-13%"@0.62,0.9:80:red~pop+0.4
+On Tuesday, October 29th, it fell almost twelve percent more. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-12% MORE"@0.62,0.9:80:red~pop+0.4
+Sixteen million shares changed hands, a record that stood for decades. || D14@0.36,0.5:0.5~jolt; "16 MILLION"@0.74,0.36:110:red~pop; "shares"@0.74,0.56:70:black~pop+0.4
 And this time, nobody came to the rescue. || A41@0.5,0.66:0.5~none; E48@0.2,0.36:0.26~pop; think:"hello??"@0.76,0.24
 Remember margin? || board:"Remember margin?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
 This is where it turned deadly. || board:"Remember margin?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; E18@0.88,0.24:0.24~jolt
 As prices dropped, brokers called their customers and demanded more money: “margin calls“. || C02@0.32,0.54:0.52~l; E08@0.56,0.4:0.24~pop; bubble:"pay up. NOW."@0.72,0.2:l; A35@0.88,0.66:0.44~none
 People who didn't have the money had their stocks sold automatically, which pushed prices down further, which triggered more margin calls. || G11@0.2,0.46:0.3~pop; arrow:0.3,0.46>0.46,0.46; D14@0.56,0.46:0.3~pop+0.5; arrow:0.66,0.46>0.8,0.46+0.8; E08@0.88,0.46:0.24~pop+1.0; arrow:0.86,0.64>0.24,0.64+1.6
-In a few weeks, the market lost about forty percent. || "-40%"@0.42,0.42:240:red~pop; "in weeks"@0.42,0.72:80:black~pop+0.4; A11@0.86,0.66:0.48~none
+In a few weeks, the market lost about forty percent. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-40% IN WEEKS"@0.56,0.9:80:red~pop+0.4
 Paper fortunes that took years to build disappeared before lunch. || D03@0.42,0.5:0.5~pop; E24@0.74,0.3:0.26~r; label:"before lunch"@0.74,0.62>0.74,0.42; A42@0.86,0.86:0.26~none
 But here's the strange part. || A05@0.16,0.62:0.58~none; E48@0.56,0.5:0.44~pop
-By the spring of nineteen thirty, the market had actually recovered some of its losses. || D13@0.42,0.5:0.48~b; "SPRING 1930"@0.42,0.12:96:green~pop; A02@0.86,0.62:0.5~none
+By the spring of nineteen thirty, the market had actually recovered some of its losses. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.3,0.3,0.62,0.62+0.6
 A lot of people thought the worst was over. || doc:c_day01_S13.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A29@0.87,0.62:0.5~none
 It wasn't. || doc:c_day01_S13.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A29@0.87,0.62:0.5~none; xmark
-The worst hadn't even started. || A09@0.84,0.62:0.56~none; G24@0.4,0.4:0.48~t; "THE WORST..."@0.4,0.82:90:red~pop+0.6
+The worst hadn't even started. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "THE WORST..."@0.62,0.9:80:red~pop+0.4
 Quick thing: if you're enjoying this, hit subscribe. || doc:c_day01_S14.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; H27@0.86,0.3:0.22~pop+0.6; A23@0.86,0.7:0.4~none
 These take a ridiculous amount of research, and it genuinely helps. || A24@0.42,0.6:0.6~pop; H28@0.78,0.5:0.36~drop; bubble:"also the editor stayed up til 3am"@0.72,0.16:l
 Okay. || A01@0.5,0.62:0.6~none; "OKAY."@0.5,0.14:110:black~pop
@@ -134,7 +134,7 @@ Back to nineteen thirty. || "1930"@0.5,0.45:240:black~pop; A33@0.15,0.62:0.56~wa
 The crash hurt investors. || G11@0.4,0.5:0.44~none; C02@0.72,0.56:0.44~r; A11@0.12,0.66:0.4~none; label:"investors"@0.72,0.14>0.72,0.3
 What happened next hurt everyone. || group:C28*3@0.2,0.3,0.8,0.8:0.4; "EVERYONE"@0.5,0.12:120:red~pop
 And it started with the banks. || D16@0.42,0.52:0.56~pop; A15@0.86,0.62:0.5~none; label:"the banks"@0.74,0.14>0.52,0.24
-In nineteen thirty, there was no such thing as deposit insurance. || E21@0.42,0.52:0.5~pop; "NO INSURANCE"@0.42,0.12:100:red~pop; A14@0.86,0.62:0.5~none
+In nineteen thirty, there was no such thing as deposit insurance. || doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "NO INSURANCE"@0.43,0.92:80:red~pop+0.6
 If your bank failed, your savings were simply… gone. || B03@0.42,0.52:0.5~pop; "GONE."@0.78,0.42:130:red~pop+0.6
 No government guarantee. || E09@0.4,0.5:0.4~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 No phone number to call. || E08@0.4,0.5:0.4~pop; xmark+0.5; A28@0.86,0.62:0.5~none
@@ -150,18 +150,18 @@ If you hear your bank might be in trouble, you don't wait to find out. || D16@0.
 You go get your money right now. || doc:c_day01_S16.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "RIGHT NOW!"@0.82,0.2:80:red~pop+0.4
 And when everybody does that at once, even a healthy bank collapses, because banks don't keep all your money in the building. || C28@0.42,0.56:0.5~r; D16@0.82,0.5:0.4~jolt; A35@0.1,0.66:0.36~none
 It's lent out. || C28@0.42,0.56:0.5~r; D16@0.82,0.5:0.4~jolt; A35@0.1,0.66:0.36~none; label:"lent out"@0.82,0.14>0.82,0.3; E03@0.66,0.2:0.2~drop
-In December nineteen thirty, a rumor spread in New York about a bank with a very official-sounding name: the Bank of United States. || E09@0.4,0.5:0.48~pop; "BANK OF UNITED STATES"@0.5,0.12:84:black~pop; A05@0.86,0.62:0.5~none
-Thousands of people lined up to pull their money out. || C28@0.44,0.56:0.56~r; A09@0.88,0.62:0.5~none
+In December nineteen thirty, a rumor spread in New York about a bank with a very official-sounding name: the Bank of United States. || doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – a bank run in New York"; H04@0.9,1.0:0.3:bottom~none; label:"Bank of United States"@0.43,0.08>0.43,0.2
+Thousands of people lined up to pull their money out. || doc:h_bankrun.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – a bank run in New York"; H04@0.9,1.0:0.3:bottom~none; "THOUSANDS IN LINE"@0.43,0.08:72:red~pop+0.5
 Within days, the bank closed. || D16@0.44,0.52:0.5~jolt; H18@0.8,0.3:0.3:"CLOSED"~drop
 Around four hundred thousand depositors were locked out of their savings. || "400,000"@0.46,0.3:170:red~pop; "people locked out"@0.46,0.56:72:black~pop+0.4; E21@0.46,0.8:0.24~b; A11@0.88,0.66:0.44~none
 It wasn't even a government bank. || G10@0.4,0.5:0.48~pop; xmark+0.5; A16@0.86,0.62:0.5~none
 It just sounded like one, which made the panic so much worse. || G10@0.4,0.5:0.48~pop; xmark+0.5; A16@0.86,0.62:0.5~none; bubble:"just the name lol"@0.72,0.2:l
 Then it spread. || group:D16*3@0.2,0.3,0.8,0.7:0.3; A09@0.92,0.8:0.3~none
-Wave after wave of bank runs, city after city. || D16@0.48,0.5:0.56~pop; label:"city after city"@0.48,0.12>0.48,0.24
-Over the next few years, about nine thousand American banks failed. || "9,000"@0.48,0.4:240:red~pop; "banks failed"@0.48,0.72:80:black~pop+0.4; A42@0.88,0.82:0.3~none
+Wave after wave of bank runs, city after city. || doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+Over the next few years, about nine thousand American banks failed. || doc:ch_banks.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "ABOUT 9,000"@0.6,0.92:80:red~pop+0.4
 And here's where it turned from bad to catastrophic. || doc:c_day01_S17.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A08@0.87,0.62:0.5~none
 When banks fail and people hide cash under the mattress, the amount of money moving through the economy shrinks. || E04@0.36,0.56:0.5~pop; E01@0.74,0.5:0.3~pop; arrow:0.74,0.3>0.74,0.7+0.8
-Between nineteen thirty and nineteen thirty-three, America's money supply fell by nearly thirty percent. || doc:s15_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Banking Panics" hl=0.058,0.44,0.823,0.702+0.8; H04@0.12,1.0:0.34:bottom
+Between nineteen thirty and nineteen thirty-three, America's money supply fell by nearly thirty percent. || doc:ch_money.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-30%"@0.66,0.9:90:red~pop+0.6
 Less money means prices fall. || "PRICES DOWN"@0.42,0.4:150:red~pop; E39@0.42,0.72:0.28~b; A06@0.86,0.62:0.5~none
 That sounds nice… cheaper groceries! || A02@0.16,0.62:0.58~none; E36@0.52,0.5:0.44~pop; bubble:"cheap groceries!"@0.76,0.2:l
 But think about it from the other side. || doc:c_day01_S18.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
@@ -177,44 +177,44 @@ Washington also had some ideas. || doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="So
 Unfortunately. || G09@0.42,0.5:0.48~pop; A13@0.86,0.62:0.5~none; "unfortunately."@0.42,0.12:80:red~pop
 In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories. || G19@0.42,0.5:0.5~drop; "SMOOT-HAWLEY TARIFF"@0.42,0.1:84:black~pop; E31@0.84,0.62:0.3~r
 More than a thousand economists signed a letter begging President Hoover not to sign it. || doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Herbert Hoover" hl=0.058,0.27,0.942,0.871+0.8; H04@0.12,1.0:0.34:bottom
-He signed it anyway. || doc:p_herbert_hoover.jpg@0.36,0.5 w=0.42 h=0.62 src="Photo: Wikimedia Commons – Herbert Hoover"; D24@0.76,0.5:0.36~pop; label:"signed anyway"@0.76,0.14>0.76,0.3
+He signed it anyway. || doc:h_hoover.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Herbert Hoover"; H04@0.9,1.0:0.3:bottom~none; D24@0.86,0.36:0.3~r+0.4; label:"signed it anyway"@0.62,0.92>0.8,0.5+0.8
 Other countries did exactly what you'd expect. || G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none
-They put their own tariffs on American goods. || G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none; G19@0.5,0.75:0.3~drop; bubble:"fine, us too"@0.82,0.12:l
-World trade fell by about two-thirds over the next few years. || E43@0.42,0.5:0.5~pop; "-2/3"@0.78,0.42:170:red~pop+0.5; E31@0.42,0.84:0.2~jolt
+They put their own tariffs on American goods. || G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none; G19@0.84,0.74:0.28~drop; bubble:"fine, us too"@0.82,0.12:l
+World trade fell by about two-thirds over the next few years. || doc:ch_trade.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-2/3"@0.66,0.9:90:red~pop+0.6
 American farmers, the people the tariff was supposed to help, lost the customers they had left. || C14@0.36,0.54:0.52~l; xmark+0.8; A13@0.86,0.62:0.5~none
 Then, in nineteen thirty-two, with the economy already on the floor, the government raised taxes sharply to balance the budget. || G09@0.36,0.5:0.44~pop; D26@0.72,0.52:0.4~r; "TAXES UP"@0.72,0.12:100:red~pop
 Squeezing an economy that was already struggling to breathe. || D21@0.42,0.52:0.5~jolt; E50@0.62,0.28:0.2~pop; A35@0.86,0.62:0.5~none
-By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak. || "-89%"@0.46,0.42:260:red~pop; D14@0.46,0.8:0.24~b; A42@0.88,0.84:0.28~none
-A share that was worth a hundred dollars was now worth about eleven. || "$100"@0.26,0.42:150:green~pop; arrow:0.4,0.42>0.6,0.42+0.6; "$11"@0.76,0.42:150:red~pop+0.8; A08@0.5,0.82:0.3~none
-By nineteen thirty-three, one in four American workers had no job. || group:C28*4@0.24,0.3,0.76,0.78:0.4; "1 IN 4"@0.5,0.12:110:red~pop; A41@0.9,0.7:0.36~none
+By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak. || doc:ch_crash.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "-89%"@0.7,0.9:90:red~pop+0.4
+A share that was worth a hundred dollars was now worth about eleven. || doc:ch_share.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+By nineteen thirty-three, one in four American workers had no job. || doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"1 in 4"@0.66,0.16>0.4,0.3+0.4
 There was no unemployment insurance. || H15@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 No food stamps. || E39@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 Just lines. || C28@0.5,0.54:0.6~pop; A41@0.88,0.72:0.34~none
-Breadlines stretching around city blocks. || C28@0.5,0.54:0.6~pop; A41@0.88,0.72:0.34~none; "BREADLINES"@0.5,0.12:110:black~pop
-Men in suits, men who used to be bankers and salesmen, waiting for a bowl of soup. || C01@0.4,0.54:0.56~l; E40@0.7,0.6:0.26~pop; label:"used to be a banker"@0.74,0.14>0.5,0.26
-Families who lost their homes built shacks out of scrap wood and cardboard. || E35@0.44,0.54:0.56~pop; H24@0.82,0.7:0.24~drop; A11@0.12,0.66:0.4~none
-People called them “Hoovervilles“. || E35@0.44,0.54:0.56~pop; H24@0.82,0.7:0.24~drop; A11@0.12,0.66:0.4~none; "HOOVERVILLES"@0.44,0.12:110:red~pop
+Breadlines stretching around city blocks. || doc:h_breadline.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – breadline, 1930s"; H04@0.9,1.0:0.3:bottom~none
+Men in suits, men who used to be bankers and salesmen, waiting for a bowl of soup. || doc:h_soup.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – soup kitchen line, 1931"; H04@0.9,1.0:0.3:bottom~none; label:"men in suits"@0.43,0.07>0.43,0.2
+Families who lost their homes built shacks out of scrap wood and cardboard. || doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none
+People called them “Hoovervilles“. || doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none; "HOOVERVILLES"@0.43,0.08:96:red~pop
 And then nature joined in. || doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.058,0.181,0.202,0.294+0.8; H04@0.12,1.0:0.34:bottom
-In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. || doc:p_the_great_plains.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – Great Plains"; A08@0.88,0.66:0.44~none
-Storms of black dust rolled across Oklahoma, Kansas and Texas, so thick they blocked out the sun. || G24@0.44,0.44:0.56~t; "OKLAHOMA  KANSAS  TEXAS"@0.44,0.86:64:black~pop+0.6; A09@0.88,0.66:0.44~none
-Millions of people left the Plains, many heading west to California, looking for any kind of work. || doc:c_day01_S19.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~r; label:"to California"@0.84,0.2>0.7,0.36
-In the summer of nineteen thirty-two, around twenty thousand World War I veterans marched on Washington. || "20,000"@0.4,0.24:150:black~pop; "veterans"@0.4,0.46:80:black~pop+0.4; G09@0.4,0.74:0.3~b; A01@0.86,0.62:0.5~none
+In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. || doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none
+Storms of black dust rolled across Oklahoma, Kansas and Texas, so thick they blocked out the sun. || doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none; "OKLAHOMA  KANSAS  TEXAS"@0.43,0.08:64:red~pop+0.5
+Millions of people left the Plains, many heading west to California, looking for any kind of work. || doc:h_migrant.jpg@0.4,0.5 w=0.5 h=0.7 ~l src="Photo: Dorothea Lange, Migrant Mother, California 1936 (Wikimedia Commons)"; doc:c_day01_S19.png@0.8,0.5 w=0.34 h=0.5 frame=0 ~r+0.8
+In the summer of nineteen thirty-two, around twenty thousand World War I veterans marched on Washington. || doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; "20,000 VETERANS"@0.43,0.08:84:black~pop+0.4
 They'd been promised a bonus for their service, payable in nineteen forty-five. || doc:c_day01_S20.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "1945"@0.84,0.3:110:red~pop+0.6; bubble:"we need it now"@0.84,0.7:l
 
 # ---------- CHAPTER 7: The way back: FDR, bank holiday, FDIC, SEC ----------
 || board:"The way back"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; E17@0.88,0.22:0.22~pop+0.6; sting; hold:1.2
-They needed it now. || E23@0.42,0.5:0.48~pop; "NOW."@0.78,0.42:150:red~pop+0.4
+They needed it now. || doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; bubble:"we need it NOW"@0.78,0.16:l
 They camped near the Capitol, peacefully, for weeks. || doc:c_day01_S21.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
-In the end, the army was sent in to clear them out. || G18@0.42,0.54:0.5~l; A09@0.86,0.62:0.5~none
-Soldiers, using tear gas, against the soldiers of the last war. || G18@0.42,0.54:0.5~l; A09@0.86,0.62:0.5~none; E47@0.62,0.3:0.26~pop; label:"vs their own vets"@0.42,0.12>0.42,0.28
+In the end, the army was sent in to clear them out. || doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; G18@0.86,0.36:0.3~r+0.4
+Soldiers, using tear gas, against the soldiers of the last war. || doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; G18@0.86,0.36:0.3~r+0.4; E47@0.62,0.3:0.26~pop; label:"vs their own vets"@0.42,0.12>0.42,0.28
 Americans saw the photos, and something broke. || doc:c_day01_S22.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A11@0.87,0.64:0.48~none
 In March nineteen thirty-three, || E25@0.42,0.5:0.46~pop; "MARCH 1933"@0.42,0.12:100:black~pop; A01@0.86,0.62:0.5~none
 Franklin Roosevelt took office and said the most famous line of the whole era: “The only thing we have to fear is fear itself.“ || doc:p_franklin_roosevelt.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Franklin Roosevelt"; bubble:"the only thing we have to fear is fear itself"@0.7,0.3:l
 Two days later, he closed every bank in the country. || D15@0.42,0.52:0.5~pop; H18@0.8,0.3:0.3:"CLOSED"~drop; A08@0.88,0.8:0.3~none
 A “bank holiday“. || D15@0.42,0.52:0.5~pop; H18@0.8,0.3:0.3:"CLOSED"~drop; A08@0.88,0.8:0.3~none; bubble:"bank holiday!"@0.24,0.16:r
 Inspectors checked the books, and only the healthy banks were allowed to reopen. || E16@0.36,0.5:0.4~pop; H28@0.6,0.56:0.3~pop; E21@0.82,0.5:0.3~r+0.8; A39@0.12,0.66:0.4~none
-Then he went on the radio and explained, in plain English, why your money would be safer in the bank than under your mattress. || E13@0.42,0.5:0.5~pop; bubble:"bank > mattress"@0.76,0.2:l; A29@0.86,0.7:0.36~none
-And people believed him, which tells you how good that radio voice must have been. || E13@0.42,0.5:0.5~pop; bubble:"bank > mattress"@0.76,0.2:l; A02@0.86,0.7:0.36~none; label:"what a voice"@0.24,0.84>0.36,0.7
+Then he went on the radio and explained, in plain English, why your money would be safer in the bank than under your mattress. || doc:h_fireside.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Roosevelt, fireside chat"; H04@0.9,1.0:0.3:bottom~none; bubble:"bank > mattress"@0.8,0.16:l
+And people believed him, which tells you how good that radio voice must have been. || doc:h_fireside.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Roosevelt, fireside chat"; H04@0.9,1.0:0.3:bottom~none; label:"what a voice"@0.43,0.07>0.43,0.2
 When the banks reopened, people actually put money back in. || D15@0.42,0.52:0.46~pop; E01@0.2,0.5:0.24~r+0.4; arrow:0.26,0.5>0.32,0.5+0.6; A21@0.86,0.62:0.5~none
 The bank runs stopped. || D15@0.42,0.52:0.46~pop; E01@0.2,0.5:0.24~r+0.4; arrow:0.26,0.5>0.32,0.5+0.6; A21@0.86,0.62:0.5~none; "RUNS STOPPED"@0.42,0.12:100:green~pop
 Then came the rules we still live with today. || doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FDIC" hl=0,0.427,0,0.573+0.8; H04@0.12,1.0:0.34:bottom
@@ -223,9 +223,9 @@ Today that's up to two hundred and fifty thousand dollars. || "$250,000"@0.42,0.
 The SEC, so companies have to tell the truth to investors, and those “pools“ from earlier became illegal. || "SEC"@0.28,0.2:120:black~pop; D24@0.28,0.56:0.4~pop; group:C21*3@0.6,0.36,0.92,0.76:0.3; xmark+1.2
 And Social Security. || C13@0.42,0.54:0.5~pop; "SOCIAL SECURITY"@0.42,0.12:96:black~pop; A21@0.86,0.62:0.5~none
 The recovery was slow and bumpy. || E54@0.42,0.56:0.44~l; D13@0.72,0.36:0.3~pop+0.6; A29@0.12,0.66:0.4~none
-It took World War Two to finally bring unemployment all the way down. || G18@0.36,0.54:0.44~l; "JOBS UP"@0.74,0.4:120:green~pop+0.6
+It took World War Two to finally bring unemployment all the way down. || doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.72,0.56,0.95,0.86+0.4
 And the stock market? || board:"And the stock market?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
-It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || doc:c_day01_S23.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "25 YEARS"@0.84,0.3:90:red~pop+0.6; A41@0.87,0.72:0.36~none
+It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || doc:ch_dow.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "25 YEARS"@0.6,0.92:80:red~pop+0.4
 A lot of what broke in nineteen twenty-nine has been fixed. || doc:c_day01_S24.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A21@0.87,0.62:0.5~none
 Your bank deposits are insured. || E21@0.3,0.5:0.4~pop; A21@0.86,0.62:0.5~none; "FIXED"@0.6,0.3:130:green~pop
 The Fed now steps in fast instead of watching. || G10@0.3,0.5:0.4~pop; "FIXED"@0.6,0.3:130:green~pop; A50@0.86,0.62:0.5~none

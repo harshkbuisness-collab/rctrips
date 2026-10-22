@@ -580,7 +580,7 @@ def draw_label(d, e, color):
 
 def draw_board(d, e):
     """Green school chalkboard in a brown wooden frame with white chalk writing (chapter titles, big questions)."""
-    f = font(FONT_HAND, 84)
+    f = font(FONT_HAND, 118)
     x, y = pos(e["pos"]); cx, cy = x * W, y * H
     bw, bh = W * float(e["opt"] or 0.46), H * 0.42
     x0, y0, x1, y1 = cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2
@@ -588,7 +588,7 @@ def draw_board(d, e):
     d.rectangle([x0, y0, x1, y1], fill=(46, 112, 62), outline=BLACK, width=4)
     lines = wrap(e["text"], f, bw - 80)
     for i, l in enumerate(lines):
-        d.text((cx, cy + (i - (len(lines) - 1) / 2) * 92), l, font=f, fill=(245, 245, 235), anchor="mm")
+        d.text((cx, cy + (i - (len(lines) - 1) / 2) * 126), l, font=f, fill=(245, 245, 235), anchor="mm")
     return (x0 - 26, y0 - 26, x1 + 26, y1 + 26)
 
 
