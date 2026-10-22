@@ -1,80 +1,689 @@
 {
-  "projectId": "sample-001",
-  "title": "Reference Style Demo",
+ "version": 2,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 31.87,
+ "settings": {
+  "themeId": "dark-red",
   "format": "9:16",
-  "width": 1080,
-  "height": 1920,
-  "fps": 30,
-  "durationSec": 18,
-  "script": "Instagram par agar aapki reels ko views nahi mil rahe, teen cheezein check karo. Hook, retention aur fast follow up.",
-  "audioSrc": "",
-  "scenes": [
+  "align": "left",
+  "icons": "normal",
+  "stickers": "light",
+  "flashes": true,
+  "seed": 0
+ },
+ "theme": {
+  "id": "dark-red",
+  "label": "Dark · Red",
+  "bg": "#0B0B0B",
+  "fg": "#FFFFFF",
+  "accent": "#E8202A",
+  "accentFg": "#FFFFFF"
+ },
+ "align": "left",
+ "scenes": [
+  {
+   "id": "s1",
+   "start": 0,
+   "words": [
     {
-      "id": "s1",
-      "type": "bigKeyword",
-      "start": 0,
-      "end": 2.2,
-      "text": "INSTAGRAM",
-      "subtext": "GROWTH TIPS",
-      "bg": "#f4f1ea",
-      "fg": "#111111",
-      "accent": "#ff3b30"
+     "text": "Agar",
+     "start": 0,
+     "end": 0.29
     },
     {
-      "id": "s2",
-      "type": "textBlock",
-      "start": 2.2,
-      "end": 5.2,
-      "text": "Views nahi aa rahe?",
-      "highlight": "VIEWS",
-      "bg": "#ff3b30",
-      "fg": "#ffffff"
+     "text": "aapko",
+     "start": 0.29,
+     "end": 0.49
     },
     {
-      "id": "s3",
-      "type": "iconText",
-      "start": 5.2,
-      "end": 8.2,
-      "text": "HOOK",
-      "subtext": "First 2 seconds matter",
-      "icon": "play",
-      "bg": "#111111",
-      "fg": "#ffffff",
-      "accent": "#ff3b30"
+     "text": "lagta",
+     "start": 0.49,
+     "end": 0.83
     },
     {
-      "id": "s4",
-      "type": "counter",
-      "start": 8.2,
-      "end": 11.2,
-      "value": 63,
-      "suffix": "%",
-      "label": "RETENTION",
-      "bg": "#f4f1ea",
-      "fg": "#111111",
-      "accent": "#1557ff"
+     "text": "hai",
+     "start": 0.83,
+     "end": 0.97
     },
     {
-      "id": "s5",
-      "type": "chat",
-      "start": 11.2,
-      "end": 14.3,
-      "text": "Reply Fast",
-      "subtext": "Don't let the lead go cold",
-      "bg": "#1557ff",
-      "fg": "#ffffff"
-    },
-    {
-      "id": "s6",
-      "type": "cta",
-      "start": 14.3,
-      "end": 18,
-      "text": "COMMENT",
-      "subtext": "for the next growth tip",
-      "bg": "#1557ff",
-      "fg": "#ffffff",
-      "accent": "#f4f1ea"
+     "text": "ki",
+     "start": 0.97,
+     "end": 1.43
     }
-  ],
-  "videoFormat": "portrait"
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 1.38
+  },
+  {
+   "id": "s2",
+   "start": 1.38,
+   "words": [
+    {
+     "text": "sirf",
+     "start": 1.43,
+     "end": 1.67
+    },
+    {
+     "text": "zyada",
+     "start": 1.67,
+     "end": 2.21
+    },
+    {
+     "text": "content",
+     "start": 2.21,
+     "end": 2.57,
+     "hero": true
+    },
+    {
+     "text": "post",
+     "start": 2.57,
+     "end": 2.89
+    },
+    {
+     "text": "karne",
+     "start": 2.89,
+     "end": 3.13
+    }
+   ],
+   "icon": "Memo",
+   "sticker": "",
+   "flash": false,
+   "end": 3.08
+  },
+  {
+   "id": "s3",
+   "start": 3.08,
+   "words": [
+    {
+     "text": "se",
+     "start": 3.13,
+     "end": 3.23
+    },
+    {
+     "text": "growth",
+     "start": 3.23,
+     "end": 3.61,
+     "hero": true
+    },
+    {
+     "text": "aayegi,",
+     "start": 3.61,
+     "end": 3.97
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": true,
+   "end": 4.4
+  },
+  {
+   "id": "s4",
+   "start": 4.4,
+   "words": [
+    {
+     "text": "to",
+     "start": 4.45,
+     "end": 4.55
+    },
+    {
+     "text": "shayad",
+     "start": 4.55,
+     "end": 4.97
+    },
+    {
+     "text": "aap",
+     "start": 4.97,
+     "end": 5.27
+    },
+    {
+     "text": "galat",
+     "start": 5.27,
+     "end": 5.71,
+     "hero": true
+    },
+    {
+     "text": "cheez",
+     "start": 5.71,
+     "end": 5.95
+    }
+   ],
+   "icon": "Cross mark",
+   "sticker": "",
+   "flash": false,
+   "end": 5.9
+  },
+  {
+   "id": "s5",
+   "start": 5.9,
+   "words": [
+    {
+     "text": "pe",
+     "start": 5.95,
+     "end": 6.05
+    },
+    {
+     "text": "focus",
+     "start": 6.05,
+     "end": 6.33,
+     "hero": true
+    },
+    {
+     "text": "kar",
+     "start": 6.33,
+     "end": 6.49
+    },
+    {
+     "text": "rahe",
+     "start": 6.49,
+     "end": 6.65
+    },
+    {
+     "text": "ho.",
+     "start": 6.65,
+     "end": 7.47
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 7.42
+  },
+  {
+   "id": "s6",
+   "start": 7.42,
+   "words": [
+    {
+     "text": "Asli",
+     "start": 7.47,
+     "end": 7.81,
+     "hero": true
+    },
+    {
+     "text": "fark",
+     "start": 7.81,
+     "end": 8.03
+    },
+    {
+     "text": "padta",
+     "start": 8.03,
+     "end": 8.31
+    },
+    {
+     "text": "hai",
+     "start": 8.31,
+     "end": 8.45
+    },
+    {
+     "text": "ki",
+     "start": 8.45,
+     "end": 8.95
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 8.899999999999999
+  },
+  {
+   "id": "s7",
+   "start": 8.899999999999999,
+   "words": [
+    {
+     "text": "log",
+     "start": 8.95,
+     "end": 9.33
+    },
+    {
+     "text": "aapke",
+     "start": 9.33,
+     "end": 9.69
+    },
+    {
+     "text": "video",
+     "start": 9.69,
+     "end": 10.01,
+     "hero": true
+    },
+    {
+     "text": "ke",
+     "start": 10.01,
+     "end": 10.15
+    },
+    {
+     "text": "pehle",
+     "start": 10.15,
+     "end": 10.55
+    }
+   ],
+   "icon": "Clapper board",
+   "sticker": "",
+   "flash": false,
+   "end": 10.5
+  },
+  {
+   "id": "s8",
+   "start": 10.5,
+   "words": [
+    {
+     "text": "kuch",
+     "start": 10.55,
+     "end": 11.07
+    },
+    {
+     "text": "seconds",
+     "start": 11.07,
+     "end": 11.47,
+     "hero": true
+    },
+    {
+     "text": "mein",
+     "start": 11.47,
+     "end": 11.57
+    },
+    {
+     "text": "rukte",
+     "start": 11.57,
+     "end": 11.95
+    },
+    {
+     "text": "hain",
+     "start": 11.95,
+     "end": 12.65
+    },
+    {
+     "text": "ya",
+     "start": 12.65,
+     "end": 12.77
+    },
+    {
+     "text": "nahi.",
+     "start": 12.77,
+     "end": 13.49
+    }
+   ],
+   "icon": "",
+   "sticker": "s003",
+   "flash": false,
+   "end": 13.44
+  },
+  {
+   "id": "s9",
+   "start": 13.44,
+   "words": [
+    {
+     "text": "Agar",
+     "start": 13.49,
+     "end": 14.01
+    },
+    {
+     "text": "hook",
+     "start": 14.01,
+     "end": 14.21,
+     "hero": true
+    },
+    {
+     "text": "weak",
+     "start": 14.21,
+     "end": 14.47
+    },
+    {
+     "text": "hai,",
+     "start": 14.47,
+     "end": 15.03
+    },
+    {
+     "text": "to",
+     "start": 15.03,
+     "end": 15.13
+    }
+   ],
+   "icon": "Fishing pole",
+   "sticker": "",
+   "flash": false,
+   "end": 15.08
+  },
+  {
+   "id": "s10",
+   "start": 15.08,
+   "words": [
+    {
+     "text": "achha",
+     "start": 15.13,
+     "end": 15.51
+    },
+    {
+     "text": "content",
+     "start": 15.51,
+     "end": 15.85,
+     "hero": true
+    },
+    {
+     "text": "bhi",
+     "start": 15.85,
+     "end": 15.95
+    },
+    {
+     "text": "ignore",
+     "start": 15.95,
+     "end": 16.23
+    },
+    {
+     "text": "ho",
+     "start": 16.23,
+     "end": 16.37
+    },
+    {
+     "text": "jata",
+     "start": 16.37,
+     "end": 16.65
+    },
+    {
+     "text": "hai.",
+     "start": 16.65,
+     "end": 16.91
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 17.56
+  },
+  {
+   "id": "s11",
+   "start": 17.56,
+   "words": [
+    {
+     "text": "Isliye",
+     "start": 17.61,
+     "end": 17.97
+    },
+    {
+     "text": "agli",
+     "start": 17.97,
+     "end": 18.35
+    },
+    {
+     "text": "reel",
+     "start": 18.35,
+     "end": 18.57,
+     "hero": true
+    },
+    {
+     "text": "banate",
+     "start": 18.57,
+     "end": 18.91
+    },
+    {
+     "text": "samay,",
+     "start": 18.91,
+     "end": 19.17
+    }
+   ],
+   "icon": "Clapper board",
+   "sticker": "",
+   "flash": false,
+   "end": 19.56
+  },
+  {
+   "id": "s12",
+   "start": 19.56,
+   "words": [
+    {
+     "text": "pehle",
+     "start": 19.61,
+     "end": 19.85
+    },
+    {
+     "text": "hook",
+     "start": 19.85,
+     "end": 20.07,
+     "hero": true
+    },
+    {
+     "text": "likho,",
+     "start": 20.07,
+     "end": 20.33
+    },
+    {
+     "text": "phir",
+     "start": 20.73,
+     "end": 20.85
+    },
+    {
+     "text": "baaki",
+     "start": 20.85,
+     "end": 21.11
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 21.06
+  },
+  {
+   "id": "s13",
+   "start": 21.06,
+   "words": [
+    {
+     "text": "script.",
+     "start": 21.11,
+     "end": 22.15,
+     "hero": true
+    },
+    {
+     "text": "Aur",
+     "start": 22.15,
+     "end": 22.39
+    },
+    {
+     "text": "publish",
+     "start": 22.39,
+     "end": 22.69
+    },
+    {
+     "text": "karne",
+     "start": 22.69,
+     "end": 22.91
+    },
+    {
+     "text": "ke",
+     "start": 22.91,
+     "end": 23.03
+    }
+   ],
+   "icon": "Memo",
+   "sticker": "",
+   "flash": false,
+   "end": 22.98
+  },
+  {
+   "id": "s14",
+   "start": 22.98,
+   "words": [
+    {
+     "text": "baad",
+     "start": 23.03,
+     "end": 23.25
+    },
+    {
+     "text": "sirf",
+     "start": 23.25,
+     "end": 23.75
+    },
+    {
+     "text": "views",
+     "start": 23.75,
+     "end": 24.01,
+     "hero": true
+    },
+    {
+     "text": "mat",
+     "start": 24.01,
+     "end": 24.17
+    },
+    {
+     "text": "dekho.",
+     "start": 24.17,
+     "end": 25.05
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 25
+  },
+  {
+   "id": "s15",
+   "start": 25,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 25.05,
+     "end": 25.43
+    },
+    {
+     "text": "time",
+     "start": 25.43,
+     "end": 25.57
+    },
+    {
+     "text": "aur",
+     "start": 25.57,
+     "end": 25.71
+    },
+    {
+     "text": "retention",
+     "start": 25.71,
+     "end": 26.15,
+     "hero": true
+    },
+    {
+     "text": "bhi",
+     "start": 26.15,
+     "end": 26.25
+    }
+   ],
+   "icon": "Eyes",
+   "sticker": "",
+   "flash": false,
+   "end": 26.2
+  },
+  {
+   "id": "s16",
+   "start": 26.2,
+   "words": [
+    {
+     "text": "check",
+     "start": 26.25,
+     "end": 26.49,
+     "hero": true
+    },
+    {
+     "text": "karo.",
+     "start": 26.49,
+     "end": 27.37
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": true,
+   "end": 27.32
+  },
+  {
+   "id": "s17",
+   "start": 27.32,
+   "words": [
+    {
+     "text": "Jo",
+     "start": 27.37,
+     "end": 27.55
+    },
+    {
+     "text": "format",
+     "start": 27.55,
+     "end": 27.93,
+     "hero": true
+    },
+    {
+     "text": "kaam",
+     "start": 27.93,
+     "end": 28.15
+    },
+    {
+     "text": "kare,",
+     "start": 28.15,
+     "end": 28.37
+    },
+    {
+     "text": "use",
+     "start": 28.75,
+     "end": 28.91
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 28.86
+  },
+  {
+   "id": "s18",
+   "start": 28.86,
+   "words": [
+    {
+     "text": "repeat",
+     "start": 28.91,
+     "end": 29.21,
+     "hero": true
+    },
+    {
+     "text": "karo.",
+     "start": 29.21,
+     "end": 30.05
+    }
+   ],
+   "icon": "",
+   "sticker": "",
+   "flash": false,
+   "end": 30
+  },
+  {
+   "id": "s19",
+   "start": 30,
+   "words": [
+    {
+     "text": "Yahi",
+     "start": 30.05,
+     "end": 30.37
+    },
+    {
+     "text": "smart",
+     "start": 30.37,
+     "end": 30.71
+    },
+    {
+     "text": "growth",
+     "start": 30.71,
+     "end": 30.95,
+     "hero": true
+    },
+    {
+     "text": "hai.",
+     "start": 30.95,
+     "end": 31.27
+    }
+   ],
+   "icon": "Chart increasing",
+   "sticker": "",
+   "flash": false,
+   "end": 31.87
+  }
+ ],
+ "audioSrc": "",
+ "audioVolume": 1,
+ "musicSrc": "",
+ "musicVolume": 0.15
 }
