@@ -15,6 +15,8 @@ const HAND = `Caveat, ${DEV}`;
 //             super   — huge white serif keyword with small blue words as superscript / subscript / beside,
 //                       yellow accents, a Follow button being clicked (reference 7)
 //             wire    — paper, CAPS title tag on top, a line-drawn UI wireframe panel drawing in (reference 8)
+//             app     — cream then black cards: huge condensed word + app tile + toggle, yellow stat cards,
+//                       icon + blue serif keyword, typed lines; mascot peeking bottom-right (reference 9)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -28,7 +30,7 @@ const HAND = `Caveat, ${DEV}`;
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
 //             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
 //             heroCycle (full-colour backgrounds for big-word cards), frame (cards inside a rounded frame),
-//             ctaHands (3D hands pointing at the Comment card), bgArt (the card's visual, huge and faded in sepia behind the text),
+//             ctaInline (Comment “keyword” on one line), ctaHands (3D hands pointing at the Comment card), bgArt (the card's visual, huge and faded in sepia behind the text),
 //             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
@@ -100,6 +102,9 @@ export const LOOKS = [
   {id: 'wireframe', label: 'Ref 8 · Paper Wireframe (title tag + drawn UI panels)', layout: 'wire', motion: 'type', ghost: true, texture: 'paper', questions: true,
     bg: '#E8E8E5', ink: '#3A3A3A', dark: '#2F5D50', darkInk: '#FFFFFF', accents: ['#2F5D50', '#B9474B'], cta: '#FFFFFF',
     font: `Caveat, ${DEV}`, weight: 700, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: `Montserrat, ${DEV}`, boxBg: '#FFFFFF', boxInk: '#2F5D50'},
+  {id: 'appsteps', label: 'Ref 9 · App Steps (cream → black, peeking mascot, toggles, stat cards)', layout: 'app', motion: 'type', ctaInline: true,
+    bg: '#F3EBC7', ink: '#1A1A1A', dark: '#000000', darkInk: '#FFFFFF', accents: ['#2F6BFF', '#2F6BFF'], cta: '#FFFFFF', stepPrefix: 'Step:',
+    font: INTER, weight: 800, heroFont: `Oswald, ${DEV}`, heroWeight: 700, heroItalic: false, labelFont: INTER, boxBg: '#FFFFFF', boxInk: '#000000'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

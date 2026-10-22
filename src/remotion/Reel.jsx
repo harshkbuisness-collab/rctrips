@@ -992,6 +992,109 @@ function WireCard({scene, look, u, stage, index}) {
   );
 }
 
+// Reference 9: cream cards first, then black; a small character peeks from the bottom-right corner.
+// Cards rotate between a huge condensed word with an app tile and a toggle switching on, a line with
+// yellow stat cards counting up, an icon with a big blue serif keyword, and a typed line.
+const APP_VARIANTS = ['tile', 'stats', 'iconLine', 'typed'];
+
+function StatCard({u, frame, value, delay}) {
+  const p = spring({frame: frame - delay, fps: 30, config: {damping: 12, stiffness: 180}});
+  const n = Math.round(value * interpolate(frame - delay, [4, 22], [0, 1], {...clamp, easing: ease}));
+  const label = n >= 1000 ? `${(n / 1000).toFixed(n >= 100000 ? 0 : 1)}K` : n.toLocaleString('en-IN');
+  return (
+    <div style={{width: u * 18, height: u * 9.5, background: '#F6C90E', borderRadius: u * 0.8, position: 'relative', transform: `scale(${p})`, boxShadow: '0 6px 16px rgba(0,0,0,.15)'}}>
+      <Img src={staticFile(iconPath(`lib:${CHARACTER_POSES[0]}`))} style={{position: 'absolute', left: -u * 2, top: -u * 3, width: u * 8, height: u * 8, objectFit: 'contain'}} />
+      <div style={{position: 'absolute', left: u * 1, bottom: u * 0.6, fontFamily: 'Inter', fontWeight: 800, fontSize: u * 3, color: '#1A1A1A'}}>▶ {label}</div>
+    </div>
+  );
+}
+
+function AppCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const heroText = display(hero.text);
+  // Cream for the opening cards, black afterwards.
+  const dark = index >= 5;
+  const bg = dark ? '#000000' : look.bg, ink = dark ? '#FFFFFF' : look.ink;
+  const blue = look.accents[0];
+  const v = APP_VARIANTS[index % APP_VARIANTS.length];
+  const typed = (ws, color, size, extra, hl) => (
+    <div style={{fontFamily: look.font, fontWeight: 800, fontSize: size, color, lineHeight: 1.25, textAlign: 'center', maxWidth: stage.w * 0.8, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="type" fps={c.fps} frame={c.frame} color={hl && w === hero ? blue : color} /></React.Fragment>)}
+    </div>
+  );
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  const tp = spring({frame: c.frame - c.at(hero) - 4, fps: c.fps, config: {damping: 11, stiffness: 200}});
+  let body;
+  if (v === 'tile') {
+    // "SIRF" + dark app tile + toggle turning on.
+    const w100 = measureText({text: heroText.toUpperCase(), fontFamily: look.heroFont, fontSize: 100, fontWeight: '700'}).width;
+    body = <>
+      {typed(pre, ink, u * 2.8, {opacity: 0.85})}
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 2, marginTop: u}}>
+        <MotionText text={heroText.toUpperCase()} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="pop" fps={c.fps} frame={c.frame} color={ink}
+          style={{fontFamily: look.heroFont, fontWeight: 700, fontSize: Math.min(u * 9, (stage.w * 0.42 / w100) * 100), lineHeight: 1}} />
+        <div style={{width: u * 9, height: u * 9, borderRadius: u * 2, background: 'linear-gradient(145deg, #3A3A3A, #111)', display: 'grid', placeItems: 'center',
+          transform: `scale(${tp})`, boxShadow: '0 6px 14px rgba(0,0,0,.3)'}}>
+          {icon ? <Img src={icon} style={{width: u * 6, height: u * 6, objectFit: 'contain', filter: 'brightness(0) invert(1)'}} /> : <div style={{width: u * 4, height: u * 4, borderRadius: '50%', border: `${u * 0.7}px solid #FFF`}} />}
+        </div>
+        <Toggle u={u} frame={c.frame - c.at(hero) - 4} />
+      </div>
+      {typed(post, ink, u * 2.8, {marginTop: u})}
+    </>;
+  } else if (v === 'stats') {
+    const seed = hash(heroText);
+    body = <>
+      {typed(words, ink, u * 3.6, null, true)}
+      <div style={{display: 'flex', gap: u * 5, marginTop: u * 3}}>
+        <StatCard u={u} frame={c.frame} value={1000 + (seed % 3000)} delay={c.at(hero)} />
+        <StatCard u={u} frame={c.frame} value={100000 + (seed % 50000)} delay={c.at(hero) + 8} />
+      </div>
+    </>;
+  } else if (v === 'iconLine') {
+    // Icon on the left; a line with the keyword big in blue serif under it.
+    body = (
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 2}}>
+        {icon ? <Art src={icon} size={u * 12} frame={c.frame} /> : null}
+        <div style={{display: 'flex', flexDirection: 'column'}}>
+          {typed(pre, ink, u * 3.4, {textAlign: 'left'})}
+          <div style={{display: 'flex', alignItems: 'baseline', gap: u}}>
+            <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="fade" fps={c.fps} frame={c.frame} color={blue}
+              style={{fontFamily: "'Playfair Display', 'Noto Sans Devanagari', serif", fontWeight: 900, fontSize: u * 8, lineHeight: 1}} />
+            {typed(post, ink, u * 3, {textAlign: 'left'})}
+          </div>
+        </div>
+      </div>
+    );
+  } else {
+    body = typed(words, ink, u * 4.2, null, true);
+  }
+  const follow = words.some((w) => FOLLOW.test(display(w.text)));
+  return (
+    <Backdrop bg={bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', paddingRight: stage.w * 0.06}}>
+        {body}
+        {follow ? <div style={{marginTop: u * 2}}><FollowButton u={u} frame={c.frame} /></div> : null}
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
+// A small character peeking up from the bottom-right edge for the whole video.
+function Peeker({stage, scenes}) {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  let i = scenes.findIndex((s) => frame < Math.round(s.end * fps));
+  if (i < 0) i = scenes.length - 1;
+  const size = stage.h * 0.3;
+  const bob = Math.sin(frame / 9) * size * 0.03;
+  return <Img src={staticFile(iconPath(`lib:${CHARACTER_POSES[Math.floor(i / 3) % CHARACTER_POSES.length]}`))} style={{position: 'absolute', right: stage.w * 0.02,
+    bottom: -size * 0.32 + bob, width: size, height: size, objectFit: 'contain'}} />;
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -1021,6 +1124,23 @@ function StepCard({scene, look, u, stage}) {
 
 function CtaCard({scene, look, u, stage}) {
   const c = useCard(scene);
+  if (look.ctaInline) {
+    // Comment “keyword” on one line, the rest typed under it.
+    const [first, kw, ...more] = scene.words;
+    return (
+      <Backdrop bg={look.dark} look={look}>
+        <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u}}>
+          <div style={{fontFamily: look.font, fontWeight: 900, fontSize: u * 5.4, color: look.darkInk}}>
+            <MotionText text={display(first.text).replace(/^./, (x) => x.toUpperCase())} f={c.frame - c.at(first)} dur={c.dur(first)} kind="type" fps={c.fps} frame={c.frame} color={look.darkInk} />
+            {' '}<MotionText text={`"${display(scene.keyword).replace(/^./, (x) => x.toUpperCase())}"`} f={c.frame - c.at(kw)} dur={c.dur(kw)} kind="pop" fps={c.fps} frame={c.frame} color={look.accents[0]} />
+          </div>
+          <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 2.8, color: look.darkInk}}>
+            {more.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}<MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="type" fps={c.fps} frame={c.frame} color={look.darkInk} /></React.Fragment>)}
+          </div>
+        </AbsoluteFill>
+      </Backdrop>
+    );
+  }
   const [comment, keyword, ...rest] = scene.words;
   const pop = spring({frame: c.frame - c.at(comment), fps: c.fps, config: {damping: 11, stiffness: 180, mass: 0.6}});
   const kf = c.frame - c.at(keyword);
@@ -1119,6 +1239,7 @@ function cardFor(scene, look) {
   if (look.layout === 'meme') return MemeCard;
   if (look.layout === 'super') return SuperCard;
   if (look.layout === 'wire') return WireCard;
+  if (look.layout === 'app') return AppCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
@@ -1175,6 +1296,7 @@ export function Reel({project}) {
         }) : null}
         {ready && look.mascot ? <MascotOverlay scenes={project.scenes} stage={stage} /> : null}
         {ready && look.walker ? <Walker id={look.walker} stage={stage} /> : null}
+        {ready && look.layout === 'app' ? <Peeker stage={stage} scenes={project.scenes} /> : null}
       </div>
       {ready && look.sfx ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
       {project.audioSrc ? <Audio src={project.audioSrc} volume={project.audioVolume ?? 1} /> : null}
