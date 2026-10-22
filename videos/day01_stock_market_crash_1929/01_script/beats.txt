@@ -87,7 +87,7 @@ Not his best work. || doc:p_irving_fisher.jpg@0.3,0.5 w=0.38 h=0.62 src="Photo: 
 There were warnings. || E44@0.5,0.48:0.5~swing; A09@0.13,0.64:0.5~none
 In September, || E25@0.5,0.48:0.46~pop; "SEPTEMBER"@0.5,0.12:100:black~pop; A01@0.13,0.64:0.5~none
 an investor named Roger Babson stood up and said, “Sooner or later a crash is coming, and it may be terrific.“ That day, the market dropped. || doc:p_roger_babson.jpg@0.28,0.5 w=0.36 h=0.62 ~l src="Photo: Wikimedia Commons – Roger Babson"; bubble:"a crash is coming"@0.66,0.24:l; D14@0.7,0.7:0.3~jolt+1.4
-People called it the “Babson Break“… and then they went right back to buying. || doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Roger Babson" hl=0.058,0.409,0.942,0.732+0.8; H04@0.12,1.0:0.34:bottom
+People called it the “Babson Break“… and then they went right back to buying. || doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Roger Babson" hl=0.058,0.409,0.942,0.732+0.8; H04@0.12,1.0:0.34:bottom
 Even the new president, Herbert Hoover, had promised America was “nearer to the final triumph over poverty than ever before in the history of any land.“ || doc:p_herbert_hoover.jpg@0.28,0.5 w=0.36 h=0.62 ~l src="Photo: Wikimedia Commons – Herbert Hoover"; bubble:"final triumph over poverty!"@0.68,0.26:l; E28@0.72,0.72:0.28~pop+1.0
 Everyone was a genius. || A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop
 Everyone was rich, on paper. || A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop; H15@0.82,0.5:0.32~swing; label:"on paper"@0.82,0.84>0.82,0.68
@@ -176,7 +176,7 @@ Decades later, a future Fed chairman, Ben Bernanke, publicly admitted it: “Reg
 Washington also had some ideas. || doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.058,0.181,0.36,0.294+0.8; H04@0.12,1.0:0.34:bottom
 Unfortunately. || G09@0.42,0.5:0.48~pop; A13@0.86,0.62:0.5~none; "unfortunately."@0.42,0.12:80:red~pop
 In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories. || G19@0.42,0.5:0.5~drop; "SMOOT-HAWLEY TARIFF"@0.42,0.1:84:black~pop; E31@0.84,0.62:0.3~r
-More than a thousand economists signed a letter begging President Hoover not to sign it. || doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Herbert Hoover" hl=0.058,0.27,0.942,0.871+0.8; H04@0.12,1.0:0.34:bottom
+More than a thousand economists signed a letter begging President Hoover not to sign it. || doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Herbert Hoover" hl=0.058,0.27,0.942,0.871+0.8; H04@0.12,1.0:0.34:bottom
 He signed it anyway. || doc:h_hoover.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Herbert Hoover"; H04@0.9,1.0:0.3:bottom~none; D24@0.86,0.36:0.3~r+0.4; label:"signed it anyway"@0.62,0.92>0.8,0.5+0.8
 Other countries did exactly what you'd expect. || G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none
 They put their own tariffs on American goods. || G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none; G19@0.84,0.74:0.28~drop; bubble:"fine, us too"@0.82,0.12:l
@@ -189,15 +189,15 @@ A share that was worth a hundred dollars was now worth about eleven. || doc:ch_s
 By nineteen thirty-three, one in four American workers had no job. || doc:ch_jobs.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"1 in 4"@0.66,0.16>0.4,0.3+0.4
 There was no unemployment insurance. || H15@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
 No food stamps. || E39@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
-Just lines. || C28@0.5,0.54:0.6~pop; A41@0.88,0.72:0.34~none
-Breadlines stretching around city blocks. || doc:h_breadline.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – breadline, 1930s"; H04@0.9,1.0:0.3:bottom~none
+Just lines. || doc:h_breadline.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – breadline, 1930s"; A41@0.9,0.74:0.32~none
+Breadlines stretching around city blocks. || doc:h_breadline.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – breadline, 1930s"; A41@0.9,0.74:0.32~none; "BREADLINES"@0.43,0.08:110:black~pop
 Men in suits, men who used to be bankers and salesmen, waiting for a bowl of soup. || doc:h_soup.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – soup kitchen line, 1931"; H04@0.9,1.0:0.3:bottom~none; label:"men in suits"@0.43,0.07>0.43,0.2
 Families who lost their homes built shacks out of scrap wood and cardboard. || doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none
 People called them “Hoovervilles“. || doc:h_hooverville.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Hooverville shacks"; H04@0.9,1.0:0.3:bottom~none; "HOOVERVILLES"@0.43,0.08:96:red~pop
 And then nature joined in. || doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.058,0.181,0.202,0.294+0.8; H04@0.12,1.0:0.34:bottom
 In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. || doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none
 Storms of black dust rolled across Oklahoma, Kansas and Texas, so thick they blocked out the sun. || doc:h_duststorm.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – dust storm, Texas 1935"; H04@0.9,1.0:0.3:bottom~none; "OKLAHOMA  KANSAS  TEXAS"@0.43,0.08:64:red~pop+0.5
-Millions of people left the Plains, many heading west to California, looking for any kind of work. || doc:h_migrant.jpg@0.4,0.5 w=0.5 h=0.7 ~l src="Photo: Dorothea Lange, Migrant Mother, California 1936 (Wikimedia Commons)"; doc:c_day01_S19.png@0.8,0.5 w=0.34 h=0.5 frame=0 ~r+0.8
+Millions of people left the Plains, many heading west to California, looking for any kind of work. || doc:h_migrant.jpg@0.4,0.5 w=0.5 h=0.7 ~l src="Photo: Dorothea Lange, Migrant Mother, California 1936 (Wikimedia Commons)"; doc:c_day01_S19.png@0.82,0.5 w=0.34 h=0.62 frame=0 ~r+0.8
 In the summer of nineteen thirty-two, around twenty thousand World War I veterans marched on Washington. || doc:h_bonus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Bonus Army camp, 1932"; H04@0.9,1.0:0.3:bottom~none; "20,000 VETERANS"@0.43,0.08:84:black~pop+0.4
 They'd been promised a bonus for their service, payable in nineteen forty-five. || doc:c_day01_S20.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "1945"@0.84,0.3:110:red~pop+0.6; bubble:"we need it now"@0.84,0.7:l
 

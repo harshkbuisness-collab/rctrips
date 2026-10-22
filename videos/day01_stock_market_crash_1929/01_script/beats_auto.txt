@@ -87,7 +87,7 @@ Not his best work. || title:"The crash"; A02@0.82,0.6:0.6~none; doc:p_irving_fis
 There were warnings. || title:"The crash"; A33@0.82,0.6:0.6~none; doc:p_irving_fisher.jpg@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Irving Fisher"
 In September, || title:"The crash"; A33@0.82,0.6:0.6~none; doc:p_irving_fisher.jpg@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Irving Fisher"
 an investor named Roger Babson stood up and said, “Sooner or later a crash is coming, and it may be terrific.“ That day, the market dropped. || title:"The crash"; A10@0.84,0.62:0.5~none; doc:p_roger_babson.jpg@0.4,0.54 w=0.56 h=0.68 ~l src="Photo: Wikimedia Commons – Roger Babson"
-People called it the “Babson Break“… and then they went right back to buying. || title:"The crash"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Roger Babson" hl=0.058,0.409,0.942,0.732+0.8; H04@0.12,1.0:0.34:bottom
+People called it the “Babson Break“… and then they went right back to buying. || title:"The crash"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Roger Babson" hl=0.058,0.409,0.942,0.732+0.8; H04@0.12,1.0:0.34:bottom
 Even the new president, Herbert Hoover, had promised America was “nearer to the final triumph over poverty than ever before in the history of any land.“ || title:"The crash"; A33@0.82,0.6:0.6~none; doc:p_herbert_hoover.jpg@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Herbert Hoover"
 Everyone was a genius. || title:"The crash"; A33@0.82,0.6:0.6~none; doc:p_herbert_hoover.jpg@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Herbert Hoover"
 Everyone was rich, on paper. || title:"The crash"; A33@0.87,0.68:0.48~none; C24@0.48,0.5:0.46~swing; H22@0.13,0.34:0.28~l; C11@0.13,0.78:0.36~l
@@ -176,7 +176,7 @@ Decades later, a future Fed chairman, Ben Bernanke, publicly admitted it: “Reg
 Washington also had some ideas. || title:"The bottom"; doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.058,0.181,0.36,0.294+0.8; H04@0.12,1.0:0.34:bottom
 Unfortunately. || title:"The bottom"; A27@0.8,0.6:0.58~none
 In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories. || title:"The bottom"; A28@0.8,0.6:0.58~none; C06@0.42,0.36:0.43~pop; G19@0.16,0.36:0.3~pop; D26@0.42,0.74:0.3~pop; H18@0.16,0.74:0.3:"1930"~drop
-More than a thousand economists signed a letter begging President Hoover not to sign it. || title:"The bottom"; doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Herbert Hoover" hl=0.058,0.27,0.942,0.871+0.8; H04@0.12,1.0:0.34:bottom
+More than a thousand economists signed a letter begging President Hoover not to sign it. || title:"The bottom"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Herbert Hoover" hl=0.058,0.27,0.942,0.871+0.8; H04@0.12,1.0:0.34:bottom
 He signed it anyway. || title:"The bottom"; H05@0.8,0.6:0.58~none; C06@0.42,0.36:0.43~pop; G19@0.16,0.36:0.3~pop; D26@0.42,0.74:0.3~pop; H18@0.16,0.74:0.3:"1930"~drop
 Other countries did exactly what you'd expect. || title:"The bottom"; H05@0.5,0.68:0.55~none; D20@0.83,0.62:0.34~r; E48@0.17,0.62:0.34~l
 They put their own tariffs on American goods. || title:"The bottom"; H08@0.13,0.68:0.48~none; G19@0.52,0.5:0.56~swing; "AMERICAN"@0.52,0.9:110:black~r
@@ -223,24 +223,24 @@ Today that's up to two hundred and fifty thousand dollars. || title:"The way bac
 The SEC, so companies have to tell the truth to investors, and those “pools“ from earlier became illegal. || title:"The way back"; A16@1.0,0.62:0.6:right~none; E14@0.64,0.3:0.32~b; D21@0.42,0.52:0.32~b; C11@0.2,0.74:0.36~b; arrow:0.33,0.61>0.29,0.65
 And Social Security. || title:"The way back"; A15@1.0,0.62:0.6:right~none; E14@0.64,0.3:0.32~b; D21@0.42,0.52:0.32~b; C11@0.2,0.74:0.36~b; arrow:0.33,0.61>0.29,0.65
 The recovery was slow and bumpy. || title:"The way back"; A16@1.0,0.62:0.6:right~none; E14@0.64,0.3:0.32~b; D21@0.42,0.52:0.32~b; C11@0.2,0.74:0.36~b; E54@0.18,0.26:0.3~swing
-It took World War Two to finally bring unemployment all the way down. || title:"The way back"; A15@0.5,0.68:0.55~none; E43@0.83,0.62:0.34~r; G18@0.17,0.62:0.34~l; C28@0.78,0.28:0.36~t; "2"@0.5,0.16:100:red
-And the stock market? || title:"The way back"; A06@0.5,0.68:0.55~none; E43@0.83,0.62:0.34~r; G18@0.17,0.62:0.34~l; C28@0.78,0.28:0.36~t; "2"@0.5,0.16:100:red
-It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || title:"The way back"; A18@0.84,0.62:0.5~none; doc:c_day01_S23.png@0.4,0.54 w=0.56 h=0.74 frame=0 ~l; note:"1929"@0.8,0.2>0.40,0.34+1.2
+It took World War Two to finally bring unemployment all the way down. || title:"The way back"; A15@0.16,0.62:0.5~none; doc:p_world_war_two.jpg@0.6,0.54 w=0.56 h=0.68 ~b src="Photo: Wikimedia Commons – World War II"
+And the stock market? || title:"The way back"; A06@0.16,0.62:0.5~none; doc:p_world_war_two.jpg@0.6,0.54 w=0.56 h=0.68 ~b src="Photo: Wikimedia Commons – World War II"
+It didn't get back to its nineteen twenty-nine peak until November nineteen fifty-four. || title:"The way back"; A15@0.84,0.62:0.5~none; doc:c_day01_S23.png@0.4,0.54 w=0.56 h=0.74 frame=0 ~l; note:"1929"@0.8,0.2>0.40,0.34+1.2
 A lot of what broke in nineteen twenty-nine has been fixed. || title:"The way back"; A32@0.82,0.6:0.6~none; doc:c_day01_S24.png@0.36,0.52 w=0.56 h=0.74 frame=0 ~drop; note:"1929"@0.8,0.2>0.36,0.32+1.2
 Your bank deposits are insured. || title:"The way back"; A03@0.14,1.0:0.62:bottom~none; D16@0.86,0.4:0.32~r; E05@0.62,0.4:0.32~r
-The Fed now steps in fast instead of watching. || title:"The way back"; A18@0.14,1.0:0.62:bottom~none; D16@0.86,0.4:0.32~r; E05@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; E24@0.62,0.8:0.3~b
+The Fed now steps in fast instead of watching. || title:"The way back"; A15@0.14,1.0:0.62:bottom~none; D16@0.86,0.4:0.32~r; E05@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; E24@0.62,0.8:0.3~b
 Companies have to report their numbers. || title:"The way back"; doc:s21_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve History — Banking Panics" hl=0.058,0.467,0.823,0.676+0.8; H04@0.12,1.0:0.34:bottom
 But some things can't be fixed with a law. || title:"The way back"; H03@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; "THINGS"@0.38,0.14:110:black~drop
-Because they aren't in the banks… they're in us. || title:"The way back"; A29@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; D15@0.8,0.74:0.32~drop; arrow:0.80,0.45>0.80,0.61
-Borrowed money that feels like free money. || title:"The way back"; A33@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l
-Stock tips from people who've never had a bad year. || title:"The way back"; A44@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; H09@0.78,0.28:0.36~t; E23@0.22,0.28:0.3~t
-And the most expensive belief in finance: “this time is different.“ || title:"The way back"; A24@0.5,0.68:0.55~none; H17@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; H09@0.78,0.28:0.36~t; E23@0.22,0.28:0.3~t
-Every bubble in history has had all three. || title:"The way back"; A27@0.16,0.6:0.62~none; D29@0.86,0.4:0.32~r; H18@0.62,0.4:0.3:"3"~drop
-So the next time everyone around you is getting rich on something they can't explain… remember the guy who bought in September nineteen twenty-nine. || title:"The way back"; A28@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; C09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l; label:"1929"@0.7,0.2>0.13,0.66
-Not because he was stupid. || title:"The way back"; C04@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; C09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l
-Because he was sure. || title:"The way back"; C04@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; C09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l
-In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || title:"The way back"; H05@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "AMERICA"@0.38,0.14:110:red~drop
-The answer might surprise you. || title:"The way back"; H08@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SURPRISE"@0.38,0.14:110:black~drop
-Subscribe so you don't miss it. || title:"The way back"; A40@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SUBSCRIBE"@0.38,0.14:110:red~drop
+Because they aren't in the banks… they're in us. || title:"The way back"; A18@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; D15@0.8,0.74:0.32~drop; arrow:0.80,0.45>0.80,0.61
+Borrowed money that feels like free money. || title:"The way back"; A29@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l
+Stock tips from people who've never had a bad year. || title:"The way back"; A33@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; C28@0.78,0.28:0.36~t; E23@0.22,0.28:0.3~t
+And the most expensive belief in finance: “this time is different.“ || title:"The way back"; A44@0.5,0.68:0.55~none; H17@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; C28@0.78,0.28:0.36~t; E23@0.22,0.28:0.3~t
+Every bubble in history has had all three. || title:"The way back"; A24@0.16,0.6:0.62~none; D29@0.86,0.4:0.32~r; "3"@0.38,0.8:100:red
+So the next time everyone around you is getting rich on something they can't explain… remember the guy who bought in September nineteen twenty-nine. || title:"The way back"; A27@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; H09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l; H18@0.68,0.22:0.3:"1929"~drop
+Not because he was stupid. || title:"The way back"; C04@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; H09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l
+Because he was sure. || title:"The way back"; C04@0.87,0.68:0.48~none; C23@0.48,0.5:0.46~swing; H09@0.13,0.34:0.36~l; E36@0.13,0.78:0.28~l
+In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || title:"The way back"; A28@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "AMERICA"@0.38,0.14:110:red~drop
+The answer might surprise you. || title:"The way back"; H05@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SURPRISE"@0.38,0.14:110:black~drop
+Subscribe so you don't miss it. || title:"The way back"; H08@0.2,0.6:0.66~none; D28@0.8,0.32:0.32~drop; "SUBSCRIBE"@0.38,0.14:110:red~drop
 
 || endscreen; hold:10

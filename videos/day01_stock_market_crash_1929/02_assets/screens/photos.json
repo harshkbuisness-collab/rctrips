@@ -82,5 +82,12 @@
   "file": "p_franklin_roosevelt.jpg",
   "page": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
   "desc": "President of the United States from 1933 to 1945"
+ },
+ {
+  "name": "World War Two",
+  "title": "World War II",
+  "file": "p_world_war_two.jpg",
+  "page": "https://en.wikipedia.org/wiki/World_War_II",
+  "desc": "Global conflict from 1939 to 1945"
  }
 ]
