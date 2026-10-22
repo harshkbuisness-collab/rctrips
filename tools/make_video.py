@@ -30,12 +30,14 @@ Motion (v4): things enter with movement instead of just appearing. Append ~MOTIO
   A01@pos[:height[:anchor]]             library image (height = share of screen height; >= 0.9 makes a
                                         close-up cut by the frame). anchor = left|right|top|bottom pins that
                                         edge of the drawing to pos, for peeking in from the frame edge
+  XM03@pos:height                       the owner's own picture 02_assets/custom/M03.png, used like a library image
   H17@pos:height:"WORD"                 blank prop (H16 sticky note, H17 price tag, H18 sign) with WORD on it
   group:E35*6@x0,y0,x1,y1[:height]      small identical icons added one by one inside a box
   title:"The silent tax"                small red handwritten section title, top left
   "TEXT"@pos:size[:color]               text; color black|red|grey; size >= 90 uses the marker font (rare)
   bubble:"TEXT"@pos[:l|r]               speech bubble, tail to the lower left/right
   think:"TEXT"@pos                      thought bubble
+  board:"TEXT"@pos[:width]              green chalkboard with white chalk text (chapter titles, big questions)
   label:"TEXT"@pos>x,y                  black handwritten note with a red arrow pointing at x,y
   note:"TEXT"@pos[>x,y]                 red handwritten note (optional red arrow)
   arrow:x,y>x,y                         red hand-drawn arrow
@@ -65,7 +67,7 @@ FONT_HAND = os.path.join(ROOT, "library", "fonts", "PatrickHand.ttf")
 W, H, FPS, SR = 1920, 1080, 24, 24000
 RED, BLACK, GREY, LIGHT = (214, 38, 38), (20, 20, 20), (120, 120, 120), (225, 225, 225)
 YELLOW = (255, 232, 40)
-COLORS = {"red": RED, "black": BLACK, "grey": GREY}
+COLORS = {"red": RED, "black": BLACK, "grey": GREY, "green": (52, 160, 52)}
 POS = {"center": (0.5, 0.52), "left": (0.3, 0.52), "right": (0.7, 0.52), "top": (0.5, 0.14),
        "bottom": (0.5, 0.9), "low": (0.5, 0.78), "tl": (0.18, 0.22), "tr": (0.82, 0.22),
        "bl": (0.18, 0.78), "br": (0.85, 0.75)}
@@ -166,7 +168,7 @@ def parse_elem(item):
     if item.startswith("chart@"):
         a, b = item[6:].split("-")
         return {**e, "kind": "chart", "a": float(a), "b": float(b)}
-    m = re.match(r'(bubble|think|label|note):"([^"]*)"@([^:>]+)(?:>([\d.]+,[\d.]+))?(?::(.*))?$', item)
+    m = re.match(r'(bubble|think|label|note|board):"([^"]*)"@([^:>]+)(?:>([\d.]+,[\d.]+))?(?::(.*))?$', item)
     if m:
         kind, text, p, target, opt = m.groups()
         return {**e, "kind": kind, "text": text, "pos": p, "target": target, "opt": opt or ""}
@@ -405,10 +407,15 @@ def rough_ellipse(d, box, color=RED, width=7, seed=1, p=1.0):
 
 # ---------- library images ----------
 _cache = {}
+VDIR = ""
 def load_img(code, h_frac, word=""):
     key = (code, h_frac, word)
     if key not in _cache:
-        path = next(os.path.join(LIB, f) for f in sorted(os.listdir(LIB)) if f.startswith(code + "_"))
+        own = os.path.join(VDIR, "02_assets", "custom")          # X + id = the owner's own picture (XM03 -> M03.png)
+        if code.startswith("X") and os.path.isdir(own):
+            path = next(os.path.join(own, f) for f in sorted(os.listdir(own)) if f.rsplit(".", 1)[0] == code[1:])
+        else:
+            path = next(os.path.join(LIB, f) for f in sorted(os.listdir(LIB)) if f.startswith(code + "_"))
         im = Image.open(path).convert("RGB")
         bbox = ImageOps.invert(im.convert("L")).point(lambda v: 255 if v > 18 else 0).getbbox()
         im = im.crop(bbox) if bbox else im
@@ -569,6 +576,20 @@ def draw_label(d, e, color):
         sx, sy = (cx + np.sign(dx) * (tw / 2 + 15), cy) if abs(dx) > abs(dy) else (cx, cy + np.sign(dy) * 38)
         rough_arrow(d, (sx, sy), (tx - 0.12 * (tx - sx), ty - 0.12 * (ty - sy)), seed=len(e["text"]))
     return box
+
+
+def draw_board(d, e):
+    """Green school chalkboard in a brown wooden frame with white chalk writing (chapter titles, big questions)."""
+    f = font(FONT_HAND, 84)
+    x, y = pos(e["pos"]); cx, cy = x * W, y * H
+    bw, bh = W * float(e["opt"] or 0.46), H * 0.42
+    x0, y0, x1, y1 = cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2
+    d.rounded_rectangle([x0 - 26, y0 - 26, x1 + 26, y1 + 26], 10, fill=(122, 78, 44), outline=BLACK, width=5)
+    d.rectangle([x0, y0, x1, y1], fill=(46, 112, 62), outline=BLACK, width=4)
+    lines = wrap(e["text"], f, bw - 80)
+    for i, l in enumerate(lines):
+        d.text((cx, cy + (i - (len(lines) - 1) / 2) * 92), l, font=f, fill=(245, 245, 235), anchor="mm")
+    return (x0 - 26, y0 - 26, x1 + 26, y1 + 26)
 
 
 def draw_text(d, e):
@@ -829,6 +850,8 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
             boxes.append((k, d.textbbox((70, H - 50), e["text"], font=f, anchor="lm")))
         elif k in ("bubble", "think"):
             boxes.append((k, popped_layer(canvas, lambda dd: draw_bubble(dd, e, think=k == "think"), e, t)))
+        elif k == "board":
+            boxes.append((k, popped_layer(canvas, lambda dd: draw_board(dd, e), e, t)))
         elif k in ("label", "note"):
             boxes.append((k, popped_layer(canvas, lambda dd: draw_label(dd, e, BLACK if k == "label" else RED), e, t)))
         elif k == "arrow":       # drawn on, like a marker stroke
@@ -1007,7 +1030,8 @@ def check(beats, timings, vdir):
 
 
 def main():
-    vdir = os.path.abspath(sys.argv[1])
+    global VDIR
+    vdir = VDIR = os.path.abspath(sys.argv[1])
     beats = parse_beats(os.path.join(vdir, "01_script", "beats.txt"))
     for sub in ("03_voice", "05_export"):
         os.makedirs(os.path.join(vdir, sub), exist_ok=True)

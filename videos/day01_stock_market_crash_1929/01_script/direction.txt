@@ -1,0 +1,248 @@
+# Day 1, directed by hand in the Casual Finance style (see research/10-casual-finance-ipo-video.md).
+# One big focal thing per scene, the narrator small at the edge, evidence cards, green money / red loss numbers,
+# chalkboards for questions, a joke bubble every 20-40 s, scenes that build up. M.. = owner pictures (fallback after |).
+
+# ---------- HOOK ----------
+1: board:"1929"@0.55,0.48:0.5; A38@0.16,0.62:0.58~none
+2: AUTODOC
+3: "25"@0.5,0.42:260:red~pop; "YEARS"@0.5,0.72:110:black~pop+0.3; A35@0.86,0.64:0.5~none
+4: A14@0.16,0.62:0.56~none; G11@0.55,0.5:0.5~pop; xmark+0.6
+5: A20@0.5,0.68:0.5~none; G11@0.2,0.36:0.3~l; D15@0.5,0.24:0.26~t; E33@0.8,0.36:0.3~r; D22@0.2,0.74:0.26~l; E34@0.8,0.74:0.3~r
+6: + label:"the safest bet"@0.5,0.1>0.5,0.2
+7: A08@0.14,0.64:0.52~none; D14@0.5,0.5:0.5~pop; "-90%"@0.8,0.42:180:red~pop+0.6
+8: group:C28*4@0.3,0.25,0.7,0.75:0.42; A09@0.88,0.64:0.5~none; "1 IN 4"@0.5,0.12:120:red~pop; xmark+0.9
+9: M26|D16@0.5,0.48:0.5~pop; "9,000 BANKS"@0.5,0.12:120:red~drop; M18|B03@0.86,0.74:0.3~r; A11@0.13,0.66:0.5~none
+10: A37@0.16,0.62:0.58~none; E10@0.58,0.5:0.6~pop; think:"wait, what?"@0.62,0.18
+11: AUTODOC
+12: A16@0.84,0.62:0.56~none; E19@0.4,0.5:0.5~pop; "THE SPARK"@0.4,0.14:120:red~pop+0.4
+13: doc:p_wall_street.jpg@0.44,0.5 w=0.62 h=0.66 ~l src="Photo: Wikimedia Commons – Wall Street"; A15@0.86,0.62:0.5~none
+14: A05@0.86,0.62:0.56~none; doc:c_day01_S01.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop; bubble:"uh oh"@0.72,0.2:l
+15: board:"The party"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; M25|E47@0.88,0.24:0.24~swing+0.6
+
+# ---------- THE PARTY ----------
+16: "1922"@0.5,0.45:240:black~pop; A23@0.15,0.62:0.56~none
+17: M01|G01@0.52,0.52:0.56~pop; A34@0.15,0.64:0.56~none; bubble:"WE WON!"@0.82,0.2:l
+18: A04@0.84,0.62:0.56~none; M01|G01@0.45,0.52:0.56~none; label:"it really was"@0.45,0.12>0.45,0.25
+19: A36@0.84,0.62:0.56~none; E26@0.42,0.5:0.5~pop; "SCIENCE FICTION"@0.42,0.12:96:black~pop+0.4
+20: M12|E33@0.24,0.48:0.4~l; A02@0.84,0.62:0.56~none
+21: + E36@0.55,0.48:0.34~pop
+22: M11|E13@0.24,0.48:0.4~l; "= iPHONE"@0.56,0.48:120:red~pop+0.5; E08@0.56,0.76:0.26~b+0.8; A03@0.86,0.62:0.56~none
+23: AUTODOC
+24: doc:p_henry_ford.png@0.38,0.5 w=0.5 h=0.7 ~l src="Photo: Wikimedia Commons – Henry Ford"; A15@0.86,0.62:0.5~none
+25: M10|D22@0.5,0.56:0.46~r; "$850"@0.26,0.2:120:red~pop; arrow:0.36,0.2>0.6,0.2+0.8; "$260"@0.74,0.2:120:green~pop+1.0; A21@0.13,0.64:0.5~none
+26: C21@0.2,0.56:0.5~l; M10|D22@0.5,0.62:0.36~none; C09@0.8,0.56:0.5~r; arrow:0.32,0.4>0.68,0.4+0.6
+27: A06@0.84,0.62:0.56~none; doc:c_day01_S03.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop
+28: A32@0.5,0.62:0.58~none; "$260?"@0.2,0.3:110:green~pop; think:"lol no"@0.78,0.2
+29: A17@0.15,0.62:0.58~none; "BUY NOW"@0.55,0.34:130:green~pop; "PAY LATER"@0.55,0.62:130:red~pop+0.9
+30: board:"The installment plan"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+31: doc:c_day01_S04.png@0.42,0.5 w=0.56 h=0.7 frame=0 ~pop; A19@0.86,0.62:0.56~none
+32: AUTODOC
+33: M10|D22@0.4,0.56:0.46~r; D18@0.72,0.4:0.28~pop+0.5; "MOST CARS = CREDIT"@0.46,0.12:90:red~pop; A05@0.88,0.62:0.5~none
+34: A21@0.15,0.62:0.58~none; D13@0.55,0.48:0.5~pop; label:"for a while..."@0.55,0.1>0.55,0.22+0.8
+
+# ---------- THE CASINO ----------
+35: board:"The casino"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; E28@0.88,0.22:0.22~swing+0.6
+36: E33@0.22,0.45:0.38~l; C09@0.5,0.48:0.4~pop+0.4; E36@0.8,0.45:0.36~r+0.8
+37: E24@0.24,0.4:0.34~pop; D13@0.55,0.42:0.4~pop; "FORWARD!"@0.6,0.82:110:green~pop+0.8; A02@0.88,0.62:0.5~none
+38: doc:c_day01_S05.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A05@0.87,0.62:0.5~none
+39: M14|C14@0.45,0.52:0.56~l; "#1 FARMERS"@0.45,0.12:110:black~pop; A06@0.86,0.62:0.5~none
+40: G16@0.24,0.34:0.3~l; arrow:0.36,0.34>0.56,0.34; M14|C14@0.7,0.52:0.5~none; E33@0.24,0.72:0.28~b; "DEBT"@0.86,0.16:90:red~pop+1.0
+41: + D14@0.24,0.72:0.3~jolt; A11@0.08,0.66:0.36~none
+42: G13@0.5,0.5:0.52~pop; "1 IN 4"@0.5,0.12:110:red~pop; A08@0.88,0.64:0.5~none
+43: M14|C14@0.35,0.52:0.52~none; B03@0.66,0.6:0.3~pop; bubble:"roaring? me??"@0.7,0.2:l
+44: "#2"@0.32,0.2:110:black~pop; A39@0.5,0.62:0.58~none; E16@0.78,0.5:0.34~r
+45: M11|E13@0.24,0.48:0.36~none; M10|D22@0.52,0.5:0.36~none; xmark+0.5
+46: doc:c_day01_S06.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A36@0.87,0.62:0.5~none
+47: M07|C21@0.44,0.52:0.56~l; G11@0.8,0.44:0.36~pop+0.4; A01@0.12,0.66:0.4~none
+48: doc:c_day01_S07.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A34@0.87,0.62:0.5~none
+49: C09@0.16,0.52:0.44~l; C11@0.38,0.52:0.44~l; C13@0.6,0.52:0.44~l; M28|C27@0.84,0.52:0.44~r; label:"your barber!"@0.84,0.12>0.84,0.26+0.6
+50: A37@0.16,0.62:0.58~none; H22@0.56,0.5:0.44~pop; "maybe true, maybe not"@0.56,0.14:64:grey~pop+0.4
+51: doc:p_joseph_kennedy.jpg@0.3,0.5 w=0.4 h=0.62 ~l src="Photo: Wikimedia Commons – Joseph Kennedy"; M06|C27@0.72,0.56:0.5~r+0.6; bubble:"buy RCA, sir!"@0.78,0.16:l
+52: M06|C27@0.5,0.56:0.52~none; E44@0.84,0.3:0.3~swing; A13@0.14,0.64:0.5~none; label:"time to leave"@0.84,0.62>0.84,0.4
+53: A35@0.84,0.62:0.56~none; E18@0.42,0.5:0.46~pop; E19@0.42,0.24:0.2~pop+0.6
+54: doc:c_day01_S08.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A03@0.87,0.62:0.5~none
+55: AUTODOC
+56: board:"How margin works"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+57: "$100"@0.5,0.18:130:green~pop; G11@0.5,0.56:0.46~pop; A06@0.13,0.64:0.5~none
+58: doc:c_day01_S09.png@0.44,0.52 w=0.56 h=0.7 frame=0 ~pop; "$10 you"@0.86,0.3:72:green~pop+0.6; "$90 broker"@0.86,0.6:72:red~pop+1.2
+59: "+10%"@0.3,0.3:150:green~pop; D13@0.3,0.66:0.36~b; "+$10"@0.72,0.4:150:green~pop+0.8
+60: "x2"@0.5,0.42:260:green~pop; A34@0.15,0.64:0.56~none; E03@0.82,0.5:0.4~drop
+61: "-10%"@0.3,0.3:150:red~pop; D14@0.3,0.66:0.36~b; "$0"@0.72,0.42:180:red~pop+0.8; A11@0.88,0.66:0.44~none
+62: M05|D24@0.42,0.52:0.52~pop; bubble:"you owe me"@0.7,0.2:l; A32@0.88,0.64:0.5~none
+63: "$8.5 BILLION"@0.5,0.2:130:green~pop; group:E02*8@0.18,0.4,0.82,0.86:0.2; A08@0.92,0.7:0.36~none
+
+# ---------- THE CRASH ----------
+64: board:"The crash"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D14@0.88,0.24:0.22~jolt+0.6
+65: + "> ALL CASH IN AMERICA"@0.56,0.88:72:red~pop
+66: doc:p_wall_street.jpg@0.42,0.5 w=0.56 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; A05@0.86,0.62:0.5~none; label:"tricks"@0.86,0.14>0.66,0.26+0.6
+67: group:C21*4@0.2,0.3,0.7,0.8:0.36; "POOLS"@0.45,0.12:120:black~pop; A05@0.88,0.62:0.5~none
+68: + G11@0.82,0.3:0.26~r
+69: C21@0.2,0.5:0.4~l; arrow:0.3,0.4>0.46,0.4; C02@0.5,0.5:0.4~pop; E09@0.72,0.36:0.3~t+0.6; C28@0.84,0.7:0.3~r+1.2; E03@0.3,0.82:0.2~b+1.8
+70: E55@0.42,0.5:0.44~pop; "ILLEGAL TODAY"@0.42,0.14:100:red~pop; A12@0.86,0.62:0.5~none
+71: + bubble:"1929: lol"@0.72,0.84:l
+72: D13@0.4,0.6:0.36~b; A02@0.85,0.62:0.5~none
+73: + D13@0.62,0.4:0.36~b
+74: D13@0.4,0.52:0.56~b; "DOW JONES"@0.4,0.12:96:black~pop; "6X"@0.78,0.42:220:green~pop+0.8; A34@0.9,0.8:0.3~none
+75: doc:c_day01_S10.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A04@0.87,0.62:0.5~none
+76: group:A38*3@0.2,0.4,0.8,0.86:0.4; "EXPERTS AGREE"@0.5,0.14:100:black~pop
+77: doc:p_irving_fisher.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Irving Fisher"; bubble:"a permanently high plateau"@0.7,0.3:l; D13@0.74,0.72:0.3~pop+0.8
+78: AUTODOC
+79: doc:p_irving_fisher.jpg@0.3,0.5 w=0.38 h=0.62 src="Photo: Wikimedia Commons – Irving Fisher"; A13@0.82,0.62:0.56~none; "not his best work"@0.68,0.16:64:red~pop
+80: E44@0.5,0.48:0.5~swing; A09@0.13,0.64:0.5~none
+81: E25@0.5,0.48:0.46~pop; "SEPTEMBER"@0.5,0.12:100:black~pop; A01@0.13,0.64:0.5~none
+82: doc:p_roger_babson.jpg@0.28,0.5 w=0.36 h=0.62 ~l src="Photo: Wikimedia Commons – Roger Babson"; bubble:"a crash is coming"@0.66,0.24:l; D14@0.7,0.7:0.3~jolt+1.4
+83: AUTODOC
+84: doc:p_herbert_hoover.jpg@0.28,0.5 w=0.36 h=0.62 ~l src="Photo: Wikimedia Commons – Herbert Hoover"; bubble:"final triumph over poverty!"@0.68,0.26:l; E28@0.72,0.72:0.28~pop+1.0
+85: A50@0.5,0.62:0.6~pop; "GENIUS"@0.5,0.12:110:green~pop
+86: + H15@0.82,0.5:0.32~swing; label:"on paper"@0.82,0.84>0.82,0.68
+87: doc:c_day01_S11.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
+88: E25@0.36,0.48:0.46~pop; "OCT 24, 1929"@0.7,0.3:96:red~pop; "BLACK THURSDAY"@0.7,0.6:80:black~pop+0.6; A35@0.9,0.84:0.3~none
+89: G12@0.4,0.44:0.4~swing; group:D14*3@0.6,0.3,0.92,0.7:0.24; A09@0.13,0.66:0.46~none
+90: + xmark
+91: M08|E13@0.42,0.5:0.5~jolt; "1 HOUR LATE"@0.42,0.12:100:red~pop+0.6; A08@0.86,0.62:0.5~none
+92: A07@0.84,0.62:0.56~none; G11@0.4,0.5:0.44~none; E48@0.4,0.16:0.24~pop; think:"price??"@0.66,0.2
+93: doc:p_new_york_stock_exchange.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – New York Stock Exchange"; C28@0.86,0.72:0.36~r
+94: doc:p_wall_street.jpg@0.42,0.5 w=0.6 h=0.62 src="Photo: Wikimedia Commons – Wall Street"; E55@0.86,0.36:0.24~drop; C28@0.86,0.72:0.36~none
+95: group:C01*4@0.2,0.3,0.75,0.82:0.4; "SECRET MEETING"@0.48,0.12:96:black~pop; A37@0.88,0.64:0.5~none
+
+# ---------- THE BANKS ----------
+96: board:"The rescue"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; E50@0.88,0.24:0.2~pop
+97: C21@0.42,0.56:0.56~l; label:"Richard Whitney"@0.42,0.12>0.42,0.26; F05@0.82,0.5:0.4~r
+98: doc:c_day01_S12.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; bubble:"I'll buy!"@0.82,0.22:l
+99: G11@0.36,0.5:0.44~pop; "$205"@0.74,0.4:150:green~pop+0.5; A36@0.88,0.8:0.3~none
+100: AUTODOC
+101: A34@0.5,0.62:0.6~pop; "IT WORKED!"@0.5,0.12:120:green~pop
+102: D13@0.42,0.5:0.5~b; A21@0.86,0.62:0.5~none
+103: E09@0.42,0.5:0.44~pop; A29@0.86,0.62:0.5~none; bubble:"phew"@0.7,0.2:l
+104: board:"Crisis over!"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none
+105: + "(for 3 days)"@0.56,0.88:80:red~pop
+106: D14@0.4,0.5:0.5~jolt; "-13%"@0.76,0.36:170:red~pop; A08@0.88,0.8:0.3~none; label:"Monday"@0.4,0.12>0.4,0.25
+107: + "-12%"@0.76,0.68:170:red~pop; label:"Tuesday"@0.2,0.86>0.36,0.74
+108: M08|E13@0.36,0.5:0.5~jolt; "16 MILLION"@0.74,0.36:110:red~pop; "shares"@0.74,0.56:70:black~pop+0.4
+109: A41@0.5,0.66:0.5~none; E48@0.2,0.36:0.26~pop; think:"hello??"@0.76,0.24
+110: board:"Remember margin?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+111: + E18@0.88,0.24:0.24~jolt
+112: M04|C02@0.32,0.54:0.52~l; E08@0.56,0.4:0.24~pop; bubble:"pay up. NOW."@0.72,0.2:l; A35@0.88,0.66:0.44~none
+113: G11@0.2,0.46:0.3~pop; arrow:0.3,0.46>0.46,0.46; D14@0.56,0.46:0.3~pop+0.5; arrow:0.66,0.46>0.8,0.46+0.8; E08@0.88,0.46:0.24~pop+1.0; arrow:0.86,0.64>0.24,0.64+1.6
+114: "-40%"@0.42,0.42:240:red~pop; "in weeks"@0.42,0.72:80:black~pop+0.4; A11@0.86,0.66:0.48~none
+115: D03@0.42,0.5:0.5~pop; E24@0.74,0.3:0.26~r; label:"before lunch"@0.74,0.62>0.74,0.42; A42@0.86,0.86:0.26~none
+116: A05@0.16,0.62:0.58~none; E48@0.56,0.5:0.44~pop
+117: D13@0.42,0.5:0.48~b; "SPRING 1930"@0.42,0.12:96:green~pop; A02@0.86,0.62:0.5~none
+118: doc:c_day01_S13.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A29@0.87,0.62:0.5~none
+119: + xmark
+120: A09@0.84,0.62:0.56~none; M15|G24@0.4,0.4:0.48~t; "THE WORST..."@0.4,0.82:90:red~pop+0.6
+121: doc:c_day01_S14.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; H27@0.86,0.3:0.22~pop+0.6; A23@0.86,0.7:0.4~none
+122: A24@0.42,0.6:0.6~pop; H28@0.78,0.5:0.36~drop; bubble:"also the editor stayed up til 3am"@0.72,0.16:l
+123: A01@0.5,0.62:0.6~none; "OKAY."@0.5,0.14:110:black~pop
+124: "1930"@0.5,0.45:240:black~pop; A33@0.15,0.62:0.56~walk
+125: G11@0.4,0.5:0.44~none; C02@0.72,0.56:0.44~r; A11@0.12,0.66:0.4~none; label:"investors"@0.72,0.14>0.72,0.3
+126: group:C28*3@0.2,0.3,0.8,0.8:0.4; "EVERYONE"@0.5,0.12:120:red~pop
+127: M02|D16@0.42,0.52:0.56~pop; A15@0.86,0.62:0.5~none; label:"the banks"@0.74,0.14>0.52,0.24
+128: E21@0.42,0.52:0.5~pop; "NO INSURANCE"@0.42,0.12:100:red~pop; A14@0.86,0.62:0.5~none
+129: M18|B03@0.42,0.52:0.5~pop; "GONE."@0.78,0.42:130:red~pop+0.6
+130: E09@0.4,0.5:0.4~pop; xmark+0.5; A14@0.86,0.62:0.5~none
+131: E08@0.4,0.5:0.4~pop; xmark+0.5; A28@0.86,0.62:0.5~none
+132: D15@0.3,0.5:0.4~l; arrow:0.42,0.5>0.6,0.5; G11@0.72,0.5:0.4~pop+0.5
+133: + E02@0.5,0.82:0.24~b; C02@0.88,0.66:0.4~r
+
+# ---------- MAKING IT WORSE ----------
+134: board:"Making it worse"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+135: + D14@0.88,0.24:0.24~jolt
+136: doc:c_day01_S15.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A10@0.86,0.62:0.5~walk
+137: A10@0.5,0.62:0.6~walk; "THEY RAN."@0.5,0.12:120:red~pop
+138: D16@0.42,0.52:0.5~pop; E08@0.72,0.3:0.24~r; think:"is my bank ok?"@0.76,0.66; A07@0.12,0.66:0.42~none
+139: doc:c_day01_S16.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "RIGHT NOW!"@0.82,0.2:80:red~pop+0.4
+140: M16|C28@0.42,0.56:0.5~r; M02|D16@0.82,0.5:0.4~jolt; A35@0.1,0.66:0.36~none
+141: + label:"lent out"@0.82,0.14>0.82,0.3; E03@0.66,0.2:0.2~drop
+142: E09@0.4,0.5:0.48~pop; "BANK OF UNITED STATES"@0.5,0.12:84:black~pop; A05@0.86,0.62:0.5~none
+143: M16|C28@0.44,0.56:0.56~r; A09@0.88,0.62:0.5~none
+144: D16@0.44,0.52:0.5~jolt; H18@0.8,0.3:0.3:"CLOSED"~drop
+145: "400,000"@0.46,0.3:170:red~pop; "people locked out"@0.46,0.56:72:black~pop+0.4; E21@0.46,0.8:0.24~b; A11@0.88,0.66:0.44~none
+146: G10@0.4,0.5:0.48~pop; xmark+0.5; A16@0.86,0.62:0.5~none
+147: + bubble:"just the name lol"@0.72,0.2:l
+148: group:D16*3@0.2,0.3,0.8,0.7:0.3; A09@0.92,0.8:0.3~none
+149: M26|D16@0.48,0.5:0.56~pop; label:"city after city"@0.48,0.12>0.48,0.24
+150: "9,000"@0.48,0.4:240:red~pop; "banks failed"@0.48,0.72:80:black~pop+0.4; A42@0.88,0.82:0.3~none
+151: doc:c_day01_S17.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A08@0.87,0.62:0.5~none
+152: M22|E04@0.36,0.56:0.5~pop; E01@0.74,0.5:0.3~pop; arrow:0.74,0.3>0.74,0.7+0.8
+153: AUTODOC
+154: "PRICES DOWN"@0.42,0.4:150:red~pop; E39@0.42,0.72:0.28~b; A06@0.86,0.62:0.5~none
+155: A02@0.16,0.62:0.58~none; E36@0.52,0.5:0.44~pop; bubble:"cheap groceries!"@0.76,0.2:l
+156: doc:c_day01_S18.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
+157: M14|C14@0.3,0.54:0.5~l; "CROPS DOWN"@0.66,0.3:96:red~pop; "MORTGAGE ="@0.66,0.6:96:black~pop+0.8
+158: E33@0.3,0.5:0.44~l; "PRICES DOWN"@0.66,0.24:90:red~pop; "WAGES DOWN"@0.66,0.48:90:red~pop+0.6; "JOBS DOWN"@0.66,0.72:90:red~pop+1.2
+159: D02@0.42,0.52:0.5~pop; A11@0.86,0.66:0.48~none
+160: doc:p_the_federal_reserve.png@0.4,0.5 w=0.5 h=0.62 ~l src="Photo: Wikimedia Commons – Federal Reserve"; M13|G10@0.8,0.56:0.4~pop+1.4; label:"just watched"@0.8,0.14>0.8,0.32+1.6
+161: doc:p_ben_bernanke.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Ben Bernanke"; bubble:"we did it. we're very sorry."@0.7,0.28:l
+
+# ---------- THE BOTTOM ----------
+162: board:"The bottom"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D14@0.88,0.8:0.2~jolt
+163: AUTODOC
+164: G09@0.42,0.5:0.48~pop; A13@0.86,0.62:0.5~none; "unfortunately."@0.42,0.12:80:red~pop
+165: M17|G19@0.42,0.5:0.5~drop; "SMOOT-HAWLEY TARIFF"@0.42,0.1:84:black~pop; E31@0.84,0.62:0.3~r
+166: AUTODOC
+167: doc:p_herbert_hoover.jpg@0.36,0.5 w=0.42 h=0.62 src="Photo: Wikimedia Commons – Herbert Hoover"; D24@0.76,0.5:0.36~pop; label:"signed anyway"@0.76,0.14>0.76,0.3
+168: G16@0.24,0.4:0.34~l; G15@0.5,0.4:0.3~t; G14@0.76,0.4:0.34~r; A06@0.5,0.82:0.32~none
+169: + G19@0.5,0.75:0.3~drop; bubble:"fine, us too"@0.82,0.12:l
+170: E43@0.42,0.5:0.5~pop; "-2/3"@0.78,0.42:170:red~pop+0.5; E31@0.42,0.84:0.2~jolt
+171: M14|C14@0.36,0.54:0.52~l; xmark+0.8; A13@0.86,0.62:0.5~none
+172: G09@0.36,0.5:0.44~pop; D26@0.72,0.52:0.4~r; "TAXES UP"@0.72,0.12:100:red~pop
+173: D21@0.42,0.52:0.5~jolt; E50@0.62,0.28:0.2~pop; A35@0.86,0.62:0.5~none
+174: "-89%"@0.46,0.42:260:red~pop; D14@0.46,0.8:0.24~b; A42@0.88,0.84:0.28~none
+175: "$100"@0.26,0.42:150:green~pop; arrow:0.4,0.42>0.6,0.42+0.6; "$11"@0.76,0.42:150:red~pop+0.8; A08@0.5,0.82:0.3~none
+176: group:C28*4@0.24,0.3,0.76,0.78:0.4; "1 IN 4"@0.5,0.12:110:red~pop; A41@0.9,0.7:0.36~none
+177: H15@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
+178: E39@0.42,0.5:0.44~pop; xmark+0.5; A14@0.86,0.62:0.5~none
+179: M19|C28@0.5,0.54:0.6~pop; A41@0.88,0.72:0.34~none
+180: + "BREADLINES"@0.5,0.12:110:black~pop
+181: M21|C01@0.4,0.54:0.56~l; E40@0.7,0.6:0.26~pop; label:"used to be a banker"@0.74,0.14>0.5,0.26
+182: M20|E35@0.44,0.54:0.56~pop; H24@0.82,0.7:0.24~drop; A11@0.12,0.66:0.4~none
+183: + "HOOVERVILLES"@0.44,0.12:110:red~pop
+184: AUTODOC
+185: doc:p_the_great_plains.jpg@0.42,0.5 w=0.6 h=0.62 ~l src="Photo: Wikimedia Commons – Great Plains"; A08@0.88,0.66:0.44~none
+186: M15|G24@0.44,0.44:0.56~t; "OKLAHOMA  KANSAS  TEXAS"@0.44,0.86:64:black~pop+0.6; A09@0.88,0.66:0.44~none
+187: doc:c_day01_S19.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~r; label:"to California"@0.84,0.2>0.7,0.36
+188: "20,000"@0.4,0.24:150:black~pop; "veterans"@0.4,0.46:80:black~pop+0.4; G09@0.4,0.74:0.3~b; A01@0.86,0.62:0.5~none
+189: doc:c_day01_S20.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "1945"@0.84,0.3:110:red~pop+0.6; bubble:"we need it now"@0.84,0.7:l
+
+# ---------- THE WAY BACK ----------
+190: board:"The way back"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; E17@0.88,0.22:0.22~pop+0.6
+191: E23@0.42,0.5:0.48~pop; "NOW."@0.78,0.42:150:red~pop+0.4
+192: doc:c_day01_S21.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A06@0.87,0.62:0.5~none
+193: G18@0.42,0.54:0.5~l; A09@0.86,0.62:0.5~none
+194: + E47@0.62,0.3:0.26~pop; label:"vs their own vets"@0.42,0.12>0.42,0.28
+195: doc:c_day01_S22.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A11@0.87,0.64:0.48~none
+196: E25@0.42,0.5:0.46~pop; "MARCH 1933"@0.42,0.12:100:black~pop; A01@0.86,0.62:0.5~none
+197: doc:p_franklin_roosevelt.jpg@0.3,0.5 w=0.38 h=0.62 ~l src="Photo: Wikimedia Commons – Franklin Roosevelt"; bubble:"the only thing we have to fear is fear itself"@0.7,0.3:l
+198: D15@0.42,0.52:0.5~pop; H18@0.8,0.3:0.3:"CLOSED"~drop; A08@0.88,0.8:0.3~none
+199: + bubble:"bank holiday!"@0.24,0.16:r
+200: E16@0.36,0.5:0.4~pop; H28@0.6,0.56:0.3~pop; E21@0.82,0.5:0.3~r+0.8; A39@0.12,0.66:0.4~none
+201: M11|E13@0.42,0.5:0.5~pop; bubble:"bank > mattress"@0.76,0.2:l; A29@0.86,0.7:0.36~none
+202: + A02@0.86,0.7:0.36~none; label:"what a voice"@0.24,0.84>0.36,0.7
+203: D15@0.42,0.52:0.46~pop; E01@0.2,0.5:0.24~r+0.4; arrow:0.26,0.5>0.32,0.5+0.6; A21@0.86,0.62:0.5~none
+204: + "RUNS STOPPED"@0.42,0.12:100:green~pop
+205: AUTODOC
+206: M23|E21@0.42,0.52:0.5~pop; "FDIC"@0.42,0.12:120:black~pop; A21@0.86,0.62:0.5~none
+207: "$250,000"@0.42,0.42:170:green~pop; label:"insured"@0.42,0.72>0.42,0.56; A02@0.86,0.62:0.5~none
+208: "SEC"@0.28,0.2:120:black~pop; D24@0.28,0.56:0.4~pop; group:C21*3@0.6,0.36,0.92,0.76:0.3; xmark+1.2
+209: C13@0.42,0.54:0.5~pop; "SOCIAL SECURITY"@0.42,0.12:96:black~pop; A21@0.86,0.62:0.5~none
+210: E54@0.42,0.56:0.44~l; D13@0.72,0.36:0.3~pop+0.6; A29@0.12,0.66:0.4~none
+211: G18@0.36,0.54:0.44~l; "JOBS UP"@0.74,0.4:120:green~pop+0.6
+212: board:"And the stock market?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+213: doc:c_day01_S23.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; "25 YEARS"@0.84,0.3:90:red~pop+0.6; A41@0.87,0.72:0.36~none
+214: doc:c_day01_S24.png@0.44,0.5 w=0.58 h=0.72 frame=0 ~pop; A21@0.87,0.62:0.5~none
+215: M23|E21@0.3,0.5:0.4~pop; A21@0.86,0.62:0.5~none; "FIXED"@0.6,0.3:130:green~pop
+216: G10@0.3,0.5:0.4~pop; "FIXED"@0.6,0.3:130:green~pop; A50@0.86,0.62:0.5~none
+217: AUTODOC
+218: board:"Some things can't be fixed with a law"@0.56,0.46:0.56; A38@0.16,0.62:0.58~none
+219: A20@0.5,0.62:0.6~none; H27@0.5,0.24:0.24~pop; label:"they're in us"@0.24,0.24>0.44,0.24
+220: "1."@0.12,0.26:110:red~pop; E03@0.4,0.3:0.3~pop; label:"borrowed money"@0.72,0.3>0.5,0.3; A30@0.86,0.72:0.36~none
+221: + "2."@0.12,0.56:110:red~pop; M06|C27@0.4,0.6:0.3~pop; label:"hot stock tips"@0.72,0.6>0.5,0.6
+222: + "3."@0.12,0.84:110:red~pop; "THIS TIME IS DIFFERENT"@0.56,0.86:72:black~pop
+223: "ALL 3"@0.42,0.2:130:red~pop; D29@0.42,0.6:0.48~pop; A06@0.86,0.62:0.5~none
+224: A37@0.16,0.62:0.58~none; "SEPTEMBER 1929"@0.58,0.4:110:black~pop; A33@0.6,0.72:0.3~walk+0.8
+225: + xmark
+226: A04@0.5,0.62:0.6~none; "HE WAS SURE."@0.5,0.14:110:red~pop
+227: G13@0.36,0.5:0.44~pop; "WHO AMERICA OWES"@0.36,0.12:90:black~pop; E48@0.68,0.44:0.26~pop; A05@0.88,0.62:0.5~none
+228: + bubble:"the answer might surprise you"@0.7,0.84:l
+229: A23@0.5,0.6:0.56~none; "SUBSCRIBE!"@0.5,0.16:150:red~pop; H27@0.78,0.5:0.26~pop+0.4

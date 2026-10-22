@@ -339,17 +339,47 @@ def photo_for(s, photos, used, now):
     return None
 
 
+SCREENS = ""                                         # the video's screens folder (set in main)
+
+
+def card(m):
+    """Cut the screenshot down to the part that matters (the quote and the lines around it), like a headline card:
+    writes <file>_card.png and returns (file, highlight box inside the card)."""
+    from PIL import Image
+    x0, y0, x1, y1 = m["box"]
+    src = os.path.join(SCREENS, m["file"])
+    im = Image.open(src).convert("RGB")
+    W_, H_ = im.size
+    a0, a1_ = max(0, min(x0 - 0.04, 0.14)), min(1, max(x1 + 0.04, 0.8))   # the whole text column
+    cw = a1_ - a0
+    ch = cw * W_ / H_ * 0.42                          # wide card (about 2.4 : 1)
+    cy = (y0 + y1) / 2
+    b0 = min(max(cy - ch / 2, 0), max(0, 1 - ch))
+    a1, b1 = a0 + cw, min(1, b0 + ch)
+    out = m["file"].rsplit(".", 1)[0] + "_card.png"
+    im.crop((int(a0 * W_), int(b0 * H_), int(a1 * W_), int(b1 * H_))).save(os.path.join(SCREENS, out))
+    r = lambda v, a, w: round(min(1, max(0, (v - a) / w)), 3)
+    return out, (r(x0, a0, cw), r(y0, b0, b1 - b0), r(x1, a0, cw), r(y1, b0, b1 - b0))
+
+
 def doc_elem(c, meta):
     m = meta.get(c)
     if not m or not m.get("ok"):
         return None
-    hl = " hl=" + ",".join(str(v) for v in m["box"]) + "+0.8" if m.get("box") else ""
-    return (f'doc:{m["file"]}@0.44,0.54 w=0.72 h=0.76 src="Source: {clean(m["source"])}"{hl}; '
+    if m.get("box"):                                  # the card with the quote, highlighted, the narrator pointing at it
+        f, b = card(m)
+        side = len(f) % 2
+        return (f'doc:{f}@{0.42 if side else 0.58},0.5 w=0.7 h=0.6 src="Source: {clean(m["source"])}" '
+                f'hl={",".join(str(v) for v in b)}+0.8; ' +
+                (f"A38@0.88,0.62:0.56~none" if side else f"H04@0.12,1.0:0.34:bottom"))
+    return (f'doc:{m["file"]}@0.44,0.54 w=0.72 h=0.76 src="Source: {clean(m["source"])}"; '
             f"H04@0.9,1.0:0.3:bottom")
 
 
 def main(script, vdir):
     d = parse_script.parse(script)
+    global SCREENS
+    SCREENS = os.path.join(vdir, "02_assets", "screens")
     sp = os.path.join(vdir, "02_assets", "screens", "screens.json")
     shots = json.load(open(sp)) if os.path.exists(sp) else []
     by_line = {}
@@ -441,6 +471,8 @@ def main(script, vdir):
     out = os.path.join(vdir, "01_script")
     os.makedirs(out, exist_ok=True)
     open(os.path.join(out, "beats.txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
+    import direct
+    direct.apply(vdir, d["day"])                   # hand-directed scenes (01_script/direction.txt), if any
     nb = sum(1 for l in lines if "||" in l)
     print(f"{nb} beats -> {out}/beats.txt ({missing} screenshots missing)")
 

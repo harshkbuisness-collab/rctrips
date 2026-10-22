@@ -41,6 +41,8 @@ def candidates(script):
         words = name.lstrip("?").split()
         if not words or words[0] in SKIP or all(w in SKIP for w in words) or set(words) & fiction:
             continue
+        if name.lstrip("?").lower() in ("america", "world war", "united states", "europe"):
+            continue                                 # a flag or a general page is not evidence
         if name.lower() not in seen:
             seen.add(name.lower())
             out.append(name)
