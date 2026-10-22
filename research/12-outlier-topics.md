@@ -469,7 +469,82 @@ Evidence ideas: Wikipedia Wall Street page; old maps of New Amsterdam (Wikimedia
 End with a short subscribe line (no next-video tease).
 ```
 
-## 6. FINAL 30, all outlier-proven (upload order, 22 Oct 2026)
+
+## 6. Search round 2 (22 Oct 2026, 4 more vidIQ searches)
+Backup topics now proven: day07 AI bubble (many, up to 649x / 440K), day23 Theranos ("She Built A Billion Dollar Company
+(Then Someone Checked)" 542 subs, 81x), day03 Wolf of Wall Street (439 subs, 38K, 120x), day12 tax ("No Income Tax Until
+1913" 894K, 92x). Not proven: Rockefeller, NVIDIA, Bezos, credit cards, tariffs, bitcoin.
+Strong new finds: "How Banks Treat You at Every Level of Wealth" 1.1M, 238x; "How Your Neighbor Affords a $70,000 Truck"
+1.3K subs, 1399x; "Timothy Dexter: Everyone Called Him an Idiot" 3.9K subs, 990K, 151x; "Everest College rise & fall" 628x;
+"Americans Are Refusing to Tip" 496 subs, 577x; "10 CEOs Who Destroyed Their Companies" 328K, 64x; Evergrande 114x; Madoff 60x.
+
+### DAY 51
+Proof: How Your Neighbor Affords a $70,000 Truck, 1.3K subs, 130K, 1399x
+```
+Write Day 51.
+Working title: How Your Neighbor Affords a $70,000 Truck
+Other title ideas: Nobody Can Afford That Truck. So How Are They Driving It? | The 84-Month Car Loan Trap
+Thumbnail text: They Can't Afford It.
+Type: Investigation
+Hook idea: The average new truck costs more than many people earn in a year. Yet the street is full of them. How?
+Outline:
+1) The average new car and truck price today vs median income
+2) Trick 1: the 72- and 84-month loan (show total interest on a simple example)
+3) Trick 2: rolling old loan debt into the new loan (negative equity)
+4) Trick 3: leases and "what's the monthly payment?"
+5) Who profits: dealers, lenders, the finance office
+6) The cost: car loan delinquencies at record highs
+7) What it means for you: the real price of a monthly payment
+Facts to check: average new vehicle price (Kelley Blue Book); average loan term and payment (Edmunds / Experian); share with negative equity (Edmunds); auto delinquency rate (NY Fed Household Debt report)
+Evidence ideas: KBB average price page; NY Fed household debt chart; Edmunds report headline; simple bar chart: price vs total paid
+End with a short subscribe line (no next-video tease).
+```
+
+### DAY 52
+Proof: How Banks Treat You at Every Level of Wealth, 30K subs, 1.1M, 238x (and a copy with 421K)
+```
+Write Day 52.
+Working title: How Banks Treat You at Every Level of Wealth
+Other title ideas: $0 to $25 Million: What Your Bank Does at Each Level | The Richer You Are, the Less You Pay
+Thumbnail text: Same Bank. Different Rules.
+Type: Levels list (like the levels-of-wealth format)
+Hook idea: Walk into the same bank with $0, $10,000, $1 million and $25 million. You get four completely different banks.
+Outline:
+1) $0-$1,000: overdraft fees, minimum balance fees (who pays most fees)
+2) $10,000: free checking, the first credit card offers
+3) $100,000: "premier" accounts, better rates, a name not a number
+4) $1 million: private banking, a personal banker, lower loan rates
+5) $25 million+: loans against stock, custom deals, the bank comes to you
+6) Why: how banks earn money from each group
+7) What it means for you: fees to avoid at each level
+Facts to check: overdraft fee revenue (CFPB); typical private-banking minimums (bank websites); securities-based lending basics
+Evidence ideas: CFPB overdraft report page; bank premier account pages; staircase graphic of levels
+End with a short subscribe line (no next-video tease).
+```
+
+### DAY 53
+Proof: Everyone Called Him an Idiot. He Got Richer Every Time. | Timothy Dexter, 3.9K subs, 990K, 151x
+```
+Write Day 53.
+Working title: Everyone Called Him an Idiot. He Got Richer Every Time.
+Other title ideas: The Dumbest Rich Man in American History | He Sold Coal to a Coal Town. And Won.
+Thumbnail text: He Was An Idiot.
+Type: Story (comedy)
+Hook idea: In the 1700s, a man made every stupid business move people dared him to make. Every single one made him richer.
+Outline:
+1) Timothy Dexter: no education, a leather worker in Massachusetts
+2) The big gamble: buying almost worthless Continental dollars, then they were honored
+3) The "jokes": warming pans to the West Indies, coal to Newcastle, and why they worked (be clear which stories may be legend)
+4) His mansion, his statues, his fake funeral
+5) His book with no punctuation
+6) The real lesson: luck, timing and being early (link to modern meme stocks)
+7) What it means for you
+Facts to check: dates and facts from Dexter's Wikipedia page and historical sources; which stories are his own claims
+Evidence ideas: Wikipedia Timothy Dexter page; his portrait and house (Wikimedia); Continental currency photo; page of 'A Pickle for the Knowing Ones'
+End with a short subscribe line (no next-video tease).
+```
+
+## 7. FINAL 30, all outlier-proven (upload order, 22 Oct 2026)
 
 | # | Topic | Script |
 |---|---|---|
@@ -493,15 +568,16 @@ End with a short subscribe line (no next-video tease).
 | 18 | Why can't the government just print money? | day06 |
 | 19 | The 1929 warning signs are back | NEW 35 |
 | 20 | If the dollar collapses, day by day | NEW 37 |
-| 21 | The Fed chair's plan for the debt | NEW 43 |
+| 21 | How your neighbor affords a $70,000 truck | NEW 51 |
 | 22 | Where does money come from? | day21 |
-| 23 | Which states get hit first in a recession | NEW 45 |
+| 23 | How banks treat you at every level of wealth | NEW 52 |
 | 24 | How the rich pay less tax | day12 |
 | 25 | One trader broke a 233-year-old bank | NEW 46 |
 | 26 | Every market crash follows the same pattern | NEW 47 |
 | 27 | Money basics nobody taught you | day18 |
-| 28 | Britain just showed America its future | NEW 48 |
-| 29 | Why gold is suddenly exploding | NEW 49 |
-| 30 | The real history of Wall Street | NEW 50 |
+| 28 | The AI bubble's weak spot | day07 |
+| 29 | Theranos | day23 |
+| 30 | Everyone called him an idiot (Timothy Dexter) | NEW 53 |
 
-Backup (scripts kept, not outlier-proven): day03, 05, 07, 09, 11, 13, 14, 15, 16, 19, 20, 22–30.
+Backup, proven (use next): day03 Wolf of Wall Street; blocks 43 Fed chair, 45 recession states, 48 Britain, 49 gold, 50 Wall Street history; ideas: Everest College, refusing to tip, 10 CEOs who destroyed their companies, Evergrande, Madoff.
+Backup, not proven: day05, 09, 11, 13, 14, 15, 16, 19, 20, 22, 24–30.
