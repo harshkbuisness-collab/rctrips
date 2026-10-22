@@ -25,3 +25,4 @@
 2026-10-22 02:01 day 1: done in 12 min, 2 screenshots failed (s05.png, s07.png), 59 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
 2026-10-22 02:29 day 1: done in 11 min, 2 screenshots failed (s05.png, s07.png), 61 layout warnings -> /home/user/rctrips/videos/day01_stock_market_crash_1929/05_export/day01_stock_market_crash_1929.mp4
 2026-10-22 03:22 day 2: checked, 6 screenshots failed (s01.png, s06.png, s19.png, s21.png, s24.png, s29.png), 9 layout warnings
+2026-10-22 03:42 day 2: done in 9 min, 6 screenshots failed (s01.png, s06.png, s19.png, s21.png, s24.png, s29.png), 104 layout warnings -> /home/user/rctrips/videos/day02_who_america_owes/05_export/day02_who_america_owes.mp4

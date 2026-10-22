@@ -231,7 +231,7 @@ And Jake? || title:"Your Mortgage, Your Money"; A39@0.84,0.62:0.5~none; doc:p_wa
 He decides to wait a few months, save a bigger down payment, and watch the rates. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; "DECIDES"@0.38,0.14:110:red~drop
 Not because of panic. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; "DECIDES"@0.38,0.14:110:red~drop
 Because now he understands what moves them. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; E17@0.8,0.74:0.32~drop; E48@0.53,0.32:0.32~drop; arrow:0.73,0.63>0.60,0.43
-[dramatic] Next time, we meet a man who sold people promises that were never real. || title:"Your Mortgage, Your Money"; doc:s33_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Wall Street" hl=0.058,0.437,0.942,0.704+0.8; H04@0.12,1.0:0.34:bottom
+[dramatic] Next time, we meet a man who sold people promises that were never real. || title:"Your Mortgage, Your Money"; doc:s31_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Wall Street" hl=0.058,0.437,0.942,0.704+0.8; H04@0.12,1.0:0.34:bottom
 The real Wolf of Wall Street. || title:"Your Mortgage, Your Money"; A16@1.0,0.62:0.6:right~none; G03@0.64,0.3:0.32~b; E34@0.42,0.52:0.32~b
 
 || A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3
