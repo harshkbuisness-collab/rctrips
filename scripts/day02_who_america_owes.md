@@ -6,7 +6,7 @@ THREAD: Linda, a retired teacher in Ohio, whose pension quietly lends money to t
 ## CHAPTER 1: The Forty Trillion IOU
 [calm] On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion. Trillion.
 > VISUAL: A08_narrator_shocked slides in from the left; D28_debt_monster drops in; H18 sign pops in "$40.3 TRILLION"; E25_calendar pops in; G09_capitol_building slides in from the right
-> SCREEN: Reuters | https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/ | highlight "Under Trump, deficits remain high while borrowing costs escalate"
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/ | highlight "national debt"
 Whenever that number shows up in the news, the same question follows. Who exactly is America borrowing all that money from?
 > VISUAL: A06_narrator_thinking slides in from the left; E09_newspaper drops in; E48_question_marks pop in; G09_capitol_building pops in
 China? Japan? A few billionaires counting interest in a back room? The real answer is less scary, and much more surprising.
@@ -39,7 +39,7 @@ So who are all these lenders? To find out, we need to follow one bond from the m
 ## CHAPTER 2: How a Bond Is Born
 [calm] When the government spends more than it collects in taxes, it has to borrow the difference. That gap is called the deficit. In fiscal twenty twenty-six, it was close to two trillion dollars.
 > VISUAL: A38_narrator_teacher_pointer slides in from the left; D26_tax_form_evil drops in; E01_cash_stack pops in; E46_arrow_down_big pops in; "$2 trillion gap"
-> SCREEN: Reuters | https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/ | highlight "largest in 5 years"
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/ | highlight "deficit"
 Think of it like this. The deficit is this year's shortfall. The debt is the total of every shortfall that hasn't been paid back yet.
 > VISUAL: A20_narrator_two_hands_empty slides in from the left; H24_bricks_stack drops in; H28_paper_stack pops in; D28_debt_monster pops in
 The government has run a deficit in almost every year since nineteen seventy. Those shortfalls piled up, one on top of another, into the number we see today.
@@ -132,7 +132,7 @@ Every one of those IOUs pays interest, whether it sits in Tokyo, London, or Lind
 ## CHAPTER 5: The Interest Bill
 [serious] In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. That's more than America spent on its entire military.
 > VISUAL: A08_narrator_shocked slides in from the left; G05_percent_angry drops in; G18_army_tank slides in from the right; E22_scale pops in; "$1 trillion"
-> SCREEN: Congressional Budget Office | https://www.cbo.gov/publication/62105 | highlight "The Budget and Economic Outlook"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/United_States_federal_budget | highlight "budget"
 [calm] Read that again. Paying interest on old borrowing now costs more than tanks, ships, planes and soldiers, combined.
 > VISUAL: G18_army_tank pops in; E42_airplane pops in; E31_cargo_ship pops in; D27_calculator_shocked drops in; A35_narrator_sweating slides in from the left
 It's also about four times what the government spent on interest ten years earlier. The bill grew fourfold while most people weren't watching.
@@ -150,7 +150,7 @@ Here's a simple example. Borrow one trillion dollars at three percent, and you p
 > VISUAL: A30_narrator_counting_money slides in from the left; E10_chalkboard drops in; H16 sticky note pops in "3% = $30B"; H16 sticky note pops in "5% = $50B"
 That's twenty billion dollars more, every year, for the same trillion. Now repeat that across thousands of billions of dollars of borrowing.
 > VISUAL: D27_calculator_shocked drops in; E03_money_rain pours down; A45_narrator_head_shocked pops in; E45_arrow_up_big pops in
-> SCREEN: Congressional Budget Office | https://www.cbo.gov/topics/budget/federal-debt-and-statutory-limit | highlight "Federal Debt"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/National_debt_of_the_United_States | highlight "national debt"
 Linda reads about this in the paper and frowns. Because every dollar spent on interest is a dollar that can't go to roads, schools, or her Social Security.
 > VISUAL: C14_retiree_worried walks in from the left; E09_newspaper pops in; E10_chalkboard pops in; D25_retirement_document drops in; E20_trash_can pops in
 There's a twist, though. That interest doesn't vanish. It's paid to the bondholders. Some of it ends up in Linda's own pension.
@@ -171,7 +171,7 @@ This doesn't mean America suddenly goes broke. It borrows in its own currency, a
 > VISUAL: A21_narrator_thumbs_up slides in from the left; D01_dollar_happy pops in; G11_stock_exchange drops in; E43_globe pops in
 But the warning lights have started to blink. In twenty twenty-three, Fitch lowered America's credit rating. In twenty twenty-five, Moody's did the same, taking away America's last top rating.
 > VISUAL: A35_narrator_sweating slides in from the left; E44_warning_sign drops in; H18 sign pops in "AAA → AA+"; D14_chart_arrow_down draws on; E09_newspaper pops in
-> SCREEN: Reuters | https://www.reuters.com/markets/us/moodys-downgrades-us-sovereign-credit-rating-aa1-2025-05-16/ | highlight "Moody's downgrades"
+> SCREEN: Wikipedia | https://en.wikipedia.org/wiki/United_States_federal_government_credit-rating_downgrades | highlight "Moody's"
 A lower rating doesn't mean America won't pay. It's a signal that lenders are paying closer attention to how much it borrows.
 > VISUAL: A06_narrator_thinking slides in from the left; E16_magnifying_glass pops in; C01_banker_neutral walks in; D24_bond_document pops in
 But it does mean the cost of money can rise for everyone. Because Treasury rates are the starting point for many other loans.
@@ -204,7 +204,7 @@ Then to Japan, Britain, China, and many other countries. No single lender contro
 > VISUAL: G15_map_japan slides in from the right; G16_map_europe pops in; G14_map_china pops in; E43_globe drops in; A21_narrator_thumbs_up slides in from the left
 But the scariest part was never who we owe. It's the price of borrowing. A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones.
 > VISUAL: A12_narrator_angry slides in from the left; D28_debt_monster drops in; G05_percent_angry pops in; E45_arrow_up_big pops in
-> SCREEN: Congressional Budget Office | https://www.cbo.gov/publication/62105 | highlight "net interest"
+> SCREEN: Fiscal Data, U.S. Treasury | https://fiscaldata.treasury.gov/americas-finance-guide/federal-spending/ | highlight "interest"
 Here's the takeaway. When you hear "the debt," ask a better question. Not just how big is it, but what does it cost us each year, and what are we giving up to pay it?
 > VISUAL: A17_narrator_point_up slides in from the left; E17_light_bulb pops in; H18 sign drops in "WHAT DOES IT COST?"; E22_scale pops in
 Linda folds her pension statement and puts it away. Her IOU is safe. But not every promise on Wall Street is.

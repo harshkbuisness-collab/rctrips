@@ -350,7 +350,7 @@ def card(m):
     src = os.path.join(SCREENS, m["file"])
     im = Image.open(src).convert("RGB")
     W_, H_ = im.size
-    a0, a1_ = max(0, min(x0 - 0.04, 0.14)), min(1, max(x1 + 0.04, 0.8))   # the whole text column
+    a0, a1_ = max(0, min(x0 - 0.04, 0.02)), min(1, max(x1 + 0.04, 0.98))  # full page width: text is never cut
     cw = a1_ - a0
     ch = cw * W_ / H_ * 0.42                          # wide card (about 2.4 : 1)
     cy = (y0 + y1) / 2

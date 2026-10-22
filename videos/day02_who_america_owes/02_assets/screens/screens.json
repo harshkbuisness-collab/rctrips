@@ -1,13 +1,19 @@
 [
  {
   "line": 0,
-  "source": "Reuters",
-  "url": "https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/",
-  "what": "highlight \"Under Trump, deficits remain high while borrowing costs escalate\"",
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"national debt\"",
   "said": "On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. Not million. Not billion. Trillion.",
   "file": "s01.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": [
+   0.323,
+   0.211,
+   0.677,
+   0.307
+  ],
+  "page": null,
+  "ok": true
  },
  {
   "line": 4,
@@ -75,13 +81,19 @@
  },
  {
   "line": 13,
-  "source": "Reuters",
-  "url": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/",
-  "what": "highlight \"largest in 5 years\"",
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/",
+  "what": "highlight \"deficit\"",
   "said": "When the government spends more than it collects in taxes, it has to borrow the difference. That gap is called the deficit. In fiscal twenty twenty-six, it was close to two trillion dollars.",
   "file": "s06.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": [
+   0.567,
+   0.125,
+   0.616,
+   0.165
+  ],
+  "page": null,
+  "ok": true
  },
  {
   "line": 16,
@@ -262,13 +274,19 @@
  },
  {
   "line": 49,
-  "source": "Congressional Budget Office",
-  "url": "https://www.cbo.gov/publication/62105",
-  "what": "highlight \"The Budget and Economic Outlook\"",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/United_States_federal_budget",
+  "what": "highlight \"budget\"",
   "said": "In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. That's more than America spent on its entire military.",
   "file": "s19.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": [
+   0.029,
+   0.224,
+   0.116,
+   0.26
+  ],
+  "page": null,
+  "ok": true
  },
  {
   "line": 53,
@@ -288,13 +306,14 @@
  },
  {
   "line": 57,
-  "source": "Congressional Budget Office",
-  "url": "https://www.cbo.gov/topics/budget/federal-debt-and-statutory-limit",
-  "what": "highlight \"Federal Debt\"",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"national debt\"",
   "said": "That's twenty billion dollars more, every year, for the same trillion. Now repeat that across thousands of billions of dollars of borrowing.",
   "file": "s21.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": null,
+  "page": null,
+  "ok": true
  },
  {
   "line": 59,
@@ -330,13 +349,19 @@
  },
  {
   "line": 65,
-  "source": "Reuters",
-  "url": "https://www.reuters.com/markets/us/moodys-downgrades-us-sovereign-credit-rating-aa1-2025-05-16/",
-  "what": "highlight \"Moody's downgrades\"",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/United_States_federal_government_credit-rating_downgrades",
+  "what": "highlight \"Moody's\"",
   "said": "But the warning lights have started to blink. In twenty twenty-three, Fitch lowered America's credit rating. In twenty twenty-five, Moody's did the same, taking away America's last top rating.",
   "file": "s24.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": [
+   0.26,
+   0.595,
+   0.317,
+   0.632
+  ],
+  "page": null,
+  "ok": true
  },
  {
   "line": 67,
@@ -404,13 +429,19 @@
  },
  {
   "line": 78,
-  "source": "Congressional Budget Office",
-  "url": "https://www.cbo.gov/publication/62105",
-  "what": "highlight \"net interest\"",
+  "source": "Fiscal Data, U.S. Treasury",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/federal-spending/",
+  "what": "highlight \"interest\"",
   "said": "But the scariest part was never who we owe. It's the price of borrowing. A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones.",
   "file": "s29.png",
-  "ok": false,
-  "error": "blocked or empty page (security check / captcha / not found)"
+  "box": [
+   0.372,
+   0.8,
+   0.699,
+   0.9
+  ],
+  "page": null,
+  "ok": true
  },
  {
   "line": 26,
@@ -441,7 +472,7 @@
    0.769,
    0.862
   ],
-  "page": null,
-  "ok": true
+  "ok": true,
+  "page": null
  }
 ]

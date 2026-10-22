@@ -836,6 +836,7 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
                 cy = (y0 + (y1 - y0) * (j // cols + 0.5) / rows) * H
                 gi, gxy = moved(im, (int(cx - im.width / 2), int(cy - im.height / 2)), e, t, t0=e["t0"] + 0.15 * j)
                 canvas.paste(gi, gxy, gi)
+                masks.append((gxy, gi.getchannel("A"), "group"))
         elif k == "doc":
             draw_doc(canvas, vdir, e, t, boxes)
         elif k == "endscreen":
