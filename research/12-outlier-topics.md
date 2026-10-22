@@ -220,41 +220,288 @@ Evidence ideas: FDIC failed bank list page; Fed report on SVB; 1930s bank run ph
 End with a short subscribe line (no next-video tease).
 ```
 
-## 5. FINAL 30 (upload order, owner asked 22 Oct 2026)
-"Script" = the file in scripts/. New = write it with ChatGPT (day blocks above). Proof: O = small-channel outlier, B = big channels only.
 
-| # | Topic | Script | Proof |
-|---|---|---|---|
-| 1 | The 1929 crash | day01 (video done) | O |
-| 2 | Who America owes $40T | day02 (video done) | O |
-| 3 | Why the stock market hasn't crashed yet | NEW day34 | O 726x |
-| 4 | Nobody can buy a house | day08 | O |
-| 5 | How America is quietly erasing its debt | NEW day31 | O |
-| 6 | If you don't understand bonds... | NEW day33 | O |
-| 7 | Every level of wealth in America | day17 | O |
-| 8 | If every country is in debt, who is owed? | NEW day32 | O |
-| 9 | Why $100 doesn't buy what it used to | day04 | O |
-| 10 | Enron | day10 | O |
-| 11 | Why can't the government just print money? | day06 | O |
-| 12 | What happens to your money when a bank fails | NEW day38 | O |
-| 13 | Where does money come from? | day21 | O |
-| 14 | 1971: the dollar stops being gold | NEW day36 | O |
-| 15 | How the rich pay less tax | day12 | O |
-| 16 | The 1929 warning signs are back | NEW day35 | O |
-| 17 | Money basics nobody taught you | day18 | O |
-| 18 | If the dollar collapses, day by day | NEW day37 | O |
-| 19 | 2008 mortgage crisis | day05 | B |
-| 20 | The AI bubble's weak spot | day07 | B |
-| 21 | The real Wolf of Wall Street | day03 | B |
-| 22 | Rockefeller | day09 | B |
-| 23 | NVIDIA | day16 | B |
-| 24 | Jeff Bezos / Amazon | day28 | B |
-| 25 | Tariffs: who pays? | day13 | B |
-| 26 | Credit card companies | day11 | B |
-| 27 | Your retirement buys the AI giants | day29 | B |
-| 28 | Stock market vs gambling | day26 | B |
-| 29 | Bitcoin, honestly | day22 | B |
-| 30 | Theranos | day23 | B |
+## 5. New outlier topics, part 2 (Days 39–50, from the same 4 searches)
+### DAY 39
+Proof: This $520 Billion Family Owns America, 7.4K subs, 1.1M views, 2793x
+```
+Write Day 39.
+Working title: The Family That Quietly Owns America
+Other title ideas: The Waltons: Richer Than Most Countries | America's Richest Family Isn't Who You Think
+Thumbnail text: They Own Everything.
+Type: Story
+Hook idea: One family is worth more than the entire economy of many countries. Most Americans shop at their store every week.
+Outline:
+1) Who they are: Sam Walton's heirs, how rich (Bloomberg / Forbes)
+2) Sam Walton's start: one five-and-dime in 1950s Arkansas
+3) The Walmart machine: low prices, huge scale, suppliers squeezed
+4) How the money passed to the kids without being taxed away (trusts, simple)
+5) What the family owns today
+6) The other side: wages, small-town stores closing
+7) What it says about wealth in America
+Facts to check: Walton family net worth (Bloomberg Billionaires); Walmart revenue and employees (Walmart annual report); founding dates
+Evidence ideas: Walmart annual report page; Bloomberg Billionaires page; photo of Sam Walton's first store (Wikimedia); chart of family wealth over time
+End with a short subscribe line (no next-video tease).
+```
+### DAY 40
+Proof: World Wars, Oil & Power: the PetroDollar Empire, 7.8K subs, 618K, 841x
+```
+Write Day 40.
+Working title: The Petrodollar: How Oil Made the Dollar King
+Other title ideas: Why the World Buys Oil in Dollars | The 1974 Deal That Still Runs the World
+Thumbnail text: One Deal Did This.
+Type: Story
+Hook idea: In 1974, America made a quiet deal with Saudi Arabia. Fifty years later, you still pay less for things because of it.
+Outline:
+1) After 1971 the dollar lost gold: why it needed a new anchor
+2) 1973 oil shock: gas lines in America
+3) 1974: the US-Saudi deal, oil priced in dollars, dollars back into Treasuries
+4) Why every country then needed dollars
+5) What that gives Americans: cheap borrowing, strong dollar
+6) Is it ending? China, the yuan, BRICS (facts only)
+7) What it means for your money
+Facts to check: 1973 embargo dates; 1974 US-Saudi agreement facts; share of oil trade in dollars; dollar share of reserves (IMF COFER)
+Evidence ideas: 1973 gas line photo (Wikimedia); IMF COFER page; Treasury TIC Saudi holdings; oil price chart
+End with a short subscribe line (no next-video tease).
+```
+### DAY 41
+Proof: The 3 Trades Billionaires Make Before Markets Crash, 5.3K subs, 530K, 946x
+```
+Write Day 41.
+Working title: What Billionaires Do Before a Market Crash
+Other title ideas: The Rich Saw It Coming. Here's What They Did. | Warren Buffett Is Sitting on a Mountain of Cash
+Thumbnail text: They're Already Selling.
+Type: Investigation
+Hook idea: Before the last big crashes, the richest investors quietly did the same three things. Some of them are doing it again.
+Outline:
+1) Buffett's cash pile today vs before 2008 (Berkshire filings)
+2) Insider selling: CEOs selling their own stock (SEC Form 4)
+3) Moving to bonds, gold and cash
+4) History: who sold before 1929, 2000 and 2008 (Joseph Kennedy, Burry)
+5) Why regular people do the opposite
+6) Not advice: what these signals do and don't mean
+Facts to check: Berkshire cash (latest 10-Q); insider selling data; Burry 2005-2007 trades; Joseph Kennedy 1929 story
+Evidence ideas: Berkshire 10-Q page; SEC EDGAR Form 4 page; Berkshire cash chart; 1929 photo (Wikimedia)
+End with a short subscribe line (no next-video tease).
+```
+### DAY 42
+Proof: 5 Assets That Survive When the Economy Collapses, 2.6K subs, 201K, 1075x
+```
+Write Day 42.
+Working title: What Kept Its Value in Every Crash
+Other title ideas: When the Economy Collapses, What Survives? | 100 Years of Crashes: The Winners and Losers
+Thumbnail text: Everything Else Failed.
+Type: History list
+Hook idea: In every crash some things went to almost zero, and a few kept their value. History is very clear about which.
+Outline:
+1) 1929: stocks, banks, gold, farmland
+2) 1970s inflation: cash vs gold vs houses
+3) 2000: tech stocks vs boring companies
+4) 2008: houses, banks, Treasuries
+5) 2020: what fell and what bounced
+6) The pattern across all of them
+7) Not advice: why nothing is 100% safe
+Facts to check: returns of stocks, gold, Treasuries, cash in each crash (FRED, S&P, World Gold Council)
+Evidence ideas: bar chart per crash; FRED charts; historic photos
+End with a short subscribe line (no next-video tease).
+```
+### DAY 43
+Proof: The New Fed Chair Has a Plan to Reduce the Debt, 41.5K subs, 350K, 156x
+```
+Write Day 43.
+Working title: The Fed Chair's Plan for the Debt (You Won't Like It)
+Other title ideas: The Fed Wants to Fix the Debt. Here's the Catch. | How the Fed Could Shrink $40 Trillion
+Thumbnail text: You Won't Like It.
+Type: Current explainer
+Hook idea: America's debt is too big to pay back. The new head of the Fed has hinted at a way to shrink it. You will pay for part of it.
+Outline:
+1) Who runs the Fed now and what they have said (verify the name and quotes fresh)
+2) The options: cut rates, buy bonds, let inflation run, change bank rules
+3) How each one helps the government
+4) Who pays: savers, renters, people on fixed incomes
+5) History: the Fed and the Treasury in the 1940s
+6) What it means for your money
+Facts to check: current Fed chair and statements (federalreserve.gov); debt total (Fiscal Data); 1942-1951 rate peg history
+Evidence ideas: federalreserve.gov press page; Fiscal Data debt page; FRED fed funds chart
+End with a short subscribe line (no next-video tease).
+```
+### DAY 44
+Proof: Millions of Working Americans... Living in Cars, 2.2K subs, 398K, 248x
+```
+Write Day 44.
+Working title: Working Americans Living in Their Cars
+Other title ideas: They Have Jobs. They Sleep in Cars. | The New Homeless Have Paychecks
+Thumbnail text: They Have Jobs.
+Type: Investigation
+Hook idea: They go to work every morning. Then they go back to their car to sleep. Millions of Americans now live this way.
+Outline:
+1) Story of one composite worker (clearly marked as an example)
+2) The numbers: homelessness count (HUD), working homeless
+3) Rent vs pay since 2000
+4) Why: housing shortage, rents, medical bills
+5) Cities that ban sleeping in cars
+6) What would fix it, simply
+Facts to check: HUD Point-in-Time count (latest); rent vs wage growth (Census, BLS); employed share of homeless (research studies)
+Evidence ideas: HUD AHAR report page; FRED rent index vs wages chart; Census rent data
+End with a short subscribe line (no next-video tease).
+```
+### DAY 45
+Proof: These 13 States Will COLLAPSE First, 1.5K subs, 77x; 18.5K subs, 151K
+```
+Write Day 45.
+Working title: Which States Get Hit First in a Recession
+Other title ideas: These States Will Feel the Next Recession First | The Recession Map of America
+Thumbnail text: Your State Is Next.
+Type: List
+Hook idea: A recession doesn't hit America all at once. Some states fall first and hardest. Here is why, and which ones.
+Outline:
+1) Why states differ: jobs, housing, debt, energy
+2) Past recessions: which states fell first in 2008 and 2020
+3) Warning signs: unemployment rising by state (BLS)
+4) Housing-heavy states
+5) Energy and factory states
+6) The safest states and why
+7) What it means where you live
+Facts to check: state unemployment rates (BLS LAUS); 2008 and 2020 state job losses; home price changes by state (FHFA)
+Evidence ideas: BLS state map; FHFA house price index page; bar chart of states
+End with a short subscribe line (no next-video tease).
+```
+### DAY 46
+Proof: Barings Bank: the fraud that changed finance, 158K, 129x
+```
+Write Day 46.
+Working title: One Trader Broke a 233-Year-Old Bank
+Other title ideas: Barings Bank: The $1.3 Billion Secret | How Nick Leeson Destroyed the Queen's Bank
+Thumbnail text: One Man Did This.
+Type: Story
+Hook idea: In 1995, a 28-year-old trader hid his losses in an account numbered 88888. It took down the bank that once funded the Louisiana Purchase.
+Outline:
+1) Barings: old, famous, the Queen's bank, helped pay for the Louisiana Purchase
+2) Nick Leeson in Singapore, the star trader
+3) Account 88888: hiding losses
+4) Doubling down; the Kobe earthquake
+5) The collapse and the escape
+6) Sold for 1 pound
+7) The lesson for banks today
+Facts to check: loss size (about 827M pounds); dates; Louisiana Purchase link; sale for 1 pound to ING
+Evidence ideas: Wikipedia Barings Bank page; photo of Leeson (Wikimedia); Kobe earthquake photo
+End with a short subscribe line (no next-video tease).
+```
+### DAY 47
+Proof: I Analysed 100+ Market Crashes, 7.2K subs, 114K, 53x; The 10-Month Crash Pattern 229K, 39x
+```
+Write Day 47.
+Working title: Every Market Crash Follows the Same Pattern
+Other title ideas: I Looked at 100 Years of Crashes. They All Look Like This. | The 5 Stages of Every Crash
+Thumbnail text: Same Pattern. Again.
+Type: History list
+Hook idea: 1929. 1987. 2000. 2008. 2020. Different causes, but every crash moves through the same five stages.
+Outline:
+1) Stage 1: a new story (railroads, radio, internet, houses, AI)
+2) Stage 2: easy money and borrowing
+3) Stage 3: everyone joins in
+4) Stage 4: the trigger
+5) Stage 5: panic, then slow recovery
+6) How long recoveries took
+7) Where we might be now (facts only, no prediction)
+Facts to check: peak-to-bottom drops and recovery times (S&P 500, Dow)
+Evidence ideas: one chart per crash; bar chart of recovery times; historic headlines
+End with a short subscribe line (no next-video tease).
+```
+### DAY 48
+Proof: US Debt Crisis Explained: Britain Just Showed America Its Future, 3.2K subs, 146K, 25x
+```
+Write Day 48.
+Working title: Britain Just Showed America Its Future
+Other title ideas: The 2022 Crash That Almost Broke Britain | What Happens When Lenders Say No
+Thumbnail text: This Is Next.
+Type: Story + warning
+Hook idea: In 2022, Britain announced a plan to borrow more. In days its bond market broke and the Prime Minister was gone. America should watch.
+Outline:
+1) The mini-budget, September 2022
+2) Bond prices crash; pensions nearly fail (LDI)
+3) The Bank of England steps in
+4) Liz Truss out after 49 days
+5) Why America is different (the dollar) and how it is the same
+6) What it would mean for US mortgages
+Facts to check: dates; gilt yield moves; Truss days in office; BoE intervention size
+Evidence ideas: BoE news page; gilt yield chart; photo of Liz Truss (Wikimedia)
+End with a short subscribe line (no next-video tease).
+```
+### DAY 49
+Proof: Trump Gold Executive Order: Revaluation, 205K, 140x
+```
+Write Day 49.
+Working title: Why Gold Is Suddenly Exploding
+Other title ideas: Central Banks Are Buying Gold Like Never Before | The Gold Rush Nobody Told You About
+Thumbnail text: Who's Buying?
+Type: Investigation
+Hook idea: For decades gold was boring. Now central banks are buying it at a record pace. What do they know?
+Outline:
+1) Gold price chart: 20 years
+2) Who is buying: central banks (World Gold Council)
+3) Why: sanctions, the dollar, debt worries
+4) Fort Knox and the official US gold price ($42.22)
+5) The revaluation idea: facts, not hype
+6) What gold can and can't do
+Facts to check: gold price today; central bank purchases (WGC); US gold reserves and the $42.22 statutory price
+Evidence ideas: WGC central bank data page; gold price chart; Fort Knox photo (Wikimedia)
+End with a short subscribe line (no next-video tease).
+```
+### DAY 50
+Proof: History of Wall Street, 1.8K subs, 43K, 191x
+```
+Write Day 50.
+Working title: The Real History of Wall Street
+Other title ideas: Wall Street Was an Actual Wall | How a Muddy Street Became the Center of Money
+Thumbnail text: It Was A Real Wall.
+Type: Story
+Hook idea: Wall Street was a real wall, built to keep people out. Here is how a muddy road became the place that runs the world's money.
+Outline:
+1) 1653: the Dutch wall
+2) 1792: the Buttonwood Agreement under a tree
+3) Railroads, robber barons, JP Morgan
+4) 1929 and the rules after it
+5) Computers, 1987, and the move to electronic trading
+6) Wall Street today: where the money really is
+Facts to check: dates; Buttonwood Agreement; NYSE history
+Evidence ideas: Wikipedia Wall Street page; old maps of New Amsterdam (Wikimedia); NYSE photo
+End with a short subscribe line (no next-video tease).
+```
 
-Backup (scripts kept, not in the 30): day14 currencies, day15 1973, day19 Japan, day20 bubbles, day24 small countries,
-day25 job market, day27 Palantir, day30 money laundering.
+## 6. FINAL 30, all outlier-proven (upload order, 22 Oct 2026)
+
+| # | Topic | Script |
+|---|---|---|
+| 1 | The 1929 crash | day01 (video done) |
+| 2 | Who America owes $40T | day02 (video done) |
+| 3 | Why the stock market hasn't crashed yet | NEW 34 |
+| 4 | Nobody can buy a house | day08 |
+| 5 | How America is quietly erasing its debt | NEW 31 |
+| 6 | If you don't understand bonds... | NEW 33 |
+| 7 | Every level of wealth in America | day17 |
+| 8 | The family that quietly owns America | NEW 39 |
+| 9 | If every country is in debt, who is owed? | NEW 32 |
+| 10 | What billionaires do before a crash | NEW 41 |
+| 11 | Why $100 doesn't buy what it used to | day04 |
+| 12 | What happens when a bank fails | NEW 38 |
+| 13 | The petrodollar | NEW 40 |
+| 14 | Enron | day10 |
+| 15 | What kept its value in every crash | NEW 42 |
+| 16 | 1971: the dollar stops being gold | NEW 36 |
+| 17 | Working Americans living in their cars | NEW 44 |
+| 18 | Why can't the government just print money? | day06 |
+| 19 | The 1929 warning signs are back | NEW 35 |
+| 20 | If the dollar collapses, day by day | NEW 37 |
+| 21 | The Fed chair's plan for the debt | NEW 43 |
+| 22 | Where does money come from? | day21 |
+| 23 | Which states get hit first in a recession | NEW 45 |
+| 24 | How the rich pay less tax | day12 |
+| 25 | One trader broke a 233-year-old bank | NEW 46 |
+| 26 | Every market crash follows the same pattern | NEW 47 |
+| 27 | Money basics nobody taught you | day18 |
+| 28 | Britain just showed America its future | NEW 48 |
+| 29 | Why gold is suddenly exploding | NEW 49 |
+| 30 | The real history of Wall Street | NEW 50 |
+
+Backup (scripts kept, not outlier-proven): day03, 05, 07, 09, 11, 13, 14, 15, 16, 19, 20, 22–30.
