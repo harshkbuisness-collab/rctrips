@@ -175,7 +175,8 @@ export function Reel({project}) {
     <AbsoluteFill style={{background: '#000'}}>
       <div style={{position: 'absolute', left: stage.x, top: stage.y, width: stage.w, height: stage.h, overflow: 'hidden', background: project.theme.bg}}>
         {ready ? project.scenes.map((scene) => {
-          const Card = CARDS[scene.type] || LineCard;
+          // A "big word" card needs a keyword; without one it falls back to a sentence.
+          const Card = scene.type === 'hero' && !scene.words.some((w) => w.hero) ? LineCard : CARDS[scene.type] || LineCard;
           const from = Math.round(scene.start * fps);
           return (
             <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, Math.round(scene.end * fps) - from)}>

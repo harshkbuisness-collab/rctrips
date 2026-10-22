@@ -24,7 +24,14 @@ button:disabled { opacity: .45; cursor: default; }
 .chip { padding: 3px 7px; border-radius: 6px; background: #23262e; cursor: pointer; user-select: none; }
 .chip.hero { background: #e8202a; color: #fff; }
 .chip.br { box-shadow: inset 3px 0 0 #4da3ff; }
-.sceneOpts { display: grid; grid-template-columns: 1fr 1fr auto; gap: 6px; align-items: center; }
+.sceneOpts { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; align-items: center; }
 .sceneOpts select { padding: 5px; font-size: 12px; }
 .sceneOpts .check { margin: 0; }
 @media (max-width: 1000px) { .app { grid-template-columns: 1fr; height: auto; } .scenes { border-left: 0; } }
+textarea { width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #30343d; background: #1d2027; color: #e9eaee; font: inherit; resize: vertical; }
+details { margin: 10px 0; font-size: 12px; color: #a6aab5; }
+details summary { cursor: pointer; margin-bottom: 8px; }
+.sceneHead { display: flex; gap: 8px; align-items: center; }
+.sceneHead select { width: auto; padding: 3px 6px; font-size: 12px; }
+.tag { font-size: 11px; padding: 2px 8px; border-radius: 6px; background: #30343d; }
+.sceneOpts { grid-template-columns: 1fr 1fr; }

@@ -22,6 +22,13 @@ if not exist "node_modules" (
   if errorlevel 1 goto :fail
 )
 
+where python >nul 2>nul
+if errorlevel 1 (
+  echo NOTE: Python not found. "Generate voice" needs Python 3 - install it from python.org.
+) else (
+  python -m pip install --quiet --disable-pip-version-check -r requirements.txt
+)
+
 if not exist ".env.local" (
   echo Creating LOCAL-ONLY login settings...
   > ".env.local" echo TOOL_USERNAME=local
