@@ -8,6 +8,7 @@ const HAND = `Caveat, ${DEV}`;
 
 // layout:     stack   — sentence / big-word cards (default)
 //             collage — words scattered at mixed sizes
+//             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
 //             feed    — lines type in at the bottom and push older lines up
 //             run     — whole line dim, a highlight box runs from word to word
@@ -17,12 +18,13 @@ const HAND = `Caveat, ${DEV}`;
 //             backgrounds), mascot (corner character), walker (cat walking along the bottom),
 //             scriptFont (every other big word in script), ctaBg (coloured Comment card),
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
-//             questions ("?" marks pop on question cards)
+//             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
+//             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
     bg: '#FAFAFA', ink: '#111111', dark: '#050505', darkInk: '#FFFFFF', accents: ['#E5262A', '#1F6BFF'], cta: '#FFFFFF', ctaBg: '#29A8F0',
     font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: true, scriptFont: SCRIPT, labelFont: `'Libre Caslon Text', ${DEV}`},
-  {id: 'collage', label: '02 · Type & Build', layout: 'collage', motion: 'type', transition: 'wipe',
+  {id: 'collage', label: '02 · Type & Build', layout: 'lockup', motion: 'type', transition: 'wipe', transitionEvery: 3, sfx: true, texture: 'soft', character: true,
     cycle: [{bg: '#FFFFFF', ink: '#111111', accent: 'gradient'}, {bg: '#FFFFFF', ink: '#111111', accent: '#E5262A'},
       {bg: '#FFFFFF', ink: '#111111', accent: 'gradient'}, {bg: '#0A0A0A', ink: '#FFFFFF', accent: '#FF3B30'}],
     gradient: 'linear-gradient(90deg, #1F4BFF, #00B7FF)',

@@ -64,7 +64,8 @@ const NOISE = "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/
 function Backdrop({bg, look, children, style}) {
   return (
     <AbsoluteFill style={{background: bg, ...style}}>
-      {look.texture ? <AbsoluteFill style={{backgroundImage: NOISE, opacity: look.texture === 'paper' ? 0.1 : 0.16, mixBlendMode: 'multiply'}} /> : null}
+      {look.texture ? <AbsoluteFill style={{backgroundImage: NOISE, opacity: {paper: 0.1, grain: 0.16, soft: 0.05}[look.texture], mixBlendMode: 'multiply'}} /> : null}
+      {look.texture === 'soft' ? <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(255,255,255,0) 55%, rgba(0,0,0,.06) 100%)'}} /> : null}
       {look.texture === 'paper' ? <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(255,255,255,.55) 0%, rgba(0,0,0,.10) 100%)'}} /> : null}
       {look.texture === 'grain' ? <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,.35) 100%)'}} /> : null}
       {children}
@@ -329,6 +330,105 @@ function RunCard({scene, look, u, stage, index}) {
   );
 }
 
+// Poster-style lockup: small lead-in words above, a huge keyword, small follow-on words below.
+// Adds a slow camera push, a zoom punch + shake when the keyword lands, a shine sweep, sparkles
+// or a hand-drawn doodle, number count-ups, a character on the left and the previous card's
+// last word sliding away.
+const STAR = 'M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z';
+const NUMBER = /^(\d+(?:\.\d+)?)(k|K|%|\+|x)?$/;
+const CHARACTER_POSES = ['chubby-character-thinking-hoodie-1', 'mascot-character-pointing-right-1', 'mascot-pointing-up-1',
+  'chubby-character-giving-thumbs-up-1', 'mascot-holding-phone-surprise-1', 'chubby-character-shrugging-1'];
+const noise2 = (a, b) => { const x = Math.sin(a * 12.9898 + b * 78.233) * 43758.5453; return x - Math.floor(x); };
+const lineText = (s) => ['line', 'hero'].includes(s?.type) ? s.words : null;
+
+function LockupCard({scene, look, u, stage, index, scenes}) {
+  const c = useCard(scene);
+  const pal = paletteFor(look, scene, index);
+  const words = scene.words;
+  let h = words.findIndex((w) => w.hero);
+  if (h < 0) h = words.reduce((best, w, i) => (!FILLER.test(display(w.text)) && display(w.text).length > display(words[best].text).length ? i : best), 0);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const heroText = display(hero.text);
+  const num = heroText.match(NUMBER);
+  const charW = look.character ? stage.w * 0.27 : 0;
+  const areaW = (stage.w - charW) * 0.8;
+  const base = measureText({text: heroText, fontFamily: look.heroFont, fontSize: 100, fontWeight: '900', letterSpacing: '-0.04em'}).width * 1.06;
+  const size = Math.min(u * 12, (areaW / base) * 100);
+  const heroW = (base / 100) * size, heroH = size * 1.05;
+  const land = c.at(hero) + (num ? 12 : Math.max(4, Math.min(c.dur(hero), heroText.length * 2.5)));
+  const cardFrames = Math.round((scene.end - scene.start) * c.fps);
+  // Camera: slow push over the card, punch + shake when the keyword lands.
+  const k = interpolate(c.frame, [land, land + 9], [1, 0], clamp) * (c.frame >= land ? 1 : 0);
+  const cam = `translate(${(noise2(c.frame, 1) - 0.5) * u * 0.9 * k}px, ${(noise2(c.frame, 2) - 0.5) * u * 0.9 * k}px) scale(${(1 + 0.05 * c.frame / Math.max(1, cardFrames)) * (1 + 0.04 * k)})`;
+  // Keyword fill with a shine band sweeping across once it has landed.
+  const shine = interpolate(c.frame, [land + 2, land + 16], [-30, 130], clamp);
+  const fill = pal.accent === 'gradient' ? look.gradient : `linear-gradient(${pal.accent}, ${pal.accent})`;
+  const heroFill = {backgroundImage: `linear-gradient(110deg, rgba(255,255,255,0) ${shine - 10}%, rgba(255,255,255,.95) ${shine}%, rgba(255,255,255,0) ${shine + 10}%), ${fill}`,
+    WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', filter: 'drop-shadow(0 10px 18px rgba(0,0,0,.10))'};
+  const heroStyle = {fontFamily: look.heroFont, fontWeight: 900, fontSize: size, lineHeight: 1.05, letterSpacing: '-0.04em', whiteSpace: 'nowrap', ...heroFill};
+  let heroEl;
+  if (num) {
+    const t = interpolate(c.frame - c.at(hero), [0, 12], [0, 1], {...clamp, easing: ease});
+    const v = Number(num[1]) * t;
+    heroEl = <span style={{...heroStyle, display: 'inline-block', opacity: c.frame >= c.at(hero) ? 1 : 0}}>{`${Number.isInteger(Number(num[1])) ? Math.round(v) : v.toFixed(1)}${num[2] || ''}`}</span>;
+  } else {
+    heroEl = <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind={look.motion} fps={c.fps} frame={c.frame}
+      color={pal.accent === 'gradient' ? '#1F4BFF' : pal.accent} style={heroStyle} />;
+  }
+  const small = (ws, align, scale) => (
+    <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 2.7 * scale, lineHeight: 1.2, letterSpacing: '-0.02em', maxWidth: heroW * 1.15,
+      textAlign: align, alignSelf: align === 'left' ? 'flex-start' : 'flex-end', margin: align === 'left' ? `0 0 ${-size * 0.05}px ${size * 0.04}px` : `${-size * 0.02}px ${size * 0.02}px 0 0`}}>
+      <Sentence words={ws} look={look} ink={pal.ink} pal={pal} c={c} />
+    </div>
+  );
+  // Flair: sparkles on even cards, a hand-drawn underline / circle on odd cards.
+  const flair = index % 2 === 0 ? [[-0.06, -0.25, 1], [1.03, -0.12, 0.8], [0.97, 1.05, 0.7], [-0.03, 0.95, 0.6]].map(([x, y, sc], i) => {
+    const p = spring({frame: c.frame - land - i * 3, fps: c.fps, config: {damping: 8, stiffness: 200}});
+    const sz = u * 2.6 * sc;
+    return <svg key={i} viewBox="0 0 24 24" width={sz} height={sz} style={{position: 'absolute', left: heroW * x - sz / 2, top: heroH * y - sz / 2,
+      transform: `scale(${p}) rotate(${c.frame * 3 + i * 40}deg)`}}><path d={STAR} fill={i % 2 ? '#FFC400' : pal.accent === 'gradient' ? '#1F4BFF' : pal.accent} /></svg>;
+  }) : (() => {
+    const p = interpolate(c.frame, [land, land + 14], [0, 1], {...clamp, easing: ease});
+    const circle = index % 4 === 1;
+    const d = circle
+      ? `M ${heroW * 0.08} ${heroH * 0.2} C ${heroW * 0.5} ${-heroH * 0.25}, ${heroW * 1.12} ${heroH * 0.05}, ${heroW * 1.05} ${heroH * 0.55} C ${heroW} ${heroH * 1.15}, ${-heroW * 0.05} ${heroH * 1.2}, ${-heroW * 0.04} ${heroH * 0.5} C ${-heroW * 0.03} ${heroH * 0.2}, ${heroW * 0.25} ${heroH * 0.02}, ${heroW * 0.4} ${heroH * 0.06}`
+      : `M ${heroW * 0.02} ${heroH * 1.02} C ${heroW * 0.3} ${heroH * 0.94}, ${heroW * 0.7} ${heroH * 0.96}, ${heroW * 0.98} ${heroH * 0.9}`;
+    return <svg width={heroW} height={heroH} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}}>
+      <path d={d} fill="none" stroke={pal.ink === '#FFFFFF' ? '#FF3B30' : '#E5262A'} strokeWidth={u * 0.55} strokeLinecap="round" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - p} /></svg>;
+  })();
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  const iconP = spring({frame: c.frame - land - 2, fps: c.fps, config: {damping: 10, stiffness: 180}});
+  // Character on the left: a pose per card (reaction if one was matched).
+  const pose = scene.sticker?.startsWith('lib:') ? scene.sticker : `lib:${CHARACTER_POSES[index % CHARACTER_POSES.length]}`;
+  const charP = spring({frame: c.frame, fps: c.fps, config: {damping: 12, stiffness: 180}});
+  // Carry-over: the previous card's last word slides up and away.
+  const prev = lineText(scenes[index - 1]);
+  const carry = prev ? display(prev[prev.length - 1].text) : '';
+  const cp = interpolate(c.frame, [0, 10], [0, 1], {...clamp, easing: ease});
+  return (
+    <Backdrop bg={pal.bg} look={look}>
+      <AbsoluteFill style={{transform: cam}}>
+        {carry && cp < 1 ? <div style={{position: 'absolute', left: stage.w * (0.55 - 0.3 * cp), top: stage.h * (0.55 - 0.4 * cp), fontFamily: look.font, fontWeight: 800,
+          fontSize: u * 3 * (1 - 0.4 * cp), color: pal.ink, opacity: 1 - cp}}>{carry}</div> : null}
+        {look.character ? <Img src={staticFile(iconPath(pose))} style={{position: 'absolute', left: stage.w * 0.01, bottom: 0, height: stage.h * 0.66, width: charW, objectFit: 'contain',
+          objectPosition: 'bottom', transform: `translateY(${(1 - charP) * stage.h * 0.15}px)`}} /> : null}
+        <AbsoluteFill style={{left: charW, width: stage.w - charW, alignItems: 'center', justifyContent: 'center'}}>
+          <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+            {pre.length ? small(pre, 'left', 1) : null}
+            <div style={{position: 'relative', width: heroW, height: heroH}}>
+              {heroEl}
+              {flair}
+              {icon ? <Img src={icon} style={{position: 'absolute', right: -u * 7, top: -u * 6, width: u * 8, height: u * 8, objectFit: 'contain',
+                transform: `scale(${iconP}) rotate(${(1 - iconP) * 30}deg)`}} /> : null}
+            </div>
+            {post.length ? small(post, 'right', 0.95) : null}
+          </div>
+        </AbsoluteFill>
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -441,8 +541,26 @@ function cardFor(scene, look) {
   if (look.layout === 'tag') return TagCard;
   if (look.layout === 'feed') return FeedCard;
   if (look.layout === 'run') return RunCard;
+  if (look.layout === 'lockup') return LockupCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
+}
+
+// Typing clicks on every word, a pop when a keyword lands, a whoosh on each transition.
+function SoundEffects({scenes, look, fps}) {
+  const cues = [];
+  scenes.forEach((s, i) => {
+    if (look.transition && i > 0 && (!look.transitionEvery || i % look.transitionEvery === 0)) cues.push(['whoosh', s.start - 0.05, 0.45]);
+    if (!['line', 'hero'].includes(s.type)) return;
+    s.words.forEach((w) => cues.push(['click', w.start, 0.22]));
+    const hero = s.words.find((w) => w.hero);
+    if (hero) cues.push(['pop', hero.start + Math.min(0.5, hero.end - hero.start), 0.5]);
+  });
+  return cues.map(([name, t, volume], i) => (
+    <Sequence key={i} from={Math.max(0, Math.round(t * fps))} durationInFrames={Math.round(fps * 0.6)}>
+      <Audio src={staticFile(`sfx/${name}.mp3`)} volume={volume} />
+    </Sequence>
+  ));
 }
 
 export function Reel({project}) {
@@ -459,10 +577,11 @@ export function Reel({project}) {
         {ready ? project.scenes.map((scene, index) => {
           const Card = cardFor(scene, look);
           const from = Math.round(scene.start * fps);
-          const overlap = look.transition && index < project.scenes.length - 1 ? TRANSITION : 0;
+          const moves = (i) => look.transition && i > 0 && (!look.transitionEvery || i % look.transitionEvery === 0);
+          const overlap = moves(index + 1) && index < project.scenes.length - 1 ? TRANSITION : 0;
           return (
             <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, Math.round(scene.end * fps) - from + overlap)}>
-              <TransitionIn kind={index > 0 ? look.transition : null} stage={stage}>
+              <TransitionIn kind={moves(index) ? look.transition : null} stage={stage}>
                 <Card scene={scene} look={look} u={u} stage={stage} index={index} scenes={project.scenes} />
               </TransitionIn>
             </Sequence>
@@ -471,6 +590,7 @@ export function Reel({project}) {
         {ready && look.mascot ? <MascotOverlay scenes={project.scenes} stage={stage} /> : null}
         {ready && look.walker ? <Walker id={look.walker} stage={stage} /> : null}
       </div>
+      {ready && look.sfx ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
       {project.audioSrc ? <Audio src={project.audioSrc} volume={project.audioVolume ?? 1} /> : null}
       {project.musicSrc ? <Audio src={project.musicSrc} volume={project.musicVolume ?? 0.15} loop /> : null}
     </AbsoluteFill>
