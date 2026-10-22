@@ -19,6 +19,7 @@ import {measureText} from '@remotion/layout-utils';
 import {iconPath} from '../engine/icons.js';
 import {STICKER_BY_ID} from '../engine/stickers.js';
 import {getLook} from '../engine/looks.js';
+import {MotionText} from './motion.jsx';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'};
 const ease = Easing.out(Easing.cubic);
@@ -84,12 +85,19 @@ function highlight(kind, look, accent, f) {
 
 function Word({w, frame, fps, at, look, ink, accent, isHero, extra}) {
   const f = frame - at(w);
-  let text = display(w.text, look);
-  if (look.wordAnim === 'type') {
-    const n = Math.max(0, Math.min(text.length, Math.floor(f * 1.6) + 1));
-    text = <>{text.slice(0, n)}<span style={{opacity: 0}}>{text.slice(n)}</span></>;
+  const hl = isHero ? highlight(look.highlight, look, accent, f) : null;
+  const motion = look.motion || look.wordAnim;
+  // Older looks animate with enter(); motion looks use the shared text animations.
+  if (!look.motion) {
+    let text = display(w.text, look);
+    if (look.wordAnim === 'type') {
+      const n = Math.max(0, Math.min(text.length, Math.floor(f * 1.6) + 1));
+      text = <>{text.slice(0, n)}<span style={{opacity: 0}}>{text.slice(n)}</span></>;
+    }
+    return <span style={{display: 'inline-block', color: ink, ...enter(look.wordAnim, f, fps), ...hl, ...extra}}>{text}</span>;
   }
-  return <span style={{display: 'inline-block', color: ink, ...enter(look.wordAnim, f, fps), ...(isHero ? highlight(look.highlight, look, accent, f) : null), ...extra}}>{text}</span>;
+  return <MotionText text={display(w.text, look)} f={f} dur={Math.round((w.end - w.start) * fps)} kind={motion} fps={fps} frame={frame}
+    color={hl?.color || ink} style={{...hl, ...extra}} />;
 }
 
 function Sentence({words, look, ink, accent, heroExtra, frame, fps, at}) {
@@ -104,7 +112,7 @@ function Sentence({words, look, ink, accent, heroExtra, frame, fps, at}) {
 function HeroWord({w, frame, fps, at, look, ink, accent, size}) {
   const base = {fontFamily: look.heroFont, fontWeight: look.heroWeight, fontStyle: look.heroItalic ? 'italic' : 'normal', fontSize: size, lineHeight: 1.05,
     letterSpacing: look.tracking || '-0.045em', whiteSpace: 'nowrap', paddingRight: look.heroItalic ? '0.08em' : 0};
-  if (look.wordAnim !== 'blur') return <Word w={w} frame={frame} fps={fps} at={at} look={look} ink={ink} accent={accent} isHero extra={base} />;
+  if ((look.motion || look.wordAnim) !== 'blur') return <Word w={w} frame={frame} fps={fps} at={at} look={look} ink={ink} accent={accent} isHero extra={base} />;
   const f = frame - at(w);
   return (
     <span style={{...base, display: 'inline-block', color: accent, transform: `scale(${interpolate(f, [0, 12], [1.08, 1], {...clamp, easing: ease})})`, transformOrigin: 'left center'}}>
@@ -237,7 +245,9 @@ function StepCard({scene, look, u}) {
           color: look.boxInk || '#111', maxWidth: '84%', textAlign: 'center', textTransform: look.upper ? 'uppercase' : 'none'}}>
           <div style={{position: 'absolute', inset: 0, background: look.boxBg || '#FFFFFF', transform: `scaleX(${box})`, transformOrigin: 'left center'}} />
           <div style={{position: 'relative'}}>
-            {label.map((w, i) => <span key={i} style={{opacity: frame >= at(w) ? 1 : 0}}>{i > 0 ? ' ' : ''}{display(w.text)}</span>)}
+            {label.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : ''}{look.motion
+              ? <MotionText text={display(w.text)} f={frame - at(w)} dur={Math.round((w.end - w.start) * fps)} kind={look.motion} fps={fps} frame={frame} color={look.boxInk || '#111'} />
+              : <span style={{opacity: frame >= at(w) ? 1 : 0}}>{display(w.text)}</span>}</React.Fragment>)}
           </div>
         </div>
       ) : null}

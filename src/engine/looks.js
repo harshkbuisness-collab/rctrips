@@ -53,4 +53,14 @@ export const LOOKS = [
     labelFont: `'Playfair Display', ${DEV}`, wordAnim: 'fade', highlight: 'color', tracking: '0.01em', boxBg: '#D4AF37', boxInk: '#0A0A0A'},
 ];
 
-export const getLook = (id) => LOOKS.find((l) => l.id === id) || LOOKS[0];
+// Text-animation styles: the editorial design with a different way of writing the words in
+// (animations live in src/remotion/motion.jsx).
+export const MOTIONS = [
+  ['blur', 'Blur Rise'], ['mask', 'Mask Slide'], ['drop', 'Letter Drop'], ['decode', 'Decode'], ['type', 'Typewriter'],
+  ['zoom', 'Zoom Punch'], ['tracking', 'Tracking In'], ['flip', '3D Flip'], ['fill', 'Fill Sweep'], ['glitch', 'Glitch'],
+];
+const EDITORIAL = LOOKS[0];
+export const MOTION_LOOKS = MOTIONS.map(([motion, label], i) => ({...EDITORIAL, id: `motion-${motion}`, label: `${String(i + 1).padStart(2, '0')} · ${label}`, motion}));
+
+const ALL = [...LOOKS, ...MOTION_LOOKS];
+export const getLook = (id) => ALL.find((l) => l.id === id) || LOOKS[0];
