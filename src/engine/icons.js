@@ -33,7 +33,6 @@ const ICONS = [
   ['Trophy', 'win success result results best जीत सफलता रिजल्ट'],
   ['Bar chart', 'data analytics insights stats numbers डेटा'],
   ['Spiral calendar', 'daily consistency consistent day days week रोज़ रोज दिन'],
-  ['Busts in silhouette', 'people log audience community लोग'],
   ['Wrapped gift', 'free bonus gift फ्री गिफ्ट'],
   ['Magnet', 'attract magnet pull आकर्षित'],
   ['Gem stone', 'brand premium value quality ब्रांड वैल्यू'],
