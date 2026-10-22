@@ -21,6 +21,8 @@ const HAND = `Caveat, ${DEV}`;
 //                       italic serif leads, numbered lines; cat silhouettes walk the bottom (reference 11)
 //             anuj    — cream: red keyword with small words above-left / below-right, pen hands from the corners,
 //                       a keyword shrinking into place, a ghost word with a black word on top, an orbit badge (reference 12)
+//             news    — red grain / pale-yellow cards: bold sans + italic serif lockups, a paper cut-out sliding in,
+//                       keywords in yellow highlight boxes, tiny italic one-liners (reference 15)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -115,6 +117,9 @@ export const LOOKS = [
   {id: 'anuj', label: 'Ref 12 · Cream Pop (red keyword, pen hands, ghost overlay, orbit badge)', layout: 'anuj', motion: 'pop', ctaStack: true,
     bg: '#FBF8D4', ink: '#111111', dark: '#FBF8D4', darkInk: '#111111', accents: ['#D41F26', '#3B4CFF'], cta: '#111111',
     font: `Montserrat, ${DEV}`, weight: 800, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: `Montserrat, ${DEV}`, boxBg: '#D41F26', boxInk: '#FFFFFF'},
+  {id: 'newsprint', label: 'Ref 15 · Newsprint (red grain, sans + italic serif, cut-outs, yellow highlight)', layout: 'news', motion: 'fade', texture: 'grain',
+    bg: '#A80C0C', ink: '#F2C3A0', dark: '#8E0A0A', darkInk: '#F5D9B8', accents: ['#F2C3A0', '#EDD98A'], cta: '#F5D9B8',
+    font: `Montserrat, ${DEV}`, weight: 800, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: SERIF, boxBg: '#EDD98A', boxInk: '#A80C0C'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

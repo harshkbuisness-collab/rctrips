@@ -1331,6 +1331,92 @@ function AnujCard({scene, look, u, stage, index}) {
   );
 }
 
+// Reference 15: deep red with grain (some pale-yellow cards); bold sans words paired with italic serif
+// words, a paper cut-out of the visual sliding in while rotating, keywords in yellow highlight boxes over
+// the cut-out, and tiny italic one-liners.
+const NEWS_VARIANTS = ['object', 'lockup', 'yellow', 'highlight', 'tiny'];
+const ITALIC_SERIF = {fontFamily: "'Playfair Display', 'Noto Sans Devanagari', serif", fontStyle: 'italic', fontWeight: 700};
+
+// The visual on a white paper card with a shadow, sliding in from the bottom-right while rotating.
+function Cutout({src, size, frame, tilt = -4}) {
+  const p = spring({frame: frame - 2, fps: 30, config: {damping: 14, stiffness: 110}});
+  return (
+    <div style={{width: size, height: size * 1.1, background: '#F4F1EA', padding: size * 0.06, boxShadow: '0 14px 30px rgba(0,0,0,.35)',
+      transform: `translate(${(1 - p) * size * 1.2}px, ${(1 - p) * size * 0.9}px) rotate(${tilt + (1 - p) * 35}deg)`, display: 'grid', placeItems: 'center',
+      backgroundImage: 'repeating-linear-gradient(0deg, rgba(0,0,0,.035) 0 2px, transparent 2px 9px)'}}>
+      <Img src={src} style={{width: '88%', height: '88%', objectFit: 'contain', filter: 'saturate(0.85) contrast(1.05)'}} />
+    </div>
+  );
+}
+
+function NewsCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  let v = words.length <= 2 ? 'tiny' : NEWS_VARIANTS[index % NEWS_VARIANTS.length];
+  if ((v === 'object' || v === 'highlight') && !icon) v = 'lockup';
+  const yellowCard = v === 'yellow';
+  const bg = yellowCard ? '#EDD98A' : look.bg;
+  const sansC = yellowCard ? '#B3121B' : look.ink, serifC = yellowCard ? '#B3121B' : '#F5D9B8';
+  const word = (w, color, style, kind = 'fade') => <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={kind} fps={c.fps} frame={c.frame} color={color} style={style} />;
+  const run = (ws, color, style, kind) => ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}{word(w, color, style, kind)}</React.Fragment>);
+  const sans = (size) => ({fontFamily: look.font, fontWeight: 800, fontSize: size, lineHeight: 0.95});
+  const serif = (size) => ({...ITALIC_SERIF, fontSize: size, lineHeight: 1});
+  const [tail1, ...tail] = post;
+  let body;
+  if (v === 'tiny') {
+    body = <div style={{fontSize: u * 2.8}}>{run(words, serifC, serif(u * 2.8), 'fade')}</div>;
+  } else if (v === 'object' || v === 'highlight') {
+    const size = stage.h * 0.62;
+    const hl = v === 'highlight';
+    body = (
+      <div style={{position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        {!hl ? <div style={{display: 'flex', alignItems: 'baseline', gap: u * 0.8, marginBottom: u * 0.6, fontSize: u * 2}}>
+          <span style={{fontSize: u * 3}}>{run(pre, sansC, sans(u * 3))}</span>{word(hero, sansC, sans(u * 6), 'slide')}{tail1 ? word(tail1, serifC, serif(u * 4.6)) : null}{tail.length ? <span style={{fontSize: u * 2.4}}>{run(tail, serifC, {...serif(u * 2.4), fontStyle: 'normal'})}</span> : null}
+        </div> : null}
+        <Cutout src={icon} size={size * 0.8} frame={c.frame} />
+        {hl ? (
+          // Keyword (and the next word) in yellow boxes over the cut-out's top-left corner.
+          <div style={{position: 'absolute', left: -u * 5, top: u * 2, display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+            {[hero, tail1].filter(Boolean).map((w, i) => {
+              const p = spring({frame: c.frame - c.at(w), fps: c.fps, config: {damping: 14, stiffness: 200}});
+              return <span key={i} style={{...sans(u * 4.2), color: '#B3121B', background: '#EDD98A', padding: `0 ${u * 0.5}px`, marginTop: i ? -u * 0.2 : 0,
+                clipPath: `inset(0 ${(1 - p) * 100}% 0 0)`}}>{display(w.text)}</span>;
+            })}
+          </div>
+        ) : null}
+      </div>
+    );
+  } else if (v === 'yellow') {
+    // Bold sans keyword and the next word in italic serif overlapping it, small tail below.
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+        <div style={{fontSize: u * 2.6}}>{run(pre, sansC, sans(u * 2.6), 'pop')}</div>
+        <div>{word(hero, sansC, sans(u * 7.5), 'slide')}</div>
+        {tail1 ? <div style={{alignSelf: 'flex-end', marginTop: -u * 1.6}}>{word(tail1, serifC, serif(u * 6.2), 'slide')}</div> : null}
+        {tail.length ? <div style={{alignSelf: 'flex-end', fontSize: u * 2.2}}>{run(tail, sansC, {...sans(u * 2.2), fontWeight: 700})}</div> : null}
+      </div>
+    );
+  } else {
+    // Red lockup: small lead-in, the keyword in bold peach sans, an italic serif word under it, small tail.
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+        <div style={{fontSize: u * 2.4}}>{run(pre, sansC, sans(u * 2.4), 'pop')}</div>
+        <div>{word(hero, sansC, sans(u * 7), 'slide')}</div>
+        {tail1 ? <div style={{marginLeft: u * 3, marginTop: -u * 1.2}}>{word(tail1, serifC, serif(u * 5.6))}</div> : null}
+        {tail.length ? <div style={{alignSelf: 'flex-end', fontSize: u * 2}}>{run(tail, serifC, {...serif(u * 2), fontStyle: 'normal'})}</div> : null}
+      </div>
+    );
+  }
+  return (
+    <Backdrop bg={bg} look={look}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>{body}</AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -1497,6 +1583,7 @@ function cardFor(scene, look) {
   if (look.layout === 'app') return AppCard;
   if (look.layout === 'ourtypo') return OurTypoCard;
   if (look.layout === 'anuj') return AnujCard;
+  if (look.layout === 'news') return NewsCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
