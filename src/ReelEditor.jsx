@@ -47,10 +47,12 @@ function takeMarkers(text) {
   return {clean, marks};
 }
 function placeImages(p, words, marks, images) {
+  let from = 0; // markers are in script order, so each search starts after the previous match
   for (const {n, next} of marks) {
     const image = images[n - 1]?.url;
     if (!image || !next.length) continue;
-    const i = words.findIndex((_, k) => next.every((x, j) => norm(words[k + j]?.text || '') === x));
+    const i = words.findIndex((_, k) => k >= from && next.every((x, j) => norm(words[k + j]?.text || '') === x));
+    if (i >= 0) from = i + 1;
     const t = words[i]?.start;
     const scene = i < 0 ? null : p.scenes.find((sc) => sc.words.some((w) => w.start === t));
     if (scene) scene.image = image;

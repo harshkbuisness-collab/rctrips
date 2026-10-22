@@ -151,21 +151,31 @@ const heroOf = (scene) => scene.words.find((w) => w.hero);
 // Width the text may use; the mascot template keeps the right side free for the character.
 const areaOf = (look, stage) => stage.w * (look.mascot ? 0.64 : 0.84);
 const shiftOf = (look, stage) => (look.mascot ? {paddingRight: stage.w * 0.22} : null);
+// Templates with "placements" move the text block around from card to card: centre, left, right.
+function placeOf(look, index, stage) {
+  if (!look.placements) return {box: null, left: false};
+  const k = index % 3;
+  if (k === 1) return {box: {alignItems: 'flex-start', paddingLeft: stage.w * 0.08}, left: true};
+  if (k === 2) return {box: {alignItems: 'flex-end', paddingRight: stage.w * 0.08}, left: false, right: true};
+  return {box: null, left: false};
+}
+const motionOf = (list, index) => (list ? list[index % list.length] : undefined);
 
 function LineCard({scene, look, u, stage, index}) {
   const c = useCard(scene);
   const pal = paletteFor(look, scene, index);
   const src = artSrc(scene, look);
-  const align = look.align === 'left' ? 'left' : 'center';
+  const place = placeOf(look, index, stage);
+  const align = look.align === 'left' || place.left ? 'left' : place.right ? 'right' : 'center';
   return (
     <Backdrop bg={pal.bg} look={look}>
       {look.ghost ? <Ghost text={heroOf(scene)?.text} look={look} ink={pal.ink} stage={stage} frame={c.frame} /> : null}
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2, ...shiftOf(look, stage)}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2, ...shiftOf(look, stage), ...place.box}}>
         {src ? <Art src={src} size={u * 15} frame={c.frame} enter={look.artEnter} /> : null}
         {wantsToggle(look, scene) ? <Toggle u={u} frame={c.frame} /> : null}
         <div style={{maxWidth: areaOf(look, stage), textAlign: align, fontFamily: look.font, fontWeight: look.weight, fontSize: u * 3.6 * (look.textScale || 1),
           lineHeight: 1.25, letterSpacing: look.tracking || '-0.02em'}}>
-          <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} />
+          <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} kind={motionOf(look.motions, index)} />
         </div>
       </AbsoluteFill>
     </Backdrop>
@@ -188,17 +198,19 @@ function HeroCard({scene, look, u, stage, index}) {
   const maxW = areaOf(look, stage) - (src ? artSize + u * 2 : 0);
   const base = measureText({text, fontFamily: font, fontSize: 100, fontWeight: String(look.heroWeight), fontStyle: italic ? 'italic' : 'normal', letterSpacing: tracking}).width * 1.12;
   const size = Math.min(u * 13 * (look.heroScale || 1) * (script ? 1.15 : 1), (maxW / base) * 100);
-  const centered = look.align === 'center';
-  const small = {fontFamily: look.font, fontWeight: look.weight, letterSpacing: look.tracking || '-0.02em', maxWidth: maxW, textAlign: centered ? 'center' : 'left'};
+  const place = placeOf(look, index, stage);
+  const centered = look.align === 'center' && !place.left;
+  const small = {fontFamily: look.font, fontWeight: look.weight, letterSpacing: look.tracking || '-0.02em', maxWidth: maxW, textAlign: place.right ? 'right' : centered ? 'center' : 'left'};
   const subFont = look.subFont || look.font;
   return (
     <Backdrop bg={pal.bg} look={look}>
       {look.ghost ? <Ghost text={hero.text} look={look} ink={pal.ink} stage={stage} frame={c.frame} /> : null}
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: u * 2, ...shiftOf(look, stage)}}>
-        <div style={{display: 'flex', flexDirection: 'column', alignItems: centered ? 'center' : 'flex-start', maxWidth: maxW}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: u * 2, ...shiftOf(look, stage),
+        ...(place.left ? {justifyContent: 'flex-start', paddingLeft: stage.w * 0.08} : place.right ? {justifyContent: 'flex-end', paddingRight: stage.w * 0.08} : place.box)}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: place.right ? 'flex-end' : centered ? 'center' : 'flex-start', maxWidth: maxW}}>
           {kicker.length ? <div style={{...small, fontSize: u * 3.2 * (look.textScale || 1), lineHeight: 1.2, marginBottom: u * 0.3}}>
-            <Sentence words={kicker} look={look} ink={pal.ink} pal={pal} c={c} /></div> : null}
-          <Word w={{...hero, text}} look={look} ink={pal.ink} pal={pal} isHero c={c} kind={look.heroMotion}
+            <Sentence words={kicker} look={look} ink={pal.ink} pal={pal} c={c} kind={motionOf(look.motions, index)} /></div> : null}
+          <Word w={{...hero, text}} look={look} ink={pal.ink} pal={pal} isHero c={c} kind={motionOf(look.heroMotions, index) || look.heroMotion}
             extra={{fontFamily: font, fontWeight: look.heroWeight, fontStyle: italic ? 'italic' : 'normal', fontSize: size, lineHeight: 1.08,
               letterSpacing: tracking, whiteSpace: 'nowrap', paddingRight: italic || script ? '0.1em' : 0}} />
           {sub.length ? <div style={{...small, fontFamily: subFont, fontStyle: look.subFont || look.font !== look.heroFont || look.upperHero ? 'normal' : 'italic',
@@ -1573,16 +1585,18 @@ function ImageCard({scene, look, u, stage, index}) {
   const pop = spring({frame: c.frame, fps: c.fps, config: {damping: 14, mass: 0.7}});
   const drift = interpolate(c.frame, [0, (scene.end - scene.start) * c.fps], [1, 1.06], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const portrait = stage.h > stage.w;
+  // Wide stages put the picture and the text side by side so the text can stay big.
+  const side = !portrait && look.textScale > 1.3;
   return (
     <Backdrop bg={pal.bg} look={look}>
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2.4, padding: u * 3}}>
-        <div style={{width: portrait ? '90%' : '74%', height: portrait ? '62%' : '64%', borderRadius: u * 1.6, overflow: 'hidden', background: '#fff',
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: side ? (index % 2 ? 'row-reverse' : 'row') : 'column', gap: u * 2.4, padding: u * 3}}>
+        <div style={{width: portrait ? '90%' : side ? '56%' : '74%', height: portrait ? '62%' : side ? '84%' : '64%', flex: 'none', borderRadius: u * 1.6, overflow: 'hidden', background: '#fff',
           boxShadow: '0 18px 50px rgba(0,0,0,.35)', opacity: Math.min(1, pop * 1.5), transform: `translateY(${(1 - pop) * u * 6}px) scale(${0.86 + 0.14 * pop})`}}>
           <Img src={scene.image} style={{width: '100%', height: '100%', objectFit: 'contain', background: '#111', transform: `scale(${drift})`}} />
         </div>
-        <div style={{maxWidth: stage.w * 0.86, textAlign: 'center', fontFamily: look.font, fontWeight: look.weight, fontSize: u * 3 * (look.textScale || 1),
-          lineHeight: 1.2, letterSpacing: look.tracking || '-0.02em'}}>
-          <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} />
+        <div style={{maxWidth: side ? stage.w * 0.36 : stage.w * 0.86, textAlign: side ? 'left' : 'center', fontFamily: look.font, fontWeight: look.weight,
+          fontSize: u * 3 * (side ? 1.7 : look.textScale || 1), lineHeight: 1.15, letterSpacing: look.tracking || '-0.02em'}}>
+          <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} heroExtra={{fontWeight: 900}} c={c} kind={motionOf(look.motions, index)} />
         </div>
       </AbsoluteFill>
     </Backdrop>
@@ -1656,7 +1670,7 @@ export function Reel({project}) {
           const overlap = moves(index + 1) && index < project.scenes.length - 1 ? TRANSITION : 0;
           return (
             <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, Math.round(scene.end * fps) - from + overlap)}>
-              <TransitionIn kind={moves(index) ? look.transition : null} stage={stage}>
+              <TransitionIn kind={moves(index) ? motionOf([].concat(look.transition), index) : null} stage={stage}>
                 <Card scene={scene} look={look} u={u} stage={stage} index={index} scenes={project.scenes} />
               </TransitionIn>
             </Sequence>
