@@ -219,3 +219,42 @@ Facts to check: FDIC limit; SVB withdrawals and dates (FDIC / Fed reports); numb
 Evidence ideas: FDIC failed bank list page; Fed report on SVB; 1930s bank run photo (Wikimedia); FDIC 'Your Insured Deposits' page
 End with a short subscribe line (no next-video tease).
 ```
+
+## 5. FINAL 30 (upload order, owner asked 22 Oct 2026)
+"Script" = the file in scripts/. New = write it with ChatGPT (day blocks above). Proof: O = small-channel outlier, B = big channels only.
+
+| # | Topic | Script | Proof |
+|---|---|---|---|
+| 1 | The 1929 crash | day01 (video done) | O |
+| 2 | Who America owes $40T | day02 (video done) | O |
+| 3 | Why the stock market hasn't crashed yet | NEW day34 | O 726x |
+| 4 | Nobody can buy a house | day08 | O |
+| 5 | How America is quietly erasing its debt | NEW day31 | O |
+| 6 | If you don't understand bonds... | NEW day33 | O |
+| 7 | Every level of wealth in America | day17 | O |
+| 8 | If every country is in debt, who is owed? | NEW day32 | O |
+| 9 | Why $100 doesn't buy what it used to | day04 | O |
+| 10 | Enron | day10 | O |
+| 11 | Why can't the government just print money? | day06 | O |
+| 12 | What happens to your money when a bank fails | NEW day38 | O |
+| 13 | Where does money come from? | day21 | O |
+| 14 | 1971: the dollar stops being gold | NEW day36 | O |
+| 15 | How the rich pay less tax | day12 | O |
+| 16 | The 1929 warning signs are back | NEW day35 | O |
+| 17 | Money basics nobody taught you | day18 | O |
+| 18 | If the dollar collapses, day by day | NEW day37 | O |
+| 19 | 2008 mortgage crisis | day05 | B |
+| 20 | The AI bubble's weak spot | day07 | B |
+| 21 | The real Wolf of Wall Street | day03 | B |
+| 22 | Rockefeller | day09 | B |
+| 23 | NVIDIA | day16 | B |
+| 24 | Jeff Bezos / Amazon | day28 | B |
+| 25 | Tariffs: who pays? | day13 | B |
+| 26 | Credit card companies | day11 | B |
+| 27 | Your retirement buys the AI giants | day29 | B |
+| 28 | Stock market vs gambling | day26 | B |
+| 29 | Bitcoin, honestly | day22 | B |
+| 30 | Theranos | day23 | B |
+
+Backup (scripts kept, not in the 30): day14 currencies, day15 1973, day19 Japan, day20 bubbles, day24 small countries,
+day25 job market, day27 Palantir, day30 money laundering.
