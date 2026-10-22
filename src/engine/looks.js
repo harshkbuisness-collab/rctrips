@@ -8,6 +8,7 @@ const HAND = `Caveat, ${DEV}`;
 
 // layout:     stack   — sentence / big-word cards (default)
 //             collage — words scattered at mixed sizes
+//             bonus   — white keyword + ghost / black yellow-script / red script / yellow flash cards, rotating
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -21,7 +22,7 @@ const HAND = `Caveat, ${DEV}`;
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
 //             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
 //             heroCycle (full-colour backgrounds for big-word cards), frame (cards inside a rounded frame),
-//             bgArt (the card's visual, huge and faded in sepia behind the text),
+//             ctaHands (3D hands pointing at the Comment card), bgArt (the card's visual, huge and faded in sepia behind the text),
 //             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
@@ -78,6 +79,9 @@ export const LOOKS = [
   {id: 'plum', label: 'Ref 14 · Plum (white + yellow, mascot)', layout: 'stack', motion: 'tracking', mascot: true, align: 'center',
     bg: '#3A1E35', ink: '#FFFFFF', dark: '#2A1426', darkInk: '#FFFFFF', accents: ['#FFD43B', '#FF7AC6'], cta: '#FFD43B',
     font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: false, heroScale: 0.9, labelFont: INTER, boxBg: '#FFD43B', boxInk: '#2A1426'},
+  {id: 'bonus', label: 'Ref 3 · Bold Bonus (white/black, ghost word, yellow script)', layout: 'bonus', motion: 'blur', ghost: true,
+    bg: '#FFFFFF', ink: '#111111', dark: '#050505', darkInk: '#FFFFFF', accents: ['#E5262A', '#1F6BFF'], cta: '#FFFFFF', ctaBg: '#29A8F0', ctaHands: true,
+    font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, scriptFont: `Yellowtail, ${DEV}`, labelFont: `'Libre Caslon Text', ${DEV}`},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

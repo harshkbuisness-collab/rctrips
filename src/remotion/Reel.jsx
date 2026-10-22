@@ -11,6 +11,7 @@ import '@fontsource/anton/400.css';
 import '@fontsource/oswald/700.css';
 import '@fontsource/caveat/700.css';
 import '@fontsource/dancing-script/700.css';
+import '@fontsource/yellowtail/400.css';
 import '@fontsource/playfair-display/700.css';
 import '@fontsource/playfair-display/900.css';
 import '@fontsource/playfair-display/700-italic.css';
@@ -27,7 +28,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'};
 const ease = Easing.out(Easing.cubic);
 const FONT_FACES = [['600', 'Inter'], ['italic 600', 'Inter'], ['700', 'Inter'], ['800', 'Inter'], ['900', 'Inter'], ['italic 900', 'Inter'],
   ['700', '"Noto Sans Devanagari"', 'क'], ['900', '"Noto Sans Devanagari"', 'क'], ['400', '"Libre Caslon Text"'], ['400', 'Anton'], ['700', 'Oswald'],
-  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"'], ['italic 700', '"Playfair Display"'], ['italic 900', '"Playfair Display"']];
+  ['700', 'Caveat'], ['700', '"Dancing Script"'], ['400', 'Yellowtail'], ['700', '"Playfair Display"'], ['900', '"Playfair Display"'], ['italic 700', '"Playfair Display"'], ['italic 900', '"Playfair Display"']];
 
 // Hold the render until fonts are loaded, so measuring and drawing match.
 function useFontsReady() {
@@ -579,6 +580,80 @@ function SerifCard({scene, look, u, stage, index, scenes}) {
   );
 }
 
+// Reference 3: rotating card types — white with a huge keyword and its ghost behind, black with a
+// yellow script keyword writing on, a small sentence with a visual, red with a white script keyword,
+// and a yellow flash card.
+const BONUS_VARIANTS = ['white', 'script', 'sentence', 'white', 'red', 'script', 'flash'];
+
+// Script text that writes on from left to right.
+function WriteOn({text, font, size, color, f, extra}) {
+  const p = interpolate(f, [0, 14], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+  return <span style={{display: 'inline-block', fontFamily: font, fontSize: size, color, lineHeight: 1.2, padding: '0 0.15em', whiteSpace: 'nowrap',
+    clipPath: `inset(-20% ${(1 - p) * 100}% -20% 0)`, ...extra}}>{text}</span>;
+}
+
+function BonusCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const v = BONUS_VARIANTS[index % BONUS_VARIANTS.length];
+  const heroText = display(hero.text);
+  const f = c.frame - c.at(hero);
+  const pop = {opacity: interpolate(f, [0, 5], [0, 1], clamp), filter: `blur(${interpolate(f, [0, 7], [14, 0], clamp)}px)`,
+    transform: `scale(${interpolate(f, [0, 9], [1.18, 1], {...clamp, easing: ease})})`};
+  const small = (ws, color, size, extra) => ws.length ? (
+    <div style={{fontFamily: look.font, fontWeight: 700, fontSize: size, color, lineHeight: 1.25, textAlign: 'center', maxWidth: stage.w * 0.8, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="blur" fps={c.fps} frame={c.frame} color={color} /></React.Fragment>)}
+    </div>
+  ) : null;
+  const fitSize = (text, font, weight, cap, share = 0.82) => {
+    const w = measureText({text, fontFamily: font, fontSize: 100, fontWeight: String(weight)}).width * 1.08;
+    return Math.min(cap, (stage.w * share / w) * 100);
+  };
+  const src = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  let bg = look.bg, body, ghost = null;
+  if (v === 'white') {
+    const accent = look.accents[Math.floor(index / 3) % 2];
+    ghost = <Ghost text={heroText} look={look} ink="#000000" stage={stage} frame={c.frame} />;
+    body = <>
+      {small(pre, look.ink, u * 3.2)}
+      <div style={{fontFamily: look.heroFont, fontWeight: 900, fontSize: fitSize(heroText, look.heroFont, 900, u * 13), color: accent, letterSpacing: '-0.04em', lineHeight: 1.02, ...pop}}>{heroText}</div>
+      {small(post, look.ink, u * 2.4)}
+    </>;
+  } else if (v === 'script' || v === 'red') {
+    const red = v === 'red';
+    bg = red ? '#E5262A' : '#050505';
+    if (red) ghost = <Ghost text={heroText} look={look} ink="#FFFFFF" stage={stage} frame={c.frame} />;
+    body = <>
+      {small(pre, '#FFFFFF', u * 2.8, {opacity: 0.9})}
+      <WriteOn text={heroText} font={look.scriptFont} size={fitSize(heroText, 'Yellowtail', 400, u * 14, 0.7)} color={red ? '#FFFFFF' : '#FFD60A'} f={f}
+        extra={{transform: 'rotate(-4deg)', textShadow: '0 6px 18px rgba(0,0,0,.25)'}} />
+      {small(post, red ? '#FFE3A3' : '#FFFFFF', u * 2.6)}
+    </>;
+  } else if (v === 'flash') {
+    bg = '#FFE600';
+    body = small(words.map((w) => ({...w, hero: false})), '#111111', u * 4.6, {fontWeight: 900});
+  } else {
+    // A visual on top, then the sentence with the keyword coloured.
+    body = <>
+      {src ? <Art src={src} size={stage.h * 0.3} frame={c.frame} /> : null}
+      <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 3.6, lineHeight: 1.3, color: '#5A5A5A', textAlign: 'center', maxWidth: stage.w * 0.8, marginTop: u}}>
+        {words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+          <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="blur" fps={c.fps} frame={c.frame} color={i === h ? look.accents[1] : '#3A3A3A'}
+            style={i === h ? {fontWeight: 900} : undefined} /></React.Fragment>)}
+      </div>
+    </>;
+  }
+  return (
+    <Backdrop bg={bg} look={look}>
+      {ghost}
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>{body}</AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -629,6 +704,13 @@ function CtaCard({scene, look, u, stage}) {
           </div>
         </div>
       </AbsoluteFill>
+      {look.ctaHands ? ['right', 'left'].map((side, i) => {
+        const p = spring({frame: c.frame - 6 - i * 3, fps: c.fps, config: {damping: 13, stiffness: 150}});
+        const size = stage.h * 0.42;
+        return <Img key={side} src={staticFile(`icons/backhand_index_pointing_${side}.png`)} style={{position: 'absolute', width: size, height: size, objectFit: 'contain',
+          [side === 'right' ? 'left' : 'right']: -size * 0.15 + (1 - p) * -size, [i ? 'top' : 'bottom']: stage.h * 0.02,
+          transform: `rotate(${(i ? 1 : -1) * (12 + Math.sin(c.frame / 10) * 3)}deg)`}} />;
+      }) : null}
     </Backdrop>
   );
 }
@@ -693,6 +775,7 @@ function cardFor(scene, look) {
   if (look.layout === 'run') return RunCard;
   if (look.layout === 'lockup') return LockupCard;
   if (look.layout === 'serif') return SerifCard;
+  if (look.layout === 'bonus') return BonusCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
