@@ -1,0 +1,80 @@
+{
+  "projectId": "sample-001",
+  "title": "Reference Style Demo",
+  "format": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSec": 18,
+  "script": "Instagram par agar aapki reels ko views nahi mil rahe, teen cheezein check karo. Hook, retention aur fast follow up.",
+  "audioSrc": "",
+  "scenes": [
+    {
+      "id": "s1",
+      "type": "bigKeyword",
+      "start": 0,
+      "end": 2.2,
+      "text": "INSTAGRAM",
+      "subtext": "GROWTH TIPS",
+      "bg": "#f4f1ea",
+      "fg": "#111111",
+      "accent": "#ff3b30"
+    },
+    {
+      "id": "s2",
+      "type": "textBlock",
+      "start": 2.2,
+      "end": 5.2,
+      "text": "Views nahi aa rahe?",
+      "highlight": "VIEWS",
+      "bg": "#ff3b30",
+      "fg": "#ffffff"
+    },
+    {
+      "id": "s3",
+      "type": "iconText",
+      "start": 5.2,
+      "end": 8.2,
+      "text": "HOOK",
+      "subtext": "First 2 seconds matter",
+      "icon": "play",
+      "bg": "#111111",
+      "fg": "#ffffff",
+      "accent": "#ff3b30"
+    },
+    {
+      "id": "s4",
+      "type": "counter",
+      "start": 8.2,
+      "end": 11.2,
+      "value": 63,
+      "suffix": "%",
+      "label": "RETENTION",
+      "bg": "#f4f1ea",
+      "fg": "#111111",
+      "accent": "#1557ff"
+    },
+    {
+      "id": "s5",
+      "type": "chat",
+      "start": 11.2,
+      "end": 14.3,
+      "text": "Reply Fast",
+      "subtext": "Don't let the lead go cold",
+      "bg": "#1557ff",
+      "fg": "#ffffff"
+    },
+    {
+      "id": "s6",
+      "type": "cta",
+      "start": 14.3,
+      "end": 18,
+      "text": "COMMENT",
+      "subtext": "for the next growth tip",
+      "bg": "#1557ff",
+      "fg": "#ffffff",
+      "accent": "#f4f1ea"
+    }
+  ],
+  "videoFormat": "portrait"
+}

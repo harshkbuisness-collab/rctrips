@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const upload=fs.readFileSync(new URL('../src/app/api/upload-url/route.js',import.meta.url),'utf8');
+const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx',import.meta.url),'utf8');
+const verify=fs.readFileSync(new URL('../src/app/api/verify-upload/route.js',import.meta.url),'utf8');
+const render=fs.readFileSync(new URL('../src/app/api/render/route.js',import.meta.url),'utf8');
+assert.match(upload,/addRandomSuffix:false/);
+assert.match(upload,/allowOverwrite:false/);
+assert.match(editor,/uploaded\?\.pathname\|\|tokenData\.pathname/);
+assert.match(editor,/\/api\/verify-upload/);
+assert.match(verify,/await head\(pathname\)/);
+assert.match(render,/await assertBlobExists\(audioPath,'Voice audio'\)/);
+console.log('blob upload path self-test passed');

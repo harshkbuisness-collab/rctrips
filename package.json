@@ -1,0 +1,43 @@
+{
+  "name": "ai-reel-generator-v1-9-6-blob-upload-path-fix-dual-run",
+  "version": "1.9.6",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build:remotion": "node scripts/build-remotion.mjs",
+    "build": "npm run build:remotion && next build --webpack",
+    "start": "next start",
+    "test:logic": "node server/logic-self-test.js",
+    "test:format": "node server/format-self-test.js",
+    "test:sticker": "node server/sticker-self-test.js",
+    "test:vercel": "node server/vercel-self-test.js",
+    "test:security": "node server/security-self-test.js",
+    "test:audio": "node server/audio-fix-self-test.js",
+    "test:engagement": "node server/engagement-self-test.js",
+    "test:brand": "node server/brand-system-self-test.js",
+    "test:build-mode": "node server/build-mode-self-test.js",
+    "test:reference": "node server/reference-style-self-test.js",
+    "test:reference-fixes": "node server/reference-fixes-self-test.js",
+    "test:sandbox-render": "node server/sandbox-render-self-test.js",
+    "test:blob-url": "node server/private-blob-url-self-test.js",
+    "test:blob-upload-path": "node server/blob-upload-path-self-test.js"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.526",
+    "@remotion/player": "4.0.526",
+    "@remotion/renderer": "4.0.526",
+    "@remotion/vercel": "4.0.526",
+    "@vercel/blob": "2.8.0",
+    "@vercel/sandbox": "^1.6.0",
+    "next": "16.3.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.526",
+    "@fontsource/anton": "^5.0.0",
+    "@fontsource/caveat": "^5.0.0",
+    "@fontsource/dm-sans": "^5.0.0",
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/oswald": "^5.0.0"
+  }
+}

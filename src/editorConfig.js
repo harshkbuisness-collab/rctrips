@@ -1,0 +1,17 @@
+export {
+  FONT_OPTIONS,
+  FONTS,
+  VISUALS,
+  CORE_VISUALS,
+  getVisualFields,
+  getVisualOption,
+  getVisualAlternatives,
+  getVisualMeta,
+  visualLabel,
+  THEMES,
+  getThemeByName,
+  getThemeForSeed,
+  analyzeText,
+  extractSceneData,
+  selectVisualPlans,
+} from './visualEngine.js';

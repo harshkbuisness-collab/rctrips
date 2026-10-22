@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const render=fs.readFileSync(new URL('../src/app/api/render/route.js',import.meta.url),'utf8');
+assert.ok(render.includes("const root = '/vercel/sandbox/remotion-bundle'"),'Absolute sandbox bundle root missing');
+assert.ok(render.includes("cmd:'mkdir'"),'Sandbox root is not created through runCommand');
+assert.ok(render.includes("args:['-p', root]"),'mkdir -p is not used for sandbox root');
+assert.ok(render.includes("cmd:'test'"),'Sandbox bundle root is not verified');
+const prepPos=render.indexOf('await ensureSandboxBundleRoot(sandbox)');
+const uploadPos=render.indexOf('await addBundleToSandbox');
+assert.ok(prepPos>-1 && uploadPos>prepPos,'Sandbox root must be prepared before bundle upload');
+console.log('Vercel Sandbox root hard-fix regression self-test: PASS');

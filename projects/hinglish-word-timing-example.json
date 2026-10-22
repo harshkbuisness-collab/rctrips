@@ -1,0 +1,459 @@
+{
+  "version": "1.1",
+  "language": "Hinglish (Roman Hindi / WhatsApp style)",
+  "source": "word-level SRT",
+  "duration": 31.27,
+  "script": "Agar aapko lagta hai ki sirf zyada content post karne se growth aayegi, to shayad aap galat cheez pe focus kar rahe ho. Asli fark padta hai ki log aapke video ke pehle kuch seconds mein rukte hain ya nahi. Agar hook weak hai, to achha content bhi ignore ho jata hai. Isliye agli reel banate samay, pehle hook likho, phir baaki script. Aur publish karne ke baad sirf views mat dekho. Watch time aur retention bhi check karo. Jo format kaam kare, use repeat karo. Yahi smart growth hai.",
+  "words": [
+    {
+      "text": "Agar",
+      "start": 0.0,
+      "end": 0.29
+    },
+    {
+      "text": "aapko",
+      "start": 0.29,
+      "end": 0.49
+    },
+    {
+      "text": "lagta",
+      "start": 0.49,
+      "end": 0.83
+    },
+    {
+      "text": "hai",
+      "start": 0.83,
+      "end": 0.97
+    },
+    {
+      "text": "ki",
+      "start": 0.97,
+      "end": 1.43
+    },
+    {
+      "text": "sirf",
+      "start": 1.43,
+      "end": 1.67
+    },
+    {
+      "text": "zyada",
+      "start": 1.67,
+      "end": 2.21
+    },
+    {
+      "text": "content",
+      "start": 2.21,
+      "end": 2.57
+    },
+    {
+      "text": "post",
+      "start": 2.57,
+      "end": 2.89
+    },
+    {
+      "text": "karne",
+      "start": 2.89,
+      "end": 3.13
+    },
+    {
+      "text": "se",
+      "start": 3.13,
+      "end": 3.23
+    },
+    {
+      "text": "growth",
+      "start": 3.23,
+      "end": 3.61
+    },
+    {
+      "text": "aayegi,",
+      "start": 3.61,
+      "end": 3.97
+    },
+    {
+      "text": "to",
+      "start": 4.45,
+      "end": 4.55
+    },
+    {
+      "text": "shayad",
+      "start": 4.55,
+      "end": 4.97
+    },
+    {
+      "text": "aap",
+      "start": 4.97,
+      "end": 5.27
+    },
+    {
+      "text": "galat",
+      "start": 5.27,
+      "end": 5.71
+    },
+    {
+      "text": "cheez",
+      "start": 5.71,
+      "end": 5.95
+    },
+    {
+      "text": "pe",
+      "start": 5.95,
+      "end": 6.05
+    },
+    {
+      "text": "focus",
+      "start": 6.05,
+      "end": 6.33
+    },
+    {
+      "text": "kar",
+      "start": 6.33,
+      "end": 6.49
+    },
+    {
+      "text": "rahe",
+      "start": 6.49,
+      "end": 6.65
+    },
+    {
+      "text": "ho.",
+      "start": 6.65,
+      "end": 7.47
+    },
+    {
+      "text": "Asli",
+      "start": 7.47,
+      "end": 7.81
+    },
+    {
+      "text": "fark",
+      "start": 7.81,
+      "end": 8.03
+    },
+    {
+      "text": "padta",
+      "start": 8.03,
+      "end": 8.31
+    },
+    {
+      "text": "hai",
+      "start": 8.31,
+      "end": 8.45
+    },
+    {
+      "text": "ki",
+      "start": 8.45,
+      "end": 8.95
+    },
+    {
+      "text": "log",
+      "start": 8.95,
+      "end": 9.33
+    },
+    {
+      "text": "aapke",
+      "start": 9.33,
+      "end": 9.69
+    },
+    {
+      "text": "video",
+      "start": 9.69,
+      "end": 10.01
+    },
+    {
+      "text": "ke",
+      "start": 10.01,
+      "end": 10.15
+    },
+    {
+      "text": "pehle",
+      "start": 10.15,
+      "end": 10.55
+    },
+    {
+      "text": "kuch",
+      "start": 10.55,
+      "end": 11.07
+    },
+    {
+      "text": "seconds",
+      "start": 11.07,
+      "end": 11.47
+    },
+    {
+      "text": "mein",
+      "start": 11.47,
+      "end": 11.57
+    },
+    {
+      "text": "rukte",
+      "start": 11.57,
+      "end": 11.95
+    },
+    {
+      "text": "hain",
+      "start": 11.95,
+      "end": 12.65
+    },
+    {
+      "text": "ya",
+      "start": 12.65,
+      "end": 12.77
+    },
+    {
+      "text": "nahi.",
+      "start": 12.77,
+      "end": 13.49
+    },
+    {
+      "text": "Agar",
+      "start": 13.49,
+      "end": 14.01
+    },
+    {
+      "text": "hook",
+      "start": 14.01,
+      "end": 14.21
+    },
+    {
+      "text": "weak",
+      "start": 14.21,
+      "end": 14.47
+    },
+    {
+      "text": "hai,",
+      "start": 14.47,
+      "end": 15.03
+    },
+    {
+      "text": "to",
+      "start": 15.03,
+      "end": 15.13
+    },
+    {
+      "text": "achha",
+      "start": 15.13,
+      "end": 15.51
+    },
+    {
+      "text": "content",
+      "start": 15.51,
+      "end": 15.85
+    },
+    {
+      "text": "bhi",
+      "start": 15.85,
+      "end": 15.95
+    },
+    {
+      "text": "ignore",
+      "start": 15.95,
+      "end": 16.23
+    },
+    {
+      "text": "ho",
+      "start": 16.23,
+      "end": 16.37
+    },
+    {
+      "text": "jata",
+      "start": 16.37,
+      "end": 16.65
+    },
+    {
+      "text": "hai.",
+      "start": 16.65,
+      "end": 16.91
+    },
+    {
+      "text": "Isliye",
+      "start": 17.61,
+      "end": 17.97
+    },
+    {
+      "text": "agli",
+      "start": 17.97,
+      "end": 18.35
+    },
+    {
+      "text": "reel",
+      "start": 18.35,
+      "end": 18.57
+    },
+    {
+      "text": "banate",
+      "start": 18.57,
+      "end": 18.91
+    },
+    {
+      "text": "samay,",
+      "start": 18.91,
+      "end": 19.17
+    },
+    {
+      "text": "pehle",
+      "start": 19.61,
+      "end": 19.85
+    },
+    {
+      "text": "hook",
+      "start": 19.85,
+      "end": 20.07
+    },
+    {
+      "text": "likho,",
+      "start": 20.07,
+      "end": 20.33
+    },
+    {
+      "text": "phir",
+      "start": 20.73,
+      "end": 20.85
+    },
+    {
+      "text": "baaki",
+      "start": 20.85,
+      "end": 21.11
+    },
+    {
+      "text": "script.",
+      "start": 21.11,
+      "end": 22.15
+    },
+    {
+      "text": "Aur",
+      "start": 22.15,
+      "end": 22.39
+    },
+    {
+      "text": "publish",
+      "start": 22.39,
+      "end": 22.69
+    },
+    {
+      "text": "karne",
+      "start": 22.69,
+      "end": 22.91
+    },
+    {
+      "text": "ke",
+      "start": 22.91,
+      "end": 23.03
+    },
+    {
+      "text": "baad",
+      "start": 23.03,
+      "end": 23.25
+    },
+    {
+      "text": "sirf",
+      "start": 23.25,
+      "end": 23.75
+    },
+    {
+      "text": "views",
+      "start": 23.75,
+      "end": 24.01
+    },
+    {
+      "text": "mat",
+      "start": 24.01,
+      "end": 24.17
+    },
+    {
+      "text": "dekho.",
+      "start": 24.17,
+      "end": 25.05
+    },
+    {
+      "text": "Watch",
+      "start": 25.05,
+      "end": 25.43
+    },
+    {
+      "text": "time",
+      "start": 25.43,
+      "end": 25.57
+    },
+    {
+      "text": "aur",
+      "start": 25.57,
+      "end": 25.71
+    },
+    {
+      "text": "retention",
+      "start": 25.71,
+      "end": 26.15
+    },
+    {
+      "text": "bhi",
+      "start": 26.15,
+      "end": 26.25
+    },
+    {
+      "text": "check",
+      "start": 26.25,
+      "end": 26.49
+    },
+    {
+      "text": "karo.",
+      "start": 26.49,
+      "end": 27.37
+    },
+    {
+      "text": "Jo",
+      "start": 27.37,
+      "end": 27.55
+    },
+    {
+      "text": "format",
+      "start": 27.55,
+      "end": 27.93
+    },
+    {
+      "text": "kaam",
+      "start": 27.93,
+      "end": 28.15
+    },
+    {
+      "text": "kare,",
+      "start": 28.15,
+      "end": 28.37
+    },
+    {
+      "text": "use",
+      "start": 28.75,
+      "end": 28.91
+    },
+    {
+      "text": "repeat",
+      "start": 28.91,
+      "end": 29.21
+    },
+    {
+      "text": "karo.",
+      "start": 29.21,
+      "end": 30.05
+    },
+    {
+      "text": "Yahi",
+      "start": 30.05,
+      "end": 30.37
+    },
+    {
+      "text": "smart",
+      "start": 30.37,
+      "end": 30.71
+    },
+    {
+      "text": "growth",
+      "start": 30.71,
+      "end": 30.95
+    },
+    {
+      "text": "hai.",
+      "start": 30.95,
+      "end": 31.27
+    }
+  ]
+}

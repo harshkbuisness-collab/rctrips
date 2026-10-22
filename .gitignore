@@ -1,0 +1,9 @@
+node_modules
+.next
+remotion-build*
+remotion-bundle
+out
+.env*
+!.env.example
+public/local-uploads
+*.mp4

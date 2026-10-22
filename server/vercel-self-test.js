@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import pkg from '../package.json' with {type:'json'};
+const render=fs.readFileSync(new URL('../src/app/api/render/route.js',import.meta.url),'utf8');
+const upload=fs.readFileSync(new URL('../src/app/api/upload-url/route.js',import.meta.url),'utf8');
+const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx',import.meta.url),'utf8');
+assert.ok(pkg.dependencies['@vercel/blob'],'@vercel/blob dependency missing');
+assert.ok(pkg.dependencies['@vercel/sandbox'],'@vercel/sandbox dependency missing');
+assert.ok(editor.includes("/api/upload-url"),'Signed private upload endpoint missing');
+assert.ok(upload.includes("operation:'put'"),'Private signed PUT upload missing');
+assert.ok(render.includes("audioCodec:'aac'"),'AAC audio render option missing');
+assert.ok(render.includes('enforceAudioTrack:true'),'Audio-track enforcement missing');
+assert.ok(render.includes('detached:true'),'Detached Vercel render missing');
+assert.ok(render.includes("access:'private'"),'Private render Blob missing');
+assert.ok(upload.includes('requireBasicAuth(request)'),'Upload authorization missing');
+console.log('Secure Vercel integration self-test: PASS');

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const editor=fs.readFileSync(new URL('../src/ReelEditor.jsx', import.meta.url),'utf8');
+const health=fs.readFileSync(new URL('../src/app/api/health/route.js', import.meta.url),'utf8');
+const render=fs.readFileSync(new URL('../src/app/api/render/route.js', import.meta.url),'utf8');
+assert.match(editor,/URL\.createObjectURL\(file\)/,'Browser preview must use a local object URL');
+assert.match(editor,/audio controls preload="auto"/,'Voice preview audio element must preload directly');
+assert.match(editor,/d\.done&&d\.url/,'Client must support synchronous OIDC render completion');
+assert.match(health,/issueSignedToken/,'Health check must support OIDC-backed Private Blob');
+assert.doesNotMatch(health,/Boolean\(process\.env\.BLOB_READ_WRITE_TOKEN\)/,'Health must not require a static blob token');
+assert.match(render,/mode:'oidc-sync'/,'Render route must include OIDC fallback');
+assert.match(render,/audioCodec:'aac'/,'MP4 must explicitly encode AAC audio');
+assert.match(render,/enforceAudioTrack:true/,'MP4 must force an audio track');
+assert.match(render,/await put\(blobPath, buffer/,'OIDC render fallback must upload final MP4 to Private Blob');
+console.log('Secure audio + OIDC self-test: PASS');
