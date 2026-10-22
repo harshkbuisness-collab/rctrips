@@ -36,6 +36,27 @@ const imageToDataUrl = (file) => new Promise((resolve, reject) => {
   img.onerror = () => { URL.revokeObjectURL(u); reject(new Error('Could not read image')); };
   img.src = u;
 });
+// Bulk image markers: "[2] Pick a voice" puts picture 2 on the scene that says "Pick a voice".
+const norm = (t) => String(t).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+function takeMarkers(text) {
+  const marks = [];
+  const clean = text.replace(/\[(\d{1,2})\]\s*/g, (m, n, at) => {
+    marks.push({n: Number(n), next: text.slice(at + m.length).replace(/\[\d{1,2}\]/g, '').split(/\s+/).map(norm).filter(Boolean).slice(0, 3)});
+    return '';
+  });
+  return {clean, marks};
+}
+function placeImages(p, words, marks, images) {
+  for (const {n, next} of marks) {
+    const image = images[n - 1]?.url;
+    if (!image || !next.length) continue;
+    const i = words.findIndex((_, k) => next.every((x, j) => norm(words[k + j]?.text || '') === x));
+    const t = words[i]?.start;
+    const scene = i < 0 ? null : p.scenes.find((sc) => sc.words.some((w) => w.start === t));
+    if (scene) scene.image = image;
+  }
+  return p;
+}
 const isLocal = () => ['localhost', '127.0.0.1'].includes(window.location.hostname);
 
 export default function ReelEditor() {
@@ -138,7 +159,14 @@ export default function ReelEditor() {
   const [bulkText, setBulkText] = useState('');
   const [bulkMode, setBulkMode] = useState('same');
   const [rows, setRows] = useState([]);
+  const [bulkImages, setBulkImages] = useState([]);
   const stopBulk = useRef(false);
+  async function onBulkImages(files) {
+    try {
+      const add = await Promise.all([...files].map(async (f) => ({name: f.name, url: await imageToDataUrl(f)})));
+      setBulkImages((x) => [...x, ...add].slice(0, 30));
+    } catch (e) { setStatus(`Error: ${e.message}`); }
+  }
   const splitScripts = (text) => text.split(/^\s*-{3,}\s*$/m).map((x) => x.trim()).filter(Boolean).slice(0, 30);
   const setRow = (i, patch) => setRows((r) => r.map((x, j) => (j === i ? {...x, ...patch} : x)));
   async function runBulk(onlyFailed) {
@@ -154,11 +182,13 @@ export default function ReelEditor() {
       const say = (s) => setRow(i, {status: s});
       try {
         say('Voice…');
-        const {file, timing: t} = await scriptToVoice(list[i].text);
+        const {clean, marks} = takeMarkers(list[i].text);
+        const {file, timing: t} = await scriptToVoice(clean);
         const {pathname} = await uploadMedia(file, 'voice', () => {});
         const duration = await getAudioDuration(file);
         const p = buildProject({words: t.words, duration: Math.max(t.duration, duration), settings: {...settings, lookId: list[i].lookId},
           media: {...media, audioSrc: '', audioBlobPath: pathname, audioDurationSec: duration}});
+        placeImages(p, t.words, marks, bulkImages);
         p.title = `reel-${String(i + 1).padStart(2, '0')}-${list[i].text.split(/\s+/).slice(0, 4).join('-').replace(/[^a-zA-Z0-9-]+/g, '')}`;
         // Show it in the preview player so you can see the template while it renders.
         const view = {...p, audioSrc: URL.createObjectURL(file)};
@@ -206,6 +236,12 @@ export default function ReelEditor() {
           <F label="Scripts (separate each one with a line: ---)"><textarea rows={8} value={bulkText} onChange={(e) => setBulkText(e.target.value)}
             placeholder={'First script...\n---\nSecond script...\n---\nThird script...'} /></F>
           <F label="Template for each video"><select value={bulkMode} onChange={(e) => setBulkMode(e.target.value)}>{opt([['same', 'Same as selected template'], ['rotate', 'Rotate through all templates'], ['random', 'Random template']])}</select></F>
+          <F label="Images (optional)"><input type="file" accept="image/*" multiple onChange={(e) => { onBulkImages(e.target.files || []); e.target.value = ''; }} /></F>
+          {bulkImages.length ? <div className="bulkImgs">
+            {bulkImages.map((im, i) => <figure key={i}><img src={im.url} alt="" /><figcaption>[{i + 1}]</figcaption></figure>)}
+            <button className="ghost mini" onClick={() => setBulkImages([])}>Clear images</button>
+          </div> : null}
+          <p className="hint">To put a picture on a line, write its number before the line, e.g. <b>[2] Pick a voice you like.</b> The number is not spoken.</p>
           <p className="hint">Uses the voice, speed, format, music and sticker settings above. Keep this tab open; each MP4 downloads when ready.</p>
           <div className="row">
             <button className="primary" disabled={busy} onClick={() => runBulk(false)}>Generate {splitScripts(bulkText).length || ''} videos</button>

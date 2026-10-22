@@ -42,3 +42,7 @@ details summary { cursor: pointer; margin-bottom: 8px; }
 .bulk .mini { padding: 2px 8px; font-size: 11px; margin-top: 3px; }
 .sceneHead .mini { width: auto; flex: none; white-space: nowrap; margin-top: 0; padding: 3px 8px; font-size: 11px; cursor: pointer; border: 1px solid #333; border-radius: 6px; background: transparent; color: inherit; }
 .scene .thumb { display: block; width: 100%; max-height: 110px; object-fit: contain; margin: 6px 0; border-radius: 6px; background: #111; }
+.bulkImgs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
+.bulkImgs figure { margin: 0; width: 64px; text-align: center; font-size: 11px; color: #ffd166; }
+.bulkImgs img { width: 64px; height: 40px; object-fit: cover; border-radius: 4px; display: block; }
+.bulkImgs .mini { width: auto; margin-top: 0; padding: 2px 8px; font-size: 11px; }
