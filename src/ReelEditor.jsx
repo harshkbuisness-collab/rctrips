@@ -130,7 +130,8 @@ export default function ReelEditor() {
         <F label="Format"><select value={settings.format} onChange={(e) => setSetting('format', e.target.value)}>{opt(Object.entries(FORMATS).map(([k, f]) => [k, f.label]))}</select></F>
         <F label="Theme"><select value={settings.themeId} onChange={(e) => setSetting('themeId', e.target.value)}>{opt(THEMES.map((t) => [t.id, t.label]))}</select></F>
         <F label="3D icons"><select value={settings.icons} onChange={(e) => setSetting('icons', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
-        <F label="Meme stickers"><select value={settings.stickers} onChange={(e) => setSetting('stickers', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
+        <F label="Stickers"><select value={settings.stickers} onChange={(e) => setSetting('stickers', e.target.value)}>{opt([['off', 'Off'], ['light', 'Light'], ['normal', 'Normal']])}</select></F>
+        <F label="Sticker style"><select value={settings.stickerStyle} onChange={(e) => setSetting('stickerStyle', e.target.value)}>{opt([['cats', 'Cats'], ['mascot', 'Mascot']])}</select></F>
         <button className="ghost" disabled={!timing} onClick={() => setSetting('seed', settings.seed + 1)}>↻ Re-plan (resets edits)</button>
         <hr />
         <button className="primary" disabled={busy || !project} onClick={onRender}>Render MP4</button>
@@ -174,7 +175,7 @@ export default function ReelEditor() {
                 <select value={s.sticker} onChange={(e) => updateScene(s.id, (x) => ({...x, sticker: e.target.value, icon: e.target.value ? '' : x.icon}))}>
                   <option value="">No reaction</option>
                   <optgroup label="Mascot">{REACTIONS.map((x) => <option key={x.id} value={`lib:${x.id}`}>{x.id}</option>)}</optgroup>
-                  <optgroup label="Memes (copyrighted — private use)">{STICKERS.map((st) => <option key={st.id} value={st.id}>{st.label}</option>)}</optgroup>
+                  <optgroup label="Cats & memes">{STICKERS.map((st) => <option key={st.id} value={st.id}>{st.label}</option>)}</optgroup>
                 </select>
               </div>
             ) : null}

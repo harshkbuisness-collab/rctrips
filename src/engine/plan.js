@@ -6,6 +6,7 @@
 import {pickHero, heroScore, isFiller, norm} from './words.js';
 import {matchIcon} from './icons.js';
 import {matchObject, matchReaction} from './library.js';
+import {matchSticker} from './stickers.js';
 
 export const THEMES = [
   {id: 'classic', label: 'Classic · Red / Blue', bg: '#FAFAFA', ink: '#111111', dark: '#050505', accents: ['#E5262A', '#1F6BFF'], cta: '#FFE600'},
@@ -23,7 +24,7 @@ export const FORMATS = {
   '16:9-in-9:16': {label: '16:9 inside 9:16', width: 1080, height: 1920, stage: {x: 0, y: 656, w: 1080, h: 608}},
 };
 
-export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', seed: 0};
+export const DEFAULT_SETTINGS = {themeId: 'classic', format: '16:9-in-9:16', icons: 'normal', stickers: 'light', stickerStyle: 'cats', seed: 0};
 
 // Accepts {words:[{word|text|display,start,end}]} (seconds). Returns clean words + duration.
 export function parseTiming(raw) {
@@ -113,7 +114,7 @@ export function buildScenes(words, settings = {}) {
       }
       if (FREQ[s.icons] && i - lastIcon >= FREQ[s.icons]) { scene.icon = libRef(matchObject(ws, h, s.seed)) || matchIcon(ws, h); if (scene.icon) lastIcon = i; }
       if (FREQ[s.stickers] && !scene.icon && i - lastSticker >= FREQ[s.stickers] + 1) {
-        scene.sticker = libRef(matchReaction(ws, s.seed)); if (scene.sticker) lastSticker = i;
+        scene.sticker = s.stickerStyle === 'mascot' ? libRef(matchReaction(ws, s.seed)) : matchSticker(ws, s.seed, 'cat'); if (scene.sticker) lastSticker = i;
       }
     }
     scene.start = i === 0 ? 0 : Math.max(0, ws[0].start - 0.05);
