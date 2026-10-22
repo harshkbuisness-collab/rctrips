@@ -44,4 +44,5 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 - Claude gives PROMPTS only (one Flow prompt that asks for 10 images); the owner generates. Claude does not make thumbnail images.
 - The thumbnail text is 2 words that say what the video is about (it works like the title, e.g. "1929 CRASH").
   No curiosity-only text like "WIPED OUT" or "-89%". Simple, clear, explains the topic.
+- Always name the country (US / AMERICA) in the thumbnail text and picture (flag, Wall Street, Capitol): our viewers are American.
 - Style: depth scene (painted, slightly 3D background) + one big stickman with a clear emotion (research/13-viral-thumbnails.md).
