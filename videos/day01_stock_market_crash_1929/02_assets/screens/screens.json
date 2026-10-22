@@ -358,8 +358,8 @@
    0.769,
    1
   ],
-  "page": null,
-  "ok": true
+  "ok": true,
+  "page": null
  },
  {
   "line": 26,
@@ -374,8 +374,8 @@
    0.769,
    0.875
   ],
-  "page": null,
-  "ok": true
+  "ok": true,
+  "page": null
  },
  {
   "line": 54,
@@ -390,8 +390,8 @@
    0.769,
    0.94
   ],
-  "page": null,
-  "ok": true
+  "ok": true,
+  "page": null
  },
  {
   "line": 69,
@@ -406,7 +406,7 @@
    0.769,
    0.979
   ],
-  "page": null,
-  "ok": true
+  "ok": true,
+  "page": null
  }
 ]
