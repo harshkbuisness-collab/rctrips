@@ -11,7 +11,8 @@ const noise = (a, b) => { const x = Math.sin(a * 12.9898 + b * 78.233) * 43758.5
 
 
 const perLetter = (text, render) => letters(text).map((l, i) => (
-  <span key={i} style={{display: 'inline-block', whiteSpace: 'pre', ...render(i)}}>{l}</span>
+  // Letters inherit a gradient fill (background-clip: text) from the word.
+  <span key={i} style={{display: 'inline-block', whiteSpace: 'pre', backgroundImage: 'inherit', WebkitBackgroundClip: 'inherit', backgroundClip: 'inherit', ...render(i)}}>{l}</span>
 ));
 
 export function MotionText({text, f, dur = 10, kind, color, fps = 30, style, frame = 0}) {
@@ -76,6 +77,14 @@ export function MotionText({text, f, dur = 10, kind, color, fps = 30, style, fra
       const dx = (noise(f, 1) - 0.5) * 0.12 * k;
       return <span style={{...base, opacity: f % 3 === 1 && k > 0.4 ? 0.5 : 1, transform: `translate(${dx}em, ${(noise(f, 2) - 0.5) * 0.06 * k}em) skewX(${dx * 60}deg)`,
         textShadow: k > 0 ? `${0.05 * k}em 0 #FF2D55, ${-0.05 * k}em 0 #00E5FF` : 'none'}}>{text}</span>;
+    }
+    case 'pop': { // springs up from small with a little overshoot
+      const p = spring({frame: f, fps, config: {damping: 9, stiffness: 230, mass: 0.5}});
+      return <span style={{...base, opacity: f >= 0 ? 1 : 0, transform: `scale(${0.4 + 0.6 * p}) translateY(${(1 - p) * 0.25}em)`}}>{text}</span>;
+    }
+    case 'stamp': { // slams down with a tilt, like a rubber stamp
+      const k = interpolate(f, [0, 6], [0, 1], {...clamp, easing: Easing.out(Easing.back(2))});
+      return <span style={{...base, opacity: f >= 0 ? 1 : 0, transform: `scale(${1.7 - 0.7 * k}) rotate(${(1 - k) * -8}deg)`}}>{text}</span>;
     }
     default: // blur rise
       return <span style={{...base, opacity: interpolate(f, [0, 6], [0, 1], clamp), filter: `blur(${interpolate(f, [0, 7], [12, 0], clamp)}px)`,
