@@ -96,14 +96,8 @@
   "what": "highlight \"pool\"",
   "said": "For context, that was more than all the cash circulating in the entire country at the time. Wall Street had its own tricks too. Groups of wealthy traders formed \u201cpools\u201c.",
   "file": "s07.png",
-  "box": [
-   0.151,
-   0.346,
-   0.728,
-   0.392
-  ],
-  "ok": true,
-  "page": null
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
  },
  {
   "line": 24,
