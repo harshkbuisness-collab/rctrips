@@ -24,7 +24,7 @@ export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
     bg: '#FAFAFA', ink: '#111111', dark: '#050505', darkInk: '#FFFFFF', accents: ['#E5262A', '#1F6BFF'], cta: '#FFFFFF', ctaBg: '#29A8F0',
     font: INTER, weight: 700, heroFont: INTER, heroWeight: 900, heroItalic: true, scriptFont: SCRIPT, labelFont: `'Libre Caslon Text', ${DEV}`},
-  {id: 'collage', label: '02 · Type & Build', layout: 'lockup', motion: 'type', transition: 'wipe', transitionEvery: 3, sfx: true, texture: 'soft', character: true,
+  {id: 'collage', label: '02 · Type & Build', layout: 'lockup', motion: 'type', transition: 'wipe', transitionEvery: 3, texture: 'soft', character: true,
     cycle: [{bg: '#FFFFFF', ink: '#111111', accent: 'gradient'}, {bg: '#FFFFFF', ink: '#111111', accent: '#E5262A'},
       {bg: '#FFFFFF', ink: '#111111', accent: 'gradient'}, {bg: '#0A0A0A', ink: '#FFFFFF', accent: '#FF3B30'}],
     gradient: 'linear-gradient(90deg, #1F4BFF, #00B7FF)',

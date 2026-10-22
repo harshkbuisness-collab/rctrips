@@ -22,7 +22,8 @@ export function MotionText({text, f, dur = 10, kind, color, fps = 30, style, fra
     case 'mask': // slides up from behind a line just below the word
       return (
         <span style={{...base, overflow: 'hidden', verticalAlign: 'bottom', paddingRight: '0.1em', paddingBottom: '0.06em'}}>
-          <span style={{display: 'inline-block', transform: `translateY(${interpolate(f, [0, 9], [110, 0], {...clamp, easing: Easing.out(Easing.poly(5))})}%)`}}>{text}</span>
+          <span style={{display: 'inline-block', backgroundImage: 'inherit', WebkitBackgroundClip: 'inherit', backgroundClip: 'inherit',
+            transform: `translateY(${interpolate(f, [0, 9], [110, 0], {...clamp, easing: Easing.out(Easing.poly(5))})}%)`}}>{text}</span>
         </span>
       );
     case 'drop': // letters fall one after another and bounce

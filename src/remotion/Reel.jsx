@@ -93,9 +93,9 @@ function Word({w, look, ink, pal, isHero, extra, c, kind}) {
     color={isHero ? (pal.accentStyle.color || ink) : ink} style={style} />;
 }
 
-function Sentence({words, look, ink, pal, heroExtra, c}) {
+function Sentence({words, look, ink, pal, heroExtra, c, kind}) {
   return words.map((w, i) => (
-    <React.Fragment key={i}>{i > 0 ? ' ' : null}<Word w={w} look={look} ink={ink} pal={pal} isHero={w.hero} extra={w.hero ? heroExtra : undefined} c={c} /></React.Fragment>
+    <React.Fragment key={i}>{i > 0 ? ' ' : null}<Word w={w} look={look} ink={ink} pal={pal} isHero={w.hero} extra={w.hero ? heroExtra : undefined} c={c} kind={kind} /></React.Fragment>
   ));
 }
 
@@ -334,6 +334,16 @@ function RunCard({scene, look, u, stage, index}) {
 // Adds a slow camera push, a zoom punch + shake when the keyword lands, a shine sweep, sparkles
 // or a hand-drawn doodle, number count-ups, a character on the left and the previous card's
 // last word sliding away.
+// Lockup compositions, used in turn so no two cards in a row look alike.
+// hero / words: text animation for the keyword / the other words; flair: decoration around the keyword.
+const LOCKUP_VARIANTS = [
+  {name: 'classic', hero: 'type', words: 'type', flair: 'sparkles'},
+  {name: 'side', hero: 'slide', words: 'blur', flair: 'underline'},
+  {name: 'outline', hero: 'scatter', words: 'tracking', flair: 'sparkles'},
+  {name: 'kinetic', hero: 'zoom', words: 'pop', flair: null},
+  {name: 'stack', hero: 'mask', words: 'mask', flair: 'circle'},
+  {name: 'marker', hero: 'pop', words: 'flip', flair: null},
+];
 const STAR = 'M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z';
 const NUMBER = /^(\d+(?:\.\d+)?)(k|K|%|\+|x)?$/;
 const CHARACTER_POSES = ['chubby-character-thinking-hoodie-1', 'mascot-character-pointing-right-1', 'mascot-pointing-up-1',
@@ -350,8 +360,10 @@ function LockupCard({scene, look, u, stage, index, scenes}) {
   const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
   const heroText = display(hero.text);
   const num = heroText.match(NUMBER);
+  // Each card gets a different composition and animation, rotating through VARIANTS.
+  const variant = LOCKUP_VARIANTS[index % LOCKUP_VARIANTS.length];
   const charW = look.character ? stage.w * 0.27 : 0;
-  const areaW = (stage.w - charW) * 0.8;
+  const areaW = (stage.w - charW) * (variant.name === 'side' ? 0.5 : variant.name === 'marker' ? 0.3 : 0.8);
   const base = measureText({text: heroText, fontFamily: look.heroFont, fontSize: 100, fontWeight: '900', letterSpacing: '-0.04em'}).width * 1.06;
   const size = Math.min(u * 12, (areaW / base) * 100);
   const heroW = (base / 100) * size, heroH = size * 1.05;
@@ -366,38 +378,96 @@ function LockupCard({scene, look, u, stage, index, scenes}) {
   const heroFill = {backgroundImage: `linear-gradient(110deg, rgba(255,255,255,0) ${shine - 10}%, rgba(255,255,255,.95) ${shine}%, rgba(255,255,255,0) ${shine + 10}%), ${fill}`,
     WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', filter: 'drop-shadow(0 10px 18px rgba(0,0,0,.10))'};
   const heroStyle = {fontFamily: look.heroFont, fontWeight: 900, fontSize: size, lineHeight: 1.05, letterSpacing: '-0.04em', whiteSpace: 'nowrap', ...heroFill};
+  const strokeColor = pal.accent === 'gradient' ? '#1F4BFF' : pal.accent;
+  if (variant.name === 'outline') {
+    // Outlined keyword that fills in from the left once it has landed.
+    const fillP = interpolate(c.frame, [land, land + 14], [0, 100], {...clamp, easing: ease});
+    Object.assign(heroStyle, {WebkitTextStroke: `${Math.max(2, size * 0.025)}px ${strokeColor}`, backgroundImage: fill,
+      backgroundSize: `${fillP}% 100%`, backgroundRepeat: 'no-repeat'});
+  }
   let heroEl;
   if (num) {
     const t = interpolate(c.frame - c.at(hero), [0, 12], [0, 1], {...clamp, easing: ease});
     const v = Number(num[1]) * t;
     heroEl = <span style={{...heroStyle, display: 'inline-block', opacity: c.frame >= c.at(hero) ? 1 : 0}}>{`${Number.isInteger(Number(num[1])) ? Math.round(v) : v.toFixed(1)}${num[2] || ''}`}</span>;
   } else {
-    heroEl = <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind={look.motion} fps={c.fps} frame={c.frame}
-      color={pal.accent === 'gradient' ? '#1F4BFF' : pal.accent} style={heroStyle} />;
+    heroEl = <MotionText text={heroText} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind={variant.hero} fps={c.fps} frame={c.frame}
+      color={strokeColor} style={heroStyle} />;
   }
-  const small = (ws, align, scale) => (
-    <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 2.7 * scale, lineHeight: 1.2, letterSpacing: '-0.02em', maxWidth: heroW * 1.15,
-      textAlign: align, alignSelf: align === 'left' ? 'flex-start' : 'flex-end', margin: align === 'left' ? `0 0 ${-size * 0.05}px ${size * 0.04}px` : `${-size * 0.02}px ${size * 0.02}px 0 0`}}>
-      <Sentence words={ws} look={look} ink={pal.ink} pal={pal} c={c} />
+  const small = (ws, align, scale, alignSelf) => (
+    <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 2.7 * scale, lineHeight: 1.2, letterSpacing: '-0.02em', maxWidth: Math.max(heroW * 1.15, stage.w * 0.3),
+      textAlign: align, alignSelf: alignSelf || (align === 'left' ? 'flex-start' : align === 'right' ? 'flex-end' : 'center'),
+      margin: align === 'left' ? `0 0 ${-size * 0.05}px ${size * 0.04}px` : align === 'right' ? `${-size * 0.02}px ${size * 0.02}px 0 0` : `${size * 0.04}px 0`}}>
+      <Sentence words={ws} look={look} ink={pal.ink} pal={pal} c={c} kind={variant.words} />
     </div>
   );
-  // Flair: sparkles on even cards, a hand-drawn underline / circle on odd cards.
-  const flair = index % 2 === 0 ? [[-0.06, -0.25, 1], [1.03, -0.12, 0.8], [0.97, 1.05, 0.7], [-0.03, 0.95, 0.6]].map(([x, y, sc], i) => {
-    const p = spring({frame: c.frame - land - i * 3, fps: c.fps, config: {damping: 8, stiffness: 200}});
-    const sz = u * 2.6 * sc;
-    return <svg key={i} viewBox="0 0 24 24" width={sz} height={sz} style={{position: 'absolute', left: heroW * x - sz / 2, top: heroH * y - sz / 2,
-      transform: `scale(${p}) rotate(${c.frame * 3 + i * 40}deg)`}}><path d={STAR} fill={i % 2 ? '#FFC400' : pal.accent === 'gradient' ? '#1F4BFF' : pal.accent} /></svg>;
-  }) : (() => {
+  // Flair around the keyword: sparkles, or a hand-drawn underline / circle.
+  let flair = null;
+  if (variant.flair === 'sparkles') {
+    flair = [[-0.06, -0.25, 1], [1.03, -0.12, 0.8], [0.97, 1.05, 0.7], [-0.03, 0.95, 0.6]].map(([x, y, sc], i) => {
+      const p = spring({frame: c.frame - land - i * 3, fps: c.fps, config: {damping: 8, stiffness: 200}});
+      const sz = u * 2.6 * sc;
+      return <svg key={i} viewBox="0 0 24 24" width={sz} height={sz} style={{position: 'absolute', left: heroW * x - sz / 2, top: heroH * y - sz / 2,
+        transform: `scale(${p}) rotate(${c.frame * 3 + i * 40}deg)`}}><path d={STAR} fill={i % 2 ? '#FFC400' : strokeColor} /></svg>;
+    });
+  } else if (variant.flair) {
     const p = interpolate(c.frame, [land, land + 14], [0, 1], {...clamp, easing: ease});
-    const circle = index % 4 === 1;
-    const d = circle
+    const d = variant.flair === 'circle'
       ? `M ${heroW * 0.08} ${heroH * 0.2} C ${heroW * 0.5} ${-heroH * 0.25}, ${heroW * 1.12} ${heroH * 0.05}, ${heroW * 1.05} ${heroH * 0.55} C ${heroW} ${heroH * 1.15}, ${-heroW * 0.05} ${heroH * 1.2}, ${-heroW * 0.04} ${heroH * 0.5} C ${-heroW * 0.03} ${heroH * 0.2}, ${heroW * 0.25} ${heroH * 0.02}, ${heroW * 0.4} ${heroH * 0.06}`
       : `M ${heroW * 0.02} ${heroH * 1.02} C ${heroW * 0.3} ${heroH * 0.94}, ${heroW * 0.7} ${heroH * 0.96}, ${heroW * 0.98} ${heroH * 0.9}`;
-    return <svg width={heroW} height={heroH} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}}>
+    flair = <svg width={heroW} height={heroH} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}}>
       <path d={d} fill="none" stroke={pal.ink === '#FFFFFF' ? '#FF3B30' : '#E5262A'} strokeWidth={u * 0.55} strokeLinecap="round" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - p} /></svg>;
-  })();
+  }
   const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
   const iconP = spring({frame: c.frame - land - 2, fps: c.fps, config: {damping: 10, stiffness: 180}});
+  const heroBox = (
+    <div style={{position: 'relative', width: heroW, height: heroH}}>
+      {heroEl}
+      {flair}
+      {icon ? <Img src={icon} style={{position: 'absolute', right: -u * 7, top: -u * 6, width: u * 8, height: u * 8, objectFit: 'contain',
+        transform: `scale(${iconP}) rotate(${(1 - iconP) * 30}deg)`}} /> : null}
+    </div>
+  );
+  let body;
+  if (variant.name === 'side') {
+    // Keyword on the left, the rest of the line stacked small on the right.
+    body = (
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 2}}>
+        {heroBox}
+        <div style={{display: 'flex', flexDirection: 'column', gap: u * 0.6, borderLeft: `${u * 0.4}px solid ${strokeColor}`, paddingLeft: u * 1.4}}>
+          {pre.length ? small(pre, 'left', 0.95, 'flex-start') : null}
+          {post.length ? small(post, 'left', 0.95, 'flex-start') : null}
+        </div>
+      </div>
+    );
+  } else if (variant.name === 'kinetic' && pre.length && c.frame < c.at(hero)) {
+    // Lead-in words flash one at a time, then the keyword punches in.
+    let cur = 0;
+    pre.forEach((w, i) => { if (c.frame >= c.at(w)) cur = i; });
+    const w = pre[cur];
+    const pp = spring({frame: c.frame - c.at(w), fps: c.fps, config: {damping: 10, stiffness: 260, mass: 0.5}});
+    body = <div style={{fontFamily: look.heroFont, fontWeight: 900, fontSize: u * 6.5, color: pal.ink, letterSpacing: '-0.03em', opacity: c.frame >= c.at(w) ? 1 : 0,
+      transform: `scale(${0.6 + 0.4 * pp})`}}>{display(w.text)}</div>;
+  } else if (variant.name === 'marker') {
+    // One centred line; the keyword sits on a marker swipe.
+    const sweep = interpolate(c.frame, [c.at(hero), c.at(hero) + 8], [0, 100], {...clamp, easing: ease});
+    body = (
+      <div style={{maxWidth: (stage.w - charW) * 0.84, textAlign: 'center', fontFamily: look.font, fontWeight: 800, fontSize: u * 4.4, lineHeight: 1.35, letterSpacing: '-0.02em'}}>
+        <Sentence words={scene.words} look={look} ink={pal.ink} pal={pal} c={c} kind={variant.words}
+          heroExtra={{color: pal.ink, backgroundImage: 'linear-gradient(#FFD43B, #FFD43B)', WebkitBackgroundClip: 'border-box', backgroundClip: 'border-box',
+            backgroundRepeat: 'no-repeat', backgroundPosition: '0 80%', backgroundSize: `${sweep}% 55%`, padding: '0 0.12em', fontSize: '1.3em', fontWeight: 900}} />
+      </div>
+    );
+  } else {
+    const centered = variant.name !== 'classic';
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column', alignItems: centered ? 'center' : 'stretch'}}>
+        {pre.length ? small(pre, centered ? 'center' : 'left', 1) : null}
+        {heroBox}
+        {post.length ? small(post, centered ? 'center' : 'right', 0.95) : null}
+      </div>
+    );
+  }
   // Character on the left: a pose per card (reaction if one was matched).
   const pose = scene.sticker?.startsWith('lib:') ? scene.sticker : `lib:${CHARACTER_POSES[index % CHARACTER_POSES.length]}`;
   const charP = spring({frame: c.frame, fps: c.fps, config: {damping: 12, stiffness: 180}});
@@ -413,16 +483,7 @@ function LockupCard({scene, look, u, stage, index, scenes}) {
         {look.character ? <Img src={staticFile(iconPath(pose))} style={{position: 'absolute', left: stage.w * 0.01, bottom: 0, height: stage.h * 0.66, width: charW, objectFit: 'contain',
           objectPosition: 'bottom', transform: `translateY(${(1 - charP) * stage.h * 0.15}px)`}} /> : null}
         <AbsoluteFill style={{left: charW, width: stage.w - charW, alignItems: 'center', justifyContent: 'center'}}>
-          <div style={{display: 'inline-flex', flexDirection: 'column'}}>
-            {pre.length ? small(pre, 'left', 1) : null}
-            <div style={{position: 'relative', width: heroW, height: heroH}}>
-              {heroEl}
-              {flair}
-              {icon ? <Img src={icon} style={{position: 'absolute', right: -u * 7, top: -u * 6, width: u * 8, height: u * 8, objectFit: 'contain',
-                transform: `scale(${iconP}) rotate(${(1 - iconP) * 30}deg)`}} /> : null}
-            </div>
-            {post.length ? small(post, 'right', 0.95) : null}
-          </div>
+          {body}
         </AbsoluteFill>
       </AbsoluteFill>
     </Backdrop>
