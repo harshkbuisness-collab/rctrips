@@ -120,59 +120,128 @@ picks make sense. Keep the fixes small and add the 5 scripts to a self-test.
 
 ---
 
-## Part B — Image prompts (for custom visuals with an AI image tool)
+## Part B — Who makes what
 
-Use these when the free libraries have no good match and you want **your own** branded visuals.
-Works in Midjourney, Ideogram, Leonardo, DALL·E or similar. Export PNG with transparent
-background (remove background if the tool can't), 1024×1024, then add it to `public/icons/`
-with keywords.
+| Visual | Source | Who |
+|---|---|---|
+| 3D icons for everyday concepts (~1,500) | Microsoft Fluent Emoji (GitHub, MIT) | Claude imports (A1) |
+| Brand logos (~3,000) | Simple Icons (GitHub, CC0) | Claude imports (A3) |
+| Country flags | circle-flags (GitHub, MIT) | Claude imports (A3) |
+| Emoji reaction stickers | Fluent Emoji 3D (GitHub, MIT) | Claude imports (A5) |
+| Counters, arrows, charts, checklists, compare, quote cards | Code templates | Claude builds (A2) |
+| **Animated 3D hero objects** (spinning coin, rocket launch, phone pop-up) | Google Flow (Veo) | **You** |
+| **Premium still visuals** in your own style | Google Flow (Imagen) | **You** |
+| **B-roll clips** (people, places, work scenes) | Google Flow (Veo) | **You** |
+| **Your own mascot / character reactions** | Google Flow | **You** |
 
-### B1. Master style (paste before every prompt)
+So from Flow we only need what free libraries can't give: **motion, your own style, and real-life scenes.**
 
-```
-3D glossy icon, soft studio lighting, smooth rounded shapes, subtle gradient, clean
-minimal design, centred single object, isolated on pure white background, soft shadow
-below, no text, no letters, no watermark, high detail, 1:1
-```
+---
 
-### B2. Concept icon prompts (replace the object)
+## Part C — Google Flow prompts
 
-```
-[MASTER STYLE] + a stack of gold coins with an upward arrow
-[MASTER STYLE] + a smartphone showing a play button
-[MASTER STYLE] + a brain with a small light bulb
-[MASTER STYLE] + a stopwatch at 3 seconds
-[MASTER STYLE] + a megaphone with sound waves
-[MASTER STYLE] + an open book with sparkles
-[MASTER STYLE] + a dumbbell and a heart
-[MASTER STYLE] + a shopping bag with a price tag
-[MASTER STYLE] + a shield with a check mark
-[MASTER STYLE] + a rocket leaving a trail
-[MASTER STYLE] + a magnet pulling small people icons
-[MASTER STYLE] + a calendar with a red circle on one day
-```
+### C0. Rules for everything you make in Flow
 
-### B3. Reaction sticker prompts
+1. **Background = exact flat colour of our cards**, so no background removal is needed:
+   - Light cards: pure white `#FAFAFA`
+   - Dark cards (Step / CTA): pure black `#050505`
+   Make important objects in **both** versions.
+2. **One object, centred, lots of empty space** around it (the tool places it next to text).
+3. **No text, letters, logos or watermarks** inside the visual — the tool adds text.
+4. **Camera locked** (no zoom/pan) unless the prompt says otherwise.
+5. Aspect ratio: **1:1 for objects**, 16:9 and 9:16 for b-roll.
+6. Clips: keep the **best 2–4 seconds**; first and last frame should be the object at rest
+   (so the tool can loop or freeze it).
+7. Export: images PNG, videos MP4 (H.264). Name files `category_object_bg.ext`,
+   e.g. `money_coin-stack_white.mp4`.
+8. For each file, fill one line of the keyword sheet (C6) so the tool can find it.
 
-```
-cute 3D character sticker, [EMOTION: shocked / laughing / thinking / angry / proud / crying],
-big expressive face, simple body, glossy toy style, thick white sticker outline,
-isolated on white background, no text, 1:1
-```
-
-### B4. Brand-colour variant (to match a theme)
+### C1. Master style (paste at the start of every object prompt)
 
 ```
-[MASTER STYLE] + [OBJECT], main colour [#E5262A red | #1F6BFF blue | #FFE600 yellow],
-other parts white and light grey
+Premium 3D render, glossy soft-plastic material, smooth rounded shapes, soft studio
+lighting, gentle reflections, single object centred with lots of empty space,
+perfectly flat seamless [pure white #FAFAFA | pure black #050505] background, no floor
+line, soft contact shadow, no text, no letters, no logos, no watermark
 ```
 
-### B5. Background textures (optional, use rarely)
+### C2. Animated hero objects (Veo, 1:1, ~4 s, camera locked)
+
+Add one motion line after the master style:
 
 ```
-minimal abstract background, very soft [white | black] paper texture, subtle grain,
-no objects, no text, 16:9
+[MASTER STYLE], a stack of gold coins, coins drop in one by one and bounce slightly, then rest
+[MASTER STYLE], a red rocket, it shakes, lifts off upward with a small smoke puff, leaves frame
+[MASTER STYLE], a smartphone, it pops in with a bounce and the screen lights up blank white
+[MASTER STYLE], a stopwatch, the hand spins fast then stops
+[MASTER STYLE], a light bulb, it flickers then glows bright yellow
+[MASTER STYLE], a megaphone, it tilts and pulses with sound rings
+[MASTER STYLE], a growth chart bar set, bars rise one after another, last one tallest
+[MASTER STYLE], a falling chart arrow, the red arrow drops and cracks the floor slightly
+[MASTER STYLE], a target board, a dart flies in and hits the centre
+[MASTER STYLE], a padlock, it unlocks and the shackle pops open
+[MASTER STYLE], a gift box, the lid pops off with confetti
+[MASTER STYLE], a trophy, it spins once and shines
+[MASTER STYLE], a brain, small sparks travel across it
+[MASTER STYLE], an hourglass, it flips and sand starts falling
+[MASTER STYLE], a magnet, small coins fly toward it and stick
+[MASTER STYLE], a calendar, pages flip quickly then stop
+[MASTER STYLE], a red cross mark, it slams in and shakes
+[MASTER STYLE], a green check mark, it draws itself and bounces
+[MASTER STYLE], a question mark, it wobbles and tilts
+[MASTER STYLE], a fire flame, it flickers in place, loopable
 ```
 
-**Keyword sheet for each custom image** (add to the index):
-`file: coins-up.png | en: money, profit, income, earn | hinglish: paisa, kamai | hindi: पैसा, कमाई`
+Topic packs — repeat the same pattern for your niches:
+- **Money:** wallet, credit card, piggy bank, rupee note stack, bank building, receipt
+- **Health/fitness:** dumbbell, apple, water bottle, heart with pulse, running shoe, sleep moon
+- **Tech/AI:** laptop, robot head, chip, cloud, code window (blank), Wi-Fi signal
+- **Study/career:** book, graduation cap, pencil, briefcase, certificate (blank), clock
+- **Social media:** heart like, comment bubble, bookmark, send arrow, bell, camera, play button
+
+### C3. Still versions (Imagen, 1:1)
+
+Same prompts as C2 **without** the motion part. Use when a clip is not needed:
+```
+[MASTER STYLE], a stack of gold coins
+```
+
+### C4. B-roll clips (Veo, 16:9 and 9:16, 4–8 s)
+
+Real scenes for "media" cards. Natural, modern, clean, Indian context where it fits:
+```
+Cinematic shot, shallow depth of field, soft natural light, modern clean look, no text:
+- a young creator filming himself on a phone in a bright room
+- hands scrolling an Instagram-style feed on a phone, screen content blurred
+- a person typing fast on a laptop at night, desk lamp glow
+- a busy Indian street market, slow motion
+- a person checking a phone and smiling at notifications, screen not visible
+- close-up of a hand writing a plan in a notebook
+- a gym workout, dumbbell lift, slow motion
+- a team meeting in a modern office, people laughing
+```
+
+### C5. Your mascot (optional, gives the brand a face)
+
+Design once, then reuse the same description every time so it stays consistent:
+```
+Cute 3D mascot character, [describe: small round robot with red visor / chubby cat with
+glasses], glossy toy style, [MASTER STYLE background], full body, [EMOTION/ACTION:
+shocked jump / laughing / thinking with hand on chin / pointing right / thumbs up /
+facepalm / clapping / crying], ~3 s, camera locked
+```
+Make the 8 reactions above — they replace meme stickers for good.
+
+### C6. Keyword sheet (one line per file)
+
+```
+file | en keywords | hinglish | hindi | bg | type
+money_coin-stack_white.mp4 | money, profit, income, earn, savings | paisa, kamai | पैसा, कमाई | white | object
+money_coin-stack_black.mp4 | (same) | (same) | (same) | black | object
+broll_creator-filming_169.mp4 | creator, filming, shoot, content | shoot, video banana | शूट | – | broll
+mascot_shocked_white.mp4 | shock, wow, crazy, unbelievable | kya baat, pagal | हैरान | white | reaction
+```
+
+Put the files in a folder `flow-assets/` with this sheet as `flow-assets/keywords.csv`,
+then ask Claude: **"Import flow-assets into the visual library"** — it will copy them into
+`public/`, add them to the search index, and prefer them over the free libraries when both match.
