@@ -45,4 +45,7 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 - The thumbnail text is 2 words that say what the video is about (it works like the title, e.g. "1929 CRASH").
   No curiosity-only text like "WIPED OUT" or "-89%". Simple, clear, explains the topic.
 - Always name the country (US / AMERICA) in the thumbnail text and picture (flag, Wall Street, Capitol): our viewers are American.
-- Style: depth scene (painted, slightly 3D background) + one big stickman with a clear emotion (research/13-viral-thumbnails.md).
+- OUR BRAND STYLE (do not copy other channels): deep money-green background (#0F3D2A) with soft diary-paper texture and dark
+  edges; one landmark/object in muted cream-sepia; our narrator (brown spiky hair, round glasses) in full color, the orange
+  scarf is the brightest color; 2 big bold white words, the key word as white text on a red label (#D62728); a small red
+  bookmark ribbon in the top-right corner on every thumbnail (from the logo).
