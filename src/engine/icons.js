@@ -1,4 +1,6 @@
 // 3D icons (Microsoft Fluent Emoji, MIT licensed, stored in public/icons) matched to spoken keywords.
+// Fallback for words the Flow library (library.js) does not cover.
+import {LIB_BY_ID} from './library.js';
 
 // [Fluent asset name, keywords (English, Hinglish, Hindi)]
 const ICONS = [
@@ -41,8 +43,8 @@ const ICONS = [
   ['Exploding head', 'shocking shock crazy mindblowing'],
 ];
 
-// Path inside public/ — wrap with staticFile() when rendering.
-export const iconPath = (name) => (name ? `icons/${name.toLowerCase().replace(/ /g, '_')}.png` : '');
+// Path inside public/ — wrap with staticFile() when rendering. 'lib:<id>' points at the Flow library.
+export const iconPath = (name) => (!name ? '' : name.startsWith('lib:') ? LIB_BY_ID[name.slice(4)]?.file || '' : `icons/${name.toLowerCase().replace(/ /g, '_')}.png`);
 export const ICON_NAMES = ICONS.map(([name]) => name);
 
 const LOOKUP = new Map();

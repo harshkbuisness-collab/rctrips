@@ -5,6 +5,10 @@ import {Reel} from './remotion/Reel.jsx';
 import {THEMES, FORMATS, DEFAULT_SETTINGS, getTheme, parseTiming, buildProject} from './engine/plan.js';
 import {ICON_NAMES} from './engine/icons.js';
 import {STICKERS} from './engine/stickers.js';
+import {LIBRARY} from './engine/library.js';
+
+const OBJECTS = LIBRARY.filter((x) => x.kind === 'object');
+const REACTIONS = LIBRARY.filter((x) => x.kind === 'reaction');
 import {getAudioDuration, uploadMedia, renderVideo} from './cloud.js';
 
 // Numbers match the voice sample file.
@@ -163,10 +167,14 @@ export default function ReelEditor() {
             {s.type === 'line' || s.type === 'hero' ? (
               <div className="sceneOpts">
                 <select value={s.icon} onChange={(e) => updateScene(s.id, (x) => ({...x, icon: e.target.value, sticker: e.target.value ? '' : x.sticker}))}>
-                  <option value="">No icon</option>{ICON_NAMES.map((n) => <option key={n} value={n}>{n}</option>)}
+                  <option value="">No visual</option>
+                  <optgroup label="Library">{OBJECTS.map((x) => <option key={x.id} value={`lib:${x.id}`}>{x.id}</option>)}</optgroup>
+                  <optgroup label="Basic icons">{ICON_NAMES.map((n) => <option key={n} value={n}>{n}</option>)}</optgroup>
                 </select>
                 <select value={s.sticker} onChange={(e) => updateScene(s.id, (x) => ({...x, sticker: e.target.value, icon: e.target.value ? '' : x.icon}))}>
-                  <option value="">No sticker</option>{STICKERS.map((st) => <option key={st.id} value={st.id}>{st.label}</option>)}
+                  <option value="">No reaction</option>
+                  <optgroup label="Mascot">{REACTIONS.map((x) => <option key={x.id} value={`lib:${x.id}`}>{x.id}</option>)}</optgroup>
+                  <optgroup label="Memes (copyrighted — private use)">{STICKERS.map((st) => <option key={st.id} value={st.id}>{st.label}</option>)}</optgroup>
                 </select>
               </div>
             ) : null}

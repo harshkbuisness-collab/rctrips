@@ -5,7 +5,7 @@
 //   cta  — black card, huge "Comment" + “keyword” + sub line
 import {pickHero, heroScore, isFiller, norm} from './words.js';
 import {matchIcon} from './icons.js';
-import {matchSticker} from './stickers.js';
+import {matchObject, matchReaction} from './library.js';
 
 export const THEMES = [
   {id: 'classic', label: 'Classic · Red / Blue', bg: '#FAFAFA', ink: '#111111', dark: '#050505', accents: ['#E5262A', '#1F6BFF'], cta: '#FFE600'},
@@ -71,6 +71,7 @@ const stepNumber = (w) => { const n = norm(w?.text || ''); return /^\d+$/.test(n
 const COMMENT = new Set(['comment', 'comments', 'कमेंट']);
 
 const FREQ = {off: 0, light: 3, normal: 2};
+const libRef = (id) => (id ? `lib:${id}` : '');
 
 export function buildScenes(words, settings = {}) {
   const s = {...DEFAULT_SETTINGS, ...settings};
@@ -110,9 +111,9 @@ export function buildScenes(words, settings = {}) {
         if (heroScore(ws[h].text) >= 6 && i - lastHero >= 2 - (/\d/.test(ws[h].text) ? 1 : 0)) { scene.type = 'hero'; lastHero = i; }
         scene.accent = color++ % 2;
       }
-      if (FREQ[s.icons] && i - lastIcon >= FREQ[s.icons]) { scene.icon = matchIcon(ws, h); if (scene.icon) lastIcon = i; }
+      if (FREQ[s.icons] && i - lastIcon >= FREQ[s.icons]) { scene.icon = libRef(matchObject(ws, h, s.seed)) || matchIcon(ws, h); if (scene.icon) lastIcon = i; }
       if (FREQ[s.stickers] && !scene.icon && i - lastSticker >= FREQ[s.stickers] + 1) {
-        scene.sticker = matchSticker(ws, s.seed); if (scene.sticker) lastSticker = i;
+        scene.sticker = libRef(matchReaction(ws, s.seed)); if (scene.sticker) lastSticker = i;
       }
     }
     scene.start = i === 0 ? 0 : Math.max(0, ws[0].start - 0.05);

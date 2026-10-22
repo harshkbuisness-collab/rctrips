@@ -80,7 +80,11 @@ function Art({src, size, frame, style, shadow}) {
     transform: `translateY(${Math.sin(frame / 16) * size * 0.03}px) scale(${0.5 + 0.5 * p}) rotate(${(1 - p) * -12}deg)`,
     filter: shadow ? 'drop-shadow(0 18px 28px rgba(0,0,0,.22))' : undefined, ...style}} />;
 }
-const artSrc = (scene) => (scene.icon ? staticFile(iconPath(scene.icon)) : scene.sticker && STICKER_BY_ID[scene.sticker] ? staticFile(STICKER_BY_ID[scene.sticker].src.replace(/^\//, '')) : '');
+const artSrc = (scene) => {
+  if (scene.icon) return staticFile(iconPath(scene.icon));
+  if (scene.sticker?.startsWith('lib:')) return staticFile(iconPath(scene.sticker));
+  return scene.sticker && STICKER_BY_ID[scene.sticker] ? staticFile(STICKER_BY_ID[scene.sticker].src.replace(/^\//, '')) : '';
+};
 
 function LineCard({scene, theme, u, stage}) {
   const {frame, at} = useCard(scene);
@@ -88,7 +92,7 @@ function LineCard({scene, theme, u, stage}) {
   const src = artSrc(scene);
   return (
     <AbsoluteFill style={{background: theme.bg, alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: u * 2}}>
-      {src ? <Art src={src} size={u * (scene.icon ? 10 : 13)} frame={frame} shadow={Boolean(scene.icon)} /> : null}
+      {src ? <Art src={src} size={u * 15} frame={frame} shadow={false} /> : null}
       <div style={{maxWidth: stage.w * 0.82, textAlign: 'center', fontFamily: SANS, fontWeight: 700, fontSize: u * 3.6, lineHeight: 1.25, letterSpacing: '-0.02em'}}>
         <Sentence words={scene.words} frame={frame} at={at} color={theme.ink} accent={accent} heroStyle={{fontWeight: 900}} />
       </div>
@@ -101,21 +105,22 @@ function HeroCard({scene, theme, u, stage}) {
   const h = scene.words.findIndex((w) => w.hero);
   const kicker = scene.words.slice(0, h), sub = scene.words.slice(h + 1), hero = scene.words[h];
   const accent = theme.accents[scene.accent || 0];
-  const maxW = stage.w * 0.84;
+  const src = artSrc(scene);
+  const artSize = u * 16;
+  // With a visual, text and visual sit side by side, so the text gets less width.
+  const maxW = stage.w * 0.84 - (src ? artSize + u * 2 : 0);
   const base = measureText({text: display(hero.text), fontFamily: SANS, fontSize: 100, fontWeight: '900', letterSpacing: '-0.045em'}).width * 1.08;
   const size = Math.min(u * 13, (maxW / base) * 100);
-  const src = artSrc(scene);
   return (
-    <AbsoluteFill style={{background: theme.bg, alignItems: 'center', justifyContent: 'center'}}>
-      <div style={{position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', maxWidth: maxW, fontFamily: SANS}}>
+    <AbsoluteFill style={{background: theme.bg, alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: u * 2}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', maxWidth: maxW, fontFamily: SANS}}>
         {kicker.length ? <div style={{fontWeight: 700, fontSize: u * 3.2, lineHeight: 1.2, letterSpacing: '-0.02em', marginBottom: u * 0.2, maxWidth: maxW}}>
           <Sentence words={kicker} frame={frame} at={at} color={theme.ink} /></div> : null}
         <HeroWord text={hero.text} frame={frame} appear={at(hero)} color={accent} size={size} />
         {sub.length ? <div style={{fontWeight: 600, fontStyle: 'italic', fontSize: u * 2.4, lineHeight: 1.25, marginTop: u * 0.6, maxWidth: maxW}}>
           <Sentence words={sub} frame={frame} at={at} color={theme.ink} /></div> : null}
-        {src ? <Art src={src} size={u * (scene.icon ? 9 : 12)} frame={frame - at(hero)} shadow={Boolean(scene.icon)}
-          style={{position: 'absolute', right: -u * 11, bottom: -u * 1}} /> : null}
       </div>
+      {src ? <Art src={src} size={artSize} frame={frame - at(hero)} shadow={false} /> : null}
     </AbsoluteFill>
   );
 }
