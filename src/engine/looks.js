@@ -19,6 +19,8 @@ const HAND = `Caveat, ${DEV}`;
 //                       icon + blue serif keyword, typed lines; mascot peeking bottom-right (reference 9)
 //             ourtypo — burgundy: white + gold lines that build, wide-spaced serif tails, vertical word stacks,
 //                       italic serif leads, numbered lines; cat silhouettes walk the bottom (reference 11)
+//             anuj    — cream: red keyword with small words above-left / below-right, pen hands from the corners,
+//                       a keyword shrinking into place, a ghost word with a black word on top, an orbit badge (reference 12)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -32,7 +34,7 @@ const HAND = `Caveat, ${DEV}`;
 //             toggle (switch turns on for "setting / on / enable" lines), artEnter (slide | draw),
 //             questions ("?" marks pop on question cards), character (poses on the left, lockup layout),
 //             heroCycle (full-colour backgrounds for big-word cards), frame (cards inside a rounded frame),
-//             ctaInline (Comment “keyword” on one line), ctaHands (3D hands pointing at the Comment card), bgArt (the card's visual, huge and faded in sepia behind the text),
+//             ctaStack (Comment over a blue “keyword”, offset), ctaInline (Comment “keyword” on one line), ctaHands (3D hands pointing at the Comment card), bgArt (the card's visual, huge and faded in sepia behind the text),
 //             sfx (typing clicks, pops, whooshes), transitionEvery (only every Nth card transitions)
 export const LOOKS = [
   {id: 'classic', label: '01 · Blur Build', layout: 'stack', motion: 'blur', ghost: true,
@@ -110,6 +112,9 @@ export const LOOKS = [
   {id: 'ourtypo', label: 'Ref 11 · Burgundy Build (gold words, wide serif, cat parade, hanging toy)', layout: 'ourtypo', motion: 'fade',
     bg: '#5A1E2C', ink: '#FFFFFF', dark: '#4A1724', darkInk: '#FFFFFF', accents: ['#F4C542', '#F4C542'], cta: '#F4C542',
     font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#F4C542', boxInk: '#4A1724'},
+  {id: 'anuj', label: 'Ref 12 · Cream Pop (red keyword, pen hands, ghost overlay, orbit badge)', layout: 'anuj', motion: 'pop', ctaStack: true,
+    bg: '#FBF8D4', ink: '#111111', dark: '#FBF8D4', darkInk: '#111111', accents: ['#D41F26', '#3B4CFF'], cta: '#111111',
+    font: `Montserrat, ${DEV}`, weight: 800, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: `Montserrat, ${DEV}`, boxBg: '#D41F26', boxInk: '#FFFFFF'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).

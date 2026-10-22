@@ -1208,6 +1208,129 @@ function CatParade({stage}) {
   });
 }
 
+// Reference 12: cream; a red keyword with small black words above-left and below-right while hands
+// reach in from the corners, a keyword that starts huge and pale and shrinks into place, a huge grey
+// word with a black word on top, and an icon inside a circle with avatars orbiting it.
+const ANUJ_VARIANTS = ['corner', 'line', 'shrink', 'ghost', 'orbit'];
+
+function CornerHands({stage, frame}) {
+  const p = spring({frame: frame - 2, fps: 30, config: {damping: 14, stiffness: 120}});
+  const size = stage.h * 0.4;
+  const hand = (side) => staticFile(`icons/backhand_index_pointing_${side}.png`);
+  const style = {position: 'absolute', width: size, height: size, objectFit: 'contain', filter: 'grayscale(1) contrast(1.4) brightness(1.1)', opacity: 0.9};
+  // A long pen held in each hand, pointing at the text.
+  const pen = (extra) => <div style={{position: 'absolute', width: size * 0.9, height: Math.max(3, size * 0.03), borderRadius: 4,
+    background: 'linear-gradient(90deg, #1A1A1A 0%, #3A3A3A 70%, #BDBDBD 71%, #E0E0E0 100%)', ...extra}} />;
+  return <>
+    <div style={{position: 'absolute', left: -size * 0.25 - (1 - p) * size, top: -size * 0.15, width: size, height: size, transform: `rotate(${30 + Math.sin(frame / 12) * 3}deg)`}}>
+      {pen({left: size * 0.55, top: size * 0.47})}
+      <Img src={hand('right')} style={{...style, left: 0, top: 0}} />
+    </div>
+    <div style={{position: 'absolute', right: -size * 0.25 - (1 - p) * size, bottom: -size * 0.15, width: size, height: size, transform: `rotate(${30 + Math.sin(frame / 12 + 1) * 3}deg)`}}>
+      {pen({right: size * 0.55, top: size * 0.47})}
+      <Img src={hand('left')} style={{...style, right: 0, top: 0}} />
+    </div>
+  </>;
+}
+
+function AnujCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const heroText = display(hero.text);
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  let v = ANUJ_VARIANTS[index % ANUJ_VARIANTS.length];
+  if (v === 'orbit' && !icon) v = 'line';
+  const red = look.accents[0];
+  const font = (weight) => ({fontFamily: look.font, fontWeight: weight});
+  const small = (ws, size, extra, kind = 'pop') => ws.length ? (
+    <div style={{...font(700), fontSize: size, color: look.ink, lineHeight: 1.15, ...extra}}>
+      {ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+        <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={kind} fps={c.fps} frame={c.frame} color={look.ink} /></React.Fragment>)}
+    </div>
+  ) : null;
+  const fit = (cap, share) => {
+    const w = measureText({text: heroText, fontFamily: look.font, fontSize: 100, fontWeight: '800'}).width * 1.05;
+    return Math.min(cap, (stage.w * share / w) * 100);
+  };
+  const f = c.frame - c.at(hero);
+  let body, extras = null;
+  if (v === 'corner') {
+    extras = <CornerHands stage={stage} frame={c.frame} />;
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+        <div style={{alignSelf: 'flex-start', marginLeft: u * 2}}>{small(pre, u * 2.4)}</div>
+        <MotionText text={heroText} f={f} dur={c.dur(hero)} kind="pop" fps={c.fps} frame={c.frame} color={red} style={{...font(800), fontSize: fit(u * 10, 0.55), lineHeight: 1, letterSpacing: '-0.02em'}} />
+        <div style={{alignSelf: 'flex-end'}}>{small(post, u * 2.4)}</div>
+      </div>
+    );
+  } else if (v === 'line') {
+    body = (
+      <div style={{...font(700), fontSize: u * 3.6, lineHeight: 1.35, textAlign: 'center', maxWidth: stage.w * 0.78}}>
+        {words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+          <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="pop" fps={c.fps} frame={c.frame} color={i === h ? red : look.ink}
+            style={i === h ? {fontWeight: 800} : undefined} /></React.Fragment>)}
+      </div>
+    );
+  } else if (v === 'shrink') {
+    // Keyword arrives huge and pale, then shrinks into the line in red.
+    const k = interpolate(f, [0, 12], [0, 1], {...clamp, easing: ease});
+    const target = fit(u * 7, 0.4);
+    body = (
+      <div style={{display: 'flex', alignItems: 'baseline', gap: u * 0.8, fontSize: u * 2.6}}>
+        {small(pre, u * 2.6)}
+        <span style={{...font(800), fontSize: target, color: k < 1 ? `rgba(212,31,38,${0.35 + 0.65 * k})` : red, display: 'inline-block', lineHeight: 1,
+          transform: `scale(${2.2 - 1.2 * k})`, opacity: f >= 0 ? 1 : 0}}>{heroText}</span>
+        {small(post, u * 2.6, {alignSelf: 'flex-end'})}
+      </div>
+    );
+  } else if (v === 'ghost') {
+    // Huge light-grey keyword with a black word on top; small words above and in red below, a loopy line drawing in.
+    const top = post[0] || pre[pre.length - 1];
+    const others = words.filter((w) => w !== hero && w !== top);
+    const loop = interpolate(c.frame, [4, 24], [0, 1], {...clamp, easing: ease});
+    body = (
+      <div style={{position: 'relative', display: 'grid', placeItems: 'center'}}>
+        <MotionText text={heroText} f={f} dur={c.dur(hero)} kind="fade" fps={c.fps} frame={c.frame} color="#C9C9C0" style={{...font(800), fontSize: fit(u * 13, 0.7), lineHeight: 1}} />
+        {top ? <div style={{position: 'absolute'}}><MotionText text={display(top.text, true)} f={c.frame - c.at(top)} dur={c.dur(top)} kind="pop" fps={c.fps} frame={c.frame}
+          color={look.ink} style={{...font(800), fontSize: u * 6.5}} /></div> : null}
+        <div style={{position: 'absolute', top: '100%', marginTop: u * 0.5}}>{small(others, u * 2.2, {color: red, textAlign: 'center'})}</div>
+        <svg width={u * 22} height={u * 12} style={{position: 'absolute', left: -u * 24, top: u * 2, overflow: 'visible'}}>
+          <path d={`M 0 ${u * 10} C ${u * 6} ${u * 2}, ${u * 12} ${u * 14}, ${u * 10} ${u * 6} S ${u * 16} ${u * 1}, ${u * 21} ${u * 4}`} fill="none" stroke="#111" strokeWidth={u * 0.3}
+            strokeLinecap="round" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - loop} /></svg>
+      </div>
+    );
+  } else {
+    // Icon in a lavender circle with two avatars orbiting; the line underneath.
+    const p = spring({frame: c.frame - 2, fps: c.fps, config: {damping: 12, stiffness: 160}});
+    const r = stage.h * 0.2;
+    body = <>
+      <div style={{position: 'relative', width: r * 2, height: r * 2, borderRadius: '50%', background: '#C9CBEF', border: `${u * 0.3}px solid #3B4CFF`, transform: `scale(${p})`,
+        display: 'grid', placeItems: 'center'}}>
+        <Img src={icon} style={{width: r, height: r, objectFit: 'contain'}} />
+        {[0, 1].map((i) => { const a = c.frame / 18 + i * Math.PI;
+          return <Img key={i} src={staticFile(iconPath(`lib:${CHARACTER_POSES[(index + i) % CHARACTER_POSES.length]}`))} style={{position: 'absolute', width: r * 0.42, height: r * 0.42,
+            objectFit: 'contain', borderRadius: '50%', background: '#FFF', left: r + Math.cos(a) * r - r * 0.21, top: r + Math.sin(a) * r - r * 0.21}} />; })}
+      </div>
+      <div style={{...font(700), fontSize: u * 2.6, marginTop: u * 1.5, textAlign: 'center', maxWidth: stage.w * 0.7}}>
+        {words.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}<MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="fade" fps={c.fps} frame={c.frame}
+          color={i === h ? look.accents[1] : look.ink} /></React.Fragment>)}
+      </div>
+    </>;
+  }
+  const toggle = wantsToggle({toggle: true}, scene);
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      {extras}
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
+        {body}
+        {toggle ? <div style={{marginTop: u * 1.5}}><Toggle u={u} frame={c.frame - c.at(hero)} /></div> : null}
+      </AbsoluteFill>
+    </Backdrop>
+  );
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -1237,6 +1360,25 @@ function StepCard({scene, look, u, stage}) {
 
 function CtaCard({scene, look, u, stage}) {
   const c = useCard(scene);
+  if (look.ctaStack) {
+    // "Comment" in black, the blue “keyword” offset below-right, the rest small under it.
+    const [first, kw, ...more] = scene.words;
+    return (
+      <Backdrop bg={look.bg} look={look}>
+        <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
+          <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+            <MotionText text={display(first.text).replace(/^./, (x) => x.toUpperCase())} f={c.frame - c.at(first)} dur={c.dur(first)} kind="pop" fps={c.fps} frame={c.frame} color={look.ink}
+              style={{fontFamily: look.font, fontWeight: 800, fontSize: u * 5}} />
+            <MotionText text={`"${display(scene.keyword).replace(/^./, (x) => x.toUpperCase())}"`} f={c.frame - c.at(kw)} dur={c.dur(kw)} kind="pop" fps={c.fps} frame={c.frame} color={look.accents[1]}
+              style={{fontFamily: look.font, fontWeight: 800, fontSize: u * 6, alignSelf: 'flex-end', marginLeft: u * 6}} />
+            <div style={{fontFamily: look.font, fontWeight: 700, fontSize: u * 2.2, color: look.ink, alignSelf: 'flex-end', marginTop: u * 0.5}}>
+              {more.map((w, i) => <span key={i} style={{opacity: c.frame >= c.at(w) ? 1 : 0}}>{i > 0 ? ' ' : ''}{display(w.text)}</span>)}
+            </div>
+          </div>
+        </AbsoluteFill>
+      </Backdrop>
+    );
+  }
   if (look.ctaInline) {
     // Comment “keyword” on one line, the rest typed under it.
     const [first, kw, ...more] = scene.words;
@@ -1354,6 +1496,7 @@ function cardFor(scene, look) {
   if (look.layout === 'wire') return WireCard;
   if (look.layout === 'app') return AppCard;
   if (look.layout === 'ourtypo') return OurTypoCard;
+  if (look.layout === 'anuj') return AnujCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
