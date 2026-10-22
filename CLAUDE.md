@@ -39,3 +39,9 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 - Never look at many video frames: images cost a lot of tokens. Run `python3 tools/video_analyzer/analyze_video.py <video>` (or the owner
   runs it on their computer and pastes `REPORT.md`). Read only REPORT.md; look at `sheet.jpg` at most once, and only if
   the look matters. Read `transcript.txt` only if the words matter.
+
+## Thumbnails (owner, 22 Oct 2026)
+- Claude gives PROMPTS only (one Flow prompt that asks for 10 images); the owner generates. Claude does not make thumbnail images.
+- The thumbnail text is 2 words that say what the video is about (it works like the title, e.g. "1929 CRASH").
+  No curiosity-only text like "WIPED OUT" or "-89%". Simple, clear, explains the topic.
+- Style: depth scene (painted, slightly 3D background) + one big stickman with a clear emotion (research/13-viral-thumbnails.md).
