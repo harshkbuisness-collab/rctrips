@@ -1095,6 +1095,119 @@ function Peeker({stage, scenes}) {
     bottom: -size * 0.32 + bob, width: size, height: size, objectFit: 'contain'}} />;
 }
 
+// Reference 11: burgundy; lines build up word by word — white words, a gold keyword with a dark shadow,
+// a small lead-in popping above, a wide-spaced serif tail typing below. Other cards stack words next to
+// a vertical word, pair an italic serif lead with a gold italic keyword, or number the line. The card's
+// visual hangs on a string from the top and swings.
+const OT_VARIANTS = ['build', 'vertical', 'build', 'italic', 'numbered'];
+const GOLD_SHADOW = '0.05em 0.06em 0 #2A0A12';
+
+function Hanging({src, stage, frame}) {
+  const drop = spring({frame: frame - 2, fps: 30, config: {damping: 9, stiffness: 90}});
+  const swing = Math.sin(frame / 14) * 9 * Math.max(0.3, 1 - frame / 120);
+  const len = stage.h * 0.16, size = stage.h * 0.2;
+  return (
+    <div style={{position: 'absolute', left: stage.w * 0.72, top: -len - size + (len + size) * drop, transformOrigin: 'top center', transform: `rotate(${swing}deg)`}}>
+      <div style={{width: 2, height: len, background: 'rgba(255,255,255,.7)', margin: '0 auto'}} />
+      <Img src={src} style={{width: size, height: size, objectFit: 'contain', marginLeft: -size / 2 + 1}} />
+    </div>
+  );
+}
+
+function OurTypoCard({scene, look, u, stage, index}) {
+  const c = useCard(scene);
+  const words = scene.words;
+  const h = keyIndex(words);
+  const pre = words.slice(0, h), hero = words[h], post = words.slice(h + 1);
+  const v = OT_VARIANTS[index % OT_VARIANTS.length];
+  const gold = look.accents[0];
+  const bold = (ws, color, size, extra, kind = 'fade') => ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+    <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind={kind} fps={c.fps} frame={c.frame} color={color}
+      style={{fontFamily: look.font, fontWeight: 900, fontSize: size, ...extra}} /></React.Fragment>);
+  const goldHero = (size, extra) => <MotionText text={display(hero.text)} f={c.frame - c.at(hero)} dur={c.dur(hero)} kind="type" fps={c.fps} frame={c.frame} color={gold}
+    style={{fontFamily: look.font, fontWeight: 900, fontSize: size, textShadow: GOLD_SHADOW, ...extra}} />;
+  const wideSerif = (ws, size) => ws.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}
+    <MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="tracking" fps={c.fps} frame={c.frame} color={look.ink}
+      style={{fontFamily: "'Playfair Display', 'Noto Sans Devanagari', serif", fontWeight: 700, fontSize: size}} /></React.Fragment>);
+  const lead = pre.slice(0, Math.max(0, pre.length - 1)), near = pre.slice(-1);
+  let body;
+  if (v === 'build') {
+    body = (
+      <div style={{display: 'inline-flex', flexDirection: 'column'}}>
+        {lead.length ? <div style={{alignSelf: 'flex-start', lineHeight: 1, fontSize: u * 2.6}}>{bold(lead, look.ink, u * 2.6, null, 'pop')}</div> : null}
+        <div style={{lineHeight: 1.05, fontSize: u * 5.4}}>{bold(near, look.ink, u * 5.4)}{near.length ? ' ' : null}{goldHero(u * 6.2)}</div>
+        {post.length ? <div style={{alignSelf: 'flex-end', marginTop: u * 0.4, fontSize: u * 2.6}}>{wideSerif(post, u * 2.6)}</div> : null}
+      </div>
+    );
+  } else if (v === 'vertical') {
+    // First word turned on its side; the rest stacked big, alternating white and gold.
+    const [first, ...others] = words;
+    body = (
+      <div style={{display: 'flex', alignItems: 'center', gap: u * 1}}>
+        <div style={{writingMode: 'vertical-rl', transform: 'rotate(180deg)', fontFamily: look.font, fontWeight: 900, fontSize: u * 4.6, color: look.ink, lineHeight: 1}}>
+          <MotionText text={display(first.text, true)} f={c.frame - c.at(first)} dur={c.dur(first)} kind="fade" fps={c.fps} frame={c.frame} color={look.ink} /></div>
+        <div style={{display: 'flex', flexDirection: 'column', lineHeight: 1}}>
+          {others.slice(0, 4).map((w, i) => <MotionText key={i} text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="pop" fps={c.fps} frame={c.frame}
+            color={w === hero || i % 2 === 1 ? gold : look.ink} style={{fontFamily: look.font, fontWeight: 900, fontSize: u * 5.2, textShadow: GOLD_SHADOW}} />)}
+          {others.length > 4 ? <div style={{fontSize: u * 2.4}}>{wideSerif(others.slice(4), u * 2.4)}</div> : null}
+        </div>
+      </div>
+    );
+  } else if (v === 'italic') {
+    body = (
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{fontSize: u * 3}}>{pre.map((w, i) => <React.Fragment key={i}>{i > 0 ? ' ' : null}<MotionText text={display(w.text)} f={c.frame - c.at(w)} dur={c.dur(w)} kind="fade" fps={c.fps} frame={c.frame}
+          color={look.ink} style={{fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontWeight: 700, fontSize: u * 3}} /></React.Fragment>)}</div>
+        {goldHero(u * 7.4, {fontFamily: "'Playfair Display', 'Noto Sans Devanagari', serif", fontStyle: 'italic'})}
+        {post.length ? <div style={{marginTop: u * 0.4, fontSize: u * 2.6}}>{wideSerif(post, u * 2.6)}</div> : null}
+      </div>
+    );
+  } else {
+    // "2. website" — a running number, the gold keyword, a small serif line under it.
+    body = (
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{fontSize: u * 7}}>
+          <span style={{fontFamily: look.font, fontWeight: 900, fontSize: u * 7, color: gold, textShadow: GOLD_SHADOW, opacity: interpolate(c.frame, [0, 6], [0, 1], clamp)}}>{Math.floor(index / 5) + 1}.</span>{' '}{goldHero(u * 7)}</div>
+        <div style={{alignSelf: 'flex-end', fontSize: u * 2.6}}>{wideSerif([...pre, ...post], u * 2.6)}</div>
+      </div>
+    );
+  }
+  const icon = scene.icon ? staticFile(iconPath(scene.icon)) : '';
+  const cat = scene.sticker && STICKER_BY_ID[scene.sticker]?.family === 'cat' ? staticFile(STICKER_BY_ID[scene.sticker].src.replace(/^\//, '')) : '';
+  const catP = spring({frame: c.frame - c.at(hero), fps: c.fps, config: {damping: 11, stiffness: 180}});
+  return (
+    <Backdrop bg={look.bg} look={look}>
+      {icon ? <Hanging src={icon} stage={stage} frame={c.frame} /> : null}
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', paddingBottom: stage.h * 0.08}}>{body}</AbsoluteFill>
+      {cat ? <Img src={cat} style={{position: 'absolute', left: stage.w * 0.2, bottom: stage.h * 0.08, width: stage.h * 0.22, height: stage.h * 0.22, objectFit: 'contain', transform: `scale(${catP})`}} /> : null}
+    </Backdrop>
+  );
+}
+
+// Black cat silhouettes walking along the bottom edge at different speeds (drawn, legs stepping).
+function WalkingCat({size, frame}) {
+  const step = Math.sin(frame / 3) * 18;
+  const leg = (x, a) => <rect x={x} y={34} width={4} height={16} rx={2} fill="#000" transform={`rotate(${a} ${x + 2} 34)`} />;
+  return (
+    <svg viewBox="0 0 80 52" width={size * 1.5} height={size}>
+      <path d="M8 30 C 0 26, 2 10, 10 8" fill="none" stroke="#000" strokeWidth="4" strokeLinecap="round" />
+      <ellipse cx="34" cy="30" rx="24" ry="10" fill="#000" />
+      <circle cx="60" cy="22" r="9" fill="#000" />
+      <path d="M54 16 L56 6 L60 14 Z M62 14 L66 6 L67 17 Z" fill="#000" />
+      {leg(16, step)}{leg(24, -step)}{leg(44, -step)}{leg(52, step)}
+    </svg>
+  );
+}
+function CatParade({stage}) {
+  const frame = useCurrentFrame();
+  return [0, 1, 2].map((i) => {
+    const size = stage.h * (0.06 + i * 0.012);
+    const speed = 1.6 + i * 0.7;
+    const x = ((frame * speed + i * stage.w * 0.37) % (stage.w + size * 3)) - size * 1.5;
+    return <div key={i} style={{position: 'absolute', left: x, bottom: stage.h * 0.01, opacity: 0.85}}><WalkingCat size={size} frame={frame + i * 5} /></div>;
+  });
+}
+
 function StepCard({scene, look, u, stage}) {
   const c = useCard(scene);
   const label = scene.words.slice(2);
@@ -1240,6 +1353,7 @@ function cardFor(scene, look) {
   if (look.layout === 'super') return SuperCard;
   if (look.layout === 'wire') return WireCard;
   if (look.layout === 'app') return AppCard;
+  if (look.layout === 'ourtypo') return OurTypoCard;
   // A "big word" card needs a keyword; without one it falls back to a sentence.
   return scene.type === 'hero' && heroOf(scene) ? HeroCard : LineCard;
 }
@@ -1297,6 +1411,7 @@ export function Reel({project}) {
         {ready && look.mascot ? <MascotOverlay scenes={project.scenes} stage={stage} /> : null}
         {ready && look.walker ? <Walker id={look.walker} stage={stage} /> : null}
         {ready && look.layout === 'app' ? <Peeker stage={stage} scenes={project.scenes} /> : null}
+        {ready && look.layout === 'ourtypo' ? <CatParade stage={stage} /> : null}
       </div>
       {ready && look.sfx ? <SoundEffects scenes={project.scenes} look={look} fps={fps} /> : null}
       {project.audioSrc ? <Audio src={project.audioSrc} volume={project.audioVolume ?? 1} /> : null}

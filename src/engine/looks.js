@@ -17,6 +17,8 @@ const HAND = `Caveat, ${DEV}`;
 //             wire    — paper, CAPS title tag on top, a line-drawn UI wireframe panel drawing in (reference 8)
 //             app     — cream then black cards: huge condensed word + app tile + toggle, yellow stat cards,
 //                       icon + blue serif keyword, typed lines; mascot peeking bottom-right (reference 9)
+//             ourtypo — burgundy: white + gold lines that build, wide-spaced serif tails, vertical word stacks,
+//                       italic serif leads, numbered lines; cat silhouettes walk the bottom (reference 11)
 //             serif   — serif lockups in red + dark, italic / script / small-caps mixes, rotating per card
 //             lockup  — poster lockup: small lead-in, huge keyword, small follow-on (with camera and flair)
 //             tag     — keyword in a title tag, visual in the middle, sentence below
@@ -105,6 +107,9 @@ export const LOOKS = [
   {id: 'appsteps', label: 'Ref 9 · App Steps (cream → black, peeking mascot, toggles, stat cards)', layout: 'app', motion: 'type', ctaInline: true,
     bg: '#F3EBC7', ink: '#1A1A1A', dark: '#000000', darkInk: '#FFFFFF', accents: ['#2F6BFF', '#2F6BFF'], cta: '#FFFFFF', stepPrefix: 'Step:',
     font: INTER, weight: 800, heroFont: `Oswald, ${DEV}`, heroWeight: 700, heroItalic: false, labelFont: INTER, boxBg: '#FFFFFF', boxInk: '#000000'},
+  {id: 'ourtypo', label: 'Ref 11 · Burgundy Build (gold words, wide serif, cat parade, hanging toy)', layout: 'ourtypo', motion: 'fade',
+    bg: '#5A1E2C', ink: '#FFFFFF', dark: '#4A1724', darkInk: '#FFFFFF', accents: ['#F4C542', '#F4C542'], cta: '#F4C542',
+    font: INTER, weight: 800, heroFont: INTER, heroWeight: 900, heroItalic: false, labelFont: SERIF, boxBg: '#F4C542', boxInk: '#4A1724'},
 ];
 
 // Text animations a template can be switched to (src/remotion/motion.jsx).
