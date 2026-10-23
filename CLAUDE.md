@@ -49,3 +49,14 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
   edges; one landmark/object in muted cream-sepia; our narrator (brown spiky hair, round glasses) in full color, the orange
   scarf is the brightest color; 2 big bold white words, the key word as white text on a red label (#D62728); a small red
   bookmark ribbon in the top-right corner on every thumbnail (from the logo).
+
+## Channel growth plan (owner, 23 Oct 2026; from Algrow + DecodingYT answers)
+- Per week: 2 long videos + 3-4 Shorts (cut each Short from a long video with `tools/make_short.py`, link it as "Related video").
+- Upload with Schedule: Tue and Sat, 3:00 PM US Eastern (1:30 AM India). Same days every week.
+- Settings: video + title language "English (United States)", English captions (.srt), Education category, not for kids.
+  Channel country stays India (tax/payments only; it does not decide who sees videos). No VPN.
+- Never share links in India (WhatsApp, Instagram, friends): wrong early viewers kill CTR and retention.
+- First 48 h: pinned question comment, add to a playlist, post the linked Short.
+- After 48-72 h: if CTR < 4-5%, swap the thumbnail (Test & Compare); if still low after 48 h more, swap the title.
+- Targets: CTR 6-10%, 30-second retention 50%+, average view duration 40%+ of the video.
+- 1 view on day 1 is normal: a new channel needs 10-30 videos before the first one takes off. Keep posting.
