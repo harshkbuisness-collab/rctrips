@@ -1,0 +1,658 @@
+[
+ {
+  "line": 6,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"the basic structure of a speculative bubble can be divided into five phases\"",
+  "said": "He is not the only one who noticed. The economist Charles Kindleberger studied centuries of financial manias. He said almost every bubble moves through the same five stages.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 8,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"many investors do not recognise the bubble for what it is\"",
+  "said": "And one of the trickiest parts is this. While you are inside a bubble, it rarely feels like one. Most investors think the rising prices are completely justified.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.527,
+   0.769,
+   0.651
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"Displacement: A sufficient external shock to the macroeconomic system, creating new profit opportunities.\"",
+  "said": "Every bubble begins with something genuinely new. Kindleberger called it displacement. A big change that creates new ways to make money.",
+  "file": "s03.png",
+  "box": [
+   0.172,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"Railway Mania was a stock market bubble in the railway industry\"",
+  "said": "In the eighteen forties, the new story was railways. Trains were transforming Britain, moving people and goods faster than ever.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"as the price of railway shares increased, speculators invested more money, which further increased the price of railway shares, until the share price collapsed\"",
+  "said": "It followed a pattern you will hear again and again today. As railway shares went up, more people bought them, which pushed the price up even more. Until it stopped.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"buy now with sole intention to sell in the future at a higher price\"",
+  "said": "The second stage is the boom. Prices start rising, and people begin buying not because of what something earns, but because they expect to sell it for more later.",
+  "file": "s06.png",
+  "box": [
+   0.172,
+   0.763,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"The Bank of England cut interest rates, making government bonds less attractive investments\"",
+  "said": "In the railway boom, the Bank of England cut interest rates. Safe government bonds paid less, so investors went looking for something more exciting. Railway shares.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.653,
+   0.769,
+   0.751
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Margin (finance)",
+  "url": "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "what": "highlight \"During the 1920s leverage rates of up to 90 percent debt were not uncommon.\"",
+  "said": "In the nineteen twenties, people could borrow up to ninety percent of the price of their stocks.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"home mortgage debt relative to GDP increased from an average of 46% during the 1990s to 73% during 2008\"",
+  "said": "Before two thousand eight, families borrowed against their homes as prices rose, taking out cash to spend. Home mortgage debt grew from about forty-six percent of the economy in the nineteen nineties to seventy-three percent in two thousand eight.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.556,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"263 Acts of Parliament for setting up new railway companies were passed\"",
+  "said": "The railway boom shows how big this can get. In eighteen forty-six alone, Parliament approved two hundred sixty-three new railway companies, planning nine thousand five hundred miles of track.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"Anyone could form a company, gain investment and submit a bill to Parliament.\"",
+  "said": "There were almost no checks on whether these railways made sense. Anyone could form a company and raise money.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.815,
+   0.769,
+   0.939
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 27,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"ultimately failed because of his fraudulent practices\"",
+  "said": "One of the biggest railway tycoons, George Hudson, was later exposed for fraud. Among other tricks, he paid investors dividends out of fresh money instead of real profits.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.935,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"Euphoria: A democratization of speculative investments, and a detachment from real rational valuable objects.\"",
+  "said": "The third stage is euphoria. That means extreme excitement. Investing spreads from experts to everyone, and prices detach from reality.",
+  "file": "s13.png",
+  "box": [
+   0.172,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"Many middle-class families on modest incomes had sunk their entire savings into new companies during the mania\"",
+  "said": "In the railway mania, many middle-class families with modest incomes put their entire savings into new railway companies.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"Many Members of Parliament were heavy investors in such schemes.\"",
+  "said": "Even politicians joined in. Many members of Parliament, the people approving the railways, were heavy investors in them.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"Stock prices have reached what looks like a permanently high plateau\"",
+  "said": "In nineteen twenty-nine, a famous economist said stock prices had reached a permanently high plateau. Weeks later, the crash began.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"the Nasdaq index reached a price-to-earnings ratio of over 200\"",
+  "said": "In the late nineteen nineties, the tech-heavy Nasdaq reached a price of over two hundred times company earnings. That means paying two hundred dollars for every one dollar of yearly profit.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"the Nasdaq Composite rose 85.6%\"",
+  "said": "In nineteen ninety-nine alone, the Nasdaq rose eighty-five percent. Ray remembers coworkers quitting their jobs to trade internet stocks from home.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"Financial distress: Prices begin to plateau, investors start considering selling to cover their liabilities.\"",
+  "said": "The fourth stage is financial distress. Prices stop climbing so fast. They wobble. Some smart investors quietly start selling.",
+  "file": "s19.png",
+  "box": [
+   0.172,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"Bear Stearns\"",
+  "said": "In March two thousand eight, the big investment bank Bear Stearns nearly went bankrupt. It was rescued in an emergency deal. Many people thought the worst was over. It was not.",
+  "file": "s20.png",
+  "box": [
+   0.366,
+   0.744,
+   0.444,
+   0.781
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"many investors regarded the September\"",
+  "said": "In September nineteen twenty-nine, the market dropped ten percent from its peak. Many investors called it a healthy correction and bought more.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, United States housing bubble",
+  "url": "https://en.wikipedia.org/wiki/United_States_housing_bubble",
+  "what": "highlight \"Housing prices, which peaked in early 2006, started to decline in 2006 and 2007\"",
+  "said": "In two thousand seven, home prices had already started falling, and some mortgage lenders began to fail. But stocks kept climbing for months.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.23,
+   0.769,
+   0.458
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"On Friday March 10, 2000, the NASDAQ Composite stock market index peaked at 5,048.62.\"",
+  "said": "The Nasdaq peaked on March tenth, two thousand. A wise old investor named John Templeton called the moment temporary insanity, and bet against the internet stocks.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"lost 90% of his net worth when the bubble burst\"",
+  "said": "By October two thousand two, the Nasdaq had fallen seventy-eight percent. Even a famous venture capitalist who funded many of those companies lost ninety percent of his net worth.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Economic bubble",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"Revulsion: prices plummet as investors race to sell first, panic spreads and feeds back on itself.\"",
+  "said": "The final stage is revulsion. Prices plunge, and everyone races to sell first. Panic feeds on itself.",
+  "file": "s25.png",
+  "box": [
+   0.172,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"About a third of the railways authorised were never built\"",
+  "said": "When the railway mania collapsed, about a third of the approved railways were never built. Some companies had poor planning. Some were outright frauds.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"they lost everything when the speculation collapsed\"",
+  "said": "And those middle-class families who had put in all their savings lost everything.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Black Monday (1987)",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"Dow Jones Industrial Average falls 22.6%, the largest one-day drop in the index's history.\"",
+  "said": "On October nineteenth, nineteen eighty-seven, the Dow fell twenty-two point six percent in a single day. Still the biggest one-day percentage drop in its history.",
+  "file": "s28.png",
+  "box": [
+   0.615,
+   0.959,
+   0.764,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Black Monday (1987)",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"The computer models of portfolio insurers continued to dictate very large sales.\"",
+  "said": "That crash had a modern twist. Computer programs designed to protect investors sold automatically as prices fell, which pushed prices down even more.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Black Monday (1987)",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"leaving orders unfilled for an hour or more\"",
+  "said": "There was so much selling that the computer and phone systems were overwhelmed. Some orders sat unfilled for an hour or more.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"The Dow Jones Industrial Average fell by 53% between October 2007 and March 2009\"",
+  "said": "In two thousand eight, the Dow fell fifty-three percent between October two thousand seven and March two thousand nine.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"It was the fastest correction in market history from all-time high\"",
+  "said": "And in twenty twenty, markets fell into a correction in just six days, the fastest in history.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"one in four households lost 75% or more of their net worth\"",
+  "said": "He was not alone. Some estimates say one in four American households lost seventy-five percent or more of their net worth in that crisis.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"accounted for approximately two-thirds of the S&P 500's gains\"",
+  "said": "In twenty twenty-three, seven companies produced about two thirds of all the S and P five hundred's gains. As a group, they more than doubled that year.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.476,
+   0.769,
+   0.652
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, S&P 500",
+  "url": "https://en.wikipedia.org/wiki/S%26P_500",
+  "what": "highlight \"the S&P 500 Top 20 comprising nearly half of the index's total market cap\"",
+  "said": "By twenty twenty-six, the top twenty companies made up nearly half of the whole index.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"The Dow Jones did not return to its peak close of September 3, 1929, for 25 years\"",
+  "said": "After nineteen twenty-nine, the Dow took twenty-five years to return to its old peak. It finally got there in November nineteen fifty-four.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.737,
+   0.769,
+   0.861
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Black Monday (1987)",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"recovering to its pre-crash high on 26 July 1989\"",
+  "said": "After nineteen eighty-seven, it took less than two years. The S and P five hundred was back at its old high by July nineteen eighty-nine.",
+  "file": "s37.png",
+  "box": [
+   0.615,
+   0.823,
+   0.764,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"many stock market indices were 75% above their lows set in March 2009\"",
+  "said": "After two thousand eight, many stock indexes were seventy-five percent above their lows within two years.",
+  "file": "s38.png",
+  "box": [
+   0.172,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"U.S. market indices did not return to January 2020 levels until November 2020\"",
+  "said": "After twenty twenty, American indexes were back at their January levels by November. Less than a year.",
+  "file": "s39.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia, Lost Decades",
+  "url": "https://en.wikipedia.org/wiki/Lost_Decades",
+  "what": "highlight \"In February 2024, Nikkei 225 reached 39,098.68\"",
+  "said": "But faster is not guaranteed. Japan's stock market took about thirty-four years to beat its nineteen eighty-nine peak.",
+  "file": "s40.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Railway Mania",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"A total of 6,220 miles (10,010 km) of railway line were built\"",
+  "said": "And the railways? Many of the failed lines were later bought by bigger companies and became useful. Over six thousand miles of track were built from those boom years. Much of Britain still rides on it.",
+  "file": "s41.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ }
+]
