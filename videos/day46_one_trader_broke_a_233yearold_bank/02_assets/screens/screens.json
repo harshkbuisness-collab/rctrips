@@ -1,0 +1,690 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"Dutch bank ING purchased Barings Bank in 1995 for the nominal sum of \u00a31\"",
+  "said": "In March nineteen ninety-five, one of the oldest banks in Britain was sold to a Dutch bank for exactly one pound. About a dollar and a half.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 1,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"It was founded in 1762 by Francis Baring\"",
+  "said": "This was not some small shop. Barings had been in business since seventeen sixty-two. It was two hundred thirty-three years old.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.323
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 2,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"the Louisiana Purchase , which doubled the size of the United States\"",
+  "said": "It had helped pay for the Louisiana Purchase, the giant land deal that doubled the size of the United States.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.319,
+   0.769,
+   0.573
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"the sixth great European power\"",
+  "said": "It even helped finance the American government during the War of eighteen twelve. Around eighteen eighteen, people called it the sixth great power in Europe.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.838,
+   0.769,
+   1
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"overexposure to Argentine and Uruguayan debt\"",
+  "said": "Barings had nearly died once before. In eighteen ninety, it lent too much to Argentina and Uruguay. When Argentina came close to defaulting, Barings did not have enough money to cover the losses.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 5,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"The rescue avoided what could have been a worldwide financial collapse\"",
+  "said": "The Bank of England organized a group of banks to rescue it. That rescue avoided what could have been a worldwide financial collapse.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 8,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"Losses eventually reached \u00a3827 million\"",
+  "said": "His losses reached eight hundred twenty-seven million pounds. That was about one point four billion dollars, twice the bank's available trading capital.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"on a salary of \u00a312,000\"",
+  "said": "He joined Barings on a salary of twelve thousand pounds a year.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.781,
+   0.769,
+   0.983
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"In April 1992, Barings decided to open a Futures and Options office in Singapore\"",
+  "said": "He was only twenty-five. He had a new wife, a new country, and a trading floor full of shouting brokers in bright jackets. It was exciting, fast, and very loud.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"Neither Leeson nor Barings disclosed this denial when he applied for his licence in Singapore.\"",
+  "said": "There was a warning sign before he even left. Leeson had been denied a trading license in Britain, for not reporting a debt judgment against him. Neither he nor Barings mentioned this when he applied for his license in Singapore.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"\u00a310 million, which accounted for 10% of Barings' annual profit\"",
+  "said": "At first, Leeson looked brilliant. His trades made Barings about ten million pounds, around ten percent of the whole bank's yearly profit.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"He earned a bonus of \u00a3130,000 on his salary of \u00a350,000\"",
+  "said": "That year, he earned a bonus of one hundred thirty thousand pounds on top of a fifty thousand pound salary. In London, people started calling him a star.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"by also making Leeson head of settlement operations for SIMEX\"",
+  "said": "At Barings Singapore, Leeson did both. He ran the trading, and he was also in charge of the settlement office that recorded and checked the trades.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 27,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"With authority to settle his own trades, Leeson was able to operate with no supervision from London\"",
+  "said": "These jobs would normally be held by different employees. With the power to settle his own trades, Leeson could work with no real supervision from London.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"Leeson used one of Barings' error accounts\"",
+  "said": "Then he used a special kind of account. Banks keep error accounts, to fix small mistakes, like a trade entered wrongly.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"costing Barings \u00a320,000\"",
+  "said": "The first mistake was small. Someone on his team was told to buy twenty futures contracts for a client, but sold them instead. It cost the bank twenty thousand pounds.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"How account 88888 sank Britain's oldest bank\"",
+  "said": "Leeson's error account had a number that became famous. Eight eight eight eight eight. Eight is a lucky number in Chinese culture.",
+  "file": "s17.png",
+  "box": [
+   0.193,
+   0.782,
+   0.412,
+   0.818
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"to prevent the London office from receiving the standard daily reports on trading, price and status\"",
+  "said": "He even changed the account so that London would not get the normal daily reports on it. The one place that would show the losses was switched off.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"This amount then ballooned to \u00a3208 million by the end of 1994.\"",
+  "said": "Two hundred eight million pounds was far more than Leeson could ever earn in a lifetime. But on paper, in London, he still looked like their best trader.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"every time he lost money, he would bet double the amount that was lost to recoup the amount\"",
+  "said": "How do losses grow like that? Leeson followed what is called a doubling strategy. Every time he lost, he bet double, hoping one win would erase everything.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"after which he vowed not to use the account again\"",
+  "said": "The scary part is that it worked once. In nineteen ninety-three, he managed to wipe out a six million pound hole, and promised himself he would never use the account again.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"He falsified trading records in the bank's computer systems\"",
+  "said": "To keep the game going, he needed cash. So he used money that belonged to other parts of the bank, and changed records in the bank's computer systems.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"betting that the Japanese stock market would not move significantly overnight\"",
+  "said": "On January sixteenth, nineteen ninety-five, Leeson made a big bet. He bet that Japan's stock market would stay calm, and not move much overnight.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Kobe earthquake",
+  "url": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake",
+  "what": "highlight \"At least 5,000 people died, around 4,600 of them from Kobe.\"",
+  "said": "At least five thousand people died. Nearly four hundred thousand buildings were badly damaged.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.454,
+   0.769,
+   0.578
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Kobe earthquake",
+  "url": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake",
+  "what": "highlight \"120 of the 150 quays in the port of Kobe\"",
+  "said": "The earthquake damaged nearly four hundred thousand buildings and wrecked one hundred twenty of the one hundred fifty docks in Kobe's port, one of the busiest in the world.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Kobe earthquake",
+  "url": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake",
+  "what": "highlight \"images of the collapsed elevated Kobe Route of the Hanshin Expressway appeared on front pages of newspapers worldwide\"",
+  "said": "Pictures of a collapsed elevated highway in Kobe appeared on the front pages of newspapers around the world.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"the Kobe earthquake upset the Asian financial markets\"",
+  "said": "It was a human tragedy first. And it also shook Japan's stock market badly, which hit Leeson's positions hard.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"betting that the Nikkei Stock Average would make a rapid recovery\"",
+  "said": "Instead of stopping, Leeson did what he always did. He doubled down. He bet that the Nikkei would bounce back quickly.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"and fled Singapore on 23 February.\"",
+  "said": "On February twenty-third, nineteen ninety-five, Nick Leeson left a note on his desk. It said, I'm sorry. Then he fled Singapore.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"The Bank of England attempted an unsuccessful weekend bailout\"",
+  "said": "The Bank of England tried to arrange a rescue over the weekend. It failed.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"Barings was declared insolvent on 26 February 1995\"",
+  "said": "On February twenty-sixth, Barings was declared insolvent. Insolvent means a company cannot pay what it owes. Employees around the world did not get their bonuses.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"The collapse cost another \u00a3100 million.\"",
+  "said": "Cleaning up the collapse cost another one hundred million pounds on top of the trading losses.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"Barings Bank no longer has a separate corporate existence\"",
+  "said": "Over the next ten years, ING sold off the pieces. By two thousand five, Barings no longer existed as its own company, only as a name on a few businesses.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"Leeson was arrested in Frankfurt\"",
+  "said": "Leeson ran through Malaysia and Thailand, and was finally arrested in Frankfurt, Germany. He was sent back to Singapore to face trial.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"after serving at least two-thirds of his sentence (four years and four months)\"",
+  "said": "He served about four years and four months before he was released, partly because he was seriously ill with colon cancer.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"sentenced him to six and a half years in Changi Prison\"",
+  "said": "He served about four years and four months before he was released, partly because he was seriously ill with colon cancer.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"the book was made into a film of the same name starring Ewan McGregor\"",
+  "said": "In prison, he was diagnosed with cancer. He survived. Later, he wrote a book called Rogue Trader, which became a movie starring Ewan McGregor.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"several observers placed much of the blame on the bank's own deficient internal control and risk management practices\"",
+  "said": "After the collapse, many experts said the biggest failure was not Leeson alone. It was the bank's weak internal controls and risk management.",
+  "file": "s38.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Barings Bank",
+  "url": "https://en.wikipedia.org/wiki/Barings_Bank",
+  "what": "highlight \"A number of people had raised concerns over Leeson's activities but were ignored.\"",
+  "said": "Some people had raised concerns about Leeson's trading. They were ignored.",
+  "file": "s39.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, Nick Leeson",
+  "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+  "what": "highlight \"it ought to be read by banking managers and auditors everywhere\"",
+  "said": "One review of Leeson's book in the New York Times said it should be read by banking managers and auditors everywhere.",
+  "file": "s40.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Wikipedia, 2008 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale trading loss",
+  "url": "https://en.wikipedia.org/wiki/2008_Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale_trading_loss",
+  "what": "highlight \"losses attributed are estimated at \u20ac 4.9 billion\"",
+  "said": "When the bank unwound those positions in January two thousand eight, during a market drop, it estimated the losses at four point nine billion euros.",
+  "file": "s41.png",
+  "box": [
+   0.156,
+   0.614,
+   0.769,
+   0.816
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 74,
+  "source": "Wikipedia, 2008 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale trading loss",
+  "url": "https://en.wikipedia.org/wiki/2008_Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale_trading_loss",
+  "what": "highlight \"Kerviel generated \u20ac1.4 billion in hidden profits by the end of 2007\"",
+  "said": "Just like Leeson, the trader had looked very successful at first. According to the BBC, he had built up one point four billion euros in hidden profits by the end of two thousand seven.",
+  "file": "s42.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.375
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 75,
+  "source": "Wikipedia, 2008 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale trading loss",
+  "url": "https://en.wikipedia.org/wiki/2008_Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale_trading_loss",
+  "what": "highlight \"Soci\u00e9t\u00e9 G\u00e9n\u00e9rale's own wrongs were later established by a French jurisdiction\"",
+  "said": "Courts later found that the bank had its own failures too, and cancelled the four point nine billion euro penalty against the trader himself.",
+  "file": "s43.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.375
+  ],
+  "page": null,
+  "ok": true
+ }
+]
