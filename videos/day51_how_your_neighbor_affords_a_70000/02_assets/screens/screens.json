@@ -1,0 +1,370 @@
+[
+ {
+  "line": 3,
+  "source": "Wikipedia, Ford F-Series",
+  "url": "https://en.wikipedia.org/wiki/Ford_F-Series",
+  "what": "highlight \"it has been the best-selling vehicle overall since 1981\"",
+  "said": "America loves trucks. Ford's F-Series pickup has been the best-selling vehicle in the whole country since nineteen eighty-one.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Ford F-Series",
+  "url": "https://en.wikipedia.org/wiki/Ford_F-Series",
+  "what": "highlight \"Ford has sold over 43 million units of the trucks worldwide\"",
+  "said": "Ford has sold more than forty-three million of these trucks around the world. That makes it the second best-selling vehicle line of all time.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 5,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"Average new-vehicle transaction prices fell slightly to $49,191 in January\"",
+  "said": "And new vehicles have gotten very expensive. In January twenty twenty-six, the average price people actually paid for a new vehicle was about forty-nine thousand dollars.",
+  "file": "s03.png",
+  "box": [
+   0.207,
+   0.72,
+   0.619,
+   0.88
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Car finance",
+  "url": "https://en.wikipedia.org/wiki/Car_finance",
+  "what": "highlight \"The most common method of buying a car in the United States is borrowing the money and then paying it off in installments.\"",
+  "said": "Most Americans buy cars this way. Borrowing the money and paying it back in monthly installments is the most common way to buy a car in the US.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.452,
+   0.769,
+   0.55
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"The average new-vehicle buyer brought in a down payment of around $6228 in 2025\"",
+  "said": "Tyler puts down about six thousand dollars. That is close to what the average new car buyer put down in twenty twenty-five.",
+  "file": "s05.png",
+  "box": [
+   0.207,
+   0.692,
+   0.619,
+   0.908
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"20.8 percent of new vehicles financed had a loan term of 84 months or more\"",
+  "said": "And Tyler is not unusual at all. By late twenty twenty-five, more than one in five new vehicles financed in America had a loan of eighty-four months or longer.",
+  "file": "s06.png",
+  "box": [
+   0.207,
+   0.706,
+   0.619,
+   0.894
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Car finance",
+  "url": "https://en.wikipedia.org/wiki/Car_finance",
+  "what": "highlight \"the price increased by $674 when dealer financing was used\"",
+  "said": "One study found that when people financed through the dealer, the price went up by about six hundred seventy dollars, with an average of more than four add-ons per deal.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Car finance",
+  "url": "https://en.wikipedia.org/wiki/Car_finance",
+  "what": "highlight \"the average per-unit finance cost can be higher when financing through a dealership than independent lenders\"",
+  "said": "Studies have also found that financing through the dealership can cost more than getting a loan from an independent lender, like your own bank or credit union.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"the total cost of vehicle ownership\u2014monthly payments as well as gasoline, insurance, and repairs\u2014rose 48 percent since 2019\"",
+  "said": "Since twenty nineteen, the total cost of owning a vehicle, payments plus gas, insurance and repairs, has gone up about forty-eight percent.",
+  "file": "s09.png",
+  "box": [
+   0.207,
+   0.692,
+   0.619,
+   0.908
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Negative equity",
+  "url": "https://en.wikipedia.org/wiki/Negative_equity",
+  "what": "highlight \"the market value of a car might drop by 20-30% as soon as the car is driven off the lot\"",
+  "said": "The moment Tyler drives his new truck off the lot, it is worth less than he paid. New vehicles often lose twenty to thirty percent of their value almost right away.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Negative equity",
+  "url": "https://en.wikipedia.org/wiki/Negative_equity",
+  "what": "highlight \"loans and borrowers with negative equity are said to be\"",
+  "said": "This is called negative equity. People also say the loan is underwater, or upside down.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.325,
+   0.769,
+   0.423
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, Negative equity",
+  "url": "https://en.wikipedia.org/wiki/Negative_equity",
+  "what": "highlight \"are often referred to as being\"",
+  "said": "The same word is used for houses. After the two thousand eight crash, millions of homeowners were underwater on their mortgages.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.325,
+   0.769,
+   0.423
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"Consumers who opt for 84-month loans may be victimized by negative equity down the line\"",
+  "said": "Experts at the car-buying site Edmunds warn that people who choose eighty-four month loans may end up with negative equity later on.",
+  "file": "s13.png",
+  "box": [
+   0.207,
+   0.678,
+   0.619,
+   0.922
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "CBT News",
+  "url": "https://www.cbtnews.com/auto-loan-originations-hit-a-record-in-q2/",
+  "what": "highlight \"Negative equity hits 29.1% of trade-ins\"",
+  "said": "This is happening to a lot of people. In October twenty twenty-six, about twenty-nine percent of trade-ins toward new vehicles carried negative equity.",
+  "file": "s14.png",
+  "box": [
+   0.491,
+   0.752,
+   0.648,
+   0.848
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"auto loan balances increased by $28 billion to $1.71 trillion\"",
+  "said": "Tyler is one person. But add up every car loan in America, and the number is huge. In the middle of twenty twenty-six, Americans owed about one point seven one trillion dollars on auto loans.",
+  "file": "s15.png",
+  "box": [
+   0.246,
+   0.602,
+   0.554,
+   0.742
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "CBT News",
+  "url": "https://www.cbtnews.com/auto-loan-originations-hit-a-record-in-q2/",
+  "what": "highlight \"the record applies only in nominal dollars, not after adjusting for inflation\"",
+  "said": "That was a record in dollars, but only before inflation. Prices are higher now, so each loan is bigger.",
+  "file": "s16.png",
+  "box": [
+   0.04,
+   0.745,
+   0.648,
+   0.855
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"Auto loan originations picked up with $211 billion in new auto loans appearing this quarter.\"",
+  "said": "That was a record in dollars, but only before inflation. Prices are higher now, so each loan is bigger.",
+  "file": "s17.png",
+  "box": [
+   0.246,
+   0.722,
+   0.554,
+   0.844
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"Credit card balances rose by $21 billion and stood at $1.26 trillion\"",
+  "said": "That is more than Americans owe on their credit cards, which was about one point two six trillion dollars.",
+  "file": "s18.png",
+  "box": [
+   0.246,
+   0.602,
+   0.554,
+   0.742
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"total household debt decreased by $13 billion, a 0.1% decrease, in Q2 2026, to $18.8 trillion\"",
+  "said": "Altogether, American households owed about eighteen point eight trillion dollars. Mortgages, cars, credit cards, and student loans.",
+  "file": "s19.png",
+  "box": [
+   0.246,
+   0.314,
+   0.554,
+   0.454
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"new delinquencies for auto loans and credit cards remain at elevated levels\"",
+  "said": "And more people are falling behind. The New York Fed said new delinquencies for auto loans remain at elevated levels. Delinquent means you are late on your payments.",
+  "file": "s20.png",
+  "box": [
+   0.246,
+   0.518,
+   0.554,
+   0.622
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "highlight \"Transition into early delinquency rose slightly for auto loans and mortgages\"",
+  "said": "The number of people slipping into early delinquency on car loans also rose a little in that same quarter.",
+  "file": "s21.png",
+  "box": [
+   0.246,
+   0.824,
+   0.554,
+   0.982
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"The average payment for new-vehicle buyers through December 2025 was set at $722\"",
+  "said": "The average payment for a new vehicle through December twenty twenty-five was already about seven hundred twenty-two dollars a month.",
+  "file": "s22.png",
+  "box": [
+   0.207,
+   0.706,
+   0.619,
+   0.894
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Yahoo Autos",
+  "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/more-1-5-car-buyers-170400726.html",
+  "what": "highlight \"dealerships are typically thinking in the short-term\"",
+  "said": "And dealers have their own goals. One Edmunds analyst told a trade publication that dealerships are often thinking short-term, trying to hit sales targets, instead of the long-term effect of such long loans.",
+  "file": "s23.png",
+  "box": [
+   0.207,
+   0.678,
+   0.619,
+   0.922
+  ],
+  "page": null,
+  "ok": true
+ }
+]
