@@ -36,15 +36,16 @@ export const GEMINI_VOICES = {
   Charon: {voice: 'Charon', style: ['Deep, calm and authoritative voice', 'Natural mix of English and Hinglish where applicable']},
 };
 
-function key() {
-  const k = process.env.GEMINI_API_KEY;
-  if (!k) throw new Error('GEMINI_API_KEY is not set. Add it in Vercel → Settings → Environment Variables (or .env.local), then redeploy.');
+// The key comes from the tool's AI settings (sent per request) or, failing that, the server's GEMINI_API_KEY.
+function key(apiKey) {
+  const k = apiKey || process.env.GEMINI_API_KEY;
+  if (!k) throw new Error('No Gemini API key. Add yours in ⚙ AI settings (left panel).');
   return k;
 }
 
-async function generate(model, body) {
+async function generate(model, body, apiKey) {
   const res = await fetch(`${BASE}/${model}:generateContent`, {
-    method: 'POST', headers: {'Content-Type': 'application/json', 'x-goog-api-key': key()}, body: JSON.stringify(body),
+    method: 'POST', headers: {'Content-Type': 'application/json', 'x-goog-api-key': key(apiKey)}, body: JSON.stringify(body),
   });
   const d = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(`Gemini error (${res.status}): ${d.error?.message || 'request failed'}`);
@@ -52,14 +53,14 @@ async function generate(model, body) {
 }
 
 // Script → 16-bit PCM (Buffer, 24 kHz mono).
-export async function geminiSpeech(text, persona = 'ContentCreator', speed = 0) {
+export async function geminiSpeech(text, persona = 'ContentCreator', speed = 0, apiKey = '') {
   const p = GEMINI_VOICES[persona] || GEMINI_VOICES.ContentCreator;
   const style = [...p.style];
   if (speed) style.push(`speak about ${Math.abs(speed)}% ${speed > 0 ? 'faster' : 'slower'} than normal`);
   const d = await generate(TTS_MODEL, {
     contents: [{parts: [{text: `[Instructions: ${style.join(', ')}.] ${text}`}]}],
     generationConfig: {responseModalities: ['AUDIO'], speechConfig: {voiceConfig: {prebuiltVoiceConfig: {voiceName: p.voice}}}},
-  });
+  }, apiKey);
   const data = d.candidates?.[0]?.content?.parts?.find((x) => x.inlineData)?.inlineData?.data;
   if (!data) throw new Error('Gemini returned no audio. Try again or shorten the script.');
   return Buffer.from(data, 'base64');
@@ -127,7 +128,7 @@ const clean = (w) => w.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 
 // Word timings for spoken audio: Gemini listens with the script as reference; the script's own
 // spelling is kept. If Gemini's answer does not line up with the script, fall back to spreadWords.
-export async function wordTimings(pcm, script, rate = RATE) {
+export async function wordTimings(pcm, script, rate = RATE, apiKey = '') {
   const words = script.split(/\s+/).filter(Boolean);
   const duration = pcm.length / 2 / rate;
   const intervals = speechIntervals(pcm, rate);
@@ -141,7 +142,7 @@ ${words.join(' ')}
 Return JSON {"words":[{"text":"...","start":0.0,"end":0.0}]} with exactly ${words.length} items, in script order, using the script's spelling.`},
       ]}],
       generationConfig: {responseMimeType: 'application/json', temperature: 0},
-    });
+    }, apiKey);
     const got = JSON.parse(d.candidates?.[0]?.content?.parts?.[0]?.text || '{}').words || [];
     const ok = got.length === words.length && got.every((w, i) => Number.isFinite(+w.start) && Number.isFinite(+w.end)
       && +w.start <= duration + 0.5 && (i === 0 || +w.start >= +got[i - 1].start - 0.05) && clean(String(w.text)) === clean(words[i]));
@@ -151,7 +152,7 @@ Return JSON {"words":[{"text":"...","start":0.0,"end":0.0}]} with exactly ${word
 }
 
 // JSON answer for a prompt.
-export async function geminiJson(prompt) {
-  const d = await generate(TEXT_MODEL, {contents: [{parts: [{text: prompt}]}], generationConfig: {responseMimeType: 'application/json', temperature: 0.4}});
+export async function geminiJson(prompt, apiKey = '') {
+  const d = await generate(TEXT_MODEL, {contents: [{parts: [{text: prompt}]}], generationConfig: {responseMimeType: 'application/json', temperature: 0.4}}, apiKey);
   return JSON.parse(d.candidates?.[0]?.content?.parts?.[0]?.text || '{}');
 }

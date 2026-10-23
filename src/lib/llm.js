@@ -1,4 +1,5 @@
-// JSON answers from a text model: OpenCode Zen (OPENCODE_API_KEY) if set, otherwise Gemini (GEMINI_API_KEY).
+// JSON answers from a text model: Gemini with the user's own key (AI settings) first, then OpenCode Zen
+// (OPENCODE_API_KEY), then the server's GEMINI_API_KEY.
 import {geminiJson} from './gemini.js';
 
 const OPENCODE_URL = 'https://opencode.ai/inference/openai/v1/chat/completions';
@@ -11,9 +12,10 @@ export function parseJsonReply(text) {
   return JSON.parse(s.slice(a, b + 1));
 }
 
-export async function askJson(prompt) {
+export async function askJson(prompt, geminiKey = '') {
+  if (geminiKey) return geminiJson(prompt, geminiKey);
   const key = process.env.OPENCODE_API_KEY;
-  if (!key && !process.env.GEMINI_API_KEY) throw new Error('No AI key set. Add OPENCODE_API_KEY (free models at opencode.ai) in Vercel → Settings → Environment Variables, then redeploy.');
+  if (!key && !process.env.GEMINI_API_KEY) throw new Error('No Gemini API key. Add yours in ⚙ AI settings (left panel).');
   if (!key) return geminiJson(prompt);
   const res = await fetch(OPENCODE_URL, {
     method: 'POST',

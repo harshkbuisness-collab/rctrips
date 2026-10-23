@@ -38,7 +38,7 @@ SCENES (id: words with index):
 ${list.map((s) => `${s.id}: ${s.words.map((w, i) => `${i}=${w}`).join(' ')}`).join('\n')}
 
 Return JSON: {${pickLook ? '"lookId":"...","reason":"...",' : ''}"scenes":[{"id":"...","hero":0,"visual":"","sticker":""}]}`;
-    const a = await askJson(prompt);
+    const a = await askJson(prompt, request.headers.get('x-gemini-key') || '');
     // Keep only answers that point at things the tool really has.
     const objectIds = new Set(OBJECTS.map((o) => o.id)), icons = new Set(ICON_NAMES);
     const stickerIds = new Set(STICKERS.map((s) => s.id)), mascot = new Set(REACTIONS.map((r) => r.id));

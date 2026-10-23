@@ -1,5 +1,5 @@
 'use client';
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {Player} from '@remotion/player';
 import {Reel} from './remotion/Reel.jsx';
 import {FORMATS, DEFAULT_SETTINGS, parseTiming, buildProject} from './engine/plan.js';
@@ -79,6 +79,11 @@ export default function ReelEditor() {
   const [status, setStatus] = useState('Paste your script and click Generate voice — or upload your own audio + timing JSON.');
   const [busy, setBusy] = useState(false);
   const player = useRef(null);
+  // Gemini key from ⚙ AI settings: kept only in this browser, sent with AI requests, never stored on the server.
+  const [geminiKey, setGeminiKey] = useState('');
+  useEffect(() => { try { setGeminiKey(localStorage.getItem('geminiKey') || ''); } catch {} }, []);
+  const saveGeminiKey = (k) => { setGeminiKey(k); try { k ? localStorage.setItem('geminiKey', k) : localStorage.removeItem('geminiKey'); } catch {} };
+  const aiHeaders = () => ({'Content-Type': 'application/json', ...(geminiKey ? {'x-gemini-key': geminiKey} : {})});
 
   const rebuild = (t = timing, s = settings, m = media) => t && setProject(buildProject({words: t.words, duration: Math.max(t.duration, m.audioDurationSec || 0), settings: s, media: m}));
   // Theme and format only restyle, so the user's scene edits are kept; the rest re-plan the scenes.
@@ -110,7 +115,7 @@ export default function ReelEditor() {
   async function voiceOnce(text) {
     const gemini = voice.startsWith('gemini:');
     const url = gemini ? '/api/tts-gemini' : isLocal() ? '/api/tts-local' : '/api/tts';
-    const res = await fetch(url, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice: gemini ? voice.slice(7) : voice, speed})});
+    const res = await fetch(url, {method: 'POST', headers: gemini ? aiHeaders() : {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice: gemini ? voice.slice(7) : voice, speed})});
     const d = await res.json().catch(() => ({}));
     if (!res.ok || d.error) throw new Error(d.error || `Voice service error (${res.status})`);
     const bytes = Uint8Array.from(atob(d.audio), (c) => c.charCodeAt(0));
@@ -157,7 +162,7 @@ export default function ReelEditor() {
   // AI director (Gemini): keyword, visual and sticker per scene, and optionally the template.
   async function directProject(p, pickLook) {
     const scenes = p.scenes.filter((x) => x.type === 'line' || x.type === 'hero').map((x) => ({id: x.id, words: x.words.map((w) => w.text)}));
-    const res = await fetch('/api/ai-director', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({scenes, pickLook})});
+    const res = await fetch('/api/ai-director', {method: 'POST', headers: aiHeaders(), body: JSON.stringify({scenes, pickLook})});
     const d = await res.json().catch(() => ({}));
     if (!res.ok || d.error) throw new Error(d.error || `AI director error (${res.status})`);
     const byId = Object.fromEntries(d.scenes.map((x) => [x.id, x]));
@@ -263,6 +268,14 @@ export default function ReelEditor() {
         <F label="Voice"><select value={voice} onChange={(e) => setVoice(e.target.value)}>{opt(VOICES)}</select></F>
         <F label={`Voice speed ${speed > 0 ? '+' : ''}${speed}%`}><input type="range" min="-20" max="40" step="2" value={speed} onChange={(e) => setSpeed(Number(e.target.value))} /></F>
         <button className="primary" disabled={busy} onClick={generateVoice}>🎙 Generate voice + video</button>
+        <details>
+          <summary>⚙ AI settings {geminiKey ? '✓' : ''}</summary>
+          <F label="Gemini API key (for ✨ Gemini voices and ✨ AI director)">
+            <input type="password" className="text" value={geminiKey} placeholder="Paste your key from aistudio.google.com" onChange={(e) => saveGeminiKey(e.target.value.trim())} />
+          </F>
+          <p className="hint">Saved only in this browser. Get a free key at aistudio.google.com → Get API key.</p>
+          {geminiKey ? <button className="ghost" onClick={() => saveGeminiKey('')}>Remove key</button> : null}
+        </details>
         <details>
           <summary>Or upload your own voice</summary>
           <F label="Word timing JSON"><input type="file" accept=".json" onChange={(e) => onTiming(e.target.files?.[0])} /></F>
