@@ -1632,17 +1632,33 @@ function speaking(scenes, t) {
 }
 
 // Typing clicks on every word, a pop when a keyword lands, a whoosh on each transition.
-function SoundEffects({scenes, look, fps}) {
-  const cues = [];
+// Light style: no typing clicks; a few whooshes, a pop on big-word cards, an impact on the hook and the CTA, a riser into the CTA.
+function lightCues(scenes) {
+  const cues = [['impact', 0.02, 0.32]];
+  let lastWhoosh = -9, lastPop = -9;
   scenes.forEach((s, i) => {
+    if (s.type === 'cta') {
+      cues.push(['riser', Math.max(0, s.start - 1.35), 0.22, 1.5], ['impact', s.start, 0.32]);
+      return;
+    }
+    if (i > 0 && s.start - lastWhoosh >= 2.6) { cues.push(['whoosh', s.start - 0.05, 0.12]); lastWhoosh = s.start; }
+    const hero = s.words.find((w) => w.hero);
+    if (s.type === 'hero' && hero && hero.start - lastPop >= 2) { cues.push(['pop', hero.start + Math.min(0.3, hero.end - hero.start), 0.14]); lastPop = hero.start; }
+  });
+  return cues;
+}
+
+function SoundEffects({scenes, look, fps}) {
+  const cues = look.sfxStyle === 'light' || !look.sfx ? lightCues(scenes) : [];
+  if (!cues.length) scenes.forEach((s, i) => {
     if (look.transition && i > 0 && (!look.transitionEvery || i % look.transitionEvery === 0)) cues.push(['whoosh', s.start - 0.05, 0.16]);
     if (!['line', 'hero'].includes(s.type)) return;
     s.words.forEach((w) => cues.push(['click', w.start, 0.07]));
     const hero = s.words.find((w) => w.hero);
     if (hero) cues.push(['pop', hero.start + Math.min(0.5, hero.end - hero.start), 0.2]);
   });
-  return cues.map(([name, t, volume], i) => (
-    <Sequence key={i} from={Math.max(0, Math.round(t * fps))} durationInFrames={Math.round(fps * 0.6)}>
+  return cues.map(([name, t, volume, len = 0.6], i) => (
+    <Sequence key={i} from={Math.max(0, Math.round(t * fps))} durationInFrames={Math.round(fps * Math.max(len, name === 'impact' ? 1.6 : 0.6))}>
       <Audio src={staticFile(`sfx/${name}.mp3`)} volume={volume} />
     </Sequence>
   ));

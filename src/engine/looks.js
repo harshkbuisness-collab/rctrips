@@ -80,7 +80,7 @@ export const LOOKS = [
     bg: '#FBF8D4', ink: '#111111', dark: '#FBF8D4', darkInk: '#111111', accents: ['#D41F26', '#3B4CFF'], cta: '#111111',
     font: `Montserrat, ${DEV}`, weight: 800, heroFont: `Montserrat, ${DEV}`, heroWeight: 800, heroItalic: false, labelFont: `Montserrat, ${DEV}`, boxBg: '#D41F26', boxInk: '#FFFFFF'},
   {id: 'classic2', label: 'Ref 13 · Classic Flash (colour flash cards)', layout: 'stack', motion: 'blur', ghost: true, align: 'center',
-    textScale: 1.9, heroScale: 1.35, subScale: 1.7, placements: true, sfx: true,
+    textScale: 1.9, heroScale: 1.35, subScale: 1.7, placements: true, sfx: true, sfxStyle: 'light',
     motions: ['blur', 'slide', 'pop', 'mask', 'tracking'], heroMotions: ['zoom', 'stamp', 'drop', 'pop', 'scatter'],
     transition: ['whip', 'zoom', 'circle', 'blur'], transitionEvery: 1,
     heroCycle: [{bg: '#FFFFFF', ink: '#111111', accent: '#E5262A'}, {bg: '#FFE14D', ink: '#111111', accent: '#111111'},

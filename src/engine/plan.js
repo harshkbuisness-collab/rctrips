@@ -42,6 +42,7 @@ export function parseTiming(raw) {
 }
 
 const ENDS = /[.!?।]$/;
+const CTA_FILLER = /^(karo|kare|karein|karen|kijiye|karna|kar|below|me|mein|the|word|now|abhi|niche|neeche|करो|करें|कीजिए|नीचे|में)$/i;
 
 // Group words into short phrases: break on sentence ends, pauses and length.
 function groupWords(words) {
@@ -95,7 +96,10 @@ export function buildScenes(words, settings = {}) {
     if (c >= 0 && g[c + 1]) {
       plain(g.slice(0, c));
       // The call to action takes the rest of the script.
-      cards.push({type: 'cta', keyword: g[c + 1].text.replace(/[^\p{L}\p{M}\p{N}]/gu, ''), words: g.slice(c).concat(...groups.slice(i + 1))});
+      // Skip helper words so "Comment karo TOOL" picks TOOL, not "karo".
+      const rest = g.slice(c + 1).concat(...groups.slice(i + 1));
+      const key = rest.find((w) => !CTA_FILLER.test(norm(w.text))) || g[c + 1];
+      cards.push({type: 'cta', keyword: key.text.replace(/[^\p{L}\p{M}\p{N}]/gu, ''), words: g.slice(c).concat(...groups.slice(i + 1))});
       break;
     }
     cards.push({type: 'line', words: g});
