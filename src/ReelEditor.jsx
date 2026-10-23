@@ -20,6 +20,13 @@ const VOICES = [
   ['en-US-EmmaMultilingualNeural', '8 · Emma — US, female'],
   ['en-GB-RyanNeural', '9 · Ryan — British, male'],
   ['en-AU-WilliamMultilingualNeural', '10 · William — Australian, male'],
+  // Gemini creator voices (need GEMINI_API_KEY on the server).
+  ['gemini:ContentCreator', '✨ Gemini · Content Creator — male, energetic'],
+  ['gemini:IndianCreatorFemale', '✨ Gemini · Priya — Indian female creator'],
+  ['gemini:CreatorFemale', '✨ Gemini · Creator Aura — female, warm'],
+  ['gemini:TheThinker', '✨ Gemini · The Thinker — calm male'],
+  ['gemini:Fenrir', '✨ Gemini · Superhero — powerful male'],
+  ['gemini:Charon', '✨ Gemini · The Sage — deep male'],
 ];
 
 const F = ({label, children}) => <label className="field"><span>{label}</span>{children}</label>;
@@ -101,11 +108,14 @@ export default function ReelEditor() {
     try { return await voiceOnce(text); } catch (e) { if (tries > 1) return scriptToVoice(text, tries - 1); throw e; }
   }
   async function voiceOnce(text) {
-    const res = await fetch(isLocal() ? '/api/tts-local' : '/api/tts', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice, speed})});
+    const gemini = voice.startsWith('gemini:');
+    const url = gemini ? '/api/tts-gemini' : isLocal() ? '/api/tts-local' : '/api/tts';
+    const res = await fetch(url, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, voice: gemini ? voice.slice(7) : voice, speed})});
     const d = await res.json().catch(() => ({}));
     if (!res.ok || d.error) throw new Error(d.error || `Voice service error (${res.status})`);
     const bytes = Uint8Array.from(atob(d.audio), (c) => c.charCodeAt(0));
-    return {file: new File([bytes], 'voice.mp3', {type: 'audio/mpeg'}), timing: parseTiming({words: d.words})};
+    const file = d.format === 'wav' ? new File([bytes], 'voice.wav', {type: 'audio/wav'}) : new File([bytes], 'voice.mp3', {type: 'audio/mpeg'});
+    return {file, timing: parseTiming({words: d.words})};
   }
 
   async function generateVoice() {
@@ -144,6 +154,34 @@ export default function ReelEditor() {
     setBusy(false);
   }
 
+  // AI director (Gemini): keyword, visual and sticker per scene, and optionally the template.
+  async function directProject(p, pickLook) {
+    const scenes = p.scenes.filter((x) => x.type === 'line' || x.type === 'hero').map((x) => ({id: x.id, words: x.words.map((w) => w.text)}));
+    const res = await fetch('/api/ai-director', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({scenes, pickLook})});
+    const d = await res.json().catch(() => ({}));
+    if (!res.ok || d.error) throw new Error(d.error || `AI director error (${res.status})`);
+    const byId = Object.fromEntries(d.scenes.map((x) => [x.id, x]));
+    const out = {...p, scenes: p.scenes.map((sc) => {
+      const a = byId[sc.id];
+      if (!a) return sc;
+      const words = a.hero >= 0 ? sc.words.map((w, i) => ({...w, hero: i === a.hero})) : sc.words;
+      return {...sc, words, icon: a.visual, sticker: a.visual ? '' : a.sticker};
+    })};
+    if (d.lookId) { out.settings = {...out.settings, lookId: d.lookId}; out.look = getLook(d.lookId); }
+    return {project: out, reason: d.reason};
+  }
+  async function onDirector() {
+    if (!project) return;
+    setBusy(true);
+    try {
+      setStatus('AI director is choosing keywords, visuals and the template...');
+      const {project: p, reason} = await directProject(project, true);
+      setProject(p); setSettings(p.settings);
+      setStatus(`✓ AI director done${reason ? ` • ${p.look.label.split(' · ')[0]}: ${reason}` : ''}`);
+    } catch (e) { setStatus(`Error: ${e.message}`); }
+    setBusy(false);
+  }
+
   async function onImage(id, file) {
     if (!file) return;
     try {
@@ -166,6 +204,7 @@ export default function ReelEditor() {
   const [bulkMode, setBulkMode] = useState('same');
   const [rows, setRows] = useState([]);
   const [bulkImages, setBulkImages] = useState([]);
+  const [bulkAi, setBulkAi] = useState(false);
   const stopBulk = useRef(false);
   async function onBulkImages(files) {
     try {
@@ -176,7 +215,7 @@ export default function ReelEditor() {
   const splitScripts = (text) => text.split(/^\s*-{3,}\s*$/m).map((x) => x.trim()).filter(Boolean).slice(0, 30);
   const setRow = (i, patch) => setRows((r) => r.map((x, j) => (j === i ? {...x, ...patch} : x)));
   async function runBulk(onlyFailed) {
-    const list = onlyFailed ? rows : splitScripts(bulkText).map((text, i) => ({text, status: 'Waiting', lookId: bulkMode === 'same' ? settings.lookId
+    const list = onlyFailed ? rows : splitScripts(bulkText).map((text, i) => ({text, status: 'Waiting', lookId: bulkMode === 'same' ? settings.lookId : bulkMode === 'ai' ? 'ai'
       : bulkMode === 'rotate' ? LOOKS[i % LOOKS.length].id : LOOKS[Math.floor(Math.random() * LOOKS.length)].id}));
     if (!list.length) return setStatus('Paste scripts first (separate them with a line containing ---)');
     if (!onlyFailed) setRows(list);
@@ -195,11 +234,17 @@ export default function ReelEditor() {
         const p = buildProject({words: t.words, duration: Math.max(t.duration, duration), settings: {...settings, lookId: list[i].lookId},
           media: {...media, audioSrc: '', audioBlobPath: pathname, audioDurationSec: duration}});
         placeImages(p, t.words, marks, bulkImages);
+        let ready = p;
+        if (bulkAi || list[i].lookId === 'ai') {
+          say('AI director…');
+          ready = {...(await directProject(p, list[i].lookId === 'ai')).project, title: p.title};
+          setRow(i, {lookId: ready.settings.lookId});
+        }
         p.title = `reel-${String(i + 1).padStart(2, '0')}-${list[i].text.split(/\s+/).slice(0, 4).join('-').replace(/[^a-zA-Z0-9-]+/g, '')}`;
         // Show it in the preview player so you can see the template while it renders.
-        const view = {...p, audioSrc: URL.createObjectURL(file)};
+        const view = {...ready, audioSrc: URL.createObjectURL(file)};
         setRow(i, {view}); setProject(view);
-        await renderVideo(p, (s) => say(s.replace(/^Render complete.*/, 'Rendering…')));
+        await renderVideo(ready, (s) => say(s.replace(/^Render complete.*/, 'Rendering…')));
         say('Done ✓');
       } catch (e) { say(`Error: ${e.message}`); }
     }
@@ -242,7 +287,8 @@ export default function ReelEditor() {
           <summary>Bulk: up to 30 scripts → voice + MP4 each</summary>
           <F label="Scripts (separate each one with a line: ---)"><textarea rows={8} value={bulkText} onChange={(e) => setBulkText(e.target.value)}
             placeholder={'First script...\n---\nSecond script...\n---\nThird script...'} /></F>
-          <F label="Template for each video"><select value={bulkMode} onChange={(e) => setBulkMode(e.target.value)}>{opt([['same', 'Same as selected template'], ['rotate', 'Rotate through all templates'], ['random', 'Random template']])}</select></F>
+          <F label="Template for each video"><select value={bulkMode} onChange={(e) => setBulkMode(e.target.value)}>{opt([['same', 'Same as selected template'], ['rotate', 'Rotate through all templates'], ['random', 'Random template'], ['ai', '✨ AI picks the best template']])}</select></F>
+          <label className="check"><input type="checkbox" checked={bulkAi} onChange={(e) => setBulkAi(e.target.checked)} /> ✨ AI director: keywords, visuals and stickers for every video</label>
           <F label="Images (optional)"><input type="file" accept="image/*" multiple onChange={(e) => { onBulkImages(e.target.files || []); e.target.value = ''; }} /></F>
           {bulkImages.length ? <div className="bulkImgs">
             {bulkImages.map((im, i) => <figure key={i}><img src={im.url} alt="" /><figcaption>[{i + 1}]</figcaption></figure>)}
@@ -256,7 +302,7 @@ export default function ReelEditor() {
           </div>
           {rows.some((r) => r.status.startsWith('Error')) && !busy ? <button className="ghost" onClick={() => runBulk(true)}>Retry failed</button> : null}
           <ol className="bulk">
-            {rows.map((r, i) => <li key={i}><span>{r.text.slice(0, 40)}…</span><em>🎨 {LOOKS.find((l) => l.id === r.lookId)?.label}</em><b>{r.status}</b>
+            {rows.map((r, i) => <li key={i}><span>{r.text.slice(0, 40)}…</span><em>🎨 {LOOKS.find((l) => l.id === r.lookId)?.label || (r.lookId === 'ai' ? '✨ AI will pick' : '')}</em><b>{r.status}</b>
               {r.view ? <button className="ghost mini" onClick={() => { setProject(r.view); player.current?.seekTo(0); player.current?.play(); }}>▶ View</button> : null}</li>)}
           </ol>
         </details>
@@ -272,6 +318,7 @@ export default function ReelEditor() {
 
       <section className="scenes">
         <h2>Scenes {project ? `(${project.scenes.length})` : ''}</h2>
+        <button className="ghost" disabled={busy || !project} onClick={onDirector}>✨ AI director: keywords, visuals, template</button>
         <p className="hint">Click a word = keyword on/off • Double-click = edit text • 📷 = put your own screenshot on a scene</p>
         {project?.scenes.map((s) => (
           <div key={s.id} className="scene">
