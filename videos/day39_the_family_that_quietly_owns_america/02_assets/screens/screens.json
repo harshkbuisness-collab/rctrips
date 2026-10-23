@@ -1,0 +1,610 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia, Walton family",
+  "url": "https://en.wikipedia.org/wiki/Walton_family",
+  "what": "highlight \"the family is the richest family in the world\"",
+  "said": "The richest family in the world does not live in New York or Los Angeles. It comes from a small town in Arkansas.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.331
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 1,
+  "source": "Wikipedia, Walton family",
+  "url": "https://en.wikipedia.org/wiki/Walton_family",
+  "what": "highlight \"net worth was estimated to be US$432.4 billion\"",
+  "said": "At the end of twenty twenty-four, the Walton family was worth about four hundred thirty-two billion dollars.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.651,
+   0.769,
+   0.749
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"the largest private employer in the world, with 2.1 million employees\"",
+  "said": "Walmart is the biggest private employer on the planet. About two point one million people work there.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Walton family",
+  "url": "https://en.wikipedia.org/wiki/Walton_family",
+  "what": "highlight \"the Waltons collectively owned 50.8 percent of Walmart\"",
+  "said": "And the family does not just own a few shares. Back in twenty fourteen, the Waltons owned more than half of the whole company.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.651,
+   0.769,
+   0.749
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"With the help of a $20,000 loan\"",
+  "said": "He has about five thousand dollars saved. His wife's father, Leland Robson, lends him twenty thousand more.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"it was doing $72,000 in sales, and it increased to $105,000 in the first year\"",
+  "said": "He works hard, cuts prices, and buys in bulk. Sales jump from seventy-two thousand dollars a year to over one hundred thousand in his first year.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"It is headquartered in Bentonville, Arkansas .\"",
+  "said": "So the family moved to a tiny town called Bentonville and started over. That is why Walmart is headquartered there today.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.38,
+   0.769,
+   0.556
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"The owner of the shop next door refused six times\"",
+  "said": "Even then, it almost did not happen. The shop owner next door refused to give up space six times. Sam's father-in-law quietly went back, paid him, and secured the deal.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"the money-strapped young Walton had to learn to delegate responsibility\"",
+  "said": "For a while, Sam ran two stores two hundred twenty miles apart. He could not be in both places, so he had to trust his managers and let them run things.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"By 1962, along with his brother Bud, he owned 16 stores\"",
+  "said": "Sam opened more Ben Franklin stores across small towns. By nineteen sixty-two, he and his brother Bud owned sixteen of them.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"The first true Walmart opened on July 2, 1962, in Rogers, Arkansas .\"",
+  "said": "On July second, nineteen sixty-two, the first real Walmart opened in Rogers, Arkansas.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"there were 125 stores with 7,500 employees and total sales of $340.3 million\"",
+  "said": "By nineteen seventy-five, when Walmart moved into Texas, it had one hundred twenty-five stores and seven thousand five hundred employees.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"a $24 million investment linking all stores\"",
+  "said": "Walmart also used technology most stores did not have. In nineteen eighty-seven, it finished a twenty-four million dollar satellite network linking every store to headquarters.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"Wal-Mart was more profitable than rivals Kmart and Sears\"",
+  "said": "Bigger rivals like Kmart and Sears were still larger at the time. But Walmart was already making more profit than both of them.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"it had become the largest in terms of revenue by October 1989\"",
+  "said": "By October nineteen eighty-nine, Walmart was the largest retailer in America by revenue.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.776,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"with revenues of $219.8 billion and profits of $6.7 billion\"",
+  "said": "And in two thousand two, it became America's biggest company of any kind, with two hundred nineteen billion dollars in sales.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, Walmart",
+  "url": "https://en.wikipedia.org/wiki/Walmart",
+  "what": "highlight \"Walmart is the second-largest company by revenue globally\"",
+  "said": "Today, it is the second-largest company in the world by revenue. And Denise's Saturday dollar is a tiny piece of that river.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.552,
+   0.769,
+   0.78
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"convinced him that he should organize his own business as a family partnership\"",
+  "said": "In nineteen fifty-three, long before Walmart existed, Sam's father-in-law gave him one more piece of advice. Run your business as a family partnership.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.419,
+   0.769,
+   0.517
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"Sam and Helen owned 20% together while each child owned 20% personally\"",
+  "said": "So the family created a company called Walton Enterprises. Sam and his wife Helen owned twenty percent together. Each of their four children owned twenty percent.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.8,
+   0.769,
+   0.898
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"The amount paid out to each person is the same and is agreed upon.\"",
+  "said": "All the family's Walmart shares went into that one company. The family made big decisions together, and everyone got paid out the same.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.607,
+   0.769,
+   0.705
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"the family accumulated funds in WEI rather than throwing it all over the place\"",
+  "said": "The goal was to keep the money together, instead of letting each child spend it on a fancy life.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.607,
+   0.769,
+   0.705
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"besides holding 218 million Walmart common shares\"",
+  "said": "By nineteen eighty-nine, that family company held two hundred eighteen million Walmart shares, plus banks and real estate.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.811,
+   0.769,
+   0.883
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"Rob, using his law expertise, helped organize his family's ownership in Walmart into WEI\"",
+  "said": "Sam's oldest son, Rob, was a lawyer. He helped set up the family's ownership this way, and also did the legal work when Walmart went public.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.701,
+   0.769,
+   0.773
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Grantor retained annuity trust",
+  "url": "https://en.wikipedia.org/wiki/Grantor_retained_annuity_trust",
+  "what": "highlight \"several ultra-wealthy families exploited the GRAT\"",
+  "said": "Rich families today use other legal tools too, like special trusts. Reporters at ProPublica found that some ultra-wealthy families used one kind to avoid billions in estate taxes.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"Forbes ranked Sam Walton as the richest person in the United States from 1982 to 1988\"",
+  "said": "Sam Walton became incredibly rich. Forbes named him the richest person in the United States from nineteen eighty-two to nineteen eighty-eight.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"Waiting in Line At the Wal-Mart With Everybody Else\"",
+  "said": "But he did not act like it. Newspapers wrote about America's richest man waiting in line at Walmart with everybody else.",
+  "file": "s26.png",
+  "box": [
+   0.185,
+   0.758,
+   0.455,
+   0.841
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"the editors began to credit Walton's fortune jointly to him and his four children\"",
+  "said": "In nineteen eighty-nine, Forbes started counting his fortune together with his four children. That alone shows how much the kids already owned.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Walton Enterprises",
+  "url": "https://en.wikipedia.org/wiki/Walton_Enterprises",
+  "what": "highlight \"as tightfisted with money as his father\"",
+  "said": "Sam was also tight with money inside the business. When the family picked a president for Walton Enterprises, they chose his son Jim, because he was just as tightfisted as his father.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.769,
+   0.769,
+   0.815
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Sam Walton",
+  "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "what": "highlight \"In 1992 at the age of 74, Walton died\"",
+  "said": "Sam Walton died in April nineteen ninety-two, at age seventy-four, and was buried in Bentonville.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.405,
+   0.769,
+   0.555
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Walton family",
+  "url": "https://en.wikipedia.org/wiki/Walton_family",
+  "what": "highlight \"making her the 18th-richest person and the richest woman in the world\"",
+  "said": "Today, his daughter Alice alone is worth almost ninety billion dollars. In twenty twenty-four, that made her the richest woman in the world.",
+  "file": "s30.png",
+  "box": [
+   0.633,
+   0.717,
+   0.769,
+   0.884
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"I pay low wages. I can take advantage of that.\"",
+  "said": "Sam Walton was surprisingly honest about this. He once said, I pay low wages. I can take advantage of that.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"Walmart was the largest private employer of parents of children enrolled in its program\"",
+  "said": "In two thousand two, a survey in Georgia found Walmart was the largest private employer of parents whose kids were on the state's children's health program.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"California taxpayers still pay $86 million a year to Walmart employees\"",
+  "said": "A two thousand four study from Berkeley estimated California taxpayers paid eighty-six million dollars a year in support for Walmart workers.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"Walmart insists its wages are generally in line with the current local market in retail labor.\"",
+  "said": "Walmart says its wages match what other stores pay in each area. And it has raised pay several times since then.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 67,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"Walmart's lower prices draw customers away from smaller Main Street businesses\"",
+  "said": "The other big criticism is about towns like Denise's. When a giant store opens on the highway, small shops on Main Street often cannot compete.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.815,
+   0.769,
+   0.965
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia, Criticism of Walmart",
+  "url": "https://en.wikipedia.org/wiki/Criticism_of_Walmart",
+  "what": "highlight \"Walmart is the largest importer in the United States in many categories\"",
+  "said": "Critics also point to where the products come from. Walmart is the largest importer in the United States in many categories, like electronics.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 78,
+  "source": "Wikipedia, Walton Family Foundation",
+  "url": "https://en.wikipedia.org/wiki/Walton_Family_Foundation",
+  "what": "highlight \"granted $6.2 billion to approximately 6,300 grantees\"",
+  "said": "The family gives a lot of it away too. In its first thirty years, the Walton Family Foundation gave out six point two billion dollars in grants.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.88,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 79,
+  "source": "Wikipedia, Walton Family Foundation",
+  "url": "https://en.wikipedia.org/wiki/Walton_Family_Foundation",
+  "what": "highlight \"built and curated with $1.2 billion from the foundation\"",
+  "said": "Alice Walton even built a major art museum in Bentonville, with one point two billion dollars from the foundation.",
+  "file": "s38.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ }
+]
