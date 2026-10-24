@@ -29,11 +29,5 @@ Disclaimer: This video is for education and entertainment only. It is not financ
 **Tags:**
 why the stock market hasn't crashed, stock market crash 2026, us stock market, s&p 500, magnificent seven, index funds, 401k, stock buybacks, federal reserve rate cuts, market bubble, cape ratio, dot com bubble, stock market explained, dollar diaries
 
-## Short
-**Title:** Why Hasn't the US Stock Market Crashed? 😳 #shorts
-**Description:** Everything says crash. The market keeps hitting records. The real question: who keeps buying? Full video on our channel 👇 Why the Stock Market Hasn't Crashed Yet? #shorts #StockMarket #USStocks #SP500 #Investing
-**Tags:** stock market, stock market crash, us stocks, s&p 500, investing, shorts
-**Related video:** the Day 34 long video.
-
 ## Thumbnail
 Original (Clearly Finance): black background, a green rising line with red drops at 2000 and 2008, a "WE ARE HERE" dot near the top, a red crash at 2026 with a curved arrow, big white text "DON'T HOLD CASH".
