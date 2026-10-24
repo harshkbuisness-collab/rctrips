@@ -115,3 +115,46 @@ function monthDiff_(fromKey, toKey) {
   const [y2, m2] = toKey.split('-').map(Number);
   return (y2 - y1) * 12 + (m2 - m1);
 }
+
+/** Menu: PDF report of one month (lates, leaves, OD, balance, deduction per employee), saved to Drive. */
+function downloadMonthReport() {
+  const key = askMonth_('Download Month Report (PDF)');
+  if (!key) return;
+  calculateMonthSummary_(key);
+  const od = {};
+  (getMonthGrid_(key) || []).forEach(r => { od[normName_(r.name)] = r.days.filter(v => v === 'OD').length; });
+  const cities = {};
+  getEmployees_().forEach(e => { cities[normName_(e.name)] = e.city; });
+
+  const settings = getSettings_();
+  const rows = getSummaryRows_(key).map(r => r.values)
+    .sort((a, b) => String(cities[normName_(a[2])] || '').localeCompare(String(cities[normName_(b[2])] || '')) ||
+      String(a[2]).localeCompare(String(b[2])));
+  const cell = (v, style) => '<td style="border:1px solid #bbb;padding:5px;' + (style || '') + '">' + esc_(v) + '</td>';
+  const body = rows.map((v, i) => {
+    const late = Number(v[4] || 0), bal = Number(v[8] || 0);
+    return '<tr style="background:' + (i % 2 ? '#f3f6fb' : '#fff') + '">' +
+      cell(i + 1, 'text-align:center') + cell(v[2]) + cell(cities[normName_(v[2])] || '') +
+      cell(late, 'text-align:center;' + (late > settings.lateLimit ? 'color:#c00;font-weight:bold' : '')) +
+      cell(v[6] || 0, 'text-align:center') + cell(od[normName_(v[2])] || 0, 'text-align:center') +
+      cell(bal, 'text-align:center;' + (bal <= 0 ? 'color:#c00;font-weight:bold' : '')) +
+      cell(v[9] ? formatAmount_(String(v[9])) : '', 'text-align:center') + '</tr>';
+  }).join('');
+  const th = t => '<th style="border:1px solid #1f3864;padding:6px;background:#1f3864;color:#fff">' + t + '</th>';
+  const html = '<html><body style="font-family:Arial,sans-serif;font-size:11px">' +
+    '<h2 style="color:#1f3864;margin:0">RC Trips - Attendance Report</h2>' +
+    '<p style="margin:4px 0 12px">' + monthLabel_(key) + ' &nbsp;|&nbsp; Late = in after ' +
+    SpreadsheetApp.getActive().getRangeByName('OfficeStart').getDisplayValue() + ', allowed ' + settings.lateLimit + ' per month</p>' +
+    '<table style="border-collapse:collapse;width:100%">' +
+    '<tr>' + ['#', 'Name', 'City', 'Late', 'Leaves', 'OD', 'Leave Balance', 'Salary Deduction'].map(th).join('') + '</tr>' +
+    body + '</table>' +
+    '<p style="color:#777;margin-top:12px">Generated ' + fmt_(new Date(), 'dd-MMM-yyyy HH:mm') + '</p></body></html>';
+
+  const name = 'Attendance Report - ' + monthLabel_(key) + '.pdf';
+  const file = DriveApp.createFile(Utilities.newBlob(html, 'text/html', 'report.html').getAs('application/pdf').setName(name));
+  const url = 'https://drive.google.com/uc?export=download&id=' + file.getId();
+  SpreadsheetApp.getUi().showModalDialog(HtmlService.createHtmlOutput(
+    '<div style="font-family:Arial,sans-serif;font-size:14px"><p>PDF ready: <b>' + esc_(name) + '</b></p>' +
+    '<p><a href="' + url + '" target="_blank" style="background:#1f3864;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Download PDF</a></p>' +
+    '<p style="color:#666">Also saved in your Google Drive.</p></div>').setWidth(420).setHeight(200), 'Month Report');
+}

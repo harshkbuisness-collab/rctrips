@@ -28,6 +28,7 @@ function onOpen() {
     .addItem('Upload Attendance File (PDF / Excel)', 'showUploadDialog')
     .addSeparator()
     .addItem('Calculate Month Summary', 'calculateMonthSummaryPrompt')
+    .addItem('Download Month Report (PDF)', 'downloadMonthReport')
     .addItem('Send Test Email', 'sendTestEmail')
     .addItem('Send Monthly Emails', 'sendMonthlyEmails')
     .addToUi();
