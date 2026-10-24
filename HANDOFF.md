@@ -7,8 +7,12 @@ Branch: `claude/doodle-finance-scripts-y51bqy`. Rules: CLAUDE.md (read it first;
 - #1 day01 1929 crash: uploaded. #2 day02 who America owes: uploaded (do NOT work on it).
 - #11 day04 inflation: re-built 24 Oct (exact-quote evidence, new beats, tease cut), mp4 sent, UPLOAD.md ready.
 - #3 day34 stock market hasn't crashed: NEW script (no characters), Claude-made voice, mp4 sent, UPLOAD.md ready.
+- day34 re-rendered 24 Oct (evening): opens on evidence, no title card; tools/pace_beats.py adds keyword notes so
+  something new enters about every 2 s (only 2 gaps over 3 s). Recipe step 4: run `make_video.py <vdir> --voice-only`,
+  then `python3 tools/pace_beats.py <vdir>`, then --check.
 - NEXT: #4 day08 "Nobody can buy a house". Its script has a made-up character (Jasmine) -> rewrite it like day34,
-  make the voice, then the video. Then continue in upload order (day31, day33, day17, day39, day32...).
+  make the voice, then the video. Script rewritten + screens done (FRED s02-s05 have no highlight box:
+  re-run get_screens for them, the visible-match fix is in). Voice not made yet (`mkdir -p voices` first). Then continue in upload order (day31, day33, day17, day39, day32...).
 
 ### New owner rules (24 Oct 2026, also in CLAUDE.md)
 - Only the LONG video. No Shorts, no Short title/cover unless asked.
