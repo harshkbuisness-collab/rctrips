@@ -7,11 +7,16 @@
 
 const ATT_HEADERS = ['Date', 'Day', 'Emp Code', 'Name', 'City', 'In Time', 'Out Time', 'Status', 'Leave (HR)', 'Remarks'];
 
-// Status is a live formula, so it updates as soon as HR marks a leave or a holiday is added.
+// HR marks (from the Today sheet or directly in column I of a month sheet).
+const MARKS = ['Absent', 'Full Day Leave', 'Half Day Leave'];
+
+// Status is a live formula, so it updates as soon as HR marks something or the PDF is uploaded.
+// No punch counts as Absent only for dates already covered by an upload (named range LastUpload).
 const STATUS_FORMULA_R1C1 =
-  '=IF(RC9="Full Day","Leave",IF(RC9="Half Day","Half Day Leave",IF(RC2="Sun","Week Off",' +
-  'IF(COUNTIF(Holidays!C1:C1,RC1)>0,"Holiday",IF(RC6="",IF(RC1<TODAY(),"Absent",""),' +
-  'IF(MOD(RC6,1)>MOD(OfficeStart,1),"Late","Present"))))))';
+  '=IF(RC9="Absent","Absent",IF(RC9="Full Day Leave","Leave",IF(RC9="Half Day Leave","Half Day Leave",' +
+  'IF(RC2="Sun","Week Off",IF(COUNTIF(Holidays!C1:C1,RC1)>0,"Holiday",' +
+  'IF(RC6="",IF(AND(N(LastUpload)>0,RC1<=LastUpload),"Absent",""),' +
+  'IF(MOD(RC6,1)>MOD(OfficeStart,1),"Late","Present")))))))';
 
 function monthSheetName_(key) {
   return 'Att ' + fmt_(monthKeyToDate_(key), 'MMM-yyyy');
@@ -22,6 +27,7 @@ function ensureMonthSheet_(dateInMonth) {
   const key = fmt_(dateInMonth, 'yyyy-MM');
   const ss = SpreadsheetApp.getActive();
   const name = monthSheetName_(key);
+  ensureLastUploadSetting_();
   let sh = ss.getSheetByName(name);
   if (!sh) {
     sh = ss.insertSheet(name, 0);
@@ -35,7 +41,13 @@ function ensureMonthSheet_(dateInMonth) {
     sh.getRange(2, 4, sh.getLastRow() - 1, 1).getValues().forEach(r => existing.add(normName_(r[0])));
   }
   const missing = getEmployees_().filter(e => !existing.has(normName_(e.name)));
-  if (!missing.length) return sh;
+  if (!missing.length) {
+    if (sh.getLastRow() > 1) {
+      sh.getRange(2, 8, sh.getLastRow() - 1, 1).setFormulaR1C1(STATUS_FORMULA_R1C1);
+      formatMonthSheet_(sh);
+    }
+    return sh;
+  }
 
   const start = monthKeyToDate_(key);
   const days = new Date(start.getFullYear(), start.getMonth() + 1, 0).getDate();
@@ -61,7 +73,7 @@ function formatMonthSheet_(sh) {
   sh.getRange('A:A').setNumberFormat('dd-MMM-yyyy');
   sh.getRange('F:G').setNumberFormat('HH:mm');
   sh.getRange('I2:I').setDataValidation(
-    SpreadsheetApp.newDataValidation().requireValueInList(['Full Day', 'Half Day'], true).setAllowInvalid(false).build());
+    SpreadsheetApp.newDataValidation().requireValueInList(MARKS, true).setAllowInvalid(false).build());
   sh.getRange('A:C').setHorizontalAlignment('center');
   sh.getRange('F:I').setHorizontalAlignment('center');
   sh.getRange('I2:I').setBackground('#fffbea');
@@ -100,6 +112,7 @@ function processUpload() {
 
   const unmatched = new Set();
   let filled = 0;
+  const lastDate = records.reduce((m, r) => (r.date > m ? r.date : m), records[0].date);
   Object.keys(byMonth).forEach(key => {
     const sh = ensureMonthSheet_(monthKeyToDate_(key));
     const n = sh.getLastRow() - 1;
@@ -120,6 +133,10 @@ function processUpload() {
     });
     sh.getRange(2, 6, n, 2).setValues(times);
   });
+
+  // Days up to the last date in the file: no punch now shows as Absent.
+  const lastUpload = SpreadsheetApp.getActive().getRangeByName('LastUpload');
+  if (!lastUpload.getValue() || lastDate > lastUpload.getValue()) lastUpload.setValue(lastDate);
 
   let msg = 'Done. ' + filled + ' attendance entries filled.';
   if (unmatched.size) {

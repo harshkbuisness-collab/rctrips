@@ -21,6 +21,7 @@ function onOpen() {
     .addItem('2. Connect Outlook (hr@rctrips.com)', 'connectOutlook')
     .addItem('Load / Update Employees', 'loadEmployees')
     .addSeparator()
+    .addItem('Open Today Sheet', 'openToday')
     .addItem('Create / Refresh This Month Sheet', 'refreshCurrentMonth')
     .addItem('Process Attendance Upload', 'processUpload')
     .addSeparator()
@@ -73,11 +74,12 @@ function setupSystem() {
 
   const added = addEmployees_();
   ensureMonthSheet_(new Date());
+  refreshToday_();
   const blank = ss.getSheetByName('Sheet1');
   if (blank && blank.getLastRow() === 0 && ss.getSheets().length > 1) ss.deleteSheet(blank);
   orderTabs_();
 
-  // Daily trigger: makes sure the current month sheet exists from day 1.
+  // Daily trigger (1am): creates the new month sheet on day 1 and moves the Today sheet to the new date.
   ScriptApp.getProjectTriggers()
     .filter(t => t.getHandlerFunction() === 'dailyJob')
     .forEach(t => ScriptApp.deleteTrigger(t));
@@ -121,6 +123,19 @@ function getEmployeesAll_(sh) {
 
 function dailyJob() {
   ensureMonthSheet_(new Date());
+  refreshToday_();
+}
+
+/** Adds the "Attendance Uploaded Till" setting (named range LastUpload) if missing. */
+function ensureLastUploadSetting_() {
+  const ss = SpreadsheetApp.getActive();
+  if (ss.getRangeByName('LastUpload')) return;
+  const settings = ss.getSheetByName(SHEETS.SETTINGS);
+  const row = settings.getLastRow() + 1;
+  settings.getRange(row, 1, 1, 3).setValues([['Attendance Uploaded Till', '', 'Set automatically by PDF upload. No punch on or before this date = Absent']]);
+  settings.getRange(row, 1).setFontWeight('bold');
+  settings.getRange(row, 2).setNumberFormat('dd-MMM-yyyy').setBackground('#eeeeee').setHorizontalAlignment('center');
+  ss.setNamedRange('LastUpload', settings.getRange(row, 2));
 }
 
 function refreshCurrentMonth() {
@@ -172,11 +187,12 @@ function orderTabs_() {
   const fixed = [SHEETS.SUMMARY, SHEETS.BALANCE, SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS];
   const months = ss.getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0)
     .sort((a, b) => new Date('1 ' + b.slice(4).replace('-', ' ')) - new Date('1 ' + a.slice(4).replace('-', ' ')));
-  months.concat(fixed).forEach((name, i) => {
+  [TODAY_SHEET].concat(months, fixed).forEach((name, i) => {
     const sh = ss.getSheetByName(name);
     if (sh) { ss.setActiveSheet(sh); ss.moveActiveSheet(i + 1); }
   });
-  if (months.length) ss.setActiveSheet(ss.getSheetByName(months[0]));
+  const today = ss.getSheetByName(TODAY_SHEET);
+  if (today) ss.setActiveSheet(today);
 }
 
 function getSettings_() {
