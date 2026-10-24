@@ -4,7 +4,7 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 
 ## Install (one time)
 1. Sheet > Extensions > Apps Script. Create files `Setup`, `Attendance`, `Leave`, `Outlook`, `Email` and paste the matching `.gs` code.
-2. Libraries (+) > Script ID `1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsBxEc` > Look up > latest version > Identifier `OAuth2` > Add.
+2. No library needed (Microsoft login is built into `Outlook.gs`).
 3. Project Settings > Script Properties > add `CLIENT_ID`, `TENANT_ID`, `CLIENT_SECRET` (never put these in code or GitHub).
 4. Reload the sheet. Menu **HR System > 1. First-time Setup**.
 5. Paste the employee list in `Employees` (from A2), add holidays in `Holidays`.
