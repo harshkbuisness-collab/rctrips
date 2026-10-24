@@ -12,9 +12,9 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 
 ## Monthly use
 - Month sheet (`Att Nov-2026`): one row per employee, one column per day, plus Late / Leave / OD totals. Day cell = in-time (red = late, green = on time), `LEAVE`, `OD`, `SUN` (Sunday) or `HOL` (holiday from `Holidays`).
-- Daily: the `Today` sheet shows only today's date. HR picks LEAVE or OD; it is saved into the month sheet instantly. A 1am trigger moves `Today` to the next date and creates the new month sheet on day 1.
+- Daily: the `Today` sheet shows only today's date. HR picks LEAVE or OD; it is saved into the month sheet instantly. A 1am trigger moves `Today` to the next date and creates the new month sheet on day 1. When a month ends, its sheet moves to the bottom of `Attendance History` (all finished months, one below the other). Uploading a file for a finished month fills it there.
 - HR System > Upload Attendance File (PDF / Excel) fills in-times. No punch on uploaded dates = LEAVE. HR's own LEAVE / OD are never overwritten.
-- Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**. After emails are sent, that month's sheet moves to the bottom of `Attendance History` (all finished months, one below the other).
+- Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**. 
 
 ## Rules
 - Office starts 10:00. In time after 10:10 = Late (Settings > Late After). More than 5 lates/month = deduction (amount entered by HR).

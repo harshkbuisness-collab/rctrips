@@ -91,17 +91,9 @@ function formatMonthSheet_(sh, key) {
   }
   if (changed) grid.setValues(values);
 
-  const a1 = c => sh.getRange(1, c).getA1Notation().replace(/\d+/g, '');
-  const firstCol = a1(ATT_FIRST_DAY_COL), lastCol = a1(ATT_FIRST_DAY_COL + days - 1);
-  const range = r => firstCol + r + ':' + lastCol + r;
-  const totals = [];
-  for (let r = ATT_FIRST_ROW; r < ATT_FIRST_ROW + n; r++) {
-    totals.push(['=COUNTIF(' + range(r) + ',">"&MOD(OfficeStart,1))', '=COUNTIF(' + range(r) + ',"LEAVE")', '=COUNTIF(' + range(r) + ',"OD")']);
-  }
-  sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL + days, n, 3).setFormulas(totals)
-    .setHorizontalAlignment('center').setFontWeight('bold').setBackground('#f3f6fb');
+  writeTotals_(sh, ATT_FIRST_ROW, n, days);
 
-  const top = firstCol + ATT_FIRST_ROW;
+  const top = grid.getA1Notation().split(':')[0];
   const rule = () => SpreadsheetApp.newConditionalFormatRule().setRanges([grid]);
   const text = (t, bg, color) => rule().whenTextEqualTo(t).setBackground(bg).setFontColor(color).setBold(true).build();
   sh.setConditionalFormatRules([
@@ -113,6 +105,19 @@ function formatMonthSheet_(sh, key) {
     text('SUN', '#eeeeee', '#999999'),
     text('HOL', '#d9d2e9', '#20124d'),
   ]);
+}
+
+/** Late / Leave / OD count formulas next to the day columns. */
+function writeTotals_(sh, firstRow, n, days) {
+  const a1 = c => sh.getRange(1, c).getA1Notation().replace(/\d+/g, '');
+  const firstCol = a1(ATT_FIRST_DAY_COL), lastCol = a1(ATT_FIRST_DAY_COL + days - 1);
+  const range = r => firstCol + r + ':' + lastCol + r;
+  const totals = [];
+  for (let r = firstRow; r < firstRow + n; r++) {
+    totals.push(['=COUNTIF(' + range(r) + ',">"&MOD(OfficeStart,1))', '=COUNTIF(' + range(r) + ',"LEAVE")', '=COUNTIF(' + range(r) + ',"OD")']);
+  }
+  sh.getRange(firstRow, ATT_FIRST_DAY_COL + days, n, 3).setFormulas(totals)
+    .setHorizontalAlignment('center').setFontWeight('bold').setBackground('#f3f6fb');
 }
 
 /** Day numbers (1..31) of holidays in this month, from the Holidays sheet. */
@@ -128,12 +133,12 @@ function getHolidayDays_(key) {
 }
 
 /** Row number of each employee in a month sheet: {normName: row, '#code': row}. */
-function monthRowIndex_(sh) {
+function monthRowIndex_(sh, firstRow = ATT_FIRST_ROW, n = sh.getLastRow() - ATT_FIRST_ROW + 1) {
   const index = {};
-  if (sh.getLastRow() < ATT_FIRST_ROW) return index;
-  sh.getRange(ATT_FIRST_ROW, 1, sh.getLastRow() - ATT_FIRST_ROW + 1, 2).getValues().forEach((r, i) => {
-    index[normName_(r[1])] = ATT_FIRST_ROW + i;
-    if (String(r[0]).trim()) index['#' + String(r[0]).trim()] = ATT_FIRST_ROW + i;
+  if (n < 1) return index;
+  sh.getRange(firstRow, 1, n, 2).getValues().forEach((r, i) => {
+    index[normName_(r[1])] = firstRow + i;
+    if (String(r[0]).trim()) index['#' + String(r[0]).trim()] = firstRow + i;
   });
   return index;
 }
@@ -151,13 +156,12 @@ function readOldMonthSheet_(sh) {
  * Writes records into one month sheet. HR's LEAVE / OD (and SUN / HOL) are never overwritten.
  * Returns {filled, unmatched: [names], rows: Set of sheet rows that got data}.
  */
-function applyRecords_(sh, key, records) {
+function applyRecords_(sh, key, records, firstRow = ATT_FIRST_ROW, n = sh.getLastRow() - ATT_FIRST_ROW + 1) {
   const days = daysInMonth_(key);
-  const index = monthRowIndex_(sh);
+  const index = monthRowIndex_(sh, firstRow, n);
   const result = { filled: 0, unmatched: [], rows: new Set() };
-  const n = sh.getLastRow() - ATT_FIRST_ROW + 1;
   if (n < 1) return result;
-  const grid = sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL, n, days);
+  const grid = sh.getRange(firstRow, ATT_FIRST_DAY_COL, n, days);
   const values = grid.getDisplayValues();
   const notes = grid.getNotes();
   const names = Object.keys(index).filter(k => k[0] !== '#');
@@ -165,7 +169,7 @@ function applyRecords_(sh, key, records) {
   records.forEach(r => {
     const row = r.code && index['#' + r.code] ? index['#' + r.code] : index[resolveName_(r.name, names)];
     if (!row) { result.unmatched.push(r.name || r.code); return; }
-    const i = row - ATT_FIRST_ROW, j = r.date.getDate() - 1;
+    const i = row - firstRow, j = r.date.getDate() - 1;
     result.rows.add(row);
     if (FIXED_CODES.indexOf(values[i][j]) >= 0) return;
     const v = r.mark || r.inTime;
@@ -203,14 +207,11 @@ function fillAttendance_(values) {
 
   const unmatched = new Set();
   let filled = 0;
-  const skipped = [];
   Object.keys(byMonth).forEach(key => {
-    if (!SpreadsheetApp.getActive().getSheetByName(monthSheetName_(key)) && findHistoryBlock_(key)) {
-      skipped.push(monthLabel_(key));
-      return;
-    }
-    const sh = ensureMonthSheet_(monthKeyToDate_(key));
-    const res = applyRecords_(sh, key, byMonth[key]);
+    // Finished month already in Attendance History: fill it there. Otherwise use the month sheet.
+    const block = !SpreadsheetApp.getActive().getSheetByName(monthSheetName_(key)) && historyBlock_(key);
+    const sh = block ? block.sheet : ensureMonthSheet_(monthKeyToDate_(key));
+    const res = block ? applyRecords_(sh, key, byMonth[key], block.firstRow, block.n) : applyRecords_(sh, key, byMonth[key]);
     filled += res.filled;
     res.unmatched.forEach(u => unmatched.add(u));
 
@@ -222,8 +223,10 @@ function fillAttendance_(values) {
     });
   });
 
+  archiveOldMonths_();
+  orderTabs_();
+
   let msg = 'Done. ' + filled + ' attendance entries filled (' + Object.keys(byMonth).map(monthLabel_).join(', ') + ').';
-  if (skipped.length) msg += '\n\nSkipped (already moved to ' + HISTORY_SHEET + '): ' + skipped.join(', ');
   if (unmatched.size) {
     msg += '\n\nThese names from the file are not in the Employees sheet (add them, then upload again):\n' +
       Array.from(unmatched).join('\n');
@@ -238,8 +241,8 @@ const HISTORY_SHEET = 'Attendance History';
 /** Moves a finished month sheet to the bottom of Attendance History and deletes the month sheet. */
 function archiveMonth_(key) {
   const ss = SpreadsheetApp.getActive();
-  const sh = ss.getSheetByName(monthSheetName_(key));
-  if (!sh || findHistoryBlock_(key)) return;
+  if (!ss.getSheetByName(monthSheetName_(key)) || findHistoryBlock_(key)) return;
+  const sh = ensureMonthSheet_(monthKeyToDate_(key)); // converts an old-layout sheet first
   let hist = ss.getSheetByName(HISTORY_SHEET);
   if (!hist) {
     hist = ss.insertSheet(HISTORY_SHEET);
@@ -258,6 +261,7 @@ function archiveMonth_(key) {
   const dest = hist.getRange(top + 1, 1, height, width);
   src.copyTo(dest, SpreadsheetApp.CopyPasteType.PASTE_FORMAT, false);
   dest.setValues(src.getDisplayValues());
+  if (height >= ATT_FIRST_ROW) writeTotals_(hist, top + ATT_FIRST_ROW, height - ATT_FIRST_ROW + 1, daysInMonth_(key));
   ss.deleteSheet(sh);
 }
 
@@ -270,13 +274,28 @@ function findHistoryBlock_(key) {
   return i < 0 ? 0 : i + 1;
 }
 
-/** Month sheets older than last month are moved to history (safety net for the daily job). */
+/** Every month sheet before the current month is moved to Attendance History (oldest first). */
 function archiveOldMonths_() {
-  const keep = [fmt_(new Date(), 'yyyy-MM'), previousMonthKey_()];
+  const current = fmt_(new Date(), 'yyyy-MM');
   SpreadsheetApp.getActive().getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0)
     .map(n => normalizeMonthKey_(n.slice(4)))
-    .filter(k => k && keep.indexOf(k) < 0 && k < keep[0])
+    .filter(k => k && k < current)
+    .sort()
     .forEach(archiveMonth_);
+}
+
+/** Employee rows of a month in Attendance History: {sheet, firstRow, n} or null. */
+function historyBlock_(key) {
+  const top = findHistoryBlock_(key);
+  if (!top) return null;
+  const sheet = SpreadsheetApp.getActive().getSheetByName(HISTORY_SHEET);
+  const firstRow = top + ATT_FIRST_ROW;
+  let n = 0;
+  if (firstRow <= sheet.getLastRow()) {
+    const names = sheet.getRange(firstRow, 2, sheet.getLastRow() - firstRow + 1, 1).getDisplayValues();
+    while (n < names.length && names[n][0]) n++;
+  }
+  return { sheet: sheet, firstRow: firstRow, n: n };
 }
 
 /**
@@ -292,15 +311,9 @@ function getMonthGrid_(key) {
     if (sh.getLastRow() < ATT_FIRST_ROW) return [];
     rows = sh.getRange(ATT_FIRST_ROW, 1, sh.getLastRow() - ATT_FIRST_ROW + 1, 2 + days).getDisplayValues();
   } else {
-    const top = findHistoryBlock_(key);
-    if (!top) return null;
-    const hist = ss.getSheetByName(HISTORY_SHEET);
-    const first = top + 1 + ATT_FIRST_ROW - 1;
-    rows = [];
-    if (first <= hist.getLastRow()) {
-      const all = hist.getRange(first, 1, hist.getLastRow() - first + 1, 2 + days).getDisplayValues();
-      for (const r of all) { if (!r[1]) break; rows.push(r); }
-    }
+    const block = historyBlock_(key);
+    if (!block) return null;
+    rows = block.n ? block.sheet.getRange(block.firstRow, 1, block.n, 2 + days).getDisplayValues() : [];
   }
   return rows.filter(r => r[1]).map(r => ({ name: r[1], days: r.slice(2) }));
 }

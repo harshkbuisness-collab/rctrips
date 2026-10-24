@@ -43,11 +43,6 @@ function sendMonthlyEmails() {
       failed.push(r.values[2] + ': ' + e.message);
     }
   });
-  // Month is closed: move its sheet into Attendance History.
-  if (!failed.length && key < fmt_(new Date(), 'yyyy-MM')) {
-    archiveMonth_(key);
-    orderTabs_();
-  }
   ui.alert('Sent: ' + (rows.length - failed.length) + (failed.length ? '\nFailed:\n' + failed.join('\n') : ''));
 }
 

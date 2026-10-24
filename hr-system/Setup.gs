@@ -75,6 +75,7 @@ function setupSystem() {
   const added = addEmployees_();
   ensureMonthSheet_(new Date());
   refreshToday_();
+  archiveOldMonths_();
   const blank = ss.getSheetByName('Sheet1');
   if (blank && blank.getLastRow() === 0 && ss.getSheets().length > 1) ss.deleteSheet(blank);
   orderTabs_();
@@ -130,6 +131,7 @@ function dailyJob() {
 
 function refreshCurrentMonth() {
   const sh = ensureMonthSheet_(new Date());
+  archiveOldMonths_();
   orderTabs_();
   SpreadsheetApp.getActive().setActiveSheet(sh);
 }
