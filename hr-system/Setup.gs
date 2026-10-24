@@ -72,7 +72,7 @@ function setupSystem() {
     .whenTextEqualTo('Yes').setBackground('#f4cccc').setFontColor('#990000').setBold(true)
     .setRanges([summary.getRange('F2:F')]).build()]);
 
-  const added = addEmployees_();
+  const added = addEmployees_().added;
   ensureMonthSheet_(new Date());
   refreshToday_();
   archiveOldMonths_();
@@ -90,16 +90,24 @@ function setupSystem() {
     '2. Add holidays in the Holidays sheet.\n3. Run HR System > Connect Outlook.');
 }
 
-/** Menu: adds employees from Employees.gs that are not in the sheet yet. */
+/** Menu: adds new employees from Employees.gs and updates details of existing ones. */
 function loadEmployees() {
-  const added = addEmployees_();
+  const res = addEmployees_();
   ensureMonthSheet_(new Date());
-  SpreadsheetApp.getUi().alert(added + ' new employee(s) added.');
+  refreshToday_();
+  let msg = res.added + ' new employee(s) added, ' + res.updated + ' updated.';
+  if (res.notInList.length) {
+    msg += '\n\nThese are in the Employees sheet but not in the Employees file. If they have left, set "Active" to No:\n' +
+      res.notInList.join('\n');
+  }
+  SpreadsheetApp.getUi().alert(msg);
 }
 
 /**
- * Adds EMPLOYEE_DATA (from Employees.gs, kept out of GitHub) rows missing in the Employees sheet,
- * and their names in Leave Balance. Returns how many were added.
+ * Syncs EMPLOYEE_DATA (from Employees.gs, kept out of GitHub) into the Employees sheet:
+ * adds missing people, updates city / designation / code / phone / email of existing ones
+ * (Active is left as HR set it), and adds new names to Leave Balance.
+ * Returns {added, updated, notInList}.
  */
 function addEmployees_() {
   if (typeof EMPLOYEE_DATA === 'undefined') {
@@ -107,15 +115,38 @@ function addEmployees_() {
   }
   const ss = SpreadsheetApp.getActive();
   const emp = ss.getSheetByName(SHEETS.EMPLOYEES);
-  const have = new Set(getEmployeesAll_(emp).map(normName_));
-  const newRows = EMPLOYEE_DATA.filter(r => !have.has(normName_(r[0])));
-  if (newRows.length) emp.getRange(emp.getLastRow() + 1, 1, newRows.length, EMP_COLS.length).setValues(newRows);
+  const width = EMP_COLS.length;
+  const data = EMPLOYEE_DATA.filter(r => String(r[0]).trim())
+    .map(r => r.map(c => String(c == null ? '' : c).trim()).concat(Array(width).fill('')).slice(0, width));
+  const byName = {};
+  data.forEach(r => { byName[normName_(r[0])] = r; });
+
+  const rows = emp.getLastRow() > 1 ? emp.getRange(2, 1, emp.getLastRow() - 1, width).getValues() : [];
+  const have = new Set();
+  const notInList = [];
+  let updated = 0;
+  rows.forEach(r => {
+    const n = normName_(r[0]);
+    if (!n) return;
+    have.add(n);
+    const src = byName[n];
+    if (!src) { notInList.push(r[0]); return; }
+    let changed = false;
+    for (let c = 1; c < width - 1; c++) {
+      if (String(r[c]).trim() !== src[c]) { r[c] = src[c]; changed = true; }
+    }
+    if (changed) updated++;
+  });
+  if (rows.length) emp.getRange(2, 1, rows.length, width).setValues(rows);
+
+  const newRows = data.filter(r => !have.has(normName_(r[0]))).map(r => { r[width - 1] = r[width - 1] || 'Yes'; return r; });
+  if (newRows.length) emp.getRange(emp.getLastRow() + 1, 1, newRows.length, width).setValues(newRows);
 
   const bal = ss.getSheetByName(SHEETS.BALANCE);
   const inBal = new Set(bal.getLastRow() > 1 ? bal.getRange(2, 2, bal.getLastRow() - 1, 1).getValues().map(r => normName_(r[0])) : []);
   const balRows = getEmployees_().filter(e => !inBal.has(normName_(e.name))).map(e => [e.code, e.name, '']);
   if (balRows.length) bal.getRange(bal.getLastRow() + 1, 1, balRows.length, 3).setValues(balRows);
-  return newRows.length;
+  return { added: newRows.length, updated: updated, notInList: notInList };
 }
 
 function getEmployeesAll_(sh) {
