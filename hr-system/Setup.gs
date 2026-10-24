@@ -38,7 +38,7 @@ function setupSystem() {
   if (settings.getLastRow() < 2) {
     settings.getRange('B5').setNumberFormat('@');
     settings.getRange(2, 1, 6, 3).setValues([
-      ['Office Start Time', '10:00', 'In time after this = Late'],
+      ['Office Start Time', '10:10', 'In time after this = Late'],
       ['Late Limit Per Month', 5, 'More lates than this = salary deduction'],
       ['Paid Leaves Per Month', 1.5, '18 per year'],
       ['Leave Tracking Starts', '2026-11', 'YYYY-MM. Opening balance in Leave Balance sheet is till the month before this'],

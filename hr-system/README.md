@@ -16,7 +16,7 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 - Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**.
 
 ## Rules
-- In time after 10:00 = Late (Settings). More than 5 lates/month = deduction (amount entered by HR).
+- In time after 10:10 = Late (Settings). More than 5 lates/month = deduction (amount entered by HR).
 - Sunday = Week Off. Saturday = half day (10 to 3).
 - 1.5 paid leaves/month. HR enters opening balance (till Oct 2026) in `Leave Balance`; tracking starts Nov 2026.
 - Absent (no punch and no leave marked) counts as leave (Settings: "Count Absent As Leave").
