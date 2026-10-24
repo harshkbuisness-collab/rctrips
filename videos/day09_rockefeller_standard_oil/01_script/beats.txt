@@ -1,0 +1,227 @@
+# Day 9: Rockefeller: How the First Billionaire Actually Did It. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The Visit ----------
+|| title:"The Visit"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] By eighteen eighty, one company refined about nine out of every ten barrels of oil in America. || title:"The Visit"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.296,0.127,0.332+0.8; H04@0.9,1.0:0.3:bottom
+Picture yourself running a small oil refinery in Cleveland in the eighteen seventies. || title:"The Visit"; A08@0.2,0.6:0.58~l; D17@0.62,0.4:0.32~drop; H18@0.85,0.4:0.32:"9 OUT OF 10"~pop; G13@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"1880"@0.66,0.12
+Let's call you Thomas Walsh. || title:"The Visit"; H13@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~drop
+Your refinery is small but proud. || title:"The Visit"; H13@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~drop; D17@0.15,0.4:0.32~pop
+You turn crude oil into kerosene, the fuel families burn in their lamps every night. || title:"The Visit"; H13@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~drop; D17@0.15,0.4:0.32~pop; E17@0.38,0.76:0.32~pop; E35@0.15,0.76:0.32~pop
+Before kerosene, many homes were lit by expensive whale oil or smoky candles. || title:"The Visit"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.247,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Kerosene was cheap and bright. || title:"The Visit"; E31@0.5,0.6:0.76
+Every family wanted it. || title:"The Visit"; H17@0.5,0.6:0.76:"WHALE OIL $$$"
+Business is good. || title:"The Visit"; E25@0.62,0.4:0.32~pop; note:"1872"@0.66,0.12
+But one day in eighteen seventy-two, a quiet, serious man visits your office. || title:"The Visit"; E25@0.62,0.4:0.32~pop; note:"1872"@0.66,0.12; E15@0.85,0.4:0.32~drop
+He makes you an offer. || title:"The Visit"; E25@0.62,0.4:0.32~pop; note:"1872"@0.66,0.12; E15@0.85,0.4:0.32~drop; C01@0.2,0.6:0.58~r; E51@0.62,0.76:0.32~pop
+Thomas has six workers and a wagon. || title:"The Visit"; H13@0.2,0.6:0.58~l
+He knows every customer by name. || title:"The Visit"; H13@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~pop; E41@0.38,0.4:0.32~pop
+He's saving up to build a second tank, so he can refine more oil each week. || title:"The Visit"; H13@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~pop; E41@0.38,0.4:0.32~pop; D17@0.15,0.4:0.32~drop
+He wants to buy your refinery. || title:"The Visit"; C01@0.80,0.6:0.58; E01@0.38,0.4:0.32~pop
+You can take cash, or shares in his company. || title:"The Visit"; D24@0.5,0.6:0.76
+And he makes it clear that if you say no, you probably won't survive. || title:"The Visit"; E44@0.5,0.6:0.76
+His name is John D. || title:"The Visit"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.612,0.644,0.731,0.68+0.8; H04@0.9,1.0:0.3:bottom
+Rockefeller. || title:"The Visit"; C01@0.2,0.6:0.58~none; E33@0.62,0.4:0.32~pop
+Within a few weeks, he would buy up twenty-two of the twenty-six refineries in Cleveland. || title:"The Visit"; C01@0.2,0.6:0.58~none; E33@0.62,0.4:0.32~pop; H17@0.85,0.4:0.32:"22 OF 26"~pop
+Thomas asks for a week to think. || title:"The Visit"; E25@0.62,0.4:0.32~pop; note:"1 WEEK"@0.66,0.12
+Rockefeller says that's fine. || title:"The Visit"; E25@0.38,0.4:0.32~pop; note:"1 WEEK"@0.66,0.12; C01@0.60,0.64:0.46~l
+But on his way out, he mentions that his company can ship oil far more cheaply than Thomas ever could. || title:"The Visit"; E25@0.38,0.4:0.32~pop; note:"1 WEEK"@0.66,0.12; C01@0.60,0.64:0.46~l; D17@0.15,0.4:0.32~pop; A37@0.80,0.6:0.58~pop
+By the end of this video, || title:"The Visit"; D17@0.5,0.6:0.76
+you'll see exactly how he did it, why the government finally broke his company apart, and why breaking it up made him even richer. || title:"The Visit"; E45@0.5,0.6:0.76
+But first, you need to know who this man was, and where he came from. || title:"The Visit"; A33@0.2,0.6:0.58~l; E23@0.62,0.4:0.32~pop
+Because he didn't start rich at all. || title:"The Visit"; A33@0.2,0.6:0.58~l; E23@0.62,0.4:0.32~pop; B11@0.4,0.64:0.46~drop
+
+# ---------- CHAPTER 2: The Bookkeeper ----------
+|| title:"The Bookkeeper"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] John D. || title:"The Bookkeeper"; E25@0.38,0.4:0.32~drop; note:"1839"@0.66,0.12
+Rockefeller was born in eighteen thirty-nine, in a small town in upstate New York. || title:"The Bookkeeper"; E25@0.38,0.4:0.32~drop; note:"1839"@0.66,0.12; G13@0.15,0.4:0.32~pop; note:"New York"@0.5,0.92
+His father was a traveling salesman who was often away, and not always honest. || title:"The Bookkeeper"; E25@0.38,0.4:0.32~drop; note:"1839"@0.66,0.12; G13@0.15,0.4:0.32~pop; note:"New York"@0.5,0.92; E35@0.38,0.76:0.32~pop; H09@0.80,0.6:0.58~l
+His mother was the opposite. || title:"The Bookkeeper"; C13@0.2,0.6:0.58~l
+Strict, careful, and religious. || title:"The Bookkeeper"; E04@0.5,0.6:0.76
+She taught him to save, to work hard, and to waste nothing. || title:"The Bookkeeper"; E21@0.5,0.6:0.76
+At sixteen, in Cleveland, he got his first real job as an assistant bookkeeper for a company that shipped goods. || title:"The Bookkeeper"; C13@0.2,0.6:0.58~none; E15@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop
+He was paid about fifty cents a day. || title:"The Bookkeeper"; C13@0.2,0.6:0.58~none; E15@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; H17@0.62,0.76:0.32:"50¢ A DAY"~pop; E25@0.85,0.76:0.32~pop; note:"1855"@0.66,0.12
+He saved most of what he earned. || title:"The Bookkeeper"; C13@0.80,0.6:0.58; E21@0.38,0.4:0.32~pop; E04@0.15,0.4:0.32~drop
+By his early twenties, he had enough to start a small trading business with a partner, buying and selling grain and other goods. || title:"The Bookkeeper"; C13@0.80,0.6:0.58; E21@0.38,0.4:0.32~pop; E04@0.15,0.4:0.32~drop; H20@0.38,0.76:0.32~pop; note:"GRAIN"@0.66,0.12; E41@0.15,0.76:0.32~pop
+For the rest of his life, he celebrated the day he got that job, like a second birthday. || title:"The Bookkeeper"; E28@0.5,0.6:0.76
+He loved numbers. || title:"The Bookkeeper"; E04@0.5,0.6:0.76
+He kept a small notebook where he wrote down every cent he earned, spent, and gave to his church. || title:"The Bookkeeper"; H22@0.62,0.4:0.32~drop; E04@0.85,0.4:0.32~pop; D27@0.62,0.76:0.32~pop; A39@0.2,0.6:0.58~l
+His boss once asked him to check a bill from a plumber. || title:"The Bookkeeper"; E16@0.62,0.4:0.32~pop
+Rockefeller went through it line by line and found mistakes. || title:"The Bookkeeper"; E16@0.38,0.4:0.32~pop; D27@0.15,0.4:0.32~pop
+People said he never stopped checking. || title:"The Bookkeeper"; E16@0.38,0.4:0.32~pop; D27@0.15,0.4:0.32~pop; A39@0.80,0.6:0.58~r
+In eighteen fifty-nine, oil was discovered in western Pennsylvania. || title:"The Bookkeeper"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.258,0.135+0.8; H04@0.9,1.0:0.3:bottom
+It started a gold rush, except the gold was black and sticky. || title:"The Bookkeeper"; E25@0.5,0.6:0.76
+Thousands of people rushed in to drill. || title:"The Bookkeeper"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.331,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Prices swung wildly. || title:"The Bookkeeper"; C28@0.2,0.6:0.58~drop
+One month, oil was worth a lot. || title:"The Bookkeeper"; C28@0.2,0.6:0.58~drop; E32@0.62,0.4:0.32~pop; D13@0.85,0.4:0.32
+The next month, almost nothing, because everyone pumped too much. || title:"The Bookkeeper"; C28@0.2,0.6:0.58~drop; E32@0.62,0.4:0.32~pop; D13@0.85,0.4:0.32; D14@0.62,0.76:0.32
+Rockefeller noticed something. || title:"The Bookkeeper"; A06@0.2,0.6:0.58~l
+Drilling was a gamble. || title:"The Bookkeeper"; A06@0.2,0.6:0.58~l; E32@0.62,0.4:0.32~pop
+But refining, turning crude oil into useful kerosene, was steadier. || title:"The Bookkeeper"; A06@0.2,0.6:0.58~l; E32@0.62,0.4:0.32~pop; E33@0.85,0.4:0.32~drop
+Everyone needed refiners, whoever struck oil. || title:"The Bookkeeper"; A06@0.80,0.6:0.58~r; E32@0.38,0.4:0.32~pop; E33@0.15,0.4:0.32~drop; E17@0.38,0.76:0.32~pop
+So in eighteen sixty-three, at age twenty-three, he invested in a refinery. || title:"The Bookkeeper"; A06@0.80,0.6:0.58; E33@0.38,0.4:0.32~drop
+And he hated chaos. || title:"The Bookkeeper"; E25@0.5,0.6:0.76
+His plan was to make the messy oil business orderly, and to control it. || title:"The Bookkeeper"; E27@0.5,0.6:0.76
+In eighteen seventy, he and his partners formed a new company. || title:"The Bookkeeper"; E34@0.5,0.6:0.76
+They named it Standard Oil, because they promised a standard, reliable kerosene. || title:"The Bookkeeper"; A06@0.2,0.6:0.58~none; E34@0.62,0.4:0.32~drop; H18@0.85,0.4:0.32:"STANDARD OIL"~pop; D17@0.62,0.76:0.32~pop; E28@0.85,0.76:0.32~pop
+But being the best refiner wasn't enough for Rockefeller. || title:"The Bookkeeper"; A37@0.2,0.6:0.58~l
+He found a secret weapon. || title:"The Bookkeeper"; A37@0.2,0.6:0.58~l; E30@0.62,0.4:0.32~drop; E41@0.85,0.4:0.32~pop
+And it ran on railroad tracks. || title:"The Bookkeeper"; A37@0.80,0.6:0.58~r; E30@0.38,0.4:0.32~drop; E41@0.15,0.4:0.32~pop; E48@0.38,0.76:0.32~pop
+
+# ---------- CHAPTER 3: The Secret Deals ----------
+|| title:"The Secret Deals"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Oil is heavy. || title:"The Secret Deals"; A15@0.80,0.6:0.58; D17@0.38,0.4:0.32~drop
+To sell it across the country, refiners had to ship it by railroad. || title:"The Secret Deals"; A15@0.80,0.6:0.58; D17@0.38,0.4:0.32~drop; E30@0.15,0.4:0.32~pop
+And shipping costs could decide who lived and who died in business. || title:"The Secret Deals"; E22@0.5,0.6:0.76
+Rockefeller shipped so much oil that he could make the railroads compete for his business. || title:"The Secret Deals"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.394,0.135+0.8; H04@0.9,1.0:0.3:bottom
+He demanded discounts, called rebates. || title:"The Secret Deals"; D17@0.62,0.4:0.32~pop; C01@0.2,0.6:0.58~r; H17@0.85,0.4:0.32:"REBATE"~pop
+He also promised the railroads a steady flow of oil every single day. || title:"The Secret Deals"; E30@0.62,0.4:0.32~drop; D17@0.85,0.4:0.32~pop
+For a railroad, a big, reliable customer was worth a lot. || title:"The Secret Deals"; E30@0.62,0.4:0.32~drop; D17@0.85,0.4:0.32~pop; E24@0.62,0.76:0.32~pop
+So they gave in. || title:"The Secret Deals"; E30@0.38,0.4:0.32~drop; D17@0.15,0.4:0.32~pop; E24@0.38,0.76:0.32~pop; C01@0.80,0.6:0.58~l; E51@0.15,0.76:0.32~pop
+Big customers often get discounts. || title:"The Secret Deals"; A05@0.80,0.6:0.58~r
+That's normal. || title:"The Secret Deals"; A05@0.80,0.6:0.58~r; H13@0.60,0.64:0.46~l
+But Rockefeller went further. || title:"The Secret Deals"; A05@0.80,0.6:0.58~r; H13@0.60,0.64:0.46~l
+In some deals, the railroads also paid him part of what his competitors paid to ship their oil. || title:"The Secret Deals"; A05@0.80,0.6:0.58~r; H13@0.60,0.64:0.46~l; E02@0.38,0.4:0.32~pop
+Think about what that means for Thomas Walsh. || title:"The Secret Deals"; D17@0.5,0.6:0.76
+Every barrel he shipped made his rival a little richer. || title:"The Secret Deals"; E02@0.5,0.6:0.76
+He was paying to fund the company trying to crush him. || title:"The Secret Deals"; D17@0.62,0.4:0.32~pop; E02@0.85,0.4:0.32~pop; C01@0.4,0.64:0.46~pop; A13@0.2,0.6:0.58~r
+With cheaper shipping, Standard Oil could sell kerosene for less than anyone else. || title:"The Secret Deals"; H17@0.62,0.4:0.32:"CHEAPER"~drop; C28@0.2,0.6:0.58~pop
+Competitors lost customers, then lost money. || title:"The Secret Deals"; H17@0.38,0.4:0.32:"CHEAPER"~drop; C28@0.80,0.6:0.58~pop; D14@0.15,0.4:0.32; D21@0.38,0.76:0.32~pop
+In some towns, Standard Oil would even cut its prices below cost, just long enough to drive a local rival out of business. || title:"The Secret Deals"; C28@0.80,0.6:0.58; H17@0.38,0.4:0.32:"BELOW COST"~drop
+Then prices could go back up. || title:"The Secret Deals"; E45@0.5,0.6:0.76
+That's when Rockefeller would visit, like he visited Thomas. || title:"The Secret Deals"; C01@0.2,0.6:0.58~r
+Sell to me, and you'll get shares that make you rich. || title:"The Secret Deals"; D24@0.5,0.6:0.76
+Refuse, and you'll compete against prices you can't match. || title:"The Secret Deals"; C01@0.2,0.6:0.58~r; E01@0.62,0.4:0.32~pop; D24@0.85,0.4:0.32~pop; E44@0.62,0.76:0.32~drop
+In early eighteen seventy-two, in just a few weeks, he bought twenty-two of Cleveland's twenty-six refineries. || title:"The Secret Deals"; C01@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop
+Historians later called it the Cleveland Massacre. || title:"The Secret Deals"; C01@0.80,0.6:0.58; G13@0.38,0.4:0.32~drop; note:"Cleveland"@0.66,0.12; E33@0.15,0.4:0.32~pop; H18@0.38,0.76:0.32:"CLEVELAND MASSACRE"~pop
+Thomas took the shares. || title:"The Secret Deals"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.224,0.194,0.323,0.23+0.8; H04@0.9,1.0:0.3:bottom
+He told his wife it was the hardest day of his life. || title:"The Secret Deals"; H14@0.80,0.6:0.58~r
+Years later, those shares would make his family wealthy. || title:"The Secret Deals"; D24@0.5,0.6:0.76
+But his own business was gone. || title:"The Secret Deals"; E20@0.5,0.6:0.76
+Rockefeller didn't stop in Cleveland. || title:"The Secret Deals"; H14@0.2,0.6:0.58~none
+He used the same playbook in Pittsburgh, Philadelphia, and New York. || title:"The Secret Deals"; G13@0.5,0.6:0.76
+And he kept going. || title:"The Secret Deals"; H14@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop
+By eighteen eighty, || title:"The Secret Deals"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.647,0.769,0.953+0.8; H04@0.9,1.0:0.3:bottom
+Standard Oil controlled about ninety percent of all oil refining in America. || title:"The Secret Deals"; H18@0.62,0.4:0.32:"90%"~drop; D17@0.85,0.4:0.32~pop; E27@0.62,0.76:0.32~pop; A45@0.2,0.6:0.58~pop
+And to manage something that big, he invented a new kind of business structure. || title:"The Secret Deals"; A45@0.2,0.6:0.58~none; E34@0.62,0.4:0.32~drop
+One that would give America a new word. || title:"The Secret Deals"; A45@0.80,0.6:0.58; E34@0.38,0.4:0.32~drop; H22@0.15,0.4:0.32~pop; E17@0.38,0.76:0.32~pop; E48@0.15,0.76:0.32~pop
+
+# ---------- CHAPTER 4: The Trust ----------
+|| title:"The Trust"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Back then, a company in one state often couldn't legally own companies in other states. || title:"The Trust"; G13@0.38,0.4:0.32~drop; E14@0.15,0.4:0.32~pop
+So Rockefeller's lawyers found a way around it. || title:"The Trust"; E14@0.5,0.6:0.76
+In eighteen eighty-two, the owners of dozens of companies handed their shares to a small group of trustees, led by Rockefeller's team. || title:"The Trust"; D24@0.5,0.6:0.76
+This was the Standard Oil Trust. || title:"The Trust"; C05@0.2,0.6:0.58~none; D24@0.62,0.4:0.32~drop; E21@0.85,0.4:0.32~pop; H18@0.62,0.76:0.32:"STANDARD OIL TRUST"~pop
+Rockefeller himself rarely spoke in public. || title:"The Trust"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.273,0.135+0.8; H04@0.9,1.0:0.3:bottom
+He ran his empire quietly, from an office in New York, with a small team of trusted partners. || title:"The Trust"; E34@0.62,0.4:0.32~drop; note:"26 BROADWAY"@0.66,0.12; C28@0.4,0.64:0.46~pop; A37@0.2,0.6:0.58~l
+On paper, the companies were separate. || title:"The Trust"; C28@0.60,0.64:0.46
+In reality, one small group ran them all. || title:"The Trust"; C28@0.60,0.64:0.46; E33@0.38,0.4:0.32~pop; E27@0.15,0.4:0.32~drop
+That's why, today, laws against monopolies are called antitrust laws. || title:"The Trust"; H18@0.5,0.6:0.76:"ANTI-TRUST"
+And to be fair, Standard Oil was also incredibly efficient. || title:"The Trust"; D17@0.5,0.6:0.76
+It built pipelines, made its own barrels, and used parts of crude oil that others threw away. || title:"The Trust"; E20@0.5,0.6:0.76
+The price of kerosene fell a lot during these years. || title:"The Trust"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.34,0.114,0.392+0.8; H04@0.9,1.0:0.3:bottom
+Millions of families could afford to light their homes at night for the first time. || title:"The Trust"; E17@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"KEROSENE ↓"~pop; E35@0.38,0.76:0.32~pop; C28@0.80,0.6:0.58~pop
+So was Rockefeller a villain or a genius? || title:"The Trust"; E22@0.38,0.4:0.32~drop
+Here's the tricky part. || title:"The Trust"; E22@0.38,0.4:0.32~drop; A06@0.80,0.6:0.58~r
+He was both. || title:"The Trust"; E22@0.5,0.6:0.76
+He lowered prices and he crushed competition. || title:"The Trust"; H16@0.5,0.6:0.76:"GENIUS?"
+Both things were true at once. || title:"The Trust"; H16@0.5,0.6:0.76:"GENIUS?"
+He once said that competition was a sin. || title:"The Trust"; E51@0.5,0.6:0.76
+He believed the oil business was too wild, and that one strong company bringing order was good for everyone. || title:"The Trust"; E22@0.5,0.6:0.76
+The danger of a monopoly isn't always high prices today. || title:"The Trust"; C01@0.2,0.6:0.58~none
+It's what can happen once nobody is left to compete. || title:"The Trust"; C01@0.80,0.6:0.58; E27@0.38,0.4:0.32~drop; E45@0.15,0.4:0.32~pop
+The monopoly can raise prices whenever it wants. || title:"The Trust"; C01@0.80,0.6:0.58; E27@0.38,0.4:0.32~drop; E45@0.15,0.4:0.32~pop; E44@0.38,0.76:0.32~pop
+Americans grew angry and afraid of these giant trusts, in oil, sugar, steel and railroads. || title:"The Trust"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.337,0.135+0.8; H04@0.9,1.0:0.3:bottom
+In eighteen ninety, Congress passed a law against them. || title:"The Trust"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: National Archives" hl=0.053,0.22,0.947,0.266+0.8; H04@0.9,1.0:0.3:bottom
+The Sherman Antitrust Act. || title:"The Trust"; E25@0.5,0.6:0.76
+But for years, the law was weak and rarely used. || title:"The Trust"; E54@0.5,0.6:0.76
+Standard Oil kept growing. || title:"The Trust"; C28@0.2,0.6:0.58~none; E54@0.62,0.4:0.32~pop; E34@0.85,0.4:0.32~drop
+It took a journalist to change everything. || title:"The Trust"; C28@0.2,0.6:0.58~none; E54@0.62,0.4:0.32~pop; E34@0.85,0.4:0.32~drop; D13@0.62,0.76:0.32; E09@0.85,0.76:0.32~pop
+
+# ---------- CHAPTER 5: The Reporter ----------
+|| title:"The Reporter"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Her name was Ida Tarbell. || title:"The Reporter"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.618,0.565,0.713,0.601+0.8; H04@0.9,1.0:0.3:bottom
+She grew up in the Pennsylvania oil region. || title:"The Reporter"; C09@0.2,0.6:0.58~l; E32@0.62,0.4:0.32~drop
+Her father ran a small oil business that was hurt badly by Rockefeller's deals. || title:"The Reporter"; C09@0.80,0.6:0.58~r; E32@0.38,0.4:0.32~drop; D21@0.15,0.4:0.32~pop; E09@0.38,0.76:0.32~pop
+She became one of the first investigative reporters in America. || title:"The Reporter"; C09@0.80,0.6:0.58; E09@0.38,0.4:0.32~drop; H22@0.15,0.4:0.32~pop
+Starting in nineteen oh two, she published a long series about Standard Oil in McClure's Magazine. || title:"The Reporter"; E16@0.5,0.6:0.76
+She didn't just give opinions. || title:"The Reporter"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.478,0.135+0.8; H04@0.9,1.0:0.3:bottom
+She dug through court records, old documents and interviews. || title:"The Reporter"; E16@0.5,0.6:0.76
+She showed, step by step, how the secret railroad deals worked. || title:"The Reporter"; H28@0.62,0.4:0.32~drop; E16@0.85,0.4:0.32~pop; E30@0.62,0.76:0.32~pop; A39@0.2,0.6:0.58~l
+Her series ran for two years. || title:"The Reporter"; A39@0.2,0.6:0.58~none; E09@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop
+When it became a book, historians later ranked it among the most important works of American journalism ever written. || title:"The Reporter"; A39@0.2,0.6:0.58~none; E09@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E28@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"1902-1904"@0.66,0.12
+Readers were shocked. || title:"The Reporter"; C28@0.80,0.6:0.58~drop
+The quiet, churchgoing millionaire suddenly looked like a ruthless schemer. || title:"The Reporter"; C28@0.80,0.6:0.58~drop; E49@0.38,0.4:0.32~pop; E09@0.15,0.4:0.32~pop
+Cartoons showed Standard Oil as an octopus wrapping its arms around the country. || title:"The Reporter"; G13@0.5,0.6:0.76
+Rockefeller mostly stayed silent. || title:"The Reporter"; A37@0.4,0.64:0.46~pop
+He reportedly called her a nasty name in private, but he refused to answer her in public. || title:"The Reporter"; A37@0.4,0.64:0.46~pop; A48@0.2,0.6:0.58~l
+The public pressure worked. || title:"The Reporter"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.811,0.769,1+0.8; H04@0.9,1.0:0.3:bottom
+In nineteen oh six, President Theodore Roosevelt's government sued Standard Oil for breaking the antitrust law. || title:"The Reporter"; C05@0.2,0.6:0.58~r; G09@0.62,0.4:0.32~drop; E14@0.85,0.4:0.32~pop; E25@0.62,0.76:0.32~pop; note:"1906"@0.66,0.12
+The case went all the way to the highest court in the land. || title:"The Reporter"; C05@0.80,0.6:0.58; G09@0.38,0.4:0.32~pop; E14@0.15,0.4:0.32~drop; E22@0.38,0.76:0.32~pop
+
+# ---------- CHAPTER 6: The Breakup ----------
+|| title:"The Breakup"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] On May fifteenth, nineteen eleven, the United States Supreme Court ruled against Standard Oil. || title:"The Breakup"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Supreme Court Historical Society" hl=0.111,0.407,0.44,0.617+0.8; H04@0.9,1.0:0.3:bottom
+It ordered the giant company to be broken apart. || title:"The Breakup"; E30@0.5,0.6:0.76
+Standard Oil was split into thirty-four separate companies. || title:"The Breakup"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.521,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Each one had to compete on its own. || title:"The Breakup"; E33@0.5,0.6:0.76
+Each new company got a piece of the map. || title:"The Breakup"; A15@0.2,0.6:0.58; G13@0.62,0.4:0.32~drop
+One for New Jersey, one for New York, one for Ohio, one for California, and so on. || title:"The Breakup"; A15@0.2,0.6:0.58; G13@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"NJ"~pop; note:"OH"@0.5,0.92; note:"CA"@0.66,0.12
+In nineteen ninety-nine, two of those old pieces, Exxon and Mobil, merged again. || title:"The Breakup"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.267,0.135+0.8; H04@0.9,1.0:0.3:bottom
+ExxonMobil became one of the biggest companies in the world. || title:"The Breakup"; A15@0.80,0.6:0.58; E33@0.38,0.4:0.32~pop; note:"MOBIL"@0.5,0.92; E34@0.15,0.4:0.32~drop; note:"EXXONMOBIL"@0.66,0.12; E27@0.38,0.76:0.32~pop
+Some of those pieces are names you still know today. || title:"The Breakup"; A15@0.2,0.6:0.58
+Standard Oil of New Jersey became Exxon. || title:"The Breakup"; E33@0.5,0.6:0.76
+Standard Oil of New York became Mobil. || title:"The Breakup"; E33@0.5,0.6:0.76
+Standard Oil of California became Chevron. || title:"The Breakup"; A15@0.2,0.6:0.58; E33@0.62,0.4:0.32~drop; note:"MOBIL"@0.5,0.92; note:"CHEVRON"@0.66,0.12; E41@0.85,0.4:0.32~pop
+It looked like a defeat for Rockefeller. || title:"The Breakup"; C01@0.2,0.6:0.58~r
+But here's the surprise. || title:"The Breakup"; C01@0.2,0.6:0.58~r; D24@0.62,0.4:0.32~pop; H18@0.85,0.4:0.32:"~25%"~pop
+He still owned about a quarter of the shares in all thirty-four companies. || title:"The Breakup"; C01@0.2,0.6:0.58~r; D24@0.62,0.4:0.32~pop; H18@0.85,0.4:0.32:"~25%"~pop; A04@0.4,0.64:0.46~l
+After the breakup, investors could finally see how valuable each piece was. || title:"The Breakup"; C01@0.80,0.6:0.58; D13@0.38,0.4:0.32
+And the shares jumped in value. || title:"The Breakup"; C01@0.80,0.6:0.58; D13@0.38,0.4:0.32; E45@0.15,0.4:0.32~pop
+The cars were coming, and cars needed gasoline. || title:"The Breakup"; C01@0.80,0.6:0.58; D13@0.38,0.4:0.32; E45@0.15,0.4:0.32~pop; E41@0.38,0.76:0.32~drop; D17@0.15,0.76:0.32~pop
+Henry Ford's Model T arrived in nineteen oh eight. || title:"The Breakup"; E41@0.5,0.6:0.76
+Within a few years, millions of cars were on American roads, all needing gasoline. || title:"The Breakup"; D17@0.5,0.6:0.76
+The timing couldn't have been better. || title:"The Breakup"; C01@0.2,0.6:0.58~none; E41@0.62,0.4:0.32~drop; D17@0.85,0.4:0.32~pop; E25@0.62,0.76:0.32~pop; note:"1908"@0.66,0.12
+Within a few years, Rockefeller's fortune grew even bigger. || title:"The Breakup"; C01@0.2,0.6:0.58~none; E09@0.62,0.4:0.32~drop; note:"FIRST BILLIONAIRE"@0.66,0.12; E27@0.85,0.4:0.32~pop
+Around nineteen sixteen, newspapers began calling him America's first billionaire. || title:"The Breakup"; C01@0.2,0.6:0.58~none; E09@0.62,0.4:0.32~drop; note:"FIRST BILLIONAIRE"@0.66,0.12; E27@0.85,0.4:0.32~pop; E02@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"1916"@0.5,0.92
+At his peak, his wealth was a bigger share of the whole American economy than any fortune since. || title:"The Breakup"; E22@0.38,0.4:0.32~drop; C21@0.80,0.6:0.58~l
+Bigger, relative to the economy, than any tech billionaire today. || title:"The Breakup"; E22@0.38,0.4:0.32~drop; C21@0.80,0.6:0.58~l; E27@0.15,0.4:0.32~pop; A45@0.60,0.64:0.46~pop
+And Thomas Walsh's family? || title:"The Breakup"; H13@0.2,0.6:0.58~l
+Those Standard Oil shares he'd been forced to take kept growing too. || title:"The Breakup"; D24@0.5,0.6:0.76
+His grandchildren went to college on them. || title:"The Breakup"; H22@0.5,0.6:0.76
+But Rockefeller's last chapter wasn't about making money. || title:"The Breakup"; H27@0.5,0.6:0.76
+It was about giving it away. || title:"The Breakup"; E02@0.62,0.4:0.32~drop; H27@0.85,0.4:0.32~pop; A06@0.2,0.6:0.58~l
+
+# ---------- CHAPTER 7: The Giveaway ----------
+|| title:"The Giveaway"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Rockefeller gave money away his whole life, starting with tiny gifts to his church as a teenager. || title:"The Giveaway"; A15@0.2,0.6:0.58; E04@0.62,0.4:0.32~pop
+In his later years, he gave on a giant scale. || title:"The Giveaway"; A15@0.80,0.6:0.58; E04@0.38,0.4:0.32~pop; H22@0.15,0.4:0.32~drop; E02@0.38,0.76:0.32~pop; H27@0.15,0.76:0.32~pop
+He helped found the University of Chicago. || title:"The Giveaway"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.347,0.135+0.8; H04@0.9,1.0:0.3:bottom
+He created a medical research institute that became Rockefeller University. || title:"The Giveaway"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.341,0.135+0.8; H04@0.9,1.0:0.3:bottom
+And in nineteen thirteen, he started the Rockefeller Foundation. || title:"The Giveaway"; E25@0.5,0.6:0.76
+His money paid for a campaign to wipe out hookworm, a parasite that was making millions of people in the American South sick and weak. || title:"The Giveaway"; E44@0.5,0.6:0.76
+In total, he gave away hundreds of millions of dollars, worth many billions today. || title:"The Giveaway"; C28@0.2,0.6:0.58~none; E02@0.62,0.4:0.32~pop; E03@0.85,0.4:0.32~drop
+He died in nineteen thirty-seven, at ninety-seven years old. || title:"The Giveaway"; C28@0.80,0.6:0.58; E02@0.38,0.4:0.32~pop; E03@0.15,0.4:0.32~drop; E25@0.38,0.76:0.32~drop; note:"1937"@0.66,0.12; E23@0.15,0.76:0.32~pop
+He also liked to hand out shiny new dimes to children and strangers he met. || title:"The Giveaway"; C27@0.60,0.64:0.46~l
+Some saw it as kindness. || title:"The Giveaway"; C27@0.60,0.64:0.46~l; C01@0.80,0.6:0.58~r
+Others saw it as a way to fix his reputation. || title:"The Giveaway"; E22@0.5,0.6:0.76
+So how did the first billionaire actually do it? || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+Four moves. || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+He picked the steady part of a wild business. || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+He made it ruthlessly efficient. || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+He used his size to win secret deals. || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+And he bought out anyone in his way. || title:"The Giveaway"; A38@0.2,0.6:0.58~l
+The first two are what great businesses still do. || title:"The Giveaway"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Trade Commission" hl=0.107,0.201,0.355,0.279+0.8; H04@0.9,1.0:0.3:bottom
+The last two are why we now have antitrust laws. || title:"The Giveaway"; A38@0.80,0.6:0.58; E22@0.38,0.4:0.32~drop; E28@0.15,0.4:0.32~pop; E14@0.38,0.76:0.32~pop; G09@0.15,0.76:0.32~pop
+And the same debate is happening today, about giant tech companies. || title:"The Giveaway"; doc:s23.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Department of Justice" hl=0.256,0.323,0.352,0.361+0.8; H04@0.9,1.0:0.3:bottom
+Are they winning because they're better, or because they're too big for anyone to challenge? || title:"The Giveaway"; E48@0.5,0.6:0.76
+Here's the takeaway. || title:"The Giveaway"; A17@0.2,0.6:0.58~l
+Competition protects customers. || title:"The Giveaway"; A17@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~pop
+When one company controls almost everything, the question isn't just how it got there. || title:"The Giveaway"; A17@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~pop; E27@0.62,0.4:0.32~drop
+It's what it can do next. || title:"The Giveaway"; A17@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~pop; E27@0.62,0.4:0.32~drop; E44@0.85,0.4:0.32~pop
+Thomas Walsh never forgave Rockefeller for that visit in eighteen seventy-two. || title:"The Giveaway"; H14@0.2,0.6:0.58~l; E17@0.62,0.4:0.32~pop
+But every night, like millions of Americans, he still lit his lamp with Standard Oil kerosene. || title:"The Giveaway"; H14@0.80,0.6:0.58~r; E17@0.38,0.4:0.32~pop; D17@0.15,0.4:0.32~drop; E35@0.38,0.76:0.32~pop
+[calm] Rockefeller's company was big, but real. || title:"The Giveaway"; E34@0.38,0.4:0.32~drop; note:"ENRON"@0.66,0.12
+Next time, we'll meet a company that looked like a giant, and turned out to be mostly an illusion. || title:"The Giveaway"; D29@0.5,0.6:0.76
+Enron. || title:"The Giveaway"; E47@0.5,0.6:0.76
+
+|| endscreen; hold:10

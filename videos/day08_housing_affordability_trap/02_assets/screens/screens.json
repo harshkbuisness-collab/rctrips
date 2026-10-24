@@ -1,0 +1,334 @@
+[
+ {
+  "line": 0,
+  "source": "Federal Housing Finance Agency",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"The Lock-In Effect of Rising Mortgage Rates\"",
+  "said": "Federal researchers estimate that low mortgage rates kept so many owners in place that about one point three million home sales never happened. Picture two neighbors living on the same street.",
+  "file": "s01.png",
+  "box": [
+   0.096,
+   0.275,
+   0.9,
+   0.333
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "Consumer Financial Protection Bureau",
+  "url": "https://www.consumerfinance.gov/owning-a-home/",
+  "what": "highlight \"Buying a House\"",
+  "said": "She has about thirty thousand dollars saved. When she started, that felt like a lot. Now it's barely enough for closing costs and a small down payment.",
+  "file": "s02.png",
+  "box": [
+   0.124,
+   0.23,
+   0.563,
+   0.336
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 11,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/MSPUS",
+  "what": "highlight \"Median Sales Price of Houses Sold for the United States\"",
+  "said": "In the mid twenty-twenties, the typical home in America sold for a bit over four hundred thousand dollars. That's a record high.",
+  "file": "s03.png",
+  "box": [
+   0.087,
+   0.216,
+   0.577,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/MEHOINUSA672N",
+  "what": "highlight \"Real Median Household Income in the United States\"",
+  "said": "The typical American household earns around eighty thousand dollars a year. So a typical home costs about five times a typical income.",
+  "file": "s04.png",
+  "box": [
+   0.087,
+   0.216,
+   0.563,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "U.S. Census Bureau",
+  "url": "https://www.census.gov/topics/income-poverty/income.html",
+  "what": "highlight \"Income\"",
+  "said": "The typical American household earns around eighty thousand dollars a year. So a typical home costs about five times a typical income.",
+  "file": "s05.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Harvard Joint Center for Housing Studies",
+  "url": "https://www.jchs.harvard.edu/state-nations-housing-2025",
+  "what": "highlight \"The State of the Nation's Housing\"",
+  "said": "For Jasmine's parents' generation, it was closer to three times. That gap is the difference between a house you can save for and a house you can only dream about.",
+  "file": "s06.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+  "what": "highlight \"30-Year Fixed Rate Mortgage Average in the United States\"",
+  "said": "In twenty twenty-one, mortgage rates fell below three percent, the lowest ever recorded. By late twenty twenty-three, they had jumped to nearly eight percent.",
+  "file": "s07.png",
+  "box": [
+   0.087,
+   0.216,
+   0.597,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 27,
+  "source": "Federal Housing Finance Agency",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"lock-in\"",
+  "said": "People call this the lock-in effect. A great low rate becomes a pair of golden handcuffs. It's too valuable to give up.",
+  "file": "s08.png",
+  "box": [
+   0.096,
+   0.275,
+   0.9,
+   0.333
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 27,
+  "source": "Federal Reserve Bank of St. Louis",
+  "url": "https://www.stlouisfed.org/on-the-economy",
+  "what": "highlight \"On the Economy\"",
+  "said": "People call this the lock-in effect. A great low rate becomes a pair of golden handcuffs. It's too valuable to give up.",
+  "file": "s09.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/EXHOSLUSM495S",
+  "what": "highlight \"Existing Home Sales\"",
+  "said": "In twenty twenty-three, the number of existing homes sold in America fell to its lowest level in almost thirty years.",
+  "file": "s10.png",
+  "box": [
+   0.087,
+   0.216,
+   0.355,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/HOUST",
+  "what": "highlight \"New Privately-Owned Housing Units Started\"",
+  "said": "After the two thousand eight crash, builders went bust or got very careful. For about a decade, America built far fewer homes than it needed.",
+  "file": "s11.png",
+  "box": [
+   0.087,
+   0.216,
+   0.539,
+   0.265
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Freddie Mac",
+  "url": "https://www.freddiemac.com/research",
+  "what": "highlight \"Research\"",
+  "said": "Estimates of the shortage vary, from about one and a half million homes to several million. But nearly every expert agrees the country is short.",
+  "file": "s12.png",
+  "box": [
+   0.546,
+   0.03,
+   0.704,
+   0.132
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
+  "what": "highlight \"single-family zoning\"",
+  "said": "Zoning rules decide what can be built where. In many American cities, most of the land for homes is zoned only for single-family houses. No apartments. No duplexes.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.083,
+   0.329,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/NIMBY",
+  "what": "highlight \"NIMBY\"",
+  "said": "And when builders do propose new homes, neighbors often show up to meetings to fight them. They worry about traffic, crowding, or their own home values.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
+  "what": "highlight \"Invitation Homes\"",
+  "said": "Large investors own only a small share of single-family homes across the whole country. But in some fast-growing cities, like Atlanta, Phoenix and Charlotte, their share is much higher.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.083,
+   0.302,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Urban Institute",
+  "url": "https://www.urban.org/policy-centers/housing-finance-policy-center",
+  "what": "highlight \"Housing Finance Policy Center\"",
+  "said": "Large investors own only a small share of single-family homes across the whole country. But in some fast-growing cities, like Atlanta, Phoenix and Charlotte, their share is much higher.",
+  "file": "s16.png",
+  "box": [
+   0.08,
+   0.42,
+   0.47,
+   0.57
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/research-and-statistics",
+  "what": "highlight \"Research and Statistics\"",
+  "said": "Then there's another kind of advantage. Family money. Many first-time buyers get help from their parents for the down payment.",
+  "file": "s17.png",
+  "box": [
+   0.131,
+   0.178,
+   0.546,
+   0.263
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/research-and-statistics/research-reports/highlights-from-the-profile-of-home-buyers-and-sellers",
+  "what": "highlight \"first-time buyers\"",
+  "said": "All of this has pushed first-time buyers later in life. In twenty twenty-five, the typical first-time buyer was forty years old, the oldest ever recorded.",
+  "file": "s18.png",
+  "box": [
+   0.147,
+   0.688,
+   0.604,
+   0.968
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Minneapolis_2040",
+  "what": "highlight \"Minneapolis 2040\"",
+  "said": "Some cities have started changing their rules. Minneapolis ended single-family-only zoning in twenty eighteen. Austin cut its minimum lot size. Studies found rents in Minneapolis rose more slowly than in many similar cities.",
+  "file": "s19.png",
+  "box": [
+   0.125,
+   0.083,
+   0.275,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "California Department of Housing and Community Development",
+  "url": "https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units",
+  "what": "highlight \"Accessory Dwelling Units\"",
+  "said": "California now allows backyard cottages, called accessory dwelling units, on most single-family lots. Tens of thousands are built there every year.",
+  "file": "s20.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Consumer Financial Protection Bureau",
+  "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-assumable-mortgage-en-1791/",
+  "what": "highlight \"assumable\"",
+  "said": "Some people have suggested letting homeowners take their low rate with them when they move. A few loans already allow this, but most don't.",
+  "file": "s21.png",
+  "box": [
+   0.124,
+   0.618,
+   0.563,
+   0.792
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "U.S. Department of Housing and Urban Development",
+  "url": "https://www.hud.gov/topics/buying_a_home",
+  "what": "highlight \"Buying a Home\"",
+  "said": "First, check first-time buyer programs. Many states and cities offer down payment help, especially for teachers, nurses and other public workers.",
+  "file": "s22.png",
+  "box": [
+   0.143,
+   0.29,
+   0.249,
+   0.336
+  ],
+  "page": null,
+  "ok": true
+ }
+]

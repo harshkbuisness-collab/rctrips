@@ -1,0 +1,231 @@
+# Day 4: Why $100 Doesn't Buy What It Used To. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The Bill in the Drawer ----------
+|| title:"The Bill in the Drawer"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In June twenty twenty-two, prices in America were rising nine point one percent a year, the fastest in about forty years. || title:"The Bill in the Drawer"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0,0.607,0.401,0.661+0.8; H04@0.12,1.0:0.34:bottom
+Here is what that does to your money. || title:"The Bill in the Drawer"; A01@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; E01@0.84,0.36:0.3~pop
+Meet Ava. || title:"The Bill in the Drawer"; A15@0.2,0.6:0.58~none; E48@0.58,0.36:0.3~pop; E01@0.84,0.36:0.3~pop
+On her tenth birthday, in early twenty twenty, her grandma gave her a crisp one-hundred-dollar bill. || title:"The Bill in the Drawer"; C27@0.13,0.68:0.48~none; C13@0.52,0.5:0.46~swing; E02@0.87,0.34:0.28~r; H18@0.87,0.78:0.3:"$100"~drop
+Ava decided to save it. || title:"The Bill in the Drawer"; C27@0.13,0.68:0.48~none; C13@0.52,0.5:0.46~swing; E02@0.87,0.34:0.28~r; E21@0.87,0.78:0.28~r
+Her grandma told her something she never forgot. || title:"The Bill in the Drawer"; C15@0.5,0.68:0.55~none; C14@0.83,0.62:0.46~r; "SOMETHING"@0.50,0.16:110:red~l
+"Keep it safe, sweetheart, and one day it'll buy you something special." || title:"The Bill in the Drawer"; A21@0.5,0.68:0.55~none; C14@0.83,0.62:0.46~r; E05@0.17,0.62:0.34~l; H27@0.78,0.28:0.3~t; E25@0.22,0.28:0.3~t
+Ava had a plan. || title:"The Bill in the Drawer"; doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.158,0.636,0.492,0.695+0.8; H04@0.12,1.0:0.34:bottom
+When she turned sixteen, she would use it to buy a new pair of headphones and a big pizza dinner with her friends. || title:"The Bill in the Drawer"; C27@0.84,0.6:0.62~none; E36@0.64,0.3:0.32~b; "16"@0.5,0.82:100:red
+She put it in an envelope, and put the envelope in her desk drawer. || title:"The Bill in the Drawer"; C27@0.16,0.6:0.62~none; E15@0.56,0.62:0.4~pop; D01@0.56,0.34:0.22~drop+0.4; label:"in the drawer"@0.84,0.2>0.62,0.5
+She didn't spend it. || title:"The Bill in the Drawer"; C27@0.16,0.6:0.62~none; E39@0.5,0.5:0.3~pop; xmark+0.4; D01@0.82,0.5:0.26~none
+She didn't lend it. || title:"The Bill in the Drawer"; C27@0.16,0.6:0.62~none; D15@0.5,0.5:0.34~pop; xmark+0.4; D01@0.82,0.5:0.26~none
+She didn't lose it. || title:"The Bill in the Drawer"; C27@0.16,0.6:0.62~none; D01@0.5,0.5:0.32~pop; E21@0.82,0.52:0.34~pop+0.3; "SAFE?"@0.5,0.16:100:red~pop+0.6
+Years later, Ava opens the drawer. || title:"The Bill in the Drawer"; C27@0.2,0.6:0.66~none; E23@0.8,0.32:0.32~drop; "AVA"@0.38,0.14:110:red~drop
+The bill is still there. || title:"The Bill in the Drawer"; A15@0.2,0.6:0.66~none; E23@0.8,0.32:0.32~drop; D01@0.8,0.74:0.32~drop
+Same paper. || title:"The Bill in the Drawer"; A18@0.2,0.6:0.66~none; E23@0.8,0.32:0.32~drop; D01@0.8,0.74:0.32~drop
+Same face. || title:"The Bill in the Drawer"; A18@0.2,0.6:0.66~none; E23@0.8,0.32:0.32~drop; D01@0.8,0.74:0.32~drop
+Same number, one hundred. || title:"The Bill in the Drawer"; A18@0.2,0.6:0.66~none; E23@0.8,0.32:0.32~drop; D01@0.8,0.74:0.32~drop; label:"100"@0.44,0.2>0.8,0.62
+She takes it to the store to buy the same things she could have bought with it back then. || title:"The Bill in the Drawer"; C27@0.8,0.6:0.58~none; E39@0.42,0.36:0.3~pop; "THINGS"@0.29,0.55:110:black~pop
+And it doesn't stretch as far. || title:"The Bill in the Drawer"; A29@0.8,0.6:0.58~none; E39@0.42,0.36:0.3~pop; "STRETCH"@0.29,0.55:110:red~pop
+Not even close. || title:"The Bill in the Drawer"; A33@0.8,0.6:0.58~none; E39@0.42,0.36:0.3~pop; "STRETCH"@0.29,0.55:110:red~pop
+The headphones she wanted now cost more. || title:"The Bill in the Drawer"; C12@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~swing; "HEADPHONES"@0.52,0.9:110:black~r
+The pizza dinner for her friends costs more too. || title:"The Bill in the Drawer"; C12@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~swing; E38@0.87,0.34:0.28~r
+Her hundred dollars covers the headphones, and only part of the pizza. || title:"The Bill in the Drawer"; C12@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~swing; E38@0.87,0.34:0.28~r; E04@0.87,0.78:0.28~r; note:"$100"@0.32,0.22
+Nobody stole her money. || title:"The Bill in the Drawer"; doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.299,0.472,0.659,0.528+0.8; H04@0.12,1.0:0.34:bottom
+Nobody touched it. || title:"The Bill in the Drawer"; C12@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~swing; E38@0.87,0.34:0.28~r; E04@0.87,0.78:0.28~r; note:"$100"@0.32,0.22
+So what happened? || title:"The Bill in the Drawer"; C12@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~swing; E38@0.87,0.34:0.28~r; E04@0.87,0.78:0.28~r; note:"$100"@0.32,0.22
+By the end of this video, you'll know exactly where her money went, and how to protect yours. || title:"The Bill in the Drawer"; C12@0.2,0.6:0.66~none; H19@0.8,0.32:0.32~drop; B10@0.8,0.74:0.36~drop
+Here's the short answer. || title:"The Bill in the Drawer"; C12@0.2,0.6:0.66~none; H19@0.8,0.32:0.32~drop; B10@0.8,0.74:0.36~drop
+Something that cost one hundred dollars in early twenty twenty costs roughly one hundred twenty-five dollars or more today. || title:"The Bill in the Drawer"; bars:"Early 2020"=100,"Today"=125; H04@0.92,1.0:0.28:bottom~none; "+25%"@0.86,0.2:100:red~pop+0.6
+So Ava's bill now buys only about four-fifths of what it used to. || title:"The Bill in the Drawer"; C12@0.86,1.0:0.62:bottom~none; E01@0.14,0.4:0.32~l; group:D30*4@0.24,0.26,0.52,0.54:0.13; arrow:0.27,0.40>0.25,0.40
+A fifth of its power simply disappeared while it sat in the dark. || title:"The Bill in the Drawer"; A33@0.86,1.0:0.62:bottom~none; E01@0.14,0.4:0.32~l; D30@0.38,0.4:0.32~l; E27@0.62,0.4:0.32~l
+That slow disappearing act has a name. || title:"The Bill in the Drawer"; A44@0.5,0.68:0.55~none; E54@0.83,0.62:0.34~r; G09@0.17,0.62:0.34~l
+Inflation. || title:"The Bill in the Drawer"; A24@0.5,0.68:0.55~none; E54@0.83,0.62:0.34~r; G09@0.17,0.62:0.34~l
+And to understand it, we need to look at what the government actually measures. || title:"The Bill in the Drawer"; A24@0.5,0.68:0.55~none; E54@0.83,0.62:0.34~r; G09@0.17,0.62:0.34~l; E17@0.78,0.28:0.3~t; C05@0.22,0.28:0.36~t
+
+# ---------- CHAPTER 2: What Inflation Really Is ----------
+|| title:"What Inflation Really Is"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Inflation means prices, on average, are going up. || title:"What Inflation Really Is"; A38@0.87,0.68:0.48~none; H17@0.48,0.5:0.56~swing; "INFLATION"@0.48,0.9:110:red~l
+When that happens, each dollar buys a little less than before. || title:"What Inflation Really Is"; A27@0.87,0.68:0.48~none; H17@0.48,0.5:0.56~swing; E04@0.13,0.34:0.28~l; E36@0.13,0.78:0.28~l
+Every month, government workers check the prices of thousands of things. || title:"What Inflation Really Is"; doc:s04_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.142,0.56,0.444,0.617+0.8; H04@0.12,1.0:0.34:bottom
+Food, rent, gas, haircuts, car insurance, doctor visits. || title:"What Inflation Really Is"; A28@0.5,0.68:0.55~none; E39@0.83,0.62:0.34~r; G21@0.17,0.62:0.34~l; D17@0.78,0.28:0.3~t
+They put it all in one giant imaginary shopping cart. || title:"What Inflation Really Is"; H05@0.8,0.6:0.58~none; H19@0.42,0.36:0.3~pop; "IMAGINARY"@0.29,0.55:110:red~pop
+The price of that cart is called the Consumer Price Index, or C P I. || title:"What Inflation Really Is"; A15@0.12,0.74:0.4~none; doc:p_consumer_price_index.png@0.56,0.5 w=0.56 h=0.68 ~r src="Photo: Wikimedia Commons – Consumer price index"
+Not everything in the cart counts equally. || title:"What Inflation Really Is"; doc:s05_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.143,0.472,0.525,0.528+0.8; H04@0.12,1.0:0.34:bottom
+Rent and housing are the biggest part, about a third of the whole cart. || title:"What Inflation Really Is"; A08@0.16,0.6:0.62~none; G21@0.36,0.3:0.32~b; "HOUSING"@0.50,0.82:110:red~b
+Gas and food come after that. || title:"What Inflation Really Is"; H08@0.0,0.62:0.6:left~none; G21@0.36,0.3:0.32~b; E32@0.58,0.52:0.32~b; E39@0.8,0.74:0.32~b
+So your own inflation can be very different from the official number. || title:"What Inflation Really Is"; A40@0.2,0.6:0.66~none; E38@0.8,0.32:0.32~drop; "INFLATION"@0.42,0.3:110:red~drop
+If you rent in a fast-growing city, your cart probably got more expensive than average. || title:"What Inflation Really Is"; A01@0.2,0.6:0.66~none; E38@0.8,0.32:0.32~drop; G21@0.8,0.74:0.32~drop; E34@0.53,0.32:0.32~drop; D30@0.53,0.74:0.32~drop
+If the cart costs one hundred dollars this year and one hundred and three dollars next year, || title:"What Inflation Really Is"; doc:s06_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.091,0.335,0.645,0.409+0.8; H04@0.12,1.0:0.34:bottom
+inflation is three percent. || title:"What Inflation Really Is"; A16@0.86,1.0:0.62:bottom~none; H17@0.14,0.4:0.32~l; G04@0.38,0.4:0.32~l; H18@0.62,0.4:0.3:"3%"~drop
+A little inflation is normal. || title:"What Inflation Really Is"; doc:s07_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve" hl=0.309,0.447,0.642,0.553+0.8; H04@0.12,1.0:0.34:bottom
+The Federal Reserve actually aims for about two percent a year. || title:"What Inflation Really Is"; A16@0.84,0.62:0.5~none; doc:p_federal_reserve.png@0.4,0.54 w=0.56 h=0.68 ~l src="Photo: Wikimedia Commons – Federal Reserve"
+Low and steady, so people can plan. || title:"What Inflation Really Is"; A15@0.13,0.68:0.48~none; C28@0.52,0.5:0.46~swing; "STEADY"@0.52,0.9:110:black~r
+Why not zero? || title:"What Inflation Really Is"; A06@0.13,0.68:0.48~none; C28@0.52,0.5:0.46~swing; "STEADY"@0.52,0.9:110:black~r
+Because falling prices can be worse. || title:"What Inflation Really Is"; A18@0.14,1.0:0.62:bottom~none; E37@0.86,0.4:0.32~r; D14@0.62,0.4:0.32~r; arrow:0.73,0.40>0.75,0.40
+If people expect things to be cheaper next month, they wait, and businesses suffer. || title:"What Inflation Really Is"; A29@0.14,1.0:0.62:bottom~none; E25@0.86,0.4:0.32~r; D14@0.62,0.4:0.32~r; E33@0.38,0.4:0.32~r; H09@0.62,0.8:0.36~b
+But even two percent adds up. || title:"What Inflation Really Is"; A33@0.84,0.6:0.62~none; G05@0.64,0.3:0.32~b; "2%"@0.5,0.82:100:red
+Over thirty-five years, two percent a year cuts the value of a dollar in half. || title:"What Inflation Really Is"; A44@1.0,0.62:0.6:right~none; G05@0.64,0.3:0.32~b; G04@0.42,0.52:0.32~b; E24@0.2,0.74:0.32~b; B10@0.18,0.26:0.36~swing; label:"2%"@0.6,0.74>0.18,0.14
+And look at the long view. || title:"What Inflation Really Is"; A24@0.8,0.6:0.58~none; "LOOK"@0.40,0.3:120:black~pop; D13@0.3,0.66:0.3~pop+0.3; E24@0.52,0.66:0.24~pop+0.5
+A dollar in nineteen thirteen bought about as much as thirty dollars or more does today. || title:"What Inflation Really Is"; A27@0.8,0.6:0.58~none; E05@0.42,0.36:0.3~pop; E36@0.16,0.36:0.3~pop; H17@0.42,0.74:0.3:"$30"~swing
+That's why Ava's grandma remembers a movie ticket costing a couple of dollars. || title:"What Inflation Really Is"; C15@0.5,0.68:0.55~none; C16@0.83,0.62:0.46~r; E13@0.17,0.62:0.34~l; E02@0.78,0.28:0.3~t
+She isn't exaggerating. || title:"What Inflation Really Is"; C15@0.5,0.68:0.55~none; C16@0.83,0.62:0.46~r; E13@0.17,0.62:0.34~l; E02@0.78,0.28:0.3~t
+Prices really were that low. || title:"What Inflation Really Is"; A28@0.5,0.68:0.55~none; C16@0.83,0.62:0.46~r; E13@0.17,0.62:0.34~l; E02@0.78,0.28:0.3~t; D30@0.22,0.28:0.3~t
+In nineteen seventy, a gallon of gas cost about thirty-six cents, and a new car cost around three or four thousand dollars. || title:"What Inflation Really Is"; H05@0.2,0.6:0.66~none; D17@0.8,0.32:0.32~drop; H17@0.8,0.74:0.32~drop; E04@0.53,0.32:0.32~drop; note:"$4,000"@0.53,0.74
+Her grandma's whole first paycheck would fit in Ava's envelope. || title:"What Inflation Really Is"; C15@0.2,0.6:0.66~none; C09@0.8,0.32:0.46~drop; H17@0.8,0.74:0.32~drop; E04@0.53,0.32:0.32~drop; C13@0.53,0.74:0.36~drop
+So prices always creep up. || title:"What Inflation Really Is"; H08@0.5,0.68:0.55~none; E37@0.17,0.62:0.34~l; "PRICES"@0.50,0.16:110:black~r
+But between twenty twenty and twenty twenty-two, they didn't creep. || title:"What Inflation Really Is"; A40@0.5,0.68:0.55~none; E37@0.17,0.62:0.34~l; H18@0.83,0.62:0.3:"82"~drop
+They jumped. || title:"What Inflation Really Is"; A01@0.5,0.68:0.55~none; E37@0.17,0.62:0.34~l; H18@0.83,0.62:0.3:"82"~drop
+Why? || title:"What Inflation Really Is"; A06@0.5,0.68:0.55~none; E37@0.17,0.62:0.34~l; H18@0.83,0.62:0.3:"82"~drop
+
+# ---------- CHAPTER 3: Too Much Money, Too Few Things ----------
+|| title:"Too Much Money, Too Few Things"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Economists usually describe three causes of inflation. || title:"Too Much Money, Too Few Things"; A38@0.86,0.6:0.6~none; board:"3 causes of inflation"@0.44,0.46:0.56; E37@0.12,0.8:0.26~pop+0.4
+Think of them as three ways the shopping cart gets more expensive. || title:"Too Much Money, Too Few Things"; A17@0.86,1.0:0.62:bottom~none; E38@0.14,0.4:0.32~l; D30@0.38,0.4:0.32~l; group:H19*3@0.48,0.26,0.76,0.54:0.13
+The first is too much demand. || title:"Too Much Money, Too Few Things"; H01@0.8,0.6:0.66~none; "DEMAND"@0.40,0.3:120:black~drop; C28@0.4,0.66:0.4~pop+0.3
+When lots of people want to buy, and there aren't enough things, sellers can raise prices. || title:"Too Much Money, Too Few Things"; A16@0.8,0.6:0.66~none; D30@0.2,0.32:0.32~drop; H11@0.2,0.74:0.36~drop; E36@0.47,0.32:0.32~drop
+Picture a concert with one thousand tickets and five thousand fans. || title:"Too Much Money, Too Few Things"; A20@0.87,0.68:0.48~none; group:C28*5@0.08,0.3,0.7,0.72:0.22; "1,000 TICKETS"@0.4,0.88:90:red~pop
+The ticket price goes up, even though the concert stayed the same. || title:"Too Much Money, Too Few Things"; A16@0.87,0.68:0.48~none; H17@0.48,0.5:0.56~swing; "CONCERT"@0.48,0.9:110:red~l
+The second cause is rising costs. || title:"Too Much Money, Too Few Things"; A38@0.8,0.6:0.58~none; E37@0.42,0.36:0.3~pop; "SECOND"@0.29,0.55:110:black~pop
+If oil, wages, or materials get more expensive, businesses pass some of that on to you. || title:"Too Much Money, Too Few Things"; A16@0.8,0.6:0.58~none; E37@0.42,0.36:0.3~pop; E32@0.16,0.36:0.3~pop; C10@0.42,0.74:0.36~pop; E38@0.16,0.74:0.3~pop
+The third is too much money. || title:"Too Much Money, Too Few Things"; A17@0.16,0.6:0.62~none; D01@0.36,0.3:0.32~b; "THIRD"@0.50,0.82:110:red~b
+When money is created much faster than the economy grows, each dollar becomes worth less. || title:"Too Much Money, Too Few Things"; A15@0.0,0.62:0.6:left~none; D01@0.36,0.3:0.32~b; B10@0.58,0.52:0.36~b; E24@0.8,0.74:0.32~b; D13@0.82,0.26:0.3~swing
+Imagine an island where everyone suddenly gets twice as many dollars, but there are still the same number of coconuts. || title:"Too Much Money, Too Few Things"; H01@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; E05@0.17,0.62:0.34~l
+Coconut prices would double. || title:"Too Much Money, Too Few Things"; A18@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; E05@0.17,0.62:0.34~l
+Nobody would be richer. || title:"Too Much Money, Too Few Things"; A41@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; E05@0.17,0.62:0.34~l
+In twenty twenty and twenty twenty-one, all three happened at the same time. || title:"Too Much Money, Too Few Things"; A18@0.2,0.6:0.58~none; E38@0.5,0.4:0.26~pop; E31@0.72,0.4:0.28~pop+0.3; E32@0.9,0.4:0.24~pop+0.6; "ALL 3 AT ONCE"@0.7,0.8:90:red~pop+0.8
+That almost never happens. || title:"Too Much Money, Too Few Things"; A08@0.2,0.6:0.58~none; "ALMOST NEVER"@0.64,0.3:110:red~pop; E49@0.64,0.66:0.3~pop+0.3
+During the pandemic, factories closed and shipping got stuck. || title:"Too Much Money, Too Few Things"; doc:s08_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.142,0.451,0.56,0.549+0.8; H04@0.12,1.0:0.34:bottom
+There were fewer things to buy. || title:"Too Much Money, Too Few Things"; A29@0.16,0.6:0.62~none; H19@0.36,0.3:0.32~b; "THINGS"@0.50,0.82:110:black~b
+Cars, furniture, even computer chips ran short. || title:"Too Much Money, Too Few Things"; A33@0.0,0.62:0.6:left~none; H19@0.36,0.3:0.32~b; E41@0.58,0.52:0.32~b; D23@0.8,0.74:0.32~b
+Ships waited for weeks outside ports in California, full of goods nobody could unload. || title:"Too Much Money, Too Few Things"; doc:s09_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.041,0.473,0.368,0.527+0.8; H04@0.12,1.0:0.34:bottom
+Store shelves had gaps. || title:"Too Much Money, Too Few Things"; A44@0.0,0.62:0.6:left~none; H19@0.36,0.3:0.32~b; E41@0.58,0.52:0.32~b; D23@0.8,0.74:0.32~b
+Used car prices jumped by around forty percent in one year. || title:"Too Much Money, Too Few Things"; A44@0.8,0.6:0.66~none; D22@0.2,0.32:0.32~drop; D30@0.2,0.74:0.32~drop; G04@0.47,0.32:0.32~drop; "40%"@0.62,0.14:100:red
+At the same time, the government sent trillions of dollars in relief payments, and the Fed kept interest rates near zero. || title:"Too Much Money, Too Few Things"; A45@0.88,0.74:0.4~none; doc:p_the_fed.png@0.44,0.5 w=0.56 h=0.68 ~t src="Photo: Wikimedia Commons – Federal Reserve"
+People had money, and they wanted to spend it. || title:"Too Much Money, Too Few Things"; A24@0.87,0.68:0.48~none; C28@0.48,0.5:0.46~swing; E01@0.13,0.34:0.28~l
+Then, in early twenty twenty-two, Russia invaded Ukraine. || title:"Too Much Money, Too Few Things"; doc:s10_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.159,0.651,0.471,0.707+0.8; H04@0.12,1.0:0.34:bottom
+Oil, gas and food prices jumped around the world. || title:"Too Much Money, Too Few Things"; A27@0.86,1.0:0.62:bottom~none; D17@0.14,0.4:0.32~l; E39@0.38,0.4:0.32~l; H17@0.62,0.4:0.32~l
+More money chasing fewer things, while costs were rising. || title:"Too Much Money, Too Few Things"; A28@0.5,0.68:0.55~none; E38@0.17,0.62:0.34~l; B10@0.83,0.62:0.36~r
+And Ava's bill, sitting in the drawer, was quietly losing power month after month. || title:"Too Much Money, Too Few Things"; C27@0.5,0.68:0.55~none; E46@0.17,0.62:0.34~l; B10@0.83,0.62:0.36~r; E27@0.22,0.28:0.3~t; E05@0.78,0.28:0.3~t
+
+# ---------- CHAPTER 4: The Spike ----------
+|| title:"The Spike"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In early twenty twenty-one, inflation was under two percent. || title:"The Spike"; doc:s11_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.24,0.62,0.573,0.678+0.8; H04@0.12,1.0:0.34:bottom
+By June twenty twenty-two, it hit nine point one percent. || title:"The Spike"; H05@0.8,0.6:0.58~none; G05@0.42,0.36:0.3~pop; H18@0.16,0.36:0.3:"9.1%"~drop
+That was the highest rate since November nineteen eighty-one. || title:"The Spike"; doc:s12_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0,0.633,0.266,0.687+0.8; H04@0.12,1.0:0.34:bottom
+A whole generation of Americans had never seen prices rise this fast. || title:"The Spike"; H08@0.8,0.6:0.66~none; D30@0.2,0.32:0.32~drop; H09@0.2,0.74:0.36~drop; G13@0.47,0.32:0.32~drop
+Gas was the first thing people noticed. || title:"The Spike"; doc:s13_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: NPR / WBUR" hl=0.261,0.645,0.728,0.733+0.8; H04@0.12,1.0:0.34:bottom
+In June twenty twenty-two, the average price of regular gas passed five dollars a gallon for the first time. || title:"The Spike"; A20@1.0,0.62:0.6:right~none; H17@0.64,0.3:0.32~b; E32@0.42,0.52:0.32~b; E01@0.2,0.74:0.32~b; H17@0.18,0.26:0.3:"$5"~swing
+Filling up a family car with fifteen gallons went from about forty dollars to about seventy-five. || title:"The Spike"; A40@0.13,0.68:0.48~none; H27@0.52,0.5:0.56~swing; E41@0.87,0.34:0.28~r; E02@0.87,0.78:0.28~r; H17@0.32,0.22:0.3:"$40"~swing
+Every week. || title:"The Spike"; A01@0.13,0.68:0.48~none; H27@0.52,0.5:0.56~swing; E41@0.87,0.34:0.28~r; E02@0.87,0.78:0.28~r; H17@0.32,0.22:0.3:"$40"~swing
+That's money pulled straight out of everything else. || title:"The Spike"; A01@0.13,0.68:0.48~none; H27@0.52,0.5:0.56~swing; E41@0.87,0.34:0.28~r; E02@0.87,0.78:0.28~r; D01@0.32,0.22:0.24~t
+Then groceries. || title:"The Spike"; A15@0.13,0.68:0.48~none; H27@0.52,0.5:0.56~swing; E41@0.87,0.34:0.28~r; E02@0.87,0.78:0.28~r; D01@0.32,0.22:0.24~t
+Then rent. || title:"The Spike"; A15@0.13,0.68:0.48~none; H27@0.52,0.5:0.56~swing; E41@0.87,0.34:0.28~r; E02@0.87,0.78:0.28~r; D01@0.32,0.22:0.24~t
+Then car insurance and restaurant meals. || title:"The Spike"; A15@0.14,1.0:0.62:bottom~none; D22@0.86,0.4:0.32~r; E21@0.62,0.4:0.32~r; arrow:0.73,0.40>0.75,0.40
+Even after gas prices fell, many other prices kept climbing. || title:"The Spike"; A18@0.14,1.0:0.62:bottom~none; E29@0.86,0.4:0.32~jolt; E21@0.62,0.4:0.32~r; D17@0.38,0.4:0.32~jolt; E37@0.62,0.8:0.3~jolt
+Food at the grocery store rose about eleven percent in a single year, the fastest in more than four decades. || title:"The Spike"; doc:s14_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0,0.473,0.368,0.527+0.8; H04@0.12,1.0:0.34:bottom
+Families started buying store brands and skipping meat. || title:"The Spike"; A29@0.8,0.6:0.58~none; H27@0.42,0.36:0.3~pop; E36@0.16,0.36:0.3~pop
+And here's something people often misunderstand. || title:"The Spike"; A38@0.14,1.0:0.62:bottom~none; H22@0.86,0.4:0.32~r; H11@0.62,0.4:0.36~r
+When inflation comes down, prices don't go back down. || title:"The Spike"; A33@0.14,1.0:0.62:bottom~none; H22@0.86,0.4:0.32~r; H11@0.62,0.4:0.36~r; E38@0.38,0.4:0.32~r; G02@0.62,0.8:0.3~b
+They just rise more slowly. || title:"The Spike"; A44@0.14,1.0:0.62:bottom~none; E54@0.86,0.4:0.32~r; H11@0.62,0.4:0.36~r; E38@0.38,0.4:0.32~r; G02@0.62,0.8:0.3~b
+So if eggs went from two dollars to four, and inflation falls back to normal, eggs might go to four dollars and ten cents. || title:"The Spike"; bars:"Before"=2,"Peak"=4,"After"=4.1; H04@0.92,1.0:0.28:bottom~none; "NOT BACK"@0.84,0.2:90:red~pop+0.6
+Not back to two. || title:"The Spike"; A24@0.5,0.68:0.55~none; "$2"@0.5,0.16:100:red~pop; xmark+0.4; E39@0.84,0.5:0.24~pop
+That's why the higher prices still feel so painful, even with inflation lower. || title:"The Spike"; A27@1.0,0.62:0.6:right~none; D30@0.64,0.3:0.32~b; E45@0.42,0.52:0.32~b; arrow:0.55,0.39>0.51,0.43
+The damage stays in the price tags. || title:"The Spike"; A28@1.0,0.62:0.6:right~none; D30@0.64,0.3:0.32~b; E45@0.42,0.52:0.32~b; H17@0.2,0.74:0.32~b
+But inflation doesn't hurt everyone the same way. || title:"The Spike"; H05@0.8,0.6:0.66~none; E37@0.2,0.32:0.32~drop; C09@0.2,0.74:0.36~drop
+Some people lose a lot. || title:"The Spike"; H08@0.8,0.6:0.66~none; E37@0.2,0.32:0.32~drop; C09@0.2,0.74:0.36~drop; C11@0.47,0.32:0.36~drop; D02@0.47,0.74:0.32~drop
+And some people actually win. || title:"The Spike"; A02@0.8,0.6:0.66~none; E28@0.2,0.32:0.32~drop; C28@0.2,0.74:0.36~drop; C11@0.47,0.32:0.36~drop; D02@0.47,0.74:0.32~drop
+
+# ---------- CHAPTER 5: Who Loses and Who Wins ----------
+|| title:"Who Loses and Who Wins"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Ava is one of the losers. || title:"Who Loses and Who Wins"; C27@0.87,0.68:0.48~none; "LOSERS"@0.40,0.3:120:black~swing; D02@0.3,0.66:0.28~pop+0.3; D01@0.55,0.66:0.22~pop+0.5
+Cash that sits still loses value. || title:"Who Loses and Who Wins"; A40@0.87,0.68:0.48~none; E04@0.48,0.5:0.56~swing; "LOSES"@0.48,0.9:110:red~l
+The same goes for money in a savings account paying almost nothing. || title:"Who Loses and Who Wins"; A01@0.87,0.68:0.48~none; E04@0.48,0.5:0.56~swing; E21@0.13,0.34:0.28~l; E05@0.13,0.78:0.28~l
+Remember, her bill didn't change. || title:"Who Loses and Who Wins"; C27@0.5,0.68:0.55~none; E01@0.17,0.62:0.34~l; "REMEMBER"@0.50,0.16:110:black~r
+Her world did. || title:"Who Loses and Who Wins"; C27@0.5,0.68:0.55~none; E01@0.17,0.62:0.34~l; "REMEMBER"@0.50,0.16:110:black~r
+Each month, the same hundred dollars traded for a few cents less of real stuff. || title:"Who Loses and Who Wins"; A15@0.5,0.68:0.55~none; E01@0.17,0.62:0.34~l; E04@0.83,0.62:0.34~r; E25@0.22,0.28:0.3~t; D01@0.78,0.28:0.3~t; label:"$100"@0.5,0.18>0.78,0.16
+If your bank pays half a percent, and prices rise eight percent, you're getting poorer every year, even as your balance goes up. || title:"Who Loses and Who Wins"; A18@0.13,0.68:0.48~none; D15@0.52,0.5:0.56~swing; G04@0.87,0.34:0.28~r; H17@0.87,0.78:0.28~r; "8%"@0.52,0.9:100:red
+Workers can lose too, if prices rise faster than their pay. || title:"Who Loses and Who Wins"; doc:s15_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0,0.839,0.487,0.894+0.8; H04@0.12,1.0:0.34:bottom
+In twenty twenty-two, many Americans got raises, but their raises didn't keep up. || title:"Who Loses and Who Wins"; A29@0.8,0.6:0.66~none; H09@0.2,0.32:0.46~drop; G13@0.2,0.74:0.32~drop; H18@0.47,0.32:0.3:"2022"~drop
+People on fixed incomes get squeezed hardest. || title:"Who Loses and Who Wins"; A34@0.16,0.6:0.62~none; C28@0.36,0.3:0.46~b; "SQUEEZED"@0.50,0.82:110:black~b
+Ava's grandma gets a pension that doesn't rise with prices. || title:"Who Loses and Who Wins"; C14@0.0,0.62:0.6:left~none; C28@0.36,0.3:0.46~b; D25@0.58,0.52:0.32~b
+Every year, it buys a little less. || title:"Who Loses and Who Wins"; A33@0.0,0.62:0.6:left~none; C28@0.36,0.3:0.46~b; D25@0.58,0.52:0.32~b; E24@0.8,0.74:0.32~b; E36@0.82,0.26:0.3~swing
+Social Security is different. || title:"Who Loses and Who Wins"; doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: CBS News" hl=0.133,0.366,0.517,0.522+0.8; H04@0.12,1.0:0.34:bottom
+Its payments are adjusted every year for inflation. || title:"Who Loses and Who Wins"; A44@0.84,0.6:0.62~none; E23@0.14,0.4:0.32~l; "INFLATION"@0.62,0.8:110:red~l
+In twenty twenty-three, retirees got a raise of eight point seven percent, the largest in four decades. || title:"Who Loses and Who Wins"; A24@0.86,1.0:0.62:bottom~none; E23@0.14,0.4:0.32~l; C16@0.38,0.4:0.36~l; H28@0.62,0.4:0.32~l; G05@0.38,0.8:0.3~b; "8.7%"@0.62,0.8:100:red
+Renters often lose as well. || title:"Who Loses and Who Wins"; A27@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E46@0.16,0.36:0.3~pop
+Landlords can raise rent when their lease ends. || title:"Who Loses and Who Wins"; A28@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E46@0.16,0.36:0.3~pop
+And rent rose fast in many cities. || title:"Who Loses and Who Wins"; H05@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E46@0.16,0.36:0.3~pop; E34@0.42,0.74:0.3~pop; G01@0.16,0.74:0.3~pop
+Now the winners. || title:"Who Loses and Who Wins"; H08@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E46@0.16,0.36:0.3~pop; E34@0.42,0.74:0.3~pop; G01@0.16,0.74:0.3~pop
+People with fixed-rate loans. || title:"Who Loses and Who Wins"; A03@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E46@0.16,0.36:0.3~pop; E34@0.42,0.74:0.3~pop; G01@0.16,0.74:0.3~pop
+If you borrowed money at a fixed rate, inflation makes your debt easier to pay back. || title:"Who Loses and Who Wins"; A03@0.5,0.68:0.55~none; D28@0.83,0.62:0.34~r; G04@0.17,0.62:0.34~l
+Think of a family with a mortgage at three percent. || title:"Who Loses and Who Wins"; doc:s17_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve" hl=0.145,0.642,0.388,0.699+0.8; H04@0.12,1.0:0.34:bottom
+Their payment stays the same, while their paychecks and their home value rise. || title:"Who Loses and Who Wins"; H08@0.13,0.68:0.48~none; C10@0.52,0.5:0.46~swing; D09@0.87,0.34:0.28~r
+That's why so many homeowners who locked in low rates before twenty twenty-two came out ahead. || title:"Who Loses and Who Wins"; A40@0.86,1.0:0.62:bottom~none; D11@0.14,0.4:0.32~l; G05@0.38,0.4:0.32~l; arrow:0.27,0.40>0.25,0.40; label:"2022"@0.62,0.14>0.38,0.28
+Their biggest bill stayed frozen while everything else went up. || title:"Who Loses and Who Wins"; A45@0.86,1.0:0.62:bottom~none; D11@0.14,0.4:0.32~l; G05@0.38,0.4:0.32~l; B10@0.62,0.4:0.36~l
+The biggest borrower of all also benefits in a way. || title:"Who Loses and Who Wins"; A36@0.84,0.6:0.62~none; D18@0.64,0.3:0.32~b; "BORROWER"@0.50,0.82:110:black~b
+The government. || title:"Who Loses and Who Wins"; A01@0.84,0.6:0.62~none; D18@0.64,0.3:0.32~b; "BORROWER"@0.50,0.82:110:black~b
+Inflation makes its old debt smaller compared to the size of the economy. || title:"Who Loses and Who Wins"; A01@1.0,0.62:0.6:right~none; D18@0.64,0.3:0.32~b; D24@0.42,0.52:0.32~b; E22@0.2,0.74:0.32~b
+And people who own things that rise with prices, like homes or businesses, often keep up better than people holding cash. || title:"Who Loses and Who Wins"; A15@0.2,0.6:0.58~none; E35@0.58,0.36:0.3~pop; D21@0.84,0.36:0.3~pop
+So Ava's bill lost, and borrowers won. || title:"Who Loses and Who Wins"; C27@0.8,0.6:0.66~none; D28@0.2,0.32:0.32~drop; E05@0.2,0.74:0.32~jolt; D14@0.47,0.32:0.32~jolt; arrow:0.27,0.63>0.40,0.43
+But who decides when enough is enough? || title:"Who Loses and Who Wins"; A06@0.8,0.6:0.66~none; D28@0.2,0.36:0.3~drop; E05@0.2,0.76:0.3~jolt; think:"Who decides when enough is enough?"@0.5,0.2
+That job belongs to the Fed. || title:"Who Loses and Who Wins"; A16@0.82,0.6:0.6~none; doc:p_the_fed.png@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Federal Reserve"
+
+# ---------- CHAPTER 6: How the Fed Fights Back ----------
+|| title:"How the Fed Fights Back"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The Federal Reserve's main tool is interest rates. || title:"How the Fed Fights Back"; doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.142,0.605,0.544,0.702+0.8; H04@0.12,1.0:0.34:bottom
+When inflation is too high, the Fed raises rates to cool things down. || title:"How the Fed Fights Back"; A16@0.8,0.6:0.58~none; G10@0.42,0.36:0.3~pop; G04@0.16,0.36:0.3~pop
+Higher rates make borrowing more expensive. || title:"How the Fed Fights Back"; A18@0.13,0.68:0.48~none; G05@0.52,0.5:0.56~swing; D24@0.87,0.34:0.28~r
+Fewer people buy houses and cars on credit. || title:"How the Fed Fights Back"; A29@0.13,0.68:0.48~none; D18@0.52,0.58:0.42~swing; D24@0.87,0.34:0.28~r; H23@0.87,0.78:0.28~r; D22@0.42,0.16:0.25~t
+Businesses borrow less to expand. || title:"How the Fed Fights Back"; A33@0.13,0.68:0.48~none; D18@0.52,0.58:0.42~swing; E06@0.87,0.34:0.28~r; D28@0.87,0.78:0.28~r; D22@0.42,0.16:0.25~t
+Spending slows, and so do prices. || title:"How the Fed Fights Back"; A44@0.13,0.68:0.48~none; D18@0.52,0.58:0.42~swing; E06@0.87,0.34:0.28~r; D28@0.87,0.78:0.28~r; E54@0.42,0.16:0.25~t
+There's a delay, though. || title:"How the Fed Fights Back"; A24@0.13,0.68:0.48~none; D18@0.52,0.58:0.42~swing; E06@0.87,0.34:0.28~r; D28@0.87,0.78:0.28~r; E54@0.42,0.16:0.25~t
+Rate changes can take a year or more to fully slow the economy. || title:"How the Fed Fights Back"; A24@0.14,1.0:0.62:bottom~none; G04@0.86,0.4:0.32~r; E54@0.62,0.4:0.32~r; E24@0.38,0.4:0.32~r
+So the Fed has to act before it can see the results, like steering a huge ship. || title:"How the Fed Fights Back"; A27@0.14,1.0:0.62:bottom~none; C06@0.86,0.4:0.46~r; E31@0.62,0.4:0.32~r; E24@0.38,0.4:0.32~r; G10@0.62,0.8:0.3~b; arrow:0.73,0.40>0.75,0.40
+Starting in March twenty twenty-two, the Fed raised rates eleven times, from near zero to above five percent. || title:"How the Fed Fights Back"; doc:s19_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve" hl=0.119,0.631,0.599,0.723+0.8; H04@0.12,1.0:0.34:bottom
+It was the fastest rise in about forty years. || title:"How the Fed Fights Back"; A28@0.5,0.68:0.55~none; E25@0.83,0.62:0.34~r; note:"40 YEARS"@0.17,0.62
+It worked, slowly. || title:"How the Fed Fights Back"; doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve" hl=0.119,0.524,0.6,0.617+0.8; H04@0.12,1.0:0.34:bottom
+Inflation fell back toward about three percent. || title:"How the Fed Fights Back"; H05@1.0,0.62:0.6:right~none; G04@0.64,0.3:0.32~b; G02@0.42,0.52:0.32~jolt; H18@0.2,0.74:0.3:"3%"~drop
+But it came with costs. || title:"How the Fed Fights Back"; H08@1.0,0.62:0.6:right~none; G04@0.64,0.3:0.32~b; G02@0.42,0.52:0.32~jolt
+Mortgage rates more than doubled, and buying a home got much harder. || title:"How the Fed Fights Back"; A40@1.0,0.62:0.6:right~none; E26@0.64,0.3:0.32~b; G02@0.42,0.52:0.32~jolt; D09@0.2,0.74:0.32~b; G05@0.18,0.26:0.3~swing
+The Fed has done this before. || title:"How the Fed Fights Back"; doc:s21_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.214,0.661,0.375,0.718+0.8; H04@0.12,1.0:0.34:bottom
+In nineteen eighty-one, Fed chair Paul Volcker pushed rates near twenty percent to crush inflation. || title:"How the Fed Fights Back"; A01@0.12,0.74:0.4~none; doc:p_paul_volcker.jpg@0.56,0.5 w=0.56 h=0.68 ~r src="Photo: Wikimedia Commons – Paul Volcker"
+It worked, but it caused a painful recession. || title:"How the Fed Fights Back"; A41@0.8,0.62:0.5~none; "RECESSION"@0.40,0.3:120:red~drop; D21@0.4,0.68:0.32~pop+0.3
+In the nineteen seventies, inflation got out of control and stayed high for years. || title:"How the Fed Fights Back"; A01@0.87,0.68:0.48~none; E27@0.48,0.5:0.56~swing; E25@0.13,0.34:0.28~l; "19 SEVENTIES"@0.48,0.9:100:red
+At its peak in nineteen eighty, prices were rising almost fifteen percent a year. || title:"How the Fed Fights Back"; A16@0.87,0.68:0.48~none; "15%"@0.48,0.3:150:red~pop; G05@0.48,0.7:0.3~pop+0.3; E25@0.15,0.5:0.28~l
+The lesson the Fed learned then still guides it today. || title:"How the Fed Fights Back"; A16@0.8,0.6:0.58~none; E17@0.42,0.36:0.3~pop; G10@0.16,0.36:0.3~pop
+Stop inflation early, before people start expecting it to last forever. || title:"How the Fed Fights Back"; A16@0.8,0.6:0.58~none; E17@0.42,0.36:0.3~pop; G10@0.16,0.36:0.3~pop; H09@0.42,0.74:0.36~pop
+The Fed's job is a balancing act. || title:"How the Fed Fights Back"; A16@1.0,0.62:0.6:right~none; G10@0.64,0.3:0.32~b; C10@0.42,0.52:0.36~b; C08@0.2,0.74:0.36~b
+Raise rates too little, and prices keep running. || title:"How the Fed Fights Back"; A16@1.0,0.62:0.6:right~none; G10@0.64,0.3:0.32~b; C10@0.42,0.52:0.36~b; C08@0.2,0.74:0.36~b; G04@0.18,0.26:0.3~swing
+Raise them too much, and people lose their jobs. || title:"How the Fed Fights Back"; A16@1.0,0.62:0.6:right~none; C09@0.64,0.3:0.46~b; D02@0.42,0.52:0.32~b; C08@0.2,0.74:0.36~b; G04@0.18,0.26:0.3~swing
+There's one good thing about higher rates, though. || title:"How the Fed Fights Back"; A15@0.5,0.68:0.55~none; G05@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l
+For the first time in years, savings accounts started paying real interest again. || title:"How the Fed Fights Back"; A17@0.5,0.68:0.55~none; G05@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; E21@0.78,0.28:0.3~t; E24@0.22,0.28:0.3~t
+And that brings us back to Ava. || title:"How the Fed Fights Back"; C27@0.5,0.68:0.55~none; G05@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; E21@0.78,0.28:0.3~t; E24@0.22,0.28:0.3~t
+
+# ---------- CHAPTER 7: What You Can Do ----------
+|| title:"What You Can Do"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Ava is sixteen now. || title:"What You Can Do"; C27@0.16,0.6:0.62~none; note:"16 NOW"@0.86,0.4; E25@0.5,0.44:0.3~pop; D01@0.62,0.72:0.22~pop+0.4
+She's learned the hardest lesson about money. || title:"What You Can Do"; C27@0.14,1.0:0.62:bottom~none; H22@0.86,0.4:0.32~r; E02@0.62,0.4:0.32~r
+Cash in a drawer is safe from thieves, but not from inflation. || title:"What You Can Do"; A23@0.14,1.0:0.62:bottom~none; H22@0.86,0.4:0.32~r; E02@0.62,0.4:0.32~r; H19@0.38,0.4:0.32~r; D01@0.62,0.8:0.3~b
+So what could she have done instead? || title:"What You Can Do"; C27@0.2,0.6:0.66~none; E48@0.8,0.6:0.3~drop; think:"What could she have done instead?"@0.5,0.2
+This isn't financial advice, just the basic ideas that most experts agree on. || title:"What You Can Do"; A18@0.2,0.6:0.66~none; E48@0.8,0.32:0.32~drop; "FINANCIAL"@0.38,0.14:110:red~drop
+If she'd put her hundred dollars in a savings account paying four percent from twenty twenty-three on, || title:"What You Can Do"; C27@0.5,0.68:0.55~none; E21@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; H17@0.78,0.28:0.3:"$100"~swing
+it would have grown to well over a hundred and ten dollars by now. || title:"What You Can Do"; A29@0.5,0.68:0.55~none; E21@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; G01@0.78,0.28:0.3~t; E01@0.22,0.28:0.3~t; "$110"@0.5,0.16:100:red
+Not a fortune. || title:"What You Can Do"; A33@0.5,0.68:0.55~none; E21@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; G01@0.78,0.28:0.3~t; E01@0.22,0.28:0.3~t; "$110"@0.5,0.16:100:red
+But more than zero. || title:"What You Can Do"; A33@0.5,0.68:0.55~none; E21@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; G01@0.78,0.28:0.3~t; E01@0.22,0.28:0.3~t; "$110"@0.5,0.16:100:red
+First, keep emergency money where it earns interest. || title:"What You Can Do"; H01@0.16,0.6:0.62~none; D01@0.86,0.4:0.32~r; "EMERGENCY"@0.38,0.8:110:red~r
+A high-yield savings account or a money market account often pays far more than a regular one. || title:"What You Can Do"; A33@0.14,1.0:0.62:bottom~none; D01@0.86,0.4:0.32~r; H19@0.62,0.4:0.32~r; G11@0.38,0.4:0.32~r; E04@0.62,0.8:0.3~b
+Second, the government sells special savings bonds called I bonds, whose interest goes up with inflation. || title:"What You Can Do"; doc:s22_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.266,0.451,0.616,0.549+0.8; H04@0.12,1.0:0.34:bottom
+They're built for exactly Ava's problem. || title:"What You Can Do"; C27@0.87,0.68:0.48~none; D24@0.4,0.5:0.34~pop; "INFLATION-PROOF"@0.42,0.16:90:green~pop+0.3
+Third, || title:"What You Can Do"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Investor.gov, U.S. SEC" hl=0.366,0.62,0.664,0.685+0.8; H04@0.12,1.0:0.34:bottom
+for money you won't need for many years, investing in a broad mix of companies has historically grown faster than inflation, though it can drop a lot along the way. || title:"What You Can Do"; A44@0.2,0.6:0.66~none; E33@0.8,0.32:0.32~drop; E05@0.8,0.74:0.32~drop
+And fourth, watch your own prices. || title:"What You Can Do"; A39@0.8,0.6:0.58~none; E37@0.4,0.5:0.34~pop; H17@0.18,0.44:0.26:"$4.99"~pop+0.4
+Know what you pay for rent, food and insurance, and shop around when they jump. || title:"What You Can Do"; A27@0.8,0.6:0.58~none; G21@0.42,0.36:0.3~pop; E39@0.16,0.36:0.3~pop; H19@0.42,0.74:0.3~pop
+And if you work, ask for raises that at least match inflation. || title:"What You Can Do"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Bureau of Labor Statistics" hl=0.192,0.472,0.487,0.528+0.8; H04@0.12,1.0:0.34:bottom
+A raise of three percent when prices rise four percent is really a pay cut. || title:"What You Can Do"; A28@0.84,0.6:0.62~none; E01@0.64,0.3:0.32~b; H18@0.42,0.52:0.3:"3%"~drop
+Here's the takeaway. || title:"What You Can Do"; A20@0.84,0.6:0.62~none; E01@0.64,0.3:0.32~b; H18@0.42,0.52:0.3:"3%"~drop
+Inflation doesn't take your money. || title:"What You Can Do"; H05@0.5,0.68:0.55~none; E02@0.83,0.62:0.34~r; "INFLATION"@0.50,0.16:110:red~l
+It quietly takes what your money can buy. || title:"What You Can Do"; H08@0.5,0.68:0.55~none; E02@0.83,0.62:0.34~r; E04@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t
+The goal isn't just to save dollars, but to protect their power. || title:"What You Can Do"; A40@0.5,0.68:0.55~none; E27@0.83,0.62:0.34~r; B10@0.17,0.62:0.36~l; E36@0.78,0.28:0.3~t; E21@0.22,0.28:0.3~t
+Ava keeps the hundred-dollar bill anyway. || title:"What You Can Do"; C27@0.2,0.6:0.58~none; E05@0.58,0.36:0.3~pop; H17@0.84,0.36:0.3:"$100"~swing
+Not as savings, but as a reminder from her grandma. || title:"What You Can Do"; C27@0.2,0.6:0.58~none; E05@0.58,0.36:0.3~pop; H19@0.84,0.36:0.3~pop; C13@0.58,0.74:0.36~pop
+The rest of her money now goes somewhere it can grow. || title:"What You Can Do"; C27@0.2,0.6:0.58~none; E26@0.58,0.36:0.3~pop; H19@0.84,0.36:0.3~pop; C13@0.58,0.74:0.36~pop; E01@0.84,0.74:0.3~pop
+[calm] But rising prices are only one way money can hurt ordinary families. || title:"What You Can Do"; A01@0.14,1.0:0.62:bottom~none; H27@0.86,0.4:0.32~r; D01@0.62,0.4:0.32~r
+Next time, we'll see how one risky mortgage after another nearly broke the whole world. || title:"What You Can Do"; A41@0.14,1.0:0.62:bottom~none; E43@0.86,0.4:0.32~jolt; D01@0.62,0.4:0.32~r; E44@0.38,0.4:0.32~jolt; E35@0.62,0.8:0.3~jolt
+
+|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3

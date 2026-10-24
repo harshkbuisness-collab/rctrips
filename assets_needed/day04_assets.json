@@ -1,0 +1,162 @@
+{
+ "CH1": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH2": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH3": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH4": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH5": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH6": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH7": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "CH8": {
+  "type": "pose",
+  "character": "Ava"
+ },
+ "S01": {
+  "type": "scene",
+  "sentence": "She put it in an envelope, and put the envelope in her desk drawer."
+ },
+ "S02": {
+  "type": "scene",
+  "sentence": "Years later, Ava opens the drawer."
+ },
+ "S03": {
+  "type": "scene",
+  "sentence": "She takes it to the store to buy the same things she could have bought with it back then."
+ },
+ "S04": {
+  "type": "scene",
+  "sentence": "And it doesn't stretch as far."
+ },
+ "S05": {
+  "type": "scene",
+  "sentence": "Her hundred dollars covers the headphones, and only part of the pizza."
+ },
+ "S06": {
+  "type": "scene",
+  "sentence": "So Ava's bill now buys only about four-fifths of what it used to."
+ },
+ "S07": {
+  "type": "scene",
+  "sentence": "When that happens, each dollar buys a little less than before."
+ },
+ "S08": {
+  "type": "scene",
+  "sentence": "They put it all in one giant imaginary shopping cart."
+ },
+ "S09": {
+  "type": "scene",
+  "sentence": "And look at the long view."
+ },
+ "S10": {
+  "type": "scene",
+  "sentence": "A dollar in nineteen thirteen bought about as much as thirty dollars or more does today."
+ },
+ "S11": {
+  "type": "scene",
+  "sentence": "But between twenty twenty and twenty twenty-two, they didn't creep."
+ },
+ "S12": {
+  "type": "scene",
+  "sentence": "The first is too much demand."
+ },
+ "S13": {
+  "type": "scene",
+  "sentence": "Picture a concert with one thousand tickets and five thousand fans."
+ },
+ "S14": {
+  "type": "scene",
+  "sentence": "The third is too much money."
+ },
+ "S15": {
+  "type": "scene",
+  "sentence": "When money is created much faster than the economy grows, each dollar becomes worth less."
+ },
+ "S16": {
+  "type": "scene",
+  "sentence": "Imagine an island where everyone suddenly gets twice as many dollars, but there are still the same number of coconuts."
+ },
+ "S17": {
+  "type": "scene",
+  "sentence": "In twenty twenty and twenty twenty-one, all three happened at the same time."
+ },
+ "S18": {
+  "type": "scene",
+  "sentence": "People had money, and they wanted to spend it."
+ },
+ "S19": {
+  "type": "scene",
+  "sentence": "That's money pulled straight out of everything else."
+ },
+ "S20": {
+  "type": "scene",
+  "sentence": "Ava is one of the losers."
+ },
+ "S21": {
+  "type": "scene",
+  "sentence": "Cash that sits still loses value."
+ },
+ "S22": {
+  "type": "scene",
+  "sentence": "People on fixed incomes get squeezed hardest."
+ },
+ "S23": {
+  "type": "scene",
+  "sentence": "Every year, it buys a little less."
+ },
+ "S24": {
+  "type": "scene",
+  "sentence": "Their biggest bill stayed frozen while everything else went up."
+ },
+ "S25": {
+  "type": "scene",
+  "sentence": "But who decides when enough is enough?"
+ },
+ "S26": {
+  "type": "scene",
+  "sentence": "And that brings us back to Ava."
+ },
+ "S27": {
+  "type": "scene",
+  "sentence": "So what could she have done instead?"
+ },
+ "S28": {
+  "type": "scene",
+  "sentence": "This isn't financial advice, just the basic ideas that most experts agree on."
+ },
+ "S29": {
+  "type": "scene",
+  "sentence": "it would have grown to well over a hundred and ten dollars by now."
+ },
+ "S30": {
+  "type": "scene",
+  "sentence": "It quietly takes what your money can buy."
+ },
+ "S31": {
+  "type": "scene",
+  "sentence": "Ava keeps the hundred-dollar bill anyway."
+ },
+ "S32": {
+  "type": "scene",
+  "sentence": "The rest of her money now goes somewhere it can grow."
+ }
+}

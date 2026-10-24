@@ -1,0 +1,562 @@
+[
+ {
+  "line": 11,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"concluding an 89.2% loss for the index in less than three years\"",
+  "said": "By July nineteen thirty-two, the Dow had lost eighty-nine percent of its value.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.646,
+   0.769,
+   0.952
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"The Dow Jones did not return to its peak close of September 3, 1929, for 25 years\"",
+  "said": "So the Millers' stock jar went from one thousand dollars to about one hundred ten dollars. And it took twenty-five years to get back.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.737,
+   0.769,
+   0.861
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, Great Depression",
+  "url": "https://en.wikipedia.org/wiki/Great_Depression",
+  "what": "highlight \"all experienced drops in personal income , prices ( deflation )\"",
+  "said": "What about cash? Here is the surprise. During the Great Depression, prices fell. That is called deflation, the opposite of inflation.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.633,
+   0.769,
+   0.965
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Great Depression",
+  "url": "https://en.wikipedia.org/wiki/Great_Depression",
+  "what": "highlight \"9,000 of its 25,000 banks had gone out of business\"",
+  "said": "But there is a big catch. Cash in a bank was not safe. By nineteen thirty-three, nine thousand of America's twenty-five thousand banks had gone out of business.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.457,
+   0.769,
+   0.893
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia, Great Depression",
+  "url": "https://en.wikipedia.org/wiki/Great_Depression",
+  "what": "highlight \"By 1933, the U.S. unemployment rate had risen to 25%\"",
+  "said": "And unemployment had reached twenty-five percent. One in four workers had no job, so even people with savings were spending them just to eat.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.457,
+   0.769,
+   0.893
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Executive Order 6102",
+  "url": "https://en.wikipedia.org/wiki/Executive_Order_6102",
+  "what": "highlight \"the hoarding of gold coin\"",
+  "said": "On April fifth, nineteen thirty-three, President Roosevelt signed an order banning Americans from hoarding gold coins and gold bars.",
+  "file": "s06.png",
+  "box": [
+   0.533,
+   0.241,
+   0.764,
+   0.306
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 20,
+  "source": "Wikipedia, Executive Order 6102",
+  "url": "https://en.wikipedia.org/wiki/Executive_Order_6102",
+  "what": "highlight \"were arrested with $15,000 in gold\"",
+  "said": "People had to turn in their gold at the old price. Some who refused were actually arrested.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Executive Order 6102",
+  "url": "https://en.wikipedia.org/wiki/Executive_Order_6102",
+  "what": "highlight \"Dollar from $20.67 to $35 an ounce.\"",
+  "said": "Then the government changed the official gold price from twenty dollars sixty-seven to thirty-five dollars an ounce. A jump of almost seventy percent.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.543,
+   0.769,
+   0.667
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Executive Order 6102",
+  "url": "https://en.wikipedia.org/wiki/Executive_Order_6102",
+  "what": "highlight \"December 31, 1974\"",
+  "said": "That ban lasted a very long time. It was not repealed until the end of nineteen seventy-four. For over forty years, regular Americans could not legally hold gold bars.",
+  "file": "s09.png",
+  "box": [
+   0.533,
+   0.771,
+   0.764,
+   0.83
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, Great Depression",
+  "url": "https://en.wikipedia.org/wiki/Great_Depression",
+  "what": "highlight \"about one-third of farmers had lost their land\"",
+  "said": "Bonds from the US government kept paying, and in a world of falling prices, those fixed payments were worth more. The house jar? Farm and home prices fell hard, and about a third of farmers lost their land.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.457,
+   0.769,
+   0.893
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Great Depression",
+  "url": "https://en.wikipedia.org/wiki/Great_Depression",
+  "what": "highlight \"crop prices fell by up to 60%\"",
+  "said": "Crop prices fell by up to sixty percent. A farm that looked like a safe asset in nineteen twenty-nine could not even pay its own loan by nineteen thirty-two.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.889,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Stagflation",
+  "url": "https://en.wikipedia.org/wiki/Stagflation",
+  "what": "highlight \"We now have the worst of both worlds\"",
+  "said": "Economists call this stagflation. Stagnation plus inflation. A British politician described it as the worst of both worlds.",
+  "file": "s12.png",
+  "box": [
+   0.176,
+   0.851,
+   0.749,
+   0.923
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Stagflation",
+  "url": "https://en.wikipedia.org/wiki/Stagflation",
+  "what": "highlight \"led to rising prices and slowing growth\"",
+  "said": "The oil crisis of nineteen seventy-three was a big part of it. Oil prices jumped, and so did almost everything else.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Stagflation",
+  "url": "https://en.wikipedia.org/wiki/Stagflation",
+  "what": "highlight \"Stagflation presents a policy dilemma\"",
+  "said": "It also trapped the government. Fighting inflation with higher rates could raise unemployment. Fighting unemployment could make inflation worse.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.449,
+   0.769,
+   0.677
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"when the US unilaterally suspended the direct convertibility of the United States dollar to gold\"",
+  "said": "And gold? This was gold's big decade. In nineteen seventy-one, America stopped trading dollars for gold at thirty-five dollars. After that, gold was free to rise.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.377,
+   0.769,
+   0.631
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"The Dow Industrials bottomed out a ratio of 1:1 with gold during 1980\"",
+  "said": "By nineteen eighty, gold had shot up so far that one ounce of gold could buy the entire Dow Jones index. One to one.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"The notable peak in 1980 followed the Soviet military involvement in Afghanistan\"",
+  "said": "That peak came right after a decade of inflation and oil shocks, and just after the Soviet invasion of Afghanistan. Fear was at its highest.",
+  "file": "s17.png",
+  "box": [
+   0.586,
+   0.707,
+   0.769,
+   0.892
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"two major frauds were International Gold Bullion Exchange and Bullion Reserve of North America\"",
+  "said": "High gold prices also brought out scammers. In the early nineteen eighties, two big gold investment frauds took people's money.",
+  "file": "s18.png",
+  "box": [
+   0.172,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"proceeded to post gains throughout the 1980s and 1990s\"",
+  "said": "That was the peak. Gold had risen after a decade of inflation and oil shocks. And then, after nineteen eighty, stocks went on a long winning run through the nineteen eighties and nineties.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"rose by 600%\"",
+  "said": "In the late nineteen nineties, everyone wanted internet stocks. The tech-heavy Nasdaq index rose six hundred percent in five years.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"only to fall 78% from its peak by October 2002\"",
+  "said": "Then it peaked in March two thousand and fell seventy-eight percent by October two thousand two.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"investors shifted from strong performing technology stocks to poor performing established stocks\"",
+  "said": "If the Millers' stock jar was full of hot tech stocks, it was nearly wiped out. But boring, established companies did much better.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia, Flight-to-quality",
+  "url": "https://en.wikipedia.org/wiki/Flight-to-quality",
+  "what": "highlight \"investors seek to sell assets perceived as risky and instead purchase safe assets\"",
+  "said": "That rush has a name. Flight to quality.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.419,
+   0.769,
+   0.595
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Flight-to-quality",
+  "url": "https://en.wikipedia.org/wiki/Flight-to-quality",
+  "what": "highlight \"Treasury bond is less risky and more liquid than a corporate bond\"",
+  "said": "And the safest, most liquid thing in the world is usually a US Treasury bond.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.591,
+   0.769,
+   0.741
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, United States housing bubble",
+  "url": "https://en.wikipedia.org/wiki/United_States_housing_bubble",
+  "what": "highlight \"Housing prices, which peaked in early 2006, started to decline in 2006 and 2007, and reached new lows in 2011.\"",
+  "said": "Then they did. Housing prices peaked in early two thousand six and started to fall. They did not hit bottom until twenty eleven.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.23,
+   0.769,
+   0.458
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, United States housing bubble",
+  "url": "https://en.wikipedia.org/wiki/United_States_housing_bubble",
+  "what": "highlight \"the Case\u2013Shiller home price index reported the largest price drop in its history\"",
+  "said": "On December thirtieth, two thousand eight, the main index of home prices reported the largest drop in its history.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.23,
+   0.769,
+   0.458
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, United States housing bubble",
+  "url": "https://en.wikipedia.org/wiki/United_States_housing_bubble",
+  "what": "highlight \"sales were down 13% to 482,000 from the peak of 554,000 in March 2006\"",
+  "said": "It started slowly. By March two thousand seven, home sales were already down thirteen percent from their peak, and the typical price had slipped.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"household wealth in the United States fell $11 trillion\"",
+  "said": "Stocks fell hard too. American household wealth dropped by eleven trillion dollars, from sixty-one trillion to about fifty trillion.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.608,
+   0.769,
+   0.992
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, 2008 financial crisis",
+  "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+  "what": "highlight \"European banks lost more than $1 trillion on toxic assets\"",
+  "said": "Banks were hit too. American and European banks lost more than a trillion dollars on bad loans and toxic assets.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.556,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Flight-to-quality",
+  "url": "https://en.wikipedia.org/wiki/Flight-to-quality",
+  "what": "highlight \"An example is subprime mortgage crisis in 2008.\"",
+  "said": "And yet, the bond jar did it again. During the subprime crisis of two thousand eight, money fled into Treasury bonds.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"It was the fastest correction in market history from all-time high\"",
+  "said": "In February twenty twenty, the pandemic hit. Stocks fell so fast it set a record. It took just six days to drop ten percent from the top.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"Treasury securities fell to 0.82% and 1.34% respectively\"",
+  "said": "Even safe bond yields fell to record lows, because so much money rushed into them at once.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"offered at least $1.5 trillion worth of short-term loans to banks\"",
+  "said": "In one move, the New York Federal Reserve offered at least one and a half trillion dollars in short-term loans to banks.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"U.S. market indices did not return to January 2020 levels until November 2020\"",
+  "said": "By April, stocks around the world had started rising again. American indices were back to their January levels by November.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 67,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"gold prices increased above $4,000 per troy ounce for the first time\"",
+  "said": "In October twenty twenty-five, gold rose above four thousand dollars an ounce for the first time, after climbing more than fifty percent in one year.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ }
+]

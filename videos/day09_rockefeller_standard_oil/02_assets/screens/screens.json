@@ -1,0 +1,364 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Standard_Oil",
+  "what": "highlight \"Standard Oil\"",
+  "said": "By eighteen eighty, one company refined about nine out of every ten barrels of oil in America. Picture yourself running a small oil refinery in Cleveland in the eighteen seventies.",
+  "file": "s01.png",
+  "box": [
+   0.036,
+   0.296,
+   0.127,
+   0.332
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 2,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Whale_oil",
+  "what": "highlight \"Whale oil\"",
+  "said": "Before kerosene, many homes were lit by expensive whale oil or smoky candles. Kerosene was cheap and bright. Every family wanted it.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.083,
+   0.247,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 6,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+  "what": "highlight \"John Davison Rockefeller\"",
+  "said": "His name is John D. Rockefeller. Within a few weeks, he would buy up twenty-two of the twenty-six refineries in Cleveland.",
+  "file": "s03.png",
+  "box": [
+   0.612,
+   0.644,
+   0.731,
+   0.68
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Drake_Well",
+  "what": "highlight \"Drake Well\"",
+  "said": "In eighteen fifty-nine, oil was discovered in western Pennsylvania. It started a gold rush, except the gold was black and sticky.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.083,
+   0.258,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Pennsylvania_oil_rush",
+  "what": "highlight \"Pennsylvania oil rush\"",
+  "said": "Thousands of people rushed in to drill. Prices swung wildly. One month, oil was worth a lot. The next month, almost nothing, because everyone pumped too much.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.083,
+   0.331,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Ohio History Central",
+  "url": "https://ohiohistorycentral.org/w/Standard_Oil_Company",
+  "what": "highlight \"Standard Oil Company\"",
+  "said": "In eighteen seventy, he and his partners formed a new company. They named it Standard Oil, because they promised a standard, reliable kerosene.",
+  "file": "s06.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/South_Improvement_Company",
+  "what": "highlight \"South Improvement Company\"",
+  "said": "Rockefeller shipped so much oil that he could make the railroads compete for his business. He demanded discounts, called rebates.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.083,
+   0.394,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cleveland_Massacre",
+  "what": "highlight \"Cleveland\"",
+  "said": "Thomas took the shares. He told his wife it was the hardest day of his life. Years later, those shares would make his family wealthy. But his own business was gone.",
+  "file": "s08.png",
+  "box": [
+   0.224,
+   0.194,
+   0.323,
+   0.23
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Standard_Oil",
+  "what": "highlight \"90%\"",
+  "said": "By eighteen eighty, Standard Oil controlled about ninety percent of all oil refining in America.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/26_Broadway",
+  "what": "highlight \"26 Broadway\"",
+  "said": "Rockefeller himself rarely spoke in public. He ran his empire quietly, from an office in New York, with a small team of trusted partners.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.083,
+   0.273,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kerosene",
+  "what": "highlight \"Kerosene\"",
+  "said": "The price of kerosene fell a lot during these years. Millions of families could afford to light their homes at night for the first time.",
+  "file": "s11.png",
+  "box": [
+   0.036,
+   0.34,
+   0.114,
+   0.392
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Sherman_Antitrust_Act",
+  "what": "highlight \"Sherman Antitrust Act\"",
+  "said": "Americans grew angry and afraid of these giant trusts, in oil, sugar, steel and railroads. In eighteen ninety, Congress passed a law against them. The Sherman Antitrust Act.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.083,
+   0.337,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "National Archives",
+  "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+  "what": "highlight \"Sherman Anti-Trust Act\"",
+  "said": "Americans grew angry and afraid of these giant trusts, in oil, sugar, steel and railroads. In eighteen ninety, Congress passed a law against them. The Sherman Antitrust Act.",
+  "file": "s13.png",
+  "box": [
+   0.053,
+   0.22,
+   0.947,
+   0.266
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ida_Tarbell",
+  "what": "highlight \"Ida Minerva Tarbell\"",
+  "said": "Her name was Ida Tarbell. She grew up in the Pennsylvania oil region. Her father ran a small oil business that was hurt badly by Rockefeller's deals.",
+  "file": "s14.png",
+  "box": [
+   0.618,
+   0.565,
+   0.713,
+   0.601
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company",
+  "what": "highlight \"The History of the Standard Oil Company\"",
+  "said": "She didn't just give opinions. She dug through court records, old documents and interviews. She showed, step by step, how the secret railroad deals worked.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.083,
+   0.478,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+  "what": "highlight \"trust buster\"",
+  "said": "The public pressure worked. In nineteen oh six, President Theodore Roosevelt's government sued Standard Oil for breaking the antitrust law.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.811,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Supreme Court Historical Society",
+  "url": "https://civics.supremecourthistory.org/article/standard-oil-company-v-united-states/",
+  "what": "highlight \"Standard Oil Company v. United States\"",
+  "said": "On May fifteenth, nineteen eleven, the United States Supreme Court ruled against Standard Oil. It ordered the giant company to be broken apart.",
+  "file": "s17.png",
+  "box": [
+   0.111,
+   0.407,
+   0.44,
+   0.617
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Standard_Oil_Co._of_New_Jersey_v._United_States",
+  "what": "highlight \"Standard Oil Co. of New Jersey v. United States\"",
+  "said": "Standard Oil was split into thirty-four separate companies. Each one had to compete on its own.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.083,
+   0.521,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/ExxonMobil",
+  "what": "highlight \"ExxonMobil\"",
+  "said": "In nineteen ninety-nine, two of those old pieces, Exxon and Mobil, merged again. ExxonMobil became one of the biggest companies in the world.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.083,
+   0.267,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Rockefeller_Foundation",
+  "what": "highlight \"Rockefeller Foundation\"",
+  "said": "He helped found the University of Chicago. He created a medical research institute that became Rockefeller University. And in nineteen thirteen, he started the Rockefeller Foundation.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.083,
+   0.347,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Rockefeller_University",
+  "what": "highlight \"Rockefeller University\"",
+  "said": "He helped found the University of Chicago. He created a medical research institute that became Rockefeller University. And in nineteen thirteen, he started the Rockefeller Foundation.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.083,
+   0.341,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Federal Trade Commission",
+  "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws",
+  "what": "highlight \"The Antitrust Laws\"",
+  "said": "The first two are what great businesses still do. The last two are why we now have antitrust laws.",
+  "file": "s22.png",
+  "box": [
+   0.107,
+   0.201,
+   0.355,
+   0.279
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 74,
+  "source": "U.S. Department of Justice",
+  "url": "https://www.justice.gov/atr",
+  "what": "highlight \"Antitrust Division\"",
+  "said": "And the same debate is happening today, about giant tech companies. Are they winning because they're better, or because they're too big for anyone to challenge?",
+  "file": "s23.png",
+  "box": [
+   0.256,
+   0.323,
+   0.352,
+   0.361
+  ],
+  "page": null,
+  "ok": true
+ }
+]

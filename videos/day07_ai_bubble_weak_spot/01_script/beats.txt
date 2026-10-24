@@ -1,0 +1,224 @@
+# Day 7: The AI Bubble Has One Weak Spot. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The Building in the Desert ----------
+|| title:"The Building in the Desert"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] By twenty thirty, data centers could use about as much electricity as all of Japan uses today, according to the International Energy Agency. || title:"The Building in the Desert"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
+Imagine you're building a new city. || title:"The Building in the Desert"; A08@0.2,0.6:0.58~l; E33@0.62,0.4:0.32~drop; note:"DATA CENTER"@0.66,0.12; G15@0.85,0.4:0.32~pop; E17@0.62,0.76:0.32~pop; H18@0.85,0.76:0.32:"= ALL OF JAPAN"~pop
+Now picture that city in the flat, dusty land outside Abilene, Texas. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop
+That's where Rosa works. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop; note:"Abilene, TX"@0.66,0.12
+She's an electrician, and she's never been this busy. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop; note:"Abilene, TX"@0.66,0.12; E33@0.15,0.4:0.32~pop; E24@0.38,0.76:0.32~pop
+She's helping wire one of the biggest computer buildings ever made. || title:"The Building in the Desert"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.908,0.769,1+0.8; H04@0.9,1.0:0.3:bottom
+Rows and rows of machines, packed with the chips that power artificial intelligence. || title:"The Building in the Desert"; D23@0.5,0.6:0.76
+The site is huge. || title:"The Building in the Desert"; E33@0.62,0.4:0.32~drop
+Several buildings, each longer than a football field. || title:"The Building in the Desert"; E33@0.62,0.4:0.32~drop; C28@0.2,0.6:0.58~pop
+Thousands of workers arrive every morning. || title:"The Building in the Desert"; E33@0.62,0.4:0.32~drop; C28@0.2,0.6:0.58~pop; E40@0.85,0.4:0.32~pop
+The local diner has a line out the door at lunch. || title:"The Building in the Desert"; E33@0.62,0.4:0.32~drop; C28@0.2,0.6:0.58~pop; E40@0.85,0.4:0.32~pop; E24@0.62,0.76:0.32~pop
+The pay is great. || title:"The Building in the Desert"; C11@0.80,0.6:0.58~r
+Overtime every week. || title:"The Building in the Desert"; C11@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~pop; D25@0.15,0.4:0.32~drop
+Rosa has finally started putting real money into her retirement account, her four oh one k. || title:"The Building in the Desert"; C11@0.80,0.6:0.58~r; E01@0.38,0.4:0.32~pop; D25@0.15,0.4:0.32~drop; E45@0.38,0.76:0.32~pop
+Two years ago, she was wiring houses for much less. || title:"The Building in the Desert"; C11@0.2,0.6:0.58~l
+Now companies are competing for electricians like her. || title:"The Building in the Desert"; E01@0.5,0.6:0.76
+She's even thinking about buying a new truck. || title:"The Building in the Desert"; E41@0.5,0.6:0.76
+And her four oh one k is mostly in an index fund. || title:"The Building in the Desert"; C11@0.2,0.6:0.58~none; D25@0.62,0.4:0.32~pop
+Which means a big part of it is invested in the same tech companies paying for the building she's wiring. || title:"The Building in the Desert"; C11@0.2,0.6:0.58~none; D25@0.62,0.4:0.32~pop; G11@0.85,0.4:0.32~drop; D23@0.62,0.76:0.32~pop
+So Rosa is betting on AI twice. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r
+With her job, and with her savings. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r; H16@0.38,0.4:0.32:"BET 1: JOB"~pop; note:"BET 2: SAVINGS"@0.66,0.12
+Most Americans with a retirement account are making that second bet too, whether they know it or not. || title:"The Building in the Desert"; C09@0.80,0.6:0.58~r; H16@0.38,0.4:0.32:"BET 1: JOB"~pop; note:"BET 2: SAVINGS"@0.66,0.12; C28@0.60,0.64:0.46~drop
+She doesn't really think about that. || title:"The Building in the Desert"; C11@0.2,0.6:0.58~l
+Most people don't. || title:"The Building in the Desert"; D13@0.5,0.6:0.76
+They just see their account balance going up and feel good about it. || title:"The Building in the Desert"; H27@0.5,0.6:0.76
+The big question is whether that bet pays off. || title:"The Building in the Desert"; A06@0.2,0.6:0.58~l
+AI can be genuinely useful, and still be a bad investment at today's prices. || title:"The Building in the Desert"; A06@0.2,0.6:0.58~l; C17@0.4,0.64:0.46~pop; E22@0.62,0.4:0.32~drop
+Both can be true at once. || title:"The Building in the Desert"; A06@0.80,0.6:0.58~r; C17@0.60,0.64:0.46~pop; E22@0.38,0.4:0.32~drop; D29@0.15,0.4:0.32~pop
+By the end of this video, you'll see the one weak spot in the AI boom. || title:"The Building in the Desert"; A17@0.80,0.6:0.58~r
+It isn't the technology. || title:"The Building in the Desert"; E16@0.5,0.6:0.76
+It's a simple question about who pays the bill. || title:"The Building in the Desert"; E48@0.5,0.6:0.76
+To find it, let's follow the money. || title:"The Building in the Desert"; E02@0.5,0.6:0.76
+Starting with how much is being spent. || title:"The Building in the Desert"; E48@0.5,0.6:0.76
+
+# ---------- CHAPTER 2: The Spending Spree ----------
+|| title:"The Spending Spree"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The biggest tech companies, || title:"The Spending Spree"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.241,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Microsoft, Alphabet, Amazon and Meta, are spending hundreds of billions of dollars a year on data centers and chips. || title:"The Spending Spree"; E34@0.62,0.4:0.32~drop; E02@0.85,0.4:0.32~pop; note:"$100s of BILLIONS"@0.66,0.12; A08@0.2,0.6:0.58~l
+That's more than many countries spend on everything in a year. || title:"The Spending Spree"; A08@0.2,0.6:0.58~none; E43@0.62,0.4:0.32~drop
+And it's growing, year after year. || title:"The Spending Spree"; A08@0.80,0.6:0.58; E43@0.38,0.4:0.32~drop; E02@0.15,0.4:0.32~pop; D13@0.38,0.76:0.32; E45@0.15,0.76:0.32~pop
+Why so much? || title:"The Spending Spree"; C17@0.80,0.6:0.58~l; D23@0.38,0.4:0.32~pop
+Training and running AI models takes enormous computing power. || title:"The Spending Spree"; C17@0.80,0.6:0.58~l; D23@0.38,0.4:0.32~pop; E33@0.15,0.4:0.32~drop
+Each new model is bigger than the last, and needs more chips, more buildings and more electricity. || title:"The Spending Spree"; D13@0.5,0.6:0.76
+Each company is afraid of falling behind. || title:"The Spending Spree"; E34@0.5,0.6:0.76
+If a rival builds a smarter AI first, customers might never come back. || title:"The Spending Spree"; E34@0.62,0.4:0.32~drop; A10@0.2,0.6:0.58~pop
+So nobody wants to be the one who spends less. || title:"The Spending Spree"; E34@0.62,0.4:0.32~drop; A10@0.2,0.6:0.58~pop; E28@0.85,0.4:0.32~pop
+Their leaders have said it plainly. || title:"The Spending Spree"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Meta Investor Relations" hl=0.121,0.012,0.253,0.105+0.8; H04@0.9,1.0:0.3:bottom
+The risk of spending too little is bigger than the risk of spending too much. || title:"The Spending Spree"; C05@0.80,0.6:0.58~l; E51@0.38,0.4:0.32~pop; E22@0.15,0.4:0.32~drop; A05@0.60,0.64:0.46~r
+The company selling most of those chips is NVIDIA. || title:"The Spending Spree"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: NVIDIA Investor Relations"; H04@0.9,1.0:0.3:bottom
+In twenty twenty-five, it became the first company in history worth five trillion dollars. || title:"The Spending Spree"; H17@0.5,0.6:0.76:"$5 TRILLION"
+Its top AI chips can cost tens of thousands of dollars each. || title:"The Spending Spree"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
+A single large data center can hold hundreds of thousands of them. || title:"The Spending Spree"; D23@0.62,0.4:0.32~pop; H17@0.85,0.4:0.32:"$30,000+"~pop; E33@0.62,0.76:0.32~drop; C28@0.2,0.6:0.58~pop
+And the buildings need power. || title:"The Spending Spree"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Energy Information Administration" hl=0.2,0.106,0.791,0.16+0.8; H04@0.9,1.0:0.3:bottom
+So much that some tech companies are signing deals to restart old nuclear plants and build new power stations. || title:"The Spending Spree"; E17@0.62,0.4:0.32~drop; E33@0.85,0.4:0.32~pop; E47@0.62,0.76:0.32~pop; note:"NUCLEAR"@0.66,0.12; A35@0.2,0.6:0.58~l
+Some data centers use as much electricity as a small city. || title:"The Spending Spree"; A35@0.80,0.6:0.58; E33@0.38,0.4:0.32~drop
+In some areas, power bills for regular households are rising partly because of new demand from data centers. || title:"The Spending Spree"; A35@0.80,0.6:0.58; E33@0.38,0.4:0.32~drop; E17@0.15,0.4:0.32~pop; E35@0.38,0.76:0.32~pop; H17@0.15,0.76:0.32:"POWER BILL ↑"~pop
+That's why Rosa's job exists. || title:"The Spending Spree"; H24@0.5,0.6:0.76
+Every dollar of AI spending eventually becomes concrete, copper wire, cooling pipes, and paychecks for people like her. || title:"The Spending Spree"; E33@0.5,0.6:0.76
+Whole towns are being changed by this. || title:"The Spending Spree"; C11@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop
+Land that was cheap farmland a few years ago is now selling for many times its old price. || title:"The Spending Spree"; C11@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; E35@0.85,0.4:0.32~pop; H17@0.62,0.76:0.32:"X5"~pop; E33@0.85,0.76:0.32~pop
+So far, the money flowing out is easy to see. || title:"The Spending Spree"; E02@0.38,0.4:0.32~pop
+Now comes the harder part. || title:"The Spending Spree"; E02@0.38,0.4:0.32~pop; E48@0.15,0.4:0.32~pop
+How much money is flowing back in? || title:"The Spending Spree"; E02@0.38,0.4:0.32~pop; E48@0.15,0.4:0.32~pop; A06@0.80,0.6:0.58~r
+
+# ---------- CHAPTER 3: Who Pays the Bill? ----------
+|| title:"Who Pays the Bill?"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Think about a new shopping mall. || title:"Who Pays the Bill?"; E34@0.5,0.6:0.76
+The builder spends millions on the building. || title:"Who Pays the Bill?"; E34@0.5,0.6:0.76
+But the mall only makes money if stores rent space, and shoppers actually buy things. || title:"Who Pays the Bill?"; E36@0.5,0.6:0.76
+AI works the same way. || title:"Who Pays the Bill?"; E33@0.62,0.4:0.32~drop
+Tech companies build data centers. || title:"Who Pays the Bill?"; E33@0.62,0.4:0.32~drop; D23@0.85,0.4:0.32~pop; E07@0.62,0.76:0.32~pop
+Then they rent out the computing power, or sell AI tools, to businesses and people. || title:"Who Pays the Bill?"; E33@0.62,0.4:0.32~drop; D23@0.85,0.4:0.32~pop; E07@0.62,0.76:0.32~pop; C28@0.2,0.6:0.58~pop
+Some companies charge a monthly subscription. || title:"Who Pays the Bill?"; C28@0.80,0.6:0.58; E07@0.38,0.4:0.32~drop
+Others charge businesses for every question their apps send to the AI. || title:"Who Pays the Bill?"; C28@0.80,0.6:0.58; E07@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"$20/MONTH"~pop
+Either way, revenue has to come from somewhere. || title:"Who Pays the Bill?"; C28@0.80,0.6:0.58; E07@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"$20/MONTH"~pop; E08@0.38,0.76:0.32~pop; E01@0.15,0.76:0.32~pop
+For the math to work, those customers must pay enough, year after year, to cover the buildings, the chips, the electricity, and a profit on top. || title:"Who Pays the Bill?"; E22@0.5,0.6:0.76
+In twenty twenty-four, one investor at a big venture firm called this AI's six hundred billion dollar question. || title:"Who Pays the Bill?"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Sequoia Capital" hl=0.296,0.824,0.704,0.984+0.8; H04@0.9,1.0:0.3:bottom
+That was roughly how much yearly revenue he thought AI needed to justify the spending. || title:"Who Pays the Bill?"; C21@0.2,0.6:0.58~r; H18@0.62,0.4:0.32:"$600 BILLION?"~drop; E48@0.85,0.4:0.32~pop; A06@0.4,0.64:0.46~l
+Since then, the spending has only grown. || title:"Who Pays the Bill?"; C21@0.80,0.6:0.58; D13@0.38,0.4:0.32
+So the question has grown too. || title:"Who Pays the Bill?"; C21@0.80,0.6:0.58; D13@0.38,0.4:0.32; E02@0.15,0.4:0.32~pop; E48@0.38,0.76:0.32~drop; E45@0.15,0.76:0.32~pop
+To be fair, AI revenue is growing fast too. || title:"Who Pays the Bill?"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
+OpenAI, the company behind ChatGPT, has said its yearly revenue reached many billions of dollars. || title:"Who Pays the Bill?"; D13@0.5,0.6:0.76
+But its spending commitments are far bigger. || title:"Who Pays the Bill?"; E22@0.5,0.6:0.76
+And here's the tricky part. || title:"Who Pays the Bill?"; C28@0.2,0.6:0.58~drop
+Lots of people use AI chatbots every week. || title:"Who Pays the Bill?"; C28@0.2,0.6:0.58~drop; E08@0.62,0.4:0.32~pop
+But most of them use the free version. || title:"Who Pays the Bill?"; C28@0.2,0.6:0.58~drop; E08@0.62,0.4:0.32~pop; C17@0.4,0.64:0.46~pop; H17@0.85,0.4:0.32:"FREE"~pop
+Free users cost money to serve, but don't pay anything. || title:"Who Pays the Bill?"; C28@0.80,0.6:0.58~drop; E08@0.38,0.4:0.32~pop; C17@0.60,0.64:0.46~pop; H17@0.15,0.4:0.32:"FREE"~pop; D02@0.38,0.76:0.32~pop
+Businesses are trying AI everywhere. || title:"Who Pays the Bill?"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: MIT Sloan" hl=0.271,0.263,0.729,0.328+0.8; H04@0.9,1.0:0.3:bottom
+But a twenty twenty-five study from M I T researchers found that most company AI pilot projects weren't yet showing a clear return. || title:"Who Pays the Bill?"; C28@0.80,0.6:0.58; E34@0.38,0.4:0.32~drop; E07@0.15,0.4:0.32~pop; D14@0.38,0.76:0.32; E16@0.15,0.76:0.32~pop
+That doesn't mean AI is useless. || title:"Who Pays the Bill?"; C09@0.2,0.6:0.58~l
+Many workers say it saves them time. || title:"Who Pays the Bill?"; E07@0.5,0.6:0.76
+But saving time doesn't always turn into a bill someone is willing to pay. || title:"Who Pays the Bill?"; C09@0.2,0.6:0.58~l; E24@0.62,0.4:0.32~pop; E07@0.85,0.4:0.32~pop; H15@0.62,0.76:0.32:"BILL?"~drop
+That's the weak spot. || title:"Who Pays the Bill?"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.303,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Not whether AI works. || title:"Who Pays the Bill?"; A17@0.2,0.6:0.58~l; H18@0.62,0.4:0.32:"THE WEAK SPOT"~drop
+Whether enough people and businesses will pay enough for it, fast enough, to cover the bill already being spent. || title:"Who Pays the Bill?"; A17@0.2,0.6:0.58~l; H18@0.62,0.4:0.32:"THE WEAK SPOT"~drop; D23@0.85,0.4:0.32~pop; H15@0.62,0.76:0.32:"WHO PAYS?"~pop
+And this isn't the first time investors have built ahead of their customers. || title:"Who Pays the Bill?"; E23@0.38,0.4:0.32~pop; E25@0.15,0.4:0.32~drop
+History has a famous example. || title:"Who Pays the Bill?"; E25@0.5,0.6:0.76
+
+# ---------- CHAPTER 4: The Last Time This Happened ----------
+|| title:"The Last Time This Happened"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In the late nineteen nineties, everyone was sure the internet would change the world. || title:"The Last Time This Happened"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.294,0.135+0.8; H04@0.9,1.0:0.3:bottom
+They were right. || title:"The Last Time This Happened"; E43@0.5,0.6:0.76
+Companies with dot com in their name saw their stock prices jump, even with no profits. || title:"The Last Time This Happened"; E07@0.5,0.6:0.76
+Some had barely any sales at all. || title:"The Last Time This Happened"; A21@0.2,0.6:0.58~none; E07@0.62,0.4:0.32~pop; H18@0.85,0.4:0.32:".COM"~drop; D13@0.62,0.76:0.32; E26@0.85,0.76:0.32~pop
+So companies raced to build the internet's roads. || title:"The Last Time This Happened"; A21@0.2,0.6:0.58~none; E31@0.62,0.4:0.32~drop
+Phone and cable companies laid huge amounts of fiber-optic cable under oceans and across America. || title:"The Last Time This Happened"; A21@0.80,0.6:0.58; E31@0.38,0.4:0.32~drop; G13@0.15,0.4:0.32~pop; E43@0.38,0.76:0.32~pop; E33@0.15,0.76:0.32~pop
+The star of that boom was Cisco, which sold the equipment that moved internet traffic. || title:"The Last Time This Happened"; A21@0.80,0.6:0.58; E34@0.38,0.4:0.32~drop; note:"CISCO"@0.66,0.12; E27@0.15,0.4:0.32~pop
+In March two thousand, it briefly became the most valuable company in the world. || title:"The Last Time This Happened"; E25@0.5,0.6:0.76
+Sound familiar? || title:"The Last Time This Happened"; D23@0.5,0.6:0.76
+Cisco was the NVIDIA of its time. || title:"The Last Time This Happened"; E05@0.5,0.6:0.76
+The company selling the shovels in a gold rush. || title:"The Last Time This Happened"; D23@0.62,0.4:0.32~pop; E34@0.85,0.4:0.32~r; E05@0.62,0.76:0.32~drop; A04@0.2,0.6:0.58~l
+But they built far more than customers needed. || title:"The Last Time This Happened"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.251,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Years later, most of that fiber was still dark, meaning nobody was using it. || title:"The Last Time This Happened"; A04@0.2,0.6:0.58~none; E31@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~pop; E20@0.62,0.76:0.32~drop; H18@0.85,0.76:0.32:"DARK FIBER"~pop
+When the bubble burst, the Nasdaq stock index fell almost eighty percent. || title:"The Last Time This Happened"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.036,0.224,0.148,0.276+0.8; H04@0.9,1.0:0.3:bottom
+Cisco's stock dropped by more than eighty percent too. || title:"The Last Time This Happened"; A04@0.80,0.6:0.58; G02@0.38,0.4:0.32~l
+Many telecom companies went bankrupt. || title:"The Last Time This Happened"; E47@0.5,0.6:0.76
+Here's the twist. || title:"The Last Time This Happened"; E07@0.5,0.6:0.76
+The internet was real. || title:"The Last Time This Happened"; E27@0.5,0.6:0.76
+It did change everything. || title:"The Last Time This Happened"; E27@0.5,0.6:0.76
+Amazon, Google and others grew into giants. || title:"The Last Time This Happened"; D13@0.5,0.6:0.76
+But investors who paid too much, too early, still lost a fortune. || title:"The Last Time This Happened"; E07@0.62,0.4:0.32~pop; E27@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32; C14@0.2,0.6:0.58~l
+Amazon's own stock fell more than ninety percent after the bubble burst. || title:"The Last Time This Happened"; C14@0.2,0.6:0.58~none; E34@0.62,0.4:0.32~pop
+It took years to recover. || title:"The Last Time This Happened"; C14@0.2,0.6:0.58~none; E34@0.62,0.4:0.32~pop; note:"AMAZON"@0.66,0.12; D14@0.85,0.4:0.32
+Being right about the future didn't protect investors from the crash. || title:"The Last Time This Happened"; C14@0.80,0.6:0.58; E34@0.38,0.4:0.32~pop; note:"AMAZON"@0.66,0.12; D14@0.15,0.4:0.32; H17@0.38,0.76:0.32:"-90%"~pop; E23@0.15,0.76:0.32~pop
+And it happened even earlier, with railways in Britain in the eighteen forties. || title:"The Last Time This Happened"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.287,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Great technology. || title:"The Last Time This Happened"; E25@0.5,0.6:0.76
+Too much building. || title:"The Last Time This Happened"; G16@0.5,0.6:0.76
+A painful crash. || title:"The Last Time This Happened"; D14@0.5,0.6:0.76
+So is AI the same story? || title:"The Last Time This Happened"; A06@0.2,0.6:0.58~l
+Not exactly. || title:"The Last Time This Happened"; H16@0.5,0.6:0.76:"DIFFERENCE"
+There's one big difference, and one new danger. || title:"The Last Time This Happened"; H16@0.5,0.6:0.76:"DIFFERENCE"
+
+# ---------- CHAPTER 5: What's Different This Time ----------
+|| title:"What's Different This Time"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The big difference is who's spending. || title:"What's Different This Time"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Microsoft Investor Relations" hl=0.142,0.092,0.259,0.139+0.8; H04@0.9,1.0:0.3:bottom
+In the dot-com bubble, many companies had no profits at all. || title:"What's Different This Time"; E34@0.62,0.4:0.32~drop; E02@0.85,0.4:0.32~pop
+Today's biggest AI spenders are some of the most profitable companies ever. || title:"What's Different This Time"; E34@0.62,0.4:0.32~drop; E02@0.85,0.4:0.32~pop; E28@0.62,0.76:0.32~pop; A21@0.2,0.6:0.58~l
+Microsoft, Alphabet and Meta earn huge amounts from software, ads and cloud services. || title:"What's Different This Time"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Alphabet Investor Relations" hl=0.121,0.1,0.879,0.136+0.8; H04@0.9,1.0:0.3:bottom
+Much of their AI spending comes from profits they already have. || title:"What's Different This Time"; A21@0.80,0.6:0.58; E34@0.38,0.4:0.32~pop; E07@0.15,0.4:0.32~pop; E01@0.38,0.76:0.32~drop; E21@0.15,0.76:0.32~pop
+That's very different from two thousand. || title:"What's Different This Time"; E25@0.5,0.6:0.76
+Back then, many companies burned through borrowed money and simply ran out. || title:"What's Different This Time"; E20@0.5,0.6:0.76
+So if AI disappoints, these companies would likely survive. || title:"What's Different This Time"; E33@0.5,0.6:0.76
+They'd just have spent a lot of money on buildings worth less than they hoped. || title:"What's Different This Time"; E34@0.62,0.4:0.32~pop; E33@0.85,0.4:0.32~drop; D14@0.62,0.76:0.32; A14@0.2,0.6:0.58~l
+But here's the new danger. || title:"What's Different This Time"; E44@0.62,0.4:0.32~drop; D28@0.85,0.4:0.32~pop
+More and more of the spending is now done with borrowed money, and through deals where companies pay each other in circles. || title:"What's Different This Time"; E44@0.62,0.4:0.32~drop; D28@0.85,0.4:0.32~pop; A05@0.2,0.6:0.58~l
+For example, in twenty twenty-five, NVIDIA said it would invest up to one hundred billion dollars in OpenAI. || title:"What's Different This Time"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
+OpenAI, in turn, plans to buy huge amounts of NVIDIA chips. || title:"What's Different This Time"; E02@0.5,0.6:0.76
+When a seller helps fund its own customers, sales can look stronger than the real demand underneath. || title:"What's Different This Time"; E02@0.5,0.6:0.76
+Analysts call this circular deals. || title:"What's Different This Time"; A38@0.2,0.6:0.58~l; E02@0.62,0.4:0.32~pop; H18@0.85,0.4:0.32:"CIRCULAR DEALS"~drop
+It's a bit like a car dealer lending you the money to buy his car. || title:"What's Different This Time"; E41@0.62,0.4:0.32~drop
+The sale counts. || title:"What's Different This Time"; E41@0.38,0.4:0.32~drop; C01@0.80,0.6:0.58~l; E02@0.15,0.4:0.32~pop
+But if you can't pay him back, he loses twice. || title:"What's Different This Time"; E41@0.38,0.4:0.32~drop; C01@0.80,0.6:0.58~l; E02@0.15,0.4:0.32~pop; D14@0.38,0.76:0.32
+Some data centers are also being paid for with big loans and bonds. || title:"What's Different This Time"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC" hl=0.371,0.412,0.81,0.48+0.8; H04@0.9,1.0:0.3:bottom
+Debt is fine when revenue arrives on time. || title:"What's Different This Time"; D24@0.5,0.6:0.76
+It's dangerous when it doesn't. || title:"What's Different This Time"; E44@0.5,0.6:0.76
+And chips get old fast. || title:"What's Different This Time"; C01@0.2,0.6:0.58~none
+A top AI chip may be outdated in just a few years, when a faster one comes out. || title:"What's Different This Time"; D23@0.5,0.6:0.76
+The building lasts decades. || title:"What's Different This Time"; C01@0.2,0.6:0.58~none; D23@0.62,0.4:0.32~pop; E23@0.85,0.4:0.32~drop
+The chips inside it don't. || title:"What's Different This Time"; C01@0.2,0.6:0.58~none; D23@0.62,0.4:0.32~pop; E23@0.85,0.4:0.32~drop; E20@0.62,0.76:0.32~pop
+So the bill doesn't just need to be paid once. || title:"What's Different This Time"; C01@0.2,0.6:0.58~none; D27@0.62,0.4:0.32~drop
+It needs to be paid again and again, every time the chips are replaced. || title:"What's Different This Time"; C01@0.80,0.6:0.58; D27@0.38,0.4:0.32~drop; H15@0.15,0.4:0.32:"BILL"~pop
+Add it all up, || title:"What's Different This Time"; D27@0.38,0.4:0.32~drop
+and the AI industry needs to grow its revenue many times over, in just a few years, to make today's spending look smart. || title:"What's Different This Time"; D13@0.5,0.6:0.76
+It's possible. || title:"What's Different This Time"; E24@0.5,0.6:0.76
+But it's a very big ask. || title:"What's Different This Time"; D27@0.62,0.4:0.32~drop; D13@0.85,0.4:0.32; E45@0.62,0.76:0.32~pop; E24@0.85,0.76:0.32~pop; A35@0.2,0.6:0.58~l
+
+# ---------- CHAPTER 6: What a Burst Would Look Like ----------
+|| title:"What a Burst Would Look Like"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] If AI revenue doesn't catch up, a bubble wouldn't pop all at once. || title:"What a Burst Would Look Like"; D29@0.62,0.4:0.32~drop; E54@0.85,0.4:0.32~pop
+It would probably start quietly. || title:"What a Burst Would Look Like"; D29@0.62,0.4:0.32~drop; E54@0.85,0.4:0.32~pop; A37@0.2,0.6:0.58~l
+First, companies would slow their spending. || title:"What a Burst Would Look Like"; A37@0.2,0.6:0.58~none
+Fewer new data centers. || title:"What a Burst Would Look Like"; A37@0.80,0.6:0.58; E33@0.38,0.4:0.32~pop
+Smaller chip orders. || title:"What a Burst Would Look Like"; A37@0.80,0.6:0.58; E33@0.38,0.4:0.32~pop; D14@0.15,0.4:0.32; D23@0.38,0.76:0.32~pop
+That would hit chip makers first. || title:"What a Burst Would Look Like"; A37@0.80,0.6:0.58; E33@0.38,0.4:0.32~pop; D14@0.15,0.4:0.32; D23@0.38,0.76:0.32~pop; E46@0.15,0.76:0.32~drop
+Then stock prices would fall. || title:"What a Burst Would Look Like"; A37@0.80,0.6:0.58; G11@0.38,0.4:0.32~drop
+And because a handful of tech giants now make up a huge share of the whole stock market, almost every index fund would feel it. || title:"What a Burst Would Look Like"; A37@0.80,0.6:0.58; G11@0.38,0.4:0.32~drop; G02@0.15,0.4:0.32~l; D14@0.38,0.76:0.32; D25@0.15,0.76:0.32~pop
+The five biggest tech companies alone make up roughly a quarter of the S and P five hundred's total value. || title:"What a Burst Would Look Like"; E34@0.5,0.6:0.76
+When they fall, the whole index falls with them. || title:"What a Burst Would Look Like"; A37@0.2,0.6:0.58~none; E34@0.62,0.4:0.32~drop; H18@0.85,0.4:0.32:"~1/4 OF S&P 500"~pop; G11@0.62,0.76:0.32~pop; D14@0.85,0.76:0.32
+Rosa would feel it twice. || title:"What a Burst Would Look Like"; C10@0.2,0.6:0.58~l
+Fewer new buildings means less work for electricians. || title:"What a Burst Would Look Like"; C10@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop; D25@0.15,0.4:0.32~drop
+And her four oh one k, full of tech stocks, would drop at the same time. || title:"What a Burst Would Look Like"; C10@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop; D25@0.15,0.4:0.32~drop; D14@0.38,0.76:0.32
+Towns like Abilene, || title:"What a Burst Would Look Like"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.284,0.135+0.8; H04@0.9,1.0:0.3:bottom
+which are betting on these projects for jobs and taxes, could be left with giant buildings and fewer workers. || title:"What a Burst Would Look Like"; E46@0.5,0.6:0.76
+But remember the dot-com lesson. || title:"What a Burst Would Look Like"; E31@0.5,0.6:0.76
+Even after a crash, the useful technology stays. || title:"What a Burst Would Look Like"; E31@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~drop
+The fiber was used later. || title:"What a Burst Would Look Like"; E31@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~drop; E33@0.62,0.76:0.32~pop
+The AI buildings would be too, just at lower prices. || title:"What a Burst Would Look Like"; E31@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~drop; E33@0.62,0.76:0.32~pop; A21@0.2,0.6:0.58~l
+Cheaper computing would then help new companies build things nobody has imagined yet, just as cheap internet helped create YouTube and Netflix after the crash. || title:"What a Burst Would Look Like"; A21@0.2,0.6:0.58~none; E17@0.62,0.4:0.32~drop; E13@0.85,0.4:0.32~pop; E07@0.62,0.76:0.32~pop; E26@0.85,0.76:0.32~pop
+Of course, the other path is possible too. || title:"What a Burst Would Look Like"; C17@0.80,0.6:0.58~l
+AI could become so useful that people and businesses pay far more for it than today. || title:"What a Burst Would Look Like"; E02@0.5,0.6:0.76
+Then this spending could look smart. || title:"What a Burst Would Look Like"; D13@0.5,0.6:0.76
+Nobody knows for sure which path we're on. || title:"What a Burst Would Look Like"; A14@0.2,0.6:0.58~l; E13@0.62,0.4:0.32~pop
+Not the companies, not the experts, and not the people on TV who sound very certain. || title:"What a Burst Would Look Like"; A14@0.2,0.6:0.58~l; E13@0.62,0.4:0.32~pop; E48@0.85,0.4:0.32~drop; E22@0.62,0.76:0.32~pop
+Even the people running these companies have admitted parts of the market may be overheated, while still saying AI will be huge in the long run. || title:"What a Burst Would Look Like"; C21@0.80,0.6:0.58~l; E51@0.38,0.4:0.32~pop; note:"OVERHEATED?"@0.66,0.12; E19@0.15,0.4:0.32~pop; E26@0.38,0.76:0.32~pop
+So what can someone like Rosa actually do? || title:"What a Burst Would Look Like"; E17@0.5,0.6:0.76
+
+# ---------- CHAPTER 7: Protecting Your Bet ----------
+|| title:"Protecting Your Bet"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] First, know what you own. || title:"Protecting Your Bet"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC" hl=0.2,0.359,0.365,0.413+0.8; H04@0.9,1.0:0.3:bottom
+Open your retirement account and look at your funds. || title:"Protecting Your Bet"; E16@0.5,0.6:0.76
+Many people are surprised by how much is in a few big tech companies. || title:"Protecting Your Bet"; E34@0.5,0.6:0.76
+Second, spread your bets. || title:"Protecting Your Bet"; A39@0.2,0.6:0.58~none; H19@0.62,0.4:0.32~drop; D24@0.85,0.4:0.32~pop
+Owning different kinds of investments, like bonds, smaller companies, or companies outside the U.S., means one bubble can't sink everything. || title:"Protecting Your Bet"; A39@0.2,0.6:0.58~none; H19@0.62,0.4:0.32~drop; D24@0.85,0.4:0.32~pop; E43@0.62,0.76:0.32~pop; E04@0.85,0.76:0.32~pop; E22@0.42,0.24:0.32~pop
+Third, don't chase. || title:"Protecting Your Bet"; doc:s23.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC"; H04@0.9,1.0:0.3:bottom
+When everyone around you says a stock can only go up, that's usually when it's most expensive. || title:"Protecting Your Bet"; A48@0.80,0.6:0.58~r; E26@0.38,0.4:0.32~pop; C28@0.60,0.64:0.46~drop; E44@0.15,0.4:0.32~pop
+And fourth, if your job depends on one boom, keep extra savings. || title:"Protecting Your Bet"; E21@0.5,0.6:0.76
+Rosa is now putting a little aside every month, just in case the overtime stops. || title:"Protecting Your Bet"; E25@0.5,0.6:0.76
+None of this is a prediction. || title:"Protecting Your Bet"; A06@0.2,0.6:0.58~l; E22@0.62,0.4:0.32~pop
+It's just how careful people prepare for something nobody can predict. || title:"Protecting Your Bet"; A06@0.2,0.6:0.58~l; E22@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~drop
+Here's the takeaway. || title:"Protecting Your Bet"; A17@0.2,0.6:0.58~l
+A great technology and a great investment are not the same thing. || title:"Protecting Your Bet"; A17@0.2,0.6:0.58~l; C17@0.4,0.64:0.46~pop; E02@0.62,0.4:0.32~pop
+The question is never just "Is AI amazing?" It's "Who pays for it, and is the price already too high?" || title:"Protecting Your Bet"; A17@0.80,0.6:0.58~r; C17@0.60,0.64:0.46~pop; E02@0.38,0.4:0.32~pop; H18@0.15,0.4:0.32:"WHO PAYS?"~drop
+Rosa finishes her shift as the sun sets over the desert. || title:"Protecting Your Bet"; E33@0.5,0.6:0.76
+Behind her, the giant building hums. || title:"Protecting Your Bet"; E05@0.5,0.6:0.76
+Nobody knows yet whether it's a gold mine or a very expensive warehouse. || title:"Protecting Your Bet"; E48@0.5,0.6:0.76
+[calm] Speaking of things that got very expensive. || title:"Protecting Your Bet"; D11@0.62,0.4:0.32~drop
+Next time, we'll look at a puzzle in the housing market. || title:"Protecting Your Bet"; D11@0.62,0.4:0.32~drop; E48@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32
+Why nobody can buy a house, even when prices should be falling. || title:"Protecting Your Bet"; D11@0.62,0.4:0.32~drop; E48@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32; A23@0.2,0.6:0.58~l
+
+|| endscreen; hold:10

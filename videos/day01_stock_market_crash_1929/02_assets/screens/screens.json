@@ -1,0 +1,374 @@
+[
+ {
+  "line": 0,
+  "source": "Federal Reserve History \u2014 Stock Market Crash of 1929",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "what": "highlight exactly \"Stock Market Crash of 1929\"",
+  "said": "If you put one thousand dollars into the stock market in September nineteen twenty-nine, you would wait about twenty-five years just to get it back. Twenty-five years. And that's not because you picked a bad stock.",
+  "file": "s01.png",
+  "box": [
+   0.47,
+   0.178,
+   0.615,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 3,
+  "source": "Federal Reserve History \u2014 Great Depression",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "what": "highlight exactly \"The Great Depression\"",
+  "said": "The crash didn't cause the Great Depression on its own. It was the spark. What turned a bad week on Wall Street into the worst ten years in American history was a chain of very human decisions.",
+  "file": "s02.png",
+  "box": [
+   0.302,
+   0.178,
+   0.42,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 7,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
+  "what": "highlight \"Dow Jones\"",
+  "said": "Everybody had to have one, and nobody fully understood how it worked. Then there was Henry Ford. His moving assembly line took the price of a Model T from about eight hundred and fifty dollars down to two hundred and sixty.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.083,
+   0.392,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 10,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "what": "highlight \"margin\"",
+  "said": "Radios on credit, furniture on credit, cars on credit. By the late twenties, most cars in America were bought on credit. And it worked, for a while.",
+  "file": "s04.png",
+  "box": [
+   0.029,
+   0.196,
+   0.109,
+   0.232
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 13,
+  "source": "SEC",
+  "url": "https://www.sec.gov/about/history",
+  "what": "highlight \"history\"",
+  "said": "A quarter of Americans still lived on farms. That's a lot of people quietly going broke during the \u201cRoaring\u201c Twenties. The second group was everyone who looked closely at the numbers.",
+  "file": "s05.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 17,
+  "source": "Federal Reserve History \u2014 Banking Panics",
+  "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+  "what": "highlight exactly \"The U.S. appeared to be poised for economic recovery\"",
+  "said": "You could buy stocks on margin. Here's how margin worked. You want a hundred dollars of stock.",
+  "file": "s06.png",
+  "box": [
+   0.147,
+   0.311,
+   0.677,
+   0.417
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 20,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stock_market_pool",
+  "what": "highlight \"pool\"",
+  "said": "For context, that was more than all the cash circulating in the entire country at the time. Wall Street had its own tricks too. Groups of wealthy traders formed \u201cpools\u201c.",
+  "file": "s07.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 24,
+  "source": "Federal Reserve History \u2014 Great Depression",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "what": "highlight exactly \"Unemployment soared\"",
+  "said": "He said that about two weeks before the crash.",
+  "file": "s08.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 29,
+  "source": "Federal Reserve History \u2014 Banking Panics",
+  "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+  "what": "highlight exactly \"a series of bank panics\"",
+  "said": "And then it didn't stop. Prices fell so fast that the ticker tape, the machine that printed stock prices, fell more than an hour behind. People were selling stocks without knowing what the price even was.",
+  "file": "s09.png",
+  "box": [
+   0.147,
+   0.311,
+   0.677,
+   0.417
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 32,
+  "source": "Federal Reserve History \u2014 Stock Market Crash of 1929",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "what": "highlight exactly \"The epic boom ended in a cataclysmic bust\"",
+  "said": "Then he did the same with stock after stock. And it worked! Prices bounced.",
+  "file": "s10.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 35,
+  "source": "Federal Reserve History \u2014 Great Depression",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "what": "highlight exactly \"Families suffered\"",
+  "said": "And this time, nobody came to the rescue. Remember margin? This is where it turned deadly.",
+  "file": "s11.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 40,
+  "source": "Federal Reserve History \u2014 Banking Panics",
+  "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+  "what": "highlight exactly \"Banking Panics of 1930-31\"",
+  "said": "These take a ridiculous amount of research, and it genuinely helps. Okay. Back to nineteen thirty.",
+  "file": "s12.png",
+  "box": [
+   0.47,
+   0.178,
+   0.612,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 43,
+  "source": "Federal Reserve History \u2014 Stock Market Crash of 1929",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "what": "highlight exactly \"The Dow did not return to its pre-crash heights until November 1954\"",
+  "said": "No phone number to call. And a lot of small banks had done exactly what everyone else did. They'd lent money to people buying stocks, or invested in stocks themselves.",
+  "file": "s13.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 46,
+  "source": "Federal Reserve History \u2014 Great Depression",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "what": "highlight exactly \"The Great Depression\"",
+  "said": "It's lent out. In December nineteen thirty, a rumor spread in New York about a bank with a very official-sounding name: the Bank of United States. Thousands of people lined up to pull their money out.",
+  "file": "s14.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 50,
+  "source": "Federal Reserve History \u2014 Banking Panics",
+  "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+  "what": "highlight exactly \"The U.S. appeared to be poised for economic recovery\"",
+  "said": "Between nineteen thirty and nineteen thirty-three, America's money supply fell by nearly thirty percent. Less money means prices fall. That sounds nice\u2026 cheaper groceries!",
+  "file": "s15.png",
+  "box": [
+   0.147,
+   0.739,
+   0.677,
+   0.861
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+  "what": "highlight \"Smoot\u2013Hawley\"",
+  "said": "Washington also had some ideas. Unfortunately. In June nineteen thirty, Congress passed the Smoot-Hawley Tariff, big new taxes on imported goods, to protect American farmers and factories.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.083,
+   0.362,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 56,
+  "source": "Federal Reserve History \u2014 Great Depression",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "what": "highlight exactly \"Industrial production plummeted\"",
+  "said": "Then, in nineteen thirty-two, with the economy already on the floor, the government raised taxes sharply to balance the budget. Squeezing an economy that was already struggling to breathe. By nineteen thirty-two, the stock market had lost eighty-nine percent of its value from the peak.",
+  "file": "s17.png",
+  "box": [
+   0.147,
+   0.726,
+   0.677,
+   0.874
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dust_Bowl",
+  "what": "highlight \"Dust Bowl\"",
+  "said": "And then nature joined in. In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. Storms of black dust rolled across Oklahoma, Kansas and Texas, so thick they blocked out the sun.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.083,
+   0.254,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 64,
+  "source": "Federal Reserve History \u2014 Stock Market Crash of 1929",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "what": "highlight exactly \"On Black Monday, October 28, 1929\"",
+  "said": "Two days later, he closed every bank in the country.",
+  "file": "s19.png",
+  "box": [
+   0.147,
+   0.311,
+   0.677,
+   0.389
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 67,
+  "source": "FDIC",
+  "url": "https://www.fdic.gov/about/history",
+  "what": "highlight \"history\"",
+  "said": "Then came the rules we still live with today. The FDIC, so your bank deposits are insured. Today that's up to two hundred and fifty thousand dollars.",
+  "file": "s20.png",
+  "box": [
+   0,
+   0.257,
+   -61.959,
+   0.335
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 71,
+  "source": "Federal Reserve History \u2014 Banking Panics",
+  "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+  "what": "highlight exactly \"Banking Panics of 1930-31\"",
+  "said": "Companies have to report their numbers. But some things can't be fixed with a law. Because they aren't in the banks\u2026 they're in us.",
+  "file": "s21.png",
+  "box": [
+   0.147,
+   0.752,
+   0.677,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 75,
+  "source": "Federal Reserve History \u2014 Stock Market Crash of 1929",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "what": "highlight exactly \"Share prices rose to unprecedented heights\"",
+  "said": "In the next video, we're looking at the other side of that story: who America actually owes all its debt to. The answer might surprise you. Subscribe so you don't miss it.",
+  "file": "s22.png",
+  "box": [
+   0.147,
+   0.956,
+   0.677,
+   1
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia \u2013 Roger Babson",
+  "url": "https://en.wikipedia.org/wiki/Roger_Babson",
+  "what": "",
+  "said": "People called it the \u201cBabson Break\u201c\u2026 and then they went right back to buying. Even the new president, Herbert Hoover, had promised America was \u201cnearer to the final triumph over poverty than ever before in the history of any land.\u201c",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia \u2013 Herbert Hoover",
+  "url": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+  "what": "",
+  "said": "More than a thousand economists signed a letter begging President Hoover not to sign it. He signed it anyway. Other countries did exactly what you'd expect.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "ok": true,
+  "page": null
+ }
+]

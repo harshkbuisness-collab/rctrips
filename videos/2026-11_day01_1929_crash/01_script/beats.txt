@@ -1,0 +1,267 @@
+# Day 1: The Crash That Broke America (1929). Built from script.md.
+# Real evidence in 02_assets/screens (sources in ../SOURCES.md). Highlight positions are from highlights.json.
+
+# ---------- COLD OPEN ----------
+[serious] If you put a thousand dollars into the American stock market in September 1929, || doc:dow_1929_graph.png@0.42,0.46 w=0.72 h=0.72 src="Source: Dow Jones Industrial Average, 1928-1930 (Wikimedia Commons, public domain)"; H04@0.9,1.0:0.32:bottom; H17@0.88,0.3:0.26:"$1,000"
+you would not see your thousand dollars again until 1954. || doc:dow_1929_graph.png@0.42,0.46 w=0.72 h=0.72 src="Source: Dow Jones Industrial Average, 1928-1930 (Wikimedia Commons, public domain)" circ=0.41,0.07,0.53,0.23; H04@0.9,1.0:0.32:bottom; H17@0.88,0.3:0.26:"$1,000"; note:"back in 1954"@0.86,0.6
+Twenty-five years. || A47@0.3,0.6:0.6; "25 YEARS"@0.72,0.4:120:red; E24@0.72,0.75:0.25
+And that's not because you picked a bad stock. || A14@0.3,0.58:0.5; G11@0.72,0.55:0.4; E48@0.32,0.2:0.15; label:"one bad stock?"@0.72,0.15>0.68,0.35
+You bought the whole market. || A14@0.3,0.58:0.5; G11@0.72,0.55:0.4; group:E01*5@0.55,0.82,0.95,0.97:0.1; note:"nope. ALL of it"@0.72,0.15
+The safest bet in America. || A04@0.3,0.58:0.5; G11@0.72,0.55:0.4; group:E01*5@0.55,0.82,0.95,0.97:0.1; H18@0.15,0.25:0.25:"SAFE"
+[dramatic] In the space of three years, the market lost almost ninety percent of its value. || D14@0.25,0.55:0.45; "-89%"@0.6,0.4:150:red; C28@0.75,0.75:0.3; A45@0.9,0.85:0.25
+One in four workers lost their job. || group:C09*4@0.1,0.25,0.9,0.6:0.3; xmark+0.6; "1 in 4"@0.5,0.85:110:red
+Nine thousand banks shut their doors, || group:D16*8@0.05,0.15,0.95,0.6:0.25; "9,000 banks"@0.5,0.8:96:red
+and the people's savings went with them. || group:D16*8@0.05,0.15,0.95,0.6:0.25; B03@0.5,0.8:0.3; label:"your savings"@0.78,0.85>0.58,0.8
+[calm] But here's the part they skip in school. || A37@0.5,0.56:0.6; E10@0.18,0.45:0.4; E16@0.82,0.4:0.25
+The crash didn't cause the Great Depression on its own. || A06@0.25,0.58:0.5; D14@0.58,0.5:0.35; E48@0.85,0.4:0.2; note:"not the whole story"@0.6,0.15
+It was the spark. || A06@0.25,0.58:0.5; D14@0.58,0.5:0.35; E19@0.85,0.5:0.3; arrow:0.68,0.5>0.8,0.5
+What turned a bad week on Wall Street into the worst ten years in American history || G11@0.2,0.55:0.35; arrow:0.33,0.55>0.48,0.55; E25@0.6,0.5:0.3; arrow:0.72,0.55>0.82,0.55; G24@0.9,0.5:0.25; label:"1 bad week"@0.2,0.18; label:"10 bad years"@0.85,0.18
+was a chain of very human decisions. || G11@0.2,0.55:0.35; arrow:0.33,0.55>0.48,0.55; E25@0.6,0.5:0.3; arrow:0.72,0.55>0.82,0.55; G24@0.9,0.5:0.25; E55@0.5,0.85:0.18; label:"human decisions"@0.2,0.88>0.42,0.86
+And a few of those decisions sound... uncomfortably familiar. || A05@0.3,0.58:0.55; E09@0.7,0.5:0.4; E48@0.7,0.15:0.15
+So let's go back to the party, before anyone knew it was ending. || A33@0.3,0.6:0.5; E24@0.7,0.45:0.3; arrow:0.62,0.25>0.5,0.25; note:"back to 1922"@0.7,0.8
+
+# ---------- 1. THE PARTY ----------
+|| title:"The party"; sting; A23@0.5,0.56:0.6; E25@0.8,0.4:0.25; hold:1.2
+[calm] It's 1922. || title:"The party"; A23@0.25,0.6:0.5; E25@0.75,0.4:0.28; G13@0.62,0.72:0.3
+The war is over, America won, || title:"The party"; A34@0.25,0.6:0.55; E28@0.62,0.5:0.3; G13@0.82,0.65:0.3
+and everyone has decided that the future is going to be amazing. || title:"The party"; A34@0.25,0.6:0.55; E28@0.62,0.5:0.3; G13@0.82,0.65:0.3; E17@0.55,0.2:0.2; note:"amazing!!"@0.82,0.25
+And honestly, it was. || A02@0.5,0.58:0.6; E45@0.8,0.5:0.35; E01@0.2,0.7:0.2
+For the first time, ordinary families could buy things that felt like science fiction. || C11@0.2,0.6:0.45; C27@0.33,0.7:0.25; E36@0.65,0.65:0.35
+Electric refrigerators. || C11@0.2,0.6:0.45; C27@0.33,0.7:0.25; E36@0.65,0.65:0.35; H19@0.62,0.25:0.25; label:"new gadgets"@0.82,0.2>0.68,0.25
+Vacuum cleaners. || C11@0.2,0.6:0.45; C27@0.33,0.7:0.25; E36@0.65,0.65:0.35; H19@0.62,0.25:0.25; label:"new gadgets"@0.82,0.2>0.68,0.25; H20@0.88,0.55:0.2
+And the radio, which was basically the iPhone of the 1920s. || C11@0.2,0.6:0.45; C27@0.33,0.7:0.25; H21@0.65,0.45:0.3; E08@0.88,0.5:0.18; note:"the iPhone of 1925"@0.68,0.15
+Everybody had to have one, and nobody fully understood how it worked. || H21@0.5,0.45:0.35; C28@0.5,0.82:0.3; E48@0.5,0.15:0.15
+Then there was Henry Ford. || E33@0.3,0.55:0.45; E41@0.7,0.6:0.3; label:"Henry Ford"@0.3,0.15
+His moving assembly line took the price of a Model T || E33@0.2,0.55:0.4; E41@0.55,0.62:0.25; H17@0.82,0.4:0.35:"$850"
+from about eight hundred and fifty dollars down to two hundred and sixty. || E33@0.2,0.55:0.4; E41@0.55,0.62:0.25; H17@0.82,0.4:0.35:"$850"; arrow:0.72,0.45>0.72,0.68; H17@0.82,0.75:0.3:"$260"
+A car went from a rich man's toy to something a factory worker could actually own. || C21@0.2,0.6:0.45; arrow:0.33,0.6>0.55,0.6; E41@0.62,0.62:0.25; C10@0.82,0.6:0.4
+[sarcastic] But there was a small problem. || A07@0.5,0.58:0.6; E44@0.8,0.4:0.25; label:"uh oh"@0.8,0.15>0.8,0.3; E01@0.2,0.8:0.15
+Most families still didn't have two hundred and sixty dollars lying around. || A32@0.3,0.58:0.55; H17@0.7,0.45:0.3:"$260"; E48@0.7,0.15:0.15
+So America invented a brand new idea... buy now, pay later. || A04@0.25,0.58:0.55; H18@0.68,0.5:0.6:"BUY NOW, PAY LATER"; E17@0.25,0.15:0.18; D18@0.9,0.85:0.18
+The installment plan. || H18@0.5,0.4:0.55:"BUY NOW, PAY LATER"; D18@0.2,0.75:0.22; E25@0.8,0.75:0.22; label:"a little every month"@0.5,0.88
+A little down, a little every month. || H18@0.5,0.4:0.55:"BUY NOW, PAY LATER"; D18@0.2,0.75:0.22; E25@0.8,0.75:0.22; label:"a little every month"@0.5,0.88
+Radios on credit, || H21@0.15,0.45:0.25; D18@0.15,0.75:0.15; note:"credit"@0.15,0.15
+furniture on credit, || H21@0.15,0.45:0.25; D18@0.15,0.75:0.15; H25@0.5,0.45:0.28; D18@0.5,0.75:0.15; note:"credit"@0.15,0.15; note:"credit"@0.5,0.15
+cars on credit. || H21@0.15,0.45:0.25; D18@0.15,0.75:0.15; H25@0.5,0.45:0.28; D18@0.5,0.75:0.15; E41@0.85,0.45:0.2; D18@0.85,0.75:0.15; note:"credit"@0.15,0.15; note:"credit"@0.5,0.15; note:"credit"@0.85,0.15
+By the late twenties, most cars in America were bought on credit. || group:E41*6@0.08,0.3,0.92,0.7:0.15; D18@0.5,0.85:0.15; A05@0.9,0.85:0.25
+[calm] And it worked, for a while. || A02@0.3,0.58:0.55; E45@0.7,0.5:0.35; E01@0.55,0.82:0.15; note:"...for a while"@0.7,0.15
+Factories made more, || E33@0.2,0.4:0.3; arrow:0.3,0.4>0.45,0.4; label:"factories"@0.2,0.15; C28@0.7,0.75:0.25
+workers earned more, || E33@0.2,0.4:0.3; arrow:0.3,0.4>0.45,0.4; C11@0.55,0.4:0.3; arrow:0.62,0.45>0.72,0.62
+people bought more. || E33@0.2,0.4:0.3; arrow:0.3,0.4>0.45,0.4; C11@0.55,0.4:0.3; arrow:0.62,0.45>0.72,0.62; E36@0.8,0.72:0.25; arrow:0.68,0.8>0.28,0.55
+Prices were stable, wages were going up, || E33@0.2,0.4:0.3; C11@0.55,0.4:0.3; E36@0.8,0.72:0.25; E45@0.88,0.25:0.2; label:"wages"@0.72,0.15>0.85,0.22
+and the economy felt like a machine that only had one gear: forward. || E33@0.2,0.4:0.3; C11@0.55,0.4:0.3; E36@0.8,0.72:0.25; E45@0.88,0.25:0.2; note:"one gear: FORWARD"@0.4,0.85
+But underneath the party, two groups of people weren't invited. || A34@0.25,0.6:0.45; C28@0.75,0.65:0.3; A41@0.88,0.85:0.25; label:"not invited"@0.6,0.25>0.78,0.55
+The first was farmers. || title:"The party"; C14@0.3,0.6:0.45; E35@0.72,0.55:0.35; label:"farmers"@0.3,0.2
+During the war, Europe needed American food, || C14@0.2,0.6:0.4; G16@0.7,0.45:0.35; arrow:0.3,0.5>0.58,0.45; E39@0.45,0.3:0.18
+so farmers borrowed money to buy more land and more tractors. || C14@0.2,0.6:0.4; G16@0.7,0.45:0.35; D28@0.45,0.75:0.3; label:"loans"@0.6,0.9>0.5,0.78
+When the war ended, Europe started growing its own food again, || C14@0.2,0.6:0.4; G16@0.7,0.45:0.35; D28@0.45,0.75:0.3; xmark+0.5
+prices collapsed, || C16@0.2,0.6:0.4; D14@0.6,0.5:0.35; D28@0.85,0.7:0.3
+and farmers were stuck with the debt. || C16@0.2,0.6:0.4; D14@0.6,0.5:0.35; D28@0.85,0.7:0.3; E55@0.2,0.9:0.12
+A quarter of Americans still lived on farms. || group:C14*4@0.05,0.3,0.95,0.7:0.3; "1 in 4 Americans"@0.5,0.88:80:red
+That's a lot of people quietly going broke during the "Roaring" Twenties. || group:C14*4@0.05,0.3,0.95,0.7:0.3; A32@0.9,0.85:0.25; note:"'roaring'"@0.5,0.12
+The second group was everyone who looked closely at the numbers. || A39@0.3,0.58:0.55; D24@0.7,0.5:0.35; E27@0.7,0.82:0.15; label:"the numbers"@0.7,0.15>0.7,0.35
+Because the money wasn't just going into radios and Fords anymore. || H21@0.2,0.55:0.25; E41@0.4,0.6:0.2; E03@0.7,0.4:0.35
+It was going somewhere much more exciting. || E03@0.3,0.4:0.35; arrow:0.42,0.45>0.6,0.45; G11@0.75,0.5:0.4; A08@0.15,0.85:0.25
+
+# ---------- 2. THE CASINO ----------
+|| title:"The casino"; sting; G11@0.5,0.55:0.5; hold:1.2
+[calm] Before the 1920s, the stock market was mostly for rich people in top hats. || title:"The casino"; C02@0.3,0.6:0.5; C04@0.6,0.6:0.45; G11@0.85,0.55:0.35
+By 1929, it was for everyone. || title:"The casino"; C02@0.3,0.6:0.5; C04@0.6,0.6:0.45; G11@0.85,0.55:0.35; C28@0.45,0.85:0.3
+[sarcastic] Teachers, nurses, factory workers, your barber. || group:C09*4@0.08,0.2,0.92,0.75:0.32; label:"teacher"@0.18,0.85; label:"nurse"@0.39,0.85; label:"factory"@0.61,0.85; label:"barber"@0.82,0.85
+There's a famous story, maybe true, maybe not, || A06@0.5,0.58:0.6; E22@0.82,0.45:0.25; note:"legend?"@0.82,0.15
+that a rich investor named Joseph Kennedy got a stock tip from the boy shining his shoes... || C21@0.3,0.6:0.5; C27@0.65,0.72:0.35; bubble:"Buy RCA, mister!"@0.75,0.25:l
+and decided it was time to sell everything. || C21@0.3,0.6:0.5; C27@0.65,0.72:0.35; bubble:"Buy RCA, mister!"@0.75,0.25:l; think:"time to SELL"@0.2,0.15
+When the shoeshine boy is giving stock tips, the party might be ending. || A13@0.3,0.6:0.55; C27@0.7,0.72:0.35; E44@0.7,0.3:0.2
+And here's the thing that made it truly dangerous. || A37@0.5,0.58:0.6; E18@0.82,0.6:0.25; E44@0.15,0.35:0.25; E49@0.82,0.2:0.15
+You didn't need much money to play. You could buy stocks on margin. || A18@0.25,0.58:0.55; "margin"@0.65,0.35:110:red; E01@0.65,0.7:0.2
+[serious] Here's how margin worked. || title:"The casino"; A38@0.9,0.78:0.38; "How margin works"@0.6,0.2:60:black; D24@0.6,0.6:0.3; E01@0.85,0.65:0.2
+You want a hundred dollars of stock. || title:"The casino"; A38@0.9,0.78:0.38; "How margin works"@0.6,0.2:60:black; bars:"Stock"=100
+You put down ten dollars of your own money, || title:"The casino"; A38@0.9,0.78:0.38; "How margin works"@0.6,0.2:60:black; bars:"Stock"=100,"Yours"=10
+and your broker lends you the other ninety. || title:"The casino"; A38@0.9,0.78:0.38; "How margin works"@0.6,0.2:60:black; bars:"Stock"=100,"Yours"=10,"Borrowed"=90
+If the stock goes up ten percent, || A02@0.15,0.62:0.5; "Stock +10%"@0.6,0.2:72:black; E45@0.88,0.5:0.3; H17@0.55,0.55:0.4:"+$10"
+you've made ten dollars on a ten-dollar bet. You just doubled your money. || A34@0.15,0.62:0.5; "Stock +10%"@0.6,0.2:72:black; E45@0.88,0.5:0.3; H17@0.55,0.55:0.4:"+$10"; "+100% for YOU"@0.55,0.85:90:red
+[dramatic] But if the stock drops ten percent, your ten dollars is gone. || A09@0.15,0.62:0.5; "Stock -10%"@0.6,0.2:72:black; E46@0.88,0.5:0.3; H17@0.55,0.55:0.4:"-$10"; "-100%"@0.55,0.85:90:red
+And if it drops more, you owe the broker money you don't have. || A10@0.15,0.62:0.5; C02@0.55,0.6:0.45; bubble:"You owe me."@0.75,0.2:l; G20@0.88,0.7:0.3
+By 1929, Americans had borrowed around eight and a half billion dollars just to buy stocks. || doc:fed_crash_speculators.png@0.5,0.3 w=0.86 src="Source: Federal Reserve History, Stock Market Crash of 1929" hl=0.224,0.19,0.488,0.288+1.0; "$8.5 BILLION"@0.35,0.75:110:red; A45@0.85,0.8:0.3
+For context, that was more than all the cash circulating in the entire country at the time. || E01@0.3,0.55:0.4; E04@0.7,0.6:0.25; label:"borrowed for stocks"@0.3,0.15; label:"all US cash"@0.7,0.25; circle:0.15,0.25,0.45,0.85
+[sarcastic] Wall Street had its own tricks too. || title:"The casino"; C02@0.3,0.6:0.5; C13@0.55,0.6:0.45; H13@0.8,0.6:0.45
+Groups of wealthy traders formed "pools". || title:"The casino"; C02@0.3,0.6:0.5; C13@0.55,0.6:0.45; H13@0.8,0.6:0.45; note:"'pools'"@0.55,0.15
+They'd quietly buy a stock, trade it back and forth among themselves to make it look popular, || C02@0.2,0.5:0.4; H13@0.8,0.5:0.4; D24@0.5,0.35:0.2; arrow:0.3,0.3>0.7,0.3; arrow:0.7,0.6>0.3,0.6
+let the newspapers hype it up... || C02@0.2,0.5:0.4; H13@0.8,0.5:0.4; D24@0.5,0.35:0.2; E09@0.5,0.75:0.3; label:"HOT STOCK!"@0.5,0.92
+then sell to everyone who came running. || H13@0.8,0.5:0.4; C28@0.3,0.65:0.35; D24@0.5,0.35:0.2; note:"pump... and dump"@0.5,0.12
+Totally illegal today. Totally normal back then. || H13@0.75,0.55:0.45; E55@0.4,0.55:0.25; A14@0.15,0.6:0.45
+[calm] And the market went up. Then up again. || D13@0.3,0.55:0.45; E45@0.7,0.5:0.3; A34@0.88,0.8:0.25
+From 1921 to its peak in September 1929, the Dow Jones went up about six times. || doc:fed_crash_sixfold.png@0.5,0.32 w=0.86 src="Source: Federal Reserve History, Stock Market Crash of 1929" hl=0.741,0.277,0.921,0.42+0.8; "6x"@0.3,0.78:150:red; A08@0.8,0.8:0.3
+People started believing the line could only go one way. || D13@0.35,0.55:0.5; A34@0.72,0.6:0.4; note:"only up!"@0.75,0.18
+Even the experts agreed. || C05@0.3,0.58:0.5; C13@0.65,0.6:0.4; E28@0.88,0.6:0.2
+One of the most famous economists in America, a Yale professor named Irving Fisher, || A38@0.25,0.6:0.5; E10@0.65,0.5:0.45; label:"Irving Fisher, Yale"@0.65,0.15
+said stock prices had reached... quote... "a permanently high plateau." || A38@0.25,0.6:0.5; E10@0.65,0.5:0.45; label:"Irving Fisher, Yale"@0.65,0.15; "'a permanently high plateau'"@0.65,0.85:56:black
+[sarcastic] He said that about two weeks before the crash. || A47@0.5,0.75:1.5; E24@0.85,0.3:0.25
+Not his best work. || A13@0.5,0.58:0.6; H26@0.82,0.5:0.25; xmark+0.2
+There were warnings. || title:"The casino"; E44@0.5,0.5:0.45; A05@0.2,0.6:0.45; E44@0.82,0.3:0.25; E44@0.82,0.75:0.2
+In September, an investor named Roger Babson stood up and said, || C13@0.25,0.6:0.5; E14@0.25,0.75:0.3; label:"Roger Babson"@0.25,0.15
+"Sooner or later a crash is coming, and it may be terrific." || C13@0.25,0.6:0.5; E14@0.25,0.75:0.3; label:"Roger Babson"@0.25,0.15; bubble:"Sooner or later a crash is coming..."@0.62,0.25:l; E44@0.82,0.65:0.25
+That day, the market dropped. People called it the "Babson Break"... || D14@0.3,0.55:0.4; note:"the Babson Break"@0.65,0.3; C28@0.7,0.75:0.3
+and then they went right back to buying. || D13@0.3,0.55:0.4; C28@0.7,0.7:0.3; E01@0.7,0.35:0.2; A13@0.9,0.85:0.25
+[calm] Even the new president, Herbert Hoover, had promised America was || C05@0.3,0.6:0.5; G09@0.75,0.55:0.35; E25@0.75,0.15:0.15
+"nearer to the final triumph over poverty than ever before in the history of any land." || C05@0.3,0.6:0.5; G09@0.75,0.55:0.35; bubble:"nearer to the final triumph over poverty..."@0.65,0.2:l; label:"Aug 1928"@0.12,0.15
+Everyone was a genius. || group:A34*3@0.1,0.3,0.9,0.75:0.35; E27@0.5,0.15:0.15
+Everyone was rich, on paper. || group:A34*3@0.1,0.3,0.9,0.75:0.35; H28@0.5,0.85:0.2; note:"(on paper)"@0.75,0.88
+And almost nobody asked what would happen if the line went down. || D13@0.3,0.55:0.4; arrow:0.45,0.3>0.62,0.6; D14@0.72,0.55:0.4; E48@0.5,0.15:0.15
+
+# ---------- 3. THE CRASH ----------
+|| title:"The crash"; sting; E24@0.5,0.55:0.4; hold:1.3
+[serious] Thursday, October 24th, 1929. || title:"The crash"; E25@0.4,0.5:0.4; "OCT 24, 1929"@0.7,0.5:80:red; A44@0.88,0.8:0.25
+The market opened, and the selling started. || G11@0.3,0.55:0.45; E46@0.7,0.5:0.3; C28@0.6,0.85:0.25
+And then it didn't stop. || G11@0.3,0.55:0.45; E46@0.7,0.5:0.3; C28@0.6,0.85:0.25; E49@0.85,0.25:0.15
+Prices fell so fast that the ticker tape, the machine that printed stock prices, || H28@0.3,0.5:0.35; C28@0.62,0.6:0.3; label:"ticker tape"@0.3,0.15>0.32,0.35
+fell more than an hour behind. || H28@0.3,0.5:0.35; C28@0.62,0.6:0.3; E24@0.82,0.45:0.25; note:"1 hour behind"@0.82,0.15
+People were selling stocks without knowing what the price even was. || C28@0.3,0.6:0.4; E48@0.3,0.2:0.15; H17@0.72,0.5:0.35:"???"
+[calm] Crowds gathered outside the New York Stock Exchange. || doc:crowd_nyse_1929.jpg@0.36,0.48 w=0.36 h=0.84 src="Source: Wall Street, Oct 1929 (Wikimedia Commons, public domain)"; A43@0.0,0.5:0.4:left; note:"Wall Street, Oct 1929"@0.72,0.25>0.55,0.4; A45@0.78,0.75:0.3
+Police were sent to Wall Street. || doc:crowd_nyse_1929.jpg@0.36,0.48 w=0.36 h=0.84 src="Source: Wall Street, Oct 1929 (Wikimedia Commons, public domain)"; A43@0.0,0.5:0.4:left; note:"Wall Street, Oct 1929"@0.72,0.25>0.55,0.4; A48@0.78,0.72:0.35
+Around noon, the biggest bankers in New York met in secret and decided to rescue the market. || C01@0.2,0.6:0.4; C02@0.4,0.6:0.4; C04@0.6,0.6:0.4; E15@0.4,0.82:0.2; label:"secret meeting"@0.75,0.2
+They sent one man onto the trading floor, Richard Whitney, the vice president of the exchange. || C13@0.3,0.6:0.5; G11@0.72,0.55:0.4; label:"Richard Whitney"@0.3,0.15
+He walked up and loudly offered to buy U.S. Steel way above the market price. || C13@0.3,0.6:0.5; G11@0.72,0.55:0.4; bubble:"U.S. Steel, 205!"@0.55,0.2:l; C28@0.72,0.88:0.2
+Then he did the same with stock after stock. || C13@0.3,0.6:0.5; group:D24*4@0.5,0.3,0.95,0.7:0.2
+[sarcastic] And it worked! Prices bounced. || A21@0.25,0.58:0.5; D13@0.65,0.5:0.4; E09@0.88,0.8:0.2; note:"phew"@0.45,0.15
+The newspapers relaxed. Crisis over. || doc:nyt_headline.jpg@0.5,0.4 w=0.76 src="Source: The New York Times, Oct 30, 1929 (Wikimedia Commons, public domain)" box=0.11,0.33,0.52,0.46+0.5; A04@0.88,0.85:0.25
+[dramatic] For about three days. || A47@0.5,0.75:1.5; E24@0.85,0.25:0.25; "3 days"@0.18,0.15:80:red
+On Monday, the Dow fell almost thirteen percent. || doc:fed_crash_black.png@0.5,0.32 w=0.86 src="Source: Federal Reserve History, Stock Market Crash of 1929" hl=0.034,0.241,0.301,0.365+0.8; "-13%"@0.3,0.78:130:red; A45@0.85,0.8:0.3
+On Tuesday, October 29th, it fell almost twelve percent more. || doc:fed_crash_black.png@0.5,0.32 w=0.86 src="Source: Federal Reserve History, Stock Market Crash of 1929" hl=0.034,0.241,0.301,0.365 hl=0.778,0.241,0.965,0.365+0.6 hl=0.034,0.373,0.116,0.497+0.8; "-13%"@0.3,0.78:130:red; "-12%"@0.55,0.78:130:red; A09@0.85,0.8:0.3
+Sixteen million shares changed hands, a record that stood for decades. || doc:nyt_headline.jpg@0.5,0.42 w=0.76 src="Source: The New York Times, Oct 30, 1929 (Wikimedia Commons, public domain)" circ=0.39,0.04,0.75,0.2+0.6; note:"16.4 million shares"@0.5,0.9
+And this time, nobody came to the rescue. || G11@0.3,0.55:0.45; E30@0.7,0.6:0.35; A41@0.88,0.85:0.25
+[serious] Remember margin? This is where it turned deadly. || "margin"@0.3,0.3:110:red; E18@0.3,0.7:0.3; A12@0.75,0.58:0.5
+As prices dropped, brokers called their customers and demanded more money: "margin calls". || C02@0.25,0.6:0.45; A35@0.75,0.6:0.45; bubble:"Pay up. Today."@0.4,0.15:r
+People who didn't have the money had their stocks sold automatically, || A32@0.25,0.6:0.45; D24@0.6,0.5:0.25; E20@0.8,0.65:0.3; arrow:0.65,0.5>0.78,0.6
+which pushed prices down further, || "The doom loop"@0.5,0.12:56:black; "price falls"@0.3,0.3:48:black; arrow:0.42,0.3>0.62,0.3
+which triggered more margin calls. || "The doom loop"@0.5,0.12:56:black; "price falls"@0.3,0.3:48:black; arrow:0.42,0.3>0.62,0.3; "margin call"@0.72,0.3:48:black; arrow:0.72,0.38>0.72,0.62; "forced selling"@0.6,0.7:48:black; arrow:0.48,0.7>0.32,0.38; E47@0.15,0.75:0.2
+In a few weeks, the market lost about forty percent. || D14@0.3,0.55:0.45; "-40%"@0.68,0.45:140:red; E25@0.68,0.8:0.18
+Paper fortunes that took years to build disappeared before lunch. || H28@0.25,0.55:0.3; E19@0.25,0.75:0.2; E40@0.7,0.55:0.25; label:"before lunch"@0.7,0.25
+[calm] But here's the strange part. || A06@0.5,0.58:0.6; E48@0.8,0.3:0.15; D13@0.2,0.7:0.25; E25@0.85,0.75:0.2
+By the spring of 1930, the market had actually recovered some of its losses. || D13@0.3,0.55:0.4; E25@0.68,0.4:0.25; label:"spring 1930"@0.68,0.15; A02@0.85,0.8:0.25
+A lot of people thought the worst was over. || C11@0.2,0.6:0.4; C15@0.45,0.6:0.4; A02@0.72,0.6:0.4; bubble:"Phew!"@0.6,0.18:l
+It wasn't. The worst hadn't even started. || A47@0.5,0.75:1.5; G24@0.85,0.25:0.25
+
+# mid-video subscribe ask
+[calm] Quick thing: if you're enjoying this, hit subscribe. || A23@0.3,0.58:0.55; "SUBSCRIBE"@0.7,0.45:90:red; H01@0.85,0.8:0.25
+These take a ridiculous amount of research, and it genuinely helps. || A23@0.3,0.58:0.55; "SUBSCRIBE"@0.7,0.45:90:red; H28@0.75,0.8:0.25; label:"research"@0.75,0.62
+Okay. Back to 1930. || A33@0.3,0.6:0.5; E25@0.7,0.45:0.3; note:"1930"@0.7,0.15
+
+# ---------- 4. THE BANKS ----------
+|| title:"The banks"; sting; D15@0.5,0.55:0.5; hold:1.2
+[serious] The crash hurt investors. What happened next hurt everyone. || title:"The banks"; G11@0.25,0.55:0.35; C28@0.65,0.6:0.45; arrow:0.35,0.45>0.5,0.5
+And it started with the banks. || title:"The banks"; D16@0.5,0.55:0.5; A05@0.85,0.8:0.25; D15@0.2,0.6:0.3; label:"the banks"@0.5,0.18>0.5,0.3
+In 1930, there was no such thing as deposit insurance. || D15@0.25,0.55:0.4; E21@0.65,0.55:0.35; xmark+0.5; label:"no insurance"@0.65,0.15
+If your bank failed, your savings were simply... gone. || D16@0.25,0.55:0.4; B09@0.65,0.6:0.35; "GONE"@0.65,0.2:96:red
+No government guarantee. No phone number to call. || D16@0.25,0.55:0.4; B09@0.65,0.6:0.35; E44@0.85,0.35:0.2; xmark+0.4
+And a lot of small banks had done exactly what everyone else did. || group:D15*4@0.1,0.25,0.9,0.65:0.25; E48@0.5,0.85:0.15
+They'd lent money to people buying stocks, or invested in stocks themselves. || D15@0.2,0.55:0.4; arrow:0.32,0.5>0.55,0.5; G11@0.7,0.55:0.4; E01@0.45,0.35:0.15
+When the market crashed, those loans went bad. || D16@0.2,0.55:0.4; D14@0.7,0.55:0.4; E19@0.45,0.75:0.2
+So people did the only logical thing. They ran. || doc:bank_run_michigan_1933.jpg@0.36,0.48 w=0.5 h=0.78 src="Source: Bank run, Michigan, Feb 1933 (Wikimedia Commons, public domain)"; A10@0.85,0.7:0.4; note:"a bank run"@0.82,0.2
+If you hear your bank might be in trouble, you don't wait to find out. || doc:bank_run_michigan_1933.jpg@0.36,0.48 w=0.5 h=0.78 src="Source: Bank run, Michigan, Feb 1933 (Wikimedia Commons, public domain)"; A10@0.85,0.7:0.4; note:"a bank run"@0.82,0.2
+You go get your money right now. || C10@0.25,0.6:0.45; D15@0.65,0.55:0.4; arrow:0.35,0.6>0.52,0.6; E24@0.88,0.3:0.2
+And when everybody does that at once, even a healthy bank collapses, || C28@0.25,0.65:0.4; D16@0.65,0.55:0.45; E47@0.65,0.2:0.2
+because banks don't keep all your money in the building. It's lent out. || E21@0.3,0.55:0.4; E04@0.3,0.8:0.12; label:"only a little in the vault"@0.3,0.15; E35@0.7,0.5:0.2; E41@0.85,0.65:0.15; label:"the rest is lent out"@0.75,0.22
+[dramatic] In December 1930, a rumor spread in New York about a bank with a very official-sounding name: || title:"The banks"; E51@0.5,0.4:0.35; C28@0.5,0.8:0.3; E25@0.85,0.3:0.2
+the Bank of United States. || doc:bank_of_us_failure.jpg@0.42,0.46 w=0.72 h=0.74 src="Source: Bank of United States failure, Dec 1930 (Wikimedia Commons, public domain)"; A45@0.9,0.85:0.25
+Thousands of people lined up to pull their money out. || doc:bank_of_us_failure.jpg@0.42,0.46 w=0.72 h=0.74 src="Source: Bank of United States failure, Dec 1930 (Wikimedia Commons, public domain)"; A45@0.9,0.85:0.25; note:"thousands"@0.88,0.25
+Within days, the bank closed. || D16@0.3,0.55:0.45; H18@0.7,0.5:0.4:"CLOSED"; C28@0.5,0.85:0.25; E24@0.9,0.3:0.18
+Around four hundred thousand depositors were locked out of their savings. || D16@0.3,0.55:0.45; H18@0.7,0.5:0.4:"CLOSED"; "400,000 people"@0.5,0.88:80:red
+[sarcastic] It wasn't even a government bank. || A07@0.3,0.58:0.55; G09@0.72,0.5:0.35; xmark+0.4
+It just sounded like one, which made the panic so much worse. || A13@0.3,0.58:0.55; E51@0.72,0.4:0.3; E47@0.72,0.75:0.2
+[serious] Then it spread. Wave after wave of bank runs, city after city. || G13@0.5,0.5:0.55; group:D16*6@0.15,0.3,0.85,0.7:0.12
+Over the next few years, about nine thousand American banks failed. || G13@0.5,0.5:0.55; group:D16*12@0.1,0.25,0.9,0.75:0.1; "9,000 banks"@0.5,0.9:80:red
+[calm] And here's where it turned from bad to catastrophic. || A37@0.5,0.58:0.6; E47@0.85,0.35:0.25; E19@0.15,0.7:0.25; note:"bad"@0.15,0.35; note:"CATASTROPHIC"@0.82,0.75
+When banks fail and people hide cash under the mattress, || H25@0.3,0.6:0.35; E01@0.3,0.82:0.15; A05@0.72,0.6:0.4
+the amount of money moving through the economy shrinks. || doc:money_stock_1927_1933.png@0.5,0.44 w=0.8 h=0.68 src="Source: US money stock 1927-1933, Friedman & Schwartz data (Wikimedia Commons, CC0)"; A43@0.0,0.55:0.35:left
+Between 1930 and 1933, America's money supply fell by nearly thirty percent. || doc:fed_dep_money.png@0.5,0.3 w=0.86 src="Source: Federal Reserve History, The Great Depression" hl=0.134,0.329,0.411,0.439+0.8; "-30%"@0.3,0.75:140:red; E01@0.7,0.75:0.25
+Less money means prices fall. || E36@0.3,0.55:0.4; E46@0.6,0.5:0.3; H17@0.82,0.5:0.3:"-25%"
+That sounds nice... cheaper groceries! || A02@0.25,0.58:0.5; E36@0.6,0.6:0.35; H17@0.82,0.45:0.3:"SALE"
+But think about it from the other side. || A06@0.5,0.58:0.6; E22@0.82,0.5:0.3; E39@0.15,0.7:0.2; C14@0.85,0.8:0.25
+If you're a farmer, your crops sell for less, || C14@0.2,0.6:0.4; E39@0.5,0.6:0.25; H17@0.5,0.3:0.2:"-50%"
+but your mortgage payment stays exactly the same. || C14@0.2,0.6:0.4; E39@0.5,0.6:0.25; H17@0.5,0.3:0.2:"-50%"; H16@0.8,0.45:0.3:"$500/mo"; label:"same bill"@0.8,0.8
+If you're a factory, your products sell for less, || E33@0.3,0.55:0.4; H17@0.65,0.4:0.25:"-30%"; C10@0.8,0.7:0.3
+so you cut wages, or you cut workers. || E33@0.3,0.55:0.4; group:C10*4@0.5,0.55,0.98,0.85:0.25; xmark+0.5
+Every falling price is somebody's falling paycheck. || H17@0.3,0.45:0.35:"PRICE"; E46@0.3,0.8:0.2; H16@0.7,0.45:0.3:"PAYCHECK"; E46@0.7,0.8:0.2
+[serious] And the Federal Reserve, the one institution built to stop exactly this kind of panic, || G10@0.3,0.55:0.45; C26@0.7,0.6:0.45; label:"the Fed"@0.3,0.15
+mostly stood back and watched. || doc:fed_dep_lender.png@0.5,0.3 w=0.86 src="Source: Federal Reserve History, The Great Depression" hl=0.391,0.147,0.763,0.316+0.6; C26@0.3,0.75:0.4; A12@0.75,0.75:0.35
+Decades later, a future Fed chairman, Ben Bernanke, publicly admitted it: || C25@0.3,0.6:0.45; E14@0.3,0.8:0.25; label:"Ben Bernanke, 2002"@0.3,0.15; E25@0.75,0.5:0.25
+"Regarding the Great Depression... we did it. We're very sorry." || doc:bernanke_wedidit.png@0.5,0.34 w=0.9 src="Source: federalreserve.gov, Bernanke speech, Nov 8, 2002" hl=0.097,0.596,0.193,0.798+0.6 hl=0.257,0.596,0.365,0.798+1.2; A47@0.5,0.85:0.35
+
+# ---------- 5. MAKING IT WORSE ----------
+|| title:"Making it worse"; sting; G09@0.5,0.55:0.5; hold:1.2
+[sarcastic] Washington also had some ideas. Unfortunately. || title:"Making it worse"; G09@0.4,0.55:0.45; A13@0.82,0.6:0.45; E17@0.4,0.2:0.18; E48@0.6,0.2:0.15
+In June 1930, Congress passed the Smoot-Hawley Tariff, || doc:smoot_hawley.jpg@0.33,0.48 w=0.4 h=0.8 src="Source: Sen. Smoot and Rep. Hawley, 1929 (Wikimedia Commons, public domain)"; G19@0.75,0.45:0.35; label:"Smoot & Hawley"@0.75,0.85
+big new taxes on imported goods, to protect American farmers and factories. || doc:smoot_hawley.jpg@0.33,0.48 w=0.4 h=0.8 src="Source: Sen. Smoot and Rep. Hawley, 1929 (Wikimedia Commons, public domain)"; G19@0.75,0.45:0.35; E31@0.75,0.82:0.2; label:"import tax"@0.75,0.15
+More than a thousand economists signed a letter begging President Hoover not to sign it. || H28@0.3,0.55:0.4; "1,028 economists"@0.3,0.15:64:red; C05@0.75,0.6:0.45
+He signed it anyway. || H28@0.3,0.55:0.4; C07@0.75,0.6:0.45; E20@0.45,0.75:0.2; arrow:0.35,0.5>0.43,0.68
+[calm] Other countries did exactly what you'd expect. || G19@0.25,0.5:0.4; G16@0.7,0.5:0.35; G14@0.85,0.75:0.25
+They put their own tariffs on American goods. || G19@0.25,0.5:0.4; G16@0.7,0.5:0.35; G14@0.85,0.75:0.25; G19@0.55,0.75:0.25; arrow:0.62,0.4>0.4,0.4
+World trade fell by about two-thirds over the next few years. || E31@0.3,0.5:0.4; E46@0.55,0.5:0.3; "-2/3"@0.78,0.5:140:red
+American farmers, the people the tariff was supposed to help, || C14@0.3,0.6:0.45; G19@0.72,0.5:0.35; label:"supposed to help"@0.3,0.15
+lost the customers they had left. || C16@0.3,0.6:0.45; E39@0.72,0.55:0.3; xmark+0.4
+Then, in 1932, with the economy already on the floor, the government raised taxes sharply to balance the budget. || A42@0.3,0.75:0.45; D26@0.7,0.5:0.4; E45@0.85,0.25:0.2
+Squeezing an economy that was already struggling to breathe. || A42@0.3,0.75:0.45; D26@0.7,0.5:0.4; A35@0.88,0.85:0.25; note:"squeeze"@0.6,0.15
+
+# ---------- 6. THE BOTTOM ----------
+|| title:"The bottom"; sting; A41@0.5,0.6:0.5; hold:1.3
+[serious] By 1932, the stock market had lost eighty-nine percent of its value from the peak. || title:"The bottom"; D14@0.3,0.55:0.45; "-89%"@0.7,0.45:150:red; E25@0.7,0.8:0.2
+A share that was worth a hundred dollars was now worth about eleven. || H17@0.3,0.5:0.35:"$100"; arrow:0.42,0.5>0.58,0.5; H17@0.7,0.5:0.35:"$11"; A47@0.5,0.85:0.3
+[calm] By 1933, one in four American workers had no job. || group:C10*8@0.05,0.25,0.95,0.7:0.25; "25%"@0.5,0.85:110:red
+There was no unemployment insurance. No food stamps. || D25@0.3,0.5:0.35; E39@0.7,0.5:0.3; xmark+0.5
+Just lines. || doc:breadline_chicago_1931.jpg@0.4,0.48 w=0.62 h=0.8 src="Source: Chicago soup kitchen line, Feb 1931 (National Archives via Wikimedia Commons)"; A41@0.88,0.8:0.3
+Breadlines stretching around city blocks. || doc:breadline_chicago_1931.jpg@0.4,0.48 w=0.62 h=0.8 src="Source: Chicago soup kitchen line, Feb 1931 (National Archives via Wikimedia Commons)"; A41@0.88,0.8:0.3; note:"Chicago, 1931"@0.86,0.3
+Men in suits, men who used to be bankers and salesmen, waiting for a bowl of soup. || doc:breadline_chicago_1931.jpg@0.4,0.48 w=0.62 h=0.8 src="Source: Chicago soup kitchen line, Feb 1931 (National Archives via Wikimedia Commons)"; C01@0.88,0.72:0.35; note:"used to be a banker"@0.86,0.3
+Families who lost their homes built shacks out of scrap wood and cardboard. || doc:hooverville.jpg@0.4,0.48 w=0.62 h=0.8 src="Source: Hooverville, Seattle, 1933 (Wikimedia Commons, CC BY 2.0)"; A45@0.88,0.8:0.3
+People called them "Hoovervilles". || doc:hooverville.jpg@0.4,0.48 w=0.62 h=0.8 src="Source: Hooverville, Seattle, 1933 (Wikimedia Commons, CC BY 2.0)"; C06@0.88,0.75:0.35; note:"'Hooverville'"@0.86,0.25
+[dramatic] And then nature joined in. || G24@0.4,0.4:0.45; A09@0.8,0.65:0.4; E50@0.85,0.3:0.15; E35@0.2,0.8:0.25
+In the Great Plains, years of drought and over-plowed soil turned the farmland to dust. || C16@0.25,0.6:0.4; E35@0.6,0.55:0.35; G24@0.6,0.2:0.25
+Storms of black dust rolled across Oklahoma, Kansas and Texas, || doc:dust_storm.jpg@0.42,0.46 w=0.72 h=0.76 src="Source: Dust storm, Stratford, Texas, 1935 (Wikimedia Commons, public domain)"; A35@0.9,0.85:0.25
+so thick they blocked out the sun. || doc:dust_storm.jpg@0.42,0.46 w=0.72 h=0.76 src="Source: Dust storm, Stratford, Texas, 1935 (Wikimedia Commons, public domain)"; A35@0.9,0.85:0.25; note:"no sun"@0.88,0.25
+Millions of people left the Plains, many heading west to California, looking for any kind of work. || doc:migrant_mother_1936.jpg@0.3,0.48 w=0.36 h=0.84 src="Source: Dorothea Lange, Migrant Mother, 1936 (Library of Congress via Wikimedia Commons)"; E41@0.72,0.4:0.25; arrow:0.6,0.6>0.85,0.6; label:"west, to California"@0.72,0.75
+[serious] In the summer of 1932, around twenty thousand World War I veterans marched on Washington. || doc:bonus_army_1932.jpg@0.42,0.46 w=0.72 h=0.76 src="Source: Bonus Army, Washington, 1932 (Wikimedia Commons, public domain)"; A44@0.9,0.85:0.25
+They'd been promised a bonus for their service, payable in 1945. || doc:bonus_army_1932.jpg@0.42,0.46 w=0.72 h=0.76 src="Source: Bonus Army, Washington, 1932 (Wikimedia Commons, public domain)"; H16@0.88,0.4:0.25:"1945"; A44@0.9,0.85:0.25
+They needed it now. They camped near the Capitol, peacefully, for weeks. || G09@0.65,0.45:0.4; group:E35*4@0.05,0.55,0.55,0.85:0.18; H18@0.25,0.3:0.35:"PAY THE BONUS"
+In the end, the army was sent in to clear them out. || G18@0.3,0.6:0.4; G09@0.72,0.45:0.35; E19@0.72,0.8:0.2
+Soldiers, using tear gas, against the soldiers of the last war. || G18@0.3,0.6:0.4; G24@0.55,0.3:0.25; C16@0.78,0.65:0.4
+Americans saw the photos, and something broke. || doc:bonus_army_1932.jpg@0.42,0.46 w=0.72 h=0.76 src="Source: Bonus Army, Washington, 1932 (Wikimedia Commons, public domain)"; A47@0.9,0.85:0.28
+
+# ---------- 7. THE WAY BACK ----------
+|| title:"The way back"; sting; A17@0.5,0.56:0.55; hold:1.2
+[calm] In March 1933, Franklin Roosevelt took office || doc:fdr_inauguration_1933.jpg@0.42,0.48 w=0.66 h=0.74 src="Source: FDR's first inauguration, March 4, 1933 (US Capitol via Wikimedia Commons)"; A44@0.9,0.85:0.25
+and said the most famous line of the whole era: "The only thing we have to fear is fear itself." || doc:fdr_inauguration_1933.jpg@0.42,0.48 w=0.66 h=0.74 src="Source: FDR's first inauguration, March 4, 1933 (US Capitol via Wikimedia Commons)"; "'The only thing we have to fear is fear itself.'"@0.42,0.05:40:black; A44@0.9,0.85:0.25
+Two days later, he closed every bank in the country. A "bank holiday". || D15@0.3,0.55:0.45; H18@0.72,0.5:0.4:"CLOSED"; E25@0.72,0.15:0.15; note:"bank holiday"@0.3,0.15
+Inspectors checked the books, and only the healthy banks were allowed to reopen. || A39@0.25,0.6:0.45; D24@0.55,0.5:0.25; D15@0.82,0.55:0.35; H18@0.82,0.15:0.18:"OPEN"
+Then he went on the radio and explained, in plain English, || A40@0.3,0.6:0.5; H21@0.72,0.5:0.35; C11@0.88,0.8:0.25; label:"fireside chat"@0.72,0.15
+why your money would be safer in the bank than under your mattress. || A40@0.3,0.6:0.5; H21@0.72,0.5:0.35; D15@0.6,0.85:0.18; H25@0.85,0.85:0.18; arrow:0.8,0.82>0.67,0.82
+[sarcastic] And people believed him, which tells you how good that radio voice must have been. || H21@0.4,0.5:0.4; A03@0.82,0.6:0.45; E27@0.4,0.15:0.15
+[calm] When the banks reopened, people actually put money back in. || C11@0.2,0.6:0.4; E01@0.38,0.55:0.15; arrow:0.43,0.55>0.6,0.55; D15@0.75,0.55:0.4
+The bank runs stopped. || D15@0.4,0.55:0.45; E28@0.75,0.5:0.25; A21@0.88,0.8:0.25
+Then came the rules we still live with today. || title:"The way back"; A38@0.2,0.6:0.5; E10@0.65,0.5:0.5; D24@0.45,0.85:0.2; E21@0.85,0.85:0.18
+The FDIC, so your bank deposits are insured. Today that's up to two hundred and fifty thousand dollars. || doc:fdic_250k.png@0.5,0.3 w=0.86 src="Source: fdic.gov, Understanding Deposit Insurance" hl=0.113,0.507,0.354,0.684+1.5; E21@0.3,0.75:0.3; "$250,000"@0.65,0.75:96:red
+The SEC, so companies have to tell the truth to investors, || D24@0.3,0.55:0.4; E16@0.55,0.55:0.25; label:"SEC (1934)"@0.3,0.15; C02@0.82,0.6:0.4
+and those "pools" from earlier became illegal. || D24@0.3,0.55:0.4; label:"SEC (1934)"@0.3,0.15; H13@0.72,0.55:0.4; E55@0.72,0.85:0.18; note:"illegal now"@0.72,0.18
+And Social Security. || D25@0.3,0.55:0.4; C15@0.7,0.6:0.45; label:"Social Security (1935)"@0.5,0.15
+The recovery was slow and bumpy. || E54@0.3,0.6:0.3; D13@0.7,0.5:0.35; E24@0.5,0.25:0.2; note:"slow..."@0.3,0.15
+It took World War Two to finally bring unemployment all the way down. || G18@0.3,0.6:0.4; E33@0.65,0.55:0.4; E46@0.88,0.5:0.2
+And the stock market? || G11@0.5,0.5:0.5; E48@0.82,0.3:0.15; A06@0.15,0.65:0.4; E25@0.85,0.75:0.2
+It didn't get back to its 1929 peak until November 1954. || doc:dow_1929_graph.png@0.42,0.46 w=0.72 h=0.72 src="Source: Dow Jones Industrial Average, 1928-1930 (Wikimedia Commons, public domain)" circ=0.41,0.07,0.53,0.23; "NOV 1954"@0.86,0.5:80:red; A47@0.9,0.85:0.25
+
+# ---------- 8. COULD IT HAPPEN AGAIN? ----------
+|| title:"Could it happen again?"; sting; A06@0.5,0.56:0.55; hold:1.3
+[calm] A lot of what broke in 1929 has been fixed. || title:"Could it happen again?"; A06@0.2,0.6:0.45; E21@0.45,0.5:0.25; D24@0.65,0.5:0.25; G10@0.85,0.5:0.25
+Your bank deposits are insured. || title:"Could it happen again?"; A06@0.2,0.6:0.45; E21@0.45,0.5:0.25; D24@0.65,0.5:0.25; G10@0.85,0.5:0.25; note:"fixed"@0.45,0.8
+The Fed now steps in fast instead of watching. || title:"Could it happen again?"; A06@0.2,0.6:0.45; E21@0.45,0.5:0.25; D24@0.65,0.5:0.25; G10@0.85,0.5:0.25; note:"fixed"@0.45,0.8; note:"fixed"@0.85,0.8
+Companies have to report their numbers. || title:"Could it happen again?"; A06@0.2,0.6:0.45; E21@0.45,0.5:0.25; D24@0.65,0.5:0.25; G10@0.85,0.5:0.25; note:"fixed"@0.45,0.8; note:"fixed"@0.85,0.8; note:"fixed"@0.65,0.8
+[serious] But some things can't be fixed with a law. || A12@0.3,0.58:0.55; D24@0.72,0.5:0.35; note:"no law for this"@0.72,0.2
+Because they aren't in the banks... they're in us. || A17@0.5,0.58:0.6; E17@0.5,0.15:0.2; D15@0.15,0.5:0.25; note:"in us"@0.8,0.2; arrow:0.75,0.25>0.58,0.3
+Borrowed money that feels like free money. || D18@0.25,0.45:0.3; "borrowed money"@0.25,0.8:52:black; circle:0.1,0.25,0.4,0.9
+Stock tips from people who've never had a bad year. || D18@0.25,0.45:0.3; "borrowed money"@0.25,0.8:52:black; circle:0.1,0.25,0.4,0.9; C27@0.55,0.5:0.3; "everyone's a genius"@0.55,0.8:52:black; circle:0.4,0.25,0.7,0.9
+And the most expensive belief in finance: "this time is different." || D18@0.25,0.45:0.3; "borrowed money"@0.25,0.8:52:black; circle:0.1,0.25,0.4,0.9; C27@0.55,0.5:0.3; "everyone's a genius"@0.55,0.8:52:black; circle:0.4,0.25,0.7,0.9; D29@0.85,0.45:0.3; "this time is different"@0.85,0.8:52:black; circle:0.7,0.25,0.99,0.9
+[dramatic] Every bubble in history has had all three. || D29@0.5,0.45:0.45; E19@0.25,0.7:0.2; E47@0.75,0.7:0.2; "3/3"@0.5,0.9:90:red
+[calm] So the next time everyone around you is getting rich on something they can't explain... || group:A34*4@0.05,0.25,0.95,0.7:0.3; E48@0.5,0.85:0.15
+remember the guy who bought in September 1929. || doc:dow_1929_graph.png@0.42,0.46 w=0.72 h=0.72 src="Source: Dow Jones Industrial Average, 1928-1930 (Wikimedia Commons, public domain)" circ=0.41,0.07,0.53,0.23; A41@0.9,0.85:0.3
+Not because he was stupid. Because he was sure. || doc:dow_1929_graph.png@0.42,0.46 w=0.72 h=0.72 src="Source: Dow Jones Industrial Average, 1928-1930 (Wikimedia Commons, public domain)" circ=0.41,0.07,0.53,0.23; A41@0.9,0.85:0.3; "25 YEARS"@0.86,0.25:64:red
+In the next video, we're looking at the other side of that story: who America actually owes all its debt to. || A18@0.3,0.58:0.5; G13@0.72,0.5:0.4; D28@0.72,0.82:0.2; E48@0.72,0.15:0.15
+The answer might surprise you. Subscribe so you don't miss it. || A23@0.3,0.58:0.5; "SUBSCRIBE"@0.7,0.42:100:red; H01@0.75,0.78:0.25; "Not financial advice"@0.5,0.96:36:grey
+|| endscreen; hold:10

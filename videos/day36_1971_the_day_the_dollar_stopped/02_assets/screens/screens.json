@@ -1,0 +1,722 @@
+[
+ {
+  "line": 0,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+  "what": "highlight \"On the evening of August 15, 1971, Nixon addressed the nation on a new economic policy\"",
+  "said": "On the evening of Sunday, August fifteenth, nineteen seventy-one, millions of Americans turned on their televisions. The President had an announcement.",
+  "file": "s01.png",
+  "box": [
+   0.147,
+   0.713,
+   0.677,
+   0.887
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 1,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"On Sunday, August 15, when American financial markets were closed\"",
+  "said": "He chose a Sunday on purpose. American financial markets were closed, so nobody could panic and trade until the next morning.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Fiat money",
+  "url": "https://en.wikipedia.org/wiki/Fiat_money",
+  "what": "highlight \"a system of national fiat currencies has been used globally\"",
+  "said": "Since that night, almost every country in the world has used money backed by nothing but trust. Economists call it fiat money.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Fiat money",
+  "url": "https://en.wikipedia.org/wiki/Fiat_money",
+  "what": "highlight \"Money used because of government decree.\"",
+  "said": "Fiat is a Latin word. It means, let it be done. Fiat money is money because a government says it is.",
+  "file": "s04.png",
+  "box": [
+   0.172,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 5,
+  "source": "Wikipedia, Fiat money",
+  "url": "https://en.wikipedia.org/wiki/Fiat_money",
+  "what": "highlight \"meaning that it must be accepted in payment of a debt in specific circumstances\"",
+  "said": "It is also legal tender. That means, by law, it must be accepted to pay a debt.",
+  "file": "s05.png",
+  "box": [
+   0.172,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"hashed out by forty-four nations in Bretton Woods, New Hampshire, during July 1944\"",
+  "said": "Forty-four countries met at a hotel in Bretton Woods, New Hampshire. They agreed on a new system for the world's money.",
+  "file": "s06.png",
+  "box": [
+   0.147,
+   0.739,
+   0.677,
+   0.861
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Fiat money",
+  "url": "https://en.wikipedia.org/wiki/Fiat_money",
+  "what": "highlight \"From 1944 to 1971, the Bretton Woods agreement fixed the value of 35 United States dollars to one troy ounce of gold.\"",
+  "said": "Other currencies would be tied to the US dollar. And the dollar would be tied to gold, at thirty-five dollars an ounce.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Triffin dilemma",
+  "url": "https://en.wikipedia.org/wiki/Triffin_dilemma",
+  "what": "highlight \"This dilemma was identified in the 1960s by Belgian-American economist Robert Triffin .\"",
+  "said": "But the system had a hidden flaw. An economist named Robert Triffin spotted it in the nineteen sixties.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.375
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 20,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"the supply of dollar reserves held abroad exceeded the US stock of gold\"",
+  "said": "But the more dollars went abroad, the less believable the gold promise became. There simply was not enough gold for all those dollars.",
+  "file": "s09.png",
+  "box": [
+   0.147,
+   0.713,
+   0.677,
+   0.887
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Triffin dilemma",
+  "url": "https://en.wikipedia.org/wiki/Triffin_dilemma",
+  "what": "highlight \"an ounce of gold could be exchanged for US$40 in the London market\"",
+  "said": "In the private gold market in London, people started paying more than the official price. By nineteen sixty, an ounce cost forty dollars there, not thirty-five.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"sent a ship to New York City to retrieve French gold deposits\"",
+  "said": "By the summer of nineteen seventy-one, countries were lining up. France sent a ship to New York to take its gold home.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"Britain requested $3 billion in gold be moved from Fort Knox\"",
+  "said": "Days later, Britain asked for three billion dollars in gold to be moved from Fort Knox. That was the final straw.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+  "what": "highlight \"as its key mechanism for temporarily defending\"",
+  "said": "For years, the Federal Reserve had been using special deals with other central banks, called currency swaps, to quietly defend the dollar. They were not enough anymore.",
+  "file": "s13.png",
+  "box": [
+   0.147,
+   0.739,
+   0.677,
+   0.861
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"met secretly at Camp David to discuss policy solutions to the growing crisis\"",
+  "said": "On the afternoon of Friday, August thirteenth, Nixon took his top advisers to Camp David, the presidential retreat in the woods of Maryland.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+  "what": "highlight \"From August 13 to 15, 1971, Nixon and fifteen advisers\"",
+  "said": "With him were Fed chairman Arthur Burns, Treasury Secretary John Connally, and a young Treasury official named Paul Volcker. Remember that last name.",
+  "file": "s15.png",
+  "box": [
+   0.147,
+   0.713,
+   0.677,
+   0.887
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"was the primary political force behind them\"",
+  "said": "Connally was the strongest voice in the room. He wanted bold action, and he got it.",
+  "file": "s16.png",
+  "box": [
+   0.583,
+   0.747,
+   0.769,
+   0.853
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"imposing a 90-day freeze on wages and prices\"",
+  "said": "Second, freeze wages and prices across the whole country for ninety days. Nobody could raise prices, and nobody could get a raise.",
+  "file": "s17.png",
+  "box": [
+   0.188,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"This was the first time the U.S. government had enacted wage and price controls since the Korean War.\"",
+  "said": "It was the first time the government had controlled wages and prices since the Korean War.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"Nixon instituted a 10 percent import surcharge\"",
+  "said": "Third, put an extra ten percent tax on many imported goods. That would make foreign cars and TVs more expensive, and push other countries to make a deal.",
+  "file": "s19.png",
+  "box": [
+   0.188,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+  "what": "highlight \"a looming gold run and the domestic problem of inflation\"",
+  "said": "They had two problems to solve at once. A run on America's gold abroad, and rising inflation at home.",
+  "file": "s20.png",
+  "box": [
+   0.147,
+   0.739,
+   0.677,
+   0.861
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"We must protect the position of the American dollar as a pillar of monetary stability around the world.\"",
+  "said": "Nixon told Americans he had to protect the dollar. He said it was a pillar of stability around the world.",
+  "file": "s21.png",
+  "box": [
+   0.185,
+   0.643,
+   0.56,
+   0.957
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"your dollar will be worth just as much tomorrow as it is today\"",
+  "said": "If you buy a foreign car or travel abroad, he said, your dollar might buy slightly less. But if you buy American-made products, your dollar will be worth just as much tomorrow as it is today.",
+  "file": "s22.png",
+  "box": [
+   0.185,
+   0.728,
+   0.56,
+   0.872
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"its largest daily gain ever at that point\"",
+  "said": "And at first, most of America agreed. The next day, the Dow jumped thirty-three points, its biggest one-day gain ever at that point.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"We unhesitatingly applaud the boldness with which the President has moved.\"",
+  "said": "Even the New York Times praised him. It wrote that it unhesitatingly applauded the boldness of the President.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Nixon shock",
+  "url": "https://en.wikipedia.org/wiki/Nixon_shock",
+  "what": "highlight \"Nixon was re-elected president in 1972 by a historic lan\"",
+  "said": "The next year, Nixon was re-elected in one of the biggest landslides in American history.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"Meeting in December 1971 at the Smithsonian Institution in Washington D.C.\"",
+  "said": "In December nineteen seventy-one, the world's finance ministers met at the Smithsonian Institution in Washington to patch the system.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"the USD rate lost 7.9%\"",
+  "said": "America agreed to a new official gold price of thirty-eight dollars. That made the dollar worth almost eight percent less.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"Yen +16.9%\"",
+  "said": "Other countries had to make their money stronger against the dollar. The Japanese yen went up almost seventeen percent.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"a 10% devaluation was announced on 14 February 1973\"",
+  "said": "The patch did not hold. In February nineteen seventy-three, America cut the dollar's value by another ten percent.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"Japan and European nations abandoned the fixed rates and allowed their currencies to float\"",
+  "said": "After that, Japan and the European countries gave up and let their currencies float. Floating means the price of a currency moves every day, like the price of anything else.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.583,
+   0.769,
+   0.785
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Smithsonian Agreement",
+  "url": "https://en.wikipedia.org/wiki/Smithsonian_Agreement",
+  "what": "highlight \"with all industrialized states following suit within a decade\"",
+  "said": "Within about ten years, every big industrial country was doing the same.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.583,
+   0.769,
+   0.785
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"Lasting from 1965 to 1982\"",
+  "said": "Economists call the years from nineteen sixty-five to nineteen eighty-two the Great Inflation.",
+  "file": "s32.png",
+  "box": [
+   0.147,
+   0.311,
+   0.677,
+   0.417
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"In 1964, inflation measured a little more than 1 percent per year.\"",
+  "said": "In nineteen sixty-four, prices were rising only a little more than one percent a year. Barely noticeable.",
+  "file": "s33.png",
+  "box": [
+   0.147,
+   0.751,
+   0.677,
+   0.848
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"reached more than 14 percent in 1980\"",
+  "said": "By nineteen eighty, inflation was above fourteen percent. In March of that year, it hit close to fifteen.",
+  "file": "s34.png",
+  "box": [
+   0.147,
+   0.751,
+   0.677,
+   0.848
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"the separation of the US dollar from its last link to gold\"",
+  "said": "The Federal Reserve's own historians say the Great Inflation is partly the story of the dollar losing its last link to gold.",
+  "file": "s35.png",
+  "box": [
+   0.147,
+   0.739,
+   0.677,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"sought a reassuring, qualified nominee who would confront inflation head-on\"",
+  "said": "In August nineteen seventy-nine, President Jimmy Carter chose Paul Volcker to run the Federal Reserve.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"a swollen money supply presented a grave inflationary threat\"",
+  "said": "Even as a college student, Volcker had written that too much money in the economy was a serious danger. Now he could act on it.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.692,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"to a peak of 20% in June 1981\"",
+  "said": "His plan was painful. He pushed interest rates higher than anyone had seen. The Fed's key rate hit twenty percent in June nineteen eighty-one.",
+  "file": "s38.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"which had averaged 11.2% in 1979\"",
+  "said": "For comparison, that same rate had averaged about eleven percent in nineteen seventy-nine. Volcker nearly doubled it.",
+  "file": "s39.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 74,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"the national unemployment rate rose to over 10%\"",
+  "said": "It helped cause a deep recession. Unemployment rose above ten percent. Millions of families felt the pain.",
+  "file": "s40.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 75,
+  "source": "Wikipedia, Paul Volcker",
+  "url": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "what": "highlight \"widely credited with having ended the high levels of inflation\"",
+  "said": "But it worked. Volcker is widely credited with ending the high inflation of the nineteen seventies and early eighties.",
+  "file": "s41.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.409
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"In 1983, the percentage change from a year ago settled back to pre-Great Inflation levels\"",
+  "said": "By nineteen eighty-three, yearly inflation was back to the normal range of zero to five percent. The Great Inflation was over.",
+  "file": "s42.png",
+  "box": [
+   0.358,
+   0.686,
+   0.677,
+   0.913
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-inflation",
+  "what": "highlight \"It eventually declined to average only 3.5 percent in the latter half of the 1980s.\"",
+  "said": "By nineteen eighty-three, yearly inflation was back to the normal range of zero to five percent. The Great Inflation was over.",
+  "file": "s43.png",
+  "box": [
+   0.147,
+   0.751,
+   0.677,
+   0.848
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 80,
+  "source": "Wikipedia, Gold as an investment",
+  "url": "https://en.wikipedia.org/wiki/Gold_as_an_investment",
+  "what": "highlight \"gold prices increased above $4,000 per troy ounce for the first time\"",
+  "said": "Here is one way to see it. In nineteen seventy-one, an ounce of gold officially cost thirty-five dollars. In October twenty twenty-five, it rose above four thousand dollars.",
+  "file": "s44.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 85,
+  "source": "Wikipedia, Triffin dilemma",
+  "url": "https://en.wikipedia.org/wiki/Triffin_dilemma",
+  "what": "highlight \"its permanent transformation from a creditor to a debtor nation\"",
+  "said": "The end of the gold link also changed America's place in the world. By nineteen eighty-five, the country had gone from being the world's lender to being a borrower.",
+  "file": "s45.png",
+  "box": [
+   0.156,
+   0.371,
+   0.769,
+   0.547
+  ],
+  "page": null,
+  "ok": true
+ }
+]

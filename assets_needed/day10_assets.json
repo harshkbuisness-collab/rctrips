@@ -1,0 +1,158 @@
+{
+ "CH1": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH2": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH3": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH4": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH5": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH6": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH7": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "CH8": {
+  "type": "pose",
+  "character": "Ray"
+ },
+ "S01": {
+  "type": "scene",
+  "sentence": "He's a pipeline technician in Houston, Texas."
+ },
+ "S02": {
+  "type": "scene",
+  "sentence": "He tells people where he works with real pride."
+ },
+ "S03": {
+  "type": "scene",
+  "sentence": "Within a year, almost all of that money will be gone."
+ },
+ "S04": {
+  "type": "scene",
+  "sentence": "And it won't be because Ray made a mistake."
+ },
+ "S05": {
+  "type": "scene",
+  "sentence": "It'll be because the numbers were lies."
+ },
+ "S06": {
+  "type": "scene",
+  "sentence": "By the end of this video,"
+ },
+ "S07": {
+  "type": "scene",
+  "sentence": "You build the pipes, you charge a fee, you earn a modest profit."
+ },
+ "S08": {
+  "type": "scene",
+  "sentence": "Soon, it was handling billions of dollars of trades."
+ },
+ "S09": {
+  "type": "scene",
+  "sentence": "Nobody wanted to bring bad news."
+ },
+ "S10": {
+  "type": "scene",
+  "sentence": "So Enron found a way to make them go up."
+ },
+ "S11": {
+  "type": "scene",
+  "sentence": "When Enron signed a contract that would pay off over twenty years, it could count all the expected profit right away, on day one."
+ },
+ "S12": {
+  "type": "scene",
+  "sentence": "And who decided how much profit those contracts would make?"
+ },
+ "S13": {
+  "type": "scene",
+  "sentence": "So Enron had to keep signing bigger deals to show new profits every quarter."
+ },
+ "S14": {
+  "type": "scene",
+  "sentence": "But the profits had already been counted."
+ },
+ "S15": {
+  "type": "scene",
+  "sentence": "But real cash wasn't coming in nearly as fast."
+ },
+ "S16": {
+  "type": "scene",
+  "sentence": "That's where its finance chief came in."
+ },
+ "S17": {
+  "type": "scene",
+  "sentence": "Some of them were named after characters from Star Wars."
+ },
+ "S18": {
+  "type": "scene",
+  "sentence": "Inside Enron, very few people understood how all the pieces connected."
+ },
+ "S19": {
+  "type": "scene",
+  "sentence": "But much of the money really came from Enron itself."
+ },
+ "S20": {
+  "type": "scene",
+  "sentence": "And many of these deals were backed by a promise."
+ },
+ "S21": {
+  "type": "scene",
+  "sentence": "The moment it fell, the whole structure could come crashing down at once."
+ },
+ "S22": {
+  "type": "scene",
+  "sentence": "But a few people started asking simple questions."
+ },
+ "S23": {
+  "type": "scene",
+  "sentence": "The trading strategies had nicknames like Death Star."
+ },
+ "S24": {
+  "type": "scene",
+  "sentence": "He said it was for personal reasons."
+ },
+ "S25": {
+  "type": "scene",
+  "sentence": "Once trust broke, everything fell apart at once."
+ },
+ "S26": {
+  "type": "scene",
+  "sentence": "Ray's seven hundred thousand dollars shrank to almost nothing."
+ },
+ "S27": {
+  "type": "scene",
+  "sentence": "Arthur Andersen staff had destroyed tons of Enron documents."
+ },
+ "S28": {
+  "type": "scene",
+  "sentence": "Ray's story also shows why the people inside matter."
+ },
+ "S29": {
+  "type": "scene",
+  "sentence": "Second, watch the cash, not just the profits."
+ },
+ "S30": {
+  "type": "scene",
+  "sentence": "Enron sold a story so well that even experts believed it."
+ },
+ "S31": {
+  "type": "scene",
+  "sentence": "The numbers were the story's costume."
+ }
+}

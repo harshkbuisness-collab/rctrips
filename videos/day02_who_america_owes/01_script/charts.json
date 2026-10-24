@@ -1,0 +1,20 @@
+[
+ {"key": "debt", "type": "bars", "title": "America's national debt", "sub": "Total public debt outstanding, trillions of dollars",
+  "source": "U.S. Treasury, Fiscal Data (Debt to the Penny)", "unit": "$T",
+  "x": [1970, 1980, 1990, 2000, 2010, 2020, 2026], "y": [0.37, 0.91, 3.2, 5.7, 13.6, 26.9, 40.3], "mark": [6]},
+ {"key": "holders", "type": "bars", "title": "Who holds the $40.3 trillion", "sub": "Approximate holders of U.S. debt, trillions of dollars",
+  "source": "U.S. Treasury Fiscal Data and TIC data; Federal Reserve H.4.1 (approximate)", "unit": "$T",
+  "x": ["Other Americans", "Gov't accounts", "Foreign", "Federal Reserve"], "y": [19.8, 8.0, 8.0, 4.2], "mark": [0], "colors": {"0": "#2e9e44"}},
+ {"key": "foreign", "type": "bars", "title": "Top foreign holders", "sub": "U.S. Treasury securities held, August 2026, billions of dollars",
+  "source": "U.S. Treasury, Treasury International Capital (TIC) data", "unit": "$Bn",
+  "x": ["Japan", "United Kingdom", "Mainland China"], "y": [1070, 1000, 591], "mark": [0]},
+ {"key": "interest", "type": "bars", "title": "Interest now costs more than the military", "sub": "Federal spending, fiscal years, billions of dollars",
+  "source": "U.S. Treasury Monthly Treasury Statement; CBO (approximate)", "unit": "$Bn",
+  "x": ["Interest 2016", "Military 2026", "Interest 2026"], "y": [240, 900, 1000], "mark": [2]},
+ {"key": "rate", "type": "bars", "title": "Same $1 trillion, different rate", "sub": "Yearly interest on $1 trillion of borrowing, billions of dollars",
+  "source": "Simple math: $1 trillion x rate", "unit": "$Bn",
+  "x": ["at 3%", "at 5%"], "y": [30, 50], "mark": [1]},
+ {"key": "mortgage", "type": "bars", "title": "One point on a $300,000 mortgage", "sub": "Monthly payment, 30-year fixed loan, dollars",
+  "source": "Standard mortgage payment formula", "unit": "$",
+  "x": ["6% rate", "7% rate"], "y": [1799, 1996], "mark": [1]}
+]

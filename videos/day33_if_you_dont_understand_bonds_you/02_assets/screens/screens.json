@@ -1,0 +1,482 @@
+[
+ {
+  "line": 1,
+  "source": "Wikipedia, Bond market",
+  "url": "https://en.wikipedia.org/wiki/Bond_market",
+  "what": "highlight \"$143.15 trillion worldwide and $58 trillion for the US market\"",
+  "said": "That is strange, because the bond market is huge. In twenty twenty-six, it was worth about one hundred forty-three trillion dollars around the world.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.427
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Bond market",
+  "url": "https://en.wikipedia.org/wiki/Bond_market",
+  "what": "highlight \"about three times the size of the global equity market\"",
+  "said": "And worldwide, the market for borrowing is about three times bigger than the market for stocks.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.423,
+   0.769,
+   0.625
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "Wikipedia, Bond (finance)",
+  "url": "https://en.wikipedia.org/wiki/Bond_(finance)",
+  "what": "highlight \"The issuer is obligated to repay the nominal amount on the maturity date.\"",
+  "said": "That note is a bond. The yearly payment is called the coupon. The day you get your money back is called the maturity date.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, Bond (finance)",
+  "url": "https://en.wikipedia.org/wiki/Bond_(finance)",
+  "what": "highlight \"bonds usually have a defined term, or maturity, after which the bond is redeemed\"",
+  "said": "The big difference from a stock is the end date. A stock can last forever. A bond has a set day when the loan is finished.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.483,
+   0.769,
+   0.763
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Bond (finance)",
+  "url": "https://en.wikipedia.org/wiki/Bond_(finance)",
+  "what": "highlight \"Some bonds have been issued with terms of 50 years or more\"",
+  "said": "Some bonds last a few years. Some last thirty. A few have even been sold with terms of fifty years or more.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Bond market",
+  "url": "https://en.wikipedia.org/wiki/Bond_market",
+  "what": "highlight \"approximately 10% of the market is held by private individuals\"",
+  "said": "Only about one tenth of the American bond market is held directly by regular people. Most of it sits inside big institutions.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Bond market",
+  "url": "https://en.wikipedia.org/wiki/Bond_market",
+  "what": "highlight \"is thought to indicate a risk-free rate of default\"",
+  "said": "American government bonds are seen as one of the safest things in the world. The world uses their interest rate as a kind of zero-risk starting point.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.767,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Bond vigilante",
+  "url": "https://en.wikipedia.org/wiki/Bond_vigilante",
+  "what": "highlight \"In the bond market , prices move inversely to yields.\"",
+  "said": "Here is the one rule you need to remember about bonds. When interest rates go up, the price of old bonds goes down.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.393,
+   0.769,
+   0.517
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Bond (finance)",
+  "url": "https://en.wikipedia.org/wiki/Bond_(finance)",
+  "what": "highlight \"The terms of the bond, such as the coupon, are fixed in advance and the price is determined by the market.\"",
+  "said": "The yearly payment is fixed. The market decides the price.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, Mortgage",
+  "url": "https://en.wikipedia.org/wiki/Mortgage_loan",
+  "what": "highlight \"the most common type is the 30-year fixed-rate open mortgage\"",
+  "said": "A mortgage is a loan to buy a house. Most Americans pick a thirty-year fixed mortgage, which means the rate stays the same for thirty years.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia, United States Treasury security",
+  "url": "https://en.wikipedia.org/wiki/United_States_Treasury_security",
+  "what": "highlight \"Current yields on the 10-year Treasury note are widely followed by investors and the public\"",
+  "said": "Investors and the public watch it closely, because it tells you what money costs across the whole economy.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, United States Treasury security",
+  "url": "https://en.wikipedia.org/wiki/United_States_Treasury_security",
+  "what": "highlight \"the 30-year mortgage rate reached 7 per cent\"",
+  "said": "When that ten-year rate climbs, mortgage rates climb too. At one point, the thirty-year mortgage rate reached seven percent, its highest in nearly two years.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"Most of these deposits were invested in long-term Treasury bonds\"",
+  "said": "The bank needed to put that money somewhere. It chose something that seemed perfectly safe. Long-term US Treasury bonds.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"The market value of these bonds decreased significantly through 2022 and into 2023\"",
+  "said": "In twenty twenty-two, the Federal Reserve raised interest rates fast to fight inflation. Old long-term bonds lost a lot of value.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.319,
+   0.769,
+   0.651
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"exceeded $15 billion\"",
+  "said": "On paper, the bank was sitting on losses of more than fifteen billion dollars on bonds it planned to hold for years.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"customers withdrew funds totaling $42 billion by the following day\"",
+  "said": "By the next day, customers had pulled out forty-two billion dollars. In one day.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.319,
+   0.769,
+   0.651
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"On the morning of March 10, the California Department of Financial Protection and Innovation seized SVB\"",
+  "said": "The bank was left with a negative cash balance of almost one billion dollars. On the morning of March tenth, regulators seized it.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.979
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"all depositors would have full access to their funds the next morning\"",
+  "said": "Two days later, the government promised that every depositor would get full access to their money, even above the usual insurance limit. That stopped the panic from spreading.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"the second-largest failure of an FDIC-insured bank\"",
+  "said": "Still, it was the biggest bank failure since the two thousand eight financial crisis, and the second-largest failure of an insured bank ever. And it started with a simple see-saw.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, September 2022 United Kingdom mini-budget",
+  "url": "https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget",
+  "what": "highlight \"The mini-budget was among the first measures of the Truss ministry\"",
+  "said": "In September twenty twenty-two, Britain had a brand new prime minister, Liz Truss. Her government announced big tax cuts, paid for with borrowed money.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.587,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, September 2022 United Kingdom mini-budget",
+  "url": "https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget",
+  "what": "highlight \"it fell again on 28 September to $1.05\"",
+  "said": "The see-saw kicked in. Bond prices fell, and interest rates jumped. The pound fell to about one dollar and five cents.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.53,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, September 2022 United Kingdom mini-budget",
+  "url": "https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget",
+  "what": "highlight \"this forced the funds to provide cash as additional collateral when gilt prices fell sharply\"",
+  "said": "When bond prices fell fast, those funds suddenly had to find cash. To get cash, they had to sell more bonds, which pushed prices down even further.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, September 2022 United Kingdom mini-budget",
+  "url": "https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget",
+  "what": "highlight \"its scheme of emergency bond purchases\"",
+  "said": "The Bank of England had to step in with emergency bond buying to stop the spiral.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, Liz Truss",
+  "url": "https://en.wikipedia.org/wiki/Liz_Truss",
+  "what": "highlight \"making her the shortest-serving prime minister in British history\"",
+  "said": "Within weeks, most of the tax cuts were reversed. And on her fiftieth day in office, Liz Truss resigned. She became the shortest-serving prime minister in British history.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Bond vigilante",
+  "url": "https://en.wikipedia.org/wiki/Bond_vigilante",
+  "what": "highlight \"The term was coined by Ed Yardeni in the 1980s.\"",
+  "said": "Investors who sell bonds to punish a government have a nickname. They are called bond vigilantes. The term was coined by the economist Ed Yardeni in the nineteen eighties.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.325,
+   0.769,
+   0.397
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Bond vigilante",
+  "url": "https://en.wikipedia.org/wiki/Bond_vigilante",
+  "what": "highlight \"But now I would like to come back as the bond market.\"",
+  "said": "But now, he said, he would like to come back as the bond market, because you can intimidate everybody.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.806,
+   0.769,
+   0.904
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 75,
+  "source": "Wikipedia, 2025 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash",
+  "what": "highlight \"The 10-year Treasury yield fell to 3.86% on April 4\"",
+  "said": "More buying pushed bond prices up and rates down. On April fourth, the ten-year rate fell to about three point eight six percent.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "Wikipedia, 2025 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash",
+  "what": "highlight \"Traders called the spike in yields a\"",
+  "said": "By the morning of April ninth, the ten-year rate had jumped to four and a half percent. Traders called it a Liz Truss moment.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 78,
+  "source": "Wikipedia, 2025 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash",
+  "what": "highlight \"The Trump administration announced it would pause tariff increases on April 9, 2025\"",
+  "said": "That same day, the government announced a ninety-day pause on most of the new tariffs. Stocks then posted some of their biggest gains in years.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.741,
+   0.769,
+   0.891
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 79,
+  "source": "Wikipedia, 2025 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash",
+  "what": "highlight \"described as an example of bond vigilantism\"",
+  "said": "Many observers saw this as a modern example of bond vigilantes at work. The bond market sent a message, and Washington listened.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.621,
+   0.769,
+   0.745
+  ],
+  "page": null,
+  "ok": true
+ }
+]

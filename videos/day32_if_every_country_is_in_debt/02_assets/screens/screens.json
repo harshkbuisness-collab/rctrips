@@ -1,0 +1,594 @@
+[
+ {
+  "line": 1,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"In 2020, the value of government debt worldwide was US$87.4 trillion\"",
+  "said": "By twenty twenty, governments around the world owed about eighty-seven trillion dollars. That was ninety-nine percent of everything the whole planet produced in a year.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.583,
+   0.769,
+   0.759
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 2,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"In 2018, global government debt reached the equivalent of $66 trillion\"",
+  "said": "Only two years earlier, it had been sixty-six trillion. The pile grows faster than almost anything else on Earth.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"Global Debt Reaches a Record $226 Trillion\"",
+  "said": "And that is only governments. Add the debts of companies and households, and one famous headline put total global debt at a record two hundred twenty-six trillion dollars.",
+  "file": "s03.png",
+  "box": [
+   0.185,
+   0.771,
+   0.427,
+   0.83
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"Government debt may be owed to domestic residents, as well as to foreign residents.\"",
+  "said": "Government debt works exactly the same way. Every bond a government sells is a promise held by someone else. That someone can be at home or abroad.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.359,
+   0.769,
+   0.587
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"Actors that issue sovereign credit include private investors, commercial banks\"",
+  "said": "So who holds these promises? Private investors, banks, big development banks like the World Bank, and other governments.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.927,
+   0.769,
+   1
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"234.9% of the country's gross domestic product\"",
+  "said": "Japan has the biggest debt of any rich nation, compared to the size of its economy. In March twenty twenty-five, it was almost two hundred thirty-five percent of GDP.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.324,
+   0.769,
+   0.5
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"1,324 trillion yen\"",
+  "said": "In yen, the number is so big it is hard to say. One thousand three hundred twenty-four trillion yen.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.324,
+   0.769,
+   0.5
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 27,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"88.1 per cent was held domestically\"",
+  "said": "Because Japan mostly owes the money to itself. At the end of twenty twenty-four, eighty-eight percent of its government debt was held inside Japan.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.324,
+   0.769,
+   0.5
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"The largest holders were the Bank of Japan (46.3 per cent)\"",
+  "said": "The biggest holder of all was Japan's own central bank, the Bank of Japan. It held about forty-six percent.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.324,
+   0.769,
+   0.5
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"domestic insurance companies (15.6 per cent), and domestic banks (14.5 per cent)\"",
+  "said": "After that came Japanese insurance companies and Japanese banks. In other words, the savings of Japanese families.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.324,
+   0.769,
+   0.5
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"largely insulates the prices and yields of such bonds from the effects of the global bond market\"",
+  "said": "Because so much of the debt is held at home, Japanese bond prices are protected from swings in the global market.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"The Public Finance Act prohibits the Bank of Japan from buying government bonds\"",
+  "said": "Japan's own history also shows the danger of this setup. Its law now bans the central bank from buying bonds directly from the government.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.75,
+   0.769,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"brought about violent inflation by their public bond purchases\"",
+  "said": "That rule exists because, around World War Two, central bank bond buying helped cause violent inflation in Japan.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.75,
+   0.769,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Global saving glut",
+  "url": "https://en.wikipedia.org/wiki/Global_saving_glut",
+  "what": "highlight \"Ben Bernanke used the phrase\"",
+  "said": "In twenty oh five, the head of the Federal Reserve, Ben Bernanke, gave this a name. He called it a global saving glut. A glut means too much of something.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.449,
+   0.769,
+   0.781
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Global saving glut",
+  "url": "https://en.wikipedia.org/wiki/Global_saving_glut",
+  "what": "highlight \"significant increase in the global supply of saving\"",
+  "said": "He worried about a big increase in savings around the world, flowing into America and pushing interest rates down.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, Global saving glut",
+  "url": "https://en.wikipedia.org/wiki/Global_saving_glut",
+  "what": "highlight \"pension funding to make provision for an impending increase in the number of retirees\"",
+  "said": "One reason for all that saving surprised people. Many countries were getting older, so they were saving for a coming wave of retirees. Pension funds like Carol's, all over the world.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Global saving glut",
+  "url": "https://en.wikipedia.org/wiki/Global_saving_glut",
+  "what": "highlight \"as the supply of savings outstrips its demand\"",
+  "said": "When that much saving looks for a home, it pushes interest rates down. Too much money chasing too few safe places to put it.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"foreigners held 33% ($7 trillion out of $21.6 trillion)\"",
+  "said": "So how much of America's debt is owed abroad? In December twenty twenty, foreigners held about one third of the publicly held debt.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"the top three December 2020 national holders of American public debt were Japan\"",
+  "said": "The top three that year were Japan, with one point two trillion dollars, China, with one point one trillion, and the United Kingdom.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"$4.1 trillion (59.2%) belonged to foreign governments\"",
+  "said": "More than half of that foreign money belonged to foreign governments. The rest belonged to foreign investors, like banks and funds.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"rising from 13% of the public debt in 1988 to 34% in 2015\"",
+  "said": "The foreign government share had grown a lot. It went from thirteen percent of the public debt in nineteen eighty-eight to thirty-four percent in twenty fifteen.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"foreign ownership has retreated both in percent of total debt and total dollar amounts\"",
+  "said": "But in more recent years, foreign ownership has been shrinking, both as a share and in total dollars.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, National debt of Japan",
+  "url": "https://en.wikipedia.org/wiki/Japanese_public_debt",
+  "what": "highlight \"Around 70% of Japanese government bonds are purchased by the Bank of Japan\"",
+  "said": "In Japan, around seventy percent of new government bonds have been bought by the Bank of Japan.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"in the 1920s Weimar Germany suffered from hyperinflation\"",
+  "said": "In the nineteen twenties, Germany printed money to pay off debts after World War One. The result was hyperinflation, where prices doubled again and again.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Bond (finance)",
+  "url": "https://en.wikipedia.org/wiki/Bond_(finance)",
+  "what": "highlight \"a bond with no maturity\"",
+  "said": "Some governments have even sold bonds with no end date at all. They just pay interest forever. A country can carry debt for as long as lenders keep trusting it.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.483,
+   0.769,
+   0.763
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Government debt",
+  "url": "https://en.wikipedia.org/wiki/Government_debt",
+  "what": "highlight \"debt-to-GDP ratios above 77% for developed countries\"",
+  "said": "Economists at the World Bank studied one hundred countries. They found that when debt went above about seventy-seven percent of GDP in rich countries, future growth tended to slow down.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Sovereign default",
+  "url": "https://en.wikipedia.org/wiki/Sovereign_default",
+  "what": "highlight \"Countries have at times escaped some of the real burden of their debt through inflation .\"",
+  "said": "The quiet way is inflation. Governments have often escaped part of their debt by letting prices rise, so each old dollar they owe is worth less.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Sovereign default",
+  "url": "https://en.wikipedia.org/wiki/Sovereign_default",
+  "what": "highlight \"Philip II of Spain defaulted on debt four times\"",
+  "said": "It has happened many times in history. King Philip the Second of Spain, ruler of one of the richest empires on Earth, defaulted four times.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 67,
+  "source": "Wikipedia, Sovereign default",
+  "url": "https://en.wikipedia.org/wiki/Sovereign_default",
+  "what": "highlight \"several Latin American countries that had recently entered the bond market in London defaulted\"",
+  "said": "In the eighteen twenties, several new Latin American countries borrowed in London and then defaulted too.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Sovereign default",
+  "url": "https://en.wikipedia.org/wiki/Sovereign_default",
+  "what": "highlight \"state to default was Arkansas, which defaulted in 1933\"",
+  "said": "Even an American state has done it. The last state to default was Arkansas, in nineteen thirty-three, during the Great Depression.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"which reached 127% of GDP in 2009\"",
+  "said": "By two thousand nine, its debt had reached one hundred twenty-seven percent of its economy. Lenders got scared, and interest rates on Greek debt shot up.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.979
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 74,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"on debt owed to private banks in 2011\"",
+  "said": "Greece needed rescue loans in two thousand ten, two thousand twelve and two thousand fifteen. Private lenders were forced to accept a fifty percent cut on what they were owed.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 76,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"Unemployment reached nearly 25%\"",
+  "said": "Regular Greeks paid a huge price. Wages fell nearly twenty percent, and unemployment reached nearly twenty-five percent.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.979
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 77,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"The government enacted 12 rounds of tax increases, spending cuts, and reforms from 2010-16\"",
+  "said": "The government passed twelve rounds of tax increases and spending cuts. There were riots and nationwide protests.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 78,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"the Greek debt-to-GDP ratio rose up from 127% to 179%\"",
+  "said": "And here is the cruel part. Because the economy shrank so much, the debt compared to the economy actually rose, from one hundred twenty-seven to one hundred seventy-nine percent.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.975,
+   0.769,
+   1
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 79,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"Greece became the first developed country to fail to make an IMF loan repayment\"",
+  "said": "On June thirtieth, twenty fifteen, Greece became the first developed country ever to miss a loan payment to the International Monetary Fund.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 80,
+  "source": "Wikipedia, Greek government-debt crisis",
+  "url": "https://en.wikipedia.org/wiki/Greek_government-debt_crisis",
+  "what": "highlight \"In June 2026, Greece repaid a further \u20ac6.9bn\"",
+  "said": "Greece recovered slowly. In June twenty twenty-six, it even paid back part of its first rescue loan early.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ }
+]

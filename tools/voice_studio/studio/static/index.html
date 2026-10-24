@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice Studio</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--muted:#667085;--line:#e4e7ec;--accent:#2563eb;--accent-ink:#fff;
+--ok:#15803d;--bad:#b42318;--warn:#b54708;--soft:#eef2ff;--bar:#e6e9ef}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a21;--ink:#e7e9ee;--muted:#98a2b3;--line:#2a2f3a;
+--accent:#5b8cff;--soft:#1e2433;--bar:#262b36;--ok:#4ade80;--bad:#f87171;--warn:#fbbf24}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;max-width:1100px;margin:auto}
+h1{font-size:20px;margin:0}h2{font-size:16px;margin:0 0 10px}main{max-width:1100px;margin:auto;padding:0 16px 40px;display:grid;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.grow{flex:1 1 220px}
+label{font-size:13px;color:var(--muted);display:block;margin-bottom:4px}
+select,input[type=text],input[type=password],input[type=number],textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+textarea{min-height:170px;resize:vertical;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 12px;border-radius:8px;font:inherit;cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+button:disabled{opacity:.5;cursor:not-allowed}button.small{padding:4px 9px;font-size:13px}
+.muted{color:var(--muted);font-size:13px}.err{color:var(--bad)}.okc{color:var(--ok)}
+.voices{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;max-height:300px;overflow:auto;margin-top:10px}
+.voice{border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;justify-content:space-between;align-items:center;gap:6px;cursor:pointer}
+.voice.sel{border-color:var(--accent);background:var(--soft)}.voice b{display:block;font-size:14px}.voice span{font-size:12px;color:var(--muted)}
+.bar{height:10px;background:var(--bar);border-radius:99px;overflow:hidden}.bar>i{display:block;height:100%;width:0;background:var(--accent);transition:width .4s}
+.bar.big{height:16px}.item{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.item .meta{font-size:12px;color:var(--muted)}.chip{font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line)}
+.chip.done{color:var(--ok);border-color:var(--ok)}.chip.failed,.chip.cancelled{color:var(--bad);border-color:var(--bad)}.chip.running{color:var(--accent);border-color:var(--accent)}
+.actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}audio{height:32px;max-width:220px}
+.list{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.tag{background:var(--soft);border-radius:99px;padding:3px 10px;font-size:13px}
+.tag button{border:0;background:none;padding:0 0 0 6px;color:var(--muted)}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:520px;width:calc(100% - 32px)}
+.stats{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 4px;font-size:14px}.stats b{font-size:16px}
+@media (max-width:640px){.item{grid-template-columns:1fr}.actions{justify-content:flex-start}}
+</style>
+</head>
+<body>
+<header><h1>🎙️ Voice Studio</h1><button id="openSettings">⚙️ Settings &amp; API keys</button></header>
+<main>
+  <section class="card" id="voiceCard">
+    <h2>1. Choose a voice</h2>
+    <div class="row">
+      <div class="grow"><label for="provider">Voice provider</label><select id="provider"></select></div>
+      <div class="grow"><label for="filter">Search voices</label><input id="filter" type="text" placeholder="e.g. Andrew, female, en-GB"></div>
+      <div style="flex:1 1 240px"><label for="speed">Speaking speed: <b id="speedVal">1.00×</b></label>
+        <input id="speed" type="range" min="0.5" max="2" step="0.05" value="1" style="width:100%">
+        <div class="row muted" style="justify-content:space-between"><span>slower</span><button class="small" id="speedReset">normal</button><span>faster</span></div></div>
+    </div>
+    <p class="muted" id="providerNote"></p>
+    <div class="voices" id="voices"></div>
+    <div class="row" style="margin-top:10px">
+      <div class="grow"><label for="sampleText">Sample text (optional: try a line from your script)</label>
+        <input id="sampleText" type="text" placeholder="Leave empty for the standard sample"></div>
+      <button id="playSample">▶ Play selected voice</button>
+    </div>
+    <audio id="samplePlayer" style="display:none"></audio>
+    <p class="muted" id="sampleMsg"></p>
+  </section>
+
+  <section class="card">
+    <h2>2. Add your scripts</h2>
+    <label for="box">Paste one or more scripts. Put a line with only <b>---</b> between scripts. Channel scripts (scripts/dayNN_*.md) are cleaned automatically: only the spoken lines are read.</label>
+    <textarea id="box" placeholder="First script…&#10;---&#10;Second script…"></textarea>
+    <div class="row" style="margin-top:10px">
+      <label class="muted" style="margin:0"><input type="file" id="files" multiple accept=".txt,.md,.text"> Upload script files (.txt or .md, one script per file)</label>
+    </div>
+    <div class="list" id="scriptList"></div>
+    <div class="row" style="margin-top:12px">
+      <div><label for="atOnce">Scripts at once</label><input id="atOnce" type="number" min="1" max="20" value="3" style="width:90px"></div>
+      <div><label for="format">File type</label><select id="format"><option value="mp3">MP3 (small)</option><option value="wav">WAV (best for editing)</option></select></div>
+      <label class="muted" id="copyWrap" style="display:none;margin-top:18px"><input type="checkbox" id="copyProject"> Also save dayNN files into the project's voices/ folder</label>
+      <div class="grow"></div>
+      <button class="primary" id="generate">Generate voices</button>
+    </div>
+    <p class="err" id="genMsg"></p>
+  </section>
+
+  <section class="card" id="progressCard" style="display:none">
+    <h2>3. Progress &amp; downloads</h2>
+    <div class="bar big"><i id="overallBar"></i></div>
+    <div class="stats"><span><b id="pct">0%</b> complete</span><span><b id="count">0 / 0</b> scripts done</span>
+      <span id="failedCount" class="err"></span><span class="muted" id="eta"></span></div>
+    <div class="muted" id="statusLine"></div>
+    <div class="row" style="margin:10px 0">
+      <button id="stop">■ Stop</button><button id="retryAll" disabled>↻ Retry failed</button>
+      <a id="zip" class="muted" style="pointer-events:none"><button class="primary" id="zipBtn" disabled>⬇ Download all (ZIP)</button></a>
+    </div>
+    <div id="items"></div>
+  </section>
+</main>
+
+<dialog id="settings">
+  <h2>Settings &amp; API keys</h2>
+  <p class="muted">Keys are saved only on this computer (tools/voice_studio/config.json). Microsoft Edge voices need no key.</p>
+  <label for="kOpenai">OpenAI API key</label><input id="kOpenai" type="password" placeholder="sk-…">
+  <p class="muted" id="kOpenaiCur"></p>
+  <label for="kEleven">ElevenLabs API key</label><input id="kEleven" type="password" placeholder="xi-…">
+  <p class="muted" id="kElevenCur"></p>
+  <label for="kKokoro">Kokoro model folder (offline voices)</label><input id="kKokoro" type="text" placeholder="C:\voices\kokoro">
+  <div class="row" style="justify-content:flex-end;margin-top:12px"><button id="closeSettings">Cancel</button><button class="primary" id="saveSettings">Save</button></div>
+</dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const state = {providers: [], voices: [], voice: "", files: [], job: null, timer: null};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const store = {get(k, d){try{return localStorage.getItem(k) ?? d}catch{return d}}, set(k, v){try{localStorage.setItem(k, v)}catch{}}};
+
+async function api(url, opts = {}) {
+  let r;
+  try { r = await fetch(url, {headers: {"Content-Type": "application/json"}, ...opts,
+                              body: opts.body ? JSON.stringify(opts.body) : undefined}); }
+  catch { throw new Error("Can't reach Voice Studio. Is its black window still open? If not, start 2_START_windows.bat again and reload this page."); }
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(j.detail || `Error ${r.status}`);
+  return j;
+}
+
+async function loadProviders(keep) {
+  const d = await api("/api/providers");
+  state.providers = d.providers;
+  $("#copyWrap").style.display = d.project_voices ? "" : "none";
+  const sel = $("#provider"), want = keep || store.get("provider", "kokoro");
+  sel.innerHTML = d.providers.map(p => `<option value="${p.id}" ${p.available ? "" : "disabled"}>${esc(p.name)}${p.available ? "" : " — not set up"}</option>`).join("");
+  const first = d.providers.find(p => p.id === want && p.available) || d.providers.find(p => p.available);
+  if (first) sel.value = first.id;
+  await loadVoices();
+}
+
+async function loadVoices() {
+  const pid = $("#provider").value, p = state.providers.find(x => x.id === pid);
+  const notes = state.providers.filter(x => !x.available).map(x => `${x.name}: ${x.reason}`).join(" · ");
+  $("#providerNote").innerHTML = (p ? esc(p.note) : "") + (notes ? ` <details style="display:inline"><summary>More voices (set up)</summary>${esc(notes)}</details>` : "");
+  $("#voices").innerHTML = '<span class="muted">Loading voices…</span>';
+  store.set("provider", pid);
+  try {
+    state.voices = (await api(`/api/voices?provider=${pid}`)).voices;
+  } catch (e) { $("#voices").innerHTML = `<span class="err">${esc(e.message)}</span>`; state.voices = []; return; }
+  const saved = store.get("voice:" + pid, "");
+  state.voice = state.voices.some(v => v.id === saved) ? saved
+             : (state.voices.find(v => /AndrewMultilingual|onyx|af_heart/i.test(v.id)) || state.voices[0] || {}).id || "";
+  renderVoices();
+}
+
+function renderVoices() {
+  const f = $("#filter").value.toLowerCase();
+  const list = state.voices.filter(v => !f || `${v.name} ${v.gender} ${v.accent} ${v.id}`.toLowerCase().includes(f));
+  $("#voices").innerHTML = list.map(v => `<div class="voice ${v.id === state.voice ? "sel" : ""}" data-id="${esc(v.id)}">
+      <div><b>${esc(v.name)}</b><span>${esc([v.gender, v.accent].filter(Boolean).join(" · "))}</span></div>
+      <button class="small" data-play="${esc(v.id)}" title="Play a sample">▶</button></div>`).join("") || '<span class="muted">No voices match.</span>';
+}
+
+$("#voices").addEventListener("click", e => {
+  const play = e.target.closest("[data-play]"), card = e.target.closest(".voice");
+  if (!card) return;
+  state.voice = card.dataset.id; store.set("voice:" + $("#provider").value, state.voice); renderVoices();
+  if (play) playSample(play.dataset.play);
+});
+
+async function playSample(voice = state.voice) {
+  if (!voice) return;
+  const msg = $("#sampleMsg"), t0 = performance.now();
+  msg.textContent = "Making the sample…"; msg.className = "muted";
+  try {
+    const d = await api("/api/preview", {method: "POST", body: {provider: $("#provider").value, voice,
+                         speed: +$("#speed").value, text: $("#sampleText").value}});
+    const a = $("#samplePlayer"); a.src = d.url; a.style.display = ""; a.controls = true; await a.play().catch(() => {});
+    msg.textContent = `Playing ${voice} at ${(+$("#speed").value).toFixed(2)}× (ready in ${((performance.now() - t0) / 1000).toFixed(1)} s; replays are instant)`;
+  } catch (e) { msg.textContent = e.message; msg.className = "err"; }
+}
+
+$("#provider").onchange = loadVoices;
+$("#filter").oninput = renderVoices;
+$("#playSample").onclick = () => playSample();
+$("#speed").oninput = () => { $("#speedVal").textContent = (+$("#speed").value).toFixed(2) + "×"; store.set("speed", $("#speed").value); };
+$("#speedReset").onclick = () => { $("#speed").value = 1; $("#speed").oninput(); };
+
+// ---- scripts ----
+const spokenWords = t => t.split("\n").filter(l => !/^\s*(#|>|-|\|)/.test(l) && !/^(TITLES|THUMBNAIL|THREAD)\s*:/i.test(l))
+  .join(" ").replace(/\[[a-z]+\]/gi, "").split(/\s+/).filter(Boolean).length;
+const nameOf = (t, fb) => { const m = t.match(/^#\s*Day\s*0*(\d{1,2})\b/im); return m ? "day" + m[1].padStart(2, "0") : fb; };
+
+function collectScripts() {
+  const box = $("#box").value.split(/^\s*-{3,}\s*$/m).map(s => s.trim()).filter(Boolean)
+    .map((t, i) => ({name: nameOf(t, `script_${String(i + 1).padStart(2, "0")}`), text: t, from: "box"}));
+  return [...box, ...state.files];
+}
+function renderScripts() {
+  const s = collectScripts();
+  $("#scriptList").innerHTML = s.length ? s.map((x, i) => `<span class="tag">${esc(x.name)} · ${spokenWords(x.text)} words${x.from === "file"
+      ? ` <button data-rm="${i - (s.length - state.files.length)}" title="Remove">×</button>` : ""}</span>`).join("")
+    + `<span class="muted">${s.length} script${s.length > 1 ? "s" : ""}</span>` : '<span class="muted">No scripts yet.</span>';
+}
+$("#box").oninput = () => { renderScripts(); store.set("box", $("#box").value); };
+$("#files").onchange = async e => {
+  for (const f of e.target.files) state.files.push({name: nameOf(await f.text(), f.name.replace(/\.[^.]+$/, "")), text: await f.text(), from: "file"});
+  e.target.value = ""; renderScripts();
+};
+$("#scriptList").onclick = e => { const b = e.target.closest("[data-rm]"); if (b) { state.files.splice(+b.dataset.rm, 1); renderScripts(); } };
+
+// ---- jobs ----
+$("#generate").onclick = async () => {
+  $("#genMsg").textContent = "";
+  const scripts = collectScripts().map(({name, text}) => ({name, text}));
+  if (!scripts.length) return $("#genMsg").textContent = "Add at least one script first.";
+  if (!state.voice) return $("#genMsg").textContent = "Choose a voice first.";
+  $("#generate").disabled = true;
+  try {
+    const j = await api("/api/jobs", {method: "POST", body: {provider: $("#provider").value, voice: state.voice,
+      speed: +$("#speed").value, format: $("#format").value, at_once: +$("#atOnce").value || 1,
+      copy_to_project: $("#copyProject").checked, scripts}});
+    showJob(j); poll(j.id);
+  } catch (e) { $("#genMsg").textContent = e.message; $("#generate").disabled = false; }
+};
+
+function poll(id) {
+  clearTimeout(state.timer);
+  const tick = async () => {
+    try { const j = await api(`/api/jobs/${id}`); showJob(j); if (j.state === "running") state.timer = setTimeout(tick, 600);
+          else $("#generate").disabled = false; }
+    catch (e) { $("#statusLine").innerHTML = `<span class="err">${esc(e.message)}</span>`; $("#generate").disabled = false; }
+  };
+  tick();
+}
+
+const clock = s => s >= 60 ? `${Math.floor(s / 60)} min ${s % 60} s` : `${s} s`;
+function showJob(j) {
+  state.job = j; $("#progressCard").style.display = "";
+  $("#overallBar").style.width = j.pct + "%"; $("#pct").textContent = Math.floor(j.pct) + "%";
+  $("#count").textContent = `${j.done} / ${j.total}`;
+  $("#failedCount").textContent = j.failed ? `${j.failed} failed` : "";
+  $("#eta").textContent = j.state === "running" ? `${clock(j.elapsed)} so far${j.eta && j.pct > 5 ? ` · about ${clock(j.eta)} left` : ""}` : `took ${clock(j.elapsed)}`;
+  $("#statusLine").textContent = `${j.status} · ${j.provider} / ${j.voice} · ${j.speed.toFixed(2)}×`;
+  $("#stop").disabled = j.state !== "running";
+  $("#retryAll").disabled = j.state === "running" || !j.failed;
+  $("#zipBtn").disabled = !j.zip; $("#zip").href = j.zip || "#"; $("#zip").style.pointerEvents = j.zip ? "" : "none";
+  const box = $("#items");
+  j.items.forEach(it => {
+    let row = box.querySelector(`[data-idx="${it.idx}"]`);
+    if (!row) { row = document.createElement("div"); row.className = "item"; row.dataset.idx = it.idx; box.appendChild(row);
+      row.innerHTML = `<div><b class="nm"></b><div class="meta"></div></div><div><div class="bar"><i></i></div><div class="meta msg"></div></div><div class="actions"></div>`; }
+    row.querySelector(".nm").textContent = it.name;
+    row.querySelector(".meta").textContent = `${it.words} words`;
+    row.querySelector(".bar i").style.width = it.pct + "%";
+    row.querySelector(".msg").innerHTML = `<span class="chip ${it.state}">${it.state}</span> ` + (it.state === "running"
+      ? `${it.chunks_done} / ${it.chunks_total} parts · ${Math.floor(it.pct)}%` : it.state === "done" ? `${clock(Math.round(it.seconds))} of audio`
+      : it.error ? `<span class="err">${esc(it.error)}</span>` : "");
+    const act = row.querySelector(".actions"), key = it.state + it.url;
+    if (act.dataset.key !== key) {
+      act.dataset.key = key;
+      act.innerHTML = it.state === "done" ? `<audio controls preload="none" src="${it.url}"></audio><a href="${it.url}" download><button class="small">⬇ Download</button></a>`
+        : (it.state === "failed" || it.state === "cancelled") ? `<button class="small" data-retry="${it.idx}">↻ Retry</button>` : "";
+    }
+  });
+}
+
+async function retry(items) {
+  try { const j = await api(`/api/jobs/${state.job.id}/retry`, {method: "POST", body: {items, provider: $("#provider").value,
+          voice: state.voice, speed: +$("#speed").value}}); showJob(j); poll(j.id); }
+  catch (e) { $("#statusLine").innerHTML = `<span class="err">${esc(e.message)}</span>`; }
+}
+$("#items").onclick = e => { const b = e.target.closest("[data-retry]"); if (b) retry([+b.dataset.retry]); };
+$("#retryAll").onclick = () => retry([]);
+$("#stop").onclick = () => api(`/api/jobs/${state.job.id}/cancel`, {method: "POST"}).catch(() => {});
+
+// ---- settings ----
+$("#openSettings").onclick = async () => {
+  const s = await api("/api/settings");
+  $("#kOpenaiCur").textContent = s.OPENAI_API_KEY ? "Saved: " + s.OPENAI_API_KEY : "Not set";
+  $("#kElevenCur").textContent = s.ELEVENLABS_API_KEY ? "Saved: " + s.ELEVENLABS_API_KEY : "Not set";
+  $("#kKokoro").value = s.KOKORO_DIR || ""; $("#settings").showModal();
+};
+$("#closeSettings").onclick = () => $("#settings").close();
+$("#saveSettings").onclick = async () => {
+  await api("/api/settings", {method: "POST", body: {OPENAI_API_KEY: $("#kOpenai").value || null,
+    ELEVENLABS_API_KEY: $("#kEleven").value || null, KOKORO_DIR: $("#kKokoro").value || null}});
+  $("#kOpenai").value = $("#kEleven").value = ""; $("#settings").close(); loadProviders($("#provider").value);
+};
+
+$("#speed").value = store.get("speed", 1); $("#speed").oninput();
+$("#box").value = store.get("box", ""); renderScripts();
+loadProviders().catch(e => $("#providerNote").innerHTML = `<span class="err">${esc(e.message)}</span>`);
+</script>
+</body>
+</html>

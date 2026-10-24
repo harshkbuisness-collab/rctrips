@@ -1,0 +1,232 @@
+[
+ {
+  "line": 0,
+  "source": "Federal Reserve H.10 Foreign Exchange Rates",
+  "url": "https://www.federalreserve.gov/releases/h10/current/",
+  "what": "highlight the Japan row (158.34 yen per dollar) and the Euro row (1.1193 dollars per euro), dated 9 October 2026",
+  "file": "s01.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 6,
+  "source": "FRED, Japanese Yen to U.S. Dollar Spot Exchange Rate (DEXJPUS)",
+  "url": "https://fred.stlouisfed.org/series/DEXJPUS",
+  "what": "show the full chart from January 1971 at about 358 down to today's 158; circle the starting point",
+  "file": "s02.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 8,
+  "source": "FRED, DEXJPUS",
+  "url": "https://fred.stlouisfed.org/series/DEXJPUS",
+  "what": "zoom on January 2021, about 103 yen per dollar, then on 9 October 2026, about 158",
+  "file": "s03.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Federal Reserve, The International Role of the U.S. Dollar, 2025 Edition",
+  "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-u-s-dollar-2025-edition-20250718.html",
+  "what": "highlight the line that the dollar was on one side of about 88 percent of all foreign exchange trades in April 2022",
+  "file": "s04.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Federal Reserve press release, 16 September 2026",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+  "what": "highlight \"raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent\"",
+  "file": "s05.png",
+  "box": [
+   0.134,
+   0.567,
+   0.623,
+   0.655
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "European Central Bank, Key ECB interest rates",
+  "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+  "what": "highlight the deposit facility rate of 2.50 percent from 16 September 2026",
+  "file": "s06.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Bank of Japan, Change in the Guideline for Money Market Operations, 18 September 2026",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+  "what": "highlight \"around 1.25 percent\"",
+  "file": "s07.png",
+  "box": null,
+  "page": 1,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "FRED, DEXJPUS",
+  "url": "https://fred.stlouisfed.org/series/DEXJPUS",
+  "what": "mark July 2026 at about 164 yen per dollar, the weakest point for the yen in the chart since 1990",
+  "file": "s08.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Japan Ministry of Finance, Foreign Exchange Intervention Operations",
+  "url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/index.html",
+  "what": "highlight the list of monthly and quarterly releases, including 2024 and 2026",
+  "file": "s09.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Federal Reserve History, Creation of the Bretton Woods System",
+  "url": "https://www.federalreservehistory.org/essays/bretton-woods-created",
+  "what": "highlight the paragraph on fixed exchange rates tied to the dollar and gold",
+  "file": "s10.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Federal Reserve History, Nixon Ends Convertibility of U.S. Dollars to Gold",
+  "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+  "what": "highlight \"On the evening of August 15, 1971, Nixon addressed the nation\"",
+  "file": "s11.png",
+  "box": [
+   0.147,
+   0.713,
+   0.677,
+   0.887
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Federal Reserve History, The Smithsonian Agreement",
+  "url": "https://www.federalreservehistory.org/essays/smithsonian-agreement",
+  "what": "highlight the paragraph explaining that the new fixed rates broke down and currencies moved to floating",
+  "file": "s12.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "IMF Data Brief on COFER, 30 September 2026",
+  "url": "https://data.imf.org/en/news/imf%20data%20brief%20september%2030",
+  "what": "highlight the US dollar share of 56.70 percent and the euro share of 20.60 percent for 2026 Q2",
+  "file": "s13.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "European Central Bank, Introducing the euro",
+  "url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html",
+  "what": "highlight \"The euro was launched on 1 January 1999\" and \"legal tender in 21 of the 27 Member States\"",
+  "file": "s14.png",
+  "box": [
+   0.121,
+   0.395,
+   0.61,
+   0.609
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Hong Kong Monetary Authority, Linked Exchange Rate System",
+  "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/",
+  "what": "highlight \"implemented in Hong Kong since 17 October 1983\" and \"HK$7.75-7.85\"",
+  "file": "s15.png",
+  "box": [
+   0.121,
+   0.522,
+   0.879,
+   0.599
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "HKMA, How Does the LERS Work?",
+  "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/how-does-the-lers-work/",
+  "what": "highlight the strong-side and weak-side Convertibility Undertakings at 7.75 and 7.85",
+  "file": "s16.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Arab News, Confirmed: Riyal peg to dollar",
+  "url": "https://www.arabnews.com/node/930961",
+  "what": "highlight the central bank's reaffirmed commitment to the 3.75 rate",
+  "file": "s17.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Bank of Japan, Statement on Monetary Policy, 18 September 2026",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+  "what": "highlight the lines mentioning exchange rates and the situation in the Middle East among the risks",
+  "file": "s18.png",
+  "box": null,
+  "page": 1,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "FRED, Nominal Broad U.S. Dollar Index (DTWEXBGS)",
+  "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+  "what": "highlight the January 2025 peak near 130 and the October 2026 level near 121.6",
+  "file": "s19.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "FRED, U.S. Dollars to Euro Spot Exchange Rate (DEXUSEU)",
+  "url": "https://fred.stlouisfed.org/series/DEXUSEU",
+  "what": "highlight October 2000 at about 0.83 and April 2008 at about 1.60",
+  "file": "s20.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "IMF COFER data brief",
+  "url": "https://data.imf.org/en/news/imf%20data%20brief%20september%2030",
+  "what": "show the dollar share line once more, with the note that it slipped from 57.18 to 56.70 percent in Q2 2026",
+  "file": "s21.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ }
+]

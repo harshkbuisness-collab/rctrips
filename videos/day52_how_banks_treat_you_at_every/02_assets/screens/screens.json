@@ -1,0 +1,386 @@
+[
+ {
+  "line": 7,
+  "source": "Wikipedia, Unbanked",
+  "url": "https://en.wikipedia.org/wiki/Unbanked",
+  "what": "highlight \"representing 5.6 million households, were unbanked\"",
+  "said": "Millions of Americans do not have a bank account. In twenty twenty-three, about five point six million households were unbanked.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 8,
+  "source": "Wikipedia, Unbanked",
+  "url": "https://en.wikipedia.org/wiki/Unbanked",
+  "what": "highlight \"14.2 percent, representing 19.0 million households, were underbanked\"",
+  "said": "Another nineteen million households were underbanked. That means they have an account, but still rely on things like check-cashing stores and payday lenders.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.743,
+   0.769,
+   0.867
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 10,
+  "source": "Wikipedia, Unbanked",
+  "url": "https://en.wikipedia.org/wiki/Unbanked",
+  "what": "highlight \"a financial education curriculum called Money Smart was launched by the FDIC\"",
+  "said": "The FDIC even launched a free financial education program called Money Smart back in two thousand one, to help people get started.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"Consumers who opt into overdraft programs pay more than seven times as much in overdraft and NSF fees\"",
+  "said": "In the US, banks can only charge overdraft fees on debit card and ATM purchases if you opt in. And according to the Consumer Financial Protection Bureau, people who opt in pay more than seven times as much in these fees.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 20,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"averaging almost $260 a year\"",
+  "said": "That averaged almost two hundred sixty dollars a year per person. For someone living paycheck to paycheck, that is a lot.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"as many as 90% of customers had chosen overdraft protection\"",
+  "said": "Research back in twenty eleven found that as many as ninety percent of customers had chosen overdraft protection. Experts predicted record overdraft profits for American banks.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"The bank charges a fee unexpected to the account holder, creating a negative balance\"",
+  "said": "Some account fees can even cause an overdraft by themselves. A bank fee pushes the balance below zero, which triggers another fee.",
+  "file": "s07.png",
+  "box": [
+   0.172,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"a customer may authorize a $5.00 purchase which may post to the account as $500.00\"",
+  "said": "Holds can cause trouble too. When you buy gas or check into a hotel, the business can put a temporary hold that is much bigger than your actual purchase.",
+  "file": "s08.png",
+  "box": [
+   0.172,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Overdraft",
+  "url": "https://en.wikipedia.org/wiki/Overdraft",
+  "what": "highlight \"The funds may not be immediately available and lead to overdraft fees.\"",
+  "said": "And a deposit you just made may not be available right away, so a payment can bounce even though the money is technically on its way.",
+  "file": "s09.png",
+  "box": [
+   0.172,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Interchange fee",
+  "url": "https://en.wikipedia.org/wiki/Interchange_fee",
+  "what": "highlight \"a premium credit card that offers rewards generally will have a higher interchange rate than do standard cards\"",
+  "said": "Fancy reward cards usually come with higher fees for the store. And stores often raise their prices a little for everyone to cover those fees.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Interchange fee",
+  "url": "https://en.wikipedia.org/wiki/Interchange_fee",
+  "what": "highlight \"In 2005, the number was $30.7 billion\"",
+  "said": "These fees add up to huge numbers. Back in two thousand five, card fees paid by American merchants already totaled about thirty billion dollars a year.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.773,
+   0.769,
+   0.845
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, Interchange fee",
+  "url": "https://en.wikipedia.org/wiki/Interchange_fee",
+  "what": "highlight \"results in a non-trivial monetary transfer from low-income to high-income households\"",
+  "said": "So people who pay with cash, or with simple debit cards, are helping pay for other people's rewards. A study by the Federal Reserve found this creates a real transfer of money from low-income to high-income households.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"covers up to $250,000 per depositor, per FDIC-insured bank, for each account ownership category\"",
+  "said": "This is also the level where Jasmine needs to think about one important limit. Bank deposits are insured by the government only up to two hundred fifty thousand dollars per bank, per ownership type.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"Each ownership category of a depositor's money is insured separately up to the insurance limit\"",
+  "said": "Each ownership type is counted separately. Accounts in her own name, a joint account, certain retirement accounts. Spread smartly, one person can be covered for much more than two hundred fifty thousand.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"a majority of banks establish the minimum threshold between $500,000 and $1 million\"",
+  "said": "Private banking is only for customers with a minimum amount of money to invest. Most banks set that line somewhere between five hundred thousand and one million dollars.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"typically offered through a gateway provided by a single designated relationship manager\"",
+  "said": "Instead of a call center, Jasmine gets her own relationship manager. One person who knows her name, her business, and her goals.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.259,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"limited tax advisory services and some basic concierge services\"",
+  "said": "Private banks offer banking, investment management, some tax advice, and even basic concierge services, like help planning events or travel.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.259,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"discretionary asset management, brokerage\"",
+  "said": "Many private clients also get discretionary asset management. That means a professional is allowed to buy and sell investments for them, without asking each time.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.259,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"began requiring a minimum of $10 million in assets to qualify for private banking\"",
+  "said": "And the staircase keeps going. Some banks set the bar much higher. JPMorgan, for example, began requiring ten million dollars for its private bank.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Private banking",
+  "url": "https://en.wikipedia.org/wiki/Private_banking",
+  "what": "highlight \"those with less being moved into their Private Client Direct program\"",
+  "said": "Customers below that line were moved to a different service, with fewer perks. Even millionaires can be told they are not rich enough.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, Stepped-up basis",
+  "url": "https://en.wikipedia.org/wiki/Stepped-up_basis",
+  "what": "highlight \"the asset receives a stepped-up basis , which is its market value at the time the benefactor dies\"",
+  "said": "Then there is one more piece. When someone dies, the assets they pass on usually get a new starting price for tax purposes, called a stepped-up basis.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.349
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, Stepped-up basis",
+  "url": "https://en.wikipedia.org/wiki/Stepped-up_basis",
+  "what": "highlight \"a high stepped-up basis can greatly reduce the beneficiary's taxable capital-gain income\"",
+  "said": "That means the heirs can often sell without paying tax on all the gains that happened during their parent's lifetime.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.349
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, ProPublica",
+  "url": "https://en.wikipedia.org/wiki/ProPublica",
+  "what": "highlight \"tax rates for the wealthiest Americans were significantly lower than the average middle class tax rate\"",
+  "said": "In twenty twenty-one, the news organization ProPublica published a report based on leaked IRS records. It claimed the wealthiest Americans paid much lower tax rates than the middle class, once you count how fast their wealth was growing.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Grantor retained annuity trust",
+  "url": "https://en.wikipedia.org/wiki/Grantor_retained_annuity_trust",
+  "what": "highlight \"several ultra-wealthy families exploited the GRAT\"",
+  "said": "Some families also use special trusts to pass on fortunes with less estate tax. Reporters found several ultra-wealthy families used one kind to avoid billions.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ }
+]

@@ -1,0 +1,514 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia, S&P 500",
+  "url": "https://en.wikipedia.org/wiki/S%26P_500",
+  "what": "highlight \"nearly half of the index's total market cap\"",
+  "said": "Here's a strange fact about the American stock market. The S and P five hundred is five hundred companies. But just twenty of them now make up nearly half of its total value.",
+  "file": "s01.png",
+  "box": [
+   0.514,
+   0.768,
+   0.716,
+   0.805
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 9,
+  "source": "Wikipedia, S&P 500",
+  "url": "https://en.wikipedia.org/wiki/S%26P_500",
+  "what": "highlight \"it has posted annual increases 70% of the time\"",
+  "said": "That's partly true. Over its history, the S and P five hundred has gone up in about seven out of every ten years.",
+  "file": "s02.png",
+  "box": [
+   0.389,
+   0.794,
+   0.617,
+   0.831
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"adds Nvidia and Tesla to the Big Five\"",
+  "said": "People call them the Magnificent Seven. Microsoft, Apple, Alphabet, Amazon, Meta, Nvidia and Tesla.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.48,
+   0.449,
+   0.543
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"accounted for approximately two-thirds of the S&P 500's gains\"",
+  "said": "In twenty twenty-three, those seven companies made about two thirds of all the S and P five hundred's gains. Seven companies. Out of five hundred.",
+  "file": "s04.png",
+  "box": [
+   0.319,
+   0.532,
+   0.614,
+   0.569
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"107% return on investment\"",
+  "said": "That same year, as a group, they returned one hundred seven percent. They more than doubled in twelve months, mostly on excitement about artificial intelligence.",
+  "file": "s05.png",
+  "box": [
+   0.423,
+   0.558,
+   0.563,
+   0.595
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"accounted for 31% of the S&P 500\"",
+  "said": "By the middle of twenty twenty-four, they were thirty-one percent of the whole index. So if you put one hundred dollars into an S and P five hundred fund, about thirty-one dollars went to just seven companies.",
+  "file": "s06.png",
+  "box": [
+   0.442,
+   0.746,
+   0.615,
+   0.783
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, 401(k)",
+  "url": "https://en.wikipedia.org/wiki/401(k)",
+  "what": "highlight \"Employers are allowed to automatically enroll their employees in 401(k) plans\"",
+  "said": "This is called automatic enrollment. Your employer puts you into the four oh one k, and you have to opt out if you don't want it.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.742,
+   0.519,
+   0.779
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, 401(k)",
+  "url": "https://en.wikipedia.org/wiki/401(k)",
+  "what": "highlight \"The Pension Protection Act of 2006 made automatic enrollment a safer option for employers\"",
+  "said": "For a long time, many companies were nervous about signing workers up automatically. Then in two thousand six, Congress passed a law that made it a safer choice.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.703,
+   0.583,
+   0.74
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 27,
+  "source": "Wikipedia, Index fund",
+  "url": "https://en.wikipedia.org/wiki/Index_fund",
+  "what": "highlight \"Bogle started the First Index Investment Trust on December 31, 1975\"",
+  "said": "The first index fund for regular people started on December thirty-first, nineteen seventy-five. Its founder was a man named John Bogle.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.677,
+   0.483,
+   0.714
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Index fund",
+  "url": "https://en.wikipedia.org/wiki/Index_fund",
+  "what": "highlight \"it was heavily derided by competitors\"",
+  "said": "Wall Street hated it. Competitors made fun of the idea of just buying everything and doing nothing. They even called it Bogle's folly, which is a fancy way of saying a dumb idea.",
+  "file": "s10.png",
+  "box": [
+   0.203,
+   0.729,
+   0.387,
+   0.766
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Index fund",
+  "url": "https://en.wikipedia.org/wiki/Index_fund",
+  "what": "highlight \"which it did in 2000\"",
+  "said": "Bogle predicted his boring little fund would one day be bigger than the most famous stock-picking fund in America. It happened in the year two thousand.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.39,
+   0.563,
+   0.453
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Passive management",
+  "url": "https://en.wikipedia.org/wiki/Passive_management",
+  "what": "highlight \"79% of fund managers underperformed the S&P in 2021\"",
+  "said": "And doing nothing kept winning. In twenty twenty-one, seventy-nine percent of professional fund managers did worse than the S and P five hundred. They are paid to beat it, and four out of five didn't.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.745,
+   0.559,
+   0.808
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia, Share repurchase",
+  "url": "https://en.wikipedia.org/wiki/Share_repurchase",
+  "what": "highlight \"is the reacquisition by a company of its own shares\"",
+  "said": "The second engine is companies buying their own stock. This is called a share buyback.",
+  "file": "s13.png",
+  "box": [
+   0.472,
+   0.42,
+   0.718,
+   0.457
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, Share repurchase",
+  "url": "https://en.wikipedia.org/wiki/Share_repurchase",
+  "what": "highlight \"there was a sharp rise in the volume of share repurchases in the United States\"",
+  "said": "In the past, companies mostly shared profits by paying cash to their owners. In the United States, buybacks took off in a big way and never really stopped.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.738,
+   0.756,
+   0.801
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Share repurchase",
+  "url": "https://en.wikipedia.org/wiki/Share_repurchase",
+  "what": "highlight \"representing almost 95% of all repurchases\"",
+  "said": "Almost ninety-five percent of buybacks happen quietly, on the open market, just like any other buyer clicking buy.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.716,
+   0.758,
+   0.779
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, Share repurchase",
+  "url": "https://en.wikipedia.org/wiki/Share_repurchase",
+  "what": "highlight \"HP spent $67 billion on stock buybacks\"",
+  "said": "They're not always smart, though. Between nineteen ninety-nine and twenty eleven, the computer company HP spent sixty-seven billion dollars buying back its own stock.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.781,
+   0.751,
+   0.844
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Federal funds rate",
+  "url": "https://en.wikipedia.org/wiki/Federal_funds_rate",
+  "what": "highlight \"the Federal Reserve began lowering rates in September 2024\"",
+  "said": "After holding its key rate above five percent for more than a year, the Federal Reserve started cutting in September twenty twenty-four.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.768,
+   0.518,
+   0.831
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Federal funds rate",
+  "url": "https://en.wikipedia.org/wiki/Federal_funds_rate",
+  "what": "highlight \"The last cycle of easing monetary policy\"",
+  "said": "By December twenty twenty-five, the rate was down to about three and a half percent.",
+  "file": "s18.png",
+  "box": [
+   0.236,
+   0.794,
+   0.433,
+   0.831
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Irrational exuberance",
+  "url": "https://en.wikipedia.org/wiki/Irrational_exuberance",
+  "what": "highlight \"televised speech on December 5, 1996\"",
+  "said": "On December fifth, nineteen ninety-six, the head of the Federal Reserve gave a speech on live TV.",
+  "file": "s19.png",
+  "box": [
+   0.347,
+   0.355,
+   0.54,
+   0.392
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Irrational exuberance",
+  "url": "https://en.wikipedia.org/wiki/Irrational_exuberance",
+  "what": "highlight \"closing off 3%\"",
+  "said": "Markets in Tokyo closed down three percent. Everyone thought the top was in.",
+  "file": "s20.png",
+  "box": [
+   0.624,
+   0.549,
+   0.706,
+   0.586
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"rose by 600%\"",
+  "said": "The tech-heavy Nasdaq, an index full of new internet companies, rose about six hundred percent between nineteen ninety-five and its peak.",
+  "file": "s21.png",
+  "box": [
+   0.414,
+   0.333,
+   0.495,
+   0.37
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"the years clustered around 1929, 1999 and 2007\"",
+  "said": "The economist Robert Shiller found only three earlier times when it was this high. Around nineteen twenty-nine, nineteen ninety-nine, and two thousand seven.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.781,
+   0.732,
+   0.844
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"reached an all-time high during the 2000 dot-com bubble\"",
+  "said": "Each one was followed by a big fall. And CAPE hit its all-time record during the dot-com bubble in two thousand.",
+  "file": "s23.png",
+  "box": [
+   0.225,
+   0.859,
+   0.496,
+   0.896
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"only to fall 78% from its peak by October 2002\"",
+  "said": "The Nasdaq peaked on March tenth, two thousand. By October two thousand two, it had fallen seventy-eight percent.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.333,
+   0.554,
+   0.396
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, Dot-com bubble",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"successfully shorted many dot-com stocks at the peak of the bubble\"",
+  "said": "A few people saw it coming. The investor John Templeton bet against internet stocks right at the top. Which is the investing version of leaving the party five minutes before the cops show up.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.807,
+   0.476,
+   0.844
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, Japanese asset price bubble",
+  "url": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble",
+  "what": "highlight \"all-time high of 38,957.44 on December 29, 1989\"",
+  "said": "Japan shows the slow version. Its stock market hit an all-time high on December twenty-ninth, nineteen eighty-nine.",
+  "file": "s26.png",
+  "box": [
+   0.333,
+   0.781,
+   0.57,
+   0.818
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, Lost Decades",
+  "url": "https://en.wikipedia.org/wiki/Lost_Decades",
+  "what": "highlight \"In 1989, of the world's top 50 companies by market capitalization , 32 were Japanese\"",
+  "said": "And Japan was not some small market. In nineteen eighty-nine, thirty-two of the world's fifty biggest companies were Japanese.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Lost Decades",
+  "url": "https://en.wikipedia.org/wiki/Lost_Decades",
+  "what": "highlight \"In February 2024, Nikkei 225 reached 39,098.68\"",
+  "said": "It didn't beat that high again until February twenty twenty-four. That's thirty-four years of waiting just to get back to even.",
+  "file": "s28.png",
+  "box": [
+   0.197,
+   0.755,
+   0.432,
+   0.792
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Black Monday (1987)",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"the largest one-day drop in the index's history\"",
+  "said": "And crashes can be fast, too. On one Monday in October nineteen eighty-seven, the Dow fell twenty-two percent in a single day.",
+  "file": "s29.png",
+  "box": [
+   0.615,
+   0.609,
+   0.761,
+   0.687
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, 2022 stock market decline",
+  "url": "https://en.wikipedia.org/wiki/2022_stock_market_decline",
+  "what": "highlight \"before declining 25% to its low for the year in October 2022\"",
+  "said": "Even all that autopilot money didn't stop a fall in twenty twenty-two. The S and P five hundred dropped about a quarter from its high that year.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.768,
+   0.736,
+   0.831
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"It is not intended as an indicator of impending market crashes\"",
+  "said": "So high prices don't tell you when a crash comes. Shiller himself said CAPE is not meant to predict crashes. It only says future returns may be lower.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.657,
+   0.449,
+   0.694
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "Wikipedia, 401(k)",
+  "url": "https://en.wikipedia.org/wiki/401(k)",
+  "what": "highlight \"automatically shifting investments from stocks to bonds based on time to planned retirement date\"",
+  "said": "And there's one more quiet change. Many retirement funds slowly move money out of stocks and into bonds as people get closer to retiring.",
+  "file": "s32.png",
+  "box": [
+   0.276,
+   0.807,
+   0.725,
+   0.844
+  ],
+  "page": null,
+  "ok": true
+ }
+]

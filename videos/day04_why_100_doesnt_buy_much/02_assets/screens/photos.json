@@ -1,0 +1,30 @@
+[
+ {
+  "name": "Consumer Price Index",
+  "title": "Consumer price index",
+  "file": "p_consumer_price_index.png",
+  "page": "https://en.wikipedia.org/wiki/Consumer_price_index",
+  "desc": "Statistic to indicate the change in typical household expenditure"
+ },
+ {
+  "name": "Federal Reserve",
+  "title": "Federal Reserve",
+  "file": "p_federal_reserve.png",
+  "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+  "desc": "Central banking system of the US"
+ },
+ {
+  "name": "the Fed",
+  "title": "Federal Reserve",
+  "file": "p_the_fed.png",
+  "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+  "desc": "Central banking system of the US"
+ },
+ {
+  "name": "Paul Volcker",
+  "title": "Paul Volcker",
+  "file": "p_paul_volcker.jpg",
+  "page": "https://en.wikipedia.org/wiki/Paul_Volcker",
+  "desc": "American economist (1927\u20132019)"
+ }
+]

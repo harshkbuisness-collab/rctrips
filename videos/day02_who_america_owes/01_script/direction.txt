@@ -1,0 +1,221 @@
+# Day 2, directed by hand (evidence first, see research/10 and 11). CH = chart, PH = Commons photo.
+1: doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.316,0.327,0.684,0.476+0.8; H04@0.12,1.0:0.34:bottom~none
+2: =
+3: "MILLION"@0.5,0.45:208:black~pop; xmark+0.4; A05@0.88,0.62:0.5~none
+4: "BILLION"@0.5,0.45:208:black~pop; xmark+0.4; A07@0.88,0.62:0.5~none; E01@0.16,0.74:0.34~pop
+5: doc:ch_debt.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A08@0.89,0.64:0.46~none; "TRILLION."@0.43,0.08:110:red~pop
+6: E09@0.42,0.5:0.5~pop; A27@0.86,0.62:0.5~none; "$40.3T"@0.42,0.14:110:red~pop+0.4
+7: board:"Who is America borrowing from?"@0.56,0.46:0.56; A38@0.16,0.62:0.58~none; G14@0.9,0.18:0.26~swing+0.6; G15@0.9,0.8:0.28~swing+0.9
+8: G14@0.42,0.5:0.5~pop; think:"China?"@0.78,0.2; A06@0.88,0.66:0.44~none
+9: + G15@0.66,0.62:0.36~pop; think:"Japan?"@0.78,0.42
+10: C21@0.42,0.54:0.5~pop; E04@0.66,0.7:0.24~pop; bubble:"heh heh"@0.66,0.22:l; A05@0.9,0.7:0.36~none
+11: A04@0.16,0.62:0.58~none; "LESS SCARY"@0.56,0.32:110:green~pop; "MORE SURPRISING"@0.56,0.6:96:red~pop+0.6
+12: C13@0.44,0.56:0.6~l; label:"a retired teacher in Ohio"@0.5,0.1>0.44,0.24; A02@0.88,0.62:0.5~none
+13: + "LINDA"@0.74,0.36:110:red~pop
+14: AUTODOC
+15: C15@0.36,0.56:0.56~none; D25@0.68,0.5:0.34~pop; label:"her pension"@0.68,0.14>0.68,0.3
+16: doc:h_bond.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – U.S. savings bond"; H04@0.9,1.0:0.3:bottom~none
+17: E25@0.36,0.5:0.4~pop; D01@0.66,0.5:0.36~drop+0.4; A01@0.88,0.62:0.5~none
+18: E39@0.22,0.46:0.3~l; E16@0.48,0.46:0.26~pop+0.4; E42@0.74,0.46:0.3~r+0.8; C15@0.5,0.82:0.32~b
+19: C13@0.38,0.56:0.6~none; think:"where does it come from?"@0.72,0.2; D06@0.76,0.66:0.3~pop+0.6
+20: "INTEREST"@0.5,0.4:195:green~pop; D06@0.5,0.72:0.36~drop; A38@0.12,0.64:0.5~none
+21: doc:h_treasury.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – U.S. Treasury Building"; H04@0.9,1.0:0.3:bottom~none; D01@0.86,0.36:0.26~r+0.6
+22: G09@0.24,0.5:0.4~l; arrow:0.36,0.5>0.6,0.5+0.4; D25@0.72,0.5:0.36~pop+0.6; label:"funds like hers"@0.72,0.14>0.72,0.3
+23: C13@0.36,0.56:0.6~none; G09@0.12,0.6:0.3~l; "CITIZEN"@0.74,0.4:117:black~pop
+24: + "LENDER"@0.76,0.62:143:green~pop
+25: A37@0.16,0.62:0.58~none; E48@0.56,0.5:0.44~pop; "WHO WE OWE?"@0.56,0.14:96:black~pop; xmark+0.8
+26: board:"The real cost"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D06@0.9,0.22:0.22~spin+0.6
+27: AUTODOC
+28: "$40.3 TRILLION"@0.5,0.3:156:red~pop; "/ 343 MILLION"@0.5,0.56:143:black~pop+0.6; group:C28*3@0.26,0.67,0.74,0.96:0.28
+29: AUTODOC
+30: C13@0.36,0.56:0.60~none; H15@0.7,0.5:0.45~pop; xmark+0.6
+31: E21@0.42,0.52:0.5~pop; label:"what was promised"@0.42,0.12>0.42,0.26; A06@0.86,0.62:0.5~none
+32: AUTODOC
+33: E33@0.3,0.5:0.56~l; "< DEBT"@0.7,0.5:195:red~pop+0.4; label:"a whole year of America's output"@0.3,0.14>0.3,0.28; A08@0.9,0.84:0.3~none
+34: "123%"@0.5,0.42:260:red~pop; "of GDP"@0.5,0.72:117:black~pop+0.4; A08@0.9,0.66:0.46~none
+35: board:"Who are the lenders?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; group:C28*2@0.76,0.82,0.98,0.98:0.16
+36: D24@0.42,0.52:0.46~pop; E16@0.66,0.42:0.28~pop+0.5; A39@0.88,0.64:0.5~none
+37: board:"Birth of a bond"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D24@0.88,0.24:0.22~swing+0.6
+38: AUTODOC
+39: "TAXES"@0.28,0.3:110:green~pop; "SPENDING"@0.28,0.62:110:red~pop+0.4; E22@0.66,0.48:0.5~pop+0.6; "= DEFICIT"@0.66,0.88:90:red~pop+0.8
+40: "$2 TRILLION"@0.5,0.4:221:red~pop; "fiscal 2026"@0.5,0.66:104:black~pop+0.4; A35@0.9,0.66:0.46~none
+41: A06@0.16,0.62:0.58~none; E17@0.56,0.5:0.4~pop; H28@0.84,0.4:0.3~drop+0.4; "DEFICIT vs DEBT"@0.56,0.12:84:black~pop
+42: H28@0.4,0.56:0.46~drop; label:"this year's shortfall"@0.5,0.14>0.4,0.32; A38@0.12,0.64:0.5~none; "- $2T"@0.76,0.5:150:red~pop+0.6
+43: group:H28*8@0.3,0.22,0.96,0.92:0.26; label:"the debt = all of them"@0.42,0.1>0.62,0.3
+44: doc:ch_debt.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"deficits almost every year"@0.5,0.06>0.4,0.5
+45: + "PILED UP"@0.6,0.92:80:red~pop
+46: AUTODOC
+47: D01@0.24,0.5:0.34~l; arrow:0.34,0.5>0.54,0.5+0.3; G09@0.66,0.5:0.4~pop+0.5; D24@0.88,0.5:0.26~r+1.0; label:"+ interest"@0.88,0.82>0.88,0.66+1.2
+48: "BILLS"@0.24,0.36:143:black~pop; label:"under 1 year"@0.24,0.62>0.24,0.46; E24@0.24,0.82:0.24~b; H04@0.9,1.0:0.3:bottom~none; D24@0.62,0.62:0.36~pop+0.4
+49: + "NOTES"@0.5,0.36:143:black~pop; E25@0.5,0.8:0.26~b
+50: + "BONDS"@0.76,0.36:110:black~pop; label:"up to 30 years"@0.66,0.82>0.76,0.46
+51: "TREASURIES"@0.56,0.3:190:green~pop; D24@0.56,0.68:0.42~pop+0.4; A23@0.13,0.64:0.5~none
+52: AUTODOC
+53: group:C01*3@0.14,0.25,0.64,0.85:0.40; G12@0.78,0.4:0.48~swing; "RATE = ?"@0.78,0.74:117:red~pop+0.6
+54: C13@0.36,0.56:0.6~none; G12@0.72,0.44:0.46~none; xmark+0.5
+55: D25@0.42,0.52:0.44~pop; G12@0.74,0.44:0.3~none; label:"her pension fund"@0.42,0.12>0.42,0.28
+56: C01@0.32,0.56:0.60~l; E21@0.64,0.52:0.50~pop+0.4; "SAFEST PROMISE"@0.5,0.1:117:green~pop
+57: board:"Why safe?"@0.56,0.46:0.46; A38@0.16,0.62:0.58~none; E21@0.9,0.22:0.22~swing+0.6
+58: "PAID ON TIME"@0.5,0.3:143:green~pop; D19@0.5,0.66:0.50~pop+0.6; label:"its own dollars"@0.82,0.54>0.62,0.62
+59: D25@0.42,0.52:0.44~pop; H27@0.66,0.34:0.22~pop; A21@0.86,0.62:0.5~none
+60: group:C13*5@0.04,0.25,0.76,0.87:0.40; "EVERY MONTH, FOR DECADES"@0.42,0.1:93:black~pop; A35@0.9,0.66:0.46~none
+61: A48@0.5,0.62:0.6~none; E18@0.2,0.44:0.42~pop; xmark+0.5; D25@0.8,0.5:0.36~pop
+62: AUTODOC
+63: D24@0.2,0.5:0.36~l; arrow:0.28,0.5>0.4,0.5; D15@0.48,0.5:0.39~pop+0.3; arrow:0.56,0.5>0.66,0.5+0.5; E06@0.74,0.5:0.34~pop+0.6; arrow:0.8,0.5>0.86,0.5+0.8; E43@0.92,0.5:0.28~pop+0.9
+64: "$40 TRILLION"@0.5,0.3:156:red~pop; xmark+0.6; A06@0.88,0.66:0.46~none
+65: group:D24*12@0.04,0.18,0.92,0.96:0.22; label:"millions of IOUs"@0.5,0.08>0.5,0.24
+66: board:"Meet the owners"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; group:C13*2@0.76,0.82,0.98,0.98:0.16
+67: =
+68: AUTODOC
+69: G09@0.44,0.52:0.52~pop; "THE GOVERNMENT"@0.44,0.1:96:black~pop; A07@0.88,0.62:0.5~none
+70: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.29,0.24,0.45,0.86+0.6
+71: AUTODOC
+72: doc:h_sscard.jpg@0.4,0.5 w=0.5 h=0.66 ~l src="Photo: Wikimedia Commons – Social Security card"; "IN > OUT"@0.8,0.4:110:green~pop+0.4; A01@0.9,0.76:0.3~none
+73: doc:h_treasury.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – U.S. Treasury Building"; H04@0.9,1.0:0.3:bottom~none; D01@0.86,0.36:0.26~r+0.4
+74: C13@0.3,0.56:0.6~l; D01@0.62,0.5:0.3~pop+0.3; arrow:0.72,0.5>0.86,0.5+0.6; think:"will it come back?"@0.7,0.18; A38@0.9,0.66:0.4~none
+75: D24@0.24,0.48:0.3~l; arrow:0.34,0.48>0.48,0.48; D01@0.6,0.48:0.3~pop+0.4; label:"taxes or new borrowing"@0.5,0.82>0.6,0.64; C13@0.86,0.56:0.4~r
+76: G09@0.42,0.5:0.44~pop; D01@0.72,0.5:0.3~pop; "STILL REAL MONEY"@0.5,0.12:90:red~pop
+77: + A14@0.9,0.7:0.34~none
+78: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; label:"held by the public"@0.5,0.06>0.4,0.24
+79: group:C28*3@0.14,0.25,0.86,0.85:0.40; "EVERYONE ELSE"@0.5,0.1:124:black~pop
+80: D25@0.42,0.52:0.60~pop; C15@0.74,0.56:0.56~r; label:"Linda's pension fund"@0.42,0.12>0.42,0.26; D24@0.18,0.6:0.3~l+0.4
+81: D15@0.16,0.46:0.28~l; E21@0.38,0.46:0.28~l; E02@0.6,0.46:0.28~l; C09@0.82,0.46:0.32~r; label:"banks, insurers, funds, people"@0.5,0.86>0.5,0.66
+82: group:C11*3@0.15,0.25,0.75,0.87:0.40; C13@0.86,0.56:0.56~r
+83: doc:h_bond.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – U.S. savings bond"; H04@0.9,1.0:0.3:bottom~none; H27@0.86,0.34:0.22~pop
+84: C09@0.36,0.56:0.5~l; E07@0.66,0.5:0.3~pop; label:"401(k) bond fund"@0.66,0.16>0.66,0.36
+85: "401(k)?"@0.6,0.32:195:green~pop; D25@0.6,0.7:0.4~pop+0.4; A01@0.15,0.62:0.56~none
+86: + A01@0.15,0.62:0.56~none; "YOU'RE A LENDER"@0.6,0.93:84:red~pop
+87: AUTODOC
+88: doc:h_eccles.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Federal Reserve Board Building"; H04@0.9,1.0:0.3:bottom~none; label:"the Fed"@0.43,0.07>0.43,0.2
+89: G10@0.42,0.52:0.60~pop; group:D15*3@0.63,0.68,0.96,0.94:0.22; label:"bank for banks"@0.42,0.1>0.42,0.24
+90: E39@0.3,0.5:0.42~pop; xmark+0.2; E29@0.6,0.5:0.42~pop+0.3; A14@0.88,0.62:0.5~none
+91: E22@0.42,0.5:0.5~pop; label:"steady money and prices"@0.42,0.1>0.42,0.26; A21@0.88,0.62:0.5~none
+92: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.60,0.24,0.76,0.86+0.6; "2020"@0.6,0.93:96:red~pop
+93: D24@0.42,0.52:0.44~pop; think:"poof?"@0.72,0.2; A07@0.88,0.66:0.44~none
+94: G09@0.24,0.5:0.4~l; arrow:0.36,0.5>0.6,0.5+0.3; G10@0.72,0.5:0.4~pop+0.4; label:"interest + payback"@0.48,0.82>0.48,0.56
+95: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.13,0.24,0.29,0.86+0.4
+96: C13@0.16,0.56:0.42~l; C09@0.36,0.56:0.42~l; D15@0.6,0.5:0.32~pop; G09@0.84,0.5:0.3~r
+97: E43@0.42,0.5:0.5~pop; E31@0.72,0.66:0.24~r; A06@0.9,0.62:0.4~none
+98: board:"Across two oceans"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none
+99: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.44,0.24,0.61,0.86+0.5; "ABOUT 1/4"@0.6,0.92:80:red~pop+0.4
+100: E43@0.42,0.5:0.48~pop; think:"one country..."@0.72,0.2; A06@0.88,0.66:0.44~none
+101: G14@0.42,0.52:0.6~pop; "CHINA"@0.42,0.1:156:red~pop; A06@0.86,0.62:0.5~none
+102: + xmark
+103: doc:ch_foreign.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.14,0.24,0.34,0.86+0.6
+104: doc:ch_foreign.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+105: doc:ch_foreign.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.55,0.24,0.76,0.86+0.4
+106: "$591 BILLION"@0.46,0.3:182:red~pop; G14@0.46,0.68:0.42~pop+0.4; A08@0.9,0.66:0.46~none
+107: "$591B"@0.26,0.42:143:red~pop; "vs"@0.5,0.42:91:black~pop; "$40.3T"@0.74,0.42:195:black~pop+0.4; G14@0.26,0.76:0.3~b; G09@0.74,0.76:0.3~b+0.4
+108: A48@0.3,0.62:0.6~none; "ONE CATCH"@0.5,0.12:143:red~pop; E44@0.72,0.54:0.48~swing
+109: E21@0.36,0.52:0.44~pop; E48@0.66,0.4:0.26~pop; label:"kept, not owned"@0.5,0.86>0.36,0.72
+110: doc:h_london.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – City of London"; H04@0.9,1.0:0.3:bottom~none; E16@0.86,0.36:0.24~r
+111: AUTODOC
+112: doc:h_tokyo.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Tokyo"; H04@0.9,1.0:0.3:bottom~none; E02@0.86,0.36:0.24~r
+113: "0%"@0.4,0.42:260:black~pop; label:"interest in Japan"@0.4,0.12>0.4,0.28; G15@0.4,0.8:0.24~b; A14@0.86,0.62:0.5~none
+114: C24@0.36,0.56:0.60~pop; group:C28*2@0.59,0.36,0.96,0.90:0.40
+115: + E23@0.5,0.16:0.28~pop
+116: E21@0.42,0.52:0.60~pop; "SAFE + MORE THAN 0%"@0.5,0.12:109:green~pop; G15@0.18,0.6:0.32~l; A21@0.86,0.62:0.5~none
+117: D24@0.42,0.52:0.44~pop; "EASY TO SELL"@0.5,0.12:96:green~pop; A21@0.88,0.62:0.5~none
+118: E43@0.42,0.5:0.5~spin; E02@0.72,0.32:0.24~r; label:"across the Pacific"@0.42,0.88>0.42,0.74
+119: AUTODOC
+120: doc:h_shanghai.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Shanghai"; H04@0.9,1.0:0.3:bottom~none; E31@0.88,0.42:0.24~r; D01@0.88,0.18:0.24~drop+0.5
+121: D24@0.42,0.52:0.60~pop; label:"the biggest parking lot"@0.42,0.1>0.42,0.26; E21@0.74,0.56:0.42~pop
+122: doc:h_london.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – City of London"; H04@0.9,1.0:0.3:bottom~none; think:"different story"@0.86,0.12
+123: doc:h_london.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – City of London"; H04@0.9,1.0:0.3:bottom~none; label:"a money center"@0.43,0.07>0.43,0.2
+124: + "MANY COUNTRIES"@0.43,0.93:84:red~pop
+125: doc:ch_foreign.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.55,0.24,0.76,0.86+0.4; "FEWER, NOT MORE"@0.56,0.93:90:red~pop+0.4
+126: G14@0.42,0.52:0.6~pop; xmark+0.6; label:"China controls the debt?"@0.42,0.1>0.42,0.26; A13@0.86,0.62:0.5~none
+127: E43@0.36,0.5:0.6~pop; H27@0.66,0.3:0.28~pop; xmark+0.5; A04@0.86,0.62:0.5~none
+128: E43@0.42,0.5:0.48~pop; D01@0.72,0.4:0.28~pop; A04@0.9,0.66:0.44~none; bubble:"it helps us"@0.72,0.14:l
+129: A37@0.16,0.62:0.58~none; E44@0.56,0.5:0.44~swing; "EVERYONE"@0.56,0.14:110:red~pop+0.4
+130: doc:h_tokyo.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Tokyo"; H04@0.9,1.0:0.3:bottom~none; D06@0.86,0.36:0.24~drop
+131: "ENORMOUS"@0.5,0.42:221:red~pop; A08@0.9,0.66:0.46~none; D28@0.14,0.74:0.36~pop+0.3
+132: board:"The trillion-dollar bill"@0.56,0.46:0.54; A38@0.16,0.62:0.58~none
+133: AUTODOC
+134: doc:ch_interest.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.55,0.24,0.76,0.86+0.6
+135: A13@0.5,0.62:0.6~none; "READ THAT AGAIN."@0.5,0.12:143:red~pop; "$1T > MILITARY"@0.5,0.86:96:red~pop+0.5
+136: doc:h_carrier.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – aircraft carrier"; H04@0.9,1.0:0.3:bottom~none; "< INTEREST"@0.43,0.07:96:red~pop+0.4
+137: doc:ch_interest.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.14,0.24,0.34,0.86+0.4; "x4"@0.6,0.92:100:red~pop+0.6
+138: + A08@0.89,0.64:0.46~none
+139: "$3,000"@0.5,0.36:200:red~pop; "per American, every year"@0.5,0.66:76:black~pop+0.4; A32@0.9,0.8:0.3~none
+140: AUTODOC
+141: "LOW RATES"@0.5,0.4:195:green~pop; D06@0.5,0.7:0.28~pop; A21@0.15,0.62:0.56~none
+142: E45@0.42,0.5:0.60~b; "2022"@0.72,0.3:169:red~pop; "INFLATION"@0.72,0.6:104:black~pop+0.5
+143: D24@0.42,0.52:0.44~pop; label:"old rate stays"@0.42,0.1>0.42,0.26; A01@0.88,0.62:0.5~none
+144: D24@0.24,0.5:0.45~l; arrow:0.34,0.5>0.56,0.5+0.4; D24@0.68,0.5:0.48~pop+0.6; "3%"@0.24,0.8:117:green~pop; "5%"@0.68,0.82:130:red~pop+0.8
+145: group:D24*10@0.04,0.18,0.92,0.96:0.22; E25@0.92,0.3:0.25~pop
+146: E01@0.3,0.5:0.34~l; arrow:0.42,0.5>0.58,0.5+0.3; E05@0.72,0.5:0.34~pop+0.5; label:"cheap > expensive"@0.5,0.86>0.5,0.66
+147: D11@0.42,0.52:0.5~pop; A35@0.88,0.62:0.5~none; "PRICIER"@0.42,0.12:120:red~pop
+148: board:"Simple example"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; "3%"@0.88,0.2:100:green~pop+0.6; "5%"@0.88,0.82:100:red~pop+0.9
+149: doc:ch_rate.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+150: doc:ch_rate.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.46,0.24,0.75,0.86+0.4
+151: doc:ch_rate.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "+$20 BILLION"@0.6,0.92:84:red~pop+0.4
+152: + A36@0.89,0.64:0.46~none
+153: C14@0.4,0.56:0.60~none; E09@0.72,0.5:0.45~pop; A11@0.92,0.66:0.46~none
+154: D01@0.16,0.5:0.3~l; arrow:0.26,0.5>0.38,0.5; E30@0.5,0.5:0.3~pop+0.3; E35@0.7,0.3:0.24~pop+0.5; D25@0.88,0.5:0.3~pop+0.7; xmark+1.2
+155: A48@0.24,0.62:0.6~none; "THE TWIST"@0.6,0.2:143:red~pop; D06@0.6,0.62:0.42~spin
+156: D06@0.42,0.5:0.4~pop; xmark+0.5; A14@0.88,0.62:0.5~none
+157: D06@0.2,0.5:0.42~l; arrow:0.3,0.5>0.5,0.5+0.3; C21@0.62,0.56:0.60~pop+0.5; label:"bondholders"@0.62,0.12>0.62,0.3
+158: D25@0.38,0.52:0.44~pop; C15@0.72,0.56:0.44~r; D06@0.55,0.18:0.26~drop
+159: E28@0.42,0.5:0.44~pop; label:"as long as buyers show up"@0.42,0.1>0.42,0.24; A21@0.88,0.62:0.5~none
+160: board:"What if they don't?"@0.56,0.46:0.52; A38@0.16,0.62:0.58~none; E48@0.9,0.2:0.22~pop+0.6
+161: board:"What if they don't?"@0.56,0.46:0.52; A09@0.16,0.62:0.58~none; E48@0.9,0.2:0.22~pop; E44@0.9,0.78:0.24~swing+0.4
+162: board:"The auction"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; G12@0.88,0.24:0.22~swing+0.6
+163: G12@0.42,0.46:0.60~swing; group:C01*4@0.58,0.36,0.96,0.90:0.39; A01@0.12,0.66:0.46~none
+164: + "PLENTY"@0.42,0.86:90:green~pop
+165: G12@0.42,0.46:0.44~none; C01@0.8,0.6:0.36~pop; think:"where is everyone?"@0.78,0.16
+166: AUTODOC
+167: "+1%"@0.42,0.36:260:red~pop; label:"to tempt buyers"@0.42,0.7>0.42,0.54; G12@0.42,0.84:0.26~b; A04@0.88,0.62:0.5~none
+168: "HIGHER RATE"@0.26,0.3:100:red~pop; arrow:0.26,0.4>0.26,0.6; "BIGGER BILL"@0.26,0.72:100:red~pop+0.4; D28@0.64,0.36:0.36~pop+0.6
+169: + arrow:0.48,0.72>0.58,0.72; "MORE BORROWING"@0.76,0.72:84:red~pop; arrow:0.76,0.6>0.48,0.32+0.6
+170: + "THE LOOP"@0.66,0.09:110:black~pop
+171: A48@0.24,0.62:0.6~none; "NOT BROKE"@0.6,0.2:143:green~pop; D19@0.6,0.62:0.44~pop
+172: D19@0.36,0.5:0.4~pop; "DEEPEST MARKET"@0.66,0.4:84:green~pop; A21@0.88,0.66:0.44~none
+173: AUTODOC
+174: G23@0.42,0.5:0.5~pop; "FITCH 2023"@0.42,0.1:96:red~pop; "AAA > AA+"@0.78,0.5:84:red~pop+0.5
+175: G23@0.34,0.54:0.46~jolt; "MOODY'S 2025"@0.42,0.1:96:red~pop; "LAST AAA GONE"@0.72,0.5:90:red~pop+0.5
+176: G23@0.42,0.5:0.44~none; "STILL PAYS"@0.78,0.4:90:green~pop; label:"lower rating"@0.42,0.12>0.42,0.26; A14@0.88,0.84:0.3~none
+177: E16@0.42,0.5:0.44~pop; label:"lenders are watching"@0.42,0.1>0.42,0.26; A39@0.88,0.62:0.5~none
+178: E45@0.36,0.5:0.6~b; group:C28*2@0.6,0.3,0.96,0.86:0.3; A35@0.9,0.84:0.26~none
+179: D24@0.2,0.5:0.42~pop; arrow:0.3,0.5>0.45,0.36+0.3; arrow:0.3,0.5>0.45,0.5+0.4; arrow:0.3,0.5>0.45,0.64+0.5; D22@0.58,0.3:0.22~pop+0.3; E33@0.58,0.52:0.22~pop+0.4; D09@0.58,0.76:0.24~pop+0.5; A06@0.88,0.62:0.46~none
+180: + label:"mortgages"@0.78,0.93>0.62,0.82
+181: C13@0.42,0.56:0.60~none; E35@0.72,0.5:0.42~pop; A06@0.9,0.66:0.46~none
+182: board:"Jake's house"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; D09@0.88,0.24:0.22~swing+0.6
+183: H09@0.38,0.56:0.62~l; "JAKE, 29"@0.74,0.3:143:black~pop; D09@0.74,0.68:0.36~pop+0.4
+184: doc:h_columbus.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – Columbus, Ohio"; H04@0.9,1.0:0.3:bottom~none; H09@0.88,0.6:0.4~r
+185: AUTODOC
+186: E31@0.24,0.5:0.42~l; D24@0.44,0.5:0.42~pop; arrow:0.54,0.5>0.68,0.5+0.4; D09@0.8,0.5:0.42~pop+0.6
+187: AUTODOC
+188: E45@0.3,0.5:0.56~b; E45@0.62,0.52:0.48~b+0.4; label:"Treasury"@0.3,0.88>0.3,0.72; label:"mortgage"@0.62,0.88>0.62,0.72
+189: doc:ch_mortgage.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; "+$200 A MONTH"@0.6,0.92:84:red~pop+0.4
+190: D11@0.42,0.52:0.56~pop; H10@0.84,0.6:0.44~r; think:"can I afford it?"@0.8,0.14
+191: A48@0.24,0.62:0.6~none; "NOT THE ONLY REASON"@0.6,0.14:100:black~pop; E45@0.6,0.58:0.48~b
+192: E45@0.3,0.5:0.36~pop; G10@0.66,0.5:0.36~pop+0.3; label:"inflation"@0.3,0.82>0.3,0.68; label:"the Fed"@0.66,0.82>0.66,0.68
+193: G09@0.36,0.5:0.4~pop; E45@0.66,0.5:0.4~b+0.4; A06@0.9,0.7:0.36~none
+194: C13@0.36,0.56:0.6~none; H09@0.62,0.56:0.5~r; A01@0.88,0.62:0.46~none
+195: C13@0.3,0.56:0.60~none; H09@0.7,0.56:0.60~pop; "BOTH SIDES"@0.5,0.1:143:black~pop
+196: + "GAINS"@0.3,0.93:100:green~pop
+197: + "PAYS MORE"@0.7,0.93:100:red~pop
+198: board:"The hidden truth"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; C13@0.9,0.78:0.3~r+0.6
+199: group:C28*3@0.14,0.25,0.86,0.87:0.40; xmark+0.5
+200: C15@0.28,0.56:0.5~l; E22@0.5,0.4:0.36~pop; H09@0.72,0.56:0.5~r; label:"savers + borrowers"@0.5,0.88>0.5,0.66
+201: AUTODOC
+202: doc:ch_holders.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+203: + circle:0.13,0.24,0.29,0.86+0.3
+204: doc:ch_foreign.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none
+205: E43@0.42,0.5:0.5~pop; "NO SINGLE OWNER"@0.42,0.1:96:green~pop; A21@0.88,0.62:0.5~none
+206: AUTODOC
+207: "THE PRICE"@0.5,0.4:234:red~pop; A08@0.9,0.66:0.46~none; D06@0.2,0.7:0.34~spin+0.3
+208: doc:ch_interest.png@0.43,0.5 w=0.7 h=0.74 frame=1 ~b; A16@0.89,0.64:0.46~none; circle:0.55,0.24,0.76,0.86+0.4
+209: board:"The takeaway"@0.56,0.46:0.5; A38@0.16,0.62:0.58~none; E17@0.9,0.22:0.22~pop+0.6
+210: A06@0.16,0.62:0.58~none; E09@0.56,0.5:0.4~pop; "ASK BETTER"@0.56,0.14:96:black~pop
+211: "WHAT DOES IT COST US?"@0.5,0.34:100:red~pop; "WHAT DO WE GIVE UP?"@0.5,0.6:100:black~pop+0.8; A38@0.1,0.7:0.4~none
+212: C13@0.42,0.56:0.60~none; H15@0.7,0.6:0.36~pop; A29@0.9,0.66:0.46~none
+213: + "SAFE"@0.42,0.1:143:green~pop
+214: doc:p_wall_street.jpg@0.43,0.5 w=0.62 h=0.66 ~l src="Photo: Wikimedia Commons – Wall Street"; A05@0.88,0.62:0.5~none
+215: H09@0.38,0.56:0.62~l; think:"and Jake?"@0.72,0.2; D09@0.74,0.66:0.34~pop
+216: H09@0.3,0.56:0.5~none; E04@0.56,0.6:0.26~pop; E24@0.8,0.4:0.26~pop+0.4; label:"bigger down payment"@0.56,0.12>0.56,0.46
+217: A48@0.24,0.62:0.6~none; "NOT PANIC"@0.6,0.2:143:black~pop; E17@0.6,0.62:0.4~pop
+218: H10@0.36,0.56:0.6~none; E17@0.36,0.16:0.24~pop; label:"he understands"@0.74,0.4>0.48,0.4; E45@0.74,0.72:0.3~b
+219: A06@0.5,0.62:0.6~none; E48@0.5,0.18:0.3~pop; D24@0.2,0.5:0.32~l; D09@0.8,0.5:0.32~r
+220: + A02@0.5,0.62:0.6~none

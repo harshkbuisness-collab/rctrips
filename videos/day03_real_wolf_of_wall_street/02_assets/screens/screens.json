@@ -1,0 +1,397 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"Jordan Ross Belfort\"",
+  "said": "A judge once ordered a stockbroker to pay back about one hundred ten million dollars to roughly fifteen hundred people. It all started with phone calls like this one.",
+  "file": "s01.png",
+  "box": [
+   0.616,
+   0.539,
+   0.714,
+   0.575
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 6,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+  "what": "highlight \"Stratton Oakmont, Inc.\"",
+  "said": "The man on the phone works for a firm called Stratton Oakmont. And the man who built it would later become famous as the Wolf of Wall Street.",
+  "file": "s02.png",
+  "box": [
+   0.559,
+   0.216,
+   0.764,
+   0.259
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 7,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)",
+  "what": "highlight \"The Wolf of Wall Street\"",
+  "said": "You may have seen the movie. The parties, the yachts, the money flying around. It's fun to watch. But by the end of this video, you'll see why the real story was much worse, and why Carol never saw most of her money again.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.083,
+   0.341,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 9,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"Early life\"",
+  "said": "Jordan Belfort grew up in Queens, New York, in the nineteen sixties and seventies. His parents were both accountants. Money was always on his mind.",
+  "file": "s04.png",
+  "box": [
+   0.029,
+   0.196,
+   0.082,
+   0.232
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+  "what": "highlight \"Black Monday\"",
+  "said": "That day, the Dow Jones fell about twenty-two percent. It's still the biggest one-day percentage drop in its history. People called it Black Monday.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.083,
+   0.335,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 15,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+  "what": "highlight \"Stock Market Crash of 1987\"",
+  "said": "That day, the Dow Jones fell about twenty-two percent. It's still the biggest one-day percentage drop in its history. People called it Black Monday.",
+  "file": "s06.png",
+  "box": [
+   0.47,
+   0.178,
+   0.616,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Penny_stock",
+  "what": "highlight \"penny stock\"",
+  "said": "Penny stocks are shares of tiny companies that cost very little, often under five dollars. They're risky, hard to check, and easy to push around.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.083,
+   0.264,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+  "what": "highlight \"Long Island\"",
+  "said": "Around nineteen eighty-nine, Belfort and his partner Danny Porush took control of a small firm on Long Island. They named it Stratton Oakmont, because it sounded like old money.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.202,
+   0.769,
+   0.326
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Boiler_room_(business)",
+  "what": "highlight \"boiler room\"",
+  "said": "This kind of office has a name. A boiler room. A place where salespeople make high-pressure calls to sell investments that are often bad or worthless.",
+  "file": "s09.png",
+  "box": [
+   0.029,
+   0.28,
+   0.129,
+   0.316
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+  "what": "highlight \"brokers\"",
+  "said": "At its peak, Stratton Oakmont had around a thousand brokers. They called people across America, every single day. Most of their customers were people like Carol.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.62,
+   0.769,
+   0.848
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 33,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/pump-and-dump-schemes",
+  "what": "highlight \"Pump and dump\"",
+  "said": "Here's how a pump and dump works. Step one: insiders quietly buy up lots of shares of a tiny company, while the price is very low.",
+  "file": "s11.png",
+  "box": [
+   0.373,
+   0.294,
+   0.81,
+   0.354
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Pump_and_dump",
+  "what": "highlight \"pump and dump\"",
+  "said": "With nobody left to keep buying, the price crashes. And the people holding the shares at the end are the ones who were told it was a sure thing.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.083,
+   0.294,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Steve_Madden",
+  "what": "highlight \"Steve Madden\"",
+  "said": "One of those companies was a shoe brand, Steve Madden. Steve Madden himself later went to prison for his part in the stock scheme.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.083,
+   0.28,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"Stratton Oakmont\"",
+  "said": "Belfort was reportedly making tens of millions of dollars a year. He spent it as fast as it came in. Mansions, cars, helicopters, and a yacht.",
+  "file": "s14.png",
+  "box": [
+   0.036,
+   0.28,
+   0.125,
+   0.316
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)",
+  "what": "highlight \"Leonardo DiCaprio\"",
+  "said": "There were wild office parties, heavy drug use, and a lot of cash moving in strange ways. Some of it was smuggled to secret Swiss bank accounts.",
+  "file": "s15.png",
+  "box": [
+   0.638,
+   0.76,
+   0.732,
+   0.796
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 52,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/pump-and-dump-schemes",
+  "what": "highlight \"investors\"",
+  "said": "Every yacht party was paid for by a teacher, a nurse, a mechanic, or a retiree who trusted a voice on the phone.",
+  "file": "s16.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+  "what": "highlight \"Securities and Exchange Commission\"",
+  "said": "Regulators had noticed. As early as nineteen ninety-two, the S E C was taking Stratton to court. But the firm kept fighting, and kept calling.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.448,
+   0.769,
+   0.624
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+  "what": "highlight \"1996\"",
+  "said": "In December nineteen ninety-six, the industry's regulator, the N A S D, kicked Stratton Oakmont out for good. The firm shut down.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.844,
+   0.769,
+   0.994
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 55,
+  "source": "FINRA",
+  "url": "https://www.finra.org/about",
+  "what": "highlight \"FINRA\"",
+  "said": "In December nineteen ninety-six, the industry's regulator, the N A S D, kicked Stratton Oakmont out for good. The firm shut down.",
+  "file": "s19.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"cooperated\"",
+  "said": "That's right. The Wolf of Wall Street wore a wire. He secretly recorded conversations with his old friends and partners.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"restitution\"",
+  "said": "Twenty-two months. For a fraud that hurt roughly fifteen hundred people and cost them around two hundred million dollars.",
+  "file": "s21.png",
+  "box": [
+   0.036,
+   0.308,
+   0.098,
+   0.344
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(book)",
+  "what": "highlight \"memoir\"",
+  "said": "After prison, Belfort became a motivational speaker. He wrote two best-selling books about his life. He traveled the world teaching people how to sell.",
+  "file": "s22.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)",
+  "what": "highlight \"box office\"",
+  "said": "In twenty thirteen, his story became a Hollywood movie starring Leonardo DiCaprio. It made hundreds of millions of dollars around the world.",
+  "file": "s23.png",
+  "box": [
+   0.036,
+   0.476,
+   0.095,
+   0.512
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+  "what": "highlight \"victims\"",
+  "said": "So here's why the real story was worse than the movie. The movie is about the wolf. The real story is about the sheep. The fifteen hundred people who never got their lives back.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 73,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud",
+  "what": "highlight \"Types of Fraud\"",
+  "said": "And schemes like Stratton's never really went away. Today, the calls come as texts, social media posts, and group chats promising the next big stock or coin.",
+  "file": "s25.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 75,
+  "source": "FINRA BrokerCheck",
+  "url": "https://brokercheck.finra.org/",
+  "what": "highlight \"BrokerCheck\"",
+  "said": "And always check who you're dealing with. FINRA's free BrokerCheck tool shows any broker's record in seconds.",
+  "file": "s26.png",
+  "box": [
+   0.649,
+   0.012,
+   0.835,
+   0.052
+  ],
+  "ok": true,
+  "page": null
+ }
+]
