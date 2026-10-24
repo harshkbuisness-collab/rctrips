@@ -57,3 +57,14 @@ THREAD: <the one person/thing we follow>
 
 - A spoken line is any line that is not a heading, not `>` and not in SOURCES.
 - `> SCREEN:` is optional per line but needed at least 20 times per script.
+
+## Casual Finance structure (owner, 24 Oct 2026: write like this, no made-up people)
+From research/10 (Dumping Ground, 17.4 min, 3,305 words) and research/01 (SpaceX IPO):
+1. 0:00 hook: ONE real chart or number, made concrete by comparisons ("worth more than Coca-Cola, McDonald's, Disney... combined"), on screen as evidence.
+2. ONE question the video answers ("Are they worth it?" / "Who is buying it?"). Personal stakes with "you": "the answer is you... your 401k".
+3. Twist: "the better question is a lot simpler" / "most people say X... both are wrong". Hold the answer back (open loop).
+4. Named chapters (chalkboard cards). Each chapter = real history step by step, with dates, names, laws, filings:
+   "In 1997 Amazon filed..." -> headline / document card with the exact sentence highlighted.
+5. A light joke or speech bubble every 20-40 s (sarcastic aside), never fiction.
+6. Pay off the question with the evidence; recap; callback to the opening chart; a strong last line.
+Never: "Meet Linda", invented families, imagined neighbors, a fictional person followed through the video.
