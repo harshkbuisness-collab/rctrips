@@ -1,6 +1,50 @@
-# Project handoff: doodle finance explainer channel
+# Project handoff: doodle finance explainer channel "Dollar Diaries"
 
-## START HERE (latest state, 18 Oct 2026, late)
+## START HERE (latest state, 24 Oct 2026)
+Branch: `claude/doodle-finance-scripts-y51bqy`. Rules: CLAUDE.md (read it first; owner writes Hindi/Hinglish, reply short).
+
+### Status of the 30-day list (upload order in research/12-outlier-topics.md section 7)
+- #1 day01 1929 crash: uploaded. #2 day02 who America owes: uploaded (do NOT work on it).
+- #11 day04 inflation: re-built 24 Oct (exact-quote evidence, new beats, tease cut), mp4 sent, UPLOAD.md ready.
+- #3 day34 stock market hasn't crashed: NEW script (no characters), Claude-made voice, mp4 sent, UPLOAD.md ready.
+- NEXT: #4 day08 "Nobody can buy a house". Its script has a made-up character (Jasmine) -> rewrite it like day34,
+  make the voice, then the video. Then continue in upload order (day31, day33, day17, day39, day32...).
+
+### New owner rules (24 Oct 2026, also in CLAUDE.md)
+- Only the LONG video. No Shorts, no Short title/cover unless asked.
+- No made-up story characters. Casual Finance structure: research/07-script-style-guide.md (last section).
+- Every highlight = the exact sentence/number that proves the spoken line, never a heading.
+- Title = exact title of the outlier original (find it with vidIQ `vidiq_outliers`, 5 credits); thumbnail = PROMPTS only:
+  the original's idea redrawn in our brand style (CLAUDE.md "Thumbnails"); one long-video prompt.
+- No next-video tease; end on a thanks frame. First frame should be evidence (day34 still opens on a 1.2 s title card: fix in
+  script_to_beats for next videos).
+
+### Per-video recipe (what worked for day34)
+1. Rewrite `scripts/dayNN_*.md` (keep the verified SCREEN quotes from the old script; ~1,900-2,100 words; numbers in words;
+   `> VISUAL:` lines like `A15; G11; "TEXT"`). `python3 tools/check_script.py <script>`.
+2. Voice: `python3 tools/make_voice.py <script>` (Kokoro af_heart 1.03, ~20 min CPU) -> voices/dayNN.mp3, then copy to
+   `videos/<slug>/03_voice/owner_voice.mp3`.
+3. Screens: delete old `02_assets/screens/sNN*.png` + screens.json, run `tools/get_screens.py <script> <vdir>`; any
+   "quote not found" or a box outside 0..1 = fix the quote (use page text: a playwright text dump of the page).
+4. Beats: `tools/script_to_beats.py`, then `sed -i 's/@-0\.00,/@0.00,/g'` on beats.txt (bug: negative zero breaks parsing),
+   then `make_video.py <vdir> --check` and hand-fix every warned beat until 0 warnings (also replace silly auto words).
+5. Render in the background with `setsid nohup python3 tools/make_video.py <vdir> > <vdir>/05_export/render.log 2>&1 &`
+   (~25 min). Write UPLOAD.md (title, description with chapters from timings.json, tags, thumbnail prompt). Send the mp4.
+
+### Tool changes this session
+- make_video.py: background music bed (own track: `library/music/*.mp3` or `<vdir>/02_assets/music.mp3`, else a
+  generated piano bed) with ducking, camera push-in on each highlight + slow drift, soft whooshes, no sound in first 2 s.
+- get_screens.py: tight box around the exact quote, scrolls long blocks, closes survey pop-ups, no look-alike paragraph
+  fallback for quoted cues, Wikipedia name pages off (PHOTO_PAGES=1 to turn on).
+- script_to_beats.py: same page with another quote is not dropped as a duplicate.
+- tools/make_voice.py: new (Kokoro voice from a script).
+
+### Open items
+- ~17 scripts still have made-up characters (day31,33,39,32,41,38,40,42,36,44,35,37,51,52,47,12 + voiced 08,10,06,07).
+- Old scripts day01-13 have weak heading highlights; fix when their turn comes.
+- day51: verify the 29.1% negative-equity figure (CBT News).
+
+## Earlier START HERE (18 Oct 2026)
 **Owner decision:** the owner will write the remaining scripts with ChatGPT. Do NOT write scripts or spawn writers.
 Prompts and steps: `research/08-chatgpt-prompts.md`. Day 11 is now finished (2,009 words); Days 20 and 29 are already over 2,000.
 When the owner adds scripts to `scripts/`, check the format with `tools/sheet/parse_script.py` and rebuild the sheet.
