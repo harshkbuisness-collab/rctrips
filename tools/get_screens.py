@@ -173,6 +173,10 @@ def get_html(ctx, c, path):
                 pg.wait_for_timeout(400)
                 b = loc.bounding_box()
                 e = pg.evaluate(QUOTE_BOX, [loc.element_handle(), q]) if q else None
+                if e and not (0 <= e["y"] and e["y1"] <= H * 0.9):   # quote deep in a long block: bring it to view
+                    pg.evaluate(f"window.scrollBy(0, {e['y'] - H * 0.4})")
+                    pg.wait_for_timeout(400)
+                    e = pg.evaluate(QUOTE_BOX, [loc.element_handle(), q])
                 if e:
                     b = {"x": e["x"], "y": e["y"], "width": e["x1"] - e["x"], "height": e["y1"] - e["y"]}
                 if b:
