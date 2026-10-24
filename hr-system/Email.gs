@@ -54,40 +54,50 @@ function getSummaryRows_(key) {
     .filter(r => normalizeMonthKey_(r.values[0]) === key);
 }
 
-/** Builds subject + HTML body from one Monthly Summary row. */
+/** Builds subject + HTML body from one Monthly Summary row: one email with lates, leaves, balance, deduction and reminders. */
 function buildEmail_(v, key, settings) {
   const name = esc_(v[2]);
   const late = Number(v[4] || 0);
   const leaves = Number(v[6] || 0);
-  const absent = Number(v[7] || 0);
   const balance = Number(v[8] || 0);
   const deduction = String(v[9] || '').trim();
   const month = monthLabel_(key);
+  const limit = settings.lateLimit;
+  const warn = text => '<p style="color:#cc0000">&#9888;&#65039; ' + text + '</p>';
   const parts = [];
 
-  if (late === 0) {
-    parts.push('<p style="color:#38761d"><b>Congratulations!</b> You were on time every day in ' + month +
-      '. Thank you for your punctuality - keep it up!</p>');
-  } else if (late <= settings.lateLimit) {
-    parts.push('<p>You were late <b>' + late + '</b> time(s) in ' + month + '. Please note that more than ' +
-      settings.lateLimit + ' late arrivals in a month lead to a salary deduction.</p>');
-  } else {
-    parts.push('<p style="color:#cc0000">You were late <b>' + late + '</b> times in ' + month +
-      ', which is above the allowed limit of ' + settings.lateLimit + '.</p>');
-  }
-  if (deduction) {
-    parts.push('<p style="color:#cc0000">Salary deduction for this month: <b>' + esc_(formatAmount_(deduction)) + '</b></p>');
-  }
-
   parts.push('<table cellpadding="6" style="border-collapse:collapse;border:1px solid #ccc">' +
-    row_('Late arrivals', late) +
-    row_('Leaves taken', leaves) +
-    (absent ? row_('Absent days', absent) : '') +
+    row_('Late arrivals', late + ' (allowed: ' + limit + ')') +
+    row_('Leaves taken this month', leaves) +
     row_('Paid leave balance', balance) +
+    (deduction ? row_('Salary deduction', esc_(formatAmount_(deduction))) : '') +
     '</table>');
 
+  // Late
+  if (late === 0) {
+    parts.push('<p style="color:#38761d">&#127881; <b>Congratulations!</b> You were on time every day in ' + month +
+      '. Thank you for your punctuality - keep it up!</p>');
+  } else if (late > limit) {
+    parts.push(warn('You were late <b>' + late + '</b> times this month, which is above the allowed limit of ' + limit + '.' +
+      (deduction ? ' <b>' + esc_(formatAmount_(deduction)) + '</b> will be deducted from your salary.' : '') +
+      ' Kindly come on time.'));
+  } else if (late >= limit - 1) {
+    parts.push(warn('Reminder: you were late <b>' + late + '</b> times this month, close to the limit of ' + limit +
+      '. Kindly come on time - more than ' + limit + ' late arrivals in a month lead to a salary deduction.'));
+  } else {
+    parts.push('<p>You were late <b>' + late + '</b> time(s) this month. Please note that more than ' + limit +
+      ' late arrivals in a month lead to a salary deduction.</p>');
+  }
+
+  // Leave
+  if (leaves > settings.leavesPerMonth) {
+    parts.push('<p>You took <b>' + leaves + '</b> leaves this month, more than the monthly quota of ' +
+      settings.leavesPerMonth + '. Kindly plan your leaves carefully.</p>');
+  }
   if (balance <= 0) {
-    parts.push('<p style="color:#cc0000">Your paid leaves are exhausted. Any further leave will be unpaid.</p>');
+    parts.push('<p style="color:#cc0000">&#10060; Your paid leaves are exhausted. Any further leave will be unpaid.</p>');
+  } else if (balance <= 2) {
+    parts.push(warn('Your paid leave balance is low (<b>' + balance + '</b> left). Please plan your leaves carefully.'));
   } else {
     parts.push('<p>You have <b>' + balance + '</b> paid leave(s) remaining.</p>');
   }
