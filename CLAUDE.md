@@ -29,6 +29,10 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 5. One batch (up to 5 videos) per session.
 
 ## Owner style rules (22 Oct 2026)
+- NO made-up story characters (owner, 24 Oct 2026): no "Meet Linda/Ava/Maya", no imagined families or neighbors.
+  Tell what really happened, step by step, to the point, with the real evidence on screen for each claim.
+  Only real people, companies and events from the sources.
+- Every SCREEN highlight must be the exact sentence or number that proves the spoken line (never a page title or heading).
 - No opening card with only a year (like "1929"): the first frame is real evidence.
 - No next-video box or next-video tease, ever. The video ends with a short thanks frame.
 - Evidence first (charts, real photos, cards); the character is a small guide at the edge.

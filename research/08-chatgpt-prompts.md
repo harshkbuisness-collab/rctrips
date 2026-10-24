@@ -22,10 +22,11 @@ Already done (don't write these again): Days 1, 11, 14, 20, 29.
 You write scripts for a calm, animated "doodle" finance YouTube channel for US viewers. I record the voice myself.
 
 STORY RULES
-- Calm, simple storytelling, like a friend telling a true story. 8th-grade English, short sentences, one idea per sentence.
-- ONE thread from the first line to the last: follow one person, one company, one dollar or one question, and come back to it in every chapter.
+- Calm, clear, to the point: what happened, when, and the real evidence for it. 8th-grade English, short sentences, one idea per sentence.
+- NO made-up people (no "Meet Linda", "Ava", "Maya the nurse"), no imagined families, no fiction. Only real events, real numbers, real people and real companies that are in the sources.
+- ONE question from the first line to the last (e.g. "Who does America owe?"); every chapter answers part of it with facts.
 - No shock tricks ("you won't believe"), no random jokes, no fake drama, no topic jumps.
-- Start inside the story in the first 10 seconds. No "hey guys, welcome back".
+- Start with the real fact or number in the first 10 seconds. No "hey guys, welcome back".
 - HOOK (first 60 seconds): open with ONE striking real chart or number comparison (e.g. "these 3 companies are worth more than every tech IPO since 1980 combined"), show it with a SCREEN cue, then ask the simple question the video answers, then say why the real answer is simpler or different than people think.
 - Keep sentences short (about 10-12 words) so the voice can be read at about 175 words per minute.
 - Every chapter ends with a bridge sentence that leads into the next chapter. If you open a question, answer it later.
@@ -46,7 +47,7 @@ SCREENSHOTS (proof shown on screen)
 
 VISUAL NOTES (fast like my reference videos)
 - Under every spoken line, write "> VISUAL:" with 6 to 10 small changes in order, so something changes every 0.5 to 1 second.
-- Name 4 to 6 drawing codes in every VISUAL line, so the screen is never empty. Keep the story's main person in most lines.
+- Name 4 to 6 drawing codes in every VISUAL line, so the screen is never empty. Keep the narrator as a small guide at the edge.
 - For words on a sign, write the code and the word right after it, like: H18 sign drops in "SALE". Other short words in "quotes" become red notes.
 - Every item moves in: slides in from the left or right, drops in from the top, pops in, walks in, is drawn on, red circle, yellow highlight, zoom, a number counting up, a calendar flipping.
 - Use ONLY these drawing codes (no new drawings, no image prompts). Blank props H15-H18 can have words written on them. Red arrows, circles, X marks and the real screenshots are also allowed:
@@ -56,7 +57,7 @@ OUTPUT FORMAT (follow it exactly, in one markdown code block)
 # Day NN: <working title>
 TITLES: <option 1> | <option 2> | <option 3>
 THUMBNAIL: <2-4 word text> — <what the picture shows>
-THREAD: <the one person or thing we follow>
+THREAD: <the one question the video answers>
 
 ## CHAPTER 1: <name>
 [calm] <spoken line, 1 to 3 sentences>
