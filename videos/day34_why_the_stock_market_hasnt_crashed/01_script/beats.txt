@@ -1,0 +1,214 @@
+# Day 34: Why the Stock Market Hasn't Crashed Yet. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The chart nobody can explain ----------
+|| title:"The chart nobody can explain"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Here's a strange fact about the American stock market. || title:"The chart nobody can explain"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, S&P 500" hl=0.515,0.64,0.725,0.698+0.8; H04@0.12,1.0:0.34:bottom
+The S and P five hundred is five hundred companies. || title:"The chart nobody can explain"; A01@0.2,0.6:0.58~none; G11@0.58,0.36:0.3~pop; E33@0.84,0.36:0.3~pop; H18@0.58,0.74:0.3:"500 IS"~drop
+But just twenty of them now make up nearly half of its total value. || title:"The chart nobody can explain"; A15@0.2,0.6:0.58~none; G11@0.58,0.36:0.3~pop; E33@0.84,0.36:0.3~pop; "20"@0.71,0.55:100:red
+Twenty out of five hundred. || title:"The chart nobody can explain"; "20"@0.3,0.4:200:red~pop; "OUT OF 500"@0.3,0.72:96:black~pop+0.3; G11@0.66,0.5:0.4~pop; A18@0.9,0.68:0.44~none
+That's like a school where twenty kids carry everyone else's backpacks, and the other four hundred eighty just walk behind them. || title:"The chart nobody can explain"; A29@0.13,0.68:0.48~none; E10@0.52,0.5:0.56~swing; C27@0.87,0.34:0.36~r; C28@0.87,0.78:0.36~r; note:"20 KIDS"@0.32,0.22
+And for years, people have been yelling that a crash is coming. || title:"The chart nobody can explain"; A08@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+High interest rates. || title:"The chart nobody can explain"; A33@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+Record government debt. || title:"The chart nobody can explain"; A45@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+Tariffs. || title:"The chart nobody can explain"; A33@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+Wars. || title:"The chart nobody can explain"; A33@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+Houses nobody can afford. || title:"The chart nobody can explain"; A41@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; H09@0.17,0.62:0.36~jolt; D14@0.78,0.28:0.3~jolt
+Every one of those sounds like a great reason for stocks to fall. || title:"The chart nobody can explain"; A33@1.0,0.62:0.6:right~none; G12@0.64,0.3:0.32~b; E46@0.42,0.52:0.32~jolt
+And the market kept hitting new records anyway, which is very rude to everyone who predicted a crash. || title:"The chart nobody can explain"; A45@1.0,0.62:0.6:right~none; H11@0.64,0.3:0.46~jolt; E46@0.42,0.52:0.32~jolt; G03@0.2,0.74:0.32~jolt; E28@0.18,0.26:0.3~jolt; arrow:0.31,0.27>0.51,0.29
+So everybody ends up asking the same question. || title:"The chart nobody can explain"; A44@0.16,0.6:0.62~none; C09@0.86,0.4:0.46~r; "WHY?"@0.38,0.8:110:red~r
+If everything says crash, why hasn't it crashed? || title:"The chart nobody can explain"; A06@0.14,1.0:0.62:bottom~none; C09@0.86,0.4:0.46~r; G02@0.62,0.4:0.32~jolt; E48@0.38,0.4:0.32~jolt
+But the better question is a lot simpler. || title:"The chart nobody can explain"; A24@0.2,0.6:0.6~none; board:"A simpler question"@0.62,0.46:0.5; E48@0.92,0.84:0.22~pop+0.4
+It's not why the market went up. || title:"The chart nobody can explain"; A27@0.2,0.6:0.66~none; G12@0.8,0.32:0.32~drop; E52@0.8,0.74:0.32~drop
+It's who keeps buying. || title:"The chart nobody can explain"; A28@0.2,0.6:0.66~none; G12@0.8,0.32:0.32~drop; E52@0.8,0.74:0.32~drop
+Because every time a stock goes up, somebody paid a higher price for it. || title:"The chart nobody can explain"; A28@0.8,0.6:0.58~none; G03@0.42,0.36:0.3~pop; E01@0.16,0.36:0.3~pop; D13@0.42,0.74:0.3~pop
+And most of the money doing that buying today never reads the news at all. || title:"The chart nobody can explain"; H05@0.8,0.6:0.58~none; E36@0.42,0.36:0.3~pop; E01@0.16,0.36:0.3~pop; D13@0.42,0.74:0.3~pop; E02@0.16,0.74:0.3~pop
+Before we get to who that is, let's look at the two easy answers people usually give. || title:"The chart nobody can explain"; H08@0.13,0.68:0.48~none; E48@0.52,0.5:0.56~swing; group:C11*2@0.74,0.21,1.00,0.47:0.12
+Both are only half right. || title:"The chart nobody can explain"; A40@0.13,0.68:0.48~none; E48@0.52,0.5:0.56~swing; C11@0.87,0.34:0.36~r
+
+# ---------- CHAPTER 2: Easy answer one, the economy is fine ----------
+|| title:"Easy answer one, the economy"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Easy answer number one. || title:"Easy answer one, the economy"; A01@0.2,0.6:0.6~none; board:"Easy answer #1"@0.62,0.46:0.5; G13@0.9,0.8:0.24~pop+0.4
+The market is up because the economy is fine. || title:"Easy answer one, the economy"; A15@0.2,0.6:0.66~none; G11@0.8,0.32:0.32~drop; "ECONOMY IS FINE?"@0.56,0.72:96:red~drop; D13@0.56,0.3:0.28~pop
+That's partly true. || title:"Easy answer one, the economy"; doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, S&P 500" hl=0.384,0.681,0.622,0.738+0.8; H04@0.12,1.0:0.34:bottom
+Over its history, the S and P five hundred has gone up in about seven out of every ten years. || title:"Easy answer one, the economy"; A41@0.0,0.62:0.6:left~none; G12@0.36,0.3:0.32~b; E24@0.58,0.52:0.32~b; H18@0.8,0.74:0.3:"500 HAS"~drop
+But a stock is not a report card on how people feel today. || title:"Easy answer one, the economy"; A16@0.86,1.0:0.62:bottom~none; G03@0.14,0.4:0.32~l; H22@0.38,0.4:0.32~l; C28@0.62,0.4:0.36~l
+A stock is a small slice of a company's future profits. || title:"Easy answer one, the economy"; A16@0.86,1.0:0.62:bottom~none; D21@0.14,0.4:0.32~l; H22@0.38,0.4:0.32~l; C28@0.62,0.4:0.36~l; G11@0.38,0.8:0.3~b
+When you buy one, you're paying for money that company might make in five, ten or twenty years. || title:"Easy answer one, the economy"; A18@0.5,0.68:0.55~none; E34@0.83,0.62:0.34~r; E39@0.17,0.62:0.34~l; D01@0.78,0.28:0.3~t; "5"@0.5,0.16:100:red
+So a terrible month at the grocery store doesn't automatically push stock prices down. || title:"Easy answer one, the economy"; A29@0.87,0.68:0.48~none; E39@0.48,0.5:0.56~swing; G12@0.13,0.34:0.28~l; E25@0.13,0.78:0.28~l
+The market can feel great while your wallet feels awful. || title:"Easy answer one, the economy"; A33@0.87,0.68:0.48~none; E39@0.48,0.5:0.56~swing; G12@0.13,0.34:0.28~l; E25@0.13,0.78:0.28~l; G03@0.68,0.22:0.24~t
+That explains a little. || title:"Easy answer one, the economy"; A44@0.87,0.68:0.48~none; E39@0.48,0.5:0.56~swing; G12@0.13,0.34:0.28~l; E25@0.13,0.78:0.28~l; G03@0.68,0.22:0.24~t
+But it doesn't explain why prices kept rising through warning after warning. || title:"Easy answer one, the economy"; A44@0.5,0.68:0.55~none; E37@0.83,0.62:0.34~r; E44@0.17,0.62:0.34~l
+So, easy answer number two. || title:"Easy answer one, the economy"; A24@0.5,0.68:0.55~none; E37@0.83,0.62:0.34~r; E44@0.17,0.62:0.34~l; label:"2"@0.5,0.18>0.17,0.50
+
+# ---------- CHAPTER 3: Easy answer two, it's just a few giants ----------
+|| title:"Easy answer two, it's just a"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Easy answer number two. || title:"Easy answer two, it's just a"; A27@0.8,0.6:0.58~none; board:"Easy answer #2"@0.4,0.46:0.5; E34@0.12,0.8:0.26~pop+0.4
+The whole market isn't really going up. || title:"Easy answer two, it's just a"; A28@0.8,0.6:0.58~none; G11@0.42,0.36:0.3~pop; "MARKET"@0.29,0.55:110:black~pop
+Just a handful of giant tech companies are. || title:"Easy answer two, it's just a"; H05@0.8,0.6:0.58~none; G11@0.42,0.36:0.3~pop; E06@0.16,0.36:0.3~pop
+People call them the Magnificent Seven. || title:"Easy answer two, it's just a"; doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Big Tech" hl=0.142,0.451,0.447,0.549+0.8; H04@0.12,1.0:0.34:bottom
+Microsoft, Apple, Alphabet, Amazon, Meta, Nvidia and Tesla. || title:"Easy answer two, it's just a"; H08@0.16,0.6:0.62~none; D23@0.36,0.3:0.32~b; "BIG TECH"@0.50,0.82:110:red~b
+In twenty twenty-three, those seven companies made about two thirds of all the S and P five hundred's gains. || title:"Easy answer two, it's just a"; doc:s04_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Big Tech" hl=0.311,0.471,0.619,0.529+0.8; H04@0.12,1.0:0.34:bottom
+Seven companies. || title:"Easy answer two, it's just a"; A40@0.16,0.6:0.6~none; group:E34*7@0.34,0.24,0.94,0.56:0.24; "7 OF 500"@0.64,0.8:100:red~pop+0.6
+Out of five hundred. || title:"Easy answer two, it's just a"; A01@0.2,0.6:0.66~none; D21@0.8,0.32:0.32~drop; H18@0.8,0.74:0.3:"500"~drop
+That same year, as a group, they returned one hundred seven percent. || title:"Easy answer two, it's just a"; doc:s05_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Big Tech" hl=0.42,0.471,0.566,0.529+0.8; H04@0.12,1.0:0.34:bottom
+They more than doubled in twelve months, mostly on excitement about artificial intelligence. || title:"Easy answer two, it's just a"; A16@0.86,1.0:0.62:bottom~none; C17@0.18,0.42:0.46~l; E45@0.42,0.42:0.32~l; "107%"@0.46,0.8:120:green~pop+0.4
+By the middle of twenty twenty-four, they were thirty-one percent of the whole index. || title:"Easy answer two, it's just a"; doc:s06_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Big Tech" hl=0.44,0.606,0.62,0.664+0.8; H04@0.12,1.0:0.34:bottom
+So if you put one hundred dollars into an S and P five hundred fund, about thirty-one dollars went to just seven companies. || title:"Easy answer two, it's just a"; bars:"You put in"=100,"7 companies"=31; H04@0.92,1.0:0.28:bottom~none; "31 OF 100"@0.74,0.18:100:red~pop+0.6
+So yes, a few giants matter a lot. || title:"Easy answer two, it's just a"; A15@0.16,0.6:0.62~none; group:E34*3@0.4,0.3,0.9,0.62:0.3; "GIANTS MATTER"@0.64,0.84:90:black~pop
+But this answer has a big hole in it. || title:"Easy answer two, it's just a"; A18@0.16,0.6:0.62~none; E30@0.6,0.5:0.4~pop; "BIG HOLE"@0.6,0.16:110:red~pop+0.4
+Someone still has to buy those giant stocks, every single day, at higher and higher prices. || title:"Easy answer two, it's just a"; A29@1.0,0.62:0.6:right~none; G03@0.64,0.3:0.32~b; D30@0.42,0.52:0.32~b; E25@0.2,0.74:0.32~b
+And the answer to who that is, is probably you. || title:"Easy answer two, it's just a"; A33@1.0,0.62:0.6:right~none; G03@0.64,0.3:0.32~b; D30@0.42,0.52:0.32~b; E25@0.2,0.74:0.32~b; E52@0.18,0.26:0.3~swing
+
+# ---------- CHAPTER 4: The real engine, money on autopilot ----------
+|| title:"The real engine, money on"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] If you have a job with a retirement plan, there's a good chance you were signed up without filling out a single form. || title:"The real engine, money on"; A44@0.8,0.6:0.58~none; C10@0.42,0.36:0.43~pop; D25@0.16,0.36:0.3~pop
+This is called automatic enrollment. || title:"The real engine, money on"; doc:s07_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, 401(k)" hl=0.142,0.6,0.52,0.657+0.8; H04@0.12,1.0:0.34:bottom
+Your employer puts you into the four oh one k, and you have to opt out if you don't want it. || title:"The real engine, money on"; A24@0.5,0.68:0.55~none; group:C15*4@0.68,0.47,0.98,0.77:0.14
+A four oh one k, by the way, is a retirement account you get through work. || title:"The real engine, money on"; A21@0.2,0.6:0.66~none; D25@0.6,0.46:0.36~pop; label:"retirement account through work"@0.62,0.88>0.6,0.66; E24@0.88,0.24:0.22~pop
+Money goes in before taxes, and it's supposed to stay there until you're old. || title:"The real engine, money on"; A27@0.2,0.6:0.66~none; H28@0.8,0.32:0.32~drop; D26@0.8,0.74:0.32~drop; E04@0.53,0.32:0.32~drop; E23@0.53,0.74:0.32~drop; arrow:0.53,0.45>0.53,0.61
+For a long time, many companies were nervous about signing workers up automatically. || title:"The real engine, money on"; doc:s08_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, 401(k)" hl=0.142,0.54,0.586,0.597+0.8; H04@0.12,1.0:0.34:bottom
+Then in two thousand six, Congress passed a law that made it a safer choice. || title:"The real engine, money on"; A28@0.5,0.68:0.55~none; G09@0.17,0.62:0.34~l; "2006"@0.5,0.16:100:red
+So where does that money go? || title:"The real engine, money on"; A07@0.86,1.0:0.62:bottom~none; B10@0.14,0.4:0.46~l; E52@0.38,0.4:0.32~l; arrow:0.27,0.40>0.25,0.40; think:"So where does that money go?"@0.62,0.14
+Very often, into a fund that simply buys the whole market. || title:"The real engine, money on"; H05@0.86,1.0:0.62:bottom~none; H19@0.14,0.4:0.32~l; E52@0.38,0.4:0.32~l; G12@0.62,0.4:0.32~l; E05@0.38,0.8:0.3~b
+That's called an index fund. || title:"The real engine, money on"; A38@0.86,1.0:0.62:bottom~none; H19@0.14,0.4:0.32~l; E08@0.38,0.4:0.32~l; E02@0.62,0.4:0.32~l; E05@0.38,0.8:0.3~b
+Instead of picking winners, an index fund buys every company in the index, in the same size as the index. || title:"The real engine, money on"; H08@0.8,0.6:0.66~none; E28@0.2,0.32:0.32~drop; E34@0.2,0.74:0.32~drop; D01@0.47,0.32:0.32~drop
+Big company, big slice. || title:"The real engine, money on"; A40@0.8,0.6:0.66~none; E28@0.2,0.32:0.32~drop; E34@0.2,0.74:0.32~drop; D01@0.47,0.32:0.32~drop
+Small company, small slice. || title:"The real engine, money on"; A40@0.8,0.6:0.66~none; E28@0.2,0.32:0.32~drop; E34@0.2,0.74:0.32~drop; D01@0.47,0.32:0.32~drop
+The first index fund for regular people started on December thirty-first, nineteen seventy-five. || title:"The real engine, money on"; doc:s09_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Index fund" hl=0.142,0.499,0.482,0.557+0.8; H04@0.12,1.0:0.34:bottom
+Its founder was a man named John Bogle. || title:"The real engine, money on"; A40@0.87,0.68:0.48~none; E09@0.4,0.46:0.4~pop; "JOHN BOGLE"@0.42,0.84:110:black~pop
+Wall Street hated it. || title:"The real engine, money on"; doc:s10_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Index fund" hl=0.191,0.58,0.382,0.637+0.8; H04@0.12,1.0:0.34:bottom
+Competitors made fun of the idea of just buying everything and doing nothing. || title:"The real engine, money on"; A01@0.8,0.6:0.58~none; E17@0.42,0.36:0.3~pop; E36@0.16,0.36:0.3~pop
+They even called it Bogle's folly, which is a fancy way of saying a dumb idea. || title:"The real engine, money on"; A17@0.8,0.6:0.58~none; E17@0.42,0.36:0.3~pop; E36@0.16,0.36:0.3~pop; E08@0.42,0.74:0.3~pop; H22@0.16,0.74:0.3~pop
+Bogle predicted his boring little fund would one day be bigger than the most famous stock-picking fund in America. || title:"The real engine, money on"; doc:s11_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Index fund" hl=0.142,0.451,0.566,0.549+0.8; H04@0.12,1.0:0.34:bottom
+It happened in the year two thousand. || title:"The real engine, money on"; A15@0.16,0.6:0.62~none; E24@0.36,0.3:0.32~b; label:"2000"@0.4,0.74>0.36,0.18
+And doing nothing kept winning. || title:"The real engine, money on"; doc:s12_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Passive management" hl=0.142,0.605,0.561,0.702+0.8; H04@0.12,1.0:0.34:bottom
+In twenty twenty-one, seventy-nine percent of professional fund managers did worse than the S and P five hundred. || title:"The real engine, money on"; A18@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; G11@0.17,0.62:0.34~l; E04@0.78,0.28:0.3~t; "79%"@0.5,0.16:100:red
+They are paid to beat it, and four out of five didn't. || title:"The real engine, money on"; A29@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; G11@0.17,0.62:0.34~l; E04@0.78,0.28:0.3~t; group:B10*4@0.08,0.15,0.35,0.42:0.13
+So more and more money moved into index funds. || title:"The real engine, money on"; A33@0.2,0.6:0.58~none; E01@0.58,0.36:0.3~pop; "MONEY"@0.71,0.55:110:red~pop
+And here's the key part. || title:"The real engine, money on"; H01@0.2,0.6:0.58~none; E01@0.58,0.36:0.3~pop; "KEY PART"@0.71,0.55:110:black~pop
+An index fund does not care about the news. || title:"The real engine, money on"; A44@0.2,0.6:0.58~none; E01@0.58,0.36:0.3~pop; E02@0.84,0.36:0.3~pop
+Payday comes, and the fund buys. || title:"The real engine, money on"; A24@0.0,0.62:0.6:left~none; D01@0.36,0.3:0.32~b; D30@0.58,0.52:0.32~b
+It buys if the headlines are scary. || title:"The real engine, money on"; A27@0.0,0.62:0.6:left~none; D01@0.36,0.3:0.32~b; D30@0.58,0.52:0.32~b; E09@0.8,0.74:0.32~b; H19@0.82,0.26:0.3~swing
+It buys if prices are already high. || title:"The real engine, money on"; A28@0.0,0.62:0.6:left~none; E38@0.36,0.3:0.32~b; E36@0.58,0.52:0.32~b; E09@0.8,0.74:0.32~b; H19@0.82,0.26:0.3~swing
+It buys every two weeks, no matter what. || title:"The real engine, money on"; H05@0.0,0.62:0.6:left~none; E38@0.36,0.3:0.32~b; E36@0.58,0.52:0.32~b; E39@0.8,0.74:0.32~b; group:E25*2@0.68,0.12,0.95,0.40:0.13
+And because it buys in proportion, more of each paycheck goes to the biggest companies. || title:"The real engine, money on"; A36@0.8,0.6:0.66~none; E34@0.3,0.5:0.42~pop; E01@0.56,0.5:0.24~pop+0.3; arrow:0.5,0.5>0.4,0.5+0.5
+So the giants get bigger, partly just because they're already big. || title:"The real engine, money on"; H08@0.8,0.6:0.66~none; E34@0.32,0.5:0.5~pop; E45@0.56,0.44:0.3~pop+0.3; "BIGGER"@0.42,0.86:96:red~pop+0.5
+Now multiply that by tens of millions of American workers. || title:"The real engine, money on"; A40@0.87,0.68:0.48~none; C10@0.48,0.5:0.46~swing; H09@0.13,0.34:0.36~l; G13@0.13,0.78:0.28~l
+That's a river of money flowing into stocks on autopilot, every single payday. || title:"The real engine, money on"; A01@0.87,0.68:0.48~none; B10@0.48,0.5:0.46~swing; H09@0.13,0.34:0.36~l; G13@0.13,0.78:0.28~l; G12@0.68,0.22:0.24~t
+That river is the biggest reason the market didn't crash when the headlines said it should. || title:"The real engine, money on"; A09@0.86,1.0:0.62:bottom~none; G03@0.14,0.4:0.32~l; H06@0.38,0.4:0.36~jolt; D02@0.62,0.4:0.32~jolt
+But it's not the only one. || title:"The real engine, money on"; A16@0.86,1.0:0.62:bottom~none; G03@0.14,0.4:0.32~l; H06@0.38,0.4:0.36~jolt; D02@0.62,0.4:0.32~jolt
+
+# ---------- CHAPTER 5: Companies buying themselves ----------
+|| title:"Companies buying themselves"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The second engine is companies buying their own stock. || title:"Companies buying themselves"; doc:s13_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Share repurchase" hl=0.471,0.471,0.727,0.529+0.8; H04@0.12,1.0:0.34:bottom
+This is called a share buyback. || title:"Companies buying themselves"; A20@0.5,0.68:0.55~none; E08@0.17,0.62:0.34~l; G12@0.83,0.62:0.34~r
+Here's how it works. || title:"Companies buying themselves"; A02@0.5,0.68:0.55~none; E08@0.17,0.62:0.34~l; G12@0.83,0.62:0.34~r
+When a company buys back its shares, there are fewer shares left. || title:"Companies buying themselves"; A16@0.8,0.6:0.58~none; E33@0.42,0.36:0.3~pop; G11@0.16,0.36:0.3~pop; E39@0.42,0.74:0.3~pop
+So each remaining share owns a bigger piece of the profits. || title:"Companies buying themselves"; A16@0.8,0.6:0.58~none; E33@0.42,0.36:0.3~pop; G11@0.16,0.36:0.3~pop; E39@0.42,0.74:0.3~pop; G12@0.16,0.74:0.3~pop
+It's like a pizza with ten slices. || title:"Companies buying themselves"; A16@0.8,0.6:0.66~none; E39@0.36,0.5:0.4~pop; "10 SLICES"@0.36,0.16:110:black~pop+0.3
+If two slices disappear, every slice left is a bigger part of the pizza. || title:"Companies buying themselves"; A16@0.8,0.6:0.66~none; E39@0.36,0.5:0.4~none; E20@0.6,0.62:0.26~pop; "-2 SLICES"@0.36,0.16:110:red~pop
+Nobody made more pizza. || title:"Companies buying themselves"; A11@0.8,0.6:0.66~none; E39@0.36,0.5:0.4~none; xmark+0.3; "NO MORE PIZZA"@0.4,0.86:90:black~pop
+There's just fewer people sharing it. || title:"Companies buying themselves"; A16@0.8,0.6:0.66~none; H11@0.2,0.32:0.46~drop; "FEWER SHARES"@0.56,0.84:110:red~drop
+In the past, companies mostly shared profits by paying cash to their owners. || title:"Companies buying themselves"; doc:s14_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Share repurchase" hl=0.142,0.594,0.767,0.692+0.8; H04@0.12,1.0:0.34:bottom
+In the United States, buybacks took off in a big way and never really stopped. || title:"Companies buying themselves"; A16@0.84,0.6:0.62~none; G13@0.64,0.3:0.32~b; "USA"@0.50,0.82:110:black~b
+Almost ninety-five percent of buybacks happen quietly, || title:"Companies buying themselves"; doc:s15_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Share repurchase" hl=0.142,0.56,0.769,0.657+0.8; H04@0.12,1.0:0.34:bottom
+on the open market, just like any other buyer clicking buy. || title:"Companies buying themselves"; A15@0.13,0.68:0.48~none; G03@0.52,0.5:0.56~swing; H19@0.87,0.34:0.28~r
+They're not always smart, though. || title:"Companies buying themselves"; doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Share repurchase" hl=0.142,0.661,0.761,0.758+0.8; H04@0.12,1.0:0.34:bottom
+Between nineteen ninety-nine and twenty eleven, the computer company HP spent sixty-seven billion dollars buying back its own stock. || title:"Companies buying themselves"; A10@0.14,1.0:0.62:bottom~none; E07@0.86,0.4:0.32~r; E34@0.62,0.4:0.32~r; G12@0.38,0.4:0.32~r; H17@0.62,0.8:0.3:"$67 BILLION"~swing
+Sixty-seven billion dollars. || title:"Companies buying themselves"; A35@0.8,0.6:0.58~none; E05@0.42,0.36:0.3~pop; H17@0.16,0.36:0.3:"$67 BILLION"~swing
+That's a lot of money to spend on buying something you already own. || title:"Companies buying themselves"; A16@0.8,0.6:0.58~none; E05@0.42,0.36:0.3~pop; E02@0.16,0.36:0.3~pop; E36@0.42,0.74:0.3~pop
+A buyback can lift a stock price without making the company any better. || title:"Companies buying themselves"; A16@0.8,0.6:0.58~none; D21@0.42,0.36:0.3~pop; E02@0.16,0.36:0.3~pop; E36@0.42,0.74:0.3~pop; G03@0.16,0.74:0.3~pop
+So on top of every paycheck, companies themselves are steady buyers of their own stock. || title:"Companies buying themselves"; A18@0.14,1.0:0.62:bottom~none; C09@0.86,0.4:0.46~r; E34@0.62,0.4:0.32~r; arrow:0.73,0.40>0.75,0.40
+Which brings us to engine number three. || title:"Companies buying themselves"; A29@0.14,1.0:0.62:bottom~none; C09@0.86,0.4:0.46~r; E34@0.62,0.4:0.32~r; "ENGINE #3"@0.5,0.82:100:red~pop+0.4
+
+# ---------- CHAPTER 6: Cheaper money ----------
+|| title:"Cheaper money"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The third engine is interest rates. || title:"Cheaper money"; A38@0.5,0.68:0.55~none; G05@0.17,0.62:0.34~l; "INTEREST"@0.50,0.16:110:black~r
+When rates go down, borrowing gets cheaper, and future profits look more valuable today. || title:"Cheaper money"; A33@0.5,0.68:0.55~none; G05@0.17,0.62:0.34~l; G04@0.83,0.62:0.34~r; D28@0.22,0.28:0.3~t; D14@0.78,0.28:0.3~t
+Here's a simple way to see it. || title:"Cheaper money"; A17@0.84,0.6:0.62~none; D15@0.36,0.5:0.4~pop; E04@0.6,0.66:0.26~pop+0.3
+If a savings account pays five percent, lots of people are happy to just leave money in the bank. || title:"Cheaper money"; A44@1.0,0.62:0.6:right~none; E21@0.64,0.3:0.32~b; G05@0.42,0.52:0.32~b; D15@0.2,0.74:0.32~b; "5%"@0.5,0.82:100:red
+If the bank only pays three percent, that same money starts looking for something better. || title:"Cheaper money"; A24@0.8,0.6:0.66~none; C01@0.24,0.5:0.46~drop; E04@0.48,0.6:0.28~drop; H18@0.48,0.3:0.3:"3%"~drop
+A lot of it ends up in stocks. || title:"Cheaper money"; A27@0.8,0.6:0.66~none; E01@0.24,0.5:0.3~drop; arrow:0.34,0.5>0.46,0.5+0.3; G11@0.58,0.5:0.34~pop+0.5
+After holding its key rate above five percent for more than a year, || title:"Cheaper money"; doc:s17_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Federal funds rate" hl=0.142,0.64,0.519,0.738+0.8; H04@0.12,1.0:0.34:bottom
+the Federal Reserve started cutting in September twenty twenty-four. || title:"Cheaper money"; A28@0.87,0.68:0.48~none; G10@0.48,0.5:0.56~swing; "2024"@0.48,0.9:100:red
+By December twenty twenty-five, || title:"Cheaper money"; doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Federal funds rate" hl=0.225,0.681,0.43,0.738+0.8; H04@0.12,1.0:0.34:bottom
+the rate was down to about three and a half percent. || title:"Cheaper money"; H05@0.5,0.68:0.55~none; G05@0.17,0.62:0.34~l; G02@0.83,0.62:0.34~r
+So you have money on autopilot, companies buying themselves, and cheaper money. || title:"Cheaper money"; H08@0.13,0.68:0.48~none; E06@0.52,0.5:0.56~swing; B10@0.87,0.34:0.36~r; H19@0.87,0.78:0.28~r
+Three engines, all pushing in the same direction. || title:"Cheaper money"; A40@0.13,0.68:0.48~none; E06@0.52,0.5:0.56~swing; B10@0.87,0.34:0.36~r; group:H19*3@0.74,0.65,1.00,0.91:0.12
+Does that mean the market can never crash? || title:"Cheaper money"; A39@0.8,0.6:0.66~none; D14@0.2,0.5:0.32~drop; think:"Can it never crash?"@0.52,0.24
+History has a very clear answer. || title:"Cheaper money"; A01@0.8,0.6:0.66~none; D14@0.2,0.32:0.32~drop; "HISTORY"@0.62,0.14:110:red~drop
+No. || title:"Cheaper money"; A15@0.8,0.6:0.66~none; D14@0.2,0.32:0.32~drop; "HISTORY"@0.62,0.14:110:red~drop
+It can, and it has, even when the engines were running. || title:"Cheaper money"; A16@0.8,0.6:0.66~none; D14@0.2,0.32:0.32~drop; "ENGINES"@0.62,0.14:110:red~drop
+
+# ---------- CHAPTER 7: Expensive can stay expensive, until it doesn't ----------
+|| title:"Expensive can stay expensive"; sting; A23@0.5,0.56:0.6; hold:1.2
+[serious] On December fifth, || title:"Expensive can stay expensive"; doc:s19_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Irrational exuberance" hl=0.341,0.471,0.542,0.529+0.8; H04@0.12,1.0:0.34:bottom
+nineteen ninety-six, the head of the Federal Reserve gave a speech on live TV. || title:"Expensive can stay expensive"; A15@0.0,0.62:0.6:left~none; G10@0.36,0.3:0.32~b; E13@0.58,0.52:0.32~b; label:"1996"@0.4,0.74>0.58,0.40
+His name was Alan Greenspan, and he asked whether investors had caught a case of irrational exuberance. || title:"Expensive can stay expensive"; C05@0.84,0.6:0.62~none; H11@0.14,0.4:0.46~l; "GREENSPAN"@0.46,0.86:100:black~l
+In normal English, he was asking if everyone got way too excited. || title:"Expensive can stay expensive"; C05@0.86,1.0:0.62:bottom~none; H11@0.14,0.4:0.46~l; C11@0.38,0.4:0.36~l
+Markets in Tokyo closed down three percent. || title:"Expensive can stay expensive"; doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Irrational exuberance" hl=0.629,0.471,0.715,0.529+0.8; H04@0.12,1.0:0.34:bottom
+Everyone thought the top was in. || title:"Expensive can stay expensive"; A16@0.8,0.6:0.58~none; C28@0.42,0.36:0.43~pop; "EVERYONE"@0.29,0.55:110:black~pop
+It wasn't. || title:"Expensive can stay expensive"; A18@0.8,0.6:0.58~none; C28@0.42,0.36:0.43~pop; "EVERYONE"@0.29,0.55:110:black~pop
+The market kept going up for more than three more years. || title:"Expensive can stay expensive"; A18@0.5,0.68:0.55~none; group:E23*3@0.68,0.47,0.98,0.77:0.14
+Anyone who sold in nineteen ninety-six missed a huge run. || title:"Expensive can stay expensive"; A29@0.5,0.68:0.55~none; E23@0.83,0.62:0.34~r; E48@0.17,0.62:0.34~l; E39@0.78,0.28:0.3~t; note:"1996"@0.22,0.28
+The tech-heavy Nasdaq, || title:"Expensive can stay expensive"; doc:s21_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Dot-com bubble" hl=0.41,0.471,0.495,0.529+0.8; H04@0.12,1.0:0.34:bottom
+an index full of new internet companies, rose about six hundred percent between nineteen ninety-five and its peak. || title:"Expensive can stay expensive"; A33@0.13,0.68:0.48~none; E07@0.5,0.56:0.48~swing; E26@0.85,0.4:0.3~r; "600%"@0.5,0.2:110:green~pop+0.4
+To measure how expensive stocks are, economists use a number called CAPE. || title:"Expensive can stay expensive"; H01@0.86,1.0:0.62:bottom~none; H17@0.14,0.4:0.32~l; E08@0.38,0.4:0.32~l
+It compares prices to ten years of company profits. || title:"Expensive can stay expensive"; A44@0.86,1.0:0.62:bottom~none; D21@0.14,0.4:0.32~l; E08@0.38,0.4:0.32~l; E22@0.62,0.4:0.32~l; group:E37*10@0.24,0.67,0.52,0.94:0.13
+The economist Robert Shiller found only three earlier times when it was this high. || title:"Expensive can stay expensive"; doc:s22_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Cyclically adjusted price-to-earnings ratio" hl=0.142,0.661,0.742,0.758+0.8; H04@0.12,1.0:0.34:bottom
+Around nineteen twenty-nine, nineteen ninety-nine, and two thousand seven. || title:"Expensive can stay expensive"; A24@0.84,0.6:0.62~none; "1929"@0.22,0.36:110:red~pop; "1999"@0.44,0.56:110:red~pop+0.3; "2007"@0.62,0.76:110:red~pop+0.6
+Each one was followed by a big fall. || title:"Expensive can stay expensive"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Cyclically adjusted price-to-earnings ratio" hl=0.214,0.781,0.496,0.839+0.8; H04@0.12,1.0:0.34:bottom
+And CAPE hit its all-time record during the dot-com bubble in two thousand. || title:"Expensive can stay expensive"; A08@0.2,0.6:0.58~none; E28@0.58,0.36:0.3~pop; D29@0.84,0.36:0.3~pop; label:"2000"@0.36,0.24>0.84,0.24
+The Nasdaq peaked on March tenth, two thousand. || title:"Expensive can stay expensive"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Dot-com bubble" hl=0.142,0.451,0.556,0.549+0.8; H04@0.12,1.0:0.34:bottom
+By October two thousand two, it had fallen seventy-eight percent. || title:"Expensive can stay expensive"; A27@0.8,0.6:0.66~none; G04@0.2,0.32:0.32~drop; E46@0.2,0.74:0.32~drop; "78%"@0.62,0.14:100:red
+A few people saw it coming. || title:"Expensive can stay expensive"; doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Dot-com bubble" hl=0.142,0.701,0.475,0.758+0.8; H04@0.12,1.0:0.34:bottom
+The investor John Templeton bet against internet stocks right at the top. || title:"Expensive can stay expensive"; A28@0.8,0.6:0.58~none; E07@0.42,0.36:0.3~pop; "BOGLE"@0.29,0.55:110:black~pop
+Which is the investing version of leaving the party five minutes before the cops show up. || title:"Expensive can stay expensive"; H05@0.8,0.6:0.58~none; E07@0.42,0.4:0.3~pop; E24@0.14,0.4:0.26~pop+0.3; "LEFT EARLY"@0.3,0.84:96:red~pop+0.5
+Japan shows the slow version. || title:"Expensive can stay expensive"; doc:s26_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Japanese asset price bubble" hl=0.326,0.661,0.573,0.718+0.8; H04@0.12,1.0:0.34:bottom
+Its stock market hit an all-time high on December twenty-ninth, nineteen eighty-nine. || title:"Expensive can stay expensive"; H08@0.13,0.68:0.48~none; G15@0.5,0.5:0.42~pop; "DEC 29, 1989"@0.56,0.14:100:red~pop+0.3; D13@0.82,0.5:0.28~pop+0.5
+And Japan was not some small market. || title:"Expensive can stay expensive"; doc:s27_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Lost Decades" hl=0.142,0.473,0.78,0.907+0.8; H04@0.12,1.0:0.34:bottom
+In nineteen eighty-nine, thirty-two of the world's fifty biggest companies were Japanese. || title:"Expensive can stay expensive"; A45@0.14,1.0:0.62:bottom~none; E43@0.86,0.4:0.32~r; E33@0.62,0.4:0.32~r; G15@0.38,0.4:0.32~r; "32"@0.38,0.8:100:red
+It didn't beat that high again until February twenty twenty-four. || title:"Expensive can stay expensive"; doc:s28_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Lost Decades" hl=0.184,0.62,0.429,0.678+0.8; H04@0.12,1.0:0.34:bottom
+That's thirty-four years of waiting just to get back to even. || title:"Expensive can stay expensive"; A40@0.5,0.68:0.55~none; E24@0.83,0.62:0.34~r; label:"34 YEARS"@0.5,0.18>0.83,0.50
+And crashes can be fast, too. || title:"Expensive can stay expensive"; doc:s29_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Black Monday (1987)" hl=0.62,0.44,0.772,0.56+0.8; H04@0.12,1.0:0.34:bottom
+On one Monday in October nineteen eighty-seven, the Dow fell twenty-two percent in a single day. || title:"Expensive can stay expensive"; A01@1.0,0.62:0.6:right~none; G05@0.64,0.3:0.32~b; E25@0.42,0.52:0.32~jolt; "22%"@0.5,0.82:100:red
+Even all that autopilot money didn't stop a fall in twenty twenty-two. || title:"Expensive can stay expensive"; doc:s30_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, 2022 stock market decline" hl=0.142,0.64,0.746,0.738+0.8; H04@0.12,1.0:0.34:bottom
+The S and P five hundred dropped about a quarter from its high that year. || title:"Expensive can stay expensive"; A16@0.8,0.6:0.66~none; G02@0.2,0.32:0.32~drop; E23@0.2,0.74:0.32~drop; H18@0.47,0.32:0.3:"500 DROPPED"~drop
+So high prices don't tell you when a crash comes. || title:"Expensive can stay expensive"; doc:s31_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Cyclically adjusted price-to-earnings ratio" hl=0.142,0.471,0.447,0.529+0.8; H04@0.12,1.0:0.34:bottom
+Shiller himself said CAPE is not meant to predict crashes. || title:"Expensive can stay expensive"; A36@0.87,0.68:0.48~none; D02@0.48,0.5:0.56~swing; "SHILLER"@0.48,0.9:110:red~l
+It only says future returns may be lower. || title:"Expensive can stay expensive"; A16@0.87,0.68:0.48~none; D02@0.48,0.5:0.56~swing; "RETURNS"@0.48,0.9:110:red~l
+
+# ---------- CHAPTER 8: The real warning signs ----------
+|| title:"The real warning signs"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] So, back to our question. || title:"The real warning signs"; A16@0.8,0.6:0.58~none; board:"Who keeps buying?"@0.4,0.46:0.5; C28@0.12,0.82:0.24~pop+0.4
+If everything says crash, who keeps buying? || title:"The real warning signs"; A14@0.8,0.6:0.58~none; E46@0.42,0.36:0.3~pop; D30@0.16,0.36:0.3~jolt; think:"If everything says crash, who keeps buying?"@0.64,0.24
+The answer is millions of regular workers, on autopilot, every payday. || title:"The real warning signs"; A16@0.8,0.6:0.58~none; E46@0.42,0.36:0.3~pop; D30@0.16,0.36:0.3~jolt; C10@0.42,0.74:0.36~pop; H09@0.16,0.74:0.36~pop
+That steady buying is a cushion. || title:"The real warning signs"; A16@0.84,0.6:0.62~none; E36@0.64,0.3:0.32~b; "CUSHION"@0.50,0.82:110:red~b
+It's one reason the market is hard to knock down. || title:"The real warning signs"; A16@1.0,0.62:0.6:right~none; E36@0.64,0.3:0.32~b; G02@0.42,0.52:0.32~b
+But a market carried by a few giants is fragile in a new way. || title:"The real warning signs"; A15@0.16,0.6:0.6~none; E34@0.5,0.5:0.4~pop; E30@0.78,0.56:0.32~pop+0.3; "FRAGILE"@0.6,0.14:110:red~pop
+If those giants stumble, almost everyone's retirement stumbles with them. || title:"The real warning signs"; A18@0.5,0.68:0.55~none; D25@0.83,0.62:0.34~r; C11@0.17,0.62:0.36~l
+And there's one more quiet change. || title:"The real warning signs"; doc:s32_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, 401(k)" hl=0.267,0.701,0.734,0.758+0.8; H04@0.12,1.0:0.34:bottom
+Many retirement funds slowly move money out of stocks and into bonds as people get closer to retiring. || title:"The real warning signs"; A29@0.14,1.0:0.62:bottom~none; C13@0.86,0.44:0.46~r; D24@0.6,0.44:0.32~r
+A bond is a loan you give to a government or a company. || title:"The real warning signs"; A33@0.2,0.6:0.66~none; D24@0.8,0.32:0.32~drop; D18@0.8,0.74:0.32~drop; C06@0.53,0.32:0.36~drop
+It pays you interest, and it usually moves less than stocks. || title:"The real warning signs"; A44@0.2,0.6:0.66~none; D24@0.8,0.32:0.32~drop; D18@0.8,0.74:0.32~drop; C06@0.53,0.32:0.36~drop; G04@0.53,0.74:0.32~drop
+So the same autopilot that buys stocks for young workers slowly sells stocks for older workers. || title:"The real warning signs"; A24@0.5,0.68:0.55~none; C12@0.83,0.62:0.46~r; E54@0.17,0.62:0.34~l
+And America is getting older. || title:"The real warning signs"; A27@0.5,0.68:0.55~none; C12@0.83,0.62:0.46~r; E54@0.17,0.62:0.34~l; G13@0.78,0.28:0.3~t
+So if you want to watch for real warning signs, don't watch the scary headlines. || title:"The real warning signs"; A28@0.14,1.0:0.62:bottom~none; E49@0.86,0.4:0.32~r; E09@0.62,0.4:0.32~r; arrow:0.73,0.40>0.75,0.40
+They're loud, and they change every day. || title:"The real warning signs"; H05@0.14,1.0:0.62:bottom~none; E49@0.86,0.4:0.32~r; E09@0.62,0.4:0.32~r; E25@0.38,0.4:0.32~r
+Watch three boring things instead. || title:"The real warning signs"; H08@0.87,0.68:0.48~none; board:"3 boring signs"@0.42,0.46:0.5; E16@0.12,0.82:0.24~pop+0.4
+One. || title:"The real warning signs"; A40@0.87,0.68:0.48~none; "1"@0.24,0.46:200:red~pop; E34@0.52,0.5:0.36~pop+0.3
+How much of the market sits in just a few companies. || title:"The real warning signs"; A40@0.87,0.68:0.48~none; D21@0.48,0.5:0.56~swing; "COMPANIES"@0.48,0.9:110:red~l
+Two. || title:"The real warning signs"; A01@0.16,0.6:0.6~none; "2"@0.42,0.46:200:red~pop; E22@0.7,0.5:0.36~pop+0.3
+How expensive stocks are compared to their profits. || title:"The real warning signs"; A15@0.2,0.6:0.66~none; H17@0.8,0.32:0.32~drop; E22@0.8,0.74:0.32~drop
+Three. || title:"The real warning signs"; A16@0.8,0.6:0.58~none; "3"@0.24,0.46:200:red~pop; D25@0.5,0.5:0.34~pop+0.3
+Whether the paycheck money keeps flowing in, or people start pulling it out. || title:"The real warning signs"; A16@0.8,0.6:0.58~none; C10@0.42,0.36:0.43~pop; D01@0.16,0.36:0.3~pop; C28@0.42,0.74:0.36~pop
+This is not financial advice. || title:"The real warning signs"; A16@0.84,0.6:0.62~none; "NOT FINANCIAL ADVICE"@0.42,0.4:96:red~pop; E22@0.42,0.72:0.28~pop+0.3
+It's just how the machine works. || title:"The real warning signs"; A02@0.84,0.6:0.62~none; E48@0.64,0.3:0.32~b; "MACHINE"@0.50,0.82:110:red~b
+The market hasn't crashed yet because millions of workers buy every payday, companies buy their own shares, and money got cheaper again. || title:"The real warning signs"; A09@0.5,0.68:0.55~none; C09@0.83,0.62:0.46~r; E34@0.17,0.62:0.34~jolt
+None of that makes a crash impossible. || title:"The real warning signs"; A10@0.2,0.6:0.58~none; G02@0.58,0.36:0.3~pop; "IMPOSSIBLE"@0.71,0.55:110:black~pop
+It just means the reasons the market goes up are a lot quieter than the reasons people say it should fall. || title:"The real warning signs"; A20@0.2,0.6:0.58~none; G02@0.58,0.36:0.3~pop; H09@0.84,0.36:0.36~jolt; D02@0.58,0.74:0.3~jolt
+Next payday, the funds will buy again. || title:"The real warning signs"; A18@0.14,1.0:0.62:bottom~none; E05@0.86,0.4:0.32~r; E39@0.62,0.4:0.32~r
+And the river keeps flowing, until the day it doesn't. || title:"The real warning signs"; A29@0.14,1.0:0.62:bottom~none; E05@0.86,0.4:0.32~r; E39@0.62,0.4:0.32~r; E24@0.38,0.4:0.32~r; E25@0.62,0.8:0.3~b; arrow:0.45,0.51>0.55,0.69
+Thanks for watching Dollar Diaries. || A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; G11@0.14,0.6:0.28~pop; D13@0.86,0.6:0.28~pop
+
+|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3
