@@ -15,7 +15,11 @@ SLOTS = ["0.5,0.92", "0.66,0.12"]
 STOP = set("that this with from they them their there these those what when where which while would could should "
            "about because every after before again still just only really other being been have were your into "
            "than then also some more most much many very like does didn't doesn't don't it's that's here's "
-           "people thing things something nobody everyone everybody".split())
+           "people thing things something nobody everyone everybody already older going years today money price prices "
+           "hundred hundreds thousand thousands million billion trillion percent dollars dollar point anyway around "
+           "actually maybe almost little whole number numbers question answer simple".split())
+
+NUMWORD = re.compile(r"(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|teen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|thirds?|half)$")
 
 
 def keyword(words, frac, used):
@@ -23,10 +27,13 @@ def keyword(words, frac, used):
     if not ws:
         return ""
     at = min(len(ws) - 1, int(frac * len(ws)))
-    order = sorted(range(len(ws)), key=lambda k: abs(k - at))
+    near = sorted(range(len(ws)), key=lambda k: abs(k - at))[:8]        # words spoken around that moment
+    # proper names first (capital letter mid-sentence), then the longest word
+    order = sorted(near, key=lambda k: (not (k and ws[k][:1].isupper()), -len(ws[k])))
     for k in order:
         w = ws[k].strip(".,'").replace("'s", "")
-        if (len(w) >= 5 or re.search(r"\d", w)) and w.lower() not in STOP and w.upper() not in used:
+        if ((len(w) >= 5 or re.search(r"\d", w)) and w.lower() not in STOP and w.upper() not in used
+                and "'" not in w and not NUMWORD.search(w.lower())):
             return w.upper()[:14]
     return ""
 
