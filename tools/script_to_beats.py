@@ -413,8 +413,9 @@ def main(script, vdir):
             title = re.split(r"\s*[:(]\s*", title)[0].strip()             # planning notes after ':' stay off screen
             while len(title) > 30 and " " in title:
                 title = title.rsplit(" ", 1)[0].rstrip(",&-")
-            lines += ["", f"# ---------- {chap} ----------",
-                      f'|| title:"{clean(title)}"; sting; A23@0.5,0.56:0.6; hold:1.2']
+            lines += ["", f"# ---------- {chap} ----------"]
+            if i:                                                   # owner: the video opens on evidence, no title card
+                lines.append(f'|| title:"{clean(title)}"; sting; A23@0.5,0.56:0.6; hold:1.2')
         sents = sentences(ln["text"])
         docs = [doc_elem(id(s), meta) for s in by_line.get(i, [])]
         missing += docs.count(None)

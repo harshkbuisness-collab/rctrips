@@ -1,7 +1,6 @@
 # Day 34: Why the Stock Market Hasn't Crashed Yet. Built by tools/script_to_beats.py.
 
 # ---------- CHAPTER 1: The chart nobody can explain ----------
-|| title:"The chart nobody can explain"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Here's a strange fact about the American stock market. || title:"The chart nobody can explain"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, S&P 500" hl=0.515,0.64,0.725,0.698+0.8; H04@0.12,1.0:0.34:bottom
 The S and P five hundred is five hundred companies. || title:"The chart nobody can explain"; A01@0.2,0.6:0.58~none; G11@0.58,0.36:0.3~pop; E33@0.84,0.36:0.3~pop; H18@0.58,0.74:0.3:"500 IS"~drop
 But just twenty of them now make up nearly half of its total value. || title:"The chart nobody can explain"; A15@0.2,0.6:0.58~none; G11@0.58,0.36:0.3~pop; E33@0.84,0.36:0.3~pop; "20"@0.71,0.55:100:red

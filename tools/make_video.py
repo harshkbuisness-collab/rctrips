@@ -703,7 +703,8 @@ def link_elements(beats, tm):
         # adds something about every 0.8 s); persistent items keep their time
         fresh = [e for e in b["elems"] if ident(e) not in prev and not e["delay"]
                  and e["kind"] not in ("title", "source", "sting", "hold", "endscreen", "rain")]
-        step = min(0.6, (tm[i]["end"] - tm[i]["start"]) / (len(fresh) + 1)) if len(fresh) > 1 else 0
+        dur = tm[i]["end"] - tm[i]["start"]        # owner: something new about every 2 s, spread over the whole beat
+        step = max(min(0.6, dur / (len(fresh) + 1)), min(2.0, (dur - 0.6) / len(fresh))) if len(fresh) > 1 else 0
         stagger = {id(e): k * step for k, e in enumerate(fresh)}
         for e in b["elems"]:
             p = prev.get(ident(e))

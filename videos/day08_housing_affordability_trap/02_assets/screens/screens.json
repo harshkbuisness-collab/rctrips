@@ -1,332 +1,512 @@
 [
  {
   "line": 0,
-  "source": "Federal Housing Finance Agency",
+  "source": "FHFA Working Paper 24-03",
   "url": "https://www.fhfa.gov/research/papers/wp2403",
-  "what": "highlight \"The Lock-In Effect of Rising Mortgage Rates\"",
-  "said": "Federal researchers estimate that low mortgage rates kept so many owners in place that about one point three million home sales never happened. Picture two neighbors living on the same street.",
+  "what": "highlight \"prevented 1.33 million sales between 2022Q2 and 2023Q4\"",
+  "said": "In March twenty twenty-four, researchers at the Federal Housing Finance Agency published a strange number. One point three three million home sales in America that should have happened, and never did.",
   "file": "s01.png",
   "box": [
-   0.096,
-   0.275,
-   0.9,
-   0.333
+   0.553,
+   0.543,
+   0.836,
+   0.585
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 3,
-  "source": "Consumer Financial Protection Bureau",
-  "url": "https://www.consumerfinance.gov/owning-a-home/",
-  "what": "highlight \"Buying a House\"",
-  "said": "She has about thirty thousand dollars saved. When she started, that felt like a lot. Now it's barely enough for closing costs and a small down payment.",
-  "file": "s02.png",
-  "box": [
-   0.124,
-   0.23,
-   0.563,
-   0.336
-  ],
-  "page": null,
-  "ok": true
- },
- {
-  "line": 11,
-  "source": "FRED, St. Louis Fed",
-  "url": "https://fred.stlouisfed.org/series/MSPUS",
-  "what": "highlight \"Median Sales Price of Houses Sold for the United States\"",
-  "said": "In the mid twenty-twenties, the typical home in America sold for a bit over four hundred thousand dollars. That's a record high.",
-  "file": "s03.png",
-  "box": [
-   0.087,
-   0.216,
-   0.577,
-   0.265
-  ],
-  "page": null,
-  "ok": true
- },
- {
-  "line": 12,
-  "source": "FRED, St. Louis Fed",
-  "url": "https://fred.stlouisfed.org/series/MEHOINUSA672N",
-  "what": "highlight \"Real Median Household Income in the United States\"",
-  "said": "The typical American household earns around eighty thousand dollars a year. So a typical home costs about five times a typical income.",
-  "file": "s04.png",
-  "box": [
-   0.087,
-   0.216,
-   0.563,
-   0.265
-  ],
-  "page": null,
-  "ok": true
- },
- {
-  "line": 12,
-  "source": "U.S. Census Bureau",
-  "url": "https://www.census.gov/topics/income-poverty/income.html",
-  "what": "highlight \"Income\"",
-  "said": "The typical American household earns around eighty thousand dollars a year. So a typical home costs about five times a typical income.",
-  "file": "s05.png",
-  "box": null,
-  "page": null,
-  "ok": true
- },
- {
-  "line": 13,
-  "source": "Harvard Joint Center for Housing Studies",
-  "url": "https://www.jchs.harvard.edu/state-nations-housing-2025",
-  "what": "highlight \"The State of the Nation's Housing\"",
-  "said": "For Jasmine's parents' generation, it was closer to three times. That gap is the difference between a house you can save for and a house you can only dream about.",
+  "line": 20,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"nearly all 50 million active mortgages have fixed rates\"",
+  "said": "The FHFA paper says it directly. Nearly all fifty million active mortgages in the United States have fixed rates.",
   "file": "s06.png",
-  "box": null,
+  "box": [
+   0.227,
+   0.483,
+   0.491,
+   0.525
+  ],
   "page": null,
   "ok": true
  },
  {
-  "line": 15,
-  "source": "FRED, St. Louis Fed",
-  "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
-  "what": "highlight \"30-Year Fixed Rate Mortgage Average in the United States\"",
-  "said": "In twenty twenty-one, mortgage rates fell below three percent, the lowest ever recorded. By late twenty twenty-three, they had jumped to nearly eight percent.",
+  "line": 25,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"most have interest rates far below prevailing market rates, creating a disincentive to sell\"",
+  "said": "The paper's words: most of these loans have rates far below today's, which creates a disincentive to sell.",
   "file": "s07.png",
   "box": [
-   0.087,
-   0.216,
-   0.597,
-   0.265
+   0.096,
+   0.483,
+   0.896,
+   0.555
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 27,
-  "source": "Federal Housing Finance Agency",
+  "line": 26,
+  "source": "FHFA Working Paper 24-03",
   "url": "https://www.fhfa.gov/research/papers/wp2403",
-  "what": "highlight \"lock-in\"",
-  "said": "People call this the lock-in effect. A great low rate becomes a pair of golden handcuffs. It's too valuable to give up.",
+  "what": "highlight \"the probability of sale is decreased by 18.1%\"",
+  "said": "And they measured it. For every one percentage point that market rates sit above your own rate, your chance of selling falls by eighteen point one percent.",
   "file": "s08.png",
   "box": [
-   0.096,
-   0.275,
-   0.9,
-   0.333
+   0.627,
+   0.513,
+   0.85,
+   0.555
   ],
   "page": null,
   "ok": true
  },
  {
   "line": 27,
-  "source": "Federal Reserve Bank of St. Louis",
-  "url": "https://www.stlouisfed.org/on-the-economy",
-  "what": "highlight \"On the Economy\"",
-  "said": "People call this the lock-in effect. A great low rate becomes a pair of golden handcuffs. It's too valuable to give up.",
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"led to a 57% reduction in home sales with fixed-rate mortgages in 2023Q4\"",
+  "said": "By the end of twenty twenty-three, sales of homes with fixed-rate loans were down fifty-seven percent because of this lock-in alone.",
   "file": "s09.png",
-  "box": null,
+  "box": [
+   0.196,
+   0.543,
+   0.551,
+   0.585
+  ],
   "page": null,
   "ok": true
  },
  {
-  "line": 32,
-  "source": "FRED, St. Louis Fed",
-  "url": "https://fred.stlouisfed.org/series/EXHOSLUSM495S",
-  "what": "highlight \"Existing Home Sales\"",
-  "said": "In twenty twenty-three, the number of existing homes sold in America fell to its lowest level in almost thirty years.",
+  "line": 28,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"results in people not living in homes they would prefer\"",
+  "said": "People call this golden handcuffs. Your cheap rate is so valuable that it keeps you in a house you might not even want anymore.",
   "file": "s10.png",
   "box": [
-   0.087,
-   0.216,
-   0.355,
-   0.265
+   0.211,
+   0.603,
+   0.479,
+   0.645
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 36,
-  "source": "FRED, St. Louis Fed",
-  "url": "https://fred.stlouisfed.org/series/HOUST",
-  "what": "highlight \"New Privately-Owned Housing Units Started\"",
-  "said": "After the two thousand eight crash, builders went bust or got very careful. For about a decade, America built far fewer homes than it needed.",
+  "line": 30,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"which decreased prices by 3.3%\"",
+  "said": "The FHFA did the math on both sides. Higher rates on their own pushed prices down by three point three percent.",
   "file": "s11.png",
   "box": [
-   0.087,
-   0.216,
-   0.539,
-   0.265
+   0.509,
+   0.573,
+   0.674,
+   0.615
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 39,
-  "source": "Freddie Mac",
-  "url": "https://www.freddiemac.com/research",
-  "what": "highlight \"Research\"",
-  "said": "Estimates of the shortage vary, from about one and a half million homes to several million. But nearly every expert agrees the country is short.",
+  "line": 31,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"The supply reduction increased home prices by 5.7%\"",
+  "said": "But the missing supply pushed prices up by five point seven percent. The handcuffs won. So prices went up.",
   "file": "s12.png",
   "box": [
-   0.546,
-   0.03,
-   0.704,
-   0.132
+   0.096,
+   0.543,
+   0.891,
+   0.615
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Freddie Mac Research",
+  "url": "https://freddiemac.com/research/insight/housing-supply-still-undersupplied",
+  "what": "highlight \"the U.S. housing shortage has declined slightly to 3.7 million units\"",
+  "said": "Freddie Mac, the government-backed mortgage company, estimates the country is short three point seven million homes.",
+  "file": "s13.png",
+  "box": [
+   0.187,
+   0.775,
+   0.512,
+   0.813
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Freddie Mac Research",
+  "url": "https://freddiemac.com/research/insight/housing-supply-still-undersupplied",
+  "what": "highlight \"Despite adding 5.8 million housing units over approximately four years\"",
+  "said": "And here's the frustrating part. America did build again. Five point eight million homes in about four years. But demand grew by almost the same amount, so the hole barely shrank.",
+  "file": "s14.png",
+  "box": [
+   0.239,
+   0.39,
+   0.587,
+   0.428
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, Single-family zoning",
+  "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
+  "what": "highlight \"75% of land zoned for residential uses is zoned single-family\"",
+  "said": "And in many American cities, about seventy-five percent of the land for homes allows only one thing. A single detached house on its own lot. No duplex. No small apartment building.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.585,
+   0.565,
+   0.648
   ],
   "page": null,
   "ok": true
  },
  {
   "line": 43,
-  "source": "Wikipedia",
+  "source": "Wikipedia, Single-family zoning",
   "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
-  "what": "highlight \"single-family zoning\"",
-  "said": "Zoning rules decide what can be built where. In many American cities, most of the land for homes is zoned only for single-family houses. No apartments. No duplexes.",
-  "file": "s13.png",
+  "what": "highlight \"94% San Jose, California\"",
+  "said": "In San Jose, California, it's ninety-four percent. In Los Angeles, seventy-five. In Portland, Oregon, seventy-seven.",
+  "file": "s16.png",
   "box": [
-   0.156,
-   0.083,
-   0.329,
-   0.135
+   0.172,
+   0.781,
+   0.305,
+   0.818
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Single-family zoning",
+  "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
+  "what": "highlight \"originated in 1916 in the Elmwood neighborhood of Berkeley, California\"",
+  "said": "Where did that come from? Wikipedia traces it to nineteen sixteen, in the Elmwood neighborhood of Berkeley, California.",
+  "file": "s17.png",
+  "box": [
+   0.383,
+   0.664,
+   0.717,
+   0.701
   ],
   "page": null,
   "ok": true
  },
  {
   "line": 46,
-  "source": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/NIMBY",
-  "what": "highlight \"NIMBY\"",
-  "said": "And when builders do propose new homes, neighbors often show up to meetings to fight them. They worry about traffic, crowding, or their own home values.",
-  "file": "s14.png",
+  "source": "Wikipedia, Single-family zoning",
+  "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
+  "what": "highlight \"Single-family zoning both increases the cost of housing units and decreases the supply.\"",
+  "said": "The effect is simple. When you can only build one home where four could fit, you get fewer homes, and each one costs more.",
+  "file": "s18.png",
   "box": [
    0.156,
-   0.673,
-   0.769,
-   0.927
-  ],
-  "page": null,
-  "ok": true
- },
- {
-  "line": 50,
-  "source": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
-  "what": "highlight \"Invitation Homes\"",
-  "said": "Large investors own only a small share of single-family homes across the whole country. But in some fast-growing cities, like Atlanta, Phoenix and Charlotte, their share is much higher.",
-  "file": "s15.png",
-  "box": [
-   0.156,
-   0.083,
-   0.302,
-   0.135
-  ],
-  "page": null,
-  "ok": true
- },
- {
-  "line": 50,
-  "source": "Urban Institute",
-  "url": "https://www.urban.org/policy-centers/housing-finance-policy-center",
-  "what": "highlight \"Housing Finance Policy Center\"",
-  "said": "Large investors own only a small share of single-family homes across the whole country. But in some fast-growing cities, like Atlanta, Phoenix and Charlotte, their share is much higher.",
-  "file": "s16.png",
-  "box": [
-   0.08,
-   0.42,
-   0.47,
+   0.507,
+   0.588,
    0.57
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 53,
-  "source": "National Association of Realtors",
-  "url": "https://www.nar.realtor/research-and-statistics",
-  "what": "highlight \"Research and Statistics\"",
-  "said": "Then there's another kind of advantage. Family money. Many first-time buyers get help from their parents for the down payment.",
-  "file": "s17.png",
+  "line": 47,
+  "source": "Wikipedia, NIMBY",
+  "url": "https://en.wikipedia.org/wiki/NIMBY",
+  "what": "highlight \"opposition by residents to proposed real estate and infrastructure developments in their local area\"",
+  "said": "And when a builder does ask to build more, local residents often show up at city meetings to stop it. There's even a name for that. NIMBY. Not in my back yard.",
+  "file": "s19.png",
   "box": [
-   0.131,
-   0.178,
-   0.546,
-   0.263
+   0.156,
+   0.263,
+   0.585,
+   0.326
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Invitation Homes",
+  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
+  "what": "highlight \"bought 1,000 distressed houses in Phoenix, Arizona\"",
+  "said": "Between twenty ten and twenty eleven, a company called Treehouse bought one thousand distressed houses in Phoenix, Arizona.",
+  "file": "s20.png",
+  "box": [
+   0.191,
+   0.694,
+   0.441,
+   0.731
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Invitation Homes",
+  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
+  "what": "highlight \"The company was acquired by Blackstone Inc in the spring of 2012\"",
+  "said": "In the spring of twenty twelve, Blackstone, one of the biggest investment firms in the world, bought it and formed Invitation Homes.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.84,
+   0.562,
+   0.903
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Invitation Homes",
+  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
+  "what": "highlight \"the company owned 86,192 rental homes\"",
+  "said": "By December twenty twenty-five, Invitation Homes owned eighty-six thousand one hundred ninety-two rental houses. The largest owner of single-family rentals in the country.",
+  "file": "s22.png",
+  "box": [
+   0.259,
+   0.297,
+   0.462,
+   0.334
   ],
   "page": null,
   "ok": true
  },
  {
   "line": 55,
-  "source": "National Association of Realtors",
-  "url": "https://www.nar.realtor/research-and-statistics/research-reports/highlights-from-the-profile-of-home-buyers-and-sellers",
-  "what": "highlight \"first-time buyers\"",
-  "said": "All of this has pushed first-time buyers later in life. In twenty twenty-five, the typical first-time buyer was forty years old, the oldest ever recorded.",
-  "file": "s18.png",
+  "source": "Wikipedia, Invitation Homes",
+  "url": "https://en.wikipedia.org/wiki/Invitation_Homes",
+  "what": "highlight \"The company's largest markets are Atlanta (12.9% of 2025 revenue)\"",
+  "said": "Its biggest market is Atlanta, which brought in almost thirteen percent of its revenue in twenty twenty-five.",
+  "file": "s23.png",
   "box": [
-   0.147,
-   0.688,
-   0.604,
-   0.968
+   0.156,
+   0.349,
+   0.545,
+   0.412
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"30% were all-cash buyers\"",
+  "said": "The National Association of Realtors found that thirty percent of repeat buyers paid all cash in its twenty twenty-five report.",
+  "file": "s24.png",
+  "box": [
+   0.149,
+   0.78,
+   0.304,
+   0.82
   ],
   "page": null,
   "ok": true
  },
  {
   "line": 59,
-  "source": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/Minneapolis_2040",
-  "what": "highlight \"Minneapolis 2040\"",
-  "said": "Some cities have started changing their rules. Minneapolis ended single-family-only zoning in twenty eighteen. Austin cut its minimum lot size. Studies found rents in Minneapolis rose more slowly than in many similar cities.",
-  "file": "s19.png",
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"We're seeing buyers with significant housing equity making larger down payments and all-cash offers, while first-time buyers continue to struggle to enter the market.\"",
+  "said": "Their own economist called it a tale of two cities. Owners with equity make big down payments and cash offers, while first-time buyers struggle to get in.",
+  "file": "s25.png",
   "box": [
-   0.125,
-   0.083,
-   0.275,
-   0.135
+   0.131,
+   0.738,
+   0.588,
+   0.862
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 61,
-  "source": "California Department of Housing and Community Development",
-  "url": "https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units",
-  "what": "highlight \"Accessory Dwelling Units\"",
-  "said": "California now allows backyard cottages, called accessory dwelling units, on most single-family lots. Tens of thousands are built there every year.",
-  "file": "s20.png",
-  "box": null,
+  "line": 60,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"Gifts or loans from family and friends (22%)\"",
+  "said": "And for first-time buyers who do make it, more than one in five used gifts or loans from family and friends for the down payment. The bank of mom and dad.",
+  "file": "s26.png",
+  "box": [
+   0.167,
+   0.78,
+   0.402,
+   0.819
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"dropped to a record low of 21%\"",
+  "said": "First-time buyers made up just twenty-one percent of all home purchases. The lowest share ever recorded.",
+  "file": "s27.png",
+  "box": [
+   0.131,
+   0.589,
+   0.315,
+   0.629
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"climbed to an all-time high of 40 years\"",
+  "said": "And the typical first-time buyer was forty years old. The oldest ever recorded.",
+  "file": "s28.png",
+  "box": [
+   0.131,
+   0.589,
+   0.585,
+   0.655
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"contracted by 50% since 2007\"",
+  "said": "NAR says the share of first-time buyers has shrunk by half since two thousand seven.",
+  "file": "s29.png",
+  "box": [
+   0.32,
+   0.849,
+   0.5,
+   0.889
+  ],
   "page": null,
   "ok": true
  },
  {
   "line": 66,
-  "source": "Consumer Financial Protection Bureau",
-  "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-assumable-mortgage-en-1791/",
-  "what": "highlight \"assumable\"",
-  "said": "Some people have suggested letting homeowners take their low rate with them when they move. A few loans already allow this, but most don't.",
-  "file": "s21.png",
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"Delayed or denied homeownership until age 40 instead of 30 can mean losing roughly $150,000 in equity on a typical starter home.\"",
+  "said": "And waiting costs real money. Their estimate: buying at forty instead of thirty can mean losing about one hundred fifty thousand dollars of equity on a typical starter home.",
+  "file": "s30.png",
   "box": [
-   0.124,
-   0.618,
-   0.563,
-   0.792
+   0.131,
+   0.686,
+   0.588,
+   0.914
   ],
   "page": null,
   "ok": true
  },
  {
-  "line": 69,
-  "source": "U.S. Department of Housing and Urban Development",
-  "url": "https://www.hud.gov/topics/buying_a_home",
-  "what": "highlight \"Buying a Home\"",
-  "said": "First, check first-time buyer programs. Many states and cities offer down payment help, especially for teachers, nurses and other public workers.",
-  "file": "s22.png",
+  "line": 67,
+  "source": "National Association of Realtors",
+  "url": "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40",
+  "what": "highlight \"Median time in home before selling: 11 years\"",
+  "said": "Meanwhile, owners are staying put longer than ever. The typical seller had lived in their home for eleven years, another all-time high.",
+  "file": "s31.png",
   "box": [
-   0.143,
-   0.29,
-   0.249,
-   0.336
+   0.149,
+   0.78,
+   0.405,
+   0.82
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "FHFA Working Paper 24-03",
+  "url": "https://www.fhfa.gov/research/papers/wp2403",
+  "what": "highlight \"Certain borrower groups with lower wealth accumulation are less able to strategically time their sales, worsening inequality\"",
+  "said": "And the FHFA paper adds one more line. People with less wealth are the least able to time their sales well, which makes inequality worse.",
+  "file": "s32.png",
+  "box": [
+   0.096,
+   0.39,
+   0.904,
+   0.679
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "Wikipedia, Single-family zoning",
+  "url": "https://en.wikipedia.org/wiki/Single-family_zoning",
+  "what": "highlight \"In 2018, Minneapolis became the first major city in the US to end single-family zoning\"",
+  "said": "Some places changed the rules. In twenty eighteen, Minneapolis became the first major American city to end single-family zoning, and allowed duplexes and triplexes in every neighborhood.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.729,
+   0.553,
+   0.766
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, Accessory dwelling unit",
+  "url": "https://en.wikipedia.org/wiki/Accessory_dwelling_unit",
+  "what": "highlight \"SB 1069 and AB 2299 are California bills approved in 2016\"",
+  "said": "California went after backyards. In twenty sixteen it passed laws that limit how much cities can block small backyard homes, called accessory dwelling units.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.716,
+   0.75,
+   0.779
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia, Assumable mortgage",
+  "url": "https://en.wikipedia.org/wiki/Assumable_mortgage",
+  "what": "highlight \"allow the purchaser of a home to take over the existing terms of the mortgage including; the interest rate\"",
+  "said": "Then there's the loan itself. Some mortgages, like many government-backed ones, are assumable. A buyer can take over the seller's loan, including the old low rate.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.438,
+   0.763,
+   0.501
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Wikipedia, Assumable mortgage",
+  "url": "https://en.wikipedia.org/wiki/Assumable_mortgage",
+  "what": "highlight \"Mortgage assumptions have gained popularity since 2022\"",
+  "said": "Those deals have gained popularity since twenty twenty-two, for exactly this reason. But most loans don't allow it.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.464,
+   0.761,
+   0.527
   ],
   "page": null,
   "ok": true
