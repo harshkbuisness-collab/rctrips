@@ -46,4 +46,3 @@ details summary { cursor: pointer; margin-bottom: 8px; }
 .bulkImgs figure { margin: 0; width: 64px; text-align: center; font-size: 11px; color: #ffd166; }
 .bulkImgs img { width: 64px; height: 40px; object-fit: cover; border-radius: 4px; display: block; }
 .bulkImgs .mini { width: auto; margin-top: 0; padding: 2px 8px; font-size: 11px; }
-input.text { width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #30343d; background: #1d2027; color: #e9eaee; font: inherit; }

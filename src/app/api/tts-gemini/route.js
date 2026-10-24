@@ -13,9 +13,8 @@ export async function POST(request) {
     const {text = '', voice = 'ContentCreator', speed = 0} = await request.json().catch(() => ({}));
     const script = String(text).trim().slice(0, 5000);
     if (!script) return Response.json({error: 'Script is empty'}, {status: 400});
-    const apiKey = request.headers.get('x-gemini-key') || ''; // from the tool's AI settings; not stored
-    const pcm = await geminiSpeech(script, voice, Number(speed) || 0, apiKey);
-    const {words, source} = await wordTimings(pcm, script, undefined, apiKey);
+    const pcm = await geminiSpeech(script, voice, Number(speed) || 0);
+    const {words, source} = await wordTimings(pcm, script);
     // Long voices are resampled to 16 kHz so the answer fits Vercel's response size limit.
     const big = pcm.length > 3_000_000;
     const audio = big ? wav(shrinkPcm(pcm), 16000) : wav(pcm);
