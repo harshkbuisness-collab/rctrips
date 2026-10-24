@@ -50,7 +50,7 @@ Motion (v4): things enter with movement instead of just appearing. Append ~MOTIO
   bars:"2020"=100,"2025"=81[:circle]    horizontal bar chart of dollar values, built one row per beat
   chart@a-b                             "$100 at 3% inflation" line chart, drawn from year a to b
   source:"TEXT"                         small grey source line, bottom left
-  sting                                 short soft music sting (section breaks only)
+  sting                                 short soft music sting (section breaks only; never in the first 2 s)
   endscreen                             "Subscribe for more" end card with a box for the next video
   hold:SECONDS                          length of a beat with no words (default 1.0)
   rain:E01*20[:height]                  icons falling across the whole screen while the beat lasts (money rain)
@@ -502,6 +502,7 @@ def doc_marked(vdir, e, ages):
     return _marked[key]
 
 
+_focus = []                          # (mark start, doc end, screen box) of the frame being drawn
 CHART_GROW = 1.4                     # seconds a data chart takes to build itself (bars grow, lines draw)
 
 
@@ -530,6 +531,9 @@ def draw_doc(canvas, vdir, e, t, boxes):
     canvas.paste(im, (px, py))
     if e["frame"]:
         d.rectangle([px - 1, py - 1, px + dw, py + dh], outline=(150, 150, 150), width=2)
+    for m in e["marks"]:       # where the camera pushes in once a highlight is drawn
+        r = m["rect"]
+        _focus.append((m["t0"], e.get("t_end", 1e9), (px + r[0] * dw, py + r[1] * dh, px + r[2] * dw, py + r[3] * dh)))
     if e["src"]:   # source line: clear of the box shadow, lined up with the box's left edge
         d.text((px, py + dh + 30), e["src"], font=font(FONT_HAND, 36), fill=GREY, anchor="lt")
 
@@ -906,6 +910,94 @@ def room_tone(n):
     return (pink / np.sqrt(np.mean(pink ** 2))).astype(np.float32)
 
 
+PUSH_IN, PUSH_HOLD = 0.6, 2.6          # camera: seconds to zoom onto a highlight, seconds it stays close
+MUSIC_DB, MUSIC_GAP_DB = -33, -27     # background music level under speech / in pauses (after loudness gain)
+WHOOSH_DB = -30                       # soft whoosh when a new screenshot or board comes in
+
+
+def camera(canvas, t, focus):
+    """Keeps the frame moving: a slow drift all the time, and a push-in onto each fresh highlight."""
+    z, cx, cy = 1.025 + 0.02 * math.sin(t * 2 * math.pi / 13), W / 2 + 14 * math.sin(t / 3.1), H / 2
+    for m0, end, (x0, y0, x1, y1) in focus:
+        a = t - (m0 + 0.25)
+        if a < 0 or t > end:
+            continue
+        u = ease_out(min(1.0, a / PUSH_IN)) if a < PUSH_IN + PUSH_HOLD else max(0.0, 1 - (a - PUSH_IN - PUSH_HOLD) / PUSH_IN)
+        if u <= 0:
+            continue
+        zt = max(1.0, min(1.45, 0.75 * W / max(1, x1 - x0), 0.6 * H / max(1, y1 - y0)))
+        z = z + (zt - z) * u
+        cx, cy = cx + ((x0 + x1) / 2 - cx) * u, cy + ((y0 + y1) / 2 - cy) * u
+        break
+    cw, ch = W / z, H / z
+    cx, cy = min(max(cx, cw / 2), W - cw / 2), min(max(cy, ch / 2), H - ch / 2)
+    return canvas.resize((W, H), Image.BILINEAR, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
+
+
+def load_music(vdir, n):
+    """The owner's track (videos/<day>/02_assets/music.mp3, else one from library/music/), looped to n samples.
+    Without one, a soft generated piano bed is used."""
+    own = os.path.join(vdir, "02_assets", "music.mp3")
+    lib = os.path.join(ROOT, "library", "music")
+    files = [own] if os.path.exists(own) else sorted(os.path.join(lib, f) for f in os.listdir(lib)
+                                                      if f.lower().endswith((".mp3", ".wav", ".m4a"))) if os.path.isdir(lib) else []
+    if files:
+        f = files[sum(map(ord, os.path.basename(vdir))) % len(files)]
+        raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", f, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                             capture_output=True).stdout
+        m = np.frombuffer(raw, dtype=np.float32).copy()
+    else:
+        m = piano_bed()
+    m = np.tile(m, n // len(m) + 1)[:n]
+    return m / max(1e-6, np.sqrt(np.mean(m ** 2)))
+
+
+def piano_bed():
+    """32 s of calm, light piano chords and a soft pad (made here, so there is no licence question)."""
+    beat = 60 / 72
+    chords = [(48, 55, 60, 64), (45, 52, 57, 60), (41, 48, 53, 57), (43, 50, 55, 59)]   # C, Am, F, G
+    n = int(len(chords) * 8 * beat * SR)
+    out, tt = np.zeros(n, dtype=np.float32), np.arange(int(3 * SR)) / SR
+    def note(m, dur):
+        f = 440 * 2 ** ((m - 69) / 12)
+        y = sum(a * np.sin(2 * np.pi * f * h * tt[:dur]) for h, a in ((1, 1), (2, 0.35), (3, 0.12)))
+        return (y * np.exp(-tt[:dur] * 2.2)).astype(np.float32)
+    for c, ch in enumerate(chords):
+        s0 = int(c * 8 * beat * SR)
+        span = int(8 * beat * SR)
+        pad = sum(np.sin(2 * np.pi * 440 * 2 ** ((m + 12 - 69) / 12) * np.arange(span) / SR) for m in ch[1:])
+        out[s0:s0 + span] += (0.08 * pad * np.sin(np.pi * np.arange(span) / span)).astype(np.float32)
+        for k in range(8):                     # gentle arpeggio, one note a beat
+            s = s0 + int(k * beat * SR)
+            y = note(ch[k % 4] + (12 if k % 4 else 0), min(len(tt), n - s))
+            out[s:s + len(y)] += 0.25 * y
+        y = note(ch[0] - 12, min(len(tt), n - s0))
+        out[s0:s0 + len(y)] += 0.4 * y
+    return np.convolve(out, np.ones(8) / 8, "same").astype(np.float32)   # take the edge off
+
+
+def duck(voice, n):
+    """1 while someone speaks, 0 in pauses, with smooth edges (music dips under the voice)."""
+    hop = SR // 50
+    env = np.array([np.abs(voice[i:i + hop]).max() for i in range(0, len(voice), hop)])
+    on = (env > 0.02).astype(float)
+    on = np.convolve(on, np.ones(15), "same") > 0          # bridge short gaps between words
+    g = np.convolve(on.astype(float), np.ones(10) / 10, "same")
+    return np.repeat(g, hop)[:n] if len(g) * hop >= n else np.pad(np.repeat(g, hop), (0, n - len(g) * hop))
+
+
+def whoosh():
+    rng = np.random.default_rng(11)
+    n = int(0.45 * SR)
+    x = rng.standard_normal(n).astype(np.float32)
+    y, a, out = 0.0, np.linspace(0.02, 0.35, n) ** 1.5, np.zeros(n, dtype=np.float32)
+    for i in range(n):                         # low-pass that opens up = air rushing past
+        y += a[i] * (x[i] - y)
+        out[i] = y
+    out *= np.sin(np.pi * np.linspace(0, 1, n)) ** 2
+    return out / np.sqrt(np.mean(out ** 2))
+
+
 def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=None):
     import soundfile as sf
     tm = {t["beat"]: t for t in timings}
@@ -915,7 +1007,7 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
     sting = make_sting()
     for i, b in enumerate(beats):
         for e in b["elems"]:
-            if e["kind"] == "sting":
+            if e["kind"] == "sting" and tm[i]["start"] + e["delay"] > 2:   # no sound effect at the very start
                 s = int((tm[i]["start"] + e["delay"]) * SR)
                 mix[s:s + len(sting)] += sting[: len(mix[s:s + len(sting)])]
     voice_path = os.path.join(workdir, "mix_voice.wav")
@@ -927,6 +1019,20 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
     gain = -14 - float(m["input_i"])
     # room tone is added before the gain, at the level that lands on ROOM_TONE_DB after it
     mix = mix + room_tone(len(mix)) * 10 ** ((ROOM_TONE_DB - gain) / 20)
+    n = len(mix)
+    g = duck(mix, n)
+    music = load_music(vdir, n) * (10 ** ((MUSIC_GAP_DB - gain) / 20) * (1 - g) + 10 ** ((MUSIC_DB - gain) / 20) * g)
+    fade = np.ones(n, dtype=np.float32)
+    fade[:SR] = np.linspace(0, 1, SR)
+    fade[-3 * SR:] = np.linspace(1, 0, 3 * SR)
+    mix = mix + (music * fade).astype(np.float32)
+    wh, seen = whoosh() * 10 ** ((WHOOSH_DB - gain) / 20), set()
+    for i, b in enumerate(beats):
+        for e in b["elems"]:
+            if e["kind"] in ("doc", "board") and id(e["chain"][0]) not in seen and e["chain"][0]["t0"] > 2:
+                seen.add(id(e["chain"][0]))
+                s = max(0, int((e["chain"][0]["t0"] - 0.2) * SR))
+                mix[s:s + len(wh)] += wh[: len(mix[s:s + len(wh)])]
     mix_path = os.path.join(workdir, "mix.wav")
     sf.write(mix_path, mix, SR)
     os.remove(voice_path)
@@ -946,7 +1052,9 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
         t = f / FPS
         while cur + 1 < len(beats) and t >= tm[cur + 1]["start"]:
             cur += 1
-        ff.stdin.write(render_frame(beats, tm, cur, t, vdir, [], []).tobytes())
+        _focus.clear()
+        frame = render_frame(beats, tm, cur, t, vdir, [], [])
+        ff.stdin.write(camera(frame, t, list(_focus)).tobytes())
     ff.stdin.close()
     ff.wait()
 
