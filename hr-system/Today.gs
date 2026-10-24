@@ -1,6 +1,6 @@
 /**
- * "Today" sheet: only today's date with every employee. HR picks Absent / Full Day Leave /
- * Half Day Leave; each pick is copied into the month sheet (column I) right away.
+ * "Today" sheet: only today's date with every employee. HR picks LEAVE / OD;
+ * each pick is copied into today's cell of the month sheet right away (remarks go in as a cell note).
  * The daily trigger moves this sheet to the new date every night.
  */
 
@@ -13,23 +13,22 @@ function openToday() {
 
 /** Rebuilds the Today sheet for today's date, showing marks already saved in the month sheet. */
 function refreshToday_() {
-  const ss = SpreadsheetApp.getActive();
   const sh = getOrCreateSheet_(TODAY_SHEET, TODAY_HEADERS, [110, 60, 200, 110, 260, 200, 280], '#e69138');
   const now = new Date();
-  const day = fmt_(now, 'yyyy-MM-dd');
   const month = ensureMonthSheet_(now);
-
-  const saved = {};
-  if (month.getLastRow() > 1) {
-    month.getRange(2, 1, month.getLastRow() - 1, 10).getValues().forEach(r => {
-      if (fmt_(r[0], 'yyyy-MM-dd') === day) saved[normName_(r[3])] = [r[8], r[9]];
-    });
-  }
+  const index = monthRowIndex_(month);
+  const col = ATT_FIRST_DAY_COL + now.getDate() - 1;
+  const n = month.getLastRow() - ATT_FIRST_ROW + 1;
+  const cells = n > 0 ? month.getRange(ATT_FIRST_ROW, col, n, 1) : null;
+  const values = cells ? cells.getDisplayValues() : [];
+  const notes = cells ? cells.getNotes() : [];
 
   const date = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const rows = getEmployees_().map(e => {
-    const m = saved[normName_(e.name)] || ['', ''];
-    return [date, fmt_(now, 'EEE'), e.name, e.city, e.designation, m[0], m[1]];
+    const row = index[normName_(e.name)];
+    const i = row ? row - ATT_FIRST_ROW : -1;
+    const mark = i >= 0 && MARKS.indexOf(values[i][0]) >= 0 ? values[i][0] : '';
+    return [date, fmt_(now, 'EEE'), e.name, e.city, e.designation, mark, i >= 0 ? notes[i][0] : ''];
   });
 
   if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, TODAY_HEADERS.length).clearContent();
@@ -38,16 +37,14 @@ function refreshToday_() {
   sh.getRange('A:A').setNumberFormat('dd-MMM-yyyy');
   sh.getRange('A:B').setHorizontalAlignment('center');
   sh.getRange('F:F').setHorizontalAlignment('center');
-  const marks = sh.getRange('F2:F');
-  marks.setBackground('#fffbea').setDataValidation(
+  sh.getRange('F2:F').setBackground('#fffbea').setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(MARKS, true).setAllowInvalid(false).build());
   const rule = (text, bg, color) => SpreadsheetApp.newConditionalFormatRule()
     .whenFormulaSatisfied('=$F2="' + text + '"').setBackground(bg).setFontColor(color)
     .setRanges([sh.getRange('A2:G')]).build();
   sh.setConditionalFormatRules([
-    rule('Absent', '#f4cccc', '#990000'),
-    rule('Full Day Leave', '#ffe599', '#7f6000'),
-    rule('Half Day Leave', '#fff2cc', '#7f6000'),
+    rule('LEAVE', '#ffe599', '#7f6000'),
+    rule('OD', '#cfe2f3', '#073763'),
   ]);
   return sh;
 }
@@ -62,16 +59,17 @@ function onEdit(e) {
   const rows = sh.getRange(firstRow, 1, e.range.getLastRow() - firstRow + 1, TODAY_HEADERS.length).getValues();
   const date = rows[0][0] instanceof Date ? rows[0][0] : new Date();
   const month = SpreadsheetApp.getActive().getSheetByName(monthSheetName_(fmt_(date, 'yyyy-MM'))) || ensureMonthSheet_(date);
-  const n = month.getLastRow() - 1;
-  const data = month.getRange(2, 1, n, 4).getValues();
-  const marks = month.getRange(2, 9, n, 2).getValues();
-  const index = {};
-  data.forEach((r, i) => { index[fmt_(r[0], 'yyyy-MM-dd') + '|' + normName_(r[3])] = i; });
+  const index = monthRowIndex_(month);
+  const col = ATT_FIRST_DAY_COL + date.getDate() - 1;
+  const remarksEdited = e.range.getLastColumn() >= 7;
 
   rows.forEach(r => {
-    if (!(r[0] instanceof Date)) return;
-    const i = index[fmt_(r[0], 'yyyy-MM-dd') + '|' + normName_(r[2])];
-    if (i !== undefined) marks[i] = [r[5], r[6]];
+    const row = index[normName_(r[2])];
+    if (!row) return;
+    const cell = month.getRange(row, col);
+    const current = cell.getDisplayValue();
+    if (r[5]) cell.setValue(r[5]);
+    else if (MARKS.indexOf(current) >= 0) cell.clearContent();
+    if (remarksEdited) cell.setNote(r[6] || '');
   });
-  month.getRange(2, 9, n, 2).setValues(marks);
 }

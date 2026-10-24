@@ -44,7 +44,7 @@ function setupSystem() {
       ['Paid Leaves Per Month', 1.5, '18 per year'],
       ['Leave Tracking Starts', '2026-11', 'YYYY-MM. Opening balance in Leave Balance sheet is till the month before this'],
       ['Test Email', '', 'Your email, for "Send Test Email"'],
-      ['Count Absent As Leave', 'Yes', 'Yes/No - absent days (no punch, no leave marked) reduce leave balance'],
+      ['Count Absent As Leave', 'Yes', 'No punch days are marked LEAVE and reduce leave balance'],
     ]);
     settings.getRange('B2').setNumberFormat('HH:mm');
     ss.setNamedRange('OfficeStart', settings.getRange('B2'));
@@ -124,19 +124,8 @@ function getEmployeesAll_(sh) {
 function dailyJob() {
   ensureMonthSheet_(new Date());
   refreshToday_();
+  archiveOldMonths_();
   orderTabs_();
-}
-
-/** Adds the "Attendance Uploaded Till" setting (named range LastUpload) if missing. */
-function ensureLastUploadSetting_() {
-  const ss = SpreadsheetApp.getActive();
-  if (ss.getRangeByName('LastUpload')) return;
-  const settings = ss.getSheetByName(SHEETS.SETTINGS);
-  const row = settings.getLastRow() + 1;
-  settings.getRange(row, 1, 1, 3).setValues([['Attendance Uploaded Till', '', 'Set automatically by PDF upload. No punch on or before this date = Absent']]);
-  settings.getRange(row, 1).setFontWeight('bold');
-  settings.getRange(row, 2).setNumberFormat('dd-MMM-yyyy').setBackground('#eeeeee').setHorizontalAlignment('center');
-  ss.setNamedRange('LastUpload', settings.getRange(row, 2));
 }
 
 function refreshCurrentMonth() {
@@ -190,7 +179,7 @@ function orderTabs_() {
   const months = ss.getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0 && n !== current)
     .sort((a, b) => new Date('1 ' + b.slice(4).replace('-', ' ')) - new Date('1 ' + a.slice(4).replace('-', ' ')));
   const order = [TODAY_SHEET, SHEETS.SUMMARY, current, SHEETS.BALANCE].concat(months,
-    [SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS]);
+    [HISTORY_SHEET, SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS]);
   let pos = 1;
   order.forEach(name => {
     const sh = ss.getSheetByName(name);

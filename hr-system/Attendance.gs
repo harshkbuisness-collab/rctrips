@@ -1,155 +1,229 @@
 /**
  * Monthly attendance sheets and attendance file upload.
  *
- * Month sheet "Att Nov-2026": one row per day per employee.
- * A Date | B Day | C Emp Code | D Name | E City | F In Time | G Out Time | H Status (auto) | I Leave (HR) | J Remarks
+ * Month sheet "Att Nov-2026": one row per employee, one column per day.
+ * Row 1: Emp Code | Name | 1 .. 31 | Late | Leave | OD    Row 2: day names (Mon, Tue ...)
+ * Day cell: in-time (red if late, green if on time), LEAVE, OD, SUN (Sunday) or HOL (holiday).
  */
 
-const ATT_HEADERS = ['Date', 'Day', 'Emp Code', 'Name', 'City', 'In Time', 'Out Time', 'Status', 'Leave (HR)', 'Remarks'];
+const ATT_FIRST_DAY_COL = 3;
+const ATT_FIRST_ROW = 3;
 
-// HR marks (from the Today sheet or directly in column I of a month sheet).
-const MARKS = ['Absent', 'Full Day Leave', 'Half Day Leave', 'On Duty'];
-
-// Status is a live formula, so it updates as soon as HR marks something or the PDF is uploaded.
-// No punch counts as Absent only for dates already covered by an upload (named range LastUpload).
-const STATUS_FORMULA_R1C1 =
-  '=IF(RC9="Absent","Absent",IF(RC9="Full Day Leave","Leave",IF(RC9="Half Day Leave","Half Day Leave",IF(RC9="On Duty","On Duty",' +
-  'IF(RC2="Sun","Week Off",IF(COUNTIF(Holidays!C1:C1,RC1)>0,"Holiday",' +
-  'IF(RC6="",IF(AND(N(LastUpload)>0,RC1<=LastUpload),"Absent",""),' +
-  'IF(MOD(RC6,1)>MOD(OfficeStart,1),"Late","Present"))))))))';
+// HR marks (from the Today sheet or typed directly in a day cell).
+const MARKS = ['LEAVE', 'OD'];
+const FIXED_CODES = ['LEAVE', 'OD', 'SUN', 'HOL'];
 
 function monthSheetName_(key) {
   return 'Att ' + fmt_(monthKeyToDate_(key), 'MMM-yyyy');
 }
 
-/** Creates the month sheet if missing and adds rows for any newly added employees. */
+function daysInMonth_(key) {
+  const d = monthKeyToDate_(key);
+  return new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+}
+
+/** Creates the month sheet if missing, adds newly added employees and fills SUN / HOL. */
 function ensureMonthSheet_(dateInMonth) {
   const key = fmt_(dateInMonth, 'yyyy-MM');
   const ss = SpreadsheetApp.getActive();
   const name = monthSheetName_(key);
-  ensureLastUploadSetting_();
+  const days = daysInMonth_(key);
+  const width = 2 + days + 3;
   let sh = ss.getSheetByName(name);
+
+  // Old layout (one row per day): convert it to the new grid, keeping times and HR marks.
+  let oldRecords = null;
+  if (sh && sh.getRange('A1').getValue() === 'Date') {
+    oldRecords = readOldMonthSheet_(sh);
+    ss.deleteSheet(sh);
+    sh = null;
+  }
+
   if (!sh) {
     sh = ss.insertSheet(name, 0);
-    sh.getRange(1, 1, 1, ATT_HEADERS.length).setValues([ATT_HEADERS]);
-    styleSheet_(sh, ATT_HEADERS.length, [110, 60, 90, 190, 100, 90, 90, 130, 110, 240], '#1f3864');
-    formatMonthSheet_(sh);
+    if (sh.getMaxColumns() < width) sh.insertColumnsAfter(sh.getMaxColumns(), width - sh.getMaxColumns());
+    const header = ['Emp Code', 'Name'], dayNames = ['', ''];
+    for (let d = 1; d <= days; d++) {
+      header.push(d);
+      dayNames.push(fmt_(new Date(dateInMonth.getFullYear(), dateInMonth.getMonth(), d), 'EEE'));
+    }
+    sh.getRange(1, 1, 2, width).setValues([header.concat(['Late', 'Leave', 'OD']), dayNames.concat(['', '', ''])]);
+    styleSheet_(sh, width, [80, 180].concat(Array(days).fill(48), [60, 60, 50]), '#1f3864');
+    sh.getRange(2, 1, 1, width).setBackground('#d9e1f2').setFontColor('#1f3864').setFontWeight('bold').setHorizontalAlignment('center');
+    sh.setFrozenRows(2);
+    sh.setFrozenColumns(2);
   }
 
   const existing = new Set();
-  if (sh.getLastRow() > 1) {
-    sh.getRange(2, 4, sh.getLastRow() - 1, 1).getValues().forEach(r => existing.add(normName_(r[0])));
+  if (sh.getLastRow() >= ATT_FIRST_ROW) {
+    sh.getRange(ATT_FIRST_ROW, 2, sh.getLastRow() - ATT_FIRST_ROW + 1, 1).getValues().forEach(r => existing.add(normName_(r[0])));
   }
   const missing = getEmployees_().filter(e => !existing.has(normName_(e.name)));
-  if (!missing.length) {
-    if (sh.getLastRow() > 1) {
-      sh.getRange(2, 8, sh.getLastRow() - 1, 1).setFormulaR1C1(STATUS_FORMULA_R1C1);
-      formatMonthSheet_(sh);
-    }
-    return sh;
+  if (missing.length) {
+    const first = Math.max(sh.getLastRow() + 1, ATT_FIRST_ROW);
+    const need = first + missing.length - 1 - sh.getMaxRows();
+    if (need > 0) sh.insertRowsAfter(sh.getMaxRows(), need);
+    sh.getRange(first, 1, missing.length, 2).setValues(missing.map(e => [e.code, e.name]));
+    sh.getRange(ATT_FIRST_ROW, 1, sh.getLastRow() - ATT_FIRST_ROW + 1, width).sort({ column: 2, ascending: true });
   }
 
-  const start = monthKeyToDate_(key);
-  const days = new Date(start.getFullYear(), start.getMonth() + 1, 0).getDate();
-  const rows = [];
-  for (let d = 1; d <= days; d++) {
-    const date = new Date(start.getFullYear(), start.getMonth(), d);
-    missing.forEach(e => rows.push([date, fmt_(date, 'EEE'), e.code, e.name, e.city, '', '', '', '', '']));
-  }
-  const first = sh.getLastRow() + 1;
-  const need = first + rows.length - 1 - sh.getMaxRows();
-  if (need > 0) sh.insertRowsAfter(sh.getMaxRows(), need);
-  sh.getRange(first, 1, rows.length, ATT_HEADERS.length).setValues(rows);
-  sh.getRange(first, 8, rows.length, 1).setFormulaR1C1(STATUS_FORMULA_R1C1);
-  sh.getRange(2, 1, sh.getLastRow() - 1, ATT_HEADERS.length).sort([{ column: 1, ascending: true }, { column: 4, ascending: true }]);
-  // Re-apply so new rows get the dropdown, colours and banding.
-  formatMonthSheet_(sh);
-  applyBanding_(sh, ATT_HEADERS.length);
-  sh.getRange(1, 1, sh.getMaxRows(), ATT_HEADERS.length).setFontFamily(THEME.font).setFontSize(10);
+  formatMonthSheet_(sh, key);
+  if (oldRecords) applyRecords_(sh, key, oldRecords);
   return sh;
 }
 
-function formatMonthSheet_(sh) {
-  sh.getRange('A:A').setNumberFormat('dd-MMM-yyyy');
-  sh.getRange('F:G').setNumberFormat('HH:mm');
-  sh.getRange('I2:I').setDataValidation(
-    SpreadsheetApp.newDataValidation().requireValueInList(MARKS, true).setAllowInvalid(false).build());
-  sh.getRange('A:C').setHorizontalAlignment('center');
-  sh.getRange('F:I').setHorizontalAlignment('center');
-  sh.getRange('I2:I').setBackground('#fffbea');
-  const all = sh.getRange('A2:J');
-  const status = sh.getRange('H2:H');
-  const rowRule = (text, bg, color) => SpreadsheetApp.newConditionalFormatRule()
-    .whenFormulaSatisfied('=$H2="' + text + '"').setBackground(bg).setFontColor(color).setRanges([all]).build();
-  const cellRule = (text, bg, color) => SpreadsheetApp.newConditionalFormatRule()
-    .whenTextEqualTo(text).setBackground(bg).setFontColor(color).setBold(true).setRanges([status]).build();
+/** Totals formulas, SUN / HOL in empty cells, colours. Safe to run again. */
+function formatMonthSheet_(sh, key) {
+  const days = daysInMonth_(key);
+  const n = sh.getLastRow() - ATT_FIRST_ROW + 1;
+  if (n < 1) return;
+  const grid = sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL, n, days);
+  grid.setNumberFormat('HH:mm').setHorizontalAlignment('center');
+
+  const start = monthKeyToDate_(key);
+  const holidays = getHolidayDays_(key);
+  const values = grid.getDisplayValues();
+  let changed = false;
+  for (let d = 1; d <= days; d++) {
+    const code = new Date(start.getFullYear(), start.getMonth(), d).getDay() === 0 ? 'SUN' : holidays.has(d) ? 'HOL' : '';
+    if (!code) continue;
+    values.forEach(row => { if (!row[d - 1]) { row[d - 1] = code; changed = true; } });
+  }
+  if (changed) grid.setValues(values);
+
+  const a1 = c => sh.getRange(1, c).getA1Notation().replace(/\d+/g, '');
+  const firstCol = a1(ATT_FIRST_DAY_COL), lastCol = a1(ATT_FIRST_DAY_COL + days - 1);
+  const range = r => firstCol + r + ':' + lastCol + r;
+  const totals = [];
+  for (let r = ATT_FIRST_ROW; r < ATT_FIRST_ROW + n; r++) {
+    totals.push(['=COUNTIF(' + range(r) + ',">"&MOD(OfficeStart,1))', '=COUNTIF(' + range(r) + ',"LEAVE")', '=COUNTIF(' + range(r) + ',"OD")']);
+  }
+  sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL + days, n, 3).setFormulas(totals)
+    .setHorizontalAlignment('center').setFontWeight('bold').setBackground('#f3f6fb');
+
+  const top = firstCol + ATT_FIRST_ROW;
+  const rule = () => SpreadsheetApp.newConditionalFormatRule().setRanges([grid]);
+  const text = (t, bg, color) => rule().whenTextEqualTo(t).setBackground(bg).setFontColor(color).setBold(true).build();
   sh.setConditionalFormatRules([
-    cellRule('Late', '#f4cccc', '#990000'),
-    cellRule('Absent', '#e06666', '#ffffff'),
-    cellRule('Leave', '#ffe599', '#7f6000'),
-    cellRule('Half Day Leave', '#fff2cc', '#7f6000'),
-    cellRule('Present', '#d9ead3', '#274e13'),
-    cellRule('On Duty', '#cfe2f3', '#073763'),
-    rowRule('Week Off', '#eeeeee', '#999999'),
-    rowRule('Holiday', '#d0e0e3', '#0c343d'),
+    rule().whenFormulaSatisfied('=AND(ISNUMBER(' + top + '),MOD(' + top + ',1)>MOD(INDIRECT("OfficeStart"),1))')
+      .setBackground('#f4cccc').setFontColor('#990000').setBold(true).build(),
+    rule().whenFormulaSatisfied('=ISNUMBER(' + top + ')').setBackground('#d9ead3').setFontColor('#274e13').build(),
+    text('LEAVE', '#ffe599', '#7f6000'),
+    text('OD', '#cfe2f3', '#073763'),
+    text('SUN', '#eeeeee', '#999999'),
+    text('HOL', '#d9d2e9', '#20124d'),
   ]);
 }
 
+/** Day numbers (1..31) of holidays in this month, from the Holidays sheet. */
+function getHolidayDays_(key) {
+  const sh = SpreadsheetApp.getActive().getSheetByName(SHEETS.HOLIDAYS);
+  const out = new Set();
+  if (!sh || sh.getLastRow() < 2) return out;
+  sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues().forEach(r => {
+    const d = toDate_(r[0]);
+    if (d && fmt_(d, 'yyyy-MM') === key) out.add(d.getDate());
+  });
+  return out;
+}
+
+/** Row number of each employee in a month sheet: {normName: row, '#code': row}. */
+function monthRowIndex_(sh) {
+  const index = {};
+  if (sh.getLastRow() < ATT_FIRST_ROW) return index;
+  sh.getRange(ATT_FIRST_ROW, 1, sh.getLastRow() - ATT_FIRST_ROW + 1, 2).getValues().forEach((r, i) => {
+    index[normName_(r[1])] = ATT_FIRST_ROW + i;
+    if (String(r[0]).trim()) index['#' + String(r[0]).trim()] = ATT_FIRST_ROW + i;
+  });
+  return index;
+}
+
+/** Records from an old-layout month sheet (Date | Day | Code | Name | City | In | Out | Status | Leave (HR) | Remarks). */
+function readOldMonthSheet_(sh) {
+  if (sh.getLastRow() < 2) return [];
+  const map = { 'Absent': 'LEAVE', 'Full Day Leave': 'LEAVE', 'Half Day Leave': 'LEAVE', 'On Duty': 'OD' };
+  return sh.getRange(2, 1, sh.getLastRow() - 1, 10).getDisplayValues()
+    .map(r => ({ code: r[2], name: r[3], date: toDate_(r[0]), inTime: toTime_(r[5]), mark: map[r[8]] || '', note: r[9] }))
+    .filter(r => r.date && (r.inTime || r.mark));
+}
+
 /**
- * Reads the "Raw Upload" sheet and fills In/Out times in the month sheet(s).
+ * Writes records into one month sheet. HR's LEAVE / OD (and SUN / HOL) are never overwritten.
+ * Returns {filled, unmatched: [names], rows: Set of sheet rows that got data}.
+ */
+function applyRecords_(sh, key, records) {
+  const days = daysInMonth_(key);
+  const index = monthRowIndex_(sh);
+  const result = { filled: 0, unmatched: [], rows: new Set() };
+  const n = sh.getLastRow() - ATT_FIRST_ROW + 1;
+  if (n < 1) return result;
+  const grid = sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL, n, days);
+  const values = grid.getDisplayValues();
+  const notes = grid.getNotes();
+  const names = Object.keys(index).filter(k => k[0] !== '#');
+
+  records.forEach(r => {
+    const row = r.code && index['#' + r.code] ? index['#' + r.code] : index[resolveName_(r.name, names)];
+    if (!row) { result.unmatched.push(r.name || r.code); return; }
+    const i = row - ATT_FIRST_ROW, j = r.date.getDate() - 1;
+    result.rows.add(row);
+    if (FIXED_CODES.indexOf(values[i][j]) >= 0) return;
+    const v = r.mark || r.inTime;
+    if (!v) return;
+    values[i][j] = v;
+    if (r.note && !notes[i][j]) notes[i][j] = r.note;
+    result.filled++;
+  });
+  grid.setValues(values);
+  grid.setNotes(notes);
+  return result;
+}
+
+/**
+ * Reads the "Raw Upload" sheet and fills the month sheet(s).
  */
 function processUpload() {
   const raw = SpreadsheetApp.getActive().getSheetByName(SHEETS.RAW);
   SpreadsheetApp.getUi().alert(fillAttendance_(raw.getDataRange().getDisplayValues()));
 }
 
-/** Fills In/Out times in the month sheet(s) from a table of values. Returns a message for HR. */
+/**
+ * Fills the month sheet(s) from a table of values. Days up to the last date in the file with
+ * no punch become LEAVE (only for employees found in the file). Returns a message for HR.
+ */
 function fillAttendance_(values) {
   const records = parseRawAttendance_(values);
   if (!records.length) {
     return 'No attendance rows could be read from this file. Check the "' + SHEETS.RAW + '" sheet to see what was read.';
   }
 
-  // Group records by month so each month sheet is read and written once.
   const byMonth = {};
   records.forEach(r => (byMonth[fmt_(r.date, 'yyyy-MM')] = byMonth[fmt_(r.date, 'yyyy-MM')] || []).push(r));
+  const lastDate = records.reduce((m, r) => (r.date > m ? r.date : m), records[0].date);
 
   const unmatched = new Set();
   let filled = 0;
-  const lastDate = records.reduce((m, r) => (r.date > m ? r.date : m), records[0].date);
+  const skipped = [];
   Object.keys(byMonth).forEach(key => {
+    if (!SpreadsheetApp.getActive().getSheetByName(monthSheetName_(key)) && findHistoryBlock_(key)) {
+      skipped.push(monthLabel_(key));
+      return;
+    }
     const sh = ensureMonthSheet_(monthKeyToDate_(key));
-    const n = sh.getLastRow() - 1;
-    const data = sh.getRange(2, 1, n, 10).getValues();
-    const index = {};
-    data.forEach((row, i) => {
-      const day = fmt_(row[0], 'yyyy-MM-dd');
-      index[day + '|' + normName_(row[3])] = i;
-      if (String(row[2]).trim()) index[day + '|#' + String(row[2]).trim()] = i;
+    const res = applyRecords_(sh, key, byMonth[key]);
+    filled += res.filled;
+    res.unmatched.forEach(u => unmatched.add(u));
+
+    const lastDay = fmt_(lastDate, 'yyyy-MM') === key ? lastDate.getDate() : daysInMonth_(key);
+    res.rows.forEach(row => {
+      const cells = sh.getRange(row, ATT_FIRST_DAY_COL, 1, lastDay);
+      const v = cells.getDisplayValues();
+      if (v[0].some(c => !c)) cells.setValues([v[0].map(c => c || 'LEAVE')]);
     });
-    const sheetNames = Array.from(new Set(data.map(row => normName_(row[3]))));
-    const times = data.map(row => [row[5], row[6]]);
-    const marks = data.map(row => [row[8], row[9]]);
-    byMonth[key].forEach(r => {
-      const day = fmt_(r.date, 'yyyy-MM-dd');
-      const name = resolveName_(r.name, sheetNames);
-      const i = r.code && index[day + '|#' + r.code] !== undefined ? index[day + '|#' + r.code] : index[day + '|' + name];
-      if (i === undefined) { unmatched.add(r.name || r.code); return; }
-      times[i] = [r.inTime || '', r.outTime || ''];
-      // HR's own marks win over the machine file.
-      if (r.mark && !marks[i][0]) marks[i][0] = r.mark;
-      if (r.note && !marks[i][1]) marks[i][1] = r.note;
-      filled++;
-    });
-    sh.getRange(2, 6, n, 2).setValues(times);
-    sh.getRange(2, 9, n, 2).setValues(marks);
   });
 
-  // Days up to the last date in the file: no punch now shows as Absent.
-  const lastUpload = SpreadsheetApp.getActive().getRangeByName('LastUpload');
-  if (!lastUpload.getValue() || lastDate > lastUpload.getValue()) lastUpload.setValue(lastDate);
-
   let msg = 'Done. ' + filled + ' attendance entries filled (' + Object.keys(byMonth).map(monthLabel_).join(', ') + ').';
+  if (skipped.length) msg += '\n\nSkipped (already moved to ' + HISTORY_SHEET + '): ' + skipped.join(', ');
   if (unmatched.size) {
     msg += '\n\nThese names from the file are not in the Employees sheet (add them, then upload again):\n' +
       Array.from(unmatched).join('\n');
@@ -157,8 +231,82 @@ function fillAttendance_(values) {
   return msg;
 }
 
+// ---------- Attendance History: finished months, stacked one below the other ----------
+
+const HISTORY_SHEET = 'Attendance History';
+
+/** Moves a finished month sheet to the bottom of Attendance History and deletes the month sheet. */
+function archiveMonth_(key) {
+  const ss = SpreadsheetApp.getActive();
+  const sh = ss.getSheetByName(monthSheetName_(key));
+  if (!sh || findHistoryBlock_(key)) return;
+  let hist = ss.getSheetByName(HISTORY_SHEET);
+  if (!hist) {
+    hist = ss.insertSheet(HISTORY_SHEET);
+    hist.setTabColor('#1f3864').setHiddenGridlines(true);
+    hist.setColumnWidth(1, 80).setColumnWidth(2, 180);
+  }
+  const width = sh.getLastColumn(), height = sh.getLastRow();
+  const top = hist.getLastRow() ? hist.getLastRow() + 2 : 1;
+  if (hist.getMaxColumns() < width) hist.insertColumnsAfter(hist.getMaxColumns(), width - hist.getMaxColumns());
+  if (hist.getMaxRows() < top + height) hist.insertRowsAfter(hist.getMaxRows(), top + height - hist.getMaxRows());
+  for (let c = 3; c <= width; c++) hist.setColumnWidth(c, 48);
+
+  hist.getRange(top, 1, 1, width).merge().setValue(monthLabel_(key)).setBackground('#cc0000').setFontColor('#ffffff')
+    .setFontWeight('bold').setFontSize(12).setHorizontalAlignment('left');
+  const src = sh.getRange(1, 1, height, width);
+  const dest = hist.getRange(top + 1, 1, height, width);
+  src.copyTo(dest, SpreadsheetApp.CopyPasteType.PASTE_FORMAT, false);
+  dest.setValues(src.getDisplayValues());
+  ss.deleteSheet(sh);
+}
+
+/** Row of the month title in Attendance History, or 0. */
+function findHistoryBlock_(key) {
+  const hist = SpreadsheetApp.getActive().getSheetByName(HISTORY_SHEET);
+  if (!hist || !hist.getLastRow()) return 0;
+  const label = monthLabel_(key);
+  const i = hist.getRange(1, 1, hist.getLastRow(), 1).getDisplayValues().findIndex(r => r[0] === label);
+  return i < 0 ? 0 : i + 1;
+}
+
+/** Month sheets older than last month are moved to history (safety net for the daily job). */
+function archiveOldMonths_() {
+  const keep = [fmt_(new Date(), 'yyyy-MM'), previousMonthKey_()];
+  SpreadsheetApp.getActive().getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0)
+    .map(n => normalizeMonthKey_(n.slice(4)))
+    .filter(k => k && keep.indexOf(k) < 0 && k < keep[0])
+    .forEach(archiveMonth_);
+}
+
 /**
- * Converts the raw file into [{code, name, date, inTime, outTime, mark, note}].
+ * Day grid of a month from its sheet or from Attendance History.
+ * Returns [{name, days: ['10:05', 'LEAVE', 'SUN', ...]}] or null.
+ */
+function getMonthGrid_(key) {
+  const ss = SpreadsheetApp.getActive();
+  const days = daysInMonth_(key);
+  const sh = ss.getSheetByName(monthSheetName_(key));
+  let rows;
+  if (sh) {
+    if (sh.getLastRow() < ATT_FIRST_ROW) return [];
+    rows = sh.getRange(ATT_FIRST_ROW, 1, sh.getLastRow() - ATT_FIRST_ROW + 1, 2 + days).getDisplayValues();
+  } else {
+    const top = findHistoryBlock_(key);
+    if (!top) return null;
+    const hist = ss.getSheetByName(HISTORY_SHEET);
+    const first = top + 1 + ATT_FIRST_ROW - 1;
+    rows = [];
+    if (first <= hist.getLastRow()) {
+      const all = hist.getRange(first, 1, hist.getLastRow() - first + 1, 2 + days).getDisplayValues();
+      for (const r of all) { if (!r[1]) break; rows.push(r); }
+    }
+  }
+  return rows.filter(r => r[1]).map(r => ({ name: r[1], days: r.slice(2) }));
+}
+
+/**
+ * Converts the raw file into [{code, name, date, inTime, mark, note}].
  * First tries the attendance machine's monthly grid; falls back to a simple row-per-day table.
  */
 function parseRawAttendance_(values) {
@@ -202,10 +350,9 @@ function parseMonthGrid_(values) {
       const v = String(r[col] || '').toUpperCase();
       const date = new Date(year, month, dayCols[col]);
       if (date.getMonth() !== month || !v || v === 'SUN') return;
-      const rec = { code: '', name: name, date: date, inTime: '', outTime: '', mark: '', note: '' };
-      if (/^LEAVE$|^L$/.test(v)) rec.mark = 'Full Day Leave';
-      else if (/^HALF|^HD$/.test(v)) rec.mark = 'Half Day Leave';
-      else if (/^OD$/.test(v)) rec.mark = 'On Duty';
+      const rec = { code: '', name: name, date: date, inTime: '', mark: '', note: '' };
+      if (/^LEAVE$|^L$|^HALF|^HD$/.test(v)) rec.mark = 'LEAVE';
+      else if (/^OD$/.test(v)) rec.mark = 'OD';
       else {
         const t = toTime_(v);
         if (!t || t === '00:00') return; // no punch
@@ -225,7 +372,7 @@ function parseRowTable_(values) {
   const h = values[headerIdx].map(c => c.toLowerCase());
   const col = re => h.findIndex(c => re.test(c));
   const cName = col(/name/), cCode = col(/code|emp.?id|^id$/), cDate = col(/date/);
-  const cIn = col(/^in|in.?time|first.?in|check.?in/), cOut = col(/^out|out.?time|last.?out|check.?out/);
+  const cIn = col(/^in|in.?time|first.?in|check.?in/);
 
   const out = [];
   values.slice(headerIdx + 1).forEach(r => {
@@ -236,7 +383,6 @@ function parseRowTable_(values) {
       name: cName >= 0 ? r[cName] : '',
       date: date,
       inTime: toTime_(r[cIn]),
-      outTime: toTime_(r[cOut]),
     });
   });
   return out;

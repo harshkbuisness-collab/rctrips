@@ -18,18 +18,18 @@ function calculateMonthSummaryPrompt() {
 function calculateMonthSummary_(key) {
   const ss = SpreadsheetApp.getActive();
   const settings = getSettings_();
-  const att = ss.getSheetByName(monthSheetName_(key));
-  if (!att || att.getLastRow() < 2) throw new Error('Sheet "' + monthSheetName_(key) + '" not found or empty.');
+  const grid = getMonthGrid_(key);
+  if (!grid || !grid.length) throw new Error('Attendance for ' + monthLabel_(key) + ' not found.');
+  const cutoff = ss.getRangeByName('OfficeStart').getDisplayValue().slice(0, 5);
 
-  // Count per employee from the month sheet.
+  // Count per employee from the month grid (times are 'HH:mm').
   const counts = {};
-  att.getRange(2, 1, att.getLastRow() - 1, 9).getValues().forEach(r => {
-    const k = normName_(r[3]);
-    const c = counts[k] = counts[k] || { late: 0, leaves: 0, absent: 0 };
-    if (r[7] === 'Late') c.late++;
-    else if (r[7] === 'Leave') c.leaves += 1;
-    else if (r[7] === 'Half Day Leave') c.leaves += 0.5;
-    else if (r[7] === 'Absent') c.absent++;
+  grid.forEach(r => {
+    const c = counts[normName_(r.name)] = { late: 0, leaves: 0, absent: 0 };
+    r.days.forEach(v => {
+      if (/^\d{2}:\d{2}/.test(v) && v.slice(0, 5) > cutoff) c.late++;
+      else if (v === 'LEAVE') c.leaves++;
+    });
   });
 
   // Rebuild this month's summary rows, keeping what HR already typed (deduction, email sent).

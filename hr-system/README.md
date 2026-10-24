@@ -11,12 +11,13 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 6. **HR System > 2. Connect Outlook** and sign in as hr@rctrips.com.
 
 ## Monthly use
-- Daily: the `Today` sheet shows only today's date. HR picks Absent / Full Day Leave / Half Day Leave; it is saved into the month sheet instantly. A 1am trigger moves `Today` to the next date and creates the new month sheet on day 1.
-- Month end: HR System > Upload Attendance File (PDF / Excel) fills In/Out times (parser to be tuned to the real machine file). No punch on uploaded dates = Absent.
-- Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**.
+- Month sheet (`Att Nov-2026`): one row per employee, one column per day, plus Late / Leave / OD totals. Day cell = in-time (red = late, green = on time), `LEAVE`, `OD`, `SUN` (Sunday) or `HOL` (holiday from `Holidays`).
+- Daily: the `Today` sheet shows only today's date. HR picks LEAVE or OD; it is saved into the month sheet instantly. A 1am trigger moves `Today` to the next date and creates the new month sheet on day 1.
+- HR System > Upload Attendance File (PDF / Excel) fills in-times. No punch on uploaded dates = LEAVE. HR's own LEAVE / OD are never overwritten.
+- Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**. After emails are sent, that month's sheet moves to the bottom of `Attendance History` (all finished months, one below the other).
 
 ## Rules
 - Office starts 10:00. In time after 10:10 = Late (Settings > Late After). More than 5 lates/month = deduction (amount entered by HR).
 - Sunday = Week Off. Saturday = half day (10 to 3).
 - 1.5 paid leaves/month. HR enters opening balance (till Oct 2026) in `Leave Balance`; tracking starts Nov 2026.
-- Absent (no punch and no leave marked) counts as leave (Settings: "Count Absent As Leave").
+- No punch and no mark = LEAVE (counts against leave balance).
