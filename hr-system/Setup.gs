@@ -19,6 +19,7 @@ function onOpen() {
     .createMenu('HR System')
     .addItem('1. First-time Setup', 'setupSystem')
     .addItem('2. Connect Outlook (hr@rctrips.com)', 'connectOutlook')
+    .addItem('Load / Update Employees', 'loadEmployees')
     .addSeparator()
     .addItem('Create / Refresh This Month Sheet', 'refreshCurrentMonth')
     .addItem('Process Attendance Upload', 'processUpload')
@@ -52,10 +53,6 @@ function setupSystem() {
 
   const emp = getOrCreateSheet_(SHEETS.EMPLOYEES, EMP_COLS, [200, 110, 280, 90, 110, 240, 110], '#38761d');
   emp.getRange('D:E').setNumberFormat('@');
-  // EMPLOYEE_DATA lives in Employees.gs (kept out of GitHub).
-  if (emp.getLastRow() < 2 && typeof EMPLOYEE_DATA !== 'undefined' && EMPLOYEE_DATA.length) {
-    emp.getRange(2, 1, EMPLOYEE_DATA.length, EMP_COLS.length).setValues(EMPLOYEE_DATA);
-  }
   emp.getRange('G2:G').setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(['Yes', 'No'], true).build());
   getOrCreateSheet_(SHEETS.HOLIDAYS, ['Date', 'Holiday Name'], [140, 260], '#b45f06').getRange('A:A').setNumberFormat('dd-MMM-yyyy');
@@ -64,11 +61,6 @@ function setupSystem() {
     [90, 200, 170, 100, 100, 140, 120], '#674ea7');
   balance.getRange('C2:C').setBackground('#fff2cc');
   balance.getRange('C:G').setHorizontalAlignment('center');
-  // Pre-fill names so HR only types the opening balance.
-  if (balance.getLastRow() < 2) {
-    const emps = getEmployees_();
-    if (emps.length) balance.getRange(2, 1, emps.length, 3).setValues(emps.map(e => [e.code, e.name, '']));
-  }
   const summary = getOrCreateSheet_(SHEETS.SUMMARY, ['Month', 'Emp Code', 'Name', 'Email', 'Late Count', 'Over Late Limit',
     'Leaves Taken', 'Absent Days', 'Leave Balance', 'Salary Deduction (HR fills)', 'Email Sent'],
     [90, 90, 200, 240, 100, 120, 110, 110, 120, 190, 150], '#cc0000');
@@ -79,6 +71,7 @@ function setupSystem() {
     .whenTextEqualTo('Yes').setBackground('#f4cccc').setFontColor('#990000').setBold(true)
     .setRanges([summary.getRange('F2:F')]).build()]);
 
+  const added = addEmployees_();
   ensureMonthSheet_(new Date());
   const blank = ss.getSheetByName('Sheet1');
   if (blank && blank.getLastRow() === 0 && ss.getSheets().length > 1) ss.deleteSheet(blank);
@@ -90,8 +83,40 @@ function setupSystem() {
     .forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('dailyJob').timeBased().everyDays(1).atHour(1).create();
 
-  SpreadsheetApp.getUi().alert('Setup done.\n\nNext:\n1. Fill "Opening Balance" in the Leave Balance sheet.\n' +
+  SpreadsheetApp.getUi().alert('Setup done. ' + added + ' employees added.\n\nNext:\n1. Fill "Opening Balance" in the Leave Balance sheet.\n' +
     '2. Add holidays in the Holidays sheet.\n3. Run HR System > Connect Outlook.');
+}
+
+/** Menu: adds employees from Employees.gs that are not in the sheet yet. */
+function loadEmployees() {
+  const added = addEmployees_();
+  ensureMonthSheet_(new Date());
+  SpreadsheetApp.getUi().alert(added + ' new employee(s) added.');
+}
+
+/**
+ * Adds EMPLOYEE_DATA (from Employees.gs, kept out of GitHub) rows missing in the Employees sheet,
+ * and their names in Leave Balance. Returns how many were added.
+ */
+function addEmployees_() {
+  if (typeof EMPLOYEE_DATA === 'undefined') {
+    throw new Error('Employees file not found. In Apps Script add a file named "Employees" with the EMPLOYEE_DATA list.');
+  }
+  const ss = SpreadsheetApp.getActive();
+  const emp = ss.getSheetByName(SHEETS.EMPLOYEES);
+  const have = new Set(getEmployeesAll_(emp).map(normName_));
+  const newRows = EMPLOYEE_DATA.filter(r => !have.has(normName_(r[0])));
+  if (newRows.length) emp.getRange(emp.getLastRow() + 1, 1, newRows.length, EMP_COLS.length).setValues(newRows);
+
+  const bal = ss.getSheetByName(SHEETS.BALANCE);
+  const inBal = new Set(bal.getLastRow() > 1 ? bal.getRange(2, 2, bal.getLastRow() - 1, 1).getValues().map(r => normName_(r[0])) : []);
+  const balRows = getEmployees_().filter(e => !inBal.has(normName_(e.name))).map(e => [e.code, e.name, '']);
+  if (balRows.length) bal.getRange(bal.getLastRow() + 1, 1, balRows.length, 3).setValues(balRows);
+  return newRows.length;
+}
+
+function getEmployeesAll_(sh) {
+  return sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues().map(r => r[0]).filter(String);
 }
 
 function dailyJob() {
