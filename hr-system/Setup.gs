@@ -33,7 +33,7 @@ function setupSystem() {
   const ss = SpreadsheetApp.getActive();
   ss.setSpreadsheetTimeZone('Asia/Kolkata');
 
-  const settings = getOrCreateSheet_(SHEETS.SETTINGS, ['Setting', 'Value', 'Note']);
+  const settings = getOrCreateSheet_(SHEETS.SETTINGS, ['Setting', 'Value', 'Note'], [220, 140, 520], '#666666');
   if (settings.getLastRow() < 2) {
     settings.getRange('B5').setNumberFormat('@');
     settings.getRange(2, 1, 6, 3).setValues([
@@ -46,16 +46,43 @@ function setupSystem() {
     ]);
     settings.getRange('B2').setNumberFormat('HH:mm');
     ss.setNamedRange('OfficeStart', settings.getRange('B2'));
-    settings.autoResizeColumns(1, 3);
+    settings.getRange('A2:A7').setFontWeight('bold');
+    settings.getRange('B2:B7').setBackground('#fff2cc').setHorizontalAlignment('center');
   }
 
-  getOrCreateSheet_(SHEETS.EMPLOYEES, EMP_COLS);
-  getOrCreateSheet_(SHEETS.HOLIDAYS, ['Date', 'Holiday Name']).getRange('A:A').setNumberFormat('dd-MMM-yyyy');
-  getOrCreateSheet_(SHEETS.RAW, ['Import the attendance file here (File > Import > Replace current sheet), then run HR System > Process Attendance Upload']);
-  getOrCreateSheet_(SHEETS.BALANCE, ['Emp Code', 'Name', 'Opening Balance (HR fills)', 'Accrued', 'Used', 'Current Balance', 'Updated Till']);
+  const emp = getOrCreateSheet_(SHEETS.EMPLOYEES, EMP_COLS, [200, 110, 280, 90, 110, 240, 110], '#38761d');
+  emp.getRange('D:E').setNumberFormat('@');
+  // EMPLOYEE_DATA lives in Employees.gs (kept out of GitHub).
+  if (emp.getLastRow() < 2 && typeof EMPLOYEE_DATA !== 'undefined' && EMPLOYEE_DATA.length) {
+    emp.getRange(2, 1, EMPLOYEE_DATA.length, EMP_COLS.length).setValues(EMPLOYEE_DATA);
+  }
+  emp.getRange('G2:G').setDataValidation(
+    SpreadsheetApp.newDataValidation().requireValueInList(['Yes', 'No'], true).build());
+  getOrCreateSheet_(SHEETS.HOLIDAYS, ['Date', 'Holiday Name'], [140, 260], '#b45f06').getRange('A:A').setNumberFormat('dd-MMM-yyyy');
+  getOrCreateSheet_(SHEETS.RAW, ['Import the attendance file here (File > Import > Replace current sheet), then run HR System > Process Attendance Upload'], [900], '#999999');
+  const balance = getOrCreateSheet_(SHEETS.BALANCE, ['Emp Code', 'Name', 'Opening Balance (HR fills)', 'Accrued', 'Used', 'Current Balance', 'Updated Till'],
+    [90, 200, 170, 100, 100, 140, 120], '#674ea7');
+  balance.getRange('C2:C').setBackground('#fff2cc');
+  balance.getRange('C:G').setHorizontalAlignment('center');
+  // Pre-fill names so HR only types the opening balance.
+  if (balance.getLastRow() < 2) {
+    const emps = getEmployees_();
+    if (emps.length) balance.getRange(2, 1, emps.length, 3).setValues(emps.map(e => [e.code, e.name, '']));
+  }
   const summary = getOrCreateSheet_(SHEETS.SUMMARY, ['Month', 'Emp Code', 'Name', 'Email', 'Late Count', 'Over Late Limit',
-    'Leaves Taken', 'Absent Days', 'Leave Balance', 'Salary Deduction (HR fills)', 'Email Sent']);
+    'Leaves Taken', 'Absent Days', 'Leave Balance', 'Salary Deduction (HR fills)', 'Email Sent'],
+    [90, 90, 200, 240, 100, 120, 110, 110, 120, 190, 150], '#cc0000');
   summary.getRange('A:A').setNumberFormat('@');
+  summary.getRange('E:K').setHorizontalAlignment('center');
+  summary.getRange('J2:J').setBackground('#fff2cc');
+  summary.setConditionalFormatRules([SpreadsheetApp.newConditionalFormatRule()
+    .whenTextEqualTo('Yes').setBackground('#f4cccc').setFontColor('#990000').setBold(true)
+    .setRanges([summary.getRange('F2:F')]).build()]);
+
+  ensureMonthSheet_(new Date());
+  const blank = ss.getSheetByName('Sheet1');
+  if (blank && blank.getLastRow() === 0 && ss.getSheets().length > 1) ss.deleteSheet(blank);
+  orderTabs_();
 
   // Daily trigger: makes sure the current month sheet exists from day 1.
   ScriptApp.getProjectTriggers()
@@ -63,8 +90,8 @@ function setupSystem() {
     .forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('dailyJob').timeBased().everyDays(1).atHour(1).create();
 
-  SpreadsheetApp.getUi().alert('Setup done.\n\nNext:\n1. Paste the employee list in "Employees" sheet (from cell A2).\n' +
-    '2. Add holidays in "Holidays" sheet.\n3. Run HR System > Create / Refresh This Month Sheet.\n4. Run HR System > Connect Outlook.');
+  SpreadsheetApp.getUi().alert('Setup done.\n\nNext:\n1. Fill "Opening Balance" in the Leave Balance sheet.\n' +
+    '2. Add holidays in the Holidays sheet.\n3. Run HR System > Connect Outlook.');
 }
 
 function dailyJob() {
@@ -78,15 +105,53 @@ function refreshCurrentMonth() {
 
 // ---------- helpers ----------
 
-function getOrCreateSheet_(name, headers) {
+function getOrCreateSheet_(name, headers, widths, tabColor) {
   const ss = SpreadsheetApp.getActive();
   let sh = ss.getSheetByName(name);
   if (!sh) {
     sh = ss.insertSheet(name);
-    sh.getRange(1, 1, 1, headers.length).setValues([headers]).setFontWeight('bold').setBackground('#d9e2f3');
-    sh.setFrozenRows(1);
+    sh.getRange(1, 1, 1, headers.length).setValues([headers]);
+    styleSheet_(sh, headers.length, widths, tabColor);
   }
   return sh;
+}
+
+const THEME = { header: '#1f3864', headerText: '#ffffff', font: 'Roboto' };
+
+/** Dark header, banded rows, clean font, no gridlines, extra columns removed. */
+function styleSheet_(sh, ncols, widths, tabColor) {
+  sh.getRange(1, 1, sh.getMaxRows(), ncols).setFontFamily(THEME.font).setFontSize(10).setVerticalAlignment('middle');
+  sh.getRange(1, 1, 1, ncols).setBackground(THEME.header).setFontColor(THEME.headerText).setFontWeight('bold')
+    .setHorizontalAlignment('center').setWrap(true);
+  sh.setRowHeight(1, 36);
+  sh.setFrozenRows(1);
+  sh.setHiddenGridlines(true);
+  if (sh.getMaxColumns() > ncols) sh.deleteColumns(ncols + 1, sh.getMaxColumns() - ncols);
+  (widths || []).forEach((w, i) => sh.setColumnWidth(i + 1, w));
+  if (tabColor) sh.setTabColor(tabColor);
+  applyBanding_(sh, ncols);
+}
+
+function applyBanding_(sh, ncols) {
+  sh.getBandings().forEach(b => b.remove());
+  sh.getRange(1, 1, sh.getMaxRows(), ncols)
+    .applyRowBanding(SpreadsheetApp.BandingTheme.LIGHT_GREY, true, false)
+    .setHeaderRowColor(THEME.header)
+    .setFirstRowColor('#ffffff')
+    .setSecondRowColor('#f3f6fb');
+}
+
+/** Month sheets first (newest first), then the fixed sheets. */
+function orderTabs_() {
+  const ss = SpreadsheetApp.getActive();
+  const fixed = [SHEETS.SUMMARY, SHEETS.BALANCE, SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS];
+  const months = ss.getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0)
+    .sort((a, b) => new Date('1 ' + b.slice(4).replace('-', ' ')) - new Date('1 ' + a.slice(4).replace('-', ' ')));
+  months.concat(fixed).forEach((name, i) => {
+    const sh = ss.getSheetByName(name);
+    if (sh) { ss.setActiveSheet(sh); ss.moveActiveSheet(i + 1); }
+  });
+  if (months.length) ss.setActiveSheet(ss.getSheetByName(months[0]));
 }
 
 function getSettings_() {

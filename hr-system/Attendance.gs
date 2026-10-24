@@ -24,9 +24,9 @@ function ensureMonthSheet_(dateInMonth) {
   const name = monthSheetName_(key);
   let sh = ss.getSheetByName(name);
   if (!sh) {
-    sh = ss.insertSheet(name);
-    sh.getRange(1, 1, 1, ATT_HEADERS.length).setValues([ATT_HEADERS]).setFontWeight('bold').setBackground('#d9e2f3');
-    sh.setFrozenRows(1);
+    sh = ss.insertSheet(name, 0);
+    sh.getRange(1, 1, 1, ATT_HEADERS.length).setValues([ATT_HEADERS]);
+    styleSheet_(sh, ATT_HEADERS.length, [110, 60, 90, 190, 100, 90, 90, 130, 110, 240], '#1f3864');
     formatMonthSheet_(sh);
   }
 
@@ -45,9 +45,15 @@ function ensureMonthSheet_(dateInMonth) {
     missing.forEach(e => rows.push([date, fmt_(date, 'EEE'), e.code, e.name, e.city, '', '', '', '', '']));
   }
   const first = sh.getLastRow() + 1;
+  const need = first + rows.length - 1 - sh.getMaxRows();
+  if (need > 0) sh.insertRowsAfter(sh.getMaxRows(), need);
   sh.getRange(first, 1, rows.length, ATT_HEADERS.length).setValues(rows);
   sh.getRange(first, 8, rows.length, 1).setFormulaR1C1(STATUS_FORMULA_R1C1);
   sh.getRange(2, 1, sh.getLastRow() - 1, ATT_HEADERS.length).sort([{ column: 1, ascending: true }, { column: 4, ascending: true }]);
+  // Re-apply so new rows get the dropdown, colours and banding.
+  formatMonthSheet_(sh);
+  applyBanding_(sh, ATT_HEADERS.length);
+  sh.getRange(1, 1, sh.getMaxRows(), ATT_HEADERS.length).setFontFamily(THEME.font).setFontSize(10);
   return sh;
 }
 
@@ -56,19 +62,24 @@ function formatMonthSheet_(sh) {
   sh.getRange('F:G').setNumberFormat('HH:mm');
   sh.getRange('I2:I').setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(['Full Day', 'Half Day'], true).setAllowInvalid(false).build());
-  const range = sh.getRange('H2:H');
-  const rule = (text, color) => SpreadsheetApp.newConditionalFormatRule()
-    .whenTextEqualTo(text).setBackground(color).setRanges([range]).build();
+  sh.getRange('A:C').setHorizontalAlignment('center');
+  sh.getRange('F:I').setHorizontalAlignment('center');
+  sh.getRange('I2:I').setBackground('#fffbea');
+  const all = sh.getRange('A2:J');
+  const status = sh.getRange('H2:H');
+  const rowRule = (text, bg, color) => SpreadsheetApp.newConditionalFormatRule()
+    .whenFormulaSatisfied('=$H2="' + text + '"').setBackground(bg).setFontColor(color).setRanges([all]).build();
+  const cellRule = (text, bg, color) => SpreadsheetApp.newConditionalFormatRule()
+    .whenTextEqualTo(text).setBackground(bg).setFontColor(color).setBold(true).setRanges([status]).build();
   sh.setConditionalFormatRules([
-    rule('Late', '#f4cccc'),
-    rule('Absent', '#ea9999'),
-    rule('Leave', '#fff2cc'),
-    rule('Half Day Leave', '#fff2cc'),
-    rule('Week Off', '#eeeeee'),
-    rule('Holiday', '#d9ead3'),
+    cellRule('Late', '#f4cccc', '#990000'),
+    cellRule('Absent', '#e06666', '#ffffff'),
+    cellRule('Leave', '#ffe599', '#7f6000'),
+    cellRule('Half Day Leave', '#fff2cc', '#7f6000'),
+    cellRule('Present', '#d9ead3', '#274e13'),
+    rowRule('Week Off', '#eeeeee', '#999999'),
+    rowRule('Holiday', '#d0e0e3', '#0c343d'),
   ]);
-  sh.setColumnWidth(4, 180);
-  sh.setColumnWidth(10, 220);
 }
 
 /**
