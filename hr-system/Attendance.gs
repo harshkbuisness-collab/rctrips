@@ -98,12 +98,15 @@ function formatMonthSheet_(sh) {
  * Reads the "Raw Upload" sheet and fills In/Out times in the month sheet(s).
  */
 function processUpload() {
-  const ui = SpreadsheetApp.getUi();
   const raw = SpreadsheetApp.getActive().getSheetByName(SHEETS.RAW);
-  const records = parseRawAttendance_(raw.getDataRange().getDisplayValues());
+  SpreadsheetApp.getUi().alert(fillAttendance_(raw.getDataRange().getDisplayValues()));
+}
+
+/** Fills In/Out times in the month sheet(s) from a table of values. Returns a message for HR. */
+function fillAttendance_(values) {
+  const records = parseRawAttendance_(values);
   if (!records.length) {
-    ui.alert('No attendance rows found in "' + SHEETS.RAW + '" sheet.');
-    return;
+    return 'No attendance rows could be read from this file. Check the "' + SHEETS.RAW + '" sheet to see what was read.';
   }
 
   // Group records by month so each month sheet is read and written once.
@@ -143,7 +146,7 @@ function processUpload() {
     msg += '\n\nThese names were not found in the Employees sheet (add them or fix the spelling, then upload again):\n' +
       Array.from(unmatched).join('\n');
   }
-  ui.alert(msg);
+  return msg;
 }
 
 /**

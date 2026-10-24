@@ -23,7 +23,7 @@ function onOpen() {
     .addSeparator()
     .addItem('Open Today Sheet', 'openToday')
     .addItem('Create / Refresh This Month Sheet', 'refreshCurrentMonth')
-    .addItem('Process Attendance Upload', 'processUpload')
+    .addItem('Upload Attendance File (PDF / Excel)', 'showUploadDialog')
     .addSeparator()
     .addItem('Calculate Month Summary', 'calculateMonthSummaryPrompt')
     .addItem('Send Test Email', 'sendTestEmail')
@@ -57,7 +57,7 @@ function setupSystem() {
   emp.getRange('G2:G').setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(['Yes', 'No'], true).build());
   getOrCreateSheet_(SHEETS.HOLIDAYS, ['Date', 'Holiday Name'], [140, 260], '#b45f06').getRange('A:A').setNumberFormat('dd-MMM-yyyy');
-  getOrCreateSheet_(SHEETS.RAW, ['Import the attendance file here (File > Import > Replace current sheet), then run HR System > Process Attendance Upload'], [900], '#999999');
+  getOrCreateSheet_(SHEETS.RAW, ['This sheet shows what was read from the last uploaded attendance file (for checking only)'], [900], '#999999');
   const balance = getOrCreateSheet_(SHEETS.BALANCE, ['Emp Code', 'Name', 'Opening Balance (HR fills)', 'Accrued', 'Used', 'Current Balance', 'Updated Till'],
     [90, 200, 170, 100, 100, 140, 120], '#674ea7');
   balance.getRange('C2:C').setBackground('#fff2cc');

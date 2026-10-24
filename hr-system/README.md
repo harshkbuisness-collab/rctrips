@@ -4,7 +4,7 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 
 ## Install (one time)
 1. Sheet > Extensions > Apps Script. Create files `Setup`, `Attendance`, `Today`, `Leave`, `Outlook`, `Email` and paste the matching `.gs` code. Also create `Employees` with the private `EMPLOYEE_DATA` list (not in GitHub).
-2. No library needed (Microsoft login is built into `Outlook.gs`).
+2. No library needed (Microsoft login is built into `Outlook.gs`). Services (+) > Drive API > Add (needed to read PDF/Excel uploads). Also create file `Upload`.
 3. Project Settings > Script Properties > add `CLIENT_ID`, `TENANT_ID`, `CLIENT_SECRET` (never put these in code or GitHub).
 4. Reload the sheet. Menu **HR System > 1. First-time Setup**.
 5. Employees load automatically from `Employees.gs` (or HR System > Load / Update Employees). Add holidays in `Holidays`.
@@ -12,7 +12,7 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 
 ## Monthly use
 - Daily: the `Today` sheet shows only today's date. HR picks Absent / Full Day Leave / Half Day Leave; it is saved into the month sheet instantly. A 1am trigger moves `Today` to the next date and creates the new month sheet on day 1.
-- Month end: upload the attendance machine PDF (parser pending a real sample) to fill In/Out times. No punch on uploaded dates = Absent.
+- Month end: HR System > Upload Attendance File (PDF / Excel) fills In/Out times (parser to be tuned to the real machine file). No punch on uploaded dates = Absent.
 - Month end: **Calculate Month Summary** > fill salary deduction for "Over Late Limit = Yes" > **Send Test Email** > **Send Monthly Emails**.
 
 ## Rules
