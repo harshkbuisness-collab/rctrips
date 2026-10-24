@@ -80,17 +80,7 @@ function formatMonthSheet_(sh, key) {
   const grid = sh.getRange(ATT_FIRST_ROW, ATT_FIRST_DAY_COL, n, days);
   grid.setNumberFormat('HH:mm').setHorizontalAlignment('center');
 
-  const start = monthKeyToDate_(key);
-  const holidays = getHolidayDays_(key);
-  const values = grid.getDisplayValues();
-  let changed = false;
-  for (let d = 1; d <= days; d++) {
-    const code = new Date(start.getFullYear(), start.getMonth(), d).getDay() === 0 ? 'SUN' : holidays.has(d) ? 'HOL' : '';
-    if (!code) continue;
-    values.forEach(row => { if (!row[d - 1]) { row[d - 1] = code; changed = true; } });
-  }
-  if (changed) grid.setValues(values);
-
+  fillFixedCodes_(grid, key);
   writeTotals_(sh, ATT_FIRST_ROW, n, days);
 
   const top = grid.getA1Notation().split(':')[0];
@@ -105,6 +95,20 @@ function formatMonthSheet_(sh, key) {
     text('SUN', '#eeeeee', '#999999'),
     text('HOL', '#d9d2e9', '#20124d'),
   ]);
+}
+
+/** Puts SUN / HOL in empty cells of a day grid (columns = days 1..N of the month). */
+function fillFixedCodes_(grid, key) {
+  const start = monthKeyToDate_(key);
+  const holidays = getHolidayDays_(key);
+  const values = grid.getDisplayValues();
+  let changed = false;
+  for (let d = 1; d <= daysInMonth_(key); d++) {
+    const code = new Date(start.getFullYear(), start.getMonth(), d).getDay() === 0 ? 'SUN' : holidays.has(d) ? 'HOL' : '';
+    if (!code) continue;
+    values.forEach(row => { if (!row[d - 1]) { row[d - 1] = code; changed = true; } });
+  }
+  if (changed) grid.setValues(values);
 }
 
 /** Late / Leave / OD count formulas next to the day columns. */
@@ -171,7 +175,9 @@ function applyRecords_(sh, key, records, firstRow = ATT_FIRST_ROW, n = sh.getLas
     if (!row) { result.unmatched.push(r.name || r.code); return; }
     const i = row - firstRow, j = r.date.getDate() - 1;
     result.rows.add(row);
-    if (FIXED_CODES.indexOf(values[i][j]) >= 0) return;
+    // A punch in the file replaces LEAVE (e.g. "no punch" LEAVE from an earlier upload); OD / SUN / HOL stay.
+    const keep = FIXED_CODES.indexOf(values[i][j]) >= 0 && !(values[i][j] === 'LEAVE' && r.inTime && !r.mark);
+    if (keep) return;
     const v = r.mark || r.inTime;
     if (!v) return;
     values[i][j] = v;
@@ -209,7 +215,8 @@ function fillAttendance_(values) {
   let filled = 0;
   Object.keys(byMonth).forEach(key => {
     // Finished month already in Attendance History: fill it there. Otherwise use the month sheet.
-    const block = !SpreadsheetApp.getActive().getSheetByName(monthSheetName_(key)) && historyBlock_(key);
+    let block = !SpreadsheetApp.getActive().getSheetByName(monthSheetName_(key)) && historyBlock_(key);
+    if (block) block = addHistoryRows_(block, key, byMonth[key]);
     const sh = block ? block.sheet : ensureMonthSheet_(monthKeyToDate_(key));
     const res = block ? applyRecords_(sh, key, byMonth[key], block.firstRow, block.n) : applyRecords_(sh, key, byMonth[key]);
     filled += res.filled;
@@ -282,6 +289,31 @@ function archiveOldMonths_() {
     .filter(k => k && k < current)
     .sort()
     .forEach(archiveMonth_);
+}
+
+/** Adds rows to a history month for employees who are in the file and the Employees sheet but not in that month yet. */
+function addHistoryRows_(block, key, records) {
+  const emps = getEmployees_();
+  const empNames = emps.map(e => normName_(e.name));
+  const index = monthRowIndex_(block.sheet, block.firstRow, block.n);
+  const blockNames = Object.keys(index).filter(k => k[0] !== '#');
+  const wanted = new Set();
+  records.forEach(r => {
+    if (index[resolveName_(r.name, blockNames)]) return;
+    const n = resolveName_(r.name, empNames);
+    if (empNames.indexOf(n) >= 0 && !index[n]) wanted.add(n);
+  });
+  const missing = emps.filter(e => wanted.has(normName_(e.name)));
+  if (!missing.length) return block;
+
+  const sh = block.sheet, days = daysInMonth_(key);
+  const at = block.firstRow + block.n;
+  sh.insertRowsAfter(at - 1, missing.length);
+  sh.getRange(at, 1, missing.length, 2).setValues(missing.map(e => [e.code, e.name]));
+  fillFixedCodes_(sh.getRange(at, ATT_FIRST_DAY_COL, missing.length, days), key);
+  block.n += missing.length;
+  writeTotals_(sh, block.firstRow, block.n, days);
+  return block;
 }
 
 /** Employee rows of a month in Attendance History: {sheet, firstRow, n} or null. */
