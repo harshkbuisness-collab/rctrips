@@ -152,7 +152,7 @@ def get_html(ctx, c, path):
         box, q = None, quote(c["what"])
         loc = None
         if q:
-            loc = pg.get_by_text(q[:60], exact=False).first
+            loc = pg.get_by_text(q[:60], exact=False).filter(visible=True).first   # FRED repeats values in hidden blocks
             try:
                 if not loc.count() or q in USED.setdefault(c["url"] + "#q", set()):
                     loc = None
