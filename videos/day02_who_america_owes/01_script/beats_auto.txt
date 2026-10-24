@@ -2,7 +2,7 @@
 
 # ---------- CHAPTER 1: The Forty Trillion IOU ----------
 || title:"The Forty Trillion IOU"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. || title:"The Forty Trillion IOU"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.316,0.327,0.684,0.476+0.8; H04@0.12,1.0:0.34:bottom
+[calm] On October eighth, twenty twenty-six, America owed about forty point three trillion dollars. || title:"The Forty Trillion IOU"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.509,0.456,0.751,0.544+0.8; H04@0.12,1.0:0.34:bottom
 Not million. || title:"The Forty Trillion IOU"; A01@0.2,0.6:0.58~none; H18@0.58,0.36:0.3:"1 MILLION"~drop
 Not billion. || title:"The Forty Trillion IOU"; A08@0.2,0.6:0.58~none; "1 BILLION"@0.71,0.55:100:red
 Trillion. || title:"The Forty Trillion IOU"; A45@0.2,0.6:0.58~none; "1 TRILLION"@0.71,0.55:100:red
@@ -14,7 +14,7 @@ A few billionaires counting interest in a back room? || title:"The Forty Trillio
 The real answer is less scary, and much more surprising. || title:"The Forty Trillion IOU"; A18@0.5,0.68:0.55~none; C21@0.83,0.62:0.46~r; G04@0.17,0.62:0.34~l
 Because one of the lenders might be a retired teacher in Ohio. || title:"The Forty Trillion IOU"; A29@1.0,0.62:0.6:right~none; D25@0.64,0.3:0.32~b; E10@0.42,0.52:0.32~b; G13@0.2,0.74:0.32~b; arrow:0.33,0.61>0.29,0.65
 Let's call her Linda. || title:"The Forty Trillion IOU"; A33@1.0,0.62:0.6:right~none; D25@0.64,0.3:0.32~b; E10@0.42,0.52:0.32~b; G13@0.2,0.74:0.32~b; arrow:0.33,0.61>0.29,0.65
-Linda taught fourth grade for thirty-one years. || title:"The Forty Trillion IOU"; doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.134,0.338,0.38,0.431+0.8; H04@0.12,1.0:0.34:bottom
+Linda taught fourth grade for thirty-one years. || title:"The Forty Trillion IOU"; doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.01,0.47,0.354,0.53+0.8; H04@0.12,1.0:0.34:bottom
 Now she lives on her pension. || title:"The Forty Trillion IOU"; C15@0.16,0.6:0.62~none; "PENSION"@0.60,0.45:150:red~r
 And her pension fund owns United States Treasury bonds. || title:"The Forty Trillion IOU"; A33@0.84,0.62:0.5~none; doc:p_treasury.jpg@0.4,0.54 w=0.56 h=0.68 ~l src="Photo: Wikimedia Commons – Treasury"
 Every month, a check arrives. || title:"The Forty Trillion IOU"; A33@0.2,0.6:0.66~none; E25@0.8,0.32:0.32~drop; "ARRIVES"@0.38,0.14:110:red~drop
@@ -27,12 +27,12 @@ Linda is not just a citizen of the debt. || title:"The Forty Trillion IOU"; C13@
 She is also one of its lenders. || title:"The Forty Trillion IOU"; C13@0.13,0.68:0.48~none; C05@0.52,0.5:0.46~swing; D24@0.87,0.34:0.28~r; D01@0.87,0.78:0.28~r; D28@0.32,0.22:0.24~t
 By the end of this video, you'll see why the scariest part of the debt isn't who we owe. || title:"The Forty Trillion IOU"; A28@0.2,0.6:0.66~none; D18@0.8,0.32:0.32~drop; E48@0.8,0.74:0.32~drop
 It's what the borrowing now costs, and who feels that cost. || title:"The Forty Trillion IOU"; H05@0.2,0.6:0.66~none; D18@0.8,0.32:0.32~drop; E48@0.8,0.74:0.32~drop; D28@0.53,0.32:0.32~drop; E37@0.53,0.74:0.32~drop
-First, let's make that number feel real. || title:"The Forty Trillion IOU"; doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Census Bureau" hl=0.252,0.459,0.421,0.541+0.8; H04@0.12,1.0:0.34:bottom
+First, let's make that number feel real. || title:"The Forty Trillion IOU"; doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Census Bureau" hl=0.228,0.574,0.484,0.637+0.8; H04@0.12,1.0:0.34:bottom
 Divide forty point three trillion dollars by about three hundred forty-three million Americans. || title:"The Forty Trillion IOU"; A36@0.0,0.62:0.6:left~none; E04@0.36,0.3:0.32~b; C28@0.58,0.52:0.36~b; G13@0.8,0.74:0.32~b; note:"$40.3 TRILLION"@0.82,0.26
-You get roughly one hundred eighteen thousand dollars for every man, woman and child. || title:"The Forty Trillion IOU"; doc:s04_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.316,0.327,0.684,0.476+0.8; H04@0.12,1.0:0.34:bottom
+You get roughly one hundred eighteen thousand dollars for every man, woman and child. || title:"The Forty Trillion IOU"; doc:s04_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.45,0.445,0.69,0.512+0.8; H04@0.12,1.0:0.34:bottom
 Linda will never get a bill for that. || title:"The Forty Trillion IOU"; C14@0.84,0.6:0.62~none; B10@0.14,0.4:0.46~l; "LINDA"@0.62,0.8:110:red~l
 But it shows the size of what has been promised. || title:"The Forty Trillion IOU"; H08@0.86,1.0:0.62:bottom~none; B10@0.14,0.4:0.46~l; E52@0.38,0.4:0.32~l
-Here's another way to see it. || title:"The Forty Trillion IOU"; doc:s05_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.07,0.335,0.674,0.411+0.8; H04@0.12,1.0:0.34:bottom
+Here's another way to see it. || title:"The Forty Trillion IOU"; doc:s05_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.091,0.335,0.594,0.409+0.8; H04@0.12,1.0:0.34:bottom
 The debt is now bigger than everything America produces in a whole year. || title:"The Forty Trillion IOU"; A40@0.5,0.68:0.55~none; D18@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E23@0.78,0.28:0.3~t
 About one hundred twenty-three percent of it. || title:"The Forty Trillion IOU"; A01@0.5,0.68:0.55~none; D18@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E23@0.78,0.28:0.3~t; G05@0.22,0.28:0.3~t; "123%"@0.5,0.16:100:red
 So who are all these lenders? || title:"The Forty Trillion IOU"; A39@0.87,0.68:0.48~none; E52@0.48,0.5:0.56~swing; "LENDERS"@0.48,0.9:110:red~l; think:"So who are all these lenders?"@0.7,0.2
@@ -40,7 +40,7 @@ To find out, we need to follow one bond from the moment it is born. || title:"Th
 
 # ---------- CHAPTER 2: How a Bond Is Born ----------
 || title:"How a Bond Is Born"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] When the government spends more than it collects in taxes, it has to borrow the difference. || title:"How a Bond Is Born"; doc:s06_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.57,0.194,0.621,0.256+0.8; H04@0.12,1.0:0.34:bottom
+[calm] When the government spends more than it collects in taxes, it has to borrow the difference. || title:"How a Bond Is Born"; doc:s06_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.304,0.643,0.693,0.736+0.8; H04@0.12,1.0:0.34:bottom
 That gap is called the deficit. || title:"How a Bond Is Born"; A38@0.5,0.68:0.55~none; E08@0.83,0.62:0.34~r; "DEFICIT"@0.50,0.16:110:red~l
 In fiscal twenty twenty-six, it was close to two trillion dollars. || title:"How a Bond Is Born"; A09@0.5,0.68:0.55~none; E08@0.83,0.62:0.34~r; E05@0.17,0.62:0.34~l; H17@0.78,0.28:0.3:"$2 TRILLION"~swing
 Think of it like this. || title:"How a Bond Is Born"; A17@0.8,0.6:0.58~none; "THINK"@0.40,0.45:150:red~pop
@@ -48,13 +48,13 @@ The deficit is this year's shortfall. || title:"How a Bond Is Born"; A16@0.8,0.6
 The debt is the total of every shortfall that hasn't been paid back yet. || title:"How a Bond Is Born"; A16@0.8,0.6:0.58~none; E24@0.42,0.36:0.3~pop; D28@0.16,0.36:0.3~pop; E01@0.42,0.74:0.3~pop
 The government has run a deficit in almost every year since nineteen seventy. || title:"How a Bond Is Born"; A15@0.0,0.62:0.6:left~none; C06@0.36,0.3:0.46~b; E23@0.58,0.52:0.32~b; H18@0.8,0.74:0.3:"1970"~drop
 Those shortfalls piled up, one on top of another, into the number we see today. || title:"How a Bond Is Born"; A18@0.0,0.62:0.6:left~none; C06@0.36,0.3:0.46~b; E23@0.58,0.52:0.32~b
-To borrow, the Treasury sells IOUs. || title:"How a Bond Is Born"; doc:s07_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.13,0.16,0.356,0.259+0.8; H04@0.12,1.0:0.34:bottom
+To borrow, the Treasury sells IOUs. || title:"How a Bond Is Born"; doc:s07_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.566,0.678,0.76,0.738+0.8; H04@0.12,1.0:0.34:bottom
 You give the government money today, and it promises to pay you back later, with interest along the way. || title:"How a Bond Is Born"; A29@0.2,0.6:0.66~none; C08@0.8,0.32:0.46~drop; G04@0.8,0.74:0.32~drop; E02@0.53,0.32:0.32~drop
 Short IOUs, paid back within a year, are called bills. || title:"How a Bond Is Born"; H01@0.86,1.0:0.62:bottom~none; E08@0.14,0.4:0.32~l; E04@0.38,0.4:0.32~l; E24@0.62,0.4:0.32~l
 Medium ones are notes. || title:"How a Bond Is Born"; A33@0.86,1.0:0.62:bottom~none; E08@0.14,0.4:0.32~l; E04@0.38,0.4:0.32~l; E24@0.62,0.4:0.32~l
 Long ones, up to thirty years, are bonds. || title:"How a Bond Is Born"; A33@0.86,1.0:0.62:bottom~none; E25@0.14,0.4:0.32~l; E04@0.38,0.4:0.32~l; E24@0.62,0.4:0.32~l; D24@0.38,0.8:0.3~b; label:"30 YEARS"@0.62,0.14>0.14,0.28
 People often call them all "Treasuries." || title:"How a Bond Is Born"; A44@0.86,1.0:0.62:bottom~none; E25@0.14,0.4:0.32~l; E08@0.38,0.4:0.32~l; H09@0.62,0.4:0.36~l; D24@0.38,0.8:0.3~b; bubble:"Treasuries."@0.62,0.14:l
-They are sold at auctions, many times every week. || title:"How a Bond Is Born"; doc:s08_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.266,0.648,0.873,0.733+0.8; H04@0.12,1.0:0.34:bottom
+They are sold at auctions, many times every week. || title:"How a Bond Is Born"; doc:s08_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.039,0.648,0.399,0.707+0.8; H04@0.12,1.0:0.34:bottom
 Big buyers send in bids, and the auction decides the interest rate the government has to pay. || title:"How a Bond Is Born"; A24@0.13,0.68:0.48~none; G05@0.52,0.5:0.56~swing; G09@0.87,0.34:0.28~r; E05@0.87,0.78:0.28~r
 Linda never goes to an auction. || title:"How a Bond Is Born"; C13@0.16,0.6:0.62~none; "AUCTION"@0.60,0.45:150:red~r
 Her pension fund does. || title:"How a Bond Is Born"; C13@0.16,0.6:0.62~none; "AUCTION"@0.60,0.45:150:red~r
@@ -64,7 +64,7 @@ Because the United States has paid every Treasury on time, and it borrows in dol
 That safety is why Linda's pension fund likes them. || title:"How a Bond Is Born"; C13@0.8,0.6:0.58~none; H28@0.42,0.36:0.3~pop; E01@0.16,0.36:0.3~pop
 The fund has to pay thousands of retired teachers every month, for decades. || title:"How a Bond Is Born"; H05@0.8,0.6:0.58~none; E02@0.42,0.36:0.3~pop; E01@0.16,0.36:0.3~pop; D25@0.42,0.74:0.3~pop; E10@0.16,0.74:0.3~pop
 It can't gamble with their money. || title:"How a Bond Is Born"; H08@0.8,0.6:0.58~none; E02@0.42,0.36:0.3~pop; B10@0.16,0.36:0.36~pop; D25@0.42,0.74:0.3~pop; E10@0.16,0.74:0.3~pop
-And once a bond is sold, it doesn't sit still. || title:"How a Bond Is Born"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve"; H04@0.9,1.0:0.3:bottom
+And once a bond is sold, it doesn't sit still. || title:"How a Bond Is Born"; doc:s09_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.142,0.451,0.485,0.549+0.8; H04@0.12,1.0:0.34:bottom
 It can be sold again and again, to banks, funds and foreign buyers, every single day. || title:"How a Bond Is Born"; A40@0.5,0.68:0.55~none; D15@0.83,0.62:0.34~r; D20@0.17,0.62:0.34~l; D30@0.78,0.28:0.3~t
 So the forty trillion dollars isn't one loan from one lender. || title:"How a Bond Is Born"; A10@0.2,0.6:0.66~none; D18@0.8,0.32:0.32~drop; E05@0.8,0.74:0.32~drop; arrow:0.80,0.45>0.80,0.61; note:"$40 TRILLION"@0.53,0.32
 It's millions of IOUs, held by all kinds of owners. || title:"How a Bond Is Born"; A01@0.2,0.6:0.66~none; D18@0.8,0.32:0.32~drop; E05@0.8,0.74:0.32~drop; H11@0.53,0.32:0.36~drop
@@ -72,31 +72,31 @@ Let's meet them. || title:"How a Bond Is Born"; A15@0.2,0.6:0.66~none; D18@0.8,0
 
 # ---------- CHAPTER 3: Who Holds It ----------
 || title:"Who Holds It"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Start with the strangest owner of all. || title:"Who Holds It"; doc:s10_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.119,0.407,0.881,0.593+0.8; H04@0.12,1.0:0.34:bottom
+[calm] Start with the strangest owner of all. || title:"Who Holds It"; doc:s10_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.119,0.453,0.87,0.547+0.8; H04@0.12,1.0:0.34:bottom
 The government itself. || title:"Who Holds It"; A15@0.5,0.68:0.55~none; C08@0.17,0.62:0.46~l; "GOVERNMENT"@0.50,0.16:110:black~r
 About eight trillion dollars of the debt is held inside federal accounts. || title:"Who Holds It"; A35@0.5,0.68:0.55~none; C08@0.17,0.62:0.46~l; D28@0.83,0.62:0.34~r; D01@0.22,0.28:0.3~t; H17@0.78,0.28:0.3:"$8 TRILLION"~swing
-The biggest of these is Social Security. || title:"Who Holds It"; doc:s11_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Social Security Administration" hl=0.184,0.471,0.275,0.529+0.8; H04@0.12,1.0:0.34:bottom
+The biggest of these is Social Security. || title:"Who Holds It"; doc:s11_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Social Security Administration" hl=0.436,0.462,0.648,0.519+0.8; H04@0.12,1.0:0.34:bottom
 For years, it collected more in payroll taxes than it paid out. || title:"Who Holds It"; A16@0.86,1.0:0.62:bottom~none; D26@0.14,0.4:0.32~l; E23@0.38,0.4:0.32~l; E04@0.62,0.4:0.32~l
 It lent that extra money to the Treasury. || title:"Who Holds It"; A16@0.82,0.6:0.6~none; doc:p_treasury.jpg@0.36,0.52 w=0.56 h=0.68 ~drop src="Photo: Wikimedia Commons – Treasury"
-Now Linda's benefits depend on that money coming back. || title:"Who Holds It"; doc:s30_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Treasury" hl=0.142,0.594,0.78,0.786+0.8; H04@0.12,1.0:0.34:bottom
-To pay retirees, the Treasury has to turn those IOUs into cash, using taxes or new borrowing. || title:"Who Holds It"; A16@0.8,0.6:0.66~none; C16@0.2,0.32:0.46~drop; H28@0.2,0.74:0.32~drop; D24@0.47,0.32:0.32~drop
-So money the government owes itself is still real money. || title:"Who Holds It"; A16@0.87,0.68:0.48~none; G09@0.48,0.5:0.56~swing; D28@0.13,0.34:0.28~l; B10@0.13,0.78:0.36~l
-Someone still has to come up with it. || title:"Who Holds It"; A16@0.87,0.68:0.48~none; G09@0.48,0.5:0.56~swing; D28@0.13,0.34:0.28~l; B10@0.13,0.78:0.36~l
-The other thirty-two trillion dollars or so is held by the public. || title:"Who Holds It"; A08@0.8,0.6:0.58~none; E01@0.42,0.36:0.3~pop; H18@0.16,0.36:0.3:"$32 TRILLION"~drop
-That means everyone outside the government's own accounts. || title:"Who Holds It"; A20@0.8,0.6:0.58~none; E01@0.42,0.36:0.3~pop; C06@0.16,0.36:0.36~pop; C09@0.42,0.74:0.36~pop
+Now Linda's benefits depend on that money coming back. || title:"Who Holds It"; C14@0.8,0.6:0.66~none; B10@0.2,0.32:0.46~drop; "LINDA"@0.62,0.14:110:red~drop
+To pay retirees, the Treasury has to turn those IOUs into cash, using taxes or new borrowing. || title:"Who Holds It"; A16@0.8,0.6:0.66~none; B10@0.2,0.32:0.46~drop; C16@0.2,0.74:0.36~drop; H28@0.47,0.32:0.32~drop; D24@0.47,0.74:0.32~drop
+So money the government owes itself is still real money. || title:"Who Holds It"; A16@0.87,0.68:0.48~none; G09@0.48,0.5:0.56~swing; D28@0.13,0.34:0.28~l; E01@0.13,0.78:0.28~l
+Someone still has to come up with it. || title:"Who Holds It"; A16@0.87,0.68:0.48~none; G09@0.48,0.5:0.56~swing; D28@0.13,0.34:0.28~l; E01@0.13,0.78:0.28~l
+The other thirty-two trillion dollars or so is held by the public. || title:"Who Holds It"; doc:s12_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.486,0.432,0.625,0.568+0.8; H04@0.12,1.0:0.34:bottom
+That means everyone outside the government's own accounts. || title:"Who Holds It"; A20@0.8,0.6:0.58~none; C06@0.42,0.36:0.43~pop; C09@0.16,0.36:0.36~pop
 That includes pension funds like Linda's. || title:"Who Holds It"; C13@0.0,0.62:0.6:left~none; H28@0.36,0.3:0.32~b; E02@0.58,0.52:0.32~b
 It includes banks, insurance companies, money market funds, and ordinary people who buy savings bonds. || title:"Who Holds It"; A18@0.0,0.62:0.6:left~none; E33@0.36,0.3:0.32~b; E02@0.58,0.52:0.32~b; C01@0.8,0.74:0.36~b; E21@0.82,0.26:0.3~swing
 Some of it is held by people just like Linda's neighbors. || title:"Who Holds It"; C15@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; "LINDA"@0.50,0.16:110:red~l
-Grandparents who buy a savings bond as a birthday gift. || title:"Who Holds It"; A29@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; C14@0.17,0.62:0.36~l; H19@0.78,0.28:0.3~t; D24@0.22,0.28:0.3~t
+Grandparents who buy a savings bond as a birthday gift. || title:"Who Holds It"; A29@0.5,0.68:0.55~none; C11@0.83,0.62:0.46~r; C16@0.17,0.62:0.36~l; H19@0.78,0.28:0.3~t; D24@0.22,0.28:0.3~t
 Workers whose retirement accounts hold a bond fund. || title:"Who Holds It"; A33@0.5,0.68:0.55~none; C10@0.83,0.62:0.46~r; D25@0.17,0.62:0.34~l; H19@0.78,0.28:0.3~t; D24@0.22,0.28:0.3~t
 If you have a four oh one k or a pension, || title:"Who Holds It"; A44@0.2,0.6:0.58~none; group:H28*5@0.44,0.22,0.71,0.49:0.13
 there's a good chance you're one of America's lenders too, without ever buying a bond yourself. || title:"Who Holds It"; A24@0.2,0.6:0.58~none; H28@0.58,0.36:0.3~pop; G13@0.84,0.36:0.3~pop; E36@0.58,0.74:0.3~pop
-And it includes one owner that surprises almost everyone. || title:"Who Holds It"; doc:s13_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Federal Reserve" hl=0.119,0.45,0.31,0.55+0.8; H04@0.12,1.0:0.34:bottom
+And it includes one owner that surprises almost everyone. || title:"Who Holds It"; doc:s13_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.147,0.335,0.503,0.409+0.8; H04@0.12,1.0:0.34:bottom
 The Federal Reserve, America's central bank. || title:"Who Holds It"; A27@0.12,0.74:0.4~none; doc:p_federal_reserve.png@0.56,0.5 w=0.56 h=0.68 ~r src="Photo: Wikimedia Commons – Federal Reserve"
 To understand why, picture the Fed as the bank for banks. || title:"Who Holds It"; A38@0.8,0.6:0.66~none; E17@0.2,0.32:0.32~drop; G10@0.2,0.74:0.32~drop; C03@0.47,0.32:0.36~drop
 It doesn't sell groceries or build roads. || title:"Who Holds It"; A27@0.8,0.6:0.66~none; D30@0.2,0.32:0.32~drop; G10@0.2,0.74:0.32~drop; C03@0.47,0.32:0.36~drop; E39@0.47,0.74:0.32~drop
 Its job is to keep money and prices steady. || title:"Who Holds It"; A28@0.8,0.6:0.66~none; D30@0.2,0.32:0.32~drop; C12@0.2,0.74:0.36~drop; E38@0.47,0.32:0.32~drop; D01@0.47,0.74:0.32~drop
-The Fed bought trillions of dollars of Treasuries, mostly to calm markets during crises like twenty twenty. || title:"Who Holds It"; A45@0.87,0.68:0.48~none; G10@0.48,0.5:0.56~swing; E36@0.13,0.34:0.28~l; "2020"@0.48,0.9:100:red
+The Fed bought trillions of dollars of Treasuries, mostly to calm markets during crises like twenty twenty. || title:"Who Holds It"; A08@0.87,0.68:0.48~none; G10@0.48,0.5:0.56~swing; E36@0.13,0.34:0.28~l; H18@0.13,0.78:0.3:"2020"~drop
 But buying an IOU doesn't make it disappear. || title:"Who Holds It"; H05@0.87,0.68:0.48~none; G10@0.48,0.5:0.56~swing; E36@0.13,0.34:0.28~l; H19@0.13,0.78:0.28~l
 The Treasury still pays the Fed interest, and the bonds still have to be paid back when they come due. || title:"Who Holds It"; H08@0.86,1.0:0.62:bottom~none; G10@0.14,0.4:0.32~l; G04@0.38,0.4:0.32~l
 So most of the debt is owed to Americans and American institutions. || title:"Who Holds It"; A40@0.5,0.68:0.55~none; D18@0.17,0.62:0.34~l; C28@0.83,0.62:0.36~r; G13@0.22,0.28:0.3~t
@@ -105,19 +105,19 @@ But a big slice lives far outside Ohio, across two oceans. || title:"Who Holds I
 
 # ---------- CHAPTER 4: Japan and China ----------
 || title:"Japan and China"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Foreign investors hold roughly a quarter of the debt owned by the public. || title:"Japan and China"; doc:s14_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Treasury" hl=0,0.002,0.549,0.065+0.8; H04@0.12,1.0:0.34:bottom
+[calm] Foreign investors hold roughly a quarter of the debt owned by the public. || title:"Japan and China"; doc:s14_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Treasury" hl=0.521,0.471,0.571,0.529+0.8; H04@0.12,1.0:0.34:bottom
 And when people picture them, they usually think of one country first. || title:"Japan and China"; A17@0.8,0.6:0.58~none; E43@0.42,0.36:0.3~pop; H09@0.16,0.36:0.36~pop
 China. || title:"Japan and China"; A15@0.8,0.6:0.58~none; E43@0.42,0.36:0.3~pop; H09@0.16,0.36:0.36~pop
-But China isn't even number one. || title:"Japan and China"; A16@0.8,0.6:0.66~none; G14@0.2,0.32:0.32~drop; "CHINA"@0.62,0.14:110:red~drop
-In August twenty twenty-six, Japan held about one point zero seven trillion dollars. || title:"Japan and China"; A36@0.8,0.6:0.66~none; G14@0.2,0.32:0.32~drop; G15@0.2,0.74:0.32~drop; E04@0.47,0.32:0.32~drop; label:"$1.1 TRILLION"@0.56,0.2>0.47,0.20
-The United Kingdom held about one trillion. || title:"Japan and China"; A09@0.8,0.6:0.66~none; G14@0.2,0.32:0.32~drop; G15@0.2,0.74:0.32~drop; E04@0.47,0.32:0.32~drop; note:"1 TRILLION"@0.47,0.74
-Mainland China held about five hundred ninety-one billion. || title:"Japan and China"; A10@0.84,0.6:0.62~none; G14@0.64,0.3:0.32~b; H18@0.42,0.52:0.3:"591 BILLION"~drop
-That's a lot of money. || title:"Japan and China"; A16@1.0,0.62:0.6:right~none; G14@0.64,0.3:0.32~b; E05@0.42,0.52:0.32~b
-But it's only a small piece of forty trillion dollars. || title:"Japan and China"; A35@1.0,0.62:0.6:right~none; G14@0.64,0.3:0.32~b; E05@0.42,0.52:0.32~b; D01@0.2,0.74:0.32~b; H17@0.18,0.26:0.3:"$40 TRILLION"~swing
-One catch. || title:"Japan and China"; A15@1.0,0.62:0.6:right~none; G14@0.64,0.3:0.32~b; E05@0.42,0.52:0.32~b; D01@0.2,0.74:0.32~b; H17@0.18,0.26:0.3:"$40 TRILLION"~swing
+But China isn't even number one. || title:"Japan and China"; doc:s15_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Treasury" hl=0.521,0.228,0.571,0.285+0.8; H04@0.12,1.0:0.34:bottom
+In August twenty twenty-six, Japan held about one point zero seven trillion dollars. || title:"Japan and China"; A45@0.8,0.6:0.66~none; G15@0.2,0.32:0.32~drop; E04@0.2,0.74:0.32~drop; "$1.1 TRILLION"@0.62,0.14:100:red
+The United Kingdom held about one trillion. || title:"Japan and China"; A36@0.8,0.6:0.66~none; G15@0.2,0.32:0.32~drop; E04@0.2,0.74:0.32~drop; label:"1 TRILLION"@0.56,0.2>0.2,0.62
+Mainland China held about five hundred ninety-one billion. || title:"Japan and China"; doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: U.S. Treasury" hl=0,0.658,0.549,0.722+0.8; H04@0.12,1.0:0.34:bottom
+That's a lot of money. || title:"Japan and China"; A16@0.84,0.6:0.62~none; E05@0.64,0.3:0.32~b; "MONEY"@0.50,0.82:110:red~b
+But it's only a small piece of forty trillion dollars. || title:"Japan and China"; A09@1.0,0.62:0.6:right~none; E05@0.64,0.3:0.32~b; D01@0.42,0.52:0.32~b; note:"$40 TRILLION"@0.2,0.74
+One catch. || title:"Japan and China"; A15@1.0,0.62:0.6:right~none; E05@0.64,0.3:0.32~b; D01@0.42,0.52:0.32~b; note:"$40 TRILLION"@0.2,0.74
 These lists show where bonds are kept, not always who really owns them. || title:"Japan and China"; A15@0.13,0.68:0.48~none; E48@0.52,0.5:0.56~swing; "ALWAYS"@0.52,0.9:110:black~r
 Bonds stored at a bank in London might belong to someone in another country. || title:"Japan and China"; A18@0.13,0.68:0.48~none; E48@0.52,0.5:0.56~swing; D15@0.87,0.34:0.28~r; G16@0.87,0.78:0.28~r
-So why does Japan buy so much? || title:"Japan and China"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Bank of Japan"; H04@0.9,1.0:0.3:bottom
+So why does Japan buy so much? || title:"Japan and China"; doc:s17_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Bank of Japan" hl=0.296,0.44,0.926,0.56+0.8; H04@0.12,1.0:0.34:bottom
 Japanese banks and insurers hold huge piles of savings. || title:"Japan and China"; A29@0.14,1.0:0.62:bottom~none; G15@0.86,0.4:0.32~r; C01@0.62,0.4:0.36~r; E21@0.38,0.4:0.32~r
 For years, interest at home was close to zero. || title:"Japan and China"; A33@0.14,1.0:0.62:bottom~none; D09@0.86,0.4:0.32~r; E24@0.62,0.4:0.32~r; E21@0.38,0.4:0.32~r; G05@0.62,0.8:0.3~b
 Think of a Japanese insurance company with millions of customers. || title:"Japan and China"; H01@0.8,0.6:0.58~none; G15@0.42,0.36:0.3~pop; H19@0.16,0.36:0.3~pop; D21@0.42,0.74:0.3~pop
@@ -125,11 +125,11 @@ It promises to pay them decades from now. || title:"Japan and China"; A44@0.8,0.
 It needs safe investments that pay more than almost nothing. || title:"Japan and China"; A21@0.8,0.6:0.58~none; E23@0.42,0.36:0.3~pop; E21@0.16,0.36:0.3~pop; E01@0.42,0.74:0.3~pop; B10@0.16,0.74:0.36~pop
 American Treasuries paid more, and they were easy to sell at any time. || title:"Japan and China"; A24@0.14,1.0:0.62:bottom~none; G13@0.86,0.4:0.32~r; E02@0.62,0.4:0.32~r
 So that money crossed the Pacific. || title:"Japan and China"; A27@0.14,1.0:0.62:bottom~none; G13@0.86,0.4:0.32~r; E02@0.62,0.4:0.32~r; D01@0.38,0.4:0.32~r; arrow:0.49,0.40>0.51,0.40
-China's reason is different. || title:"Japan and China"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Treasury"; H04@0.9,1.0:0.3:bottom
+China's reason is different. || title:"Japan and China"; doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.198,0.599,0.445,0.656+0.8; H04@0.12,1.0:0.34:bottom
 It sells a lot to the world and earns a lot of dollars. || title:"Japan and China"; A28@0.5,0.68:0.55~none; D20@0.17,0.62:0.34~l; E39@0.83,0.62:0.34~r; E04@0.22,0.28:0.3~t
-It needs a safe place to park them, and Treasuries are the biggest parking lot there is. || title:"Japan and China"; A08@0.5,0.68:0.55~none; D20@0.17,0.62:0.34~l; E39@0.83,0.62:0.34~r; E04@0.22,0.28:0.3~t; E21@0.78,0.28:0.3~t
+It needs a safe place to park them, and Treasuries are the biggest parking lot there is. || title:"Japan and China"; A10@0.5,0.68:0.55~none; D20@0.17,0.62:0.34~l; E39@0.83,0.62:0.34~r; E04@0.22,0.28:0.3~t; E21@0.78,0.28:0.3~t
 Britain is a different story again. || title:"Japan and China"; H05@0.84,0.6:0.62~none; G16@0.64,0.3:0.32~b; "DIFFERENT"@0.50,0.82:110:red~b
-London is one of the world's biggest money centers. || title:"Japan and China"; A45@1.0,0.62:0.6:right~none; G16@0.64,0.3:0.32~b; E43@0.42,0.52:0.32~b; E05@0.2,0.74:0.32~b
+London is one of the world's biggest money centers. || title:"Japan and China"; A35@1.0,0.62:0.6:right~none; G16@0.64,0.3:0.32~b; E43@0.42,0.52:0.32~b; E05@0.2,0.74:0.32~b
 Banks and funds from many countries keep their Treasuries there. || title:"Japan and China"; H08@1.0,0.62:0.6:right~none; D20@0.64,0.3:0.32~b; E43@0.42,0.52:0.32~b; E05@0.2,0.74:0.32~b; D15@0.18,0.26:0.3~swing
 In recent years, China has actually been holding fewer Treasuries, not more. || title:"Japan and China"; A40@0.8,0.6:0.66~none; G14@0.2,0.32:0.32~drop; E24@0.2,0.74:0.32~drop
 So the idea that China controls America's debt doesn't match the numbers. || title:"Japan and China"; A01@0.8,0.6:0.66~none; G14@0.2,0.32:0.32~drop; E24@0.2,0.74:0.32~drop; H22@0.47,0.32:0.32~drop; E27@0.47,0.74:0.32~drop; arrow:0.47,0.45>0.47,0.61
@@ -141,29 +141,29 @@ And that bill has become enormous. || title:"Japan and China"; A15@0.5,0.68:0.55
 
 # ---------- CHAPTER 5: The Interest Bill ----------
 || title:"The Interest Bill"; sting; A23@0.5,0.56:0.6; hold:1.2
-[serious] In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. || title:"The Interest Bill"; doc:s19_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.03,0.34,0.118,0.395+0.8; H04@0.12,1.0:0.34:bottom
+[serious] In fiscal twenty twenty-six, the government's net interest bill was about one trillion dollars. || title:"The Interest Bill"; doc:s19_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Anadolu Agency" hl=0.241,0.882,0.372,0.947+0.8; H04@0.12,1.0:0.34:bottom
 That's more than America spent on its entire military. || title:"The Interest Bill"; A18@0.13,0.68:0.48~none; G18@0.52,0.5:0.56~swing; "AMERICA"@0.52,0.9:110:red~r
 [calm] Read that again. || title:"The Interest Bill"; A29@0.13,0.68:0.48~none; G18@0.52,0.5:0.56~swing; "AMERICA"@0.52,0.9:110:red~r
 Paying interest on old borrowing now costs more than tanks, ships, planes and soldiers, combined. || title:"The Interest Bill"; A29@0.8,0.6:0.66~none; G05@0.2,0.32:0.32~drop; D18@0.2,0.74:0.32~drop; H17@0.47,0.32:0.32~drop
-It's also about four times what the government spent on interest ten years earlier. || title:"The Interest Bill"; A33@0.0,0.62:0.6:left~none; C06@0.36,0.3:0.46~b; G04@0.58,0.52:0.32~b; E25@0.8,0.74:0.32~b; "4X"@0.5,0.82:100:red
+It's also about four times what the government spent on interest ten years earlier. || title:"The Interest Bill"; A33@0.0,0.62:0.6:left~none; C06@0.36,0.3:0.46~b; G04@0.58,0.52:0.32~b; E25@0.8,0.74:0.32~b; H18@0.82,0.26:0.3:"4X"~drop
 The bill grew fourfold while most people weren't watching. || title:"The Interest Bill"; A44@0.0,0.62:0.6:left~none; D13@0.36,0.3:0.32~b; C09@0.58,0.52:0.36~b; E25@0.8,0.74:0.32~b; D01@0.82,0.26:0.3~swing
-Spread across every American, that's about three thousand dollars each, every year, just for interest. || title:"The Interest Bill"; A24@0.86,1.0:0.62:bottom~none; G05@0.14,0.4:0.32~l; B10@0.38,0.4:0.36~l; label:"$3,000"@0.62,0.14>0.38,0.28
-Why did it jump so fast? || title:"The Interest Bill"; doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.07,0.335,0.854,0.411+0.8; H04@0.12,1.0:0.34:bottom
+Spread across every American, that's about three thousand dollars each, every year, just for interest. || title:"The Interest Bill"; A24@0.86,1.0:0.62:bottom~none; G05@0.14,0.4:0.32~l; B10@0.38,0.4:0.36~l; H17@0.62,0.4:0.3:"$3,000"~swing
+Why did it jump so fast? || title:"The Interest Bill"; doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.091,0.335,0.59,0.409+0.8; H04@0.12,1.0:0.34:bottom
 For years, America borrowed at very low rates. || title:"The Interest Bill"; A27@0.8,0.6:0.58~none; D28@0.42,0.36:0.3~pop; G04@0.16,0.36:0.3~pop; E23@0.42,0.74:0.3~pop
 Then, starting in twenty twenty-two, rates rose fast to fight inflation. || title:"The Interest Bill"; A28@0.8,0.6:0.58~none; E37@0.42,0.36:0.3~pop; E45@0.16,0.36:0.3~pop; E23@0.42,0.74:0.3~pop; G05@0.16,0.74:0.3~pop; "2022"@0.29,0.55:100:red
 Old bonds keep their old rates. || title:"The Interest Bill"; H05@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; "BONDS"@0.50,0.16:110:red~l
 But every time one comes due, the Treasury pays it off by selling a new one, at today's higher rate. || title:"The Interest Bill"; H08@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; G05@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t
 And a lot of bonds come due every year. || title:"The Interest Bill"; A40@0.13,0.68:0.48~none; E24@0.52,0.5:0.56~swing; "BONDS"@0.52,0.9:110:red~r
-Trillions of dollars of old, cheap borrowing gets replaced with new, more expensive borrowing. || title:"The Interest Bill"; A36@0.13,0.68:0.48~none; E24@0.52,0.5:0.56~swing; D18@0.87,0.34:0.28~r; E38@0.87,0.78:0.28~r; E01@0.32,0.22:0.24~t
+Trillions of dollars of old, cheap borrowing gets replaced with new, more expensive borrowing. || title:"The Interest Bill"; A08@0.13,0.68:0.48~none; E24@0.52,0.5:0.56~swing; D18@0.87,0.34:0.28~r; E38@0.87,0.78:0.28~r; E01@0.32,0.22:0.24~t
 Slowly, the whole pile gets pricier. || title:"The Interest Bill"; A01@0.13,0.68:0.48~none; E54@0.52,0.5:0.56~swing; D18@0.87,0.34:0.28~r; E38@0.87,0.78:0.28~r; E01@0.32,0.22:0.24~t
 Here's a simple example. || title:"The Interest Bill"; A38@0.13,0.68:0.48~none; E54@0.52,0.5:0.56~swing; D18@0.87,0.34:0.28~r; E38@0.87,0.78:0.28~r; E01@0.32,0.22:0.24~t
-Borrow one trillion dollars at three percent, and you pay thirty billion dollars a year. || title:"The Interest Bill"; A09@0.16,0.62:0.5~none; bars:"Borrow"=1000000000000,"You Pay"=30000000000
-At five percent, it's fifty billion. || title:"The Interest Bill"; A09@0.84,0.6:0.62~none; G05@0.14,0.4:0.32~l; "5%"@0.62,0.8:100:red
-That's twenty billion dollars more, every year, for the same trillion. || title:"The Interest Bill"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
-Now repeat that across thousands of billions of dollars of borrowing. || title:"The Interest Bill"; A10@1.0,0.62:0.6:right~none; H09@0.64,0.3:0.46~b; E02@0.42,0.52:0.32~b
+Borrow one trillion dollars at three percent, and you pay thirty billion dollars a year. || title:"The Interest Bill"; A45@0.16,0.62:0.5~none; bars:"Borrow"=1000000000000,"You Pay"=30000000000
+At five percent, it's fifty billion. || title:"The Interest Bill"; A45@0.84,0.6:0.62~none; G05@0.14,0.4:0.32~l; label:"5%"@0.62,0.14>0.14,0.28
+That's twenty billion dollars more, every year, for the same trillion. || title:"The Interest Bill"; doc:s21_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.369,0.705,0.704,0.767+0.8; H04@0.12,1.0:0.34:bottom
+Now repeat that across thousands of billions of dollars of borrowing. || title:"The Interest Bill"; A36@1.0,0.62:0.6:right~none; H09@0.64,0.3:0.46~b; E02@0.42,0.52:0.32~b
 Linda reads about this in the paper and frowns. || title:"The Interest Bill"; C14@0.2,0.6:0.58~none; H22@0.58,0.36:0.3~pop; "FROWNS"@0.71,0.55:110:black~pop
 Because every dollar spent on interest is a dollar that can't go to roads, schools, or her Social Security. || title:"The Interest Bill"; C14@0.2,0.6:0.58~none; H22@0.58,0.36:0.3~pop; E10@0.84,0.36:0.3~pop; D25@0.58,0.74:0.3~pop
-There's a twist, though. || title:"The Interest Bill"; C14@0.2,0.6:0.58~none; H22@0.58,0.36:0.3~pop; E10@0.84,0.36:0.3~pop; D25@0.58,0.74:0.3~pop
+There's a twist, though. || title:"The Interest Bill"; doc:s22_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Social Security Administration" hl=0.18,0.468,0.4,0.532+0.8; H04@0.12,1.0:0.34:bottom
 That interest doesn't vanish. || title:"The Interest Bill"; C14@0.2,0.6:0.58~none; H22@0.58,0.36:0.3~pop; E10@0.84,0.36:0.3~pop; D25@0.58,0.74:0.3~pop
 It's paid to the bondholders. || title:"The Interest Bill"; A16@0.8,0.6:0.66~none; D01@0.2,0.32:0.32~drop; "BONDHOLDERS"@0.62,0.14:110:red~drop
 Some of it ends up in Linda's own pension. || title:"The Interest Bill"; C15@0.8,0.6:0.66~none; D01@0.2,0.32:0.32~drop; "LINDA"@0.62,0.14:110:red~drop
@@ -176,62 +176,62 @@ What happens if they don't? || title:"The Interest Bill"; A14@0.8,0.6:0.58~none;
 [calm] Every week, the Treasury needs buyers for new IOUs. || title:"When Buyers Step Back"; A15@0.13,0.68:0.48~none; E25@0.52,0.5:0.56~swing; "TREASURY"@0.52,0.9:110:black~r
 Usually there are plenty. || title:"When Buyers Step Back"; A18@0.13,0.68:0.48~none; E25@0.52,0.5:0.56~swing; "TREASURY"@0.52,0.9:110:black~r
 But imagine an auction where fewer people show up. || title:"When Buyers Step Back"; A38@0.13,0.68:0.48~none; E25@0.52,0.5:0.56~swing; C09@0.87,0.34:0.36~r
-The Treasury would still sell its bonds. || title:"When Buyers Step Back"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.341,0.453,0.568,0.547+0.8; H04@0.12,1.0:0.34:bottom
+The Treasury would still sell its bonds. || title:"When Buyers Step Back"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Treasury Direct" hl=0.01,0.666,0.477,0.725+0.8; H04@0.12,1.0:0.34:bottom
 It would just have to offer a higher interest rate to tempt buyers. || title:"When Buyers Step Back"; A18@0.16,0.6:0.62~none; G01@0.86,0.4:0.32~r; "INTEREST"@0.38,0.8:110:black~r
 A higher rate means a bigger interest bill. || title:"When Buyers Step Back"; A17@0.5,0.68:0.55~none; E26@0.83,0.62:0.34~r; E04@0.17,0.62:0.34~l
 A bigger bill means more borrowing. || title:"When Buyers Step Back"; H01@0.5,0.68:0.55~none; E26@0.83,0.62:0.34~r; E04@0.17,0.62:0.34~l; B10@0.78,0.28:0.36~t
 That's the loop budget experts worry about most. || title:"When Buyers Step Back"; A29@0.5,0.68:0.55~none; E26@0.83,0.62:0.34~r; E04@0.17,0.62:0.34~l; B10@0.78,0.28:0.36~t; E44@0.22,0.28:0.3~t
 This doesn't mean America suddenly goes broke. || title:"When Buyers Step Back"; A41@0.84,0.6:0.62~none; "AMERICA"@0.40,0.45:150:red~b
 It borrows in its own currency, and its bond market is the deepest in the world. || title:"When Buyers Step Back"; A33@0.84,0.6:0.62~none; G11@0.64,0.3:0.32~b; "CURRENCY"@0.50,0.82:110:black~b
-But the warning lights have started to blink. || title:"When Buyers Step Back"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.25,0.471,0.309,0.529+0.8; H04@0.12,1.0:0.34:bottom
-In twenty twenty-three, Fitch lowered America's credit rating. || title:"When Buyers Step Back"; A44@0.8,0.6:0.66~none; H18@0.2,0.32:0.3:"2023"~drop
-In twenty twenty-five, Moody's did the same, taking away America's last top rating. || title:"When Buyers Step Back"; A24@0.8,0.6:0.66~none; "2025"@0.62,0.14:100:red
+But the warning lights have started to blink. || title:"When Buyers Step Back"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia" hl=0.228,0.661,0.511,0.718+0.8; H04@0.12,1.0:0.34:bottom
+In twenty twenty-three, Fitch lowered America's credit rating. || title:"When Buyers Step Back"; A44@0.8,0.6:0.66~none; note:"2023"@0.2,0.32
+In twenty twenty-five, Moody's did the same, taking away America's last top rating. || title:"When Buyers Step Back"; A24@0.8,0.6:0.66~none; H18@0.2,0.32:0.3:"2025"~drop
 A lower rating doesn't mean America won't pay. || title:"When Buyers Step Back"; A27@0.87,0.68:0.48~none; E05@0.48,0.5:0.56~swing; "AMERICA"@0.48,0.9:110:red~l
 It's a signal that lenders are paying closer attention to how much it borrows. || title:"When Buyers Step Back"; A28@0.87,0.68:0.48~none; E05@0.48,0.5:0.56~swing; E48@0.13,0.34:0.28~l
-But it does mean the cost of money can rise for everyone. || title:"When Buyers Step Back"; H05@0.8,0.6:0.58~none; H17@0.42,0.36:0.3~pop; E02@0.16,0.36:0.3~pop; C11@0.42,0.74:0.36~pop
-Because Treasury rates are the starting point for many other loans. || title:"When Buyers Step Back"; H08@0.8,0.6:0.58~none; H17@0.42,0.36:0.3~pop; E02@0.16,0.36:0.3~pop; C11@0.42,0.74:0.36~pop
-Car loans, business loans, and most of all, mortgages. || title:"When Buyers Step Back"; A40@1.0,0.62:0.6:right~none; E41@0.64,0.3:0.32~b; E34@0.42,0.52:0.32~b
+But it does mean the cost of money can rise for everyone. || title:"When Buyers Step Back"; doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: KTVU" hl=0.167,0.871,0.605,0.983+0.8; H04@0.12,1.0:0.34:bottom
+Because Treasury rates are the starting point for many other loans. || title:"When Buyers Step Back"; H05@0.8,0.6:0.58~none; "TREASURY"@0.40,0.45:150:black~pop
+Car loans, business loans, and most of all, mortgages. || title:"When Buyers Step Back"; H08@1.0,0.62:0.6:right~none; E41@0.64,0.3:0.32~b; E34@0.42,0.52:0.32~b
 And that's where Linda's story comes home. || title:"When Buyers Step Back"; C13@1.0,0.62:0.6:right~none; E41@0.64,0.3:0.32~b; E34@0.42,0.52:0.32~b; D11@0.2,0.74:0.32~b
 
 # ---------- CHAPTER 7: Your Mortgage, Your Money ----------
 || title:"Your Mortgage, Your Money"; sting; A23@0.5,0.56:0.6; hold:1.2
 [calm] Linda's grandson, Jake, is twenty-nine. || title:"Your Mortgage, Your Money"; C13@0.5,0.68:0.55~none; C27@0.83,0.62:0.46~r; "29"@0.5,0.16:100:red
 He's a nurse in Columbus, and he's trying to buy his first home. || title:"Your Mortgage, Your Money"; C13@0.5,0.68:0.55~none; C27@0.83,0.62:0.46~r; E35@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t
-He keeps asking why mortgage rates are so much higher than when his parents bought. || title:"Your Mortgage, Your Money"; doc:s26_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.07,0.335,0.601,0.411+0.8; H04@0.12,1.0:0.34:bottom
-Part of the answer runs through the bond market. || title:"Your Mortgage, Your Money"; A01@0.16,0.6:0.62~none; G12@0.86,0.4:0.32~r; "THROUGH"@0.38,0.8:110:red~r
-Mortgage rates tend to follow the ten-year Treasury rate, plus a little extra for the bank's risk. || title:"Your Mortgage, Your Money"; doc:s27_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Freddie Mac" hl=0.99,0.19,1,0.456+0.8; H04@0.12,1.0:0.34:bottom
-When Treasury rates climb, mortgages usually climb too. || title:"Your Mortgage, Your Money"; A15@0.2,0.6:0.66~none; E29@0.8,0.32:0.32~drop; "TREASURY"@0.38,0.14:110:black~drop
-On a three hundred thousand dollar loan, one extra percentage point adds roughly two hundred dollars to the monthly payment. || title:"Your Mortgage, Your Money"; A18@0.16,0.62:0.5~none; bars:"On"=400000,"Adds Roughly"=200
-That can decide whether Jake gets the house. || title:"Your Mortgage, Your Money"; A18@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; "JAKE"@0.50,0.16:110:black~l
-Government debt isn't the only reason rates are high. || title:"Your Mortgage, Your Money"; A29@0.16,0.6:0.62~none; C08@0.86,0.4:0.46~r; "GOVERNMENT"@0.38,0.8:110:black~r
-Inflation and the Fed matter too. || title:"Your Mortgage, Your Money"; A33@0.14,1.0:0.62:bottom~none; C08@0.86,0.4:0.46~r; E37@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r
-But a government that borrows more, at higher cost, pushes in the same direction. || title:"Your Mortgage, Your Money"; A44@0.14,1.0:0.62:bottom~none; E38@0.86,0.4:0.32~r; E37@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; G09@0.62,0.8:0.3~b
-Linda listens and nods. || title:"Your Mortgage, Your Money"; A24@0.14,1.0:0.62:bottom~none; E38@0.86,0.4:0.32~r; E37@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; G09@0.62,0.8:0.3~b
+He keeps asking why mortgage rates are so much higher than when his parents bought. || title:"Your Mortgage, Your Money"; doc:s26_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, St. Louis Fed" hl=0.091,0.335,0.511,0.409+0.8; H04@0.12,1.0:0.34:bottom
+Part of the answer runs through the bond market. || title:"Your Mortgage, Your Money"; A40@0.16,0.6:0.62~none; G12@0.86,0.4:0.32~r; "THROUGH"@0.38,0.8:110:red~r
+Mortgage rates tend to follow the ten-year Treasury rate, plus a little extra for the bank's risk. || title:"Your Mortgage, Your Money"; doc:s27_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Freddie Mac" hl=0.522,0.526,0.88,0.633+0.8; H04@0.12,1.0:0.34:bottom
+When Treasury rates climb, mortgages usually climb too. || title:"Your Mortgage, Your Money"; A01@0.2,0.6:0.66~none; E29@0.8,0.32:0.32~drop; "TREASURY"@0.38,0.14:110:black~drop
+On a three hundred thousand dollar loan, one extra percentage point adds roughly two hundred dollars to the monthly payment. || title:"Your Mortgage, Your Money"; A15@0.16,0.62:0.5~none; bars:"On"=400000,"Adds Roughly"=200
+That can decide whether Jake gets the house. || title:"Your Mortgage, Your Money"; A15@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; "JAKE"@0.50,0.16:110:black~l
+Government debt isn't the only reason rates are high. || title:"Your Mortgage, Your Money"; A18@0.16,0.6:0.62~none; C08@0.86,0.4:0.46~r; "GOVERNMENT"@0.38,0.8:110:black~r
+Inflation and the Fed matter too. || title:"Your Mortgage, Your Money"; A29@0.14,1.0:0.62:bottom~none; C08@0.86,0.4:0.46~r; H17@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r
+But a government that borrows more, at higher cost, pushes in the same direction. || title:"Your Mortgage, Your Money"; A33@0.14,1.0:0.62:bottom~none; E37@0.86,0.4:0.32~r; H17@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; G09@0.62,0.8:0.3~b
+Linda listens and nods. || title:"Your Mortgage, Your Money"; A44@0.14,1.0:0.62:bottom~none; E37@0.86,0.4:0.32~r; H17@0.62,0.4:0.32~r; G10@0.38,0.4:0.32~r; G09@0.62,0.8:0.3~b
 For the first time, she sees both sides of the same story. || title:"Your Mortgage, Your Money"; C13@0.87,0.68:0.48~none; "FIRST"@0.40,0.45:150:red~swing
 Her pension gains when rates rise. || title:"Your Mortgage, Your Money"; C13@0.87,0.68:0.48~none; D25@0.48,0.5:0.56~swing; "PENSION"@0.48,0.9:110:red~l
 Her grandson pays more. || title:"Your Mortgage, Your Money"; C13@0.87,0.68:0.48~none; D25@0.48,0.5:0.56~swing; "PENSION"@0.48,0.9:110:red~l
 That's the hidden truth of government debt. || title:"Your Mortgage, Your Money"; A05@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; "GOVERNMENT"@0.38,0.14:110:black~drop
-It's not someone else's problem. || title:"Your Mortgage, Your Money"; A24@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; "SOMEONE"@0.38,0.14:110:red~drop
-It's a deal between all of us, the savers who lend and the borrowers who pay. || title:"Your Mortgage, Your Money"; A27@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; "BORROWERS"@0.38,0.14:110:red~drop
-So let's answer our question. || title:"Your Mortgage, Your Money"; doc:s28_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.304,0.566,0.707,0.814+0.8; H04@0.12,1.0:0.34:bottom
+It's not someone else's problem. || title:"Your Mortgage, Your Money"; A44@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; "SOMEONE"@0.38,0.14:110:red~drop
+It's a deal between all of us, the savers who lend and the borrowers who pay. || title:"Your Mortgage, Your Money"; A24@0.2,0.6:0.66~none; C06@0.8,0.32:0.46~drop; E02@0.8,0.74:0.32~drop
+So let's answer our question. || title:"Your Mortgage, Your Money"; doc:s28_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.367,0.643,0.706,0.736+0.8; H04@0.12,1.0:0.34:bottom
 Who does America owe forty trillion dollars to? || title:"Your Mortgage, Your Money"; A06@0.8,0.6:0.58~none; H17@0.42,0.36:0.3:"$40 TRILLION"~swing
-Mostly to itself, to Americans, and to people like Linda. || title:"Your Mortgage, Your Money"; C15@0.8,0.6:0.58~none; H09@0.42,0.36:0.43~pop; "AMERICANS"@0.29,0.55:110:red~pop
-Then to Japan, Britain, China, and many other countries. || title:"Your Mortgage, Your Money"; A28@1.0,0.62:0.6:right~none; G15@0.64,0.3:0.32~b; G16@0.42,0.52:0.32~b; G14@0.2,0.74:0.32~b; arrow:0.33,0.61>0.29,0.65
-No single lender controls it, and no foreign country owns America. || title:"Your Mortgage, Your Money"; H05@1.0,0.62:0.6:right~none; D20@0.64,0.3:0.32~b; G16@0.42,0.52:0.32~b; G14@0.2,0.74:0.32~b; E27@0.18,0.26:0.3~swing
-But the scariest part was never who we owe. || title:"Your Mortgage, Your Money"; doc:s29_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.367,0.69,0.707,0.845+0.8; H04@0.12,1.0:0.34:bottom
-It's the price of borrowing. || title:"Your Mortgage, Your Money"; H08@0.5,0.68:0.55~none; H17@0.83,0.62:0.34~r; "BORROWING"@0.50,0.16:110:red~l
-A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones. || title:"Your Mortgage, Your Money"; A35@0.5,0.68:0.55~none; H17@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; H17@0.78,0.28:0.3:"$1 TRILLION"~swing
-Here's the takeaway. || title:"Your Mortgage, Your Money"; A20@0.5,0.68:0.55~none; H17@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; H17@0.78,0.28:0.3:"$1 TRILLION"~swing
-When you hear "the debt," ask a better question. || title:"Your Mortgage, Your Money"; A40@0.2,0.6:0.58~none; "QUESTION"@0.60,0.45:150:black~pop; bubble:"the debt,"@0.36,0.24:r
-Not just how big is it, but what does it cost us each year, and what are we giving up to pay it? || title:"Your Mortgage, Your Money"; A07@0.2,0.6:0.58~none; E37@0.58,0.36:0.3~pop; E23@0.84,0.36:0.3~pop
+Mostly to itself, to Americans, and to people like Linda. || title:"Your Mortgage, Your Money"; C15@0.8,0.6:0.58~none; C11@0.42,0.36:0.43~pop; "AMERICANS"@0.29,0.55:110:red~pop
+Then to Japan, Britain, China, and many other countries. || title:"Your Mortgage, Your Money"; A27@1.0,0.62:0.6:right~none; G15@0.64,0.3:0.32~b; G16@0.42,0.52:0.32~b; G14@0.2,0.74:0.32~b; arrow:0.33,0.61>0.29,0.65
+No single lender controls it, and no foreign country owns America. || title:"Your Mortgage, Your Money"; A28@1.0,0.62:0.6:right~none; D20@0.64,0.3:0.32~b; G16@0.42,0.52:0.32~b; G14@0.2,0.74:0.32~b; E27@0.18,0.26:0.3~swing
+But the scariest part was never who we owe. || title:"Your Mortgage, Your Money"; doc:s29_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Fiscal Data, U.S. Treasury" hl=0.119,0.445,0.62,0.538+0.8; H04@0.12,1.0:0.34:bottom
+It's the price of borrowing. || title:"Your Mortgage, Your Money"; H05@0.5,0.68:0.55~none; E37@0.83,0.62:0.34~r; "BORROWING"@0.50,0.16:110:red~l
+A trillion-dollar interest bill that grows every time old IOUs are replaced with new ones. || title:"Your Mortgage, Your Money"; A09@0.5,0.68:0.55~none; E37@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; label:"$1 TRILLION"@0.5,0.18>0.17,0.50
+Here's the takeaway. || title:"Your Mortgage, Your Money"; A20@0.5,0.68:0.55~none; E37@0.83,0.62:0.34~r; D13@0.17,0.62:0.34~l; label:"$1 TRILLION"@0.5,0.18>0.17,0.50
+When you hear "the debt," ask a better question. || title:"Your Mortgage, Your Money"; H08@0.2,0.6:0.58~none; "QUESTION"@0.60,0.45:150:black~pop; bubble:"the debt,"@0.36,0.24:r
+Not just how big is it, but what does it cost us each year, and what are we giving up to pay it? || title:"Your Mortgage, Your Money"; A07@0.2,0.6:0.58~none; E38@0.58,0.36:0.3~pop; E23@0.84,0.36:0.3~pop
 Linda folds her pension statement and puts it away. || title:"Your Mortgage, Your Money"; C13@0.16,0.6:0.62~none; H28@0.86,0.4:0.32~r; "STATEMENT"@0.38,0.8:110:red~r
 Her IOU is safe. || title:"Your Mortgage, Your Money"; C13@0.16,0.6:0.62~none; H28@0.86,0.4:0.32~r; "STATEMENT"@0.38,0.8:110:red~r
-But not every promise on Wall Street is. || title:"Your Mortgage, Your Money"; A01@0.12,0.74:0.4~none; doc:p_wall_street.jpg@0.56,0.5 w=0.56 h=0.68 ~r src="Photo: Wikimedia Commons – Wall Street"
-And Jake? || title:"Your Mortgage, Your Money"; A39@0.12,0.74:0.4~none; doc:p_wall_street.jpg@0.56,0.5 w=0.56 h=0.68 ~r src="Photo: Wikimedia Commons – Wall Street"
+But not every promise on Wall Street is. || title:"Your Mortgage, Your Money"; A40@0.84,0.62:0.5~none; doc:p_wall_street.jpg@0.4,0.54 w=0.56 h=0.68 ~l src="Photo: Wikimedia Commons – Wall Street"
+And Jake? || title:"Your Mortgage, Your Money"; A39@0.84,0.62:0.5~none; doc:p_wall_street.jpg@0.4,0.54 w=0.56 h=0.68 ~l src="Photo: Wikimedia Commons – Wall Street"
 He decides to wait a few months, save a bigger down payment, and watch the rates. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; E25@0.8,0.74:0.32~drop
 Not because of panic. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; E25@0.8,0.74:0.32~drop
 Because now he understands what moves them. || title:"Your Mortgage, Your Money"; C13@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; E25@0.8,0.74:0.32~drop; E17@0.53,0.32:0.32~drop; E52@0.53,0.74:0.32~drop; arrow:0.53,0.45>0.53,0.61
-[dramatic] Next time, we meet a man who sold people promises that were never real. || title:"Your Mortgage, Your Money"; doc:s31_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia – Wall Street" hl=0.142,0.594,0.78,0.786+0.8; H04@0.12,1.0:0.34:bottom
-The real Wolf of Wall Street. || title:"Your Mortgage, Your Money"; A01@1.0,0.62:0.6:right~none; G03@0.64,0.3:0.32~b; E34@0.42,0.52:0.32~b
+[dramatic] Next time, we meet a man who sold people promises that were never real. || title:"Your Mortgage, Your Money"; A40@1.0,0.62:0.6:right~none; E39@0.64,0.3:0.32~b; H09@0.42,0.52:0.36~b
+The real Wolf of Wall Street. || title:"Your Mortgage, Your Money"; A01@1.0,0.62:0.6:right~none; E39@0.64,0.3:0.32~b; H09@0.42,0.52:0.36~b; G03@0.2,0.74:0.32~b; E34@0.18,0.26:0.3~swing
 
 || A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3

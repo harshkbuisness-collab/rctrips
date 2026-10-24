@@ -72,7 +72,7 @@
 71: AUTODOC
 72: doc:h_sscard.jpg@0.4,0.5 w=0.5 h=0.66 ~l src="Photo: Wikimedia Commons – Social Security card"; "IN > OUT"@0.8,0.4:110:green~pop+0.4; A01@0.9,0.76:0.3~none
 73: doc:h_treasury.jpg@0.43,0.5 w=0.68 h=0.7 ~l src="Photo: Wikimedia Commons – U.S. Treasury Building"; H04@0.9,1.0:0.3:bottom~none; D01@0.86,0.36:0.26~r+0.4
-74: AUTODOC
+74: C13@0.3,0.56:0.6~l; D01@0.62,0.5:0.3~pop+0.3; arrow:0.72,0.5>0.86,0.5+0.6; think:"will it come back?"@0.7,0.18; A38@0.9,0.66:0.4~none
 75: D24@0.24,0.48:0.3~l; arrow:0.34,0.48>0.48,0.48; D01@0.6,0.48:0.3~pop+0.4; label:"taxes or new borrowing"@0.5,0.82>0.6,0.64; C13@0.86,0.56:0.4~r
 76: G09@0.42,0.5:0.44~pop; D01@0.72,0.5:0.3~pop; "STILL REAL MONEY"@0.5,0.12:90:red~pop
 77: + A14@0.9,0.7:0.34~none

@@ -391,7 +391,7 @@ def main(script, vdir):
     for s_ in shots:
         f_ = os.path.join(vdir, "02_assets", "screens", s_.get("file", ""))
         if s_.get("ok") and os.path.exists(f_):
-            h_ = hashlib.md5(open(f_, "rb").read()).hexdigest()
+            h_ = hashlib.md5(open(f_, "rb").read() + str(s_.get("box")).encode()).hexdigest()   # same page, other quote = new evidence
             if h_ in seen:
                 s_["ok"] = False
             seen.add(h_)

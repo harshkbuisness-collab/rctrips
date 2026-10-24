@@ -32,9 +32,10 @@ def cues(script):
 
 def photo_cues(script, vdir):
     """More evidence: the Wikipedia page of every real person, company or place the script names (found by
-    get_photos.py), shown at a later mention, scrolled to the paragraph that matches what is being said."""
+    get_photos.py), shown at a later mention, scrolled to the paragraph that matches what is being said.
+    Off unless PHOTO_PAGES=1 (owner, 24 Oct 2026: a highlight must prove the spoken line)."""
     pp = os.path.join(vdir, "02_assets", "screens", "photos.json")
-    if not os.path.exists(pp):
+    if os.environ.get("PHOTO_PAGES") != "1" or not os.path.exists(pp):
         return []
     lines = parse_script.parse(script)["lines"]
     out, n0, pages = [], len(cues(script)), set()
@@ -110,6 +111,29 @@ def best_block(pg, c):
     return pg.locator(f"[data-gs='{b[0]}']").first
 
 
+QUOTE_BOX = """([el, q]) => {
+    // the exact quote inside the element (not the whole paragraph): walk its text, map the quote back to nodes
+    const nodes = [], norm = [], map = [];
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    while (tw.nextNode()) nodes.push(tw.currentNode);
+    nodes.forEach((n, k) => { for (let i = 0; i < n.data.length; i++) {
+        const ch = /\\s/.test(n.data[i]) ? ' ' : n.data[i].toLowerCase();
+        if (ch === ' ' && norm[norm.length - 1] === ' ') continue;
+        norm.push(ch); map.push([k, i]); } });
+    const at = norm.join('').indexOf(q.toLowerCase().replace(/\\s+/g, ' '));
+    if (at < 0) return null;
+    const a = map[at], b = map[at + q.replace(/\\s+/g, ' ').length - 1];
+    const r = document.createRange();
+    r.setStart(nodes[a[0]], a[1]); r.setEnd(nodes[b[0]], b[1] + 1);
+    const rs = [...r.getClientRects()].filter(x => x.width > 1);
+    if (!rs.length) return null;
+    return {x: Math.min(...rs.map(x => x.left)), y: Math.min(...rs.map(x => x.top)),
+            x1: Math.max(...rs.map(x => x.right)), y1: Math.max(...rs.map(x => x.bottom))};
+}"""
+CLOSE = ("button:has-text('Accept')", "button:has-text('I agree')", "button:has-text('Got it')",
+         "text=No thanks", "button:has-text('No Thanks')", "button[aria-label='Close']", "[aria-label='close']")
+
+
 def get_html(ctx, c, path):
     pg = ctx.new_page()
     try:
@@ -118,11 +142,13 @@ def get_html(ctx, c, path):
         body = pg.evaluate("document.body ? document.body.innerText.slice(0, 3000) : ''").lower()
         if len(body) < 200 or any(w in body for w in BLOCKED):
             raise RuntimeError("blocked or empty page (security check / captcha / not found)")
-        for sel in ("button:has-text('Accept')", "button:has-text('I agree')", "button:has-text('Got it')"):
+        pg.wait_for_timeout(1500)                    # survey / cookie pop-ups come late; close them all
+        for sel in CLOSE:
             try:
-                pg.click(sel, timeout=800)
+                pg.click(sel, timeout=600)
             except Exception:
                 pass
+        pg.keyboard.press("Escape")
         box, q = None, quote(c["what"])
         loc = None
         if q:
@@ -133,17 +159,22 @@ def get_html(ctx, c, path):
                 USED[c["url"] + "#q"].add(q)
             except Exception:
                 loc = None
-        if loc is None:
+        if loc is None and not q:              # a quoted line must be found exactly, never a look-alike paragraph
             try:
                 loc = best_block(pg, c)
             except Exception:
                 loc = None
+        elif loc is None:
+            print("  quote not found on the page:", q[:70])
         if loc is not None:
             try:
                 loc.scroll_into_view_if_needed(timeout=3000)
                 pg.evaluate("window.scrollBy(0, -window.innerHeight * 0.3)")
                 pg.wait_for_timeout(400)
                 b = loc.bounding_box()
+                e = pg.evaluate(QUOTE_BOX, [loc.element_handle(), q]) if q else None
+                if e:
+                    b = {"x": e["x"], "y": e["y"], "width": e["x1"] - e["x"], "height": e["y1"] - e["y"]}
                 if b:
                     box = [round(max(0, b["x"] / W - 0.01), 3), round(max(0, b["y"] / H - 0.01), 3),
                            round(min(1, (b["x"] + b["width"]) / W + 0.01), 3),
