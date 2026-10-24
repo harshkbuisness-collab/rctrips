@@ -7,7 +7,7 @@ Bound to the Google Sheet on rctrips.info@gmail.com. Emails go out from hr@rctri
 2. No library needed (Microsoft login is built into `Outlook.gs`).
 3. Project Settings > Script Properties > add `CLIENT_ID`, `TENANT_ID`, `CLIENT_SECRET` (never put these in code or GitHub).
 4. Reload the sheet. Menu **HR System > 1. First-time Setup**.
-5. Paste the employee list in `Employees` (from A2), add holidays in `Holidays`.
+5. Apps Script > **+ > Script** > name it `Employees` > paste the `EMPLOYEE_DATA` list (kept private, not in GitHub) > Save. Then **HR System > Load / Update Employees**. Add holidays in `Holidays`.
 6. **HR System > 2. Connect Outlook** and sign in as hr@rctrips.com.
 
 ## Monthly use
