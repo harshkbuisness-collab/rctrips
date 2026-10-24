@@ -55,8 +55,7 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
   bookmark ribbon in the top-right corner on every thumbnail (from the logo).
 
 ## Channel growth plan (owner, 23 Oct 2026; from Algrow + DecodingYT answers)
-- Every day: 1 long video + 1 Short (owner, 23 Oct 2026). Cut each Short from a long video with `tools/make_short.py`,
-  link it as "Related video". Quality first: a video is uploaded only after `--check` shows 0 warnings; on a day with no
+- Claude makes ONLY the long video (owner, 24 Oct 2026): no Short video, no Short title/cover, unless the owner asks. Quality first: a video is uploaded only after `--check` shows 0 warnings; on a day with no
   ready long video, post only the Short. Mix topics (no 3 days of the same theme).
 - Upload with Schedule at 3:00 PM US Eastern (1:30 AM India); the Short about 2 hours after the long video.
 - Settings: video + title language "English (United States)", English captions (.srt), Education category, not for kids.
