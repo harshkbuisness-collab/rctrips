@@ -39,7 +39,7 @@ function setupSystem() {
   if (settings.getLastRow() < 2) {
     settings.getRange('B5').setNumberFormat('@');
     settings.getRange(2, 1, 6, 3).setValues([
-      ['Office Start Time', '10:10', 'In time after this = Late'],
+      ['Late After (time)', '10:10', 'Office starts 10:00. In time after this = Late'],
       ['Late Limit Per Month', 5, 'More lates than this = salary deduction'],
       ['Paid Leaves Per Month', 1.5, '18 per year'],
       ['Leave Tracking Starts', '2026-11', 'YYYY-MM. Opening balance in Leave Balance sheet is till the month before this'],
@@ -124,6 +124,7 @@ function getEmployeesAll_(sh) {
 function dailyJob() {
   ensureMonthSheet_(new Date());
   refreshToday_();
+  orderTabs_();
 }
 
 /** Adds the "Attendance Uploaded Till" setting (named range LastUpload) if missing. */
@@ -140,6 +141,7 @@ function ensureLastUploadSetting_() {
 
 function refreshCurrentMonth() {
   const sh = ensureMonthSheet_(new Date());
+  orderTabs_();
   SpreadsheetApp.getActive().setActiveSheet(sh);
 }
 
@@ -181,15 +183,18 @@ function applyBanding_(sh, ncols) {
     .setSecondRowColor('#f3f6fb');
 }
 
-/** Month sheets first (newest first), then the fixed sheets. */
+/** Tab order: Today, Monthly Summary, current month, Leave Balance, older months (newest first), then the rest. */
 function orderTabs_() {
   const ss = SpreadsheetApp.getActive();
-  const fixed = [SHEETS.SUMMARY, SHEETS.BALANCE, SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS];
-  const months = ss.getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0)
+  const current = monthSheetName_(fmt_(new Date(), 'yyyy-MM'));
+  const months = ss.getSheets().map(s => s.getName()).filter(n => n.indexOf('Att ') === 0 && n !== current)
     .sort((a, b) => new Date('1 ' + b.slice(4).replace('-', ' ')) - new Date('1 ' + a.slice(4).replace('-', ' ')));
-  [TODAY_SHEET].concat(months, fixed).forEach((name, i) => {
+  const order = [TODAY_SHEET, SHEETS.SUMMARY, current, SHEETS.BALANCE].concat(months,
+    [SHEETS.EMPLOYEES, SHEETS.HOLIDAYS, SHEETS.RAW, SHEETS.SETTINGS]);
+  let pos = 1;
+  order.forEach(name => {
     const sh = ss.getSheetByName(name);
-    if (sh) { ss.setActiveSheet(sh); ss.moveActiveSheet(i + 1); }
+    if (sh) { ss.setActiveSheet(sh); ss.moveActiveSheet(pos++); }
   });
   const today = ss.getSheetByName(TODAY_SHEET);
   if (today) ss.setActiveSheet(today);
