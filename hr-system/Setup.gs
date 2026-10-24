@@ -11,8 +11,10 @@ const SHEETS = {
   SUMMARY: 'Monthly Summary',
 };
 
-// Employees sheet columns (matches the HR list: Name, City, Designation, Emp Code, Phone, Email)
-const EMP_COLS = ['Name', 'City', 'Designation', 'Emp Code', 'Phone', 'Email', 'Active (Yes/No)'];
+// Employees sheet columns (matches the HR list: Name, City, Designation, Emp Code, Phone, Email).
+// "Machine Name" = how the name is written in the attendance machine file, if different.
+const EMP_COLS = ['Name', 'City', 'Designation', 'Emp Code', 'Phone', 'Email', 'Active (Yes/No)', 'Machine Name'];
+const EMP_ACTIVE = 6;
 
 function onOpen() {
   SpreadsheetApp.getUi()
@@ -52,7 +54,7 @@ function setupSystem() {
     settings.getRange('B2:B7').setBackground('#fff2cc').setHorizontalAlignment('center');
   }
 
-  const emp = getOrCreateSheet_(SHEETS.EMPLOYEES, EMP_COLS, [200, 110, 280, 90, 110, 240, 110], '#38761d');
+  const emp = getOrCreateSheet_(SHEETS.EMPLOYEES, EMP_COLS, [200, 110, 280, 90, 110, 240, 110, 150], '#38761d');
   emp.getRange('D:E').setNumberFormat('@');
   emp.getRange('G2:G').setDataValidation(
     SpreadsheetApp.newDataValidation().requireValueInList(['Yes', 'No'], true).build());
@@ -114,7 +116,7 @@ function addEmployees_() {
     throw new Error('Employees file not found. In Apps Script add a file named "Employees" with the EMPLOYEE_DATA list.');
   }
   const ss = SpreadsheetApp.getActive();
-  const emp = ss.getSheetByName(SHEETS.EMPLOYEES);
+  const emp = ensureEmpColumns_(ss.getSheetByName(SHEETS.EMPLOYEES));
   const width = EMP_COLS.length;
   const data = EMPLOYEE_DATA.filter(r => String(r[0]).trim())
     .map(r => r.map(c => String(c == null ? '' : c).trim()).concat(Array(width).fill('')).slice(0, width));
@@ -132,14 +134,14 @@ function addEmployees_() {
     const src = byName[n];
     if (!src) { notInList.push(r[0]); return; }
     let changed = false;
-    for (let c = 1; c < width - 1; c++) {
-      if (String(r[c]).trim() !== src[c]) { r[c] = src[c]; changed = true; }
+    for (let c = 1; c < width; c++) {
+      if (c !== EMP_ACTIVE && String(r[c]).trim() !== src[c]) { r[c] = src[c]; changed = true; }
     }
     if (changed) updated++;
   });
   if (rows.length) emp.getRange(2, 1, rows.length, width).setValues(rows);
 
-  const newRows = data.filter(r => !have.has(normName_(r[0]))).map(r => { r[width - 1] = r[width - 1] || 'Yes'; return r; });
+  const newRows = data.filter(r => !have.has(normName_(r[0]))).map(r => { r[EMP_ACTIVE] = r[EMP_ACTIVE] || 'Yes'; return r; });
   if (newRows.length) emp.getRange(emp.getLastRow() + 1, 1, newRows.length, width).setValues(newRows);
 
   const bal = ss.getSheetByName(SHEETS.BALANCE);
@@ -147,6 +149,18 @@ function addEmployees_() {
   const balRows = getEmployees_().filter(e => !inBal.has(normName_(e.name))).map(e => [e.code, e.name, '']);
   if (balRows.length) bal.getRange(bal.getLastRow() + 1, 1, balRows.length, 3).setValues(balRows);
   return { added: newRows.length, updated: updated, notInList: notInList };
+}
+
+/** Adds header cells for columns added later (e.g. Machine Name) to an existing Employees sheet. */
+function ensureEmpColumns_(sh) {
+  if (sh.getMaxColumns() < EMP_COLS.length) sh.insertColumnsAfter(sh.getMaxColumns(), EMP_COLS.length - sh.getMaxColumns());
+  const header = sh.getRange(1, 1, 1, EMP_COLS.length);
+  if (header.getValues()[0].join('|') !== EMP_COLS.join('|')) {
+    header.setValues([EMP_COLS]).setBackground(THEME.header).setFontColor(THEME.headerText).setFontWeight('bold')
+      .setHorizontalAlignment('center').setWrap(true);
+    sh.setColumnWidth(EMP_COLS.length, 150);
+  }
+  return sh;
 }
 
 function getEmployeesAll_(sh) {
@@ -235,18 +249,20 @@ function getSettings_() {
   };
 }
 
-/** Active employees: [{name, city, designation, code, email}] */
+/** Active employees: [{name, city, designation, code, email, machineName}] */
 function getEmployees_() {
   const sh = SpreadsheetApp.getActive().getSheetByName(SHEETS.EMPLOYEES);
   if (!sh || sh.getLastRow() < 2) return [];
-  return sh.getRange(2, 1, sh.getLastRow() - 1, EMP_COLS.length).getValues()
-    .filter(r => String(r[0]).trim() && String(r[6]).trim().toLowerCase() !== 'no')
+  const width = Math.min(EMP_COLS.length, sh.getMaxColumns());
+  return sh.getRange(2, 1, sh.getLastRow() - 1, width).getValues()
+    .filter(r => String(r[0]).trim() && String(r[EMP_ACTIVE]).trim().toLowerCase() !== 'no')
     .map(r => ({
       name: String(r[0]).trim(),
       city: String(r[1]).trim(),
       designation: String(r[2]).trim(),
       code: String(r[3]).trim(),
       email: String(r[5]).trim(),
+      machineName: String(r[7] || '').trim(),
     }));
 }
 

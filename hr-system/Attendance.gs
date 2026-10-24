@@ -440,9 +440,21 @@ function parseRowTable_(values) {
 function resolveName_(machineName, sheetNames) {
   const n = normName_(machineName);
   if (sheetNames.indexOf(n) >= 0) return n;
+  const alias = machineAliases_()[n];
+  if (alias && sheetNames.indexOf(alias) >= 0) return alias;
   const first = n.split(' ')[0];
   const hits = sheetNames.filter(s => s.split(' ')[0] === first);
   return hits.length === 1 ? hits[0] : n;
+}
+
+/** {normalised machine name: normalised employee name} from the Employees sheet "Machine Name" column. */
+let machineAliasCache_ = null;
+function machineAliases_() {
+  if (!machineAliasCache_) {
+    machineAliasCache_ = {};
+    getEmployees_().forEach(e => { if (e.machineName) machineAliasCache_[normName_(e.machineName)] = normName_(e.name); });
+  }
+  return machineAliasCache_;
 }
 
 function toDate_(v) {
