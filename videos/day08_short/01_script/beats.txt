@@ -1,0 +1,16 @@
+# ---------- Short (9:16, render with VERTICAL=1). One sentence = one scene; ^word = on that word ----------
+Mortgage rates nearly tripled, so US house prices should have crashed. || A01@0.22,0.8:0.34~none; doc:ch_rate.png@0.5,0.3 w=0.98 h=0.42 frame=0 ~none ^mortgage; "x3"@0.72,0.6:170:red~pop ^tripled; D14@0.72,0.8:0.2~pop ^crashed
+They didn't. || A45@0.5,0.68:0.36~none; D11@0.28,0.3:0.24~pop ^they; E45@0.74,0.28:0.22~t ^didn't
+The typical new house still sells for four hundred ten thousand seven hundred dollars. || A16@0.8,0.8:0.34~none; doc:ch_price.png@0.5,0.3 w=0.98 h=0.42 frame=0 ~none ^typical; "$410,700"@0.4,0.6:130:red~type ^four; D11@0.3,0.8:0.2~pop ^house
+Here's why. || A38@0.25,0.74:0.38~none; "HERE'S WHY"@0.55,0.3:120:red~type ^here's; E16@0.72,0.56:0.2~pop ^why
+Nearly all fifty million American mortgages have fixed rates. || A16@0.82,0.8:0.34~none; doc:s01.png@0.5,0.24 w=0.94 h=0.12 crop=0.22,0.485,0.5,0.525 hl=0.227,0.49,0.491,0.52+0.3 src="FHFA Working Paper 24-03" ~b ^nearly; "50 MILLION"@0.45,0.47:120:red~pop ^fifty; E55@0.3,0.74:0.2~pop ^fixed
+And many were signed when rates hit record lows. || A28@0.22,0.8:0.34~none; doc:ch_rate.png@0.5,0.3 w=0.98 h=0.42 frame=0 ~none ^signed; circle:0.22,0.3,0.44,0.46 ^record; "2.65%"@0.68,0.6:130:red~type ^lows
+Sell today, and the same three hundred thousand dollar loan costs about eight hundred dollars more, every month. || A08@0.2,0.8:0.34~none; "3%: $1,265/mo"@0.5,0.16:84:black~type ^same; "7.32%: $2,061/mo"@0.5,0.25:84:black~type ^loan; "+$800"@0.5,0.42:190:red~pop ^eight; E25@0.72,0.75:0.2~pop ^month
+So owners don't sell. || A48@0.5,0.74:0.38~none; D09@0.26,0.36:0.22~pop ^owners; E55@0.74,0.36:0.2~pop ^don't; "DON'T SELL"@0.5,0.14:120:red~type ^sell
+The Federal Housing Finance Agency counted it: one point three three million home sales that never happened. || A16@0.82,0.82:0.32~none; doc:s01.png@0.5,0.13 w=0.9 h=0.1 crop=0.05,0.025,0.40,0.125 frame=0 ~pop ^federal; doc:s01.png@0.5,0.3 w=0.94 h=0.12 crop=0.545,0.538,0.845,0.588 hl=0.553,0.548,0.84,0.58+0.3 ~b ^counted; "1.33 MILLION"@0.45,0.5:110:red~pop ^one; G22@0.3,0.76:0.2~pop ^never
+Fewer sellers means fewer houses for sale. || A06@0.2,0.8:0.34~none; group:D09*6@0.08,0.2,0.92,0.52:0.12 ^fewer; G22@0.72,0.76:0.2~pop ^sale
+Higher rates pushed prices down three point three percent. || A16@0.82,0.8:0.34~none; doc:s01.png@0.5,0.24 w=0.8 h=0.12 crop=0.505,0.575,0.68,0.615 hl=0.509,0.58,0.674,0.61+0.3 ~b ^higher; "-3.3%"@0.42,0.45:190:black~pop ^three; D14@0.3,0.74:0.2~pop ^down
+But the missing sellers pushed them up five point seven. || A08@0.2,0.8:0.34~none; doc:s01.png@0.5,0.24 w=0.8 h=0.12 crop=0.1,0.578,0.3,0.612 hl=0.105,0.583,0.29,0.607+0.3 ~b ^missing; "+5.7%"@0.58,0.45:190:red~pop ^five; E45@0.74,0.72:0.2~t ^up
+So the market didn't crash. || A14@0.5,0.74:0.38~none; D11@0.26,0.36:0.22~pop ^market; "NO CRASH"@0.5,0.14:130:red~type ^crash; E46@0.75,0.36:0.18~drop ^didn't
+It froze. || A45@0.5,0.68:0.36~none; "IT FROZE."@0.5,0.16:150:red~pop ^froze; D09@0.25,0.38:0.2~pop; E21@0.75,0.38:0.18~pop
+Would you give up a three percent mortgage to move? || A06@0.5,0.76:0.38~none; G04@0.26,0.3:0.2~pop ^three; D09@0.74,0.3:0.2~pop ^move; "Would you move?"@0.5,0.52:96:red~type ^would

@@ -64,7 +64,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB = os.path.join(ROOT, "library", "assets")
 FONT_BIG = os.path.join(ROOT, "library", "fonts", "PermanentMarker.ttf")
 FONT_HAND = os.path.join(ROOT, "library", "fonts", "PatrickHand.ttf")
-W, H, FPS, SR = 1920, 1080, 24, 24000
+W, H = (1080, 1920) if os.environ.get("VERTICAL") == "1" else (1920, 1080)   # VERTICAL=1: a 9:16 Short
+FPS, SR = 24, 24000
 RED, BLACK, GREY, LIGHT = (214, 38, 38), (20, 20, 20), (120, 120, 120), (225, 225, 225)
 YELLOW = (255, 232, 40)
 COLORS = {"red": RED, "black": BLACK, "grey": GREY, "green": (52, 160, 52)}
@@ -1147,7 +1148,8 @@ def audit(i, b, boxes, masks):
         allm = np.zeros((H // 4, W // 4), bool)
         for _, m in solid:
             allm |= m
-        cells = allm.reshape(6, H // 24, 8, W // 32).any(axis=(1, 3)).mean()
+        r, c = (6, 8) if W > H else (8, 6)
+        cells = allm.reshape(r, H // 4 // r, c, W // 4 // c).any(axis=(1, 3)).mean()
         if cells < 0.35:
             out.append(f"beat {i + 1}: screen mostly empty ({cells:.0%} of areas used)")
     for kd, (x0, y0, x1, y1) in boxes:
@@ -1155,7 +1157,7 @@ def audit(i, b, boxes, masks):
             out.append(f"beat {i + 1}: text too small")
     for code, m in solid:
         rows = np.flatnonzero(m.any(axis=1))
-        if re.match(r"^[A-H]\d\d$", code) and len(rows) and rows[-1] - rows[0] < H // 4 * 0.2:
+        if re.match(r"^[A-H]\d\d$", code) and len(rows) and rows[-1] - rows[0] < min(W, H) // 4 * 0.2:
             out.append(f"beat {i + 1}: {code} too small")
     return out
 
