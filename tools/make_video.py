@@ -130,8 +130,15 @@ def parse_doc(item):
             e["marks"].append({"kind": k, "rect": nums(v), "delay": dl})
         elif k == "src":
             e["src"] = v.strip('"')
+        elif k == "crop":                 # show only this part of the page (fractions), big and readable
+            e["crop"] = nums(v)
         else:
             e[k] = float(v)
+    if "crop" in e:                       # marks are written in full-page fractions; make them crop fractions
+        c0, c1, c2, c3 = e["crop"]
+        for m in e["marks"]:
+            r = m["rect"]
+            m["rect"] = [(r[0] - c0) / (c2 - c0), (r[1] - c1) / (c3 - c1), (r[2] - c0) / (c2 - c0), (r[3] - c1) / (c3 - c1)]
     return e
 
 
@@ -460,9 +467,12 @@ def place(im, e):
 # ---------- real screenshots ----------
 _marked = {}
 def doc_base(vdir, e):
-    key = ("doc", e["file"])
+    key = ("doc", e["file"], tuple(e.get("crop", ())))
     if key not in _cache:
         im = Image.open(os.path.join(vdir, "02_assets", "screens", e["file"]))
+        if e.get("crop"):
+            c = e["crop"]
+            im = im.crop((int(c[0] * im.width), int(c[1] * im.height), int(c[2] * im.width), int(c[3] * im.height)))
         if im.mode in ("RGBA", "LA", "P"):             # see-through charts go on white, not black
             im = im.convert("RGBA")
             bg = Image.new("RGBA", im.size, "white")
@@ -475,7 +485,7 @@ def doc_base(vdir, e):
 def doc_marked(vdir, e, ages):
     """The screenshot with its highlights and red marks; ages = seconds each mark has been visible."""
     prog = tuple(min(1.0, round(a / 0.3, 1)) if a >= 0 else -1 for a in ages)   # highlighter wipes in 0.3 s
-    key = (e["file"], json.dumps([[m["kind"], m["rect"]] for m in e["marks"]]), prog)
+    key = (e["file"], tuple(e.get("crop", ())), json.dumps([[m["kind"], m["rect"]] for m in e["marks"]]), prog)
     if key not in _marked:
         im = doc_base(vdir, e).copy()
         iw, ih = im.size
@@ -531,7 +541,7 @@ def draw_doc(canvas, vdir, e, t, boxes):
     canvas.paste(im, (px, py))
     if e["frame"]:
         d.rectangle([px - 1, py - 1, px + dw, py + dh], outline=(150, 150, 150), width=2)
-    for m in e["marks"]:       # where the camera pushes in once a highlight is drawn
+    for m in (e["marks"] if not e.get("crop") else []):   # camera pushes in on a highlight (a crop is already close)
         r = m["rect"]
         _focus.append((m["t0"], e.get("t_end", 1e9), (px + r[0] * dw, py + r[1] * dh, px + r[2] * dw, py + r[3] * dh)))
     if e["src"]:   # source line: clear of the box shadow, lined up with the box's left edge
@@ -691,7 +701,7 @@ TEXT_KINDS = ("text", "bubble", "think", "label", "note", "title", "source")
 def ident(e):
     """What makes an element 'the same one' as in the previous beat (so it stays and keeps animating)."""
     if e["kind"] == "doc":
-        return ("doc", e["file"], e["pos"], e["w"], e["h"])
+        return ("doc", e["file"], e["pos"], e["w"], e["h"], tuple(e.get("crop", ())))
     return json.dumps({k: v for k, v in e.items() if k not in ("delay", "t0", "t_end", "chain", "motion")}, sort_keys=True)
 
 
@@ -702,7 +712,8 @@ def link_elements(beats, tm):
         # new things without their own +delay arrive one after another, not all at once (the reference
         # adds something about every 0.8 s); persistent items keep their time
         fresh = [e for e in b["elems"] if ident(e) not in prev and not e["delay"]
-                 and e["kind"] not in ("title", "source", "sting", "hold", "endscreen", "rain")]
+                 and e["kind"] not in ("title", "source", "sting", "hold", "endscreen", "rain")
+                 and not (e["kind"] == "img" and e["code"].startswith(NARRATOR))]   # the guide is there from the start
         dur = tm[i]["end"] - tm[i]["start"]        # owner: something new about every 2 s, spread over the whole beat
         step = max(min(0.6, dur / (len(fresh) + 1)), min(2.0, (dur - 0.6) / len(fresh))) if len(fresh) > 1 else 0
         stagger = {id(e): k * step for k, e in enumerate(fresh)}
@@ -789,11 +800,18 @@ def moved(im, xy, e, t, t0=None, talking=False):
     return im, (x, y)
 
 
+def typed(e, t):
+    """~type: the text appears letter by letter (about 30 letters a second), like someone typing it."""
+    if e.get("motion") != "type":
+        return e
+    return {**e, "text": e["text"][:max(1, int((t - e["t0"]) * 30) + 1)], "motion": "none"}
+
+
 def popped_layer(canvas, draw_fn, e, t):
     """Draws text-like elements; while they pop in, draws them on a layer and scales it."""
     age = t - e["t0"]
     m = e.get("motion") or "pop"
-    if m == "none" or age >= ENTER * 0.8:
+    if m in ("none", "type") or age >= ENTER * 0.8:
         return draw_fn(ImageDraw.Draw(canvas))
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     box = draw_fn(ImageDraw.Draw(layer))
@@ -855,7 +873,9 @@ def render_frame(beats, tm, cur, t, vdir, boxes, masks):
             draw_doc(canvas, vdir, e, t, boxes)
         elif k == "endscreen":
             draw_endscreen(canvas, d)
-        elif k == "text":
+        elif k in ("text", "board", "label", "note") and e.get("motion") == "type":
+            e = typed(e, t)
+        if k == "text":
             boxes.append((k, popped_layer(canvas, lambda dd: draw_text(dd, e), e, t)))
         elif k == "title":
             boxes.append((k, draw_title(d, e)))
@@ -913,6 +933,7 @@ def room_tone(n):
 
 PUSH_IN, PUSH_HOLD = 0.6, 2.6          # camera: seconds to zoom onto a highlight, seconds it stays close
 MUSIC_DB, MUSIC_GAP_DB = -33, -27     # background music level under speech / in pauses (after loudness gain)
+POP_DB = -32                          # soft pop when anything new appears
 WHOOSH_DB = -30                       # soft whoosh when a new screenshot or board comes in
 
 
@@ -999,6 +1020,15 @@ def whoosh():
     return out / np.sqrt(np.mean(out ** 2))
 
 
+def pop_sound():
+    """A short soft pop: a quick pitch drop with a fast decay."""
+    n = int(0.09 * SR)
+    tt = np.arange(n) / SR
+    f = 900 * np.exp(-tt * 30) + 250
+    out = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 45)
+    return (out / np.sqrt(np.mean(out ** 2))).astype(np.float32)
+
+
 def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=None):
     import soundfile as sf
     tm = {t["beat"]: t for t in timings}
@@ -1034,6 +1064,15 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
                 seen.add(id(e["chain"][0]))
                 s = max(0, int((e["chain"][0]["t0"] - 0.2) * SR))
                 mix[s:s + len(wh)] += wh[: len(mix[s:s + len(wh)])]
+    pp, seen = pop_sound() * 10 ** ((POP_DB - gain) / 20), set()
+    for i, b in enumerate(beats):
+        for e in b["elems"]:
+            c = e["chain"][0]
+            if e["kind"] in ("img", "text", "note", "label", "bubble", "think", "arrow", "circle", "group", "xmark") \
+                    and id(c) not in seen and c["t0"] > 0.5 and not (e["kind"] == "img" and e["code"].startswith(NARRATOR)):
+                seen.add(id(c))
+                s = int(c["t0"] * SR)
+                mix[s:s + len(pp)] += pp[: len(mix[s:s + len(pp)])]
     mix_path = os.path.join(workdir, "mix.wav")
     sf.write(mix_path, mix, SR)
     os.remove(voice_path)
