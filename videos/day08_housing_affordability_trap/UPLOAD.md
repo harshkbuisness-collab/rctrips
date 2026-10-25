@@ -2,9 +2,9 @@
 
 ## Long video
 **Title** (copy):
-Why Nobody Can Buy a House in America (It's Not What You Think)
+What's Really Keeping American Housing Prices High?
 
-(Model video: Casual Finance, "The New American Housing Crisis Has Landed", 2.3M views. Backup title: What's Really Keeping American Housing Prices High?)
+(Same title as the outlier we picked. Style model: Casual Finance, "The New American Housing Crisis Has Landed", 2.3M views.)
 
 **Description** (copy):
 Mortgage rates more than doubled. So house prices should have fallen. They didn't. 🏠
