@@ -1,0 +1,217 @@
+   0.0-   2.0 |  6w | 6 changes (0 cuts) | Everybody knows the market is expensive.
+   2.4-   4.0 |  8w | 4 changes (2 cuts) | It doesn't take a genius to see it.
+   4.3-   7.2 | 10w | 3 changes (0 cuts) | Seven companies make up a third of the entire index.
+   7.6-  13.5 | 17w | 6 changes (1 cuts) | The investment management firm Capital Group found that today's markets are among the most concentrated in history.
+  13.9-  20.3 | 23w | 11 changes (0 cuts) | By the most common long-run measure of how expensive stocks are, the market is priced at a level we've only seen once before.
+  20.6-  22.3 |  8w | 0 changes (0 cuts) | That was the peak of the dot-com bubble.
+  22.6-  24.6 |  6w | 2 changes (0 cuts) | But this isn't exactly secret information.
+  24.9-  28.3 | 16w | 3 changes (1 cuts) | If you've been anywhere near the internet in the last year, you've heard all of this.
+  28.3-  32.1 | 11w | 6 changes (2 cuts) | The market's expensive, it's concentrated, and it keeps going up anyway.
+  32.5-  35.1 |  9w | 4 changes (1 cuts) | Earlier this month, we closed at another record high.
+  35.4-  41.7 | 25w | 9 changes (3 cuts) | While everyone's busy measuring how much of the market sits in a few tech companies, nobody's measuring how much of America sits in the market.
+  42.0-  43.4 |  6w | 2 changes (0 cuts) | That's the real danger right now.
+  43.6-  46.0 |  9w | 9 changes (0 cuts) | It's been building in the background while nobody's noticed.
+  46.4-  48.8 | 10w | 3 changes (0 cuts) | And it's reached a level never seen before in history.
+  49.2-  54.1 | 13w | 7 changes (2 cuts) | Right now, 34% of everything American households own is in the stock market.
+  54.1-  59.5 | 18w | 6 changes (1 cuts) | That includes the houses, the cars, the cash in the bank, and whatever's left of your crypto portfolio.
+  59.9-  66.4 | 19w | 7 changes (0 cuts) | It's the highest share the Federal Reserve has ever recorded, and more than double the long-run average of 16%.
+  67.2-  71.7 | 19w | 9 changes (1 cuts) | Americans now have twice as much of their wealth in the stock market as they do in their houses.
+  72.0-  73.8 |  6w | 2 changes (0 cuts) | That's the widest gap ever recorded.
+  74.2-  76.3 | 10w | 0 changes (0 cuts) | We've only seen a spike like this three times before.
+  76.3-  78.9 |  5w | 1 changes (0 cuts) | In 1968, stocks hit 21%.
+  79.4-  81.5 |  3w | 3 changes (0 cuts) | In 2000, 27%.
+  81.5-  83.5 |  4w | 3 changes (0 cuts) | And in 2021, 29%.
+  84.0-  87.2 | 10w | 7 changes (0 cuts) | And all three times, the market crashed not long after.
+  87.6-  92.5 | 18w | 8 changes (2 cuts) | After 1968, stocks lost more than a third of their value over the next year and a half.
+  92.7-  95.5 | 10w | 4 changes (0 cuts) | After 2000, nearly half and two and a half years.
+  95.8-  99.3 | 10w | 3 changes (0 cuts) | After 2021, a quarter of their value in nine months.
+  99.7- 101.9 |  8w | 1 changes (0 cuts) | Today, we're at 34 cents of every dollar.
+ 102.1- 104.5 | 10w | 3 changes (0 cuts) | And the cash Americans are holding against all of it?
+ 104.8- 105.7 |  3w | 1 changes (0 cuts) | Just nine cents.
+ 105.7- 108.5 |  7w | 3 changes (0 cuts) | Once again, the widest gap ever recorded.
+ 108.9- 115.5 | 27w | 8 changes (1 cuts) | The American household is starting to look like a poker game, where someone just pushed every chip to the middle of the table and said, all in.
+ 115.9- 118.0 | 12w | 2 changes (1 cuts) | So how did we end up this deep in the stock market?
+ 118.3- 121.1 |  9w | 2 changes (1 cuts) | The short answer is, it wasn't entirely on purpose.
+ 121.5- 125.3 | 16w | 7 changes (3 cuts) | But before I jump into that, let's take a quick pause to talk about something else.
+ 125.6- 134.6 | 27w | 19 changes (1 cuts) | In 2024, personal data on 73 million current and former customers of one of the world's largest telecommunications companies was found for sale on the dark web.
+ 134.6- 138.8 | 12w | 5 changes (2 cuts) | The data included social security numbers, dates of birth, and account passcodes.
+ 139.1- 140.2 |  6w | 3 changes (1 cuts) | And this is just one example.
+ 140.4- 142.9 | 10w | 6 changes (0 cuts) | Phone carriers have been dealing with data breaches for years.
+ 143.3- 145.9 | 10w | 8 changes (1 cuts) | Which brings us to the sponsor of today's video, CAPE.
+ 146.2- 148.7 |  6w | 3 changes (1 cuts) | CAPE is America's privacy-first mobile carrier.
+ 149.1- 150.7 |  8w | 5 changes (0 cuts) | And that starts the moment you sign up.
+ 150.9- 154.5 | 13w | 5 changes (0 cuts) | CAPE won't ask for your name, your social security number, or your address.
+ 154.8- 158.8 | 15w | 6 changes (0 cuts) | While most carriers store your information for as long as possible, CAPE does the opposite.
+ 159.1- 162.4 | 11w | 2 changes (1 cuts) | They delete your call and text metadata after just 24 hours.
+ 162.4- 168.8 | 17w | 8 changes (0 cuts) | And when you have CAPE's identifier rotation turned on, your network ID automatically rotates every 24 hours.
+ 169.1- 174.3 | 18w | 7 changes (0 cuts) | To the network, you look like a different subscriber every day, which makes you significantly harder to track.
+ 174.6- 180.5 | 16w | 6 changes (2 cuts) | CAPE's newest multi-network coverage feature lets you automatically switch between two nationwide networks on one SIM.
+ 180.7- 184.1 | 15w | 4 changes (2 cuts) | This not only gives you more coverage, but once again, makes you harder to track.
+ 184.5- 187.6 | 11w | 7 changes (0 cuts) | CAPE lets you stay connected without having to compromise your privacy.
+ 188.0- 195.6 | 21w | 4 changes (0 cuts) | If you're interested, you can get 33% off your first six months of CAPE using the link below, promo code casualfinance33.
+ 196.2- 197.9 |  8w | 2 changes (0 cuts) | Thank you to CAPE for sponsoring this video.
+ 198.3- 202.2 | 13w | 4 changes (0 cuts) | Now back to how exactly Americans got this overexposed to the stock market.
+ 202.4- 206.1 | 13w | 3 changes (0 cuts) | The market bottomed out in 2009, in the middle of the financial crisis.
+ 206.6- 209.2 |  9w | 1 changes (0 cuts) | Since then, the index is up more than 11-fold.
+ 209.5- 212.8 | 12w | 5 changes (0 cuts) | And measured in dollars, nothing in history comes close to this rise.
+ 213.1- 219.2 | 17w | 5 changes (0 cuts) | Since that 2009 bottom, the stock Americans own has gone from around $9 trillion to $74 trillion.
+ 219.2- 222.5 | 10w | 5 changes (0 cuts) | Since just the end of 2022 alone, it's roughly doubled.
+ 222.9- 225.8 | 13w | 5 changes (0 cuts) | So most people never made a decision to be overexposed to the market.
+ 226.1- 230.7 | 20w | 16 changes (1 cuts) | The market just kept going up, and every time it did, stocks became a bigger share of everything they owned.
+ 230.9- 236.3 | 17w | 11 changes (0 cuts) | It comes from the old adage of the legendary portfolio manager and renowned investor, Davey Day Trader.
+ 236.7- 238.0 |  4w | 2 changes (1 cuts) | Stocks only go up.
+ 238.2- 245.1 | 25w | 12 changes (1 cuts) | Between just March and June of this year, the share of everything Americans own that sits in stocks jumped from $0 .31 to $0 .34.
+ 245.1- 253.2 | 21w | 7 changes (0 cuts) | That one quarter added $10 .7 trillion to American stock portfolios, the biggest three months the Federal Reserve has ever recorded.
+ 253.7- 255.8 | 11w | 5 changes (3 cuts) | And the new money coming in doesn't look at the price.
+ 256.2- 264.6 | 26w | 6 changes (0 cuts) | About 80% of what Americans put into their retirement accounts goes into stocks, most of it through target date funds that buy on autopilot every payday.
+ 265.0- 271.9 | 25w | 5 changes (1 cuts) | 20 years ago, Congress passed the Pension Protection Act, which gave employers the green light to drop you into one of those funds by default.
+ 271.9- 275.6 | 13w | 5 changes (0 cuts) | Today, 6 in 10 plans sign you up without you lifting a finger.
+ 275.8- 281.0 | 23w | 6 changes (1 cuts) | So if you have a retirement account, there's a decent chance you're in this picture, whether you've ever thought about it or not.
+ 281.3- 285.8 | 14w | 10 changes (0 cuts) | The Fed's own records show ETF buying running at the fastest pace on record.
+ 286.0- 291.4 | 22w | 8 changes (0 cuts) | And when a third of your net worth rises and falls with the market, the market doesn't just determine what you're worth.
+ 291.5- 293.9 |  7w | 3 changes (1 cuts) | It starts accidentally determining what you spend.
+ 294.1- 298.3 | 14w | 7 changes (1 cuts) | Because when your portfolio goes up, you feel richer, and you spend like it.
+ 298.3- 302.5 | 12w | 4 changes (0 cuts) | And suddenly, that new kitchen remodel you've been thinking about sounds reasonable.
+ 302.9- 304.3 |  6w | 2 changes (2 cuts) | Economists have a name for this.
+ 304.4- 305.6 |  5w | 2 changes (1 cuts) | It's called the wealth effect.
+ 305.8- 312.0 | 22w | 7 changes (1 cuts) | It's when people start spending more because the market value of the things they own went up, not because they're earning more.
+ 312.2- 315.4 | 11w | 7 changes (2 cuts) | Last month, the Atlanta Fed published a paper on exactly this.
+ 315.6- 321.9 | 23w | 7 changes (0 cuts) | They found that American consumer spending is now more than four times as sensitive to the stock market as it was in 1990.
+ 322.3- 329.4 | 21w | 2 changes (0 cuts) | Then they ran a scenario analysis, and a 25% sell-off in the market makes real consumer spending negative for the year.
+ 329.6- 333.1 | 10w | 1 changes (0 cuts) | And consumer spending is about two-thirds of the American economy.
+ 333.4- 336.4 | 12w | 4 changes (2 cuts) | So if it goes negative, you don't just get an economic slowdown.
+ 336.5- 337.3 |  4w | 4 changes (0 cuts) | You get a recession.
+ 337.8- 340.1 | 11w | 2 changes (0 cuts) | And some of this is already showing up at the edges.
+ 340.6- 349.9 | 29w | 11 changes (0 cuts) | JPMorgan Chase found that for high-earning Americans, drawing from investment assets covered more than 10% of spending this year, more than twice what it was just a decade ago.
+ 350.4- 366.4 | 50w | 15 changes (0 cuts) | California's own budget office, which leans heavily on capital gains for its tax revenue, says that if a market downturn of more than 20% were to occur and last through the end of the year, revenue could come in $15-20 billion below forecast, even if there were no economic recession.
+ 366.7- 369.8 | 12w | 0 changes (0 cuts) | And if there were an economic recession, it would be even worse.
+ 370.1- 371.9 |  8w | 6 changes (1 cuts) | And that's where this turns into a loop.
+ 372.1- 374.4 |  7w | 2 changes (0 cuts) | Rising stocks fuel spending in the economy.
+ 374.6- 377.8 |  8w | 4 changes (1 cuts) | That spending becomes revenue for publicly traded companies.
+ 378.0- 379.4 |  4w | 4 changes (1 cuts) | The revenue becomes profit.
+ 379.4- 384.4 | 17w | 4 changes (1 cuts) | And profit is what investors point to when they explain why stocks deserve to keep going up.
+ 384.8- 387.6 | 11w | 3 changes (0 cuts) | So the economy and the stock market are feeding each other.
+ 387.8- 392.6 | 20w | 3 changes (0 cuts) | That's why this is a much bigger deal than the seven expensive tech stocks nobody can take their eyes off.
+ 392.8- 394.5 |  7w | 1 changes (0 cuts) | Those are a problem for your portfolio.
+ 395.0- 396.7 |  8w | 4 changes (2 cuts) | This is a problem for the whole economy.
+ 397.1- 399.3 |  7w | 2 changes (1 cuts) | But households aren't the only ones overexposed.
+ 399.4- 400.7 |  4w | 2 changes (0 cuts) | The institutions are, too.
+ 401.1- 404.3 | 11w | 5 changes (0 cuts) | Every month, Bank of America surveys the world's biggest fund managers.
+ 404.8- 409.9 | 16w | 6 changes (0 cuts) | This week, the data showed they were holding just 3 .9% of their portfolios in cash.
+ 410.1- 412.1 |  8w | 1 changes (0 cuts) | Bank of America's rule for this is simple.
+ 412.6- 414.6 |  7w | 0 changes (0 cuts) | Cash above 5% is a buy signal.
+ 414.9- 416.8 |  6w | 1 changes (0 cuts) | Under 4% is a sell signal.
+ 417.1- 426.2 | 32w | 18 changes (1 cuts) | A cash level under 4% is Bank of America's way of saying investors are a little too excited, a little too invested, and the market might be running a little too hot.
+ 426.5- 436.0 | 31w | 5 changes (0 cuts) | The fund managers in the survey now have their biggest overweight in tech stocks since August 2020, even though 45% of them say they expect an AI bubble by next year.
+ 436.0- 441.1 | 14w | 8 changes (2 cuts) | So the institutional investors see the bubble forming, but they keep piling in anyway.
+ 441.9- 442.1 |  1w | 0 changes (0 cuts) | Why?
+ 442.6- 455.6 | 38w | 15 changes (5 cuts) | John Maynard Keynes, who's widely considered one of the most influential economists in history, figured out the answer about 90 years ago in a book he wrote in 1936 called The General Theory of Employment, Interest, and Money.
+ 456.0- 463.0 | 21w | 5 changes (2 cuts) | In the book, he writes, worldly wisdom teaches that it is better for reputation to fail conventionally than to succeed unconventionally.
+ 463.3- 470.1 | 28w | 7 changes (3 cuts) | What Keynes is pointing out is that in the eyes of the world, it's better to fail by following the crowd than to succeed by going against it.
+ 470.4- 473.4 | 10w | 4 changes (1 cuts) | That describes the problem fund managers are running into today.
+ 473.6- 475.8 |  8w | 3 changes (2 cuts) | For a fund manager, there's an incentives problem.
+ 476.0- 479.3 | 13w | 7 changes (1 cuts) | If you lose money when everybody else loses money, you keep your job.
+ 479.4- 483.0 | 13w | 4 changes (0 cuts) | If you sit in cash while the market rallies 20%, you get fired.
+ 483.4- 489.3 | 22w | 9 changes (6 cuts) | So even though 45% of them believe AI could head into a bubble next year, they just keep dumping their cash in.
+ 489.4- 491.6 | 11w | 4 changes (1 cuts) | And it turns out, so is the rest of the world.
+ 491.6- 497.9 | 16w | 6 changes (2 cuts) | Foreign investors now own $22 trillion of American stock, about a fifth of the entire market.
+ 498.1- 501.9 | 13w | 1 changes (0 cuts) | American companies make up nearly two-thirds of the world's main global stock index.
+ 502.2- 506.9 | 15w | 5 changes (0 cuts) | And between March and June, foreigners bought American stocks at the fastest pace in history.
+ 507.3- 512.5 | 18w | 10 changes (4 cuts) | So everyone's pushing their chips to the middle of the table, households, institutions, the rest of the world.
+ 512.6- 517.5 | 19w | 4 changes (1 cuts) | But what makes this scary is that a record number of those bets are being made with borrowed money.
+ 517.7- 521.6 | 16w | 3 changes (2 cuts) | And when you bet with borrowed money, you don't always get to decide what happens next.
+ 522.0- 529.2 | 23w | 8 changes (2 cuts) | In June, margin debt, which is the money investors borrow from their broker to buy more stock, hit a record $1 .5 trillion.
+ 529.9- 536.7 | 23w | 2 changes (1 cuts) | That's five times larger than it was at the height of the dot-com bubble, and 1 .5 times larger than the 2021 peak.
+ 537.1- 541.0 | 15w | 6 changes (3 cuts) | Over the last 30 years, margin debt has only grown this fast three other times.
+ 541.2- 545.9 | 13w | 2 changes (0 cuts) | The first was late 1999 into early 2000 as the dot-com bubble peaked.
+ 545.9- 550.0 |  9w | 4 changes (0 cuts) | Next was mid-2007, just months before the financial crisis.
+ 550.3- 554.7 | 13w | 2 changes (0 cuts) | And then spring 2021, less than a year before the 2022 bear market.
+ 555.1- 558.7 | 15w | 4 changes (1 cuts) | When each of those markets crashed, margin debt got cut by as much as half.
+ 558.9- 561.3 | 12w | 2 changes (0 cuts) | A lot of that wasn't people choosing to pay back their loans.
+ 561.5- 565.1 | 14w | 4 changes (2 cuts) | It was brokers demanding their money back and selling people's stock to get it.
+ 565.5- 568.2 | 13w | 2 changes (1 cuts) | Margin debt is just one of the ways to borrow against your stock.
+ 568.3- 569.9 |  7w | 1 changes (1 cuts) | There's a rich person's version as well.
+ 570.2- 575.3 | 14w | 5 changes (2 cuts) | It's the one you've probably seen wannabe personal finance influencers on Instagram talking about.
+ 575.3- 580.2 | 16w | 9 changes (2 cuts) | Instead of selling stock and paying tax on the gains, you just borrow against your stock.
+ 580.4- 584.8 | 15w | 3 changes (1 cuts) | There's no need to sell any positions, and the bank holds your portfolio as collateral.
+ 585.2- 589.0 | 10w | 7 changes (0 cuts) | At Morgan Stanley, loans borrowed against stock portfolios are booming.
+ 589.2- 590.7 |  6w | 1 changes (0 cuts) | They're up 20% in a year.
+ 591.0- 593.7 | 10w | 2 changes (1 cuts) | When you borrow against stock, the stock is the collateral.
+ 594.0- 595.3 |  6w | 3 changes (0 cuts) | And the lender has one rule.
+ 595.6- 598.4 | 12w | 2 changes (0 cuts) | The loan has to stay covered by what that collateral is worth.
+ 598.5- 602.6 | 15w | 7 changes (0 cuts) | So when the stock falls, the collateral shrinks, but the loan stays the same size.
+ 602.9- 607.0 | 15w | 4 changes (1 cuts) | Once that gap gets too big, your broker sends you what's called a margin call.
+ 607.1- 610.2 | 13w | 4 changes (0 cuts) | It's a demand for more money, and it usually comes with a deadline.
+ 610.6- 615.2 | 19w | 4 changes (0 cuts) | It's not exactly the phone call anyone's hoping to get, and there are only two ways to answer it.
+ 615.4- 617.6 |  9w | 5 changes (0 cuts) | You send them cash, or they sell your stock.
+ 618.0- 620.7 | 12w | 2 changes (0 cuts) | When it comes to a margin call, they don't need your permission.
+ 621.0- 628.1 | 21w | 9 changes (1 cuts) | FINRA's own website says, a firm isn't required to notify you if your account equity drops below the minimum maintenance equity.
+ 628.5- 634.1 | 21w | 1 changes (0 cuts) | It also says, firms don't have to let you choose which securities or assets are sold to meet a margin call.
+ 634.1- 639.6 | 21w | 8 changes (3 cuts) | If you can't come up with the cash, your broker can start dumping your portfolio on the open market for you.
+ 639.8- 644.2 | 15w | 3 changes (2 cuts) | Whatever stocks they pick, whenever they decide, at whatever price the market's paying that day.
+ 644.5- 648.0 | 13w | 3 changes (0 cuts) | Which is why a margin call can trap investors in very tricky situations.
+ 648.3- 650.4 |  8w | 4 changes (0 cuts) | And in July, we gotta watch this happen.
+ 650.8- 654.2 | 15w | 4 changes (0 cuts) | If you haven't heard the story of Leopold Aschenbrenner yet, you're in for a treat.
+ 654.6- 658.9 | 11w | 9 changes (0 cuts) | Leopold graduated from Columbia at just 19 years old as valedictorian.
+ 659.2- 660.6 |  7w | 1 changes (0 cuts) | He then went to work at OpenAI.
+ 660.9- 663.4 |  6w | 3 changes (0 cuts) | But in 2024, OpenAI fired him.
+ 663.4- 668.6 | 11w | 14 changes (0 cuts) | Two months later, he published a 165-page essay called Situational Awareness.
+ 669.0- 672.6 | 14w | 8 changes (0 cuts) | Silicon Valley instantly fell in love with it and passed it around like scripture.
+ 673.1- 679.1 | 22w | 4 changes (0 cuts) | Then he did what any guy in his early 20s with a viral blog post and no professional investing experience would do.
+ 679.4- 682.2 | 12w | 6 changes (0 cuts) | He started a hedge fund and named it after the blog post.
+ 682.5- 683.6 |  4w | 1 changes (0 cuts) | The strategy was simple.
+ 684.0- 689.2 | 19w | 8 changes (2 cuts) | Borrow up to four times the fund's own money and bet it all on the company's building AI infrastructure.
+ 689.6- 691.2 |  6w | 2 changes (1 cuts) | And at first, it was working.
+ 691.2- 696.4 | 13w | 3 changes (0 cuts) | At the peak, Leopold's hedge fund was managing about $45 billion in assets.
+ 696.6- 699.0 | 11w | 0 changes (0 cuts) | In two years, the fund was up more than 1 ,000%.
+ 699.5- 701.3 |  7w | 2 changes (1 cuts) | Wall Street was treating him like royalty.
+ 701.8- 704.8 |  9w | 2 changes (0 cuts) | Then, in July of this year, AI stocks collapsed.
+ 705.1- 708.2 |  9w | 5 changes (0 cuts) | Leopold's positions got hammered, and he faced margin calls.
+ 708.6- 712.5 | 13w | 1 changes (1 cuts) | On July 30th, Leopold's fund was forced to sell to cover the obligations.
+ 713.0- 717.3 | 15w | 0 changes (0 cuts) | Citadel stepped in and scooped up most of its stock portfolio at a massive discount.
+ 717.3- 725.5 | 23w | 11 changes (4 cuts) | Leopold's fund had collapsed from $45 billion to around $10 billion in assets as semiconductor stocks fell and the margin calls showed up.
+ 725.8- 728.1 |  9w | 1 changes (1 cuts) | That's how fast things can turn when margin's involved.
+ 728.5- 730.2 |  7w | 1 changes (0 cuts) | And it wasn't just Leopold's fund, either.
+ 730.4- 736.8 | 27w | 9 changes (0 cuts) | His biggest bets were some of the most crowded trades on Wall Street, and the banks were making margin calls on other funds holding the same stocks.
+ 737.1- 743.6 | 17w | 2 changes (1 cuts) | That month, margin debt across the whole market fell $85 billion, the biggest one-month drop on record.
+ 743.7- 746.4 | 12w | 2 changes (0 cuts) | But it's also not just margin that's piling up in the market.
+ 746.4- 753.5 | 25w | 13 changes (1 cuts) | There's a new kind of leverage that didn't even exist a few years ago, funds that take a single stock's daily moves and magnify them.
+ 753.8- 759.0 | 19w | 3 changes (0 cuts) | Leveraged ETFs are funds that promise two or three times the daily move of a stock or an index.
+ 759.4- 762.5 | 11w | 11 changes (0 cuts) | If Nvidia goes up 2% today, the fund goes up 4%.
+ 763.0- 765.9 |  8w | 9 changes (0 cuts) | If Nvidia falls 2%, the fund falls 4%.
+ 766.5- 771.1 | 13w | 9 changes (2 cuts) | In the first half of this year alone, 218 leveraged stock funds launched.
+ 771.3- 773.6 |  7w | 0 changes (0 cuts) | In all of 2021, there was 12.
+ 773.6- 785.9 | 30w | 4 changes (2 cuts) | Assets in these leveraged funds doubled from April to June, with leverage linked to semiconductor exposure nearly tripling, leaving tech and semiconductors accounting for 67% of all leveraged ETF assets.
+ 786.4- 791.5 | 16w | 5 changes (3 cuts) | Nomura estimates these funds have to trade about $9 billion for every 1% the market moves.
+ 791.7- 800.3 | 28w | 2 changes (0 cuts) | And these are mostly mechanical trades that must execute to maintain the promised leverage, which can add buying pressure late in rallies and selling pressure during market declines.
+ 800.3- 803.7 | 12w | 11 changes (1 cuts) | So a bad day gets worse, and a good day gets better.
+ 804.0- 806.3 |  9w | 1 changes (0 cuts) | It pours gas on whatever fire the market's having.
+ 806.6- 811.6 | 16w | 3 changes (0 cuts) | At the peak, daily rebalancing hit an estimated record of $50 billion in a single day.
+ 812.0- 814.9 |  9w | 6 changes (1 cuts) | Margin calls forced sales when the borrower can't cover.
+ 815.3- 823.4 | 28w | 14 changes (2 cuts) | Leveraged ETFs sell when the math says so, and if both of these kick in at the same time, they can spiral into what's called a liquidation cascade.
+ 823.8- 826.9 | 10w | 3 changes (0 cuts) | It's a chain reaction where price moves trigger forced sales.
+ 826.9- 833.9 | 21w | 0 changes (0 cuts) | Those forced sales push prices lower, which then causes more positions to breach their margin thresholds and forces even more sales.
+ 834.4- 836.9 |  9w | 1 changes (0 cuts) | So what could cause something like this to happen?
+ 837.1- 839.4 |  7w | 1 changes (0 cuts) | That's the part nobody knows, including me.
+ 839.8- 846.7 | 28w | 14 changes (2 cuts) | What I do know, though, is that whenever something does hit, it's going to land on a market that's more crowded and more borrowed than it's ever been.
+ 846.9- 848.7 |  8w | 2 changes (1 cuts) | It doesn't need a disaster to get started.
+ 848.9- 855.2 | 26w | 8 changes (1 cuts) | It just needs a first push, something that hits a lot of the same positions at the same time, and causes the first domino to fall.
+ 855.2- 857.6 |  9w | 2 changes (0 cuts) | The obvious place to look is the AI trade.
+ 858.0- 859.3 |  7w | 2 changes (0 cuts) | But it could also be bond yields.
+ 859.6- 862.9 | 13w | 7 changes (1 cuts) | The 10-year treasury just touched its highest level in more than two decades.
+ 863.4- 872.4 | 26w | 8 changes (1 cuts) | According to Bank of America's fund manager survey, if the 10-year yield hits 5 .9%, investors would likely shift their asset allocation from stocks to bonds.
+ 872.8- 874.6 |  7w | 2 changes (1 cuts) | Or it could be something else entirely.
+ 875.1- 876.4 |  5w | 3 changes (0 cuts) | Nobody can predict the trigger.
+ 876.7- 877.9 |  5w | 0 changes (0 cuts) | And that's exactly the point.
+ 878.2- 879.7 |  5w | 3 changes (1 cuts) | The market's fragile right now.
+ 879.9- 885.9 | 23w | 13 changes (1 cuts) | When things are this crowded and carrying this much borrowed money, it doesn't take a big push to start knocking the dominoes over.
+ 886.3- 890.6 | 17w | 5 changes (3 cuts) | In the meantime, I'll keep making videos that break down what's actually going on in the economy.
+ 890.8- 897.8 | 30w | 6 changes (2 cuts) | So if you want to stay on top of the deeper stuff happening in markets, hit subscribe and leave a comment letting me know what you thought of this one.
+ 898.1- 901.5 | 15w | 7 changes (1 cuts) | Like I said at the start of this video, everybody knows the market is expensive.
+ 901.7- 903.9 |  6w | 4 changes (1 cuts) | But everybody's watching the wrong concentration.
+ 904.4- 907.6 | 13w | 6 changes (0 cuts) | Everybody's watching the seven companies that make up a third of the index.
+ 907.8- 912.2 | 15w | 7 changes (1 cuts) | But underneath that, a third of everything American households own is sitting in the market.
+ 912.2- 917.3 | 15w | 7 changes (1 cuts) | And underneath that, the economy is leaning on consumer spending fueled by stock market gains.
+ 917.6- 926.4 | 35w | 16 changes (7 cuts) | Running through all of it is a record amount of borrowed money, which means more of this market than ever before belongs to people who can be forced to sell if push comes to shove.
+ 926.7- 929.9 | 12w | 2 changes (1 cuts) | The most dangerous thing about this market isn't even that it's expensive.
+ 930.3- 933.5 | 12w | 9 changes (1 cuts) | It's that so much of America now depends on it staying expensive.
