@@ -76,6 +76,7 @@ PROP_AREA = {"H16": (0.1, 0.12, 0.9, 0.88, BLACK), "H17": (0.08, 0.42, 0.7, 0.86
              "H18": (0.44, 0.22, 0.96, 0.56, (255, 255, 255))}
 VOICE, SPEED = "am_michael", 1.1
 GAP, GAP_LONG = 0.25, 0.45           # pause after a sentence / after "..." or "?"
+ROOM_TONE = os.environ.get("ROOM_TONE", "0") == "1"
 ROOM_TONE_DB = -56                   # faint room noise under everything, like a real microphone
 TTS_MODEL = os.environ.get("KOKORO_DIR", "")
 BREATHE = os.environ.get("BREATHE", "0") == "1"
@@ -1066,7 +1067,8 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
     m = json.loads(meas[meas.rindex("{"):meas.rindex("}") + 1])
     gain = -14 - float(m["input_i"])
     # room tone is added before the gain, at the level that lands on ROOM_TONE_DB after it
-    mix = mix + room_tone(len(mix)) * 10 ** ((ROOM_TONE_DB - gain) / 20)
+    if ROOM_TONE:                        # owner, 25 Oct 2026: no background hiss
+        mix = mix + room_tone(len(mix)) * 10 ** ((ROOM_TONE_DB - gain) / 20)
     n = len(mix)
     g = duck(mix, n)
     music = (0 if not MUSIC else load_music(vdir, n)) * (10 ** ((MUSIC_GAP_DB - gain) / 20) * (1 - g) + 10 ** ((MUSIC_DB - gain) / 20) * g)
