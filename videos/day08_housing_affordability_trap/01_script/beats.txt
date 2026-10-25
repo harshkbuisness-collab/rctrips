@@ -1,234 +1,189 @@
-# Day 8: Nobody Can Buy a House… Even When Prices Should Fall. Built by tools/script_to_beats.py.
+# Day 8: What's Really Keeping American Housing Prices High?. Built by tools/script_to_beats.py.
 
-# ---------- CHAPTER 1: Two Neighbors ----------
-|| title:"Two Neighbors"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Federal researchers estimate that low mortgage rates kept so many owners in place that about one point three million home sales never happened. || title:"Two Neighbors"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Housing Finance Agency" hl=0.096,0.275,0.9,0.333+0.8; H04@0.9,1.0:0.3:bottom
-Picture two neighbors living on the same street. || title:"Two Neighbors"; A08@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~drop; H18@0.85,0.4:0.32:"1.3 MILLION SALES"~pop; E55@0.62,0.76:0.32~pop; G13@0.85,0.76:0.32~pop
-Meet Jasmine. || title:"Two Neighbors"; C09@0.80,0.6:0.58~r; E10@0.38,0.4:0.32~pop
-She's thirty-one, a high school teacher in Charlotte, North Carolina. || title:"Two Neighbors"; C09@0.80,0.6:0.58~r; E10@0.38,0.4:0.32~pop; H23@0.15,0.4:0.32~drop; G13@0.38,0.76:0.32~pop
-She rents a small apartment, and she's been saving for a home for six years. || title:"Two Neighbors"; C09@0.80,0.6:0.58~r; E10@0.38,0.4:0.32~pop; H23@0.15,0.4:0.32~drop; G13@0.38,0.76:0.32~pop; note:"Charlotte, NC"@0.66,0.12; E21@0.15,0.76:0.32~pop
-Every Sunday, she looks at house listings on her phone. || title:"Two Neighbors"; E08@0.5,0.6:0.76
-And every Sunday, she closes the app feeling a little more hopeless. || title:"Two Neighbors"; E25@0.5,0.6:0.76
-She has about thirty thousand dollars saved. || title:"Two Neighbors"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Consumer Financial Protection Bureau" hl=0.124,0.23,0.563,0.336+0.8; H04@0.9,1.0:0.3:bottom
-When she started, that felt like a lot. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; E21@0.62,0.4:0.32~pop
-Now it's barely enough for closing costs and a small down payment. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; E21@0.62,0.4:0.32~pop; note:"$30,000"@0.66,0.12; D11@0.85,0.4:0.32~drop; E38@0.62,0.76:0.32~pop
-Across the street lives Mr. || title:"Two Neighbors"; C13@0.80,0.6:0.58~l
-Collins. || title:"Two Neighbors"; C13@0.80,0.6:0.58~l; D09@0.38,0.4:0.32~drop
-He's sixty-eight, retired, and his kids moved out years ago. || title:"Two Neighbors"; C13@0.80,0.6:0.58~l; D09@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"4 BEDROOMS"~pop
-He lives alone in a four-bedroom house. || title:"Two Neighbors"; C13@0.80,0.6:0.58~l; D09@0.38,0.4:0.32~drop; H18@0.15,0.4:0.32:"4 BEDROOMS"~pop; A06@0.60,0.64:0.46~r
-He'd love to move to something smaller. || title:"Two Neighbors"; C14@0.2,0.6:0.58~r
-The stairs are getting hard. || title:"Two Neighbors"; H24@0.5,0.6:0.76
-But he says he can't afford to move. || title:"Two Neighbors"; E35@0.5,0.6:0.76
-Which sounds strange, because his house is worth a lot. || title:"Two Neighbors"; E48@0.5,0.6:0.76
-Here's the puzzle. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l
-Jasmine wants a house and can't get one. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; C13@0.4,0.64:0.46~r
-Mr. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; C13@0.4,0.64:0.46~r; D09@0.62,0.4:0.32~drop
-Collins wants to leave his house and won't. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; C13@0.4,0.64:0.46~r; D09@0.62,0.4:0.32~drop; E55@0.85,0.4:0.32~pop
-Both of them are stuck. || title:"Two Neighbors"; C09@0.2,0.6:0.58~l; C13@0.4,0.64:0.46~r; D09@0.62,0.4:0.32~drop; E55@0.85,0.4:0.32~pop; H18@0.62,0.76:0.32:"STUCK"~pop
-Jasmine's rent has gone up every year she's lived in her apartment. || title:"Two Neighbors"; H23@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"RENT ↑"~pop
-Each increase eats into the money she's trying to save. || title:"Two Neighbors"; H23@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"RENT ↑"~pop; E21@0.38,0.76:0.32~pop
-The harder she runs, the further the finish line moves. || title:"Two Neighbors"; H23@0.38,0.4:0.32~drop; H17@0.15,0.4:0.32:"RENT ↑"~pop; E21@0.38,0.76:0.32~pop; A10@0.80,0.6:0.58~r; E29@0.15,0.76:0.32~pop
-And when millions of people are stuck in the same way, the whole housing market freezes. || title:"Two Neighbors"; E44@0.5,0.6:0.76
-By the end of this video, || title:"Two Neighbors"; G05@0.5,0.6:0.76
-you'll see why high interest rates didn't make houses cheaper, like many people expected, and what could actually unlock the market. || title:"Two Neighbors"; A17@0.2,0.6:0.58~l; G05@0.62,0.4:0.32~pop; D11@0.85,0.4:0.32~drop; E17@0.62,0.76:0.32~pop
-First, let's see how far out of reach a house has moved for someone like Jasmine. || title:"Two Neighbors"; C09@0.80,0.6:0.58~r; D11@0.38,0.4:0.32~drop; E29@0.15,0.4:0.32~pop; E48@0.38,0.76:0.32~pop
+# ---------- CHAPTER 1: The sales that never happened ----------
+[calm] In March twenty twenty-four, the Federal Housing Finance Agency published a strange number. || title:"The sales that never happened"; doc:s01_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8; H04@0.12,1.0:0.34:bottom; note:"FINANCE"@0.5,0.92~pop+3.80
+One point three three million American home sales that should have happened, and never did. || title:"The sales that never happened"; A01@0.2,0.6:0.58~none; D09@0.58,0.36:0.3~pop; G13@0.84,0.36:0.3~pop; H18@0.58,0.74:0.3:"1.3 MILLION"~drop
+In those same years, mortgage rates more than doubled. || title:"The sales that never happened"; A15@0.13,0.68:0.48~none; D11@0.52,0.5:0.56~swing; G04@0.87,0.34:0.28~r; E23@0.87,0.78:0.28~r
+So you'd think house prices fell. || title:"The sales that never happened"; A18@0.13,0.68:0.48~none; E37@0.52,0.5:0.56~jolt; D14@0.87,0.34:0.28~jolt; E23@0.87,0.78:0.28~r; E35@0.32,0.22:0.24~jolt
+When loans get expensive, buyers disappear, and prices are supposed to come down. || title:"The sales that never happened"; A29@0.13,0.68:0.48~none; E46@0.52,0.5:0.56~swing; D14@0.87,0.34:0.28~jolt; D28@0.87,0.78:0.28~r; E38@0.32,0.22:0.24~t
+Except they didn't. || title:"The sales that never happened"; doc:s02_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, Median Sales Price of New Houses" hl=0.07,0.463,0.173,0.524+0.8; H04@0.12,1.0:0.34:bottom
+The typical new house in America still sells for over four hundred ten thousand dollars. || title:"The sales that never happened"; A33@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; "$410,000"@0.5,0.16:100:red
+And the thirty-year mortgage rate this week is still above seven percent. || title:"The sales that never happened"; doc:s03_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8; H04@0.12,1.0:0.34:bottom; note:"ABOVE"@0.5,0.92~pop+3.80
+Expensive loans. || title:"The sales that never happened"; A44@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; "$410,000"@0.5,0.16:100:red
+Expensive houses. || title:"The sales that never happened"; A44@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; "$410,000"@0.5,0.16:100:red
+At the same time. || title:"The sales that never happened"; A44@0.5,0.68:0.55~none; H23@0.83,0.62:0.34~r; G13@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; "$410,000"@0.5,0.16:100:red
+That's not supposed to happen. || title:"The sales that never happened"; A44@0.16,0.6:0.62~none; "SUPPOSED"@0.60,0.45:150:black~r; D11@0.48,0.8:0.24~pop+0.6; G05@0.74,0.8:0.24~pop+1.2
+And the easy answers don't really work. || title:"The sales that never happened"; A21@0.2,0.6:0.66~none; "ANSWERS"@0.60,0.45:150:red~drop; E34@0.48,0.8:0.24~pop+0.6; H24@0.74,0.8:0.24~pop+1.2
+It's not just Wall Street buying everything. || title:"The sales that never happened"; A24@0.2,0.6:0.66~none; G11@0.8,0.32:0.32~drop; E34@0.8,0.74:0.32~drop; E39@0.53,0.32:0.32~drop
+It's not just that builders are slow. || title:"The sales that never happened"; A27@0.2,0.6:0.66~none; G11@0.8,0.32:0.32~drop; E34@0.8,0.74:0.32~drop; E39@0.53,0.32:0.32~drop; E54@0.53,0.74:0.32~drop
+What's actually happening is much deeper. || title:"The sales that never happened"; A28@0.8,0.6:0.58~none; E48@0.42,0.36:0.3~pop; "HAPPENING"@0.29,0.55:110:red~pop
+It's not about why buyers can't buy. || title:"The sales that never happened"; H05@0.8,0.6:0.58~none; E48@0.42,0.36:0.3~pop; E52@0.16,0.36:0.3~pop; D30@0.42,0.74:0.3~pop
+It's about why sellers won't sell. || title:"The sales that never happened"; H08@0.8,0.6:0.58~none; E48@0.42,0.36:0.3~pop; E52@0.16,0.36:0.3~pop; D30@0.42,0.74:0.3~pop; H19@0.16,0.74:0.3~pop
+And if you rent, or you're saving for your first home, this is the reason your plan keeps getting pushed back. || title:"The sales that never happened"; A38@0.13,0.68:0.48~none; G21@0.52,0.5:0.56~swing; E21@0.87,0.34:0.28~r; D09@0.87,0.78:0.28~r
+But for this to make sense, we first need to measure how far a house has moved away from your paycheck. || title:"The sales that never happened"; A15@0.2,0.6:0.66~none; D11@0.8,0.32:0.32~drop; C09@0.8,0.74:0.36~drop; note:"PAYCHECK"@0.5,0.92~pop+5.80
 
-# ---------- CHAPTER 2: The Price Gap ----------
-|| title:"The Price Gap"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] In the mid twenty-twenties, the typical home in America sold for a bit over four hundred thousand dollars. || title:"The Price Gap"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.577,0.265+0.8; H04@0.9,1.0:0.3:bottom
-That's a record high. || title:"The Price Gap"; E28@0.5,0.6:0.76
-The typical American household earns around eighty thousand dollars a year. || title:"The Price Gap"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.563,0.265+0.8; H04@0.9,1.0:0.3:bottom
-So a typical home costs about five times a typical income. || title:"The Price Gap"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Census Bureau"; H04@0.9,1.0:0.3:bottom
-For Jasmine's parents' generation, it was closer to three times. || title:"The Price Gap"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Harvard Joint Center for Housing Studies"; H04@0.9,1.0:0.3:bottom
-That gap is the difference between a house you can save for and a house you can only dream about. || title:"The Price Gap"; C15@0.2,0.6:0.58~l; H18@0.62,0.4:0.32:"3X"~pop; note:"5x"@0.66,0.12; E22@0.85,0.4:0.32~drop; E52@0.62,0.76:0.32~pop
-And prices are only half the story. || title:"The Price Gap"; A38@0.80,0.6:0.58~r
-The other half is the monthly payment. || title:"The Price Gap"; A38@0.80,0.6:0.58~r; D09@0.38,0.4:0.32~pop; G04@0.15,0.4:0.32~drop
-That depends on the mortgage rate. || title:"The Price Gap"; E01@0.5,0.6:0.76
-In twenty twenty-one, mortgage rates fell below three percent, the lowest ever recorded. || title:"The Price Gap"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.597,0.265+0.8; H04@0.9,1.0:0.3:bottom
-By late twenty twenty-three, they had jumped to nearly eight percent. || title:"The Price Gap"; E25@0.5,0.6:0.76
-Let's do the math on a four hundred thousand dollar house, with a ten percent down payment. || title:"The Price Gap"; A38@0.2,0.6:0.58~none; D11@0.62,0.4:0.32~drop
-At three percent, the monthly payment is about fifteen hundred dollars. || title:"The Price Gap"; A38@0.2,0.6:0.58~none; D11@0.62,0.4:0.32~drop; E10@0.85,0.4:0.32~pop; H16@0.62,0.76:0.32:"3% = $1,500/MONTH"~pop; D27@0.85,0.76:0.32~pop
-At seven percent, it's about twenty-four hundred dollars. || title:"The Price Gap"; H16@0.38,0.4:0.32:"7% = $2,400/MONTH"~pop
-Same house. || title:"The Price Gap"; H16@0.38,0.4:0.32:"7% = $2,400/MONTH"~pop; H17@0.15,0.4:0.32:"+$900 A MONTH"~drop
-Same down payment. || title:"The Price Gap"; H16@0.38,0.4:0.32:"7% = $2,400/MONTH"~pop; H17@0.15,0.4:0.32:"+$900 A MONTH"~drop; A45@0.80,0.6:0.58~pop
-Nine hundred dollars more, every single month. || title:"The Price Gap"; H16@0.38,0.4:0.32:"7% = $2,400/MONTH"~pop; H17@0.15,0.4:0.32:"+$900 A MONTH"~drop; A45@0.80,0.6:0.58~pop; E50@0.38,0.76:0.32~drop
-That's about eleven thousand dollars a year. || title:"The Price Gap"; H17@0.5,0.6:0.76:"$11,000 A YEAR"
-For a teacher like Jasmine, it's the difference between yes and no. || title:"The Price Gap"; H17@0.5,0.6:0.76:"$11,000 A YEAR"
-Lenders usually want your housing costs to stay under about a third of your income. || title:"The Price Gap"; H16@0.5,0.6:0.76:"MAX ~1/3 OF INCOME"
-At seven percent, the math simply doesn't work on Jasmine's salary. || title:"The Price Gap"; E10@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"MAX ~1/3 OF INCOME"~pop; D27@0.62,0.76:0.32~pop; A22@0.2,0.6:0.58~l
-Now, you'd expect something to happen next. || title:"The Price Gap"; A06@0.2,0.6:0.58~l
-If payments get this expensive, fewer people can buy. || title:"The Price Gap"; A06@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop
-With fewer buyers, prices should fall. || title:"The Price Gap"; A06@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop; D14@0.38,0.4:0.32
-Right? || title:"The Price Gap"; A06@0.80,0.6:0.58~r; C28@0.60,0.64:0.46~drop; D14@0.38,0.4:0.32; E48@0.15,0.4:0.32~pop
-That's how a normal market works. || title:"The Price Gap"; D13@0.38,0.4:0.32
-But prices didn't really fall. || title:"The Price Gap"; D13@0.38,0.4:0.32; E49@0.15,0.4:0.32~pop
-In many places, they kept rising. || title:"The Price Gap"; E49@0.5,0.6:0.76
-To understand why, we need to cross the street to Mr. || title:"The Price Gap"; E49@0.5,0.6:0.76
-Collins. || title:"The Price Gap"; E49@0.5,0.6:0.76
+# ---------- CHAPTER 2: The price gap ----------
+|| title:"The price gap"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In twenty twenty-five, || title:"The price gap"; doc:s04_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, Median Household Income" hl=0.07,0.463,0.151,0.524+0.8; H04@0.12,1.0:0.34:bottom
+the median American household earned about eighty-seven thousand dollars a year. || title:"The price gap"; A40@0.0,0.62:0.6:left~none; G13@0.36,0.3:0.32~b; E01@0.58,0.52:0.32~b; E24@0.8,0.74:0.32~b; label:"$87,000"@0.4,0.74>0.8,0.62
+The median new house sold for about four hundred ten thousand. || title:"The price gap"; doc:s05_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8; H04@0.12,1.0:0.34:bottom; note:"HOUSE"@0.5,0.92~pop+3.80
+That's almost five years of your entire pay, before taxes, food, or anything else. || title:"The price gap"; A01@0.86,1.0:0.62:bottom~none; D26@0.14,0.4:0.32~l; E39@0.38,0.4:0.32~l; group:E25*5@0.42,0.22,0.8,0.56:0.11
+In nineteen eighty-five, the same two numbers from the same government data gave about three and a half years. || title:"The price gap"; A18@0.5,0.68:0.55~none; G09@0.83,0.62:0.34~r; group:E24*2@0.02,0.47,0.32,0.77:0.14
+The house didn't just get pricier. || title:"The price gap"; A29@0.5,0.68:0.55~none; G09@0.83,0.62:0.34~r; E24@0.17,0.62:0.34~l; E35@0.78,0.28:0.3~t
+It ran away from paychecks. || title:"The price gap"; A33@0.5,0.68:0.55~none; G09@0.83,0.62:0.34~r; E24@0.17,0.62:0.34~l; E35@0.78,0.28:0.3~t; C10@0.22,0.28:0.36~t
+But almost nobody pays cash. || title:"The price gap"; A41@0.87,0.68:0.48~none; E02@0.48,0.5:0.56~swing; "ALMOST"@0.48,0.9:110:black~l
+What decides if you can buy is the monthly payment. || title:"The price gap"; A44@0.87,0.68:0.48~none; E02@0.48,0.5:0.56~swing; E52@0.13,0.34:0.28~l; E36@0.13,0.78:0.28~l
+And that depends on the rate. || title:"The price gap"; A24@0.87,0.68:0.48~none; E02@0.48,0.5:0.56~swing; E52@0.13,0.34:0.28~l; E36@0.13,0.78:0.28~l; G05@0.68,0.22:0.24~t
+In January twenty twenty-one, the thirty-year rate fell to two point six five percent. || title:"The price gap"; A27@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; E25@0.17,0.62:0.34~jolt; G02@0.78,0.28:0.3~jolt; note:"2.65%"@0.22,0.28
+The lowest in the history of that data. || title:"The price gap"; A28@0.5,0.68:0.55~none; G04@0.83,0.62:0.34~r; E25@0.17,0.62:0.34~jolt; G02@0.78,0.28:0.3~jolt; note:"HISTORY"@0.5,0.12~pop+1.80
+Now do the math on a four hundred ten thousand dollar house with ten percent down. || title:"The price gap"; H05@0.8,0.6:0.58~none; H23@0.42,0.36:0.3~pop; G05@0.16,0.36:0.3~pop; D01@0.42,0.74:0.3~pop; H17@0.16,0.74:0.3:"$510,000"~swing
+At two point six five percent, your payment is about one thousand four hundred ninety dollars a month. || title:"The price gap"; H08@0.8,0.6:0.58~none; E04@0.42,0.36:0.3~pop; E25@0.16,0.36:0.3~pop; D01@0.42,0.74:0.3~pop; G04@0.16,0.74:0.3~pop; "$1,490"@0.29,0.55:100:red
+At seven point three two percent, it's about two thousand five hundred forty. || title:"The price gap"; A40@0.16,0.6:0.62~none; G05@0.36,0.3:0.32~b; H18@0.58,0.52:0.3:"7.32%"~drop
+Same house. || title:"The price gap"; A01@0.16,0.6:0.62~none; G05@0.36,0.3:0.32~b; H18@0.58,0.52:0.3:"7.32%"~drop
+Same down payment. || title:"The price gap"; A01@0.16,0.6:0.62~none; G05@0.36,0.3:0.32~b; H18@0.58,0.52:0.3:"7.32%"~drop
+One thousand fifty dollars more, every single month. || title:"The price gap"; A01@0.0,0.62:0.6:left~none; G05@0.36,0.3:0.32~b; B10@0.58,0.52:0.36~b; E25@0.8,0.74:0.32~b; label:"$1,050"@0.4,0.74>0.8,0.62
+That's over twelve thousand dollars a year, for the exact same walls and the exact same roof. || title:"The price gap"; A15@0.2,0.6:0.66~none; E05@0.8,0.32:0.32~drop; E23@0.8,0.74:0.32~drop; note:"$12,000"@0.53,0.32
+It's like your landlord raising the rent, except you're the one who owns the place. || title:"The price gap"; A18@0.2,0.6:0.66~none; E05@0.8,0.32:0.32~drop; E23@0.8,0.74:0.32~drop; G21@0.53,0.32:0.32~drop; E48@0.53,0.74:0.32~drop
+So fewer buyers can pay that. || title:"The price gap"; A29@0.84,0.6:0.62~none; E01@0.14,0.4:0.32~l; "BUYERS"@0.62,0.8:110:black~l
+Sellers should cut prices. || title:"The price gap"; A33@0.84,0.6:0.62~none; E01@0.14,0.4:0.32~l; "BUYERS"@0.62,0.8:110:black~l
+But here's where the normal rule starts to break. || title:"The price gap"; A16@0.86,1.0:0.62:bottom~none; E01@0.14,0.4:0.32~l; H22@0.38,0.4:0.32~l; note:"BREAK"@0.5,0.92~pop+3.41
 
-# ---------- CHAPTER 3: The Golden Handcuffs ----------
-|| title:"The Golden Handcuffs"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] Mr. || title:"The Golden Handcuffs"; D24@0.5,0.6:0.76
-Collins refinanced his mortgage in twenty twenty-one. || title:"The Golden Handcuffs"; E21@0.5,0.6:0.76
-He locked in a fixed rate of two point eight percent for thirty years. || title:"The Golden Handcuffs"; C13@0.2,0.6:0.58~r; D24@0.62,0.4:0.32~drop; G04@0.85,0.4:0.32~pop; note:"2.8%"@0.66,0.12; E21@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"2021"@0.5,0.92
-His monthly payment is low, and it will stay low for decades. || title:"The Golden Handcuffs"; C15@0.2,0.6:0.58~r; H17@0.62,0.4:0.32:"LOW PAYMENT"~pop
-It's one of the best deals he's ever made. || title:"The Golden Handcuffs"; C15@0.80,0.6:0.58~l; H17@0.38,0.4:0.32:"LOW PAYMENT"~pop; E23@0.15,0.4:0.32~pop; E28@0.38,0.76:0.32~drop
-But if he sells, that deal disappears. || title:"The Golden Handcuffs"; C15@0.80,0.6:0.58; D09@0.38,0.4:0.32~pop; E20@0.15,0.4:0.32~drop
-Any new home he buys would come with a new mortgage, at today's much higher rate. || title:"The Golden Handcuffs"; C15@0.80,0.6:0.58; D09@0.38,0.4:0.32~pop; E20@0.15,0.4:0.32~drop; E35@0.38,0.76:0.32~pop; G05@0.15,0.76:0.32~pop; note:"7%"@0.66,0.12
-So even a smaller, cheaper house could cost him more each month than his big house does now. || title:"The Golden Handcuffs"; H17@0.5,0.6:0.76:"+$400 A MONTH"
-Moving down would feel like moving backwards. || title:"The Golden Handcuffs"; D14@0.5,0.6:0.76
-He did the math with his son one evening. || title:"The Golden Handcuffs"; H09@0.4,0.64:0.46~l
-Selling, paying moving costs, and taking a new loan would leave him paying more for less. || title:"The Golden Handcuffs"; H09@0.4,0.64:0.46~l; D27@0.62,0.4:0.32~pop
-So he decided to stay. || title:"The Golden Handcuffs"; H09@0.60,0.64:0.46~r; D27@0.38,0.4:0.32~pop; A48@0.80,0.6:0.58~pop
-People call this the lock-in effect. || title:"The Golden Handcuffs"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Housing Finance Agency" hl=0.096,0.275,0.9,0.333+0.8; H04@0.9,1.0:0.3:bottom
-A great low rate becomes a pair of golden handcuffs. || title:"The Golden Handcuffs"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: Federal Reserve Bank of St. Louis"; H04@0.9,1.0:0.3:bottom
-It's too valuable to give up. || title:"The Golden Handcuffs"; H18@0.5,0.6:0.76:"GOLDEN HANDCUFFS"
-And Mr. || title:"The Golden Handcuffs"; G13@0.5,0.6:0.76
-Collins is far from alone. || title:"The Golden Handcuffs"; G04@0.5,0.6:0.76
-For years, most American homeowners with a mortgage had a rate below four percent. || title:"The Golden Handcuffs"; G04@0.5,0.6:0.76
-Millions decided to stay put. || title:"The Golden Handcuffs"; G13@0.62,0.4:0.32~drop; C28@0.2,0.6:0.58~pop; G04@0.85,0.4:0.32~pop; note:"under 4%"@0.66,0.12; D09@0.62,0.76:0.32~pop; E55@0.85,0.76:0.32~pop
-The researchers at the federal housing agency found that every point the market rate rose above a homeowner's rate cut their chance of selling by about eighteen percent. || title:"The Golden Handcuffs"; C28@0.2,0.6:0.58~none; D27@0.62,0.4:0.32~drop; G05@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32; H17@0.85,0.76:0.32:"-18% PER POINT"~pop
-Here's the key. || title:"The Golden Handcuffs"; D09@0.38,0.4:0.32~pop
-When owners don't sell, fewer homes come up for sale. || title:"The Golden Handcuffs"; D09@0.38,0.4:0.32~pop; G22@0.15,0.4:0.32~drop
-Fewer buyers, yes. || title:"The Golden Handcuffs"; D09@0.38,0.4:0.32~pop; G22@0.15,0.4:0.32~drop; E46@0.38,0.76:0.32~pop; C28@0.80,0.6:0.58~pop
-But also far fewer sellers. || title:"The Golden Handcuffs"; D09@0.38,0.4:0.32~pop; G22@0.15,0.4:0.32~drop; E46@0.38,0.76:0.32~pop; C28@0.80,0.6:0.58~pop; E22@0.15,0.76:0.32~pop
-With so few homes on the market, the buyers who remain still compete with each other. || title:"The Golden Handcuffs"; D11@0.5,0.6:0.76
-And prices stay high. || title:"The Golden Handcuffs"; E45@0.5,0.6:0.76
-In twenty twenty-three, || title:"The Golden Handcuffs"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.355,0.265+0.8; H04@0.9,1.0:0.3:bottom
-the number of existing homes sold in America fell to its lowest level in almost thirty years. || title:"The Golden Handcuffs"; C28@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32; note:"LOWEST IN ~30 YEARS"@0.66,0.12; G22@0.62,0.76:0.32~pop
-The same study estimated that the shortage of listings actually pushed home prices up by around five to six percent, || title:"The Golden Handcuffs"; C28@0.2,0.6:0.58~none; D13@0.62,0.4:0.32
-more than the price drop caused by higher rates. || title:"The Golden Handcuffs"; C28@0.80,0.6:0.58; D13@0.38,0.4:0.32; H16@0.15,0.4:0.32:"+5.7%"~pop; note:"-3.3%"@0.66,0.12; E22@0.38,0.76:0.32~drop
-So higher rates both scared buyers away and trapped sellers in place. || title:"The Golden Handcuffs"; G05@0.38,0.4:0.32~pop
-The market didn't crash. || title:"The Golden Handcuffs"; E55@0.5,0.6:0.76
-It froze. || title:"The Golden Handcuffs"; E21@0.5,0.6:0.76
-But lock-in is only part of it. || title:"The Golden Handcuffs"; A06@0.2,0.6:0.58~l
-Even before rates jumped, America had a deeper problem. || title:"The Golden Handcuffs"; E48@0.5,0.6:0.76
-Not enough homes, period. || title:"The Golden Handcuffs"; A06@0.2,0.6:0.58~l; H24@0.62,0.4:0.32~drop; E48@0.85,0.4:0.32~pop; E44@0.62,0.76:0.32~pop
+# ---------- CHAPTER 3: The first domino: golden handcuffs ----------
+|| title:"The first domino"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The first domino is the loan most Americans already have. || title:"The first domino"; A17@0.13,0.68:0.48~none; D18@0.52,0.5:0.56~swing; C28@0.87,0.34:0.36~r; G13@0.87,0.78:0.28~r
+The normal home loan here is a thirty-year fixed rate. || title:"The first domino"; A02@0.13,0.68:0.48~none; D24@0.52,0.5:0.56~swing; G04@0.87,0.34:0.28~r; G13@0.87,0.78:0.28~r; D09@0.32,0.22:0.24~t; "31 YEAR"@0.52,0.9:100:red
+Your rate never changes, for thirty years. || title:"The first domino"; A33@0.13,0.68:0.48~none; D24@0.52,0.5:0.56~swing; G04@0.87,0.34:0.28~r; G05@0.87,0.78:0.28~r; E23@0.32,0.22:0.24~t; "30 YEARS"@0.52,0.9:100:red
+The FHFA paper says nearly all fifty million active mortgages in the United States have fixed rates. || title:"The first domino"; doc:s06_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8; H04@0.12,1.0:0.34:bottom; note:"MORTGAGES"@0.5,0.92~pop+3.80; note:"UNITED"@0.66,0.12~pop+5.60
+And in twenty twenty and twenty twenty-one, millions of owners bought or refinanced at around three percent. || title:"The first domino"; A44@1.0,0.62:0.6:right~none; G05@0.64,0.3:0.32~b; H09@0.42,0.52:0.36~b; H19@0.2,0.74:0.32~b; H18@0.18,0.26:0.3:"3%"~drop
+That cheap rate stays with them until they sell. || title:"The first domino"; A24@1.0,0.62:0.6:right~none; E24@0.64,0.3:0.32~b; D30@0.42,0.52:0.32~b; H19@0.2,0.74:0.32~b; G04@0.18,0.26:0.3~swing; arrow:0.55,0.39>0.51,0.43
+Now imagine you're one of them. || title:"The first domino"; H01@0.8,0.6:0.58~none; "IMAGINE"@0.40,0.45:150:red~pop; D24@0.24,0.8:0.24~pop+0.6; G04@0.5,0.8:0.24~pop+1.2
+You have a three hundred thousand dollar loan at three percent. || title:"The first domino"; A27@0.8,0.6:0.58~none; D28@0.42,0.36:0.3~pop; G05@0.16,0.36:0.3~pop; E04@0.42,0.74:0.3~pop; H17@0.16,0.74:0.3:"$400,000"~swing
+You pay about one thousand two hundred sixty-five dollars a month. || title:"The first domino"; A28@0.8,0.6:0.58~none; E25@0.42,0.36:0.3~pop; G05@0.16,0.36:0.3~pop; E04@0.42,0.74:0.3~pop; B10@0.16,0.74:0.36~pop; label:"$1,265"@0.64,0.24>0.42,0.24
+If you sell and take the same loan at today's rate, you pay about two thousand sixty. || title:"The first domino"; H05@0.5,0.68:0.55~none; D18@0.83,0.62:0.34~r; G04@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; note:"2060"@0.22,0.28
+Almost eight hundred dollars more, every month, for a similar house. || title:"The first domino"; H08@0.5,0.68:0.55~none; D01@0.83,0.62:0.34~r; E25@0.17,0.62:0.34~l; E36@0.78,0.28:0.3~t; D11@0.22,0.28:0.3~t; "$800"@0.5,0.16:100:red
+So you do the only thing that makes financial sense. || title:"The first domino"; A40@0.2,0.6:0.66~none; "FINANCIAL"@0.60,0.45:150:red~drop; D09@0.48,0.8:0.24~pop+0.6; E55@0.74,0.8:0.24~pop+1.2
+Nothing. || title:"The first domino"; A01@0.2,0.6:0.66~none; "NOTHING"@0.60,0.45:150:red~drop; D09@0.48,0.8:0.24~pop+0.6; E55@0.74,0.8:0.24~pop+1.2
+You stay. || title:"The first domino"; A01@0.2,0.6:0.66~none; "STAY"@0.60,0.45:150:red~drop; D09@0.48,0.8:0.24~pop+0.6; E55@0.74,0.8:0.24~pop+1.2
+The paper puts it plainly. || title:"The first domino"; doc:s07_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.913,0.556+0.8; H04@0.12,1.0:0.34:bottom
+Most of these loans sit far below today's rates, which creates a disincentive to sell. || title:"The first domino"; A01@0.5,0.68:0.55~none; D28@0.17,0.62:0.34~l; G04@0.83,0.62:0.34~r; E39@0.22,0.28:0.3~t
+And they measured it. || title:"The first domino"; doc:s08_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.632,0.467,0.865,0.533+0.8; H04@0.12,1.0:0.34:bottom
+For every one point that today's rate sits above yours, your chance of selling falls by eighteen point one percent. || title:"The first domino"; A16@0.86,1.0:0.62:bottom~none; G05@0.14,0.4:0.32~l; D30@0.38,0.4:0.32~l; D02@0.62,0.4:0.32~l; H18@0.38,0.8:0.3:"18.1%"~drop
+By the end of twenty twenty-three, || title:"The first domino"; doc:s09_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.183,0.467,0.553,0.533+0.8; H04@0.12,1.0:0.34:bottom
+that lock-in alone had cut sales of homes with fixed-rate loans by fifty-seven percent. || title:"The first domino"; A34@0.8,0.6:0.66~none; H23@0.2,0.32:0.32~drop; G04@0.2,0.74:0.32~drop; D14@0.47,0.74:0.32~drop; "-57%"@0.47,0.3:110:red~pop
+People call these golden handcuffs. || title:"The first domino"; doc:s10_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8; H04@0.12,1.0:0.34:bottom
+The rate is so good it keeps you in a house you might not even want anymore. || title:"The first domino"; A16@0.87,0.68:0.48~none; G05@0.48,0.5:0.56~swing; D09@0.13,0.34:0.28~l
+Like keeping a gym membership you never use, because the old price will never come back. || title:"The first domino"; A16@0.87,0.68:0.48~none; G05@0.48,0.5:0.56~swing; D09@0.13,0.34:0.28~l; H17@0.13,0.78:0.28~l; note:"MEMBERSHIP"@0.5,0.92~pop+1.80; note:"NEVER"@0.66,0.12~pop+3.60
+And this is where it flips. || title:"The first domino"; A16@0.8,0.6:0.58~none; "WHERE"@0.40,0.45:150:red~pop; D09@0.24,0.8:0.24~pop+0.6; E46@0.5,0.8:0.24~pop+1.2
+When owners don't sell, there are fewer buyers, yes. || title:"The first domino"; A16@0.8,0.6:0.58~none; H19@0.42,0.36:0.3~pop; "OWNERS"@0.29,0.55:110:black~pop
+But there are also far fewer houses for sale. || title:"The first domino"; A16@0.8,0.6:0.58~none; H19@0.42,0.36:0.3~pop; D11@0.16,0.36:0.3~pop; note:"HOUSES"@0.5,0.92~pop+1.80; note:"FEWER"@0.66,0.12~pop+3.60
+The FHFA did the math on both sides. || title:"The first domino"; doc:s11_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.509,0.467,0.681,0.533+0.8; H04@0.12,1.0:0.34:bottom
+Higher rates on their own pushed prices down by three point three percent. || title:"The first domino"; A15@0.0,0.62:0.6:left~none; E37@0.36,0.3:0.32~b; D13@0.58,0.52:0.32~b; note:"3.3%"@0.8,0.74
+But the missing sellers pushed prices up by five point seven percent. || title:"The first domino"; doc:s12_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8; H04@0.12,1.0:0.34:bottom; note:"PUSHED"@0.5,0.92~pop+3.68
+The tool built to cool prices froze the sellers instead. || title:"The first domino"; A18@0.5,0.68:0.55~none; E38@0.83,0.62:0.34~r; "SELLERS"@0.50,0.16:110:red~l
+And prices went up. || title:"The first domino"; A29@0.5,0.68:0.55~none; E38@0.83,0.62:0.34~r; "SELLERS"@0.50,0.16:110:red~l
+But lock-in only explains the last few years. || title:"The first domino"; A29@0.2,0.6:0.58~none; E23@0.58,0.36:0.3~pop; "EXPLAINS"@0.71,0.55:110:black~pop; D24@0.45,0.8:0.24~pop+0.6; H24@0.75,0.8:0.24~pop+1.2
+The country was short on homes long before that. || title:"The first domino"; A33@0.2,0.6:0.58~none; E23@0.58,0.36:0.3~pop; E43@0.84,0.36:0.3~pop; E35@0.58,0.74:0.3~pop
 
-# ---------- CHAPTER 4: Not Enough Homes ----------
-|| title:"Not Enough Homes"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] After the two thousand eight crash, builders went bust or got very careful. || title:"Not Enough Homes"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: FRED, St. Louis Fed" hl=0.087,0.216,0.539,0.265+0.8; H04@0.9,1.0:0.3:bottom
-For about a decade, America built far fewer homes than it needed. || title:"Not Enough Homes"; A15@0.2,0.6:0.58; D12@0.62,0.4:0.32~drop; D21@0.85,0.4:0.32~pop; D14@0.62,0.76:0.32; E25@0.85,0.76:0.32~pop; note:"2008-2018"@0.66,0.12
-Meanwhile, millions of young people grew up and wanted their own place. || title:"Not Enough Homes"; C28@0.80,0.6:0.58~drop
-Like Jasmine. || title:"Not Enough Homes"; C28@0.80,0.6:0.58~drop; C09@0.60,0.64:0.46~r; D13@0.38,0.4:0.32
-The demand kept growing, while the supply didn't. || title:"Not Enough Homes"; C28@0.80,0.6:0.58~drop; C09@0.60,0.64:0.46~r; D13@0.38,0.4:0.32; D09@0.15,0.4:0.32~pop
-The millennial generation is the biggest in American history. || title:"Not Enough Homes"; E25@0.5,0.6:0.76
-Many of them reached their thirties in the twenty-twenties, the age when people usually buy a first home. || title:"Not Enough Homes"; E45@0.5,0.6:0.76
-Estimates of the shortage vary, from about one and a half million homes to several million. || title:"Not Enough Homes"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Freddie Mac" hl=0.546,0.03,0.704,0.132+0.8; H04@0.9,1.0:0.3:bottom
-But nearly every expert agrees the country is short. || title:"Not Enough Homes"; H24@0.62,0.4:0.32~drop; H17@0.85,0.4:0.32:"1.5 TO 4+ MILLION"~pop; E48@0.62,0.76:0.32~pop; A38@0.2,0.6:0.58~l
-So why don't builders just build more? || title:"Not Enough Homes"; E33@0.38,0.4:0.32~drop
-Part of the answer is cost. || title:"Not Enough Homes"; E33@0.38,0.4:0.32~drop; H24@0.15,0.4:0.32~pop; C09@0.80,0.6:0.58~pop
-Land, lumber, labor, and loans for builders all got more expensive. || title:"Not Enough Homes"; E33@0.38,0.4:0.32~drop; H24@0.15,0.4:0.32~pop; C09@0.80,0.6:0.58~pop; G05@0.38,0.76:0.32~pop
-Building a house also takes time. || title:"Not Enough Homes"; C09@0.80,0.6:0.58; E23@0.38,0.4:0.32~drop
-Permits, inspections and construction can take a year or more, even after a builder decides to start. || title:"Not Enough Homes"; E24@0.5,0.6:0.76
-But the biggest reason is often a set of local rules most people never think about. || title:"Not Enough Homes"; H22@0.5,0.6:0.76
-Zoning. || title:"Not Enough Homes"; G09@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; note:"ZONING"@0.66,0.12; E16@0.62,0.76:0.32~pop; A05@0.2,0.6:0.58~l
-Zoning rules decide what can be built where. || title:"Not Enough Homes"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.329,0.135+0.8; H04@0.9,1.0:0.3:bottom
-In many American cities, most of the land for homes is zoned only for single-family houses. || title:"Not Enough Homes"; G13@0.62,0.4:0.32~drop
-No apartments. || title:"Not Enough Homes"; G13@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop; H23@0.38,0.76:0.32~pop
-No duplexes. || title:"Not Enough Homes"; G13@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop; H23@0.38,0.76:0.32~pop; A48@0.80,0.6:0.58~l
-Many of these rules were written decades ago. || title:"Not Enough Homes"; H22@0.38,0.4:0.32~drop; E25@0.15,0.4:0.32~pop
-Some were first used to keep certain families out of certain neighborhoods. || title:"Not Enough Homes"; H22@0.38,0.4:0.32~drop; E25@0.15,0.4:0.32~pop; note:"1920s"@0.66,0.12
-Today they mostly just keep new homes out. || title:"Not Enough Homes"; D09@0.5,0.6:0.76
-Rules can also require big minimum lot sizes, lots of parking, or long approval processes. || title:"Not Enough Homes"; E10@0.5,0.6:0.76
-Each one adds time and cost to every new home. || title:"Not Enough Homes"; A48@0.2,0.6:0.58~none; E10@0.62,0.4:0.32~drop; H16@0.85,0.4:0.32:"BIG LOTS"~pop; note:"PARKING"@0.66,0.12; E23@0.62,0.76:0.32~pop
-And when builders do propose new homes, neighbors often show up to meetings to fight them. || title:"Not Enough Homes"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.673,0.769,0.927+0.8; H04@0.9,1.0:0.3:bottom
-They worry about traffic, crowding, or their own home values. || title:"Not Enough Homes"; C28@0.80,0.6:0.58~drop; E14@0.38,0.4:0.32~pop; E51@0.15,0.4:0.32~pop; A12@0.60,0.64:0.46~r; E41@0.38,0.76:0.32~pop
-Here's the uncomfortable part. || title:"Not Enough Homes"; C13@0.80,0.6:0.58~l
-Many of those neighbors are homeowners like Mr. || title:"Not Enough Homes"; C13@0.80,0.6:0.58~l; D09@0.38,0.4:0.32~pop
-Collins. || title:"Not Enough Homes"; D13@0.5,0.6:0.76
-When homes are scarce, the people who already own one benefit. || title:"Not Enough Homes"; E22@0.5,0.6:0.76
-So the rules that protect today's owners are the same rules that keep people like Jasmine locked out. || title:"Not Enough Homes"; E55@0.5,0.6:0.76
-And there's one more group competing for houses. || title:"Not Enough Homes"; E55@0.62,0.4:0.32~drop; C09@0.2,0.6:0.58~l; E06@0.85,0.4:0.32~pop; E48@0.62,0.76:0.32~pop
+# ---------- CHAPTER 4: The second domino: the homes nobody built ----------
+|| title:"The second domino"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The second domino fell almost twenty years ago. || title:"The second domino"; A20@0.0,0.62:0.6:left~none; E46@0.36,0.3:0.32~b; E24@0.58,0.52:0.32~jolt; H18@0.8,0.74:0.3:"20 YEARS"~drop
+In two thousand five, American builders started about two million homes a year. || title:"The second domino"; A44@0.0,0.62:0.6:left~none; E23@0.36,0.3:0.32~b; E24@0.58,0.52:0.32~jolt; H23@0.8,0.74:0.32~b; G13@0.82,0.26:0.3~swing; label:"2 MILLION HOMES"@0.4,0.74>0.36,0.18
+Then the two thousand eight crash hit. || title:"The second domino"; A08@0.8,0.6:0.66~none; D02@0.2,0.32:0.32~drop; note:"2008"@0.2,0.74
+By April two thousand nine, new home starts had fallen to about four hundred seventy-eight thousand a year. || title:"The second domino"; A24@0.8,0.6:0.66~none; D02@0.2,0.32:0.32~drop; D11@0.2,0.74:0.32~drop; D14@0.47,0.32:0.32~drop; E24@0.47,0.74:0.32~drop; "2009"@0.62,0.14:100:red
+The lowest since records began in nineteen fifty-nine. || title:"The second domino"; A45@0.8,0.6:0.66~none; E28@0.2,0.32:0.32~drop; D11@0.2,0.74:0.32~drop; D14@0.47,0.32:0.32~drop; E24@0.47,0.74:0.32~drop; "1959"@0.62,0.14:100:red
+And building didn't get back to one and a half million a year until twenty twenty-one. || title:"The second domino"; A27@0.87,0.68:0.48~none; E25@0.48,0.5:0.56~swing; H18@0.13,0.34:0.3:"2021"~drop
+That's twelve years of under-building. || title:"The second domino"; A28@0.87,0.68:0.48~none; E25@0.48,0.5:0.56~swing; group:E23*12@0.00,0.21,0.26,0.47:0.12
+Freddie Mac, || title:"The second domino"; doc:s13_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Freddie Mac Research" hl=0.174,0.651,0.513,0.71+0.8; H04@0.12,1.0:0.34:bottom
+the government-backed mortgage company, estimates the country is short three point seven million homes. || title:"The second domino"; H05@0.86,1.0:0.62:bottom~none; C05@0.14,0.4:0.46~l; E35@0.38,0.4:0.32~l; E33@0.62,0.4:0.32~l; label:"3.7 MILLION HOMES"@0.62,0.14>0.62,0.28
+America did build again. || title:"The second domino"; doc:s14_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8; H04@0.12,1.0:0.34:bottom
+Five point eight million homes in about four years. || title:"The second domino"; H08@0.5,0.68:0.55~none; H23@0.17,0.62:0.34~l; E23@0.83,0.62:0.34~r; note:"5.8 MILLION HOMES"@0.22,0.28
+But demand grew almost as fast, so the hole barely shrank. || title:"The second domino"; A40@0.5,0.68:0.55~none; E46@0.17,0.62:0.34~l; E23@0.83,0.62:0.34~r; E45@0.22,0.28:0.3~t; E24@0.78,0.28:0.3~t
+It's like running on a treadmill for four years. || title:"The second domino"; A01@0.8,0.6:0.58~none; group:E25*4@0.28,0.22,0.55,0.49:0.13; E23@0.2,0.8:0.24~pop+0.6; H24@0.45,0.8:0.24~pop+1.2
+You're tired, you're sweaty, and you're standing in the exact same spot. || title:"The second domino"; A16@0.8,0.6:0.58~none; E25@0.42,0.36:0.3~pop; "STANDING"@0.29,0.55:110:black~pop
+So why don't builders just build more? || title:"The second domino"; A06@0.8,0.6:0.66~none; E48@0.2,0.32:0.32~drop; think:"So why don't builders just build more?"@0.56,0.2
 
-# ---------- CHAPTER 5: Investors and Family Money ----------
-|| title:"Investors and Family Money"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] You may have heard that big Wall Street firms are buying up all the houses. || title:"Investors and Family Money"; E34@0.62,0.4:0.32~drop; E06@0.85,0.4:0.32~pop
-The truth is more mixed. || title:"Investors and Family Money"; E34@0.38,0.4:0.32~drop; E06@0.15,0.4:0.32~pop; D09@0.38,0.76:0.32~pop; A05@0.80,0.6:0.58~r
-Large investors own only a small share of single-family homes across the whole country. || title:"Investors and Family Money"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.302,0.135+0.8; H04@0.9,1.0:0.3:bottom
-But in some fast-growing cities, || title:"Investors and Family Money"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Urban Institute" hl=0.08,0.42,0.47,0.57+0.8; H04@0.9,1.0:0.3:bottom
-like Atlanta, Phoenix and Charlotte, their share is much higher. || title:"Investors and Family Money"; E45@0.5,0.6:0.76
-In those neighborhoods, first-time buyers sometimes compete with cash offers from companies that plan to rent the homes out. || title:"Investors and Family Money"; G22@0.5,0.6:0.76
-Jasmine lost one bidding war like that. || title:"Investors and Family Money"; C12@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~pop
-She offered the asking price. || title:"Investors and Family Money"; C12@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~pop; E25@0.85,0.4:0.32~pop
-The house sold in two days, for more, in cash. || title:"Investors and Family Money"; C12@0.2,0.6:0.58~l; D09@0.62,0.4:0.32~pop; E25@0.85,0.4:0.32~pop; note:"2 DAYS"@0.66,0.12; H17@0.62,0.76:0.32:"CASH"~pop
-Then there's another kind of advantage. || title:"Investors and Family Money"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: National Association of Realtors" hl=0.131,0.178,0.546,0.263+0.8; H04@0.9,1.0:0.3:bottom
-Family money. || title:"Investors and Family Money"; C15@0.80,0.6:0.58~l; C11@0.60,0.64:0.46~r
-Many first-time buyers get help from their parents for the down payment. || title:"Investors and Family Money"; C15@0.80,0.6:0.58~l; C11@0.60,0.64:0.46~r; E02@0.38,0.4:0.32~pop; D09@0.15,0.4:0.32~drop
-People jokingly call it the Bank of Mom and Dad. || title:"Investors and Family Money"; D15@0.38,0.4:0.32~drop; note:"BANK OF MOM & DAD"@0.66,0.12
-And it means that, more and more, who can buy a home depends on whose parents already own one. || title:"Investors and Family Money"; E22@0.5,0.6:0.76
-All of this has pushed first-time buyers later in life. || title:"Investors and Family Money"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: National Association of Realtors" hl=0.147,0.688,0.604,0.968+0.8; H04@0.9,1.0:0.3:bottom
-In twenty twenty-five, the typical first-time buyer was forty years old, the oldest ever recorded. || title:"Investors and Family Money"; C09@0.2,0.6:0.58~l; E24@0.62,0.4:0.32~pop; H18@0.85,0.4:0.32:"AGE 40"~drop; E28@0.62,0.76:0.32~pop
-And first-time buyers made up only about one in five home purchases, the lowest share on record. || title:"Investors and Family Money"; C28@0.2,0.6:0.58~drop; H16@0.62,0.4:0.32:"1 IN 5"~pop; D14@0.85,0.4:0.32; A41@0.4,0.64:0.46~l
-So what would actually help Jasmine and Mr. || title:"Investors and Family Money"; C09@0.80,0.6:0.58~r; C13@0.60,0.64:0.46~l
-Collins, both at once? || title:"Investors and Family Money"; C09@0.80,0.6:0.58~r; C13@0.60,0.64:0.46~l; E17@0.38,0.4:0.32~drop; E48@0.15,0.4:0.32~pop
+# ---------- CHAPTER 5: The third domino: the rules ----------
+|| title:"The third domino"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Because in a lot of places, they're not allowed to. || title:"The third domino"; A16@0.84,0.6:0.62~none; "BECAUSE"@0.40,0.45:150:red~b; G09@0.24,0.8:0.24~pop+0.6; H22@0.5,0.8:0.24~pop+1.2
+And this is where zoning enters the story. || title:"The third domino"; A16@0.84,0.6:0.62~none; "ZONING"@0.40,0.45:150:black~b; note:"ENTERS"@0.5,0.92~pop+1.80
+Zoning rules decide what can be built on each piece of land. || title:"The third domino"; A16@1.0,0.62:0.6:right~none; H22@0.64,0.3:0.32~b; E52@0.42,0.52:0.32~b
+In many American cities, about seventy-five percent of the land for homes allows only one thing. || title:"The third domino"; doc:s15_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.568,0.549+0.8; H04@0.12,1.0:0.34:bottom; note:"HOMES"@0.5,0.92~pop+3.80; note:"ALLOWS"@0.66,0.12~pop+5.60
+A single detached house on its own lot. || title:"The third domino"; A15@0.13,0.68:0.48~none; D09@0.52,0.5:0.56~swing; "DETACHED"@0.52,0.9:110:black~r
+In San Jose, || title:"The third domino"; doc:s16_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Single-family zoning" hl=0.158,0.661,0.297,0.718+0.8; H04@0.12,1.0:0.34:bottom
+California, it's ninety-four percent. || title:"The third domino"; A18@0.16,0.6:0.62~none; G13@0.86,0.4:0.32~r; H18@0.62,0.4:0.3:"94%"~drop
+The rule goes back to nineteen sixteen, || title:"The third domino"; doc:s17_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Single-family zoning" hl=0.378,0.479,0.726,0.537+0.8; H04@0.12,1.0:0.34:bottom
+in the Elmwood neighborhood of Berkeley, California. || title:"The third domino"; A29@0.8,0.6:0.58~none; G13@0.42,0.36:0.3~pop; "ELMWOOD"@0.29,0.55:110:red~pop
+And the effect is simple. || title:"The third domino"; doc:s18_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.592,0.549+0.8; H04@0.12,1.0:0.34:bottom
+When you can only build one home where four could fit, you get fewer homes, and each one costs more. || title:"The third domino"; A33@0.14,1.0:0.62:bottom~none; E35@0.86,0.4:0.32~r; group:H17*4@0.48,0.26,0.76,0.54:0.13; note:"HOMES"@0.5,0.92~pop+5.80
+And when a builder asks to build more, local residents often show up to stop it. || title:"The third domino"; doc:s19_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8; H04@0.12,1.0:0.34:bottom; note:"RESIDENTS"@0.5,0.92~pop+3.80
+There's even a name for that. || title:"The third domino"; A44@0.5,0.68:0.55~none; "NAME"@0.50,0.2:150:black~l; G13@0.17,0.62:0.3~l; C28@0.83,0.62:0.3~r
+NIMBY. || title:"The third domino"; A24@0.5,0.68:0.55~none; "NAME"@0.50,0.2:150:black~l; E14@0.17,0.62:0.3~l; E51@0.83,0.62:0.3~r
+Not in my back yard. || title:"The third domino"; A24@0.5,0.68:0.55~none; "BACK"@0.50,0.2:150:black~l; D09@0.17,0.62:0.3~l; E44@0.83,0.62:0.3~r
+Here's the quiet part. || title:"The third domino"; A38@0.5,0.68:0.55~none; "BACK"@0.50,0.2:150:black~l; D09@0.17,0.62:0.3~l; D13@0.83,0.62:0.3~r
+Most people at those meetings already own a home. || title:"The third domino"; A27@1.0,0.62:0.6:right~none; H23@0.64,0.3:0.32~b; H11@0.42,0.52:0.36~b
+And when homes stay scarce, their homes stay valuable. || title:"The third domino"; A28@1.0,0.62:0.6:right~none; H23@0.64,0.3:0.32~b; H11@0.42,0.52:0.36~b; D09@0.2,0.74:0.32~b
+It's like letting the people already on the bus vote on whether the bus gets more seats. || title:"The third domino"; H05@0.8,0.6:0.66~none; C11@0.2,0.32:0.46~drop; "LETTING"@0.62,0.14:110:red~drop; note:"WHETHER"@0.5,0.92~pop+5.03
+Now, about that other answer everybody reaches for. || title:"The third domino"; H08@0.87,0.68:0.48~none; C28@0.48,0.5:0.46~swing; "EVERYBODY"@0.48,0.9:110:red~l
+Wall Street. || title:"The third domino"; A40@0.87,0.68:0.48~none; C28@0.48,0.5:0.46~swing; "EVERYBODY"@0.48,0.9:110:red~l
 
-# ---------- CHAPTER 6: What Could Unlock It ----------
-|| title:"What Could Unlock It"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] The first fix is the simplest, and the slowest. || title:"What Could Unlock It"; H24@0.38,0.4:0.32~drop; D09@0.15,0.4:0.32~pop
-Build more homes. || title:"What Could Unlock It"; H23@0.5,0.6:0.76
-Many more, of every kind, especially in the places where people want to live. || title:"What Could Unlock It"; E35@0.5,0.6:0.76
-Some cities have started changing their rules. || title:"What Could Unlock It"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.125,0.083,0.275,0.135+0.8; H04@0.9,1.0:0.3:bottom
-Minneapolis ended single-family-only zoning in twenty eighteen. || title:"What Could Unlock It"; A21@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop
-Austin cut its minimum lot size. || title:"What Could Unlock It"; A21@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E20@0.62,0.76:0.32~pop
-Studies found rents in Minneapolis rose more slowly than in many similar cities. || title:"What Could Unlock It"; A21@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; H22@0.85,0.4:0.32~pop; E20@0.62,0.76:0.32~pop; note:"OLD RULES"@0.66,0.12; D14@0.85,0.76:0.32
-Allowing small apartments, townhouses, and backyard cottages on more land can add homes without changing a neighborhood overnight. || title:"What Could Unlock It"; A21@0.80,0.6:0.58; E35@0.38,0.4:0.32~drop; H23@0.15,0.4:0.32~pop; D09@0.38,0.76:0.32~pop; E29@0.15,0.76:0.32~pop
-California now allows backyard cottages, called accessory dwelling units, on most single-family lots. || title:"What Could Unlock It"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: California Department of Housing and Community Development"; H04@0.9,1.0:0.3:bottom
-Tens of thousands are built there every year. || title:"What Could Unlock It"; D13@0.5,0.6:0.76
-The second fix would come from lower mortgage rates. || title:"What Could Unlock It"; G04@0.5,0.6:0.76
-If rates fall, some locked-in owners like Mr. || title:"What Could Unlock It"; G04@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32; C13@0.2,0.6:0.58~r
-Collins finally move, and more homes come up for sale. || title:"What Could Unlock It"; G04@0.62,0.4:0.32~drop; D14@0.85,0.4:0.32; C13@0.2,0.6:0.58~r; G22@0.62,0.76:0.32~pop
-But there's a catch. || title:"What Could Unlock It"; C28@0.2,0.6:0.58~drop
-Lower rates also bring more buyers back. || title:"What Could Unlock It"; C28@0.2,0.6:0.58~drop; D13@0.62,0.4:0.32
-So prices may not fall much. || title:"What Could Unlock It"; C28@0.80,0.6:0.58~drop; D13@0.38,0.4:0.32
-They might even rise. || title:"What Could Unlock It"; C28@0.80,0.6:0.58~drop; D13@0.38,0.4:0.32; E22@0.15,0.4:0.32~pop
-Rates alone can't fix a shortage. || title:"What Could Unlock It"; C28@0.80,0.6:0.58~drop; D13@0.38,0.4:0.32; E22@0.15,0.4:0.32~pop; A14@0.60,0.64:0.46~r
-The third fix is time. || title:"What Could Unlock It"; E23@0.38,0.4:0.32~drop
-Every year, life forces some people to move. || title:"What Could Unlock It"; E06@0.5,0.6:0.76
-New jobs, growing families, retirement, divorce. || title:"What Could Unlock It"; E42@0.5,0.6:0.76
-Slowly, the locks open. || title:"What Could Unlock It"; E55@0.5,0.6:0.76
-About ten thousand Americans turn sixty-five every day. || title:"What Could Unlock It"; C13@0.2,0.6:0.58~r; C28@0.4,0.64:0.46~pop
-Over the next twenty years, many older owners will downsize or pass their homes on, freeing up millions of houses. || title:"What Could Unlock It"; C13@0.2,0.6:0.58~r; C28@0.4,0.64:0.46~pop; E23@0.62,0.4:0.32~drop; D09@0.85,0.4:0.32~pop; E35@0.62,0.76:0.32~pop
-Some people have suggested letting homeowners take their low rate with them when they move. || title:"What Could Unlock It"; doc:s21.png@0.44,0.54 w=0.72 h=0.76 src="Source: Consumer Financial Protection Bureau" hl=0.124,0.618,0.563,0.792+0.8; H04@0.9,1.0:0.3:bottom
-A few loans already allow this, but most don't. || title:"What Could Unlock It"; C13@0.80,0.6:0.58; D24@0.38,0.4:0.32~drop; E06@0.15,0.4:0.32~pop; D09@0.38,0.76:0.32~pop; E35@0.15,0.76:0.32~l
-None of these fixes is fast. || title:"What Could Unlock It"; E24@0.38,0.4:0.32~pop
-That's the hard truth. || title:"What Could Unlock It"; E24@0.38,0.4:0.32~pop; H24@0.15,0.4:0.32~drop; E23@0.38,0.76:0.32~pop
-The housing shortage took years to build, and it will take years to fix. || title:"What Could Unlock It"; E23@0.5,0.6:0.76
+# ---------- CHAPTER 6: Wall Street, and who still gets in ----------
+|| title:"Wall Street, and who still"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] After the two thousand eight crash, millions of homes were foreclosed. || title:"Wall Street, and who still"; doc:s20_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Invitation Homes" hl=0.178,0.526,0.439,0.583+0.8; H04@0.12,1.0:0.34:bottom; note:"FORECLOSED"@0.5,0.92~pop+3.62
+Between twenty ten and twenty eleven, a company called Treehouse bought one thousand distressed houses in Phoenix, Arizona. || title:"Wall Street, and who still"; A38@0.5,0.68:0.55~none; D21@0.17,0.62:0.34~l; E08@0.83,0.62:0.34~r; D11@0.22,0.28:0.3~t; label:"61"@0.5,0.18>0.22,0.16; note:"ARIZONA"@0.5,0.92~pop+8.62
+In twenty twelve, || title:"Wall Street, and who still"; doc:s21_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Invitation Homes" hl=0.142,0.752,0.565,0.85+0.8; H04@0.12,1.0:0.34:bottom
+Blackstone bought it and formed Invitation Homes. || title:"Wall Street, and who still"; A40@0.13,0.68:0.48~none; E35@0.52,0.5:0.56~swing; E39@0.87,0.34:0.28~r
+By December twenty twenty-five, || title:"Wall Street, and who still"; doc:s22_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8; H04@0.12,1.0:0.34:bottom
+it owned eighty-six thousand one hundred ninety-two rental homes. || title:"Wall Street, and who still"; A01@0.8,0.6:0.66~none; D09@0.2,0.32:0.32~drop; note:"86,192 RENTAL"@0.2,0.74
+That sounds huge. || title:"Wall Street, and who still"; A15@0.8,0.6:0.66~none; D09@0.2,0.32:0.32~drop; note:"86,192 RENTAL"@0.2,0.74
+But America has tens of millions of houses. || title:"Wall Street, and who still"; A15@0.0,0.62:0.6:left~none; D11@0.36,0.3:0.32~b; G13@0.58,0.52:0.32~b; H09@0.8,0.74:0.36~b
+Big investors matter a lot in some cities, like Atlanta and Phoenix, and much less in most others. || title:"Wall Street, and who still"; A18@0.0,0.62:0.6:left~none; C09@0.36,0.3:0.46~b; G13@0.58,0.52:0.32~b; H09@0.8,0.74:0.36~b; E34@0.82,0.26:0.3~swing; note:"PHOENIX"@0.5,0.92~pop+5.80
+The bigger competition is quieter. || title:"Wall Street, and who still"; A29@0.84,0.6:0.62~none; "COMPETITION"@0.40,0.45:150:red~l; C21@0.24,0.8:0.24~pop+0.6; E02@0.5,0.8:0.24~pop+1.2
+It's people who already own a home and are sitting on years of equity. || title:"Wall Street, and who still"; A33@0.86,1.0:0.62:bottom~none; E35@0.14,0.4:0.32~l; C11@0.38,0.4:0.36~l
+The National Association of Realtors found that thirty percent of repeat buyers paid all cash. || title:"Wall Street, and who still"; doc:s23_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.134,0.659,0.296,0.721+0.8; H04@0.12,1.0:0.34:bottom; note:"REALTORS"@0.5,0.92~pop+3.80; note:"BUYERS"@0.66,0.12~pop+5.60
+And first-time buyers who did make it? || title:"Wall Street, and who still"; doc:s24_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8; H04@0.12,1.0:0.34:bottom
+Twenty-two percent used gifts or loans from family and friends for the down payment. || title:"Wall Street, and who still"; A44@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; H27@0.17,0.62:0.34~l; H18@0.78,0.28:0.3:"22%"~drop
+The bank of mom and dad. || title:"Wall Street, and who still"; A24@0.5,0.68:0.55~none; D24@0.83,0.62:0.34~r; H27@0.17,0.62:0.34~l; D15@0.78,0.28:0.3~t
+So who is getting locked out? || title:"Wall Street, and who still"; A07@0.13,0.68:0.48~none; E48@0.52,0.5:0.56~swing; "GETTING"@0.52,0.9:110:red~r; D09@0.3,0.22:0.26~pop+0.6
 
-# ---------- CHAPTER 7: What Jasmine Did ----------
-|| title:"What Jasmine Did"; sting; A23@0.5,0.56:0.6; hold:1.2
-[calm] So what can someone like Jasmine actually do today? || title:"What Jasmine Did"; C09@0.2,0.6:0.58~l
-Here are a few honest ideas. || title:"What Jasmine Did"; E10@0.5,0.6:0.76
-Not advice, just options people use. || title:"What Jasmine Did"; C09@0.2,0.6:0.58~l; E10@0.62,0.4:0.32~drop; E17@0.85,0.4:0.32~pop
-First, check first-time buyer programs. || title:"What Jasmine Did"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Department of Housing and Urban Development" hl=0.143,0.29,0.249,0.336+0.8; H04@0.9,1.0:0.3:bottom
-Many states and cities offer down payment help, especially for teachers, nurses and other public workers. || title:"What Jasmine Did"; G09@0.62,0.4:0.32~drop; E02@0.85,0.4:0.32~pop; C09@0.2,0.6:0.58~l
-Second, look a little farther out, or at smaller places. || title:"What Jasmine Did"; C09@0.80,0.6:0.58; G13@0.38,0.4:0.32~drop
-A townhouse or a condo can be a first step, not a forever home. || title:"What Jasmine Did"; C09@0.80,0.6:0.58; G13@0.38,0.4:0.32~drop; E35@0.15,0.4:0.32~pop; H23@0.38,0.76:0.32~pop
-Third, compare the true cost of renting and buying. || title:"What Jasmine Did"; E22@0.5,0.6:0.76
-Owning has extra costs, like taxes, insurance and repairs. || title:"What Jasmine Did"; H23@0.5,0.6:0.76
-Sometimes renting a few more years is the smarter choice. || title:"What Jasmine Did"; D27@0.5,0.6:0.76
-And if you do buy with a high rate, remember you may be able to refinance later if rates fall. || title:"What Jasmine Did"; C09@0.2,0.6:0.58~none; D24@0.62,0.4:0.32~drop
-The rate you start with doesn't have to be forever. || title:"What Jasmine Did"; C09@0.80,0.6:0.58; D24@0.38,0.4:0.32~drop; G05@0.15,0.4:0.32~pop; D14@0.38,0.76:0.32; G04@0.15,0.76:0.32~pop
-Jasmine used a state teacher program for her down payment. || title:"What Jasmine Did"; C11@0.80,0.6:0.58~r
-She bought a small townhouse twenty minutes outside the city. || title:"What Jasmine Did"; C11@0.80,0.6:0.58~r; E02@0.38,0.4:0.32~pop
-It's not her dream house. || title:"What Jasmine Did"; E35@0.5,0.6:0.76
-But it's hers. || title:"What Jasmine Did"; H27@0.5,0.6:0.76
-Her monthly payment is higher than her old rent. || title:"What Jasmine Did"; C11@0.2,0.6:0.58~l
-But part of every payment now builds something she owns. || title:"What Jasmine Did"; H24@0.5,0.6:0.76
-And her rate can be refinanced if it falls. || title:"What Jasmine Did"; C11@0.2,0.6:0.58~l; H24@0.62,0.4:0.32~drop; G04@0.85,0.4:0.32~pop
-And Mr. || title:"What Jasmine Did"; C13@0.2,0.6:0.58~r
-Collins? || title:"What Jasmine Did"; C13@0.2,0.6:0.58~r; D09@0.62,0.4:0.32~pop
-He's waiting for rates to drop. || title:"What Jasmine Did"; C13@0.2,0.6:0.58~r; D09@0.62,0.4:0.32~pop; C11@0.4,0.64:0.46~l
-In the meantime, he rents his spare bedroom to a young nurse who also couldn't find a place to buy. || title:"What Jasmine Did"; C13@0.2,0.6:0.58~r; D09@0.62,0.4:0.32~pop; C11@0.4,0.64:0.46~l; G22@0.85,0.4:0.32~drop
-Here's the takeaway. || title:"What Jasmine Did"; A17@0.80,0.6:0.58~r
-Houses didn't get expensive because of one villain. || title:"What Jasmine Did"; A17@0.80,0.6:0.58~r; E41@0.38,0.4:0.32~pop
-It's a traffic jam. || title:"What Jasmine Did"; E41@0.5,0.6:0.76
-Too few homes, high rates that trap owners, and rules that make building slow. || title:"What Jasmine Did"; H18@0.5,0.6:0.76:"TRAFFIC JAM"
-Unlock any one of those, and the jam starts to move. || title:"What Jasmine Did"; E17@0.5,0.6:0.76
-Unlock all three, and the next Jasmine won't have to wait until she's forty. || title:"What Jasmine Did"; E55@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~drop; C09@0.2,0.6:0.58~l; A21@0.4,0.64:0.46~pop
-[calm] Speaking of people who knew how to control a market. || title:"What Jasmine Did"; D17@0.62,0.4:0.32~drop
-Next time, we'll meet the man who controlled almost all of America's oil, and became the first billionaire. || title:"What Jasmine Did"; D17@0.38,0.4:0.32~drop; C21@0.80,0.6:0.58~l
-John D. || title:"What Jasmine Did"; D17@0.38,0.4:0.32~drop; C21@0.80,0.6:0.58~l; E27@0.15,0.4:0.32~pop
-Rockefeller. || title:"What Jasmine Did"; D17@0.38,0.4:0.32~drop; C21@0.80,0.6:0.58~l; E27@0.15,0.4:0.32~pop; A23@0.60,0.64:0.46~r
+# ---------- CHAPTER 7: The people locked out ----------
+|| title:"The people locked out"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The same report gave two records on the same day. || title:"The people locked out"; doc:s25_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.116,0.469,0.307,0.531+0.8; H04@0.12,1.0:0.34:bottom
+First-time buyers made up just twenty-one percent of all home purchases. || title:"The people locked out"; A17@0.84,0.6:0.62~none; H23@0.14,0.4:0.32~l; "21%"@0.62,0.8:100:red
+The lowest share ever recorded. || title:"The people locked out"; A36@0.86,1.0:0.62:bottom~none; H23@0.14,0.4:0.32~l; G12@0.38,0.4:0.32~l; E28@0.62,0.4:0.32~l
+And the typical first-time buyer was forty years old. || title:"The people locked out"; doc:s26_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.116,0.449,0.589,0.551+0.8; H04@0.12,1.0:0.34:bottom
+The oldest ever recorded. || title:"The people locked out"; A09@0.86,1.0:0.62:bottom~none; H23@0.14,0.4:0.32~l; G12@0.38,0.4:0.32~l; E28@0.62,0.4:0.32~l
+That share has shrunk by half since two thousand seven. || title:"The people locked out"; doc:s27_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.312,0.766,0.5,0.828+0.8; H04@0.12,1.0:0.34:bottom
+And waiting costs you real money. || title:"The people locked out"; doc:s28_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.116,0.513,0.592,0.867+0.8; H04@0.12,1.0:0.34:bottom
+NAR's estimate: buying at forty instead of thirty can mean losing about one hundred fifty thousand dollars of equity on a starter home. || title:"The people locked out"; A27@0.8,0.6:0.66~none; D09@0.2,0.32:0.32~drop; D30@0.2,0.74:0.32~drop; G02@0.47,0.32:0.32~drop; H17@0.47,0.74:0.3:"$150,000"~swing; note:"STARTER"@0.5,0.92~pop+9.05
+Meanwhile, owners stay put longer than ever. || title:"The people locked out"; doc:s29_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: National Association of Realtors" hl=0.134,0.659,0.401,0.721+0.8; H04@0.12,1.0:0.34:bottom
+The typical seller had lived in their home for eleven years. || title:"The people locked out"; A28@0.8,0.6:0.58~none; group:D11*11@0.08,0.2,0.62,0.56:0.08; note:"LIVED"@0.5,0.92~pop+3.42
+Another all-time high. || title:"The people locked out"; H05@0.8,0.6:0.58~none; group:D11*11@0.08,0.2,0.62,0.56:0.08; note:"ALL-TIME"@0.5,0.92~pop+1.80
+And the FHFA paper adds one more line. || title:"The people locked out"; doc:s30_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: FHFA Working Paper 24-03" hl=0.079,0.276,0.921,0.724+0.8; H04@0.12,1.0:0.34:bottom
+People with less wealth are the least able to time their sales, which makes inequality worse. || title:"The people locked out"; H05@0.13,0.68:0.48~none; C21@0.52,0.5:0.46~swing; C28@0.87,0.34:0.36~r; note:"INEQUALITY"@0.5,0.92~pop+5.80
+So is anything actually working? || title:"The people locked out"; A39@0.16,0.6:0.62~none; E52@0.86,0.4:0.32~r; "ANYTHING"@0.38,0.8:110:black~r
 
-|| endscreen; hold:10
+# ---------- CHAPTER 8: What could unlock it ----------
+|| title:"What could unlock it"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Some places changed the rules. || title:"What could unlock it"; doc:s31_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.58,0.555,0.637+0.8; H04@0.12,1.0:0.34:bottom
+In twenty eighteen, Minneapolis became the first major American city to end single-family zoning. || title:"What could unlock it"; H01@0.5,0.68:0.55~none; E34@0.83,0.62:0.34~r; H27@0.17,0.62:0.34~l; label:"38"@0.5,0.18>0.17,0.50; note:"AMERICAN"@0.83,0.92~pop+6.64
+California went after backyards. || title:"What could unlock it"; doc:s32_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Accessory dwelling unit" hl=0.142,0.56,0.76,0.657+0.8; H04@0.12,1.0:0.34:bottom
+In twenty sixteen it passed laws that limit how much cities can block small backyard homes. || title:"What could unlock it"; H08@1.0,0.62:0.6:right~none; C06@0.64,0.3:0.46~b; E34@0.42,0.52:0.32~b; E35@0.2,0.74:0.32~b; note:"36 IT"@0.18,0.26
+And some loans are assumable. || title:"What could unlock it"; doc:s33_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.774,0.549+0.8; H04@0.12,1.0:0.34:bottom
+A buyer can take over the seller's loan, including the old low rate. || title:"What could unlock it"; A40@0.8,0.6:0.66~none; D28@0.2,0.32:0.32~drop; "INCLUDING"@0.62,0.14:110:red~drop
+Those deals have grown since twenty twenty-two, for exactly this reason. || title:"What could unlock it"; doc:s34_card.png@0.58,0.5 w=0.7 h=0.6 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8; H04@0.12,1.0:0.34:bottom; note:"EXACTLY"@0.5,0.92~pop+3.80
+But most loans don't allow it. || title:"What could unlock it"; A01@0.87,0.68:0.48~none; D18@0.48,0.5:0.56~swing; "LOANS"@0.48,0.9:110:red~l
+And lower rates would free some owners. || title:"What could unlock it"; A16@0.8,0.6:0.58~none; "OWNERS"@0.40,0.45:150:black~pop; G04@0.24,0.8:0.24~pop+0.6; D09@0.5,0.8:0.24~pop+1.2
+But they'd bring buyers back at the same moment. || title:"What could unlock it"; A16@0.8,0.6:0.58~none; "BUYERS"@0.40,0.45:150:black~pop; note:"MOMENT"@0.5,0.92~pop+1.80
+Rates alone can't fix a shortage. || title:"What could unlock it"; A16@0.8,0.6:0.58~none; "SHORTAGE"@0.40,0.45:150:black~pop; note:"RATES"@0.5,0.92~pop+1.80
+This is not financial advice. || title:"What could unlock it"; A16@0.84,0.6:0.62~none; "FINANCIAL"@0.40,0.45:150:red~b; E22@0.24,0.8:0.24~pop+0.6; D09@0.5,0.8:0.24~pop+1.2
+It's just how the machine works. || title:"What could unlock it"; A03@0.84,0.6:0.62~none; E48@0.64,0.3:0.32~b; "MACHINE"@0.50,0.82:110:red~b
+So here's the answer. || title:"What could unlock it"; A20@0.84,0.6:0.62~none; E48@0.64,0.3:0.32~b; "MACHINE"@0.50,0.82:110:red~b
+Higher rates scared buyers away. || title:"What could unlock it"; A15@0.5,0.68:0.55~none; G01@0.83,0.62:0.34~r; "HIGHER"@0.50,0.16:110:black~l
+But they froze sellers in place even harder. || title:"What could unlock it"; A18@0.5,0.68:0.55~none; G01@0.83,0.62:0.34~r; "SELLERS"@0.50,0.16:110:red~l
+The market didn't crash. || title:"What could unlock it"; A09@0.5,0.68:0.55~none; G01@0.83,0.62:0.34~r; "SELLERS"@0.50,0.16:110:red~l; note:"CRASH"@0.2,0.5~pop+1.80
+It froze. || title:"What could unlock it"; A29@0.5,0.68:0.55~none; G01@0.83,0.62:0.34~r; "SELLERS"@0.50,0.16:110:red~l
+So today, the typical first-time buyer is forty, often with help from mom and dad, buying from an owner who sat tight for eleven years. || title:"What could unlock it"; H03@0.16,0.6:0.62~none; E36@0.86,0.4:0.32~r; H18@0.62,0.4:0.3:"40"~drop; note:"BUYING"@0.5,0.92~pop+5.80; note:"OWNER"@0.66,0.12~pop+7.60
+What we've built is a system that protects the people already inside it, and hands the bill to whoever is next in line. || title:"What could unlock it"; A29@0.2,0.6:0.66~none; E21@0.8,0.32:0.32~drop; H11@0.8,0.74:0.36~drop; B10@0.53,0.32:0.36~drop; note:"WHOEVER"@0.5,0.92~pop+6.63
+Thanks for watching Dollar Diaries. || title:"What could unlock it"; A33@0.5,0.68:0.55~none; E05@0.83,0.62:0.34~r; "DOLLAR"@0.50,0.16:110:black~l
+
+|| A23@0.5,0.6:0.6~none; "THANKS FOR WATCHING"@0.5,0.16:100:black~pop; hold:3
