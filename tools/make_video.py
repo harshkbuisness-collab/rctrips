@@ -143,6 +143,15 @@ def parse_doc(item):
 
 
 def parse_elem(item):
+    at = re.search(r"\s*\^([\w'-]+)$", item)      # ^word: appears the moment that word is spoken
+    item = item[:at.start()] if at else item
+    e = parse_elem_(item)
+    if at:
+        e["at"] = re.sub(r"[^a-z0-9]", "", at.group(1).lower())
+    return e
+
+
+def parse_elem_(item):
     if item.startswith("doc:"):          # its marks carry their own +delays
         return {**parse_doc(item), "delay": 0.0}
     item, delay = split_delay(item)
@@ -342,7 +351,8 @@ def align_voice(beats, voice_path, out_wav, out_json):
             start = first[i]
             nxt = next((first[j] for j in range(i + 1, len(beats)) if j in first), None)
             end = (nxt - 0.02) if nxt is not None else end_of_speech + 0.3
-            timings.append({"beat": i, "start": round(start + shift, 3), "end": round(end + shift, 3)})
+            timings.append({"beat": i, "start": round(start + shift, 3), "end": round(end + shift, 3),
+                            "words": [[script[k], round(times[k] + shift, 3)] for k in range(len(script)) if owner[k] == i]})
         else:                                     # insert the hold as silence at this point of the voice
             here = next((first[j] for j in range(i + 1, len(beats)) if j in first), len(voice) / SR)
             here = max(cut, here - 0.15)
@@ -702,7 +712,7 @@ def ident(e):
     """What makes an element 'the same one' as in the previous beat (so it stays and keeps animating)."""
     if e["kind"] == "doc":
         return ("doc", e["file"], e["pos"], e["w"], e["h"], tuple(e.get("crop", ())))
-    return json.dumps({k: v for k, v in e.items() if k not in ("delay", "t0", "t_end", "chain", "motion")}, sort_keys=True)
+    return json.dumps({k: v for k, v in e.items() if k not in ("delay", "t0", "t_end", "chain", "motion", "at")}, sort_keys=True)
 
 
 def link_elements(beats, tm):
@@ -711,7 +721,10 @@ def link_elements(beats, tm):
         prev = {ident(p): p for p in beats[i - 1]["elems"]} if i else {}
         # new things without their own +delay arrive one after another, not all at once (the reference
         # adds something about every 0.8 s); persistent items keep their time
-        fresh = [e for e in b["elems"] if ident(e) not in prev and not e["delay"]
+        said = {}
+        for w, wt in tm[i].get("words", []):
+            said.setdefault(w, wt)
+        fresh = [e for e in b["elems"] if ident(e) not in prev and not e["delay"] and not e.get("at")
                  and e["kind"] not in ("title", "source", "sting", "hold", "endscreen", "rain")
                  and not (e["kind"] == "img" and e["code"].startswith(NARRATOR))]   # the guide is there from the start
         dur = tm[i]["end"] - tm[i]["start"]        # owner: something new about every 2 s, spread over the whole beat
@@ -721,13 +734,16 @@ def link_elements(beats, tm):
             p = prev.get(ident(e))
             e["chain"] = p["chain"] if p else [e]
             e["t0"] = p["t0"] if p else tm[i]["start"] + e["delay"] + stagger.get(id(e), 0)
+            if not p and e.get("at"):
+                hit = [wt for w, wt in said.items() if w.startswith(e["at"])]
+                e["t0"] = (min(hit) if hit else tm[i]["start"]) + e["delay"]
             if p is not None and p is not e:
                 e["chain"].append(e)
             if e["kind"] == "doc":
                 old = {json.dumps(m["rect"]) + m["kind"]: m for m in (p["marks"] if p else [])}
                 for m in e["marks"]:
                     o = old.get(json.dumps(m["rect"]) + m["kind"])
-                    m["t0"] = o["t0"] if o else tm[i]["start"] + m["delay"]
+                    m["t0"] = o["t0"] if o else e["t0"] + m["delay"]      # marks count from the page's arrival
         for e in b["elems"]:
             for c in e["chain"]:
                 c["t_end"] = tm[i]["end"]
