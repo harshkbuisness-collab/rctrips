@@ -14,7 +14,7 @@ import parse_script
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KDIR = os.environ.get("KOKORO_DIR", os.path.join(ROOT, "tools", "voice_studio", "kokoro"))
 VOICE, SPEED = os.environ.get("VOICE", "am_michael"), 1.15  # owner, 25 Oct 2026: male, faster pace
-GAP, GAP_CHAPTER, GAP_PUNCH = 0.25, 0.6, 0.55   # longer pause after short punch lines ("Except they didn't.")
+GAP, GAP_CHAPTER = 0.22, 0.35   # owner, 25 Oct 2026: no long silent gaps
 
 
 def main(script, out):
@@ -30,8 +30,11 @@ def main(script, out):
         chap = ln["chap"]
         for s in re.split(r"(?<=[.!?])\s+", text):
             a, sr = k.create(s, voice=VOICE, speed=SPEED, lang="en-us")
-            gap = GAP_PUNCH if len(s.split()) <= 4 else GAP
-            parts += [a.astype(np.float32), np.zeros(int(gap * sr), dtype=np.float32)]
+            a = a.astype(np.float32)
+            loud = np.flatnonzero(np.abs(a) > 0.01)          # cut the model's own silence before and after
+            if len(loud):
+                a = a[max(0, loud[0] - int(0.03 * sr)):loud[-1] + int(0.06 * sr)]
+            parts += [a, np.zeros(int(GAP * sr), dtype=np.float32)]
     wav = out.rsplit(".", 1)[0] + ".wav"
     sf.write(wav, np.concatenate(parts), sr)
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", wav, "-b:a", "192k", out], check=True)
