@@ -77,6 +77,25 @@ Reply "Ready" and wait for the topic.
 
 ---
 
+## STYLE BLOCK (paste right after the master prompt; from Casual Finance's top videos, 25 Oct 2026)
+
+```
+STYLE UPGRADE (these lines win over the master prompt if they disagree)
+- LINE 1: a time, a place and a real number. Example style: "Last month, there were 58% more people trying to sell a house in America than people trying to buy one." Line 2 names the source and why it is a record.
+- THE PARADOX (first 45 seconds): "So you'd think [what normal logic says]... Except it hasn't." Then a second sourced number that proves it.
+- KNOCK OUT the easy answers next, one sentence each, with a source each ("It's not investors: investor buying fell to its lowest level since 2020.").
+- THESIS LINE right after: "What's actually happening is much deeper." / "This was something else entirely."
+- DOMINO CHAIN for the main part: 3 to 5 steps, cause -> forced action. Open each with a signpost: "The first domino to fall...", "And this is where [player] enters the story.", "And then there was the third domino...".
+- Before a hard idea, set it up: "But for this to make sense, we first need to explain [X]." Then explain it with "you" ("Imagine you're a Japanese pension fund...").
+- Talk to the viewer: use "you / your 401(k) / your mortgage" about 15 to 20 times in the video.
+- DRY COMPARISONS (this replaces "no random jokes"): every 60 to 90 seconds, one short everyday comparison right after a hard number, then go straight back to the facts.
+  Like: "It's the real estate version of deleting a dating app and downloading it again a few months later." / "It was like the economy hit pause and nobody could find the remote." / "Companies borrowed like it was Black Friday and interest was 90% off." No swearing, no politics jokes, no made-up people.
+- Mix sentence lengths: mostly 8 to 15 words, one longer list sentence now and then for big numbers.
+- "But here's where the mainstream explanation starts to break." before each piece of proof against the headline.
+- ENDING: one hard number compared with a famous event (like 2008), then a 2-line moral ("What we've built is a system that protects the people already inside it, and hands the bill to whoever's next in line."), then "Thanks for watching." Never tease a next video.
+- Length: 1,700 to 1,900 spoken words.
+```
+
 ## CONVERT PROMPT (for scripts you already wrote as plain text)
 
 Steps: new ChatGPT chat, web search ON. Paste the MASTER PROMPT, wait for "Ready", then paste the box below
