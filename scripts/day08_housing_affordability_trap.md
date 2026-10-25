@@ -2,8 +2,6 @@
 TITLES: What's Really Keeping American Housing Prices High? | Prices Were Supposed to Drop. They Didn't. | Why Nobody Can Buy a House in America
 THUMBNAIL: US HOUSING — a USA map chained to a 3% ball while the price line keeps climbing
 THREAD: Rates went up, so why didn't house prices come down?
-STYLE: Casual Finance pattern (owner, 25 Oct 2026): what everybody knows -> the twist -> one key number -> the question.
-Every line is a fact with its source said out loud, or a one-line turn. Pictures are planned per word in the beat sheet.
 
 ## CHAPTER 1: The sales that never happened
 Everybody knows houses in America are expensive.
