@@ -1,7 +1,7 @@
-"""Make the channel voice for a script with Kokoro "Heart" (free, offline), so the owner does not have to.
+"""Make the channel voice for a script with Kokoro (free, offline), so the owner does not have to.
 
 Usage: python3 tools/make_voice.py scripts/dayNN_x.md [voices/dayNN.mp3]
-Speaks every spoken line (tags like [calm] removed) with af_heart at SPEED, a short pause between sentences
+Speaks every spoken line (tags like [calm] removed) with VOICE at SPEED, a short pause between sentences
 and a longer one between chapters. Model files: tools/voice_studio/kokoro/ (or $KOKORO_DIR).
 """
 import os, re, subprocess, sys
@@ -13,8 +13,8 @@ import parse_script
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KDIR = os.environ.get("KOKORO_DIR", os.path.join(ROOT, "tools", "voice_studio", "kokoro"))
-VOICE, SPEED = "af_heart", 1.03          # owner, 21 Oct 2026
-GAP, GAP_CHAPTER = 0.28, 0.8
+VOICE, SPEED = os.environ.get("VOICE", "am_michael"), 1.0   # owner, 25 Oct 2026: male, Casual Finance style
+GAP, GAP_CHAPTER, GAP_PUNCH = 0.35, 0.8, 0.8   # longer pause after short punch lines ("Except they didn't.")
 
 
 def main(script, out):
@@ -30,7 +30,8 @@ def main(script, out):
         chap = ln["chap"]
         for s in re.split(r"(?<=[.!?])\s+", text):
             a, sr = k.create(s, voice=VOICE, speed=SPEED, lang="en-us")
-            parts += [a.astype(np.float32), np.zeros(int(GAP * sr), dtype=np.float32)]
+            gap = GAP_PUNCH if len(s.split()) <= 4 else GAP
+            parts += [a.astype(np.float32), np.zeros(int(gap * sr), dtype=np.float32)]
     wav = out.rsplit(".", 1)[0] + ".wav"
     sf.write(wav, np.concatenate(parts), sr)
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", wav, "-b:a", "192k", out], check=True)
