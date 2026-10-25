@@ -2,7 +2,7 @@
 Everybody knows houses in America are expensive. || A01@0.12,0.64:0.5~none; doc:n08.png@0.4,0.2 w=0.5 h=0.26 crop=0,0,0.68,0.55 ~pop ^everybody; doc:n09.png@0.6,0.42 w=0.5 h=0.16 crop=0,0.05,0.75,0.6 ~pop ^knows; doc:n05.png@0.45,0.7 w=0.46 h=0.36 crop=0.16,0,0.84,1 ~pop ^america; E02@0.88,0.62:0.3~pop ^expensive
 The typical new house sells for four hundred ten thousand seven hundred dollars. || A16@0.88,0.62:0.55~none; doc:ch_price.png@0.42,0.42 w=0.7 h=0.66 frame=0 ~none ^typical; "$410,700"@0.42,0.88:110:red~type ^four
 And a thirty-year mortgage costs seven point three two percent. || A15@0.12,0.62:0.52~none; doc:s03.png@0.56,0.3 w=0.62 h=0.3 crop=0.09,0.21,0.62,0.39 hl=0.095,0.305,0.175,0.332+0.5 ~b ^thirtyyear; G05@0.56,0.72:0.3~pop ^seven
-In January twenty twenty-one, that same loan cost two point six five percent. || A16@0.88,0.62:0.55~none; E25@0.11,0.22:0.25~pop ^january; doc:ch_rate.png@0.48,0.52 w=0.66 h=0.8 frame=0 ~none ^loan
+In January twenty twenty-one, that same loan cost two point six five percent. || A16@0.88,0.62:0.55~none; E25@0.11,0.22:0.25~pop ^january; doc:ch_rate.png@0.5,0.52 w=0.62 h=0.8 frame=0 ~none ^loan
 So rates nearly tripled. || A08@0.15,0.62:0.58~none; G04@0.42,0.6:0.22~pop ^rates; G05@0.62,0.5:0.32~pop ^nearly; "x3"@0.85,0.35:150:red~pop ^tripled
 And when loans get that expensive, buyers disappear, and prices are supposed to fall. || A38@0.12,0.62:0.5~none; D24@0.35,0.3:0.28~pop ^loans; C28@0.6,0.62:0.36~r ^buyers; D14@0.85,0.38:0.3~pop ^prices
 Except they didn't. || A45@0.3,0.6:0.6~none; D11@0.65,0.55:0.46~pop ^except; E45@0.87,0.35:0.36~t ^didn't
