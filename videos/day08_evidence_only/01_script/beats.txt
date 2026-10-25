@@ -1,0 +1,189 @@
+# Day 8: What's Really Keeping American Housing Prices High?. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The sales that never happened ----------
+[calm] In March twenty twenty-four, the Federal Housing Finance Agency published a strange number. || H04@0.12,0.66:0.5~none; doc:s01_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8
+One point three three million American home sales that should have happened, and never did. || A01@0.12,0.66:0.5~none; doc:s01_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8
+In those same years, mortgage rates more than doubled. || A15@0.12,0.66:0.5~none; doc:s01_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8
+So you'd think house prices fell. || A18@0.12,0.66:0.5~none; doc:s01_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8
+When loans get expensive, buyers disappear, and prices are supposed to come down. || A29@0.12,0.66:0.5~none; doc:s01_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.555,0.467,0.85,0.533+0.8
+Except they didn't. || H04@0.12,0.66:0.5~none; doc:s02_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.07,0.463,0.173,0.524+0.8
+The typical new house in America still sells for over four hundred ten thousand dollars. || A33@0.12,0.66:0.5~none; doc:s02_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.07,0.463,0.173,0.524+0.8
+And the thirty-year mortgage rate this week is still above seven percent. || H04@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+Expensive loans. || A44@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+Expensive houses. || A44@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+At the same time. || A44@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+That's not supposed to happen. || A44@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+And the easy answers don't really work. || A21@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+It's not just Wall Street buying everything. || A24@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+It's not just that builders are slow. || A27@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+What's actually happening is much deeper. || A28@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+It's not about why buyers can't buy. || H05@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+It's about why sellers won't sell. || H08@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+And if you rent, or you're saving for your first home, this is the reason your plan keeps getting pushed back. || A38@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+But for this to make sense, we first need to measure how far a house has moved away from your paycheck. || A15@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8
+
+# ---------- CHAPTER 2: The price gap ----------
+|| A23@0.12,0.66:0.5~none; doc:s03_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, 30-Year Fixed Rate Mortgage Average" hl=0.07,0.463,0.169,0.524+0.8; sting; hold:1.2
+[calm] In twenty twenty-five, || H04@0.12,0.66:0.5~none; doc:s04_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Household Income" hl=0.07,0.463,0.151,0.524+0.8
+the median American household earned about eighty-seven thousand dollars a year. || A40@0.12,0.66:0.5~none; doc:s04_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Household Income" hl=0.07,0.463,0.151,0.524+0.8
+The median new house sold for about four hundred ten thousand. || H04@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+That's almost five years of your entire pay, before taxes, food, or anything else. || A01@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+In nineteen eighty-five, the same two numbers from the same government data gave about three and a half years. || A18@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+The house didn't just get pricier. || A29@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+It ran away from paychecks. || A33@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+But almost nobody pays cash. || A41@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+What decides if you can buy is the monthly payment. || A44@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+And that depends on the rate. || A24@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+In January twenty twenty-one, the thirty-year rate fell to two point six five percent. || A27@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+The lowest in the history of that data. || A28@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+Now do the math on a four hundred ten thousand dollar house with ten percent down. || H05@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+At two point six five percent, your payment is about one thousand four hundred ninety dollars a month. || H08@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+At seven point three two percent, it's about two thousand five hundred forty. || A40@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+Same house. || A01@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+Same down payment. || A01@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+One thousand fifty dollars more, every single month. || A01@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+That's over twelve thousand dollars a year, for the exact same walls and the exact same roof. || A15@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+It's like your landlord raising the rent, except you're the one who owns the place. || A18@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+So fewer buyers can pay that. || A29@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+Sellers should cut prices. || A33@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+But here's where the normal rule starts to break. || A16@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+
+# ---------- CHAPTER 3: The first domino: golden handcuffs ----------
+|| A23@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8; sting; hold:1.2
+[calm] The first domino is the loan most Americans already have. || A17@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+The normal home loan here is a thirty-year fixed rate. || A02@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+Your rate never changes, for thirty years. || A33@0.12,0.66:0.5~none; doc:s05_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FRED, Median Sales Price of New Houses" hl=0.114,0.463,0.173,0.524+0.8
+The FHFA paper says nearly all fifty million active mortgages in the United States have fixed rates. || H04@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+And in twenty twenty and twenty twenty-one, millions of owners bought or refinanced at around three percent. || A44@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+That cheap rate stays with them until they sell. || A24@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+Now imagine you're one of them. || H01@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+You have a three hundred thousand dollar loan at three percent. || A27@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+You pay about one thousand two hundred sixty-five dollars a month. || A28@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+If you sell and take the same loan at today's rate, you pay about two thousand sixty. || H05@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+Almost eight hundred dollars more, every month, for a similar house. || H08@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+So you do the only thing that makes financial sense. || A40@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+Nothing. || A01@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+You stay. || A01@0.12,0.66:0.5~none; doc:s06_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.216,0.467,0.491,0.533+0.8
+The paper puts it plainly. || H04@0.12,0.66:0.5~none; doc:s07_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.913,0.556+0.8
+Most of these loans sit far below today's rates, which creates a disincentive to sell. || A01@0.12,0.66:0.5~none; doc:s07_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.913,0.556+0.8
+And they measured it. || H04@0.12,0.66:0.5~none; doc:s08_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.632,0.467,0.865,0.533+0.8
+For every one point that today's rate sits above yours, your chance of selling falls by eighteen point one percent. || A16@0.12,0.66:0.5~none; doc:s08_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.632,0.467,0.865,0.533+0.8
+By the end of twenty twenty-three, || H04@0.12,0.66:0.5~none; doc:s09_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.183,0.467,0.553,0.533+0.8
+that lock-in alone had cut sales of homes with fixed-rate loans by fifty-seven percent. || A34@0.12,0.66:0.5~none; doc:s09_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.183,0.467,0.553,0.533+0.8
+People call these golden handcuffs. || H04@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+The rate is so good it keeps you in a house you might not even want anymore. || A16@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+Like keeping a gym membership you never use, because the old price will never come back. || A16@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+And this is where it flips. || A16@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+When owners don't sell, there are fewer buyers, yes. || A16@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+But there are also far fewer houses for sale. || A16@0.12,0.66:0.5~none; doc:s10_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.199,0.467,0.478,0.533+0.8
+The FHFA did the math on both sides. || H04@0.12,0.66:0.5~none; doc:s11_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.509,0.467,0.681,0.533+0.8
+Higher rates on their own pushed prices down by three point three percent. || A15@0.12,0.66:0.5~none; doc:s11_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.509,0.467,0.681,0.533+0.8
+But the missing sellers pushed prices up by five point seven percent. || H04@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+The tool built to cool prices froze the sellers instead. || A18@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+And prices went up. || A29@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+But lock-in only explains the last few years. || A29@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+The country was short on homes long before that. || A33@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+
+# ---------- CHAPTER 4: The second domino: the homes nobody built ----------
+|| A23@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8; sting; hold:1.2
+[calm] The second domino fell almost twenty years ago. || A20@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+In two thousand five, American builders started about two million homes a year. || A44@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+Then the two thousand eight crash hit. || A08@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+By April two thousand nine, new home starts had fallen to about four hundred seventy-eight thousand a year. || A24@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+The lowest since records began in nineteen fifty-nine. || A45@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+And building didn't get back to one and a half million a year until twenty twenty-one. || A27@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+That's twelve years of under-building. || A28@0.12,0.66:0.5~none; doc:s12_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.444,0.907,0.556+0.8
+Freddie Mac, || H04@0.12,0.66:0.5~none; doc:s13_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.174,0.651,0.513,0.71+0.8
+the government-backed mortgage company, estimates the country is short three point seven million homes. || H05@0.12,0.66:0.5~none; doc:s13_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.174,0.651,0.513,0.71+0.8
+America did build again. || H04@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+Five point eight million homes in about four years. || H08@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+But demand grew almost as fast, so the hole barely shrank. || A40@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+It's like running on a treadmill for four years. || A01@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+You're tired, you're sweaty, and you're standing in the exact same spot. || A16@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+So why don't builders just build more? || A06@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+
+# ---------- CHAPTER 5: The third domino: the rules ----------
+|| A23@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8; sting; hold:1.2
+[calm] Because in a lot of places, they're not allowed to. || A16@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+And this is where zoning enters the story. || A16@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+Zoning rules decide what can be built on each piece of land. || A16@0.12,0.66:0.5~none; doc:s14_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Freddie Mac Research" hl=0.228,0.471,0.591,0.529+0.8
+In many American cities, about seventy-five percent of the land for homes allows only one thing. || H04@0.12,0.66:0.5~none; doc:s15_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.568,0.549+0.8
+A single detached house on its own lot. || A15@0.12,0.66:0.5~none; doc:s15_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.568,0.549+0.8
+In San Jose, || H04@0.12,0.66:0.5~none; doc:s16_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.158,0.661,0.297,0.718+0.8
+California, it's ninety-four percent. || A18@0.12,0.66:0.5~none; doc:s16_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.158,0.661,0.297,0.718+0.8
+The rule goes back to nineteen sixteen, || H04@0.12,0.66:0.5~none; doc:s17_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.378,0.479,0.726,0.537+0.8
+in the Elmwood neighborhood of Berkeley, California. || A29@0.12,0.66:0.5~none; doc:s17_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.378,0.479,0.726,0.537+0.8
+And the effect is simple. || H04@0.12,0.66:0.5~none; doc:s18_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.592,0.549+0.8
+When you can only build one home where four could fit, you get fewer homes, and each one costs more. || A33@0.12,0.66:0.5~none; doc:s18_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.451,0.592,0.549+0.8
+And when a builder asks to build more, local residents often show up to stop it. || H04@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+There's even a name for that. || A44@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+NIMBY. || A24@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+Not in my back yard. || A24@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+Here's the quiet part. || A38@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+Most people at those meetings already own a home. || A27@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+And when homes stay scarce, their homes stay valuable. || A28@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+It's like letting the people already on the bus vote on whether the bus gets more seats. || H05@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+Now, about that other answer everybody reaches for. || H08@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+Wall Street. || A40@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8
+
+# ---------- CHAPTER 6: Wall Street, and who still gets in ----------
+|| A23@0.12,0.66:0.5~none; doc:s19_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, NIMBY" hl=0.142,0.408,0.589,0.505+0.8; sting; hold:1.2
+[calm] After the two thousand eight crash, millions of homes were foreclosed. || H04@0.12,0.66:0.5~none; doc:s20_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.178,0.526,0.439,0.583+0.8
+Between twenty ten and twenty eleven, a company called Treehouse bought one thousand distressed houses in Phoenix, Arizona. || A38@0.12,0.66:0.5~none; doc:s20_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.178,0.526,0.439,0.583+0.8
+In twenty twelve, || H04@0.12,0.66:0.5~none; doc:s21_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.142,0.752,0.565,0.85+0.8
+Blackstone bought it and formed Invitation Homes. || A40@0.12,0.66:0.5~none; doc:s21_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.142,0.752,0.565,0.85+0.8
+By December twenty twenty-five, || H04@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+it owned eighty-six thousand one hundred ninety-two rental homes. || A01@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+That sounds huge. || A15@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+But America has tens of millions of houses. || A15@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+Big investors matter a lot in some cities, like Atlanta and Phoenix, and much less in most others. || A18@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+The bigger competition is quieter. || A29@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+It's people who already own a home and are sitting on years of equity. || A33@0.12,0.66:0.5~none; doc:s22_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Invitation Homes" hl=0.249,0.46,0.46,0.518+0.8
+The National Association of Realtors found that thirty percent of repeat buyers paid all cash. || H04@0.12,0.66:0.5~none; doc:s23_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.134,0.659,0.296,0.721+0.8
+And first-time buyers who did make it? || H04@0.12,0.66:0.5~none; doc:s24_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8
+Twenty-two percent used gifts or loans from family and friends for the down payment. || A44@0.12,0.66:0.5~none; doc:s24_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8
+The bank of mom and dad. || A24@0.12,0.66:0.5~none; doc:s24_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8
+So who is getting locked out? || A07@0.12,0.66:0.5~none; doc:s24_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8
+
+# ---------- CHAPTER 7: The people locked out ----------
+|| A23@0.12,0.66:0.5~none; doc:s24_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.153,0.659,0.398,0.719+0.8; sting; hold:1.2
+[calm] The same report gave two records on the same day. || H04@0.12,0.66:0.5~none; doc:s25_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.469,0.307,0.531+0.8
+First-time buyers made up just twenty-one percent of all home purchases. || A17@0.12,0.66:0.5~none; doc:s25_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.469,0.307,0.531+0.8
+The lowest share ever recorded. || A36@0.12,0.66:0.5~none; doc:s25_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.469,0.307,0.531+0.8
+And the typical first-time buyer was forty years old. || H04@0.12,0.66:0.5~none; doc:s26_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.449,0.589,0.551+0.8
+The oldest ever recorded. || A09@0.12,0.66:0.5~none; doc:s26_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.449,0.589,0.551+0.8
+That share has shrunk by half since two thousand seven. || H04@0.12,0.66:0.5~none; doc:s27_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.312,0.766,0.5,0.828+0.8
+And waiting costs you real money. || H04@0.12,0.66:0.5~none; doc:s28_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.513,0.592,0.867+0.8
+NAR's estimate: buying at forty instead of thirty can mean losing about one hundred fifty thousand dollars of equity on a starter home. || A27@0.12,0.66:0.5~none; doc:s28_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.116,0.513,0.592,0.867+0.8
+Meanwhile, owners stay put longer than ever. || H04@0.12,0.66:0.5~none; doc:s29_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.134,0.659,0.401,0.721+0.8
+The typical seller had lived in their home for eleven years. || A28@0.12,0.66:0.5~none; doc:s29_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.134,0.659,0.401,0.721+0.8
+Another all-time high. || H05@0.12,0.66:0.5~none; doc:s29_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: National Association of Realtors" hl=0.134,0.659,0.401,0.721+0.8
+And the FHFA paper adds one more line. || H04@0.12,0.66:0.5~none; doc:s30_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.276,0.921,0.724+0.8
+People with less wealth are the least able to time their sales, which makes inequality worse. || H05@0.12,0.66:0.5~none; doc:s30_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.276,0.921,0.724+0.8
+So is anything actually working? || A39@0.12,0.66:0.5~none; doc:s30_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.276,0.921,0.724+0.8
+
+# ---------- CHAPTER 8: What could unlock it ----------
+|| A23@0.12,0.66:0.5~none; doc:s30_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: FHFA Working Paper 24-03" hl=0.079,0.276,0.921,0.724+0.8; sting; hold:1.2
+[calm] Some places changed the rules. || H04@0.12,0.66:0.5~none; doc:s31_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.58,0.555,0.637+0.8
+In twenty eighteen, Minneapolis became the first major American city to end single-family zoning. || H01@0.12,0.66:0.5~none; doc:s31_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Single-family zoning" hl=0.142,0.58,0.555,0.637+0.8
+California went after backyards. || H04@0.12,0.66:0.5~none; doc:s32_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Accessory dwelling unit" hl=0.142,0.56,0.76,0.657+0.8
+In twenty sixteen it passed laws that limit how much cities can block small backyard homes. || H08@0.12,0.66:0.5~none; doc:s32_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Accessory dwelling unit" hl=0.142,0.56,0.76,0.657+0.8
+And some loans are assumable. || H04@0.12,0.66:0.5~none; doc:s33_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.774,0.549+0.8
+A buyer can take over the seller's loan, including the old low rate. || A40@0.12,0.66:0.5~none; doc:s33_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.774,0.549+0.8
+Those deals have grown since twenty twenty-two, for exactly this reason. || H04@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+But most loans don't allow it. || A01@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+And lower rates would free some owners. || A16@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+But they'd bring buyers back at the same moment. || A16@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+Rates alone can't fix a shortage. || A16@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+This is not financial advice. || A16@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+It's just how the machine works. || A03@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+So here's the answer. || A20@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+Higher rates scared buyers away. || A15@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+But they froze sellers in place even harder. || A18@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+The market didn't crash. || A09@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+It froze. || A29@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+So today, the typical first-time buyer is forty, often with help from mom and dad, buying from an owner who sat tight for eleven years. || H03@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+What we've built is a system that protects the people already inside it, and hands the bill to whoever is next in line. || A29@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+Thanks for watching Dollar Diaries. || A33@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8
+
+|| A23@0.12,0.66:0.5~none; doc:s34_card.png@0.6,0.5 w=0.72 h=0.8 src="Source: Wikipedia, Assumable mortgage" hl=0.142,0.451,0.772,0.549+0.8; hold:3
