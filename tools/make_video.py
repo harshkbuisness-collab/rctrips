@@ -933,6 +933,7 @@ def room_tone(n):
 
 PUSH_IN, PUSH_HOLD = 0.6, 2.6          # camera: seconds to zoom onto a highlight, seconds it stays close
 MUSIC_DB, MUSIC_GAP_DB = -33, -27     # background music level under speech / in pauses (after loudness gain)
+MUSIC = os.environ.get("MUSIC", "0") == "1"   # owner, 25 Oct 2026: no background music for now
 POP_DB = -32                          # soft pop when anything new appears
 WHOOSH_DB = -30                       # soft whoosh when a new screenshot or board comes in
 
@@ -1052,7 +1053,7 @@ def render(beats, timings, audio, out_mp4, workdir, vdir, soft_eq=True, clip=Non
     mix = mix + room_tone(len(mix)) * 10 ** ((ROOM_TONE_DB - gain) / 20)
     n = len(mix)
     g = duck(mix, n)
-    music = load_music(vdir, n) * (10 ** ((MUSIC_GAP_DB - gain) / 20) * (1 - g) + 10 ** ((MUSIC_DB - gain) / 20) * g)
+    music = (0 if not MUSIC else load_music(vdir, n)) * (10 ** ((MUSIC_GAP_DB - gain) / 20) * (1 - g) + 10 ** ((MUSIC_DB - gain) / 20) * g)
     fade = np.ones(n, dtype=np.float32)
     fade[:SR] = np.linspace(0, 1, SR)
     fade[-3 * SR:] = np.linspace(1, 0, 3 * SR)

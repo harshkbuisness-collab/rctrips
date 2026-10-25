@@ -12,7 +12,7 @@ The weekly limit must last the full week, so use as few tokens as possible in ev
 
 ## Who does what
 - **Owner:** writes scripts with ChatGPT (`research/08-chatgpt-prompts.md`), makes the voice, and sends all feedback in one list.
-- **Channel voice (owner, 25 Oct 2026):** Kokoro male "am_michael" (calm, dry, like Casual Finance), speed 1.0, via `tools/make_voice.py`.
+- **Channel voice (owner, 25 Oct 2026):** Kokoro male "am_michael", speed 1.15 (faster pace), via `tools/make_voice.py`. No background music for now (MUSIC=1 turns it back on).
 - **Claude:** takes the screenshots, checks the script format, builds the sheet (`python3 tools/sheet/build_sheet.py`), and makes the video.
 - **Own pictures per video (owner, 21 Oct 2026):** `python3 tools/asset_prompts.py scripts/dayNN_x.md` writes
   `assets_needed/dayNN_prompts.md`; the owner saves pictures as `library/custom/dayNN/<ID>.png` and the video tools use

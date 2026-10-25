@@ -13,8 +13,8 @@ import parse_script
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KDIR = os.environ.get("KOKORO_DIR", os.path.join(ROOT, "tools", "voice_studio", "kokoro"))
-VOICE, SPEED = os.environ.get("VOICE", "am_michael"), 1.0   # owner, 25 Oct 2026: male, Casual Finance style
-GAP, GAP_CHAPTER, GAP_PUNCH = 0.35, 0.8, 0.8   # longer pause after short punch lines ("Except they didn't.")
+VOICE, SPEED = os.environ.get("VOICE", "am_michael"), 1.15  # owner, 25 Oct 2026: male, faster pace
+GAP, GAP_CHAPTER, GAP_PUNCH = 0.25, 0.6, 0.55   # longer pause after short punch lines ("Except they didn't.")
 
 
 def main(script, out):
