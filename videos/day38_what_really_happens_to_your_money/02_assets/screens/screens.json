@@ -1,0 +1,674 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"no depositor has ever lost a penny of FDIC-insured funds\"",
+  "said": "There is one sentence the United States government is very proud of. Since nineteen thirty-three, no depositor has ever lost a single penny of insured money.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 1,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"WaMu's closure and receivership is the largest bank failure in American financial history\"",
+  "said": "And yet, American banks fail. Sometimes huge ones. In two thousand eight, a bank with three hundred billion dollars in assets collapsed in a single week.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.681,
+   0.769,
+   0.831
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"Bank reserves are held as cash in the bank or as balances in the bank's account at the central bank .\"",
+  "said": "The bank keeps a small part of it as reserves. Those are cash in the bank, or money in the bank's own account at the central bank.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"in which banks would keep all depositor funds on hand as reserves\"",
+  "said": "This system is called fractional-reserve banking. Fractional means the bank keeps only a fraction, a part, of its deposits on hand.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"do not impose explicit reserve requirements at all\"",
+  "said": "Here is something that surprises people. The United States does not even require banks to keep a set minimum anymore.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.397,
+   0.769,
+   0.573
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"only a proportion of deposits will be withdrawn at the same time\"",
+  "said": "Why does this work most of the time? Because on a normal day, only a few customers take money out. The bank keeps enough for normal days.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.569,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"while loans made by banks tend to be longer-term\"",
+  "said": "But there is a built-in problem. Deposits can be taken out any day. Loans take years to pay back.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.569,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Fractional-reserve banking",
+  "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+  "what": "highlight \"the central bank may provide funds to cover the short-term shortfall as lender of last resort\"",
+  "said": "On a bad day, a bank can borrow from other banks for a short time to cover a gap. In a real emergency, the central bank can lend to it too. That is called being the lender of last resort.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.569,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, Bank run",
+  "url": "https://en.wikipedia.org/wiki/Bank_run",
+  "what": "highlight \"it may become a self-fulfilling prophecy\"",
+  "said": "Economists call this a self-fulfilling prophecy. The fear itself causes the thing it fears.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.669
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Bank run",
+  "url": "https://en.wikipedia.org/wiki/Bank_run",
+  "what": "highlight \"mentioned bank runs as a prime example of the concept\"",
+  "said": "The sociologist who invented the phrase self-fulfilling prophecy used bank runs as his main example.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, Bank run",
+  "url": "https://en.wikipedia.org/wiki/Bank_run",
+  "what": "highlight \"it is logical for individual depositors to engage in a bank run once they suspect one might start\"",
+  "said": "Two economists, Diamond and Dybvig, showed why. Once you think a run might start, the smart thing for you is to run too, even if the bank was healthy.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 27,
+  "source": "Wikipedia, Bank run",
+  "url": "https://en.wikipedia.org/wiki/Bank_run",
+  "what": "highlight \"Many of the recessions in the United States were caused by banking panics.\"",
+  "said": "When many banks have runs at the same time, it is called a banking panic. America had a lot of them.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Bank run",
+  "url": "https://en.wikipedia.org/wiki/Bank_run",
+  "what": "highlight \"Banking panics began in the Southern United States in November 1930\"",
+  "said": "The worst ones came after the nineteen twenty-nine stock crash. In November nineteen thirty, a string of banks in Tennessee and Kentucky collapsed, and panic spread.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"declared an eight-day bank holiday\"",
+  "said": "By February nineteen thirty-three, things were so bad that Michigan closed all its banks for eight days. Within weeks, every state did the same.",
+  "file": "s14.png",
+  "box": [
+   0.125,
+   0.528,
+   0.738,
+   0.704
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"he declared a four-day national banking holiday\"",
+  "said": "Delaware was the last state to close its banks, on March fourth. On March sixth, the new president, Franklin Roosevelt, closed every bank in the country.",
+  "file": "s15.png",
+  "box": [
+   0.125,
+   0.7,
+   0.738,
+   0.876
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"FDR gave his first fireside chat\"",
+  "said": "Congress passed an emergency law three days later. On March twelfth, Roosevelt went on the radio and explained it in plain words to the whole country.",
+  "file": "s16.png",
+  "box": [
+   0.125,
+   0.751,
+   0.738,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"allowed the twelve Federal Reserve Banks to issue additional currency\"",
+  "said": "The new law let the Federal Reserve print extra currency for banks that reopened, so they could pay anyone who came to the counter.",
+  "file": "s17.png",
+  "box": [
+   0.125,
+   0.93,
+   0.738,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"depositors stood in line to return their stashed cash to neighborhood banks\"",
+  "said": "The next morning, when banks reopened, something amazing happened. People stood in line to put their cash back in.",
+  "file": "s18.png",
+  "box": [
+   0.125,
+   0.751,
+   0.738,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 35,
+  "source": "Wikipedia, Emergency Banking Act of 1933",
+  "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act",
+  "what": "highlight \"are seen to have ended the bank runs that plagued the Great Depression\"",
+  "said": "Historians now see that bank holiday as the moment the runs of the Great Depression finally ended.",
+  "file": "s19.png",
+  "box": [
+   0.125,
+   0.738,
+   0.738,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"The FDIC was created by the Banking Act of 1933\"",
+  "said": "On June sixteenth, nineteen thirty-three, a new law created the Federal Deposit Insurance Corporation, the FDIC.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.752,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"covers up to $250,000 per depositor, per FDIC-insured bank, for each account ownership category\"",
+  "said": "Today, the limit is two hundred fifty thousand dollars per depositor, per bank, for each type of account ownership.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"Each ownership category of a depositor's money is insured separately up to the insurance limit\"",
+  "said": "Ownership type means things like an account in your own name, a joint account with a spouse, or certain retirement accounts. Each is counted separately.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"for total insurance coverage of $1,500,000\"",
+  "said": "So one person with three types of accounts at two different banks could be covered for up to one and a half million dollars.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"backed by the full faith and credit of the government of the United States\"",
+  "said": "The insurance is backed by the full faith and credit of the United States government. That means the whole country stands behind it.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"The FDIC charges premiums based upon the risk that the insured bank poses.\"",
+  "said": "Who pays for it? Mostly the banks themselves. They pay the FDIC insurance premiums, and riskier banks pay more.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.655,
+   0.769,
+   0.805
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 44,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"Non-US citizens are also covered by FDIC insurance\"",
+  "said": "You do not even have to be an American citizen. The insurance covers anyone with deposits at an insured bank's office inside the United States.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"Stocks , bonds , and mutual funds including money funds\"",
+  "said": "But not everything at a bank is insured. Stocks, bonds and mutual funds are not covered, even if you bought them through your bank.",
+  "file": "s27.png",
+  "box": [
+   0.172,
+   0.735,
+   0.769,
+   0.865
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"with 2,239 retail branch offices operating in 15 states\"",
+  "said": "In September two thousand eight, Washington Mutual was the largest savings bank in America. It had more than two thousand branches in fifteen states.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"WaMu had total assets of $307 billion\"",
+  "said": "It had more than forty-three thousand employees and over three hundred billion dollars in assets.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.634,
+   0.769,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"the withdrawal of US$16.7 billion in deposits during a 9-day bank run\"",
+  "said": "After its credit rating was cut, customers pulled out sixteen point seven billion dollars in just nine days.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.379,
+   0.769,
+   0.685
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"seized WaMu's banking operations and placed them under the receivership\"",
+  "said": "On September twenty-fifth, regulators seized the bank and handed it to the FDIC.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.379,
+   0.769,
+   0.685
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"The FDIC sold the banking subsidiaries\"",
+  "said": "Then the FDIC sold the banking business to JPMorgan Chase, for about two billion dollars. Customers simply became JPMorgan Chase customers.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.379,
+   0.769,
+   0.685
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Washington Mutual",
+  "url": "https://en.wikipedia.org/wiki/Washington_Mutual",
+  "what": "highlight \"WaMu filed suit against the FDIC\"",
+  "said": "The bank's owners were so upset that they later sued the FDIC, claiming the bank had been seized unfairly and sold too cheaply.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"customers had withdrawn $42 billion\"",
+  "said": "Fifteen years later, it happened again, faster. In March twenty twenty-three, Silicon Valley Bank lost forty-two billion dollars in deposits in one day.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"Employees received their annual bonuses on March 10, 2023, hours before the government took control of the company.\"",
+  "said": "One detail made many people angry. The bank's employees received their yearly bonuses on March tenth, just hours before the government took control.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Collapse of Silicon Valley Bank",
+  "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+  "what": "highlight \"all depositors would have full access to their funds the next morning\"",
+  "said": "Two days later, the government made a special decision. Every depositor, insured or not, would get full access to their money the next morning.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.979
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, First Republic Bank",
+  "url": "https://en.wikipedia.org/wiki/First_Republic_Bank",
+  "what": "highlight \"deposited $30 billion with First Republic\"",
+  "said": "A few weeks later, another bank wobbled. Eleven of America's biggest banks put thirty billion dollars into First Republic Bank to calm the panic.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, First Republic Bank",
+  "url": "https://en.wikipedia.org/wiki/First_Republic_Bank",
+  "what": "highlight \"the FDIC announced that First Republic had been closed and sold to JPMorgan Chase\"",
+  "said": "It was not enough. On May first, regulators closed it, and JPMorgan Chase bought nearly all of it.",
+  "file": "s38.png",
+  "box": [
+   0.156,
+   0.285,
+   0.769,
+   0.461
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, First Republic Bank",
+  "url": "https://en.wikipedia.org/wiki/First_Republic_Bank",
+  "what": "highlight \"paying the FDIC $10.6 billion for nearly all of First Republic's assets\"",
+  "said": "JPMorgan paid the FDIC ten point six billion dollars for nearly all of it. The biggest bank in America got even bigger.",
+  "file": "s39.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"the FDIC is appointed receiver\"",
+  "said": "Rosa's bank is closed by regulators. The FDIC is appointed to take over. In bank language, it becomes the receiver.",
+  "file": "s40.png",
+  "box": [
+   0.172,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"in which deposits (liabilities) are assumed by an open bank\"",
+  "said": "The FDIC has two main ways to handle a failed bank. The most common one is to find a healthy bank that will take over the deposits and buy the loans.",
+  "file": "s41.png",
+  "box": [
+   0.172,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 67,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"Deposit payoff\"",
+  "said": "If no bank wants it, the FDIC pays depositors directly, up to the insured limit. That is called a deposit payoff.",
+  "file": "s42.png",
+  "box": [
+   0.172,
+   0.781,
+   0.262,
+   0.818
+  ],
+  "page": null,
+  "ok": true
+ }
+]

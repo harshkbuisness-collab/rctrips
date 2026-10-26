@@ -1,0 +1,498 @@
+[
+ {
+  "line": 2,
+  "source": "Wikipedia, United States dollar",
+  "url": "https://en.wikipedia.org/wiki/United_States_dollar",
+  "what": "highlight \"The dollar is the most widely used currency in international transactions\"",
+  "said": "Why does it matter so much? Because the dollar is the most widely used currency in the world for international deals.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.413,
+   0.769,
+   0.719
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"The term exorbitant privilege was coined in the 1960s by Val\u00e9ry Giscard d'Estaing\"",
+  "said": "That special position even has a nickname. In the nineteen sixties, a French finance minister called it America's exorbitant privilege.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.867,
+   0.769,
+   0.965
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"see themselves supporting American living standards and subsidizing American multinationals\"",
+  "said": "The French complained that foreigners were basically helping support American living standards, just by holding dollars.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 6,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"The US can borrow at lower interest rates because there is a high demand for dollar-denominated assets.\"",
+  "said": "The biggest benefit is cheap borrowing. Because the whole world wants dollars and dollar bonds, America can borrow at lower interest rates than it otherwise could.",
+  "file": "s04.png",
+  "box": [
+   0.172,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 7,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"to borrow beyond the fiscal capacity of other states\"",
+  "said": "It even lets America borrow more than other countries could get away with.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.349
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia, United States dollar",
+  "url": "https://en.wikipedia.org/wiki/United_States_dollar",
+  "what": "highlight \"has since floated freely on the foreign exchange markets\"",
+  "said": "Currencies move against each other every day. The dollar floats, which means its price is set by markets, not by a fixed rule.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "Wikipedia, Plaza Accord",
+  "url": "https://en.wikipedia.org/wiki/Plaza_Accord",
+  "what": "highlight \"the dollar had appreciated by about 50% against the Japanese yen\"",
+  "said": "Big swings have happened before. From nineteen eighty to nineteen eighty-five, the dollar rose about fifty percent against the other big currencies.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.9,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Plaza Accord",
+  "url": "https://en.wikipedia.org/wiki/Plaza_Accord",
+  "what": "highlight \"the dollar reached its highest valuation ever against the British pound\"",
+  "said": "In March nineteen eighty-five, the dollar hit its highest value ever against the British pound. That record held for more than thirty years.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.9,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia, Plaza Accord",
+  "url": "https://en.wikipedia.org/wiki/Plaza_Accord",
+  "what": "highlight \"Congress to begin considering passing protectionist laws\"",
+  "said": "American factories were struggling to sell abroad, and Congress started talking about trade barriers.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.9,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "Wikipedia, Plaza Accord",
+  "url": "https://en.wikipedia.org/wiki/Plaza_Accord",
+  "what": "highlight \"met at the Plaza Hotel in New York City\"",
+  "said": "That made American products too expensive abroad. So in September nineteen eighty-five, five big countries met at the Plaza Hotel in New York and agreed to push the dollar down.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Plaza Accord",
+  "url": "https://en.wikipedia.org/wiki/Plaza_Accord",
+  "what": "highlight \"depreciated significantly from the time of the agreement\"",
+  "said": "Over the next two years, the dollar fell a lot. But it was planned, slow, and controlled. Americans barely noticed.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.427
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"When exorbitant privilege is lost, investors into government bonds suffer substantial losses\"",
+  "said": "History shows what happens when a country loses this kind of privilege. Bond investors suffer big losses, and governments often turn to financial repression, keeping rates artificially low while inflation eats savings.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.345,
+   0.769,
+   0.495
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Hyperinflation in the Weimar Republic",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"fell from 320 marks per dollar in mid 1922 to 7,400 marks per US dollar by December 1922\"",
+  "said": "By December of that same year, one dollar bought seven thousand four hundred marks.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.397,
+   0.769,
+   0.625
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Hyperinflation in the Weimar Republic",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"a nearly 17-fold increase\"",
+  "said": "In those same six months, the cost of living rose almost seventeen times.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Hyperinflation in the Weimar Republic",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"By November 1923, one US dollar was worth 4.2105 trillion German marks.\"",
+  "said": "And by November nineteen twenty-three, one dollar was worth more than four trillion marks.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Hyperinflation in the Weimar Republic",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"A loaf of bread in Berlin that cost around 160 marks at the end of 1922 cost 200 billion marks by late 1923.\"",
+  "said": "A loaf of bread in Berlin that cost about one hundred sixty marks at the end of nineteen twenty-two cost two hundred billion marks by late nineteen twenty-three.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Hyperinflation in the Weimar Republic",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+  "what": "highlight \"On 16 November 1923, the new Rentenmark was introduced\"",
+  "said": "Germany finally stopped it by creating a brand new currency, the Rentenmark, in November nineteen twenty-three.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"a rate estimated at 79,600,000,000% per month\"",
+  "said": "The second example is Zimbabwe. In November two thousand eight, prices there were rising by an estimated seventy-nine billion percent in a single month.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.556,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"the year-over-year inflation rate reaching an astounding 89.7 sextillion percent\"",
+  "said": "Over a full year, the estimated inflation rate was eighty-nine point seven sextillion percent. That is a number with twenty-one zeros.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.556,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"At that time, a $100 trillion banknote could not pay for a simple bus fare.\"",
+  "said": "The country printed a one hundred trillion dollar banknote. At one point, it could not even pay for a simple bus ride.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"In 2009, the government abandoned printing Zimbabwean dollars entirely.\"",
+  "said": "In two thousand nine, Zimbabwe gave up printing its own money entirely. And what did people switch to? Mostly US dollars.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.752,
+   0.769,
+   0.85
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"the US dollar had the most credibility and was the most widely traded within Zimbabwe\"",
+  "said": "The country chose the dollar because it had the most credibility of all the options.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.726,
+   0.769,
+   0.876
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, Hyperinflation in Zimbabwe",
+  "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+  "what": "highlight \"80% of Zimbabweans use the US dollar\"",
+  "said": "Years later, the central bank said eighty percent of Zimbabweans were using the US dollar.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.7,
+   0.769,
+   0.902
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, Economy of Argentina",
+  "url": "https://en.wikipedia.org/wiki/Economy_of_Argentina",
+  "what": "highlight \"The Argentine peso lost ~50% of its value in 2018\"",
+  "said": "The third example is Argentina. Its currency, the peso, has crashed again and again. It lost about half its value in twenty eighteen, and ninety percent in twenty twenty.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.609,
+   0.769,
+   0.811
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Economy of Argentina",
+  "url": "https://en.wikipedia.org/wiki/Economy_of_Argentina",
+  "what": "highlight \"In 2001 a crisis shrank GDP by 20%, unemployment reached 25%, the peso declined by 70%.\"",
+  "said": "In two thousand one, Argentina defaulted on its debt. The economy shrank by twenty percent, unemployment hit twenty-five percent, and the peso fell seventy percent.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Economy of Argentina",
+  "url": "https://en.wikipedia.org/wiki/Economy_of_Argentina",
+  "what": "highlight \"swung from one of the world's richest in the early 20th century\"",
+  "said": "It is a painful story, because a hundred years ago, Argentina was one of the richest countries in the world.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.897,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, Economy of Argentina",
+  "url": "https://en.wikipedia.org/wiki/Economy_of_Argentina",
+  "what": "highlight \"inflation hit 344% in 1983\"",
+  "said": "In nineteen eighty-three, its inflation hit three hundred forty-four percent. In twenty eighteen, interest rates reached forty percent, the highest in the world.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Economy of Argentina",
+  "url": "https://en.wikipedia.org/wiki/Economy_of_Argentina",
+  "what": "highlight \"pegging the peso to the dollar\"",
+  "said": "In nineteen ninety-one, Argentina even tried tying the peso directly to the dollar. For a while, inflation fell to single digits. Then the peg broke in the two thousand one crisis.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"there are positive feedback effects associated with the exorbitant privilege that makes it hard for other currencies to become strong alternatives\"",
+  "said": "Third, a top currency has a kind of gravity. The more people use it, the more useful it becomes, which makes it very hard for any rival to replace it.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.611,
+   0.769,
+   0.813
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, Exorbitant privilege",
+  "url": "https://en.wikipedia.org/wiki/Exorbitant_privilege",
+  "what": "highlight \"The United Kingdom had exorbitant privilege for much of the 19th and early 20th century.\"",
+  "said": "History shows that top currencies do lose their crown. But slowly. The Dutch had this privilege in the sixteen hundreds. Britain had it for much of the eighteen hundreds and early nineteen hundreds.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.345,
+   0.769,
+   0.495
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Wikipedia, Reserve currency",
+  "url": "https://en.wikipedia.org/wiki/Reserve_currency",
+  "what": "highlight \"its share has declined over two decades\"",
+  "said": "You can already see a gentle version of that slide. The dollar's share of the world's central bank reserves has been slowly falling for about two decades.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.725,
+   0.769,
+   0.875
+  ],
+  "page": null,
+  "ok": true
+ }
+]

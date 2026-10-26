@@ -1,0 +1,343 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Enron_scandal",
+  "what": "highlight \"Enron scandal\"",
+  "said": "In December two thousand one, Enron, a company that reported sixty-three billion dollars in assets, collapsed in what was then the biggest bankruptcy in American history.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.083,
+   0.279,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Enron",
+  "what": "highlight \"Fortune\"",
+  "said": "For six years in a row, Fortune magazine named it America's most innovative company. Business schools taught its success story. Wall Street loved it.",
+  "file": "s02.png",
+  "box": [
+   0.277,
+   0.419,
+   0.331,
+   0.456
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 11,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kenneth_Lay",
+  "what": "highlight \"Kenneth Lee Lay\"",
+  "said": "Enron was formed in nineteen eighty-five, when two natural gas pipeline companies merged. Its boss was Ken Lay, a friendly economist with a doctorate.",
+  "file": "s03.png",
+  "box": [
+   0.615,
+   0.637,
+   0.701,
+   0.673
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling",
+  "what": "highlight \"Jeffrey Keith Skilling\"",
+  "said": "Then he hired a sharp young consultant named Jeff Skilling. Skilling had a big idea. Enron shouldn't just move gas. It should trade it, like a stock.",
+  "file": "s04.png",
+  "box": [
+   0.619,
+   0.546,
+   0.719,
+   0.582
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Mark-to-market_accounting",
+  "what": "highlight \"Mark-to-market accounting\"",
+  "said": "The rule was called mark-to-market accounting. In nineteen ninety-two, regulators allowed Enron to use it for its contracts.",
+  "file": "s05.png",
+  "box": [
+   0.029,
+   0.408,
+   0.145,
+   0.46
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 24,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+  "what": "highlight \"10-K\"",
+  "said": "Imagine a lemonade stand that signs a deal to sell lemonade every summer for twenty years. It tells everyone it already made twenty years of profit, today.",
+  "file": "s06.png",
+  "box": [
+   0.396,
+   0.522,
+   0.81,
+   0.59
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Enron_scandal",
+  "what": "highlight \"Blockbuster\"",
+  "said": "One famous example was a deal with the video store chain Blockbuster to stream movies over the internet. It barely worked. Enron still booked over a hundred million dollars of expected profit.",
+  "file": "s07.png",
+  "box": [
+   0.342,
+   0.782,
+   0.443,
+   0.819
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Andrew_Fastow",
+  "what": "highlight \"Andrew Stuart Fastow\"",
+  "said": "Enron's chief financial officer was Andrew Fastow. His job was to make the company's money look good. He became very creative at it.",
+  "file": "s08.png",
+  "box": [
+   0.613,
+   0.386,
+   0.719,
+   0.422
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 39,
+  "source": "U.S. Securities and Exchange Commission",
+  "url": "https://www.sec.gov/news/press/2002-143.htm",
+  "what": "highlight \"Fastow\"",
+  "said": "Fastow also gave himself a special deal. He personally ran some of these side companies, and earned more than thirty million dollars from them.",
+  "file": "s09.png",
+  "box": [
+   0.433,
+   0.264,
+   0.67,
+   0.3
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Arthur_Andersen",
+  "what": "highlight \"Arthur Andersen\"",
+  "said": "Enron's outside auditor, the famous firm Arthur Andersen, signed off on the books year after year. Andersen was also earning huge consulting fees from Enron.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.083,
+   0.297,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 43,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bethany_McLean",
+  "what": "highlight \"Bethany McLean\"",
+  "said": "In March two thousand one, a young Fortune reporter named Bethany McLean published an article with a simple title. Is Enron overpriced?",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.083,
+   0.301,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Smartest_Guys_in_the_Room",
+  "what": "highlight \"The Smartest Guys in the Room\"",
+  "said": "Skilling reportedly called her questions unethical. A few weeks later, on a call with investors, he insulted an analyst who asked why Enron wouldn't share its full financial statements.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.083,
+   0.459,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/2000%E2%80%9301_California_electricity_crisis",
+  "what": "highlight \"California electricity crisis\"",
+  "said": "That spring, there was another warning. California had suffered an electricity crisis, with blackouts and soaring prices. Later evidence showed Enron traders had helped make it worse.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.083,
+   0.454,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Sherron_Watkins",
+  "what": "highlight \"Sherron Watkins\"",
+  "said": "A few days later, an Enron executive named Sherron Watkins wrote a letter to Ken Lay. She warned that the company might implode in a wave of accounting scandals.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.083,
+   0.296,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "U.S. Securities and Exchange Commission",
+  "url": "https://www.sec.gov/spotlight/enron.htm",
+  "what": "highlight \"Enron\"",
+  "said": "A week later, the S E C opened an investigation. Then Enron admitted it had overstated its profits for years, by hundreds of millions of dollars.",
+  "file": "s15.png",
+  "box": [
+   0.077,
+   0.082,
+   0.417,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dynegy",
+  "what": "highlight \"Dynegy\"",
+  "said": "Banks stopped lending to Enron. Its trading partners demanded cash up front. A rival company, Dynegy, agreed to buy Enron, then backed out after looking at the books.",
+  "file": "s16.png",
+  "box": [
+   0.029,
+   0.296,
+   0.107,
+   0.332
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Enron_scandal",
+  "what": "highlight \"bankruptcy\"",
+  "said": "By late November, the stock was worth less than one dollar. On December second, two thousand one, Enron filed for bankruptcy.",
+  "file": "s17.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Arthur_Andersen_LLP_v._United_States",
+  "what": "highlight \"Arthur Andersen LLP v. United States\"",
+  "said": "That conviction was later overturned on appeal. But by then, the firm was already gone.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.083,
+   0.448,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "FBI",
+  "url": "https://www.fbi.gov/history/famous-cases/enron",
+  "what": "highlight \"Enron\"",
+  "said": "In two thousand six, a jury convicted Jeff Skilling and Ken Lay. Skilling was sentenced to twenty-four years, later reduced. Lay died of a heart attack before he could be sentenced.",
+  "file": "s19.png",
+  "box": [
+   0.088,
+   0.75,
+   0.912,
+   0.966
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 67,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Sarbanes%E2%80%93Oxley_Act",
+  "what": "highlight \"Sarbanes\u2013Oxley Act\"",
+  "said": "Congress also acted fast. In two thousand two, it passed the Sarbanes-Oxley Act. Now, top executives must personally sign off that their company's financial reports are true.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.083,
+   0.324,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "PCAOB",
+  "url": "https://pcaobus.org/about",
+  "what": "highlight \"PCAOB\"",
+  "said": "If they knowingly sign false numbers, they can go to prison. Auditors are now watched by a new oversight board, and there are stricter limits on selling them extra consulting work.",
+  "file": "s21.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 74,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+  "what": "highlight \"diversify\"",
+  "said": "Third, never keep most of your savings in the company you work for. If it fails, you can lose your paycheck and your savings at the same time.",
+  "file": "s22.png",
+  "box": [
+   0.2,
+   0.284,
+   0.365,
+   0.709
+  ],
+  "page": null,
+  "ok": true
+ }
+]

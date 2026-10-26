@@ -1,0 +1,67 @@
+# Sample 03: inflation, rebuilt with every fix from research/03-sample-v2-vs-reference.md
+# Facts (checked 18 Oct 2026, see ../SOURCES.md):
+#   BLS CPI release, 14 Oct 2026: CPI-U +3.7% over the 12 months to Sep 2026; gasoline +9.1% in September.
+#   NPR, 14 Oct 2026: heating oil +74% in a year; Social Security +3.6% next year.
+#   FRED CPIAUCSL (seasonally adjusted): Jan 2020 259.127, Jan 2025 318.961, Sep 2026 336.298
+#     -> +29.8% since Jan 2020; $100 from Jan 2020 buys $81 (Jan 2025) and $77 (Sep 2026).
+
+# Emotion tags like [excited] at the start of a line set the voice's feeling (see EMOTIONS in tools/make_video.py).
+
+# --- hook: the real report, then "it's you"
+[calm] Last week, the Bureau of Labor Statistics || doc:bls_logo.jpg@0.5,0.45 w=0.62 frame=0
+put out a report you probably didn't read. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026"; H04@0.92,1.0:0.33:bottom
+[serious] It says prices are up three point seven percent in a year. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73+0.6; H04@0.92,1.0:0.33:bottom
+[dramatic] And gasoline? || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835; H04@0.92,1.0:0.33:bottom
+[excited] Up nine percent. In one month. || doc:bls_release.jpg@0.47,0.4 w=0.86 src="Source: U.S. Bureau of Labor Statistics, 14 Oct 2026" hl=0.235,0.665,0.41,0.73 hl=0.008,0.77,0.43,0.835 circ=0.215,0.75,0.35,0.86+0.5; A16@0.88,0.82:0.36; note:"in ONE month"@0.42,0.9>0.28,0.6
+[sarcastic] So if you're wondering who's paying for all of this, || A05@0.5,0.55:0.75
+[dramatic] well... it's you. || A46@0.5,0.72:1.5
+Or more specifically, the money sitting in your savings account. || B01@0.55,0.58:0.55; label:"your savings"@0.2,0.3>0.42,0.45
+[serious] Since twenty twenty, prices have climbed almost thirty percent. || "What $100 from 2020 buys"@0.5,0.12:72; bars:"2020"=100; A01@0.9,0.8:0.36; source:"Source: U.S. Bureau of Labor Statistics, CPI-U via FRED"
+So a hundred dollars from back then || "What $100 from 2020 buys"@0.5,0.12:72; bars:"2020"=100,"2025"=81; A01@0.9,0.8:0.36; source:"Source: U.S. Bureau of Labor Statistics, CPI-U via FRED"
+[dramatic] now buys about seventy-seven dollars of stuff. || "What $100 from 2020 buys"@0.5,0.12:72; bars:"2020"=100,"2025"=81,"2026"=77:circle; A45@0.9,0.82:0.3; label:"ouch"@0.62,0.9>0.74,0.78; source:"Source: U.S. Bureau of Labor Statistics, CPI-U via FRED"
+
+# --- open loop + street skit (the scene builds up)
+But before we get to who's actually winning here, || A06@0.5,0.55:0.75
+you need to understand one thing. || A17@0.5,0.55:0.75
+[sarcastic] If you ask people on the street whether their money is safe in the bank, || A40@0.28,0.62:0.7; C09@0.72,0.62:0.62; bubble:"Is your money safe in the bank?"@0.44,0.2:l; label:"very serious journalist"@0.17,0.1>0.22,0.3
+[excited] most will say yes. || A40@0.28,0.62:0.7; C11@0.72,0.62:0.62; bubble:"Of course! It's in a BANK."@0.62,0.18:r
+[sarcastic] And technically, they're right. || A14@0.5,0.55:0.75
+The number in your account never goes down. || B01@0.4,0.58:0.55; H16@0.72,0.4:0.3:"$100"
+[dramatic] But the stuff it buys does. || B01@0.4,0.58:0.55; H16@0.72,0.4:0.3:"$100"; E38@0.75,0.78:0.38
+
+# --- section 1
+|| title:"The silent tax"; sting; A01@0.5,0.56:0.7; hold:1.3
+Economists call it inflation. || title:"The silent tax"; H18@0.38,0.52:0.62:"INFLATION"; A38@0.78,0.55:0.72
+[sarcastic] I call it the silent tax. || title:"The silent tax"; H18@0.38,0.52:0.62:"INFLATION"; A04@0.8,0.55:0.72; note:"(the silent tax)"@0.38,0.9
+Prices creep up a little bit every year, || E37@0.42,0.55:0.68; H17@0.78,0.5:0.42:"+3.7%"
+so every dollar you hold buys a little less. || E38@0.3,0.58:0.55; D02@0.72,0.6:0.55; bubble:"I used to be somebody."@0.72,0.17:r
+Here's every price in America, going back to nineteen forty-seven. || doc:fred_cpi_1947_2026.jpg@0.42,0.5 w=0.76; A16@0.89,0.66:0.48
+[sarcastic] It pretty much only goes one way. || doc:fred_cpi_1947_2026.jpg@0.42,0.5 w=0.76; A16@0.89,0.66:0.48; arrow:0.12,0.64>0.7,0.3
+[dramatic] And that steep bit at the end? || doc:fred_cpi_1947_2026.jpg@0.42,0.5 w=0.76 circ=0.885,0.08,0.99,0.42; A16@0.89,0.66:0.48; note:"right here"@0.56,0.11>0.73,0.2
+That's the last five years. || doc:fred_cpi_1947_2026.jpg@0.42,0.5 w=0.76 circ=0.885,0.08,0.99,0.42; A45@0.9,0.84:0.28; note:"right here"@0.56,0.11>0.73,0.2
+
+# --- section 2: the news
+|| title:"The receipts"; sting; A27@0.5,0.56:0.72; hold:1.3
+[serious] And it's heating up again. || title:"The receipts"; doc:npr_headline.jpg@0.42,0.52 w=0.58 h=0.78 src="Source: NPR, 14 Oct 2026"; H04@0.85,1.0:0.42:bottom
+Inflation sizzled in September, according to NPR. || doc:npr_headline.jpg@0.42,0.52 w=0.58 h=0.78 src="Source: NPR, 14 Oct 2026" circ=0.22,0.045,0.46,0.12; H04@0.85,1.0:0.42:bottom
+[serious] Heating oil, which millions of families use to stay warm, is up seventy-four percent in a year. || doc:npr_para_heating_oil.jpg@0.5,0.34 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.06,0.44,0.295,0.6+2.5; A35@0.82,0.76:0.5
+[excited] Yes. Seventy-four. || A45@0.5,0.72:1.5
+Social Security is raising payments by three point six percent next year, || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38+1.2; C15@0.2,0.78:0.4
+[sarcastic] which sounds nice, until you remember prices already went up three point seven. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red
+[dramatic] So the raise is spent before it even arrives. || doc:npr_para_social_security.jpg@0.5,0.3 w=0.88 src="Source: NPR, 14 Oct 2026" hl=0.56,0.22,0.87,0.38; C14@0.2,0.78:0.4; "3.6% raise < 3.7% prices"@0.62,0.74:80:red; xmark+0.5
+
+# --- section 3: who wins
+|| title:"So who wins?"; sting; A06@0.5,0.56:0.72; hold:1.3
+[calm] Here's the part nobody mentions. || title:"So who wins?"; A37@0.5,0.56:0.75
+[sarcastic] If you owe a lot of money, inflation is kind of your friend, || D28@0.45,0.58:0.65; bubble:"Finally, some good news!"@0.78,0.18:r
+because the debt shrinks too. || D28@0.38,0.58:0.6; E46@0.75,0.55:0.4
+[dramatic] So guess who the biggest borrower on the planet is? || A07@0.5,0.55:0.75
+[excited] The US government. || C05@0.42,0.58:0.7; D19@0.8,0.62:0.4; bubble:"We'll pay it back. Eventually."@0.22,0.18:l
+[calm] Meanwhile, every year, a little bit of your savings just... melts. || B02@0.25,0.6:0.5; group:D03*4@0.45,0.3,0.97,0.8:0.3
+So the piggy bank isn't safe. || B02@0.5,0.58:0.55
+[sarcastic] It's just... slow. || B02@0.35,0.58:0.5; E54@0.72,0.62:0.28
+
+# --- payoff + end screen
+In the next video, I'll show you where money actually keeps its power. || A18@0.32,0.55:0.75; E17@0.68,0.45:0.35
+[excited] Subscribe, so inflation doesn't eat your savings before then. || A23@0.28,0.55:0.75; "SUBSCRIBE!"@0.68,0.42:130:black; D03@0.68,0.72:0.3; "Not financial advice"@0.5,0.95:40:grey
+|| endscreen; hold:10

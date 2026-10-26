@@ -1,0 +1,658 @@
+[
+ {
+  "line": 1,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"Stock prices have reached what looks like a permanently high plateau\"",
+  "said": "His name was Irving Fisher. He said stock prices had reached what looked like a permanently high plateau.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 2,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"concluding an 89.2% loss for the index in less than three years\"",
+  "said": "A few weeks later, the market crashed. Within three years, it had lost eighty-nine percent of its value.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.646,
+   0.769,
+   0.952
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 3,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"a crash is coming, and it may be terrific\"",
+  "said": "Not everyone was fooled. On September fifth, a financial expert named Roger Babson warned that a crash was coming, and it might be terrific.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 4,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"many investors regarded the September\"",
+  "said": "When stocks dipped that month, many investors called it a healthy correction and bought more. The press nicknamed it the Babson Break.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 15,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"the years clustered around 1929, 1999 and 2007\"",
+  "said": "The economist Robert Shiller found that only three times since eighteen eighty-one had this number been as high as it was in twenty fourteen. The years around nineteen twenty-nine, nineteen ninety-nine, and two thousand seven.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"It is not intended as an indicator of impending market crashes\"",
+  "said": "But here is the honest part. Shiller himself says this number is not meant to predict crashes. It mostly predicts lower returns over the next ten to twenty years.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.653,
+   0.769,
+   0.699
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 19,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"higher than average CAPE values implying lower than average long-term annual average returns\"",
+  "said": "But here is the honest part. Shiller himself says this number is not meant to predict crashes. It mostly predicts lower returns over the next ten to twenty years.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.453
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Cyclically adjusted price-to-earnings ratio",
+  "url": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
+  "what": "highlight \"After Fed President Alan Greenspan coined the term in 1996\"",
+  "said": "Back in nineteen ninety-six, the head of the Fed famously warned about irrational exuberance. The market kept climbing for more than three years after that.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, Margin (finance)",
+  "url": "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "what": "highlight \"In the 1920s, margin requirements were loose.\"",
+  "said": "The second sign is debt. In the nineteen twenties, millions of people bought stocks with borrowed money. This is called buying on margin.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 24,
+  "source": "Wikipedia, Margin (finance)",
+  "url": "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "what": "highlight \"During the 1920s leverage rates of up to 90 percent debt were not uncommon.\"",
+  "said": "Back then, it was common to borrow up to ninety percent of the price. Put down one hundred dollars, borrow nine hundred, and buy one thousand dollars of stock.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 25,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"brokers had lent small investors more than two-thirds of the face value of the stocks\"",
+  "said": "Brokers were lending small investors more than two thirds of the price of the stocks they bought.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.648,
+   0.769,
+   0.954
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"more than the entire amount of currency circulating in the United States at the time\"",
+  "said": "By August nineteen twenty-nine, more than eight and a half billion dollars was out on loan to stock buyers. That was more than all the cash circulating in America at the time.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"more investors facing margin calls decided to get out of the market\"",
+  "said": "When millions of people get margin calls at once, they all have to sell. Their selling pushes prices down further, which triggers even more margin calls.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"Around $14 billion of stock value was lost, wiping out thousands of investors.\"",
+  "said": "On Black Monday, October twenty-eighth, the Dow fell almost thirteen percent in one day. The next day, Black Tuesday, about fourteen billion dollars of stock value disappeared.",
+  "file": "s14.png",
+  "box": [
+   0.185,
+   0.63,
+   0.466,
+   0.97
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"it does mean paying up your loans and avoiding margin speculation\"",
+  "said": "Babson had given a simple piece of advice before all this. Pay off your loans and avoid margin speculation. Not sell everything. Just stop borrowing to bet.",
+  "file": "s15.png",
+  "box": [
+   0.185,
+   0.63,
+   0.466,
+   0.97
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Margin (finance)",
+  "url": "https://en.wikipedia.org/wiki/Margin_(finance)",
+  "what": "highlight \"limits debt to 50 percent\"",
+  "said": "Today, the rules are much stricter. The Federal Reserve limits stock loans to fifty percent, not ninety.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.66,
+   0.769,
+   0.94
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"accounted for 31% of the S&P 500\"",
+  "said": "By the middle of twenty twenty-four, just seven companies made up about thirty-one percent of the S and P five hundred.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.476,
+   0.769,
+   0.652
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 39,
+  "source": "Wikipedia, Big Tech",
+  "url": "https://en.wikipedia.org/wiki/Magnificent_Seven_(stocks)",
+  "what": "highlight \"accounted for approximately two-thirds of the S&P 500's gains\"",
+  "said": "In twenty twenty-three, those same seven companies produced about two thirds of the whole market's gains.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.476,
+   0.769,
+   0.652
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, S&P 500",
+  "url": "https://en.wikipedia.org/wiki/S%26P_500",
+  "what": "highlight \"the S&P 500 Top 20 comprising nearly half of the index's total market cap\"",
+  "said": "And by twenty twenty-six, the top twenty companies made up nearly half of the entire index.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 46,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"disappointed by the low interest rates offered on their bank deposits\"",
+  "said": "Bank savings paid low interest, so many people took their small savings to stockbrokers instead.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.608,
+   0.769,
+   0.992
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"it was widely believed that the stock market would continue to rise\"",
+  "said": "It was widely believed that the market would just keep rising. Speculation felt safe because everyone was doing it.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.608,
+   0.769,
+   0.992
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"would provide $25 million in credit to stop the market's slide\"",
+  "said": "There was an early warning in March nineteen twenty-nine. Stocks dropped sharply, and a big bank stepped in with twenty-five million dollars to stop the slide. The party continued for a few more months.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.608,
+   0.769,
+   0.992
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, GameStop short squeeze",
+  "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+  "what": "highlight \"In January 2021, a short squeeze of the stock of the American video game retailer GameStop\"",
+  "said": "Today's version came with smartphones. In January twenty twenty-one, millions of new traders on Reddit and trading apps piled into GameStop, a struggling video game store.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.345,
+   0.769,
+   0.547
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, GameStop short squeeze",
+  "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+  "what": "highlight \"nearly 30 times the $17.25 valuation at the beginning of the month\"",
+  "said": "At its peak, the stock price was nearly thirty times higher than at the start of the month.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, GameStop short squeeze",
+  "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+  "what": "highlight \"Robinhood halted purchases of GameStop\"",
+  "said": "It got so wild that some trading apps, including Robinhood, stopped people from buying the stock for a while.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.349
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, GameStop short squeeze",
+  "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+  "what": "highlight \"causing major financial consequences for certain hedge funds and large losses for short sellers\"",
+  "said": "Some big hedge funds that had bet against the stock lost billions. And many small traders who bought near the top lost a lot of money when it fell back down.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.349
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 56,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"after the Federal Reserve warned of excessive speculation\"",
+  "said": "The fifth sign is policy. In nineteen twenty-nine, the Federal Reserve warned about too much speculation. Then trade became a fight.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 58,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"the immediate cause of the crash was investor fears about the Smoot\u2013Hawley Tariff Act\"",
+  "said": "Some economists even argue that investor fears about that bill helped trigger the crash itself.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 59,
+  "source": "Wikipedia, Smoot\u2013Hawley Tariff Act",
+  "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+  "what": "highlight \"a petition was signed by 1,028 economists\"",
+  "said": "More than one thousand economists signed a letter begging President Hoover to veto it. He signed it anyway, on June seventeenth, nineteen thirty.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.486,
+   0.769,
+   0.662
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 60,
+  "source": "Wikipedia, Smoot\u2013Hawley Tariff Act",
+  "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+  "what": "highlight \"the act raised tariffs on over 20,000 imported goods\"",
+  "said": "The law raised tariffs on more than twenty thousand imported goods.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.371,
+   0.769,
+   0.599
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, Smoot\u2013Hawley Tariff Act",
+  "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+  "what": "highlight \"the U.S.'s trading partners retaliated with tariffs of their own\"",
+  "said": "Other countries hit back with their own tariffs. American exports and world trade collapsed, and the Depression got deeper.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, Smoot\u2013Hawley Tariff Act",
+  "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+  "what": "highlight \"global trade fell by two-thirds\"",
+  "said": "Canada, America's closest neighbor, was one of the first to raise its own tariffs on American goods. One magazine later wrote that global trade fell by two thirds.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Tariffs in the second Trump administration",
+  "url": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration",
+  "what": "highlight \"rose from 2.5% to an estimated 27%\u2014the highest level in over a century\"",
+  "said": "Now, today. From January to April twenty twenty-five, the average American tariff rate jumped from about two and a half percent to an estimated twenty-seven percent. The highest in over a century.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Tariffs in the second Trump administration",
+  "url": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration",
+  "what": "highlight \"On April 2, 2025, a day he called\"",
+  "said": "The biggest jump came on April second, twenty twenty-five, a day the President called Liberation Day.",
+  "file": "s34.png",
+  "box": [
+   0.156,
+   0.325,
+   0.769,
+   0.527
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 65,
+  "source": "Wikipedia, Tariffs in the second Trump administration",
+  "url": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration",
+  "what": "highlight \"the overall average effective tariff rate was 12.1% as of July 21, 2026\"",
+  "said": "After pauses, deals and a Supreme Court ruling against some of them, the average rate came down to about twelve percent by July twenty twenty-six. Still far higher than before.",
+  "file": "s35.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, Tariffs in the second Trump administration",
+  "url": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration",
+  "what": "highlight \"the average American family is expected to spend $132 more\"",
+  "said": "Families feel tariffs at the store. One estimate said the average American family would spend about one hundred thirty-two dollars more on holiday shopping because of them.",
+  "file": "s36.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"Some 4,000 banks and other lenders ultimately failed.\"",
+  "said": "Difference one. Bank deposits are insured. In the nineteen thirties, about four thousand banks and lenders failed, and savers lost their money. Today, the FDIC protects deposits up to two hundred fifty thousand dollars.",
+  "file": "s37.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia, Federal Deposit Insurance Corporation",
+  "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation",
+  "what": "highlight \"covers up to $250,000 per depositor\"",
+  "said": "Difference one. Bank deposits are insured. In the nineteen thirties, about four thousand banks and lenders failed, and savers lost their money. Today, the FDIC protects deposits up to two hundred fifty thousand dollars.",
+  "file": "s38.png",
+  "box": [
+   0.156,
+   0.233,
+   0.769,
+   0.539
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, 2020 stock market crash",
+  "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+  "what": "highlight \"offered at least $1.5 trillion worth of short-term loans to banks\"",
+  "said": "In twenty twenty, for example, the New York Fed offered at least one and a half trillion dollars of short-term loans to banks within weeks of the crash starting.",
+  "file": "s39.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Wikipedia, Wall Street crash of 1929",
+  "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+  "what": "highlight \"forced the Federal Reserve to raise interest rates into the slump\"",
+  "said": "In twenty twenty, for example, the New York Fed offered at least one and a half trillion dollars of short-term loans to banks within weeks of the crash starting.",
+  "file": "s40.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia, Joseph P. Kennedy Sr.",
+  "url": "https://en.wikipedia.org/wiki/Joseph_P._Kennedy_Sr.",
+  "what": "highlight \"to end irresponsible market manipulations and dissemination of false information about securities\"",
+  "said": "Difference three. There are rules on Wall Street. The S E C was created in nineteen thirty-four to stop the manipulation and false information that filled the nineteen twenties.",
+  "file": "s41.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ }
+]

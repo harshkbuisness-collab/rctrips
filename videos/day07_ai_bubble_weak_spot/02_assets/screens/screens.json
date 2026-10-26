@@ -1,0 +1,334 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Data_center",
+  "what": "highlight \"data center\"",
+  "said": "By twenty thirty, data centers could use about as much electricity as all of Japan uses today, according to the International Energy Agency. Imagine you're building a new city.",
+  "file": "s01.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 2,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+  "what": "highlight \"Abilene, Texas\"",
+  "said": "She's helping wire one of the biggest computer buildings ever made. Rows and rows of machines, packed with the chips that power artificial intelligence.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.908,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/AI_boom",
+  "what": "highlight \"AI boom\"",
+  "said": "The biggest tech companies, Microsoft, Alphabet, Amazon and Meta, are spending hundreds of billions of dollars a year on data centers and chips.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.083,
+   0.241,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 16,
+  "source": "Meta Investor Relations",
+  "url": "https://investor.atmeta.com/",
+  "what": "highlight \"Investor Relations\"",
+  "said": "Their leaders have said it plainly. The risk of spending too little is bigger than the risk of spending too much.",
+  "file": "s04.png",
+  "box": [
+   0.121,
+   0.012,
+   0.253,
+   0.105
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 17,
+  "source": "NVIDIA Investor Relations",
+  "url": "https://investor.nvidia.com/",
+  "what": "highlight \"Investor Relations\"",
+  "said": "The company selling most of those chips is NVIDIA. In twenty twenty-five, it became the first company in history worth five trillion dollars.",
+  "file": "s05.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Nvidia",
+  "what": "highlight \"Nvidia\"",
+  "said": "Its top AI chips can cost tens of thousands of dollars each. A single large data center can hold hundreds of thousands of them.",
+  "file": "s06.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 19,
+  "source": "U.S. Energy Information Administration",
+  "url": "https://www.eia.gov/electricity/",
+  "what": "highlight \"Electricity\"",
+  "said": "And the buildings need power. So much that some tech companies are signing deals to restart old nuclear plants and build new power stations.",
+  "file": "s07.png",
+  "box": [
+   0.2,
+   0.106,
+   0.791,
+   0.16
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Sequoia Capital",
+  "url": "https://sequoiacap.com/article/ais-600b-question/",
+  "what": "highlight \"AI's $600B Question\"",
+  "said": "In twenty twenty-four, one investor at a big venture firm called this AI's six hundred billion dollar question. That was roughly how much yearly revenue he thought AI needed to justify the spending.",
+  "file": "s08.png",
+  "box": [
+   0.296,
+   0.824,
+   0.704,
+   0.984
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 30,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/ChatGPT",
+  "what": "highlight \"ChatGPT\"",
+  "said": "To be fair, AI revenue is growing fast too. OpenAI, the company behind ChatGPT, has said its yearly revenue reached many billions of dollars. But its spending commitments are far bigger.",
+  "file": "s09.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "MIT Sloan",
+  "url": "https://mitsloan.mit.edu/ideas-made-to-matter/artificial-intelligence",
+  "what": "highlight \"artificial intelligence\"",
+  "said": "Businesses are trying AI everywhere. But a twenty twenty-five study from M I T researchers found that most company AI pilot projects weren't yet showing a clear return.",
+  "file": "s10.png",
+  "box": [
+   0.271,
+   0.263,
+   0.729,
+   0.328
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+  "what": "highlight \"economic bubble\"",
+  "said": "That's the weak spot. Not whether AI works. Whether enough people and businesses will pay enough for it, fast enough, to cover the bill already being spent.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.083,
+   0.303,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+  "what": "highlight \"dot-com bubble\"",
+  "said": "In the late nineteen nineties, everyone was sure the internet would change the world. They were right.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.083,
+   0.294,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 41,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dark_fibre",
+  "what": "highlight \"dark fibre\"",
+  "said": "But they built far more than customers needed. Years later, most of that fiber was still dark, meaning nobody was using it.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.083,
+   0.251,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 42,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Nasdaq_Composite",
+  "what": "highlight \"Nasdaq Composite\"",
+  "said": "When the bubble burst, the Nasdaq stock index fell almost eighty percent. Cisco's stock dropped by more than eighty percent too. Many telecom companies went bankrupt.",
+  "file": "s14.png",
+  "box": [
+   0.036,
+   0.224,
+   0.148,
+   0.276
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Railway_Mania",
+  "what": "highlight \"Railway Mania\"",
+  "said": "And it happened even earlier, with railways in Britain in the eighteen forties. Great technology. Too much building. A painful crash.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.083,
+   0.287,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Microsoft Investor Relations",
+  "url": "https://www.microsoft.com/en-us/investor",
+  "what": "highlight \"Investor Relations\"",
+  "said": "The big difference is who's spending. In the dot-com bubble, many companies had no profits at all. Today's biggest AI spenders are some of the most profitable companies ever.",
+  "file": "s16.png",
+  "box": [
+   0.142,
+   0.092,
+   0.259,
+   0.139
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Alphabet Investor Relations",
+  "url": "https://abc.xyz/investor/",
+  "what": "highlight \"Alphabet\"",
+  "said": "Microsoft, Alphabet and Meta earn huge amounts from software, ads and cloud services. Much of their AI spending comes from profits they already have.",
+  "file": "s17.png",
+  "box": [
+   0.121,
+   0.1,
+   0.879,
+   0.136
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/OpenAI",
+  "what": "highlight \"OpenAI\"",
+  "said": "For example, in twenty twenty-five, NVIDIA said it would invest up to one hundred billion dollars in OpenAI. OpenAI, in turn, plans to buy huge amounts of NVIDIA chips.",
+  "file": "s18.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+  "what": "highlight \"Bonds\"",
+  "said": "Some data centers are also being paid for with big loans and bonds. Debt is fine when revenue arrives on time. It's dangerous when it doesn't.",
+  "file": "s19.png",
+  "box": [
+   0.371,
+   0.412,
+   0.81,
+   0.48
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "S&P Dow Jones Indices",
+  "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+  "what": "highlight \"S&P 500\"",
+  "said": "Then stock prices would fall. And because a handful of tech giants now make up a huge share of the whole stock market, almost every index fund would feel it.",
+  "file": "s20.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Abilene,_Texas",
+  "what": "highlight \"Abilene\"",
+  "said": "Towns like Abilene, which are betting on these projects for jobs and taxes, could be left with giant buildings and fewer workers.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.083,
+   0.284,
+   0.135
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 71,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+  "what": "highlight \"diversify\"",
+  "said": "First, know what you own. Open your retirement account and look at your funds. Many people are surprised by how much is in a few big tech companies.",
+  "file": "s22.png",
+  "box": [
+   0.2,
+   0.359,
+   0.365,
+   0.413
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/asset-allocation",
+  "what": "highlight \"Asset Allocation\"",
+  "said": "Third, don't chase. When everyone around you says a stock can only go up, that's usually when it's most expensive.",
+  "file": "s23.png",
+  "box": null,
+  "page": null,
+  "ok": true
+ }
+]

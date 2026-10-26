@@ -1,0 +1,354 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
+  "what": "highlight \"Lehman Brothers\"",
+  "said": "In September two thousand eight, Lehman Brothers filed the biggest bankruptcy in American history, with more than six hundred billion dollars in assets. But it really started with a conversation like this.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.083,
+   0.41,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 4,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CSUSHPINSA",
+  "what": "highlight \"S&P CoreLogic Case-Shiller U.S. National Home Price Index\"",
+  "said": "Their friends bought a house last year, and it's already worth fifty thousand dollars more. TV shows teach people how to flip houses for quick profits.",
+  "file": "s02.png",
+  "box": [
+   0.087,
+   0.216,
+   0.574,
+   0.265
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 14,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis",
+  "what": "highlight \"Subprime Mortgage Crisis\"",
+  "said": "By the two thousands, that had changed. Lenders made loans, then quickly sold them to Wall Street. The risk left the building the moment the papers were signed.",
+  "file": "s03.png",
+  "box": [
+   0.509,
+   0.178,
+   0.646,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 16,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Subprime_mortgage_crisis",
+  "what": "highlight \"subprime\"",
+  "said": "Loans to people with weak credit or little proof of income were called subprime. They paid lenders higher interest, which made them very profitable.",
+  "file": "s04.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 17,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis",
+  "what": "highlight \"subprime\"",
+  "said": "By two thousand six, about one in five new mortgages was subprime. Ten years earlier, they had been rare.",
+  "file": "s05.png",
+  "box": [
+   0.509,
+   0.178,
+   0.646,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 24,
+  "source": "Investor.gov, U.S. SEC",
+  "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mortgage-backed-securities",
+  "what": "highlight \"Mortgage-Backed Securities\"",
+  "said": "Wall Street banks bought thousands of mortgages and bundled them together. Then they sold investors pieces of the bundle. These were called mortgage-backed securities.",
+  "file": "s06.png",
+  "ok": false,
+  "error": "blocked or empty page (security check / captcha / not found)"
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission",
+  "what": "highlight \"Financial Crisis Inquiry Commission\"",
+  "said": "And here's the strangest part. Rating agencies, the companies paid to judge risk, gave many of these products their highest grade. Triple A. As safe as the U.S. government.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.083,
+   0.443,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Credit_rating_agency",
+  "what": "highlight \"credit rating agency\"",
+  "said": "Who paid the rating agencies? The same banks that were selling the products. The referee was being paid by one of the teams.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.083,
+   0.323,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Big_Short_(film)",
+  "what": "highlight \"The Big Short\"",
+  "said": "A few investors saw the danger coming and bet against the housing market. When it collapsed, some of them made billions. Their story became the movie The Big Short.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.083,
+   0.276,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 40,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/CSUSHPINSA",
+  "what": "highlight \"Home Price Index\"",
+  "said": "Across America, home prices had stopped rising in two thousand six. Then they started to fall. Nationally, they would drop by more than a quarter.",
+  "file": "s10.png",
+  "box": [
+   0.087,
+   0.216,
+   0.574,
+   0.265
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 45,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stockton,_California",
+  "what": "highlight \"Stockton\"",
+  "said": "They weren't alone. Their whole street had for-sale signs. Stockton became one of the foreclosure capitals of America.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.083,
+   0.322,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 51,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-recession-of-200709",
+  "what": "highlight \"The Great Recession\"",
+  "said": "In March two thousand eight, the investment bank Bear Stearns nearly collapsed. It was sold to JPMorgan in an emergency deal backed by the Federal Reserve.",
+  "file": "s12.png",
+  "box": [
+   0.302,
+   0.178,
+   0.518,
+   0.22
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Federal_takeover_of_Fannie_Mae_and_Freddie_Mac",
+  "what": "highlight \"Fannie Mae\"",
+  "said": "In early September, the government took over Fannie Mae and Freddie Mac, two giant companies that backed about half of America's mortgages.",
+  "file": "s13.png",
+  "box": [
+   0.029,
+   0.476,
+   0.144,
+   0.544
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
+  "what": "highlight \"September 15, 2008\"",
+  "said": "Then, on September fifteenth, Lehman Brothers ran out of money. This time, nobody rescued it. It filed for bankruptcy.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.401
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 58,
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/data/troubled-assets-relief-program",
+  "what": "highlight \"Troubled Asset Relief Program\"",
+  "said": "A few days later, Congress passed a seven hundred billion dollar rescue fund, called TARP. The financial system was saved, barely.",
+  "file": "s15.png",
+  "box": [
+   0.11,
+   0.182,
+   0.282,
+   0.23
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 64,
+  "source": "FRED, St. Louis Fed",
+  "url": "https://fred.stlouisfed.org/series/UNRATE",
+  "what": "highlight \"Unemployment Rate\"",
+  "said": "By October two thousand nine, unemployment reached ten percent. More than eight million jobs were lost.",
+  "file": "s16.png",
+  "box": [
+   0.633,
+   0.162,
+   0.743,
+   0.201
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 68,
+  "source": "Federal Reserve History",
+  "url": "https://www.federalreservehistory.org/essays/great-recession-of-200709",
+  "what": "highlight \"recession\"",
+  "said": "American families lost trillions of dollars in wealth. Millions lost their homes. Many people who had done nothing wrong lost their jobs and savings.",
+  "file": "s17.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 69,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kareem_Serageldin",
+  "what": "highlight \"Kareem Serageldin\"",
+  "said": "And the people at the top? Many big banks were rescued, and only one top Wall Street banker went to prison for crimes tied to the crisis.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.083,
+   0.315,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 70,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission",
+  "what": "highlight \"avoidable\"",
+  "said": "A government commission later studied the whole disaster. Its conclusion was blunt. The crisis was avoidable.",
+  "file": "s19.png",
+  "box": [
+   0.533,
+   0.79,
+   0.764,
+   0.867
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dodd%E2%80%93Frank_Wall_Street_Reform_and_Consumer_Protection_Act",
+  "what": "highlight \"Dodd\u2013Frank\"",
+  "said": "In twenty ten, Congress passed a big set of new rules called the Dodd-Frank Act. Big banks now have to keep more of their own money as a cushion against losses.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.083,
+   0.297,
+   0.135
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 73,
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/supervisionreg/stress-tests-capital-planning.htm",
+  "what": "highlight \"Stress Tests\"",
+  "said": "Every year, the Fed now runs stress tests. It checks if the largest banks could survive a deep recession, like a fire drill for money.",
+  "file": "s21.png",
+  "box": [
+   0.134,
+   0.305,
+   0.752,
+   0.353
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 74,
+  "source": "Consumer Financial Protection Bureau",
+  "url": "https://www.consumerfinance.gov/about-us/the-bureau/",
+  "what": "highlight \"The CFPB\"",
+  "said": "The law also created a new agency to protect borrowers, the Consumer Financial Protection Bureau.",
+  "file": "s22.png",
+  "box": [
+   0.124,
+   0.21,
+   0.206,
+   0.276
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 75,
+  "source": "Consumer Financial Protection Bureau",
+  "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-ability-to-repay-rule-why-is-it-important-to-me-en-1787/",
+  "what": "highlight \"ability-to-repay\"",
+  "said": "And the loans that sank Marcus and Tanya are now much harder to get. Lenders must check that you can actually afford to pay, not just at a teaser rate.",
+  "file": "s23.png",
+  "box": [
+   0.124,
+   0.291,
+   0.626,
+   0.354
+  ],
+  "ok": true,
+  "page": null
+ }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "line": 0,
+  "source": "CFPB, The Consumer Credit Card Market (Dec 2025)",
+  "url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/",
+  "what": "report title and \"seventh biennial review\"; slow zoom on the title",
+  "file": "s01.png",
+  "box": [
+   0.124,
+   0.502,
+   0.563,
+   0.72
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 1,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "\"In 2024, consumers earned $47.5 billion in credit card rewards\"",
+  "file": "s02.png",
+  "box": null,
+  "ok": true,
+  "page": 141
+ },
+ {
+  "line": 14,
+  "source": "Visa USA Interchange Reimbursement Fees (18 April 2026)",
+  "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+  "what": "Consumer credit table, \"Restaurant\" row: Traditional 2.10%, Visa Infinite 2.60%",
+  "file": "s03.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 16,
+  "source": "Federal Reserve Bank of Kansas City, Credit and Debit Card Interchange Fees, August 2026 Update",
+  "url": "https://www.kansascityfed.org/documents/18007/US-IF-August_2026_final.pdf",
+  "what": "chart \"$40 transaction at small supermarkets\": premium card bars higher than basic",
+  "file": "s04.png",
+  "box": null,
+  "ok": true,
+  "page": 2
+ },
+ {
+  "line": 17,
+  "source": "Visa USA Interchange Reimbursement Fees (18 April 2026)",
+  "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+  "what": "debit table \"CPS/Retail, Debit\" row next to the consumer credit \"Restaurant\" row",
+  "file": "s05.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 22,
+  "source": "CFPB, What is a grace period for a credit card?",
+  "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+  "what": "sentence about not being charged interest if you pay your balance in full by the due date",
+  "file": "s06.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 26,
+  "source": "Federal Reserve G.19 Consumer Credit release (7 Oct 2026)",
+  "url": "https://www.federalreserve.gov/releases/g19/current/default.htm",
+  "what": "\"Interest rate on credit card plans, accounts assessed interest\": 22.15 (2026 Q2)",
+  "file": "s07.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 31,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "\"consumers were assessed $160 billion in interest charges, up from $105 billion in 2022\"",
+  "file": "s08.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 35,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "section 4.1.1: \"Most issuers set minimum payment at 1 percent of the balance\" and \"the most common floor was $40\"",
+  "file": "s09.png",
+  "box": null,
+  "ok": true,
+  "page": 70
+ },
+ {
+  "line": 42,
+  "source": "CFPB, A box on my credit card bill says I will pay off the balance in three years",
+  "url": "https://www.consumerfinance.gov/ask-cfpb/a-box-on-my-credit-card-bill-says-that-i-will-pay-off-the-balance-in-three-years-if-i-pay-a-certain-amount-what-does-that-mean-do-i-have-to-pay-that-much-if-i-pay-that-much-and-make-new-purchases-will-i-still-owe-nothing-after-three-years-en-36/",
+  "what": "\"how long it will take you to pay off your current balance\" and \"36 months\"",
+  "file": "s10.png",
+  "box": [
+   0.124,
+   0.576,
+   0.563,
+   0.761
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 42,
+  "source": "CFPB, Regulation Z section 1026.7, Periodic statement",
+  "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/7/",
+  "what": "the bold \"Minimum Payment Warning\" wording",
+  "file": "s11.png",
+  "box": [
+   0.326,
+   0.757,
+   0.765,
+   0.843
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 44,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "\"About 15 percent of general purpose cardholders made only the minimum payment\"",
+  "file": "s12.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 47,
+  "source": "CFPB press release, 5 March 2024",
+  "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-bans-excessive-credit-card-late-fees-lowers-typical-fee-from-32-to-8/",
+  "what": "headline \"Lowers Typical Fee from $32 to $8\" and \"more than $14 billion a year\"",
+  "file": "s13.png",
+  "box": [
+   0.124,
+   0.361,
+   0.626,
+   0.466
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 49,
+  "source": "ABA Banking Journal, 15 April 2025",
+  "url": "https://bankingjournal.aba.com/2025/04/court-vacates-cfpb-credit-card-late-fee-rule/",
+  "what": "\"court vacates CFPB credit card late fee rule\" headline and first paragraph",
+  "file": "s14.png",
+  "box": [
+   0.134,
+   0.372,
+   0.623,
+   0.489
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 51,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "section 3.3: \"$31.3 billion in fees\" and \"Late fees comprised the largest category at $17 billion\"",
+  "file": "s15.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 54,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "section 3.3.2: \"59 percent of card accounts but pay only 7.8 percent\" and \"14 percent of card accounts but generate 40 percent of late fees\"",
+  "file": "s16.png",
+  "box": null,
+  "ok": true,
+  "page": 63
+ },
+ {
+  "line": 65,
+  "source": "Federal Reserve Bank of Boston, Who Gains and Who Loses from Credit Card Payments? (2010)",
+  "url": "https://www.bostonfed.org/publications/public-policy-discussion-paper/2010/who-gains-and-who-loses-from-credit-card-payments-theory-and-calibrations.aspx",
+  "what": "abstract: \"each cash-using household pays $149 to card-using households\"",
+  "file": "s17.png",
+  "box": [
+   0.195,
+   0.497,
+   0.805,
+   0.777
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 66,
+  "source": "Federal Reserve Bank of Boston, discussion paper 10-03 abstract",
+  "url": "https://www.bostonfed.org/publications/public-policy-discussion-paper/2010/who-gains-and-who-loses-from-credit-card-payments-theory-and-calibrations.aspx",
+  "what": "\"the lowest-income household ($20,000 or less annually) pays $21\" and \"the highest-income household ($150,000 or more annually) receives $750\"",
+  "file": "s18.png",
+  "box": [
+   0.195,
+   0.497,
+   0.805,
+   0.777
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 69,
+  "source": "New York Fed, Household Debt and Credit press release (11 Aug 2026)",
+  "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+  "what": "\"Credit card balances rose by $21 billion and stood at $1.26 trillion\"",
+  "file": "s19.png",
+  "box": [
+   0.246,
+   0.602,
+   0.554,
+   0.742
+  ],
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 70,
+  "source": "CFPB credit card market report 2025 (PDF)",
+  "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf",
+  "what": "\"Average APR for new general purpose accounts opened in 2024 was 27.5 percent, compared to 19.8 percent ten years ago\"",
+  "file": "s20.png",
+  "box": null,
+  "ok": true,
+  "page": 5
+ },
+ {
+  "line": 72,
+  "source": "NPR, Trump calls for a 10% cap on credit card interest rates (12 Jan 2026)",
+  "url": "https://www.npr.org/2026/01/12/nx-s1-5675151/trump-credit-card-interest-rate-cap",
+  "what": "headline and the line about whether he has the authority without Congress",
+  "file": "s21.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 73,
+  "source": "Federal Reserve G.19 (7 Oct 2026)",
+  "url": "https://www.federalreserve.gov/releases/g19/current/default.htm",
+  "what": "2026 Q2 rows: 20.94 (all accounts) and 22.15 (accounts assessed interest)",
+  "file": "s22.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ },
+ {
+  "line": 78,
+  "source": "CFPB, What is a grace period for a credit card?",
+  "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+  "what": "paragraph on losing the grace period and getting it back",
+  "file": "s23.png",
+  "box": null,
+  "ok": true,
+  "page": null
+ }
+]

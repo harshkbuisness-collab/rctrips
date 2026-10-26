@@ -1,0 +1,116 @@
+{
+ "fed_crash_sixfold": {
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "hl": [
+   [
+    0.741,
+    0.277,
+    0.921,
+    0.42
+   ]
+  ],
+  "text": "The Roaring Twenties roared loudest and longest on the New York Stock Exchange. Share prices rose to unprecedented heights. The Dow Jones Industrial Average increased six-fold from sixty-three in August 1921 to 381 in September 1929. After prices peaked, economist Irving Fisher proclaimed, \"stock prices have reached 'what looks like a permanently high plateau.'\" 1"
+ },
+ "fed_crash_black": {
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "hl": [
+   [
+    0.034,
+    0.241,
+    0.301,
+    0.365
+   ],
+   [
+    0.778,
+    0.241,
+    0.965,
+    0.365
+   ],
+   [
+    0.034,
+    0.373,
+    0.116,
+    0.497
+   ]
+  ],
+  "text": "The epic boom ended in a cataclysmic bust. On Black Monday, October 28, 1929, the Dow declined nearly 13 percent. On the following day, Black Tuesday, the market dropped nearly 12 percent. By mid-November, the Dow had lost almost half of its value. The slide continued through the summer of 1932, when the Dow closed at 41.22, its lowest value of the twentieth century, 89 percent below its peak. The Dow did not return to its pre-crash heights until November 1954."
+ },
+ "fed_crash_speculators": {
+  "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+  "hl": [
+   [
+    0.224,
+    0.19,
+    0.488,
+    0.288
+   ]
+  ],
+  "text": "The financial boom, however, continued. The Federal Reserve watched anxiously. Commercial banks continued to loan money to speculators, and other lenders invested increasing sums in loans to brokers. In September 1929, stock prices gyrated, with sudden declines and rapid recoveries. Some financial leaders continued to encourage investors to purchase equities, including Charles E. Mitchell, the president of the National City Bank (now Citibank) and a director of the Federal Reserve Bank of New York.6 In October, Mitchell and a coalition of bankers attempted to restore confidence by publicly purchasing blocks of shares at high prices. The effort failed. Investors began selling madly. Share prices plummeted."
+ },
+ "fed_dep_money": {
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "hl": [
+   [
+    0.134,
+    0.329,
+    0.411,
+    0.439
+   ]
+  ],
+  "text": "These differences of opinion contributed to the Federal Reserve's most serious sin of omission: failure to stem the decline in the supply of money. From the fall of 1930 through the winter of 1933, the money supply fell by nearly 30 percent. The declining supply of funds reduced average prices by an equivalent amount. This deflation increased debt burdens; distorted economic decision-making; reduced consumption; increased unemployment; and forced banks, firms, and individuals into bankruptcy. The deflation stemmed from the collapse of the banking system, as explained in the essay on the banking panics of 1930 and 1931."
+ },
+ "fed_dep_lender": {
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "hl": [
+   [
+    0.391,
+    0.147,
+    0.763,
+    0.316
+   ]
+  ],
+  "text": "An example of the latter is the Fed's failure to act as a lender of last resort during the banking panics that began in the fall of 1930 and ended with the banking holiday in the winter of 1933. This website explores this issue in essays on the banking panics of 1930 to 1931, the banking acts of 1932, and the banking holiday of 1933."
+ },
+ "fed_dep_decade": {
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "hl": [
+   [
+    0.662,
+    0.241,
+    0.822,
+    0.365
+   ]
+  ],
+  "text": "Bernanke, like other economic historians, characterized the Great Depression as a disaster because of its length, depth, and consequences. The Depression lasted a decade, beginning in 1929 and ending during World War II. Industrial production plummeted. Unemployment soared. Families suffered. Marriage rates fell. The contraction began in the United States and spread around the globe. The Depression was the longest and deepest downturn in the history of the United States and the modern industrial economy."
+ },
+ "bernanke_wedidit": {
+  "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021108/",
+  "hl": [
+   [
+    0.097,
+    0.596,
+    0.193,
+    0.798
+   ],
+   [
+    0.257,
+    0.596,
+    0.365,
+    0.798
+   ]
+  ],
+  "text": "Let me end my talk by abusing slightly my status as an official representative of the Federal Reserve. I would like to say to Milton and Anna: Regarding the Great Depression. You're right, we did it. We're very sorry. But thanks to you, we won't do it again."
+ },
+ "fdic_250k": {
+  "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+  "hl": [
+   [
+    0.113,
+    0.507,
+    0.354,
+    0.684
+   ]
+  ],
+  "text": "The FDIC helps maintain stability and public confidence in the U.S. financial system. One way we do this is by insuring deposits to at least $250,000 per depositor, per ownership category at each FDIC-insured bank."
+ }
+}

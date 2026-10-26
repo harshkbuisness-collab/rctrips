@@ -1,0 +1,530 @@
+[
+ {
+  "line": 4,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"In 2024, homelessness increased by a record 18%.\"",
+  "said": "In twenty twenty-four, homelessness in America rose by a record eighteen percent in a single year.",
+  "file": "s01.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 5,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"estimated that 745,652 people were experiencing homelessness in the United States\"",
+  "said": "The next year's federal count still found about seven hundred forty-five thousand people without a home on a single night.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.479
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 6,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"including 266,320 in unsheltered locations\"",
+  "said": "More than a quarter of a million of them were unsheltered. That means not in a shelter at all, but outside, in tents, or in vehicles.",
+  "file": "s03.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.479
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 7,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"record levels of homelessness have been declared in Los Angeles and New York City\"",
+  "said": "Before that, homelessness broke records in both twenty twenty-two and twenty twenty-three. Los Angeles and New York City both declared record levels.",
+  "file": "s04.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 8,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"Many Americans who cannot afford normal housing live in their cars or recreational vehicles (RVs).\"",
+  "said": "And many Americans who cannot afford normal housing are not on a sidewalk. They are in their cars, vans, and old RVs.",
+  "file": "s05.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 9,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"About a million people in the USA live full-time in RVs\"",
+  "said": "About a million people in America live full time in RVs. Some do it by choice, for adventure or retirement. But some simply cannot afford anything else.",
+  "file": "s06.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 18,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"total housing costs are affordable if they meet or are below 30% of annual income\"",
+  "said": "Here is the rule most experts use. Housing is affordable if it costs thirty percent of your income or less.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 20,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"the 2023 Housing Wage is $28.58 per hour for a modest two-bedroom home and $23.67 per hour for a one-bedroom home\"",
+  "said": "In twenty twenty-three, the national Housing Wage for a modest one-bedroom was about twenty-three dollars and sixty-seven cents an hour. For two bedrooms, it was twenty-eight dollars and fifty-eight cents.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.767,
+   0.769,
+   0.995
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"Sixty percent of workers earn less than the hourly wage required for a two\"",
+  "said": "And sixty percent of workers earn less than the wage needed for a two-bedroom home.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.767,
+   0.769,
+   0.995
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 22,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"Black and Latina female workers earning median wages that are $3.96 and $5.47 less than the one-bedroom Housing Wage\"",
+  "said": "The gap is even bigger for many women of color. Black and Latina women workers earn median wages several dollars below what a one-bedroom requires.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 23,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"coupled with the end of COVID-19 pandemic -era support programs\"",
+  "said": "Pandemic-era help for renters also ended around this time. Researchers say rising rents plus the end of that help made life much harder for low-income renters.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.767,
+   0.769,
+   0.995
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 28,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"In 1970, there were 300,000 more low-cost rental units (6.5 million) than low-income renter households (6.2 million).\"",
+  "said": "In nineteen seventy, America actually had more low-cost rental homes than low-income renters who needed them. About three hundred thousand more.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"a disparity of 3.3 million units\"",
+  "said": "By nineteen eighty-five, that had flipped. One advocacy group counted a gap of three point three million homes. Far more low-income renters than cheap places to rent.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"the main drivers being a shortage of affordable housing and the increased cost of living\"",
+  "said": "Housing experts say the main drivers of homelessness today are a shortage of affordable housing and a rising cost of living.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 32,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"only Vermont did not have median gross rents higher than\"",
+  "said": "You can see the pattern on a map. The states with the highest homelessness rates are mostly the states with the highest rents. California, New York, Hawaii, Washington, Massachusetts.",
+  "file": "s15.png",
+  "box": [
+   0.549,
+   0.667,
+   0.769,
+   0.933
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 34,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"Approximately 44 million households, constituting around one-third of all households in the United States, are renters.\"",
+  "said": "About forty-four million American households rent their home. That is roughly one in three.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 36,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"Those life events could include losing a job, a medical condition, divorce, domestic abuse, and more.\"",
+  "said": "Often it takes just one shock to push someone over the edge. Losing a job, a medical problem, a divorce. One bad month, when there is no cushion left.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.751,
+   0.769,
+   0.849
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 37,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"Many homeless people in the United States work, both part-time and full-time.\"",
+  "said": "Many people picture homelessness as someone without a job. But many homeless Americans do work, part-time and full-time.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 38,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"Around 44% of homeless people were employed.\"",
+  "said": "One federal count from two thousand nine found that around forty-four percent of homeless people were employed.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 40,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"there is usually little to no space for bathing or doing laundry\"",
+  "said": "Living in a car is also expensive in hidden ways. You pay for gas to keep warm or cool. You pay for a gym membership just to shower. You eat fast food because you have no kitchen.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 47,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"Many municipalities have laws prohibiting overnight parking and/or sleeping in vehicles.\"",
+  "said": "In much of America, sleeping in your car is against the law. Many cities ban overnight parking or sleeping in vehicles.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 48,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"In Los Angeles, living in a vehicle is prohibited on most streets.\"",
+  "said": "In Los Angeles, living in a vehicle is prohibited on most streets.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"approximately 25% were reportedly living in a vehicle\"",
+  "said": "That is a big deal, because in twenty nineteen, about a quarter of Los Angeles's sixty thousand homeless people were living in vehicles.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"ruled that anti-camping laws do not constitute a cruel and unusual punishment\"",
+  "said": "In twenty twenty-four, the Supreme Court made it easier for cities to punish people for sleeping outside. In a case called Grants Pass versus Johnson, it ruled that camping bans are not cruel and unusual punishment, even when no shelter beds are available.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, City of Grants Pass v. Johnson",
+  "url": "https://en.wikipedia.org/wiki/City_of_Grants_Pass_v._Johnson",
+  "what": "highlight \"could not enforce an anti-camping ordinance whenever its homeless population exceeds the number of available beds\"",
+  "said": "Before that ruling, a lower court had said in two thousand eighteen that a city could not punish people for sleeping outside when there were not enough shelter beds. The Supreme Court decision changed that.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.591,
+   0.769,
+   0.741
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 52,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"allowing cities to jail and fine homeless pe\"",
+  "said": "That decision allowed cities to fine and even jail homeless people for sleeping in public.",
+  "file": "s26.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"Some vandwellers have parked in Walmart and Cracker Barrel parking lots.\"",
+  "said": "So some people find quiet places to stay. Some park overnight in store parking lots, like Walmart and Cracker Barrel.",
+  "file": "s27.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"to remain in many areas of their vast administration for up to 14 days at a time\"",
+  "said": "Others drive out to public land in the West, where the government lets campers stay up to fourteen days at a time.",
+  "file": "s28.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 57,
+  "source": "Wikipedia, Van-dwelling",
+  "url": "https://en.wikipedia.org/wiki/Vehicle_dwelling",
+  "what": "highlight \"initiatives, which offer limited facilities and some security\"",
+  "said": "In several California cities, nonprofit groups run something called safe parking programs.",
+  "file": "s29.png",
+  "box": [
+   0.156,
+   0.712,
+   0.769,
+   0.888
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 62,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"homelessness for one to two million people at any one time\"",
+  "said": "And this is not a new kind of American crisis. During the Great Depression, poverty and homelessness hit one to two million people at any one time.",
+  "file": "s30.png",
+  "box": [
+   0.156,
+   0.504,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 63,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"The new policy shifted toward public works run by the Works Progress Administration .\"",
+  "said": "Back then, the government responded with huge public works programs, putting millions of people to work building roads, bridges and schools.",
+  "file": "s31.png",
+  "box": [
+   0.156,
+   0.504,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, Homelessness in the United States",
+  "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+  "what": "highlight \"the FTP operated over 600 facilities\"",
+  "said": "Before that, a federal program ran more than six hundred facilities that gave food, medical care, housing and some jobs to about a million people.",
+  "file": "s32.png",
+  "box": [
+   0.156,
+   0.504,
+   0.769,
+   1
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 68,
+  "source": "Wikipedia, Affordable housing in the United States",
+  "url": "https://en.wikipedia.org/wiki/Affordable_housing_in_the_United_States",
+  "what": "highlight \"units (often 10-30%)\"",
+  "said": "Some cities require new developments to include a share of affordable units, often between ten and thirty percent.",
+  "file": "s33.png",
+  "box": [
+   0.156,
+   0.199,
+   0.769,
+   0.531
+  ],
+  "page": null,
+  "ok": true
+ }
+]

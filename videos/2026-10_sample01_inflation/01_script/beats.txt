@@ -1,0 +1,35 @@
+# Beat sheet: one line per visual beat.  Format:  spoken words || visuals
+# Visuals (separated by ";"):
+#   CODE@pos[:height][+delay]   library image, e.g. A01@center:0.8  (height = share of screen, delay = seconds)
+#   "TEXT"@pos:size[:color]     text, size in px, color orange|black|grey
+#   chart@a-b                   inflation chart, line animates from year a to year b during the beat
+# Positions: center, left, right, tl, tr, bl, br, top, bottom
+# A beat that ends with . ? ! or ... ends a sentence (the voice is generated per sentence).
+
+Here's something nobody tells you: || A01@center:0.8
+you can lose money || A04@left:0.8
+without spending a single dollar. || A04@left:0.8; D01@right:0.55+0.3
+Say you put one hundred dollars || D01@left:0.55; E01@right:0.35
+in a piggy bank. || B01@center:0.6; "$100"@top:110:orange
+Ten years later, || "10 YEARS LATER"@center:150; E24@low:0.25
+you open it. || B01@center:0.6
+Still one hundred dollars. || B01@center:0.6; "$100"@top:110:orange
+Nice. || A21@center:0.8
+Except... || A05@center:0.8
+it doesn't buy one hundred dollars of stuff anymore. || D03@center:0.7
+That's inflation. || "INFLATION"@center:190:orange
+Prices creep up a little every year, || E37@center:0.7
+so every dollar you hold quietly buys less. || E38@left:0.6; D02@right:0.55+0.6
+At just three percent inflation, || chart@0-0
+your hundred dollars buys about seventy-four dollars' worth of stuff after ten years. || chart@0-10
+After twenty-four years? || chart@10-24
+Roughly half. || chart@24-24; A45@tr:0.3
+And three percent is a normal year. || A14@center:0.8
+In twenty twenty-two, US inflation hit about nine percent. || "9.1%"@right:220:orange; "US inflation, June 2022"@rlow:60:grey; A08@left:0.75
+So the piggy bank isn't safe. || B02@center:0.6
+It's just... slow. || B02@left:0.55; E54@right:0.3+0.5
+The money didn't disappear. || A15@left:0.8; D03@right:0.6
+Its power did. || A15@left:0.8; D03@right:0.6; "POWER"@top:120:orange
+So where should your savings actually go? || A06@left:0.8; E48@right:0.35
+That's the next video. || A18@center:0.8
+Subscribe so you don't miss it. || A23@left:0.8; "SUBSCRIBE!"@right:150:orange; "Not financial advice"@bottom:44:grey

@@ -1,0 +1,9 @@
+# Voice Studio web app (python -m studio). Python 3.10 or newer. Also install ffmpeg (joins the audio parts).
+fastapi>=0.110
+uvicorn>=0.29
+edge-tts>=7.0
+aiohttp>=3.9
+numpy
+soundfile
+# Optional, offline voices:      pip install kokoro-onnx     (then run: python download_kokoro.py)
+# Optional, your cloned voice:   pip install chatterbox-tts  (use 3_INSTALL_cloned_voice_windows.bat)

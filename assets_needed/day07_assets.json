@@ -1,0 +1,194 @@
+{
+ "CH1": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH2": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH3": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH4": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH5": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH6": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH7": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "CH8": {
+  "type": "pose",
+  "character": "Rosa"
+ },
+ "S01": {
+  "type": "scene",
+  "sentence": "She's an electrician, and she's never been this busy."
+ },
+ "S02": {
+  "type": "scene",
+  "sentence": "Several buildings, each longer than a football field."
+ },
+ "S03": {
+  "type": "scene",
+  "sentence": "The local diner has a line out the door at lunch."
+ },
+ "S04": {
+  "type": "scene",
+  "sentence": "She doesn't really think about that."
+ },
+ "S05": {
+  "type": "scene",
+  "sentence": "The big question is whether that bet pays off."
+ },
+ "S06": {
+  "type": "scene",
+  "sentence": "Both can be true at once."
+ },
+ "S07": {
+  "type": "scene",
+  "sentence": "It's a simple question about who pays the bill."
+ },
+ "S08": {
+  "type": "scene",
+  "sentence": "To find it, let's follow the money."
+ },
+ "S09": {
+  "type": "scene",
+  "sentence": "Starting with how much is being spent."
+ },
+ "S10": {
+  "type": "scene",
+  "sentence": "And it's growing, year after year."
+ },
+ "S11": {
+  "type": "scene",
+  "sentence": "So nobody wants to be the one who spends less."
+ },
+ "S12": {
+  "type": "scene",
+  "sentence": "Whole towns are being changed by this."
+ },
+ "S13": {
+  "type": "scene",
+  "sentence": "So far, the money flowing out is easy to see."
+ },
+ "S14": {
+  "type": "scene",
+  "sentence": "How much money is flowing back in?"
+ },
+ "S15": {
+  "type": "scene",
+  "sentence": "Think about a new shopping mall."
+ },
+ "S16": {
+  "type": "scene",
+  "sentence": "The builder spends millions on the building."
+ },
+ "S17": {
+  "type": "scene",
+  "sentence": "Either way, revenue has to come from somewhere."
+ },
+ "S18": {
+  "type": "scene",
+  "sentence": "Since then, the spending has only grown."
+ },
+ "S19": {
+  "type": "scene",
+  "sentence": "So the question has grown too."
+ },
+ "S20": {
+  "type": "scene",
+  "sentence": "But most of them use the free version."
+ },
+ "S21": {
+  "type": "scene",
+  "sentence": "Some had barely any sales at all."
+ },
+ "S22": {
+  "type": "scene",
+  "sentence": "Amazon, Google and others grew into giants."
+ },
+ "S23": {
+  "type": "scene",
+  "sentence": "That's very different from two thousand."
+ },
+ "S24": {
+  "type": "scene",
+  "sentence": "They'd just have spent a lot of money on buildings worth less than they hoped."
+ },
+ "S25": {
+  "type": "scene",
+  "sentence": "When a seller helps fund its own customers, sales can look stronger than the real demand underneath."
+ },
+ "S26": {
+  "type": "scene",
+  "sentence": "But if you can't pay him back, he loses twice."
+ },
+ "S27": {
+  "type": "scene",
+  "sentence": "So the bill doesn't just need to be paid once."
+ },
+ "S28": {
+  "type": "scene",
+  "sentence": "But it's a very big ask."
+ },
+ "S29": {
+  "type": "scene",
+  "sentence": "When they fall, the whole index falls with them."
+ },
+ "S30": {
+  "type": "scene",
+  "sentence": "Fewer new buildings means less work for electricians."
+ },
+ "S31": {
+  "type": "scene",
+  "sentence": "Even after a crash, the useful technology stays."
+ },
+ "S32": {
+  "type": "scene",
+  "sentence": "Of course, the other path is possible too."
+ },
+ "S33": {
+  "type": "scene",
+  "sentence": "Then this spending could look smart."
+ },
+ "S34": {
+  "type": "scene",
+  "sentence": "Nobody knows for sure which path we're on."
+ },
+ "S35": {
+  "type": "scene",
+  "sentence": "So what can someone like Rosa actually do?"
+ },
+ "S36": {
+  "type": "scene",
+  "sentence": "Rosa is now putting a little aside every month, just in case the overtime stops."
+ },
+ "S37": {
+  "type": "scene",
+  "sentence": "None of this is a prediction."
+ },
+ "S38": {
+  "type": "scene",
+  "sentence": "It's just how careful people prepare for something nobody can predict."
+ },
+ "S39": {
+  "type": "scene",
+  "sentence": "A great technology and a great investment are not the same thing."
+ },
+ "S40": {
+  "type": "scene",
+  "sentence": "Rosa finishes her shift as the sun sets over the desert."
+ }
+}

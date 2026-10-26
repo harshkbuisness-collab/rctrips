@@ -1,0 +1,93 @@
+[
+ {
+  "name": "Great Depression",
+  "title": "Great Depression",
+  "file": "p_great_depression.jpg",
+  "page": "https://en.wikipedia.org/wiki/Great_Depression",
+  "desc": "Worldwide economic depression (1929\u20131939)"
+ },
+ {
+  "name": "Wall Street",
+  "title": "Wall Street",
+  "file": "p_wall_street.jpg",
+  "page": "https://en.wikipedia.org/wiki/Wall_Street",
+  "desc": "Street in Manhattan, New York"
+ },
+ {
+  "name": "Henry Ford",
+  "title": "Henry Ford",
+  "file": "p_henry_ford.png",
+  "page": "https://en.wikipedia.org/wiki/Henry_Ford",
+  "desc": "American business magnate (1863\u20131947)"
+ },
+ {
+  "name": "Joseph Kennedy",
+  "title": "Joseph P. Kennedy Sr.",
+  "file": "p_joseph_kennedy.jpg",
+  "page": "https://en.wikipedia.org/wiki/Joseph_P._Kennedy_Sr.",
+  "desc": "American businessman and politician (1888\u20131969)"
+ },
+ {
+  "name": "Irving Fisher",
+  "title": "Irving Fisher",
+  "file": "p_irving_fisher.jpg",
+  "page": "https://en.wikipedia.org/wiki/Irving_Fisher",
+  "desc": "American economist (1867\u20131947)"
+ },
+ {
+  "name": "Roger Babson",
+  "title": "Roger Babson",
+  "file": "p_roger_babson.jpg",
+  "page": "https://en.wikipedia.org/wiki/Roger_Babson",
+  "desc": "American entrepreneur and business theorist (1875\u20131967)"
+ },
+ {
+  "name": "Herbert Hoover",
+  "title": "Herbert Hoover",
+  "file": "p_herbert_hoover.jpg",
+  "page": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+  "desc": "President of the United States from 1929 to 1933"
+ },
+ {
+  "name": "New York Stock Exchange",
+  "title": "New York Stock Exchange",
+  "file": "p_new_york_stock_exchange.jpg",
+  "page": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange",
+  "desc": "American stock exchange"
+ },
+ {
+  "name": "the Federal Reserve",
+  "title": "Federal Reserve",
+  "file": "p_the_federal_reserve.png",
+  "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+  "desc": "Central banking system of the US"
+ },
+ {
+  "name": "Ben Bernanke",
+  "title": "Ben Bernanke",
+  "file": "p_ben_bernanke.jpg",
+  "page": "https://en.wikipedia.org/wiki/Ben_Bernanke",
+  "desc": "American economist (born 1953)"
+ },
+ {
+  "name": "the Great Plains",
+  "title": "Great Plains",
+  "file": "p_the_great_plains.jpg",
+  "page": "https://en.wikipedia.org/wiki/Great_Plains",
+  "desc": "Flat expanse in western North America"
+ },
+ {
+  "name": "Franklin Roosevelt",
+  "title": "Franklin D. Roosevelt",
+  "file": "p_franklin_roosevelt.jpg",
+  "page": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+  "desc": "President of the United States from 1933 to 1945"
+ },
+ {
+  "name": "World War Two",
+  "title": "World War II",
+  "file": "p_world_war_two.jpg",
+  "page": "https://en.wikipedia.org/wiki/World_War_II",
+  "desc": "Global conflict from 1939 to 1945"
+ }
+]

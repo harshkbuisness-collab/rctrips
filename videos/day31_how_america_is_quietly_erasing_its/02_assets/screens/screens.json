@@ -1,0 +1,402 @@
+[
+ {
+  "line": 0,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"surpassed $40 trillion on August 18, 2026\"",
+  "said": "On August eighteenth, twenty twenty-six, America's national debt passed forty trillion dollars.",
+  "file": "s01.png",
+  "box": [
+   0.505,
+   0.376,
+   0.769,
+   0.506
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 1,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"a time interval of merely 71 days\"",
+  "said": "Less than a year earlier, it had just hit thirty-eight trillion. And the jump from thirty-seven to thirty-eight took only seventy-one days.",
+  "file": "s02.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 11,
+  "source": "U.S. Treasury, Fiscal Data",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"The national debt is the amount of money the federal government has borrowed\"",
+  "said": "First, what is the national debt? It is every dollar the federal government has borrowed and not yet paid back.",
+  "file": "s03.png",
+  "box": [
+   0.312,
+   0.69,
+   0.7,
+   0.91
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 12,
+  "source": "U.S. Treasury, Fiscal Data",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"similar to a person using a credit card\"",
+  "said": "The Treasury itself explains it with a simple picture. It is like using a credit card and never paying off the full balance.",
+  "file": "s04.png",
+  "box": [
+   0.312,
+   0.75,
+   0.7,
+   0.85
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 13,
+  "source": "U.S. Treasury, Fiscal Data",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"Debts incurred during the American Revolutionary War amounted to $75 million\"",
+  "said": "America has carried debt since the very beginning. The Revolutionary War left the new country owing seventy-five million dollars, much of it borrowed from France.",
+  "file": "s05.png",
+  "box": [
+   0.372,
+   0.842,
+   0.699,
+   0.942
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 14,
+  "source": "U.S. Treasury, Fiscal Data",
+  "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+  "what": "highlight \"As the federal government experiences reoccurring deficits, which is common, the national debt grows.\"",
+  "said": "Every year the government spends more than it collects in taxes. That gap is called the deficit. Each deficit gets added to the pile.",
+  "file": "s06.png",
+  "box": [
+   0.312,
+   0.69,
+   0.7,
+   0.91
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 21,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"$26.5 trillion held by the public and $12.1 trillion in intragovernmental debt\"",
+  "said": "At the end of twenty twenty-three, about twenty-six and a half trillion was held by the public, and about twelve trillion was owed inside the government.",
+  "file": "s07.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 26,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"reached its highest level during Harry Truman 's first presidential term\"",
+  "said": "When the war ended, America owed more than its entire economy produced in a year.",
+  "file": "s08.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 29,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"debt-to-GDP ratio fell from 1.21 to 0.32\"",
+  "said": "Now here is the amazing part. By nineteen seventy-four, that number had fallen to just thirty-two percent.",
+  "file": "s09.png",
+  "box": [
+   0.156,
+   0.713,
+   0.769,
+   0.889
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 31,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"there were surpluses in only eight of those years\"",
+  "said": "In those twenty-eight years, the government ran a surplus in only eight of them. A surplus is a year when it collects more than it spends.",
+  "file": "s10.png",
+  "box": [
+   0.156,
+   0.713,
+   0.769,
+   0.889
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 33,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"reached a low in 1974 under president Richard Nixon\"",
+  "said": "The debt hit its lowest point compared to the economy under President Nixon, in nineteen seventy-four.",
+  "file": "s11.png",
+  "box": [
+   0.156,
+   0.647,
+   0.769,
+   0.953
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 49,
+  "source": "Wikipedia, History of the Federal Reserve System",
+  "url": "https://en.wikipedia.org/wiki/1951_Accord",
+  "what": "highlight \"pledged to keep the interest rate on Treasury bills fixed at 0.375 percent\"",
+  "said": "During the war, the Federal Reserve promised to keep the rate on short-term government debt fixed at just three eighths of one percent.",
+  "file": "s12.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 50,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"negative real interest rates erodes the real value of government debt\"",
+  "said": "Economists have a name for this mix. They call it financial repression. Rates are held below inflation, so savers slowly lose value without noticing.",
+  "file": "s13.png",
+  "box": [
+   0.156,
+   0.658,
+   0.769,
+   0.756
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 51,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"below 1% for two-thirds of the time between 1945 and 1980\"",
+  "said": "After the war, America kept real interest rates below one percent for two thirds of the time between nineteen forty-five and nineteen eighty.",
+  "file": "s14.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 53,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"inflate away\"",
+  "said": "That is how the country was able to inflate away the giant debt left by the Depression and the war.",
+  "file": "s15.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 54,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"government debt declined from 216% of GDP in 1945 to 138% ten years later in 1955\"",
+  "said": "And America was not alone. Britain used the same trick. Its debt fell from two hundred sixteen percent of its economy to one hundred thirty-eight percent in just ten years.",
+  "file": "s16.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 55,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"financial repression can last for decades\"",
+  "said": "And this is not a quick trick. Research on Japan suggests it can go on for decades.",
+  "file": "s17.png",
+  "box": [
+   0.156,
+   0.777,
+   0.769,
+   0.823
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 61,
+  "source": "Wikipedia, Financial repression",
+  "url": "https://en.wikipedia.org/wiki/Financial_repression",
+  "what": "highlight \"can be considered a form of taxation\"",
+  "said": "That is why economists say financial repression works like a hidden tax. It moves wealth from savers to the borrower.",
+  "file": "s18.png",
+  "box": [
+   0.156,
+   0.658,
+   0.769,
+   0.756
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 64,
+  "source": "Wikipedia, 2021\u20132023 inflation surge",
+  "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge",
+  "what": "highlight \"By June 2022, inflation in the US peaked at 9.1%, a record not seen since 1981.\"",
+  "said": "We got a taste of this recently. In June twenty twenty-two, American inflation hit nine point one percent, the highest in about forty years.",
+  "file": "s19.png",
+  "box": [
+   0.156,
+   0.673,
+   0.769,
+   0.927
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 66,
+  "source": "Wikipedia, 2021\u20132023 inflation surge",
+  "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge",
+  "what": "highlight \"Fuel prices rose by 49% from January to June 2022 in the United States.\"",
+  "said": "At the same time, the debt shrank a little compared to the economy, because prices and incomes in dollars were suddenly much bigger.",
+  "file": "s20.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 70,
+  "source": "Wikipedia, History of the Federal Reserve System",
+  "url": "https://en.wikipedia.org/wiki/1951_Accord",
+  "what": "highlight \"restored independence to the Fed\"",
+  "said": "It was called the Accord, and it gave the Federal Reserve back its independence. The Fed could now raise rates when it wanted to fight inflation.",
+  "file": "s21.png",
+  "box": [
+   0.156,
+   0.764,
+   0.769,
+   0.836
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 72,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"federal interest payments on the national debt surpassed spending on both Medicare and national defense\"",
+  "said": "The second problem is interest. In twenty twenty-four, interest payments on the debt grew bigger than spending on Medicare and on the military.",
+  "file": "s22.png",
+  "box": [
+   0.156,
+   0.686,
+   0.769,
+   0.914
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 73,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"to $799 billion in 2024, or 3.0% of GDP\"",
+  "said": "Just ten years earlier, net interest was about two hundred thirty-one billion dollars a year. By twenty twenty-four, it was almost eight hundred billion.",
+  "file": "s23.png",
+  "box": [
+   0.156,
+   0.699,
+   0.769,
+   0.901
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 76,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"to 116 percent in 2034\"",
+  "said": "Its forecast says debt held by the public goes from ninety-nine percent of the economy in twenty twenty-four to one hundred sixteen percent in twenty thirty-four.",
+  "file": "s24.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ },
+ {
+  "line": 77,
+  "source": "Wikipedia, National debt of the United States",
+  "url": "https://en.wikipedia.org/wiki/National_debt_of_the_United_States",
+  "what": "highlight \"172 percent of GDP in 2054\"",
+  "said": "If nothing changes, the same forecast keeps climbing, to one hundred seventy-two percent of the economy by twenty fifty-four. That is far above the World War Two record.",
+  "file": "s25.png",
+  "box": [
+   0.156,
+   0.738,
+   0.769,
+   0.862
+  ],
+  "page": null,
+  "ok": true
+ }
+]

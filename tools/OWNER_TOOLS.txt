@@ -1,0 +1,13 @@
+YOUR TOOLS (all free, run on your own computer, no Claude credits)
+===================================================================
+1. VOICE STUDIO  (tools/voice_studio/)  - web app: pick a voice (play samples), set speed, paste or upload
+   many scripts, generate them in parallel with progress bars, retry failures, download each file or a ZIP.
+   Free Microsoft voices by default; OpenAI / ElevenLabs (API key), Kokoro (offline) or your cloned voice.
+   Install: 1_INSTALL_windows.bat, run: 2_START_windows.bat. Read README.md. Save voices as voices/dayNN.mp3.
+2. VIDEO ANALYZER (tools/video_analyzer/) - drop in any video, get a short REPORT.md
+   (pace, cuts, speech speed, hook text). Paste only REPORT.md into Claude.
+3. CHATGPT SCRIPT PROMPTS (research/08-chatgpt-prompts.md) - paste the MASTER PROMPT, then one
+   DAY block, into ChatGPT (web search ON). Save the answer as scripts/dayNN_<name>.md.
+
+WHAT CLAUDE DOES: screenshots, script format check, review sheet, and making the videos
+(python3 tools/batch.py 2 3 4 5 6). Give Claude the scripts + voices, 5 days at a time.

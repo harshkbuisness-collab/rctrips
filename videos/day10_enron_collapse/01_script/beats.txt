@@ -1,0 +1,224 @@
+# Day 10: Enron: The $63 Billion Company That Sold Nothing. Built by tools/script_to_beats.py.
+
+# ---------- CHAPTER 1: The Proud Employee ----------
+|| title:"The Proud Employee"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In December two thousand one, || title:"The Proud Employee"; doc:s01.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.279,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Enron, a company that reported sixty-three billion dollars in assets, collapsed in what was then the biggest bankruptcy in American history. || title:"The Proud Employee"; A08@0.2,0.6:0.58~l; E34@0.62,0.4:0.32~drop; note:"ENRON"@0.66,0.12; H17@0.85,0.4:0.32:"$63 BILLION"~pop; E47@0.62,0.76:0.32~pop; E25@0.85,0.76:0.32~pop; note:"Dec 2001"@0.5,0.92
+Meet Ray. || title:"The Proud Employee"; H09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop
+He's a pipeline technician in Houston, Texas. || title:"The Proud Employee"; H09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop; note:"Houston, TX"@0.66,0.12
+He's worked for the company for twenty years, since back when it just moved natural gas through pipes. || title:"The Proud Employee"; H09@0.80,0.6:0.58~r; G13@0.38,0.4:0.32~drop; note:"Houston, TX"@0.66,0.12; E33@0.15,0.4:0.32~pop; E23@0.38,0.76:0.32~pop
+Ray loves his job. || title:"The Proud Employee"; H10@0.2,0.6:0.58~l
+His company has a shiny tower downtown, and everyone in town wants to work there. || title:"The Proud Employee"; E34@0.5,0.6:0.76
+He tells people where he works with real pride. || title:"The Proud Employee"; E28@0.5,0.6:0.76
+Every year, employees get a bonus, and part of it comes in company stock. || title:"The Proud Employee"; E02@0.62,0.4:0.32~drop; D24@0.85,0.4:0.32~pop
+Managers tell them owning shares is the best way to share in the company's success. || title:"The Proud Employee"; E02@0.62,0.4:0.32~drop; D24@0.85,0.4:0.32~pop; C01@0.2,0.6:0.58~r; E51@0.62,0.76:0.32~pop
+For six years in a row, Fortune magazine named it America's most innovative company. || title:"The Proud Employee"; doc:s02.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.277,0.419,0.331,0.456+0.8; H04@0.9,1.0:0.3:bottom
+Business schools taught its success story. || title:"The Proud Employee"; C01@0.80,0.6:0.58; E09@0.38,0.4:0.32~drop; note:"MOST INNOVATIVE"@0.66,0.12
+Wall Street loved it. || title:"The Proud Employee"; G01@0.5,0.6:0.76
+So Ray puts almost all of his retirement savings into company stock. || title:"The Proud Employee"; D25@0.5,0.6:0.76
+Over the years, his four oh one k grows to about seven hundred thousand dollars. || title:"The Proud Employee"; H17@0.5,0.6:0.76:"$700,000"
+He's planning to retire in five years. || title:"The Proud Employee"; E31@0.62,0.4:0.32~pop
+Maybe buy a fishing boat. || title:"The Proud Employee"; E31@0.62,0.4:0.32~pop; C27@0.2,0.6:0.58~r
+Help his daughter through college. || title:"The Proud Employee"; E31@0.62,0.4:0.32~pop; C27@0.2,0.6:0.58~r; H22@0.85,0.4:0.32~pop
+Everything feels safe. || title:"The Proud Employee"; E31@0.62,0.4:0.32~pop; C27@0.2,0.6:0.58~r; H22@0.85,0.4:0.32~pop; H27@0.62,0.76:0.32~drop
+His friends at other companies keep their savings in boring index funds. || title:"The Proud Employee"; C28@0.2,0.6:0.58~drop; H19@0.62,0.4:0.32~pop
+Ray teases them. || title:"The Proud Employee"; C28@0.80,0.6:0.58~drop; H19@0.38,0.4:0.32~pop; note:"INDEX FUND"@0.66,0.12; E54@0.15,0.4:0.32~pop
+Why settle for average when you work for the best company in America? || title:"The Proud Employee"; C28@0.80,0.6:0.58~drop; H19@0.38,0.4:0.32~pop; note:"INDEX FUND"@0.66,0.12; E54@0.15,0.4:0.32~pop; H10@0.60,0.64:0.46~r; E28@0.38,0.76:0.32~pop
+Within a year, almost all of that money will be gone. || title:"The Proud Employee"; D25@0.5,0.6:0.76
+And it won't be because Ray made a mistake. || title:"The Proud Employee"; D14@0.5,0.6:0.76
+It'll be because the numbers were lies. || title:"The Proud Employee"; H15@0.5,0.6:0.76:"LIES"
+By the end of this video, || title:"The Proud Employee"; A17@0.2,0.6:0.58~l; E16@0.62,0.4:0.32~pop
+you'll see exactly how Enron faked its success, who could have stopped it, and the warning signs you can spot in any company today. || title:"The Proud Employee"; A17@0.2,0.6:0.58~l; E16@0.62,0.4:0.32~pop; E44@0.85,0.4:0.32~drop; E34@0.62,0.76:0.32~pop
+To understand the lie, we first need to understand what Enron actually did. || title:"The Proud Employee"; A33@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop
+Because at the start, it was a very normal business. || title:"The Proud Employee"; A33@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop; D17@0.15,0.4:0.32~drop; E48@0.38,0.76:0.32~pop
+
+# ---------- CHAPTER 2: From Pipes to Promises ----------
+|| title:"From Pipes to Promises"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Enron was formed in nineteen eighty-five, when two natural gas pipeline companies merged. || title:"From Pipes to Promises"; doc:s03.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.615,0.637,0.701,0.673+0.8; H04@0.9,1.0:0.3:bottom
+Its boss was Ken Lay, a friendly economist with a doctorate. || title:"From Pipes to Promises"; E33@0.5,0.6:0.76
+Moving gas through pipes is a steady but slow business. || title:"From Pipes to Promises"; C01@0.2,0.6:0.58~none; D17@0.62,0.4:0.32~pop
+You build the pipes, you charge a fee, you earn a modest profit. || title:"From Pipes to Promises"; C01@0.2,0.6:0.58~none; D17@0.62,0.4:0.32~pop; E33@0.85,0.4:0.32~drop
+Lay wanted something faster. || title:"From Pipes to Promises"; C01@0.2,0.6:0.58~none; D17@0.62,0.4:0.32~pop; E33@0.85,0.4:0.32~drop; E54@0.62,0.76:0.32~pop; E26@0.85,0.76:0.32~r
+Then he hired a sharp young consultant named Jeff Skilling. || title:"From Pipes to Promises"; doc:s04.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.619,0.546,0.719,0.582+0.8; H04@0.9,1.0:0.3:bottom
+Skilling had a big idea. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58~l; note:"JEFF SKILLING"@0.66,0.12
+Enron shouldn't just move gas. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58~l; note:"JEFF SKILLING"@0.66,0.12; E17@0.38,0.4:0.32~pop
+It should trade it, like a stock. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58~l; note:"JEFF SKILLING"@0.66,0.12; E17@0.38,0.4:0.32~pop; G11@0.15,0.4:0.32~drop; D17@0.38,0.76:0.32~pop
+Skilling was brilliant and impatient. || title:"From Pipes to Promises"; H13@0.2,0.6:0.58~r
+He liked to say Enron didn't need lots of heavy assets like pipes and power plants. || title:"From Pipes to Promises"; E33@0.5,0.6:0.76
+It could win with ideas and contracts instead. || title:"From Pipes to Promises"; E20@0.5,0.6:0.76
+Enron would become a middleman. || title:"From Pipes to Promises"; H13@0.2,0.6:0.58~none; E32@0.62,0.4:0.32~pop
+It would sign contracts to buy gas from producers and sell it to power plants and factories, years into the future. || title:"From Pipes to Promises"; H13@0.2,0.6:0.58~none; E32@0.62,0.4:0.32~pop; H15@0.85,0.4:0.32:"CONTRACT"~drop; E33@0.62,0.76:0.32~pop
+It actually worked at first. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58; E17@0.38,0.4:0.32~pop
+Enron's trading business grew fast. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58; E17@0.38,0.4:0.32~pop; H20@0.15,0.4:0.32~pop
+Then it started trading everything. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58; E17@0.38,0.4:0.32~pop; H20@0.15,0.4:0.32~pop; E07@0.38,0.76:0.32~pop
+Electricity, water, paper, even internet bandwidth and weather. || title:"From Pipes to Promises"; H13@0.80,0.6:0.58; E17@0.38,0.4:0.32~pop; H20@0.15,0.4:0.32~pop; E07@0.38,0.76:0.32~pop; G24@0.15,0.76:0.32~drop; D13@0.42,0.24:0.32
+Enron built a website called EnronOnline, where traders could buy and sell energy contracts with a click. || title:"From Pipes to Promises"; E07@0.5,0.6:0.76
+Soon, it was handling billions of dollars of trades. || title:"From Pipes to Promises"; D13@0.5,0.6:0.76
+The company changed. || title:"From Pipes to Promises"; H09@0.2,0.6:0.58~l
+Fewer pipe engineers like Ray. || title:"From Pipes to Promises"; H09@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop; E06@0.62,0.4:0.32~pop
+More young traders in expensive suits, chasing huge bonuses. || title:"From Pipes to Promises"; H09@0.2,0.6:0.58~l; C28@0.4,0.64:0.46~drop; E06@0.62,0.4:0.32~pop; E02@0.85,0.4:0.32~pop
+Skilling also created a tough system for rating employees. || title:"From Pipes to Promises"; C28@0.2,0.6:0.58~drop
+Every year, the lowest-ranked workers were pushed out. || title:"From Pipes to Promises"; C28@0.80,0.6:0.58~drop; E29@0.38,0.4:0.32~pop
+People called it rank and yank. || title:"From Pipes to Promises"; C28@0.80,0.6:0.58~drop; E29@0.38,0.4:0.32~pop; E20@0.15,0.4:0.32~pop; H18@0.38,0.76:0.32:"RANK & YANK"~pop
+Nobody wanted to bring bad news. || title:"From Pipes to Promises"; C28@0.80,0.6:0.58~drop; E29@0.38,0.4:0.32~pop; E20@0.15,0.4:0.32~pop; H18@0.38,0.76:0.32:"RANK & YANK"~pop; A35@0.60,0.64:0.46~r
+But trading has a problem. || title:"From Pipes to Promises"; C28@0.80,0.6:0.58
+Profits go up and down. || title:"From Pipes to Promises"; D13@0.5,0.6:0.76
+And Wall Street rewards companies whose profits go up, every single quarter. || title:"From Pipes to Promises"; G11@0.5,0.6:0.76
+So Enron found a way to make them go up. || title:"From Pipes to Promises"; E45@0.5,0.6:0.76
+The first trick was hidden in an accounting rule. || title:"From Pipes to Promises"; H22@0.62,0.4:0.32~drop; E16@0.85,0.4:0.32~pop; A05@0.2,0.6:0.58~l
+
+# ---------- CHAPTER 3: Counting Money From the Future ----------
+|| title:"Counting Money From the Future"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] The rule was called mark-to-market accounting. || title:"Counting Money From the Future"; doc:s05.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.408,0.145,0.46+0.8; H04@0.9,1.0:0.3:bottom
+In nineteen ninety-two, regulators allowed Enron to use it for its contracts. || title:"Counting Money From the Future"; H22@0.62,0.4:0.32~drop; note:"MARK-TO-MARKET"@0.66,0.12; G09@0.85,0.4:0.32~pop; E25@0.62,0.76:0.32~pop; note:"1992"@0.5,0.92; A38@0.2,0.6:0.58~l
+Here's what it meant. || title:"Counting Money From the Future"; H15@0.38,0.4:0.32:"20-YEAR CONTRACT"~drop; E23@0.15,0.4:0.32~pop
+When Enron signed a contract that would pay off over twenty years, it could count all the expected profit right away, on day one. || title:"Counting Money From the Future"; H15@0.38,0.4:0.32:"20-YEAR CONTRACT"~drop; E23@0.15,0.4:0.32~pop; E02@0.38,0.76:0.32~pop; note:"TODAY"@0.66,0.12; A08@0.80,0.6:0.58~r
+Imagine a lemonade stand that signs a deal to sell lemonade every summer for twenty years. || title:"Counting Money From the Future"; doc:s06.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC" hl=0.396,0.522,0.81,0.59+0.8; H04@0.9,1.0:0.3:bottom
+It tells everyone it already made twenty years of profit, today. || title:"Counting Money From the Future"; E03@0.5,0.6:0.76
+And who decided how much profit those contracts would make? || title:"Counting Money From the Future"; C02@0.2,0.6:0.58~r
+Enron did. || title:"Counting Money From the Future"; C02@0.2,0.6:0.58~r; D27@0.62,0.4:0.32~pop
+Its own estimates. || title:"Counting Money From the Future"; C02@0.2,0.6:0.58~r; D27@0.62,0.4:0.32~pop; E26@0.85,0.4:0.32~drop
+Often very optimistic ones. || title:"Counting Money From the Future"; C02@0.2,0.6:0.58~r; D27@0.62,0.4:0.32~pop; E26@0.85,0.4:0.32~drop; E48@0.62,0.76:0.32~pop
+If a project later failed, the profit was already reported. || title:"Counting Money From the Future"; D21@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop
+So Enron had to keep signing bigger deals to show new profits every quarter. || title:"Counting Money From the Future"; D21@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop; H28@0.38,0.76:0.32~pop; A10@0.80,0.6:0.58~r
+Enron spent billions on a power plant in India and water businesses abroad. || title:"Counting Money From the Future"; A10@0.80,0.6:0.58; G17@0.38,0.4:0.32~drop
+Many of them lost money. || title:"Counting Money From the Future"; E33@0.5,0.6:0.76
+But the profits had already been counted. || title:"Counting Money From the Future"; H15@0.5,0.6:0.76:"ALREADY COUNTED"
+One famous example was a deal with the video store chain Blockbuster to stream movies over the internet. || title:"Counting Money From the Future"; doc:s07.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.342,0.782,0.443,0.819+0.8; H04@0.9,1.0:0.3:bottom
+It barely worked. || title:"Counting Money From the Future"; A10@0.2,0.6:0.58~none; E13@0.62,0.4:0.32~drop; H19@0.85,0.4:0.32~pop
+Enron still booked over a hundred million dollars of expected profit. || title:"Counting Money From the Future"; A10@0.2,0.6:0.58~none; E13@0.62,0.4:0.32~drop; H19@0.85,0.4:0.32~pop; note:"MOVIES"@0.66,0.12; E07@0.62,0.76:0.32~pop; H17@0.85,0.76:0.32:"$110 MILLION?"~pop
+The reported profits looked amazing. || title:"Counting Money From the Future"; A10@0.80,0.6:0.58
+The stock price soared. || title:"Counting Money From the Future"; A10@0.80,0.6:0.58; D13@0.38,0.4:0.32
+But real cash wasn't coming in nearly as fast. || title:"Counting Money From the Future"; A10@0.80,0.6:0.58; D13@0.38,0.4:0.32; E01@0.15,0.4:0.32~pop; E54@0.38,0.76:0.32~pop
+And the company was borrowing heavily to keep going. || title:"Counting Money From the Future"; A10@0.80,0.6:0.58; D13@0.38,0.4:0.32; E01@0.15,0.4:0.32~pop; E54@0.38,0.76:0.32~pop; D28@0.15,0.76:0.32~drop
+Borrowing that much would scare investors. || title:"Counting Money From the Future"; D28@0.5,0.6:0.76
+So Enron needed a place to hide its debts. || title:"Counting Money From the Future"; E21@0.5,0.6:0.76
+That's where its finance chief came in. || title:"Counting Money From the Future"; E21@0.5,0.6:0.76
+
+# ---------- CHAPTER 4: The Hidden Rooms ----------
+|| title:"The Hidden Rooms"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] Enron's chief financial officer was Andrew Fastow. || title:"The Hidden Rooms"; doc:s08.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.613,0.386,0.719,0.422+0.8; H04@0.9,1.0:0.3:bottom
+His job was to make the company's money look good. || title:"The Hidden Rooms"; H13@0.2,0.6:0.58~r; note:"ANDREW FASTOW"@0.66,0.12
+He became very creative at it. || title:"The Hidden Rooms"; H13@0.2,0.6:0.58~r; note:"ANDREW FASTOW"@0.66,0.12; D27@0.62,0.4:0.32~pop; E17@0.85,0.4:0.32~pop; E27@0.62,0.76:0.32~drop
+Fastow created hundreds of side companies, with odd names like LJM, Chewco and Raptor. || title:"The Hidden Rooms"; H13@0.2,0.6:0.58~none; H19@0.62,0.4:0.32~drop
+On paper, they were separate from Enron. || title:"The Hidden Rooms"; H13@0.80,0.6:0.58; H19@0.38,0.4:0.32~drop; note:"CHEWCO"@0.5,0.92; note:"RAPTOR"@0.66,0.12; E34@0.15,0.4:0.32~pop
+Some of them were named after characters from Star Wars. || title:"The Hidden Rooms"; H19@0.38,0.4:0.32~drop
+Inside Enron, very few people understood how all the pieces connected. || title:"The Hidden Rooms"; E48@0.5,0.6:0.76
+That was partly the point. || title:"The Hidden Rooms"; E48@0.5,0.6:0.76
+Think of them as hidden rooms in a house. || title:"The Hidden Rooms"; H19@0.5,0.6:0.76
+Enron could move its bad assets and its debts into those rooms, so visitors only saw the clean living room. || title:"The Hidden Rooms"; D09@0.62,0.4:0.32~drop; H19@0.85,0.4:0.32~pop; D28@0.62,0.76:0.32~pop; A37@0.2,0.6:0.58~l
+These side companies would also buy things from Enron at high prices. || title:"The Hidden Rooms"; A37@0.2,0.6:0.58~none
+That made Enron's sales and profits look bigger. || title:"The Hidden Rooms"; A37@0.80,0.6:0.58; H19@0.38,0.4:0.32~pop; E02@0.15,0.4:0.32~pop
+But much of the money really came from Enron itself. || title:"The Hidden Rooms"; A37@0.80,0.6:0.58; H19@0.38,0.4:0.32~pop; E02@0.15,0.4:0.32~pop; E34@0.38,0.76:0.32~pop
+It was like paying a friend to buy your old car for double, using money you secretly lent him. || title:"The Hidden Rooms"; E41@0.38,0.4:0.32~drop
+Your sale looks great. || title:"The Hidden Rooms"; E41@0.5,0.6:0.76
+But you're no richer. || title:"The Hidden Rooms"; E02@0.5,0.6:0.76
+And many of these deals were backed by a promise. || title:"The Hidden Rooms"; H09@0.2,0.6:0.58~none; D24@0.62,0.4:0.32~drop
+If things went wrong, Enron would cover the losses with its own stock. || title:"The Hidden Rooms"; H09@0.2,0.6:0.58~none; D24@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop
+That only worked while the stock price stayed high. || title:"The Hidden Rooms"; H09@0.2,0.6:0.58~none; D24@0.62,0.4:0.32~drop; G11@0.85,0.4:0.32~pop; D13@0.62,0.76:0.32; E44@0.85,0.76:0.32~pop
+That's the trap. || title:"The Hidden Rooms"; H09@0.80,0.6:0.58; H24@0.38,0.4:0.32~drop
+The hidden rooms only stayed hidden while the stock kept rising. || title:"The Hidden Rooms"; H09@0.80,0.6:0.58; H24@0.38,0.4:0.32~drop; G11@0.15,0.4:0.32~pop
+The moment it fell, the whole structure could come crashing down at once. || title:"The Hidden Rooms"; H09@0.80,0.6:0.58; H24@0.38,0.4:0.32~drop; G11@0.15,0.4:0.32~pop; D14@0.38,0.76:0.32; E47@0.15,0.76:0.32~pop
+Fastow also gave himself a special deal. || title:"The Hidden Rooms"; doc:s09.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Securities and Exchange Commission" hl=0.433,0.264,0.67,0.3+0.8; H04@0.9,1.0:0.3:bottom
+He personally ran some of these side companies, and earned more than thirty million dollars from them. || title:"The Hidden Rooms"; E27@0.5,0.6:0.76
+Enron's outside auditor, the famous firm Arthur Andersen, signed off on the books year after year. || title:"The Hidden Rooms"; doc:s10.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.297,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Andersen was also earning huge consulting fees from Enron. || title:"The Hidden Rooms"; E34@0.62,0.4:0.32~drop; note:"ARTHUR ANDERSEN"@0.66,0.12; H15@0.85,0.4:0.32:"APPROVED"~pop; E02@0.62,0.76:0.32~pop; A05@0.2,0.6:0.58~l
+Ray knew none of this. || title:"The Hidden Rooms"; H10@0.80,0.6:0.58~r
+He just saw the stock price climbing. || title:"The Hidden Rooms"; H10@0.80,0.6:0.58~r; D13@0.38,0.4:0.32
+In August two thousand, it reached about ninety dollars a share. || title:"The Hidden Rooms"; H10@0.80,0.6:0.58~r; D13@0.38,0.4:0.32; H17@0.15,0.4:0.32:"$90"~pop
+The company was worth about seventy billion dollars. || title:"The Hidden Rooms"; H18@0.5,0.6:0.76:"$70 BILLION"
+But a few people started asking simple questions. || title:"The Hidden Rooms"; E48@0.5,0.6:0.76
+And simple questions were dangerous for Enron. || title:"The Hidden Rooms"; E44@0.5,0.6:0.76
+
+# ---------- CHAPTER 5: The Questions ----------
+|| title:"The Questions"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In March two thousand one, a young Fortune reporter named Bethany McLean published an article with a simple title. || title:"The Questions"; doc:s11.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.301,0.135+0.8; H04@0.9,1.0:0.3:bottom
+Is Enron overpriced? || title:"The Questions"; C09@0.2,0.6:0.58~l; E09@0.62,0.4:0.32~drop; note:"IS ENRON OVERPRICED?"@0.66,0.12; E16@0.85,0.4:0.32~pop; E25@0.62,0.76:0.32~pop; note:"March 2001"@0.5,0.92
+Her point was basic. || title:"The Questions"; C28@0.2,0.6:0.58~drop
+Nobody, not even Wall Street experts, could clearly explain how Enron made its money. || title:"The Questions"; C28@0.2,0.6:0.58~drop; E48@0.62,0.4:0.32~pop; E02@0.85,0.4:0.32~pop
+And that should worry everyone. || title:"The Questions"; C28@0.80,0.6:0.58~drop; E48@0.38,0.4:0.32~pop; E02@0.15,0.4:0.32~pop; E44@0.38,0.76:0.32~pop
+Skilling reportedly called her questions unethical. || title:"The Questions"; doc:s12.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.459,0.135+0.8; H04@0.9,1.0:0.3:bottom
+A few weeks later, on a call with investors, he insulted an analyst who asked why Enron wouldn't share its full financial statements. || title:"The Questions"; H13@0.80,0.6:0.58~l; E08@0.38,0.4:0.32~pop; A12@0.60,0.64:0.46~pop; H15@0.15,0.4:0.32:"BALANCE SHEET?"~drop
+That spring, there was another warning. || title:"The Questions"; doc:s13.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.454,0.135+0.8; H04@0.9,1.0:0.3:bottom
+California had suffered an electricity crisis, with blackouts and soaring prices. || title:"The Questions"; H13@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; note:"California"@0.66,0.12
+Later evidence showed Enron traders had helped make it worse. || title:"The Questions"; H13@0.2,0.6:0.58~none; G13@0.62,0.4:0.32~drop; note:"California"@0.66,0.12; E17@0.85,0.4:0.32~pop; H17@0.62,0.76:0.32:"POWER ↑"~pop; E44@0.85,0.76:0.32~pop
+Recordings later revealed traders joking about prices they pushed up on grandmothers in California. || title:"The Questions"; E08@0.62,0.4:0.32~pop; C14@0.4,0.64:0.46~pop
+The trading strategies had nicknames like Death Star. || title:"The Questions"; E08@0.38,0.4:0.32~pop; C14@0.60,0.64:0.46~pop; A12@0.80,0.6:0.58~r
+In August two thousand one, Jeff Skilling suddenly quit as CEO, just six months after taking the job. || title:"The Questions"; H13@0.80,0.6:0.58~l; H18@0.38,0.4:0.32:"I QUIT"~drop
+He said it was for personal reasons. || title:"The Questions"; E48@0.5,0.6:0.76
+A few days later, an Enron executive named Sherron Watkins wrote a letter to Ken Lay. || title:"The Questions"; doc:s14.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.296,0.135+0.8; H04@0.9,1.0:0.3:bottom
+She warned that the company might implode in a wave of accounting scandals. || title:"The Questions"; C11@0.2,0.6:0.58~l; H15@0.62,0.4:0.32:"WARNING"~drop; C01@0.4,0.64:0.46~r; E47@0.85,0.4:0.32~pop
+Lay took the job of CEO back. || title:"The Questions"; C01@0.2,0.6:0.58~r; E14@0.62,0.4:0.32~drop
+He told employees, including Ray, that the company had never been stronger, and encouraged them to buy more stock. || title:"The Questions"; C01@0.80,0.6:0.58~l; E14@0.38,0.4:0.32~drop; E51@0.15,0.4:0.32~pop; note:"NEVER STRONGER"@0.66,0.12; H09@0.60,0.64:0.46~r
+Ray believed him. || title:"The Questions"; H09@0.80,0.6:0.58~r
+Why wouldn't he? || title:"The Questions"; H09@0.80,0.6:0.58~r; H27@0.38,0.4:0.32~pop
+He had trusted this company for twenty years. || title:"The Questions"; H09@0.80,0.6:0.58~r; H27@0.38,0.4:0.32~pop; D25@0.15,0.4:0.32~drop
+Meanwhile, some top executives had been quietly selling their own shares, for hundreds of millions of dollars. || title:"The Questions"; D14@0.5,0.6:0.76
+Ken Lay alone sold shares worth tens of millions of dollars during this period, while publicly telling workers the stock was a great buy. || title:"The Questions"; E51@0.5,0.6:0.76
+
+# ---------- CHAPTER 6: Eight Weeks ----------
+|| title:"Eight Weeks"; sting; A23@0.5,0.56:0.6; hold:1.2
+[serious] On October sixteenth, || title:"Eight Weeks"; A15@0.2,0.6:0.58; E25@0.62,0.4:0.32~drop; note:"Oct 16, 2001"@0.66,0.12
+two thousand one, Enron reported a six hundred eighteen million dollar loss, and quietly cut its shareholders' value by about one point two billion dollars. || title:"Eight Weeks"; A15@0.2,0.6:0.58; E25@0.62,0.4:0.32~drop; note:"Oct 16, 2001"@0.66,0.12; H17@0.85,0.4:0.32:"-$618 MILLION"~pop; note:"-$1.2 BILLION"@0.5,0.92; D14@0.62,0.76:0.32
+A week later, the S E C opened an investigation. || title:"Eight Weeks"; doc:s15.png@0.44,0.54 w=0.72 h=0.76 src="Source: U.S. Securities and Exchange Commission" hl=0.077,0.082,0.417,1+0.8; H04@0.9,1.0:0.3:bottom
+Then Enron admitted it had overstated its profits for years, by hundreds of millions of dollars. || title:"Eight Weeks"; H15@0.5,0.6:0.76:"RESTATED"
+Once trust broke, everything fell apart at once. || title:"Eight Weeks"; H19@0.5,0.6:0.76
+The hidden rooms depended on Enron's stock price. || title:"Eight Weeks"; A08@0.2,0.6:0.58~none; H19@0.62,0.4:0.32~pop; D28@0.85,0.4:0.32~drop
+As the stock fell, the debts came rushing back out. || title:"Eight Weeks"; A08@0.2,0.6:0.58~none; H19@0.62,0.4:0.32~pop; D28@0.85,0.4:0.32~drop; D14@0.62,0.76:0.32; E47@0.85,0.76:0.32~pop
+Banks stopped lending to Enron. || title:"Eight Weeks"; doc:s16.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.029,0.296,0.107,0.332+0.8; H04@0.9,1.0:0.3:bottom
+Its trading partners demanded cash up front. || title:"Eight Weeks"; D15@0.38,0.4:0.32~drop; A48@0.80,0.6:0.58~pop
+A rival company, Dynegy, agreed to buy Enron, then backed out after looking at the books. || title:"Eight Weeks"; D15@0.38,0.4:0.32~drop; A48@0.80,0.6:0.58~pop; E34@0.15,0.4:0.32~pop; note:"DYNEGY"@0.66,0.12; E20@0.38,0.76:0.32~pop
+And Ray? || title:"Eight Weeks"; H14@0.2,0.6:0.58~l
+He watched his retirement account fall every day. || title:"Eight Weeks"; D25@0.5,0.6:0.76
+He wanted to sell. || title:"Eight Weeks"; E55@0.5,0.6:0.76
+But at that exact moment, Enron had frozen employee accounts while it changed plan managers. || title:"Eight Weeks"; D14@0.5,0.6:0.76
+For a few critical weeks, employees like Ray couldn't sell their Enron shares, while the price kept collapsing. || title:"Eight Weeks"; E25@0.62,0.4:0.32~pop; E21@0.85,0.4:0.32~drop; E55@0.62,0.76:0.32~pop; A11@0.2,0.6:0.58~l
+By late November, the stock was worth less than one dollar. || title:"Eight Weeks"; doc:s17.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia"; H04@0.9,1.0:0.3:bottom
+On December second, two thousand one, Enron filed for bankruptcy. || title:"Eight Weeks"; A11@0.80,0.6:0.58; H17@0.38,0.4:0.32:"$90 → $0.26"~drop; E20@0.15,0.4:0.32~pop; E25@0.38,0.76:0.32~pop; note:"Dec 2, 2001"@0.66,0.12; E47@0.15,0.76:0.32~pop
+About twenty thousand employees lost their jobs. || title:"Eight Weeks"; C28@0.80,0.6:0.58~drop
+Together, workers lost around two billion dollars in their retirement plans. || title:"Eight Weeks"; C28@0.80,0.6:0.58~drop; D25@0.38,0.4:0.32~pop; H17@0.15,0.4:0.32:"$700,000 → ~$0"~pop
+Ray's seven hundred thousand dollars shrank to almost nothing. || title:"Eight Weeks"; H17@0.5,0.6:0.76:"$700,000 → ~$0"
+Ray's daughter changed her college plans. || title:"Eight Weeks"; E24@0.5,0.6:0.76
+She went to a community college and worked nights. || title:"Eight Weeks"; E24@0.5,0.6:0.76
+Ray started looking for work at fifty-five, in a city flooded with laid-off Enron workers. || title:"Eight Weeks"; H22@0.62,0.4:0.32~pop; E24@0.85,0.4:0.32~pop; note:"NIGHT SHIFT"@0.66,0.12; H09@0.4,0.64:0.46~l; C28@0.2,0.6:0.58~drop
+And then came the shredders. || title:"Eight Weeks"; H28@0.62,0.4:0.32~drop; E20@0.85,0.4:0.32~pop
+Arthur Andersen staff had destroyed tons of Enron documents. || title:"Eight Weeks"; H28@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop; E34@0.38,0.76:0.32~pop; note:"ANDERSEN"@0.66,0.12
+In two thousand two, Andersen was convicted, and the firm collapsed, costing about eighty-five thousand people their jobs. || title:"Eight Weeks"; H28@0.38,0.4:0.32~drop; E20@0.15,0.4:0.32~pop; E34@0.38,0.76:0.32~pop; note:"ANDERSEN"@0.66,0.12; E47@0.15,0.76:0.32~pop; C28@0.80,0.6:0.58~pop
+That conviction was later overturned on appeal. || title:"Eight Weeks"; doc:s18.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.448,0.135+0.8; H04@0.9,1.0:0.3:bottom
+But by then, the firm was already gone. || title:"Eight Weeks"; E20@0.5,0.6:0.76
+
+# ---------- CHAPTER 7: What Changed ----------
+|| title:"What Changed"; sting; A23@0.5,0.56:0.6; hold:1.2
+[calm] In two thousand two, Andrew Fastow pleaded guilty to fraud. || title:"What Changed"; E55@0.5,0.6:0.76
+He was sentenced to six years in prison. || title:"What Changed"; H13@0.2,0.6:0.58~r; E55@0.62,0.4:0.32~drop; E14@0.85,0.4:0.32~pop; H17@0.62,0.76:0.32:"6 YEARS"~pop
+In two thousand six, a jury convicted Jeff Skilling and Ken Lay. || title:"What Changed"; doc:s19.png@0.44,0.54 w=0.72 h=0.76 src="Source: FBI" hl=0.088,0.75,0.912,0.966+0.8; H04@0.9,1.0:0.3:bottom
+Skilling was sentenced to twenty-four years, later reduced. || title:"What Changed"; H13@0.2,0.6:0.58~none; E14@0.62,0.4:0.32~drop; E55@0.85,0.4:0.32~pop
+Lay died of a heart attack before he could be sentenced. || title:"What Changed"; H13@0.80,0.6:0.58; E14@0.38,0.4:0.32~drop; E55@0.15,0.4:0.32~pop; H17@0.38,0.76:0.32:"24 YEARS"~pop; E25@0.15,0.76:0.32~pop; note:"2006"@0.66,0.12
+Congress also acted fast. || title:"What Changed"; doc:s20.png@0.44,0.54 w=0.72 h=0.76 src="Source: Wikipedia" hl=0.156,0.083,0.324,0.135+0.8; H04@0.9,1.0:0.3:bottom
+In two thousand two, it passed the Sarbanes-Oxley Act. || title:"What Changed"; G09@0.38,0.4:0.32~drop; H22@0.15,0.4:0.32~pop
+Now, top executives must personally sign off that their company's financial reports are true. || title:"What Changed"; H15@0.5,0.6:0.76:"I CERTIFY"
+If they knowingly sign false numbers, they can go to prison. || title:"What Changed"; E55@0.5,0.6:0.76
+Auditors are now watched by a new oversight board, and there are stricter limits on selling them extra consulting work. || title:"What Changed"; E22@0.5,0.6:0.76
+And the law for retirement plans changed too, so employers can't push workers as hard into one company's stock. || title:"What Changed"; D25@0.62,0.4:0.32~drop; E22@0.85,0.4:0.32~pop; H19@0.62,0.76:0.32~pop; A21@0.2,0.6:0.58~l
+Ray's story also shows why the people inside matter. || title:"What Changed"; C11@0.80,0.6:0.58~r; C09@0.60,0.64:0.46~l
+Sherron Watkins, the reporter Bethany McLean, and a few doubting analysts saw the truth before the experts did. || title:"What Changed"; C11@0.80,0.6:0.58~r; C09@0.60,0.64:0.46~l; E16@0.38,0.4:0.32~pop; E17@0.15,0.4:0.32~drop
+So what can you learn from Ray's story? || title:"What Changed"; E44@0.5,0.6:0.76
+Here are three warning signs that apply to any company, then and now. || title:"What Changed"; H16@0.5,0.6:0.76:"3 WARNING SIGNS"
+First, if nobody can explain simply how a company makes money, be careful. || title:"What Changed"; A38@0.2,0.6:0.58~l
+Complexity can hide problems. || title:"What Changed"; A38@0.2,0.6:0.58~l; E48@0.62,0.4:0.32~pop
+Second, watch the cash, not just the profits. || title:"What Changed"; A38@0.2,0.6:0.58~none
+Real businesses bring in real cash. || title:"What Changed"; A38@0.80,0.6:0.58; E01@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32
+Enron's reported profits kept rising while its cash didn't. || title:"What Changed"; A38@0.80,0.6:0.58; E01@0.38,0.4:0.32~drop; D13@0.15,0.4:0.32; E54@0.38,0.76:0.32~pop
+Third, never keep most of your savings in the company you work for. || title:"What Changed"; doc:s22.png@0.44,0.54 w=0.72 h=0.76 src="Source: Investor.gov, U.S. SEC" hl=0.2,0.284,0.365,0.709+0.8; H04@0.9,1.0:0.3:bottom
+If it fails, you can lose your paycheck and your savings at the same time. || title:"What Changed"; H19@0.5,0.6:0.76
+Here's the takeaway. || title:"What Changed"; A17@0.2,0.6:0.58~l
+A great story is not the same as a great business. || title:"What Changed"; A17@0.2,0.6:0.58~l; H22@0.62,0.4:0.32~pop
+Enron sold a story so well that even experts believed it. || title:"What Changed"; A17@0.2,0.6:0.58~l; H22@0.62,0.4:0.32~pop; E34@0.85,0.4:0.32~drop
+The numbers were the story's costume. || title:"What Changed"; A17@0.2,0.6:0.58~l; H22@0.62,0.4:0.32~pop; E34@0.85,0.4:0.32~drop; H15@0.62,0.76:0.32:"COSTUME"~pop
+Ray went back to work at sixty, for a smaller gas company, fixing pipes again. || title:"What Changed"; H09@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop
+He never bought a single share of his employer's stock after that. || title:"What Changed"; H09@0.80,0.6:0.58~r; E33@0.38,0.4:0.32~pop; D17@0.15,0.4:0.32~drop; A48@0.60,0.64:0.46~pop
+[calm] Enron hid its debts in secret rooms. || title:"What Changed"; D18@0.5,0.6:0.76
+Next time, we'll look at a business that hides its profits in plain sight, inside your wallet. || title:"What Changed"; E02@0.5,0.6:0.76
+How credit card companies make money off you. || title:"What Changed"; D18@0.62,0.4:0.32~drop; E06@0.85,0.4:0.32~pop; E02@0.62,0.76:0.32~pop; A23@0.2,0.6:0.58~l
+
+|| endscreen; hold:10
