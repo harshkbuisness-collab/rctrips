@@ -113,3 +113,24 @@ Confirm the music choice first.
 **Branch note:** all the work is on `claude/youthful-heisenberg-56hlbz`. `main` only holds the "Initialize repository" commit, and no PR has been opened.
 
 **User style:** reply in simple, short Hinglish. Ask before any big or long job. Say it in one line when the user can do something themselves.
+
+## Starting a new chat (copy-paste prompt)
+
+Nothing changed after the "Latest status" section above. A session on 2026-11-13 re-checked the state and still waits on the user for the two items below.
+
+Paste this into a new chat:
+
+```
+Repo: https://github.com/harshkbuisness-collab/rctrips
+Branch: claude/youthful-heisenberg-56hlbz (sirf isi pe kaam karo, PR mat kholna jab tak na bolun)
+Pehle ye branch checkout karo, HANDOFF.md poora padho (khaaskar "Latest status" section) aur handoff/v3-kit/ folder dekho.
+Phir wahin se continue karo. Sample script scripts-v3/value-01-faceless-page-ideas.txt pe mera approval aur voice recording pending hai.
+Mujhse simple Hinglish mein, short baat karna.
+```
+
+**Open items, in order:**
+1. The user approves or edits `scripts-v3/value-01-faceless-page-ideas.txt`.
+2. The user sends one wav/mp3 recording of that script.
+3. Pick a copyright-free background track. You can do this before the recording arrives, if the user agrees.
+4. Make the word timing (faster-whisper aligned to the script), render the sample in the v3 style, add the overlays and mix the music.
+5. After the user approves the sample, write the other 29 scripts, then make all 30 videos and deliver them in one zip.
