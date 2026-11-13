@@ -90,3 +90,26 @@ Make **all 30 videos in the v3 style**:
 - Delivered as **one zip**.
 
 Confirm the music choice first.
+
+## Latest status (Nov 2026), read this first in a new chat
+
+**Decisions the user made for the 30 videos:**
+- Music: **free / copyright-free** background music (find a free track; nothing is chosen yet). Mix it low with `handoff/v3-kit/mix-music.sh`.
+- Language: **Hinglish**.
+- Voice: **the user records their own voice** (the "superhero" style from v3) for each script. You write the scripts, the user sends one wav/mp3 per script, and you make the word timing yourself with faster-whisper aligned to the script text, as was done for v3. No SRT is needed.
+
+**Workflow agreed:**
+1. Write 1 sample script, the user records it, you make the video in the v3 style, and the user approves.
+2. Only then write the other 29 scripts. The user records them, you make all 30, and you deliver them in **one zip**.
+
+**Where it stopped:** the sample script is written and pushed: `scripts-v3/value-01-faceless-page-ideas.txt` (value video 1, "5 faceless page ideas", about 70–75 s). Flow: hook → pain (a "Rohan" story) → curiosity → 5 ideas → demo → CTA "comment karo TOOL". **Waiting on the user** to approve the script and send the voice recording.
+- Planned visuals for the sample: Pexels stock photos per line (Pexels is connected through the proxy at api.pexels.com), a phone-frame "video inside video" on "Ye video bhi aise hi bani hai", and the 3×3 reel grid on "tees reels ready".
+
+**The 30 topics** (from the 30-day plan; the file names in `sell-videos/` and `value-videos/` keep them). There is a sell video every third day.
+- Sell (10): I made this reel… · Posting every day is… · Still spending three hours… · You want to grow… · One month of content… · This is the same… · No camera, no editing… · Selling an app or… · Most tools charge you… · Last call, only a…
+- Value (20): Five faceless page ideas · How to write a (hook) · Three mistakes killing your reels · What is the best (time to post) · The caption formula · Why do your reels (not get views) · Five free AI tools · How to post every day · Three hook types · How to find viral (ideas) · Five niches that make money · How to get your (first followers) · Seven seconds or thirty · How to turn one (idea into many) · Three call-to-action types · What to post when (stuck) · Why consistency beats talent · How to make money (from a page) · How to write a (script) · Three reasons people unfollow
+  (The words in brackets are guesses from the truncated file names; check the old videos if you need the exact topic.)
+
+**Branch note:** all the work is on `claude/youthful-heisenberg-56hlbz`. `main` only holds the "Initialize repository" commit, and no PR has been opened.
+
+**User style:** reply in simple, short Hinglish. Ask before any big or long job. Say it in one line when the user can do something themselves.
