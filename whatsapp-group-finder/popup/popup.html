@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>WhatsApp Group Finder</h1>
+  <label>Searches (one per line)</label>
+  <textarea id="queries" rows="7" placeholder='site:linkedin.com/posts "chat.whatsapp.com" founders&#10;site:linkedin.com/posts "chat.whatsapp.com" freelancers'></textarea>
+  <div class="row">
+    <label>Delay (sec) <input id="delay" type="number" min="3" value="8"></label>
+    <label>Google <select id="domain"><option>www.google.com</option><option>www.google.co.in</option></select></label>
+  </div>
+  <label class="check"><input id="keep" type="checkbox" checked> Keep previous results</label>
+  <div class="row">
+    <button id="start">Start</button>
+    <button id="stop" class="ghost">Pause</button>
+    <button id="resume" class="ghost">Resume</button>
+  </div>
+  <div id="status"></div>
+  <div class="row">
+    <button id="copy" class="ghost">Copy links</button>
+    <button id="csv" class="ghost">Download CSV</button>
+    <button id="clear" class="ghost danger">Clear</button>
+  </div>
+  <div id="list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
